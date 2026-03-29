@@ -37,15 +37,12 @@ function renderNav() {
                 Waythrough Project
             </a>
             <ul class="nav-links">
-                <li><a href="${root}index.html#about">About</a></li>
-                <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
                 <li><a href="${root}resources/index.html">Resources</a></li>
                 <li><a href="${root}blog/index.html">Blog</a></li>
+                <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
                 <li><a href="${root}videos/index.html">Videos</a></li>
+                <li><a href="${root}index.html#about">About</a></li>
             </ul>
-            <div class="nav-cta">
-                <a href="${root}resources/index.html" class="btn btn-primary btn-sm">Get Help Now</a>
-            </div>
             <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
             </button>
@@ -59,12 +56,11 @@ function renderNav() {
     mobile.id = 'mobileNav';
     mobile.innerHTML = `
         <ul>
-            <li><a href="${root}index.html#about">About</a></li>
-            <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
             <li><a href="${root}resources/index.html">Resources</a></li>
             <li><a href="${root}blog/index.html">Blog</a></li>
+            <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
             <li><a href="${root}videos/index.html">Videos</a></li>
-            <li><a href="${root}resources/index.html">Get Help Now</a></li>
+            <li><a href="${root}index.html#about">About</a></li>
         </ul>
     `;
     nav.after(mobile);
@@ -88,7 +84,7 @@ function renderFooter() {
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h3>Waythrough Project</h3>
-                    <p>Helping you overcome the barriers to affordable housing. Built on real experience in HUD-VASH and Section 8 programs.</p>
+                    <p>A free resource hub for navigating affordable housing programs. Built on real experience in HUD-VASH and Section 8.</p>
                     <div class="footer-social">
                         <a href="#" aria-label="YouTube">${ICONS.youtube}</a>
                         <a href="#" aria-label="Instagram">${ICONS.instagram}</a>
