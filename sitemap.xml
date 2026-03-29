@@ -219,6 +219,68 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- New Topic Pages -->
+  <url>
+    <loc>https://waythroughproject.com/resources/eviction-prevention.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/lgbtq-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/youth-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/immigration-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/credit-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- New Guide Pages -->
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-avoid-eviction.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/understanding-your-lease.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-recover-security-deposit.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rental-assistance.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/rebuilding-credit-for-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Blog Posts -->
   <url>
     <loc>https://waythroughproject.com/blog/posts/section-8-explained.html</loc>

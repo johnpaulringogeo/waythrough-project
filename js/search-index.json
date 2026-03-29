@@ -214,5 +214,65 @@
     "desc": "Our commitment to making this site accessible to everyone.",
     "url": "resources/accessibility.html",
     "keywords": "accessibility wcag screen reader keyboard disability accessible"
+  },
+  {
+    "title": "Eviction Prevention & Defense",
+    "desc": "Warning signs, emergency rental assistance, legal aid, and how to fight an eviction.",
+    "url": "resources/eviction-prevention.html",
+    "keywords": "eviction prevention defense notice court legal aid emergency rental assistance ERA landlord"
+  },
+  {
+    "title": "LGBTQ+ Housing Rights & Resources",
+    "desc": "Fair housing protections, affirming housing, shelter access, and discrimination resources.",
+    "url": "resources/lgbtq-housing.html",
+    "keywords": "lgbtq gay lesbian transgender queer housing rights discrimination fair housing shelter affirming"
+  },
+  {
+    "title": "Youth & Young Adult Housing (18–25)",
+    "desc": "Foster care aging out, transitional living, Job Corps, and first apartment tips.",
+    "url": "resources/youth-housing.html",
+    "keywords": "youth young adult foster care aging out chafee transitional living runaway homeless 18 25"
+  },
+  {
+    "title": "Immigration Status & Housing",
+    "desc": "Housing programs available regardless of status, mixed-status families, and your rights.",
+    "url": "resources/immigration-housing.html",
+    "keywords": "immigration status undocumented immigrant housing rights mixed-status public charge eligibility"
+  },
+  {
+    "title": "Credit & Housing",
+    "desc": "How credit affects housing, free credit reports, disputing errors, and rebuilding credit.",
+    "url": "resources/credit-housing.html",
+    "keywords": "credit score housing application landlord report dispute rebuild no credit bad credit"
+  },
+  {
+    "title": "How to Avoid Eviction",
+    "desc": "Step-by-step guide to preventing eviction — from first warning signs through court.",
+    "url": "resources/guides/how-to-avoid-eviction.html",
+    "keywords": "eviction avoid prevent stop notice court defense legal aid emergency rent assistance"
+  },
+  {
+    "title": "Understanding Your Lease",
+    "desc": "Key lease terms, red flags, security deposits, and your rights as a renter.",
+    "url": "resources/guides/understanding-your-lease.html",
+    "keywords": "lease rental agreement terms security deposit break termination subletting renewal red flags"
+  },
+  {
+    "title": "How to Recover Your Security Deposit",
+    "desc": "Documentation, demand letters, timelines, and small claims court for getting your deposit back.",
+    "url": "resources/guides/how-to-recover-security-deposit.html",
+    "keywords": "security deposit recover get back demand letter small claims court move out damage deduction"
+  },
+  {
+    "title": "Emergency Rental Assistance Programs",
+    "desc": "How to find and apply for ERA to cover back rent, utilities, and future rent.",
+    "url": "resources/guides/emergency-rental-assistance.html",
+    "keywords": "emergency rental assistance ERA back rent utilities behind eviction prevention program apply"
+  },
+  {
+    "title": "Rebuilding Credit for Housing",
+    "desc": "Free credit reports, disputing errors, building credit, and what landlords look for.",
+    "url": "resources/guides/rebuilding-credit-for-housing.html",
+    "keywords": "rebuild credit housing score report dispute error secured card authorized user rent reporting"
   }
 ]
