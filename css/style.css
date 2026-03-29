@@ -397,6 +397,34 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     line-height: 1.5;
 }
 
+/* ===== QUICK LINKS (homepage) ===== */
+.quick-links-section {
+    padding: 0 0 48px;
+    background: var(--color-bg-soft);
+}
+.quick-links-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.quick-link {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    border: 1.5px solid var(--color-primary);
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+.quick-link:hover {
+    background: var(--color-primary);
+    color: #fff;
+}
+
 /* ===== BLOG SECTION (homepage) ===== */
 .blog-section {
     padding: 64px 0;
