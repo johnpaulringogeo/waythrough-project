@@ -194,8 +194,10 @@ function renderNav() {
             </a>
             <ul class="nav-links">
                 <li><a href="${root}resources/index.html">Resources</a></li>
+                <li><a href="${root}resources/where-to-start.html">Where to Start</a></li>
                 <li><a href="${root}blog/index.html">Blog</a></li>
                 <li><a href="${root}videos/index.html">Videos</a></li>
+                <li><a href="${root}resources/ask.html">Ask a Question</a></li>
                 <li><a href="${root}index.html#about">About</a></li>
             </ul>
             <div class="nav-actions">
@@ -239,8 +241,10 @@ function renderNav() {
     mobile.innerHTML = `
         <ul>
             <li><a href="${root}resources/index.html">Resources</a></li>
+            <li><a href="${root}resources/where-to-start.html">Where to Start</a></li>
             <li><a href="${root}blog/index.html">Blog</a></li>
             <li><a href="${root}videos/index.html">Videos</a></li>
+            <li><a href="${root}resources/ask.html">Ask a Question</a></li>
             <li><a href="${root}index.html#about">About</a></li>
         </ul>
     `;
