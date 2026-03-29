@@ -253,11 +253,11 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     line-height: 1.8;
 }
 
-/* ===== PATH CARDS (who-we-help on homepage) ===== */
-.paths {
-    padding: 40px 0 72px;
+/* ===== TOPIC CARDS (homepage explore by topic) ===== */
+.topics {
+    padding: 24px 0 56px;
 }
-.paths-heading {
+.topics-heading {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     font-weight: 600;
@@ -266,45 +266,80 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     margin-bottom: 28px;
     letter-spacing: 0.01em;
 }
-.paths-grid {
+.topics-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
 }
-.path-card {
+.topic-card {
     background: var(--color-bg-warm);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
-    padding: 28px 22px;
-    text-align: center;
+    padding: 24px 20px;
     transition: border-color 0.2s;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
-.path-card:hover {
+.topic-card:hover {
     border-color: var(--color-primary);
 }
-.path-icon {
-    width: 52px;
-    height: 52px;
-    margin: 0 auto 16px;
+.topic-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 14px;
     background: var(--color-primary-light);
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.path-icon svg { width: 26px; height: 26px; color: var(--color-primary); }
-.path-card h3 {
+.topic-icon svg { width: 22px; height: 22px; color: var(--color-primary); }
+.topic-card h3 {
     font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: var(--color-text);
 }
-.path-card p {
+.topic-card p {
     font-size: 0.82rem;
     color: var(--color-text-light);
-    line-height: 1.6;
+    line-height: 1.55;
+}
+
+/* ===== SPECIFIC SITUATIONS (compact row) ===== */
+.situations {
+    padding: 0 0 64px;
+    text-align: center;
+}
+.situations-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    margin-bottom: 16px;
+}
+.situations-row {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.situation-link {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-primary);
+    background: var(--color-primary-light);
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+.situation-link:hover {
+    background: var(--color-primary);
+    color: #fff;
 }
 
 /* ===== GUIDES SECTION (homepage) ===== */
@@ -738,7 +773,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
-    .paths-grid { grid-template-columns: repeat(2, 1fr); }
+    .topics-grid { grid-template-columns: repeat(2, 1fr); }
     .guides-grid { grid-template-columns: repeat(2, 1fr); }
     .pop-grid { grid-template-columns: repeat(2, 1fr); }
     .resource-grid { grid-template-columns: repeat(2, 1fr); }
@@ -749,7 +784,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     .nav-links, .nav-cta { display: none; }
     .hamburger { display: flex; }
     .welcome { padding: 100px 0 36px; }
-    .paths-grid { grid-template-columns: 1fr 1fr; }
+    .topics-grid { grid-template-columns: 1fr 1fr; }
     .guides-grid { grid-template-columns: 1fr; }
     .pop-grid { grid-template-columns: 1fr; }
     .resource-grid { grid-template-columns: 1fr; }
@@ -761,5 +796,6 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
 }
 @media (max-width: 480px) {
-    .paths-grid { grid-template-columns: 1fr; }
+    .topics-grid { grid-template-columns: 1fr; }
+    .situations-row { flex-direction: column; align-items: center; }
 }

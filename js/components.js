@@ -39,7 +39,6 @@ function renderNav() {
             <ul class="nav-links">
                 <li><a href="${root}resources/index.html">Resources</a></li>
                 <li><a href="${root}blog/index.html">Blog</a></li>
-                <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
                 <li><a href="${root}videos/index.html">Videos</a></li>
                 <li><a href="${root}index.html#about">About</a></li>
             </ul>
@@ -58,7 +57,6 @@ function renderNav() {
         <ul>
             <li><a href="${root}resources/index.html">Resources</a></li>
             <li><a href="${root}blog/index.html">Blog</a></li>
-            <li><a href="${root}index.html#who-we-help">Who We Help</a></li>
             <li><a href="${root}videos/index.html">Videos</a></li>
             <li><a href="${root}index.html#about">About</a></li>
         </ul>
@@ -84,7 +82,7 @@ function renderFooter() {
             <div class="footer-grid">
                 <div class="footer-brand">
                     <h3>Waythrough Project</h3>
-                    <p>A free resource hub for navigating affordable housing programs. Built on real experience in HUD-VASH and Section 8.</p>
+                    <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
                     <div class="footer-social">
                         <a href="#" aria-label="YouTube">${ICONS.youtube}</a>
                         <a href="#" aria-label="Instagram">${ICONS.instagram}</a>
@@ -94,21 +92,22 @@ function renderFooter() {
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h4>Resources</h4>
+                    <h4>Topics</h4>
                     <ul>
-                        <li><a href="${root}resources/index.html">Section 8 Guide</a></li>
-                        <li><a href="${root}resources/index.html">HUD-VASH Guide</a></li>
-                        <li><a href="${root}resources/index.html">Tenant Rights</a></li>
-                        <li><a href="${root}resources/index.html">Document Checklist</a></li>
+                        <li><a href="${root}resources/index.html">Housing Programs</a></li>
+                        <li><a href="${root}resources/benefits.html">Benefits & Support</a></li>
+                        <li><a href="${root}resources/employment.html">Employment</a></li>
+                        <li><a href="${root}resources/mental-health.html">Mental Health</a></li>
+                        <li><a href="${root}resources/substance-use.html">Substance Use</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Who We Help</h4>
+                    <h4>Guides</h4>
                     <ul>
-                        <li><a href="${root}who-we-help/veterans.html">Veterans</a></li>
-                        <li><a href="${root}who-we-help/disabilities.html">People with Disabilities</a></li>
-                        <li><a href="${root}who-we-help/seniors.html">Seniors</a></li>
-                        <li><a href="${root}who-we-help/dv-survivors.html">DV Survivors</a></li>
+                        <li><a href="${root}resources/guides/how-to-apply-section-8.html">Apply for Section 8</a></li>
+                        <li><a href="${root}resources/guides/how-to-apply-hud-vash.html">Apply for HUD-VASH</a></li>
+                        <li><a href="${root}resources/guides/document-checklist.html">Document Checklist</a></li>
+                        <li><a href="${root}resources/guides/how-to-request-reasonable-accommodation.html">Reasonable Accommodation</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">

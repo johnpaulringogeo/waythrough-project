@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resource Library — Waythrough Project</title>
-    <meta name="description" content="Browse our complete library of guides, checklists, and resources to help you navigate the path to affordable housing.">
+    <meta name="description" content="Browse our complete library of guides, checklists, and resources to help you navigate affordable housing and the barriers that stand in the way.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css?v=2">
-    <script src="../js/components.js?v=2" defer></script>
+    <link rel="stylesheet" href="../css/style.css?v=3">
+    <script src="../js/components.js?v=3" defer></script>
 </head>
 <body>
     <main>
@@ -18,97 +18,137 @@
             <div class="container">
                 <span class="section-label">Resource Library</span>
                 <h1 class="section-title">Everything You Need, In One Place</h1>
-                <p class="section-subtitle">We've broken down affordable housing into actionable, easy-to-follow steps. Find the guides and resources that match your situation.</p>
+                <p class="section-subtitle">Affordable housing touches everything — income, health, employment, legal rights. We've organized resources by topic so you can find what's relevant to your situation.</p>
             </div>
         </section>
 
-        <!-- Main Resource Grid -->
+        <!-- Browse by Topic -->
         <section class="container fade-in" style="padding: 60px 24px;">
+            <h2 class="section-title" style="margin-bottom: 32px;">Browse by Topic</h2>
             <div class="resource-grid">
-                <!-- Card 1: How to Apply for Section 8 -->
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-guide">Topic</span>
+                    <h3>Housing Programs</h3>
+                    <p>Section 8, HUD-VASH, LIHTC, public housing, and other programs that make housing affordable. Guides for applying, understanding eligibility, and navigating waiting lists.</p>
+                    <a href="guides/how-to-apply-section-8.html" class="resource-link">Explore Housing Programs <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-program">Topic</span>
+                    <h3>Benefits & Financial Support</h3>
+                    <p>SSI, SSDI, SNAP, Medicaid, LIHEAP, and TANF — understanding what you qualify for, how to apply, and how benefits work together with housing assistance.</p>
+                    <a href="benefits.html" class="resource-link">Explore Benefits <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-program">Topic</span>
+                    <h3>Employment & Job Training</h3>
+                    <p>Job centers, training programs, the Family Self-Sufficiency program, and how earning income works with housing subsidies.</p>
+                    <a href="employment.html" class="resource-link">Explore Employment <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-checklist">Topic</span>
+                    <h3>Mental Health & Housing</h3>
+                    <p>Treatment resources, crisis support, housing protections for people with mental health conditions, and programs designed to help.</p>
+                    <a href="mental-health.html" class="resource-link">Explore Mental Health <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-checklist">Topic</span>
+                    <h3>Substance Use & Recovery</h3>
+                    <p>Recovery housing options, legal protections for people in recovery, treatment resources, and how to find housing that supports your sobriety.</p>
+                    <a href="substance-use.html" class="resource-link">Explore Recovery Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+
+                <div class="resource-card">
+                    <span class="resource-card-tag tag-rights">Topic</span>
+                    <h3>Know Your Rights</h3>
+                    <p>Fair housing laws, discrimination complaints, reasonable accommodations, source of income protections, and tenant rights.</p>
+                    <a href="guides/how-to-file-housing-discrimination-complaint.html" class="resource-link">Explore Your Rights <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step-by-Step Guides -->
+        <section class="container fade-in" style="padding: 60px 24px; border-top: 1px solid var(--color-border);">
+            <h2 class="section-title" style="margin-bottom: 32px;">Step-by-Step Guides</h2>
+            <div class="resource-grid">
                 <div class="resource-card">
                     <span class="resource-card-tag tag-guide">Guide</span>
-                    <h3>How to Apply for Section 8 (Step by Step)</h3>
-                    <p>A complete walkthrough of the Section 8 application process — from finding open waiting lists and gathering documents to attending your eligibility interview and finding housing.</p>
+                    <h3>How to Apply for Section 8</h3>
+                    <p>A complete walkthrough from finding open waiting lists to attending your eligibility interview and securing your voucher.</p>
                     <a href="guides/how-to-apply-section-8.html" class="resource-link">Read the Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Card 2: How to Apply for HUD-VASH -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-program">Program</span>
+                    <span class="resource-card-tag tag-guide">Guide</span>
                     <h3>How to Apply for HUD-VASH</h3>
-                    <p>The step-by-step process for veterans to access HUD-VASH — from contacting your VA Medical Center to receiving your voucher and finding housing with case manager support.</p>
-                    <a href="guides/how-to-apply-hud-vash.html" class="resource-link">Learn More <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <p>The step-by-step process for veterans to access HUD-VASH — from contacting your VA Medical Center to finding housing.</p>
+                    <a href="guides/how-to-apply-hud-vash.html" class="resource-link">Read the Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Card 3: Document Checklist -->
                 <div class="resource-card">
                     <span class="resource-card-tag tag-checklist">Checklist</span>
-                    <h3>Your Housing Application Document Checklist</h3>
-                    <p>Don't get rejected because of missing paperwork. This comprehensive checklist covers every document you might need for Section 8, HUD-VASH, public housing, and other programs.</p>
+                    <h3>Document Checklist</h3>
+                    <p>Every document you might need for Section 8, HUD-VASH, public housing, and other programs. Don't get rejected for missing paperwork.</p>
                     <a href="guides/document-checklist.html" class="resource-link">View Checklist <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Card 4: How to Request a Reasonable Accommodation -->
                 <div class="resource-card">
                     <span class="resource-card-tag tag-rights">Rights</span>
-                    <h3>How to Request a Reasonable Accommodation</h3>
-                    <p>If you have a disability and need a change to your housing rules or physical space, you have the right to request an accommodation. Here's how to do it and what to do if you're denied.</p>
+                    <h3>Request a Reasonable Accommodation</h3>
+                    <p>Your right to changes in housing rules or physical space due to a disability, and how to exercise it.</p>
                     <a href="guides/how-to-request-reasonable-accommodation.html" class="resource-link">Know Your Rights <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Card 5: How to File a Housing Discrimination Complaint -->
                 <div class="resource-card">
                     <span class="resource-card-tag tag-rights">Rights</span>
-                    <h3>How to File a Housing Discrimination Complaint</h3>
-                    <p>Been treated unfairly because of your race, disability, family status, or voucher? Here's how to document discrimination and file a complaint with HUD or your local agency.</p>
+                    <h3>File a Housing Discrimination Complaint</h3>
+                    <p>How to document discrimination and file a complaint with HUD or your local fair housing agency.</p>
                     <a href="guides/how-to-file-housing-discrimination-complaint.html" class="resource-link">File a Complaint <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Card 6: Beyond Section 8 -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-program">Program</span>
-                    <h3>Beyond Section 8: Other Programs You Should Know</h3>
-                    <p>Section 8 isn't your only option. Learn about HUD-VASH, Section 811, SSVF, Section 202, LIHTC, and other programs that could be a better or faster fit for your situation.</p>
+                    <span class="resource-card-tag tag-program">Programs</span>
+                    <h3>5 Programs Beyond Section 8</h3>
+                    <p>HUD-VASH, Section 811, SSVF, Section 202, LIHTC — programs that could be a better or faster fit.</p>
                     <a href="../blog/posts/five-programs-you-dont-know.html" class="resource-link">Explore Programs <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
             </div>
         </section>
 
-        <!-- Guides for Specific Populations -->
+        <!-- By Situation -->
         <section class="container fade-in" style="padding: 60px 24px; border-top: 1px solid var(--color-border);">
-            <h2 class="section-title" style="margin-bottom: 40px;">Guides for Specific Populations</h2>
+            <h2 class="section-title" style="margin-bottom: 12px;">Resources by Situation</h2>
+            <p class="section-subtitle" style="margin-bottom: 32px;">Some programs and protections are designed for specific groups. If one of these applies to you, start here.</p>
             <div class="resource-grid">
-                <!-- Veterans -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-guide">Guide</span>
-                    <h3>For Veterans</h3>
-                    <p>Housing solutions specifically designed for veterans, including HUD-VASH, military family benefits, and veteran-focused affordable housing programs.</p>
-                    <a href="../who-we-help/veterans.html" class="resource-link">View Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <span class="resource-card-tag tag-guide">Situation</span>
+                    <h3>Veterans</h3>
+                    <p>HUD-VASH vouchers, SSVF rapid rehousing, GPD transitional housing, and VA supportive services.</p>
+                    <a href="../who-we-help/veterans.html" class="resource-link">View Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- People with Disabilities -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-guide">Guide</span>
-                    <h3>For People with Disabilities</h3>
-                    <p>Accessible housing resources, disability-specific programs, and accommodations information to help you find safe, accessible housing.</p>
-                    <a href="../who-we-help/disabilities.html" class="resource-link">View Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <span class="resource-card-tag tag-guide">Situation</span>
+                    <h3>People with Disabilities</h3>
+                    <p>Section 811, reasonable accommodations, accessible housing, and disability rights protections.</p>
+                    <a href="../who-we-help/disabilities.html" class="resource-link">View Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- Seniors -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-guide">Guide</span>
-                    <h3>For Seniors</h3>
-                    <p>Housing programs tailored for older adults, senior-focused communities, and resources for aging in place affordably.</p>
-                    <a href="../who-we-help/seniors.html" class="resource-link">View Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <span class="resource-card-tag tag-guide">Situation</span>
+                    <h3>Seniors</h3>
+                    <p>Section 202 housing, aging-in-place support, Area Agencies on Aging, and property tax relief.</p>
+                    <a href="../who-we-help/seniors.html" class="resource-link">View Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
 
-                <!-- DV Survivors -->
                 <div class="resource-card">
-                    <span class="resource-card-tag tag-guide">Guide</span>
-                    <h3>For Survivors of Domestic Violence</h3>
-                    <p>VAWA protections, emergency housing assistance, and confidential resources designed to keep survivors safe while securing stable housing.</p>
-                    <a href="../who-we-help/dv-survivors.html" class="resource-link">View Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <span class="resource-card-tag tag-guide">Situation</span>
+                    <h3>Survivors of Domestic Violence</h3>
+                    <p>VAWA protections, emergency transfers, lease bifurcation, FUP vouchers, and confidential housing.</p>
+                    <a href="../who-we-help/dv-survivors.html" class="resource-link">View Resources <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                 </div>
             </div>
         </section>
