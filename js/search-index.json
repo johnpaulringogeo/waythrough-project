@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Housing Programs",
+    "desc": "Section 8, HUD-VASH, LIHTC, and other programs that make housing affordable.",
+    "url": "resources/index.html",
+    "keywords": "section 8 housing programs voucher hud-vash lihtc public housing affordable hcv"
+  },
+  {
+    "title": "How to Apply for Section 8",
+    "desc": "A complete walkthrough from finding open waiting lists to securing your voucher.",
+    "url": "resources/guides/how-to-apply-section-8.html",
+    "keywords": "section 8 apply application waiting list voucher hcv housing choice eligibility income"
+  },
+  {
+    "title": "How to Apply for HUD-VASH",
+    "desc": "The process for veterans to access HUD-VASH through your VA Medical Center.",
+    "url": "resources/guides/how-to-apply-hud-vash.html",
+    "keywords": "hud-vash veterans va vash apply housing voucher military"
+  },
+  {
+    "title": "Find Your Local PHA",
+    "desc": "How to find and contact your Public Housing Authority and what to ask.",
+    "url": "resources/guides/how-to-find-your-pha.html",
+    "keywords": "pha public housing authority find contact local office waiting list"
+  },
+  {
+    "title": "Find LIHTC (Tax Credit) Apartments",
+    "desc": "Affordable apartments that don't require a voucher.",
+    "url": "resources/guides/how-to-find-lihtc-housing.html",
+    "keywords": "lihtc tax credit apartments affordable no voucher income-restricted low income housing"
+  },
+  {
+    "title": "Document Checklist",
+    "desc": "Every document you need for housing applications.",
+    "url": "resources/guides/document-checklist.html",
+    "keywords": "documents checklist paperwork id application proof income birth certificate social security"
+  },
+  {
+    "title": "Appeal a Housing Denial",
+    "desc": "Your right to a hearing and how to prepare your case.",
+    "url": "resources/guides/how-to-appeal-housing-denial.html",
+    "keywords": "denied denial appeal hearing rejected criminal background disqualified"
+  },
+  {
+    "title": "Transfer Your Voucher (Portability)",
+    "desc": "How to move your Housing Choice Voucher to a different area.",
+    "url": "resources/guides/how-to-transfer-voucher.html",
+    "keywords": "transfer voucher portability move relocate different city state area pha"
+  },
+  {
+    "title": "Annual Recertification Guide",
+    "desc": "What to expect, what to bring, and how to keep your voucher.",
+    "url": "resources/guides/how-to-handle-recertification.html",
+    "keywords": "recertification annual review income verification documents renewal voucher keep"
+  },
+  {
+    "title": "Request a Reasonable Accommodation",
+    "desc": "Your right to changes in housing rules or physical space due to a disability.",
+    "url": "resources/guides/how-to-request-reasonable-accommodation.html",
+    "keywords": "reasonable accommodation disability modification request ada fair housing accessibility"
+  },
+  {
+    "title": "File a Discrimination Complaint",
+    "desc": "How to document discrimination and file with HUD or your local agency.",
+    "url": "resources/guides/how-to-file-housing-discrimination-complaint.html",
+    "keywords": "discrimination complaint hud fair housing race disability family landlord refused"
+  },
+  {
+    "title": "Family Self-Sufficiency Program",
+    "desc": "Build savings while on Section 8 through the FSS escrow program.",
+    "url": "resources/guides/family-self-sufficiency.html",
+    "keywords": "fss family self-sufficiency escrow savings section 8 income increase program"
+  },
+  {
+    "title": "How to Apply for SSI or SSDI",
+    "desc": "Disability benefits — who qualifies, how to apply, and what to do if denied.",
+    "url": "resources/guides/how-to-apply-ssi-ssdi.html",
+    "keywords": "ssi ssdi disability benefits social security apply application denied appeal income"
+  },
+  {
+    "title": "Find Recovery Housing",
+    "desc": "Types of recovery housing, how to find quality programs, and your protections.",
+    "url": "resources/guides/how-to-find-recovery-housing.html",
+    "keywords": "recovery housing sober living oxford house narr substance abuse addiction treatment"
+  },
+  {
+    "title": "Source of Income Protections",
+    "desc": "Which states make it illegal for landlords to reject you for using a voucher.",
+    "url": "resources/guides/source-of-income-protections.html",
+    "keywords": "source of income discrimination voucher rejected landlord state law protection illegal"
+  },
+  {
+    "title": "Criminal Records and Housing",
+    "desc": "What landlords can and can't hold against you, and how to present your case.",
+    "url": "resources/guides/criminal-records-and-housing.html",
+    "keywords": "criminal record background check felony arrest housing denied conviction ban the box"
+  },
+  {
+    "title": "Waiting List Strategies",
+    "desc": "How to apply to multiple PHAs, find open lists, and improve your chances.",
+    "url": "resources/guides/waiting-list-strategies.html",
+    "keywords": "waiting list wait open apply multiple pha preference points strategies tips"
+  },
+  {
+    "title": "Benefits & Financial Support",
+    "desc": "SSI, SSDI, SNAP, Medicaid, LIHEAP, and TANF — what you qualify for and how to apply.",
+    "url": "resources/benefits.html",
+    "keywords": "benefits ssi ssdi snap food stamps medicaid liheap tanf financial assistance income welfare"
+  },
+  {
+    "title": "Employment & Job Training",
+    "desc": "Job centers, training programs, and how earning income works with housing subsidies.",
+    "url": "resources/employment.html",
+    "keywords": "employment jobs job training work career wioa american job center earned income disregard"
+  },
+  {
+    "title": "Mental Health & Housing",
+    "desc": "Treatment resources, crisis support, and housing protections for mental health conditions.",
+    "url": "resources/mental-health.html",
+    "keywords": "mental health depression anxiety ptsd treatment therapy counseling 988 samhsa section 811 path"
+  },
+  {
+    "title": "Substance Use & Recovery",
+    "desc": "Recovery housing, legal protections in recovery, and treatment resources.",
+    "url": "resources/substance-use.html",
+    "keywords": "substance abuse addiction recovery sober drug alcohol treatment rehabilitation relapse fair housing"
+  },
+  {
+    "title": "Know Your Rights as a Tenant",
+    "desc": "Tenant protections, lease basics, eviction process, and what your landlord can't do.",
+    "url": "resources/tenant-rights.html",
+    "keywords": "tenant rights lease eviction landlord rent habitability repair security deposit legal aid"
+  },
+  {
+    "title": "Emergency & Crisis Housing",
+    "desc": "Emergency shelters, rapid rehousing, emergency vouchers, and crisis hotlines.",
+    "url": "resources/emergency-housing.html",
+    "keywords": "emergency shelter homeless crisis hotline 211 rapid rehousing ehv voucher urgent help now"
+  },
+  {
+    "title": "Families with Children",
+    "desc": "Family housing programs, education rights, and support services for parents.",
+    "url": "resources/families.html",
+    "keywords": "family children kids parents mckinney-vento school education fup voucher childcare wic"
+  },
+  {
+    "title": "Frequently Asked Questions",
+    "desc": "Answers to the most common questions about affordable housing.",
+    "url": "resources/faq.html",
+    "keywords": "faq questions answers common help how what when where who"
+  },
+  {
+    "title": "Housing Terms & Acronyms",
+    "desc": "A plain-language glossary of 50+ housing terms and acronyms.",
+    "url": "resources/glossary.html",
+    "keywords": "glossary terms definitions acronyms vocabulary jargon meaning what does mean"
+  },
+  {
+    "title": "Where to Start",
+    "desc": "Not sure where to begin? A guided walkthrough based on your situation.",
+    "url": "resources/where-to-start.html",
+    "keywords": "start begin new first time help guide where confused lost don't know"
+  },
+  {
+    "title": "Ask a Question",
+    "desc": "Submit your housing question and we may answer it in a future post.",
+    "url": "resources/ask.html",
+    "keywords": "ask question submit help contact email form"
+  },
+  {
+    "title": "Veterans Housing Resources",
+    "desc": "HUD-VASH, SSVF, GPD, and VA supportive services for veterans.",
+    "url": "who-we-help/veterans.html",
+    "keywords": "veterans military va hud-vash ssvf gpd transitional housing service"
+  },
+  {
+    "title": "Housing for People with Disabilities",
+    "desc": "Section 811, reasonable accommodations, accessible housing, and disability protections.",
+    "url": "who-we-help/disabilities.html",
+    "keywords": "disability disabilities accessible ada section 811 wheelchair ramp accommodation modification"
+  },
+  {
+    "title": "Housing for Seniors",
+    "desc": "Section 202, aging-in-place, Area Agencies on Aging, and property tax relief.",
+    "url": "who-we-help/seniors.html",
+    "keywords": "seniors elderly older adults aging section 202 senior housing retirement fixed income"
+  },
+  {
+    "title": "Housing for Survivors of Domestic Violence",
+    "desc": "VAWA protections, emergency transfers, and confidential housing resources.",
+    "url": "who-we-help/dv-survivors.html",
+    "keywords": "domestic violence dv abuse survivor vawa protection emergency transfer safety shelter"
+  },
+  {
+    "title": "Section 8 Explained",
+    "desc": "A clear breakdown of the Housing Choice Voucher program.",
+    "url": "blog/posts/section-8-explained.html",
+    "keywords": "section 8 explained how works voucher hcv housing choice rent pay eligibility"
+  },
+  {
+    "title": "What to Do When a Landlord Rejects Your Voucher",
+    "desc": "Your rights and strategies when landlords say no to Section 8.",
+    "url": "blog/posts/landlord-rejects-voucher.html",
+    "keywords": "landlord rejected voucher refused section 8 discrimination source income what do"
+  },
+  {
+    "title": "5 Programs Beyond Section 8",
+    "desc": "HUD-VASH, Section 811, SSVF, Section 202, LIHTC — alternatives to Section 8.",
+    "url": "blog/posts/five-programs-you-dont-know.html",
+    "keywords": "programs alternative section 8 hud-vash section 811 ssvf section 202 lihtc other options"
+  },
+  {
+    "title": "Accessibility",
+    "desc": "Our commitment to making this site accessible to everyone.",
+    "url": "resources/accessibility.html",
+    "keywords": "accessibility wcag screen reader keyboard disability accessible"
+  }
+]

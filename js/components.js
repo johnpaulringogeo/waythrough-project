@@ -34,6 +34,85 @@ function renderSkipLink() {
     document.body.prepend(skip);
 }
 
+// ── Search Icon SVG ──
+const SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
+const CLOSE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
+
+// ── Search state ──
+let searchIndex = null;
+let searchOpen = false;
+
+async function loadSearchIndex() {
+    if (searchIndex) return searchIndex;
+    try {
+        const res = await fetch(root + 'js/search-index.json');
+        searchIndex = await res.json();
+        return searchIndex;
+    } catch (e) {
+        console.warn('Search index failed to load', e);
+        return [];
+    }
+}
+
+function performSearch(query) {
+    if (!searchIndex || !query.trim()) return [];
+    const terms = query.toLowerCase().trim().split(/\s+/);
+    const scored = searchIndex.map(item => {
+        const haystack = (item.title + ' ' + item.desc + ' ' + item.keywords).toLowerCase();
+        let score = 0;
+        for (const term of terms) {
+            if (item.title.toLowerCase().includes(term)) score += 3;
+            if (item.keywords.toLowerCase().includes(term)) score += 2;
+            if (item.desc.toLowerCase().includes(term)) score += 1;
+        }
+        return { ...item, score };
+    }).filter(item => item.score > 0);
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, 6);
+}
+
+function openSearch() {
+    const overlay = document.getElementById('searchOverlay');
+    const input = document.getElementById('searchInput');
+    if (!overlay) return;
+    searchOpen = true;
+    overlay.classList.add('active');
+    overlay.setAttribute('aria-hidden', 'false');
+    input.focus();
+    loadSearchIndex();
+    document.addEventListener('keydown', handleSearchEsc);
+}
+
+function closeSearch() {
+    const overlay = document.getElementById('searchOverlay');
+    const input = document.getElementById('searchInput');
+    if (!overlay) return;
+    searchOpen = false;
+    overlay.classList.remove('active');
+    overlay.setAttribute('aria-hidden', 'true');
+    input.value = '';
+    document.getElementById('searchResults').innerHTML = '';
+    document.removeEventListener('keydown', handleSearchEsc);
+}
+
+function handleSearchEsc(e) {
+    if (e.key === 'Escape') closeSearch();
+}
+
+function renderSearchResults(results) {
+    const container = document.getElementById('searchResults');
+    if (!results.length) {
+        container.innerHTML = '<div class="search-no-results">No matching resources found. Try a different keyword.</div>';
+        return;
+    }
+    container.innerHTML = results.map(r => `
+        <a href="${root}${r.url}" class="search-result-item">
+            <div class="search-result-title">${r.title}</div>
+            <div class="search-result-desc">${r.desc}</div>
+        </a>
+    `).join('');
+}
+
 // ── Render Navigation ──
 function renderNav() {
     const nav = document.createElement('nav');
@@ -52,12 +131,37 @@ function renderNav() {
                 <li><a href="${root}videos/index.html">Videos</a></li>
                 <li><a href="${root}index.html#about">About</a></li>
             </ul>
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span><span></span><span></span>
-            </button>
+            <div class="nav-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Search resources" aria-expanded="false">
+                    ${SEARCH_ICON}
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
         </div>
     `;
+    // Search overlay
+    const searchOverlay = document.createElement('div');
+    searchOverlay.className = 'search-overlay';
+    searchOverlay.id = 'searchOverlay';
+    searchOverlay.setAttribute('aria-hidden', 'true');
+    searchOverlay.setAttribute('role', 'dialog');
+    searchOverlay.setAttribute('aria-label', 'Search resources');
+    searchOverlay.innerHTML = `
+        <div class="search-container">
+            <div class="search-input-wrap">
+                <span class="search-input-icon" aria-hidden="true">${SEARCH_ICON}</span>
+                <label for="searchInput" class="sr-only">Search resources</label>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search resources (e.g. Section 8, disability, voucher...)" autocomplete="off">
+                <button class="search-close" id="searchClose" aria-label="Close search">${CLOSE_ICON}</button>
+            </div>
+            <div class="search-results" id="searchResults" role="listbox" aria-label="Search results"></div>
+        </div>
+        <div class="search-backdrop" id="searchBackdrop"></div>
+    `;
     document.body.prepend(nav);
+    nav.after(searchOverlay);
 
     // Mobile nav
     const mobile = document.createElement('div');
@@ -72,7 +176,7 @@ function renderNav() {
             <li><a href="${root}index.html#about">About</a></li>
         </ul>
     `;
-    nav.after(mobile);
+    searchOverlay.after(mobile);
 
     // Hamburger toggle
     const hamburger = document.getElementById('hamburger');
@@ -88,6 +192,43 @@ function renderNav() {
             hamburger.setAttribute('aria-expanded', 'false');
             mobile.setAttribute('aria-hidden', 'true');
         });
+    });
+
+    // Search toggle
+    const searchToggle = document.getElementById('searchToggle');
+    const searchInput = document.getElementById('searchInput');
+    const searchClose = document.getElementById('searchClose');
+    const searchBackdrop = document.getElementById('searchBackdrop');
+
+    searchToggle.addEventListener('click', () => {
+        if (searchOpen) closeSearch();
+        else openSearch();
+    });
+    searchClose.addEventListener('click', closeSearch);
+    searchBackdrop.addEventListener('click', closeSearch);
+
+    let searchDebounce = null;
+    searchInput.addEventListener('input', () => {
+        clearTimeout(searchDebounce);
+        searchDebounce = setTimeout(async () => {
+            await loadSearchIndex();
+            const query = searchInput.value;
+            if (query.trim().length < 2) {
+                document.getElementById('searchResults').innerHTML = '';
+                return;
+            }
+            const results = performSearch(query);
+            renderSearchResults(results);
+        }, 200);
+    });
+
+    // Keyboard shortcut: Ctrl+K or Cmd+K to open search
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            if (searchOpen) closeSearch();
+            else openSearch();
+        }
     });
 }
 
