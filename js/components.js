@@ -71,16 +71,20 @@ function performSearch(query) {
     return scored.slice(0, 6);
 }
 
+let searchActiveIndex = -1; // tracks arrow-key highlighted result
+
 function openSearch() {
     const overlay = document.getElementById('searchOverlay');
     const input = document.getElementById('searchInput');
     if (!overlay) return;
     searchOpen = true;
+    searchActiveIndex = -1;
     overlay.classList.add('active');
     overlay.setAttribute('aria-hidden', 'false');
+    document.getElementById('searchToggle').setAttribute('aria-expanded', 'true');
     input.focus();
     loadSearchIndex();
-    document.addEventListener('keydown', handleSearchEsc);
+    document.addEventListener('keydown', handleSearchKeys);
 }
 
 function closeSearch() {
@@ -88,29 +92,92 @@ function closeSearch() {
     const input = document.getElementById('searchInput');
     if (!overlay) return;
     searchOpen = false;
+    searchActiveIndex = -1;
     overlay.classList.remove('active');
     overlay.setAttribute('aria-hidden', 'true');
     input.value = '';
+    input.removeAttribute('aria-activedescendant');
     document.getElementById('searchResults').innerHTML = '';
-    document.removeEventListener('keydown', handleSearchEsc);
+    document.getElementById('searchLive').textContent = '';
+    const toggle = document.getElementById('searchToggle');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.focus(); // return focus to trigger button
+    document.removeEventListener('keydown', handleSearchKeys);
 }
 
-function handleSearchEsc(e) {
-    if (e.key === 'Escape') closeSearch();
+function handleSearchKeys(e) {
+    if (e.key === 'Escape') { closeSearch(); return; }
+
+    const items = document.querySelectorAll('.search-result-item');
+    if (!items.length) return;
+
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        searchActiveIndex = Math.min(searchActiveIndex + 1, items.length - 1);
+        updateActiveResult(items);
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        searchActiveIndex = Math.max(searchActiveIndex - 1, -1);
+        updateActiveResult(items);
+        if (searchActiveIndex === -1) document.getElementById('searchInput').focus();
+    } else if (e.key === 'Enter' && searchActiveIndex >= 0 && items[searchActiveIndex]) {
+        e.preventDefault();
+        items[searchActiveIndex].click();
+    }
+}
+
+function updateActiveResult(items) {
+    const input = document.getElementById('searchInput');
+    items.forEach((item, i) => {
+        if (i === searchActiveIndex) {
+            item.classList.add('active');
+            item.setAttribute('aria-selected', 'true');
+            item.focus();
+            input.setAttribute('aria-activedescendant', item.id);
+        } else {
+            item.classList.remove('active');
+            item.setAttribute('aria-selected', 'false');
+        }
+    });
+    if (searchActiveIndex === -1) {
+        input.removeAttribute('aria-activedescendant');
+    }
 }
 
 function renderSearchResults(results) {
     const container = document.getElementById('searchResults');
+    const liveRegion = document.getElementById('searchLive');
+    searchActiveIndex = -1;
+
     if (!results.length) {
         container.innerHTML = '<div class="search-no-results">No matching resources found. Try a different keyword.</div>';
+        liveRegion.textContent = 'No matching resources found.';
         return;
     }
-    container.innerHTML = results.map(r => `
-        <a href="${root}${r.url}" class="search-result-item">
+    container.innerHTML = results.map((r, i) => `
+        <a href="${root}${r.url}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
             <div class="search-result-title">${r.title}</div>
             <div class="search-result-desc">${r.desc}</div>
         </a>
     `).join('');
+    liveRegion.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' found. Use arrow keys to navigate.';
+}
+
+// Focus trap: keep Tab within the search overlay when open
+function trapFocusInSearch(e) {
+    if (!searchOpen || e.key !== 'Tab') return;
+    const overlay = document.getElementById('searchOverlay');
+    const focusable = overlay.querySelectorAll('input, button, a[href], [tabindex]:not([tabindex="-1"])');
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+    }
 }
 
 // ── Render Navigation ──
@@ -153,10 +220,11 @@ function renderNav() {
             <div class="search-input-wrap">
                 <span class="search-input-icon" aria-hidden="true">${SEARCH_ICON}</span>
                 <label for="searchInput" class="sr-only">Search resources</label>
-                <input type="text" id="searchInput" class="search-input" placeholder="Search resources (e.g. Section 8, disability, voucher...)" autocomplete="off">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search resources (e.g. Section 8, disability, voucher...)" autocomplete="off" role="combobox" aria-controls="searchResults" aria-expanded="false" aria-autocomplete="list">
                 <button class="search-close" id="searchClose" aria-label="Close search">${CLOSE_ICON}</button>
             </div>
             <div class="search-results" id="searchResults" role="listbox" aria-label="Search results"></div>
+            <div id="searchLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
         </div>
         <div class="search-backdrop" id="searchBackdrop"></div>
     `;
@@ -206,6 +274,7 @@ function renderNav() {
     });
     searchClose.addEventListener('click', closeSearch);
     searchBackdrop.addEventListener('click', closeSearch);
+    document.addEventListener('keydown', trapFocusInSearch);
 
     let searchDebounce = null;
     searchInput.addEventListener('input', () => {
@@ -215,10 +284,13 @@ function renderNav() {
             const query = searchInput.value;
             if (query.trim().length < 2) {
                 document.getElementById('searchResults').innerHTML = '';
+                searchInput.setAttribute('aria-expanded', 'false');
+                document.getElementById('searchLive').textContent = '';
                 return;
             }
             const results = performSearch(query);
             renderSearchResults(results);
+            searchInput.setAttribute('aria-expanded', results.length > 0 ? 'true' : 'false');
         }, 200);
     });
 

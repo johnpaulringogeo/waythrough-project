@@ -372,7 +372,8 @@ select:focus-visible {
 }
 .search-result-item:last-child { border-bottom: none; }
 .search-result-item:hover,
-.search-result-item:focus-visible {
+.search-result-item:focus-visible,
+.search-result-item.active {
     background: var(--color-primary-light);
 }
 .search-result-title {
