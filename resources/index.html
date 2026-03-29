@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/components.js"></script>
+    <link rel="stylesheet" href="../css/style.css?v=2">
+    <script src="../js/components.js?v=2" defer></script>
 </head>
 <body>
     <main>
@@ -114,19 +114,5 @@
         </section>
     </main>
 
-    <script>
-        // Initialize nav and footer after DOM loads
-        document.addEventListener('DOMContentLoaded', function() {
-            // Insert nav at the top
-            const nav = renderNav();
-            document.body.insertBefore(nav, document.body.firstChild);
-
-            // Append footer at the bottom
-            document.body.appendChild(renderFooter());
-
-            // Initialize hamburger menu
-            initHamburger();
-        });
-    </script>
 </body>
 </html>
