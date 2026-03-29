@@ -113,11 +113,11 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Connect</h4>
                     <ul>
+                        <li><a href="${root}resources/ask.html">Ask a Question</a></li>
                         <li><a href="#">YouTube</a></li>
                         <li><a href="#">Instagram</a></li>
                         <li><a href="#">TikTok</a></li>
                         <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
