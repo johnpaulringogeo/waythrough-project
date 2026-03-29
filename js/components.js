@@ -397,6 +397,113 @@ function renderNewsletter(targetSelector) {
     }
 }
 
+// ── Back to Top Button ──
+function renderBackToTop() {
+    const btn = document.createElement('button');
+    btn.className = 'back-to-top';
+    btn.id = 'backToTop';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
+    document.body.append(btn);
+
+    window.addEventListener('scroll', () => {
+        btn.classList.toggle('visible', window.scrollY > 400);
+    });
+    btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+}
+
+// ── Auto Reading Time ──
+// Adds estimated reading time to any page with .post-content
+function addReadingTime() {
+    const content = document.querySelector('.post-content');
+    const meta = document.querySelector('.page-meta');
+    if (!content || !meta) return;
+    // Don't add if already present
+    if (meta.textContent.includes('min read')) return;
+    const text = content.innerText || content.textContent;
+    const words = text.trim().split(/\s+/).length;
+    const minutes = Math.max(1, Math.round(words / 225));
+    meta.textContent = meta.textContent.replace(/\s*$/, '') + ' · ' + minutes + ' min read';
+}
+
+// ── Auto Table of Contents for Guides ──
+// Generates a TOC from h2 headings inside .post-content on guide pages
+function addTableOfContents() {
+    const content = document.querySelector('.post-content');
+    if (!content) return;
+    // Only on guide pages (breadcrumbs with "Resources")
+    const isGuide = document.querySelector('.breadcrumbs');
+    if (!isGuide) return;
+
+    const headings = content.querySelectorAll('h2');
+    if (headings.length < 3) return; // only show TOC for longer guides
+
+    // Assign IDs to headings
+    headings.forEach((h, i) => {
+        if (!h.id) {
+            h.id = 'section-' + (i + 1);
+        }
+    });
+
+    const toc = document.createElement('nav');
+    toc.className = 'toc';
+    toc.setAttribute('aria-label', 'Table of contents');
+    let tocHTML = '<div class="toc-title">In This Guide</div><ol class="toc-list">';
+    headings.forEach(h => {
+        // Skip "Related Resources" heading
+        if (h.textContent.trim() === 'Related Resources') return;
+        tocHTML += '<li><a href="#' + h.id + '">' + h.textContent.trim() + '</a></li>';
+    });
+    tocHTML += '</ol>';
+    toc.innerHTML = tocHTML;
+
+    // Insert before the first paragraph
+    const firstP = content.querySelector('p');
+    if (firstP) {
+        firstP.after(toc);
+    } else {
+        content.prepend(toc);
+    }
+}
+
+// ── Share / Copy Link Button ──
+function addShareButton() {
+    const content = document.querySelector('.post-content');
+    const header = document.querySelector('.page-header');
+    if (!content || !header) return;
+
+    const bar = document.createElement('div');
+    bar.className = 'share-bar';
+    bar.innerHTML = `
+        <button class="share-btn" id="copyLinkBtn" aria-label="Copy link to this page">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <span>Copy Link</span>
+        </button>
+    `;
+
+    // Insert at top of post content
+    content.prepend(bar);
+
+    document.getElementById('copyLinkBtn').addEventListener('click', function() {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+            this.querySelector('span').textContent = 'Copied!';
+            setTimeout(() => { this.querySelector('span').textContent = 'Copy Link'; }, 2000);
+        }).catch(() => {
+            // Fallback
+            const input = document.createElement('input');
+            input.value = window.location.href;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            this.querySelector('span').textContent = 'Copied!';
+            setTimeout(() => { this.querySelector('span').textContent = 'Copy Link'; }, 2000);
+        });
+    });
+}
+
 // ── Initialize shared behaviors ──
 function initShared() {
     // Navbar scroll shadow
@@ -414,6 +521,12 @@ function initShared() {
         });
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // Functionality features
+    renderBackToTop();
+    addReadingTime();
+    addTableOfContents();
+    addShareButton();
 }
 
 // ── Boot ──
