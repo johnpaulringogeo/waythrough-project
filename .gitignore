@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (in case we add tooling later)
+node_modules/
+
+# Internal docs (not part of the live site)
+BRAND_GUIDE.md
+SETUP_GUIDE.md
