@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://waythroughproject.com/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Main Resource Pages -->
+  <url>
+    <loc>https://waythroughproject.com/resources/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/blog/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/where-to-start.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Topic Pages -->
+  <url>
+    <loc>https://waythroughproject.com/resources/benefits.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/employment.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/mental-health.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/substance-use.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/faq.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/glossary.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Who We Help Pages -->
+  <url>
+    <loc>https://waythroughproject.com/who-we-help/veterans.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/who-we-help/disabilities.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/who-we-help/seniors.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/who-we-help/dv-survivors.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Guide Pages -->
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-apply-section-8.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-find-your-pha.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-apply-hud-vash.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-find-lihtc-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-apply-ssi-ssdi.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/family-self-sufficiency.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/document-checklist.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-appeal-housing-denial.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-transfer-voucher.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-handle-recertification.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-request-reasonable-accommodation.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-file-housing-discrimination-complaint.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-find-recovery-housing.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://waythroughproject.com/blog/posts/section-8-explained.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/blog/posts/five-programs-you-dont-know.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/blog/posts/landlord-rejects-voucher.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://waythroughproject.com/blog/posts/welcome.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Video Library -->
+  <url>
+    <loc>https://waythroughproject.com/videos/index.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
