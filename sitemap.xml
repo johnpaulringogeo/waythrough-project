@@ -167,6 +167,13 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Accessibility -->
+  <url>
+    <loc>https://waythroughproject.com/resources/accessibility.html</loc>
+    <lastmod>2026-03-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+
   <!-- Ask a Question -->
   <url>
     <loc>https://waythroughproject.com/resources/ask.html</loc>

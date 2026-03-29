@@ -23,7 +23,7 @@
     <main>
         <!-- Breadcrumbs -->
         <div class="container">
-            <nav class="breadcrumbs">
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
                 <a href="../index.html">Home</a> <span class="sep">/</span>
                 <a href="index.html">Resources</a> <span class="sep">/</span>
                 <span class="current">Ask a Question</span>
@@ -84,11 +84,11 @@
                 </form>
 
                 <!-- Success / Error Messages -->
-                <div id="form-success" style="display: none; margin-top: 24px; padding: 20px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px;">
+                <div id="form-success" role="status" aria-live="polite" style="display: none; margin-top: 24px; padding: 20px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px;">
                     <p style="color: #166534; font-weight: 600; margin-bottom: 4px;">Question received!</p>
                     <p style="color: #166534;">Thanks for reaching out. We read every question and it may show up as a future blog post, guide, or resource. If you left your email, we may follow up directly.</p>
                 </div>
-                <div id="form-error" style="display: none; margin-top: 24px; padding: 20px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px;">
+                <div id="form-error" role="alert" aria-live="assertive" style="display: none; margin-top: 24px; padding: 20px; background: #fef2f2; border: 1px solid #fecaca; border-radius: 8px;">
                     <p style="color: #991b1b; font-weight: 600; margin-bottom: 4px;">Something went wrong.</p>
                     <p style="color: #991b1b;">Please try again, or email your question directly to <a href="mailto:questions@waythroughproject.com" style="color: #991b1b;">questions@waythroughproject.com</a>.</p>
                 </div>

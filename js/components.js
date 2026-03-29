@@ -25,15 +25,25 @@ const ICONS = {
     x: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>',
 };
 
+// ── Render Skip Link ──
+function renderSkipLink() {
+    const skip = document.createElement('a');
+    skip.href = '#main-content';
+    skip.className = 'skip-link';
+    skip.textContent = 'Skip to main content';
+    document.body.prepend(skip);
+}
+
 // ── Render Navigation ──
 function renderNav() {
     const nav = document.createElement('nav');
     nav.className = 'nav';
     nav.id = 'nav';
+    nav.setAttribute('aria-label', 'Main navigation');
     nav.innerHTML = `
         <div class="container nav-inner">
             <a href="${root}index.html" class="nav-logo">
-                <div class="nav-logo-icon">${ICONS.home}</div>
+                <div class="nav-logo-icon" aria-hidden="true">${ICONS.home}</div>
                 Waythrough Project
             </a>
             <ul class="nav-links">
@@ -42,7 +52,7 @@ function renderNav() {
                 <li><a href="${root}videos/index.html">Videos</a></li>
                 <li><a href="${root}index.html#about">About</a></li>
             </ul>
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
@@ -53,6 +63,7 @@ function renderNav() {
     const mobile = document.createElement('div');
     mobile.className = 'mobile-nav';
     mobile.id = 'mobileNav';
+    mobile.setAttribute('aria-hidden', 'true');
     mobile.innerHTML = `
         <ul>
             <li><a href="${root}resources/index.html">Resources</a></li>
@@ -64,12 +75,19 @@ function renderNav() {
     nav.after(mobile);
 
     // Hamburger toggle
-    document.getElementById('hamburger').addEventListener('click', () => {
-        mobile.classList.toggle('active');
+    const hamburger = document.getElementById('hamburger');
+    hamburger.addEventListener('click', () => {
+        const isOpen = mobile.classList.toggle('active');
+        hamburger.setAttribute('aria-expanded', isOpen);
+        mobile.setAttribute('aria-hidden', !isOpen);
     });
     // Close mobile nav on link click
     mobile.querySelectorAll('a').forEach(a => {
-        a.addEventListener('click', () => mobile.classList.remove('active'));
+        a.addEventListener('click', () => {
+            mobile.classList.remove('active');
+            hamburger.setAttribute('aria-expanded', 'false');
+            mobile.setAttribute('aria-hidden', 'true');
+        });
     });
 }
 
@@ -124,6 +142,7 @@ function renderFooter() {
             <div class="footer-bottom">
                 <p>&copy; ${new Date().getFullYear()} Waythrough Project. All rights reserved.</p>
                 <p>
+                    <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accessibility</a>
                     <a href="#" style="margin-right:16px;">Privacy Policy</a>
                     <a href="#">Terms of Use</a>
                 </p>
@@ -148,7 +167,8 @@ function renderNewsletter(targetSelector) {
                 <h2>Stay Connected. Stay Informed.</h2>
                 <p>Get weekly tips, new resource alerts, and affordable housing news delivered straight to your inbox. No spam, no sales &mdash; just help.</p>
                 <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed!'; this.querySelector('input').value='';">
-                    <input type="email" placeholder="Enter your email address" required>
+                    <label for="newsletter-email" class="sr-only">Email address</label>
+                    <input type="email" id="newsletter-email" placeholder="Enter your email address" required aria-label="Email address">
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
@@ -185,8 +205,20 @@ function initShared() {
 
 // ── Boot ──
 document.addEventListener('DOMContentLoaded', () => {
+    renderSkipLink();
     renderNav();
     renderFooter();
+
+    // Add skip-link target: find <main> or first content section
+    const main = document.querySelector('main') || document.querySelector('.welcome') || document.querySelector('.page-header');
+    if (main && !main.id) {
+        main.id = 'main-content';
+    } else if (!document.getElementById('main-content') && main) {
+        // main already has an id, add an anchor before it
+        const anchor = document.createElement('div');
+        anchor.id = 'main-content';
+        main.prepend(anchor);
+    }
 
     // Auto-add newsletter if page has the data attribute
     if (document.body.dataset.newsletter !== 'false') {
