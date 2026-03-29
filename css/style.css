@@ -399,7 +399,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
 
 /* ===== QUICK LINKS (homepage) ===== */
 .quick-links-section {
-    padding: 0 0 48px;
+    padding: 40px 0 48px;
     background: var(--color-bg-soft);
 }
 .quick-links-row {
