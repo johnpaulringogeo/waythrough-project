@@ -560,12 +560,22 @@
                     </div>
 
                     <div class="callout">
-                        <h4>I'm housed but struggling to afford it</h4>
+                        <h4>I'm struggling to pay rent</h4>
                         <p>You don't have to choose between rent and other necessities.</p>
                         <ul>
                             <li><a href="guides/how-to-apply-section-8.html">Section 8 (Housing Choice Vouchers)</a> — caps your rent at 30% of income.</li>
                             <li><a href="guides/how-to-find-lihtc-housing.html">LIHTC apartments</a> — affordable rental buildings that don't require a voucher.</li>
                             <li><a href="benefits.html">Check what benefits you qualify for</a> — SSI, SNAP, and other programs can free up money for rent.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I'm struggling to pay my mortgage</h4>
+                        <p>Foreclosure isn't inevitable — there are programs and options specifically designed to help.</p>
+                        <ul>
+                            <li><a href="guides/how-to-prevent-foreclosure.html">How to prevent foreclosure</a> — loan modification, forbearance, and what to do at every stage.</li>
+                            <li><strong>Call a HUD-approved housing counselor</strong> (800-569-4287) — free, confidential help negotiating with your lender.</li>
+                            <li><a href="guides/budgeting-when-money-is-tight.html">Budgeting when money is tight</a> — managing expenses during a financial crunch.</li>
                         </ul>
                     </div>
 
@@ -678,7 +688,7 @@
             multi: false,
             options: [
                 { value: 'stay-tonight', label: 'I need somewhere to stay tonight', desc: 'Emergency or immediate housing need' },
-                { value: 'pay-rent', label: "I'm struggling to pay rent", desc: 'Affordability help and benefits' },
+                { value: 'pay-rent', label: "I'm struggling to pay rent or my mortgage", desc: 'Affordability help, benefits, and foreclosure prevention' },
                 { value: 'facing-eviction', label: "I'm facing eviction or got a notice from my landlord", desc: 'Eviction defense, landlord notices, and tenant rights' },
                 { value: 'lost-job', label: 'I just lost my job', desc: 'Unemployment, benefits, and keeping your housing' },
                 { value: 'find-apartment', label: 'I want to find an affordable apartment', desc: 'Housing search and application help' },
@@ -716,14 +726,37 @@
 
             'pay-rent': [
                 {
-                    id: 'urgency',
-                    title: 'How urgent is your rent situation?',
+                    id: 'housing-type',
+                    title: 'Do you rent or own your home?',
                     required: true,
                     multi: false,
                     options: [
-                        { value: 'behind', label: "I'm already behind on rent", desc: 'Missed one or more payments' },
+                        { value: 'renter', label: 'I rent', desc: 'Apartment, house, or other rental' },
+                        { value: 'homeowner', label: 'I own my home (mortgage)', desc: 'Struggling with mortgage payments or facing foreclosure' }
+                    ]
+                },
+                {
+                    id: 'urgency',
+                    title: 'How urgent is your situation?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'behind', label: "I'm already behind on payments", desc: 'Missed one or more payments' },
                         { value: 'next-month', label: "I'm worried about next month", desc: "Can pay now but it's getting harder" },
                         { value: 'planning', label: "I'm trying to plan ahead", desc: 'Looking for long-term affordability help' }
+                    ]
+                },
+                {
+                    id: 'foreclosure-stage',
+                    title: 'Have you received any notices from your lender?',
+                    required: false,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'homeowner'; },
+                    options: [
+                        { value: 'no-notice', label: 'No, not yet', desc: 'Just struggling to make payments' },
+                        { value: 'missed-notice', label: 'Yes — a missed payment or default notice', desc: '' },
+                        { value: 'foreclosure-notice', label: 'Yes — a foreclosure notice', desc: 'Formal foreclosure proceedings' },
+                        { value: 'not-sure', label: "I'm not sure what I received", desc: '' }
                     ]
                 },
                 {
@@ -731,6 +764,7 @@
                     title: 'Do you currently receive any housing assistance?',
                     required: false,
                     multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'renter'; },
                     options: [
                         { value: 'section-8', label: 'Yes — Section 8 voucher', desc: '' },
                         { value: 'public-housing', label: 'Yes — public housing', desc: '' },
@@ -744,9 +778,9 @@
                     required: false,
                     multi: true,
                     options: [
-                        { value: 'pay-now', label: 'Help paying rent right now', desc: 'Emergency rental assistance' },
-                        { value: 'lower-long-term', label: 'Lower my rent long-term', desc: 'Vouchers and affordable housing' },
-                        { value: 'reduce-bills', label: 'Help with other bills so I can afford rent', desc: 'Food, utilities, healthcare' },
+                        { value: 'pay-now', label: 'Help paying right now', desc: 'Emergency assistance for rent or mortgage' },
+                        { value: 'lower-long-term', label: 'Lower my costs long-term', desc: 'Vouchers, affordable housing, or loan modification' },
+                        { value: 'reduce-bills', label: 'Help with other bills', desc: 'Food, utilities, healthcare' },
                         { value: 'budgeting', label: 'Budgeting and financial help', desc: 'Making the most of limited income' }
                     ]
                 }
@@ -1372,61 +1406,103 @@
 
             // ---- PAY RENT ----
             if (branch === 'pay-rent') {
-                if (a.urgency === 'behind') {
+                var isHomeowner = a['housing-type'] === 'homeowner';
+
+                // ---- HOMEOWNER PATH ----
+                if (isHomeowner) {
                     focused.push({
-                        title: 'Emergency Rental Assistance',
-                        link: 'guides/emergency-rental-assistance.html',
-                        description: 'Programs that can pay your landlord directly for back rent and utilities. Apply as soon as possible.',
-                        meta: 'Urgent \u2022 Financial'
+                        title: 'How to Prevent Foreclosure',
+                        link: 'guides/how-to-prevent-foreclosure.html',
+                        description: 'Step-by-step guide \u2014 HUD counselors, loan modification, forbearance, and what to do at every stage.',
+                        meta: 'Foreclosure \u2022 Guide'
                     });
-                    focused.push({
-                        title: 'How to Avoid Eviction',
-                        link: 'guides/how-to-avoid-eviction.html',
-                        description: 'If you\'re behind on rent, here\'s how to protect yourself before your landlord takes action.',
-                        meta: 'Prevention'
-                    });
+
+                    if (a.urgency === 'behind' || a['foreclosure-stage'] === 'missed-notice' || a['foreclosure-stage'] === 'foreclosure-notice') {
+                        focused.push({
+                            title: 'Contact a HUD-Approved Housing Counselor',
+                            description: 'Free, confidential help from a certified counselor who can negotiate with your lender on your behalf. Call 800-569-4287 or visit hud.gov/counseling.',
+                            meta: 'Free \u2022 Immediate'
+                        });
+                    }
+
+                    if (a['foreclosure-stage'] === 'foreclosure-notice') {
+                        focused.push({
+                            title: 'Know Your Legal Rights',
+                            description: 'Foreclosure has strict legal requirements. Your lender must follow them. A housing counselor or legal aid attorney can tell you if they have.',
+                            meta: 'Legal \u2022 Urgent'
+                        });
+                    }
+
+                    if (a.urgency === 'next-month' || a.urgency === 'planning') {
+                        focused.push({
+                            title: 'Talk to Your Lender Early',
+                            description: 'Lenders have loss mitigation departments specifically for this. Contact them before you miss a payment \u2014 your options are much better.',
+                            meta: 'Prevention'
+                        });
+                    }
                 }
 
-                if (a.urgency === 'next-month' || a.urgency === 'planning') {
-                    focused.push({
-                        title: 'Section 8 Housing Choice Vouchers',
-                        link: 'guides/how-to-apply-section-8.html',
-                        description: 'Caps your rent at 30% of your income. Waiting lists vary, so apply early.',
-                        meta: 'Long-term \u2022 Affordability'
-                    });
+                // ---- RENTER PATH ----
+                if (!isHomeowner) {
+                    if (a.urgency === 'behind') {
+                        focused.push({
+                            title: 'Emergency Rental Assistance',
+                            link: 'guides/emergency-rental-assistance.html',
+                            description: 'Programs that can pay your landlord directly for back rent and utilities. Apply as soon as possible.',
+                            meta: 'Urgent \u2022 Financial'
+                        });
+                        focused.push({
+                            title: 'How to Avoid Eviction',
+                            link: 'guides/how-to-avoid-eviction.html',
+                            description: 'If you\'re behind on rent, here\'s how to protect yourself before your landlord takes action.',
+                            meta: 'Prevention'
+                        });
+                    }
+
+                    if (a.urgency === 'next-month' || a.urgency === 'planning') {
+                        focused.push({
+                            title: 'Section 8 Housing Choice Vouchers',
+                            link: 'guides/how-to-apply-section-8.html',
+                            description: 'Caps your rent at 30% of your income. Waiting lists vary, so apply early.',
+                            meta: 'Long-term \u2022 Affordability'
+                        });
+                    }
+
+                    if (a.assistance === 'section-8') {
+                        focused.push({
+                            title: 'Handle Recertification',
+                            link: 'guides/how-to-handle-recertification.html',
+                            description: 'If your income changed, request an interim recertification to lower your rent portion.',
+                            meta: 'Voucher \u2022 Important'
+                        });
+                    } else if (a.assistance === 'none' || a.assistance === 'not-sure') {
+                        focused.push({
+                            title: 'Find Your Public Housing Authority',
+                            link: 'guides/how-to-find-your-pha.html',
+                            description: 'Your PHA manages Section 8 and can connect you with local programs.',
+                            meta: 'First Step'
+                        });
+                    }
                 }
 
-                if (a.assistance === 'section-8') {
-                    focused.push({
-                        title: 'Handle Recertification',
-                        link: 'guides/how-to-handle-recertification.html',
-                        description: 'If your income changed, request an interim recertification to lower your rent portion.',
-                        meta: 'Voucher \u2022 Important'
-                    });
-                } else if (a.assistance === 'none' || a.assistance === 'not-sure') {
-                    focused.push({
-                        title: 'Find Your Public Housing Authority',
-                        link: 'guides/how-to-find-your-pha.html',
-                        description: 'Your PHA manages Section 8 and can connect you with local programs.',
-                        meta: 'First Step'
-                    });
-                }
-
+                // ---- SHARED (both renters and homeowners) ----
                 var helpType = a['help-type'] || [];
                 if (helpType.indexOf('pay-now') !== -1 && a.urgency !== 'behind') {
-                    additional.push({
-                        title: 'Emergency Rental Assistance',
-                        link: 'guides/emergency-rental-assistance.html',
-                        description: 'Programs that help cover rent and utilities.',
-                        meta: 'Financial'
-                    });
+                    if (!isHomeowner) {
+                        additional.push({
+                            title: 'Emergency Rental Assistance',
+                            link: 'guides/emergency-rental-assistance.html',
+                            description: 'Programs that help cover rent and utilities.',
+                            meta: 'Financial'
+                        });
+                    }
                 }
 
                 if (helpType.indexOf('reduce-bills') !== -1) {
                     additional.push({
                         title: 'Apply for SNAP (Food Stamps)',
                         link: 'guides/how-to-apply-for-snap.html',
-                        description: 'Reduce your grocery bill so more money goes to rent.',
+                        description: 'Reduce your grocery bill so more money goes to housing.',
                         meta: 'Benefits'
                     });
                     additional.push({
@@ -1441,7 +1517,7 @@
                     additional.push({
                         title: 'Budgeting When Money Is Tight',
                         link: 'guides/budgeting-when-money-is-tight.html',
-                        description: 'Practical strategies for managing rent and living expenses.',
+                        description: 'Practical strategies for managing housing costs and living expenses.',
                         meta: 'Finances'
                     });
                     additional.push({
@@ -1453,12 +1529,21 @@
                 }
 
                 if (helpType.indexOf('lower-long-term') !== -1) {
-                    additional.push({
-                        title: 'Find LIHTC Affordable Housing',
-                        link: 'guides/how-to-find-lihtc-housing.html',
-                        description: 'Below-market apartments that don\'t require a voucher.',
-                        meta: 'Housing'
-                    });
+                    if (isHomeowner) {
+                        additional.push({
+                            title: 'How to Prevent Foreclosure',
+                            link: 'guides/how-to-prevent-foreclosure.html',
+                            description: 'Loan modification, refinancing, and other long-term options.',
+                            meta: 'Mortgage'
+                        });
+                    } else {
+                        additional.push({
+                            title: 'Find LIHTC Affordable Housing',
+                            link: 'guides/how-to-find-lihtc-housing.html',
+                            description: 'Below-market apartments that don\'t require a voucher.',
+                            meta: 'Housing'
+                        });
+                    }
                 }
 
                 additional.push({

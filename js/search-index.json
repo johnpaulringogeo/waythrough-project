@@ -322,5 +322,11 @@
     "desc": "Immediate steps after job loss — unemployment, benefits, keeping your housing, and job search help.",
     "url": "resources/guides/what-to-do-when-you-lose-your-job.html",
     "keywords": "lost job unemployment fired laid off benefits snap medicaid housing rent help employment insurance"
+  },
+  {
+    "title": "How to Prevent Foreclosure",
+    "desc": "Step-by-step guide — HUD counselors, loan modification, forbearance, and what to do at every stage.",
+    "url": "resources/guides/how-to-prevent-foreclosure.html",
+    "keywords": "foreclosure mortgage prevent homeowner loan modification forbearance hud counselor default payment house"
   }
 ]
