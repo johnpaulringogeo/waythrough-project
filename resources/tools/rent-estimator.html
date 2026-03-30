@@ -233,6 +233,11 @@
             overflow: hidden;
         }
 
+        .table-scroll {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
         .results-section-header {
             background: var(--color-bg-soft);
             padding: 1rem 1.5rem;
@@ -280,6 +285,7 @@
             font-weight: 600;
             font-variant-numeric: tabular-nums;
             color: var(--color-text);
+            white-space: nowrap;
         }
 
         .results-table tr:hover td {
@@ -289,6 +295,7 @@
         /* Income limits highlight */
         .income-category {
             font-weight: 600;
+            white-space: nowrap;
         }
 
         .category-extremely-low { color: var(--color-error-text); }
@@ -818,6 +825,7 @@
                 }
                 html += '</p>';
                 html += '</div>';
+                html += '<div class="table-scroll">';
                 html += '<table class="results-table" role="table">';
                 html += '<thead><tr><th scope="col">Category</th>';
                 for (var p = 1; p <= 8; p++) {
@@ -836,6 +844,7 @@
                 });
 
                 html += '</tbody></table>';
+                html += '</div>';
                 html += '</div>';
             }
 
