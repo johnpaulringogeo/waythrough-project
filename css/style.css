@@ -597,7 +597,7 @@ select:focus-visible {
     font-family: 'Inter', sans-serif;
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--color-primary);
+    color: #1d4ed8;
     background: var(--color-primary-light);
     padding: 8px 18px;
     border-radius: 20px;
@@ -607,6 +607,9 @@ select:focus-visible {
 .situation-link:hover {
     background: var(--color-primary);
     color: #fff;
+}
+[data-theme="dark"] .situation-link {
+    color: var(--color-primary);
 }
 
 /* ===== GUIDES SECTION (homepage) ===== */
