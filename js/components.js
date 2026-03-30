@@ -421,6 +421,36 @@ function renderFooter() {
     document.body.append(footer);
 }
 
+// ── Ask a Question CTA ──
+function renderAskCTA() {
+    // Don't show on the ask page, homepage, or top-level index pages
+    const path = window.location.pathname;
+    if (path.includes('/ask')) return;
+    if (path === '/' || path === '/index.html') return;
+    // Skip resource index and blog index (but not their subpages)
+    if (path === '/resources/' || path === '/resources/index.html') return;
+    if (path === '/blog/' || path === '/blog/index.html') return;
+    if (path === '/videos/' || path === '/videos/index.html') return;
+
+    const main = document.querySelector('main');
+    if (!main) return;
+
+    const cta = document.createElement('div');
+    cta.className = 'ask-cta';
+    cta.innerHTML = `
+        <div class="container">
+            <div class="ask-cta-inner">
+                <div class="ask-cta-text">
+                    <strong>Still have questions?</strong>
+                    <p>If something on this page didn't make sense or you're not sure how it applies to your situation, ask us. We read every question.</p>
+                </div>
+                <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            </div>
+        </div>
+    `;
+    main.append(cta);
+}
+
 // ── Back to Top Button ──
 function renderBackToTop() {
     const btn = document.createElement('button');
@@ -569,6 +599,7 @@ function initShared() {
 document.addEventListener('DOMContentLoaded', () => {
     renderSkipLink();
     renderNav();
+    renderAskCTA();
     renderFooter();
 
     // Add skip-link target: find <main> or first content section
