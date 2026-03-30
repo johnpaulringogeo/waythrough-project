@@ -413,7 +413,7 @@ function renderFooter() {
                 <p>
                     <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accessibility</a>
                     <a href="${root}privacy.html" style="margin-right:16px;">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
+                    <a href="${root}terms.html">Terms of Use</a>
                 </p>
             </div>
         </div>
