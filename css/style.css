@@ -164,7 +164,7 @@ select:focus-visible {
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--color-primary);
+    color: #1d4ed8;
     background: var(--color-primary-light);
     padding: 6px 16px;
     border-radius: 20px;
@@ -608,7 +608,8 @@ select:focus-visible {
     background: var(--color-primary);
     color: #fff;
 }
-[data-theme="dark"] .situation-link {
+[data-theme="dark"] .situation-link,
+[data-theme="dark"] .section-label {
     color: var(--color-primary);
 }
 
