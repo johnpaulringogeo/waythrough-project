@@ -412,7 +412,7 @@ function renderFooter() {
                 <p>&copy; ${new Date().getFullYear()} Waythrough Project. All rights reserved.</p>
                 <p>
                     <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accessibility</a>
-                    <a href="#" style="margin-right:16px;">Privacy Policy</a>
+                    <a href="${root}privacy.html" style="margin-right:16px;">Privacy Policy</a>
                     <a href="#">Terms of Use</a>
                 </p>
             </div>
