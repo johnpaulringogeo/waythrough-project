@@ -606,6 +606,20 @@
                                         <span class="answer-description">Voucher use and landlord issues</span>
                                     </div>
                                 </button>
+                                <button class="answer-button" data-value="facing-eviction" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm facing eviction or got a notice from my landlord</span>
+                                        <span class="answer-description">Eviction defense, landlord notices, and tenant rights</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="lost-job" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I just lost my job</span>
+                                        <span class="answer-description">Unemployment, benefits, and keeping your housing</span>
+                                    </div>
+                                </button>
                                 <button class="answer-button" data-value="non-housing" aria-pressed="false">
                                     <div class="answer-radio"></div>
                                     <div class="answer-text">
@@ -927,6 +941,28 @@
                             <li>Browse <a href="guides/how-to-find-lihtc-housing.html">LIHTC apartments</a> in your area.</li>
                             <li>Read our <a href="faq.html">FAQ</a> to get familiar with terms and common questions.</li>
                             <li>Check out our guides on <a href="guides/section-8-application-checklist.html">application help</a>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I'm facing eviction or got a notice from my landlord</h4>
+                        <p>Don't panic — you have rights and options, even if you've already received a notice.</p>
+                        <ul>
+                            <li><a href="guides/how-to-avoid-eviction.html">How to avoid eviction</a> — what to do at every stage of the process.</li>
+                            <li><a href="guides/understanding-landlord-notices.html">Understanding landlord notices</a> — comply or vacate, pay or vacate, and how to respond.</li>
+                            <li><a href="tenant-rights.html">Know your tenant rights</a> — what your landlord can and can't do.</li>
+                            <li><a href="guides/emergency-rental-assistance.html">Emergency rental assistance</a> — programs that help cover back rent.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I just lost my job</h4>
+                        <p>Losing your job is stressful, but there are programs designed to help you through this.</p>
+                        <ul>
+                            <li><a href="guides/what-to-do-when-you-lose-your-job.html">What to do when you lose your job</a> — immediate steps for income, benefits, and housing.</li>
+                            <li><a href="guides/how-to-apply-for-snap.html">Apply for SNAP (food stamps)</a> — food assistance you may qualify for right away.</li>
+                            <li><a href="guides/how-to-apply-for-medicaid.html">Apply for Medicaid</a> — health coverage after losing employer insurance.</li>
+                            <li><a href="employment.html">Employment & job training resources</a> — help getting back on your feet.</li>
                         </ul>
                     </div>
 
@@ -1303,6 +1339,78 @@
                     link: 'guides/how-to-file-housing-discrimination-complaint.html',
                     description: 'If a landlord rejects your voucher illegally.',
                     meta: 'Rights • Legal'
+                });
+            }
+
+            if (urgent === 'facing-eviction') {
+                topPriorities.push({
+                    title: 'How to Avoid Eviction',
+                    link: 'guides/how-to-avoid-eviction.html',
+                    description: 'Step-by-step guide from first warning signs through court — what to do at every stage.',
+                    meta: 'Eviction • Urgent'
+                });
+                topPriorities.push({
+                    title: 'Understanding Landlord Notices',
+                    link: 'guides/understanding-landlord-notices.html',
+                    description: 'Comply or vacate, pay or vacate, lease violations — what each notice means and how to respond.',
+                    meta: 'Notices • Rights'
+                });
+                topPriorities.push({
+                    title: 'Know Your Tenant Rights',
+                    link: 'tenant-rights.html',
+                    description: 'What your landlord can and can\'t do, and how to protect yourself.',
+                    meta: 'Rights • Legal'
+                });
+                topPriorities.push({
+                    title: 'Emergency Rental Assistance',
+                    link: 'guides/emergency-rental-assistance.html',
+                    description: 'Programs that can help cover back rent, utilities, and future rent payments.',
+                    meta: 'Financial • Urgent'
+                });
+                additional.push({
+                    title: 'Eviction Prevention & Defense',
+                    link: 'eviction-prevention.html',
+                    description: 'Legal aid, court prep, and eviction prevention programs in your area.',
+                    meta: 'Legal Aid'
+                });
+            }
+
+            if (urgent === 'lost-job') {
+                topPriorities.push({
+                    title: 'What to Do When You Lose Your Job',
+                    link: 'guides/what-to-do-when-you-lose-your-job.html',
+                    description: 'Immediate steps — unemployment benefits, health coverage, rent help, and getting back on your feet.',
+                    meta: 'Employment • Urgent'
+                });
+                topPriorities.push({
+                    title: 'Emergency Rental Assistance',
+                    link: 'guides/emergency-rental-assistance.html',
+                    description: 'Programs that can help cover rent while you\'re between jobs.',
+                    meta: 'Financial • Urgent'
+                });
+                topPriorities.push({
+                    title: 'Apply for SNAP (Food Stamps)',
+                    link: 'guides/how-to-apply-for-snap.html',
+                    description: 'Food assistance you may qualify for immediately after job loss.',
+                    meta: 'Benefits • Food'
+                });
+                topPriorities.push({
+                    title: 'Apply for Medicaid',
+                    link: 'guides/how-to-apply-for-medicaid.html',
+                    description: 'Free or low-cost health coverage when you lose employer insurance.',
+                    meta: 'Benefits • Health'
+                });
+                additional.push({
+                    title: 'Employment & Job Training',
+                    link: 'employment.html',
+                    description: 'Job search help, training programs, and career resources.',
+                    meta: 'Employment'
+                });
+                additional.push({
+                    title: 'Budgeting When Money Is Tight',
+                    link: 'guides/budgeting-when-money-is-tight.html',
+                    description: 'Practical strategies for stretching your money while income is reduced.',
+                    meta: 'Finances'
                 });
             }
 

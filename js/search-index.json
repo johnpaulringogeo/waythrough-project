@@ -310,5 +310,17 @@
     "desc": "Look up HUD Fair Market Rents and income limits for your area.",
     "url": "resources/tools/rent-estimator.html",
     "keywords": "fair market rent fmr income limits hud lookup tool calculator area median ami section 8 voucher qualify eligibility"
+  },
+  {
+    "title": "Understanding Landlord Notices",
+    "desc": "What to do when you get a notice from your landlord — comply or vacate, pay or vacate, and more.",
+    "url": "resources/guides/understanding-landlord-notices.html",
+    "keywords": "landlord notice comply vacate pay eviction warning lease violation terminate tenancy respond"
+  },
+  {
+    "title": "What to Do When You Lose Your Job",
+    "desc": "Immediate steps after job loss — unemployment, benefits, keeping your housing, and job search help.",
+    "url": "resources/guides/what-to-do-when-you-lose-your-job.html",
+    "keywords": "lost job unemployment fired laid off benefits snap medicaid housing rent help employment insurance"
   }
 ]
