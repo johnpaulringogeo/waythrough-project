@@ -304,5 +304,11 @@
     "desc": "Past evictions, broken leases, or bad references don't have to keep you from housing.",
     "url": "resources/guides/renting-with-poor-rental-history.html",
     "keywords": "rental history eviction broken lease bad reference tenant screening denied apartment background check"
+  },
+  {
+    "title": "Fair Market Rent & Income Limits Lookup",
+    "desc": "Look up HUD Fair Market Rents and income limits for your area.",
+    "url": "resources/tools/rent-estimator.html",
+    "keywords": "fair market rent fmr income limits hud lookup tool calculator area median ami section 8 voucher qualify eligibility"
   }
 ]

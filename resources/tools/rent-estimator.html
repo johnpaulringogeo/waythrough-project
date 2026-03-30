@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Fair Market Rent & Income Limits Lookup — Waythrough Project</title>
+    <meta name="description" content="Look up HUD Fair Market Rents and income limits for your area. See what rent levels housing programs use and whether your income qualifies you for assistance.">
+    <meta property="og:title" content="Fair Market Rent & Income Limits Lookup — Waythrough Project">
+    <meta property="og:description" content="Look up HUD Fair Market Rents and income limits for your area. See what rent levels housing programs use and whether your income qualifies you for assistance.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/resources/tools/rent-estimator">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Fair Market Rent & Income Limits Lookup — Waythrough Project">
+    <meta name="twitter:description" content="Look up HUD Fair Market Rents and income limits for your area. See what rent levels housing programs use and whether your income qualifies you for assistance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/resources/tools/rent-estimator">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="../../css/style.css?v=10">
+    <script src="../../js/components.js?v=10" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://waythroughproject.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Resources",
+      "item": "https://waythroughproject.com/resources/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Fair Market Rent & Income Limits Lookup"
+    }
+  ]
+}
+    </script>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Search Form ===== */
+        .lookup-form {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--color-text-light);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            background: var(--color-bg);
+            color: var(--color-text);
+            transition: border-color 0.2s;
+        }
+
+        .form-group select:focus,
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .btn-lookup {
+            padding: 10px 24px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+            height: 44px;
+        }
+
+        .btn-lookup:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-lookup:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-lookup:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .form-hint {
+            font-size: 0.82rem;
+            color: var(--color-text-muted);
+            margin-top: 4px;
+        }
+
+        .form-or {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            color: var(--color-text-muted);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-or::before,
+        .form-or::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--color-border);
+        }
+
+        /* ===== Loading & Error States ===== */
+        .loading-indicator {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--color-text-light);
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            border: 3px solid var(--color-border);
+            border-top-color: var(--color-primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: var(--color-error-bg);
+            border: 1px solid var(--color-error-border);
+            color: var(--color-error-text);
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ===== Results ===== */
+        .results-container {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .results-header {
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .results-header p {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+        }
+
+        .results-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+
+        .results-section-header {
+            background: var(--color-bg-soft);
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .results-section-header h3 {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .results-section-header p {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            margin-top: 4px;
+        }
+
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .results-table th,
+        .results-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--color-border-light);
+            font-size: 0.95rem;
+        }
+
+        .results-table th {
+            font-weight: 600;
+            color: var(--color-text-light);
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: var(--color-bg-soft);
+        }
+
+        .results-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .results-table td.amount {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+            color: var(--color-text);
+        }
+
+        .results-table tr:hover td {
+            background: var(--color-bg-soft);
+        }
+
+        /* Income limits highlight */
+        .income-category {
+            font-weight: 600;
+        }
+
+        .category-extremely-low { color: var(--color-error-text); }
+        .category-very-low { color: var(--color-accent); }
+        .category-low { color: var(--color-success); }
+
+        [data-theme="dark"] .category-extremely-low { color: #fca5a5; }
+        [data-theme="dark"] .category-very-low { color: #fbbf24; }
+        [data-theme="dark"] .category-low { color: #34d399; }
+
+        /* ===== Context Cards ===== */
+        .context-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .context-card {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 1.25rem;
+        }
+
+        .context-card h4 {
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .context-card p {
+            font-size: 0.88rem;
+            color: var(--color-text-light);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .context-card a {
+            color: #1d4ed8;
+            text-decoration: underline;
+            text-decoration-color: var(--color-border);
+            text-underline-offset: 2px;
+        }
+
+        [data-theme="dark"] .context-card a {
+            color: var(--color-primary);
+        }
+
+        .context-card a:hover {
+            text-decoration-color: currentColor;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            .form-row {
+                flex-direction: column;
+            }
+
+            .form-group {
+                min-width: 100%;
+            }
+
+            .btn-lookup {
+                width: 100%;
+            }
+
+            .results-table th,
+            .results-table td {
+                padding: 10px 12px;
+                font-size: 0.88rem;
+            }
+
+            .lookup-form {
+                padding: 1.25rem;
+            }
+
+            .results-section-header {
+                padding: 0.85rem 1.25rem;
+            }
+        }
+
+        /* ===== Noscript ===== */
+        .noscript-notice {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Resources</a><span class="sep">/</span><span class="current">Fair Market Rent & Income Limits</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Tool</span>
+                <h1>Fair Market Rent & Income Limits Lookup</h1>
+                <p class="subtitle">See what HUD considers fair rent in your area and find out if your income qualifies you for housing assistance.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>HUD sets <strong>Fair Market Rents (FMR)</strong> for every area in the country. These numbers determine how much housing vouchers will cover. HUD also sets <strong>income limits</strong> that decide who qualifies for programs like Section 8, public housing, and LIHTC apartments.</p>
+                    <p>Use this tool to look up both for your area. Just select your state and county, or enter a ZIP code.</p>
+                </div>
+
+                <!-- Search Form -->
+                <div class="lookup-form" role="search" aria-label="Look up rent and income data">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="state-select">State</label>
+                            <select id="state-select" aria-label="Select a state">
+                                <option value="">Select a state...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="county-select">County</label>
+                            <select id="county-select" disabled aria-label="Select a county">
+                                <option value="">Select a state first...</option>
+                            </select>
+                        </div>
+                        <button class="btn-lookup" id="btn-search-county" disabled onclick="lookupByCounty()" aria-label="Look up data for selected county">
+                            Look Up
+                        </button>
+                    </div>
+
+                    <div class="form-or">or</div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="zip-input">ZIP Code</label>
+                            <input type="text" id="zip-input" placeholder="e.g. 98101" maxlength="5" pattern="[0-9]{5}" inputmode="numeric" aria-label="Enter a 5-digit ZIP code">
+                            <p class="form-hint">Enter a 5-digit ZIP code</p>
+                        </div>
+                        <button class="btn-lookup" id="btn-search-zip" onclick="lookupByZip()" aria-label="Look up data for entered ZIP code">
+                            Look Up
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Results Area -->
+                <div id="results-area" aria-live="polite"></div>
+
+                <!-- Static content for no-JS and SEO -->
+                <noscript>
+                    <div class="noscript-notice">
+                        <h2>JavaScript Required</h2>
+                        <p>This tool requires JavaScript to look up HUD data. You can also look up Fair Market Rents directly on HUD's website at <a href="https://www.huduser.gov/portal/datasets/fmr.html">huduser.gov</a> and income limits at <a href="https://www.huduser.gov/portal/datasets/il.html">huduser.gov/portal/datasets/il</a>.</p>
+                    </div>
+                </noscript>
+
+                <div id="static-content">
+                    <h2>What Are Fair Market Rents?</h2>
+
+                    <p>Fair Market Rents (FMRs) are set by HUD every year for every metropolitan area and county in the U.S. They represent the 40th percentile of gross rents for typical, non-substandard rental units — meaning 40% of the area's standard rentals are at or below this price.</p>
+
+                    <p>FMRs matter because they're used to determine payment standards for the Housing Choice Voucher (Section 8) program. Your local Public Housing Authority (PHA) typically sets its voucher payment between 90% and 110% of the FMR. If you find an apartment at or below the payment standard, your voucher covers the difference between 30% of your income and the rent.</p>
+
+                    <h2>What Are Income Limits?</h2>
+
+                    <p>HUD calculates income limits based on the Area Median Income (AMI) for each county or metro area. These limits determine eligibility for most federal housing programs and are broken into three main categories:</p>
+
+                    <ul>
+                        <li><strong>Extremely Low Income</strong> — at or below 30% of AMI (or the federal poverty level, whichever is higher). This is the threshold for the most targeted assistance.</li>
+                        <li><strong>Very Low Income</strong> — at or below 50% of AMI. This is the primary eligibility cutoff for Section 8 and public housing.</li>
+                        <li><strong>Low Income</strong> — at or below 80% of AMI. This is the cutoff for some LIHTC units, HOME program, and other affordable housing.</li>
+                    </ul>
+
+                    <p>Income limits vary significantly by location because they're based on local median income. A family of four might qualify as "very low income" at $45,000 in one county but need to be below $65,000 in a higher-cost area.</p>
+
+                    <h2>How to Use This Information</h2>
+
+                    <p>Once you know the FMR and income limits for your area, you can determine which housing programs you're likely eligible for and what rent levels vouchers will cover. This helps you search for apartments more effectively and understand what your local PHA is working with when they set payment standards.</p>
+
+                    <h3>Key Resources</h3>
+                    <ul>
+                        <li><a href="../guides/how-to-apply-section-8.html">How to Apply for Section 8</a> — full walkthrough of the voucher process</li>
+                        <li><a href="../guides/how-to-find-lihtc-housing.html">Find LIHTC Apartments</a> — affordable housing that uses income limits but doesn't require a voucher</li>
+                        <li><a href="../guides/how-to-find-your-pha.html">Find Your Local PHA</a> — the agency that administers housing programs in your area</li>
+                        <li><a href="../benefits.html">Benefits & Financial Support</a> — other programs that can help with housing costs</li>
+                        <li><a href="../guides/budgeting-when-money-is-tight.html">Budgeting When Money Is Tight</a> — making the most of limited income</li>
+                    </ul>
+
+                    <p><em>Data provided by the <a href="https://www.huduser.gov/portal/dataset/fmr-api.html">HUD Datasets API</a>. Fair Market Rents and income limits are updated annually by the U.S. Department of Housing and Urban Development.</em></p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+    (function() {
+        'use strict';
+
+        // HUD API configuration
+        const API_BASE = 'https://www.huduser.gov/hudapi/public';
+        const API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI2IiwianRpIjoiZDVkMDJjM2M5NDUyNzFkNjEzNjI5ZTk3NGRhMGEwODNjYmE1MWY3YmRlMDgzYTVjNzkwMzA2MDk5NTAyZTI1YWJjMWM5ZjdiNzU0MDU3NDMiLCJpYXQiOjE3NzQ4OTg5NTIuNTM1Mzk2LCJuYmYiOjE3NzQ4OTg5NTIuNTM1Mzk4LCJleHAiOjIwOTA1MTgxNTIuNTMxMjk3LCJzdWIiOiIxMjQxNjgiLCJzY29wZXMiOltdfQ.iUSBmLhvDlf7F6TWZ4341RAkd_T1OWnKH3cAdN7efBY5CB1X2yNbBDS3w34_uTgMUK2JJ_ieupojw-Z3to8W_A';
+
+        const resultsArea = document.getElementById('results-area');
+        const stateSelect = document.getElementById('state-select');
+        const countySelect = document.getElementById('county-select');
+        const btnCounty = document.getElementById('btn-search-county');
+        const zipInput = document.getElementById('zip-input');
+
+        // API helper
+        function hudFetch(endpoint) {
+            return fetch(API_BASE + endpoint, {
+                headers: { 'Authorization': 'Bearer ' + API_TOKEN }
+            }).then(function(res) {
+                if (!res.ok) throw new Error('HUD API returned ' + res.status);
+                return res.json();
+            });
+        }
+
+        // Format currency
+        function fmt(val) {
+            var n = parseFloat(val);
+            if (isNaN(n)) return val;
+            return '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        }
+
+        // Format annual currency
+        function fmtAnnual(val) {
+            var n = parseFloat(val);
+            if (isNaN(n)) return val;
+            return '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        }
+
+        // Show loading state
+        function showLoading() {
+            resultsArea.innerHTML = '<div class="loading-indicator"><div class="loading-spinner"></div><p>Looking up HUD data for your area...</p></div>';
+        }
+
+        // Show error
+        function showError(message) {
+            resultsArea.innerHTML = '<div class="error-message">' + message + '</div>';
+        }
+
+        // ===== Populate States =====
+        function loadStates() {
+            hudFetch('/fmr/listStates').then(function(data) {
+                // API returns array of state objects
+                var states = Array.isArray(data) ? data : (data.data || []);
+                states.sort(function(a, b) {
+                    return (a.state_name || '').localeCompare(b.state_name || '');
+                });
+                states.forEach(function(s) {
+                    var opt = document.createElement('option');
+                    opt.value = s.state_code || s.state_num || '';
+                    opt.textContent = s.state_name || '';
+                    opt.dataset.stateCode = s.state_code || '';
+                    stateSelect.appendChild(opt);
+                });
+            }).catch(function(err) {
+                console.error('Failed to load states:', err);
+                // Fallback: populate manually
+                populateStatesFallback();
+            });
+        }
+
+        // Fallback state list if API fails on initial load
+        function populateStatesFallback() {
+            var states = [
+                ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['AR','Arkansas'],['CA','California'],
+                ['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['DC','District of Columbia'],
+                ['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],
+                ['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],
+                ['ME','Maine'],['MD','Maryland'],['MA','Massachusetts'],['MI','Michigan'],['MN','Minnesota'],
+                ['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],
+                ['NH','New Hampshire'],['NJ','New Jersey'],['NM','New Mexico'],['NY','New York'],
+                ['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['OR','Oregon'],
+                ['PA','Pennsylvania'],['RI','Rhode Island'],['SC','South Carolina'],['SD','South Dakota'],
+                ['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VT','Vermont'],['VA','Virginia'],
+                ['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+                ['PR','Puerto Rico'],['VI','Virgin Islands']
+            ];
+            states.forEach(function(s) {
+                var opt = document.createElement('option');
+                opt.value = s[0];
+                opt.textContent = s[1];
+                opt.dataset.stateCode = s[0];
+                stateSelect.appendChild(opt);
+            });
+        }
+
+        // ===== State Change -> Load Counties =====
+        stateSelect.addEventListener('change', function() {
+            var stateCode = this.value;
+            countySelect.innerHTML = '<option value="">Loading counties...</option>';
+            countySelect.disabled = true;
+            btnCounty.disabled = true;
+
+            if (!stateCode) {
+                countySelect.innerHTML = '<option value="">Select a state first...</option>';
+                return;
+            }
+
+            hudFetch('/fmr/listCounties/' + stateCode).then(function(data) {
+                var counties = Array.isArray(data) ? data : (data.data || []);
+                countySelect.innerHTML = '<option value="">Select a county...</option>';
+                counties.sort(function(a, b) {
+                    return (a.county_name || '').localeCompare(b.county_name || '');
+                });
+                counties.forEach(function(c) {
+                    var opt = document.createElement('option');
+                    opt.value = c.fips_code || c.county_code || '';
+                    opt.textContent = c.county_name || '';
+                    countySelect.appendChild(opt);
+                });
+                countySelect.disabled = false;
+            }).catch(function(err) {
+                countySelect.innerHTML = '<option value="">Unable to load counties</option>';
+                console.error('Failed to load counties:', err);
+            });
+        });
+
+        // ===== County Change -> Enable Button =====
+        countySelect.addEventListener('change', function() {
+            btnCounty.disabled = !this.value;
+        });
+
+        // ===== ZIP Input -> Enter Key =====
+        zipInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                lookupByZip();
+            }
+        });
+
+        // Only allow numeric input for ZIP
+        zipInput.addEventListener('input', function() {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        // ===== Lookup by County =====
+        window.lookupByCounty = function() {
+            var fips = countySelect.value;
+            if (!fips) return;
+
+            // Entity ID for county: FIPS + 99999
+            var entityId = fips.replace(/\D/g, '');
+            if (entityId.length === 5) {
+                entityId = entityId + '99999';
+            }
+
+            var countyName = countySelect.options[countySelect.selectedIndex].textContent;
+            var stateName = stateSelect.options[stateSelect.selectedIndex].textContent;
+
+            showLoading();
+            fetchData(entityId, countyName + ', ' + stateName);
+        };
+
+        // ===== Lookup by ZIP =====
+        window.lookupByZip = function() {
+            var zip = zipInput.value.trim();
+            if (!/^\d{5}$/.test(zip)) {
+                showError('Please enter a valid 5-digit ZIP code.');
+                return;
+            }
+
+            showLoading();
+
+            // Use ZIP crosswalk to find the county FIPS, then look up FMR/IL
+            // Try direct ZIP-based FMR lookup first
+            hudFetch('/fmr/data/' + zip).then(function(fmrData) {
+                // If ZIP works directly, also fetch IL
+                return hudFetch('/il/data/' + zip).then(function(ilData) {
+                    displayResults(fmrData, ilData, 'ZIP code ' + zip);
+                });
+            }).catch(function(err) {
+                // ZIP lookup failed — try using the USPS crosswalk
+                hudFetch('/usps?type=2&query=' + zip).then(function(crosswalk) {
+                    var results = crosswalk.data || crosswalk;
+                    if (results && results.results && results.results.length > 0) {
+                        var countyFips = results.results[0].geoid || results.results[0].county;
+                        var entityId = countyFips;
+                        if (entityId && entityId.length === 5) {
+                            entityId = entityId + '99999';
+                        }
+                        fetchData(entityId, 'ZIP code ' + zip);
+                    } else {
+                        showError('We couldn\'t find data for ZIP code ' + zip + '. Please try selecting your state and county instead.');
+                    }
+                }).catch(function(err2) {
+                    showError('We couldn\'t find data for ZIP code ' + zip + '. Please try selecting your state and county instead.');
+                });
+            });
+        };
+
+        // ===== Fetch Both FMR and IL Data =====
+        function fetchData(entityId, locationLabel) {
+            Promise.all([
+                hudFetch('/fmr/data/' + entityId),
+                hudFetch('/il/data/' + entityId)
+            ]).then(function(results) {
+                displayResults(results[0], results[1], locationLabel);
+            }).catch(function(err) {
+                console.error('API error:', err);
+                showError('We had trouble connecting to HUD\'s database. This can happen during peak times. Please try again in a moment, or look up data directly at <a href="https://www.huduser.gov/portal/datasets/fmr.html">huduser.gov</a>.');
+            });
+        }
+
+        // ===== Display Results =====
+        function displayResults(fmrData, ilData, locationLabel) {
+            var html = '<div class="results-container">';
+
+            // Parse FMR data
+            var fmr = fmrData.data || fmrData;
+            var basicdata = null;
+            var areaName = locationLabel;
+
+            // FMR response can have different structures
+            if (fmr.basicdata) {
+                basicdata = fmr.basicdata;
+                areaName = fmr.county_name || fmr.metro_name || fmr.area_name || locationLabel;
+            } else if (fmr.metroarea) {
+                basicdata = fmr.metroarea.basicdata || fmr.metroarea;
+                areaName = fmr.metroarea.area_name || fmr.metroarea.metro_name || locationLabel;
+            } else if (typeof fmr === 'object') {
+                // Try to find basicdata at any level
+                for (var key in fmr) {
+                    if (fmr[key] && fmr[key].basicdata) {
+                        basicdata = fmr[key].basicdata;
+                        areaName = fmr[key].county_name || fmr[key].area_name || locationLabel;
+                        break;
+                    }
+                }
+                if (!basicdata) basicdata = fmr;
+            }
+
+            // Parse IL data
+            var il = ilData.data || ilData;
+            var ilMedian = null;
+
+            if (il.median_income || il.median) {
+                ilMedian = il;
+            } else if (typeof il === 'object') {
+                for (var k in il) {
+                    if (il[k] && (il[k].median_income || il[k].median)) {
+                        ilMedian = il[k];
+                        break;
+                    }
+                }
+                if (!ilMedian) ilMedian = il;
+            }
+
+            var year = basicdata.year || basicdata.fiscal_year || new Date().getFullYear();
+
+            // Header
+            html += '<div class="results-header">';
+            html += '<h2>Results for ' + escapeHtml(areaName) + '</h2>';
+            html += '<p>FY ' + year + ' data from the U.S. Department of Housing and Urban Development</p>';
+            html += '</div>';
+
+            // FMR Table
+            html += '<div class="results-section">';
+            html += '<div class="results-section-header">';
+            html += '<h3>Fair Market Rents (Monthly)</h3>';
+            html += '<p>These are the maximum rents HUD uses for voucher payment standards in your area.</p>';
+            html += '</div>';
+            html += '<table class="results-table" role="table">';
+            html += '<thead><tr><th scope="col">Unit Size</th><th scope="col">Fair Market Rent</th><th scope="col">30% of Income Needed</th></tr></thead>';
+            html += '<tbody>';
+
+            var bedrooms = [
+                { key: 'Efficiency', label: 'Studio / Efficiency' },
+                { key: 'One-Bedroom', label: '1 Bedroom' },
+                { key: 'Two-Bedroom', label: '2 Bedroom' },
+                { key: 'Three-Bedroom', label: '3 Bedroom' },
+                { key: 'Four-Bedroom', label: '4 Bedroom' }
+            ];
+
+            // Also try alternate key formats
+            var altKeys = {
+                'Efficiency': ['Efficiency', 'efficiency', 'br0', 'studio', 'Zero-Bedroom'],
+                'One-Bedroom': ['One-Bedroom', 'one_bedroom', 'br1', 'onebr'],
+                'Two-Bedroom': ['Two-Bedroom', 'two_bedroom', 'br2', 'twobr'],
+                'Three-Bedroom': ['Three-Bedroom', 'three_bedroom', 'br3', 'threebr'],
+                'Four-Bedroom': ['Four-Bedroom', 'four_bedroom', 'br4', 'fourbr']
+            };
+
+            bedrooms.forEach(function(br) {
+                var val = null;
+                var keys = altKeys[br.key] || [br.key];
+                for (var i = 0; i < keys.length; i++) {
+                    if (basicdata[keys[i]] !== undefined && basicdata[keys[i]] !== null) {
+                        val = basicdata[keys[i]];
+                        break;
+                    }
+                }
+                if (val !== null) {
+                    var rent = parseFloat(val);
+                    // Annual income needed (rent / 0.30 * 12)
+                    var incomeNeeded = Math.round(rent / 0.30 * 12);
+                    html += '<tr>';
+                    html += '<td>' + br.label + '</td>';
+                    html += '<td class="amount">' + fmt(rent) + '/mo</td>';
+                    html += '<td class="amount">' + fmtAnnual(incomeNeeded) + '/yr</td>';
+                    html += '</tr>';
+                }
+            });
+
+            html += '</tbody></table>';
+            html += '</div>';
+
+            // Income Limits Table
+            if (ilMedian) {
+                var medianIncome = ilMedian.median_income || ilMedian.median || ilMedian.median_family_income;
+                var categories = [
+                    { prefix: 'extremely_low', prefixAlt: 'el', label: 'Extremely Low (30% AMI)', css: 'category-extremely-low' },
+                    { prefix: 'very_low', prefixAlt: 'vl', label: 'Very Low (50% AMI)', css: 'category-very-low' },
+                    { prefix: 'low', prefixAlt: 'l', label: 'Low (80% AMI)', css: 'category-low' }
+                ];
+
+                html += '<div class="results-section">';
+                html += '<div class="results-section-header">';
+                html += '<h3>Income Limits (Annual)</h3>';
+                html += '<p>Maximum annual income to qualify for housing programs, by household size.';
+                if (medianIncome) {
+                    html += ' Area Median Income: ' + fmtAnnual(medianIncome) + '.';
+                }
+                html += '</p>';
+                html += '</div>';
+                html += '<table class="results-table" role="table">';
+                html += '<thead><tr><th scope="col">Category</th>';
+                for (var p = 1; p <= 8; p++) {
+                    html += '<th scope="col">' + p + (p === 1 ? ' Person' : ' People') + '</th>';
+                }
+                html += '</tr></thead><tbody>';
+
+                categories.forEach(function(cat) {
+                    html += '<tr>';
+                    html += '<td class="income-category ' + cat.css + '">' + cat.label + '</td>';
+                    for (var p = 1; p <= 8; p++) {
+                        var val = findILValue(ilMedian, cat.prefix, cat.prefixAlt, p);
+                        html += '<td class="amount">' + (val ? fmtAnnual(val) : '—') + '</td>';
+                    }
+                    html += '</tr>';
+                });
+
+                html += '</tbody></table>';
+                html += '</div>';
+            }
+
+            // Context cards
+            html += '<div class="context-cards">';
+            html += '<div class="context-card"><h4>What does this mean for me?</h4><p>If your income falls below the "Very Low" limit for your household size, you likely qualify for Section 8 and public housing. Below "Extremely Low" means you\'re prioritized for assistance. <a href="../guides/how-to-apply-section-8.html">Learn how to apply</a>.</p></div>';
+            html += '<div class="context-card"><h4>About Fair Market Rents</h4><p>FMRs are the basis for voucher payment amounts. Your PHA may set its payment standard between 90–110% of the FMR. <a href="../guides/how-to-find-your-pha.html">Find your local PHA</a> for exact amounts.</p></div>';
+            html += '<div class="context-card"><h4>30% of Income Rule</h4><p>With a housing voucher, you pay about 30% of your adjusted gross income toward rent. The voucher covers the rest, up to the payment standard. <a href="../guides/budgeting-when-money-is-tight.html">Budgeting help</a>.</p></div>';
+            html += '</div>';
+
+            html += '<p style="margin-top: 2rem; font-size: 0.85rem; color: var(--color-text-muted);"><em>Data from the <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" style="color: inherit; text-decoration: underline;">HUD Datasets API</a>. Updated annually by the U.S. Department of Housing and Urban Development. Actual eligibility is determined by your local PHA and may differ.</em></p>';
+
+            html += '</div>';
+            resultsArea.innerHTML = html;
+
+            // Scroll results into view
+            resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Find income limit value with different possible key formats
+        function findILValue(data, prefix, prefixAlt, personCount) {
+            // Try different key patterns the HUD API might use
+            var patterns = [
+                prefix + '_' + personCount,                // extremely_low_1
+                prefix + personCount,                      // extremely_low1
+                prefixAlt + '_' + personCount,             // el_1
+                prefixAlt + personCount,                   // el1
+                'il_' + prefix + '_' + personCount,        // il_extremely_low_1
+                'person_' + personCount,                   // nested in category
+                'p' + personCount                          // p1
+            ];
+
+            for (var i = 0; i < patterns.length; i++) {
+                if (data[patterns[i]] !== undefined && data[patterns[i]] !== null) {
+                    return data[patterns[i]];
+                }
+            }
+
+            // Try nested structure: data.extremely_low = [val1, val2, ...]
+            var arrKeys = [prefix, prefixAlt, prefix.replace(/_/g, '')];
+            for (var j = 0; j < arrKeys.length; j++) {
+                if (Array.isArray(data[arrKeys[j]])) {
+                    return data[arrKeys[j]][personCount - 1];
+                }
+            }
+
+            // Try data.income_limits.extremely_low
+            if (data.income_limits) {
+                for (var k = 0; k < arrKeys.length; k++) {
+                    var limData = data.income_limits[arrKeys[k]];
+                    if (limData) {
+                        if (Array.isArray(limData)) return limData[personCount - 1];
+                        if (limData['person_' + personCount] !== undefined) return limData['person_' + personCount];
+                        if (limData['p' + personCount] !== undefined) return limData['p' + personCount];
+                    }
+                }
+            }
+
+            return null;
+        }
+
+        // Escape HTML for safe insertion
+        function escapeHtml(str) {
+            var div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // Initialize
+        loadStates();
+    })();
+    </script>
+</body>
+</html>
