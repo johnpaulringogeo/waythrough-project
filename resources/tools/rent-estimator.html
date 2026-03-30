@@ -855,42 +855,49 @@
             resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
-        // Find income limit value with different possible key formats
+        // Find income limit value from HUD API response
+        // Actual API format: data.extremely_low.il30_p1, data.very_low.il50_p1, data.low.il80_p1
         function findILValue(data, prefix, prefixAlt, personCount) {
-            // Try different key patterns the HUD API might use
-            var patterns = [
-                prefix + '_' + personCount,                // extremely_low_1
-                prefix + personCount,                      // extremely_low1
-                prefixAlt + '_' + personCount,             // el_1
-                prefixAlt + personCount,                   // el1
-                'il_' + prefix + '_' + personCount,        // il_extremely_low_1
-                'person_' + personCount,                   // nested in category
-                'p' + personCount                          // p1
-            ];
+            // IL code mapping: extremely_low -> il30, very_low -> il50, low -> il80
+            var ilCodes = {
+                'extremely_low': 'il30',
+                'very_low': 'il50',
+                'low': 'il80'
+            };
+            var ilCode = ilCodes[prefix] || '';
 
+            // Primary: nested object with il{pct}_p{n} keys
+            // e.g., data.extremely_low.il30_p1
+            var nested = data[prefix];
+            if (nested && typeof nested === 'object') {
+                // Try il30_p1 format
+                if (nested[ilCode + '_p' + personCount] !== undefined) {
+                    return nested[ilCode + '_p' + personCount];
+                }
+                // Try p1 format
+                if (nested['p' + personCount] !== undefined) {
+                    return nested['p' + personCount];
+                }
+                // Try person_1 format
+                if (nested['person_' + personCount] !== undefined) {
+                    return nested['person_' + personCount];
+                }
+                // Try array format
+                if (Array.isArray(nested)) {
+                    return nested[personCount - 1];
+                }
+            }
+
+            // Flat key patterns on the data object itself
+            var patterns = [
+                ilCode + '_p' + personCount,               // il30_p1
+                prefix + '_' + personCount,                // extremely_low_1
+                prefixAlt + '_' + personCount,             // el_1
+                prefix + personCount,                      // extremely_low1
+            ];
             for (var i = 0; i < patterns.length; i++) {
                 if (data[patterns[i]] !== undefined && data[patterns[i]] !== null) {
                     return data[patterns[i]];
-                }
-            }
-
-            // Try nested structure: data.extremely_low = [val1, val2, ...]
-            var arrKeys = [prefix, prefixAlt, prefix.replace(/_/g, '')];
-            for (var j = 0; j < arrKeys.length; j++) {
-                if (Array.isArray(data[arrKeys[j]])) {
-                    return data[arrKeys[j]][personCount - 1];
-                }
-            }
-
-            // Try data.income_limits.extremely_low
-            if (data.income_limits) {
-                for (var k = 0; k < arrKeys.length; k++) {
-                    var limData = data.income_limits[arrKeys[k]];
-                    if (limData) {
-                        if (Array.isArray(limData)) return limData[personCount - 1];
-                        if (limData['person_' + personCount] !== undefined) return limData['person_' + personCount];
-                        if (limData['p' + personCount] !== undefined) return limData['p' + personCount];
-                    }
                 }
             }
 
