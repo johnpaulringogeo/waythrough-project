@@ -328,5 +328,17 @@
     "desc": "Step-by-step guide — HUD counselors, loan modification, forbearance, and what to do at every stage.",
     "url": "resources/guides/how-to-prevent-foreclosure.html",
     "keywords": "foreclosure mortgage prevent homeowner loan modification forbearance hud counselor default payment house"
+  },
+  {
+    "title": "Home Repair Assistance",
+    "desc": "Programs for emergency repairs, weatherization, and what to do if your home is condemned or unsafe.",
+    "url": "resources/guides/home-repair-assistance.html",
+    "keywords": "home repair assistance condemned maintenance upkeep weatherization USDA habitat rebuilding together code violations unsafe unlivable grant homeowner senior"
+  },
+  {
+    "title": "VA Benefits for Veterans",
+    "desc": "VA disability compensation, VA pension, VA healthcare, and Aid & Attendance — what you may qualify for and how to apply.",
+    "url": "resources/guides/va-benefits.html",
+    "keywords": "va benefits veterans disability compensation pension healthcare aid attendance pact act toxic exposure vso military service-connected"
   }
 ]

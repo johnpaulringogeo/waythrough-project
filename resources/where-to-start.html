@@ -733,7 +733,8 @@
                     multi: false,
                     options: [
                         { value: 'renter', label: 'I rent', desc: 'Apartment, house, or other rental' },
-                        { value: 'homeowner', label: 'I own my home (mortgage)', desc: 'Struggling with mortgage payments or facing foreclosure' }
+                        { value: 'homeowner', label: 'I own my home (mortgage)', desc: 'Struggling with mortgage payments or facing foreclosure' },
+                        { value: 'homeowner-repair', label: 'I own my home but it needs major repairs', desc: "Can't afford upkeep, condemned, or becoming unlivable" }
                     ]
                 },
                 {
@@ -741,10 +742,23 @@
                     title: 'How urgent is your situation?',
                     required: true,
                     multi: false,
+                    showIf: function(answers) { return answers['housing-type'] !== 'homeowner-repair'; },
                     options: [
                         { value: 'behind', label: "I'm already behind on payments", desc: 'Missed one or more payments' },
                         { value: 'next-month', label: "I'm worried about next month", desc: "Can pay now but it's getting harder" },
                         { value: 'planning', label: "I'm trying to plan ahead", desc: 'Looking for long-term affordability help' }
+                    ]
+                },
+                {
+                    id: 'repair-stage',
+                    title: "What's happening with your home?",
+                    required: true,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'homeowner-repair'; },
+                    options: [
+                        { value: 'needs-repairs', label: 'It needs repairs I can\'t afford', desc: 'Roof, plumbing, heating, structural issues, etc.' },
+                        { value: 'code-violations', label: 'I\'ve received code violations', desc: 'The city or county has cited problems' },
+                        { value: 'condemned', label: 'It\'s been condemned or declared unlivable', desc: 'I may need to leave' }
                     ]
                 },
                 {
@@ -774,10 +788,21 @@
                     ]
                 },
                 {
+                    id: 'veteran-status',
+                    title: 'Are you a veteran?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Yes', desc: 'You may qualify for additional VA benefits' },
+                        { value: 'no', label: 'No', desc: '' }
+                    ]
+                },
+                {
                     id: 'help-type',
                     title: 'What would help you most right now?',
                     required: false,
                     multi: true,
+                    showIf: function(answers) { return answers['housing-type'] !== 'homeowner-repair'; },
                     options: [
                         { value: 'pay-now', label: 'Help paying right now', desc: 'Emergency assistance for rent or mortgage' },
                         { value: 'lower-long-term', label: 'Lower my costs long-term', desc: 'Vouchers, affordable housing, or loan modification' },
@@ -858,6 +883,16 @@
                         { value: 'yes', label: 'Yes', desc: '' },
                         { value: 'no', label: 'No', desc: '' },
                         { value: 'not-sure', label: "I'm not sure if I qualify", desc: '' }
+                    ]
+                },
+                {
+                    id: 'veteran-status',
+                    title: 'Are you a veteran?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Yes', desc: 'You may qualify for additional VA benefits' },
+                        { value: 'no', label: 'No', desc: '' }
                     ]
                 }
             ],
@@ -950,6 +985,16 @@
                         { value: 'medicaid', label: 'Medicaid', desc: '' },
                         { value: 'ssi', label: 'SSI or SSDI', desc: '' },
                         { value: 'none', label: 'None of these', desc: '' }
+                    ]
+                },
+                {
+                    id: 'veteran-status',
+                    title: 'Are you a veteran?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Yes', desc: 'You may qualify for VA healthcare and other benefits' },
+                        { value: 'no', label: 'No', desc: '' }
                     ]
                 }
             ]
@@ -1417,6 +1462,53 @@
             // ---- PAY RENT ----
             if (branch === 'pay-rent') {
                 var isHomeowner = a['housing-type'] === 'homeowner';
+                var isRepair = a['housing-type'] === 'homeowner-repair';
+
+                // ---- HOMEOWNER-REPAIR PATH ----
+                if (isRepair) {
+                    focused.push({
+                        title: 'Home Repair Assistance',
+                        link: 'guides/home-repair-assistance.html',
+                        description: 'Federal, state, and nonprofit programs that help low-income homeowners pay for repairs — many are free grants.',
+                        meta: 'Guide \u2022 Start Here'
+                    });
+
+                    if (a['repair-stage'] === 'condemned') {
+                        focused.push({
+                            title: 'Emergency Housing Resources',
+                            link: 'emergency-housing.html',
+                            description: 'If your home is unlivable and you need somewhere to stay while repairs are made.',
+                            meta: 'Emergency'
+                        });
+                        additional.push({
+                            title: 'Section 8 Housing Choice Vouchers',
+                            link: 'guides/how-to-apply-section-8.html',
+                            description: 'If you need to transition to renting while your home situation is resolved.',
+                            meta: 'Housing'
+                        });
+                    }
+
+                    if (a['repair-stage'] === 'code-violations') {
+                        focused.push({
+                            title: 'Act Before Condemnation',
+                            description: 'Contact 211 and your Community Action Agency immediately — they can fast-track emergency repair assistance when code violations are involved.',
+                            meta: 'Urgent'
+                        });
+                    }
+
+                    focused.push({
+                        title: 'Call 211 for Local Help',
+                        description: 'They maintain a database of local home repair programs, including emergency programs that may not be widely advertised.',
+                        meta: 'First Step'
+                    });
+
+                    additional.push({
+                        title: 'How to Prevent Foreclosure',
+                        link: 'guides/how-to-prevent-foreclosure.html',
+                        description: 'If repair costs are threatening your mortgage, explore your options early.',
+                        meta: 'Mortgage'
+                    });
+                }
 
                 // ---- HOMEOWNER PATH ----
                 if (isHomeowner) {
@@ -1453,7 +1545,7 @@
                 }
 
                 // ---- RENTER PATH ----
-                if (!isHomeowner) {
+                if (!isHomeowner && !isRepair) {
                     if (a.urgency === 'behind') {
                         focused.push({
                             title: 'Emergency Rental Assistance',
@@ -1498,7 +1590,7 @@
                 // ---- SHARED (both renters and homeowners) ----
                 var helpType = a['help-type'] || [];
                 if (helpType.indexOf('pay-now') !== -1 && a.urgency !== 'behind') {
-                    if (!isHomeowner) {
+                    if (!isHomeowner && !isRepair) {
                         additional.push({
                             title: 'Emergency Rental Assistance',
                             link: 'guides/emergency-rental-assistance.html',
@@ -1539,7 +1631,7 @@
                 }
 
                 if (helpType.indexOf('lower-long-term') !== -1) {
-                    if (isHomeowner) {
+                    if (isHomeowner || isRepair) {
                         additional.push({
                             title: 'How to Prevent Foreclosure',
                             link: 'guides/how-to-prevent-foreclosure.html',
@@ -1554,6 +1646,29 @@
                             meta: 'Housing'
                         });
                     }
+                }
+
+                // ---- VETERAN (pay-rent) ----
+                if (a['veteran-status'] === 'yes') {
+                    focused.push({
+                        title: 'VA Benefits for Veterans',
+                        link: 'guides/va-benefits.html',
+                        description: 'VA disability compensation, VA pension, healthcare, and Aid & Attendance — benefits you may not know you qualify for.',
+                        meta: 'Veterans \u2022 Benefits'
+                    });
+                    if (isRepair) {
+                        additional.push({
+                            title: 'VA Adapted Housing Grants',
+                            description: 'Veterans with service-connected disabilities may qualify for grants up to $110,000 for home modifications. Call 877-827-3702.',
+                            meta: 'Veterans \u2022 Housing'
+                        });
+                    }
+                    additional.push({
+                        title: 'HUD-VASH for Veterans',
+                        link: 'guides/how-to-apply-hud-vash.html',
+                        description: 'Housing voucher with VA case management for veterans at risk of homelessness.',
+                        meta: 'Veterans \u2022 Housing'
+                    });
                 }
 
                 additional.push({
@@ -1696,6 +1811,22 @@
                     description: 'Hardship programs, forbearance, and managing debt during job loss.',
                     meta: 'Finances'
                 });
+
+                // ---- VETERAN (lost-job) ----
+                if (a['veteran-status'] === 'yes') {
+                    focused.push({
+                        title: 'VA Benefits for Veterans',
+                        link: 'guides/va-benefits.html',
+                        description: 'VA disability compensation, pension, healthcare, and vocational rehabilitation — you may qualify for income and job training support.',
+                        meta: 'Veterans \u2022 Benefits'
+                    });
+                    additional.push({
+                        title: 'HUD-VASH for Veterans',
+                        link: 'guides/how-to-apply-hud-vash.html',
+                        description: 'Housing voucher with VA case management if you\u2019re at risk of losing your home.',
+                        meta: 'Veterans \u2022 Housing'
+                    });
+                }
 
                 additional.push({
                     title: 'Benefits & Income Support',
@@ -1899,6 +2030,14 @@
                             meta: 'Healthcare'
                         });
                     }
+                    if (a['veteran-status'] === 'yes') {
+                        focused.push({
+                            title: 'VA Healthcare for Veterans',
+                            link: 'guides/va-benefits.html',
+                            description: 'Free or low-cost medical care, mental health services, prescriptions, and more through the VA — no disability rating required for many services.',
+                            meta: 'Veterans \u2022 Healthcare'
+                        });
+                    }
                     focused.push({
                         title: 'Mental Health Resources',
                         link: 'mental-health.html',
@@ -1945,6 +2084,26 @@
                         description: 'Disability income benefits if you have a qualifying condition.',
                         meta: 'Benefits'
                     });
+                }
+
+                // ---- VETERAN (non-housing) ----
+                if (a['veteran-status'] === 'yes') {
+                    if (needs.indexOf('healthcare') === -1) {
+                        // Healthcare veterans already got VA pushed in the healthcare block above
+                        additional.push({
+                            title: 'VA Benefits for Veterans',
+                            link: 'guides/va-benefits.html',
+                            description: 'Disability compensation, pension, healthcare, and more — benefits you may qualify for.',
+                            meta: 'Veterans'
+                        });
+                    }
+                    if (needs.indexOf('employment') !== -1) {
+                        additional.push({
+                            title: 'VA Vocational Rehabilitation',
+                            description: 'Job training, resume help, and career services for veterans with service-connected disabilities. Call 877-827-3702.',
+                            meta: 'Veterans \u2022 Employment'
+                        });
+                    }
                 }
 
                 additional.push({
