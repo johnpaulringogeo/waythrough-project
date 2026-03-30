@@ -7,15 +7,15 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <title>Where to Start — Waythrough Project</title>
-    <meta name="description" content="Not sure where to begin? This guide walks you through a few simple questions to help you find the affordable housing resources that fit your situation.">
+    <meta name="description" content="Not sure where to begin? This interactive wizard asks a few simple questions to help you find the affordable housing resources that fit your situation.">
     <meta property="og:title" content="Where to Start — Waythrough Project">
-    <meta property="og:description" content="Not sure where to begin? This guide walks you through a few simple questions to help you find the affordable housing resources that fit your situation.">
+    <meta property="og:description" content="Not sure where to begin? This interactive wizard asks a few simple questions to help you find the affordable housing resources that fit your situation.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://waythroughproject.com/resources/where-to-start">
     <meta property="og:site_name" content="Waythrough Project">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Where to Start — Waythrough Project">
-    <meta name="twitter:description" content="Not sure where to begin? This guide walks you through a few simple questions to help you find the affordable housing resources that fit your situation.">
+    <meta name="twitter:description" content="Not sure where to begin? This interactive wizard asks a few simple questions to help you find the affordable housing resources that fit your situation.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href="https://waythroughproject.com/resources/where-to-start">
@@ -44,158 +44,1524 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Not Sure Where to Start?"
+      "name": "Where to Start"
     }
   ]
 }
     </script>
+
+    <style>
+        /* Wizard Container & Layout */
+        .wizard-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .wizard-hidden {
+            display: none;
+        }
+
+        /* Progress Bar */
+        .wizard-progress {
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: var(--color-border);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--color-primary);
+            border-radius: 2px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            font-weight: 500;
+        }
+
+        /* Wizard Intro */
+        .wizard-intro {
+            text-align: center;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .wizard-intro h2 {
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .wizard-intro p {
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        /* Question Container */
+        .wizard-question {
+            animation: fadeIn 0.4s ease;
+            margin-bottom: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .question-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .question-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+        }
+
+        .question-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .multi-select-note {
+            background: var(--color-bg-soft);
+            border-left: 3px solid var(--color-primary);
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: var(--color-text);
+        }
+
+        /* Answer Options */
+        .answer-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .answer-button {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.25rem;
+            border: 2px solid var(--color-border);
+            background: var(--color-bg-card);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            font-size: 1rem;
+            color: var(--color-text);
+            font-family: inherit;
+            font-weight: 500;
+        }
+
+        .answer-button:hover:not(:disabled) {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .answer-button:focus-visible {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .answer-button.selected {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+            color: var(--color-text);
+        }
+
+        .answer-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .answer-checkbox {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--color-border);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            transition: all 0.2s ease;
+            background: var(--color-bg-card);
+        }
+
+        .answer-button.selected .answer-checkbox {
+            background: var(--color-primary);
+            border-color: var(--color-primary);
+            color: white;
+        }
+
+        .answer-radio {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--color-border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            transition: all 0.2s ease;
+            background: var(--color-bg-card);
+        }
+
+        .answer-button.selected .answer-radio {
+            border-color: var(--color-primary);
+            background: var(--color-primary);
+        }
+
+        .answer-radio::after {
+            content: '';
+            display: none;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+        }
+
+        .answer-button.selected .answer-radio::after {
+            display: block;
+        }
+
+        .answer-text {
+            flex: 1;
+        }
+
+        .answer-label {
+            font-weight: 600;
+            color: var(--color-text);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .answer-description {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        /* Navigation Buttons */
+        .wizard-nav {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary-outline, .btn-secondary {
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            border: 2px solid var(--color-border);
+            background: var(--color-bg-card);
+            color: var(--color-text);
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .btn-primary-outline:hover {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+        }
+
+        .btn-primary-outline:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .btn-primary-outline:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-start {
+            padding: 1rem 2rem;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+            align-self: center;
+        }
+
+        .btn-start:hover {
+            background: var(--color-primary-dark);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-start:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        /* Results Section */
+        .wizard-results {
+            animation: fadeIn 0.4s ease;
+        }
+
+        .results-intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: var(--color-bg-soft);
+            border-radius: var(--radius);
+        }
+
+        .results-intro h2 {
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .results-intro p {
+            color: var(--color-text-light);
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .results-section {
+            margin-bottom: 3rem;
+        }
+
+        .results-section h3 {
+            color: var(--color-text);
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 0.75rem;
+        }
+
+        .resource-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .resource-card {
+            padding: 1.5rem;
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+
+        .resource-card:hover {
+            border-color: var(--color-primary);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .resource-card h4 {
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+
+        .resource-card:hover h4 {
+            text-decoration: underline;
+        }
+
+        .resource-description {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+        }
+
+        .resource-meta {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Empty State */
+        .no-results-message {
+            text-align: center;
+            padding: 2rem;
+            color: var(--color-text-light);
+        }
+
+        /* Buttons */
+        .btn-secondary {
+            background: var(--color-bg-soft);
+            color: var(--color-text);
+            border-color: var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-border);
+            border-color: var(--color-primary);
+        }
+
+        .btn-restart {
+            padding: 0.75rem 1.5rem;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .btn-restart:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-restart:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        /* Results Actions */
+        .results-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+            flex-wrap: wrap;
+        }
+
+        .results-actions button {
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
+        }
+
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 640px) {
+            .wizard-container {
+                padding: 1rem;
+            }
+
+            .question-title {
+                font-size: 1.25rem;
+            }
+
+            .answer-button {
+                padding: 1rem;
+                gap: 0.75rem;
+            }
+
+            .wizard-nav {
+                flex-direction: column;
+            }
+
+            .wizard-nav button {
+                width: 100%;
+            }
+
+            .results-intro {
+                padding: 1.5rem;
+            }
+
+            .results-actions {
+                flex-direction: column;
+            }
+
+            .results-actions button {
+                width: 100%;
+            }
+        }
+
+        /* Dark Mode Support */
+        @media (prefers-color-scheme: dark) {
+            .answer-button {
+                background: var(--color-bg-card);
+                border-color: var(--color-border);
+            }
+
+            .answer-button:hover:not(:disabled) {
+                background: var(--color-primary-light);
+            }
+
+            .answer-button.selected {
+                background: var(--color-primary-light);
+            }
+        }
+    </style>
 </head>
 <body>
     <main>
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../index.html">Home</a><span class="sep">/</span><a href="index.html">Resources</a><span class="sep">/</span><span class="current">Not Sure Where to Start?</span></div></nav>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../index.html">Home</a><span class="sep">/</span><a href="index.html">Resources</a><span class="sep">/</span><span class="current">Where to Start</span></div></nav>
         <header class="page-header">
             <div class="container">
                 <span class="section-label">Getting Started</span>
-                <h1>Not Sure Where to Start?</h1>
-                <p class="subtitle">That's completely normal. The affordable housing system is confusing, and there's no single right path. Let's figure out what makes sense for you.</p>
+                <h1>Where to Start?</h1>
+                <p class="subtitle">Not sure which resources fit your situation? Answer a few quick questions and we'll point you toward the most relevant guides and programs.</p>
             </div>
         </header>
 
         <div class="container">
             <div class="post-content">
 
-                <h2>What's your most immediate need?</h2>
+                <!-- Interactive Wizard -->
+                <div class="wizard-container" id="wizardContainer" role="main" aria-label="Resource finder wizard">
 
-                <p>Pick whichever feels closest to your situation right now. You can always explore other sections of the site later.</p>
+                    <!-- Intro Screen -->
+                    <div id="wizardIntro" class="wizard-intro">
+                        <h2>Let's Find Your Resources</h2>
+                        <p>Everyone's situation is unique. This 7-question wizard will help us understand your specific needs and suggest the programs and guides that matter most to you.</p>
+                        <p>You can skip any question, and this takes about 5 minutes.</p>
+                        <button class="btn-start" id="startBtn" aria-label="Start the wizard">Start the Wizard</button>
+                    </div>
 
-                <div class="callout">
-                    <h3>"I need a place to stay tonight or very soon"</h3>
-                    <p>This is urgent, and help is available.</p>
-                    <ul>
-                        <li>Call <strong>211</strong> from any phone (toll-free). They'll connect you with local emergency shelters, temporary housing, and immediate aid.</li>
-                        <li>If you're a <strong>veteran</strong>, ask about <a href="guides/how-to-apply-hud-vash.html">SSVF (Supportive Services for Veteran Families)</a>—rapid rehousing specifically for veterans.</li>
-                        <li>If you're experiencing <strong>domestic violence</strong>, you have specialized emergency resources. Visit our <a href="../who-we-help/dv-survivors.html">support page for DV survivors</a> for confidential help and safe housing options.</li>
-                    </ul>
+                    <!-- Questions Container -->
+                    <div id="questionsContainer" class="wizard-hidden">
+                        <div class="wizard-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                            </div>
+                            <div class="progress-text" id="progressText">Step 1 of 7</div>
+                        </div>
+
+                        <!-- Q1: Most Urgent Need -->
+                        <div id="question1" class="wizard-question">
+                            <h2 class="question-title">What's your most urgent need right now?</h2>
+                            <div class="question-meta">
+                                <span>Required question</span>
+                            </div>
+                            <div class="answer-options" id="q1Options">
+                                <button class="answer-button" data-value="stay-tonight" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I need somewhere to stay tonight</span>
+                                        <span class="answer-description">Emergency or immediate housing need</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="pay-rent" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm struggling to pay rent</span>
+                                        <span class="answer-description">Affordability help and benefits</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="find-apartment" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I want to find an affordable apartment</span>
+                                        <span class="answer-description">Housing search and application help</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="voucher-issue" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I have a voucher but can't find a landlord</span>
+                                        <span class="answer-description">Voucher use and landlord issues</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="non-housing" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I need help with non-housing basics</span>
+                                        <span class="answer-description">Food, healthcare, income, or employment</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q2: Housing Status -->
+                        <div id="question2" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">Are you currently housed?</h2>
+                            <div class="question-meta">
+                                <span>Required question</span>
+                            </div>
+                            <div class="answer-options" id="q2Options">
+                                <button class="answer-button" data-value="housed-worried" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Yes, but worried about losing it</span>
+                                        <span class="answer-description">Eviction prevention, financial help</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="housed-unsafe" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Yes, but it's not safe</span>
+                                        <span class="answer-description">Domestic violence, unsafe conditions</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="unhoused-temporary" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">No, I'm staying with someone temporarily</span>
+                                        <span class="answer-description">Couch surfing, friends/family</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="unhoused-shelter" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">No, I'm in a shelter or on the street</span>
+                                        <span class="answer-description">Immediate emergency resources</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q3: Demographics (Multi-select) -->
+                        <div id="question3" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">Do any of these apply to you?</h2>
+                            <div class="question-meta">
+                                <span>Optional question</span>
+                                <span>Can select multiple</span>
+                            </div>
+                            <div class="multi-select-note">You can select more than one option if they apply</div>
+                            <div class="answer-options" id="q3Options" data-multi="true">
+                                <button class="answer-button" data-value="veteran" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm a veteran</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="disability" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I have a disability</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="senior" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm 62 or older</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="dv-survivor" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm a DV survivor</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="children" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I have children</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="none" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">None of these</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q4: Income Situation -->
+                        <div id="question4" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">What's your income situation?</h2>
+                            <div class="question-meta">
+                                <span>Optional question</span>
+                            </div>
+                            <div class="answer-options" id="q4Options">
+                                <button class="answer-button" data-value="working" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm working</span>
+                                        <span class="answer-description">Employment income</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="disability-benefits" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I receive disability benefits (SSI/SSDI)</span>
+                                        <span class="answer-description">Government assistance</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="no-income" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I have no income right now</span>
+                                        <span class="answer-description">Job search or benefits application</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="retired" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">I'm retired/receive Social Security</span>
+                                        <span class="answer-description">Fixed or stable income</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q5: Barriers (Multi-select) -->
+                        <div id="question5" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">Are you dealing with any of these?</h2>
+                            <div class="question-meta">
+                                <span>Optional question</span>
+                                <span>Can select multiple</span>
+                            </div>
+                            <div class="multi-select-note">You can select more than one option if they apply</div>
+                            <div class="answer-options" id="q5Options" data-multi="true">
+                                <button class="answer-button" data-value="mental-health" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Mental health challenges</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="substance-use" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Substance use or recovery</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="criminal-record" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Criminal record</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="bad-credit" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Bad credit or rental history</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="immigration" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Immigration concerns</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="none" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">None of these</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q6: Prior Application Experience -->
+                        <div id="question6" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">Have you applied for any assistance before?</h2>
+                            <div class="question-meta">
+                                <span>Optional question</span>
+                            </div>
+                            <div class="answer-options" id="q6Options">
+                                <button class="answer-button" data-value="waiting-list" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Yes, I'm on a waiting list</span>
+                                        <span class="answer-description">Enrolled but waiting</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="denied" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Yes, but I was denied</span>
+                                        <span class="answer-description">Appeal and alternative options</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="no-apply-lost" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">No, I don't know where to start</span>
+                                        <span class="answer-description">First-time application help</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="no-apply-qualify" aria-pressed="false">
+                                    <div class="answer-radio"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">No, I didn't think I qualified</span>
+                                        <span class="answer-description">Eligibility information</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Q7: Preferred Help Type (Multi-select) -->
+                        <div id="question7" class="wizard-question wizard-hidden">
+                            <h2 class="question-title">What kind of help would be most useful right now?</h2>
+                            <div class="question-meta">
+                                <span>Optional question</span>
+                                <span>Can select multiple</span>
+                            </div>
+                            <div class="multi-select-note">You can select more than one option if they apply</div>
+                            <div class="answer-options" id="q7Options" data-multi="true">
+                                <button class="answer-button" data-value="step-by-step" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Step-by-step guides on programs</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="budgeting" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Help with budgeting and finances</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="tenant-rights" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Know my rights as a tenant</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="emergency" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Find emergency resources</span>
+                                    </div>
+                                </button>
+                                <button class="answer-button" data-value="benefits" aria-pressed="false">
+                                    <div class="answer-checkbox"></div>
+                                    <div class="answer-text">
+                                        <span class="answer-label">Get benefits (food stamps, Medicaid, etc.)</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Navigation -->
+                        <div class="wizard-nav">
+                            <button class="btn-primary-outline" id="backBtn" disabled>Back</button>
+                            <button class="btn-secondary" id="skipBtn">Skip</button>
+                            <button class="btn-start" id="nextBtn">Next</button>
+                        </div>
+                    </div>
+
+                    <!-- Results Screen -->
+                    <div id="resultsContainer" class="wizard-hidden">
+                        <div class="results-intro">
+                            <h2>Your Personalized Resources</h2>
+                            <p>Based on your answers, here are the guides and programs most relevant to your situation.</p>
+                        </div>
+
+                        <div id="resultsContent"></div>
+
+                        <div class="results-actions">
+                            <button class="btn-restart" id="restartBtn">Start Over</button>
+                            <a href="index.html" class="btn-primary-outline" style="text-decoration: none; display: inline-flex; align-items: center;">Browse All Resources</a>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="callout">
-                    <h3>"I'm housed but struggling to afford it"</h3>
-                    <p>You don't have to choose between rent and other necessities.</p>
+                <!-- Static Fallback Content (for no-JS and SEO) -->
+                <noscript>
+                    <h2>Not Sure Where to Start?</h2>
+                    <p>The affordable housing system is confusing, but we're here to help. Here are some ways to get started:</p>
+
+                    <h3>What's your most immediate need?</h3>
+
+                    <div class="callout">
+                        <h4>I need a place to stay tonight or very soon</h4>
+                        <p>This is urgent, and help is available.</p>
+                        <ul>
+                            <li>Call <strong>211</strong> from any phone (toll-free). They'll connect you with local emergency shelters, temporary housing, and immediate aid.</li>
+                            <li>If you're a <strong>veteran</strong>, ask about <a href="guides/how-to-apply-hud-vash.html">HUD-VASH (housing and case management support)</a>.</li>
+                            <li>If you're experiencing <strong>domestic violence</strong>, visit our <a href="../who-we-help/dv-survivors.html">support page for DV survivors</a> for confidential help.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I'm housed but struggling to afford it</h4>
+                        <p>You don't have to choose between rent and other necessities.</p>
+                        <ul>
+                            <li><a href="guides/how-to-apply-section-8.html">Section 8 (Housing Choice Vouchers)</a> — caps your rent at 30% of income.</li>
+                            <li><a href="guides/how-to-find-lihtc-housing.html">LIHTC apartments</a> — affordable rental buildings that don't require a voucher.</li>
+                            <li><a href="benefits.html">Check what benefits you qualify for</a> — SSI, SNAP, and other programs can free up money for rent.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I want to find an affordable apartment</h4>
+                        <p>Great starting point. Let's explore your options.</p>
+                        <ul>
+                            <li>Browse <a href="guides/how-to-find-lihtc-housing.html">LIHTC apartments</a> in your area.</li>
+                            <li>Read our <a href="faq.html">FAQ</a> to get familiar with terms and common questions.</li>
+                            <li>Check out our guides on <a href="guides/section-8-application-checklist.html">application help</a>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I have a voucher but I'm having trouble using it</h4>
+                        <p>Voucher problems are common and usually fixable.</p>
+                        <ul>
+                            <li><a href="guides/how-to-transfer-voucher.html">Portability guide</a> — if you want to move to another state or area.</li>
+                            <li><a href="guides/how-to-handle-recertification.html">Recertification questions?</a> We walk you through the annual process.</li>
+                            <li><a href="guides/how-to-file-housing-discrimination-complaint.html">Facing discrimination</a> because you have a voucher?</li>
+                        </ul>
+                    </div>
+
+                    <h3>General Starting Points</h3>
                     <ul>
-                        <li><a href="guides/how-to-apply-section-8.html">Section 8 (Housing Choice Vouchers)</a> — caps your rent at 30% of income. Waiting lists vary, but it's worth joining.</li>
-                        <li><a href="guides/how-to-find-lihtc-housing.html">LIHTC apartments</a> — affordable rental buildings that don't require a voucher. Often no waiting list.</li>
-                        <li><a href="benefits.html">LIHEAP (utility bill assistance)</a> and other benefits programs can help with heating, cooling, and utilities.</li>
-                        <li><a href="benefits.html">Check what benefits you qualify for</a> — SSI, SNAP, and other programs can free up money for rent.</li>
+                        <li><strong>Call 211</strong> — available 24/7. They know your local resources and can match you with programs.</li>
+                        <li><a href="guides/how-to-find-your-pha.html">Find your local Public Housing Authority (PHA)</a> — they manage Section 8 and can point you to other programs.</li>
+                        <li><a href="faq.html">Browse the FAQ</a> — common questions with simple answers.</li>
+                        <li><a href="glossary.html">Check the glossary</a> — definitions of terms you might encounter.</li>
                     </ul>
-                </div>
+                </noscript>
 
-                <div class="callout">
-                    <h3>"I want to understand what programs I might qualify for"</h3>
-                    <p>Great starting point. Let's explore your options.</p>
+                <!-- Additional SEO Content -->
+                <hr style="margin: 3rem 0; border: none; border-top: 1px solid var(--color-border);">
+
+                <section>
+                    <h2>Quick Reference</h2>
+
+                    <h3>Major Programs We Cover</h3>
                     <ul>
-                        <li>Read our <a href="../index.html">topic cards on the homepage</a> for an overview of major programs.</li>
-                        <li>Browse the <a href="faq.html">FAQ</a> to get familiar with terms and common questions.</li>
-                        <li>Check out <a href="../blog/posts/five-programs-you-dont-know.html">"5 Programs Beyond Section 8"</a> — you might find something tailored to your situation.</li>
+                        <li><a href="guides/how-to-apply-section-8.html">Section 8 Housing Choice Vouchers</a> — rental assistance capping rent at 30% of your income</li>
+                        <li><a href="guides/how-to-find-lihtc-housing.html">LIHTC (Low-Income Housing Tax Credit)</a> — below-market-rate apartments</li>
+                        <li><a href="guides/how-to-apply-hud-vash.html">HUD-VASH</a> — housing and services for veterans</li>
+                        <li><a href="guides/how-to-apply-ssi-ssdi.html">SSI and SSDI</a> — disability income support</li>
+                        <li><a href="guides/how-to-find-recovery-housing.html">Recovery housing</a> — peer-supported sober living</li>
+                        <li><a href="guides/emergency-rental-assistance.html">Emergency rental assistance</a> — help with back rent and utilities</li>
                     </ul>
-                </div>
 
-                <div class="callout">
-                    <h3>"I have a voucher but I'm having trouble using it"</h3>
-                    <p>Voucher problems are common and usually fixable.</p>
+                    <h3>Key Guides</h3>
                     <ul>
-                        <li><a href="../blog/posts/landlord-rejects-voucher.html">Landlord rejecting your voucher?</a> Learn why and what you can do.</li>
-                        <li><a href="guides/how-to-transfer-voucher.html">Portability guide</a> — if you want to move to another state or housing authority area.</li>
-                        <li><a href="guides/how-to-handle-recertification.html">Recertification questions?</a> We walk you through the annual review process.</li>
-                        <li><a href="guides/how-to-file-housing-discrimination-complaint.html">Facing discrimination</a> because you have a voucher? File a complaint and get support.</li>
+                        <li><a href="guides/how-to-find-your-pha.html">Find your Public Housing Authority</a></li>
+                        <li><a href="guides/how-to-avoid-eviction.html">How to avoid eviction</a></li>
+                        <li><a href="guides/document-checklist.html">Document checklist for applications</a></li>
+                        <li><a href="guides/understanding-your-lease.html">Understanding your lease</a></li>
+                        <li><a href="guides/criminal-records-and-housing.html">Housing options with a criminal record</a></li>
+                        <li><a href="guides/rebuilding-credit-for-housing.html">Rebuilding credit for housing</a></li>
                     </ul>
-                </div>
 
-                <div class="callout">
-                    <h3>"I need help with something that's not housing directly"</h3>
-                    <p>Stable housing starts with addressing the whole picture.</p>
+                    <h3>Get Help</h3>
+                    <p>Still not sure where to start? Try these universal resources:</p>
                     <ul>
-                        <li><a href="mental-health.html">Mental health support</a> — finding care and navigating the system.</li>
-                        <li><a href="substance-use.html">Substance use and recovery</a> — <a href="guides/how-to-find-recovery-housing.html">recovery housing</a> and treatment options.</li>
-                        <li><a href="employment.html">Employment resources</a> — job training, placement, and work incentives.</li>
-                        <li><a href="benefits.html">Benefits and income support</a> — SSI, SSDI, SNAP, and more.</li>
+                        <li><strong>Call 211</strong> — Available 24/7 in most areas. Confidential, free resource and referral service.</li>
+                        <li><a href="faq.html">Read our FAQ</a> — Common questions answered in plain language.</li>
+                        <li><a href="glossary.html">Check the glossary</a> — Definitions of housing terms and acronyms.</li>
+                        <li><a href="benefits.html">Benefits finder</a> — See what assistance programs you might qualify for.</li>
                     </ul>
-                </div>
-
-
-                <h2>A few questions that can help narrow things down</h2>
-
-                <p>You don't have to answer all of these. Just skip to the ones that apply to your situation.</p>
-
-                <h3>Are you a veteran?</h3>
-                <p>If yes, you have dedicated programs and funding designed just for you.</p>
-                <ul>
-                    <li><a href="../who-we-help/veterans.html">Veteran-specific resources page</a></li>
-                    <li><a href="guides/how-to-apply-hud-vash.html">HUD-VASH program guide</a> — housing and case management support</li>
-                    <li><a href="guides/how-to-apply-ssi-ssdi.html">VA benefits</a> that can help with housing costs</li>
-                </ul>
-
-                <h3>Do you have a disability?</h3>
-                <p>Many programs prioritize people with disabilities, and you have legal protections around housing access. This is never a barrier.</p>
-                <ul>
-                    <li><a href="../who-we-help/disabilities.html">Resources for people with disabilities</a></li>
-                    <li><a href="guides/how-to-request-reasonable-accommodation.html">Reasonable accommodation guide</a> — your right to modify housing rules for disability needs</li>
-                    <li><a href="guides/how-to-apply-ssi-ssdi.html">SSI/SSDI guide</a> — income support that can help pay for housing</li>
-                    <li><strong>Section 811</strong> (reserved public housing for people with disabilities) — ask your local <a href="guides/how-to-find-your-pha.html">Public Housing Authority</a></li>
-                </ul>
-
-                <h3>Are you 62 or older?</h3>
-                <p>Seniors have access to specialized programs and priority in many housing initiatives.</p>
-                <ul>
-                    <li><a href="../who-we-help/seniors.html">Senior-specific resources page</a></li>
-                    <li><strong>Section 202</strong> (HUD housing for seniors) — safe, affordable communities designed for older adults</li>
-                    <li>Senior-specific <a href="guides/how-to-find-lihtc-housing.html">affordable housing programs</a> in your area</li>
-                </ul>
-
-                <h3>Are you dealing with substance use or mental health challenges?</h3>
-                <p>These are not barriers to getting housing help. Many programs specifically support people working on recovery and mental health. Getting stable housing is often the foundation for everything else to improve.</p>
-                <ul>
-                    <li><a href="mental-health.html">Mental health resources</a> — finding therapy, medication support, and crisis lines</li>
-                    <li><a href="substance-use.html">Substance use support</a> — treatment, recovery housing, and wraparound services</li>
-                    <li><a href="guides/how-to-find-recovery-housing.html">Recovery housing guide</a> — peer-supported sober living communities</li>
-                    <li><a href="benefits.html">Disability benefits</a> (SSI/SSDI) if you're unable to work due to mental health or substance use</li>
-                </ul>
-
-                <h3>Do you have income from a job?</h3>
-                <p>If yes, there are programs designed to help you move up and build wealth while keeping housing support.</p>
-                <ul>
-                    <li><a href="guides/family-self-sufficiency.html">Family Self-Sufficiency (FSS) program</a> — save your rent increases in escrow while you improve your earnings</li>
-                    <li><a href="benefits.html">Earned Income Disregard rules</a> — keep more of your benefits as income rises</li>
-                </ul>
-                <p>If no, that's okay. Many programs don't require employment.</p>
-                <ul>
-                    <li><a href="employment.html">Employment resources</a> — job training, placement services, and work incentives</li>
-                    <li><a href="guides/how-to-apply-ssi-ssdi.html">SSI/SSDI guide</a> — income support if you can't work due to disability</li>
-                    <li><a href="benefits.html">Other benefits</a> — SNAP, TANF, unemployment, and more</li>
-                </ul>
-
-
-                <h2>Still not sure? Start with these</h2>
-
-                <p>If you're feeling overwhelmed and none of the above quite fit, try one of these universal starting points:</p>
-
-                <ul>
-                    <li><strong>Call 211</strong> — available in most areas, 24/7. They know your local resources and can match you with programs. No judgment, completely confidential.</li>
-                    <li><a href="guides/how-to-find-your-pha.html">Find your local Public Housing Authority (PHA)</a> — they manage Section 8, public housing, and can point you to other programs.</li>
-                    <li><a href="faq.html">Browse the FAQ</a> — common questions, simple answers. No right or wrong place to start.</li>
-                    <li><a href="glossary.html">Check the glossary</a> — if you hit a term that doesn't make sense, look it up here.</li>
-                </ul>
-
-
-                <h2>One more thing</h2>
-
-                <p>There's no wrong way to use this site. You can browse by topic, jump straight to a guide, read our blog posts, or dive into the FAQ. Everything here is free and there's no signup required.</p>
-
-                <p>Take your time. Many people take weeks or months to figure out which programs are right for them, and that's completely normal. The housing system is complex, but resources exist to help you navigate it.</p>
-
-                <p>If you want personalized guidance, consider talking to a housing counselor—many nonprofits offer this for free. Call 211 to find one near you.</p>
+                </section>
 
             </div>
         </div>
     </main>
+
+    <script>
+        // Wizard State Management
+        const wizardState = {
+            currentQuestion: 0,
+            answers: {},
+            questionOrder: [1, 2, 3, 4, 5, 6, 7],
+            totalQuestions: 7
+        };
+
+        const questions = {
+            1: { id: 'question1', title: 'most_urgent_need', required: true, multi: false },
+            2: { id: 'question2', title: 'housing_status', required: true, multi: false },
+            3: { id: 'question3', title: 'demographics', required: false, multi: true },
+            4: { id: 'question4', title: 'income_situation', required: false, multi: false },
+            5: { id: 'question5', title: 'barriers', required: false, multi: true },
+            6: { id: 'question6', title: 'prior_experience', required: false, multi: false },
+            7: { id: 'question7', title: 'help_preference', required: false, multi: true }
+        };
+
+        // DOM Elements
+        const wizardContainer = document.getElementById('wizardContainer');
+        const startBtn = document.getElementById('startBtn');
+        const wizardIntro = document.getElementById('wizardIntro');
+        const questionsContainer = document.getElementById('questionsContainer');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const backBtn = document.getElementById('backBtn');
+        const skipBtn = document.getElementById('skipBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const restartBtn = document.getElementById('restartBtn');
+        const progressFill = document.getElementById('progressFill');
+        const progressText = document.getElementById('progressText');
+        const resultsContent = document.getElementById('resultsContent');
+
+        // Initialize
+        startBtn.addEventListener('click', startWizard);
+        nextBtn.addEventListener('click', goToNextQuestion);
+        backBtn.addEventListener('click', goToPreviousQuestion);
+        skipBtn.addEventListener('click', goToNextQuestion);
+        restartBtn.addEventListener('click', restartWizard);
+
+        // Start Wizard
+        function startWizard() {
+            wizardIntro.classList.add('wizard-hidden');
+            questionsContainer.classList.remove('wizard-hidden');
+            showQuestion(0);
+        }
+
+        // Show Current Question
+        function showQuestion(index) {
+            // Hide all questions
+            document.querySelectorAll('.wizard-question').forEach(q => q.classList.add('wizard-hidden'));
+
+            // Show current question
+            const questionNum = wizardState.questionOrder[index];
+            const questionElement = document.getElementById(questions[questionNum].id);
+            questionElement.classList.remove('wizard-hidden');
+
+            // Setup answer buttons
+            setupAnswerButtons(questionNum);
+
+            // Update progress
+            const progress = ((index + 1) / wizardState.totalQuestions) * 100;
+            progressFill.style.width = progress + '%';
+            progressText.textContent = `Step ${index + 1} of ${wizardState.totalQuestions}`;
+
+            // Update navigation
+            backBtn.disabled = index === 0;
+            skipBtn.disabled = questions[questionNum].required;
+
+            // Restore previously selected answers
+            restorePreviousAnswers(questionNum);
+
+            // Focus on question for accessibility
+            questionElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            questionElement.querySelector('.question-title').focus();
+        }
+
+        // Setup Answer Buttons
+        function setupAnswerButtons(questionNum) {
+            const isMulti = questions[questionNum].multi;
+            const optionsContainer = document.querySelector(`#question${questionNum} .answer-options`);
+            const buttons = optionsContainer.querySelectorAll('.answer-button');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    const value = button.dataset.value;
+
+                    if (isMulti) {
+                        // Multi-select toggle
+                        button.classList.toggle('selected');
+                        button.setAttribute('aria-pressed', button.classList.contains('selected'));
+                        if (!wizardState.answers[questionNum]) {
+                            wizardState.answers[questionNum] = [];
+                        }
+                        if (button.classList.contains('selected')) {
+                            if (!wizardState.answers[questionNum].includes(value)) {
+                                wizardState.answers[questionNum].push(value);
+                            }
+                        } else {
+                            wizardState.answers[questionNum] = wizardState.answers[questionNum].filter(v => v !== value);
+                        }
+                    } else {
+                        // Single select
+                        buttons.forEach(b => {
+                            b.classList.remove('selected');
+                            b.setAttribute('aria-pressed', 'false');
+                        });
+                        button.classList.add('selected');
+                        button.setAttribute('aria-pressed', 'true');
+                        wizardState.answers[questionNum] = value;
+                    }
+                });
+            });
+        }
+
+        // Restore Previous Answers
+        function restorePreviousAnswers(questionNum) {
+            if (!wizardState.answers[questionNum]) return;
+
+            const optionsContainer = document.querySelector(`#question${questionNum} .answer-options`);
+            const buttons = optionsContainer.querySelectorAll('.answer-button');
+
+            buttons.forEach(button => {
+                const value = button.dataset.value;
+                const isMulti = questions[questionNum].multi;
+
+                if (isMulti && Array.isArray(wizardState.answers[questionNum])) {
+                    if (wizardState.answers[questionNum].includes(value)) {
+                        button.classList.add('selected');
+                        button.setAttribute('aria-pressed', 'true');
+                    } else {
+                        button.classList.remove('selected');
+                        button.setAttribute('aria-pressed', 'false');
+                    }
+                } else if (!isMulti && wizardState.answers[questionNum] === value) {
+                    button.classList.add('selected');
+                    button.setAttribute('aria-pressed', 'true');
+                } else if (!isMulti) {
+                    button.classList.remove('selected');
+                    button.setAttribute('aria-pressed', 'false');
+                }
+            });
+        }
+
+        // Navigation Functions
+        function goToNextQuestion() {
+            const questionNum = wizardState.questionOrder[wizardState.currentQuestion];
+            if (questions[questionNum].required && !wizardState.answers[questionNum]) {
+                alert('Please answer this question to continue');
+                return;
+            }
+            wizardState.currentQuestion++;
+
+            if (wizardState.currentQuestion >= wizardState.totalQuestions) {
+                showResults();
+            } else {
+                showQuestion(wizardState.currentQuestion);
+            }
+        }
+
+        function goToPreviousQuestion() {
+            if (wizardState.currentQuestion > 0) {
+                wizardState.currentQuestion--;
+                showQuestion(wizardState.currentQuestion);
+            }
+        }
+
+        // Show Results
+        function showResults() {
+            questionsContainer.classList.add('wizard-hidden');
+            resultsContainer.classList.remove('wizard-hidden');
+            generateResults();
+        }
+
+        // Generate Results
+        function generateResults() {
+            const resources = determineResources();
+            let html = '';
+
+            if (resources.topPriorities && resources.topPriorities.length > 0) {
+                html += generateResultsSection('Your Top Priorities', resources.topPriorities);
+            }
+
+            if (resources.programs && resources.programs.length > 0) {
+                html += generateResultsSection('Programs You May Qualify For', resources.programs);
+            }
+
+            if (resources.additional && resources.additional.length > 0) {
+                html += generateResultsSection('Additional Resources', resources.additional);
+            }
+
+            if (!html) {
+                html = '<div class="no-results-message"><p>We couldn\'t determine specific resources, but try calling <strong>211</strong> for personalized guidance.</p></div>';
+            }
+
+            resultsContent.innerHTML = html;
+        }
+
+        function generateResultsSection(title, resources) {
+            let html = `<div class="results-section"><h3>${title}</h3><div class="resource-list">`;
+
+            resources.forEach(resource => {
+                html += `<a href="${resource.link}" class="resource-card">
+                    <h4>${resource.title}</h4>
+                    <div class="resource-description">${resource.description}</div>
+                    ${resource.meta ? `<div class="resource-meta">${resource.meta}</div>` : ''}
+                </a>`;
+            });
+
+            html += '</div></div>';
+            return html;
+        }
+
+        // Determine Resources Based on Answers
+        function determineResources() {
+            const topPriorities = [];
+            const programs = [];
+            const additional = [];
+
+            const urgent = wizardState.answers[1];
+            const housed = wizardState.answers[2];
+            const demos = wizardState.answers[3] || [];
+            const income = wizardState.answers[4];
+            const barriers = wizardState.answers[5] || [];
+            const priorExp = wizardState.answers[6];
+            const helpPref = wizardState.answers[7] || [];
+
+            // Top Priorities based on urgent need
+            if (urgent === 'stay-tonight') {
+                topPriorities.push({
+                    title: 'Call 211 for Emergency Housing',
+                    description: 'Available 24/7, toll-free. They\'ll connect you with local shelters and immediate aid.',
+                    meta: 'Emergency • Immediate'
+                });
+                if (Array.isArray(demos) && demos.includes('veteran')) {
+                    topPriorities.push({
+                        title: 'HUD-VASH for Veterans',
+                        link: 'guides/how-to-apply-hud-vash.html',
+                        description: 'Rapid rehousing and supportive services specifically for veterans.',
+                        meta: 'Veterans • Housing'
+                    });
+                }
+                if (Array.isArray(demos) && demos.includes('dv-survivor')) {
+                    topPriorities.push({
+                        title: 'Support for DV Survivors',
+                        link: '../who-we-help/dv-survivors.html',
+                        description: 'Confidential emergency shelter and safety planning.',
+                        meta: 'Domestic Violence • Safety'
+                    });
+                }
+            }
+
+            if (urgent === 'pay-rent') {
+                topPriorities.push({
+                    title: 'Section 8 Housing Choice Vouchers',
+                    link: 'guides/how-to-apply-section-8.html',
+                    description: 'Rent assistance that caps your payment at 30% of your income.',
+                    meta: 'Affordability • Long-term'
+                });
+                topPriorities.push({
+                    title: 'Emergency Rental Assistance',
+                    link: 'guides/emergency-rental-assistance.html',
+                    description: 'Help with back rent and utilities. Check your state and local programs.',
+                    meta: 'Emergency • Immediate'
+                });
+                if (helpPref.includes('benefits') || !income) {
+                    topPriorities.push({
+                        title: 'Apply for Benefits',
+                        link: 'benefits.html',
+                        description: 'SSI, SNAP, and other assistance programs can free up money for rent.',
+                        meta: 'Benefits • Income'
+                    });
+                }
+            }
+
+            if (urgent === 'find-apartment') {
+                topPriorities.push({
+                    title: 'Find LIHTC Affordable Housing',
+                    link: 'guides/how-to-find-lihtc-housing.html',
+                    description: 'Below-market-rate apartments that don\'t require a voucher.',
+                    meta: 'Housing Search'
+                });
+                topPriorities.push({
+                    title: 'Local Public Housing Authority',
+                    link: 'guides/how-to-find-your-pha.html',
+                    description: 'Find your PHA to learn about public housing and Section 8 in your area.',
+                    meta: 'Housing Programs'
+                });
+                topPriorities.push({
+                    title: 'Section 8 Application Guide',
+                    link: 'guides/how-to-apply-section-8.html',
+                    description: 'Step-by-step guide to applying for rental vouchers.',
+                    meta: 'Application'
+                });
+            }
+
+            if (urgent === 'voucher-issue') {
+                topPriorities.push({
+                    title: 'Troubleshoot Your Voucher',
+                    link: 'guides/how-to-transfer-voucher.html',
+                    description: 'Portability, moving across states, and common voucher issues.',
+                    meta: 'Vouchers • Help'
+                });
+                topPriorities.push({
+                    title: 'Handle Recertification',
+                    link: 'guides/how-to-handle-recertification.html',
+                    description: 'Guide to annual voucher reviews and income verification.',
+                    meta: 'Vouchers • Annual'
+                });
+                topPriorities.push({
+                    title: 'File a Discrimination Complaint',
+                    link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                    description: 'If a landlord rejects your voucher illegally.',
+                    meta: 'Rights • Legal'
+                });
+            }
+
+            if (urgent === 'non-housing') {
+                topPriorities.push({
+                    title: 'Mental Health Resources',
+                    link: 'mental-health.html',
+                    description: 'Finding therapy, medication support, and crisis lines.',
+                    meta: 'Mental Health'
+                });
+                topPriorities.push({
+                    title: 'Employment & Job Training',
+                    link: 'employment.html',
+                    description: 'Job search help, training programs, and work incentives.',
+                    meta: 'Employment'
+                });
+                topPriorities.push({
+                    title: 'Benefits & Income Support',
+                    link: 'benefits.html',
+                    description: 'SSI, SSDI, SNAP, TANF, and other assistance programs.',
+                    meta: 'Benefits'
+                });
+            }
+
+            // Programs based on demographics
+            if (Array.isArray(demos)) {
+                if (demos.includes('veteran')) {
+                    programs.push({
+                        title: 'Veteran-Specific Resources',
+                        link: '../who-we-help/veterans.html',
+                        description: 'Housing programs, VA benefits, and support services for veterans.',
+                        meta: 'Veterans'
+                    });
+                    if (!topPriorities.some(r => r.link && r.link.includes('hud-vash'))) {
+                        programs.push({
+                            title: 'HUD-VASH Program',
+                            link: 'guides/how-to-apply-hud-vash.html',
+                            description: 'Supportive Services for Veteran Families.',
+                            meta: 'Veterans • Housing'
+                        });
+                    }
+                }
+
+                if (demos.includes('disability')) {
+                    programs.push({
+                        title: 'Resources for People with Disabilities',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Legal protections, Section 811, and accessible housing options.',
+                        meta: 'Disabilities'
+                    });
+                    programs.push({
+                        title: 'Request Reasonable Accommodation',
+                        link: 'guides/how-to-request-reasonable-accommodation.html',
+                        description: 'Your right to modify housing rules for disability needs.',
+                        meta: 'Disabilities • Rights'
+                    });
+                }
+
+                if (demos.includes('senior')) {
+                    programs.push({
+                        title: 'Senior Housing Resources',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Section 202, senior-specific programs, and priority housing.',
+                        meta: 'Seniors'
+                    });
+                }
+
+                if (demos.includes('children')) {
+                    programs.push({
+                        title: 'Family Housing Resources',
+                        link: 'families.html',
+                        description: 'Programs and support for families with children.',
+                        meta: 'Families'
+                    });
+                }
+            }
+
+            // Additional resources based on barriers and preferences
+            if (Array.isArray(barriers)) {
+                if (barriers.includes('mental-health')) {
+                    additional.push({
+                        title: 'Mental Health Support',
+                        link: 'mental-health.html',
+                        description: 'Finding therapy, medication management, and crisis support.',
+                        meta: 'Support'
+                    });
+                }
+
+                if (barriers.includes('substance-use')) {
+                    additional.push({
+                        title: 'Substance Use & Recovery',
+                        link: 'substance-use.html',
+                        description: 'Treatment options and recovery housing.',
+                        meta: 'Recovery'
+                    });
+                    additional.push({
+                        title: 'Find Recovery Housing',
+                        link: 'guides/how-to-find-recovery-housing.html',
+                        description: 'Peer-supported sober living communities.',
+                        meta: 'Housing • Recovery'
+                    });
+                }
+
+                if (barriers.includes('criminal-record')) {
+                    additional.push({
+                        title: 'Housing with a Criminal Record',
+                        link: 'guides/criminal-records-and-housing.html',
+                        description: 'Your rights and housing options despite conviction history.',
+                        meta: 'Legal • Rights'
+                    });
+                }
+
+                if (barriers.includes('bad-credit')) {
+                    additional.push({
+                        title: 'Rebuild Credit for Housing',
+                        link: 'guides/rebuilding-credit-for-housing.html',
+                        description: 'Steps to improve credit and rental history.',
+                        meta: 'Credit • Finances'
+                    });
+                    additional.push({
+                        title: 'Renting with Poor Rental History',
+                        link: 'guides/renting-with-poor-rental-history.html',
+                        description: 'Strategies and resources for rebuilding trust with landlords.',
+                        meta: 'Housing • History'
+                    });
+                }
+
+                if (barriers.includes('immigration')) {
+                    additional.push({
+                        title: 'Housing & Immigration',
+                        link: 'immigration-housing.html',
+                        description: 'Resources and information for immigrants and undocumented people.',
+                        meta: 'Immigration'
+                    });
+                }
+            }
+
+            if (Array.isArray(helpPref)) {
+                if (helpPref.includes('budgeting')) {
+                    additional.push({
+                        title: 'Budgeting When Money is Tight',
+                        link: 'guides/budgeting-when-money-is-tight.html',
+                        description: 'Practical strategies for managing rent and living expenses.',
+                        meta: 'Finances'
+                    });
+                }
+
+                if (helpPref.includes('tenant-rights')) {
+                    additional.push({
+                        title: 'Understanding Your Lease',
+                        link: 'guides/understanding-your-lease.html',
+                        description: 'Know your rights and responsibilities as a tenant.',
+                        meta: 'Tenant Rights'
+                    });
+                    if (!additional.some(r => r.link && r.link.includes('reasonable-accommodation'))) {
+                        additional.push({
+                            title: 'Know Your Tenant Rights',
+                            link: 'tenant-rights.html',
+                            description: 'Legal protections and what landlords cannot do.',
+                            meta: 'Rights'
+                        });
+                    }
+                }
+
+                if (helpPref.includes('emergency')) {
+                    additional.push({
+                        title: 'Find Emergency Housing Resources',
+                        link: 'emergency-housing.html',
+                        description: '24/7 shelters, hotlines, and immediate assistance.',
+                        meta: 'Emergency'
+                    });
+                }
+
+                if (helpPref.includes('benefits')) {
+                    if (!additional.some(r => r.link && r.link.includes('benefits'))) {
+                        additional.push({
+                            title: 'Apply for SNAP (Food Stamps)',
+                            link: 'guides/how-to-apply-for-snap.html',
+                            description: 'Food assistance to help with groceries.',
+                            meta: 'Benefits'
+                        });
+                        additional.push({
+                            title: 'Apply for Medicaid',
+                            link: 'guides/how-to-apply-for-medicaid.html',
+                            description: 'Health insurance assistance program.',
+                            meta: 'Benefits'
+                        });
+                    }
+                }
+            }
+
+            // Based on income
+            if (income === 'working') {
+                programs.push({
+                    title: 'Family Self-Sufficiency Program',
+                    link: 'guides/family-self-sufficiency.html',
+                    description: 'Save rent increases in escrow while you build your career.',
+                    meta: 'Income • Growth'
+                });
+            }
+
+            // Based on prior experience
+            if (priorExp === 'denied') {
+                additional.push({
+                    title: 'Appeal Housing Denial',
+                    link: 'guides/how-to-appeal-housing-denial.html',
+                    description: 'Steps to contest a denial and reapply.',
+                    meta: 'Appeals'
+                });
+            }
+
+            if (priorExp === 'no-apply-lost' || priorExp === 'no-apply-qualify') {
+                additional.push({
+                    title: 'Section 8 Application Checklist',
+                    link: 'guides/section-8-application-checklist.pdf',
+                    description: 'Documents and info you\'ll need for your application.',
+                    meta: 'Checklist'
+                });
+                additional.push({
+                    title: 'Document Checklist for Housing',
+                    link: 'guides/document-checklist.html',
+                    description: 'What paperwork to gather for any housing application.',
+                    meta: 'Documents'
+                });
+            }
+
+            // Avoid duplicates and limit
+            const allResources = [...topPriorities, ...programs, ...additional];
+            const seen = new Set();
+            const unique = allResources.filter(r => {
+                const key = r.link || r.title;
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            });
+
+            return {
+                topPriorities: unique.filter(r => topPriorities.includes(r)).slice(0, 5),
+                programs: unique.filter(r => programs.includes(r)).slice(0, 5),
+                additional: unique.filter(r => additional.includes(r)).slice(0, 5)
+            };
+        }
+
+        // Restart Wizard
+        function restartWizard() {
+            wizardState.currentQuestion = 0;
+            wizardState.answers = {};
+            resultsContainer.classList.add('wizard-hidden');
+            wizardIntro.classList.remove('wizard-hidden');
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (!questionsContainer.classList.contains('wizard-hidden')) {
+                if (e.key === 'Enter' && e.target.classList.contains('answer-button')) {
+                    e.target.click();
+                }
+            }
+        });
+    </script>
 </body>
 </html>

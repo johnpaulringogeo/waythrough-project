@@ -274,5 +274,35 @@
     "desc": "Free credit reports, disputing errors, building credit, and what landlords look for.",
     "url": "resources/guides/rebuilding-credit-for-housing.html",
     "keywords": "rebuild credit housing score report dispute error secured card authorized user rent reporting"
+  },
+  {
+    "title": "How to Apply for SNAP (Food Stamps)",
+    "desc": "Who qualifies, how to apply, expedited benefits, and how SNAP works with housing programs.",
+    "url": "resources/guides/how-to-apply-for-snap.html",
+    "keywords": "snap food stamps ebt apply application eligibility income benefits grocery food assistance calfresh"
+  },
+  {
+    "title": "How to Apply for Medicaid",
+    "desc": "Free and low-cost health coverage — eligibility, how to apply, and why it matters for housing.",
+    "url": "resources/guides/how-to-apply-for-medicaid.html",
+    "keywords": "medicaid health insurance apply coverage free low cost doctor hospital prescription mental health"
+  },
+  {
+    "title": "Budgeting When Money Is Tight",
+    "desc": "Practical budgeting for people with very little income — priorities, tools, and benefits you might be missing.",
+    "url": "resources/guides/budgeting-when-money-is-tight.html",
+    "keywords": "budget budgeting money tight low income expenses rent food utilities prioritize save financial"
+  },
+  {
+    "title": "Getting Out of Debt",
+    "desc": "Managing medical bills, collections, student loans, and utility arrears when income is limited.",
+    "url": "resources/guides/getting-out-of-debt.html",
+    "keywords": "debt medical bills collections student loans credit cards garnishment bankruptcy settlement arrears owe"
+  },
+  {
+    "title": "Renting with Poor Rental History",
+    "desc": "Past evictions, broken leases, or bad references don't have to keep you from housing.",
+    "url": "resources/guides/renting-with-poor-rental-history.html",
+    "keywords": "rental history eviction broken lease bad reference tenant screening denied apartment background check"
   }
 ]
