@@ -487,12 +487,24 @@ function initShared() {
     }
 
     // Scroll-reveal animations
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) entry.target.classList.add('visible');
-        });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    const fadeEls = document.querySelectorAll('.fade-in');
+    if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        fadeEls.forEach(el => observer.observe(el));
+        // Fallback: if observer hasn't fired after 800ms, force visibility
+        setTimeout(() => {
+            fadeEls.forEach(el => {
+                if (!el.classList.contains('visible')) el.classList.add('visible');
+            });
+        }, 800);
+    } else {
+        // No IntersectionObserver support — show everything immediately
+        fadeEls.forEach(el => el.classList.add('visible'));
+    }
 
     // Functionality features
     renderBackToTop();
