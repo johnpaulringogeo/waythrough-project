@@ -847,6 +847,16 @@
                         { value: 'no-want', label: "No, and I'd like help finding some", desc: '' },
                         { value: 'no-unsure', label: "I don't know where to look", desc: '' }
                     ]
+                },
+                {
+                    id: 'veteran-status',
+                    title: 'Are you a veteran?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Yes', desc: 'You may qualify for veteran-specific housing help' },
+                        { value: 'no', label: 'No', desc: '' }
+                    ]
                 }
             ],
 
@@ -932,6 +942,16 @@
                         { value: 'criminal-record', label: 'Criminal record', desc: '' },
                         { value: 'disability', label: 'Disability or accessibility needs', desc: '' },
                         { value: 'none', label: 'None of these', desc: '' }
+                    ]
+                },
+                {
+                    id: 'veteran-status',
+                    title: 'Are you a veteran?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Yes', desc: 'You may qualify for HUD-VASH and other veteran housing programs' },
+                        { value: 'no', label: 'No', desc: '' }
                     ]
                 }
             ],
@@ -1036,7 +1056,8 @@
         }
 
         function getTotalSteps() {
-            return 1 + getCurrentFlow().length + 1; // Q1 + branch + scope
+            var scopeStep = state.branch === 'stay-tonight' ? 0 : 1;
+            return 1 + getCurrentFlow().length + scopeStep; // Q1 + branch + scope (if applicable)
         }
 
         function getCurrentStepNumber() {
@@ -1271,20 +1292,14 @@
 
             // Check if we've exhausted branch questions
             var flow = getCurrentFlow();
-            while (state.questionIndex !== 'scope' && state.questionIndex >= flow.length) {
-                state.questionIndex = 'scope';
-            }
-            // Skip conditional questions whose condition isn't met
-            while (state.questionIndex !== 'scope' && typeof state.questionIndex === 'number' && state.questionIndex < flow.length) {
-                var q = flow[state.questionIndex];
-                if (q.showIf && !q.showIf(state.answers)) {
-                    state.questionIndex++;
-                    if (state.questionIndex >= flow.length) {
-                        state.questionIndex = 'scope';
-                    }
-                } else {
-                    break;
+            if (state.questionIndex !== 'scope' && state.questionIndex >= flow.length) {
+                // Crisis branch: skip the scope question and show everything
+                if (state.branch === 'stay-tonight') {
+                    state.answers.scope = 'comprehensive';
+                    showResults();
+                    return;
                 }
+                state.questionIndex = 'scope';
             }
 
             renderQuestion(getCurrentQuestionDef());
@@ -1419,10 +1434,20 @@
                 var who = a.who || [];
                 if (who.indexOf('veteran') !== -1) {
                     focused.push({
+                        title: 'Veterans Crisis Line',
+                        description: 'Call 988 and press 1, or text 838255. Available 24/7. They can also connect you with VA emergency housing services.',
+                        meta: 'Veterans \u2022 Crisis \u2022 24/7'
+                    });
+                    focused.push({
                         title: 'HUD-VASH for Veterans',
                         link: 'guides/how-to-apply-hud-vash.html',
                         description: 'Rapid rehousing with VA case management specifically for veterans experiencing homelessness.',
                         meta: 'Veterans \u2022 Housing'
+                    });
+                    focused.push({
+                        title: 'SSVF — Supportive Services for Veteran Families',
+                        description: 'A VA program that provides rapid rehousing, emergency shelter funds, and case management for veterans in crisis. Call 877-424-3838.',
+                        meta: 'Veterans \u2022 Emergency'
                     });
                 }
 
@@ -1502,11 +1527,26 @@
                         meta: 'First Step'
                     });
 
+                    if (a['repair-stage'] === 'condemned' || a['repair-stage'] === 'code-violations') {
+                        additional.push({
+                            title: 'How to Prevent Foreclosure',
+                            link: 'guides/how-to-prevent-foreclosure.html',
+                            description: 'If repair costs are threatening your mortgage, explore your options early.',
+                            meta: 'Mortgage'
+                        });
+                    }
+
                     additional.push({
-                        title: 'How to Prevent Foreclosure',
-                        link: 'guides/how-to-prevent-foreclosure.html',
-                        description: 'If repair costs are threatening your mortgage, explore your options early.',
-                        meta: 'Mortgage'
+                        title: 'Apply for SNAP (Food Stamps)',
+                        link: 'guides/how-to-apply-for-snap.html',
+                        description: 'Reduce your grocery bill so more of your money can go toward repairs.',
+                        meta: 'Benefits'
+                    });
+                    additional.push({
+                        title: 'Apply for Medicaid',
+                        link: 'guides/how-to-apply-for-medicaid.html',
+                        description: 'Free health coverage can free up money for home repairs.',
+                        meta: 'Benefits'
                     });
                 }
 
@@ -1708,6 +1748,20 @@
                     });
                 }
 
+                if (a.stage === 'worried') {
+                    focused.push({
+                        title: 'Talk to Your Landlord Now',
+                        description: 'If you\'re behind or expect to be, contact your landlord before they take action. Many landlords prefer a payment plan over the eviction process. Put any agreement in writing.',
+                        meta: 'Prevention \u2022 First Step'
+                    });
+                    focused.push({
+                        title: 'Emergency Rental Assistance',
+                        link: 'guides/emergency-rental-assistance.html',
+                        description: 'Apply now, before you get a notice. Many programs process faster when there\'s no eviction filing involved.',
+                        meta: 'Financial \u2022 Prevention'
+                    });
+                }
+
                 focused.push({
                     title: 'How to Avoid Eviction',
                     link: 'guides/how-to-avoid-eviction.html',
@@ -1745,6 +1799,21 @@
                     description: 'Know what your lease actually says and what terms are enforceable.',
                     meta: 'Tenant Rights'
                 });
+
+                // ---- VETERAN (facing-eviction) ----
+                if (a['veteran-status'] === 'yes') {
+                    focused.push({
+                        title: 'SSVF — Supportive Services for Veteran Families',
+                        description: 'A VA program specifically designed to prevent veteran homelessness. They can help with rent, utilities, deposits, and legal assistance. Call 877-424-3838.',
+                        meta: 'Veterans \u2022 Prevention'
+                    });
+                    additional.push({
+                        title: 'HUD-VASH for Veterans',
+                        link: 'guides/how-to-apply-hud-vash.html',
+                        description: 'Housing voucher with VA case management — an option if you lose your current housing.',
+                        meta: 'Veterans \u2022 Housing'
+                    });
+                }
             }
 
             // ---- LOST JOB ----
@@ -1757,10 +1826,21 @@
                 });
 
                 if (a.unemployment === 'no' || a.unemployment === 'not-sure') {
+                    var urgentFiling = a.when === 'this-week' || a.when === 'past-month';
                     focused.push({
                         title: 'File for Unemployment Benefits',
-                        description: 'File online through your state\'s unemployment website. Even if you were fired, you may still qualify \u2014 file anyway.',
-                        meta: 'Income \u2022 Immediate'
+                        description: urgentFiling
+                            ? 'File as soon as possible \u2014 benefits are backdated to your filing date, not your last day of work. Every day you wait is money you lose.'
+                            : 'File online through your state\'s unemployment website. Even if you were fired, you may still qualify \u2014 file anyway.',
+                        meta: urgentFiling ? 'Income \u2022 Do This Today' : 'Income \u2022 Immediate'
+                    });
+                }
+
+                if (a.when === 'this-week') {
+                    focused.push({
+                        title: 'COBRA or Marketplace Coverage',
+                        description: 'You have 60 days to elect COBRA and 60 days for a Special Enrollment Period on the marketplace. Don\'t let these deadlines pass.',
+                        meta: 'Healthcare \u2022 Time-Sensitive'
                     });
                 }
 
@@ -1930,6 +2010,22 @@
                     description: 'Paperwork you\'ll need for any housing application.',
                     meta: 'Preparation'
                 });
+
+                // ---- VETERAN (find-apartment) ----
+                if (a['veteran-status'] === 'yes') {
+                    focused.push({
+                        title: 'HUD-VASH for Veterans',
+                        link: 'guides/how-to-apply-hud-vash.html',
+                        description: 'A housing voucher with VA case management — specifically for veterans. Shorter waiting lists than regular Section 8.',
+                        meta: 'Veterans \u2022 Housing'
+                    });
+                    additional.push({
+                        title: 'VA Benefits for Veterans',
+                        link: 'guides/va-benefits.html',
+                        description: 'Disability compensation, pension, and healthcare — extra income that makes housing more affordable.',
+                        meta: 'Veterans \u2022 Benefits'
+                    });
+                }
             }
 
             // ---- VOUCHER ISSUE ----
