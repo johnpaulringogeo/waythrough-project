@@ -369,38 +369,6 @@ function renderFooter() {
     document.body.append(footer);
 }
 
-// ── Render Newsletter CTA (optional, include on any page) ──
-function renderNewsletter(targetSelector) {
-    const target = targetSelector
-        ? document.querySelector(targetSelector)
-        : null;
-
-    const section = document.createElement('section');
-    section.className = 'cta-section';
-    section.id = 'newsletter';
-    section.innerHTML = `
-        <div class="container">
-            <div class="cta-inner fade-in">
-                <h2>Stay Connected. Stay Informed.</h2>
-                <p>Get weekly tips, new resource alerts, and affordable housing news delivered straight to your inbox. No spam, no sales &mdash; just help.</p>
-                <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed!'; this.querySelector('input').value='';">
-                    <label for="newsletter-email" class="sr-only">Email address</label>
-                    <input type="email" id="newsletter-email" placeholder="Enter your email address" required aria-label="Email address">
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    `;
-    if (target) {
-        target.after(section);
-    } else {
-        // Insert before footer
-        const footer = document.querySelector('.footer');
-        if (footer) footer.before(section);
-        else document.body.append(section);
-    }
-}
-
 // ── Back to Top Button ──
 function renderBackToTop() {
     const btn = document.createElement('button');
@@ -550,9 +518,5 @@ document.addEventListener('DOMContentLoaded', () => {
         main.prepend(anchor);
     }
 
-    // Auto-add newsletter if page has the data attribute
-    if (document.body.dataset.newsletter !== 'false') {
-        renderNewsletter();
-    }
     initShared();
 });
