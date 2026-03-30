@@ -652,7 +652,7 @@ select:focus-visible {
     margin-bottom: 10px;
 }
 .tag-guide { background: var(--color-primary-light); color: var(--color-primary-dark); }
-.tag-checklist { background: var(--tag-checklist-bg, #d1fae5); color: var(--tag-checklist-text, #059669); }
+.tag-checklist { background: var(--tag-checklist-bg, #d1fae5); color: var(--tag-checklist-text, #047857); }
 .tag-rights { background: var(--tag-rights-bg, #fef3c7); color: var(--tag-rights-text, #b45309); }
 .tag-program { background: var(--tag-program-bg, #ede9fe); color: var(--tag-program-text, #7c3aed); }
 .guide-item h3 {
