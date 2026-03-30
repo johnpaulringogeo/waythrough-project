@@ -247,6 +247,7 @@ select:focus-visible {
 .nav-logo-img {
     width: 36px;
     height: auto;
+    aspect-ratio: 72 / 39;
 }
 .nav-links { display: flex; gap: 28px; list-style: none; }
 .nav-links a {
@@ -456,7 +457,7 @@ select:focus-visible {
     gap: 40px;
     margin-bottom: 40px;
 }
-.footer-logo { width: 80px; height: auto; margin-bottom: 12px; }
+.footer-logo { width: 80px; height: auto; aspect-ratio: 200 / 108; margin-bottom: 12px; }
 .footer-brand h3 { font-size: 1.05rem; color: var(--color-text); margin-bottom: 10px; }
 .footer-brand p { font-size: 0.85rem; line-height: 1.7; margin-bottom: 16px; }
 .footer-social { display: flex; gap: 10px; }

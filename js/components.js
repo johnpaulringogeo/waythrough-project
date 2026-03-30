@@ -227,7 +227,10 @@ function renderNav() {
     nav.innerHTML = `
         <div class="container nav-inner">
             <a href="${root}index.html" class="nav-logo">
-                <img src="${root}images/logo-icon.png" alt="" class="nav-logo-img" aria-hidden="true">
+                <picture aria-hidden="true">
+                    <source srcset="${root}images/logo-icon.webp" type="image/webp">
+                    <img src="${root}images/logo-icon.png" alt="" class="nav-logo-img" width="72" height="39">
+                </picture>
                 Waythrough Project
             </a>
             <ul class="nav-links">
@@ -361,7 +364,10 @@ function renderFooter() {
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <img src="${root}images/logo-icon-md.png" alt="Waythrough Project" class="footer-logo">
+                    <picture>
+                        <source srcset="${root}images/logo-icon-md.webp" type="image/webp">
+                        <img src="${root}images/logo-icon-md.png" alt="Waythrough Project" class="footer-logo" width="200" height="108">
+                    </picture>
                     <h3>Waythrough Project</h3>
                     <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
                     <div class="footer-social">
