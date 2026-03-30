@@ -1100,10 +1100,16 @@
                 });
             });
 
-            // Update nav
+            // Update nav — hide Continue and Skip for single-select (auto-advances on click)
             backBtn.disabled = state.history.length === 0;
-            skipBtn.disabled = qDef.required;
-            skipBtn.style.display = qDef.required ? 'none' : '';
+            if (qDef.multi) {
+                nextBtn.style.display = '';
+                skipBtn.style.display = qDef.required ? 'none' : '';
+                skipBtn.disabled = qDef.required;
+            } else {
+                nextBtn.style.display = 'none';
+                skipBtn.style.display = 'none';
+            }
 
             // Update progress
             var total = getTotalSteps();
@@ -1160,6 +1166,9 @@
                 clickedBtn.classList.add('selected');
                 clickedBtn.setAttribute('aria-pressed', 'true');
                 state.answers[qDef.id] = value;
+
+                // Auto-advance after a brief delay so the selection is visible
+                setTimeout(function() { advance(); }, 250);
             }
         }
 
