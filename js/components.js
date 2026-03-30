@@ -117,6 +117,7 @@ function openSearch() {
     searchActiveIndex = -1;
     overlay.classList.add('active');
     overlay.setAttribute('aria-hidden', 'false');
+    overlay.removeAttribute('inert');
     document.getElementById('searchToggle').setAttribute('aria-expanded', 'true');
     input.focus();
     loadSearchIndex();
@@ -131,6 +132,7 @@ function closeSearch() {
     searchActiveIndex = -1;
     overlay.classList.remove('active');
     overlay.setAttribute('aria-hidden', 'true');
+    overlay.setAttribute('inert', '');
     input.value = '';
     input.removeAttribute('aria-activedescendant');
     document.getElementById('searchResults').innerHTML = '';
@@ -254,6 +256,7 @@ function renderNav() {
     searchOverlay.className = 'search-overlay';
     searchOverlay.id = 'searchOverlay';
     searchOverlay.setAttribute('aria-hidden', 'true');
+    searchOverlay.setAttribute('inert', '');
     searchOverlay.setAttribute('role', 'dialog');
     searchOverlay.setAttribute('aria-label', 'Search resources');
     searchOverlay.innerHTML = `

@@ -59,7 +59,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     --color-accent: #fbbf24;
     --color-text: #e2e8f0;
     --color-text-light: #94a3b8;
-    --color-text-muted: #64748b;
+    --color-text-muted: #8494a7;
     --color-bg: #0f172a;
     --color-bg-warm: #1e293b;
     --color-bg-soft: #1e293b;
@@ -1164,7 +1164,9 @@ select:focus-visible {
 }
 .breadcrumbs a {
     color: var(--color-text-light);
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 2px;
 }
 .breadcrumbs a:hover {
     color: var(--color-primary);
