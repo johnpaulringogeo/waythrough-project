@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Waythrough Project Blog</title>
+    <link>https://waythroughproject.com/blog/</link>
+    <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://waythroughproject.com/images/og-default.png</url>
+      <title>Waythrough Project Blog</title>
+      <link>https://waythroughproject.com/blog/</link>
+    </image>
+
+    <item>
+      <title>Section 8 Explained — What It Actually Is and How It Works</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-explained.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-explained.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program — what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>What to Do When a Landlord Rejects Your Voucher</title>
+      <link>https://waythroughproject.com/blog/posts/landlord-rejects-voucher.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/landlord-rejects-voucher.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Landlord won't accept your Section 8 voucher? Here's what you can do about it — your rights, your options, and how to keep moving forward.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>5 Affordable Housing Programs Most People Don't Know About</title>
+      <link>https://waythroughproject.com/blog/posts/five-programs-you-dont-know.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/five-programs-you-dont-know.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Section 8 isn't your only option. Here are five federal housing programs that could help you — and that most people have never heard of.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>Welcome to Waythrough Project</title>
+      <link>https://waythroughproject.com/blog/posts/welcome.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/welcome.html</guid>
+      <pubDate>Sat, 29 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Learn why Waythrough Project was started and what you can expect to find here to help navigate the affordable housing system.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+  </channel>
+</rss>
