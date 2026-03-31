@@ -530,41 +530,6 @@ function addTableOfContents() {
     }
 }
 
-// ── Share / Copy Link Button ──
-function addShareButton() {
-    const content = document.querySelector('.post-content');
-    const header = document.querySelector('.page-header');
-    if (!content || !header) return;
-
-    const bar = document.createElement('div');
-    bar.className = 'share-bar';
-    bar.innerHTML = `
-        <button class="share-btn" id="copyLinkBtn" aria-label="Copy link to this page">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-            <span>Copy Link</span>
-        </button>
-    `;
-
-    // Insert at top of post content
-    content.prepend(bar);
-
-    document.getElementById('copyLinkBtn').addEventListener('click', function() {
-        navigator.clipboard.writeText(window.location.href).then(() => {
-            this.querySelector('span').textContent = 'Copied!';
-            setTimeout(() => { this.querySelector('span').textContent = 'Copy Link'; }, 2000);
-        }).catch(() => {
-            // Fallback
-            const input = document.createElement('input');
-            input.value = window.location.href;
-            document.body.appendChild(input);
-            input.select();
-            document.execCommand('copy');
-            document.body.removeChild(input);
-            this.querySelector('span').textContent = 'Copied!';
-            setTimeout(() => { this.querySelector('span').textContent = 'Copy Link'; }, 2000);
-        });
-    });
-}
 
 // ── Initialize shared behaviors ──
 function initShared() {
@@ -600,7 +565,6 @@ function initShared() {
     renderBackToTop();
     addReadingTime();
     addTableOfContents();
-    addShareButton();
 }
 
 // ── Boot ──
