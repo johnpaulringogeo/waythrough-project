@@ -432,8 +432,7 @@ function renderAskCTA() {
     if (path === '/blog/' || path === '/blog/index.html') return;
     if (path === '/videos/' || path === '/videos/index.html') return;
 
-    const mains = document.querySelectorAll('main');
-    const main = mains.length > 0 ? mains[mains.length - 1] : null;
+    const main = document.querySelector('main');
     if (!main) return;
 
     const cta = document.createElement('div');
@@ -603,9 +602,8 @@ document.addEventListener('DOMContentLoaded', () => {
     renderAskCTA();
     renderFooter();
 
-    // Add skip-link target: find last <main> (first may be breadcrumb wrapper) or first content section
-    const allMains = document.querySelectorAll('main');
-    const main = (allMains.length > 0 ? allMains[allMains.length - 1] : null) || document.querySelector('.welcome') || document.querySelector('.page-header');
+    // Add skip-link target: find <main> or first content section
+    const main = document.querySelector('main') || document.querySelector('.welcome') || document.querySelector('.page-header');
     if (main && !main.id) {
         main.id = 'main-content';
     } else if (!document.getElementById('main-content') && main) {
