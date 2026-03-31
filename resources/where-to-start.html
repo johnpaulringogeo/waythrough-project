@@ -1280,7 +1280,14 @@
             // Determine next question
             if (state.questionIndex === -1) {
                 // Just answered Q1 — set branch
-                state.branch = state.answers[Q1.id];
+                var newBranch = state.answers[Q1.id];
+                if (newBranch !== state.branch) {
+                    // Branch changed — clear all previous branch answers, keep only Q1
+                    var q1Answer = state.answers[Q1.id];
+                    state.answers = {};
+                    state.answers[Q1.id] = q1Answer;
+                }
+                state.branch = newBranch;
                 state.questionIndex = 0;
             } else if (state.questionIndex === 'scope') {
                 // Done — show results

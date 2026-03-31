@@ -74,6 +74,13 @@ function renderSkipLink() {
 const SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>';
 const CLOSE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>';
 
+// ── HTML escaping (prevents XSS in dynamic content) ──
+function escapeHTML(str) {
+    const div = document.createElement('div');
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+}
+
 // ── Search state ──
 let searchIndex = null;
 let searchOpen = false;
@@ -82,6 +89,7 @@ async function loadSearchIndex() {
     if (searchIndex) return searchIndex;
     try {
         const res = await fetch(root + 'js/search-index.json');
+        if (!res.ok) throw new Error('Search index returned ' + res.status);
         searchIndex = await res.json();
         return searchIndex;
     } catch (e) {
@@ -193,9 +201,9 @@ function renderSearchResults(results) {
         return;
     }
     container.innerHTML = results.map((r, i) => `
-        <a href="${root}${r.url}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
-            <div class="search-result-title">${r.title}</div>
-            <div class="search-result-desc">${r.desc}</div>
+        <a href="${root}${encodeURI(r.url)}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
+            <div class="search-result-title">${escapeHTML(r.title)}</div>
+            <div class="search-result-desc">${escapeHTML(r.desc)}</div>
         </a>
     `).join('');
     liveRegion.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' found. Use arrow keys to navigate.';
@@ -371,11 +379,11 @@ function renderFooter() {
                     <h3>Waythrough Project</h3>
                     <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="YouTube">${ICONS.youtube}</a>
-                        <a href="#" aria-label="Instagram">${ICONS.instagram}</a>
-                        <a href="#" aria-label="TikTok">${ICONS.tiktok}</a>
-                        <a href="#" aria-label="Facebook">${ICONS.facebook}</a>
-                        <a href="#" aria-label="X">${ICONS.x}</a>
+                        <span class="social-link" role="link" aria-label="YouTube — coming soon" tabindex="0">${ICONS.youtube}</span>
+                        <span class="social-link" role="link" aria-label="Instagram — coming soon" tabindex="0">${ICONS.instagram}</span>
+                        <span class="social-link" role="link" aria-label="TikTok — coming soon" tabindex="0">${ICONS.tiktok}</span>
+                        <span class="social-link" role="link" aria-label="Facebook — coming soon" tabindex="0">${ICONS.facebook}</span>
+                        <span class="social-link" role="link" aria-label="X — coming soon" tabindex="0">${ICONS.x}</span>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -401,10 +409,10 @@ function renderFooter() {
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="${root}resources/ask.html">Ask a Question</a></li>
-                        <li><a href="#">YouTube</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">TikTok</a></li>
-                        <li><a href="#">Facebook</a></li>
+                        <li><span class="footer-link-placeholder">YouTube — coming soon</span></li>
+                        <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
+                        <li><span class="footer-link-placeholder">TikTok — coming soon</span></li>
+                        <li><span class="footer-link-placeholder">Facebook — coming soon</span></li>
                     </ul>
                 </div>
             </div>
@@ -444,7 +452,7 @@ function renderAskCTA() {
                     <strong>Still have questions?</strong>
                     <p>If something on this page didn't make sense or you're not sure how it applies to your situation, ask us. We read every question.</p>
                 </div>
-                <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question ${ICONS.arrow}</a>
             </div>
         </div>
     `;
@@ -462,7 +470,7 @@ function renderBackToTop() {
 
     window.addEventListener('scroll', () => {
         btn.classList.toggle('visible', window.scrollY > 400);
-    });
+    }, { passive: true });
     btn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
@@ -501,7 +509,7 @@ function addTableOfContents() {
         }
     });
 
-    const toc = document.createElement('nav');
+    const toc = document.createElement('aside');
     toc.className = 'toc';
     toc.setAttribute('aria-label', 'Table of contents');
     let tocHTML = '<div class="toc-title">In This Guide</div><ol class="toc-list">';
@@ -565,7 +573,7 @@ function initShared() {
     if (nav) {
         window.addEventListener('scroll', () => {
             nav.classList.toggle('scrolled', window.scrollY > 20);
-        });
+        }, { passive: true });
     }
 
     // Scroll-reveal animations
