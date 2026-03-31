@@ -966,7 +966,7 @@ select:focus-visible {
 
 /* ===== BLOG POST / GUIDE PAGE ===== */
 .page-header {
-    padding: 110px 0 48px;
+    padding: 110px 0 36px;
     background: var(--color-bg-warm);
     border-bottom: 1px solid var(--color-border);
 }
@@ -984,7 +984,7 @@ select:focus-visible {
     gap: 16px;
 }
 .post-content {
-    padding: 48px 0 80px;
+    padding: 28px 0 80px;
     max-width: 720px;
 }
 .post-content h2 {
