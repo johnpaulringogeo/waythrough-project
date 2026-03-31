@@ -984,7 +984,7 @@ select:focus-visible {
     gap: 16px;
 }
 .post-content {
-    padding: 28px 0 80px;
+    padding: 28px 0 48px;
     max-width: 720px;
 }
 .post-content h2 {
@@ -1167,7 +1167,7 @@ select:focus-visible {
 
 /* ===== RELATED RESOURCES ===== */
 .related-resources {
-    padding: 60px 0 72px;
+    padding: 48px 0 0;
     border-top: 1px solid var(--color-border);
     margin-top: 48px;
 }
