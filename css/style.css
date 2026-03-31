@@ -984,7 +984,7 @@ select:focus-visible {
     gap: 16px;
 }
 .post-content {
-    padding: 28px 0 48px;
+    padding: 28px 0 0;
     max-width: 720px;
 }
 .post-content h2 {
@@ -1206,13 +1206,11 @@ select:focus-visible {
 }
 
 /* ===== ASK A QUESTION CTA ===== */
-.post-content > .ask-cta:last-child { margin-bottom: -48px; }
 .ask-cta {
-    margin-top: 3rem;
+    max-width: 720px;
+    margin: 48px auto;
 }
 .ask-cta-inner {
-    max-width: 720px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;

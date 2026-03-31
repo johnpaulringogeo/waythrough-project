@@ -446,14 +446,12 @@ function renderAskCTA() {
     const cta = document.createElement('div');
     cta.className = 'ask-cta';
     cta.innerHTML = `
-        <div class="container">
-            <div class="ask-cta-inner">
-                <div class="ask-cta-text">
-                    <strong>Still have questions?</strong>
-                    <p>If something on this page didn't make sense or you're not sure how it applies to your situation, ask us. We read every question.</p>
-                </div>
-                <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question ${ICONS.arrow}</a>
+        <div class="ask-cta-inner">
+            <div class="ask-cta-text">
+                <strong>Still have questions?</strong>
+                <p>If something on this page didn't make sense or you're not sure how it applies to your situation, ask us. We read every question.</p>
             </div>
+            <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question ${ICONS.arrow}</a>
         </div>
     `;
     main.append(cta);
