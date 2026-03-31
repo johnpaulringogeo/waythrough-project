@@ -374,7 +374,7 @@ function renderFooter() {
                 <div class="footer-brand">
                     <picture>
                         <source srcset="${root}images/logo-icon-md.webp" type="image/webp">
-                        <img src="${root}images/logo-icon-md.png" alt="Waythrough Project" class="footer-logo" width="200" height="108">
+                        <img src="${root}images/logo-icon-md.png" alt="Waythrough Project" class="footer-logo" width="200" height="108" loading="lazy">
                     </picture>
                     <h3>Waythrough Project</h3>
                     <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
