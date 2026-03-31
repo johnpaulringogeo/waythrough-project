@@ -1212,7 +1212,7 @@ select:focus-visible {
     margin-top: 3rem;
 }
 .ask-cta-inner {
-    max-width: var(--max-width);
+    max-width: 720px;
     margin: 0 auto;
     display: flex;
     align-items: center;
