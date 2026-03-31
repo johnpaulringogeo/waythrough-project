@@ -617,9 +617,20 @@
                         <h4>I have a voucher but I'm having trouble using it</h4>
                         <p>Voucher problems are common and usually fixable.</p>
                         <ul>
+                            <li><a href="guides/source-of-income-protections.html">Source-of-income protections</a> — many areas make it illegal to reject vouchers.</li>
                             <li><a href="guides/how-to-transfer-voucher.html">Portability guide</a> — if you want to move to another state or area.</li>
                             <li><a href="guides/how-to-handle-recertification.html">Recertification questions?</a> We walk you through the annual process.</li>
-                            <li><a href="guides/how-to-file-housing-discrimination-complaint.html">Facing discrimination</a> because you have a voucher?</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h4>I'm being treated unfairly or discriminated against</h4>
+                        <p>You have legal protections. Here's how to use them.</p>
+                        <ul>
+                            <li><a href="guides/how-to-file-housing-discrimination-complaint.html">File a housing discrimination complaint</a> — the process is free and confidential.</li>
+                            <li><a href="guides/source-of-income-protections.html">Source-of-income protections</a> — if a landlord rejected your voucher.</li>
+                            <li><a href="guides/how-to-request-reasonable-accommodation.html">Reasonable accommodations</a> — if a disability accommodation was denied.</li>
+                            <li><a href="guides/how-to-appeal-housing-denial.html">Appeal a denial</a> — steps to contest an unfair housing decision.</li>
                         </ul>
                     </div>
 
@@ -695,6 +706,7 @@
                 { value: 'lost-job', label: 'I just lost my job', desc: 'Unemployment, benefits, and keeping your housing' },
                 { value: 'find-apartment', label: 'I want to find an affordable apartment', desc: 'Housing search and application help' },
                 { value: 'voucher-issue', label: "I have a voucher but can't find a landlord", desc: 'Voucher use and landlord issues' },
+                { value: 'discrimination', label: "I'm being treated unfairly or discriminated against", desc: 'Housing denial, landlord issues, or rights violations' },
                 { value: 'non-housing', label: 'I need help with non-housing basics', desc: 'Food, healthcare, income, or employment' }
             ]
         };
@@ -789,13 +801,15 @@
                     ]
                 },
                 {
-                    id: 'veteran-status',
-                    title: 'Are you a veteran?',
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
                     required: false,
-                    multi: false,
+                    multi: true,
                     options: [
-                        { value: 'yes', label: 'Yes', desc: 'You may qualify for additional VA benefits' },
-                        { value: 'no', label: 'No', desc: '' }
+                        { value: 'veteran', label: "I'm a veteran", desc: 'VA benefits and veteran housing programs' },
+                        { value: 'senior', label: "I'm 62 or older", desc: 'Senior housing programs and benefits' },
+                        { value: 'disability', label: 'I have a disability', desc: 'Accessible housing and accommodations' },
+                        { value: 'none', label: 'None of these', desc: '' }
                     ]
                 },
                 {
@@ -850,13 +864,16 @@
                     ]
                 },
                 {
-                    id: 'veteran-status',
-                    title: 'Are you a veteran?',
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
                     required: false,
-                    multi: false,
+                    multi: true,
                     options: [
-                        { value: 'yes', label: 'Yes', desc: 'You may qualify for veteran-specific housing help' },
-                        { value: 'no', label: 'No', desc: '' }
+                        { value: 'veteran', label: "I'm a veteran", desc: 'Veteran-specific housing help' },
+                        { value: 'senior', label: "I'm 62 or older", desc: 'Senior housing programs' },
+                        { value: 'disability', label: 'I have a disability', desc: 'Accessible housing and accommodations' },
+                        { value: 'dv-survivor', label: "I'm a survivor of domestic violence", desc: 'Safety protections and housing rights' },
+                        { value: 'none', label: 'None of these', desc: '' }
                     ]
                 }
             ],
@@ -897,13 +914,15 @@
                     ]
                 },
                 {
-                    id: 'veteran-status',
-                    title: 'Are you a veteran?',
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
                     required: false,
-                    multi: false,
+                    multi: true,
                     options: [
-                        { value: 'yes', label: 'Yes', desc: 'You may qualify for additional VA benefits' },
-                        { value: 'no', label: 'No', desc: '' }
+                        { value: 'veteran', label: "I'm a veteran", desc: 'VA benefits and veteran housing' },
+                        { value: 'senior', label: "I'm 62 or older", desc: 'Senior programs and benefits' },
+                        { value: 'disability', label: 'I have a disability', desc: 'Disability benefits and accommodations' },
+                        { value: 'none', label: 'None of these', desc: '' }
                     ]
                 }
             ],
@@ -946,13 +965,16 @@
                     ]
                 },
                 {
-                    id: 'veteran-status',
-                    title: 'Are you a veteran?',
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
                     required: false,
-                    multi: false,
+                    multi: true,
                     options: [
-                        { value: 'yes', label: 'Yes', desc: 'You may qualify for HUD-VASH and other veteran housing programs' },
-                        { value: 'no', label: 'No', desc: '' }
+                        { value: 'veteran', label: "I'm a veteran", desc: 'HUD-VASH and veteran housing programs' },
+                        { value: 'senior', label: "I'm 62 or older", desc: 'Senior housing and preferences' },
+                        { value: 'disability', label: 'I have a disability', desc: 'Accessible housing and accommodations' },
+                        { value: 'recovery', label: "I'm in recovery from substance use", desc: 'Recovery housing and protections' },
+                        { value: 'none', label: 'None of these', desc: '' }
                     ]
                 }
             ],
@@ -983,6 +1005,44 @@
                 }
             ],
 
+            'discrimination': [
+                {
+                    id: 'discrimination-type',
+                    title: 'What kind of unfair treatment are you experiencing?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'voucher-rejected', label: 'A landlord rejected my voucher', desc: 'Source-of-income discrimination' },
+                        { value: 'denied-housing', label: 'I was denied housing', desc: 'Application denied for unclear or unfair reasons' },
+                        { value: 'accommodation-denied', label: 'My accommodation request was denied', desc: 'Disability, service animal, or modification request' },
+                        { value: 'other-discrimination', label: 'Other unfair treatment by a landlord or housing program', desc: 'Harassment, retaliation, or different treatment' }
+                    ]
+                },
+                {
+                    id: 'discrimination-basis',
+                    title: 'Do you think the unfair treatment is because of any of these?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'disability', label: 'Disability', desc: '' },
+                        { value: 'race', label: 'Race, color, or national origin', desc: '' },
+                        { value: 'family', label: 'Family status (having children)', desc: '' },
+                        { value: 'voucher', label: 'Having a voucher', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: "I'm a veteran", desc: '' },
+                        { value: 'disability', label: 'I have a disability', desc: '' },
+                        { value: 'none', label: 'None of these', desc: '' }
+                    ]
+                }
+            ],
+
             'non-housing': [
                 {
                     id: 'needs',
@@ -1009,13 +1069,15 @@
                     ]
                 },
                 {
-                    id: 'veteran-status',
-                    title: 'Are you a veteran?',
+                    id: 'about-you',
+                    title: 'Do any of these apply to you?',
                     required: false,
-                    multi: false,
+                    multi: true,
                     options: [
-                        { value: 'yes', label: 'Yes', desc: 'You may qualify for VA healthcare and other benefits' },
-                        { value: 'no', label: 'No', desc: '' }
+                        { value: 'veteran', label: "I'm a veteran", desc: 'VA healthcare and other benefits' },
+                        { value: 'senior', label: "I'm 62 or older", desc: 'Senior-specific benefits' },
+                        { value: 'disability', label: 'I have a disability', desc: 'Disability benefits' },
+                        { value: 'none', label: 'None of these', desc: '' }
                     ]
                 }
             ]
@@ -1421,21 +1483,19 @@
                     meta: 'Emergency \u2022 Immediate'
                 });
 
+                focused.push({
+                    title: 'Emergency Housing Resources',
+                    link: 'emergency-housing.html',
+                    description: 'Emergency shelters, what to expect, crisis hotlines, and immediate next steps.',
+                    meta: 'Emergency \u2022 Start Here'
+                });
+
                 if (a.danger === 'dv') {
                     focused.push({
                         title: 'Support for Domestic Violence Survivors',
                         link: '../who-we-help/dv-survivors.html',
                         description: 'Confidential emergency shelter, safety planning, and legal advocacy. You don\'t have to go back.',
                         meta: 'Safety \u2022 Confidential'
-                    });
-                }
-
-                if (a.danger === 'dv' || a.danger === 'danger-other') {
-                    focused.push({
-                        title: 'Emergency Housing Resources',
-                        link: 'emergency-housing.html',
-                        description: '24/7 shelters, crisis hotlines, and immediate assistance.',
-                        meta: 'Emergency'
                     });
                 }
 
@@ -1696,8 +1756,9 @@
                     }
                 }
 
-                // ---- VETERAN (pay-rent) ----
-                if (a['veteran-status'] === 'yes') {
+                // ---- IDENTITY-BASED RESOURCES (pay-rent) ----
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'VA Benefits for Veterans',
                         link: 'guides/va-benefits.html',
@@ -1716,6 +1777,22 @@
                         link: 'guides/how-to-apply-hud-vash.html',
                         description: 'Housing voucher with VA case management for veterans at risk of homelessness.',
                         meta: 'Veterans \u2022 Housing'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    focused.push({
+                        title: 'Housing Resources for Seniors',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Section 202, elderly preferences, aging-in-place modifications, property tax relief, and Area Agencies on Aging.',
+                        meta: 'Seniors \u2022 Programs'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Housing Resources for People with Disabilities',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Section 811, reasonable accommodations, accessible housing options, and your legal rights.',
+                        meta: 'Disabilities \u2022 Rights'
                     });
                 }
 
@@ -1808,8 +1885,9 @@
                     meta: 'Tenant Rights'
                 });
 
-                // ---- VETERAN (facing-eviction) ----
-                if (a['veteran-status'] === 'yes') {
+                // ---- IDENTITY-BASED RESOURCES (facing-eviction) ----
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'SSVF — Supportive Services for Veteran Families',
                         description: 'A VA program specifically designed to prevent veteran homelessness. They can help with rent, utilities, deposits, and legal assistance. Call 877-424-3838.',
@@ -1820,6 +1898,30 @@
                         link: 'guides/how-to-apply-hud-vash.html',
                         description: 'Housing voucher with VA case management — an option if you lose your current housing.',
                         meta: 'Veterans \u2022 Housing'
+                    });
+                }
+                if (aboutYou.indexOf('dv-survivor') !== -1) {
+                    focused.push({
+                        title: 'VAWA Protections for DV Survivors',
+                        link: '../who-we-help/dv-survivors.html',
+                        description: 'You cannot be evicted because of domestic violence. VAWA protects your housing — learn how.',
+                        meta: 'Safety \u2022 Rights'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Housing Resources for Seniors',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Senior housing programs and Area Agencies on Aging that can help with eviction prevention.',
+                        meta: 'Seniors'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Disability Housing Rights',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Reasonable accommodations and legal protections that may apply to your eviction situation.',
+                        meta: 'Disabilities \u2022 Rights'
                     });
                 }
             }
@@ -1900,8 +2002,9 @@
                     meta: 'Finances'
                 });
 
-                // ---- VETERAN (lost-job) ----
-                if (a['veteran-status'] === 'yes') {
+                // ---- IDENTITY-BASED RESOURCES (lost-job) ----
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'VA Benefits for Veterans',
                         link: 'guides/va-benefits.html',
@@ -1913,6 +2016,22 @@
                         link: 'guides/how-to-apply-hud-vash.html',
                         description: 'Housing voucher with VA case management if you\u2019re at risk of losing your home.',
                         meta: 'Veterans \u2022 Housing'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Housing Resources for Seniors',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Senior housing programs that can help if job loss threatens your housing stability.',
+                        meta: 'Seniors'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Apply for SSI/SSDI',
+                        link: 'guides/how-to-apply-ssi-ssdi.html',
+                        description: 'If you have a disability, you may qualify for disability income even without employment.',
+                        meta: 'Disability \u2022 Income'
                     });
                 }
 
@@ -2019,8 +2138,18 @@
                     meta: 'Preparation'
                 });
 
-                // ---- VETERAN (find-apartment) ----
-                if (a['veteran-status'] === 'yes') {
+                if (a['applied-before'] === 'waiting') {
+                    additional.push({
+                        title: 'Waiting List Strategies',
+                        link: 'guides/waiting-list-strategies.html',
+                        description: 'How to stay active on the list, apply to multiple PHAs, and find faster alternatives.',
+                        meta: 'Waitlist'
+                    });
+                }
+
+                // ---- IDENTITY-BASED RESOURCES (find-apartment) ----
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'HUD-VASH for Veterans',
                         link: 'guides/how-to-apply-hud-vash.html',
@@ -2034,22 +2163,46 @@
                         meta: 'Veterans \u2022 Benefits'
                     });
                 }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    focused.push({
+                        title: 'Housing Resources for Seniors',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Section 202 senior housing, elderly preferences for Section 8, and Area Agencies on Aging.',
+                        meta: 'Seniors \u2022 Programs'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    focused.push({
+                        title: 'Housing Resources for People with Disabilities',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Section 811, accessible housing, reasonable accommodations, and disability-specific programs.',
+                        meta: 'Disabilities \u2022 Programs'
+                    });
+                }
+                if (aboutYou.indexOf('recovery') !== -1) {
+                    additional.push({
+                        title: 'Substance Use & Recovery Housing',
+                        link: 'substance-use.html',
+                        description: 'Oxford Houses, sober living, and housing programs that support recovery.',
+                        meta: 'Recovery'
+                    });
+                }
             }
 
             // ---- VOUCHER ISSUE ----
             if (branch === 'voucher-issue') {
                 if (a.problem === 'wont-accept') {
                     focused.push({
-                        title: 'File a Housing Discrimination Complaint',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
-                        description: 'In many areas, rejecting a voucher is illegal. Here\'s how to file a complaint.',
+                        title: 'Source-of-Income Protections',
+                        link: 'guides/source-of-income-protections.html',
+                        description: 'Many states and cities make it illegal for landlords to reject vouchers. Check if you\'re protected.',
                         meta: 'Rights \u2022 Legal'
                     });
                     focused.push({
-                        title: 'Know Your Tenant Rights',
-                        link: 'tenant-rights.html',
-                        description: 'Source-of-income discrimination laws and your protections.',
-                        meta: 'Rights'
+                        title: 'File a Housing Discrimination Complaint',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        description: 'If rejecting your voucher is illegal in your area, here\'s how to file a complaint.',
+                        meta: 'Rights \u2022 Legal'
                     });
                 }
 
@@ -2103,6 +2256,97 @@
                 });
             }
 
+            // ---- DISCRIMINATION ----
+            if (branch === 'discrimination') {
+                focused.push({
+                    title: 'File a Housing Discrimination Complaint',
+                    link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                    description: 'Step-by-step guide to filing a complaint with HUD. The process is free and confidential.',
+                    meta: 'Rights \u2022 Legal'
+                });
+
+                if (a['discrimination-type'] === 'voucher-rejected') {
+                    focused.push({
+                        title: 'Source-of-Income Protections',
+                        link: 'guides/source-of-income-protections.html',
+                        description: 'Many states and cities make it illegal to reject vouchers. Find out if you\'re protected.',
+                        meta: 'Voucher \u2022 Rights'
+                    });
+                }
+
+                if (a['discrimination-type'] === 'denied-housing') {
+                    focused.push({
+                        title: 'Appeal a Housing Denial',
+                        link: 'guides/how-to-appeal-housing-denial.html',
+                        description: 'Steps to contest a denial and tips for reapplying successfully.',
+                        meta: 'Appeals'
+                    });
+                    if (a['discrimination-basis'] && a['discrimination-basis'].indexOf('voucher') !== -1) {
+                        focused.push({
+                            title: 'Source-of-Income Protections',
+                            link: 'guides/source-of-income-protections.html',
+                            description: 'Laws that protect you from being denied housing because of your income source.',
+                            meta: 'Voucher \u2022 Rights'
+                        });
+                    }
+                }
+
+                if (a['discrimination-type'] === 'accommodation-denied') {
+                    focused.push({
+                        title: 'Request a Reasonable Accommodation',
+                        link: 'guides/how-to-request-reasonable-accommodation.html',
+                        description: 'Template letter and step-by-step process for requesting disability accommodations.',
+                        meta: 'Disabilities \u2022 Rights'
+                    });
+                    focused.push({
+                        title: 'Housing Resources for People with Disabilities',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Your legal rights, the appeals process when accommodation requests are denied, and Section 504 standards.',
+                        meta: 'Disabilities \u2022 Comprehensive'
+                    });
+                }
+
+                focused.push({
+                    title: 'Know Your Tenant Rights',
+                    link: 'tenant-rights.html',
+                    description: 'What landlords can and can\'t do, and how to protect yourself.',
+                    meta: 'Rights'
+                });
+
+                additional.push({
+                    title: 'Renting with Poor Rental History',
+                    link: 'guides/renting-with-poor-rental-history.html',
+                    description: 'If a denial is related to your history, here\'s how to move forward.',
+                    meta: 'History'
+                });
+
+                additional.push({
+                    title: 'Housing with a Criminal Record',
+                    link: 'guides/criminal-records-and-housing.html',
+                    description: 'Your rights and landlord policies around criminal records.',
+                    meta: 'Legal \u2022 Rights'
+                });
+
+                // Identity-based resources for discrimination
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    additional.push({
+                        title: 'VA Benefits for Veterans',
+                        link: 'guides/va-benefits.html',
+                        description: 'VA legal assistance and housing programs for veterans.',
+                        meta: 'Veterans'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Housing Resources for People with Disabilities',
+                        link: '../who-we-help/disabilities.html',
+                        description: 'Fair Housing Act protections, Section 504, and disability rights organizations that provide free legal help.',
+                        meta: 'Disabilities'
+                    });
+                }
+            }
+
             // ---- NON-HOUSING ----
             if (branch === 'non-housing') {
                 var needs = a.needs || [];
@@ -2125,6 +2369,7 @@
                     }
                 }
 
+                var aboutYou = a['about-you'] || [];
                 if (needs.indexOf('healthcare') !== -1) {
                     if (currentBenefits.indexOf('medicaid') === -1) {
                         focused.push({
@@ -2134,7 +2379,7 @@
                             meta: 'Healthcare'
                         });
                     }
-                    if (a['veteran-status'] === 'yes') {
+                    if (aboutYou.indexOf('veteran') !== -1) {
                         focused.push({
                             title: 'VA Healthcare for Veterans',
                             link: 'guides/va-benefits.html',
@@ -2190,10 +2435,9 @@
                     });
                 }
 
-                // ---- VETERAN (non-housing) ----
-                if (a['veteran-status'] === 'yes') {
+                // ---- IDENTITY-BASED RESOURCES (non-housing) ----
+                if (aboutYou.indexOf('veteran') !== -1) {
                     if (needs.indexOf('healthcare') === -1) {
-                        // Healthcare veterans already got VA pushed in the healthcare block above
                         additional.push({
                             title: 'VA Benefits for Veterans',
                             link: 'guides/va-benefits.html',
@@ -2208,6 +2452,22 @@
                             meta: 'Veterans \u2022 Employment'
                         });
                     }
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Housing Resources for Seniors',
+                        link: '../who-we-help/seniors.html',
+                        description: 'Senior-specific programs, benefits, and Area Agencies on Aging.',
+                        meta: 'Seniors'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1 && currentBenefits.indexOf('ssi') === -1) {
+                    focused.push({
+                        title: 'Apply for SSI/SSDI',
+                        link: 'guides/how-to-apply-ssi-ssdi.html',
+                        description: 'Disability income benefits if you have a qualifying condition.',
+                        meta: 'Disability \u2022 Income'
+                    });
                 }
 
                 additional.push({
