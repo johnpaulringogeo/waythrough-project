@@ -1186,7 +1186,7 @@
             progressText.textContent = 'Step ' + current + ' of ' + total;
 
             // Focus
-            questionSlot.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            questionsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
             var titleEl = questionSlot.querySelector('.question-title');
             if (titleEl) titleEl.focus();
         }
