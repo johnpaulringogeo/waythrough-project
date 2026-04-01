@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Housing Program Comparison Tool — Waythrough Project</title>
+    <meta name="description" content="Compare HUD housing programs side by side. See eligibility, rent calculations, wait times, and how to apply for Section 8, Public Housing, LIHTC, Project-Based Vouchers, HUD-VASH, and more.">
+    <meta property="og:title" content="Housing Program Comparison Tool — Waythrough Project">
+    <meta property="og:description" content="Compare HUD housing programs side by side. See eligibility, rent calculations, wait times, and how to apply for Section 8, Public Housing, LIHTC, Project-Based Vouchers, HUD-VASH, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/resources/tools/compare-programs">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Housing Program Comparison Tool — Waythrough Project">
+    <meta name="twitter:description" content="Compare HUD housing programs side by side. See eligibility, rent calculations, wait times, and how to apply for Section 8, Public Housing, LIHTC, Project-Based Vouchers, HUD-VASH, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/resources/tools/compare-programs">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="../../css/style.css?v=18">
+    <script src="../../js/components.js?v=13" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://waythroughproject.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Resources",
+      "item": "https://waythroughproject.com/resources/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Housing Program Comparison"
+    }
+  ]
+}
+    </script>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Selection Panel ===== */
+        .comparison-selector {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .selector-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--color-text);
+        }
+
+        .selector-title .subtitle {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: var(--color-text-light);
+            margin-top: 0.25rem;
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .program-checkbox {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .program-checkbox:hover {
+            background: var(--color-bg-soft);
+            border-color: var(--color-primary);
+        }
+
+        .program-checkbox input[type="checkbox"] {
+            margin-top: 2px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: var(--color-primary);
+        }
+
+        .program-checkbox-label {
+            flex: 1;
+            cursor: pointer;
+        }
+
+        .program-checkbox-label strong {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: var(--color-text);
+        }
+
+        .program-checkbox-label .description {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            line-height: 1.4;
+        }
+
+        .selector-info {
+            padding: 1rem;
+            background: var(--color-bg-soft);
+            border-radius: 6px;
+            border-left: 3px solid var(--color-primary);
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-compare {
+            padding: 12px 32px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .btn-compare:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-compare:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-compare:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* ===== Comparison Results ===== */
+        .comparison-results {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .results-header {
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .results-header p {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+        }
+
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 2rem;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+
+        .comparison-table th {
+            background: var(--color-bg-soft);
+            padding: 1.25rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid var(--color-border);
+            color: var(--color-text);
+            font-size: 0.95rem;
+        }
+
+        .comparison-table td {
+            padding: 1.25rem;
+            border-bottom: 1px solid var(--color-border);
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .row-label {
+            font-weight: 600;
+            color: var(--color-text);
+            min-width: 180px;
+            background: var(--color-bg-soft);
+            position: sticky;
+            left: 0;
+            z-index: 1;
+        }
+
+        .comparison-table td:first-child {
+            background: var(--color-bg-soft);
+        }
+
+        .comparison-table-responsive {
+            display: none;
+        }
+
+        /* ===== Mobile Responsive Cards ===== */
+        @media (max-width: 900px) {
+            .comparison-table-wrapper {
+                display: none;
+            }
+
+            .comparison-table-responsive {
+                display: block;
+            }
+
+            .program-card {
+                background: var(--color-bg-card);
+                border: 1px solid var(--color-border);
+                border-radius: var(--radius);
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                break-inside: avoid;
+            }
+
+            .program-card-title {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: var(--color-primary);
+                margin-bottom: 1.25rem;
+                padding-bottom: 1rem;
+                border-bottom: 2px solid var(--color-border);
+            }
+
+            .card-section {
+                margin-bottom: 1.5rem;
+            }
+
+            .card-section:last-child {
+                margin-bottom: 0;
+            }
+
+            .card-label {
+                font-size: 0.8rem;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                color: var(--color-text-muted);
+                font-weight: 600;
+                margin-bottom: 0.5rem;
+            }
+
+            .card-value {
+                color: var(--color-text);
+                line-height: 1.6;
+            }
+
+            .card-value ul {
+                margin: 0.5rem 0 0 0;
+                padding-left: 1.25rem;
+            }
+
+            .card-value li {
+                margin-bottom: 0.5rem;
+            }
+
+            .card-value strong {
+                display: block;
+                margin-top: 0.75rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        /* ===== Badges & Highlights ===== */
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            background: var(--color-bg-soft);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--color-text-light);
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge.new {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .pros-list {
+            color: var(--color-text);
+        }
+
+        .pros-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .pros-list strong {
+            color: var(--color-primary);
+        }
+
+        /* ===== Related Resources ===== */
+        .related-resources {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .related-resources h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-text);
+        }
+
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .resource-card {
+            padding: 1.25rem;
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            transition: all 0.2s;
+            text-decoration: none;
+            color: var(--color-text);
+        }
+
+        .resource-card:hover {
+            border-color: var(--color-primary);
+            background: var(--color-bg-card);
+        }
+
+        .resource-card-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-primary);
+        }
+
+        .resource-card-desc {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+        }
+
+        /* ===== Error State ===== */
+        .no-selection-message {
+            text-align: center;
+            padding: 2rem;
+            color: var(--color-text-light);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Resources</a><span class="sep">/</span><span class="current">Housing Program Comparison</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Tool</span>
+                <h1>Housing Program Comparison</h1>
+                <p class="subtitle">See how HUD programs differ in eligibility, rent, wait times, and how to apply. Compare up to 3 programs at once.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>HUD operates several different housing assistance programs, each with different rules about who qualifies, how rent is calculated, and how long you might wait. This tool lets you compare them side by side to help you understand your options.</p>
+                </div>
+
+                <!-- Program Selection -->
+                <div class="comparison-selector">
+                    <div class="selector-title">
+                        Select programs to compare
+                        <span class="subtitle">Choose 2 or 3 programs to see them side by side</span>
+                    </div>
+
+                    <div class="selector-info">
+                        You can compare up to 3 programs at once. The more you compare, the more you can see how they differ.
+                    </div>
+
+                    <div class="programs-grid">
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="section8" data-program="Section 8 Housing Choice Voucher">
+                            <div class="program-checkbox-label">
+                                <strong>Section 8 Housing Choice Voucher</strong>
+                                <span class="description">Rent assistance you can use in any apartment</span>
+                            </div>
+                        </label>
+
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="public-housing" data-program="Public Housing">
+                            <div class="program-checkbox-label">
+                                <strong>Public Housing</strong>
+                                <span class="description">HUD-owned apartments at low rent</span>
+                            </div>
+                        </label>
+
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="lihtc" data-program="LIHTC (Low-Income Housing Tax Credit)">
+                            <div class="program-checkbox-label">
+                                <strong>LIHTC</strong>
+                                <span class="description">Apartments built with tax credits</span>
+                            </div>
+                        </label>
+
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="pbv" data-program="Project-Based Vouchers">
+                            <div class="program-checkbox-label">
+                                <strong>Project-Based Vouchers</strong>
+                                <span class="description">Vouchers tied to specific apartments</span>
+                            </div>
+                        </label>
+
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="hud-vash" data-program="HUD-VASH (Veterans)">
+                            <div class="program-checkbox-label">
+                                <strong>HUD-VASH</strong>
+                                <span class="description">For veterans experiencing homelessness</span>
+                            </div>
+                        </label>
+
+                        <label class="program-checkbox">
+                            <input type="checkbox" name="program" value="section811" data-program="Section 811 (Disabilities)">
+                            <div class="program-checkbox-label">
+                                <strong>Section 811</strong>
+                                <span class="description">For people with disabilities</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <button class="btn-compare" id="compareBtn" disabled>Compare Selected Programs</button>
+                </div>
+
+                <!-- Comparison Results -->
+                <div id="resultsContainer" style="display: none;">
+                    <div class="results-header">
+                        <h2>Program Comparison</h2>
+                        <p>Here's how these programs compare across key factors. Click your selection again to start a new comparison.</p>
+                    </div>
+
+                    <!-- Desktop Table View -->
+                    <div class="comparison-table-wrapper">
+                        <table class="comparison-table" id="comparisonTable">
+                            <thead>
+                                <tr id="tableHeader"></tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                        </table>
+                    </div>
+
+                    <!-- Mobile Card View -->
+                    <div class="comparison-table-responsive" id="cardView"></div>
+                </div>
+
+                <!-- Related Resources -->
+                <div class="related-resources">
+                    <h3>Next steps</h3>
+                    <div class="resources-grid">
+                        <a href="../guides/how-to-apply-section-8.html" class="resource-card">
+                            <div class="resource-card-title">Apply for Section 8</div>
+                            <div class="resource-card-desc">Step-by-step guide to finding your local PHA and applying for a Section 8 voucher.</div>
+                        </a>
+                        <a href="../guides/how-to-apply-hud-vash.html" class="resource-card">
+                            <div class="resource-card-title">Apply for HUD-VASH</div>
+                            <div class="resource-card-desc">Special application process for veterans experiencing homelessness.</div>
+                        </a>
+                        <a href="../where-to-start.html" class="resource-card">
+                            <div class="resource-card-title">Where to Start</div>
+                            <div class="resource-card-desc">Help figuring out which program might be right for your situation.</div>
+                        </a>
+                        <a href="../guides/how-to-find-your-pha.html" class="resource-card">
+                            <div class="resource-card-title">Find Your PHA</div>
+                            <div class="resource-card-desc">Locate your local Public Housing Authority to start the application process.</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Program data
+        const programData = {
+            'section8': {
+                name: 'Section 8 Housing Choice Voucher',
+                'Who Qualifies': 'Very Low-Income households (usually under 50% Area Median Income). No citizenship requirement, but must be eligible non-citizen.',
+                'Income Limits': 'Varies by family size and location. Average roughly $30,000–$45,000 for a family of 4.',
+                'Rent Calculation': 'You pay 30% of your gross income toward rent. The voucher covers the rest (up to the Fair Market Rent).',
+                'Average Wait Time': '1–5 years (varies widely by location; some areas much longer)',
+                'Portability': 'Yes. You can move to most places in the US. The voucher follows you.',
+                'Administrator': 'Local Public Housing Authority (PHA). HUD oversees.',
+                'How to Apply': 'Contact your local PHA. Applications may be closed due to long waiting lists.',
+                'Pros': [
+                    'Maximum freedom—you choose your apartment (within Fair Market Rent limits)',
+                    'Can move across the country',
+                    'Can use voucher for many years',
+                    'Covers gap between your 30% and actual rent'
+                ],
+                'Cons': [
+                    'Long waiting lists in many areas',
+                    'Landlords may discriminate against voucher holders',
+                    'If rent exceeds Fair Market Rent, you pay the difference',
+                    'Must recertify income annually'
+                ]
+            },
+            'public-housing': {
+                name: 'Public Housing',
+                'Who Qualifies': 'Very Low-Income households (usually under 50% AMI). No citizenship requirement, but must be eligible non-citizen.',
+                'Income Limits': 'Similar to Section 8, varies by family size and location.',
+                'Rent Calculation': 'You pay 30% of your gross income. No additional rent cap.',
+                'Average Wait Time': '1–3 years on average, but highly location-dependent',
+                'Portability': 'Limited. You must live in the specific public housing apartment you\'re assigned.',
+                'Administrator': 'Local Public Housing Authority (PHA). HUD oversees.',
+                'How to Apply': 'Contact your local PHA. Applications may be on waiting list.',
+                'Pros': [
+                    'Predictable rent (always 30% of income)',
+                    'Stable housing in HUD-owned buildings',
+                    'Less landlord bias than private market',
+                    'Maintenance is the PHA\'s responsibility'
+                ],
+                'Cons': [
+                    'Waiting lists can be long',
+                    'Limited choice of apartments (you get assigned one)',
+                    'Can be hard to move if life circumstances change',
+                    'Stigma associated with public housing in some areas'
+                ]
+            },
+            'lihtc': {
+                name: 'LIHTC (Low-Income Housing Tax Credit)',
+                'Who Qualifies': 'Low-Income households (usually under 60% AMI, sometimes up to 80% AMI).',
+                'Income Limits': 'Varies, but typically $35,000–$60,000 for a family of 4 depending on the property.',
+                'Rent Calculation': 'Owners set rents to be "affordable" (no more than 30% of income at specified level). You pay that set rent.',
+                'Average Wait Time': 'Varies by property. No unified waiting list. Some have long waits, some rent immediately.',
+                'Portability': 'No. You must stay in that specific apartment (though you can move to a different LIHTC building).',
+                'Administrator': 'Private developers/owners with tax credit financing. State agencies oversee allocation.',
+                'How to Apply': 'Contact the property directly or check your city/state housing authority for LIHTC listings.',
+                'Pros': [
+                    'Rent is set and predictable',
+                    'New, well-maintained buildings',
+                    'No voucher stigma—you\'re just renting',
+                    'Wider income eligibility in some cases (up to 80% AMI)'
+                ],
+                'Cons': [
+                    'Harder to find available units',
+                    'Must meet owner\'s application requirements',
+                    'Can\'t move to a different apartment easily',
+                    'Owner can raise rent (within limits) when lease renews'
+                ]
+            },
+            'pbv': {
+                name: 'Project-Based Vouchers',
+                'Who Qualifies': 'Very Low-Income households (usually under 50% AMI). Same as Section 8.',
+                'Income Limits': 'Similar to Section 8, varies by family size and location.',
+                'Rent Calculation': 'You pay 30% of your income or a baseline rent (whichever is less). Owner/PHA covers the rest.',
+                'Average Wait Time': '1–3 years on average, varies by property',
+                'Portability': 'No. The voucher is tied to that specific building. If you move out, you lose it.',
+                'Administrator': 'Local Public Housing Authority (PHA) or private owners with PHA partnership.',
+                'How to Apply': 'Contact the PHA or the specific property offering PBVs.',
+                'Pros': [
+                    'Rent stays at 30% of income',
+                    'Better maintained buildings (owners have incentive)',
+                    'More stable than some public housing',
+                    'No landlord screening bias (owner knows it\'s subsidized)'
+                ],
+                'Cons': [
+                    'Tied to one building (less freedom than Section 8)',
+                    'If you move, you lose the subsidy',
+                    'Fewer units available than Section 8',
+                    'Waiting lists still common'
+                ]
+            },
+            'hud-vash': {
+                name: 'HUD-VASH (Veterans)',
+                'Who Qualifies': 'Veterans who are experiencing homelessness or at risk of homelessness. Must have served on active duty.',
+                'Income Limits': 'No strict income limit, but typically serves very low-income veterans.',
+                'Rent Calculation': 'You pay 30% of your income. HUD-VASH covers the rest. VA provides case management.',
+                'Average Wait Time': 'Varies by location. Many areas have no wait; some have 6–12 months.',
+                'Portability': 'Yes, but you must work with a VA medical center. You can\'t move to a different city without coordination.',
+                'Administrator': 'HUD (housing) + VA (healthcare/case management). Local PHA handles vouchers.',
+                'How to Apply': 'Contact your VA Medical Center or local VA office. Ask for HUD-VASH program.',
+                'Pros': [
+                    'Includes VA healthcare and case management (wraparound services)',
+                    'Shorter wait times than regular Section 8 in many areas',
+                    'Designed to help people exit homelessness',
+                    'Strong support services included'
+                ],
+                'Cons': [
+                    'Must work with VA (some vets may prefer other services)',
+                    'Limited availability in some areas',
+                    'Geographic portability limited',
+                    'Requires engagement with VA for ongoing support'
+                ]
+            },
+            'section811': {
+                name: 'Section 811 (Disabilities)',
+                'Who Qualifies': 'People with disabilities (physical, developmental, psychiatric) who are Low-Income. Must be 18+ or transitioning from foster care.',
+                'Income Limits': 'Typically very low (under 50% AMI). Exact limits vary by state.',
+                'Rent Calculation': 'Usually 30% of income, but some programs have different formulas.',
+                'Average Wait Time': 'Varies widely by state. Some areas have no wait; some have 2–4 year waits.',
+                'Portability': 'Limited. You stay in your assigned unit. Some programs allow moves within network.',
+                'Administrator': 'State agencies in partnership with HUD. Sometimes nonprofit partners handle management.',
+                'How to Apply': 'Contact your state\'s disability services agency or housing authority.',
+                'Pros': [
+                    'Designed for people with disabilities (supportive housing)',
+                    'Often includes supportive services (case management, health services)',
+                    'Stable housing with built-in support',
+                    'Can help people transition to more independent living'
+                ],
+                'Cons': [
+                    'Availability limited (fewer units nationally)',
+                    'Waiting lists can be long',
+                    'Limited geographic choice',
+                    'Tied to specific supportive housing model'
+                ]
+            }
+        };
+
+        const comparisonRows = [
+            'Who Qualifies',
+            'Income Limits',
+            'Rent Calculation',
+            'Average Wait Time',
+            'Portability',
+            'Administrator',
+            'How to Apply',
+            'Pros',
+            'Cons'
+        ];
+
+        const compareBtn = document.getElementById('compareBtn');
+        const resultsContainer = document.getElementById('resultsContainer');
+        const checkboxes = document.querySelectorAll('input[name="program"]');
+
+        // Handle checkbox changes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateButtonState);
+        });
+
+        function updateButtonState() {
+            const selected = Array.from(checkboxes).filter(cb => cb.checked).length;
+            compareBtn.disabled = selected < 2 || selected > 3;
+        }
+
+        compareBtn.addEventListener('click', generateComparison);
+
+        function generateComparison() {
+            const selected = Array.from(checkboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            if (selected.length < 2) {
+                alert('Please select at least 2 programs.');
+                return;
+            }
+
+            resultsContainer.style.display = 'block';
+            resultsContainer.scrollIntoView({ behavior: 'smooth' });
+
+            // Desktop table view
+            generateTableView(selected);
+
+            // Mobile card view
+            generateCardView(selected);
+        }
+
+        function generateTableView(selected) {
+            const header = document.getElementById('tableHeader');
+            const body = document.getElementById('tableBody');
+
+            header.innerHTML = '<th class="row-label">Feature</th>';
+            body.innerHTML = '';
+
+            selected.forEach(programId => {
+                const programName = programData[programId].name;
+                header.innerHTML += `<th>${programName}</th>`;
+            });
+
+            comparisonRows.forEach(row => {
+                let rowHtml = `<tr><td class="row-label">${row}</td>`;
+
+                selected.forEach(programId => {
+                    const data = programData[programId][row];
+                    if (Array.isArray(data)) {
+                        const listHtml = data
+                            .map(item => `<li>${item}</li>`)
+                            .join('');
+                        rowHtml += `<td><ul class="pros-list">${listHtml}</ul></td>`;
+                    } else {
+                        rowHtml += `<td>${data}</td>`;
+                    }
+                });
+
+                rowHtml += '</tr>';
+                body.innerHTML += rowHtml;
+            });
+        }
+
+        function generateCardView(selected) {
+            const cardView = document.getElementById('cardView');
+            cardView.innerHTML = '';
+
+            selected.forEach(programId => {
+                const program = programData[programId];
+                let cardHtml = `<div class="program-card">
+                    <div class="program-card-title">${program.name}</div>`;
+
+                comparisonRows.forEach(row => {
+                    const data = program[row];
+                    const label = row.replace(/([A-Z])/g, ' $1').trim();
+
+                    if (Array.isArray(data)) {
+                        const listHtml = data
+                            .map(item => `<li>${item}</li>`)
+                            .join('');
+                        cardHtml += `
+                            <div class="card-section">
+                                <div class="card-label">${label}</div>
+                                <div class="card-value">
+                                    <ul class="pros-list">${listHtml}</ul>
+                                </div>
+                            </div>`;
+                    } else {
+                        cardHtml += `
+                            <div class="card-section">
+                                <div class="card-label">${label}</div>
+                                <div class="card-value">${data}</div>
+                            </div>`;
+                    }
+                });
+
+                cardHtml += '</div>';
+                cardView.innerHTML += cardHtml;
+            });
+        }
+    </script>
+</body>
+</html>
