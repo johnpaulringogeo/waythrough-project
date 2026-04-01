@@ -1,344 +1,770 @@
 [
   {
-    "title": "Housing Programs",
-    "desc": "Section 8, HUD-VASH, LIHTC, and other programs that make housing affordable.",
-    "url": "resources/index.html",
-    "keywords": "section 8 housing programs voucher hud-vash lihtc public housing affordable hcv"
+    "title": "Waythrough Project \u2014 Helping You Overcome the Barriers to Affordable Housing",
+    "desc": "Free guides, how-tos, and resources to help you navigate affordable housing programs including Section 8, HUD-VASH, and more.",
+    "url": "index.html",
+    "keywords": "helping overcome barriers affordable housing free how-tos help navigate programs including section hud-vash more explore topic question index"
   },
   {
-    "title": "How to Apply for Section 8",
-    "desc": "A complete walkthrough from finding open waiting lists to securing your voucher.",
-    "url": "resources/guides/how-to-apply-section-8.html",
-    "keywords": "section 8 apply application waiting list voucher hcv housing choice eligibility income"
+    "title": "Privacy Policy",
+    "desc": "How we handle your information. Short version: we don't collect, store, or sell any personal data.",
+    "url": "privacy.html",
+    "keywords": "privacy policy handle information short version don collect store sell any personal data interactive start wizard ask question third-party services"
   },
   {
-    "title": "How to Apply for HUD-VASH",
-    "desc": "The process for veterans to access HUD-VASH through your VA Medical Center.",
-    "url": "resources/guides/how-to-apply-hud-vash.html",
-    "keywords": "hud-vash veterans va vash apply housing voucher military"
+    "title": "Terms of Use",
+    "desc": "Terms of use for waythroughproject.com \u2014 a free educational resource about affordable housing.",
+    "url": "terms.html",
+    "keywords": "terms use waythroughproject com free educational resource affordable housing site legal financial professional advice guarantees interactive ask question external links"
   },
   {
-    "title": "Find Your Local PHA",
-    "desc": "How to find and contact your Public Housing Authority and what to ask.",
-    "url": "resources/guides/how-to-find-your-pha.html",
-    "keywords": "pha public housing authority find contact local office waiting list"
+    "title": "Blog & Articles",
+    "desc": "Read practical insights and advice about affordable housing, Section 8, HUD-VASH, tenant rights, and navigating the housing system.",
+    "url": "blog/index.html",
+    "keywords": "articles read practical insights advice affordable housing section hud-vash tenant rights navigating system happens after get voucher talk landlord repairs"
   },
   {
-    "title": "Find LIHTC (Tax Credit) Apartments",
-    "desc": "Affordable apartments that don't require a voucher.",
-    "url": "resources/guides/how-to-find-lihtc-housing.html",
-    "keywords": "lihtc tax credit apartments affordable no voucher income-restricted low income housing"
+    "title": "What to Do If Your Benefits Get Cut",
+    "desc": "Your SSI, SSDI, SNAP, or housing benefits got reduced or terminated. Here's what to do immediately, your appeal rights, timelines, and where to find help.",
+    "url": "blog/posts/benefits-cut-what-to-do.html",
+    "keywords": "benefits get cut ssi ssdi snap housing got reduced terminated here immediately appeal rights timelines find help first thing understand"
   },
   {
-    "title": "Document Checklist",
-    "desc": "Every document you need for housing applications.",
-    "url": "resources/guides/document-checklist.html",
-    "keywords": "documents checklist paperwork id application proof income birth certificate social security"
-  },
-  {
-    "title": "Appeal a Housing Denial",
-    "desc": "Your right to a hearing and how to prepare your case.",
-    "url": "resources/guides/how-to-appeal-housing-denial.html",
-    "keywords": "denied denial appeal hearing rejected criminal background disqualified"
-  },
-  {
-    "title": "Transfer Your Voucher (Portability)",
-    "desc": "How to move your Housing Choice Voucher to a different area.",
-    "url": "resources/guides/how-to-transfer-voucher.html",
-    "keywords": "transfer voucher portability move relocate different city state area pha"
-  },
-  {
-    "title": "Annual Recertification Guide",
-    "desc": "What to expect, what to bring, and how to keep your voucher.",
-    "url": "resources/guides/how-to-handle-recertification.html",
-    "keywords": "recertification annual review income verification documents renewal voucher keep"
-  },
-  {
-    "title": "Request a Reasonable Accommodation",
-    "desc": "Your right to changes in housing rules or physical space due to a disability.",
-    "url": "resources/guides/how-to-request-reasonable-accommodation.html",
-    "keywords": "reasonable accommodation disability modification request ada fair housing accessibility"
-  },
-  {
-    "title": "File a Discrimination Complaint",
-    "desc": "How to document discrimination and file with HUD or your local agency.",
-    "url": "resources/guides/how-to-file-housing-discrimination-complaint.html",
-    "keywords": "discrimination complaint hud fair housing race disability family landlord refused"
-  },
-  {
-    "title": "Family Self-Sufficiency Program",
-    "desc": "Build savings while on Section 8 through the FSS escrow program.",
-    "url": "resources/guides/family-self-sufficiency.html",
-    "keywords": "fss family self-sufficiency escrow savings section 8 income increase program"
-  },
-  {
-    "title": "How to Apply for SSI or SSDI",
-    "desc": "Disability benefits — who qualifies, how to apply, and what to do if denied.",
-    "url": "resources/guides/how-to-apply-ssi-ssdi.html",
-    "keywords": "ssi ssdi disability benefits social security apply application denied appeal income"
-  },
-  {
-    "title": "Find Recovery Housing",
-    "desc": "Types of recovery housing, how to find quality programs, and your protections.",
-    "url": "resources/guides/how-to-find-recovery-housing.html",
-    "keywords": "recovery housing sober living oxford house narr substance abuse addiction treatment"
-  },
-  {
-    "title": "Source of Income Protections",
-    "desc": "Which states make it illegal for landlords to reject you for using a voucher.",
-    "url": "resources/guides/source-of-income-protections.html",
-    "keywords": "source of income discrimination voucher rejected landlord state law protection illegal"
-  },
-  {
-    "title": "Criminal Records and Housing",
-    "desc": "What landlords can and can't hold against you, and how to present your case.",
-    "url": "resources/guides/criminal-records-and-housing.html",
-    "keywords": "criminal record background check felony arrest housing denied conviction ban the box"
-  },
-  {
-    "title": "Waiting List Strategies",
-    "desc": "How to apply to multiple PHAs, find open lists, and improve your chances.",
-    "url": "resources/guides/waiting-list-strategies.html",
-    "keywords": "waiting list wait open apply multiple pha preference points strategies tips"
-  },
-  {
-    "title": "Benefits & Financial Support",
-    "desc": "SSI, SSDI, SNAP, Medicaid, LIHEAP, and TANF — what you qualify for and how to apply.",
-    "url": "resources/benefits.html",
-    "keywords": "benefits ssi ssdi snap food stamps medicaid liheap tanf financial assistance income welfare"
-  },
-  {
-    "title": "Employment & Job Training",
-    "desc": "Job centers, training programs, and how earning income works with housing subsidies.",
-    "url": "resources/employment.html",
-    "keywords": "employment jobs job training work career wioa american job center earned income disregard"
-  },
-  {
-    "title": "Mental Health & Housing",
-    "desc": "Treatment resources, crisis support, and housing protections for mental health conditions.",
-    "url": "resources/mental-health.html",
-    "keywords": "mental health depression anxiety ptsd treatment therapy counseling 988 samhsa section 811 path"
-  },
-  {
-    "title": "Substance Use & Recovery",
-    "desc": "Recovery housing, legal protections in recovery, and treatment resources.",
-    "url": "resources/substance-use.html",
-    "keywords": "substance abuse addiction recovery sober drug alcohol treatment rehabilitation relapse fair housing"
-  },
-  {
-    "title": "Know Your Rights as a Tenant",
-    "desc": "Tenant protections, lease basics, eviction process, and what your landlord can't do.",
-    "url": "resources/tenant-rights.html",
-    "keywords": "tenant rights lease eviction landlord rent habitability repair security deposit legal aid"
-  },
-  {
-    "title": "Emergency & Crisis Housing",
-    "desc": "Emergency shelters, rapid rehousing, emergency vouchers, and crisis hotlines.",
-    "url": "resources/emergency-housing.html",
-    "keywords": "emergency shelter homeless crisis hotline 211 rapid rehousing ehv voucher urgent help now"
-  },
-  {
-    "title": "Families with Children",
-    "desc": "Family housing programs, education rights, and support services for parents.",
-    "url": "resources/families.html",
-    "keywords": "family children kids parents mckinney-vento school education fup voucher childcare wic"
-  },
-  {
-    "title": "Frequently Asked Questions",
-    "desc": "Answers to the most common questions about affordable housing.",
-    "url": "resources/faq.html",
-    "keywords": "faq questions answers common help how what when where who"
-  },
-  {
-    "title": "Housing Terms & Acronyms",
-    "desc": "A plain-language glossary of 50+ housing terms and acronyms.",
-    "url": "resources/glossary.html",
-    "keywords": "glossary terms definitions acronyms vocabulary jargon meaning what does mean"
-  },
-  {
-    "title": "Where to Start",
-    "desc": "Not sure where to begin? A guided walkthrough based on your situation.",
-    "url": "resources/where-to-start.html",
-    "keywords": "start begin new first time help guide where confused lost don't know"
-  },
-  {
-    "title": "Ask a Question",
-    "desc": "Submit your housing question and we may answer it in a future post.",
-    "url": "resources/ask.html",
-    "keywords": "ask question submit help contact email form"
-  },
-  {
-    "title": "Veterans Housing Resources",
-    "desc": "HUD-VASH, SSVF, GPD, and VA supportive services for veterans.",
-    "url": "who-we-help/veterans.html",
-    "keywords": "veterans military va hud-vash ssvf gpd transitional housing service"
-  },
-  {
-    "title": "Housing for People with Disabilities",
-    "desc": "Section 811, reasonable accommodations, accessible housing, and disability protections.",
-    "url": "who-we-help/disabilities.html",
-    "keywords": "disability disabilities accessible ada section 811 wheelchair ramp accommodation modification"
-  },
-  {
-    "title": "Housing for Seniors",
-    "desc": "Section 202, aging-in-place, Area Agencies on Aging, and property tax relief.",
-    "url": "who-we-help/seniors.html",
-    "keywords": "seniors elderly older adults aging section 202 senior housing retirement fixed income"
-  },
-  {
-    "title": "Housing for Survivors of Domestic Violence",
-    "desc": "VAWA protections, emergency transfers, and confidential housing resources.",
-    "url": "who-we-help/dv-survivors.html",
-    "keywords": "domestic violence dv abuse survivor vawa protection emergency transfer safety shelter"
-  },
-  {
-    "title": "Section 8 Explained",
-    "desc": "A clear breakdown of the Housing Choice Voucher program.",
-    "url": "blog/posts/section-8-explained.html",
-    "keywords": "section 8 explained how works voucher hcv housing choice rent pay eligibility"
+    "title": "5 Affordable Housing Programs Most People Don't Know About",
+    "desc": "Section 8 isn't your only option. Here are five federal housing programs that could help you \u2014 and that most people have never heard of.",
+    "url": "blog/posts/five-programs-you-dont-know.html",
+    "keywords": "affordable housing programs most people don know section isn only option here five federal help never heard hud-vash veterans 811"
   },
   {
     "title": "What to Do When a Landlord Rejects Your Voucher",
-    "desc": "Your rights and strategies when landlords say no to Section 8.",
+    "desc": "Landlord won't accept your Section 8 voucher? Here's what you can do about it \u2014 your rights, your options, and how to keep moving forward.",
     "url": "blog/posts/landlord-rejects-voucher.html",
-    "keywords": "landlord rejected voucher refused section 8 discrimination source income what do"
+    "keywords": "landlord rejects voucher won accept section here rights options keep moving forward landlords reject vouchers step find legal live document"
   },
   {
-    "title": "5 Programs Beyond Section 8",
-    "desc": "HUD-VASH, Section 811, SSVF, Section 202, LIHTC — alternatives to Section 8.",
-    "url": "blog/posts/five-programs-you-dont-know.html",
-    "keywords": "programs alternative section 8 hud-vash section 811 ssvf section 202 lihtc other options"
+    "title": "Section 8 Explained \u2014 What It Actually Is and How It Works",
+    "desc": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program \u2014 what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
+    "url": "blog/posts/section-8-explained.html",
+    "keywords": "section explained actually works clear no-nonsense breakdown housing choice voucher program qualifies process someone seen firsthand waiting list happens get"
   },
   {
-    "title": "Accessibility",
-    "desc": "Our commitment to making this site accessible to everyone.",
+    "title": "How to Talk to Your Landlord About Repairs Without Risking Retaliation",
+    "desc": "Your landlord has a legal obligation to maintain your rental. Here's how to document problems, request repairs, put it in writing, and protect yourself if they retaliate.",
+    "url": "blog/posts/talking-to-landlord-about-repairs.html",
+    "keywords": "talk landlord repairs without risking retaliation legal obligation maintain rental here document problems request put writing protect yourself retaliate understand"
+  },
+  {
+    "title": "Understanding Utility Allowances and Why They Matter",
+    "desc": "Utility allowances are how HUD accounts for what you'll spend on heat, water, and electricity. Here's how they work, why they matter for your rent, and what to do if your real bills are higher.",
+    "url": "blog/posts/utility-allowances-explained.html",
+    "keywords": "understanding utility allowances matter hud accounts spend heat water electricity here work rent real bills higher allowance set problem don"
+  },
+  {
+    "title": "Welcome to Waythrough Project | Blog",
+    "desc": "Learn why Waythrough Project was started and what you can expect to find here to help navigate the affordable housing system.",
+    "url": "blog/posts/welcome.html",
+    "keywords": "welcome learn started expect find here help navigate affordable housing system cover site works personal alone"
+  },
+  {
+    "title": "What Happens After You Get Your Housing Voucher",
+    "desc": "The apartment search with a Section 8 voucher is different from renting without one. Here's what to expect: timelines, inspections, landlord negotiations, and what to do when doors close in your face.",
+    "url": "blog/posts/what-happens-after-voucher.html",
+    "keywords": "happens after get housing voucher apartment search section different renting without one here expect timelines inspections landlord negotiations doors close"
+  },
+  {
+    "title": "Accessibility Statement",
+    "desc": "Our accessibility standards, testing methodology, audit results, and commitment to WCAG 2.1 AA compliance for affordable housing resources.",
     "url": "resources/accessibility.html",
-    "keywords": "accessibility wcag screen reader keyboard disability accessible"
+    "keywords": "accessibility statement standards testing methodology audit results commitment wcag compliance affordable housing conformance target technical measures most recent known limitations"
+  },
+  {
+    "title": "Ask a Question",
+    "desc": "Have a question about affordable housing, vouchers, benefits, or your rights? Submit it here and we may answer it in a future post or guide.",
+    "url": "resources/ask.html",
+    "keywords": "ask question affordable housing vouchers benefits rights submit here answer future post guide works kinds questions before find helpful"
+  },
+  {
+    "title": "Benefits & Financial Support",
+    "desc": "Navigating SSI, SSDI, SNAP, Medicaid, TANF, and other benefits that support housing stability. How benefits work together and how they interact with housing subsidies.",
+    "url": "resources/benefits.html",
+    "keywords": "benefits financial support navigating ssi ssdi snap medicaid tanf other housing stability work together interact subsidies difference food stamps healthcare"
+  },
+  {
+    "title": "Credit & Housing \u2014 What Renters Need to Know",
+    "desc": "How credit affects housing applications, building credit, disputing errors, free credit reports, and alternatives for renters with poor or no credit history.",
+    "url": "resources/credit-housing.html",
+    "keywords": "credit housing renters need know affects applications building disputing errors free reports alternatives poor history getting report scratch managing debt"
+  },
+  {
+    "title": "Emergency & Crisis Housing Resources",
+    "desc": "Immediate help for people who need shelter tonight. Information on emergency shelters, Emergency Housing Vouchers, rapid rehousing, and crisis hotlines.",
+    "url": "resources/emergency-housing.html",
+    "keywords": "emergency crisis housing immediate help people need shelter tonight information shelters vouchers rapid rehousing hotlines expect ehv transitional specific situations"
+  },
+  {
+    "title": "Employment & Job Training",
+    "desc": "Building stable employment and housing together. Understanding work, income, benefits, and programs that support employment for people seeking housing stability.",
+    "url": "resources/employment.html",
+    "keywords": "employment job training building stable housing together understanding work income benefits programs support people seeking stability connection between free placement"
   },
   {
     "title": "Eviction Prevention & Defense",
-    "desc": "Warning signs, emergency rental assistance, legal aid, and how to fight an eviction.",
+    "desc": "Eviction prevention strategies, early warning signs, emergency rental assistance, legal aid resources, and how to defend yourself in court.",
     "url": "resources/eviction-prevention.html",
-    "keywords": "eviction prevention defense notice court legal aid emergency rental assistance ERA landlord"
+    "keywords": "eviction prevention defense strategies early warning signs emergency rental assistance legal aid defend yourself court risk communicate landlord before late"
+  },
+  {
+    "title": "Housing Resources for Families with Children",
+    "desc": "Affordable housing programs for families, McKinney-Vento education rights, fair housing protections, and family support services.",
+    "url": "resources/families.html",
+    "keywords": "housing families children affordable programs mckinney-vento education rights fair protections family support services changes young parents pregnant teens under making"
+  },
+  {
+    "title": "Frequently Asked Questions",
+    "desc": "Find answers to common questions about affordable housing, Section 8 vouchers, applications, and your housing rights.",
+    "url": "resources/faq.html",
+    "keywords": "frequently asked questions find answers common affordable housing section vouchers applications rights getting started choice applying documentation living voucher other"
+  },
+  {
+    "title": "Housing Terms & Acronyms",
+    "desc": "A comprehensive glossary of affordable housing terms, acronyms, and jargon to help you navigate the housing system.",
+    "url": "resources/glossary.html",
+    "keywords": "housing terms acronyms comprehensive glossary affordable jargon help navigate system"
+  },
+  {
+    "title": "Immigration Status & Housing Rights",
+    "desc": "Housing rights for immigrants and mixed-status families: programs available regardless of status, PRUCOL rules, public charge, and confidentiality protections.",
+    "url": "resources/immigration-housing.html",
+    "keywords": "immigration status housing rights immigrants mixed-status families programs available regardless prucol rules public charge confidentiality protections right documentation use rent"
+  },
+  {
+    "title": "Resource Library",
+    "desc": "Browse our complete library of guides, checklists, and resources to help you navigate affordable housing and the barriers that stand in the way.",
+    "url": "resources/index.html",
+    "keywords": "resource library browse complete checklists help navigate affordable housing barriers stand way topic step-by-step reference situation index"
   },
   {
     "title": "LGBTQ+ Housing Rights & Resources",
-    "desc": "Fair housing protections, affirming housing, shelter access, and discrimination resources.",
+    "desc": "LGBTQ+ fair housing protections, finding affirming housing, shelter access, legal remedies for discrimination, and community resources.",
     "url": "resources/lgbtq-housing.html",
-    "keywords": "lgbtq gay lesbian transgender queer housing rights discrimination fair housing shelter affirming"
+    "keywords": "lgbtq housing rights fair protections finding affirming shelter access legal remedies discrimination community federal people state local transgender gender-nonconforming individuals"
   },
   {
-    "title": "Youth & Young Adult Housing (18–25)",
-    "desc": "Foster care aging out, transitional living, Job Corps, and first apartment tips.",
+    "title": "Mental Health & Housing",
+    "desc": "Understanding the connection between mental health and housing stability, and how to access support and housing programs designed for people with mental health conditions.",
+    "url": "resources/mental-health.html",
+    "keywords": "mental health housing understanding connection between stability access support programs designed people conditions affects crisis immediate help finding treatment fair"
+  },
+  {
+    "title": "Substance Use & Recovery Housing",
+    "desc": "Understanding substance use disorders, recovery housing options, Fair Housing protections, and how to access housing that supports your recovery.",
+    "url": "resources/substance-use.html",
+    "keywords": "substance use recovery housing understanding disorders options fair protections access supports affects people types finding treatment support medication-assisted mat hud"
+  },
+  {
+    "title": "Understanding Your Rights as a Tenant",
+    "desc": "Your legal rights as a renter: habitability, privacy, protection against retaliation, fair housing, and how to defend yourself in an eviction.",
+    "url": "resources/tenant-rights.html",
+    "keywords": "understanding rights tenant legal renter habitability privacy protection against retaliation fair housing defend yourself eviction basic landlord cannot legally lease"
+  },
+  {
+    "title": "Where to Start",
+    "desc": "Not sure where to begin? Answer a few simple questions to find the affordable housing resources that fit your situation.",
+    "url": "resources/where-to-start.html",
+    "keywords": "start sure begin answer few simple questions find affordable housing fit situation let quick reference where-to-start"
+  },
+  {
+    "title": "Housing for Youth & Young Adults (18\u201325)",
+    "desc": "Housing resources for young adults: aging out of foster care, Chafee, transitional living, Job Corps, first apartment tips, and roommate advice.",
     "url": "resources/youth-housing.html",
-    "keywords": "youth young adult foster care aging out chafee transitional living runaway homeless 18 25"
-  },
-  {
-    "title": "Immigration Status & Housing",
-    "desc": "Housing programs available regardless of status, mixed-status families, and your rights.",
-    "url": "resources/immigration-housing.html",
-    "keywords": "immigration status undocumented immigrant housing rights mixed-status public charge eligibility"
-  },
-  {
-    "title": "Credit & Housing",
-    "desc": "How credit affects housing, free credit reports, disputing errors, and rebuilding credit.",
-    "url": "resources/credit-housing.html",
-    "keywords": "credit score housing application landlord report dispute rebuild no credit bad credit"
-  },
-  {
-    "title": "How to Avoid Eviction",
-    "desc": "Step-by-step guide to preventing eviction — from first warning signs through court.",
-    "url": "resources/guides/how-to-avoid-eviction.html",
-    "keywords": "eviction avoid prevent stop notice court defense legal aid emergency rent assistance"
-  },
-  {
-    "title": "Understanding Your Lease",
-    "desc": "Key lease terms, red flags, security deposits, and your rights as a renter.",
-    "url": "resources/guides/understanding-your-lease.html",
-    "keywords": "lease rental agreement terms security deposit break termination subletting renewal red flags"
-  },
-  {
-    "title": "How to Recover Your Security Deposit",
-    "desc": "Documentation, demand letters, timelines, and small claims court for getting your deposit back.",
-    "url": "resources/guides/how-to-recover-security-deposit.html",
-    "keywords": "security deposit recover get back demand letter small claims court move out damage deduction"
-  },
-  {
-    "title": "Emergency Rental Assistance Programs",
-    "desc": "How to find and apply for ERA to cover back rent, utilities, and future rent.",
-    "url": "resources/guides/emergency-rental-assistance.html",
-    "keywords": "emergency rental assistance ERA back rent utilities behind eviction prevention program apply"
-  },
-  {
-    "title": "Rebuilding Credit for Housing",
-    "desc": "Free credit reports, disputing errors, building credit, and what landlords look for.",
-    "url": "resources/guides/rebuilding-credit-for-housing.html",
-    "keywords": "rebuild credit housing score report dispute error secured card authorized user rent reporting"
-  },
-  {
-    "title": "How to Apply for SNAP (Food Stamps)",
-    "desc": "Who qualifies, how to apply, expedited benefits, and how SNAP works with housing programs.",
-    "url": "resources/guides/how-to-apply-for-snap.html",
-    "keywords": "snap food stamps ebt apply application eligibility income benefits grocery food assistance calfresh"
-  },
-  {
-    "title": "How to Apply for Medicaid",
-    "desc": "Free and low-cost health coverage — eligibility, how to apply, and why it matters for housing.",
-    "url": "resources/guides/how-to-apply-for-medicaid.html",
-    "keywords": "medicaid health insurance apply coverage free low cost doctor hospital prescription mental health"
+    "keywords": "housing youth young adults aging foster care chafee transitional living job corps first apartment tips roommate advice runaway homeless act"
   },
   {
     "title": "Budgeting When Money Is Tight",
-    "desc": "Practical budgeting for people with very little income — priorities, tools, and benefits you might be missing.",
+    "desc": "Practical budgeting strategies for very low incomes. Not about lattes and avocado toast\u2014it's about making sure rent gets paid and you stay stable.",
     "url": "resources/guides/budgeting-when-money-is-tight.html",
-    "keywords": "budget budgeting money tight low income expenses rent food utilities prioritize save financial"
+    "keywords": "budgeting money tight practical strategies low incomes lattes avocado toast making sure rent gets paid stay stable matters even especially"
+  },
+  {
+    "title": "Criminal Records and Housing: What You Need to Know",
+    "desc": "What housing programs actually require regarding criminal records, your rights, and practical steps to improve your chances of approval.",
+    "url": "resources/guides/criminal-records-and-housing.html",
+    "keywords": "criminal records housing need know programs actually require regarding rights practical steps improve chances approval reality hud guidance right individualized"
+  },
+  {
+    "title": "Your Complete Housing Application Document Checklist",
+    "desc": "Don't get rejected for missing paperwork. This checklist covers every document you might need for Section 8, HUD-VASH, public housing, and other affordable housing applications.",
+    "url": "resources/guides/document-checklist.html",
+    "keywords": "complete housing application document checklist don get rejected missing paperwork covers every need section hud-vash public other affordable applications identity"
+  },
+  {
+    "title": "How to Find and Apply for Emergency Rental Assistance",
+    "desc": "Step-by-step guide to finding your local emergency rental assistance program, determining eligibility, gathering documents, and applying for help with back rent, utilities, and future rent payments.",
+    "url": "resources/guides/emergency-rental-assistance.html",
+    "keywords": "find apply emergency rental assistance step-by-step guide finding local program determining eligibility gathering documents applying help back rent utilities future"
+  },
+  {
+    "title": "The Family Self-Sufficiency Program Explained",
+    "desc": "Learn how the HUD Family Self-Sufficiency program helps you build savings and move toward financial independence through housing assistance.",
+    "url": "resources/guides/family-self-sufficiency.html",
+    "keywords": "family self-sufficiency program explained learn hud helps build savings move toward financial independence through housing assistance escrow account works concrete"
   },
   {
     "title": "Getting Out of Debt",
-    "desc": "Managing medical bills, collections, student loans, and utility arrears when income is limited.",
+    "desc": "Practical steps to manage and reduce debt on a low income. Medical bills, collections, utility arrears, court fines\u2014understand your rights and options without shame.",
     "url": "resources/guides/getting-out-of-debt.html",
-    "keywords": "debt medical bills collections student loans credit cards garnishment bankruptcy settlement arrears owe"
-  },
-  {
-    "title": "Renting with Poor Rental History",
-    "desc": "Past evictions, broken leases, or bad references don't have to keep you from housing.",
-    "url": "resources/guides/renting-with-poor-rental-history.html",
-    "keywords": "rental history eviction broken lease bad reference tenant screening denied apartment background check"
-  },
-  {
-    "title": "Fair Market Rent & Income Limits Lookup",
-    "desc": "Look up HUD Fair Market Rents and income limits for your area.",
-    "url": "resources/tools/rent-estimator.html",
-    "keywords": "fair market rent fmr income limits hud lookup tool calculator area median ami section 8 voucher qualify eligibility"
-  },
-  {
-    "title": "Understanding Landlord Notices",
-    "desc": "What to do when you get a notice from your landlord — comply or vacate, pay or vacate, and more.",
-    "url": "resources/guides/understanding-landlord-notices.html",
-    "keywords": "landlord notice comply vacate pay eviction warning lease violation terminate tenancy respond"
-  },
-  {
-    "title": "What to Do When You Lose Your Job",
-    "desc": "Immediate steps after job loss — unemployment, benefits, keeping your housing, and job search help.",
-    "url": "resources/guides/what-to-do-when-you-lose-your-job.html",
-    "keywords": "lost job unemployment fired laid off benefits snap medicaid housing rent help employment insurance"
-  },
-  {
-    "title": "How to Prevent Foreclosure",
-    "desc": "Step-by-step guide — HUD counselors, loan modification, forbearance, and what to do at every stage.",
-    "url": "resources/guides/how-to-prevent-foreclosure.html",
-    "keywords": "foreclosure mortgage prevent homeowner loan modification forbearance hud counselor default payment house"
+    "keywords": "getting debt practical steps manage reduce low income medical bills collections utility arrears court fines understand rights options without shame"
   },
   {
     "title": "Home Repair Assistance",
-    "desc": "Programs for emergency repairs, weatherization, and what to do if your home is condemned or unsafe.",
+    "desc": "Can't afford to maintain your home? Programs for emergency repairs, weatherization, and what to do if your home is condemned or unsafe.",
     "url": "resources/guides/home-repair-assistance.html",
-    "keywords": "home repair assistance condemned maintenance upkeep weatherization USDA habitat rebuilding together code violations unsafe unlivable grant homeowner senior"
+    "keywords": "home repair assistance afford maintain programs emergency repairs weatherization condemned unsafe needs federal state local nonprofit community preventing problems before"
+  },
+  {
+    "title": "How to Appeal a Housing Denial",
+    "desc": "Know your rights and learn how to appeal a Section 8 or public housing denial with an informal hearing.",
+    "url": "resources/guides/how-to-appeal-housing-denial.html",
+    "keywords": "appeal housing denial know rights learn section public informal hearing getting denied options common reasons right request preparing process special"
+  },
+  {
+    "title": "How to Apply for Medicaid",
+    "desc": "Free health coverage for millions. Learn what Medicaid is, who qualifies, how to apply, and why it matters for housing stability.",
+    "url": "resources/guides/how-to-apply-for-medicaid.html",
+    "keywords": "apply medicaid free health coverage millions learn qualifies matters housing stability documents need approval process don qualify medicare quick comparison"
+  },
+  {
+    "title": "How to Apply for SNAP (Food Stamps)",
+    "desc": "A clear, step-by-step guide to applying for SNAP benefits. Learn who qualifies, what you need, the application process, and how much you might receive.",
+    "url": "resources/guides/how-to-apply-for-snap.html",
+    "keywords": "apply snap food stamps clear step-by-step guide applying benefits learn qualifies need application process much receive cover interview expedited emergency"
+  },
+  {
+    "title": "How to Apply for HUD-VASH",
+    "desc": "Step-by-step guide to applying for the HUD-VASH program \u2014 the housing voucher and support services program for veterans experiencing homelessness.",
+    "url": "resources/guides/how-to-apply-hud-vash.html",
+    "keywords": "apply hud-vash step-by-step guide applying program housing voucher support services veterans experiencing homelessness step determine eligible contact medical center complete"
+  },
+  {
+    "title": "How to Apply for Section 8 (Step by Step)",
+    "desc": "A complete step-by-step guide to applying for Section 8 Housing Choice Vouchers \u2014 from finding open waiting lists to submitting your application.",
+    "url": "resources/guides/how-to-apply-section-8.html",
+    "keywords": "apply section step complete step-by-step guide applying housing choice vouchers finding open waiting lists submitting application find public authorities check"
+  },
+  {
+    "title": "How to Apply for SSI or SSDI",
+    "desc": "Clear guide to understanding and applying for SSI or SSDI benefits. Learn the key differences, eligibility requirements, the application process, and what to do if denied.",
+    "url": "resources/guides/how-to-apply-ssi-ssdi.html",
+    "keywords": "apply ssi ssdi clear guide understanding applying benefits learn key differences eligibility requirements application process denied difference financial limits work"
+  },
+  {
+    "title": "How to Avoid Eviction (Step by Step)",
+    "desc": "A practical guide to recognizing eviction warning signs early, communicating with your landlord, and accessing emergency assistance before it's too late.",
+    "url": "resources/guides/how-to-avoid-eviction.html",
+    "keywords": "avoid eviction step practical guide recognizing warning signs early communicating landlord accessing emergency assistance before late recognize communicate writing apply"
+  },
+  {
+    "title": "How to File a Housing Discrimination Complaint",
+    "desc": "Step-by-step guide to filing a housing discrimination complaint with HUD \u2014 what counts as discrimination, how to document it, and what happens after you file.",
+    "url": "resources/guides/how-to-file-housing-discrimination-complaint.html",
+    "keywords": "file housing discrimination complaint step-by-step guide filing hud counts document happens after step federal alternative state local agency contact fair"
+  },
+  {
+    "title": "How to Find Tax Credit (LIHTC) Apartments",
+    "desc": "Complete guide to finding, understanding, and applying for Low-Income Housing Tax Credit (LIHTC) apartments with affordable rents.",
+    "url": "resources/guides/how-to-find-lihtc-housing.html",
+    "keywords": "find tax credit lihtc apartments complete guide finding understanding applying low-income housing affordable rents section key differences income limits search"
+  },
+  {
+    "title": "How to Find Recovery Housing",
+    "desc": "Guide to finding quality recovery housing, understanding the different levels of care, recognizing red flags, and knowing your rights.",
+    "url": "resources/guides/how-to-find-recovery-housing.html",
+    "keywords": "find recovery housing guide finding quality understanding different levels care recognizing red flags knowing rights narr standards look avoid cost"
+  },
+  {
+    "title": "How to Find Your Local Public Housing Authority",
+    "desc": "Step-by-step guide to finding and contacting your local Public Housing Authority (PHA) to apply for public housing and Section 8 vouchers.",
+    "url": "resources/guides/how-to-find-your-pha.html",
+    "keywords": "find local public housing authority step-by-step guide finding contacting pha apply section vouchers matters using hud locator tool step call"
+  },
+  {
+    "title": "How to Handle Your Annual Recertification",
+    "desc": "Complete guide to Section 8 and public housing annual recertification: what to expect, what documents you need, and how to avoid losing your voucher.",
+    "url": "resources/guides/how-to-handle-recertification.html",
+    "keywords": "handle annual recertification complete guide section public housing expect documents need avoid losing voucher happen happens income went down rule"
+  },
+  {
+    "title": "How to Prevent Foreclosure",
+    "desc": "Step-by-step guide to preventing foreclosure \u2014 HUD counselors, loan modification, forbearance, repayment plans, and what to do at every stage.",
+    "url": "resources/guides/how-to-prevent-foreclosure.html",
+    "keywords": "prevent foreclosure step-by-step guide preventing hud counselors loan modification forbearance repayment plans every stage inevitable contact lender loss mitigation department"
+  },
+  {
+    "title": "How to Recover Your Security Deposit",
+    "desc": "A step-by-step guide to documenting your apartment at move-in and move-out, understanding state timelines, and recovering your full deposit through demand letters and small claims court if necessary.",
+    "url": "resources/guides/how-to-recover-security-deposit.html",
+    "keywords": "recover security deposit step-by-step guide documenting apartment move-in move-out understanding state timelines recovering full through demand letters small claims court"
+  },
+  {
+    "title": "How to Request a Reasonable Accommodation",
+    "desc": "A practical guide to requesting a reasonable accommodation from your landlord or housing authority \u2014 what it means, how to do it, and what to do if you're denied.",
+    "url": "resources/guides/how-to-request-reasonable-accommodation.html",
+    "keywords": "request reasonable accommodation practical guide requesting landlord housing authority means denied one step identify need make writing provide documentation requested"
+  },
+  {
+    "title": "How to Transfer Your Voucher to Another Area (Portability)",
+    "desc": "Complete guide to moving your Section 8 Housing Choice Voucher to a different city or region using portability.",
+    "url": "resources/guides/how-to-transfer-voucher.html",
+    "keywords": "transfer voucher another area portability complete guide moving section housing choice different city region using port works basic process absorption"
+  },
+  {
+    "title": "Rebuilding Credit for Housing Applications",
+    "desc": "A practical guide to getting your credit report, disputing errors, understanding what landlords look for, and building credit to improve your housing eligibility.",
+    "url": "resources/guides/rebuilding-credit-for-housing.html",
+    "keywords": "rebuilding credit housing applications practical guide getting report disputing errors understanding landlords look building improve eligibility step get free reports"
+  },
+  {
+    "title": "Renting with Poor Rental History",
+    "desc": "Understand what counts as poor rental history, what landlords check, your rights, and practical strategies for getting approved despite past housing issues.",
+    "url": "resources/guides/renting-with-poor-rental-history.html",
+    "keywords": "renting poor rental history understand counts landlords check rights practical strategies getting approved despite past housing issues actually get own"
+  },
+  {
+    "title": "Source of Income Discrimination: Know Your State's Laws",
+    "desc": "Learn which states protect housing voucher holders from discrimination and what to do if you face source of income discrimination.",
+    "url": "resources/guides/source-of-income-protections.html",
+    "keywords": "source income discrimination know state laws learn protect housing voucher holders face isn listed check local protections law actually says"
+  },
+  {
+    "title": "Understanding Landlord Notices",
+    "desc": "What to do when you get a notice from your landlord. Comply or vacate, pay or vacate, lease violations, and notice to terminate \u2014 explained in plain language.",
+    "url": "resources/guides/understanding-landlord-notices.html",
+    "keywords": "understanding landlord notices get notice comply vacate pay lease violations terminate explained plain language getting doesn mean evicted tenancy violation"
+  },
+  {
+    "title": "Understanding Your Lease \u2014 What Every Renter Should Know",
+    "desc": "Decode lease jargon, know what's legal vs illegal, spot red flags, and understand your rights when signing a rental agreement.",
+    "url": "resources/guides/understanding-your-lease.html",
+    "keywords": "understanding lease every renter know decode jargon legal illegal spot red flags understand rights signing rental agreement step core terms"
   },
   {
     "title": "VA Benefits for Veterans",
-    "desc": "VA disability compensation, VA pension, VA healthcare, and Aid & Attendance — what you may qualify for and how to apply.",
+    "desc": "VA disability compensation, VA pension, VA healthcare, and Aid & Attendance \u2014 what you may qualify for and how to apply.",
     "url": "resources/guides/va-benefits.html",
-    "keywords": "va benefits veterans disability compensation pension healthcare aid attendance pact act toxic exposure vso military service-connected"
+    "keywords": "benefits veterans disability compensation pension healthcare aid attendance qualify apply know pact act toxic exposure work together other worth knowing"
+  },
+  {
+    "title": "How to Navigate Housing Waiting Lists",
+    "desc": "Practical strategies for navigating long waiting lists, applying to multiple PHAs, and staying on lists until you get your voucher.",
+    "url": "resources/guides/waiting-list-strategies.html",
+    "keywords": "navigate housing waiting lists practical strategies navigating long applying multiple phas staying until get voucher strategy apply find open understand"
+  },
+  {
+    "title": "What to Do When You Lose Your Job",
+    "desc": "Immediate steps after job loss \u2014 filing for unemployment, keeping your housing, enrolling in benefits, and getting back on your feet.",
+    "url": "resources/guides/what-to-do-when-you-lose-your-job.html",
+    "keywords": "lose job immediate steps after loss filing unemployment keeping housing enrolling benefits getting back feet first things file health insurance"
+  },
+  {
+    "title": "Alabama Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Alabama. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/alabama.html",
+    "keywords": "alabama housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Alaska Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Alaska. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/alaska.html",
+    "keywords": "alaska housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Arizona Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Arizona. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/arizona.html",
+    "keywords": "arizona housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Arkansas Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Arkansas. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/arkansas.html",
+    "keywords": "arkansas housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "California Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to California. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/california.html",
+    "keywords": "california housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Colorado Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Colorado. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/colorado.html",
+    "keywords": "colorado housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Connecticut Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Connecticut. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/connecticut.html",
+    "keywords": "connecticut housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Delaware Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Delaware. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/delaware.html",
+    "keywords": "delaware housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "District of Columbia Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to District of Columbia. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/district-of-columbia.html",
+    "keywords": "district columbia housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "Florida Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Florida. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/florida.html",
+    "keywords": "florida housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Georgia Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Georgia. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/georgia.html",
+    "keywords": "georgia housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Hawaii Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Hawaii. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/hawaii.html",
+    "keywords": "hawaii housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Idaho Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Idaho. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/idaho.html",
+    "keywords": "idaho housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Illinois Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Illinois. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/illinois.html",
+    "keywords": "illinois housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "State-by-State Housing Resources",
+    "desc": "Find housing resources, tenant rights, legal aid, and assistance programs specific to your state. Every state has different rules \u2014 find yours.",
+    "url": "resources/states/index.html",
+    "keywords": "state-by-state housing find tenant rights legal aid assistance programs specific state every different rules yours index"
+  },
+  {
+    "title": "Indiana Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Indiana. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/indiana.html",
+    "keywords": "indiana housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Iowa Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Iowa. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/iowa.html",
+    "keywords": "iowa housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Kansas Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Kansas. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/kansas.html",
+    "keywords": "kansas housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Kentucky Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Kentucky. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/kentucky.html",
+    "keywords": "kentucky housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Louisiana Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Louisiana. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/louisiana.html",
+    "keywords": "louisiana housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Maine Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Maine. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/maine.html",
+    "keywords": "maine housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Maryland Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Maryland. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/maryland.html",
+    "keywords": "maryland housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Massachusetts Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Massachusetts. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/massachusetts.html",
+    "keywords": "massachusetts housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Michigan Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Michigan. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/michigan.html",
+    "keywords": "michigan housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Minnesota Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Minnesota. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/minnesota.html",
+    "keywords": "minnesota housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Mississippi Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Mississippi. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/mississippi.html",
+    "keywords": "mississippi housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Missouri Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Missouri. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/missouri.html",
+    "keywords": "missouri housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Montana Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Montana. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/montana.html",
+    "keywords": "montana housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Nebraska Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Nebraska. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/nebraska.html",
+    "keywords": "nebraska housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Nevada Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Nevada. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/nevada.html",
+    "keywords": "nevada housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "New Hampshire Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to New Hampshire. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/new-hampshire.html",
+    "keywords": "new hampshire housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "New Jersey Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to New Jersey. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/new-jersey.html",
+    "keywords": "new jersey housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "New Mexico Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to New Mexico. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/new-mexico.html",
+    "keywords": "new mexico housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "New York Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to New York. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/new-york.html",
+    "keywords": "new york housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "North Carolina Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to North Carolina. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/north-carolina.html",
+    "keywords": "north carolina housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "North Dakota Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to North Dakota. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/north-dakota.html",
+    "keywords": "north dakota housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "Ohio Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Ohio. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/ohio.html",
+    "keywords": "ohio housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Oklahoma Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Oklahoma. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/oklahoma.html",
+    "keywords": "oklahoma housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Oregon Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Oregon. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/oregon.html",
+    "keywords": "oregon housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Pennsylvania Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Pennsylvania. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/pennsylvania.html",
+    "keywords": "pennsylvania housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Rhode Island Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Rhode Island. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/rhode-island.html",
+    "keywords": "rhode island housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "South Carolina Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to South Carolina. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/south-carolina.html",
+    "keywords": "south carolina housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "South Dakota Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to South Dakota. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/south-dakota.html",
+    "keywords": "south dakota housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "Tennessee Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Tennessee. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/tennessee.html",
+    "keywords": "tennessee housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Texas Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Texas. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/texas.html",
+    "keywords": "texas housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Utah Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Utah. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/utah.html",
+    "keywords": "utah housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Vermont Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Vermont. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/vermont.html",
+    "keywords": "vermont housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Virginia Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Virginia. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/virginia.html",
+    "keywords": "virginia housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Washington Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Washington. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/washington.html",
+    "keywords": "washington housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "West Virginia Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to West Virginia. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/west-virginia.html",
+    "keywords": "west virginia housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance"
+  },
+  {
+    "title": "Wisconsin Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Wisconsin. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/wisconsin.html",
+    "keywords": "wisconsin housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Wyoming Housing Resources & Tenant Rights",
+    "desc": "Housing resources, tenant rights, legal aid, and assistance programs specific to Wyoming. Security deposit laws, eviction rules, and where to get help.",
+    "url": "resources/states/wyoming.html",
+    "keywords": "wyoming housing tenant rights legal aid assistance programs specific security deposit laws eviction rules get help key protections glance source"
+  },
+  {
+    "title": "Fair Housing Complaint Narrative",
+    "desc": "Template for documenting housing discrimination for filing with HUD or local fair housing agencies.",
+    "url": "resources/templates/fair-housing-complaint.html",
+    "keywords": "fair housing complaint narrative template documenting discrimination filing hud local agencies use customize file happens after related fair-housing-complaint"
+  },
+  {
+    "title": "Housing Denial Appeal Letter",
+    "desc": "Template letter to appeal a denial for housing, subsidized housing programs, or housing vouchers.",
+    "url": "resources/templates/housing-denial-appeal.html",
+    "keywords": "housing denial appeal letter template subsidized programs vouchers use customize include tips sending related housing-denial-appeal"
+  },
+  {
+    "title": "Letter & Document Templates",
+    "desc": "Ready-to-use letter templates for housing issues: reasonable accommodations, housing appeals, repair requests, security deposits, fair housing complaints, and voucher transfers.",
+    "url": "resources/templates/index.html",
+    "keywords": "letter document ready-to-use housing issues reasonable accommodations appeals repair requests security deposits fair complaints voucher transfers more help index"
+  },
+  {
+    "title": "Reasonable Accommodation Request Letter",
+    "desc": "Template letter to request housing accommodations for disabilities, service animals, or medical conditions.",
+    "url": "resources/templates/reasonable-accommodation-request.html",
+    "keywords": "reasonable accommodation request letter template housing accommodations disabilities service animals medical conditions use customize tips sending related reasonable-accommodation-request"
+  },
+  {
+    "title": "Repair Request Letter",
+    "desc": "Template letter to formally request that your landlord make necessary repairs to your rental unit.",
+    "url": "resources/templates/repair-request.html",
+    "keywords": "repair request letter template formally landlord make necessary repairs rental unit use customize tips sending related repair-request"
+  },
+  {
+    "title": "Security Deposit Demand Letter",
+    "desc": "Template letter to demand the return of your security deposit when a landlord wrongly withholds it.",
+    "url": "resources/templates/security-deposit-demand.html",
+    "keywords": "security deposit demand letter template return landlord wrongly withholds use customize tips sending related security-deposit-demand"
+  },
+  {
+    "title": "Voucher Portability Request Letter",
+    "desc": "Template letter to request transferring your housing voucher to a different state or jurisdiction.",
+    "url": "resources/templates/voucher-portability-request.html",
+    "keywords": "voucher portability request letter template transferring housing different state jurisdiction use customize before send tips sending related voucher-portability-request"
+  },
+  {
+    "title": "Monthly Budget Calculator",
+    "desc": "Calculate your monthly budget and see where your income goes. Track income, expenses, and housing costs to plan your finances and find ways to balance your budget.",
+    "url": "resources/tools/budget-calculator.html",
+    "keywords": "monthly budget calculator calculate see income goes track expenses housing costs plan finances find ways balance essential debt payments snapshot"
+  },
+  {
+    "title": "Housing Program Comparison Tool",
+    "desc": "Compare HUD housing programs side by side. See eligibility, rent calculations, wait times, and how to apply for Section 8, Public Housing, LIHTC, Project-Based Vouchers, HUD-VASH, and more.",
+    "url": "resources/tools/compare-programs.html",
+    "keywords": "housing program comparison tool compare hud programs side see eligibility rent calculations wait times apply section public lihtc project-based vouchers"
+  },
+  {
+    "title": "Fair Market Rent & Income Limits Lookup",
+    "desc": "Look up HUD Fair Market Rents and income limits for your area. See what rent levels housing programs use and whether your income qualifies you for assistance.",
+    "url": "resources/tools/rent-estimator.html",
+    "keywords": "fair market rent income limits lookup look hud rents area see levels housing programs use whether qualifies assistance javascript required"
+  },
+  {
+    "title": "Video Library",
+    "desc": "Watch short, practical videos to learn about affordable housing, Section 8, HUD-VASH, tenant rights, and more.",
+    "url": "videos/index.html",
+    "keywords": "video library watch short practical videos learn affordable housing section hud-vash tenant rights more follow updates index"
+  },
+  {
+    "title": "Housing Resources for People with Disabilities",
+    "desc": "Section 811, reasonable accommodations, accessible housing, and disability rights protections for affordable housing.",
+    "url": "who-we-help/disabilities.html",
+    "keywords": "housing people disabilities section 811 reasonable accommodations accessible disability rights protections affordable supportive persons right service animals emotional support fair"
+  },
+  {
+    "title": "Housing Resources for Survivors of Domestic Violencece",
+    "desc": "VAWA protections, emergency transfers, lease bifurcation, FUP vouchers, and confidential address programs for survivors.",
+    "url": "who-we-help/dv-survivors.html",
+    "keywords": "housing survivors domestic violencece vawa protections emergency transfers lease bifurcation fup vouchers confidential address programs safety first shelter rights survivor"
+  },
+  {
+    "title": "Housing Resources for Seniors",
+    "desc": "Section 202, Section 8 elderly preferences, LIHTC, aging-in-place modifications, and Area Agencies on Aging.",
+    "url": "who-we-help/seniors.html",
+    "keywords": "housing seniors section 202 elderly preferences lihtc aging-in-place modifications area agencies aging supportive low-income tax credits place support services local"
+  },
+  {
+    "title": "Housing Resources for Veterans",
+    "desc": "HUD-VASH, SSVF, GPD, and other housing programs designed for veterans experiencing homelessness or housing instability.",
+    "url": "who-we-help/veterans.html",
+    "keywords": "housing veterans hud-vash ssvf gpd other programs designed experiencing homelessness instability bridging care fast-track immediate needs transitional support supportive vash"
   }
 ]
