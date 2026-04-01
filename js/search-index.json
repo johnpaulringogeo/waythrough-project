@@ -72,6 +72,42 @@
     "keywords": "happens after get housing voucher apartment search section different renting without one here expect timelines inspections landlord negotiations doors close"
   },
   {
+    "title": "Waythrough Project en Espa\u00f1ol \u2014 Ayuda para Superar las Barreras de la Vivienda Asequible",
+    "desc": "Gu\u00edas gratuitas, instrucciones paso a paso, y recursos para ayudarte a navegar programas de vivienda asequible incluyendo Secci\u00f3n 8, HUD-VASH, y m\u00e1s.",
+    "url": "es/index.html",
+    "keywords": "espa ayuda para superar las barreras vivienda asequible gratuitas instrucciones paso recursos ayudarte navegar programas incluyendo secci hud-vash explora por"
+  },
+  {
+    "title": "Entender Tus Derechos como Inquilino",
+    "desc": "Tus derechos legales como inquilino: habitabilidad, privacidad, protecci\u00f3n contra represalias, vivienda justa, y c\u00f3mo defenderte en un desahucio.",
+    "url": "es/recursos/derechos-del-inquilino.html",
+    "keywords": "entender tus derechos como inquilino legales habitabilidad privacidad protecci contra represalias vivienda justa defenderte desahucio sicos que casero puede hacer"
+  },
+  {
+    "title": "Por D\u00f3nde Empezar",
+    "desc": "\u00bfNo est\u00e1s seguro de d\u00f3nde comenzar? Aqu\u00ed est\u00e1 una gu\u00eda simplificada de los principales programas de vivienda asequible para ayudarte a encontrar los recursos correctos.",
+    "url": "es/recursos/donde-empezar.html",
+    "keywords": "por nde empezar est seguro comenzar aqu una simplificada los principales programas vivienda asequible para ayudarte encontrar recursos correctos determinando"
+  },
+  {
+    "title": "Biblioteca de Recursos",
+    "desc": "Explora nuestra biblioteca completa de gu\u00edas, listas de verificaci\u00f3n, y recursos para ayudarte a navegar la vivienda asequible y las barreras que se interponen en el camino.",
+    "url": "es/recursos/index.html",
+    "keywords": "biblioteca recursos explora nuestra completa listas verificaci para ayudarte navegar vivienda asequible las barreras que interponen camino por tema cticas"
+  },
+  {
+    "title": "C\u00f3mo Solicitar Secci\u00f3n 8 (Paso a Paso)",
+    "desc": "Una gu\u00eda completa paso a paso para solicitar Cupones de Vivienda Secci\u00f3n 8 \u2014 desde encontrar listas de espera abiertas hasta enviar tu solicitud.",
+    "url": "es/recursos/guias/como-solicitar-seccion-8.html",
+    "keywords": "solicitar secci paso una completa para cupones vivienda desde encontrar listas espera abiertas hasta enviar solicitud encuentra autoridades blica con"
+  },
+  {
+    "title": "Tu Lista Completa de Documentos para Solicitudes de Vivienda",
+    "desc": "No te rechacen por documentos faltantes. Esta lista de verificaci\u00f3n cubre cada documento que podr\u00edas necesitar para Secci\u00f3n 8, HUD-VASH, vivienda p\u00fablica, y otras solicitudes de vivienda asequible.",
+    "url": "es/recursos/guias/lista-de-documentos.html",
+    "keywords": "lista completa documentos para solicitudes vivienda rechacen por faltantes esta verificaci cubre cada documento que podr necesitar secci hud-vash blica"
+  },
+  {
     "title": "Accessibility Statement",
     "desc": "Our accessibility standards, testing methodology, audit results, and commitment to WCAG 2.1 AA compliance for affordable housing resources.",
     "url": "resources/accessibility.html",
@@ -88,6 +124,12 @@
     "desc": "Navigating SSI, SSDI, SNAP, Medicaid, TANF, and other benefits that support housing stability. How benefits work together and how they interact with housing subsidies.",
     "url": "resources/benefits.html",
     "keywords": "benefits financial support navigating ssi ssdi snap medicaid tanf other housing stability work together interact subsidies difference food stamps healthcare"
+  },
+  {
+    "title": "Real Questions, Real Answers",
+    "desc": "Real questions from readers about affordable housing, answered with practical experience-based advice. Learn what people are actually asking about Section 8, housing rights, and getting started.",
+    "url": "resources/community-answers.html",
+    "keywords": "real questions answers readers affordable housing answered practical experience-based advice learn people actually asking section rights getting started living voucher"
   },
   {
     "title": "Credit & Housing \u2014 What Renters Need to Know",
@@ -141,7 +183,7 @@
     "title": "Resource Library",
     "desc": "Browse our complete library of guides, checklists, and resources to help you navigate affordable housing and the barriers that stand in the way.",
     "url": "resources/index.html",
-    "keywords": "resource library browse complete checklists help navigate affordable housing barriers stand way topic step-by-step reference situation index"
+    "keywords": "resource library browse complete checklists help navigate affordable housing barriers stand way letter state topic step-by-step reference situation index"
   },
   {
     "title": "LGBTQ+ Housing Rights & Resources",
@@ -154,6 +196,12 @@
     "desc": "Understanding the connection between mental health and housing stability, and how to access support and housing programs designed for people with mental health conditions.",
     "url": "resources/mental-health.html",
     "keywords": "mental health housing understanding connection between stability access support programs designed people conditions affects crisis immediate help finding treatment fair"
+  },
+  {
+    "title": "Printable Guides",
+    "desc": "Print-optimized guides designed for case managers, social workers, and housing advocates. Share cleanly formatted one-pagers with clients.",
+    "url": "resources/printable.html",
+    "keywords": "printable print-optimized designed case managers social workers housing advocates share cleanly formatted one-pagers clients most popular print want more"
   },
   {
     "title": "Substance Use & Recovery Housing",
@@ -210,6 +258,12 @@
     "keywords": "family self-sufficiency program explained learn hud helps build savings move toward financial independence through housing assistance escrow account works concrete"
   },
   {
+    "title": "You Found an Open Waiting List \u2014 Now What?",
+    "desc": "How to act fast when a Section 8 waiting list opens. What to do immediately, documents to have ready, how to fill out pre-applications correctly, and what happens after you apply.",
+    "url": "resources/guides/found-open-waiting-list.html",
+    "keywords": "found open waiting list now act fast section opens immediately documents ready fill pre-applications correctly happens after apply first things"
+  },
+  {
     "title": "Getting Out of Debt",
     "desc": "Practical steps to manage and reduce debt on a low income. Medical bills, collections, utility arrears, court fines\u2014understand your rights and options without shame.",
     "url": "resources/guides/getting-out-of-debt.html",
@@ -220,6 +274,18 @@
     "desc": "Can't afford to maintain your home? Programs for emergency repairs, weatherization, and what to do if your home is condemned or unsafe.",
     "url": "resources/guides/home-repair-assistance.html",
     "keywords": "home repair assistance afford maintain programs emergency repairs weatherization condemned unsafe needs federal state local nonprofit community preventing problems before"
+  },
+  {
+    "title": "How Your Benefits Interact With Each Other",
+    "desc": "Understanding how Section 8, SNAP, SSI/SSDI, Medicaid, and TANF affect each other. The benefits cliff explained, and why earning more almost always leaves you better off.",
+    "url": "resources/guides/how-benefits-interact.html",
+    "keywords": "benefits interact each other understanding section snap ssi ssdi medicaid tanf affect cliff explained earning more almost always leaves better"
+  },
+  {
+    "title": "How Recertification Works and How to Prepare",
+    "desc": "Annual recertification guide: What it is, what documents you need, how your rent can change, and what happens if you miss the deadline.",
+    "url": "resources/guides/how-recertification-works.html",
+    "keywords": "recertification works prepare annual guide documents need rent change happens miss deadline calculated provide preparing appointment interim requesting changes mid-year"
   },
   {
     "title": "How to Appeal a Housing Denial",
@@ -312,6 +378,12 @@
     "keywords": "request reasonable accommodation practical guide requesting landlord housing authority means denied one step identify need make writing provide documentation requested"
   },
   {
+    "title": "How to Communicate Effectively With Your PHA",
+    "desc": "Best practices for dealing with your Public Housing Authority: what to document, how to request things in writing, handling income changes and transfers, and what to do when they don't respond.",
+    "url": "resources/guides/how-to-talk-to-your-pha.html",
+    "keywords": "communicate effectively pha best practices dealing public housing authority document request things writing handling income changes transfers don respond understanding"
+  },
+  {
     "title": "How to Transfer Your Voucher to Another Area (Portability)",
     "desc": "Complete guide to moving your Section 8 Housing Choice Voucher to a different city or region using portability.",
     "url": "resources/guides/how-to-transfer-voucher.html",
@@ -364,6 +436,12 @@
     "desc": "Immediate steps after job loss \u2014 filing for unemployment, keeping your housing, enrolling in benefits, and getting back on your feet.",
     "url": "resources/guides/what-to-do-when-you-lose-your-job.html",
     "keywords": "lose job immediate steps after loss filing unemployment keeping housing enrolling benefits getting back feet first things file health insurance"
+  },
+  {
+    "title": "What to Expect at Your Housing Inspection",
+    "desc": "A complete guide to Housing Quality Standards (HQS) inspections. What inspectors look for, common reasons units fail, how to prepare, and what happens if you fail.",
+    "url": "resources/guides/what-to-expect-at-inspection.html",
+    "keywords": "expect housing inspection complete guide quality standards hqs inspections inspectors look common reasons units fail prepare happens matters exterior overall"
   },
   {
     "title": "Alabama Housing Resources & Tenant Rights",
@@ -720,6 +798,12 @@
     "keywords": "voucher portability request letter template transferring housing different state jurisdiction use customize before send tips sending related voucher-portability-request"
   },
   {
+    "title": "Benefits Interaction Calculator",
+    "desc": "Understand how different benefits programs interact with each other. See how getting one benefit affects your eligibility and amounts for others. Calculate Section 8 rent, SNAP, SSI, Medicaid eligibility, and more.",
+    "url": "resources/tools/benefits-calculator.html",
+    "keywords": "benefits interaction calculator understand different programs interact each other see getting one benefit affects eligibility amounts others calculate section rent"
+  },
+  {
     "title": "Monthly Budget Calculator",
     "desc": "Calculate your monthly budget and see where your income goes. Track income, expenses, and housing costs to plan your finances and find ways to balance your budget.",
     "url": "resources/tools/budget-calculator.html",
@@ -732,6 +816,18 @@
     "keywords": "housing program comparison tool compare hud programs side see eligibility rent calculations wait times apply section public lihtc project-based vouchers"
   },
   {
+    "title": "Housing Program Eligibility Screener",
+    "desc": "Find out which affordable housing programs you might qualify for based on your income, household size, and situation. Quick screening for Section 8, public housing, HUD-VASH, and more.",
+    "url": "resources/tools/eligibility-screener.html",
+    "keywords": "housing program eligibility screener find affordable programs qualify based income household size situation quick screening section public hud-vash more related"
+  },
+  {
+    "title": "Letter Generator",
+    "desc": "Generate professional letters to request repairs, accommodations, demand security deposit returns, and appeal decisions. A tenant rights advocacy tool to help you exercise your legal rights.",
+    "url": "resources/tools/letter-generator.html",
+    "keywords": "letter generator generate professional letters request repairs accommodations demand security deposit returns appeal decisions tenant rights advocacy tool help exercise"
+  },
+  {
     "title": "Fair Market Rent & Income Limits Lookup",
     "desc": "Look up HUD Fair Market Rents and income limits for your area. See what rent levels housing programs use and whether your income qualifies you for assistance.",
     "url": "resources/tools/rent-estimator.html",
@@ -742,6 +838,12 @@
     "desc": "Watch short, practical videos to learn about affordable housing, Section 8, HUD-VASH, tenant rights, and more.",
     "url": "videos/index.html",
     "keywords": "video library watch short practical videos learn affordable housing section hud-vash tenant rights more follow updates index"
+  },
+  {
+    "title": "Video Scripts & Outlines",
+    "desc": "Video script outlines for practical explainer videos about affordable housing, Section 8, tenant rights, and housing programs.",
+    "url": "videos/scripts.html",
+    "keywords": "video scripts outlines script practical explainer videos affordable housing section tenant rights programs related"
   },
   {
     "title": "Housing Resources for People with Disabilities",

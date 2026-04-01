@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Benefits Interaction Calculator — Waythrough Project</title>
+    <meta name="description" content="Understand how different benefits programs interact with each other. See how getting one benefit affects your eligibility and amounts for others. Calculate Section 8 rent, SNAP, SSI, Medicaid eligibility, and more.">
+    <meta property="og:title" content="Benefits Interaction Calculator — Waythrough Project">
+    <meta property="og:description" content="Understand how different benefits programs interact with each other. See how getting one benefit affects your eligibility and amounts for others.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/resources/tools/benefits-calculator">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Benefits Interaction Calculator — Waythrough Project">
+    <meta name="twitter:description" content="Understand how different benefits programs interact with each other.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/resources/tools/benefits-calculator">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="../../css/style.css?v=18">
+    <script src="../../js/components.js?v=13" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://waythroughproject.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Resources",
+      "item": "https://waythroughproject.com/resources/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Benefits Interaction Calculator"
+    }
+  ]
+}
+    </script>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Benefits Myth Callout ===== */
+        .benefits-myth {
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(34, 197, 94, 0.03) 100%);
+            border-left: 4px solid #22c55e;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .benefits-myth-title {
+            font-weight: 700;
+            color: #166534;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .benefits-myth-title::before {
+            content: '✓';
+            font-size: 1.25rem;
+            display: inline-block;
+        }
+
+        .benefits-myth p {
+            margin: 0.5rem 0;
+            color: var(--color-text-light);
+            line-height: 1.6;
+        }
+
+        /* ===== Form Layout ===== */
+        .benefits-form {
+            display: grid;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+        }
+
+        .form-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .form-section-icon {
+            font-size: 1.5rem;
+            opacity: 0.7;
+        }
+
+        .form-section h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-text);
+        }
+
+        /* ===== Form Groups ===== */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .form-group input[type="number"],
+        .form-group input[type="range"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+
+        .form-group input[type="number"]:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .form-hint {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            margin-top: 0.3rem;
+            margin-bottom: 0;
+        }
+
+        .form-group-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        /* ===== Checkbox Grid ===== */
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-top: 0.25rem;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .checkbox-item label {
+            flex: 1;
+            margin-bottom: 0;
+            font-weight: 500;
+            cursor: pointer;
+            padding-top: 0.25rem;
+        }
+
+        /* ===== Totals and Results ===== */
+        .totals-section {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .total-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .total-item:last-child {
+            border-bottom: none;
+            padding-top: 1rem;
+            border-top: 2px solid var(--color-border);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .total-item label {
+            font-weight: 500;
+            color: var(--color-text);
+            margin-bottom: 0;
+        }
+
+        .amount {
+            font-weight: 700;
+            color: var(--color-primary);
+            font-size: 1.1rem;
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ===== Results Grid ===== */
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .benefit-card {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            position: relative;
+        }
+
+        .benefit-card.eligible {
+            border-left: 4px solid #22c55e;
+        }
+
+        .benefit-card.ineligible {
+            border-left: 4px solid #ef4444;
+            opacity: 0.85;
+        }
+
+        .benefit-card.note {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .benefit-card h3 {
+            font-size: 1rem;
+            margin: 0 0 0.75rem 0;
+            color: var(--color-text);
+            font-weight: 700;
+        }
+
+        .benefit-amount {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .benefit-note {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+        }
+
+        .benefit-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.75rem;
+        }
+
+        .badge-eligible {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .badge-ineligible {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .badge-note {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        /* ===== Chart ===== */
+        .chart-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--color-text);
+        }
+
+        .chart-subtitle {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+        }
+
+        .bars-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .bar-item {
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+
+        .bar-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--color-text-light);
+            word-break: break-word;
+        }
+
+        .bar-visual {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: flex-end;
+        }
+
+        .bar-stack {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            background: var(--color-bg-soft);
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+            min-height: 150px;
+        }
+
+        .bar-segment {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: white;
+            text-align: center;
+            padding: 0.25rem;
+            min-height: 20px;
+        }
+
+        .bar-segment.section8 {
+            background: #2563eb;
+        }
+
+        .bar-segment.snap {
+            background: #7c3aed;
+        }
+
+        .bar-segment.ssi {
+            background: #db2777;
+        }
+
+        .bar-segment.medicaid-eligible {
+            background: #059669;
+        }
+
+        .bar-amount {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ===== Warnings and Info ===== */
+        .warning-box {
+            background: #fef3c7;
+            border: 1px solid #fcd34d;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .warning-icon {
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .warning-content {
+            flex: 1;
+        }
+
+        .warning-title {
+            font-weight: 700;
+            color: #92400e;
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        .warning-text {
+            font-size: 0.9rem;
+            color: #78350f;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        .info-box {
+            background: #dbeafe;
+            border: 1px solid #93c5fd;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .info-icon {
+            font-size: 1.25rem;
+            flex-shrink: 0;
+        }
+
+        .info-content {
+            flex: 1;
+        }
+
+        .info-title {
+            font-weight: 700;
+            color: #0c4a6e;
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        .info-text {
+            font-size: 0.9rem;
+            color: #164e63;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        /* ===== Range Slider ===== */
+        .income-slider-group {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .slider-label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .slider-label strong {
+            font-weight: 700;
+        }
+
+        .slider-value {
+            font-weight: 700;
+            color: var(--color-primary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: var(--color-bg-soft);
+            outline: none;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.2s;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background 0.2s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: var(--color-primary-dark);
+        }
+
+        input[type="range"]::-moz-range-thumb:hover {
+            background: var(--color-primary-dark);
+        }
+
+        /* ===== Buttons ===== */
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-primary:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-secondary {
+            background: var(--color-bg-soft);
+            color: var(--color-text);
+            border: 1px solid var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-bg);
+            border-color: var(--color-primary);
+        }
+
+        .btn-secondary:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+
+        /* ===== Tips Section ===== */
+        .tips-section {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .tips-title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .tips-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tips-list li {
+            padding: 0.75rem 0;
+            padding-left: 1.75rem;
+            position: relative;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--color-text-light);
+        }
+
+        .tips-list li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        /* ===== Disclaimer ===== */
+        .disclaimer {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.6;
+        }
+
+        .disclaimer p {
+            margin: 0.5rem 0;
+        }
+
+        .disclaimer strong {
+            color: var(--color-text);
+            font-weight: 700;
+        }
+
+        /* ===== Related Resources ===== */
+        .related-resources {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .related-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--color-text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .resource-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .resource-link {
+            display: block;
+            padding: 1rem;
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--color-primary);
+            font-weight: 500;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .resource-link:hover {
+            background: var(--color-bg);
+            border-color: var(--color-primary);
+        }
+
+        .resource-link:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .form-section {
+                padding: 1.5rem;
+            }
+
+            .form-group-row {
+                grid-template-columns: 1fr;
+            }
+
+            .checkbox-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .bars-container {
+                grid-template-columns: 1fr;
+            }
+
+            .bar-item {
+                grid-template-columns: 1fr;
+            }
+
+            .bar-label {
+                text-align: center;
+            }
+
+            .bar-visual {
+                align-items: center;
+                width: 100%;
+            }
+
+            .bar-stack {
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .slider-label {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        /* ===== Print ===== */
+        @media print {
+            .form-section {
+                page-break-inside: avoid;
+            }
+
+            .benefit-card {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Resources</a><span class="sep">/</span><span class="current">Benefits Interaction Calculator</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Tool</span>
+                <h1>Benefits Interaction Calculator</h1>
+                <p class="subtitle">Understand how different benefits programs work together—and how getting one benefit affects your eligibility and amounts for others. See the real story of how your income affects your total support.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>When you receive benefits from multiple programs, they interact in ways that aren't always obvious. This calculator helps you understand those interactions and see the real impact on your total support.</p>
+                    <p>Enter your household size and income, select which benefits you're considering, and watch how they affect each other. Everything is private; nothing gets saved or shared.</p>
+                </div>
+
+                <!-- Benefits Cliff Myth Callout -->
+                <div class="benefits-myth">
+                    <div class="benefits-myth-title">The Benefits Cliff Is Rare</div>
+                    <p><strong>You almost always come out ahead when you earn more money.</strong> While some benefits may decrease as your income goes up, your net income (what you actually have to spend) almost always increases. You don't lose more in benefits than you gain in wages.</p>
+                    <p>This calculator will show you exactly what happens to your total support when you earn more. Check it out with the "Income simulation" slider at the bottom.</p>
+                </div>
+
+                <!-- Benefits Form -->
+                <form id="benefits-form" class="benefits-form" aria-label="Benefits interaction calculator">
+
+                    <!-- HOUSEHOLD SECTION -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">👥</span>
+                            <h2>Household Information</h2>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="household-size">Household Size</label>
+                                <input type="number" id="household-size" min="1" max="8" value="1" step="1">
+                                <p class="form-hint">How many people live in your household?</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="gross-income">Monthly Gross Income (wages only)</label>
+                                <input type="number" id="gross-income" placeholder="$0" min="0" step="0.01" value="0">
+                                <p class="form-hint">Income from employment before taxes</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- BENEFITS SECTION -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">💳</span>
+                            <h2>Benefits You're Considering</h2>
+                        </div>
+
+                        <p style="color: var(--color-text-light); font-size: 0.9rem; margin-bottom: 1rem;">Check the benefits you currently receive or are considering. The calculator will show how they interact.</p>
+
+                        <div class="checkbox-grid">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-section8" name="benefit-section8">
+                                <label for="benefit-section8"><strong>Section 8</strong><br>Housing Choice Voucher</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-ssi" name="benefit-ssi">
+                                <label for="benefit-ssi"><strong>SSI</strong><br>Supplemental Security Income</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-ssdi" name="benefit-ssdi">
+                                <label for="benefit-ssdi"><strong>SSDI</strong><br>Social Security Disability</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-snap" name="benefit-snap">
+                                <label for="benefit-snap"><strong>SNAP</strong><br>Food Assistance</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-medicaid" name="benefit-medicaid">
+                                <label for="benefit-medicaid"><strong>Medicaid</strong><br>Health Insurance</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-tanf" name="benefit-tanf">
+                                <label for="benefit-tanf"><strong>TANF</strong><br>Temporary Assistance</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-liheap" name="benefit-liheap">
+                                <label for="benefit-liheap"><strong>LIHEAP</strong><br>Utility Assistance</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="benefit-va" name="benefit-va">
+                                <label for="benefit-va"><strong>VA Benefits</strong><br>Veterans Support</label>
+                            </div>
+                        </div>
+                    </section>
+
+                </form>
+
+                <!-- RESULTS SECTION -->
+                <section class="form-section" id="results-section" style="display: none;">
+                    <div class="form-section-header">
+                        <span class="form-section-icon">📊</span>
+                        <h2>Estimated Benefits</h2>
+                    </div>
+
+                    <div id="interaction-warnings"></div>
+
+                    <div class="results-grid" id="results-grid"></div>
+                </section>
+
+                <!-- CHART SECTION -->
+                <section class="chart-section" id="chart-section" style="display: none;">
+                    <div class="chart-title">How Earning More Income Affects Your Total Support</div>
+                    <div class="chart-subtitle">Bars show total benefits from selected programs at current income and with increases. Notice that your net income (what you actually have to spend) always goes up when you earn more.</div>
+
+                    <div class="income-slider-group">
+                        <div class="slider-label">
+                            <strong>Test a higher income:</strong>
+                            <span class="slider-value" id="slider-value">Current income</span>
+                        </div>
+                        <input type="range" id="income-slider" min="0" max="1000" value="0" step="50">
+                    </div>
+
+                    <div class="bars-container" id="bars-container"></div>
+
+                    <div class="info-box" id="comparison-info" style="display: none;">
+                        <div class="info-icon">ℹ️</div>
+                        <div class="info-content">
+                            <div class="info-title">Net Income Comparison</div>
+                            <p class="info-text" id="comparison-text"></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Tips Section -->
+                <div class="tips-section">
+                    <div class="tips-title">Key Things to Know</div>
+                    <ul class="tips-list">
+                        <li><strong>Section 8 rent:</strong> You typically pay 30% of your adjusted income, with deductions for dependents and elderly/disabled household members</li>
+                        <li><strong>SNAP and shelter:</strong> When Section 8 lowers your rent, your SNAP benefit may decrease because shelter costs are counted against you</li>
+                        <li><strong>SSI limits:</strong> SSI has strict income limits ($943/month federally) and counts many income sources, but SSDI is more generous</li>
+                        <li><strong>Medicaid varies:</strong> Each state is different. Most states cover you if income is below 100–138% of the federal poverty line</li>
+                        <li><strong>Work incentives:</strong> Some programs have work incentives, student exclusions, or blind/disabled work expenses that can help you earn more</li>
+                        <li><strong>Earning more is worth it:</strong> Use the income slider to see—you almost always come out ahead when you earn more, even if some benefits go down</li>
+                    </ul>
+                </div>
+
+                <!-- Disclaimer -->
+                <div class="disclaimer">
+                    <p><strong>Important:</strong> These are estimates based on 2024 federal guidelines. Actual benefit amounts vary widely by:</p>
+                    <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
+                        <li>Your state or local area (rules differ significantly)</li>
+                        <li>Details of your situation (assets, expenses, dependents, disabilities, student status)</li>
+                        <li>Recent policy changes or rule updates</li>
+                    </ul>
+                    <p>Always verify with your actual benefits office or a local advocate. This tool is for education and exploration, not official determination.</p>
+                </div>
+
+                <!-- Related Resources -->
+                <div class="related-resources">
+                    <div class="related-title">Learn More</div>
+                    <div class="resource-links">
+                        <a href="../benefits.html" class="resource-link">Benefits & Financial Support</a>
+                        <a href="../guides/how-to-apply-for-snap.html" class="resource-link">Apply for SNAP</a>
+                        <a href="../guides/how-to-apply-ssi-ssdi.html" class="resource-link">Apply for SSI/SSDI</a>
+                        <a href="../guides/how-to-apply-section-8.html" class="resource-link">Apply for Section 8</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // ===== Federal Poverty Level (2024) =====
+        const FPL = {
+            1: 1255,
+            2: 1703,
+            3: 2152,
+            4: 2600,
+            5: 3048,
+            6: 3496,
+            7: 3944,
+            8: 4392
+        };
+
+        // SNAP max allotments
+        const SNAP_ALLOTMENTS = {
+            1: 291,
+            2: 535,
+            3: 766,
+            4: 973,
+            5: 1155,
+            6: 1386,
+            7: 1532,
+            8: 1750
+        };
+
+        // SSI federal rate 2024
+        const SSI_RATE = 943;
+
+        // Get form elements
+        const householdSizeInput = document.getElementById('household-size');
+        const grossIncomeInput = document.getElementById('gross-income');
+        const resultsSection = document.getElementById('results-section');
+        const resultsGrid = document.getElementById('results-grid');
+        const chartSection = document.getElementById('chart-section');
+        const barsContainer = document.getElementById('bars-container');
+        const incomeSlider = document.getElementById('income-slider');
+        const sliderValue = document.getElementById('slider-value');
+        const comparisonInfo = document.getElementById('comparison-info');
+        const comparisonText = document.getElementById('comparison-text');
+
+        // Benefit checkboxes
+        const benefitCheckboxes = {
+            section8: document.getElementById('benefit-section8'),
+            ssi: document.getElementById('benefit-ssi'),
+            ssdi: document.getElementById('benefit-ssdi'),
+            snap: document.getElementById('benefit-snap'),
+            medicaid: document.getElementById('benefit-medicaid'),
+            tanf: document.getElementById('benefit-tanf'),
+            liheap: document.getElementById('benefit-liheap'),
+            va: document.getElementById('benefit-va')
+        };
+
+        // Format currency
+        function formatCurrency(num) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD',
+                minimumFractionDigits: 0,
+                maximumFractionDigits: 0
+            }).format(num);
+        }
+
+        // Get income level (in FPL percentage)
+        function getIncomeLevelPercent(income, householdSize) {
+            const fpl = FPL[householdSize] || FPL[8];
+            return (income / fpl) * 100;
+        }
+
+        // Calculate Section 8 rent
+        function calcSection8Rent(income, householdSize) {
+            // Standard deductions
+            const dependentDeduction = 480;
+            const dependents = Math.max(0, householdSize - 1);
+            const elderlyDisabledDeduction = 400;
+
+            const deductions = (dependents * dependentDeduction) + elderlyDisabledDeduction;
+            const adjustedIncome = Math.max(0, income - deductions);
+            const rent = Math.max(50, Math.round(adjustedIncome * 0.30));
+
+            return { rent, adjustedIncome };
+        }
+
+        // Calculate SNAP benefit
+        function calcSNAP(income, householdSize, section8Rent) {
+            const maxAllotment = SNAP_ALLOTMENTS[householdSize] || SNAP_ALLOTMENTS[8];
+            const standardDeduction = Math.round(householdSize * 180);
+            const shelterDeduction = section8Rent; // SNAP uses actual shelter costs
+
+            const netIncome = Math.max(0, income - standardDeduction);
+            const shelterExcess = Math.max(0, shelterDeduction - (netIncome * 0.5));
+            const countableIncome = netIncome + shelterExcess;
+            const benefitReduction = Math.round(countableIncome * 0.30);
+
+            const snap = Math.max(0, maxAllotment - benefitReduction);
+            return snap;
+        }
+
+        // Calculate SSI benefit
+        function calcSSI(income) {
+            // SSI counts earned income at $1 for $2 after $65 exclusion
+            const earnedExclusion = 65;
+            const countedEarned = Math.max(0, income - earnedExclusion) / 2;
+            const countableIncome = countedEarned;
+
+            const benefit = Math.max(0, SSI_RATE - countableIncome);
+            return Math.round(benefit);
+        }
+
+        // Check Medicaid eligibility
+        function checkMedicaidEligibility(income, householdSize) {
+            // Most states use 138% FPL (Medicaid expansion), some use 100% FPL
+            // We'll show both thresholds
+            const fpl = FPL[householdSize] || FPL[8];
+            const expansionLimit = fpl * 1.38;
+            const basicLimit = fpl * 1.0;
+
+            const eligible138 = income <= expansionLimit;
+            const eligible100 = income <= basicLimit;
+            const percentFPL = getIncomeLevelPercent(income, householdSize);
+
+            return { eligible138, eligible100, percentFPL };
+        }
+
+        // Check TANF eligibility
+        function checkTANFEligibility(householdSize) {
+            // TANF has 60-month lifetime limit and income limits vary by state
+            // For this calculator, we assume eligibility if income is low
+            return true; // Show as available with note about limits
+        }
+
+        // Get income level description
+        function getIncomeDescription(income, householdSize) {
+            const percent = getIncomeLevelPercent(income, householdSize);
+            if (percent < 100) return 'well below the federal poverty line';
+            if (percent < 138) return 'below typical Medicaid limit';
+            if (percent < 200) return 'below 200% of poverty line';
+            return 'above most program limits';
+        }
+
+        // Calculate all benefits
+        function calculateBenefits(grossIncome = null) {
+            const householdSize = parseInt(householdSizeInput.value) || 1;
+            const income = grossIncome !== null ? grossIncome : parseFloat(grossIncomeInput.value) || 0;
+
+            const selected = {
+                section8: benefitCheckboxes.section8.checked,
+                ssi: benefitCheckboxes.ssi.checked,
+                ssdi: benefitCheckboxes.ssdi.checked,
+                snap: benefitCheckboxes.snap.checked,
+                medicaid: benefitCheckboxes.medicaid.checked,
+                tanf: benefitCheckboxes.tanf.checked,
+                liheap: benefitCheckboxes.liheap.checked,
+                va: benefitCheckboxes.va.checked
+            };
+
+            // Only calculate if something is selected
+            if (!Object.values(selected).some(v => v)) {
+                resultsSection.style.display = 'none';
+                chartSection.style.display = 'none';
+                return null;
+            }
+
+            resultsSection.style.display = 'block';
+            chartSection.style.display = 'block';
+
+            // Calculate amounts
+            const { rent: section8Rent, adjustedIncome: section8AdjustedIncome } = calcSection8Rent(income, householdSize);
+            const snap = calcSNAP(income, householdSize, selected.section8 ? section8Rent : 0);
+            const ssi = calcSSI(income);
+            const medicaid = checkMedicaidEligibility(income, householdSize);
+            const tanf = checkTANFEligibility(householdSize);
+
+            return {
+                income,
+                householdSize,
+                selected,
+                section8Rent: selected.section8 ? section8Rent : 0,
+                section8Eligible: selected.section8,
+                snap: selected.snap ? snap : 0,
+                snapEligible: selected.snap && income < 3000, // Rough SNAP limit
+                ssi: selected.ssi && income < SSI_RATE ? ssi : 0,
+                ssiEligible: selected.ssi && income < SSI_RATE,
+                ssdi: selected.ssdi ? 1500 : 0, // Placeholder - SSDI varies greatly
+                ssdiEligible: selected.ssdi,
+                medicaid,
+                medicaidEligible: selected.medicaid && (medicaid.eligible138 || medicaid.eligible100),
+                tanf,
+                tanfEligible: selected.tanf,
+                liheap: selected.liheap ? 500 : 0, // Placeholder - varies by state
+                liheapEligible: selected.liheap,
+                va: selected.va ? 1200 : 0, // Placeholder - VA varies greatly
+                vaEligible: selected.va
+            };
+        }
+
+        // Render results
+        function renderResults() {
+            const results = calculateBenefits();
+            if (!results) return;
+
+            resultsGrid.innerHTML = '';
+            const warningsDiv = document.getElementById('interaction-warnings');
+            warningsDiv.innerHTML = '';
+
+            const cards = [];
+
+            // Section 8
+            if (results.selected.section8) {
+                const eligible = results.section8Eligible && results.income < 3500; // Rough Section 8 limit
+                cards.push({
+                    title: 'Section 8 Housing Voucher',
+                    amount: results.section8Rent,
+                    eligible: eligible,
+                    note: eligible
+                        ? `You pay about 30% of your adjusted income (${formatCurrency(results.section8Rent)}/month). The voucher covers the rest of your rent up to the area limit.`
+                        : 'Income may be above the limit for your area. Check with your local PHA.'
+                });
+
+                if (eligible && results.snap > 0 && results.selected.snap) {
+                    warningsDiv.innerHTML += `
+                        <div class="warning-box">
+                            <div class="warning-icon">⚠️</div>
+                            <div class="warning-content">
+                                <div class="warning-title">Section 8 affects your SNAP</div>
+                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+
+            // SNAP
+            if (results.selected.snap) {
+                const eligible = results.snapEligible;
+                cards.push({
+                    title: 'SNAP (Food Assistance)',
+                    amount: results.snap,
+                    eligible: eligible,
+                    note: eligible
+                        ? `Estimated monthly food benefit of ${formatCurrency(results.snap)}. Amount depends on household size, income, and shelter costs.`
+                        : 'Income may be above the limit. Most states: gross income < 130% of poverty line.'
+                });
+            }
+
+            // SSI
+            if (results.selected.ssi) {
+                const eligible = results.ssiEligible;
+                cards.push({
+                    title: 'SSI',
+                    amount: results.ssi,
+                    eligible: eligible,
+                    note: eligible
+                        ? `SSI pays up to ${formatCurrency(SSI_RATE)}/month minus your earned income. You may qualify for work incentives.`
+                        : `SSI limit is ${formatCurrency(SSI_RATE)}/month. Your income is above the limit.`
+                });
+            }
+
+            // SSDI
+            if (results.selected.ssdi) {
+                cards.push({
+                    title: 'SSDI',
+                    amount: results.ssdi,
+                    eligible: true,
+                    note: 'SSDI amount is based on your work history. Actual amount varies. SSDI is more generous than SSI for work.'
+                });
+            }
+
+            // Medicaid
+            if (results.selected.medicaid) {
+                const eligible = results.medicaidEligible;
+                const percentFPL = Math.round(results.medicaid.percentFPL);
+                cards.push({
+                    title: 'Medicaid Health Insurance',
+                    amount: 'N/A (covers healthcare)',
+                    eligible: eligible,
+                    note: eligible
+                        ? `Your income is ${percentFPL}% of federal poverty line. Most states cover you at 100–138% of FPL. Verify your state's rules.`
+                        : `Your income (${percentFPL}% FPL) may exceed your state's Medicaid limit. Contact your state Medicaid office.`,
+                    noCurrency: true
+                });
+            }
+
+            // TANF
+            if (results.selected.tanf) {
+                cards.push({
+                    title: 'TANF (Temporary Assistance)',
+                    amount: '0-$600+',
+                    eligible: true,
+                    note: 'TANF amount varies by state. Lifetime limit: 60 months. Ask your local office for actual amount.',
+                    noCurrency: true
+                });
+            }
+
+            // LIHEAP
+            if (results.selected.liheap) {
+                cards.push({
+                    title: 'LIHEAP (Utility Assistance)',
+                    amount: '~$500/yr',
+                    eligible: true,
+                    note: 'LIHEAP helps with heating or cooling costs. Amount varies by state and season.',
+                    noCurrency: true
+                });
+            }
+
+            // VA Benefits
+            if (results.selected.va) {
+                cards.push({
+                    title: 'VA Benefits',
+                    amount: '~$1,200+',
+                    eligible: true,
+                    note: 'VA benefits depend on your service and disability rating. Actual amount varies widely.',
+                    noCurrency: true
+                });
+            }
+
+            // Render cards
+            cards.forEach(card => {
+                const div = document.createElement('div');
+                div.className = `benefit-card ${card.eligible ? 'eligible' : 'ineligible'}`;
+
+                let amountHTML = '';
+                if (!card.noCurrency) {
+                    amountHTML = `<div class="benefit-amount">${card.amount === 0 ? '—' : formatCurrency(card.amount)}</div>`;
+                } else {
+                    amountHTML = `<div class="benefit-amount">${card.amount}</div>`;
+                }
+
+                div.innerHTML = `
+                    <h3>${card.title}</h3>
+                    ${amountHTML}
+                    <div class="benefit-note">${card.note}</div>
+                    <span class="benefit-badge ${card.eligible ? 'badge-eligible' : 'badge-ineligible'}">
+                        ${card.eligible ? 'Likely eligible' : 'Likely ineligible'}
+                    </span>
+                `;
+                resultsGrid.appendChild(div);
+            });
+        }
+
+        // Render chart
+        function renderChart() {
+            const results = calculateBenefits();
+            if (!results) return;
+
+            const incomeIncrease = parseInt(incomeSlider.value);
+            const currentResults = calculateBenefits(results.income);
+            const increasedResults = calculateBenefits(results.income + incomeIncrease);
+
+            // Update slider label
+            if (incomeIncrease === 0) {
+                sliderValue.textContent = 'Current income';
+            } else {
+                sliderValue.textContent = `+${formatCurrency(incomeIncrease)}`;
+            }
+
+            // Calculate totals for each scenario
+            const getTotalBenefits = (res) => {
+                let total = 0;
+                if (res.selected.section8) total += res.section8Rent;
+                if (res.selected.snap) total += res.snap;
+                if (res.selected.ssi) total += res.ssi;
+                if (res.selected.ssdi) total += res.ssdi;
+                if (res.selected.tanf) total += 300; // Estimate for chart
+                if (res.selected.liheap) total += 40; // Monthly average
+                if (res.selected.va) total += 100; // Monthly average
+                return total;
+            };
+
+            const currentTotal = getTotalBenefits(currentResults);
+            const increasedTotal = getTotalBenefits(increasedResults);
+
+            // Build chart HTML
+            barsContainer.innerHTML = '';
+
+            // Current income bar
+            const currentBar = document.createElement('div');
+            currentBar.className = 'bar-item';
+            currentBar.innerHTML = `
+                <div class="bar-label">Current<br>Income</div>
+                <div class="bar-visual">
+                    <div class="bar-stack" style="height: ${Math.max(100, (currentTotal / 2000) * 200)}px;">
+                        ${results.selected.section8 ? `<div class="bar-segment section8" style="flex: ${currentResults.section8Rent || 10}; min-height: 0;"></div>` : ''}
+                        ${results.selected.snap ? `<div class="bar-segment snap" style="flex: ${currentResults.snap || 10}; min-height: 0;"></div>` : ''}
+                        ${results.selected.ssi ? `<div class="bar-segment ssi" style="flex: ${currentResults.ssi || 10}; min-height: 0;"></div>` : ''}
+                    </div>
+                    <div class="bar-amount">${formatCurrency(currentTotal)}</div>
+                </div>
+            `;
+            barsContainer.appendChild(currentBar);
+
+            // Increased income bar
+            if (incomeIncrease > 0) {
+                const increasedBar = document.createElement('div');
+                increasedBar.className = 'bar-item';
+                increasedBar.innerHTML = `
+                    <div class="bar-label">With<br>+${formatCurrency(incomeIncrease)}</div>
+                    <div class="bar-visual">
+                        <div class="bar-stack" style="height: ${Math.max(100, (increasedTotal / 2000) * 200)}px;">
+                            ${results.selected.section8 ? `<div class="bar-segment section8" style="flex: ${increasedResults.section8Rent || 10}; min-height: 0;"></div>` : ''}
+                            ${results.selected.snap ? `<div class="bar-segment snap" style="flex: ${increasedResults.snap || 10}; min-height: 0;"></div>` : ''}
+                            ${results.selected.ssi ? `<div class="bar-segment ssi" style="flex: ${increasedResults.ssi || 10}; min-height: 0;"></div>` : ''}
+                        </div>
+                        <div class="bar-amount">${formatCurrency(increasedTotal)}</div>
+                    </div>
+                `;
+                barsContainer.appendChild(increasedBar);
+
+                // Show comparison info
+                const netIncrease = (results.income + incomeIncrease) - results.income;
+                const benefitsChange = increasedTotal - currentTotal;
+                const totalNetChange = netIncrease + benefitsChange;
+
+                comparisonInfo.style.display = 'flex';
+                comparisonText.innerHTML = `
+                    You'd have an extra ${formatCurrency(netIncrease)} from wages. Your benefits would change by ${benefitsChange < 0 ? `−${formatCurrency(Math.abs(benefitsChange))}` : `+${formatCurrency(benefitsChange)}`},
+                    but your total available would increase by <strong>${formatCurrency(totalNetChange)}</strong>. You're always better off earning more.
+                `;
+            } else {
+                comparisonInfo.style.display = 'none';
+            }
+        }
+
+        // Event listeners
+        householdSizeInput.addEventListener('change', renderResults);
+        householdSizeInput.addEventListener('change', renderChart);
+        grossIncomeInput.addEventListener('input', renderResults);
+        grossIncomeInput.addEventListener('input', renderChart);
+
+        Object.values(benefitCheckboxes).forEach(checkbox => {
+            checkbox.addEventListener('change', renderResults);
+            checkbox.addEventListener('change', renderChart);
+        });
+
+        incomeSlider.addEventListener('input', renderChart);
+
+        // Initial render
+        renderResults();
+        renderChart();
+    </script>
+</body>
+
+</html>

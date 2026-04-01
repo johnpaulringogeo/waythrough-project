@@ -397,22 +397,23 @@ function renderFooter() {
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h4>Guides</h4>
+                    <h4>Guides & Tools</h4>
                     <ul>
                         <li><a href="${root}resources/guides/how-to-apply-section-8.html">Apply for Section 8</a></li>
-                        <li><a href="${root}resources/guides/how-to-apply-hud-vash.html">Apply for HUD-VASH</a></li>
                         <li><a href="${root}resources/guides/document-checklist.html">Document Checklist</a></li>
-                        <li><a href="${root}resources/guides/how-to-request-reasonable-accommodation.html">Reasonable Accommodation</a></li>
+                        <li><a href="${root}resources/tools/eligibility-screener.html">Eligibility Screener</a></li>
+                        <li><a href="${root}resources/states/index.html">State Resources</a></li>
+                        <li><a href="${root}resources/templates/index.html">Letter Templates</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="${root}resources/ask.html">Ask a Question</a></li>
+                        <li><a href="${root}resources/community-answers.html">Community Q&A</a></li>
+                        <li><a href="${root}es/index.html">Español</a></li>
                         <li><span class="footer-link-placeholder">YouTube — coming soon</span></li>
                         <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
-                        <li><span class="footer-link-placeholder">TikTok — coming soon</span></li>
-                        <li><span class="footer-link-placeholder">Facebook — coming soon</span></li>
                     </ul>
                 </div>
             </div>

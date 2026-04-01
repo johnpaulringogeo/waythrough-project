@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Housing Program Eligibility Screener — Waythrough Project</title>
+    <meta name="description" content="Find out which affordable housing programs you might qualify for based on your income, household size, and situation. Quick screening for Section 8, public housing, HUD-VASH, and more.">
+    <meta property="og:title" content="Housing Program Eligibility Screener — Waythrough Project">
+    <meta property="og:description" content="Find out which affordable housing programs you might qualify for based on your income, household size, and situation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/resources/tools/eligibility-screener">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Housing Program Eligibility Screener — Waythrough Project">
+    <meta name="twitter:description" content="Quick screening for Section 8, public housing, HUD-VASH, LIHTC, and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/resources/tools/eligibility-screener">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="../../css/style.css?v=18">
+    <script src="../../js/components.js?v=13" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://waythroughproject.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://waythroughproject.com/resources/" },
+    { "@type": "ListItem", "position": 3, "name": "Eligibility Screener" }
+  ]
+}
+    </script>
+    <style>
+        .tool-container { max-width: 800px; margin: 0 auto; }
+        .tool-intro { margin-bottom: 2rem; line-height: 1.7; }
+
+        /* Steps */
+        .step { display: none; }
+        .step.active { display: block; }
+        .step-indicator { display: flex; gap: 0.5rem; margin-bottom: 2rem; }
+        .step-dot { width: 40px; height: 6px; border-radius: 3px; background: var(--color-border); transition: background 0.3s; }
+        .step-dot.active { background: var(--color-primary); }
+        .step-dot.done { background: var(--color-primary); opacity: 0.5; }
+
+        /* Form */
+        .screener-form { background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 2rem; margin-bottom: 2rem; }
+        .screener-form h3 { font-family: 'Playfair Display', Georgia, serif; margin-bottom: 1.5rem; font-size: 1.3rem; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+        @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+        .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+        .form-group label { font-weight: 500; font-size: 0.9rem; color: var(--color-text); }
+        .form-group select, .form-group input[type="number"] { padding: 0.6rem 0.8rem; border: 1px solid var(--color-border); border-radius: 6px; font-size: 1rem; background: var(--color-bg); color: var(--color-text); font-family: inherit; }
+        .form-group select:focus, .form-group input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-light); }
+
+        /* Yes/No toggles */
+        .toggle-group { display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--color-border-light); }
+        .toggle-group:last-child { border-bottom: none; }
+        .toggle-label { font-size: 0.95rem; color: var(--color-text); }
+        .toggle-buttons { display: flex; gap: 0.5rem; }
+        .toggle-btn { padding: 0.4rem 1rem; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-bg); color: var(--color-text-light); cursor: pointer; font-size: 0.85rem; font-family: inherit; transition: all 0.2s; }
+        .toggle-btn.selected { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+        .toggle-btn:hover:not(.selected) { border-color: var(--color-primary); color: var(--color-primary); }
+
+        /* Navigation buttons */
+        .step-nav { display: flex; justify-content: space-between; margin-top: 1.5rem; }
+        .step-nav .btn { padding: 0.7rem 2rem; }
+
+        /* Results */
+        .results-grid { display: grid; gap: 1rem; margin-top: 1.5rem; }
+        .result-card { display: flex; gap: 1rem; padding: 1.25rem; background: var(--color-bg-card); border: 1px solid var(--color-border); border-radius: var(--radius); }
+        .result-status { flex-shrink: 0; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 700; }
+        .status-green { background: var(--color-success-bg); color: var(--color-success); border: 2px solid var(--color-success-border); }
+        .status-yellow { background: #fffbeb; color: #92400e; border: 2px solid #fde68a; }
+        .status-red { background: var(--color-error-bg); color: var(--color-error-text); border: 2px solid var(--color-error-border); }
+        .result-info h4 { font-family: 'Playfair Display', Georgia, serif; margin-bottom: 0.3rem; font-size: 1.05rem; }
+        .result-info p { font-size: 0.9rem; color: var(--color-text-light); line-height: 1.6; margin-bottom: 0.4rem; }
+        .result-info a { color: var(--color-primary); font-size: 0.85rem; font-weight: 500; }
+        .result-info a:hover { text-decoration: underline; }
+
+        .disclaimer-box { background: var(--color-bg-warm); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 1.25rem; margin-top: 1.5rem; font-size: 0.9rem; line-height: 1.6; color: var(--color-text-light); }
+        .disclaimer-box strong { color: var(--color-text); }
+    </style>
+</head>
+<body>
+    <main>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Resources</a><span class="sep">/</span><span class="current">Eligibility Screener</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Tool</span>
+                <h1>Housing Program Eligibility Screener</h1>
+            </div>
+        </header>
+        <div class="container">
+            <div class="post-content">
+                <div class="tool-container">
+                    <p class="tool-intro">
+                        Answer a few questions about your household and we'll show you which housing programs you might qualify for. This takes about 60 seconds. No personal information is saved or sent anywhere.
+                    </p>
+
+                    <!-- Step indicator -->
+                    <div class="step-indicator" role="progressbar" aria-label="Screener progress">
+                        <div class="step-dot active" id="dot-0"></div>
+                        <div class="step-dot" id="dot-1"></div>
+                        <div class="step-dot" id="dot-2"></div>
+                    </div>
+
+                    <!-- Step 1: Basic Info -->
+                    <div class="step active" id="step-0">
+                        <div class="screener-form">
+                            <h3>Step 1: Basic Information</h3>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="household-size">Household Size</label>
+                                    <select id="household-size">
+                                        <option value="">Select...</option>
+                                        <option value="1">1 person</option>
+                                        <option value="2">2 people</option>
+                                        <option value="3">3 people</option>
+                                        <option value="4">4 people</option>
+                                        <option value="5">5 people</option>
+                                        <option value="6">6 people</option>
+                                        <option value="7">7 people</option>
+                                        <option value="8">8 people</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="monthly-income">Monthly Gross Income ($)</label>
+                                    <input type="number" id="monthly-income" min="0" max="50000" step="50" placeholder="e.g. 1500">
+                                </div>
+                                <div class="form-group">
+                                    <label for="age-group">Age of Head of Household</label>
+                                    <select id="age-group">
+                                        <option value="">Select...</option>
+                                        <option value="under18">Under 18</option>
+                                        <option value="18-61">18 to 61</option>
+                                        <option value="62plus">62 or older</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-nav">
+                            <div></div>
+                            <button class="btn" onclick="nextStep()">Next Step</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Situation -->
+                    <div class="step" id="step-1">
+                        <div class="screener-form">
+                            <h3>Step 2: Your Situation</h3>
+                            <div class="toggle-group">
+                                <span class="toggle-label">Are you a U.S. military veteran?</span>
+                                <div class="toggle-buttons">
+                                    <button class="toggle-btn" data-field="veteran" data-value="yes" onclick="toggleSelect(this)">Yes</button>
+                                    <button class="toggle-btn" data-field="veteran" data-value="no" onclick="toggleSelect(this)">No</button>
+                                </div>
+                            </div>
+                            <div class="toggle-group">
+                                <span class="toggle-label">Does anyone in your household have a disability?</span>
+                                <div class="toggle-buttons">
+                                    <button class="toggle-btn" data-field="disability" data-value="yes" onclick="toggleSelect(this)">Yes</button>
+                                    <button class="toggle-btn" data-field="disability" data-value="no" onclick="toggleSelect(this)">No</button>
+                                </div>
+                            </div>
+                            <div class="toggle-group">
+                                <span class="toggle-label">Are you currently experiencing homelessness?</span>
+                                <div class="toggle-buttons">
+                                    <button class="toggle-btn" data-field="homeless" data-value="yes" onclick="toggleSelect(this)">Yes</button>
+                                    <button class="toggle-btn" data-field="homeless" data-value="no" onclick="toggleSelect(this)">No</button>
+                                </div>
+                            </div>
+                            <div class="toggle-group">
+                                <span class="toggle-label">Are you fleeing domestic violence?</span>
+                                <div class="toggle-buttons">
+                                    <button class="toggle-btn" data-field="dv" data-value="yes" onclick="toggleSelect(this)">Yes</button>
+                                    <button class="toggle-btn" data-field="dv" data-value="no" onclick="toggleSelect(this)">No</button>
+                                </div>
+                            </div>
+                            <div class="toggle-group">
+                                <span class="toggle-label">Do you have children under 18 in your household?</span>
+                                <div class="toggle-buttons">
+                                    <button class="toggle-btn" data-field="children" data-value="yes" onclick="toggleSelect(this)">Yes</button>
+                                    <button class="toggle-btn" data-field="children" data-value="no" onclick="toggleSelect(this)">No</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-nav">
+                            <button class="btn btn-outline" onclick="prevStep()">Previous</button>
+                            <button class="btn" onclick="showResults()">See My Results</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Results -->
+                    <div class="step" id="step-2">
+                        <div class="screener-form">
+                            <h3>Your Estimated Eligibility</h3>
+                            <p style="color: var(--color-text-light); margin-bottom: 1rem; font-size: 0.9rem;">Based on a household of <strong id="r-size"></strong> with <strong id="r-income"></strong>/month gross income.</p>
+                            <div class="results-grid" id="results-grid"></div>
+                        </div>
+                        <div class="disclaimer-box">
+                            <strong>Important:</strong> These are rough national estimates. Actual income limits vary significantly by location — your local Public Housing Authority (PHA) sets the exact thresholds for your area based on Area Median Income (AMI). Use <a href="rent-estimator.html">our rent lookup tool</a> or contact your <a href="../guides/how-to-find-your-pha.html">local PHA</a> for exact numbers.
+                        </div>
+                        <div class="step-nav" style="margin-top: 1.5rem;">
+                            <button class="btn btn-outline" onclick="startOver()">Start Over</button>
+                            <a href="../where-to-start.html" class="btn">Where to Start Guide</a>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="related-resources">
+                    <h2>Related Resources</h2>
+                    <div class="related-list">
+                        <a href="../where-to-start.html" class="related-item">
+                            <h3>Where to Start</h3>
+                            <p>Not sure where to begin? Our interactive guide helps you find the right path based on your situation.</p>
+                        </a>
+                        <a href="../guides/how-to-apply-section-8.html" class="related-item">
+                            <h3>Apply for Section 8</h3>
+                            <p>A complete walkthrough from finding open waiting lists to securing your housing voucher.</p>
+                        </a>
+                        <a href="../guides/how-to-apply-hud-vash.html" class="related-item">
+                            <h3>Apply for HUD-VASH</h3>
+                            <p>The process for veterans to access HUD-VASH through your VA Medical Center.</p>
+                        </a>
+                        <a href="rent-estimator.html" class="related-item">
+                            <h3>Fair Market Rent Lookup</h3>
+                            <p>Look up HUD Fair Market Rents and income limits for your specific area.</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script>
+    (function() {
+        let currentStep = 0;
+        const totalSteps = 3;
+        const answers = { veteran: null, disability: null, homeless: null, dv: null, children: null };
+
+        // Rough national income limits (annual) by household size
+        // Based on approximate national median — actual varies widely by area
+        const veryLowIncome = { 1: 32000, 2: 36500, 3: 41000, 4: 45600, 5: 49250, 6: 52900, 7: 56550, 8: 60200 }; // ~50% AMI
+        const extremelyLowIncome = {}; // ~30% AMI
+        const lowIncome60 = {}; // ~60% AMI
+        for (let i = 1; i <= 8; i++) {
+            extremelyLowIncome[i] = Math.round(veryLowIncome[i] * 0.6);
+            lowIncome60[i] = Math.round(veryLowIncome[i] * 1.2);
+        }
+
+        window.toggleSelect = function(btn) {
+            const field = btn.dataset.field;
+            const value = btn.dataset.value;
+            answers[field] = value;
+            btn.parentElement.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+        };
+
+        function updateDots() {
+            for (let i = 0; i < totalSteps; i++) {
+                const dot = document.getElementById('dot-' + i);
+                dot.className = 'step-dot';
+                if (i === currentStep) dot.classList.add('active');
+                else if (i < currentStep) dot.classList.add('done');
+            }
+        }
+
+        function showStep(n) {
+            document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+            document.getElementById('step-' + n).classList.add('active');
+            currentStep = n;
+            updateDots();
+        }
+
+        window.nextStep = function() {
+            const size = document.getElementById('household-size').value;
+            const income = document.getElementById('monthly-income').value;
+            const age = document.getElementById('age-group').value;
+            if (!size || !income || !age) {
+                alert('Please fill in all fields before continuing.');
+                return;
+            }
+            showStep(1);
+        };
+
+        window.prevStep = function() { showStep(currentStep - 1); };
+
+        window.startOver = function() {
+            document.getElementById('household-size').value = '';
+            document.getElementById('monthly-income').value = '';
+            document.getElementById('age-group').value = '';
+            Object.keys(answers).forEach(k => answers[k] = null);
+            document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('selected'));
+            showStep(0);
+        };
+
+        window.showResults = function() {
+            const size = parseInt(document.getElementById('household-size').value);
+            const monthlyIncome = parseFloat(document.getElementById('monthly-income').value);
+            const annualIncome = monthlyIncome * 12;
+            const age = document.getElementById('age-group').value;
+            const isVeteran = answers.veteran === 'yes';
+            const hasDisability = answers.disability === 'yes';
+            const isHomeless = answers.homeless === 'yes';
+            const isDV = answers.dv === 'yes';
+            const hasChildren = answers.children === 'yes';
+            const isSenior = age === '62plus';
+
+            document.getElementById('r-size').textContent = size + (size === 1 ? ' person' : ' people');
+            document.getElementById('r-income').textContent = '$' + monthlyIncome.toLocaleString();
+
+            const vli = veryLowIncome[size] || 60000;
+            const eli = extremelyLowIncome[size] || 36000;
+            const li60 = lowIncome60[size] || 72000;
+
+            const programs = [];
+
+            // Section 8 HCV
+            if (annualIncome <= vli) {
+                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'green', text: 'Your income is within the very low-income limit for your household size. You likely meet the income requirement for Section 8.', link: '../guides/how-to-apply-section-8.html', linkText: 'How to apply for Section 8' });
+            } else if (annualIncome <= vli * 1.15) {
+                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'yellow', text: 'Your income is close to the very low-income limit. Eligibility depends on your area\'s specific income limits, which may be higher or lower than national estimates.', link: '../guides/how-to-apply-section-8.html', linkText: 'How to apply for Section 8' });
+            } else {
+                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'red', text: 'Your income appears to exceed the very low-income limit (50% AMI) for your household size. Income limits vary by area, so check your local PHA for exact thresholds.', link: '../guides/how-to-find-your-pha.html', linkText: 'Find your local PHA' });
+            }
+
+            // Public Housing
+            if (annualIncome <= vli) {
+                programs.push({ name: 'Public Housing', status: 'green', text: 'Your income is within eligibility limits for public housing. Contact your local PHA to find available units and apply.', link: '../guides/how-to-find-your-pha.html', linkText: 'Find your local PHA' });
+            } else if (annualIncome <= vli * 1.15) {
+                programs.push({ name: 'Public Housing', status: 'yellow', text: 'Your income is near the limit. Public housing income limits mirror Section 8 and vary by area.', link: '../guides/how-to-find-your-pha.html', linkText: 'Find your local PHA' });
+            } else {
+                programs.push({ name: 'Public Housing', status: 'red', text: 'Your income appears to exceed public housing income limits for your household size.', link: '../guides/how-to-find-your-pha.html', linkText: 'Find your local PHA' });
+            }
+
+            // LIHTC
+            if (annualIncome <= li60) {
+                programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'green', text: 'Your income is within the 60% AMI limit for LIHTC properties. These apartments don\'t require a voucher — you apply directly.', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
+            } else if (annualIncome <= li60 * 1.1) {
+                programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'yellow', text: 'Your income is near the LIHTC limit. Some properties use lower income thresholds (30% or 50% AMI).', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
+            } else {
+                programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'red', text: 'Your income appears to exceed the 60% AMI limit for LIHTC properties.', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
+            }
+
+            // HUD-VASH
+            if (isVeteran) {
+                if (isHomeless) {
+                    programs.push({ name: 'HUD-VASH (Veterans)', status: 'green', text: 'As a veteran experiencing homelessness, you are a strong candidate for HUD-VASH. This program combines a housing voucher with VA supportive services. Contact your VA Medical Center.', link: '../guides/how-to-apply-hud-vash.html', linkText: 'How to apply for HUD-VASH' });
+                } else if (annualIncome <= vli) {
+                    programs.push({ name: 'HUD-VASH (Veterans)', status: 'yellow', text: 'As a veteran meeting income requirements, you may qualify for HUD-VASH. The program prioritizes veterans who are homeless or at risk. Contact your VA Medical Center to discuss eligibility.', link: '../guides/how-to-apply-hud-vash.html', linkText: 'How to apply for HUD-VASH' });
+                } else {
+                    programs.push({ name: 'HUD-VASH (Veterans)', status: 'yellow', text: 'HUD-VASH prioritizes chronically homeless veterans, but income limits apply. Contact your VA Medical Center for exact eligibility.', link: '../guides/how-to-apply-hud-vash.html', linkText: 'How to apply for HUD-VASH' });
+                }
+            }
+
+            // Section 811
+            if (hasDisability) {
+                if (annualIncome <= eli) {
+                    programs.push({ name: 'Section 811 (Disability Housing)', status: 'green', text: 'As a person with a disability and extremely low income, you likely qualify for Section 811 supportive housing. These units are specifically designed for people with disabilities.', link: '../guides/how-to-request-reasonable-accommodation.html', linkText: 'Learn about disability housing rights' });
+                } else if (annualIncome <= vli) {
+                    programs.push({ name: 'Section 811 (Disability Housing)', status: 'yellow', text: 'Section 811 targets extremely low-income individuals with disabilities (30% AMI). Your income may be above the threshold, but limits vary by area.', link: '../guides/how-to-request-reasonable-accommodation.html', linkText: 'Learn about disability housing rights' });
+                } else {
+                    programs.push({ name: 'Section 811 (Disability Housing)', status: 'red', text: 'Section 811 requires extremely low income (30% AMI) and a disability. Your income appears to exceed the threshold.', link: '../guides/how-to-request-reasonable-accommodation.html', linkText: 'Learn about disability housing rights' });
+                }
+            }
+
+            // Section 202 (Seniors)
+            if (isSenior) {
+                if (annualIncome <= vli) {
+                    programs.push({ name: 'Section 202 (Senior Housing)', status: 'green', text: 'As someone 62 or older with very low income, you likely qualify for Section 202 senior housing. These properties are designed specifically for independent seniors.', link: '../where-to-start.html', linkText: 'Get started' });
+                } else {
+                    programs.push({ name: 'Section 202 (Senior Housing)', status: 'yellow', text: 'Section 202 serves very low-income seniors (62+). Your income may be close to the limit — check with your local housing authority.', link: '../where-to-start.html', linkText: 'Get started' });
+                }
+            }
+
+            // SSVF (Veterans)
+            if (isVeteran && (isHomeless || annualIncome <= vli)) {
+                programs.push({ name: 'SSVF (Supportive Services for Veteran Families)', status: 'green', text: 'SSVF provides rapid re-housing and homelessness prevention for very low-income veteran families. It can help with deposits, short-term rent, and case management.', link: '../guides/va-benefits.html', linkText: 'Learn about VA benefits' });
+            }
+
+            // Emergency resources
+            if (isHomeless || isDV) {
+                programs.push({ name: 'Emergency Housing & Shelter', status: 'green', text: isHomeless ? 'Emergency shelters and crisis housing are available regardless of income. Call 211 or visit 211.org to find shelter and emergency assistance in your area.' : 'As someone fleeing domestic violence, you can access emergency DV shelters and transitional housing. Call the National DV Hotline: 1-800-799-7233.', link: '../emergency-housing.html', linkText: 'Emergency housing resources' });
+            }
+
+            // Sort: green first, yellow, red last
+            const order = { green: 0, yellow: 1, red: 2 };
+            programs.sort((a, b) => order[a.status] - order[b.status]);
+
+            const grid = document.getElementById('results-grid');
+            grid.innerHTML = programs.map(p => {
+                const icon = p.status === 'green' ? '&#10003;' : p.status === 'yellow' ? '?' : '&#10007;';
+                return `
+                    <div class="result-card">
+                        <div class="result-status status-${p.status}">${icon}</div>
+                        <div class="result-info">
+                            <h4>${p.name}</h4>
+                            <p>${p.text}</p>
+                            <a href="${p.link}">${p.linkText} &rarr;</a>
+                        </div>
+                    </div>`;
+            }).join('');
+
+            showStep(2);
+        };
+    })();
+    </script>
+</body>
+</html>
