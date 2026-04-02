@@ -5,13 +5,58 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>7 Section 8 Myths That Need to Die</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-myths.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-myths.html</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Free housing? Tenants don't pay rent? Can't work while on Section 8? Let's put these misconceptions to rest with the actual facts.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>The Benefits Cliff: What It Is and How to Plan for It</title>
+      <link>https://waythroughproject.com/blog/posts/benefits-cliff-explained.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/benefits-cliff-explained.html</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description>What happens when a raise pushes you past income thresholds for SNAP, Medicaid, or Section 8 — and how to plan ahead.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>Your PHA Won't Call Back? Here's What to Do</title>
+      <link>https://waythroughproject.com/blog/posts/pha-wont-call-back.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/pha-wont-call-back.html</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description>When the housing authority isn't returning your calls, here's how to escalate — different contact methods, documentation, and legal aid.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>What Housing First Actually Means (And Why It Works)</title>
+      <link>https://waythroughproject.com/blog/posts/housing-first-explained.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/housing-first-explained.html</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Housing without preconditions. Why the evidence supports it, and what it looks like in practice through programs like HUD-VASH.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>15 Tips for Finding an Apartment with a Housing Voucher</title>
+      <link>https://waythroughproject.com/blog/posts/voucher-housing-search-tips.html</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/voucher-housing-search-tips.html</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Practical, actionable tips for the apartment search — from knowing your payment standard to negotiating with landlords.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
 
     <item>
       <title>What Happens After You Get Your Housing Voucher</title>

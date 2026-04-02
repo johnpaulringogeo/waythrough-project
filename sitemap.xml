@@ -2,40 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://waythroughproject.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://waythroughproject.com/blog/index.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/benefits-cliff-explained.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/benefits-cut-what-to-do.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/five-programs-you-dont-know.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/housing-first-explained.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/landlord-rejects-voucher.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/pha-wont-call-back.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/section-8-explained.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/section-8-myths.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/talking-to-landlord-about-repairs.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/utility-allowances-explained.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/voucher-housing-search-tips.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/welcome.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/what-happens-after-voucher.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/es/index.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/beneficios.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/es/recursos/derechos-del-inquilino.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/es/recursos/donde-empezar.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/guias/como-apelar-negacion.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/guias/como-solicitar-hud-vash.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/es/recursos/guias/como-solicitar-seccion-8.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/guias/como-solicitar-snap.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/guias/estrategias-lista-espera.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/es/recursos/guias/lista-de-documentos.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/es/recursos/index.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/preguntas-frecuentes.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/respuestas-de-la-comunidad.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/es/recursos/vivienda-de-emergencia.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/for-landlords/how-inspections-work.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/for-landlords/index.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/for-landlords/landlord-faq.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/for-landlords/payment-and-claims.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/for-landlords/why-accept-vouchers.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/resources/accessibility.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/ask.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/benefits.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/community-answers.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/credit-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/downloads/index.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/emergency-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/employment.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/eviction-prevention.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/families.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/faq.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/for-professionals.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/glossary.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/budgeting-when-money-is-tight.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/criminal-records-and-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/document-checklist.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/emergency-rental-assistance.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/expungement-and-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/family-self-sufficiency.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/finding-housing-counselor.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/found-open-waiting-list.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/getting-out-of-debt.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/home-repair-assistance.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/housing-during-divorce.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/how-benefits-interact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/how-recertification-works.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/how-to-appeal-housing-denial.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -57,9 +80,12 @@
   <url><loc>https://waythroughproject.com/resources/guides/how-to-transfer-voucher.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/rebuilding-credit-for-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/renting-with-poor-rental-history.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/shared-housing-roommates.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/source-of-income-protections.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/understanding-landlord-notices.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/understanding-rent-calculation.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/understanding-your-lease.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/guides/utility-assistance-programs.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/va-benefits.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/waiting-list-strategies.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/guides/what-to-do-when-you-lose-your-job.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -134,10 +160,20 @@
   <url><loc>https://waythroughproject.com/resources/tools/budget-calculator.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/tools/compare-programs.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/tools/eligibility-screener.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/resources/tools/know-your-numbers.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/tools/letter-generator.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/tools/rent-estimator.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/where-to-start.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://waythroughproject.com/resources/youth-housing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waythroughproject.com/stories/david-disability-accommodation.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/index.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/james-denial-appeal.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/keisha-benefits-cliff.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/lisa-single-mom-section-8.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/marcus-veteran-hud-vash.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/maria-language-barrier.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/robert-reentry.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waythroughproject.com/stories/sarah-dv-survivor.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/terms.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/videos/index.html</loc><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://waythroughproject.com/videos/scripts.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>

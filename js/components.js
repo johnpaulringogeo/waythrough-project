@@ -391,9 +391,9 @@ function renderFooter() {
                     <ul>
                         <li><a href="${root}resources/index.html">Housing Programs</a></li>
                         <li><a href="${root}resources/benefits.html">Benefits & Support</a></li>
-                        <li><a href="${root}resources/employment.html">Employment</a></li>
-                        <li><a href="${root}resources/mental-health.html">Mental Health</a></li>
-                        <li><a href="${root}resources/substance-use.html">Substance Use</a></li>
+                        <li><a href="${root}for-landlords/index.html">For Landlords</a></li>
+                        <li><a href="${root}stories/index.html">Success Stories</a></li>
+                        <li><a href="${root}resources/for-professionals.html">For Professionals</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
