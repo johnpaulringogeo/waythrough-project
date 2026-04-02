@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Know Your Numbers — Housing Affordability Dashboard | Waythrough Project</title>
+    <meta name="description" content="Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility — all in one place.">
+    <meta property="og:title" content="Know Your Numbers — Housing Affordability Dashboard">
+    <meta property="og:description" content="See your estimated rent, income limits, and housing program eligibility in one place.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/resources/tools/know-your-numbers.html">
+    <meta property="og:site_name" content="Waythrough Project">
+    <link rel="canonical" href="https://waythroughproject.com/resources/tools/know-your-numbers">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <link rel="stylesheet" href="../../css/style.css?v=18">
+    <script src="../../js/components.js?v=13" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Know Your Numbers — Housing Affordability Dashboard",
+  "description": "Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility — all in one place.",
+  "url": "https://waythroughproject.com/resources/tools/know-your-numbers",
+  "applicationCategory": "Utilities",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Waythrough Project",
+    "url": "https://waythroughproject.com"
+  }
+}
+</script>
+    <style>
+        .kyn-form { max-width: 720px; margin: 0 auto 48px; }
+        .kyn-form label { display: block; font-weight: 600; margin-bottom: 6px; margin-top: 20px; color: var(--color-text); }
+        .kyn-form input, .kyn-form select { width: 100%; padding: 12px 14px; border: 1px solid var(--color-border); border-radius: 8px; font-size: 1rem; background: var(--color-bg); color: var(--color-text); box-sizing: border-box; }
+        .kyn-form input:focus, .kyn-form select:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(42, 100, 75, 0.15); }
+        .kyn-check-row { display: flex; align-items: center; gap: 10px; margin-top: 20px; }
+        .kyn-check-row input[type="checkbox"] { width: auto; margin: 0; }
+        .kyn-check-row label { margin: 0; font-weight: 500; }
+        .kyn-conditional { display: none; padding-left: 28px; }
+        .kyn-conditional.visible { display: block; }
+        .kyn-btn { display: block; width: 100%; padding: 16px; margin-top: 32px; background: var(--color-primary); color: #fff; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+        .kyn-btn:hover { opacity: 0.9; }
+        .kyn-results { display: none; max-width: 720px; margin: 0 auto; }
+        .kyn-results.visible { display: block; }
+        .kyn-panel { background: var(--color-bg-alt, var(--color-bg)); border: 1px solid var(--color-border); border-radius: 12px; padding: 28px; margin-bottom: 24px; }
+        .kyn-panel h3 { margin-top: 0; font-size: 1.2rem; color: var(--color-primary); }
+        .kyn-calc-step { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--color-border); font-size: 0.95rem; }
+        .kyn-calc-step:last-child { border-bottom: none; }
+        .kyn-calc-step.total { font-weight: 700; font-size: 1.05rem; border-top: 2px solid var(--color-primary); border-bottom: none; padding-top: 12px; margin-top: 4px; }
+        .kyn-bar-wrap { background: var(--color-border); border-radius: 8px; height: 28px; margin: 16px 0 8px; overflow: hidden; position: relative; }
+        .kyn-bar { height: 100%; border-radius: 8px; transition: width 0.6s ease; }
+        .kyn-bar-label { font-size: 0.85rem; color: var(--color-text-light); }
+        .kyn-income-cat { display: inline-block; padding: 6px 16px; border-radius: 20px; font-weight: 600; font-size: 0.95rem; margin: 12px 0; }
+        .kyn-cat-eli { background: #e8f5e9; color: #2e7d32; }
+        .kyn-cat-vli { background: #fff3e0; color: #e65100; }
+        .kyn-cat-li { background: #e3f2fd; color: #1565c0; }
+        .kyn-cat-above { background: #fce4ec; color: #c62828; }
+        .kyn-program-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--color-border); }
+        .kyn-program-row:last-child { border-bottom: none; }
+        .kyn-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 8px; }
+        .kyn-dot-green { background: #4caf50; }
+        .kyn-dot-yellow { background: #ff9800; }
+        .kyn-dot-red { background: #f44336; }
+        .kyn-dot-gray { background: #9e9e9e; }
+        .kyn-budget-bar { display: flex; border-radius: 8px; overflow: hidden; height: 36px; margin: 16px 0; }
+        .kyn-budget-bar div { display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600; color: #fff; min-width: 40px; }
+        .kyn-budget-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 8px; font-size: 0.9rem; }
+        .kyn-legend-dot { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: middle; }
+        .kyn-disclaimer { background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-top: 32px; font-size: 0.9rem; color: #5d4037; }
+        [data-theme="dark"] .kyn-disclaimer { background: #3e2723; border-color: #5d4037; color: #ffcc80; }
+        [data-theme="dark"] .kyn-cat-eli { background: #1b5e20; color: #a5d6a7; }
+        [data-theme="dark"] .kyn-cat-vli { background: #bf360c; color: #ffcc80; }
+        [data-theme="dark"] .kyn-cat-li { background: #0d47a1; color: #90caf9; }
+        [data-theme="dark"] .kyn-cat-above { background: #b71c1c; color: #ef9a9a; }
+        @media (max-width: 600px) {
+            .kyn-panel { padding: 20px 16px; }
+            .kyn-calc-step { font-size: 0.88rem; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../index.html">Home</a><span class="sep">/</span><a href="../index.html">Resources</a><span class="sep">/</span><span class="current">Know Your Numbers</span></div></nav>
+    <div class="page-header fade-in">
+        <div class="container">
+            <span class="section-label">Interactive Tool</span>
+            <h1>Know Your Numbers</h1>
+            <p class="page-meta">See your estimated rent, income category, and program eligibility — all in one place.</p>
+        </div>
+    </div>
+    <main class="container fade-in">
+        <div class="post-content">
+            <p>This dashboard gives you a complete picture of your housing affordability. Enter your information below and we'll estimate your rent under Section 8, show where you fall on the income scale, and identify programs you may qualify for.</p>
+        </div>
+
+        <div class="kyn-form" id="kynForm">
+            <label for="income">Monthly Gross Income (before taxes)</label>
+            <input type="number" id="income" placeholder="e.g. 1500" min="0" step="1">
+
+            <label for="hhSize">Household Size</label>
+            <select id="hhSize">
+                <option value="1">1 person</option>
+                <option value="2">2 people</option>
+                <option value="3">3 people</option>
+                <option value="4" selected>4 people</option>
+                <option value="5">5 people</option>
+                <option value="6">6 people</option>
+                <option value="7">7 people</option>
+                <option value="8">8 people</option>
+            </select>
+
+            <label for="dependents">Number of Dependents Under 18</label>
+            <input type="number" id="dependents" value="0" min="0" max="10">
+
+            <div class="kyn-check-row">
+                <input type="checkbox" id="elderlyDisabled">
+                <label for="elderlyDisabled">Head of household is elderly (62+) or disabled</label>
+            </div>
+
+            <div class="kyn-conditional" id="medicalRow">
+                <label for="medical">Monthly Out-of-Pocket Medical Expenses</label>
+                <input type="number" id="medical" value="0" min="0" placeholder="e.g. 200">
+            </div>
+
+            <label for="childcare">Monthly Childcare Expenses (work-related)</label>
+            <input type="number" id="childcare" value="0" min="0" placeholder="e.g. 400">
+
+            <label for="utilities">Estimated Monthly Utilities (optional — default $150)</label>
+            <input type="number" id="utilities" value="150" min="0" placeholder="150">
+
+            <button class="kyn-btn" id="calcBtn">Calculate My Numbers</button>
+        </div>
+
+        <div class="kyn-results" id="results">
+            <div class="kyn-panel" id="panelRent">
+                <h3>Your Estimated Rent Under Section 8</h3>
+                <div id="rentCalc"></div>
+            </div>
+
+            <div class="kyn-panel" id="panelIncome">
+                <h3>Income Limit Status</h3>
+                <div id="incomeStatus"></div>
+            </div>
+
+            <div class="kyn-panel" id="panelPrograms">
+                <h3>Programs You May Qualify For</h3>
+                <div id="programList"></div>
+            </div>
+
+            <div class="kyn-panel" id="panelBudget">
+                <h3>Monthly Budget Snapshot</h3>
+                <div id="budgetChart"></div>
+            </div>
+
+            <div class="kyn-disclaimer">
+                <strong>Important:</strong> These are estimates based on national averages and the standard Section 8 rent formula. Your actual amounts depend on your local Public Housing Authority, county-specific income limits, and individual circumstances. Use these numbers as a starting point — contact your PHA for exact figures.
+            </div>
+        </div>
+
+        <div class="post-content" style="margin-top: 48px;">
+            <h2>Related Resources</h2>
+            <ul>
+                <li><a href="../../resources/guides/understanding-rent-calculation.html">How Your Rent Is Calculated in Section 8</a> — Full explanation of the formula</li>
+                <li><a href="budget-calculator.html">Monthly Budget Calculator</a> — Detailed budget planning tool</li>
+                <li><a href="eligibility-screener.html">Eligibility Screener</a> — Check which programs fit your situation</li>
+                <li><a href="../../resources/guides/how-to-apply-section-8.html">How to Apply for Section 8</a> — Step-by-step guide</li>
+            </ul>
+        </div>
+    </main>
+
+    <script>
+    (function() {
+        const elderlyCheck = document.getElementById('elderlyDisabled');
+        const medicalRow = document.getElementById('medicalRow');
+        elderlyCheck.addEventListener('change', function() {
+            medicalRow.classList.toggle('visible', this.checked);
+        });
+
+        document.getElementById('calcBtn').addEventListener('click', calculate);
+
+        // National median income limits for household of 4 (2024 estimates)
+        const baseAMI = 98000; // national median family income
+        const sizeFactors = { 1: 0.70, 2: 0.80, 3: 0.90, 4: 1.00, 5: 1.08, 6: 1.16, 7: 1.24, 8: 1.32 };
+
+        // Federal Poverty Level 2024 (annual, 48 contiguous states)
+        const fpl = { 1: 15060, 2: 20440, 3: 25820, 4: 31200, 5: 36580, 6: 41960, 7: 47340, 8: 52720 };
+
+        function fmt(n) { return '$' + Math.round(n).toLocaleString(); }
+
+        function calculate() {
+            const monthlyIncome = parseFloat(document.getElementById('income').value) || 0;
+            const hhSize = parseInt(document.getElementById('hhSize').value);
+            const deps = parseInt(document.getElementById('dependents').value) || 0;
+            const isElderlyDisabled = elderlyCheck.checked;
+            const medicalMonthly = parseFloat(document.getElementById('medical').value) || 0;
+            const childcareMonthly = parseFloat(document.getElementById('childcare').value) || 0;
+            const utilitiesMonthly = parseFloat(document.getElementById('utilities').value) || 150;
+
+            if (monthlyIncome <= 0) {
+                alert('Please enter your monthly gross income.');
+                return;
+            }
+
+            const annualIncome = monthlyIncome * 12;
+
+            // --- Section 8 Rent Calculation ---
+            const depDeduction = deps * 480;
+            const elderlyDeduction = isElderlyDisabled ? 400 : 0;
+            const annualMedical = medicalMonthly * 12;
+            const medicalThreshold = annualIncome * 0.03;
+            const medicalDeduction = isElderlyDisabled ? Math.max(0, annualMedical - medicalThreshold) : 0;
+            const childcareDeduction = childcareMonthly * 12;
+
+            const totalDeductions = depDeduction + elderlyDeduction + medicalDeduction + childcareDeduction;
+            const adjustedIncome = Math.max(0, annualIncome - totalDeductions);
+            const ttp = adjustedIncome * 0.30;
+            const monthlyTTP = ttp / 12;
+
+            // Render rent calculation
+            let html = '';
+            html += '<div class="kyn-calc-step"><span>Gross Annual Income</span><span>' + fmt(annualIncome) + '</span></div>';
+            if (depDeduction > 0) html += '<div class="kyn-calc-step"><span>Dependent deduction (' + deps + ' x $480)</span><span>-' + fmt(depDeduction) + '</span></div>';
+            if (elderlyDeduction > 0) html += '<div class="kyn-calc-step"><span>Elderly/disabled deduction</span><span>-' + fmt(elderlyDeduction) + '</span></div>';
+            if (medicalDeduction > 0) html += '<div class="kyn-calc-step"><span>Medical expense deduction (excess over 3%)</span><span>-' + fmt(medicalDeduction) + '</span></div>';
+            if (childcareDeduction > 0) html += '<div class="kyn-calc-step"><span>Childcare deduction</span><span>-' + fmt(childcareDeduction) + '</span></div>';
+            html += '<div class="kyn-calc-step"><span>Adjusted Annual Income</span><span>' + fmt(adjustedIncome) + '</span></div>';
+            html += '<div class="kyn-calc-step"><span>30% of Adjusted Income (annual)</span><span>' + fmt(ttp) + '</span></div>';
+            html += '<div class="kyn-calc-step total"><span>Your Estimated Monthly Rent (TTP)</span><span>' + fmt(monthlyTTP) + '/mo</span></div>';
+
+            // Housing cost bar
+            const housingPct = monthlyIncome > 0 ? Math.min(100, (monthlyTTP / monthlyIncome) * 100) : 0;
+            html += '<p style="margin-top:16px;font-size:0.95rem;">That\'s about <strong>' + Math.round(housingPct) + '%</strong> of your gross income going to rent.</p>';
+            html += '<div class="kyn-bar-wrap"><div class="kyn-bar" style="width:' + housingPct + '%;background:' + (housingPct <= 30 ? '#4caf50' : housingPct <= 40 ? '#ff9800' : '#f44336') + ';"></div></div>';
+            html += '<div class="kyn-bar-label">0% — ' + Math.round(housingPct) + '% of income → housing — 100%</div>';
+
+            document.getElementById('rentCalc').innerHTML = html;
+
+            // --- Income Limit Status ---
+            const factor = sizeFactors[hhSize] || 1;
+            const eli = baseAMI * 0.30 * factor;
+            const vli = baseAMI * 0.50 * factor;
+            const li = baseAMI * 0.80 * factor;
+
+            let catLabel, catClass;
+            if (annualIncome <= eli) { catLabel = 'Extremely Low Income (below 30% AMI)'; catClass = 'kyn-cat-eli'; }
+            else if (annualIncome <= vli) { catLabel = 'Very Low Income (30-50% AMI)'; catClass = 'kyn-cat-vli'; }
+            else if (annualIncome <= li) { catLabel = 'Low Income (50-80% AMI)'; catClass = 'kyn-cat-li'; }
+            else { catLabel = 'Above Low Income Limits'; catClass = 'kyn-cat-above'; }
+
+            let incHtml = '<div class="kyn-income-cat ' + catClass + '">' + catLabel + '</div>';
+            incHtml += '<p style="font-size:0.95rem;">For a household of ' + hhSize + ', national estimates are:</p>';
+            incHtml += '<div class="kyn-calc-step"><span>Extremely Low Income (30% AMI)</span><span>Below ' + fmt(eli) + '/yr</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Very Low Income (50% AMI)</span><span>Below ' + fmt(vli) + '/yr</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Low Income (80% AMI)</span><span>Below ' + fmt(li) + '/yr</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Your annual income</span><span><strong>' + fmt(annualIncome) + '</strong></span></div>';
+            incHtml += '<p style="font-size:0.85rem;color:var(--color-text-light);margin-top:12px;">Note: Actual income limits vary significantly by county. These are national estimates. Check with your local PHA for exact limits.</p>';
+
+            document.getElementById('incomeStatus').innerHTML = incHtml;
+
+            // --- Program Eligibility ---
+            const fplAnnual = fpl[hhSize] || 31200;
+            const isBelowVLI = annualIncome <= vli;
+            const isBelowLI = annualIncome <= li;
+            const isBelowELI = annualIncome <= eli;
+            const isBelowFPL138 = annualIncome <= fplAnnual * 1.38;
+            const isBelowFPL130 = annualIncome <= fplAnnual * 1.30;
+
+            function progRow(name, status, note) {
+                const dotClass = status === 'likely' ? 'kyn-dot-green' : status === 'possible' ? 'kyn-dot-yellow' : status === 'check' ? 'kyn-dot-gray' : 'kyn-dot-red';
+                const label = status === 'likely' ? 'Likely eligible' : status === 'possible' ? 'May qualify' : status === 'check' ? 'Check requirements' : 'Unlikely';
+                return '<div class="kyn-program-row"><div><strong>' + name + '</strong><br><span style="font-size:0.85rem;color:var(--color-text-light);">' + (note || '') + '</span></div><div><span class="kyn-dot ' + dotClass + '"></span>' + label + '</div></div>';
+            }
+
+            let progHtml = '';
+            progHtml += progRow('Section 8 (Housing Choice Voucher)', isBelowVLI ? 'likely' : isBelowLI ? 'possible' : 'unlikely', 'Income must be below 50% AMI (most PHAs)');
+            progHtml += progRow('Public Housing', isBelowLI ? 'likely' : 'unlikely', 'Income must be below 80% AMI');
+            progHtml += progRow('LIHTC (Tax Credit Housing)', isBelowLI ? 'likely' : 'unlikely', 'Typically 60% AMI or below, no voucher needed');
+            progHtml += progRow('Section 811', isElderlyDisabled && isBelowELI ? 'likely' : isElderlyDisabled && isBelowVLI ? 'possible' : 'check', 'For non-elderly adults with disabilities');
+            progHtml += progRow('Section 202', isElderlyDisabled && isBelowVLI ? 'likely' : 'check', 'For seniors age 62+');
+            progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requires veteran status — referred through VA');
+            progHtml += progRow('SNAP (Food Stamps)', isBelowFPL130 ? 'likely' : 'possible', 'Generally below 130% of Federal Poverty Level');
+            progHtml += progRow('Medicaid', isBelowFPL138 ? 'likely' : 'possible', 'Generally below 138% FPL in expansion states');
+
+            document.getElementById('programList').innerHTML = progHtml;
+
+            // --- Budget Snapshot ---
+            const remaining = Math.max(0, monthlyIncome - monthlyTTP - utilitiesMonthly);
+            const rentPct = monthlyIncome > 0 ? (monthlyTTP / monthlyIncome * 100) : 0;
+            const utilPct = monthlyIncome > 0 ? (utilitiesMonthly / monthlyIncome * 100) : 0;
+            const remPct = monthlyIncome > 0 ? (remaining / monthlyIncome * 100) : 0;
+
+            let budgetHtml = '<div class="kyn-budget-bar">';
+            budgetHtml += '<div style="width:' + rentPct + '%;background:#2a644b;">' + Math.round(rentPct) + '%</div>';
+            budgetHtml += '<div style="width:' + utilPct + '%;background:#e67e22;">' + Math.round(utilPct) + '%</div>';
+            budgetHtml += '<div style="width:' + remPct + '%;background:#3498db;">' + Math.round(remPct) + '%</div>';
+            budgetHtml += '</div>';
+            budgetHtml += '<div class="kyn-budget-legend">';
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#2a644b;"></span>Rent: ' + fmt(monthlyTTP) + '</span>';
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#e67e22;"></span>Utilities: ' + fmt(utilitiesMonthly) + '</span>';
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#3498db;"></span>Remaining: ' + fmt(remaining) + '</span>';
+            budgetHtml += '</div>';
+            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">After estimated rent and utilities, you\'d have about <strong>' + fmt(remaining) + '/month</strong> for food, transportation, healthcare, and other expenses.</p>';
+
+            document.getElementById('budgetChart').innerHTML = budgetHtml;
+
+            // Show results
+            document.getElementById('results').classList.add('visible');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    })();
+    </script>
+</body>
+</html>
