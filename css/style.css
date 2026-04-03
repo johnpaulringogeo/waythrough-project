@@ -1455,6 +1455,7 @@ textarea {
     .blog-list-card { padding: 20px 0; }
     .blog-list-card-arrow { display: none; }
     .video-grid { grid-template-columns: 1fr; }
+    .stories-grid { grid-template-columns: 1fr; }
     .related-list { grid-template-columns: 1fr; }
     .cta-form { flex-direction: column; }
     .footer-grid { grid-template-columns: 1fr; gap: 20px; }

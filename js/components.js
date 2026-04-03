@@ -521,7 +521,7 @@ function addTableOfContents() {
     headings.forEach(h => {
         // Skip "Related Resources" heading
         if (h.textContent.trim() === 'Related Resources') return;
-        tocHTML += '<li><a href="#' + h.id + '">' + h.textContent.trim() + '</a></li>';
+        tocHTML += '<li><a href="#' + h.id + '">' + escapeHTML(h.textContent.trim()) + '</a></li>';
     });
     tocHTML += '</ol>';
     toc.innerHTML = tocHTML;
