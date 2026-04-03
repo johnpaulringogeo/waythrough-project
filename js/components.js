@@ -135,7 +135,8 @@ function openSearch() {
 function closeSearch() {
     const overlay = document.getElementById('searchOverlay');
     const input = document.getElementById('searchInput');
-    if (!overlay) return;
+    const toggle = document.getElementById('searchToggle');
+    if (!overlay || !input || !toggle) return;
     searchOpen = false;
     searchActiveIndex = -1;
     overlay.classList.remove('active');
@@ -145,7 +146,6 @@ function closeSearch() {
     input.removeAttribute('aria-activedescendant');
     document.getElementById('searchResults').innerHTML = '';
     document.getElementById('searchLive').textContent = '';
-    const toggle = document.getElementById('searchToggle');
     toggle.setAttribute('aria-expanded', 'false');
     toggle.focus(); // return focus to trigger button
     document.removeEventListener('keydown', handleSearchKeys);
@@ -213,7 +213,7 @@ function renderSearchResults(results) {
 function trapFocusInSearch(e) {
     if (!searchOpen || e.key !== 'Tab') return;
     const overlay = document.getElementById('searchOverlay');
-    const focusable = overlay.querySelectorAll('input, button, a[href], [tabindex]:not([tabindex="-1"])');
+    const focusable = overlay.querySelectorAll('input:not([disabled]), button:not([disabled]), a[href]:not([disabled]), [tabindex]:not([tabindex="-1"]):not([disabled]):not([aria-disabled="true"])');
     if (!focusable.length) return;
     const first = focusable[0];
     const last = focusable[focusable.length - 1];
@@ -251,10 +251,10 @@ function renderNav() {
             </ul>
             <div class="nav-actions">
                 <button class="search-toggle" id="searchToggle" aria-label="Search resources" aria-expanded="false">
-                    ${SEARCH_ICON}
+                    <span aria-hidden="true">${SEARCH_ICON}</span>
                 </button>
                 <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-                    ${MOON_ICON}${SUN_ICON}
+                    <span aria-hidden="true">${MOON_ICON}${SUN_ICON}</span>
                 </button>
                 <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
                     <span></span><span></span><span></span>
@@ -283,6 +283,12 @@ function renderNav() {
         </div>
         <div class="search-backdrop" id="searchBackdrop"></div>
     `;
+    // Prefetch search index in background
+    const prefetchLink = document.createElement('link');
+    prefetchLink.rel = 'prefetch';
+    prefetchLink.href = root + 'js/search-index.json';
+    document.head.append(prefetchLink);
+
     document.body.prepend(nav);
     nav.after(searchOverlay);
 
@@ -532,6 +538,9 @@ function addTableOfContents() {
 
 // ── Initialize shared behaviors ──
 function initShared() {
+    // Prefetch search index in background
+    loadSearchIndex();
+
     // Navbar scroll shadow
     const nav = document.getElementById('nav');
     if (nav) {
