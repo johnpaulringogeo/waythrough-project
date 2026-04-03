@@ -1,9 +1,9 @@
 [
   {
-    "title": "Waythrough Project \u2014 Helping You Overcome the Barriers to Affordable Housing",
+    "title": "Waythrough Project \u2014 Affordable Housing Help & Guides",
     "desc": "Free guides, how-tos, and resources to help you navigate affordable housing programs including Section 8, HUD-VASH, and more.",
     "url": "index.html",
-    "keywords": "helping overcome barriers affordable housing free how-tos help navigate programs including section hud-vash more explore topic question index"
+    "keywords": "affordable housing help free how-tos navigate programs including section hud-vash more explore topic question index"
   },
   {
     "title": "Privacy Policy",
@@ -36,10 +36,10 @@
     "keywords": "benefits get cut ssi ssdi snap housing got reduced terminated here immediately appeal rights timelines find help first thing understand"
   },
   {
-    "title": "5 Affordable Housing Programs Most People Don't Know About",
+    "title": "5 Lesser-Known Affordable Housing Programs",
     "desc": "Section 8 isn't your only option. Here are five federal housing programs that could help you \u2014 and that most people have never heard of.",
     "url": "blog/posts/five-programs-you-dont-know.html",
-    "keywords": "affordable housing programs most people don know section isn only option here five federal help never heard hud-vash veterans 811"
+    "keywords": "lesser-known affordable housing programs section isn only option here five federal help most people never heard hud-vash veterans 811 disabilities"
   },
   {
     "title": "What Housing First Actually Means (And Why It Works)",
@@ -60,10 +60,10 @@
     "keywords": "pha won call back here practical strategies reaching housing authority responding there get attention move things forward first phas slow"
   },
   {
-    "title": "Section 8 Explained \u2014 What It Actually Is and How It Works",
+    "title": "Section 8 Explained \u2014 What It Is & How It Works",
     "desc": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program \u2014 what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
     "url": "blog/posts/section-8-explained.html",
-    "keywords": "section explained actually works clear no-nonsense breakdown housing choice voucher program qualifies process someone seen firsthand waiting list happens get"
+    "keywords": "section explained works clear no-nonsense breakdown housing choice voucher program qualifies process actually someone seen firsthand waiting list happens get"
   },
   {
     "title": "7 Section 8 Myths That Need to Die",
@@ -72,10 +72,10 @@
     "keywords": "section myths need die truth vouchers debunking common keep people accessing housing help qualify myth free tenants don pay rent"
   },
   {
-    "title": "How to Talk to Your Landlord About Repairs Without Risking Retaliation",
+    "title": "Talk to Your Landlord About Repairs Safely",
     "desc": "Your landlord has a legal obligation to maintain your rental. Here's how to document problems, request repairs, put it in writing, and protect yourself if they retaliate.",
     "url": "blog/posts/talking-to-landlord-about-repairs.html",
-    "keywords": "talk landlord repairs without risking retaliation legal obligation maintain rental here document problems request put writing protect yourself retaliate understand"
+    "keywords": "talk landlord repairs safely legal obligation maintain rental here document problems request put writing protect yourself retaliate understand rights first"
   },
   {
     "title": "Understanding Utility Allowances and Why They Matter",
@@ -102,10 +102,10 @@
     "keywords": "happens after get housing voucher apartment search section different renting without one here expect timelines inspections landlord negotiations doors close"
   },
   {
-    "title": "Waythrough Project en Espa\u00f1ol \u2014 Ayuda para Superar las Barreras de la Vivienda Asequible",
+    "title": "Waythrough Project en Espa\u00f1ol \u2014 Gu\u00edas de Vivienda",
     "desc": "Gu\u00edas gratuitas, instrucciones paso a paso, y recursos para ayudarte a navegar programas de vivienda asequible incluyendo Secci\u00f3n 8, HUD-VASH, y m\u00e1s.",
     "url": "es/index.html",
-    "keywords": "espa ayuda para superar las barreras vivienda asequible gratuitas instrucciones paso recursos ayudarte navegar programas incluyendo secci hud-vash explora por"
+    "keywords": "espa vivienda gratuitas instrucciones paso recursos para ayudarte navegar programas asequible incluyendo secci hud-vash explora por tema acerca este proyecto"
   },
   {
     "title": "Beneficios y Apoyo Financiero",
@@ -195,7 +195,7 @@
     "title": "For Landlords",
     "desc": "Information and resources for landlords accepting Housing Choice Vouchers. Learn about HAP payments, HQS inspections, tenant screening, and landlord protections.",
     "url": "for-landlords/index.html",
-    "keywords": "landlords information accepting housing choice vouchers learn hap payments hqs inspections tenant screening landlord protections getting started questions answered for-landlords"
+    "keywords": "landlords information accepting housing choice vouchers learn hap payments hqs inspections tenant screening landlord protections accept work payment claims faq"
   },
   {
     "title": "Landlord FAQ",
