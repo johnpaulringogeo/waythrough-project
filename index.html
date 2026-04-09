@@ -217,28 +217,46 @@
     <div class="container">
         <h2>From the Blog</h2>
         <p class="section-desc">Personal insights and practical advice from someone who's worked inside the system.</p>
-        <div class="blog-list">
-            <a href="blog/posts/section-8-explained.html" class="blog-item">
-                <div class="blog-item-meta">March 7, 2026 &middot; 10 min read</div>
-                <h3>Section 8 Explained — What It Actually Is and How It Works</h3>
-                <p>A clear breakdown of the Housing Choice Voucher program — eligibility, waiting lists, what you pay, and common myths.</p>
-            </a>
-            <a href="blog/posts/landlord-rejects-voucher.html" class="blog-item">
-                <div class="blog-item-meta">March 13, 2026 &middot; 8 min read</div>
-                <h3>What to Do When a Landlord Rejects Your Voucher</h3>
-                <p>Your rights, your options, and practical strategies for finding housing when landlords say no to Section 8.</p>
-            </a>
-            <a href="blog/posts/welcome.html" class="blog-item">
-                <div class="blog-item-meta">March 4, 2026 &middot; 6 min read</div>
-                <h3>Welcome to Waythrough Project</h3>
-                <p>Why I started this project, how the resource finder works, and what you'll find here.</p>
-            </a>
-        </div>
+        <div class="blog-list" id="blog-latest"></div>
         <div class="section-more">
             <a href="blog/index.html">Read all posts &rarr;</a>
         </div>
     </div>
 </section>
+<script>
+(function() {
+    var container = document.getElementById('blog-latest');
+    if (!container) return;
+
+    fetch('blog/posts.json')
+        .then(function(r) { return r.json(); })
+        .then(function(posts) {
+            posts.sort(function(a, b) { return b.date.localeCompare(a.date); });
+            var latest = posts.slice(0, 3);
+            var html = '';
+            var months = ['January','February','March','April','May','June',
+                          'July','August','September','October','November','December'];
+            latest.forEach(function(post) {
+                var parts = post.date.split('-');
+                var month = months[parseInt(parts[1], 10) - 1];
+                var day = parseInt(parts[2], 10);
+                var year = parts[0];
+                var dateStr = month + ' ' + day + ', ' + year;
+                var meta = dateStr;
+                if (post.readTime) meta += ' \u00b7 ' + post.readTime;
+                html += '<a href="' + post.url + '" class="blog-item">'
+                      + '<div class="blog-item-meta">' + meta + '</div>'
+                      + '<h3>' + post.title + '</h3>'
+                      + '<p>' + post.description + '</p>'
+                      + '</a>';
+            });
+            container.innerHTML = html;
+        })
+        .catch(function() {
+            container.innerHTML = '<p>Visit the <a href="blog/index.html">blog</a> to see our latest posts.</p>';
+        });
+})();
+</script>
 
 <!-- ===== ASK A QUESTION ===== -->
 <section class="ask-cta" id="ask">
