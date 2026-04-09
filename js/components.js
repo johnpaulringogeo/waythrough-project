@@ -574,18 +574,41 @@ function initShared() {
     addReadingTime();
     addTableOfContents();
 
-    // Fix anchor scroll for fixed nav: on page load with a hash,
-    // scroll so the target sits just below the navbar
-    if (window.location.hash) {
-        var target = document.querySelector(window.location.hash);
+    // Fix anchor scroll for fixed nav
+    function scrollToHash(hash) {
+        var target = document.querySelector(hash);
         if (target) {
-            setTimeout(function () {
-                var navHeight = 64;
-                var y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 16;
-                window.scrollTo({ top: y, behavior: 'smooth' });
-            }, 100);
+            var navHeight = 64;
+            var y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 16;
+            window.scrollTo({ top: y, behavior: 'smooth' });
         }
     }
+
+    // On page load with a hash
+    if (window.location.hash) {
+        setTimeout(function () { scrollToHash(window.location.hash); }, 100);
+    }
+
+    // On same-page anchor clicks (e.g. clicking About while on homepage)
+    document.addEventListener('click', function (e) {
+        var link = e.target.closest('a[href*="#"]');
+        if (!link) return;
+        var href = link.getAttribute('href');
+        var hashIndex = href.indexOf('#');
+        if (hashIndex === -1) return;
+        var hash = href.slice(hashIndex);
+        var pagePath = href.slice(0, hashIndex);
+        // Only handle if same page (empty path, or path matches current page)
+        var issamePage = !pagePath
+            || pagePath === window.location.pathname
+            || pagePath === window.location.pathname.replace(/\/$/, '') + '/index.html'
+            || pagePath.replace(/^\.\//, '') === 'index.html' && window.location.pathname === '/';
+        if (issamePage && document.querySelector(hash)) {
+            e.preventDefault();
+            history.pushState(null, '', hash);
+            scrollToHash(hash);
+        }
+    });
 }
 
 // ── Boot ──
