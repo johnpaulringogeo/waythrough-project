@@ -969,7 +969,7 @@ select:focus-visible {
 
 /* ===== BLOG POST / GUIDE PAGE ===== */
 .page-header {
-    padding: 110px 0 36px;
+    padding: 88px 0 32px;
     background: var(--color-bg-warm);
     border-bottom: 1px solid var(--color-border);
 }
