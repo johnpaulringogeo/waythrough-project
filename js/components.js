@@ -573,6 +573,19 @@ function initShared() {
     renderBackToTop();
     addReadingTime();
     addTableOfContents();
+
+    // Fix anchor scroll for fixed nav: on page load with a hash,
+    // scroll so the target sits just below the navbar
+    if (window.location.hash) {
+        var target = document.querySelector(window.location.hash);
+        if (target) {
+            setTimeout(function () {
+                var navHeight = 64;
+                var y = target.getBoundingClientRect().top + window.pageYOffset - navHeight - 16;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }, 100);
+        }
+    }
 }
 
 // ── Boot ──
