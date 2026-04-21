@@ -384,12 +384,13 @@ function renderFooter() {
                     </picture>
                     <h3>Waythrough Project</h3>
                     <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
-                    <div class="footer-social">
-                        <span class="social-link" role="link" aria-label="YouTube — coming soon" tabindex="0">${ICONS.youtube}</span>
-                        <span class="social-link" role="link" aria-label="Instagram — coming soon" tabindex="0">${ICONS.instagram}</span>
-                        <span class="social-link" role="link" aria-label="TikTok — coming soon" tabindex="0">${ICONS.tiktok}</span>
-                        <span class="social-link" role="link" aria-label="Facebook — coming soon" tabindex="0">${ICONS.facebook}</span>
-                        <span class="social-link" role="link" aria-label="X — coming soon" tabindex="0">${ICONS.x}</span>
+                    <div class="footer-social" aria-label="Social media (coming soon)">
+                        <span class="social-link" aria-hidden="true">${ICONS.youtube}</span>
+                        <span class="social-link" aria-hidden="true">${ICONS.instagram}</span>
+                        <span class="social-link" aria-hidden="true">${ICONS.tiktok}</span>
+                        <span class="social-link" aria-hidden="true">${ICONS.facebook}</span>
+                        <span class="social-link" aria-hidden="true">${ICONS.x}</span>
+                        <span class="sr-only">Social media accounts coming soon</span>
                     </div>
                 </div>
                 <div class="footer-col">

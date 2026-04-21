@@ -22,8 +22,9 @@
     <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
-    <link rel="stylesheet" href="../css/style.css?v=22">
-    <script src="../js/components.js?v=16" defer></script>
+    <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../css/style.css?v=23">
+    <script src="../js/components.js?v=17" defer></script>
     <style>
         .video-grid {
             display: grid;
@@ -100,8 +101,9 @@
             flex-direction: column;
         }
 
-        .video-card-body h4 {
+        .video-card-body h3 {
             font-size: 1.1rem;
+            margin-top: 0;
             margin-bottom: 12px;
             line-height: 1.4;
         }
@@ -229,6 +231,7 @@
 
         <!-- Video Grid -->
         <section class="container fade-in" style="padding: 0 24px;">
+            <h2 class="sr-only">Featured Videos</h2>
             <div class="video-grid">
                 <!-- Video 1 -->
                 <div class="video-card">
@@ -239,7 +242,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>Section 8 in 60 Seconds</h4>
+                        <h3>Section 8 in 60 Seconds</h3>
                         <p>Get a quick overview of what Section 8 is, how it works, and whether it might be right for you.</p>
                     </div>
                 </div>
@@ -253,7 +256,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>How HUD-VASH Actually Works</h4>
+                        <h3>How HUD-VASH Actually Works</h3>
                         <p>A step-by-step walkthrough of the HUD-VASH program for veterans, from eligibility to signing your lease.</p>
                     </div>
                 </div>
@@ -267,7 +270,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>Landlord Said No? Know Your Rights</h4>
+                        <h3>Landlord Said No? Know Your Rights</h3>
                         <p>What you can do if a landlord denies your application. Learn about fair housing laws and your legal protections.</p>
                     </div>
                 </div>
@@ -281,7 +284,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>Documents You Need Before You Apply</h4>
+                        <h3>Documents You Need Before You Apply</h3>
                         <p>A practical walkthrough of the paperwork and documents you'll need to apply for housing assistance.</p>
                     </div>
                 </div>
@@ -295,7 +298,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>Emergency Housing: What to Do Right Now</h4>
+                        <h3>Emergency Housing: What to Do Right Now</h3>
                         <p>If you're facing homelessness, this video covers immediate resources and emergency housing options available to you.</p>
                     </div>
                 </div>
@@ -309,7 +312,7 @@
                         <span class="video-placeholder-text">Video coming soon</span>
                     </div>
                     <div class="video-card-body">
-                        <h4>VAWA Protections for DV Survivors</h4>
+                        <h3>VAWA Protections for DV Survivors</h3>
                         <p>Learn about protections available under VAWA for survivors of domestic violence seeking safe housing.</p>
                     </div>
                 </div>
@@ -335,10 +338,4 @@
                 </span>
                 <span class="social-btn" role="link" aria-label="X — coming soon" title="X — coming soon">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                </span>
-            </div>
-        </section>
-    </main>
-
-</body>
-</html>
+           

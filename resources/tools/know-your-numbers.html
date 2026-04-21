@@ -19,8 +19,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
-    <link rel="stylesheet" href="../../css/style.css?v=22">
-    <script src="../../js/components.js?v=16" defer></script>
+    <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../../css/style.css?v=23">
+    <script src="../../js/components.js?v=17" defer></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -56,7 +57,7 @@
         .kyn-results { display: none; max-width: 720px; margin: 0 auto; }
         .kyn-results.visible { display: block; }
         .kyn-panel { background: var(--color-bg-alt, var(--color-bg)); border: 1px solid var(--color-border); border-radius: 12px; padding: 28px; margin-bottom: 24px; }
-        .kyn-panel h3 { margin-top: 0; font-size: 1.2rem; color: var(--color-primary); }
+        .kyn-panel h2 { margin-top: 0; font-size: 1.2rem; color: var(--color-primary); }
         .kyn-calc-step { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--color-border); font-size: 0.95rem; }
         .kyn-calc-step:last-child { border-bottom: none; }
         .kyn-calc-step.total { font-weight: 700; font-size: 1.05rem; border-top: 2px solid var(--color-primary); border-bottom: none; padding-top: 12px; margin-top: 4px; }
@@ -145,22 +146,22 @@
 
         <div class="kyn-results" id="results" aria-live="polite" aria-atomic="false">
             <div class="kyn-panel" id="panelRent">
-                <h3>Your Estimated Rent Under Section 8</h3>
+                <h2>Your Estimated Rent Under Section 8</h2>
                 <div id="rentCalc"></div>
             </div>
 
             <div class="kyn-panel" id="panelIncome">
-                <h3>Income Limit Status</h3>
+                <h2>Income Limit Status</h2>
                 <div id="incomeStatus"></div>
             </div>
 
             <div class="kyn-panel" id="panelPrograms">
-                <h3>Programs You May Qualify For</h3>
+                <h2>Programs You May Qualify For</h2>
                 <div id="programList"></div>
             </div>
 
             <div class="kyn-panel" id="panelBudget">
-                <h3>Monthly Budget Snapshot</h3>
+                <h2>Monthly Budget Snapshot</h2>
                 <div id="budgetChart"></div>
             </div>
 
