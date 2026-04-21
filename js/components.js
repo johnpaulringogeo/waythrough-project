@@ -88,7 +88,7 @@ let searchOpen = false;
 async function loadSearchIndex() {
     if (searchIndex) return searchIndex;
     try {
-        const res = await fetch(root + 'js/search-index.json');
+        const res = await fetch(root + 'js/search-index.json?v=16');
         if (!res.ok) throw new Error('Search index returned ' + res.status);
         searchIndex = await res.json();
         return searchIndex;
@@ -286,7 +286,7 @@ function renderNav() {
     // Prefetch search index in background
     const prefetchLink = document.createElement('link');
     prefetchLink.rel = 'prefetch';
-    prefetchLink.href = root + 'js/search-index.json';
+    prefetchLink.href = root + 'js/search-index.json?v=16';
     document.head.append(prefetchLink);
 
     document.body.prepend(nav);
@@ -599,11 +599,11 @@ function initShared() {
         var hash = href.slice(hashIndex);
         var pagePath = href.slice(0, hashIndex);
         // Only handle if same page (empty path, or path matches current page)
-        var issamePage = !pagePath
+        var isSamePage = !pagePath
             || pagePath === window.location.pathname
             || pagePath === window.location.pathname.replace(/\/$/, '') + '/index.html'
             || pagePath.replace(/^\.\//, '') === 'index.html' && window.location.pathname === '/';
-        if (issamePage && document.querySelector(hash)) {
+        if (isSamePage && document.querySelector(hash)) {
             e.preventDefault();
             history.pushState(null, '', hash);
             scrollToHash(hash);
@@ -630,4 +630,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initShared();
-});
