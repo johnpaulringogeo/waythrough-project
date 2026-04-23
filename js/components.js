@@ -631,3 +631,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     initShared();
+});
