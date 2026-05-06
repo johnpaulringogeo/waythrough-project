@@ -1,11 +1,20 @@
-SEO Phase 1: Remove .html extensions from all internal links, add lastmod to sitemap, improve internal linking
+Phase 2: Optimize titles, meta descriptions, and structured data for SEO
 
-- Removed .html extensions from 1,551 internal href links across all 183 HTML files
-- Cloudflare Pages strips .html and redirects, so clean URLs avoid redirect chains
-- Updated og:url tags (102 fixes), JSON-LD URLs (5 fixes)
-- Cleaned .html from feed.xml (26 URLs) and search-index.json (182 URLs)
-- Added lastmod dates to all 182 sitemap entries
-- Added Free Tools section to homepage (6 interactive tools)
-- Added Find Help in Your State section to homepage (8 top states + browse all)
-- Added state page links to Related Resources in 10 key guide pages
-- Added Related on Waythrough Project sections to 12 blog posts with contextual internal links
+Changes:
+- Rewrite homepage title to target real search queries (Section 8, tenant rights)
+- Optimize titles and meta descriptions for top 6 opportunity pages:
+  Idaho, New Hampshire, Housing Discrimination, Where to Start,
+  Utility Allowances, How to Appeal Housing Denial
+- Update all 51 state page titles from generic "Housing Resources & Tenant Rights"
+  to query-matching "Tenant Rights, Eviction Laws & Housing Help"
+- Generate unique meta descriptions for all state pages using actual
+  state-specific data (eviction notice periods, deposit limits, etc.)
+- Add FAQPage schema to Idaho state page and Housing Denial Appeal guide
+- Update HowTo schema description on Housing Denial Appeal guide
+- Sync og:title, og:description, twitter:title, twitter:description on all pages
+
+To commit (run from repo root):
+  del .git\index.lock
+  git add -A
+  git commit -m "Phase 2: Optimize titles, meta descriptions, and structured data for SEO"
+  git push
