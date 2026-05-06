@@ -1,0 +1,11 @@
+SEO Phase 1: Remove .html extensions from all internal links, add lastmod to sitemap, improve internal linking
+
+- Removed .html extensions from 1,551 internal href links across all 183 HTML files
+- Cloudflare Pages strips .html and redirects, so clean URLs avoid redirect chains
+- Updated og:url tags (102 fixes), JSON-LD URLs (5 fixes)
+- Cleaned .html from feed.xml (26 URLs) and search-index.json (182 URLs)
+- Added lastmod dates to all 182 sitemap entries
+- Added Free Tools section to homepage (6 interactive tools)
+- Added Find Help in Your State section to homepage (8 top states + browse all)
+- Added state page links to Related Resources in 10 key guide pages
+- Added Related on Waythrough Project sections to 12 blog posts with contextual internal links
