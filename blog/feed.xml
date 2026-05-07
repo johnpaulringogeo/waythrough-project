@@ -5,13 +5,76 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Renting With an Eviction on Your Record: What Actually Works</title>
+      <link>https://waythroughproject.com/blog/posts/renting-with-eviction-record</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/renting-with-eviction-record</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+      <description>An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>My Income Went Up on Section 8 — Will I Lose My Voucher?</title>
+      <link>https://waythroughproject.com/blog/posts/income-went-up-on-section-8</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/income-went-up-on-section-8</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>I Need a Place to Stay Tonight — Here's What to Do</title>
+      <link>https://waythroughproject.com/blog/posts/emergency-housing-tonight</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/emergency-housing-tonight</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 GMT</pubDate>
+      <description>If you need emergency shelter right now, here are the numbers to call, the programs that can help tonight, and what to expect when you get there.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>How to Survive the Section 8 Waiting List</title>
+      <link>https://waythroughproject.com/blog/posts/surviving-the-waiting-list</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/surviving-the-waiting-list</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description>The waiting list can take years. Here's how to check your status, keep your spot, apply to multiple PHAs, and find alternatives while you wait.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>Reasonable Accommodations: What They Are and How to Get One</title>
+      <link>https://waythroughproject.com/blog/posts/reasonable-accommodations-your-rights</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/reasonable-accommodations-your-rights</guid>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <description>If you have a disability, you have the right to request changes to housing rules or physical modifications. Here's how the process works and what to do if you're denied.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>What Happens When Your Section 8 Voucher Expires</title>
+      <link>https://waythroughproject.com/blog/posts/voucher-expires-what-happens</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/voucher-expires-what-happens</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Your Section 8 voucher has an expiration date. Here's what happens when time runs out, how to get an extension, and what to do if you've already lost your voucher.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+    <item>
+      <title>Why Housing Changes Everything</title>
+      <link>https://waythroughproject.com/blog/posts/why-housing-changes-everything</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/why-housing-changes-everything</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Housing isn't just a roof — it's the foundation that makes recovery, employment, safety, and stability possible. Real stories from my years working with veterans.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
 
     <item>
       <title>7 Section 8 Myths That Need to Die</title>

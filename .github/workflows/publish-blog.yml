@@ -1,0 +1,45 @@
+name: Publish Weekly Blog Post
+
+on:
+  schedule:
+    # Every Wednesday at 9:00 AM UTC (5 AM Eastern)
+    - cron: '0 9 * * 3'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check for drafts
+        id: check
+        run: |
+          if [ -d "blog/drafts" ] && [ "$(ls -A blog/drafts/*.html 2>/dev/null)" ]; then
+            echo "has_drafts=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_drafts=false" >> $GITHUB_OUTPUT
+            echo "No drafts to publish."
+          fi
+
+      - name: Publish next draft
+        if: steps.check.outputs.has_drafts == 'true'
+        run: python .github/scripts/publish-draft.py
+
+      - name: Commit and push
+        if: steps.check.outputs.has_drafts == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Auto-publish weekly blog post"
+          git push

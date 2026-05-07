@@ -1,5 +1,53 @@
 [
   {
+    "title": "Renting With an Eviction on Your Record: What Actually Works",
+    "description": "An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.",
+    "url": "blog/posts/renting-with-eviction-record.html",
+    "date": "2026-05-04",
+    "readTime": "8 min read",
+    "tag": "Practical"
+  },
+  {
+    "title": "My Income Went Up on Section 8 — Will I Lose My Voucher?",
+    "description": "A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.",
+    "url": "blog/posts/income-went-up-on-section-8.html",
+    "date": "2026-04-30",
+    "readTime": "8 min read",
+    "tag": "Explainer"
+  },
+  {
+    "title": "I Need a Place to Stay Tonight — Here's What to Do",
+    "description": "If you need emergency shelter right now, here are the numbers to call, the programs that can help tonight, and what to expect when you get there.",
+    "url": "blog/posts/emergency-housing-tonight.html",
+    "date": "2026-04-26",
+    "readTime": "6 min read",
+    "tag": "Urgent"
+  },
+  {
+    "title": "How to Survive the Section 8 Waiting List",
+    "description": "The waiting list can take years. Here's how to check your status, keep your spot, apply to multiple PHAs, and find alternatives while you wait.",
+    "url": "blog/posts/surviving-the-waiting-list.html",
+    "date": "2026-04-22",
+    "readTime": "7 min read",
+    "tag": "Practical"
+  },
+  {
+    "title": "Reasonable Accommodations: What They Are and How to Get One",
+    "description": "If you have a disability, you have the right to request changes to housing rules or physical modifications. Here's how the process works and what to do if you're denied.",
+    "url": "blog/posts/reasonable-accommodations-your-rights.html",
+    "date": "2026-04-18",
+    "readTime": "7 min read",
+    "tag": "Your Rights"
+  },
+  {
+    "title": "What Happens When Your Section 8 Voucher Expires",
+    "description": "Your Section 8 voucher has an expiration date. Here's what happens when time runs out, how to get an extension, and what to do if you've already lost your voucher.",
+    "url": "blog/posts/voucher-expires-what-happens.html",
+    "date": "2026-04-14",
+    "readTime": "8 min read",
+    "tag": "Guide"
+  },
+  {
     "title": "Why Housing Changes Everything",
     "description": "Housing isn't just a roof — it's the foundation that makes recovery, employment, safety, and stability possible. Real stories from my years working with veterans.",
     "url": "blog/posts/why-housing-changes-everything.html",
