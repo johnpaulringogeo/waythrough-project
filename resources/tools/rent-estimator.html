@@ -715,6 +715,11 @@
             // FMR response can have different structures
             if (fmr.basicdata) {
                 basicdata = fmr.basicdata;
+                // Small Area FMR counties return basicdata as an array of ZIP-level entries.
+                // Use the first entry (MSA-level aggregate) for the summary table.
+                if (Array.isArray(basicdata)) {
+                    basicdata = basicdata[0] || {};
+                }
                 areaName = fmr.county_name || fmr.metro_name || fmr.area_name || locationLabel;
             } else if (fmr.metroarea) {
                 basicdata = fmr.metroarea.basicdata || fmr.metroarea;
@@ -747,7 +752,7 @@
                 if (!ilMedian) ilMedian = il;
             }
 
-            var year = basicdata.year || basicdata.fiscal_year || new Date().getFullYear();
+            var year = fmr.year || basicdata.year || basicdata.fiscal_year || new Date().getFullYear();
 
             // Header
             html += '<div class="results-header">';
