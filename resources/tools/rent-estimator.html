@@ -23,8 +23,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
-    <link rel="stylesheet" href="../../css/style.css?v=23">
-    <script src="../../js/components.js?v=18" defer></script>
+    <link rel="stylesheet" href="../../css/style.css?v=24">
+    <script src="../../js/components.js?v=19" defer></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -497,9 +497,9 @@
     (function() {
         'use strict';
 
-        // HUD API configuration
-        const API_BASE = 'https://www.huduser.gov/hudapi/public';
-        const API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI2IiwianRpIjoiZDVkMDJjM2M5NDUyNzFkNjEzNjI5ZTk3NGRhMGEwODNjYmE1MWY3YmRlMDgzYTVjNzkwMzA2MDk5NTAyZTI1YWJjMWM5ZjdiNzU0MDU3NDMiLCJpYXQiOjE3NzQ4OTg5NTIuNTM1Mzk2LCJuYmYiOjE3NzQ4OTg5NTIuNTM1Mzk4LCJleHAiOjIwOTA1MTgxNTIuNTMxMjk3LCJzdWIiOiIxMjQxNjgiLCJzY29wZXMiOltdfQ.iUSBmLhvDlf7F6TWZ4341RAkd_T1OWnKH3cAdN7efBY5CB1X2yNbBDS3w34_uTgMUK2JJ_ieupojw-Z3to8W_A';
+        // HUD API configuration — routed through Cloudflare Pages Function
+        // to avoid CORS issues (token is kept server-side in the proxy)
+        const API_BASE = '/api/hud';
 
         const resultsArea = document.getElementById('results-area');
         const stateSelect = document.getElementById('state-select');
@@ -507,11 +507,9 @@
         const btnCounty = document.getElementById('btn-search-county');
         const zipInput = document.getElementById('zip-input');
 
-        // API helper
+        // API helper — no auth header needed, the proxy adds it server-side
         function hudFetch(endpoint) {
-            return fetch(API_BASE + endpoint, {
-                headers: { 'Authorization': 'Bearer ' + API_TOKEN }
-            }).then(function(res) {
+            return fetch(API_BASE + endpoint).then(function(res) {
                 if (!res.ok) throw new Error('HUD API returned ' + res.status);
                 return res.json();
             });

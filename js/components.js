@@ -14,6 +14,10 @@ const depth = (function () {
 })();
 const root = depth === 0 ? './' : '../'.repeat(depth);
 
+// ── Language detection ──
+const pageLang = document.documentElement.lang || 'en';
+const isSpanish = pageLang === 'es';
+
 // ── SVG Icons (reusable) ──
 const ICONS = {
     home: '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>',
@@ -228,13 +232,38 @@ function trapFocusInSearch(e) {
 
 // ── Render Navigation ──
 function renderNav() {
+    // Navigation links — Spanish versions where available, English fallback otherwise
+    const navLinks = isSpanish ? [
+        { href: `${root}es/recursos/index.html`, text: 'Recursos' },
+        { href: `${root}es/recursos/donde-empezar.html`, text: 'Dónde Empezar' },
+        { href: `${root}blog/index.html`, text: 'Blog' },
+        { href: `${root}videos/index.html`, text: 'Videos' },
+        { href: `${root}es/recursos/preguntas-frecuentes.html`, text: 'Preguntas' },
+        { href: `${root}es/index.html#about`, text: 'Acerca de' },
+    ] : [
+        { href: `${root}resources/index.html`, text: 'Resources' },
+        { href: `${root}resources/where-to-start.html`, text: 'Where to Start' },
+        { href: `${root}blog/index.html`, text: 'Blog' },
+        { href: `${root}videos/index.html`, text: 'Videos' },
+        { href: `${root}resources/ask.html`, text: 'Ask a Question' },
+        { href: `${root}index.html#about`, text: 'About' },
+    ];
+
+    const navLinksHTML = navLinks.map(l => `<li><a href="${l.href}">${l.text}</a></li>`).join('\n                ');
+    const searchLabel = isSpanish ? 'Buscar recursos' : 'Search resources';
+    const themeLabel = isSpanish ? 'Cambiar modo oscuro' : 'Toggle dark mode';
+    const menuLabel = isSpanish ? 'Abrir menú' : 'Toggle menu';
+    const langSwitchHTML = isSpanish
+        ? `<a href="${root}index.html" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
+        : `<a href="${root}es/index.html" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
+
     const nav = document.createElement('nav');
     nav.className = 'nav';
     nav.id = 'nav';
-    nav.setAttribute('aria-label', 'Main navigation');
+    nav.setAttribute('aria-label', isSpanish ? 'Navegación principal' : 'Main navigation');
     nav.innerHTML = `
         <div class="container nav-inner">
-            <a href="${root}index.html" class="nav-logo">
+            <a href="${isSpanish ? root + 'es/index.html' : root + 'index.html'}" class="nav-logo">
                 <picture aria-hidden="true">
                     <source srcset="${root}images/logo-icon.webp" type="image/webp">
                     <img src="${root}images/logo-icon.png" alt="" class="nav-logo-img" width="72" height="39">
@@ -242,21 +271,17 @@ function renderNav() {
                 Waythrough Project
             </a>
             <ul class="nav-links">
-                <li><a href="${root}resources/index.html">Resources</a></li>
-                <li><a href="${root}resources/where-to-start.html">Where to Start</a></li>
-                <li><a href="${root}blog/index.html">Blog</a></li>
-                <li><a href="${root}videos/index.html">Videos</a></li>
-                <li><a href="${root}resources/ask.html">Ask a Question</a></li>
-                <li><a href="${root}index.html#about">About</a></li>
+                ${navLinksHTML}
             </ul>
             <div class="nav-actions">
-                <button class="search-toggle" id="searchToggle" aria-label="Search resources" aria-expanded="false">
+                ${langSwitchHTML}
+                <button class="search-toggle" id="searchToggle" aria-label="${searchLabel}" aria-expanded="false">
                     <span aria-hidden="true">${SEARCH_ICON}</span>
                 </button>
-                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <button class="theme-toggle" id="themeToggle" aria-label="${themeLabel}">
                     <span aria-hidden="true">${MOON_ICON}${SUN_ICON}</span>
                 </button>
-                <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <button class="hamburger" id="hamburger" aria-label="${menuLabel}" aria-expanded="false">
                     <span></span><span></span><span></span>
                 </button>
             </div>
@@ -274,8 +299,8 @@ function renderNav() {
         <div class="search-container">
             <div class="search-input-wrap">
                 <span class="search-input-icon" aria-hidden="true">${SEARCH_ICON}</span>
-                <label for="searchInput" class="sr-only">Search resources</label>
-                <input type="text" id="searchInput" class="search-input" placeholder="Search resources (e.g. Section 8, disability, voucher...)" autocomplete="off" role="combobox" aria-controls="searchResults" aria-expanded="false" aria-autocomplete="list">
+                <label for="searchInput" class="sr-only">${searchLabel}</label>
+                <input type="text" id="searchInput" class="search-input" placeholder="${isSpanish ? 'Buscar recursos (ej. Sección 8, discapacidad, vivienda...)' : 'Search resources (e.g. Section 8, disability, voucher...)'}" autocomplete="off" role="combobox" aria-controls="searchResults" aria-expanded="false" aria-autocomplete="list">
                 <button class="search-close" id="searchClose" aria-label="Close search">${CLOSE_ICON}</button>
             </div>
             <div class="search-results" id="searchResults" role="listbox" aria-label="Search results"></div>
@@ -299,12 +324,7 @@ function renderNav() {
     mobile.setAttribute('aria-hidden', 'true');
     mobile.innerHTML = `
         <ul>
-            <li><a href="${root}resources/index.html">Resources</a></li>
-            <li><a href="${root}resources/where-to-start.html">Where to Start</a></li>
-            <li><a href="${root}blog/index.html">Blog</a></li>
-            <li><a href="${root}videos/index.html">Videos</a></li>
-            <li><a href="${root}resources/ask.html">Ask a Question</a></li>
-            <li><a href="${root}index.html#about">About</a></li>
+            ${navLinksHTML}
         </ul>
     `;
     searchOverlay.after(mobile);
@@ -374,7 +394,71 @@ function renderNav() {
 function renderFooter() {
     const footer = document.createElement('footer');
     footer.className = 'footer';
-    footer.innerHTML = `
+
+    const socialBlock = `
+        <div class="footer-social" aria-label="${isSpanish ? 'Redes sociales (próximamente)' : 'Social media (coming soon)'}">
+            <span class="social-link" aria-hidden="true">${ICONS.youtube}</span>
+            <span class="social-link" aria-hidden="true">${ICONS.instagram}</span>
+            <span class="social-link" aria-hidden="true">${ICONS.tiktok}</span>
+            <span class="social-link" aria-hidden="true">${ICONS.facebook}</span>
+            <span class="social-link" aria-hidden="true">${ICONS.x}</span>
+            <span class="sr-only">${isSpanish ? 'Cuentas de redes sociales próximamente' : 'Social media accounts coming soon'}</span>
+        </div>`;
+
+    if (isSpanish) {
+        footer.innerHTML = `
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <picture>
+                        <source srcset="${root}images/logo-icon-md.webp" type="image/webp">
+                        <img src="${root}images/logo-icon-md.png" alt="Waythrough Project" class="footer-logo" width="200" height="108" loading="lazy">
+                    </picture>
+                    <h3>Waythrough Project</h3>
+                    <p>Un centro de recursos gratuito para navegar la vivienda asequible y las barreras que se interponen. Construido con experiencia real trabajando dentro del sistema.</p>
+                    ${socialBlock}
+                </div>
+                <div class="footer-col">
+                    <h4>Temas</h4>
+                    <ul>
+                        <li><a href="${root}es/recursos/index.html">Recursos</a></li>
+                        <li><a href="${root}es/recursos/beneficios.html">Beneficios</a></li>
+                        <li><a href="${root}es/recursos/derechos-del-inquilino.html">Derechos del Inquilino</a></li>
+                        <li><a href="${root}es/recursos/vivienda-de-emergencia.html">Vivienda de Emergencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Guías</h4>
+                    <ul>
+                        <li><a href="${root}es/recursos/guias/como-solicitar-seccion-8.html">Solicitar Sección 8</a></li>
+                        <li><a href="${root}es/recursos/guias/lista-de-documentos.html">Lista de Documentos</a></li>
+                        <li><a href="${root}es/recursos/guias/como-solicitar-hud-vash.html">Solicitar HUD-VASH</a></li>
+                        <li><a href="${root}es/recursos/guias/estrategias-lista-espera.html">Lista de Espera</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Conectar</h4>
+                    <ul>
+                        <li><a href="${root}es/recursos/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                        <li><a href="${root}es/recursos/respuestas-de-la-comunidad.html">Respuestas</a></li>
+                        <li><a href="${root}index.html">English</a></li>
+                        <li><span class="footer-link-placeholder">YouTube — próximamente</span></li>
+                        <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ${new Date().getFullYear()} Waythrough Project. Todos los derechos reservados.</p>
+                <p>
+                    <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accesibilidad</a>
+                    <a href="${root}privacy.html" style="margin-right:16px;">Privacidad</a>
+                    <a href="${root}terms.html">Términos de Uso</a>
+                </p>
+            </div>
+        </div>
+        `;
+    } else {
+        footer.innerHTML = `
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
@@ -384,14 +468,7 @@ function renderFooter() {
                     </picture>
                     <h3>Waythrough Project</h3>
                     <p>A free resource hub for navigating affordable housing and the barriers that stand in the way. Built on real experience working inside the system.</p>
-                    <div class="footer-social" aria-label="Social media (coming soon)">
-                        <span class="social-link" aria-hidden="true">${ICONS.youtube}</span>
-                        <span class="social-link" aria-hidden="true">${ICONS.instagram}</span>
-                        <span class="social-link" aria-hidden="true">${ICONS.tiktok}</span>
-                        <span class="social-link" aria-hidden="true">${ICONS.facebook}</span>
-                        <span class="social-link" aria-hidden="true">${ICONS.x}</span>
-                        <span class="sr-only">Social media accounts coming soon</span>
-                    </div>
+                    ${socialBlock}
                 </div>
                 <div class="footer-col">
                     <h4>Topics</h4>
@@ -433,7 +510,8 @@ function renderFooter() {
                 </p>
             </div>
         </div>
-    `;
+        `;
+    }
     document.body.append(footer);
 }
 
@@ -453,7 +531,15 @@ function renderAskCTA() {
 
     const cta = document.createElement('div');
     cta.className = 'ask-cta';
-    cta.innerHTML = `
+    cta.innerHTML = isSpanish ? `
+        <div class="ask-cta-inner">
+            <div class="ask-cta-text">
+                <strong>¿Todavía tienes preguntas?</strong>
+                <p>Si algo en esta página no tiene sentido o no estás seguro de cómo aplica a tu situación, pregúntanos. Leemos cada pregunta.</p>
+            </div>
+            <a href="${root}es/recursos/preguntas-frecuentes.html" class="ask-cta-link">Hacer una Pregunta ${ICONS.arrow}</a>
+        </div>
+    ` : `
         <div class="ask-cta-inner">
             <div class="ask-cta-text">
                 <strong>Still have questions?</strong>
@@ -518,7 +604,8 @@ function addTableOfContents() {
     const toc = document.createElement('aside');
     toc.className = 'toc';
     toc.setAttribute('aria-label', 'Table of contents');
-    let tocHTML = '<div class="toc-title">In This Guide</div><ol class="toc-list">';
+    const tocTitle = isSpanish ? 'En Esta Guía' : 'In This Guide';
+    let tocHTML = '<div class="toc-title">' + tocTitle + '</div><ol class="toc-list">';
     headings.forEach(h => {
         // Skip "Related Resources" heading
         if (h.textContent.trim() === 'Related Resources') return;
