@@ -8,6 +8,7 @@
  *   /api/hud/fmr/listStates       → https://www.huduser.gov/hudapi/public/fmr/listStates
  *   /api/hud/fmr/listCounties/CA  → https://www.huduser.gov/hudapi/public/fmr/listCounties/CA
  *   /api/hud/fmr/data/...         → https://www.huduser.gov/hudapi/public/fmr/data/...
+ *   /api/hud/il/data/...          → https://www.huduser.gov/hudapi/public/il/data/...
  *   etc.
  */
 
@@ -40,9 +41,9 @@ export async function onRequest(context) {
     const pathSegments = context.params.path;
     const apiPath = '/' + (Array.isArray(pathSegments) ? pathSegments.join('/') : pathSegments);
 
-    // Only allow /fmr/ endpoints (prevent abuse)
-    if (!apiPath.startsWith('/fmr/')) {
-        return new Response(JSON.stringify({ error: 'Only /fmr/ endpoints are supported' }), {
+    // Only allow /fmr/ and /il/ endpoints (prevent abuse)
+    if (!apiPath.startsWith('/fmr/') && !apiPath.startsWith('/il/')) {
+        return new Response(JSON.stringify({ error: 'Only /fmr/ and /il/ endpoints are supported' }), {
             status: 400,
             headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
         });
