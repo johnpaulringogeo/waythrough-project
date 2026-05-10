@@ -237,14 +237,14 @@ function renderNav() {
         { href: `${root}es/recursos/index.html`, text: 'Recursos' },
         { href: `${root}es/recursos/donde-empezar.html`, text: 'Dónde Empezar' },
         { href: `${root}blog/index.html`, text: 'Blog' },
-        { href: `${root}videos/index.html`, text: 'Videos' },
+        { href: `${root}resources/quick-start-guides.html`, text: 'Guías Rápidas' },
         { href: `${root}es/recursos/preguntas-frecuentes.html`, text: 'Preguntas' },
         { href: `${root}es/index.html#about`, text: 'Acerca de' },
     ] : [
         { href: `${root}resources/index.html`, text: 'Resources' },
         { href: `${root}resources/where-to-start.html`, text: 'Where to Start' },
         { href: `${root}blog/index.html`, text: 'Blog' },
-        { href: `${root}videos/index.html`, text: 'Videos' },
+        { href: `${root}resources/quick-start-guides.html`, text: 'Quick Start Guides' },
         { href: `${root}resources/ask.html`, text: 'Ask a Question' },
         { href: `${root}index.html#about`, text: 'About' },
     ];

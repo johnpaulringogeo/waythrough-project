@@ -333,7 +333,13 @@
     "title": "Where to Start",
     "desc": "Not sure where to begin? Answer a few simple questions to find the affordable housing resources that fit your situation.",
     "url": "resources/where-to-start",
-    "keywords": "start sure begin answer few simple questions find affordable housing fit situation let quick reference where-to-start"
+    "keywords": "start sure begin answer few simple questions find affordable housing fit situation let wizard where-to-start"
+  },
+  {
+    "title": "Quick Start Guides",
+    "desc": "Quick-reference guides to the major affordable housing programs — Section 8, LIHTC, HUD-VASH, SSI/SSDI, recovery housing, and emergency rental assistance.",
+    "url": "resources/quick-start-guides",
+    "keywords": "quick start guides reference major programs section 8 lihtc hud-vash ssi ssdi recovery housing emergency rental assistance key guides overview"
   },
   {
     "title": "Housing for Youth & Young Adults (18–25)",
