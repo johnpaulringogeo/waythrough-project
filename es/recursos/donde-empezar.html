@@ -6,16 +6,16 @@
     <link rel="icon" type="image/png" href="../../images/favicon.png">
     <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
     <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
-    <title>Por Dónde Empezar — Waythrough Project</title>
-    <meta name="description" content="¿No estás seguro de dónde comenzar? Aquí está una guía simplificada de los principales programas de vivienda asequible para ayudarte a encontrar los recursos correctos.">
-    <meta property="og:title" content="Por Dónde Empezar — Waythrough Project">
-    <meta property="og:description" content="¿No estás seguro de dónde comenzar? Aquí está una guía simplificada de los principales programas de vivienda asequible para ayudarte a encontrar los recursos correctos.">
+    <title>Dónde Empezar — Ayuda con Vivienda Asequible — Waythrough Project</title>
+    <meta name="description" content="¿No sabes por dónde empezar con la vivienda asequible? Responde unas preguntas para encontrar Sección 8, HUD-VASH, vivienda pública y otros programas cerca de ti.">
+    <meta property="og:title" content="Dónde Empezar — Ayuda con Vivienda Asequible — Waythrough Project">
+    <meta property="og:description" content="¿No sabes por dónde empezar con la vivienda asequible? Responde unas preguntas para encontrar Sección 8, HUD-VASH, vivienda pública y otros programas cerca de ti.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://waythroughproject.com/es/recursos/donde-empezar">
     <meta property="og:site_name" content="Waythrough Project">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Por Dónde Empezar — Waythrough Project">
-    <meta name="twitter:description" content="¿No estás seguro de dónde comenzar? Aquí está una guía simplificada de los principales programas de vivienda asequible para ayudarte a encontrar los recursos correctos.">
+    <meta name="twitter:title" content="Dónde Empezar — Ayuda con Vivienda Asequible — Waythrough Project">
+    <meta name="twitter:description" content="¿No sabes por dónde empezar con la vivienda asequible? Responde unas preguntas para encontrar Sección 8, HUD-VASH, vivienda pública y otros programas cerca de ti.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href="https://waythroughproject.com/es/recursos/donde-empezar">
@@ -47,145 +47,2391 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Por Dónde Empezar"
+      "name": "Dónde Empezar"
     }
   ]
 }
     </script>
+
+    <style>
+        .wizard-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .wizard-hidden {
+            display: none;
+        }
+
+        .wizard-progress {
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: var(--color-border);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--color-primary);
+            border-radius: 2px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            font-weight: 500;
+        }
+
+        .wizard-intro {
+            text-align: center;
+            padding: 0 0 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .wizard-intro h2 {
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .wizard-intro p {
+            color: var(--color-text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .wizard-question {
+            animation: fadeIn 0.4s ease;
+            margin-bottom: 2rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .question-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .question-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+        }
+
+        .question-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .multi-select-note {
+            background: var(--color-bg-soft);
+            border-left: 3px solid var(--color-primary);
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            color: var(--color-text);
+        }
+
+        .answer-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .answer-button {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.25rem;
+            border: 2px solid var(--color-border);
+            background: var(--color-bg-card);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: left;
+            font-size: 1rem;
+            color: var(--color-text);
+            font-family: inherit;
+            font-weight: 500;
+        }
+
+        .answer-button:hover:not(:disabled) {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .answer-button:focus-visible {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .answer-button.selected {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+            color: var(--color-text);
+        }
+
+        .answer-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .answer-checkbox {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--color-border);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            transition: all 0.2s ease;
+            background: var(--color-bg-card);
+        }
+
+        .answer-button.selected .answer-checkbox {
+            background: var(--color-primary);
+            border-color: var(--color-primary);
+            color: white;
+        }
+
+        .answer-radio {
+            flex-shrink: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--color-border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            transition: all 0.2s ease;
+            background: var(--color-bg-card);
+        }
+
+        .answer-button.selected .answer-radio {
+            border-color: var(--color-primary);
+            background: var(--color-primary);
+        }
+
+        .answer-radio::after {
+            content: '';
+            display: none;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+        }
+
+        .answer-button.selected .answer-radio::after {
+            display: block;
+        }
+
+        .answer-text {
+            flex: 1;
+        }
+
+        .answer-label {
+            font-weight: 600;
+            color: var(--color-text);
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .answer-description {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        .wizard-nav {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary-outline, .btn-secondary {
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            border: 2px solid var(--color-border);
+            background: var(--color-bg-card);
+            color: var(--color-text);
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .btn-primary-outline:hover {
+            border-color: var(--color-primary);
+            background: var(--color-primary-light);
+        }
+
+        .btn-primary-outline:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .btn-primary-outline:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-start {
+            padding: 1rem 2rem;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: inherit;
+            align-self: center;
+        }
+
+        .btn-start:hover {
+            background: var(--color-primary-dark);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-start:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-secondary {
+            background: var(--color-bg-soft);
+            color: var(--color-text);
+            border-color: var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-border);
+            border-color: var(--color-primary);
+        }
+
+        .wizard-results {
+            animation: fadeIn 0.4s ease;
+        }
+
+        .results-intro {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: var(--color-bg-soft);
+            border-radius: var(--radius);
+        }
+
+        .results-intro h2 {
+            color: var(--color-text);
+            margin-bottom: 0.5rem;
+        }
+
+        .results-intro p {
+            color: var(--color-text-light);
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        .results-section {
+            margin-bottom: 3rem;
+        }
+
+        .results-section h3 {
+            color: var(--color-text);
+            margin-bottom: 1.5rem;
+            font-size: 1.25rem;
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 0.75rem;
+        }
+
+        .resource-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .resource-card {
+            padding: 1.5rem;
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+
+        .resource-card:hover {
+            border-color: var(--color-primary);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .resource-card h4 {
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+
+        .resource-card:hover h4 {
+            text-decoration: underline;
+        }
+
+        .resource-description {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+        }
+
+        .resource-meta {
+            font-size: 0.875rem;
+            color: var(--color-text-light);
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .no-results-message {
+            text-align: center;
+            padding: 2rem;
+            color: var(--color-text-light);
+        }
+
+        .btn-restart {
+            padding: 0.75rem 1.5rem;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s ease;
+            font-family: inherit;
+        }
+
+        .btn-restart:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-restart:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .results-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+            flex-wrap: wrap;
+        }
+
+        .results-actions button {
+            font-size: 1rem;
+            padding: 0.75rem 1.5rem;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+
+        @media (max-width: 640px) {
+            .wizard-container { padding: 1rem; }
+            .question-title { font-size: 1.25rem; }
+            .answer-button { padding: 1rem; gap: 0.75rem; }
+            .wizard-nav { flex-direction: column; }
+            .wizard-nav button { width: 100%; }
+            .results-intro { padding: 1.5rem; }
+            .results-actions { flex-direction: column; }
+            .results-actions button { width: 100%; }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .answer-button {
+                background: var(--color-bg-card);
+                border-color: var(--color-border);
+            }
+            .answer-button:hover:not(:disabled) { background: var(--color-primary-light); }
+            .answer-button.selected { background: var(--color-primary-light); }
+        }
+    </style>
 </head>
 <body>
     <main>
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../">Inicio</a><span class="sep">/</span><a href="./">Recursos</a><span class="sep">/</span><span class="current">Por Dónde Empezar</span></div></nav>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../">Inicio</a><span class="sep">/</span><a href="./">Recursos</a><span class="sep">/</span><span class="current">Dónde Empezar</span></div></nav>
         <header class="page-header">
             <div class="container">
-                <span class="section-label">Guía de Orientación</span>
-                <h1>¿No Sabes Por Dónde Empezar?</h1>
+                <span class="section-label">Para Empezar</span>
+                <h1>¿Dónde Empezar?</h1>
+                <p class="subtitle">¿No sabes qué recursos se ajustan a tu situación? Responde unas preguntas rápidas y te orientaremos hacia las guías y programas más relevantes para ti.</p>
             </div>
         </header>
+
         <div class="container">
-            <div class="post-content">
-                <p>
-                    La vivienda asequible no es un programa único. Hay docenas de programas diferentes, cada uno con sus propias reglas de elegibilidad, tiempos de espera, y procesos de solicitud. Esto puede ser abrumador. Esta página te ayuda a entender los programas principales y apunta a dónde encontrar más información.
-                </p>
+            <div class="post-content" style="margin: 0 auto;">
 
-                <h2>Los Principales Programas de Vivienda Asequible</h2>
+                <!-- Interactive Wizard -->
+                <div class="wizard-container" id="wizardContainer" role="main" aria-label="Buscador de recursos">
 
-                <h3>Sección 8 (Cupones de Vivienda)</h3>
-                <p>
-                    <strong>¿Qué es?</strong> Sección 8 es el programa de vivienda asequible más grande de EE.UU. El gobierno te da un cupón que reduces tu renta a aproximadamente el 30% de tu ingreso. Tú encuentra la vivienda; el gobierno paga la diferencia.
-                </p>
-                <p>
-                    <strong>¿Quién es elegible?</strong> Tu ingreso familiar debe estar en o por debajo del 50% del ingreso mediano del área. Algunos estados y ciudades tienen requisitos adicionales.
-                </p>
-                <p>
-                    <strong>¿Cuánto esperar?</strong> Los tiempos de espera varían enormemente — desde unos pocos meses a varios años. Algunas listas de espera están cerradas. Pero puedes solicitar a múltiples autoridades de vivienda pública para mejorar tus oportunidades.
-                </p>
-                <p>
-                    <strong>Aprende más:</strong> <a href="guias/como-solicitar-seccion-8">Cómo Solicitar Sección 8 (Paso a Paso)</a>
-                </p>
-
-                <h3>HUD-VASH (Programa de Asistencia de Vivienda para Veteranos)</h3>
-                <p>
-                    <strong>¿Qué es?</strong> HUD-VASH combina un cupón de vivienda con servicios de apoyo para veteranos que han experimentado falta de vivienda o que están en riesgo. Es una combinación de vivienda + apoyo de casos.
-                </p>
-                <p>
-                    <strong>¿Quién es elegible?</strong> Debes ser un veterano que ha servido en las fuerzas armadas estadounidenses. Típicamente debe tener una discapacidad de servicio relacionada o haber experimentado falta de vivienda.
-                </p>
-                <p>
-                    <strong>¿Cuánto esperar?</strong> Los tiempos de espera varían por ubicación, pero el programa tiende a tener tiempos de espera más cortos que Sección 8 regular porque hay menos solicitantes.
-                </p>
-
-                <h3>Vivienda Pública</h3>
-                <p>
-                    <strong>¿Qué es?</strong> Las autoridades locales de vivienda pública poseen y operan edificios de apartamentos que ofrecen vivienda de bajo costo. Pagas aproximadamente el 30% de tu ingreso como renta.
-                </p>
-                <p>
-                    <strong>¿Quién es elegible?</strong> Los requisitos de ingreso son similares a Sección 8 — típicamente en o por debajo del 50% del ingreso mediano.
-                </p>
-                <p>
-                    <strong>¿Cuánto esperar?</strong> Los tiempos de espera pueden ser muy largos, frecuentemente 2-5 años en áreas urbanas. Pero algunas autoridades tienen tiempos de espera más cortos.
-                </p>
-
-                <h3>LIHTC (Créditos Tributarios de Vivienda de Bajos Ingresos)</h3>
-                <p>
-                    <strong>¿Qué es?</strong> Los créditos tributarios incentivan a los desarrolladores privados a construir vivienda asequible. Tú alquilas un apartamento en una propiedad LIHTC y pagas menos de lo que cobrarían en el mercado.
-                </p>
-                <p>
-                    <strong>¿Quién es elegible?</strong> Los requisitos varían por propiedad, pero típicamente el ingreso debe estar entre 50-60% del ingreso mediano.
-                </p>
-                <p>
-                    <strong>¿Cuánto esperar?</strong> No hay una lista de espera central. Simplemente contactas las propiedades LIHTC en tu área y solicitas directamente como lo harías con cualquier alquiler privado.
-                </p>
-
-                <h3>Sección 202 y Sección 811 (Programas Especializados)</h3>
-                <p>
-                    <strong>¿Qué son?</strong> La Sección 202 es para personas mayores de 62 años. La Sección 811 es para personas adultas con discapacidades. Ambas proporcionan vivienda de bajo costo + servicios de apoyo.
-                </p>
-                <p>
-                    <strong>¿Quién es elegible?</strong> Sección 202: mayor de 62 años. Sección 811: persona adulta con discapacidad calificante. Ambos tienen requisitos de ingreso.
-                </p>
-                <p>
-                    <strong>¿Cuánto esperar?</strong> Los tiempos de espera pueden ser muy largos porque estas son la vivienda más integral y asequible disponible.
-                </p>
-
-                <h2>Determinando Tu Próximo Paso</h2>
-
-                <p>
-                    <strong>Si eres veterano:</strong> HUD-VASH es probablemente tu mejor opción. Proporciona tanto vivienda como apoyo de casos, y los tiempos de espera tienden a ser más cortos que Sección 8. Contacta a tu VA local o a una Organización de Servicios de Veteranos.
-                </p>
-
-                <p>
-                    <strong>Si tienes 62 años o más:</strong> Investiga propiedades de Sección 202 en tu área. Proporciona vivienda + servicios diseñados específicamente para personas mayores. Contacta el sitio web de HUD o agencias de envejecimiento locales para encontrar propiedades.
-                </p>
-
-                <p>
-                    <strong>Si tienes una discapacidad:</strong> Investiga Sección 811 si eres un adulto con discapacidad, o el programa de vivienda para personas discapacitadas de tu estado. Algunas propiedades LIHTC también se especializan en vivienda para personas con discapacidades.
-                </p>
-
-                <p>
-                    <strong>Si no calificas para un programa especializado:</strong> Sección 8 es tu mejor opción. A menudo tiene tiempos de espera más largos, pero es el programa más versátil y está disponible en casi todos lados. Puedes solicitar a múltiples autoridades de vivienda pública simultáneamente.
-                </p>
-
-                <h2>Tu Lista de Verificación de Primeros Pasos</h2>
-
-                <ol>
-                    <li><strong>Verifica tu elegibilidad de ingreso.</strong> Usa la <a href="https://www.huduser.gov/portal/datasets/il.html" target="_blank" rel="noopener">Herramienta de Límites de Ingreso de HUD</a> para ver si calificas (típicamente en o por debajo del 50% del ingreso mediano).</li>
-                    <li><strong>Reúne documentos clave.</strong> Consulta nuestra <a href="guias/lista-de-documentos">Lista de Documentos para Solicitudes de Vivienda</a> y comienza a reunir lo que necesitarás.</li>
-                    <li><strong>Busca programas abiertos.</strong> Visita <a href="https://www.hud.gov/program_offices/public_indian_housing/pha/contacts" target="_blank" rel="noopener">el Directorio de Contactos de AHP de HUD</a> y llama a las autoridades de vivienda locales para ver qué programas tienen listas de espera abiertas.</li>
-                    <li><strong>Solicita a múltiples programas.</strong> No limites a uno. Solicita a tantas autoridades de vivienda pública como puedas, más programas especializados si calificas.</li>
-                    <li><strong>Mantente conectado.</strong> Después de solicitar, verifica periódicamente tu estado. Actualiza tu información de contacto si te mudas o cambias de número de teléfono.</li>
-                </ol>
-
-                <h2>Si Necesitas Ayuda Ahora</h2>
-
-                <p>
-                    Si estás enfrentando falta de vivienda inminente o crisis de vivienda, no esperes por Sección 8 o un programa a largo plazo. Hay ayuda disponible ahora:
-                </p>
-                <ul>
-                    <li><strong>Llama al 211</strong> para conectarte con servicios de emergencia de vivienda, refugios, y recursos locales.</li>
-                    <li><strong>Contacta organizaciones sin fines de lucro de vivienda local.</strong> Muchas ofrecen asistencia de renta de emergencia o programas de prevención de desahucio.</li>
-                    <li><strong>Investiga vales de emergencia</strong> si tu estado o ciudad los ofrece — estos son cupones de Sección 8 de corta duración para ayudar en crisis.</li>
-                </ul>
-
-                <section class="related-resources">
-                    <h2>Recursos Relacionados</h2>
-                    <div class="related-list">
-                        <a href="./" class="related-item">
-                            <h3>Biblioteca Completa de Recursos</h3>
-                            <p>Explora guías, listas de verificación, y recursos sobre todos los temas de vivienda asequible.</p>
-                        </a>
-                        <a href="guias/como-solicitar-seccion-8" class="related-item">
-                            <h3>Cómo Solicitar Sección 8</h3>
-                            <p>Guía paso a paso para aplicar al programa Sección 8.</p>
-                        </a>
-                        <a href="guias/lista-de-documentos" class="related-item">
-                            <h3>Lista de Documentos</h3>
-                            <p>Todos los documentos que necesitarás para solicitudes de vivienda.</p>
-                        </a>
+                    <!-- Intro Screen -->
+                    <div id="wizardIntro" class="wizard-intro">
+                        <h2>Encontremos Tus Recursos</h2>
+                        <p>Navegar el sistema de vivienda asequible puede ser abrumador — hay docenas de programas, cada uno con sus propias reglas, requisitos de elegibilidad y procesos de solicitud. No deberías tener que resolverlo todo por tu cuenta.</p>
+                        <p>Te haremos unas pocas preguntas rápidas sobre tu situación — generalmente solo 3 o 4 — y luego te orientaremos hacia las guías, programas y próximos pasos más relevantes para ti. Ya sea que busques ayuda por primera vez, estés lidiando con una negación, o tratando de entender tus derechos, te ayudaremos a encontrar un punto de partida.</p>
+                        <p>Puedes omitir cualquier pregunta opcional, y siempre puedes empezar de nuevo si tu situación cambia.</p>
+                        <p style="font-size: 0.85rem; color: var(--color-text-light); margin-top: 0.5rem;">Tus respuestas permanecen en tu navegador y nunca se almacenan, recopilan ni envían a ningún lugar. Consulta nuestra <a href="../../privacy" style="color: var(--color-primary);">Política de Privacidad</a>.</p>
+                        <button class="btn-start" id="startBtn" aria-label="Encontrar mis recursos">Encontrar Mis Recursos</button>
                     </div>
-                </section>
+
+                    <!-- Dynamic Question Container -->
+                    <div id="questionsContainer" class="wizard-hidden">
+                        <div class="wizard-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                            </div>
+                            <div class="progress-text" id="progressText">Paso 1</div>
+                        </div>
+
+                        <div id="questionSlot" class="wizard-question" aria-live="polite"></div>
+
+                        <div class="wizard-nav">
+                            <button id="backBtn" class="btn-secondary" aria-label="Ir a la pregunta anterior" disabled>&larr; Atrás</button>
+                            <button id="skipBtn" class="btn-secondary" aria-label="Omitir esta pregunta">Omitir</button>
+                            <button id="nextBtn" class="btn-primary-outline" aria-label="Continuar a la siguiente pregunta">Continuar &rarr;</button>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div id="resultsContainer" class="wizard-results wizard-hidden">
+                        <div id="resultsContent"></div>
+                        <div class="results-actions">
+                            <button class="btn-restart" id="restartBtn">Empezar de Nuevo</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Static Fallback -->
+                <noscript>
+                    <h2>¿No sabes por dónde empezar?</h2>
+                    <p>El sistema de vivienda asequible es confuso, pero estamos aquí para ayudar. Aquí hay algunas formas de comenzar:</p>
+
+                    <h3>¿Cuál es tu necesidad más inmediata?</h3>
+
+                    <div class="callout">
+                        <h3>Necesito un lugar donde quedarme esta noche o muy pronto</h3>
+                        <p>Esto es urgente, y hay ayuda disponible.</p>
+                        <ul>
+                            <li>Llama al <strong>211</strong> desde cualquier teléfono (gratuito). Te conectarán con refugios de emergencia locales, vivienda temporal y ayuda inmediata.</li>
+                            <li>Si eres <strong>veterano</strong>, pregunta sobre <a href="guias/como-solicitar-hud-vash">HUD-VASH (vivienda y apoyo de manejo de casos)</a>.</li>
+                            <li>Si estás experimentando <strong>violencia doméstica</strong>, visita nuestra <a href="../../who-we-help/dv-survivors">página de apoyo para sobrevivientes de VD</a> para ayuda confidencial.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Estoy luchando para pagar la renta</h3>
+                        <p>No tienes que elegir entre la renta y otras necesidades.</p>
+                        <ul>
+                            <li><a href="guias/como-solicitar-seccion-8">Sección 8 (Cupones de Elección de Vivienda)</a> — limita tu renta al 30% de tu ingreso.</li>
+                            <li><a href="../../resources/guides/how-to-find-lihtc-housing">Apartamentos LIHTC (Crédito Tributario de Vivienda de Bajos Ingresos)</a> — edificios de alquiler asequible que no requieren un cupón.</li>
+                            <li><a href="beneficios">Verifica para qué beneficios calificas</a> — SSI, SNAP y otros programas pueden liberar dinero para la renta.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Estoy luchando para pagar mi hipoteca</h3>
+                        <p>La ejecución hipotecaria no es inevitable — hay programas y opciones diseñados específicamente para ayudar.</p>
+                        <ul>
+                            <li><a href="../../resources/guides/how-to-prevent-foreclosure">Cómo prevenir la ejecución hipotecaria</a> — modificación de préstamo, indulgencia y qué hacer en cada etapa.</li>
+                            <li><strong>Llama a un consejero de vivienda aprobado por HUD</strong> (800-569-4287) — ayuda gratuita y confidencial para negociar con tu prestamista.</li>
+                            <li><a href="../../resources/guides/budgeting-when-money-is-tight">Presupuesto cuando el dinero es escaso</a> — cómo manejar gastos durante una crisis financiera.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Estoy enfrentando un desalojo o recibí un aviso de mi arrendador</h3>
+                        <p>No entres en pánico — tienes derechos y opciones, incluso si ya recibiste un aviso.</p>
+                        <ul>
+                            <li><a href="../../resources/guides/how-to-avoid-eviction">Cómo evitar el desalojo</a> — qué hacer en cada etapa del proceso.</li>
+                            <li><a href="../../resources/guides/understanding-landlord-notices">Cómo entender los avisos del arrendador</a> — cumplir o desalojar, pagar o desalojar, y cómo responder.</li>
+                            <li><a href="derechos-del-inquilino">Conoce tus derechos como inquilino</a> — lo que tu arrendador puede y no puede hacer.</li>
+                            <li><a href="../../resources/guides/emergency-rental-assistance">Asistencia de renta de emergencia</a> — programas que ayudan a cubrir renta atrasada.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Acabo de perder mi trabajo</h3>
+                        <p>Perder tu trabajo es estresante, pero hay programas diseñados para ayudarte en este momento.</p>
+                        <ul>
+                            <li><a href="../../resources/guides/what-to-do-when-you-lose-your-job">Qué hacer cuando pierdes tu trabajo</a> — pasos inmediatos para ingresos, beneficios y vivienda.</li>
+                            <li><a href="guias/como-solicitar-snap">Solicitar SNAP (cupones de alimentos)</a> — asistencia alimentaria para la que podrías calificar de inmediato.</li>
+                            <li><a href="../../resources/guides/how-to-apply-for-medicaid">Solicitar Medicaid</a> — cobertura de salud después de perder el seguro del empleador.</li>
+                            <li><a href="../../resources/employment">Recursos de empleo y capacitación laboral</a> — ayuda para volver a ponerte de pie.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Quiero encontrar un apartamento asequible</h3>
+                        <p>Buen punto de partida. Exploremos tus opciones.</p>
+                        <ul>
+                            <li>Busca <a href="../../resources/guides/how-to-find-lihtc-housing">apartamentos LIHTC</a> en tu área.</li>
+                            <li>Lee nuestras <a href="preguntas-frecuentes">Preguntas Frecuentes</a> para familiarizarte con términos y preguntas comunes.</li>
+                            <li>Consulta nuestra <a href="guias/lista-de-documentos">lista de documentos</a> y la <a href="guias/como-solicitar-seccion-8">guía de solicitud de Sección 8</a>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Tengo un cupón pero tengo problemas para usarlo</h3>
+                        <p>Los problemas con cupones son comunes y generalmente tienen solución.</p>
+                        <ul>
+                            <li><a href="../../resources/guides/source-of-income-protections">Protecciones de fuente de ingreso</a> — en muchas áreas es ilegal rechazar cupones.</li>
+                            <li><a href="../../resources/guides/how-to-transfer-voucher">Guía de portabilidad</a> — si quieres mudarte a otro estado o área.</li>
+                            <li><a href="../../resources/guides/how-to-handle-recertification">¿Preguntas sobre recertificación?</a> Te guiamos paso a paso por el proceso anual.</li>
+                        </ul>
+                    </div>
+
+                    <div class="callout">
+                        <h3>Me están tratando injustamente o discriminando</h3>
+                        <p>Tienes protecciones legales. Así es como puedes usarlas.</p>
+                        <ul>
+                            <li><a href="../../resources/guides/how-to-file-housing-discrimination-complaint">Presentar una queja por discriminación de vivienda</a> — el proceso es gratuito y confidencial.</li>
+                            <li><a href="../../resources/guides/source-of-income-protections">Protecciones de fuente de ingreso</a> — si un arrendador rechazó tu cupón.</li>
+                            <li><a href="../../resources/guides/how-to-request-reasonable-accommodation">Adaptaciones razonables</a> — si una solicitud de adaptación por discapacidad fue denegada.</li>
+                            <li><a href="guias/como-apelar-negacion">Apelar una negación</a> — pasos para impugnar una decisión de vivienda injusta.</li>
+                        </ul>
+                    </div>
+
+                    <h3>Puntos de Partida Generales</h3>
+                    <ul>
+                        <li><strong>Llama al 211</strong> — disponible 24/7. Conocen los recursos locales y pueden conectarte con programas.</li>
+                        <li><a href="../../resources/guides/how-to-find-your-pha">Encuentra tu Autoridad de Vivienda Pública (PHA) local</a> — ellos administran Sección 8 y pueden orientarte hacia otros programas.</li>
+                        <li><a href="preguntas-frecuentes">Consulta las Preguntas Frecuentes</a> — preguntas comunes con respuestas sencillas.</li>
+                        <li><a href="../../resources/glossary">Consulta el glosario</a> — definiciones de términos que podrías encontrar.</li>
+                    </ul>
+                </noscript>
+
+                <!-- Quick Start link for users who prefer browsing -->
+                <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background: var(--color-bg-soft); border-radius: var(--radius);">
+                    <p style="margin: 0; color: var(--color-text-light);">¿Prefieres explorar por tu cuenta? Visita nuestra página de <a href="../../resources/quick-start-guides.html" style="color: var(--color-primary); font-weight: 600;">Guías</a> para un resumen de los principales programas y recursos clave.</p>
+                </div>
             </div>
         </div>
     </main>
+
+    <script>
+    (function() {
+        'use strict';
+
+        // =====================================================
+        // BRANCH DEFINITIONS
+        // =====================================================
+
+        const Q1 = {
+            id: 'urgent',
+            title: '¿Cuál es tu necesidad más urgente ahora mismo?',
+            required: true,
+            multi: false,
+            options: [
+                { value: 'stay-tonight', label: 'Necesito un lugar donde quedarme esta noche', desc: 'Necesidad de vivienda de emergencia o inmediata' },
+                { value: 'pay-rent', label: 'Estoy luchando para pagar la renta o mi hipoteca', desc: 'Ayuda con asequibilidad, beneficios y prevención de ejecución hipotecaria' },
+                { value: 'facing-eviction', label: 'Estoy enfrentando un desalojo o recibí un aviso de mi arrendador', desc: 'Defensa contra desalojo, avisos del arrendador y derechos del inquilino' },
+                { value: 'lost-job', label: 'Acabo de perder mi trabajo', desc: 'Desempleo, beneficios y cómo mantener tu vivienda' },
+                { value: 'find-apartment', label: 'Quiero encontrar un apartamento asequible', desc: 'Búsqueda de vivienda y ayuda con solicitudes' },
+                { value: 'voucher-issue', label: 'Tengo un cupón pero no encuentro un arrendador', desc: 'Uso de cupones y problemas con arrendadores' },
+                { value: 'discrimination', label: 'Me están tratando injustamente o discriminando', desc: 'Negación de vivienda, problemas con arrendadores o violación de derechos' },
+                { value: 'non-housing', label: 'Necesito ayuda con necesidades básicas no relacionadas con vivienda', desc: 'Alimentos, salud, ingresos o empleo' }
+            ]
+        };
+
+        const BRANCHES = {
+            'stay-tonight': [
+                {
+                    id: 'danger',
+                    title: '¿Tú o tu familia están en peligro inmediato?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'dv', label: 'Sí — violencia doméstica o abuso', desc: 'Hay ayuda confidencial disponible ahora mismo' },
+                        { value: 'danger-other', label: 'Sí — otra situación insegura', desc: 'Amenazas, condiciones inseguras u otro peligro' },
+                        { value: 'no-danger', label: 'No, solo necesito un lugar donde quedarme', desc: 'Refugio de emergencia o vivienda temporal' }
+                    ]
+                },
+                {
+                    id: 'who',
+                    title: '¿Cuáles de estas aplican a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'Programas de vivienda específicos para veteranos' },
+                        { value: 'children', label: 'Tengo hijos conmigo', desc: 'Opciones de refugio familiar' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Adaptaciones accesibles' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ],
+
+            'pay-rent': [
+                {
+                    id: 'housing-type',
+                    title: '¿Alquilas o eres dueño de tu vivienda?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'renter', label: 'Alquilo', desc: 'Apartamento, casa u otro alquiler' },
+                        { value: 'homeowner', label: 'Soy dueño/a (hipoteca)', desc: 'Luchando con pagos de hipoteca o enfrentando ejecución hipotecaria' },
+                        { value: 'homeowner-repair', label: 'Soy dueño/a pero necesita reparaciones importantes', desc: 'No puedo pagar el mantenimiento, condenada o volviéndose inhabitable' }
+                    ]
+                },
+                {
+                    id: 'urgency',
+                    title: '¿Qué tan urgente es tu situación?',
+                    required: true,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] !== 'homeowner-repair'; },
+                    options: [
+                        { value: 'behind', label: 'Ya estoy atrasado/a en los pagos', desc: 'He perdido uno o más pagos' },
+                        { value: 'next-month', label: 'Me preocupa el mes que viene', desc: 'Puedo pagar ahora pero se está volviendo más difícil' },
+                        { value: 'planning', label: 'Estoy tratando de planificar con anticipación', desc: 'Buscando ayuda con asequibilidad a largo plazo' }
+                    ]
+                },
+                {
+                    id: 'repair-stage',
+                    title: '¿Qué está pasando con tu vivienda?',
+                    required: true,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'homeowner-repair'; },
+                    options: [
+                        { value: 'needs-repairs', label: 'Necesita reparaciones que no puedo pagar', desc: 'Techo, plomería, calefacción, problemas estructurales, etc.' },
+                        { value: 'code-violations', label: 'He recibido violaciones de código', desc: 'La ciudad o el condado ha señalado problemas' },
+                        { value: 'condemned', label: 'Ha sido condenada o declarada inhabitable', desc: 'Puede que tenga que irme' }
+                    ]
+                },
+                {
+                    id: 'foreclosure-stage',
+                    title: '¿Has recibido algún aviso de tu prestamista?',
+                    required: false,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'homeowner'; },
+                    options: [
+                        { value: 'no-notice', label: 'No, todavía no', desc: 'Solo estoy luchando para hacer los pagos' },
+                        { value: 'missed-notice', label: 'Sí — un aviso de pago perdido o incumplimiento', desc: '' },
+                        { value: 'foreclosure-notice', label: 'Sí — un aviso de ejecución hipotecaria', desc: 'Procedimientos formales de ejecución hipotecaria' },
+                        { value: 'not-sure', label: 'No estoy seguro/a de lo que recibí', desc: '' }
+                    ]
+                },
+                {
+                    id: 'assistance',
+                    title: '¿Actualmente recibes alguna asistencia de vivienda?',
+                    required: false,
+                    multi: false,
+                    showIf: function(answers) { return answers['housing-type'] === 'renter'; },
+                    options: [
+                        { value: 'section-8', label: 'Sí — cupón de Sección 8', desc: '' },
+                        { value: 'public-housing', label: 'Sí — vivienda pública', desc: '' },
+                        { value: 'none', label: 'No', desc: '' },
+                        { value: 'not-sure', label: 'No estoy seguro/a', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'Beneficios del VA y programas de vivienda para veteranos' },
+                        { value: 'senior', label: 'Tengo 62 años o más', desc: 'Programas de vivienda y beneficios para personas mayores' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Vivienda accesible y adaptaciones' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                },
+                {
+                    id: 'help-type',
+                    title: '¿Qué te ayudaría más ahora mismo?',
+                    required: false,
+                    multi: true,
+                    showIf: function(answers) { return answers['housing-type'] !== 'homeowner-repair'; },
+                    options: [
+                        { value: 'pay-now', label: 'Ayuda para pagar ahora mismo', desc: 'Asistencia de emergencia para renta o hipoteca' },
+                        { value: 'lower-long-term', label: 'Reducir mis costos a largo plazo', desc: 'Cupones, vivienda asequible o modificación de préstamo' },
+                        { value: 'reduce-bills', label: 'Ayuda con otras cuentas', desc: 'Alimentos, servicios públicos, salud' },
+                        { value: 'budgeting', label: 'Presupuesto y ayuda financiera', desc: 'Aprovechar al máximo un ingreso limitado' }
+                    ]
+                }
+            ],
+
+            'facing-eviction': [
+                {
+                    id: 'stage',
+                    title: '¿En qué etapa estás?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'got-notice', label: 'Recibí un aviso de mi arrendador', desc: 'Aviso escrito para pagar, cumplir o desalojar' },
+                        { value: 'court', label: 'Tengo una fecha de corte programada', desc: 'Se ha presentado un caso de desalojo' },
+                        { value: 'worried', label: 'Me preocupa que pueda pasar pronto', desc: 'No he recibido nada todavía' }
+                    ]
+                },
+                {
+                    id: 'notice-type',
+                    title: '¿Qué tipo de aviso recibiste?',
+                    required: false,
+                    multi: false,
+                    showIf: function(answers) { return answers.stage === 'got-notice'; },
+                    options: [
+                        { value: 'pay-or-vacate', label: 'Pagar renta o desalojar', desc: 'Renta sin pagar' },
+                        { value: 'comply-or-vacate', label: 'Cumplir o desalojar', desc: 'Violación del contrato (mascotas, ruido, etc.)' },
+                        { value: 'terminate', label: 'Aviso de terminación de arrendamiento', desc: 'El arrendador quiere terminar el contrato' },
+                        { value: 'not-sure', label: 'No estoy seguro/a', desc: 'No entiendo el aviso' }
+                    ]
+                },
+                {
+                    id: 'legal-help',
+                    title: '¿Tienes alguna ayuda legal?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Sí, tengo un abogado o asistencia legal', desc: '' },
+                        { value: 'no-want', label: 'No, y me gustaría ayuda para encontrar uno', desc: '' },
+                        { value: 'no-unsure', label: 'No sé dónde buscar', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'Ayuda de vivienda específica para veteranos' },
+                        { value: 'senior', label: 'Tengo 62 años o más', desc: 'Programas de vivienda para personas mayores' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Vivienda accesible y adaptaciones' },
+                        { value: 'dv-survivor', label: 'Soy sobreviviente de violencia doméstica', desc: 'Protecciones de seguridad y derechos de vivienda' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ],
+
+            'lost-job': [
+                {
+                    id: 'when',
+                    title: '¿Hace cuánto perdiste tu trabajo?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'this-week', label: 'Esta semana', desc: '' },
+                        { value: 'past-month', label: 'Dentro del último mes', desc: '' },
+                        { value: 'over-month', label: 'Hace más de un mes', desc: '' }
+                    ]
+                },
+                {
+                    id: 'concern',
+                    title: '¿Cuál es tu mayor preocupación ahora mismo?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'rent', label: 'Pagar la renta', desc: 'Me preocupa perder mi vivienda' },
+                        { value: 'insurance', label: 'Seguro de salud', desc: 'Perdí la cobertura de mi empleador' },
+                        { value: 'new-job', label: 'Encontrar un nuevo trabajo', desc: 'Necesito ayuda con mi búsqueda de empleo' },
+                        { value: 'all', label: 'Todo lo anterior', desc: 'Necesito ayuda con todo' }
+                    ]
+                },
+                {
+                    id: 'unemployment',
+                    title: '¿Has solicitado beneficios de desempleo?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Sí', desc: '' },
+                        { value: 'no', label: 'No', desc: '' },
+                        { value: 'not-sure', label: 'No estoy seguro/a si califico', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'Beneficios del VA y vivienda para veteranos' },
+                        { value: 'senior', label: 'Tengo 62 años o más', desc: 'Programas y beneficios para personas mayores' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Beneficios por discapacidad y adaptaciones' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ],
+
+            'find-apartment': [
+                {
+                    id: 'current-housing',
+                    title: '¿Dónde estás viviendo ahora mismo?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'housed', label: 'Tengo vivienda pero necesito mudarme', desc: 'Contrato por terminar, mudanza, o necesito algo más asequible' },
+                        { value: 'staying-with', label: 'Me estoy quedando con amigos o familia', desc: 'Arreglo temporal' },
+                        { value: 'shelter', label: 'Estoy en un refugio', desc: '' },
+                        { value: 'unhoused', label: 'No tengo un lugar ahora mismo', desc: '' }
+                    ]
+                },
+                {
+                    id: 'applied-before',
+                    title: '¿Has solicitado asistencia de vivienda antes?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'have-voucher', label: 'Sí — tengo un cupón', desc: '' },
+                        { value: 'waiting', label: 'Sí — estoy en una lista de espera', desc: '' },
+                        { value: 'denied', label: 'Sí — fui denegado/a', desc: '' },
+                        { value: 'never', label: 'No, nunca', desc: '' }
+                    ]
+                },
+                {
+                    id: 'barriers',
+                    title: '¿Alguna de estas está dificultando tu búsqueda de vivienda?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'bad-credit', label: 'Mal crédito o historial de alquiler', desc: 'Desalojos, contratos rotos, puntuación de crédito baja' },
+                        { value: 'criminal-record', label: 'Antecedentes penales', desc: '' },
+                        { value: 'disability', label: 'Discapacidad o necesidades de accesibilidad', desc: '' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'HUD-VASH y programas de vivienda para veteranos' },
+                        { value: 'senior', label: 'Tengo 62 años o más', desc: 'Vivienda para personas mayores y preferencias' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Vivienda accesible y adaptaciones' },
+                        { value: 'recovery', label: 'Estoy en recuperación de uso de sustancias', desc: 'Vivienda de recuperación y protecciones' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ],
+
+            'voucher-issue': [
+                {
+                    id: 'problem',
+                    title: '¿Cuál es el problema principal?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'wont-accept', label: 'Los arrendadores no aceptan mi cupón', desc: 'Me rechazan por tener el cupón' },
+                        { value: 'cant-find', label: 'No encuentro una unidad dentro del límite de renta', desc: 'La renta justa de mercado es muy baja para el área' },
+                        { value: 'running-out', label: 'Se me está acabando el tiempo para usar mi cupón', desc: 'Se acerca la fecha límite de búsqueda' },
+                        { value: 'moving', label: 'Necesito mudarme a otra área', desc: 'Portabilidad o transferencia' }
+                    ]
+                },
+                {
+                    id: 'pha-contact',
+                    title: '¿Has hablado con tu Autoridad de Vivienda Pública sobre esto?',
+                    required: false,
+                    multi: false,
+                    options: [
+                        { value: 'yes', label: 'Sí', desc: '' },
+                        { value: 'no', label: 'No', desc: '' },
+                        { value: 'what-is-pha', label: 'No estoy seguro/a de qué es eso', desc: '' }
+                    ]
+                }
+            ],
+
+            'discrimination': [
+                {
+                    id: 'discrimination-type',
+                    title: '¿Qué tipo de trato injusto estás experimentando?',
+                    required: true,
+                    multi: false,
+                    options: [
+                        { value: 'voucher-rejected', label: 'Un arrendador rechazó mi cupón', desc: 'Discriminación por fuente de ingreso' },
+                        { value: 'denied-housing', label: 'Me negaron vivienda', desc: 'Solicitud denegada por razones poco claras o injustas' },
+                        { value: 'accommodation-denied', label: 'Mi solicitud de adaptación fue denegada', desc: 'Solicitud de discapacidad, animal de servicio o modificación' },
+                        { value: 'other-discrimination', label: 'Otro trato injusto por parte de un arrendador o programa de vivienda', desc: 'Acoso, represalias o trato diferenciado' }
+                    ]
+                },
+                {
+                    id: 'discrimination-basis',
+                    title: '¿Crees que el trato injusto es por alguna de estas razones?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'disability', label: 'Discapacidad', desc: '' },
+                        { value: 'race', label: 'Raza, color u origen nacional', desc: '' },
+                        { value: 'family', label: 'Estado familiar (tener hijos)', desc: '' },
+                        { value: 'voucher', label: 'Tener un cupón', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: '' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: '' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ],
+
+            'non-housing': [
+                {
+                    id: 'needs',
+                    title: '¿Con qué necesitas ayuda?',
+                    required: true,
+                    multi: true,
+                    options: [
+                        { value: 'food', label: 'Alimentos o comestibles', desc: 'SNAP, bancos de alimentos, WIC' },
+                        { value: 'healthcare', label: 'Salud o seguro médico', desc: 'Medicaid, recetas, salud mental' },
+                        { value: 'employment', label: 'Empleo o capacitación laboral', desc: 'Encontrar trabajo, desarrollar habilidades' },
+                        { value: 'debt', label: 'Deudas o problemas financieros', desc: 'Facturas médicas, cobros, presupuesto' }
+                    ]
+                },
+                {
+                    id: 'current-benefits',
+                    title: '¿Actualmente recibes alguno de estos?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'snap', label: 'SNAP (cupones de alimentos)', desc: '' },
+                        { value: 'medicaid', label: 'Medicaid', desc: '' },
+                        { value: 'ssi', label: 'SSI o SSDI', desc: '' },
+                        { value: 'none', label: 'Ninguno de estos', desc: '' }
+                    ]
+                },
+                {
+                    id: 'about-you',
+                    title: '¿Alguna de estas aplica a tu situación?',
+                    required: false,
+                    multi: true,
+                    options: [
+                        { value: 'veteran', label: 'Soy veterano/a', desc: 'Atención médica del VA y otros beneficios' },
+                        { value: 'senior', label: 'Tengo 62 años o más', desc: 'Beneficios específicos para personas mayores' },
+                        { value: 'disability', label: 'Tengo una discapacidad', desc: 'Beneficios por discapacidad' },
+                        { value: 'none', label: 'Ninguna de estas', desc: '' }
+                    ]
+                }
+            ]
+        };
+
+        const SCOPE_QUESTION = {
+            id: 'scope',
+            title: '¿Cómo te gustaría ver tus resultados?',
+            required: true,
+            multi: false,
+            options: [
+                { value: 'focused', label: 'Solo los próximos pasos más importantes', desc: 'Una lista corta y enfocada de qué hacer ahora mismo' },
+                { value: 'comprehensive', label: 'Todo lo que pueda aplicar a mi situación', desc: 'Un panorama más completo incluyendo programas y recursos adicionales' }
+            ]
+        };
+
+        // =====================================================
+        // WIZARD STATE
+        // =====================================================
+
+        var state = {
+            branch: null,
+            questionIndex: -1,
+            answers: {},
+            history: []
+        };
+
+        function getCurrentFlow() {
+            if (!state.branch) return [];
+            var branchQs = BRANCHES[state.branch] || [];
+            var filtered = branchQs.filter(function(q) {
+                if (q.showIf && !q.showIf(state.answers)) return false;
+                return true;
+            });
+            return filtered;
+        }
+
+        function getTotalSteps() {
+            var scopeStep = state.branch === 'stay-tonight' ? 0 : 1;
+            return 1 + getCurrentFlow().length + scopeStep;
+        }
+
+        function getCurrentStepNumber() {
+            if (state.questionIndex === -1) return 1;
+            var branchQs = BRANCHES[state.branch] || [];
+            var visibleCount = 0;
+            var currentBranchQ = getCurrentQuestionDef();
+            for (var i = 0; i < branchQs.length; i++) {
+                var q = branchQs[i];
+                if (q.showIf && !q.showIf(state.answers)) continue;
+                visibleCount++;
+                if (q === currentBranchQ) break;
+            }
+            if (state.questionIndex === 'scope') return 1 + getCurrentFlow().length + 1;
+            return 1 + visibleCount;
+        }
+
+        function getCurrentQuestionDef() {
+            if (state.questionIndex === -1) return Q1;
+            if (state.questionIndex === 'scope') return SCOPE_QUESTION;
+            var flow = getCurrentFlow();
+            if (state.questionIndex < flow.length) return flow[state.questionIndex];
+            return SCOPE_QUESTION;
+        }
+
+        // =====================================================
+        // DOM ELEMENTS
+        // =====================================================
+
+        var startBtn = document.getElementById('startBtn');
+        var wizardIntro = document.getElementById('wizardIntro');
+        var questionsContainer = document.getElementById('questionsContainer');
+        var resultsContainer = document.getElementById('resultsContainer');
+        var questionSlot = document.getElementById('questionSlot');
+        var backBtn = document.getElementById('backBtn');
+        var skipBtn = document.getElementById('skipBtn');
+        var nextBtn = document.getElementById('nextBtn');
+        var restartBtn = document.getElementById('restartBtn');
+        var progressFill = document.getElementById('progressFill');
+        var progressText = document.getElementById('progressText');
+        var resultsContent = document.getElementById('resultsContent');
+
+        // =====================================================
+        // RENDERING
+        // =====================================================
+
+        function renderQuestion(qDef) {
+            var html = '<h2 class="question-title" tabindex="-1">' + qDef.title + '</h2>';
+
+            html += '<div class="question-meta">';
+            if (qDef.required) {
+                html += '<span>Pregunta requerida</span>';
+            } else {
+                html += '<span>Opcional — omite si no aplica</span>';
+            }
+            html += '</div>';
+
+            if (qDef.multi) {
+                html += '<div class="multi-select-note">Selecciona todas las que apliquen</div>';
+            }
+
+            html += '<div class="answer-options">';
+            qDef.options.forEach(function(opt) {
+                var indicator = qDef.multi
+                    ? '<div class="answer-checkbox"></div>'
+                    : '<div class="answer-radio"></div>';
+
+                var descHtml = opt.desc
+                    ? '<span class="answer-description">' + opt.desc + '</span>'
+                    : '';
+
+                html += '<button class="answer-button" data-value="' + opt.value + '" aria-pressed="false">'
+                    + indicator
+                    + '<div class="answer-text">'
+                    + '<span class="answer-label">' + opt.label + '</span>'
+                    + descHtml
+                    + '</div></button>';
+            });
+            html += '</div>';
+
+            questionSlot.innerHTML = html;
+
+            var currentAnswer = state.answers[qDef.id];
+            if (currentAnswer) {
+                var buttons = questionSlot.querySelectorAll('.answer-button');
+                buttons.forEach(function(btn) {
+                    var val = btn.dataset.value;
+                    if (qDef.multi && Array.isArray(currentAnswer) && currentAnswer.indexOf(val) !== -1) {
+                        btn.classList.add('selected');
+                        btn.setAttribute('aria-pressed', 'true');
+                    } else if (!qDef.multi && currentAnswer === val) {
+                        btn.classList.add('selected');
+                        btn.setAttribute('aria-pressed', 'true');
+                    }
+                });
+            }
+
+            var buttons = questionSlot.querySelectorAll('.answer-button');
+            buttons.forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    handleAnswer(qDef, btn, buttons);
+                });
+            });
+
+            backBtn.disabled = state.history.length === 0;
+            if (qDef.multi) {
+                nextBtn.style.display = '';
+                skipBtn.style.display = qDef.required ? 'none' : '';
+                skipBtn.disabled = qDef.required;
+            } else {
+                nextBtn.style.display = 'none';
+                skipBtn.style.display = 'none';
+            }
+
+            var total = getTotalSteps();
+            var current = getCurrentStepNumber();
+            var pct = (current / total) * 100;
+            progressFill.style.width = pct + '%';
+            progressText.textContent = 'Paso ' + current + ' de ' + total;
+
+            questionsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            var titleEl = questionSlot.querySelector('.question-title');
+            if (titleEl) titleEl.focus();
+        }
+
+        function handleAnswer(qDef, clickedBtn, allButtons) {
+            var value = clickedBtn.dataset.value;
+
+            if (qDef.multi) {
+                clickedBtn.classList.toggle('selected');
+                clickedBtn.setAttribute('aria-pressed', clickedBtn.classList.contains('selected'));
+
+                if (!state.answers[qDef.id]) state.answers[qDef.id] = [];
+
+                if (clickedBtn.classList.contains('selected')) {
+                    if (state.answers[qDef.id].indexOf(value) === -1) {
+                        state.answers[qDef.id].push(value);
+                    }
+                    if (value === 'none') {
+                        allButtons.forEach(function(b) {
+                            if (b !== clickedBtn) {
+                                b.classList.remove('selected');
+                                b.setAttribute('aria-pressed', 'false');
+                            }
+                        });
+                        state.answers[qDef.id] = ['none'];
+                    } else {
+                        allButtons.forEach(function(b) {
+                            if (b.dataset.value === 'none') {
+                                b.classList.remove('selected');
+                                b.setAttribute('aria-pressed', 'false');
+                            }
+                        });
+                        state.answers[qDef.id] = state.answers[qDef.id].filter(function(v) { return v !== 'none'; });
+                    }
+                } else {
+                    state.answers[qDef.id] = state.answers[qDef.id].filter(function(v) { return v !== value; });
+                }
+            } else {
+                allButtons.forEach(function(b) {
+                    b.classList.remove('selected');
+                    b.setAttribute('aria-pressed', 'false');
+                });
+                clickedBtn.classList.add('selected');
+                clickedBtn.setAttribute('aria-pressed', 'true');
+                state.answers[qDef.id] = value;
+
+                setTimeout(function() { advance(); }, 250);
+            }
+        }
+
+        // =====================================================
+        // NAVIGATION
+        // =====================================================
+
+        function startWizard() {
+            wizardIntro.classList.add('wizard-hidden');
+            questionsContainer.classList.remove('wizard-hidden');
+            state.questionIndex = -1;
+            state.answers = {};
+            state.branch = null;
+            state.history = [];
+            renderQuestion(Q1);
+        }
+
+        function advance() {
+            var qDef = getCurrentQuestionDef();
+
+            if (qDef.required) {
+                var answer = state.answers[qDef.id];
+                if (!answer || (Array.isArray(answer) && answer.length === 0)) {
+                    var opts = questionSlot.querySelector('.answer-options');
+                    opts.style.outline = '2px solid #ef4444';
+                    opts.style.outlineOffset = '4px';
+                    opts.style.borderRadius = '8px';
+                    setTimeout(function() {
+                        opts.style.outline = '';
+                        opts.style.outlineOffset = '';
+                    }, 2000);
+                    return;
+                }
+            }
+
+            state.history.push(state.questionIndex);
+
+            if (state.questionIndex === -1) {
+                var newBranch = state.answers[Q1.id];
+                if (newBranch !== state.branch) {
+                    var q1Answer = state.answers[Q1.id];
+                    state.answers = {};
+                    state.answers[Q1.id] = q1Answer;
+                }
+                state.branch = newBranch;
+                state.questionIndex = 0;
+            } else if (state.questionIndex === 'scope') {
+                showResults();
+                return;
+            } else {
+                state.questionIndex++;
+            }
+
+            var flow = getCurrentFlow();
+            if (state.questionIndex !== 'scope' && state.questionIndex >= flow.length) {
+                if (state.branch === 'stay-tonight') {
+                    state.answers.scope = 'comprehensive';
+                    showResults();
+                    return;
+                }
+                state.questionIndex = 'scope';
+            }
+
+            renderQuestion(getCurrentQuestionDef());
+        }
+
+        function goBack() {
+            if (state.history.length === 0) return;
+            state.questionIndex = state.history.pop();
+
+            if (state.questionIndex === -1) {
+                state.branch = null;
+            }
+
+            renderQuestion(getCurrentQuestionDef());
+        }
+
+        function showResults() {
+            questionsContainer.classList.add('wizard-hidden');
+            resultsContainer.classList.remove('wizard-hidden');
+            generateResults();
+        }
+
+        function restartWizard() {
+            resultsContainer.classList.add('wizard-hidden');
+            wizardIntro.classList.remove('wizard-hidden');
+            state = { branch: null, questionIndex: -1, answers: {}, history: [] };
+        }
+
+        startBtn.addEventListener('click', startWizard);
+        nextBtn.addEventListener('click', advance);
+        skipBtn.addEventListener('click', function() {
+            var qDef = getCurrentQuestionDef();
+            delete state.answers[qDef.id];
+            advance();
+        });
+        backBtn.addEventListener('click', goBack);
+        restartBtn.addEventListener('click', restartWizard);
+
+        document.addEventListener('keydown', function(e) {
+            if (!questionsContainer.classList.contains('wizard-hidden')) {
+                if (e.key === 'Enter' && e.target.classList.contains('answer-button')) {
+                    e.target.click();
+                }
+            }
+        });
+
+        // =====================================================
+        // RESULTS GENERATION
+        // =====================================================
+
+        function generateResults() {
+            var resources = determineResources();
+            var scope = state.answers.scope || 'focused';
+            var html = '';
+
+            html += '<div class="results-intro">';
+            html += '<h2>Tus Recursos Personalizados</h2>';
+            html += '<p>Según tus respuestas, estos son los recursos más relevantes para tu situación.</p>';
+            html += '</div>';
+
+            if (resources.focused.length > 0) {
+                html += generateSection(scope === 'focused' ? 'Tus Próximos Pasos' : 'Empieza Aquí', resources.focused);
+            }
+
+            if (scope === 'comprehensive' && resources.additional.length > 0) {
+                html += generateSection('Recursos Adicionales', resources.additional);
+            }
+
+            if (resources.focused.length === 0 && resources.additional.length === 0) {
+                html += '<div class="no-results-message"><p>No pudimos determinar recursos específicos a partir de tus respuestas. Intenta empezar de nuevo, o explora nuestra <a href="./">biblioteca completa de recursos</a>.</p></div>';
+            }
+
+            resultsContent.innerHTML = html;
+            resultsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function generateSection(title, items) {
+            var html = '<div class="results-section"><h3>' + title + '</h3><div class="resource-list">';
+            items.forEach(function(item) {
+                if (item.link) {
+                    html += '<a href="' + item.link + '" class="resource-card">';
+                } else {
+                    html += '<div class="resource-card">';
+                }
+                html += '<h4>' + item.title + '</h4>';
+                html += '<p class="resource-description">' + item.description + '</p>';
+                if (item.meta) {
+                    html += '<div class="resource-meta"><span>' + item.meta + '</span></div>';
+                }
+                html += item.link ? '</a>' : '</div>';
+            });
+            html += '</div></div>';
+            return html;
+        }
+
+        function determineResources() {
+            var focused = [];
+            var additional = [];
+            var branch = state.branch;
+            var a = state.answers;
+
+            // ---- STAY TONIGHT ----
+            if (branch === 'stay-tonight') {
+                focused.push({
+                    title: 'Llama al 211 para Vivienda de Emergencia',
+                    description: 'Disponible 24/7, gratuito. Te conectarán con los refugios de emergencia más cercanos y ayuda inmediata en tu área.',
+                    meta: 'Emergencia • Inmediato'
+                });
+
+                focused.push({
+                    title: 'Recursos de Vivienda de Emergencia',
+                    link: 'vivienda-de-emergencia.html',
+                    description: 'Refugios de emergencia, qué esperar, líneas de crisis y próximos pasos inmediatos.',
+                    meta: 'Emergencia • Empieza Aquí'
+                });
+
+                if (a.danger === 'dv') {
+                    focused.push({
+                        title: 'Apoyo para Sobrevivientes de Violencia Doméstica',
+                        link: '../../who-we-help/dv-survivors.html',
+                        description: 'Refugio de emergencia confidencial, planificación de seguridad y defensa legal. No tienes que volver.',
+                        meta: 'Seguridad • Confidencial'
+                    });
+                }
+
+                var who = a.who || [];
+                if (who.indexOf('veteran') !== -1) {
+                    focused.push({
+                        title: 'Línea de Crisis para Veteranos',
+                        description: 'Llama al 988 y presiona 1, o envía un mensaje de texto al 838255. Disponible 24/7. También pueden conectarte con servicios de vivienda de emergencia del VA.',
+                        meta: 'Veteranos • Crisis • 24/7'
+                    });
+                    focused.push({
+                        title: 'HUD-VASH para Veteranos',
+                        link: 'guias/como-solicitar-hud-vash.html',
+                        description: 'Reubicación rápida con manejo de casos del VA específicamente para veteranos sin vivienda.',
+                        meta: 'Veteranos • Vivienda'
+                    });
+                    focused.push({
+                        title: 'SSVF — Servicios de Apoyo para Familias de Veteranos',
+                        description: 'Un programa del VA que proporciona reubicación rápida, fondos para refugio de emergencia y manejo de casos para veteranos en crisis. Llama al 877-424-3838.',
+                        meta: 'Veteranos • Emergencia'
+                    });
+                }
+
+                if (who.indexOf('children') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Familias',
+                        link: '../../resources/families.html',
+                        description: 'Refugios y programas de vivienda que mantienen a las familias unidas.',
+                        meta: 'Familias'
+                    });
+                }
+
+                if (who.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Recursos para Personas con Discapacidades',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Opciones de vivienda accesible y tus derechos.',
+                        meta: 'Discapacidades'
+                    });
+                }
+
+                additional.push({
+                    title: 'Cupones de Elección de Vivienda Sección 8',
+                    link: 'guias/como-solicitar-seccion-8.html',
+                    description: 'Asistencia de alquiler a largo plazo — comienza la solicitud incluso mientras estés en un refugio.',
+                    meta: 'Largo plazo'
+                });
+
+                additional.push({
+                    title: 'Beneficios y Apoyo de Ingresos',
+                    link: 'beneficios.html',
+                    description: 'SNAP, SSI, Medicaid y otros programas para los que podrías calificar.',
+                    meta: 'Beneficios'
+                });
+            }
+
+            // ---- PAY RENT ----
+            if (branch === 'pay-rent') {
+                var isHomeowner = a['housing-type'] === 'homeowner';
+                var isRepair = a['housing-type'] === 'homeowner-repair';
+
+                if (isRepair) {
+                    focused.push({
+                        title: 'Asistencia para Reparaciones del Hogar',
+                        link: '../../resources/guides/home-repair-assistance.html',
+                        description: 'Programas federales, estatales y sin fines de lucro que ayudan a propietarios de bajos ingresos a pagar reparaciones — muchos son subvenciones gratuitas.',
+                        meta: 'Guía • Empieza Aquí'
+                    });
+
+                    if (a['repair-stage'] === 'condemned') {
+                        focused.push({
+                            title: 'Recursos de Vivienda de Emergencia',
+                            link: 'vivienda-de-emergencia.html',
+                            description: 'Si tu hogar es inhabitable y necesitas un lugar donde quedarte mientras se hacen las reparaciones.',
+                            meta: 'Emergencia'
+                        });
+                        additional.push({
+                            title: 'Cupones de Elección de Vivienda Sección 8',
+                            link: 'guias/como-solicitar-seccion-8.html',
+                            description: 'Si necesitas cambiar a alquiler mientras se resuelve la situación de tu hogar.',
+                            meta: 'Vivienda'
+                        });
+                    }
+
+                    if (a['repair-stage'] === 'code-violations') {
+                        focused.push({
+                            title: 'Actúa Antes de la Condena',
+                            description: 'Contacta al 211 y a tu Agencia de Acción Comunitaria inmediatamente — pueden acelerar la asistencia de reparación de emergencia cuando hay violaciones de código involucradas.',
+                            meta: 'Urgente'
+                        });
+                    }
+
+                    focused.push({
+                        title: 'Llama al 211 para Ayuda Local',
+                        description: 'Mantienen una base de datos de programas locales de reparación del hogar, incluyendo programas de emergencia que pueden no ser ampliamente conocidos.',
+                        meta: 'Primer Paso'
+                    });
+
+                    if (a['repair-stage'] === 'condemned' || a['repair-stage'] === 'code-violations') {
+                        additional.push({
+                            title: 'Cómo Prevenir la Ejecución Hipotecaria',
+                            link: '../../resources/guides/how-to-prevent-foreclosure.html',
+                            description: 'Si los costos de reparación amenazan tu hipoteca, explora tus opciones temprano.',
+                            meta: 'Hipoteca'
+                        });
+                    }
+
+                    additional.push({
+                        title: 'Solicitar SNAP (Cupones de Alimentos)',
+                        link: 'guias/como-solicitar-snap.html',
+                        description: 'Reduce tu gasto en comestibles para que más dinero pueda ir a reparaciones.',
+                        meta: 'Beneficios'
+                    });
+                    additional.push({
+                        title: 'Solicitar Medicaid',
+                        link: '../../resources/guides/how-to-apply-for-medicaid.html',
+                        description: 'Cobertura de salud gratuita puede liberar dinero para reparaciones del hogar.',
+                        meta: 'Beneficios'
+                    });
+                }
+
+                if (isHomeowner) {
+                    focused.push({
+                        title: 'Cómo Prevenir la Ejecución Hipotecaria',
+                        link: '../../resources/guides/how-to-prevent-foreclosure.html',
+                        description: 'Guía paso a paso — consejeros de HUD, modificación de préstamo, indulgencia y qué hacer en cada etapa.',
+                        meta: 'Ejecución Hipotecaria • Guía'
+                    });
+
+                    if (a.urgency === 'behind' || a['foreclosure-stage'] === 'missed-notice' || a['foreclosure-stage'] === 'foreclosure-notice') {
+                        focused.push({
+                            title: 'Contacta a un Consejero de Vivienda Aprobado por HUD',
+                            description: 'Ayuda gratuita y confidencial de un consejero certificado que puede negociar con tu prestamista en tu nombre. Llama al 800-569-4287 o visita hud.gov/counseling.',
+                            meta: 'Gratuito • Inmediato'
+                        });
+                    }
+
+                    if (a['foreclosure-stage'] === 'foreclosure-notice') {
+                        focused.push({
+                            title: 'Conoce Tus Derechos Legales',
+                            description: 'La ejecución hipotecaria tiene requisitos legales estrictos. Tu prestamista debe cumplirlos. Un consejero de vivienda o abogado de asistencia legal puede decirte si los ha cumplido.',
+                            meta: 'Legal • Urgente'
+                        });
+                    }
+
+                    if (a.urgency === 'next-month' || a.urgency === 'planning') {
+                        focused.push({
+                            title: 'Habla con Tu Prestamista Temprano',
+                            description: 'Los prestamistas tienen departamentos de mitigación de pérdidas específicamente para esto. Contáctalos antes de perder un pago — tus opciones son mucho mejores.',
+                            meta: 'Prevención'
+                        });
+                    }
+                }
+
+                if (!isHomeowner && !isRepair) {
+                    if (a.urgency === 'behind') {
+                        focused.push({
+                            title: 'Asistencia de Renta de Emergencia',
+                            link: '../../resources/guides/emergency-rental-assistance.html',
+                            description: 'Programas que pueden pagar directamente a tu arrendador la renta atrasada y servicios públicos. Solicita lo antes posible.',
+                            meta: 'Urgente • Financiero'
+                        });
+                        focused.push({
+                            title: 'Cómo Evitar el Desalojo',
+                            link: '../../resources/guides/how-to-avoid-eviction.html',
+                            description: 'Si estás atrasado/a en la renta, así es como puedes protegerte antes de que tu arrendador tome acción.',
+                            meta: 'Prevención'
+                        });
+                    }
+
+                    if (a.urgency === 'next-month' || a.urgency === 'planning') {
+                        focused.push({
+                            title: 'Cupones de Elección de Vivienda Sección 8',
+                            link: 'guias/como-solicitar-seccion-8.html',
+                            description: 'Limita tu renta al 30% de tu ingreso. Las listas de espera varían, así que solicita temprano.',
+                            meta: 'Largo plazo • Asequibilidad'
+                        });
+                    }
+
+                    if (a.assistance === 'section-8') {
+                        focused.push({
+                            title: 'Manejar la Recertificación',
+                            link: '../../resources/guides/how-to-handle-recertification.html',
+                            description: 'Si tu ingreso cambió, solicita una recertificación provisional para reducir tu porción de renta.',
+                            meta: 'Cupón • Importante'
+                        });
+                    } else if (a.assistance === 'none' || a.assistance === 'not-sure') {
+                        focused.push({
+                            title: 'Encuentra Tu Autoridad de Vivienda Pública',
+                            link: '../../resources/guides/how-to-find-your-pha.html',
+                            description: 'Tu PHA administra Sección 8 y puede conectarte con programas locales.',
+                            meta: 'Primer Paso'
+                        });
+                    }
+                }
+
+                var helpType = a['help-type'] || [];
+                if (helpType.indexOf('pay-now') !== -1 && a.urgency !== 'behind') {
+                    if (!isHomeowner && !isRepair) {
+                        additional.push({
+                            title: 'Asistencia de Renta de Emergencia',
+                            link: '../../resources/guides/emergency-rental-assistance.html',
+                            description: 'Programas que ayudan a cubrir renta y servicios públicos.',
+                            meta: 'Financiero'
+                        });
+                    }
+                }
+
+                if (helpType.indexOf('reduce-bills') !== -1) {
+                    additional.push({
+                        title: 'Solicitar SNAP (Cupones de Alimentos)',
+                        link: 'guias/como-solicitar-snap.html',
+                        description: 'Reduce tu gasto en comestibles para que más dinero vaya a vivienda.',
+                        meta: 'Beneficios'
+                    });
+                    additional.push({
+                        title: 'Solicitar Medicaid',
+                        link: '../../resources/guides/how-to-apply-for-medicaid.html',
+                        description: 'Cobertura de salud gratuita puede eliminar un gasto importante.',
+                        meta: 'Beneficios'
+                    });
+                }
+
+                if (helpType.indexOf('budgeting') !== -1) {
+                    additional.push({
+                        title: 'Presupuesto Cuando el Dinero es Escaso',
+                        link: '../../resources/guides/budgeting-when-money-is-tight.html',
+                        description: 'Estrategias prácticas para manejar costos de vivienda y gastos de vida.',
+                        meta: 'Finanzas'
+                    });
+                    additional.push({
+                        title: 'Salir de las Deudas',
+                        link: '../../resources/guides/getting-out-of-debt.html',
+                        description: 'Manejo de facturas médicas, cobros y deudas cuando el ingreso es bajo.',
+                        meta: 'Finanzas'
+                    });
+                }
+
+                if (helpType.indexOf('lower-long-term') !== -1) {
+                    if (isHomeowner || isRepair) {
+                        additional.push({
+                            title: 'Cómo Prevenir la Ejecución Hipotecaria',
+                            link: '../../resources/guides/how-to-prevent-foreclosure.html',
+                            description: 'Modificación de préstamo, refinanciamiento y otras opciones a largo plazo.',
+                            meta: 'Hipoteca'
+                        });
+                    } else {
+                        additional.push({
+                            title: 'Encontrar Vivienda Asequible LIHTC',
+                            link: '../../resources/guides/how-to-find-lihtc-housing.html',
+                            description: 'Apartamentos por debajo del mercado que no requieren un cupón.',
+                            meta: 'Vivienda'
+                        });
+                    }
+                }
+
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    focused.push({
+                        title: 'Beneficios del VA para Veteranos',
+                        link: '../../resources/guides/va-benefits.html',
+                        description: 'Compensación por discapacidad del VA, pensión del VA, atención médica y Ayuda y Asistencia — beneficios que quizás no sabías que calificas.',
+                        meta: 'Veteranos • Beneficios'
+                    });
+                    if (isRepair) {
+                        additional.push({
+                            title: 'Subvenciones de Vivienda Adaptada del VA',
+                            description: 'Los veteranos con discapacidades conectadas al servicio pueden calificar para subvenciones de hasta $110,000 para modificaciones del hogar. Llama al 877-827-3702.',
+                            meta: 'Veteranos • Vivienda'
+                        });
+                    }
+                    additional.push({
+                        title: 'HUD-VASH para Veteranos',
+                        link: 'guias/como-solicitar-hud-vash.html',
+                        description: 'Cupón de vivienda con manejo de casos del VA para veteranos en riesgo de quedarse sin hogar.',
+                        meta: 'Veteranos • Vivienda'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    focused.push({
+                        title: 'Recursos de Vivienda para Personas Mayores',
+                        link: '../../who-we-help/seniors.html',
+                        description: 'Sección 202, preferencias para personas mayores, modificaciones para envejecer en casa, alivio de impuestos a la propiedad y Agencias de Área sobre el Envejecimiento.',
+                        meta: 'Personas Mayores • Programas'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Personas con Discapacidades',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Sección 811, adaptaciones razonables, opciones de vivienda accesible y tus derechos legales.',
+                        meta: 'Discapacidades • Derechos'
+                    });
+                }
+
+                additional.push({
+                    title: 'Beneficios y Apoyo de Ingresos',
+                    link: 'beneficios.html',
+                    description: 'Consulta todos los programas de asistencia para los que podrías calificar.',
+                    meta: 'Beneficios'
+                });
+            }
+
+            // ---- FACING EVICTION ----
+            if (branch === 'facing-eviction') {
+                if (a.stage === 'got-notice') {
+                    focused.push({
+                        title: 'Cómo Entender los Avisos del Arrendador',
+                        link: '../../resources/guides/understanding-landlord-notices.html',
+                        description: 'Qué significa tu aviso, cómo responder y cuáles son tus plazos — explicado en lenguaje sencillo.',
+                        meta: 'Avisos • Urgente'
+                    });
+
+                    if (a['notice-type'] === 'pay-or-vacate') {
+                        focused.push({
+                            title: 'Asistencia de Renta de Emergencia',
+                            link: '../../resources/guides/emergency-rental-assistance.html',
+                            description: 'Programas que pueden pagar directamente a tu arrendador — algunos pueden detener un desalojo si el pago está pendiente.',
+                            meta: 'Financiero • Urgente'
+                        });
+                    }
+                }
+
+                if (a.stage === 'court') {
+                    focused.push({
+                        title: 'Prevención y Defensa contra Desalojos',
+                        link: '../../resources/eviction-prevention.html',
+                        description: 'Asistencia legal, preparación para la corte y programas de prevención de desalojos.',
+                        meta: 'Legal • Corte'
+                    });
+                }
+
+                if (a.stage === 'worried') {
+                    focused.push({
+                        title: 'Habla con Tu Arrendador Ahora',
+                        description: 'Si estás atrasado/a o esperas estarlo, contacta a tu arrendador antes de que tome acción. Muchos arrendadores prefieren un plan de pago antes que el proceso de desalojo. Pon cualquier acuerdo por escrito.',
+                        meta: 'Prevención • Primer Paso'
+                    });
+                    focused.push({
+                        title: 'Asistencia de Renta de Emergencia',
+                        link: '../../resources/guides/emergency-rental-assistance.html',
+                        description: 'Solicita ahora, antes de recibir un aviso. Muchos programas procesan más rápido cuando no hay una demanda de desalojo involucrada.',
+                        meta: 'Financiero • Prevención'
+                    });
+                }
+
+                focused.push({
+                    title: 'Cómo Evitar el Desalojo',
+                    link: '../../resources/guides/how-to-avoid-eviction.html',
+                    description: 'Guía paso a paso que cubre cada etapa — desde la primera advertencia hasta la corte.',
+                    meta: 'Guía'
+                });
+
+                focused.push({
+                    title: 'Conoce Tus Derechos como Inquilino',
+                    link: 'derechos-del-inquilino.html',
+                    description: 'Lo que tu arrendador puede y no puede hacer, y cómo protegerte.',
+                    meta: 'Derechos'
+                });
+
+                if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
+                    focused.push({
+                        title: 'Encuentra Ayuda Legal Gratuita',
+                        description: 'Llama al 211, visita lawhelp.org, o contacta a tu colegio de abogados local para clínicas legales gratuitas para inquilinos.',
+                        meta: 'Asistencia Legal'
+                    });
+                }
+
+                if (a.stage !== 'got-notice' || a['notice-type'] !== 'pay-or-vacate') {
+                    additional.push({
+                        title: 'Asistencia de Renta de Emergencia',
+                        link: '../../resources/guides/emergency-rental-assistance.html',
+                        description: 'Programas que ayudan a cubrir renta y servicios públicos.',
+                        meta: 'Financiero'
+                    });
+                }
+
+                additional.push({
+                    title: 'Cómo Entender Tu Contrato de Arrendamiento',
+                    link: '../../resources/guides/understanding-your-lease.html',
+                    description: 'Conoce lo que realmente dice tu contrato y qué términos son ejecutables.',
+                    meta: 'Derechos del Inquilino'
+                });
+
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    focused.push({
+                        title: 'SSVF — Servicios de Apoyo para Familias de Veteranos',
+                        description: 'Un programa del VA diseñado específicamente para prevenir que los veteranos se queden sin hogar. Pueden ayudar con renta, servicios públicos, depósitos y asistencia legal. Llama al 877-424-3838.',
+                        meta: 'Veteranos • Prevención'
+                    });
+                    additional.push({
+                        title: 'HUD-VASH para Veteranos',
+                        link: 'guias/como-solicitar-hud-vash.html',
+                        description: 'Cupón de vivienda con manejo de casos del VA — una opción si pierdes tu vivienda actual.',
+                        meta: 'Veteranos • Vivienda'
+                    });
+                }
+                if (aboutYou.indexOf('dv-survivor') !== -1) {
+                    focused.push({
+                        title: 'Protecciones VAWA para Sobrevivientes de VD',
+                        link: '../../who-we-help/dv-survivors.html',
+                        description: 'No pueden desalojarte por violencia doméstica. VAWA protege tu vivienda — aprende cómo.',
+                        meta: 'Seguridad • Derechos'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Personas Mayores',
+                        link: '../../who-we-help/seniors.html',
+                        description: 'Programas de vivienda para personas mayores y Agencias de Área sobre el Envejecimiento que pueden ayudar con la prevención de desalojos.',
+                        meta: 'Personas Mayores'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Derechos de Vivienda por Discapacidad',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Adaptaciones razonables y protecciones legales que pueden aplicar a tu situación de desalojo.',
+                        meta: 'Discapacidades • Derechos'
+                    });
+                }
+            }
+
+            // ---- LOST JOB ----
+            if (branch === 'lost-job') {
+                focused.push({
+                    title: 'Qué Hacer Cuando Pierdes Tu Trabajo',
+                    link: '../../resources/guides/what-to-do-when-you-lose-your-job.html',
+                    description: 'Pasos inmediatos — beneficios de desempleo, cobertura de salud, ayuda con la renta y cómo recuperarte.',
+                    meta: 'Guía • Empieza Aquí'
+                });
+
+                if (a.unemployment === 'no' || a.unemployment === 'not-sure') {
+                    var urgentFiling = a.when === 'this-week' || a.when === 'past-month';
+                    focused.push({
+                        title: 'Solicita Beneficios de Desempleo',
+                        description: urgentFiling
+                            ? 'Solicita lo antes posible — los beneficios se retrotraen a tu fecha de solicitud, no a tu último día de trabajo. Cada día que esperas es dinero que pierdes.'
+                            : 'Solicita en línea a través del sitio web de desempleo de tu estado. Incluso si te despidieron, podrías calificar — solicita de todos modos.',
+                        meta: urgentFiling ? 'Ingresos • Hazlo Hoy' : 'Ingresos • Inmediato'
+                    });
+                }
+
+                if (a.when === 'this-week') {
+                    focused.push({
+                        title: 'Cobertura COBRA o del Mercado',
+                        description: 'Tienes 60 días para elegir COBRA y 60 días para un Período de Inscripción Especial en el mercado. No dejes pasar estos plazos.',
+                        meta: 'Salud • Plazo Limitado'
+                    });
+                }
+
+                if (a.concern === 'rent' || a.concern === 'all') {
+                    focused.push({
+                        title: 'Asistencia de Renta de Emergencia',
+                        link: '../../resources/guides/emergency-rental-assistance.html',
+                        description: 'Programas que pueden cubrir la renta mientras estás entre trabajos.',
+                        meta: 'Vivienda • Urgente'
+                    });
+                }
+
+                if (a.concern === 'insurance' || a.concern === 'all') {
+                    focused.push({
+                        title: 'Solicitar Medicaid',
+                        link: '../../resources/guides/how-to-apply-for-medicaid.html',
+                        description: 'Cobertura de salud gratuita o de bajo costo ahora que tu ingreso ha cambiado.',
+                        meta: 'Salud'
+                    });
+                }
+
+                if (a.concern === 'new-job' || a.concern === 'all') {
+                    focused.push({
+                        title: 'Empleo y Capacitación Laboral',
+                        link: '../../resources/employment.html',
+                        description: 'Centros de Empleo Americanos, programas de capacitación y recursos de carrera — todo gratis.',
+                        meta: 'Empleo'
+                    });
+                }
+
+                additional.push({
+                    title: 'Solicitar SNAP (Cupones de Alimentos)',
+                    link: 'guias/como-solicitar-snap.html',
+                    description: 'Asistencia alimentaria para la que podrías calificar de inmediato.',
+                    meta: 'Beneficios'
+                });
+
+                additional.push({
+                    title: 'Presupuesto Cuando el Dinero es Escaso',
+                    link: '../../resources/guides/budgeting-when-money-is-tight.html',
+                    description: 'Estrategias de presupuesto de supervivencia para cuando el ingreso baja repentinamente.',
+                    meta: 'Finanzas'
+                });
+
+                additional.push({
+                    title: 'Salir de las Deudas',
+                    link: '../../resources/guides/getting-out-of-debt.html',
+                    description: 'Programas de dificultad, indulgencia y manejo de deudas durante la pérdida de empleo.',
+                    meta: 'Finanzas'
+                });
+
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    focused.push({
+                        title: 'Beneficios del VA para Veteranos',
+                        link: '../../resources/guides/va-benefits.html',
+                        description: 'Compensación por discapacidad del VA, pensión, atención médica y rehabilitación vocacional — podrías calificar para apoyo de ingresos y capacitación laboral.',
+                        meta: 'Veteranos • Beneficios'
+                    });
+                    additional.push({
+                        title: 'HUD-VASH para Veteranos',
+                        link: 'guias/como-solicitar-hud-vash.html',
+                        description: 'Cupón de vivienda con manejo de casos del VA si estás en riesgo de perder tu hogar.',
+                        meta: 'Veteranos • Vivienda'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Personas Mayores',
+                        link: '../../who-we-help/seniors.html',
+                        description: 'Programas de vivienda para personas mayores que pueden ayudar si la pérdida de empleo amenaza la estabilidad de tu vivienda.',
+                        meta: 'Personas Mayores'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Solicitar SSI/SSDI',
+                        link: '../../resources/guides/how-to-apply-ssi-ssdi.html',
+                        description: 'Si tienes una discapacidad, podrías calificar para ingresos por discapacidad incluso sin empleo.',
+                        meta: 'Discapacidad • Ingresos'
+                    });
+                }
+
+                additional.push({
+                    title: 'Beneficios y Apoyo de Ingresos',
+                    link: 'beneficios.html',
+                    description: 'Lista completa de programas de asistencia para los que ahora podrías calificar.',
+                    meta: 'Beneficios'
+                });
+            }
+
+            // ---- FIND APARTMENT ----
+            if (branch === 'find-apartment') {
+                if (a['applied-before'] === 'have-voucher') {
+                    focused.push({
+                        title: 'Usar Tu Cupón',
+                        link: '../../resources/guides/how-to-transfer-voucher.html',
+                        description: 'Cómo buscar apartamentos, portabilidad y qué necesitan los arrendadores de ti.',
+                        meta: 'Cupón'
+                    });
+                } else if (a['applied-before'] === 'denied') {
+                    focused.push({
+                        title: 'Apelar una Negación de Vivienda',
+                        link: 'guias/como-apelar-negacion.html',
+                        description: 'Pasos para impugnar una negación y consejos para volver a solicitar.',
+                        meta: 'Apelaciones'
+                    });
+                    focused.push({
+                        title: 'Guía de Solicitud de Sección 8',
+                        link: 'guias/como-solicitar-seccion-8.html',
+                        description: 'Un nuevo recorrido por el proceso de solicitud.',
+                        meta: 'Solicitud'
+                    });
+                } else {
+                    focused.push({
+                        title: 'Cupones de Elección de Vivienda Sección 8',
+                        link: 'guias/como-solicitar-seccion-8.html',
+                        description: 'Asistencia de alquiler que limita tu pago al 30% de tu ingreso. Este es el programa más común.',
+                        meta: 'Solicitud'
+                    });
+                }
+
+                focused.push({
+                    title: 'Encontrar Vivienda Asequible LIHTC',
+                    link: '../../resources/guides/how-to-find-lihtc-housing.html',
+                    description: 'Apartamentos por debajo del mercado que no requieren un cupón. Disponibles en la mayoría de las áreas.',
+                    meta: 'Búsqueda de Vivienda'
+                });
+
+                focused.push({
+                    title: 'Encuentra Tu Autoridad de Vivienda Pública',
+                    link: '../../resources/guides/how-to-find-your-pha.html',
+                    description: 'Tu PHA es el punto de partida para vivienda pública y Sección 8 en tu área.',
+                    meta: 'Primer Paso'
+                });
+
+                var barriers = a.barriers || [];
+                if (barriers.indexOf('bad-credit') !== -1) {
+                    focused.push({
+                        title: 'Alquilar con Mal Historial de Alquiler',
+                        link: '../../resources/guides/renting-with-poor-rental-history.html',
+                        description: 'Desalojos pasados o mal crédito no tienen que impedirte obtener vivienda. Así es como puedes avanzar.',
+                        meta: 'Crédito • Historial'
+                    });
+                    additional.push({
+                        title: 'Reconstruir Crédito para Vivienda',
+                        link: '../../resources/guides/rebuilding-credit-for-housing.html',
+                        description: 'Pasos prácticos para mejorar tu crédito y referencias de alquiler.',
+                        meta: 'Crédito'
+                    });
+                }
+
+                if (barriers.indexOf('criminal-record') !== -1) {
+                    focused.push({
+                        title: 'Vivienda con Antecedentes Penales',
+                        link: '../../resources/guides/criminal-records-and-housing.html',
+                        description: 'Tus derechos, políticas de arrendadores y programas que trabajan con personas que tienen antecedentes.',
+                        meta: 'Legal • Derechos'
+                    });
+                }
+
+                if (barriers.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Solicitar Adaptación Razonable',
+                        link: '../../resources/guides/how-to-request-reasonable-accommodation.html',
+                        description: 'Tu derecho a modificaciones por necesidades de discapacidad.',
+                        meta: 'Discapacidades'
+                    });
+                }
+
+                if (a['current-housing'] === 'unhoused' || a['current-housing'] === 'shelter') {
+                    additional.push({
+                        title: 'Recursos de Vivienda de Emergencia',
+                        link: 'vivienda-de-emergencia.html',
+                        description: 'Opciones de refugio inmediato mientras buscas vivienda permanente.',
+                        meta: 'Emergencia'
+                    });
+                }
+
+                additional.push({
+                    title: 'Lista de Documentos',
+                    link: 'guias/lista-de-documentos.html',
+                    description: 'Los documentos que necesitarás para cualquier solicitud de vivienda.',
+                    meta: 'Preparación'
+                });
+
+                if (a['applied-before'] === 'waiting') {
+                    additional.push({
+                        title: 'Estrategias de Lista de Espera',
+                        link: 'guias/estrategias-lista-espera.html',
+                        description: 'Cómo mantenerte activo/a en la lista, solicitar a múltiples PHAs y encontrar alternativas más rápidas.',
+                        meta: 'Lista de Espera'
+                    });
+                    additional.push({
+                        title: 'Rastreador de Lista de Espera de Sección 8',
+                        link: '../../resources/tools/section-8-tracker.html',
+                        description: 'Encuentra listas de espera abiertas por estado — busca 183 PHAs con información de contacto y tiempos de espera estimados.',
+                        meta: 'Herramienta'
+                    });
+                }
+
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    focused.push({
+                        title: 'HUD-VASH para Veteranos',
+                        link: 'guias/como-solicitar-hud-vash.html',
+                        description: 'Un cupón de vivienda con manejo de casos del VA — específicamente para veteranos. Listas de espera más cortas que Sección 8 regular.',
+                        meta: 'Veteranos • Vivienda'
+                    });
+                    additional.push({
+                        title: 'Beneficios del VA para Veteranos',
+                        link: '../../resources/guides/va-benefits.html',
+                        description: 'Compensación por discapacidad, pensión y atención médica — ingresos adicionales que hacen la vivienda más asequible.',
+                        meta: 'Veteranos • Beneficios'
+                    });
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    focused.push({
+                        title: 'Recursos de Vivienda para Personas Mayores',
+                        link: '../../who-we-help/seniors.html',
+                        description: 'Vivienda Sección 202 para personas mayores, preferencias de edad para Sección 8 y Agencias de Área sobre el Envejecimiento.',
+                        meta: 'Personas Mayores • Programas'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    focused.push({
+                        title: 'Recursos de Vivienda para Personas con Discapacidades',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Sección 811, vivienda accesible, adaptaciones razonables y programas específicos para discapacidades.',
+                        meta: 'Discapacidades • Programas'
+                    });
+                }
+                if (aboutYou.indexOf('recovery') !== -1) {
+                    additional.push({
+                        title: 'Uso de Sustancias y Vivienda de Recuperación',
+                        link: '../../resources/substance-use.html',
+                        description: 'Oxford Houses, vivienda sobria y programas de vivienda que apoyan la recuperación.',
+                        meta: 'Recuperación'
+                    });
+                }
+            }
+
+            // ---- VOUCHER ISSUE ----
+            if (branch === 'voucher-issue') {
+                if (a.problem === 'wont-accept') {
+                    focused.push({
+                        title: 'Protecciones de Fuente de Ingreso',
+                        link: '../../resources/guides/source-of-income-protections.html',
+                        description: 'Muchos estados y ciudades hacen ilegal que los arrendadores rechacen cupones. Verifica si estás protegido/a.',
+                        meta: 'Derechos • Legal'
+                    });
+                    focused.push({
+                        title: 'Presentar una Queja por Discriminación de Vivienda',
+                        link: '../../resources/guides/how-to-file-housing-discrimination-complaint.html',
+                        description: 'Si rechazar tu cupón es ilegal en tu área, así es como puedes presentar una queja.',
+                        meta: 'Derechos • Legal'
+                    });
+                }
+
+                if (a.problem === 'cant-find') {
+                    focused.push({
+                        title: 'Consulta de Renta Justa de Mercado y Límites de Ingreso',
+                        link: '../../resources/tools/rent-estimator.html',
+                        description: 'Verifica la FMR de tu área para entender lo que cubrirá tu cupón.',
+                        meta: 'Herramienta'
+                    });
+                }
+
+                if (a.problem === 'running-out') {
+                    focused.push({
+                        title: 'Contacta a Tu PHA Inmediatamente',
+                        description: 'Tu PHA a veces puede conceder extensiones en el plazo de búsqueda de tu cupón. Llámalos lo antes posible.',
+                        meta: 'Urgente'
+                    });
+                }
+
+                if (a.problem === 'moving') {
+                    focused.push({
+                        title: 'Transferir Tu Cupón (Portabilidad)',
+                        link: '../../resources/guides/how-to-transfer-voucher.html',
+                        description: 'Cómo usar tu cupón en una ciudad, condado o estado diferente.',
+                        meta: 'Portabilidad'
+                    });
+                }
+
+                if (a['pha-contact'] === 'no' || a['pha-contact'] === 'what-is-pha') {
+                    focused.push({
+                        title: 'Encuentra Tu Autoridad de Vivienda Pública',
+                        link: '../../resources/guides/how-to-find-your-pha.html',
+                        description: 'Tu PHA administra tu cupón y puede ayudar a resolver problemas. Encuentra la tuya aquí.',
+                        meta: 'Importante'
+                    });
+                }
+
+                focused.push({
+                    title: 'Manejar la Recertificación',
+                    link: '../../resources/guides/how-to-handle-recertification.html',
+                    description: 'Mantén tu cupón activo cumpliendo con las revisiones anuales.',
+                    meta: 'Cupón'
+                });
+
+                additional.push({
+                    title: 'Encontrar Vivienda Asequible LIHTC',
+                    link: '../../resources/guides/how-to-find-lihtc-housing.html',
+                    description: 'Apartamentos asequibles que no dependen de un cupón — una buena opción de respaldo.',
+                    meta: 'Vivienda'
+                });
+            }
+
+            // ---- DISCRIMINATION ----
+            if (branch === 'discrimination') {
+                focused.push({
+                    title: 'Presentar una Queja por Discriminación de Vivienda',
+                    link: '../../resources/guides/how-to-file-housing-discrimination-complaint.html',
+                    description: 'Guía paso a paso para presentar una queja ante HUD. El proceso es gratuito y confidencial.',
+                    meta: 'Derechos • Legal'
+                });
+
+                if (a['discrimination-type'] === 'voucher-rejected') {
+                    focused.push({
+                        title: 'Protecciones de Fuente de Ingreso',
+                        link: '../../resources/guides/source-of-income-protections.html',
+                        description: 'Muchos estados y ciudades hacen ilegal rechazar cupones. Averigua si estás protegido/a.',
+                        meta: 'Cupón • Derechos'
+                    });
+                }
+
+                if (a['discrimination-type'] === 'denied-housing') {
+                    focused.push({
+                        title: 'Apelar una Negación de Vivienda',
+                        link: 'guias/como-apelar-negacion.html',
+                        description: 'Pasos para impugnar una negación y consejos para volver a solicitar exitosamente.',
+                        meta: 'Apelaciones'
+                    });
+                    if (a['discrimination-basis'] && a['discrimination-basis'].indexOf('voucher') !== -1) {
+                        focused.push({
+                            title: 'Protecciones de Fuente de Ingreso',
+                            link: '../../resources/guides/source-of-income-protections.html',
+                            description: 'Leyes que te protegen de ser denegado/a vivienda por tu fuente de ingreso.',
+                            meta: 'Cupón • Derechos'
+                        });
+                    }
+                }
+
+                if (a['discrimination-type'] === 'accommodation-denied') {
+                    focused.push({
+                        title: 'Solicitar una Adaptación Razonable',
+                        link: '../../resources/guides/how-to-request-reasonable-accommodation.html',
+                        description: 'Carta modelo y proceso paso a paso para solicitar adaptaciones por discapacidad.',
+                        meta: 'Discapacidades • Derechos'
+                    });
+                    focused.push({
+                        title: 'Recursos de Vivienda para Personas con Discapacidades',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Tus derechos legales, el proceso de apelación cuando se niegan solicitudes de adaptación y los estándares de la Sección 504.',
+                        meta: 'Discapacidades • Integral'
+                    });
+                }
+
+                focused.push({
+                    title: 'Conoce Tus Derechos como Inquilino',
+                    link: 'derechos-del-inquilino.html',
+                    description: 'Lo que los arrendadores pueden y no pueden hacer, y cómo protegerte.',
+                    meta: 'Derechos'
+                });
+
+                additional.push({
+                    title: 'Alquilar con Mal Historial de Alquiler',
+                    link: '../../resources/guides/renting-with-poor-rental-history.html',
+                    description: 'Si una negación está relacionada con tu historial, así es como puedes avanzar.',
+                    meta: 'Historial'
+                });
+
+                additional.push({
+                    title: 'Vivienda con Antecedentes Penales',
+                    link: '../../resources/guides/criminal-records-and-housing.html',
+                    description: 'Tus derechos y políticas de arrendadores sobre antecedentes penales.',
+                    meta: 'Legal • Derechos'
+                });
+
+                var aboutYou = a['about-you'] || [];
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    additional.push({
+                        title: 'Beneficios del VA para Veteranos',
+                        link: '../../resources/guides/va-benefits.html',
+                        description: 'Asistencia legal del VA y programas de vivienda para veteranos.',
+                        meta: 'Veteranos'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Personas con Discapacidades',
+                        link: '../../who-we-help/disabilities.html',
+                        description: 'Protecciones de la Ley de Vivienda Justa, Sección 504 y organizaciones de derechos de discapacidad que proporcionan ayuda legal gratuita.',
+                        meta: 'Discapacidades'
+                    });
+                }
+            }
+
+            // ---- NON-HOUSING ----
+            if (branch === 'non-housing') {
+                var needs = a.needs || [];
+                var currentBenefits = a['current-benefits'] || [];
+
+                if (needs.indexOf('food') !== -1) {
+                    if (currentBenefits.indexOf('snap') === -1) {
+                        focused.push({
+                            title: 'Solicitar SNAP (Cupones de Alimentos)',
+                            link: 'guias/como-solicitar-snap.html',
+                            description: 'Asistencia alimentaria para ayudar con los comestibles. Muchas personas califican y no lo saben.',
+                            meta: 'Alimentos • Beneficios'
+                        });
+                    } else {
+                        focused.push({
+                            title: 'Recursos Adicionales de Alimentos',
+                            description: 'Llama al 211 para encontrar bancos de alimentos locales, comidas comunitarias y despensas en tu área.',
+                            meta: 'Alimentos'
+                        });
+                    }
+                }
+
+                var aboutYou = a['about-you'] || [];
+                if (needs.indexOf('healthcare') !== -1) {
+                    if (currentBenefits.indexOf('medicaid') === -1) {
+                        focused.push({
+                            title: 'Solicitar Medicaid',
+                            link: '../../resources/guides/how-to-apply-for-medicaid.html',
+                            description: 'Cobertura de salud gratuita o de bajo costo basada en tu ingreso.',
+                            meta: 'Salud'
+                        });
+                    }
+                    if (aboutYou.indexOf('veteran') !== -1) {
+                        focused.push({
+                            title: 'Atención Médica del VA para Veteranos',
+                            link: '../../resources/guides/va-benefits.html',
+                            description: 'Atención médica gratuita o de bajo costo, servicios de salud mental, recetas y más a través del VA — no se requiere clasificación de discapacidad para muchos servicios.',
+                            meta: 'Veteranos • Salud'
+                        });
+                    }
+                    focused.push({
+                        title: 'Recursos de Salud Mental',
+                        link: '../../resources/mental-health.html',
+                        description: 'Encontrar terapia, apoyo con medicamentos y líneas de crisis.',
+                        meta: 'Salud Mental'
+                    });
+                }
+
+                if (needs.indexOf('employment') !== -1) {
+                    focused.push({
+                        title: 'Empleo y Capacitación Laboral',
+                        link: '../../resources/employment.html',
+                        description: 'Ayuda con búsqueda de empleo, programas de capacitación gratuitos y recursos de carrera.',
+                        meta: 'Empleo'
+                    });
+                    additional.push({
+                        title: 'Programa de Autosuficiencia Familiar',
+                        link: '../../resources/guides/family-self-sufficiency.html',
+                        description: 'Si tienes un cupón, este programa te ayuda a aumentar ingresos y ahorros.',
+                        meta: 'Crecimiento de Ingresos'
+                    });
+                }
+
+                if (needs.indexOf('debt') !== -1) {
+                    focused.push({
+                        title: 'Salir de las Deudas',
+                        link: '../../resources/guides/getting-out-of-debt.html',
+                        description: 'Manejo de facturas médicas, cobros, préstamos estudiantiles y otras deudas con ingreso bajo.',
+                        meta: 'Finanzas'
+                    });
+                    focused.push({
+                        title: 'Presupuesto Cuando el Dinero es Escaso',
+                        link: '../../resources/guides/budgeting-when-money-is-tight.html',
+                        description: 'Estrategias prácticas para estirar un ingreso limitado.',
+                        meta: 'Finanzas'
+                    });
+                }
+
+                if (currentBenefits.indexOf('ssi') === -1) {
+                    additional.push({
+                        title: 'Solicitar SSI/SSDI',
+                        link: '../../resources/guides/how-to-apply-ssi-ssdi.html',
+                        description: 'Beneficios de ingresos por discapacidad si tienes una condición que califica.',
+                        meta: 'Beneficios'
+                    });
+                }
+
+                if (aboutYou.indexOf('veteran') !== -1) {
+                    if (needs.indexOf('healthcare') === -1) {
+                        additional.push({
+                            title: 'Beneficios del VA para Veteranos',
+                            link: '../../resources/guides/va-benefits.html',
+                            description: 'Compensación por discapacidad, pensión, atención médica y más — beneficios para los que podrías calificar.',
+                            meta: 'Veteranos'
+                        });
+                    }
+                    if (needs.indexOf('employment') !== -1) {
+                        additional.push({
+                            title: 'Rehabilitación Vocacional del VA',
+                            description: 'Capacitación laboral, ayuda con currículum y servicios de carrera para veteranos con discapacidades conectadas al servicio. Llama al 877-827-3702.',
+                            meta: 'Veteranos • Empleo'
+                        });
+                    }
+                }
+                if (aboutYou.indexOf('senior') !== -1) {
+                    additional.push({
+                        title: 'Recursos de Vivienda para Personas Mayores',
+                        link: '../../who-we-help/seniors.html',
+                        description: 'Programas específicos para personas mayores, beneficios y Agencias de Área sobre el Envejecimiento.',
+                        meta: 'Personas Mayores'
+                    });
+                }
+                if (aboutYou.indexOf('disability') !== -1 && currentBenefits.indexOf('ssi') === -1) {
+                    focused.push({
+                        title: 'Solicitar SSI/SSDI',
+                        link: '../../resources/guides/how-to-apply-ssi-ssdi.html',
+                        description: 'Beneficios de ingresos por discapacidad si tienes una condición que califica.',
+                        meta: 'Discapacidad • Ingresos'
+                    });
+                }
+
+                additional.push({
+                    title: 'Beneficios y Apoyo de Ingresos',
+                    link: 'beneficios.html',
+                    description: 'Resumen completo de todos los programas de asistencia.',
+                    meta: 'Beneficios'
+                });
+            }
+
+            // Deduplicate by link or title
+            var seen = {};
+            function dedup(arr) {
+                return arr.filter(function(item) {
+                    var key = item.link || item.title;
+                    if (seen[key]) return false;
+                    seen[key] = true;
+                    return true;
+                });
+            }
+
+            focused = dedup(focused);
+            additional = dedup(additional);
+
+            return { focused: focused, additional: additional };
+        }
+
+    })();
+    </script>
 </body>
 </html>
