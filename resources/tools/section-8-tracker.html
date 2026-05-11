@@ -632,4 +632,207 @@
 
       // WASHINGTON
       ["Seattle Housing Authority", "Seattle", "WA", "closed", "(206) 615-3300", "https://www.seattlehousing.org", "3–5 years", "Lottery-based."],
-      ["King County Housing Authority", "Tukwila", "WA", "closed", "(206) 574-1100", "https://www.kcha.org", "3–5 years", "Covers King County outside Seattle."],
+      ["King County Housing Authority", "Tukwila", "WA", "closed", "(206) 574-1100", "https://www.kcha.org", "3–5 years", "Covers King County outside Seattle."],      ["Tacoma Housing Authority", "Tacoma", "WA", "lottery", "(253) 207-4400", "https://www.tacomahousing.net", "2–3 years", ""],
+      ["Housing Authority of Snohomish County", "Everett", "WA", "lottery", "(425) 290-8499", "https://www.hasco.org", "2–3 years", ""],
+      ["Spokane Housing Authority", "Spokane", "WA", "open", "(509) 328-2953", "https://www.spokanehousing.org", "1–2 years", ""],
+
+      // WEST VIRGINIA
+      ["Kanawha Valley Regional Housing", "Charleston", "WV", "open", "(304) 348-6451", "https://www.kvrtc.org", "6 months–2 years", "Multiple open lists in WV."],
+      ["Huntington Housing Authority", "Huntington", "WV", "open", "(304) 526-4600", "https://www.huntingtonhousing.com", "6 months–1 year", ""],
+
+      // WISCONSIN
+      ["Housing Authority of City of Milwaukee", "Milwaukee", "WI", "closed", "(414) 286-5885", "https://www.hacm.org", "2–4 years", ""],
+      ["Madison Community Development Authority", "Madison", "WI", "lottery", "(608) 266-4675", "https://www.cda.cityofmadison.com", "1–3 years", "Lottery-based."],
+      ["Green Bay Housing Authority", "Green Bay", "WI", "open", "(920) 448-3400", "https://www.greenbaywi.gov/housing", "1–2 years", ""],
+
+      // WYOMING
+      ["Wyoming Community Development Authority", "Casper", "WY", "open", "(307) 265-0603", "https://www.wyomingcda.com", "6 months–1 year", "Statewide. Multiple open lists."],
+      ["Cheyenne Housing Authority", "Cheyenne", "WY", "open", "(307) 633-8332", "https://www.cheyennehousing.org", "6 months–1 year", "Short waits."],
+    ];
+
+    // ─── STATE NAMES ─────────────────────────────────────────────────
+    const STATE_NAMES = {
+      "AL":"Alabama","AK":"Alaska","AZ":"Arizona","AR":"Arkansas","CA":"California",
+      "CO":"Colorado","CT":"Connecticut","DE":"Delaware","DC":"District of Columbia",
+      "FL":"Florida","GA":"Georgia","HI":"Hawaii","ID":"Idaho","IL":"Illinois",
+      "IN":"Indiana","IA":"Iowa","KS":"Kansas","KY":"Kentucky","LA":"Louisiana",
+      "ME":"Maine","MD":"Maryland","MA":"Massachusetts","MI":"Michigan","MN":"Minnesota",
+      "MS":"Mississippi","MO":"Missouri","MT":"Montana","NE":"Nebraska","NV":"Nevada",
+      "NH":"New Hampshire","NJ":"New Jersey","NM":"New Mexico","NY":"New York",
+      "NC":"North Carolina","ND":"North Dakota","OH":"Ohio","OK":"Oklahoma",
+      "OR":"Oregon","PA":"Pennsylvania","RI":"Rhode Island","SC":"South Carolina",
+      "SD":"South Dakota","TN":"Tennessee","TX":"Texas","UT":"Utah","VT":"Vermont",
+      "VA":"Virginia","WA":"Washington","WV":"West Virginia","WI":"Wisconsin","WY":"Wyoming"
+    };
+
+    const STATE_SLUGS = {
+      "AL":"alabama","AK":"alaska","AZ":"arizona","AR":"arkansas","CA":"california",
+      "CO":"colorado","CT":"connecticut","DE":"delaware","DC":"district-of-columbia",
+      "FL":"florida","GA":"georgia","HI":"hawaii","ID":"idaho","IL":"illinois",
+      "IN":"indiana","IA":"iowa","KS":"kansas","KY":"kentucky","LA":"louisiana",
+      "ME":"maine","MD":"maryland","MA":"massachusetts","MI":"michigan","MN":"minnesota",
+      "MS":"mississippi","MO":"missouri","MT":"montana","NE":"nebraska","NV":"nevada",
+      "NH":"new-hampshire","NJ":"new-jersey","NM":"new-mexico","NY":"new-york",
+      "NC":"north-carolina","ND":"north-dakota","OH":"ohio","OK":"oklahoma",
+      "OR":"oregon","PA":"pennsylvania","RI":"rhode-island","SC":"south-carolina",
+      "SD":"south-dakota","TN":"tennessee","TX":"texas","UT":"utah","VT":"vermont",
+      "VA":"virginia","WA":"washington","WV":"west-virginia","WI":"wisconsin","WY":"wyoming"
+    };
+
+    // ─── STATE / GLOBALS ─────────────────────────────────────────────
+    let currentState = "";
+    let currentFilter = "all";
+    let currentSearch = "";
+
+    // ─── INIT ────────────────────────────────────────────────────────
+    function init() {
+      populateStateSelect();
+      updateStats();
+      renderList();
+      setupListeners();
+      document.getElementById("lastUpdated").textContent = "Data last reviewed: May 2026. Always verify directly with the PHA — statuses can change at any time.";
+    }
+
+    function populateStateSelect() {
+      const sel = document.getElementById("stateSelect");
+      const states = [...new Set(PHA_DATA.map(p => p[2]))].sort();
+      states.forEach(s => {
+        const opt = document.createElement("option");
+        opt.value = s;
+        opt.textContent = STATE_NAMES[s] || s;
+        sel.appendChild(opt);
+      });
+    }
+
+    function updateStats() {
+      const total = PHA_DATA.length;
+      const open = PHA_DATA.filter(p => p[3] === "open").length;
+      const states = new Set(PHA_DATA.map(p => p[2])).size;
+      animateNumber("totalPHAs", total);
+      animateNumber("openCount", open);
+      animateNumber("stateCount", states);
+    }
+
+    function animateNumber(id, target) {
+      const el = document.getElementById(id);
+      let current = 0;
+      const step = Math.ceil(target / 30);
+      const interval = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(interval); }
+        el.textContent = current;
+      }, 30);
+    }
+
+    function setupListeners() {
+      document.getElementById("stateSelect").addEventListener("change", e => {
+        currentState = e.target.value;
+        renderList();
+      });
+      document.getElementById("searchInput").addEventListener("input", e => {
+        currentSearch = e.target.value.toLowerCase();
+        renderList();
+      });
+      document.querySelectorAll(".filter-chip").forEach(chip => {
+        chip.addEventListener("click", () => {
+          document.querySelectorAll(".filter-chip").forEach(c => c.classList.remove("active"));
+          chip.classList.add("active");
+          currentFilter = chip.dataset.filter;
+          renderList();
+        });
+      });
+
+      // Check URL params for state pre-selection
+      const params = new URLSearchParams(window.location.search);
+      const stateParam = params.get("state");
+      if (stateParam) {
+        const upper = stateParam.toUpperCase();
+        if (STATE_NAMES[upper]) {
+          document.getElementById("stateSelect").value = upper;
+          currentState = upper;
+          renderList();
+        }
+      }
+    }
+
+    function getFiltered() {
+      return PHA_DATA.filter(p => {
+        if (currentState && p[2] !== currentState) return false;
+        if (currentFilter === "open" && p[3] !== "open") return false;
+        if (currentFilter === "closed" && p[3] !== "closed") return false;
+        if (currentFilter === "lottery" && p[3] !== "lottery") return false;
+        if (currentSearch) {
+          const haystack = (p[0] + " " + p[1] + " " + (STATE_NAMES[p[2]] || "")).toLowerCase();
+          if (!haystack.includes(currentSearch)) return false;
+        }
+        return true;
+      });
+    }
+
+    function renderList() {
+      const list = document.getElementById("phaList");
+      const filtered = getFiltered();
+
+      // Sort: open first, then lottery, then closed, then unknown
+      const order = { open: 0, lottery: 1, closed: 2, unknown: 3 };
+      filtered.sort((a, b) => (order[a[3]] || 3) - (order[b[3]] || 3) || a[0].localeCompare(b[0]));
+
+      document.getElementById("resultsCount").textContent = 
+        `Showing ${filtered.length} of ${PHA_DATA.length} PHAs` +
+        (currentState ? ` in ${STATE_NAMES[currentState]}` : "") +
+        (currentFilter !== "all" ? ` (${currentFilter})` : "");
+
+      if (filtered.length === 0) {
+        list.innerHTML = `<div class="no-results">
+          <h3>No PHAs found</h3>
+          <p>Try adjusting your filters or searching for a different state.</p>
+        </div>`;
+        return;
+      }
+
+      list.innerHTML = filtered.map(p => {
+        const [name, city, state, status, phone, website, waitTime, notes] = p;
+        const statusLabel = status === "open" ? "Open" : status === "closed" ? "Closed" : status === "lottery" ? "Lottery / Periodic" : "Unknown";
+        const statusClass = "status-" + status;
+        const stateSlug = STATE_SLUGS[state] || "";
+        const statePage = stateSlug ? `../states/${stateSlug}.html` : "";
+
+        return `<div class="pha-card">
+          <div class="pha-header">
+            <div>
+              <div class="pha-name">${name}</div>
+              <div class="pha-location">${city}, ${statePage ? `<a href="${statePage}">${STATE_NAMES[state]}</a>` : STATE_NAMES[state]}</div>
+            </div>
+            <span class="status-badge ${statusClass}"><span class="status-dot"></span>${statusLabel}</span>
+          </div>
+          <div class="pha-details">
+            <div class="pha-detail"><strong>Phone:</strong> <a href="tel:${phone.replace(/[^0-9+]/g, '')}">${phone}</a></div>
+            <div class="pha-detail"><strong>Est. Wait:</strong> ${waitTime}</div>
+            <div class="pha-detail"><strong>Website:</strong> <a href="${website}" target="_blank" rel="noopener">Visit PHA website →</a></div>
+            <div class="pha-detail"><strong>Status:</strong> ${statusLabel}</div>
+          </div>
+          ${notes ? `<div class="pha-note">${notes}</div>` : ""}
+        </div>`;
+      }).join("");
+    }
+
+    function toggleFaq(el) {
+      const answer = el.nextElementSibling;
+      const arrow = el.querySelector(".faq-arrow");
+      const isOpen = answer.style.maxHeight && answer.style.maxHeight !== "0px";
+      
+      // Close all
+      document.querySelectorAll(".faq-answer").forEach(a => a.style.maxHeight = "0px");
+      document.querySelectorAll(".faq-arrow").forEach(a => a.classList.remove("open"));
+      
+      if (!isOpen) {
+        answer.style.maxHeight = answer.scrollHeight + "px";
+        arrow.classList.add("open");
+      }
+    }
+
+    // Boot
+    document.addEventListener("DOMContentLoaded", init);
+    </script>
+</body>
+</html>
