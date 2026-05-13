@@ -1,5 +1,13 @@
 [
   {
+    "title": "How Section 8 Inspections Work (And How to Pass Yours)",
+    "description": "HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.",
+    "url": "blog/posts/how-section-8-inspections-work.html",
+    "date": "2026-05-13",
+    "readTime": "8 min read",
+    "tag": "Guide"
+  },
+  {
     "title": "Renting With an Eviction on Your Record: What Actually Works",
     "description": "An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.",
     "url": "blog/posts/renting-with-eviction-record.html",
@@ -8,7 +16,7 @@
     "tag": "Practical"
   },
   {
-    "title": "My Income Went Up on Section 8 — Will I Lose My Voucher?",
+    "title": "My Income Went Up on Section 8 \u2014 Will I Lose My Voucher?",
     "description": "A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.",
     "url": "blog/posts/income-went-up-on-section-8.html",
     "date": "2026-04-30",
@@ -16,7 +24,7 @@
     "tag": "Explainer"
   },
   {
-    "title": "I Need a Place to Stay Tonight — Here's What to Do",
+    "title": "I Need a Place to Stay Tonight \u2014 Here's What to Do",
     "description": "If you need emergency shelter right now, here are the numbers to call, the programs that can help tonight, and what to expect when you get there.",
     "url": "blog/posts/emergency-housing-tonight.html",
     "date": "2026-04-26",
@@ -49,7 +57,7 @@
   },
   {
     "title": "Why Housing Changes Everything",
-    "description": "Housing isn't just a roof — it's the foundation that makes recovery, employment, safety, and stability possible. Real stories from my years working with veterans.",
+    "description": "Housing isn't just a roof \u2014 it's the foundation that makes recovery, employment, safety, and stability possible. Real stories from my years working with veterans.",
     "url": "blog/posts/why-housing-changes-everything.html",
     "date": "2026-04-09",
     "readTime": "7 min read",
@@ -57,7 +65,7 @@
   },
   {
     "title": "15 Tips for Finding an Apartment with a Housing Voucher",
-    "description": "Practical, actionable tips for the apartment search — from knowing your payment standard to negotiating with landlords to having a backup plan.",
+    "description": "Practical, actionable tips for the apartment search \u2014 from knowing your payment standard to negotiating with landlords to having a backup plan.",
     "url": "blog/posts/voucher-housing-search-tips.html",
     "date": "2026-04-08",
     "readTime": "",
@@ -73,7 +81,7 @@
   },
   {
     "title": "Your PHA Won't Call Back? Here's What to Do",
-    "description": "When the housing authority isn't returning your calls, here's how to escalate — different contact methods, documentation, complaints, and legal aid.",
+    "description": "When the housing authority isn't returning your calls, here's how to escalate \u2014 different contact methods, documentation, complaints, and legal aid.",
     "url": "blog/posts/pha-wont-call-back.html",
     "date": "2026-04-03",
     "readTime": "",
@@ -81,7 +89,7 @@
   },
   {
     "title": "The Benefits Cliff: What It Is and How to Plan for It",
-    "description": "What happens when a raise pushes you past income thresholds for SNAP, Medicaid, or Section 8 — and how to plan ahead so you don't lose more than you gain.",
+    "description": "What happens when a raise pushes you past income thresholds for SNAP, Medicaid, or Section 8 \u2014 and how to plan ahead so you don't lose more than you gain.",
     "url": "blog/posts/benefits-cliff-explained.html",
     "date": "2026-03-31",
     "readTime": "",
@@ -97,7 +105,7 @@
   },
   {
     "title": "What Happens After You Get Your Housing Voucher",
-    "description": "You got your voucher — now what? The apartment search, inspections, landlord negotiations, and everything you need to know about actually using your voucher.",
+    "description": "You got your voucher \u2014 now what? The apartment search, inspections, landlord negotiations, and everything you need to know about actually using your voucher.",
     "url": "blog/posts/what-happens-after-voucher.html",
     "date": "2026-03-25",
     "readTime": "8 min read",
@@ -113,7 +121,7 @@
   },
   {
     "title": "What to Do If Your Benefits Get Cut",
-    "description": "If your SSI, SSDI, SNAP, or housing benefits were reduced or cut off, here are the steps to take right now — including how to appeal and where to get help.",
+    "description": "If your SSI, SSDI, SNAP, or housing benefits were reduced or cut off, here are the steps to take right now \u2014 including how to appeal and where to get help.",
     "url": "blog/posts/benefits-cut-what-to-do.html",
     "date": "2026-03-19",
     "readTime": "7 min read",
@@ -129,7 +137,7 @@
   },
   {
     "title": "What to Do When a Landlord Rejects Your Voucher",
-    "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it — your rights, your options, and how to keep moving forward.",
+    "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it \u2014 your rights, your options, and how to keep moving forward.",
     "url": "blog/posts/landlord-rejects-voucher.html",
     "date": "2026-03-13",
     "readTime": "8 min read",
@@ -137,15 +145,15 @@
   },
   {
     "title": "5 Affordable Housing Programs Most People Don't Know About",
-    "description": "Section 8 isn't your only option. Here are five federal housing programs — including HUD-VASH, Section 811, SSVF, Section 202, and LIHTC — that could help you find affordable housing.",
+    "description": "Section 8 isn't your only option. Here are five federal housing programs \u2014 including HUD-VASH, Section 811, SSVF, Section 202, and LIHTC \u2014 that could help you find affordable housing.",
     "url": "blog/posts/five-programs-you-dont-know.html",
     "date": "2026-03-10",
     "readTime": "9 min read",
     "tag": "Guide"
   },
   {
-    "title": "Section 8 Explained — What It Actually Is and How It Works",
-    "description": "A clear, no-nonsense breakdown of the Housing Choice Voucher program — what it is, who qualifies, how the waiting list works, and tips from someone who's been in the trenches.",
+    "title": "Section 8 Explained \u2014 What It Actually Is and How It Works",
+    "description": "A clear, no-nonsense breakdown of the Housing Choice Voucher program \u2014 what it is, who qualifies, how the waiting list works, and tips from someone who's been in the trenches.",
     "url": "blog/posts/section-8-explained.html",
     "date": "2026-03-07",
     "readTime": "10 min read",
@@ -153,7 +161,7 @@
   },
   {
     "title": "Welcome to Waythrough Project",
-    "description": "Why I started this project, how the resource finder works, and what you'll find here — free guides, tools, templates, and state-by-state resources.",
+    "description": "Why I started this project, how the resource finder works, and what you'll find here \u2014 free guides, tools, templates, and state-by-state resources.",
     "url": "blog/posts/welcome.html",
     "date": "2026-03-04",
     "readTime": "6 min read",
