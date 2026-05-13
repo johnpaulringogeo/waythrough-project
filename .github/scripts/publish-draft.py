@@ -37,15 +37,9 @@ def extract_meta(html):
     m["date"] = dp.group(1) if dp else "2026-01-01"
     rt = re.search(r'(\d+ min read)', html)
     m["readTime"] = rt.group(1) if rt else ""
-    # tag from <span class="blog-tag ...">Tag</span> or section-label vicinity
+    # tag from <span class="blog-tag ...">Tag</span>
     tag_match = re.search(r'class="blog-tag[^"]*">([^<]+)<', html)
-    if not tag_match:
-        tag_match = re.search(r'<span class="section-label">Blog</span>\s*<h1>[^<]+</h1>\s*<p class="page-meta">[^<]*</p>', html)
     m["tag"] = tag_match.group(1).strip() if tag_match else "Guide"
-    # try to get tag from page-meta line or breadcrumb
-    if m["tag"] == "Guide":
-        pm = re.search(r'class="page-meta">.*?·\s*([A-Za-z ]+?)\s*·', html)
-        # fallback: just use "Guide"
     return m
 
 def date_human(iso):
