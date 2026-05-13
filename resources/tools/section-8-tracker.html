@@ -310,7 +310,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers major PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 295 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -318,6 +318,9 @@
       ["Montgomery Housing Authority", "Montgomery", "AL", "closed", "(334) 262-4407", "https://mhatoday.org", "2–3 years", "Periodic lottery openings."],
       ["Huntsville Housing Authority", "Huntsville", "AL", "lottery", "(256) 539-0774", "https://huntsvillehousing.com", "1–3 years", "Uses lottery system. Check website for next application window."],
       ["Housing Authority of Tuscaloosa", "Tuscaloosa", "AL", "open", "(205) 758-5391", "https://tuscaloosahousing.org", "1–2 years", "Smaller list, applies online or in person."],
+      ["Dothan Housing Authority", "Dothan", "AL", "open", "(334) 794-6781", "https://www.dothanhousing.org", "6 months–1 year", "Southeast Alabama/Wiregrass region."],
+      ["Decatur Housing Authority", "Decatur", "AL", "open", "(256) 353-3761", "https://www.decaturhousing.com", "6 months–1 year", "North Alabama."],
+      ["Anniston Housing Authority", "Anniston", "AL", "open", "(256) 236-4431", "https://www.annistonhousing.org", "6 months–1 year", "East-central Alabama."],
 
       // ALASKA
       ["Alaska Housing Finance Corp", "Anchorage", "AK", "open", "(907) 338-6100", "https://www.ahfc.us", "1–2 years", "Statewide program. Serves most of Alaska outside Anchorage."],
@@ -366,6 +369,8 @@
       ["Hartford Housing Authority", "Hartford", "CT", "closed", "(860) 723-8400", "https://www.hartfordhousing.org", "3–5 years", "Check website for lottery announcements."],
       ["Housing Authority of City of Bridgeport", "Bridgeport", "CT", "lottery", "(203) 337-8900", "https://www.bridgeporthousing.org", "2–4 years", "Annual lottery."],
       ["Housing Authority of City of Stamford", "Stamford", "CT", "closed", "(203) 977-1400", "https://www.charteroakcommunities.org", "3–5 years", ""],
+      ["Waterbury Housing Authority", "Waterbury", "CT", "closed", "(203) 596-2640", "https://www.waterburyha.org", "2–3 years", "Central Connecticut."],
+      ["Norwalk Housing Authority", "Norwalk", "CT", "closed", "(203) 838-8471", "https://www.norwalkha.org", "2–4 years", "Fairfield County."],
 
       // DELAWARE
       ["Delaware State Housing Authority", "Dover", "DE", "lottery", "(302) 739-4263", "https://www.destatehousing.com", "1–3 years", "Statewide program. Lottery-based openings."],
@@ -373,6 +378,7 @@
 
       // DISTRICT OF COLUMBIA
       ["DC Housing Authority", "Washington", "DC", "closed", "(202) 535-1500", "https://www.dchousing.org", "5–10+ years", "Extremely long wait. Very rarely opens."],
+      ["DC Dept of Housing & Community Dev", "Washington", "DC", "closed", "(202) 442-7200", "https://dhcd.dc.gov", "3–5 years", "Local rent supplement and voucher programs."],
 
       // FLORIDA
       ["Miami-Dade Public Housing", "Miami", "FL", "closed", "(786) 469-4100", "https://www.miamidade.gov/housing", "5–8 years", "One of the longest waits in the state."],
@@ -404,11 +410,16 @@
 
       // HAWAII
       ["Hawaii Public Housing Authority", "Honolulu", "HI", "closed", "(808) 832-5960", "https://www.hpha.hawaii.gov", "5–10 years", "Statewide program. Extremely limited supply."],
+      ["County of Hawaii Office of Housing", "Hilo", "HI", "closed", "(808) 959-2326", "https://www.hawaiicounty.gov/departments/office-of-housing", "3–5 years", "Big Island. Very limited vouchers."],
+      ["Maui County Housing Division", "Wailuku", "HI", "closed", "(808) 270-7805", "https://www.mauicounty.gov/housing", "3–5 years", "Covers Maui, Molokai, and Lanai."],
+      ["Kauai County Housing Agency", "Lihue", "HI", "closed", "(808) 241-4444", "https://www.kauai.gov/housing", "3–5 years", "Small program. Rarely opens."],
 
       // IDAHO
       ["Boise City/Ada County Housing Authority", "Boise", "ID", "open", "(208) 345-4907", "https://bcacha.org", "1–2 years", "Accepting applications online."],
       ["Idaho Housing and Finance Assn", "Boise", "ID", "open", "(208) 331-4882", "https://www.idahohousing.com", "1–2 years", "Statewide program. Multiple lists."],
       ["Housing Authority of Pocatello", "Pocatello", "ID", "open", "(208) 233-0600", "https://www.pocatellohousing.com", "6 months–1 year", "Shorter waits. Open list."],
+      ["Twin Falls Housing Authority", "Twin Falls", "ID", "open", "(208) 733-6543", "https://www.twinfallshousing.org", "6 months–1 year", "Magic Valley area."],
+      ["Lewiston Housing Authority", "Lewiston", "ID", "open", "(208) 746-7041", "https://www.lewistonhousing.org", "6 months–1 year", "North-central Idaho."],
 
       // ILLINOIS
       ["Chicago Housing Authority", "Chicago", "IL", "closed", "(312) 742-8500", "https://www.thecha.org", "5–10+ years", "One of the longest waits in the nation. Lottery system."],
@@ -427,11 +438,16 @@
       ["Fort Wayne Housing Authority", "Fort Wayne", "IN", "open", "(260) 267-9300", "https://www.fwha.org", "1–2 years", "Open list. Apply online."],
       ["Housing Authority of South Bend", "South Bend", "IN", "open", "(574) 235-9346", "https://www.sbha.org", "1–2 years", ""],
       ["Evansville Housing Authority", "Evansville", "IN", "open", "(812) 428-8500", "https://www.evansvillehousing.org", "1–2 years", ""],
+      ["Gary Housing Authority", "Gary", "IN", "open", "(219) 882-0017", "https://www.garyhousing.org", "1–2 years", "Northwest Indiana near Chicago."],
+      ["Muncie Housing Authority", "Muncie", "IN", "open", "(765) 288-5484", "https://www.munciehousing.org", "6 months–1 year", "East-central Indiana."],
+      ["Hammond Housing Authority", "Hammond", "IN", "open", "(219) 932-0519", "https://www.hammondhousing.org", "1–2 years", "Lake County near Chicago."],
 
       // IOWA
       ["Des Moines Municipal Housing Agency", "Des Moines", "IA", "open", "(515) 323-8950", "https://www.dmmha.org", "1–2 years", "Accepting applications."],
       ["Cedar Rapids Housing Services", "Cedar Rapids", "IA", "open", "(319) 286-5872", "https://www.cedar-rapids.org/housing", "6 months–2 years", ""],
       ["Housing Authority of Iowa City", "Iowa City", "IA", "open", "(319) 356-5400", "https://www.icgov.org/housing", "1–2 years", ""],
+      ["Davenport Housing Authority", "Davenport", "IA", "open", "(563) 326-7831", "https://www.davenporthousing.com", "1–2 years", "Quad Cities area."],
+      ["Sioux City Housing Authority", "Sioux City", "IA", "open", "(712) 279-6286", "https://www.siouxcityha.org", "6 months–1 year", "Western Iowa."],
 
       // KANSAS
       ["Wichita Housing Authority", "Wichita", "KS", "open", "(316) 462-3700", "https://www.wichitahousing.org", "1–2 years", "Open list."],
@@ -442,11 +458,20 @@
       ["Louisville Metro Housing Authority", "Louisville", "KY", "closed", "(502) 569-3400", "https://www.lmha1.org", "2–4 years", "Periodic lottery openings."],
       ["Lexington Housing Authority", "Lexington", "KY", "lottery", "(859) 281-5060", "https://www.lexha.org", "1–3 years", "Lottery system."],
       ["Housing Authority of Bowling Green", "Bowling Green", "KY", "open", "(270) 782-1621", "https://www.bghousing.org", "1–2 years", ""],
+      ["Hopkinsville Housing Authority", "Hopkinsville", "KY", "open", "(270) 886-8469", "https://www.hopkinsvillehousing.org", "6 months–1 year", "Near Ft. Campbell. Western Kentucky."],
+      ["Paducah Housing Authority", "Paducah", "KY", "open", "(270) 443-6541", "https://www.paducahhousing.org", "6 months–1 year", "Far western Kentucky."],
+      ["Northern Kentucky Housing Authority", "Covington", "KY", "open", "(859) 261-0048", "https://www.nkyhousing.org", "1–2 years", "Serves Kenton, Campbell, and Boone counties."],
+      ["Housing Authority of Owensboro", "Owensboro", "KY", "open", "(270) 683-1461", "https://www.owensboroha.org", "6 months–1 year", "Smaller metro. Shorter waitlist."],
+      ["Ashland Housing Authority", "Ashland", "KY", "open", "(606) 324-6166", "https://www.ashlandhousing.org", "6 months–1 year", "Eastern Kentucky."],
 
       // LOUISIANA
       ["Housing Authority of New Orleans", "New Orleans", "LA", "closed", "(504) 670-3300", "https://www.hano.org", "3–5 years", "Lottery system."],
       ["Housing Authority of Baton Rouge", "Baton Rouge", "LA", "lottery", "(225) 923-8100", "https://www.ebrpha.org", "2–3 years", ""],
       ["Shreveport Housing Authority", "Shreveport", "LA", "open", "(318) 709-2800", "https://www.shreveportha.org", "1–2 years", ""],
+      ["Lafayette Housing Authority", "Lafayette", "LA", "open", "(337) 233-1327", "https://www.lhala.org", "1–2 years", "Serves Lafayette Parish."],
+      ["Lake Charles Housing Authority", "Lake Charles", "LA", "open", "(337) 439-8691", "https://www.lcha.org", "1–2 years", "Southwest Louisiana."],
+      ["Monroe Housing Authority", "Monroe", "LA", "open", "(318) 388-1500", "https://www.mhamonroe.org", "1–2 years", "Northeast Louisiana."],
+      ["Housing Authority of Kenner", "Kenner", "LA", "closed", "(504) 466-2301", "https://www.kennerha.org", "2–3 years", "New Orleans metro suburb."],
 
       // MAINE
       ["Portland Housing Authority", "Portland", "ME", "closed", "(207) 773-4753", "https://www.porthouse.org", "2–4 years", "High demand for Maine."],
@@ -456,6 +481,11 @@
       ["Housing Authority of Baltimore City", "Baltimore", "MD", "closed", "(410) 396-3232", "https://www.habc.org", "3–5 years", "Lottery-based. Very long wait."],
       ["Housing Opportunities Commission", "Kensington", "MD", "closed", "(240) 627-9400", "https://www.hocmc.org", "3–5 years", "Covers Montgomery County."],
       ["Housing Authority of Prince George's County", "Largo", "MD", "closed", "(301) 883-5500", "https://www.princegeorgescountymd.gov/housing", "3–5 years", ""],
+      ["Baltimore County Housing Office", "Towson", "MD", "closed", "(410) 887-4200", "https://www.baltimorecountymd.gov/departments/housing", "2–4 years", "Separate from Baltimore City. High demand."],
+      ["Anne Arundel County Housing Commission", "Glen Burnie", "MD", "closed", "(410) 222-6200", "https://www.aacounty.org/departments/housing", "2–3 years", "Serves Annapolis area."],
+      ["Howard County Housing Commission", "Columbia", "MD", "closed", "(443) 518-7800", "https://www.hchcmd.org", "2–4 years", "Between Baltimore and DC."],
+      ["Harford County Housing Agency", "Bel Air", "MD", "closed", "(410) 638-3045", "https://www.harfordcountymd.gov/housing", "1–3 years", "Northeast of Baltimore."],
+      ["Frederick County Housing Authority", "Frederick", "MD", "open", "(301) 600-2981", "https://www.cityoffrederick.com/housing", "1–2 years", "Western Maryland."],
 
       // MASSACHUSETTS
       ["Boston Housing Authority", "Boston", "MA", "closed", "(617) 988-4000", "https://www.bostonhousing.org", "5–10+ years", "One of the longest waits in the Northeast."],
@@ -478,16 +508,24 @@
       ["St. Paul Public Housing Agency", "St. Paul", "MN", "closed", "(651) 298-4842", "https://www.stpha.org", "3–5 years", ""],
       ["Dakota County CDA", "Eagan", "MN", "closed", "(651) 675-4400", "https://www.dakotacda.org", "2–4 years", ""],
       ["Duluth Housing & Redevelopment", "Duluth", "MN", "open", "(218) 722-7048", "https://www.duluthhra.org", "1–2 years", "Northern MN. Shorter wait."],
+      ["Rochester Housing & Redevelopment", "Rochester", "MN", "open", "(507) 328-2000", "https://www.rochesterhra.org", "1–2 years", "Home of Mayo Clinic. Growing metro."],
+      ["St. Cloud Housing & Redevelopment", "St. Cloud", "MN", "open", "(320) 252-0880", "https://www.stcloudhra.com", "1–2 years", "Central Minnesota."],
 
       // MISSISSIPPI
       ["Mississippi Regional Housing Authority", "Jackson", "MS", "open", "(601) 354-7360", "https://www.mrha8.org", "6 months–2 years", "Covers multiple counties. Shorter waits than urban areas."],
       ["Jackson Housing Authority", "Jackson", "MS", "open", "(601) 362-0885", "https://www.jacksonhousing.org", "1–2 years", ""],
       ["Hattiesburg Housing Authority", "Hattiesburg", "MS", "open", "(601) 545-0260", "https://www.hattiesburghousing.org", "6 months–1 year", "Shorter waits."],
+      ["Gulfport Housing Authority", "Gulfport", "MS", "open", "(228) 868-3805", "https://www.gulfporthousing.org", "6 months–1 year", "Gulf Coast."],
+      ["Meridian Housing Authority", "Meridian", "MS", "open", "(601) 693-1561", "https://www.meridianhousing.org", "6 months–1 year", "East-central Mississippi."],
 
       // MISSOURI
       ["Housing Authority of Kansas City MO", "Kansas City", "MO", "closed", "(816) 968-4100", "https://www.hakc.org", "2–4 years", ""],
       ["St. Louis Housing Authority", "St. Louis", "MO", "lottery", "(314) 531-4770", "https://www.slha.org", "2–5 years", "Lottery-based system."],
       ["Springfield Housing Authority", "Springfield", "MO", "open", "(417) 866-3183", "https://www.springfieldmo.gov/housing", "1–2 years", ""],
+      ["St. Louis County Housing Authority", "St. Ann", "MO", "closed", "(314) 428-3200", "https://www.stlouiscountyha.org", "2–4 years", "Separate from St. Louis City. Covers county suburbs."],
+      ["Housing Authority of Columbia MO", "Columbia", "MO", "open", "(573) 443-2556", "https://www.columbiaha.com", "1–2 years", "University town. Mid-Missouri."],
+      ["Housing Authority of Independence", "Independence", "MO", "open", "(816) 325-7370", "https://www.ci.independence.mo.us/housing", "1–2 years", "Kansas City suburb."],
+      ["St. Joseph Housing Authority", "St. Joseph", "MO", "open", "(816) 236-4400", "https://www.sjha.org", "6 months–1 year", "Northwest Missouri."],
 
       // MONTANA
       ["Montana Housing Authority", "Helena", "MT", "open", "(406) 206-4741", "https://www.housing.mt.gov", "6 months–2 years", "Statewide program. Multiple open lists."],
@@ -496,10 +534,14 @@
       // NEBRASKA
       ["Omaha Housing Authority", "Omaha", "NE", "open", "(402) 444-6900", "https://www.omahahousing.org", "1–2 years", "Accepting applications."],
       ["Lincoln Housing Authority", "Lincoln", "NE", "open", "(402) 434-5500", "https://www.l-housing.com", "1–2 years", "Open list."],
+      ["Grand Island Housing Authority", "Grand Island", "NE", "open", "(308) 385-5580", "https://www.gihousing.org", "6 months–1 year", "Central Nebraska. Shorter waits."],
+      ["Housing Authority of Hastings", "Hastings", "NE", "open", "(402) 463-1187", "https://www.hastingshousing.org", "6 months–1 year", "South-central Nebraska."],
 
       // NEVADA
       ["Southern Nevada Regional Housing Authority", "Las Vegas", "NV", "closed", "(702) 922-6900", "https://www.snvrha.org", "3–5 years", "Covers Las Vegas metro area."],
       ["Reno Housing Authority", "Reno", "NV", "lottery", "(775) 329-3630", "https://www.renoha.org", "2–3 years", "Lottery-based."],
+      ["Nevada Rural Housing Authority", "Carson City", "NV", "open", "(775) 887-1795", "https://www.nvrural.org", "1–2 years", "Covers rural counties outside Las Vegas and Reno."],
+      ["Henderson Housing Authority", "Henderson", "NV", "closed", "(702) 267-2900", "https://www.cityofhenderson.com/housing", "2–3 years", "Las Vegas suburb."],
 
       // NEW HAMPSHIRE
       ["New Hampshire Housing Finance Authority", "Bedford", "NH", "open", "(603) 472-8623", "https://www.nhhfa.org", "1–3 years", "Statewide program."],
@@ -563,6 +605,9 @@
       ["Oklahoma City Housing Authority", "Oklahoma City", "OK", "open", "(405) 239-7551", "https://www.ochanet.org", "1–2 years", "Open list."],
       ["Tulsa Housing Authority", "Tulsa", "OK", "open", "(918) 581-5600", "https://www.tulsahousing.org", "1–2 years", ""],
       ["Housing Authority of Norman", "Norman", "OK", "open", "(405) 329-0933", "https://www.normanhousing.org", "6 months–1 year", ""],
+      ["Lawton Housing Authority", "Lawton", "OK", "open", "(580) 353-7342", "https://www.lawtonha.org", "6 months–1 year", "Southwest Oklahoma near Ft. Sill."],
+      ["Housing Authority of Enid", "Enid", "OK", "open", "(580) 234-4557", "https://www.enidha.org", "6 months–1 year", "Northwest Oklahoma."],
+      ["Muskogee Housing Authority", "Muskogee", "OK", "open", "(918) 687-6301", "https://www.muskogeehousing.org", "6 months–1 year", "Eastern Oklahoma."],
 
       // OREGON
       ["Home Forward (Portland)", "Portland", "OR", "closed", "(503) 802-8300", "https://www.homeforward.org", "3–5 years", "Largest PHA in Oregon. Lottery system."],
@@ -590,6 +635,10 @@
       ["Charleston Housing Authority", "Charleston", "SC", "lottery", "(843) 720-3956", "https://www.chahousing.org", "1–3 years", ""],
       ["Columbia Housing Authority", "Columbia", "SC", "open", "(803) 254-3886", "https://www.columbiahousingauthority.org", "1–2 years", ""],
       ["Housing Authority of Greenville", "Greenville", "SC", "open", "(864) 467-4250", "https://www.ghasc.org", "1–2 years", ""],
+      ["Spartanburg Housing Authority", "Spartanburg", "SC", "open", "(864) 598-6000", "https://www.shasc.org", "1–2 years", "Upstate SC."],
+      ["Myrtle Beach Housing Authority", "Myrtle Beach", "SC", "open", "(843) 918-1060", "https://www.mbhousing.org", "1–2 years", "Horry County coastal area."],
+      ["North Charleston Housing Authority", "North Charleston", "SC", "lottery", "(843) 747-1793", "https://www.nchasc.org", "1–3 years", "Charleston metro area."],
+      ["Anderson Housing Authority", "Anderson", "SC", "open", "(864) 260-5078", "https://www.andersonha.org", "6 months–1 year", "Western SC."],
 
       // SOUTH DAKOTA
       ["South Dakota Housing Development Authority", "Pierre", "SD", "open", "(605) 773-3181", "https://www.sdhda.org", "6 months–1 year", "Statewide. Multiple open lists."],
@@ -601,6 +650,9 @@
       ["Memphis Housing Authority", "Memphis", "TN", "closed", "(901) 544-1199", "https://www.memphisha.org", "2–4 years", ""],
       ["Knoxville Housing Authority", "Knoxville", "TN", "open", "(865) 403-1100", "https://www.kcdc.org", "1–2 years", ""],
       ["Chattanooga Housing Authority", "Chattanooga", "TN", "open", "(423) 752-4000", "https://www.chahousing.com", "1–2 years", ""],
+      ["Clarksville Housing Authority", "Clarksville", "TN", "open", "(931) 648-5651", "https://www.clarksvillehousing.org", "1–2 years", "Near Ft. Campbell. Military-adjacent community."],
+      ["Jackson Housing Authority", "Jackson", "TN", "open", "(731) 421-2490", "https://www.jacksonhousing.org", "6 months–1 year", "West Tennessee."],
+      ["Murfreesboro Housing Authority", "Murfreesboro", "TN", "open", "(615) 893-4160", "https://www.murfreesborohousing.org", "1–2 years", "Nashville suburb. Growing fast."],
 
       // TEXAS
       ["Houston Housing Authority", "Houston", "TX", "closed", "(713) 260-0300", "https://www.housingforhouston.com", "3–5 years", "Lottery-based."],
@@ -652,6 +704,10 @@
       ["Housing Authority of City of Milwaukee", "Milwaukee", "WI", "closed", "(414) 286-5885", "https://www.hacm.org", "2–4 years", ""],
       ["Madison Community Development Authority", "Madison", "WI", "lottery", "(608) 266-4675", "https://www.cda.cityofmadison.com", "1–3 years", "Lottery-based."],
       ["Green Bay Housing Authority", "Green Bay", "WI", "open", "(920) 448-3400", "https://www.greenbaywi.gov/housing", "1–2 years", ""],
+      ["Racine Housing Authority", "Racine", "WI", "open", "(262) 636-9471", "https://www.racinehousing.org", "1–2 years", "Southeast Wisconsin."],
+      ["Kenosha Housing Authority", "Kenosha", "WI", "open", "(262) 653-4120", "https://www.kenoshahousing.org", "1–2 years", "Between Milwaukee and Chicago."],
+      ["Dane County Housing Authority", "Madison", "WI", "lottery", "(608) 224-3636", "https://www.danecountyhousing.org", "1–3 years", "Covers Dane County outside Madison."],
+      ["Housing Authority of Appleton", "Appleton", "WI", "open", "(920) 225-1710", "https://www.appletonhousing.org", "1–2 years", "Fox Valley area."],
 
       // WYOMING
       ["Wyoming Community Development Authority", "Casper", "WY", "open", "(307) 265-0603", "https://www.wyomingcda.com", "6 months–1 year", "Statewide. Multiple open lists."],
