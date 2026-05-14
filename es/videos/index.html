@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQ0HKFH50D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
+    <title>Biblioteca de Videos — Waythrough Project</title>
+    <meta name="description" content="Mira videos cortos y prácticos para aprender sobre vivienda asequible, Sección 8, HUD-VASH, derechos del inquilino y más. Guía gratuita.">
+    <meta property="og:title" content="Biblioteca de Videos — Waythrough Project">
+    <meta property="og:description" content="Mira videos cortos y prácticos para aprender sobre vivienda asequible, Sección 8, HUD-VASH, derechos del inquilino y más. Guía gratuita.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/es/videos/">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Biblioteca de Videos — Waythrough Project">
+    <meta name="twitter:description" content="Mira videos cortos y prácticos para aprender sobre vivienda asequible, Sección 8, HUD-VASH, derechos del inquilino y más.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/es/videos/">
+    <link rel="alternate" hreflang="en" href="https://waythroughproject.com/videos/">
+    <link rel="alternate" hreflang="es" href="https://waythroughproject.com/es/videos/">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../../css/style.css?v=26">
+    <script src="../../js/components.js?v=23" defer></script>
+    <style>
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-bottom: 60px;
+        }
+
+        @media (min-width: 768px) {
+            .video-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .video-card {
+            border-radius: var(--radius);
+            overflow: hidden;
+            background: #fff;
+            border: 1px solid var(--color-border);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .video-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .video-placeholder {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background: linear-gradient(135deg, var(--color-primary-light) 0%, #e0e7ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .video-play-btn {
+            width: 60px;
+            height: 60px;
+            background: var(--color-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .video-card:hover .video-play-btn {
+            background: var(--color-primary-dark);
+            transform: scale(1.1);
+        }
+
+        .video-play-btn svg {
+            width: 24px;
+            height: 24px;
+            fill: #fff;
+        }
+
+        .video-placeholder-text {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            font-weight: 500;
+        }
+
+        .video-card-body {
+            padding: 24px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .video-card-body h3 {
+            font-size: 1.1rem;
+            margin-top: 0;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .video-card-body p {
+            font-size: 0.95rem;
+            color: var(--color-text-light);
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+
+        .social-section {
+            padding: 60px 24px;
+            border-top: 1px solid var(--color-border);
+            text-align: center;
+        }
+
+        .social-section h2 {
+            margin-bottom: 16px;
+        }
+
+        .social-section p {
+            color: var(--color-text-light);
+            margin-bottom: 32px;
+            max-width: 640px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--color-primary);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .social-btn:hover {
+            background: var(--color-primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .social-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        .page-header {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            color: #fff;
+            padding: 80px 24px;
+            margin-bottom: 60px;
+        }
+
+        .page-header .section-label {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+            margin-bottom: 16px;
+        }
+
+        .page-header .section-title {
+            color: #fff;
+            margin-bottom: 16px;
+        }
+
+        .page-header .section-subtitle {
+            color: rgba(255,255,255,0.9);
+        }
+    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://waythroughproject.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Videos"
+    }
+  ]
+}
+    </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Biblioteca de Videos",
+  "description": "Guías en video que explican programas de vivienda asequible y cómo navegar el sistema.",
+  "url": "https://waythroughproject.com/es/videos/"
+}
+</script>
+</head>
+<body>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../">Inicio</a><span class="sep">/</span><span class="current">Videos</span></div></nav>
+    <main id="main-content">
+        <!-- Encabezado de Página -->
+        <section class="page-header">
+            <div class="container">
+                <span class="section-label">Biblioteca de Videos</span>
+                <h1 class="section-title">Mira y Aprende</h1>
+                <p class="section-subtitle">Videos cortos y prácticos para ayudarte a entender los programas de vivienda asequible, navegar solicitudes y conocer tus derechos.</p>
+            </div>
+        </section>
+
+        <!-- Cuadrícula de Videos -->
+        <section class="container fade-in" style="padding: 0 24px;">
+            <h2 class="sr-only">Videos Destacados</h2>
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>Sección 8 en 60 Segundos</h3>
+                        <p>Obtén un resumen rápido de qué es la Sección 8, cómo funciona y si podría ser adecuada para ti.</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>Cómo Funciona Realmente HUD-VASH</h3>
+                        <p>Un recorrido paso a paso del programa HUD-VASH para veteranos, desde la elegibilidad hasta la firma de tu contrato.</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>¿El Propietario Dijo No? Conoce Tus Derechos</h3>
+                        <p>Qué puedes hacer si un propietario deniega tu solicitud. Aprende sobre las leyes de vivienda justa y tus protecciones legales.</p>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>Documentos que Necesitas Antes de Solicitar</h3>
+                        <p>Un recorrido práctico del papeleo y documentos que necesitarás para solicitar asistencia de vivienda.</p>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>Vivienda de Emergencia: Qué Hacer Ahora Mismo</h3>
+                        <p>Si enfrentas la falta de vivienda, este video cubre recursos inmediatos y opciones de vivienda de emergencia disponibles para ti.</p>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="video-play-btn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </div>
+                        <span class="video-placeholder-text">Video próximamente</span>
+                    </div>
+                    <div class="video-card-body">
+                        <h3>Protecciones VAWA para Sobrevivientes de VD</h3>
+                        <p>Aprende sobre las protecciones disponibles bajo VAWA para sobrevivientes de violencia doméstica que buscan vivienda segura.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section class="container social-section fade-in">
+            <h2 class="section-title">Síguenos para Actualizaciones</h2>
+            <p>Nuevos videos, guías y recursos se publican regularmente. Mantente conectado en redes sociales para la información más reciente sobre vivienda y consejos.</p>
+            <div class="social-links">
+                <span class="social-btn" role="link" aria-label="YouTube — próximamente" title="YouTube — próximamente">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/><polygon points="9.545 15.568 15.818 12 9.545 8.432" fill="#fff"/></svg>
+                </span>
+                <span class="social-btn" role="link" aria-label="Instagram — próximamente" title="Instagram — próximamente">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                </span>
+                <span class="social-btn" role="link" aria-label="TikTok — próximamente" title="TikTok — próximamente">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                </span>
+                <span class="social-btn" role="link" aria-label="Facebook — próximamente" title="Facebook — próximamente">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
