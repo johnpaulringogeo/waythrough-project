@@ -246,7 +246,7 @@ function renderNav() {
         { href: `${root}blog/`, text: 'Blog' },
         { href: `${root}resources/guides/`, text: 'Guides' },
         { href: `${root}resources/ask`, text: 'Ask a Question' },
-        { href: `${root}#about`, text: 'About' },
+        { href: `${root}index#about`, text: 'About' },
     ];
 
     const navLinksHTML = navLinks.map(l => `<li><a href="${l.href}">${l.text}</a></li>`).join('\n                ');
@@ -254,7 +254,7 @@ function renderNav() {
     const themeLabel = isSpanish ? 'Cambiar modo oscuro' : 'Toggle dark mode';
     const menuLabel = isSpanish ? 'Abrir menú' : 'Toggle menu';
     const langSwitchHTML = isSpanish
-        ? `<a href="${root}" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
+        ? `<a href="${root}index" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
         : `<a href="${root}es/" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
 
     const nav = document.createElement('nav');
@@ -441,7 +441,8 @@ function renderFooter() {
                     <ul>
                         <li><a href="${root}es/recursos/preguntas-frecuentes">Preguntas Frecuentes</a></li>
                         <li><a href="${root}es/recursos/respuestas-de-la-comunidad">Respuestas</a></li>
-                        <li><a href="${root}">English</a></li>
+                        <li><a href="${root}index">English</a></li>
+                        <li><a href="${root}blog/">Blog</a></li>
                         <li><span class="footer-link-placeholder">YouTube — próximamente</span></li>
                         <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
                     </ul>
@@ -494,10 +495,10 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="${root}blog/">Blog</a></li>
                         <li><a href="${root}resources/ask">Ask a Question</a></li>
                         <li><a href="${root}resources/community-answers">Community Q&A</a></li>
                         <li><a href="${root}es/">Español</a></li>
+                        <li><a href="${root}blog/">Blog</a></li>
                         <li><span class="footer-link-placeholder">YouTube — coming soon</span></li>
                         <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
                     </ul>
@@ -522,11 +523,11 @@ function renderAskCTA() {
     // Don't show on the ask page, homepage, or top-level index pages
     const path = window.location.pathname;
     if (path.includes('/ask')) return;
-    if (path === '/' || path === '/index.html') return;
+    if (path === '/' || path === '/') return;
     // Skip resource index and blog index (but not their subpages)
     if (path === '/resources/' || path === '/resources/') return;
     if (path === '/blog/' || path === '/blog/') return;
-    if (path === '/videos/' || path === '/videos/index.html') return;
+    if (path === '/videos/' || path === '/videos/') return;
 
     const main = document.querySelector('main');
     if (!main) return;
@@ -691,8 +692,8 @@ function initShared() {
         // Only handle if same page (empty path, or path matches current page)
         var isSamePage = !pagePath
             || pagePath === window.location.pathname
-            || pagePath === window.location.pathname.replace(/\/$/, '') + '/index.html'
-            || pagePath.replace(/^\.\//, '') === 'index.html' && window.location.pathname === '/';
+            || pagePath === window.location.pathname.replace(/\/$/, '') + '/'
+            || pagePath.replace(/^\.\//, '') === 'index' && window.location.pathname === '/';
         if (isSamePage && document.querySelector(hash)) {
             e.preventDefault();
             history.pushState(null, '', hash);
@@ -713,4 +714,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (main && !main.id) {
         main.id = 'main-content';
     } else if (!document.getElementById('main-content') && main) {
-        // main already has an id, add a                         
+        // main already has an id, add an anchor before it
+        const anchor = document.createElement('div');
+        anchor.id = 'main-content';
+        main.prepend(anchor);
+    }
+
+    initShared();
+});
