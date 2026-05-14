@@ -254,8 +254,8 @@ function renderNav() {
     const themeLabel = isSpanish ? 'Cambiar modo oscuro' : 'Toggle dark mode';
     const menuLabel = isSpanish ? 'Abrir menú' : 'Toggle menu';
     const langSwitchHTML = isSpanish
-        ? `<a href="${root}index.html" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
-        : `<a href="${root}es/index.html" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
+        ? `<a href="${root}" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
+        : `<a href="${root}es/" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
 
     const nav = document.createElement('nav');
     nav.className = 'nav';
@@ -263,7 +263,7 @@ function renderNav() {
     nav.setAttribute('aria-label', isSpanish ? 'Navegación principal' : 'Main navigation');
     nav.innerHTML = `
         <div class="container nav-inner">
-            <a href="${isSpanish ? root + 'es/index.html' : root + 'index.html'}" class="nav-logo">
+            <a href="${isSpanish ? root + 'es/' : root}" class="nav-logo">
                 <picture aria-hidden="true">
                     <source srcset="${root}images/logo-icon.webp" type="image/webp">
                     <img src="${root}images/logo-icon.png" alt="" class="nav-logo-img" width="72" height="39">
@@ -421,27 +421,27 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Temas</h4>
                     <ul>
-                        <li><a href="${root}es/recursos/index.html">Recursos</a></li>
-                        <li><a href="${root}es/recursos/beneficios.html">Beneficios</a></li>
-                        <li><a href="${root}es/recursos/derechos-del-inquilino.html">Derechos del Inquilino</a></li>
-                        <li><a href="${root}es/recursos/vivienda-de-emergencia.html">Vivienda de Emergencia</a></li>
+                        <li><a href="${root}es/recursos/">Recursos</a></li>
+                        <li><a href="${root}es/recursos/beneficios">Beneficios</a></li>
+                        <li><a href="${root}es/recursos/derechos-del-inquilino">Derechos del Inquilino</a></li>
+                        <li><a href="${root}es/recursos/vivienda-de-emergencia">Vivienda de Emergencia</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Guías</h4>
                     <ul>
-                        <li><a href="${root}es/recursos/guias/como-solicitar-seccion-8.html">Solicitar Sección 8</a></li>
-                        <li><a href="${root}es/recursos/guias/lista-de-documentos.html">Lista de Documentos</a></li>
-                        <li><a href="${root}es/recursos/guias/como-solicitar-hud-vash.html">Solicitar HUD-VASH</a></li>
-                        <li><a href="${root}es/recursos/guias/estrategias-lista-espera.html">Lista de Espera</a></li>
+                        <li><a href="${root}es/recursos/guias/como-solicitar-seccion-8">Solicitar Sección 8</a></li>
+                        <li><a href="${root}es/recursos/guias/lista-de-documentos">Lista de Documentos</a></li>
+                        <li><a href="${root}es/recursos/guias/como-solicitar-hud-vash">Solicitar HUD-VASH</a></li>
+                        <li><a href="${root}es/recursos/guias/estrategias-lista-espera">Lista de Espera</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Conectar</h4>
                     <ul>
-                        <li><a href="${root}es/recursos/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-                        <li><a href="${root}es/recursos/respuestas-de-la-comunidad.html">Respuestas</a></li>
-                        <li><a href="${root}index.html">English</a></li>
+                        <li><a href="${root}es/recursos/preguntas-frecuentes">Preguntas Frecuentes</a></li>
+                        <li><a href="${root}es/recursos/respuestas-de-la-comunidad">Respuestas</a></li>
+                        <li><a href="${root}">English</a></li>
                         <li><span class="footer-link-placeholder">YouTube — próximamente</span></li>
                         <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
                     </ul>
@@ -450,9 +450,9 @@ function renderFooter() {
             <div class="footer-bottom">
                 <p>&copy; ${new Date().getFullYear()} Waythrough Project. Todos los derechos reservados.</p>
                 <p>
-                    <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accesibilidad</a>
-                    <a href="${root}privacy.html" style="margin-right:16px;">Privacidad</a>
-                    <a href="${root}terms.html">Términos de Uso</a>
+                    <a href="${root}resources/accessibility" style="margin-right:16px;">Accesibilidad</a>
+                    <a href="${root}privacy" style="margin-right:16px;">Privacidad</a>
+                    <a href="${root}terms">Términos de Uso</a>
                 </p>
             </div>
         </div>
@@ -473,31 +473,31 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Topics</h4>
                     <ul>
-                        <li><a href="${root}resources/index.html">Housing Programs</a></li>
-                        <li><a href="${root}resources/benefits.html">Benefits & Support</a></li>
-                        <li><a href="${root}for-landlords/index.html">For Landlords</a></li>
-                        <li><a href="${root}stories/index.html">Success Stories</a></li>
-                        <li><a href="${root}resources/for-professionals.html">For Professionals</a></li>
+                        <li><a href="${root}resources/">Housing Programs</a></li>
+                        <li><a href="${root}resources/benefits">Benefits & Support</a></li>
+                        <li><a href="${root}for-landlords/">For Landlords</a></li>
+                        <li><a href="${root}stories/">Success Stories</a></li>
+                        <li><a href="${root}resources/for-professionals">For Professionals</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Guides & Tools</h4>
                     <ul>
-                        <li><a href="${root}resources/guides/index.html">All Guides</a></li>
-                        <li><a href="${root}resources/guides/how-to-apply-section-8.html">Apply for Section 8</a></li>
-                        <li><a href="${root}resources/guides/document-checklist.html">Document Checklist</a></li>
-                        <li><a href="${root}resources/tools/eligibility-screener.html">Eligibility Screener</a></li>
-                        <li><a href="${root}resources/states/index.html">State Resources</a></li>
-                        <li><a href="${root}resources/templates/index.html">Letter Templates</a></li>
+                        <li><a href="${root}resources/guides/">All Guides</a></li>
+                        <li><a href="${root}resources/guides/how-to-apply-section-8">Apply for Section 8</a></li>
+                        <li><a href="${root}resources/guides/document-checklist">Document Checklist</a></li>
+                        <li><a href="${root}resources/tools/eligibility-screener">Eligibility Screener</a></li>
+                        <li><a href="${root}resources/states/">State Resources</a></li>
+                        <li><a href="${root}resources/templates/">Letter Templates</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="${root}blog/index.html">Blog</a></li>
-                        <li><a href="${root}resources/ask.html">Ask a Question</a></li>
-                        <li><a href="${root}resources/community-answers.html">Community Q&A</a></li>
-                        <li><a href="${root}es/index.html">Español</a></li>
+                        <li><a href="${root}blog/">Blog</a></li>
+                        <li><a href="${root}resources/ask">Ask a Question</a></li>
+                        <li><a href="${root}resources/community-answers">Community Q&A</a></li>
+                        <li><a href="${root}es/">Español</a></li>
                         <li><span class="footer-link-placeholder">YouTube — coming soon</span></li>
                         <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
                     </ul>
@@ -506,9 +506,9 @@ function renderFooter() {
             <div class="footer-bottom">
                 <p>&copy; ${new Date().getFullYear()} Waythrough Project. All rights reserved.</p>
                 <p>
-                    <a href="${root}resources/accessibility.html" style="margin-right:16px;">Accessibility</a>
-                    <a href="${root}privacy.html" style="margin-right:16px;">Privacy Policy</a>
-                    <a href="${root}terms.html">Terms of Use</a>
+                    <a href="${root}resources/accessibility" style="margin-right:16px;">Accessibility</a>
+                    <a href="${root}privacy" style="margin-right:16px;">Privacy Policy</a>
+                    <a href="${root}terms">Terms of Use</a>
                 </p>
             </div>
         </div>
@@ -539,7 +539,7 @@ function renderAskCTA() {
                 <strong>¿Todavía tienes preguntas?</strong>
                 <p>Si algo en esta página no tiene sentido o no estás seguro de cómo aplica a tu situación, pregúntanos. Leemos cada pregunta.</p>
             </div>
-            <a href="${root}es/recursos/preguntas-frecuentes.html" class="ask-cta-link">Hacer una Pregunta ${ICONS.arrow}</a>
+            <a href="${root}es/recursos/preguntas-frecuentes" class="ask-cta-link">Hacer una Pregunta ${ICONS.arrow}</a>
         </div>
     ` : `
         <div class="ask-cta-inner">
@@ -547,7 +547,7 @@ function renderAskCTA() {
                 <strong>Still have questions?</strong>
                 <p>If something on this page didn't make sense or you're not sure how it applies to your situation, ask us. We read every question.</p>
             </div>
-            <a href="${root}resources/ask.html" class="ask-cta-link">Ask a Question ${ICONS.arrow}</a>
+            <a href="${root}resources/ask" class="ask-cta-link">Ask a Question ${ICONS.arrow}</a>
         </div>
     `;
     main.append(cta);
@@ -713,4 +713,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (main && !main.id) {
         main.id = 'main-content';
     } else if (!document.getElementById('main-content') && main) {
-        // main already has an id, add a
+        // main already has an id, add a                         
