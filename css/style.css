@@ -1594,20 +1594,4 @@ textarea {
     main, section { max-width: 100%; padding: 0 0.5in; margin: 0; }
 
     /* Adjust image sizing */
-    img { max-width: 100%; height: auto; }
-
-    /* Remove borders and backgrounds for cleaner print */
-    input, textarea, select { border: 1pt solid #000; }
-
-    /* Responsive grid fallback */
-    .resource-grid,
-    .guides-grid,
-    .topics-grid,
-    .pop-grid,
-    .blog-grid,
-    .video-grid { grid-template-columns: 1fr; }
-
-    /* Form styling for print */
-    .form-group { margin-bottom: 12pt; }
-    label { font-weight: bold; display: block; margin-bottom: 4pt; }
-}
+    img { max-widt

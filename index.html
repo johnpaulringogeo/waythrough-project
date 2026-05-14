@@ -33,7 +33,7 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
     <link rel="stylesheet" href="css/style.css?v=26">
-    <script src="js/components.js?v=20" defer></script>
+    <script src="js/components.js?v=21" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -292,46 +292,28 @@
     <div class="container">
         <h2>From the Blog</h2>
         <p class="section-desc">Personal insights and practical advice from someone who's worked inside the system.</p>
-        <div class="blog-list" id="blog-latest"></div>
+        <div class="blog-list" id="blog-latest">
+            <a href="blog/posts/how-section-8-inspections-work.html" class="blog-item">
+                <div class="blog-item-meta">May 13, 2026 \u00b7 8 min read</div>
+                <h3>How Section 8 Inspections Work (And How to Pass Yours)</h3>
+                <p>HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.</p>
+            </a>
+            <a href="blog/posts/renting-with-eviction-record.html" class="blog-item">
+                <div class="blog-item-meta">May 4, 2026 \u00b7 8 min read</div>
+                <h3>Renting With an Eviction on Your Record: What Actually Works</h3>
+                <p>An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.</p>
+            </a>
+            <a href="blog/posts/income-went-up-on-section-8.html" class="blog-item">
+                <div class="blog-item-meta">April 30, 2026 \u00b7 8 min read</div>
+                <h3>My Income Went Up on Section 8 \u2014 Will I Lose My Voucher?</h3>
+                <p>A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.</p>
+            </a>
+        </div>
         <div class="section-more">
             <a href="blog/">Read all posts &rarr;</a>
         </div>
     </div>
 </section>
-<script>
-(function() {
-    var container = document.getElementById('blog-latest');
-    if (!container) return;
-
-    fetch('blog/posts.json')
-        .then(function(r) { return r.json(); })
-        .then(function(posts) {
-            posts.sort(function(a, b) { return b.date.localeCompare(a.date); });
-            var latest = posts.slice(0, 3);
-            var html = '';
-            var months = ['January','February','March','April','May','June',
-                          'July','August','September','October','November','December'];
-            latest.forEach(function(post) {
-                var parts = post.date.split('-');
-                var month = months[parseInt(parts[1], 10) - 1];
-                var day = parseInt(parts[2], 10);
-                var year = parts[0];
-                var dateStr = month + ' ' + day + ', ' + year;
-                var meta = dateStr;
-                if (post.readTime) meta += ' \u00b7 ' + post.readTime;
-                html += '<a href="' + post.url + '" class="blog-item">'
-                      + '<div class="blog-item-meta">' + meta + '</div>'
-                      + '<h3>' + post.title + '</h3>'
-                      + '<p>' + post.description + '</p>'
-                      + '</a>';
-            });
-            container.innerHTML = html;
-        })
-        .catch(function() {
-            container.innerHTML = '<p>Visit the <a href="blog/">blog</a> to see our latest posts.</p>';
-        });
-})();
-</script>
 
 <!-- ===== ASK A QUESTION ===== -->
 <section class="ask-cta" id="ask">
@@ -360,3 +342,4 @@
 
 </body>
 </html>
+                                                                                          

@@ -483,6 +483,7 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Guides & Tools</h4>
                     <ul>
+                        <li><a href="${root}resources/guides/index.html">All Guides</a></li>
                         <li><a href="${root}resources/guides/how-to-apply-section-8.html">Apply for Section 8</a></li>
                         <li><a href="${root}resources/guides/document-checklist.html">Document Checklist</a></li>
                         <li><a href="${root}resources/tools/eligibility-screener.html">Eligibility Screener</a></li>
@@ -493,6 +494,7 @@ function renderFooter() {
                 <div class="footer-col">
                     <h4>Connect</h4>
                     <ul>
+                        <li><a href="${root}blog/index.html">Blog</a></li>
                         <li><a href="${root}resources/ask.html">Ask a Question</a></li>
                         <li><a href="${root}resources/community-answers.html">Community Q&A</a></li>
                         <li><a href="${root}es/index.html">Español</a></li>
@@ -711,11 +713,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (main && !main.id) {
         main.id = 'main-content';
     } else if (!document.getElementById('main-content') && main) {
-        // main already has an id, add an anchor before it
-        const anchor = document.createElement('div');
-        anchor.id = 'main-content';
-        main.prepend(anchor);
-    }
-
-    initShared();
-});
+        // main already has an id, add a
