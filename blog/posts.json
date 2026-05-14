@@ -1,156 +1,172 @@
-[
-  {
-    "title": "How Section 8 Inspections Work (And How to Pass Yours)",
-    "description": "HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.",
-    "url": "blog/posts/how-section-8-inspections-work",
-    "date": "2026-05-13",
-    "readTime": "8 min read",
-    "tag": "Guide"
-  },
-  {
-    "title": "Renting With an Eviction on Your Record: What Actually Works",
-    "description": "An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.",
-    "url": "blog/posts/renting-with-eviction-record",
-    "date": "2026-05-04",
-    "readTime": "8 min read",
-    "tag": "Practical"
-  },
-  {
-    "title": "My Income Went Up on Section 8 \u2014 Will I Lose My Voucher?",
-    "description": "A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.",
-    "url": "blog/posts/income-went-up-on-section-8",
-    "date": "2026-04-30",
-    "readTime": "8 min read",
-    "tag": "Explainer"
-  },
-  {
-    "title": "I Need a Place to Stay Tonight \u2014 Here's What to Do",
-    "description": "If you need emergency shelter right now, here are the numbers to call, the programs that can help tonight, and what to expect when you get there.",
-    "url": "blog/posts/emergency-housing-tonight",
-    "date": "2026-04-26",
-    "readTime": "6 min read",
-    "tag": "Urgent"
-  },
-  {
-    "title": "How to Survive the Section 8 Waiting List",
-    "description": "The waiting list can take years. Here's how to check your status, keep your spot, apply to multiple PHAs, and find alternatives while you wait.",
-    "url": "blog/posts/surviving-the-waiting-list",
-    "date": "2026-04-22",
-    "readTime": "7 min read",
-    "tag": "Practical"
-  },
-  {
-    "title": "Reasonable Accommodations: What They Are and How to Get One",
-    "description": "If you have a disability, you have the right to request changes to housing rules or physical modifications. Here's how the process works and what to do if you're denied.",
-    "url": "blog/posts/reasonable-accommodations-your-rights",
-    "date": "2026-04-18",
-    "readTime": "7 min read",
-    "tag": "Your Rights"
-  },
-  {
-    "title": "What Happens When Your Section 8 Voucher Expires",
-    "description": "Your Section 8 voucher has an expiration date. Here's what happens when time runs out, how to get an extension, and what to do if you've already lost your voucher.",
-    "url": "blog/posts/voucher-expires-what-happens",
-    "date": "2026-04-14",
-    "readTime": "8 min read",
-    "tag": "Guide"
-  },
-  {
-    "title": "Why Housing Changes Everything",
-    "description": "Housing isn't just a roof \u2014 it's the foundation that makes recovery, employment, safety, and stability possible. Real stories from my years working with veterans.",
-    "url": "blog/posts/why-housing-changes-everything",
-    "date": "2026-04-09",
-    "readTime": "7 min read",
-    "tag": "Personal"
-  },
-  {
-    "title": "15 Tips for Finding an Apartment with a Housing Voucher",
-    "description": "Practical, actionable tips for the apartment search \u2014 from knowing your payment standard to negotiating with landlords to having a backup plan.",
-    "url": "blog/posts/voucher-housing-search-tips",
-    "date": "2026-04-08",
-    "readTime": "",
-    "tag": "Tips"
-  },
-  {
-    "title": "What Housing First Actually Means (And Why It Works)",
-    "description": "Housing without preconditions like sobriety or employment. Why the evidence supports it, and what it looks like in practice through programs like HUD-VASH.",
-    "url": "blog/posts/housing-first-explained",
-    "date": "2026-04-06",
-    "readTime": "",
-    "tag": "Explainer"
-  },
-  {
-    "title": "Your PHA Won't Call Back? Here's What to Do",
-    "description": "When the housing authority isn't returning your calls, here's how to escalate \u2014 different contact methods, documentation, complaints, and legal aid.",
-    "url": "blog/posts/pha-wont-call-back",
-    "date": "2026-04-03",
-    "readTime": "",
-    "tag": "Practical"
-  },
-  {
-    "title": "The Benefits Cliff: What It Is and How to Plan for It",
-    "description": "What happens when a raise pushes you past income thresholds for SNAP, Medicaid, or Section 8 \u2014 and how to plan ahead so you don't lose more than you gain.",
-    "url": "blog/posts/benefits-cliff-explained",
-    "date": "2026-03-31",
-    "readTime": "",
-    "tag": "Benefits"
-  },
-  {
-    "title": "7 Section 8 Myths That Need to Die",
-    "description": "Free housing? Tenants don't pay rent? Can't work while on Section 8? Let's put these misconceptions to rest with the actual facts.",
-    "url": "blog/posts/section-8-myths",
-    "date": "2026-03-28",
-    "readTime": "",
-    "tag": "Myths"
-  },
-  {
-    "title": "What Happens After You Get Your Housing Voucher",
-    "description": "You got your voucher \u2014 now what? The apartment search, inspections, landlord negotiations, and everything you need to know about actually using your voucher.",
-    "url": "blog/posts/what-happens-after-voucher",
-    "date": "2026-03-25",
-    "readTime": "8 min read",
-    "tag": "Guide"
-  },
-  {
-    "title": "How to Talk to Your Landlord About Repairs Without Risking Retaliation",
-    "description": "Practical strategies for getting repairs done while protecting yourself. When to call, when to write, and what to do if your landlord pushes back.",
-    "url": "blog/posts/talking-to-landlord-about-repairs",
-    "date": "2026-03-22",
-    "readTime": "7 min read",
-    "tag": "Your Rights"
-  },
-  {
-    "title": "What to Do If Your Benefits Get Cut",
-    "description": "If your SSI, SSDI, SNAP, or housing benefits were reduced or cut off, here are the steps to take right now \u2014 including how to appeal and where to get help.",
-    "url": "blog/posts/benefits-cut-what-to-do",
-    "date": "2026-03-19",
-    "readTime": "7 min read",
-    "tag": "Your Rights"
-  },
-  {
-    "title": "Understanding Utility Allowances and Why They Matter",
-    "description": "Utility allowances directly affect how much rent you pay on Section 8. Here's what they are, how they work, and what to do if yours doesn't match reality.",
-    "url": "blog/posts/utility-allowances-explained",
-    "date": "2026-03-16",
-    "readTime": "6 min read",
-    "tag": "Explainer"
-  },
-  {
-    "title": "What to Do When a Landlord Rejects Your Voucher",
-    "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it \u2014 your rights, your options, and how to keep moving forward.",
-    "url": "blog/posts/landlord-rejects-voucher",
-    "date": "2026-03-13",
-    "readTime": "8 min read",
-    "tag": "Your Rights"
-  },
-  {
-    "title": "5 Affordable Housing Programs Most People Don't Know About",
-    "description": "Section 8 isn't your only option. Here are five federal housing programs \u2014 including HUD-VASH, Section 811, SSVF, Section 202, and LIHTC \u2014 that could help you find affordable housing.",
-    "url": "blog/posts/five-programs-you-dont-know",
-    "date": "2026-03-10",
-    "readTime": "9 min read",
-    "tag": "Guide"
-  },
-  {
-    "title": "Section 8 Explained \u2014 What It Actually Is and How It Works",
-    "description": "A clear, no-nonsense breakdown of the Housing Choice Voucher
+{
+  "posts": [
+    {
+      "title": "How Section 8 Inspections Work (And How to Pass Yours)",
+      "description": "HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.",
+      "url": "blog/posts/how-section-8-inspections-work",
+      "date": "2026-05-13",
+      "readTime": "8 min read",
+      "tag": "Guide"
+    },
+    {
+      "title": "Renting With an Eviction on Your Record: What Actually Works",
+      "description": "An eviction on your record makes finding housing harder, but not impossible. Strategies for getting approved, finding flexible landlords, and clearing your record.",
+      "url": "blog/posts/renting-with-eviction-record",
+      "date": "2026-05-04",
+      "readTime": "8 min read",
+      "tag": "Practical"
+    },
+    {
+      "title": "My Income Went Up on Section 8 — Will I Lose My Voucher?",
+      "description": "Getting a raise on Section 8 doesn't mean losing your voucher. Here's exactly what happens to your rent, when to report changes, and how to plan for the benefits cliff.",
+      "url": "blog/posts/income-went-up-on-section-8",
+      "date": "2026-04-30",
+      "readTime": "8 min read",
+      "tag": "Explainer"
+    },
+    {
+      "title": "I Need a Place to Stay Tonight — Here's What to Do",
+      "description": "If you need emergency housing right now, here are the phone numbers to call, what to expect at a shelter, and what to do if shelters are full.",
+      "url": "blog/posts/emergency-housing-tonight",
+      "date": "2026-04-26",
+      "readTime": "6 min read",
+      "tag": "Urgent"
+    },
+    {
+      "title": "How to Survive the Section 8 Waiting List",
+      "description": "The Section 8 wait can last years. Here's how to stay on the list, explore alternatives, and keep moving forward while you wait for your voucher.",
+      "url": "blog/posts/surviving-the-waiting-list",
+      "date": "2026-04-22",
+      "readTime": "7 min read",
+      "tag": "Practical"
+    },
+    {
+      "title": "Reasonable Accommodations: What They Are and How to Get One",
+      "description": "If you have a disability, you have the legal right to request changes to housing rules and policies. Here's how reasonable accommodations work and how to ask for one.",
+      "url": "blog/posts/reasonable-accommodations-your-rights",
+      "date": "2026-04-18",
+      "readTime": "7 min read",
+      "tag": "Your Rights"
+    },
+    {
+      "title": "What Happens When Your Section 8 Voucher Expires",
+      "description": "Your Section 8 voucher has an expiration date. Here's what happens when time runs out, how to get an extension, and what to do if you've already lost your voucher.",
+      "url": "blog/posts/voucher-expires-what-happens",
+      "date": "2026-04-14",
+      "readTime": "8 min read",
+      "tag": "Guide"
+    },
+    {
+      "title": "Why Housing Changes Everything",
+      "description": "Housing isn't just a roof over your head. It's the foundation that makes recovery, employment, safety, and stability possible. Real stories from a HUD-VASH case worker.",
+      "url": "blog/posts/why-housing-changes-everything",
+      "date": "2026-04-09",
+      "readTime": "7 min read",
+      "tag": "Personal"
+    },
+    {
+      "title": "15 Tips for Finding an Apartment with a Housing Voucher",
+      "description": "Practical, actionable tips for finding an apartment when you have a Section 8 voucher. From searching strategies to dealing with landlord rejection.",
+      "url": "blog/posts/voucher-housing-search-tips",
+      "date": "2026-04-08",
+      "readTime": "6 min read",
+      "tag": "Tips"
+    },
+    {
+      "title": "What Housing First Actually Means (And Why It Works)",
+      "description": "Understanding the Housing First model — why it works better than treatment-first approaches, how HUD-VASH uses it, and what it means for people experiencing homelessness.",
+      "url": "blog/posts/housing-first-explained",
+      "date": "2026-04-06",
+      "readTime": "6 min read",
+      "tag": "Explainer"
+    },
+    {
+      "title": "Your PHA Won't Call Back? Here's What to Do",
+      "description": "Practical strategies for reaching your housing authority when they're not responding. We've been there too. Here's how to get their attention and move things forward.",
+      "url": "blog/posts/pha-wont-call-back",
+      "date": "2026-04-03",
+      "readTime": "6 min read",
+      "tag": "Practical"
+    },
+    {
+      "title": "The Benefits Cliff: What It Is and How to Plan for It",
+      "description": "Understanding the benefits cliff — how a raise or new job can suddenly reduce your assistance. We explain which programs have cliffs, and strategies to manage them.",
+      "url": "blog/posts/benefits-cliff-explained",
+      "date": "2026-03-31",
+      "readTime": "6 min read",
+      "tag": "Benefits"
+    },
+    {
+      "title": "7 Section 8 Myths That Need to Die",
+      "description": "The truth about Section 8 vouchers. Debunking common myths that keep people from accessing the housing help they qualify for.",
+      "url": "blog/posts/section-8-myths",
+      "date": "2026-03-28",
+      "readTime": "6 min read",
+      "tag": "Myths"
+    },
+    {
+      "title": "What Happens After You Get Your Housing Voucher",
+      "description": "The apartment search with a Section 8 voucher is different from renting without one. Here's what to expect: timelines, inspections, landlord negotiations, and what to do when doors close in your face.",
+      "url": "blog/posts/what-happens-after-voucher",
+      "date": "2026-03-25",
+      "readTime": "8 min read",
+      "tag": "Guide"
+    },
+    {
+      "title": "Talk to Your Landlord About Repairs Safely",
+      "description": "Your landlord has a legal obligation to maintain your rental. Here's how to document problems, request repairs, put it in writing, and protect yourself if they retaliate.",
+      "url": "blog/posts/talking-to-landlord-about-repairs",
+      "date": "2026-03-22",
+      "readTime": "7 min read",
+      "tag": "Your Rights"
+    },
+    {
+      "title": "What to Do If Your Benefits Get Cut",
+      "description": "Your SSI, SSDI, SNAP, or housing benefits got reduced or terminated. Here's what to do immediately, your appeal rights, timelines, and where to find help.",
+      "url": "blog/posts/benefits-cut-what-to-do",
+      "date": "2026-03-19",
+      "readTime": "7 min read",
+      "tag": "Your Rights"
+    },
+    {
+      "title": "Utility Allowances Explained — How They Affect Your Rent",
+      "description": "What are utility allowances in Section 8 and public housing? Learn how they work, how they lower your rent, and what to do if your real bills are higher.",
+      "url": "blog/posts/utility-allowances-explained",
+      "date": "2026-03-16",
+      "readTime": "6 min read",
+      "tag": "Explainer"
+    },
+    {
+      "title": "What to Do When a Landlord Rejects Your Voucher",
+      "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it — your rights, your options, and how to keep moving forward.",
+      "url": "blog/posts/landlord-rejects-voucher",
+      "date": "2026-03-13",
+      "readTime": "8 min read",
+      "tag": "Your Rights"
+    },
+    {
+      "title": "5 Lesser-Known Affordable Housing Programs",
+      "description": "Section 8 isn't your only option. Here are five federal housing programs that could help you — and that most people have never heard of.",
+      "url": "blog/posts/five-programs-you-dont-know",
+      "date": "2026-03-10",
+      "readTime": "9 min read",
+      "tag": "Guide"
+    },
+    {
+      "title": "Section 8 Explained — What It Is & How It Works",
+      "description": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program — what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
+      "url": "blog/posts/section-8-explained",
+      "date": "2026-03-07",
+      "readTime": "10 min read",
+      "tag": "Explainer"
+    },
+    {
+      "title": "Welcome to Waythrough Project",
+      "description": "Why I built Waythrough Project, how the resource finder works, and what you'll find here — free guides, tools, templates, and state-by-state resources for navigating affordable housing.",
+      "url": "blog/posts/welcome",
+      "date": "2026-03-04",
+      "readTime": "6 min read",
+      "tag": "Personal"
+    }
+  ]
+}

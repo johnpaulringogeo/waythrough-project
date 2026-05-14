@@ -234,19 +234,19 @@ function trapFocusInSearch(e) {
 function renderNav() {
     // Navigation links — Spanish versions where available, English fallback otherwise
     const navLinks = isSpanish ? [
-        { href: `${root}es/recursos/index.html`, text: 'Recursos' },
-        { href: `${root}es/recursos/donde-empezar.html`, text: 'Dónde Empezar' },
-        { href: `${root}blog/index.html`, text: 'Blog' },
-        { href: `${root}resources/quick-start-guides.html`, text: 'Guías' },
-        { href: `${root}es/recursos/preguntas-frecuentes.html`, text: 'Preguntas' },
-        { href: `${root}es/index.html#about`, text: 'Acerca de' },
+        { href: `${root}es/recursos/`, text: 'Recursos' },
+        { href: `${root}es/recursos/donde-empezar`, text: 'Dónde Empezar' },
+        { href: `${root}blog/`, text: 'Blog' },
+        { href: `${root}resources/guides/`, text: 'Guías' },
+        { href: `${root}es/recursos/preguntas-frecuentes`, text: 'Preguntas' },
+        { href: `${root}es/#about`, text: 'Acerca de' },
     ] : [
-        { href: `${root}resources/index.html`, text: 'Resources' },
-        { href: `${root}resources/where-to-start.html`, text: 'Where to Start' },
-        { href: `${root}blog/index.html`, text: 'Blog' },
-        { href: `${root}resources/quick-start-guides.html`, text: 'Guides' },
-        { href: `${root}resources/ask.html`, text: 'Ask a Question' },
-        { href: `${root}index.html#about`, text: 'About' },
+        { href: `${root}resources/`, text: 'Resources' },
+        { href: `${root}resources/where-to-start`, text: 'Where to Start' },
+        { href: `${root}blog/`, text: 'Blog' },
+        { href: `${root}resources/guides/`, text: 'Guides' },
+        { href: `${root}resources/ask`, text: 'Ask a Question' },
+        { href: `${root}#about`, text: 'About' },
     ];
 
     const navLinksHTML = navLinks.map(l => `<li><a href="${l.href}">${l.text}</a></li>`).join('\n                ');
@@ -524,8 +524,8 @@ function renderAskCTA() {
     if (path.includes('/ask')) return;
     if (path === '/' || path === '/index.html') return;
     // Skip resource index and blog index (but not their subpages)
-    if (path === '/resources/' || path === '/resources/index.html') return;
-    if (path === '/blog/' || path === '/blog/index.html') return;
+    if (path === '/resources/' || path === '/resources/') return;
+    if (path === '/blog/' || path === '/blog/') return;
     if (path === '/videos/' || path === '/videos/index.html') return;
 
     const main = document.querySelector('main');
