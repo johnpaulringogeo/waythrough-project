@@ -577,12 +577,14 @@ function addReadingTime() {
     const content = document.querySelector('.post-content');
     const meta = document.querySelector('.page-meta');
     if (!content || !meta) return;
-    // Don't add if already present
-    if (meta.textContent.includes('min read')) return;
+    // Don't add if already present (English or Spanish)
+    if (meta.textContent.includes('min read') || meta.textContent.includes('min de lectura')) return;
+    const isES = document.documentElement.lang === 'es';
     const text = content.innerText || content.textContent;
     const words = text.trim().split(/\s+/).length;
     const minutes = Math.max(1, Math.round(words / 225));
-    meta.textContent = meta.textContent.replace(/\s*$/, '') + ' · ' + minutes + ' min read';
+    const label = isES ? ' min de lectura' : ' min read';
+    meta.textContent = meta.textContent.replace(/\s*$/, '') + ' · ' + minutes + label;
 }
 
 // ── Auto Table of Contents for Guides ──
@@ -714,11 +716,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (main && !main.id) {
         main.id = 'main-content';
     } else if (!document.getElementById('main-content') && main) {
-        // main already has an id, add an anchor before it
-        const anchor = document.createElement('div');
-        anchor.id = 'main-content';
-        main.prepend(anchor);
-    }
-
-    initShared();
-});
+        // main already has an 
