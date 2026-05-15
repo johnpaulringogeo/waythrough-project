@@ -431,7 +431,7 @@ function renderFooter() {
                     <h4>Guías</h4>
                     <ul>
                         <li><a href="${root}es/recursos/guias/como-solicitar-seccion-8">Solicitar Sección 8</a></li>
-                        <li><a href="${root}es/recursos/guias/lista-de-documentos">Lista de Documentos</a></li>
+                        <li><a href="${root}es/recursos/guias/lista-documentos">Lista de Documentos</a></li>
                         <li><a href="${root}es/recursos/guias/como-solicitar-hud-vash">Solicitar HUD-VASH</a></li>
                         <li><a href="${root}es/recursos/guias/estrategias-lista-espera">Lista de Espera</a></li>
                     </ul>
@@ -724,3 +724,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initShared();
 });
+   
