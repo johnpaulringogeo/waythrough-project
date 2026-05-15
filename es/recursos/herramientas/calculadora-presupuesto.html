@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQ0HKFH50D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+    <title>Calculadora de Presupuesto Mensual — Waythrough Project</title>
+    <meta name="description" content="Calcule su presupuesto mensual y vea a dónde va su dinero. Registre ingresos, gastos y costos de vivienda para planificar sus finanzas y encontrar formas de equilibrar su presupuesto.">
+    <meta property="og:title" content="Calculadora de Presupuesto Mensual — Waythrough Project">
+    <meta property="og:description" content="Calcule su presupuesto mensual y vea a dónde va su dinero. Registre ingresos, gastos y costos de vivienda para planificar sus finanzas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/es/recursos/herramientas/calculadora-presupuesto">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Calculadora de Presupuesto Mensual — Waythrough Project">
+    <meta name="twitter:description" content="Calcule su presupuesto mensual y vea a dónde va su dinero.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/es/recursos/herramientas/calculadora-presupuesto">
+    <link rel="alternate" hreflang="en" href="https://waythroughproject.com/resources/tools/budget-calculator">
+    <link rel="alternate" hreflang="es" href="https://waythroughproject.com/es/recursos/herramientas/calculadora-presupuesto">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <script>(function(){try{var t=localStorage.getItem(\'theme\');if(!t){t=window.matchMedia&&window.matchMedia(\'(prefers-color-scheme: dark)\').matches?\'dark\':\'light\';}document.documentElement.setAttribute(\'data-theme\',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../../../css/style.css?v=26">
+    <script src="../../../js/components.js?v=23" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://waythroughproject.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Recursos",
+      "item": "https://waythroughproject.com/es/recursos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Herramientas",
+      "item": "https://waythroughproject.com/es/recursos/herramientas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Calculadora de Presupuesto Mensual — Waythrough Project"
+    }
+  ]
+}
+    </script>
+</head>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Budget Form Layout ===== */
+        .budget-form {
+            display: grid;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+        }
+
+        .form-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .form-section-icon {
+            font-size: 1.5rem;
+            opacity: 0.7;
+        }
+
+        .form-section h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-text);
+        }
+
+        .form-section-subtitle {
+            font-size: 0.85rem;
+            color: var(--color-text-muted);
+            font-weight: normal;
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--color-text);
+            margin-bottom: 6px;
+        }
+
+        .form-group-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 640px) {
+            .form-group-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-group input[type="number"],
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            background: var(--color-bg);
+            color: var(--color-text);
+            transition: border-color 0.2s;
+        }
+
+        .form-group input[type="number"]:focus,
+        .form-group input[type="text"]:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .form-hint {
+            font-size: 0.8rem;
+            color: var(--color-text-muted);
+            margin-top: 4px;
+            font-style: italic;
+        }
+
+        /* ===== Income & Expense Rows ===== */
+        .income-row,
+        .expense-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+
+        @media (max-width: 640px) {
+            .income-row,
+            .expense-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ===== Totals ===== */
+        .totals-section {
+            background: var(--color-bg-soft);
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            margin-top: 1.5rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 640px) {
+            .totals-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .total-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+        }
+
+        .total-item label {
+            font-weight: 600;
+            color: var(--color-text);
+            margin: 0;
+        }
+
+        .total-item .amount {
+            font-weight: 700;
+            font-size: 1.1rem;
+            font-variant-numeric: tabular-nums;
+            color: var(--color-primary);
+        }
+
+        /* ===== Results Section ===== */
+        .results-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .results-header {
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        /* ===== Budget Balance ===== */
+        .budget-balance {
+            background: var(--color-bg-soft);
+            border: 2px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .budget-balance.surplus {
+            border-color: var(--color-success);
+            background: linear-gradient(135deg, rgba(34, 197, 94, 0.05), rgba(34, 197, 94, 0.02));
+        }
+
+        .budget-balance.deficit {
+            border-color: var(--color-error-border);
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.05), rgba(220, 38, 38, 0.02));
+        }
+
+        .balance-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .balance-row:last-child {
+            margin-bottom: 0;
+            padding-top: 0.75rem;
+            border-top: 2px solid var(--color-border);
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .balance-row.total-income,
+        .balance-row.total-expenses {
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        .balance-row .amount {
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .balance-row.surplus .amount {
+            color: var(--color-success);
+        }
+
+        .balance-row.deficit .amount {
+            color: var(--color-error-text);
+        }
+
+        /* ===== Housing Affordability ===== */
+        .affordability-card {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .affordability-header {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--color-text);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.82rem;
+            color: var(--color-text-light);
+        }
+
+        .affordability-stat {
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .affordability-stat:last-child {
+            margin-bottom: 0;
+        }
+
+        .affordability-percent {
+            font-size: 2rem;
+            font-weight: 700;
+            font-variant-numeric: tabular-nums;
+            color: var(--color-primary);
+        }
+
+        .affordability-percent.warning {
+            color: var(--color-error-text);
+        }
+
+        .affordability-label {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+        }
+
+        .affordability-warning {
+            background: rgba(220, 38, 38, 0.08);
+            border: 1px solid var(--color-error-border);
+            color: var(--color-error-text);
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-top: 1rem;
+        }
+
+        .affordability-ok {
+            background: rgba(34, 197, 94, 0.08);
+            border: 1px solid var(--color-success);
+            color: var(--color-text);
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-top: 1rem;
+        }
+
+        /* ===== Visual Breakdown ===== */
+        .breakdown-section {
+            margin-bottom: 2rem;
+        }
+
+        .breakdown-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-size: 0.82rem;
+            color: var(--color-text-light);
+        }
+
+        .budget-bars {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .bar-item {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .bar-label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--color-text);
+            white-space: nowrap;
+        }
+
+        .bar-container {
+            display: flex;
+            height: 24px;
+            background: var(--color-bg);
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+        }
+
+        .bar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .bar.income {
+            background: var(--color-primary);
+        }
+
+        .bar.housing {
+            background: #f59e0b;
+        }
+
+        .bar.essential {
+            background: #8b5cf6;
+        }
+
+        .bar.debt {
+            background: #ec4899;
+        }
+
+        /* ===== Tips Section ===== */
+        .tips-section {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .tips-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .tips-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .tips-list li {
+            padding: 0.75rem 0;
+            padding-left: 1.75rem;
+            position: relative;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--color-text-light);
+        }
+
+        .tips-list li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        /* ===== Related Resources ===== */
+        .related-resources {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .related-title {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--color-text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .resource-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .resource-link {
+            display: block;
+            padding: 1rem;
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--color-primary);
+            font-weight: 500;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .resource-link:hover {
+            background: var(--color-bg);
+            border-color: var(--color-primary);
+        }
+
+        .resource-link:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+
+        /* ===== Buttons ===== */
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-primary:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-secondary {
+            background: var(--color-bg-soft);
+            color: var(--color-text);
+            border: 1px solid var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-bg);
+            border-color: var(--color-primary);
+        }
+
+        .btn-secondary:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .form-section {
+                padding: 1.5rem;
+            }
+
+            .bar-item {
+                grid-template-columns: 100px 1fr;
+            }
+        }
+    </style>
+
+<body>
+    <main id="main-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../../es/">Inicio</a><span class="sep">/</span><a href="../../">Recursos</a><span class="sep">/</span><a href="./">Herramientas</a><span class="sep">/</span><span class="current">Calculadora de Presupuesto</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Herramienta</span>
+                <h1>Calculadora de Presupuesto Mensual</h1>
+                <p class="subtitle">Descubra a dónde va su dinero cada mes. Registre sus ingresos, costos de vivienda y gastos para ver si tiene superávit o déficit, y obtenga sugerencias prácticas para equilibrar su presupuesto.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>Un presupuesto no se trata de ser perfecto — se trata de conocer la realidad de su situación. Esta calculadora le ayuda a ver exactamente a dónde va su dinero e identificar áreas donde podría ajustar gastos o encontrar apoyo adicional.</p>
+                    <p>Comience con los números que conoce, ponga sus mejores estimaciones para el resto, y vea cómo se ve el panorama. Todo es privado; nada se guarda ni se comparte.</p>
+                </div>
+
+                <!-- Formulario de Presupuesto -->
+                <form id="budget-form" class="budget-form" aria-label="Calculadora de presupuesto mensual">
+
+                    <!-- SECCIÓN DE INGRESOS -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">💰</span>
+                            <h2>Ingresos Mensuales</h2>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="income-wages">Salario o Sueldo</label>
+                            <input type="number" id="income-wages" class="income-input" placeholder="$0" min="0" step="0.01">
+                            <p class="form-hint">Después de impuestos, lo que realmente lleva a casa</p>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="income-ssi">SSI / SSDI</label>
+                                <input type="number" id="income-ssi" class="income-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Beneficios de Seguro Social</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="income-snap">Beneficios SNAP</label>
+                                <input type="number" id="income-snap" class="income-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Asistencia alimentaria (SNAP)</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="income-tanf">TANF / Asistencia Social</label>
+                                <input type="number" id="income-tanf" class="income-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Asistencia Temporal para Familias Necesitadas</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="income-child-support">Manutención Infantil</label>
+                                <input type="number" id="income-child-support" class="income-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="income-va">Beneficios VA</label>
+                                <input type="number" id="income-va" class="income-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Discapacidad o compensación de veteranos</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="income-other">Otros Ingresos</label>
+                                <input type="number" id="income-other" class="income-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Trabajos extra, freelance, regalos, etc.</p>
+                            </div>
+                        </div>
+
+                        <div class="totals-section">
+                            <div class="total-item">
+                                <label>Ingreso Mensual Total</label>
+                                <div class="amount" id="total-income">$0.00</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SECCIÓN DE VIVIENDA -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">🏠</span>
+                            <h2>Costos de Vivienda</h2>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="housing-rent">Alquiler o Hipoteca</label>
+                            <input type="number" id="housing-rent" class="housing-input" placeholder="$0" min="0" step="0.01">
+                            <p class="form-hint">Pago mensual de alquiler o hipoteca</p>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="housing-electric">Electricidad</label>
+                                <input type="number" id="housing-electric" class="housing-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                            <div class="form-group">
+                                <label for="housing-gas">Gas / Calefacción</label>
+                                <input type="number" id="housing-gas" class="housing-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="housing-water">Agua / Alcantarillado</label>
+                                <input type="number" id="housing-water" class="housing-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                            <div class="form-group">
+                                <label for="housing-phone">Teléfono / Internet</label>
+                                <input type="number" id="housing-phone" class="housing-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="totals-section">
+                            <div class="total-item">
+                                <label>Total Costos de Vivienda</label>
+                                <div class="amount" id="total-housing">$0.00</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SECCIÓN DE GASTOS ESENCIALES -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">🛒</span>
+                            <h2>Gastos Esenciales</h2>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="expense-food">Alimentación (más allá de SNAP)</label>
+                            <input type="number" id="expense-food" class="essential-input" placeholder="$0" min="0" step="0.01">
+                            <p class="form-hint">Supermercado, café, comidas fuera — lo que SNAP no cubre</p>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="expense-transport">Transporte</label>
+                                <input type="number" id="expense-transport" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Transporte público, gasolina, pago del auto, mantenimiento</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="expense-medical">Médico / Recetas</label>
+                                <input type="number" id="expense-medical" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Visitas al doctor, medicamentos, copagos</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="expense-childcare">Cuidado Infantil</label>
+                                <input type="number" id="expense-childcare" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Guardería, programas después de la escuela, niñera</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="expense-insurance">Seguros</label>
+                                <input type="number" id="expense-insurance" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Auto, salud, inquilino, vida</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="expense-personal">Cuidado Personal</label>
+                                <input type="number" id="expense-personal" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Peluquería, higiene, lavandería</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="expense-clothing">Ropa</label>
+                                <input type="number" id="expense-clothing" class="essential-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Zapatos, ropa de trabajo, reemplazos</p>
+                            </div>
+                        </div>
+
+                        <div class="totals-section">
+                            <div class="total-item">
+                                <label>Total Gastos Esenciales</label>
+                                <div class="amount" id="total-essential">$0.00</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SECCIÓN DE PAGOS DE DEUDA -->
+                    <section class="form-section">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">💳</span>
+                            <h2>Pagos de Deudas</h2>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="debt-credit">Pagos de Tarjeta de Crédito</label>
+                                <input type="number" id="debt-credit" class="debt-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Pago mínimo o total</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="debt-student">Préstamos Estudiantiles</label>
+                                <input type="number" id="debt-student" class="debt-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="debt-medical">Pagos de Deuda Médica</label>
+                                <input type="number" id="debt-medical" class="debt-input" placeholder="$0" min="0" step="0.01">
+                                <p class="form-hint">Facturas de hospital, pagos de cobranza</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="debt-other">Otros Pagos de Deuda</label>
+                                <input type="number" id="debt-other" class="debt-input" placeholder="$0" min="0" step="0.01">
+                            </div>
+                        </div>
+
+                        <div class="totals-section">
+                            <div class="total-item">
+                                <label>Total Pagos de Deudas</label>
+                                <div class="amount" id="total-debt">$0.00</div>
+                            </div>
+                        </div>
+                    </section>
+
+                </form>
+
+                <!-- SECCIÓN DE RESULTADOS -->
+                <div id="results" class="results-section" style="display: none;">
+
+                    <div class="results-header">
+                        <h2>Su Panorama Presupuestario</h2>
+                    </div>
+
+                    <!-- Tarjeta de Balance -->
+                    <div id="balance-card" class="budget-balance">
+                        <div class="balance-row total-income">
+                            <span>Ingreso Mensual Total</span>
+                            <span class="amount" id="result-income">$0.00</span>
+                        </div>
+                        <div class="balance-row total-expenses">
+                            <span>Gastos Mensuales Totales</span>
+                            <span class="amount" id="result-expenses">$0.00</span>
+                        </div>
+                        <div id="balance-row" class="balance-row">
+                            <span id="balance-label">Balance Mensual</span>
+                            <span class="amount" id="result-balance">$0.00</span>
+                        </div>
+                    </div>
+
+                    <!-- Asequibilidad de Vivienda -->
+                    <div class="affordability-card">
+                        <div class="affordability-header">Asequibilidad de Vivienda</div>
+                        <div class="affordability-stat">
+                            <span id="housing-percent" class="affordability-percent">0%</span>
+                            <span class="affordability-label">de sus ingresos va a vivienda</span>
+                        </div>
+                        <div id="affordability-note"></div>
+                    </div>
+
+                    <!-- Desglose Visual -->
+                    <div class="breakdown-section">
+                        <div class="breakdown-title">A Dónde Va Su Dinero</div>
+                        <div class="budget-bars">
+                            <div class="bar-item">
+                                <div class="bar-label">Vivienda</div>
+                                <div class="bar-container">
+                                    <div id="bar-housing" class="bar housing" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="bar-label">Gastos Esenciales</div>
+                                <div class="bar-container">
+                                    <div id="bar-essential" class="bar essential" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="bar-label">Pagos de Deudas</div>
+                                <div class="bar-container">
+                                    <div id="bar-debt" class="bar debt" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="bar-item">
+                                <div class="bar-label">Restante</div>
+                                <div class="bar-container">
+                                    <div id="bar-remaining" class="bar income" style="width: 0%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Consejos Prácticos -->
+                    <div class="tips-section">
+                        <h3 class="tips-title">Próximos Pasos</h3>
+                        <ul class="tips-list" id="tips-list"></ul>
+                    </div>
+
+                    <!-- Recursos Relacionados -->
+                    <div class="related-resources">
+                        <div class="related-title">Recursos Relacionados</div>
+                        <div class="resource-links">
+                            <a href="../../guias/presupuesto-con-poco-dinero" class="resource-link">Presupuesto Cuando el Dinero Es Escaso</a>
+                            <a href="../../beneficios" class="resource-link">Beneficios y Apoyo Financiero</a>
+                            <a href="../../guias/asistencia-de-emergencia-para-alquiler" class="resource-link">Asistencia de Emergencia para Alquiler</a>
+                            <a href="../../guias/como-salir-de-deudas" class="resource-link">Cómo Salir de Deudas</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        // All input elements
+        const incomeInputs = document.querySelectorAll('.income-input');
+        const housingInputs = document.querySelectorAll('.housing-input');
+        const essentialInputs = document.querySelectorAll('.essential-input');
+        const debtInputs = document.querySelectorAll('.debt-input');
+
+        const form = document.getElementById('budget-form');
+        const resultsSection = document.getElementById('results');
+
+        // Add event listeners for real-time calculation
+        const allInputs = document.querySelectorAll('input[type="number"]');
+        allInputs.forEach(input => {
+            input.addEventListener('input', calculateBudget);
+            input.addEventListener('blur', formatCurrency);
+        });
+
+        function formatCurrency(e) {
+            const value = parseFloat(e.target.value) || 0;
+            e.target.value = value.toFixed(2);
+        }
+
+        function sumInputs(inputs) {
+            return Array.from(inputs).reduce((sum, input) => {
+                return sum + (parseFloat(input.value) || 0);
+            }, 0);
+        }
+
+        function formatMoney(amount) {
+            return new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD'
+            }).format(amount);
+        }
+
+        function calculateBudget() {
+            const totalIncome = sumInputs(incomeInputs);
+            const totalHousing = sumInputs(housingInputs);
+            const totalEssential = sumInputs(essentialInputs);
+            const totalDebt = sumInputs(debtInputs);
+            const totalExpenses = totalHousing + totalEssential + totalDebt;
+            const balance = totalIncome - totalExpenses;
+
+            document.getElementById('total-income').textContent = formatMoney(totalIncome);
+            document.getElementById('total-housing').textContent = formatMoney(totalHousing);
+            document.getElementById('total-essential').textContent = formatMoney(totalEssential);
+            document.getElementById('total-debt').textContent = formatMoney(totalDebt);
+
+            if (totalIncome > 0) {
+                resultsSection.style.display = 'block';
+                updateResults(totalIncome, totalHousing, totalEssential, totalDebt, balance);
+            } else {
+                resultsSection.style.display = 'none';
+            }
+        }
+
+        function updateResults(totalIncome, totalHousing, totalEssential, totalDebt, balance) {
+            document.getElementById('result-income').textContent = formatMoney(totalIncome);
+            document.getElementById('result-expenses').textContent = formatMoney(totalHousing + totalEssential + totalDebt);
+            document.getElementById('result-balance').textContent = formatMoney(Math.abs(balance));
+
+            const balanceCard = document.getElementById('balance-card');
+            const balanceRow = document.getElementById('balance-row');
+
+            if (balance >= 0) {
+                balanceCard.classList.remove('deficit');
+                balanceCard.classList.add('surplus');
+                balanceRow.classList.remove('deficit');
+                balanceRow.classList.add('surplus');
+                document.getElementById('balance-label').textContent = 'Superávit Mensual';
+            } else {
+                balanceCard.classList.remove('surplus');
+                balanceCard.classList.add('deficit');
+                balanceRow.classList.remove('surplus');
+                balanceRow.classList.add('deficit');
+                document.getElementById('balance-label').textContent = 'Déficit Mensual';
+            }
+
+            const housingPercent = totalIncome > 0 ? (totalHousing / totalIncome) * 100 : 0;
+            const housingPercentEl = document.getElementById('housing-percent');
+            const affordabilityNoteEl = document.getElementById('affordability-note');
+
+            housingPercentEl.textContent = Math.round(housingPercent) + '%';
+
+            if (housingPercent > 30) {
+                housingPercentEl.classList.add('warning');
+                if (housingPercent > 50) {
+                    affordabilityNoteEl.innerHTML = '<div class="affordability-warning">Sus costos de vivienda son <strong>críticamente altos</strong> (más del 50% de sus ingresos). Investigue sobre asistencia de emergencia para alquiler, programas de prevención de desalojos o mudarse a una vivienda más económica. <a href="../../guias/asistencia-de-emergencia-para-alquiler" style="color: inherit; text-decoration: underline;">Conozca sobre asistencia de emergencia.</a></div>';
+                } else {
+                    affordabilityNoteEl.innerHTML = '<div class="affordability-warning">Sus costos de vivienda superan el <strong>umbral de asequibilidad del 30%</strong>. Esto deja menos para otras necesidades. Considere buscar asistencia de alquiler o explorar opciones más económicas.</div>';
+                }
+            } else {
+                housingPercentEl.classList.remove('warning');
+                affordabilityNoteEl.innerHTML = '<div class="affordability-ok">Sus costos de vivienda están dentro del 30% recomendado de sus ingresos. Eso es bueno — significa que tiene espacio para otros gastos esenciales.</div>';
+            }
+
+            const totalExpenses = totalHousing + totalEssential + totalDebt;
+
+            const housingPercWidth = totalIncome > 0 ? (totalHousing / totalIncome) * 100 : 0;
+            const essentialPercWidth = totalIncome > 0 ? (totalEssential / totalIncome) * 100 : 0;
+            const debtPercWidth = totalIncome > 0 ? (totalDebt / totalIncome) * 100 : 0;
+            const remainingPercWidth = Math.max(0, 100 - housingPercWidth - essentialPercWidth - debtPercWidth);
+
+            document.getElementById('bar-housing').style.width = Math.min(100, housingPercWidth) + '%';
+            document.getElementById('bar-housing').textContent = Math.round(housingPercWidth) > 5 ? Math.round(housingPercWidth) + '%' : '';
+
+            document.getElementById('bar-essential').style.width = Math.min(100, essentialPercWidth) + '%';
+            document.getElementById('bar-essential').textContent = Math.round(essentialPercWidth) > 5 ? Math.round(essentialPercWidth) + '%' : '';
+
+            document.getElementById('bar-debt').style.width = Math.min(100, debtPercWidth) + '%';
+            document.getElementById('bar-debt').textContent = Math.round(debtPercWidth) > 5 ? Math.round(debtPercWidth) + '%' : '';
+
+            document.getElementById('bar-remaining').style.width = remainingPercWidth + '%';
+            document.getElementById('bar-remaining').textContent = Math.round(remainingPercWidth) > 5 ? Math.round(remainingPercWidth) + '%' : '';
+
+            generateTips(balance, housingPercent, totalIncome, totalHousing, totalEssential, totalDebt);
+        }
+
+        function generateTips(balance, housingPercent, totalIncome, totalHousing, totalEssential, totalDebt) {
+            const tips = [];
+
+            if (balance < 0) {
+                tips.push('Está gastando más de lo que gana. Busque formas de reducir gastos — comience con las categorías más pequeñas y vaya ganando impulso.');
+                if (totalHousing > 0) {
+                    tips.push('La vivienda suele ser el gasto más grande. Si el alquiler lo está endeudando, verifique si califica para asistencia de alquiler o si mudarse es una opción.');
+                }
+                if (totalDebt > 0) {
+                    tips.push('Los pagos de deuda son parte del problema. Vea si puede negociar pagos más bajos, obtener una prórroga o buscar asesoría de deudas.');
+                }
+            } else if (balance < 200) {
+                tips.push('Su margen es ajustado. Intente crear aunque sea un pequeño fondo de emergencia — incluso $25/mes ayuda cuando algo inesperado sucede.');
+            } else {
+                tips.push('Tiene un poco de respiro. ¡Buen trabajo! Considere ahorrar algo para emergencias o pagar deudas más rápido.');
+            }
+
+            if (housingPercent > 50) {
+                tips.push('Su costo de vivienda es extremo. Contacte a una organización local de derechos de inquilinos o llame al 211 para encontrar asistencia de emergencia para alquiler en su área.');
+            } else if (housingPercent > 30) {
+                tips.push('La vivienda consume la mayor parte de su presupuesto. Vea si califica para vales de vivienda, apartamentos subsidiados o programas de asistencia de alquiler.');
+            }
+
+            if (totalDebt > 0) {
+                tips.push('Las deudas hacen todo más difícil. Si tiene dificultades, contacte a un consejero de crédito sin fines de lucro — muchos ofrecen asesoría gratuita (encuentre uno en NFCC.org).');
+            }
+
+            if (totalIncome === 0) {
+                tips.push('Agregue sus ingresos reales para ver su panorama presupuestario completo.');
+            }
+
+            const uniqueTips = [...new Set(tips)].slice(0, 5);
+
+            const tipsList = document.getElementById('tips-list');
+            tipsList.innerHTML = '';
+            uniqueTips.forEach(tip => {
+                const li = document.createElement('li');
+                li.textContent = tip;
+                tipsList.appendChild(li);
+            });
+        }
+
+        calculateBudget();
+    </script>
+
+</body>
+</html>

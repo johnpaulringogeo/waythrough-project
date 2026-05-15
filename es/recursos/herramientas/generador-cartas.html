@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQ0HKFH50D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+    <title>Generador de Cartas — Waythrough Project</title>
+    <meta name="description" content="Genere cartas profesionales para solicitar reparaciones, adaptaciones razonables, reclamar depósitos de seguridad y apelar decisiones. Una herramienta de defensa de derechos del inquilino.">
+    <meta property="og:title" content="Generador de Cartas — Waythrough Project">
+    <meta property="og:description" content="Genere cartas profesionales para la defensa de derechos del inquilino. Solicitudes de reparación, adaptaciones, reclamos de depósitos y cartas de apelación.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/es/recursos/herramientas/generador-cartas">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Generador de Cartas — Waythrough Project">
+    <meta name="twitter:description" content="Genere cartas profesionales para la defensa de derechos del inquilino.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/es/recursos/herramientas/generador-cartas">
+    <link rel="alternate" hreflang="en" href="https://waythroughproject.com/resources/tools/letter-generator">
+    <link rel="alternate" hreflang="es" href="https://waythroughproject.com/es/recursos/herramientas/generador-cartas">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <script>(function(){try{var t=localStorage.getItem(\'theme\');if(!t){t=window.matchMedia&&window.matchMedia(\'(prefers-color-scheme: dark)\').matches?\'dark\':\'light\';}document.documentElement.setAttribute(\'data-theme\',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../../../css/style.css?v=26">
+    <script src="../../../js/components.js?v=23" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://waythroughproject.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Recursos",
+      "item": "https://waythroughproject.com/es/recursos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Herramientas",
+      "item": "https://waythroughproject.com/es/recursos/herramientas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Generador de Cartas — Waythrough Project"
+    }
+  ]
+}
+    </script>
+</head>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Letter Type Selector ===== */
+        .letter-type-selector {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .letter-type-option {
+            position: relative;
+        }
+
+        .letter-type-option input[type="radio"] {
+            display: none;
+        }
+
+        .letter-type-label {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding: 1.25rem;
+            background: var(--color-bg-card);
+            border: 2px solid var(--color-border);
+            border-radius: var(--radius);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .letter-type-option input[type="radio"]:checked + .letter-type-label {
+            border-color: var(--color-primary);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(59, 130, 246, 0.04));
+        }
+
+        .letter-type-label:hover {
+            border-color: var(--color-primary);
+            background: var(--color-bg-soft);
+        }
+
+        .letter-type-icon {
+            font-size: 1.75rem;
+        }
+
+        .letter-type-name {
+            font-weight: 600;
+            color: var(--color-text);
+            font-size: 0.95rem;
+        }
+
+        /* ===== Form Layout ===== */
+        .letter-form {
+            display: grid;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+        }
+
+        .form-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .form-section-icon {
+            font-size: 1.5rem;
+            opacity: 0.7;
+        }
+
+        .form-section h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-text);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-family: Inter, sans-serif;
+            font-size: 0.95rem;
+            color: var(--color-text);
+            background: var(--color-bg);
+            transition: border-color 0.2s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+            line-height: 1.5;
+        }
+
+        .form-group-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .form-hint {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            margin-top: 0.35rem;
+            margin-bottom: 0;
+        }
+
+        /* ===== Hidden Fields ===== */
+        .form-section.hidden {
+            display: none;
+        }
+
+        /* ===== Action Buttons ===== */
+        .button-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: Inter, sans-serif;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+        }
+
+        .btn-secondary {
+            background: var(--color-bg-soft);
+            color: var(--color-text);
+            border: 1px solid var(--color-border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-bg-card);
+            border-color: var(--color-primary);
+        }
+
+        .btn-secondary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* ===== Letter Preview ===== */
+        .letter-preview-container {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .letter-preview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .letter-preview-header h2 {
+            font-size: 1.2rem;
+            margin: 0;
+            color: var(--color-text);
+        }
+
+        .preview-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        /* ===== Letter Content ===== */
+        .letter-content {
+            background: white;
+            color: #000;
+            padding: 3rem 2rem;
+            line-height: 1.8;
+            font-family: 'Times New Roman', serif;
+            font-size: 0.95rem;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .letter-content p {
+            margin: 1rem 0;
+        }
+
+        .letter-content p:first-child {
+            margin-top: 0;
+        }
+
+        .letter-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ===== Disclaimer ===== */
+        .tool-disclaimer {
+            background: rgba(59, 130, 246, 0.05);
+            border-left: 4px solid var(--color-primary);
+            border-radius: 6px;
+            padding: 1.25rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--color-text);
+        }
+
+        .tool-disclaimer strong {
+            color: var(--color-text);
+        }
+
+        /* ===== Related Resources ===== */
+        .related-resources {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .related-resources h3 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .resources-list {
+            display: grid;
+            gap: 1rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resources-list li {
+            margin: 0;
+        }
+
+        .resources-list a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .resources-list a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== Print Styles ===== */
+        @media print {
+            .breadcrumbs,
+            .page-header,
+            .letter-type-selector,
+            .letter-form,
+            .button-group,
+            .preview-actions,
+            .tool-intro,
+            .tool-disclaimer,
+            .related-resources,
+            nav,
+            footer {
+                display: none;
+            }
+
+            body {
+                background: white;
+            }
+
+            .letter-preview-container {
+                border: none;
+                padding: 0;
+                background: white;
+                box-shadow: none;
+            }
+
+            .letter-preview-header {
+                display: none;
+            }
+
+            .letter-content {
+                border: none;
+                padding: 0;
+                margin: 0;
+                background: white;
+            }
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            .letter-type-selector {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group-row {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            .preview-actions {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .preview-actions button {
+                flex: 1;
+            }
+        }
+    </style>
+
+<body>
+    <main id="main-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../../es/">Inicio</a><span class="sep">/</span><a href="../../">Recursos</a><span class="sep">/</span><a href="./">Herramientas</a><span class="sep">/</span><span class="current">Generador de Cartas</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Herramienta</span>
+                <h1>Generador de Cartas</h1>
+                <p class="subtitle">Cree cartas profesionales para solicitar reparaciones, adaptaciones razonables, reclamar la devolución de su depósito de seguridad o apelar decisiones. Use estas plantillas para ejercer sus derechos como inquilino o solicitante de programas.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>Defender sus derechos no requiere un abogado, pero sí requiere una comunicación clara. Esta herramienta le ayuda a generar cartas profesionales para situaciones comunes de inquilinos y vivienda. Cada carta es un punto de partida que puede personalizar con sus detalles específicos.</p>
+                </div>
+
+                <div class="tool-disclaimer">
+                    <strong>Aviso:</strong> Estas cartas son un punto de partida. Para situaciones complejas, consulte con un abogado de asistencia legal. Su oficina local de asistencia legal puede proporcionar ayuda legal gratuita o de bajo costo.
+                </div>
+
+                <!-- Selección de Tipo de Carta -->
+                <div class="letter-type-selector">
+                    <div class="letter-type-option">
+                        <input type="radio" id="type-repair" name="letter-type" value="repair" checked>
+                        <label for="type-repair" class="letter-type-label">
+                            <span class="letter-type-icon">🔧</span>
+                            <span class="letter-type-name">Solicitud de Reparación</span>
+                        </label>
+                    </div>
+                    <div class="letter-type-option">
+                        <input type="radio" id="type-accommodation" name="letter-type" value="accommodation">
+                        <label for="type-accommodation" class="letter-type-label">
+                            <span class="letter-type-icon">♿</span>
+                            <span class="letter-type-name">Solicitud de Adaptación</span>
+                        </label>
+                    </div>
+                    <div class="letter-type-option">
+                        <input type="radio" id="type-deposit" name="letter-type" value="deposit">
+                        <label for="type-deposit" class="letter-type-label">
+                            <span class="letter-type-icon">💰</span>
+                            <span class="letter-type-name">Reclamo de Depósito</span>
+                        </label>
+                    </div>
+                    <div class="letter-type-option">
+                        <input type="radio" id="type-appeal" name="letter-type" value="appeal">
+                        <label for="type-appeal" class="letter-type-label">
+                            <span class="letter-type-icon">📋</span>
+                            <span class="letter-type-name">Carta de Apelación</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Formularios -->
+                <form id="letter-form" class="letter-form" aria-label="Generador de cartas">
+
+                    <!-- Formulario de Solicitud de Reparación -->
+                    <section class="form-section" id="section-repair">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">🔧</span>
+                            <h2>Solicitud de Reparación</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-name">Su Nombre</label>
+                            <input type="text" id="repair-name" placeholder="ej., María Rodríguez">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-address">Su Dirección</label>
+                            <input type="text" id="repair-address" placeholder="ej., 123 Main St, Apt 4B, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-landlord">Nombre del Propietario/Arrendador</label>
+                            <input type="text" id="repair-landlord" placeholder="ej., John Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-landlord-address">Dirección del Propietario</label>
+                            <input type="text" id="repair-landlord-address" placeholder="ej., 200 Oak Ave, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-date">Fecha de Hoy</label>
+                            <input type="date" id="repair-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-issue">Descripción del Problema</label>
+                            <textarea id="repair-issue" placeholder="Describa el problema en detalle (ej., 'el techo gotea en el dormitorio cuando llueve', 'el sistema de calefacción está roto', 'hay moho visible en el baño')"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-reported">Fecha del Primer Reporte</label>
+                            <input type="date" id="repair-reported">
+                        </div>
+                        <div class="form-group">
+                            <label for="repair-urgency">Nivel de Urgencia</label>
+                            <select id="repair-urgency" style="width: 100%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: 6px; font-family: Inter, sans-serif; color: var(--color-text); background: var(--color-bg);">
+                                <option value="serious">Grave (afecta la salud/seguridad)</option>
+                                <option value="moderate">Moderado (afecta la habitabilidad)</option>
+                                <option value="minor">Menor (cosmético/comodidad)</option>
+                            </select>
+                        </div>
+                    </section>
+
+                    <!-- Formulario de Solicitud de Adaptación -->
+                    <section class="form-section hidden" id="section-accommodation">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">♿</span>
+                            <h2>Solicitud de Adaptación Razonable</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-name">Su Nombre</label>
+                            <input type="text" id="accom-name" placeholder="ej., David Chen">
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-address">Su Dirección</label>
+                            <input type="text" id="accom-address" placeholder="ej., 456 Pine St, Suite 200, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-landlord">Nombre del Propietario/Arrendador</label>
+                            <input type="text" id="accom-landlord" placeholder="ej., Jane Apartments LLC">
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-landlord-address">Dirección del Propietario</label>
+                            <input type="text" id="accom-landlord-address" placeholder="ej., 300 Park Ave, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-date">Fecha de Hoy</label>
+                            <input type="date" id="accom-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-accommodation">Adaptación Solicitada</label>
+                            <textarea id="accom-accommodation" placeholder="Describa lo que solicita (ej., 'espacio de estacionamiento reservado en planta baja', 'permiso para tener un animal de servicio', 'rampa de acceso en la entrada')"></textarea>
+                            <p class="form-hint">No necesita revelar su diagnóstico específico o condición médica.</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="accom-relation">Cómo Se Relaciona con Sus Necesidades</label>
+                            <textarea id="accom-relation" placeholder="Explique la conexión sin detallar su condición médica (ej., 'Necesito estacionamiento accesible debido a limitaciones de movilidad', 'Esta adaptación es necesaria debido a una condición relacionada con discapacidad')"></textarea>
+                        </div>
+                    </section>
+
+                    <!-- Formulario de Reclamo de Depósito -->
+                    <section class="form-section hidden" id="section-deposit">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">💰</span>
+                            <h2>Reclamo de Depósito de Seguridad</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-name">Su Nombre</label>
+                            <input type="text" id="deposit-name" placeholder="ej., Sarah Johnson">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-current-address">Dirección Actual</label>
+                            <input type="text" id="deposit-current-address" placeholder="ej., 789 Elm St, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-former-address">Dirección Anterior (Donde Vivía)</label>
+                            <input type="text" id="deposit-former-address" placeholder="ej., 555 Maple Ave, Apt 3, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-landlord">Nombre del Propietario</label>
+                            <input type="text" id="deposit-landlord" placeholder="ej., Property Management Inc.">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-landlord-address">Dirección del Propietario</label>
+                            <input type="text" id="deposit-landlord-address" placeholder="ej., 400 Business Blvd, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-date">Fecha de Hoy</label>
+                            <input type="date" id="deposit-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-amount">Monto del Depósito</label>
+                            <input type="number" id="deposit-amount" placeholder="$0.00" min="0" step="0.01">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-moveout">Fecha de Mudanza</label>
+                            <input type="date" id="deposit-moveout">
+                        </div>
+                        <div class="form-group">
+                            <label for="deposit-days">Días Desde la Mudanza (aproximado)</label>
+                            <input type="number" id="deposit-days" placeholder="ej., 45" min="0" step="1">
+                            <p class="form-hint">Esto ayuda a que su carta haga referencia a los plazos legales relevantes de su estado.</p>
+                        </div>
+                    </section>
+
+                    <!-- Formulario de Carta de Apelación -->
+                    <section class="form-section hidden" id="section-appeal">
+                        <div class="form-section-header">
+                            <span class="form-section-icon">📋</span>
+                            <h2>Carta de Apelación</h2>
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-name">Su Nombre</label>
+                            <input type="text" id="appeal-name" placeholder="ej., James Williams">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-address">Su Dirección</label>
+                            <input type="text" id="appeal-address" placeholder="ej., 600 Forest Ln, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-agency">Nombre de la Agencia</label>
+                            <input type="text" id="appeal-agency" placeholder="ej., Autoridad de Vivienda, Departamento de Servicios Sociales">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-agency-address">Dirección de la Agencia</label>
+                            <input type="text" id="appeal-agency-address" placeholder="ej., 700 Government Ave, Ciudad, Estado ZIP">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-date">Fecha de Hoy</label>
+                            <input type="date" id="appeal-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-program">Nombre del Programa</label>
+                            <input type="text" id="appeal-program" placeholder="ej., Programa de Vales de Elección de Vivienda, Asistencia de Emergencia">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-denial-date">Fecha de Denegación</label>
+                            <input type="date" id="appeal-denial-date">
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-reason">Razón de la Denegación (según la carta de decisión)</label>
+                            <textarea id="appeal-reason" placeholder="Explique lo que la agencia dijo como razón de la denegación"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="appeal-response">Por Qué Cree Que la Decisión Es Incorrecta</label>
+                            <textarea id="appeal-response" placeholder="Explique por qué no está de acuerdo y cualquier información adicional o documentación que tenga"></textarea>
+                        </div>
+                    </section>
+
+                </form>
+
+                <!-- Botones de Acción -->
+                <div class="button-group">
+                    <button type="button" class="btn-primary" id="generate-btn">Generar Carta</button>
+                    <button type="button" class="btn-secondary" id="reset-btn">Limpiar Formulario</button>
+                </div>
+
+                <!-- Vista Previa de la Carta -->
+                <div id="preview-container" style="display: none;">
+                    <div class="letter-preview-container">
+                        <div class="letter-preview-header">
+                            <h2>Su Carta</h2>
+                            <div class="preview-actions">
+                                <button type="button" class="btn-secondary" id="copy-btn">Copiar al Portapapeles</button>
+                                <button type="button" class="btn-primary" id="print-btn">Imprimir</button>
+                            </div>
+                        </div>
+                        <div class="letter-content" id="letter-output"></div>
+                    </div>
+                </div>
+
+                <!-- Recursos Relacionados -->
+                <div class="related-resources">
+                    <h3>Más Información</h3>
+                    <ul class="resources-list">
+                        <li><a href="../../derechos-del-inquilino">Conozca Sus Derechos como Inquilino →</a></li>
+                        <li><a href="../../guias/como-solicitar-adaptacion-razonable">Cómo Solicitar una Adaptación Razonable →</a></li>
+                        <li><a href="../../guias/como-recuperar-deposito-de-seguridad">Cómo Recuperar Su Depósito de Seguridad →</a></li>
+                        <li><a href="../../plantillas/">Plantillas y Recursos de Cartas →</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Letter type selection
+        const letterTypeRadios = document.querySelectorAll('input[name="letter-type"]');
+        const formSections = document.querySelectorAll('.form-section');
+
+        letterTypeRadios.forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                const selectedType = e.target.value;
+                formSections.forEach(section => {
+                    section.classList.add('hidden');
+                });
+                document.getElementById(`section-${selectedType}`).classList.remove('hidden');
+                document.getElementById('preview-container').style.display = 'none';
+            });
+        });
+
+        function formatDate(dateString) {
+            if (!dateString) return new Date().toLocaleDateString('es-US', { year: 'numeric', month: 'long', day: 'numeric' });
+            const date = new Date(dateString);
+            return date.toLocaleDateString('es-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        }
+
+        // Generar carta de solicitud de reparación
+        function generateRepairLetter() {
+            const name = document.getElementById('repair-name').value;
+            const address = document.getElementById('repair-address').value;
+            const landlord = document.getElementById('repair-landlord').value;
+            const landlordAddress = document.getElementById('repair-landlord-address').value;
+            const date = document.getElementById('repair-date').value;
+            const issue = document.getElementById('repair-issue').value;
+            const reported = document.getElementById('repair-reported').value;
+            const urgency = document.getElementById('repair-urgency').value;
+
+            let urgencyLanguage = 'afecta la habitabilidad de la unidad';
+            if (urgency === 'serious') {
+                urgencyLanguage = 'representa una amenaza grave para mi salud y seguridad';
+            } else if (urgency === 'minor') {
+                urgencyLanguage = 'afecta mi disfrute razonable de la propiedad';
+            }
+
+            const letter = `${formatDate(date)}
+
+${landlord}
+${landlordAddress}
+
+RE: Solicitud de Reparaciones Inmediatas - ${address}
+
+Estimado/a ${landlord},
+
+Le escribo para solicitar formalmente que realice las siguientes reparaciones en mi unidad de alquiler en ${address} dentro de los 14 días posteriores a la recepción de esta carta.
+
+DESCRIPCIÓN DEL PROBLEMA:
+${issue}
+
+FECHA DEL PRIMER REPORTE:
+${reported ? formatDate(reported) : 'Aviso verbal proporcionado'}
+
+Esta condición ${urgencyLanguage} y debe ser corregida de inmediato. Como usted sabe, los propietarios tienen la obligación legal de mantener las propiedades de alquiler en condiciones habitables y realizar las reparaciones necesarias dentro de un plazo razonable.
+
+Le solicito que:
+1. Programe la reparación conmigo dentro de 5 días hábiles
+2. Complete la reparación dentro de 14 días de recibir esta carta
+3. Confirme la recepción de esta solicitud por escrito
+
+Si las reparaciones no se completan dentro del plazo, ejerceré todos los recursos legales disponibles, que pueden incluir:
+- Reparar y deducir del alquiler
+- Reducción del alquiler
+- Terminar mi contrato de arrendamiento sin penalidad
+- Presentar una queja ante la autoridad de vivienda
+- Acción legal para recuperar daños
+
+Por favor contácteme lo antes posible para programar la reparación.
+
+Atentamente,
+
+${name}
+${address}`;
+
+            return letter;
+        }
+
+        // Generar carta de solicitud de adaptación
+        function generateAccommodationLetter() {
+            const name = document.getElementById('accom-name').value;
+            const address = document.getElementById('accom-address').value;
+            const landlord = document.getElementById('accom-landlord').value;
+            const landlordAddress = document.getElementById('accom-landlord-address').value;
+            const date = document.getElementById('accom-date').value;
+            const accommodation = document.getElementById('accom-accommodation').value;
+            const relation = document.getElementById('accom-relation').value;
+
+            const letter = `${formatDate(date)}
+
+${landlord}
+${landlordAddress}
+
+RE: Solicitud de Adaptación Razonable - ${address}
+
+Estimado/a ${landlord},
+
+Le escribo para solicitar formalmente una adaptación razonable bajo la Ley de Vivienda Justa (Fair Housing Act) y la Ley de Estadounidenses con Discapacidades (ADA). Este es un derecho legal, y presento esta solicitud por escrito para asegurar una documentación clara.
+
+ADAPTACIÓN SOLICITADA:
+${accommodation}
+
+CÓMO ESTA ADAPTACIÓN SE RELACIONA CON MIS NECESIDADES:
+${relation}
+
+Bajo la Ley de Vivienda Justa, los propietarios deben hacer adaptaciones razonables en reglas, políticas, prácticas o servicios cuando sea necesario para brindar a una persona con discapacidad igualdad de oportunidades para usar y disfrutar de una vivienda. La ADA proporciona protecciones similares.
+
+Esta adaptación es necesaria para que pueda disfrutar de mi vivienda con acceso igualitario y dignidad. Es una solicitud razonable que no creará una carga financiera indebida ni alterará fundamentalmente la naturaleza de los servicios de vivienda.
+
+Solicito:
+1. Confirmación escrita de recepción de esta solicitud dentro de 5 días hábiles
+2. Su decisión sobre la adaptación solicitada dentro de 10 días hábiles
+3. Si se aprueba, un cronograma de implementación
+
+Si deniega esta solicitud, le pido que proporcione una explicación escrita de sus razones y cualquier adaptación alternativa que proponga.
+
+Tenga en cuenta que la discriminación basada en discapacidad es una violación de la ley federal. Estoy haciendo esta solicitud de buena fe y espero una respuesta pronta y respetuosa.
+
+Puede contactarme lo antes posible para discutir esta solicitud.
+
+Atentamente,
+
+${name}
+${address}`;
+
+            return letter;
+        }
+
+        // Generar carta de reclamo de depósito
+        function generateDepositLetter() {
+            const name = document.getElementById('deposit-name').value;
+            const currentAddress = document.getElementById('deposit-current-address').value;
+            const formerAddress = document.getElementById('deposit-former-address').value;
+            const landlord = document.getElementById('deposit-landlord').value;
+            const landlordAddress = document.getElementById('deposit-landlord-address').value;
+            const date = document.getElementById('deposit-date').value;
+            const amount = document.getElementById('deposit-amount').value;
+            const moveout = document.getElementById('deposit-moveout').value;
+            const days = document.getElementById('deposit-days').value;
+
+            const formattedAmount = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: 'USD'
+            }).format(amount);
+
+            const letter = `${formatDate(date)}
+
+${landlord}
+${landlordAddress}
+
+RE: DEMANDA DE DEVOLUCIÓN DE DEPÓSITO DE SEGURIDAD - ${formerAddress}
+
+CORREO CERTIFICADO - ACUSE DE RECIBO SOLICITADO
+
+Estimado/a ${landlord},
+
+Le escribo para exigir formalmente la devolución completa de mi depósito de seguridad dentro de los 30 días posteriores a la recepción de esta carta.
+
+DETALLES DEL DEPÓSITO:
+- Dirección de la Unidad: ${formerAddress}
+- Fecha de Mudanza: ${formatDate(moveout)}
+- Días Desde la Mudanza: ${days}
+- Monto Original del Depósito: ${formattedAmount}
+
+Al desocupar la unidad el ${formatDate(moveout)}, dejé la propiedad en condiciones limpias y sin daños, exceptuando el desgaste normal. Le proporcioné una dirección de reenvío en ${formatDate(currentAddress)}.
+
+Han pasado ${days} días desde que me mudé. Bajo la ley estatal, los depósitos de seguridad deben ser devueltos dentro del período legal establecido (típicamente 14-45 días dependiendo de su estado) junto con un desglose detallado de cualquier deducción, si las hubiera.
+
+Usted no ha cumplido con:
+1. Devolver mi depósito de seguridad
+2. Proporcionar un desglose detallado de las deducciones
+3. Responder a mis solicitudes anteriores
+
+Esto es una violación de la ley estatal. Exijo la devolución completa de mi depósito de ${formattedAmount} dentro de 30 días.
+
+Si no devuelve mi depósito dentro de este plazo, buscaré todos los recursos legales disponibles, incluyendo:
+- Presentar una demanda en el tribunal de reclamos menores
+- Demandar por el monto total del depósito más daños y penalidades bajo la ley estatal
+- Presentar una queja ante la autoridad de vivienda o el fiscal general
+- Cualquier otra acción legal disponible
+
+Por favor envíe el pago a:
+${name}
+${currentAddress}
+
+Esta carta sirve como aviso formal de mi demanda. Espero su pronta respuesta.
+
+Atentamente,
+
+${name}`;
+
+            return letter;
+        }
+
+        // Generar carta de apelación
+        function generateAppealLetter() {
+            const name = document.getElementById('appeal-name').value;
+            const address = document.getElementById('appeal-address').value;
+            const agency = document.getElementById('appeal-agency').value;
+            const agencyAddress = document.getElementById('appeal-agency-address').value;
+            const date = document.getElementById('appeal-date').value;
+            const program = document.getElementById('appeal-program').value;
+            const denialDate = document.getElementById('appeal-denial-date').value;
+            const reason = document.getElementById('appeal-reason').value;
+            const response = document.getElementById('appeal-response').value;
+
+            const letter = `${formatDate(date)}
+
+${agency}
+${agencyAddress}
+
+RE: APELACIÓN FORMAL DE DENEGACIÓN DE PROGRAMA - ${program}
+
+Estimado/a [Título del Funcionario]:
+
+Le escribo para apelar formalmente la denegación de mi solicitud para ${program}, recibida el ${formatDate(denialDate)}.
+
+ANTECEDENTES:
+El ${formatDate(denialDate)}, recibí una carta de denegación que indicaba la(s) siguiente(s) razón(es) para la decisión:
+
+${reason}
+
+RAZÓN DE LA APELACIÓN:
+Respetuosamente, estoy en desacuerdo con esta decisión. La(s) razón(es) indicada(s) no reflejan con precisión mi situación, y tengo información adicional o documentación que debe ser considerada.
+
+${response}
+
+SOLICITUD DE RECONSIDERACIÓN:
+Solicito que mi solicitud sea reconsiderada en base a la información proporcionada anteriormente. Creo que cuando se consideren todos los hechos relevantes, califico para ${program}.
+
+PRÓXIMOS PASOS:
+Estoy solicitando:
+1. Una audiencia formal de apelación donde pueda presentar mi caso
+2. Explicación escrita de cómo se revisará mi apelación
+3. Cronograma para la decisión de la apelación
+4. Información de contacto del oficial de apelaciones asignado a mi caso
+
+Entiendo que tengo derecho a un proceso de audiencia justo y oportuno. Estoy comprometido/a a trabajar con su agencia para resolver este asunto y espero una respuesta pronta.
+
+Por favor contácteme para programar una audiencia de apelación o para solicitar cualquier información adicional que necesite.
+
+Atentamente,
+
+${name}
+${address}
+
+Fecha: ${formatDate(date)}`;
+
+            return letter;
+        }
+
+        // Generar carta según el tipo
+        function generateLetter() {
+            const selectedType = document.querySelector('input[name="letter-type"]:checked').value;
+            let letter = '';
+
+            switch(selectedType) {
+                case 'repair':
+                    letter = generateRepairLetter();
+                    break;
+                case 'accommodation':
+                    letter = generateAccommodationLetter();
+                    break;
+                case 'deposit':
+                    letter = generateDepositLetter();
+                    break;
+                case 'appeal':
+                    letter = generateAppealLetter();
+                    break;
+            }
+
+            if (letter.trim()) {
+                document.getElementById('letter-output').textContent = letter;
+                document.getElementById('preview-container').style.display = 'block';
+                document.getElementById('preview-container').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        // Copiar al portapapeles
+        function copyToClipboard() {
+            const letterText = document.getElementById('letter-output').textContent;
+            navigator.clipboard.writeText(letterText).then(() => {
+                const btn = document.getElementById('copy-btn');
+                const originalText = btn.textContent;
+                btn.textContent = '¡Copiado!';
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                }, 2000);
+            });
+        }
+
+        function printLetter() {
+            window.print();
+        }
+
+        function resetForm() {
+            document.getElementById('letter-form').reset();
+            document.getElementById('preview-container').style.display = 'none';
+            document.getElementById('repair-date').valueAsDate = new Date();
+            document.getElementById('accom-date').valueAsDate = new Date();
+            document.getElementById('deposit-date').valueAsDate = new Date();
+            document.getElementById('appeal-date').valueAsDate = new Date();
+        }
+
+        window.addEventListener('load', () => {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('repair-date').value = today;
+            document.getElementById('accom-date').value = today;
+            document.getElementById('deposit-date').value = today;
+            document.getElementById('appeal-date').value = today;
+        });
+
+        document.getElementById('generate-btn').addEventListener('click', generateLetter);
+        document.getElementById('reset-btn').addEventListener('click', resetForm);
+        document.getElementById('copy-btn').addEventListener('click', copyToClipboard);
+        document.getElementById('print-btn').addEventListener('click', printLetter);
+    </script>
+</body>
+</html>

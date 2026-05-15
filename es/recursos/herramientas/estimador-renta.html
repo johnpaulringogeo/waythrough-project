@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQ0HKFH50D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../../images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
+    <title>Consulta de Alquiler Justo de Mercado y Límites de Ingresos — Waythrough Project</title>
+    <meta name="description" content="Consulte los Alquileres Justos de Mercado de HUD y los límites de ingresos para su área. Vea qué niveles de alquiler usan los programas de vivienda y si sus ingresos califican para asistencia.">
+    <meta property="og:title" content="Consulta de Alquiler Justo de Mercado y Límites de Ingresos — Waythrough Project">
+    <meta property="og:description" content="Consulte los Alquileres Justos de Mercado de HUD y los límites de ingresos para su área. Vea qué niveles de alquiler usan los programas de vivienda y si sus ingresos califican para asistencia.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com/es/recursos/herramientas/estimador-renta">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Consulta de Alquiler Justo de Mercado y Límites de Ingresos — Waythrough Project">
+    <meta name="twitter:description" content="Consulte los Alquileres Justos de Mercado de HUD y los límites de ingresos para su área.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="canonical" href="https://waythroughproject.com/es/recursos/herramientas/estimador-renta">
+    <link rel="alternate" hreflang="en" href="https://waythroughproject.com/resources/tools/rent-estimator">
+    <link rel="alternate" hreflang="es" href="https://waythroughproject.com/es/recursos/herramientas/estimador-renta">
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <script>(function(){try{var t=localStorage.getItem(\'theme\');if(!t){t=window.matchMedia&&window.matchMedia(\'(prefers-color-scheme: dark)\').matches?\'dark\':\'light\';}document.documentElement.setAttribute(\'data-theme\',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="../../../css/style.css?v=26">
+    <script src="../../../js/components.js?v=23" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://waythroughproject.com/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Recursos",
+      "item": "https://waythroughproject.com/es/recursos/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Herramientas",
+      "item": "https://waythroughproject.com/es/recursos/herramientas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Consulta de Alquiler Justo de Mercado y Límites de Ingresos — Waythrough Project"
+    }
+  ]
+}
+    </script>
+</head>
+
+    <style>
+        /* ===== Tool Layout ===== */
+        .tool-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .tool-intro {
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Search Form ===== */
+        .lookup-form {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+            flex-wrap: wrap;
+        }
+
+        .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--color-text-light);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            background: var(--color-bg);
+            color: var(--color-text);
+            transition: border-color 0.2s;
+        }
+
+        .form-group select:focus,
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .btn-lookup {
+            padding: 10px 24px;
+            background: var(--color-primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+            height: 44px;
+        }
+
+        .btn-lookup:hover {
+            background: var(--color-primary-dark);
+        }
+
+        .btn-lookup:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+        }
+
+        .btn-lookup:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .form-hint {
+            font-size: 0.82rem;
+            color: var(--color-text-muted);
+            margin-top: 4px;
+        }
+
+        .form-or {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            color: var(--color-text-muted);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .form-or::before,
+        .form-or::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--color-border);
+        }
+
+        /* ===== Loading & Error States ===== */
+        .loading-indicator {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--color-text-light);
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            border: 3px solid var(--color-border);
+            border-top-color: var(--color-primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: var(--color-error-bg);
+            border: 1px solid var(--color-error-border);
+            color: var(--color-error-text);
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ===== Results ===== */
+        .results-container {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .results-header {
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .results-header p {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+        }
+
+        .results-section {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .results-section-header {
+            background: var(--color-bg-soft);
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .results-section-header h3 {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .results-section-header p {
+            font-size: 0.85rem;
+            color: var(--color-text-light);
+            margin-top: 4px;
+        }
+
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .results-table th,
+        .results-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--color-border-light);
+            font-size: 0.95rem;
+        }
+
+        .results-table th {
+            font-weight: 600;
+            color: var(--color-text-light);
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: var(--color-bg-soft);
+        }
+
+        .results-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .results-table td.amount {
+            font-weight: 600;
+            font-variant-numeric: tabular-nums;
+            color: var(--color-text);
+            white-space: nowrap;
+        }
+
+        .results-table tr:hover td {
+            background: var(--color-bg-soft);
+        }
+
+        /* Income limits highlight */
+        .income-category {
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .category-extremely-low { color: var(--color-error-text); }
+        .category-very-low { color: var(--color-accent); }
+        .category-low { color: var(--color-success); }
+
+        [data-theme="dark"] .category-extremely-low { color: #fca5a5; }
+        [data-theme="dark"] .category-very-low { color: #fbbf24; }
+        [data-theme="dark"] .category-low { color: #34d399; }
+
+        /* ===== Context Cards ===== */
+        .context-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .context-card {
+            background: var(--color-bg-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 1.25rem;
+        }
+
+        .context-card h4 {
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }
+
+        .context-card p {
+            font-size: 0.88rem;
+            color: var(--color-text-light);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .context-card a {
+            color: #1d4ed8;
+            text-decoration: underline;
+            text-decoration-color: var(--color-border);
+            text-underline-offset: 2px;
+        }
+
+        [data-theme="dark"] .context-card a {
+            color: var(--color-primary);
+        }
+
+        .context-card a:hover {
+            text-decoration-color: currentColor;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            .form-row {
+                flex-direction: column;
+            }
+
+            .form-group {
+                min-width: 100%;
+            }
+
+            .btn-lookup {
+                width: 100%;
+            }
+
+            .results-table th,
+            .results-table td {
+                padding: 10px 12px;
+                font-size: 0.88rem;
+            }
+
+            .lookup-form {
+                padding: 1.25rem;
+            }
+
+            .results-section-header {
+                padding: 0.85rem 1.25rem;
+            }
+        }
+
+        /* ===== Noscript ===== */
+        .noscript-notice {
+            background: var(--color-bg-soft);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius);
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+    </style>
+
+<body>
+    <main id="main-content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../../es/">Inicio</a><span class="sep">/</span><a href="../../">Recursos</a><span class="sep">/</span><a href="./">Herramientas</a><span class="sep">/</span><span class="current">Alquiler Justo de Mercado y Límites de Ingresos</span></div></nav>
+        <header class="page-header">
+            <div class="container">
+                <span class="section-label">Herramienta</span>
+                <h1>Consulta de Alquiler Justo de Mercado y Límites de Ingresos</h1>
+                <p class="subtitle">Vea lo que HUD considera alquiler justo en su área y descubra si sus ingresos califican para asistencia de vivienda.</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="post-content tool-container">
+
+                <div class="tool-intro">
+                    <p>HUD establece los <strong>Alquileres Justos de Mercado (FMR)</strong> para cada área del país. Estos números determinan cuánto cubrirán los vales de vivienda. HUD también establece <strong>límites de ingresos</strong> que deciden quién califica para programas como Section 8, vivienda pública y apartamentos LIHTC.</p>
+                    <p>Use esta herramienta para consultar ambos para su área. Solo seleccione su estado y condado, o ingrese un código postal.</p>
+                </div>
+
+                <!-- Formulario de Búsqueda -->
+                <div class="lookup-form" role="search" aria-label="Consultar datos de alquiler e ingresos">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="state-select">Estado</label>
+                            <select id="state-select" aria-label="Seleccione un estado">
+                                <option value="">Seleccione un estado...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="county-select">Condado</label>
+                            <select id="county-select" disabled aria-label="Seleccione un condado">
+                                <option value="">Seleccione un estado primero...</option>
+                            </select>
+                        </div>
+                        <button class="btn-lookup" id="btn-search-county" disabled onclick="lookupByCounty()" aria-label="Consultar datos del condado seleccionado">
+                            Consultar
+                        </button>
+                    </div>
+
+                    <div class="form-or">o</div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="zip-input">Código Postal</label>
+                            <input type="text" id="zip-input" placeholder="ej. 98101" maxlength="5" pattern="[0-9]{5}" inputmode="numeric" aria-label="Ingrese un código postal de 5 dígitos">
+                            <p class="form-hint">Ingrese un código postal de 5 dígitos</p>
+                        </div>
+                        <button class="btn-lookup" id="btn-search-zip" onclick="lookupByZip()" aria-label="Consultar datos del código postal ingresado">
+                            Consultar
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Área de Resultados -->
+                <div id="results-area" aria-live="polite"></div>
+
+                <!-- Contenido estático para no-JS y SEO -->
+                <noscript>
+                    <div class="noscript-notice">
+                        <h2>Se Requiere JavaScript</h2>
+                        <p>Esta herramienta requiere JavaScript para consultar datos de HUD. También puede consultar los Alquileres Justos de Mercado directamente en el sitio web de HUD en <a href="https://www.huduser.gov/portal/datasets/fmr.html">huduser.gov</a> y los límites de ingresos en <a href="https://www.huduser.gov/portal/datasets/il.html">huduser.gov/portal/datasets/il</a>.</p>
+                    </div>
+                </noscript>
+
+                <div id="static-content">
+                    <h2>¿Qué Son los Alquileres Justos de Mercado?</h2>
+
+                    <p>Los Alquileres Justos de Mercado (FMR, por sus siglas en inglés) son establecidos por HUD cada año para cada área metropolitana y condado en los EE.UU. Representan el percentil 40 de los alquileres brutos para unidades de alquiler típicas y en buenas condiciones — lo que significa que el 40% de los alquileres estándar del área están en o por debajo de este precio.</p>
+
+                    <p>Los FMR son importantes porque se usan para determinar los estándares de pago del programa de Vales de Elección de Vivienda (Section 8). Su Autoridad de Vivienda Pública (PHA) local típicamente establece su pago de vale entre el 90% y el 110% del FMR. Si encuentra un apartamento al nivel o por debajo del estándar de pago, su vale cubre la diferencia entre el 30% de su ingreso y el alquiler.</p>
+
+                    <h2>¿Qué Son los Límites de Ingresos?</h2>
+
+                    <p>HUD calcula los límites de ingresos basándose en el Ingreso Mediano del Área (AMI) para cada condado o área metropolitana. Estos límites determinan la elegibilidad para la mayoría de los programas federales de vivienda y se dividen en tres categorías principales:</p>
+
+                    <ul>
+                        <li><strong>Ingresos Extremadamente Bajos</strong> — en o por debajo del 30% del AMI (o el nivel federal de pobreza, lo que sea mayor). Este es el umbral para la asistencia más específica.</li>
+                        <li><strong>Ingresos Muy Bajos</strong> — en o por debajo del 50% del AMI. Este es el requisito principal de elegibilidad para Section 8 y vivienda pública.</li>
+                        <li><strong>Ingresos Bajos</strong> — en o por debajo del 80% del AMI. Este es el límite para algunas unidades LIHTC, el programa HOME y otras viviendas asequibles.</li>
+                    </ul>
+
+                    <p>Los límites de ingresos varían significativamente según la ubicación porque se basan en el ingreso mediano local. Una familia de cuatro personas podría calificar como "ingresos muy bajos" con $45,000 en un condado pero necesitar estar por debajo de $65,000 en un área de mayor costo.</p>
+
+                    <h2>Cómo Usar Esta Información</h2>
+
+                    <p>Una vez que conozca el FMR y los límites de ingresos para su área, puede determinar para cuáles programas de vivienda probablemente es elegible y qué niveles de alquiler cubrirán los vales. Esto le ayuda a buscar apartamentos de manera más efectiva y entender con qué trabaja su PHA local cuando establece los estándares de pago.</p>
+
+                    <h3>Recursos Clave</h3>
+                    <ul>
+                        <li><a href="../../guias/como-solicitar-section-8">Cómo Solicitar Section 8</a> — guía completa del proceso de vales</li>
+                        <li><a href="../../guias/como-encontrar-vivienda-lihtc">Encontrar Apartamentos LIHTC</a> — vivienda asequible que usa límites de ingresos pero no requiere un vale</li>
+                        <li><a href="../../guias/como-encontrar-su-pha">Encuentre Su PHA Local</a> — la agencia que administra los programas de vivienda en su área</li>
+                        <li><a href="../../beneficios">Beneficios y Apoyo Financiero</a> — otros programas que pueden ayudar con los costos de vivienda</li>
+                        <li><a href="../../guias/presupuesto-con-poco-dinero">Presupuesto Cuando el Dinero Es Escaso</a> — aprovechando al máximo un ingreso limitado</li>
+                    </ul>
+
+                    <p><em>Datos proporcionados por la <a href="https://www.huduser.gov/portal/dataset/fmr-api.html">API de Datos de HUD</a>. Los Alquileres Justos de Mercado y los límites de ingresos son actualizados anualmente por el Departamento de Vivienda y Desarrollo Urbano de los EE.UU.</em></p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+    (function() {
+        'use strict';
+
+        const API_BASE = '/api/hud';
+
+        const resultsArea = document.getElementById('results-area');
+        const stateSelect = document.getElementById('state-select');
+        const countySelect = document.getElementById('county-select');
+        const btnCounty = document.getElementById('btn-search-county');
+        const zipInput = document.getElementById('zip-input');
+
+        function hudFetch(endpoint) {
+            return fetch(API_BASE + endpoint).then(function(res) {
+                if (!res.ok) throw new Error('HUD API returned ' + res.status);
+                return res.json();
+            });
+        }
+
+        function fmt(val) {
+            var n = parseFloat(val);
+            if (isNaN(n)) return val;
+            return '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        }
+
+        function fmtAnnual(val) {
+            var n = parseFloat(val);
+            if (isNaN(n)) return val;
+            return '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        }
+
+        function showLoading() {
+            resultsArea.innerHTML = '<div class="loading-indicator"><div class="loading-spinner"></div><p>Consultando datos de HUD para su área...</p></div>';
+        }
+
+        function showError(message) {
+            resultsArea.innerHTML = '<div class="error-message">' + message + '</div>';
+        }
+
+        function loadStates() {
+            hudFetch('/fmr/listStates').then(function(data) {
+                var states = Array.isArray(data) ? data : (data.data || []);
+                states.sort(function(a, b) {
+                    return (a.state_name || '').localeCompare(b.state_name || '');
+                });
+                states.forEach(function(s) {
+                    var opt = document.createElement('option');
+                    opt.value = s.state_code || s.state_num || '';
+                    opt.textContent = s.state_name || '';
+                    opt.dataset.stateCode = s.state_code || '';
+                    stateSelect.appendChild(opt);
+                });
+            }).catch(function(err) {
+                console.error('Failed to load states:', err);
+                populateStatesFallback();
+            });
+        }
+
+        function populateStatesFallback() {
+            var states = [
+                ['AL','Alabama'],['AK','Alaska'],['AZ','Arizona'],['AR','Arkansas'],['CA','California'],
+                ['CO','Colorado'],['CT','Connecticut'],['DE','Delaware'],['DC','District of Columbia'],
+                ['FL','Florida'],['GA','Georgia'],['HI','Hawaii'],['ID','Idaho'],['IL','Illinois'],
+                ['IN','Indiana'],['IA','Iowa'],['KS','Kansas'],['KY','Kentucky'],['LA','Louisiana'],
+                ['ME','Maine'],['MD','Maryland'],['MA','Massachusetts'],['MI','Michigan'],['MN','Minnesota'],
+                ['MS','Mississippi'],['MO','Missouri'],['MT','Montana'],['NE','Nebraska'],['NV','Nevada'],
+                ['NH','New Hampshire'],['NJ','New Jersey'],['NM','New Mexico'],['NY','New York'],
+                ['NC','North Carolina'],['ND','North Dakota'],['OH','Ohio'],['OK','Oklahoma'],['OR','Oregon'],
+                ['PA','Pennsylvania'],['RI','Rhode Island'],['SC','South Carolina'],['SD','South Dakota'],
+                ['TN','Tennessee'],['TX','Texas'],['UT','Utah'],['VT','Vermont'],['VA','Virginia'],
+                ['WA','Washington'],['WV','West Virginia'],['WI','Wisconsin'],['WY','Wyoming'],
+                ['PR','Puerto Rico'],['VI','Virgin Islands']
+            ];
+            states.forEach(function(s) {
+                var opt = document.createElement('option');
+                opt.value = s[0];
+                opt.textContent = s[1];
+                opt.dataset.stateCode = s[0];
+                stateSelect.appendChild(opt);
+            });
+        }
+
+        stateSelect.addEventListener('change', function() {
+            var stateCode = this.value;
+            countySelect.innerHTML = '<option value="">Cargando condados...</option>';
+            countySelect.disabled = true;
+            btnCounty.disabled = true;
+
+            if (!stateCode) {
+                countySelect.innerHTML = '<option value="">Seleccione un estado primero...</option>';
+                return;
+            }
+
+            hudFetch('/fmr/listCounties/' + stateCode).then(function(data) {
+                var counties = Array.isArray(data) ? data : (data.data || []);
+                countySelect.innerHTML = '<option value="">Seleccione un condado...</option>';
+                counties.sort(function(a, b) {
+                    return (a.county_name || '').localeCompare(b.county_name || '');
+                });
+                counties.forEach(function(c) {
+                    var opt = document.createElement('option');
+                    opt.value = c.fips_code || c.county_code || '';
+                    opt.textContent = c.county_name || '';
+                    countySelect.appendChild(opt);
+                });
+                countySelect.disabled = false;
+            }).catch(function(err) {
+                countySelect.innerHTML = '<option value="">No se pudieron cargar los condados</option>';
+                console.error('Failed to load counties:', err);
+            });
+        });
+
+        countySelect.addEventListener('change', function() {
+            btnCounty.disabled = !this.value;
+        });
+
+        zipInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                lookupByZip();
+            }
+        });
+
+        zipInput.addEventListener('input', function() {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        });
+
+        window.lookupByCounty = function() {
+            var fips = countySelect.value;
+            if (!fips) return;
+
+            var entityId = fips.replace(/\D/g, '');
+            if (entityId.length === 5) {
+                entityId = entityId + '99999';
+            }
+
+            var countyName = countySelect.options[countySelect.selectedIndex].textContent;
+            var stateName = stateSelect.options[stateSelect.selectedIndex].textContent;
+
+            showLoading();
+            fetchData(entityId, countyName + ', ' + stateName);
+        };
+
+        window.lookupByZip = function() {
+            var zip = zipInput.value.trim();
+            if (!/^\d{5}$/.test(zip)) {
+                showError('Por favor ingrese un código postal válido de 5 dígitos.');
+                return;
+            }
+
+            showLoading();
+
+            hudFetch('/fmr/data/' + zip).then(function(fmrData) {
+                return hudFetch('/il/data/' + zip).then(function(ilData) {
+                    displayResults(fmrData, ilData, 'código postal ' + zip);
+                });
+            }).catch(function(err) {
+                hudFetch('/usps?type=2&query=' + zip).then(function(crosswalk) {
+                    var results = crosswalk.data || crosswalk;
+                    if (results && results.results && results.results.length > 0) {
+                        var countyFips = results.results[0].geoid || results.results[0].county;
+                        var entityId = countyFips;
+                        if (entityId && entityId.length === 5) {
+                            entityId = entityId + '99999';
+                        }
+                        fetchData(entityId, 'código postal ' + zip);
+                    } else {
+                        showError('No pudimos encontrar datos para el código postal ' + zip + '. Por favor intente seleccionando su estado y condado.');
+                    }
+                }).catch(function(err2) {
+                    showError('No pudimos encontrar datos para el código postal ' + zip + '. Por favor intente seleccionando su estado y condado.');
+                });
+            });
+        };
+
+        function fetchData(entityId, locationLabel) {
+            Promise.all([
+                hudFetch('/fmr/data/' + entityId),
+                hudFetch('/il/data/' + entityId)
+            ]).then(function(results) {
+                displayResults(results[0], results[1], locationLabel);
+            }).catch(function(err) {
+                console.error('API error:', err);
+                showError('Tuvimos problemas al conectar con la base de datos de HUD. Esto puede suceder durante horas de alta demanda. Por favor intente de nuevo en un momento, o consulte los datos directamente en <a href="https://www.huduser.gov/portal/datasets/fmr.html">huduser.gov</a>.');
+            });
+        }
+
+        function displayResults(fmrData, ilData, locationLabel) {
+            var html = '<div class="results-container">';
+
+            var fmr = fmrData.data || fmrData;
+            var basicdata = null;
+            var areaName = locationLabel;
+
+            if (fmr.basicdata) {
+                basicdata = fmr.basicdata;
+                if (Array.isArray(basicdata)) {
+                    basicdata = basicdata[0] || {};
+                }
+                areaName = fmr.county_name || fmr.metro_name || fmr.area_name || locationLabel;
+            } else if (fmr.metroarea) {
+                basicdata = fmr.metroarea.basicdata || fmr.metroarea;
+                areaName = fmr.metroarea.area_name || fmr.metroarea.metro_name || locationLabel;
+            } else if (typeof fmr === 'object') {
+                for (var key in fmr) {
+                    if (fmr[key] && fmr[key].basicdata) {
+                        basicdata = fmr[key].basicdata;
+                        areaName = fmr[key].county_name || fmr[key].area_name || locationLabel;
+                        break;
+                    }
+                }
+                if (!basicdata) basicdata = fmr;
+            }
+
+            var il = ilData.data || ilData;
+            var ilMedian = null;
+
+            if (il.median_income || il.median) {
+                ilMedian = il;
+            } else if (typeof il === 'object') {
+                for (var k in il) {
+                    if (il[k] && (il[k].median_income || il[k].median)) {
+                        ilMedian = il[k];
+                        break;
+                    }
+                }
+                if (!ilMedian) ilMedian = il;
+            }
+
+            var year = fmr.year || basicdata.year || basicdata.fiscal_year || new Date().getFullYear();
+
+            html += '<div class="results-header">';
+            html += '<h2>Resultados para ' + escapeHtml(areaName) + '</h2>';
+            html += '<p>Datos del año fiscal ' + year + ' del Departamento de Vivienda y Desarrollo Urbano de EE.UU.</p>';
+            html += '</div>';
+
+            html += '<div class="results-section">';
+            html += '<div class="results-section-header">';
+            html += '<h3>Alquileres Justos de Mercado (Mensuales)</h3>';
+            html += '<p>Estos son los alquileres máximos que HUD usa para los estándares de pago de vales en su área. La tercera columna muestra el ingreso anual que necesitaría para pagar ese alquiler sin gastar más del 30% de sus ingresos en vivienda.</p>';
+            html += '</div>';
+            html += '<table class="results-table" role="table">';
+            html += '<thead><tr><th scope="col">Tamaño de Unidad</th><th scope="col">Alquiler Justo de Mercado</th><th scope="col">Ingreso Necesario para Este Alquiler</th></tr></thead>';
+            html += '<tbody>';
+
+            var bedrooms = [
+                { key: 'Efficiency', label: 'Estudio / Eficiencia' },
+                { key: 'One-Bedroom', label: '1 Habitación' },
+                { key: 'Two-Bedroom', label: '2 Habitaciones' },
+                { key: 'Three-Bedroom', label: '3 Habitaciones' },
+                { key: 'Four-Bedroom', label: '4 Habitaciones' }
+            ];
+
+            var altKeys = {
+                'Efficiency': ['Efficiency', 'efficiency', 'br0', 'studio', 'Zero-Bedroom'],
+                'One-Bedroom': ['One-Bedroom', 'one_bedroom', 'br1', 'onebr'],
+                'Two-Bedroom': ['Two-Bedroom', 'two_bedroom', 'br2', 'twobr'],
+                'Three-Bedroom': ['Three-Bedroom', 'three_bedroom', 'br3', 'threebr'],
+                'Four-Bedroom': ['Four-Bedroom', 'four_bedroom', 'br4', 'fourbr']
+            };
+
+            bedrooms.forEach(function(br) {
+                var val = null;
+                var keys = altKeys[br.key] || [br.key];
+                for (var i = 0; i < keys.length; i++) {
+                    if (basicdata[keys[i]] !== undefined && basicdata[keys[i]] !== null) {
+                        val = basicdata[keys[i]];
+                        break;
+                    }
+                }
+                if (val !== null) {
+                    var rent = parseFloat(val);
+                    var incomeNeeded = Math.round(rent / 0.30 * 12);
+                    html += '<tr>';
+                    html += '<td>' + br.label + '</td>';
+                    html += '<td class="amount">' + fmt(rent) + '/mes</td>';
+                    html += '<td class="amount">' + fmtAnnual(incomeNeeded) + '/año</td>';
+                    html += '</tr>';
+                }
+            });
+
+            html += '</tbody></table>';
+            html += '</div>';
+
+            if (ilMedian) {
+                var medianIncome = ilMedian.median_income || ilMedian.median || ilMedian.median_family_income;
+                var categories = [
+                    { prefix: 'extremely_low', prefixAlt: 'el', label: 'Extremadamente Bajo (30% AMI)', css: 'category-extremely-low' },
+                    { prefix: 'very_low', prefixAlt: 'vl', label: 'Muy Bajo (50% AMI)', css: 'category-very-low' },
+                    { prefix: 'low', prefixAlt: 'l', label: 'Bajo (80% AMI)', css: 'category-low' }
+                ];
+
+                html += '<div class="results-section">';
+                html += '<div class="results-section-header">';
+                html += '<h3>Límites de Ingresos (Anuales)</h3>';
+                html += '<p>Ingreso anual máximo para calificar a programas de vivienda, por tamaño del hogar.';
+                if (medianIncome) {
+                    html += ' Ingreso Mediano del Área: ' + fmtAnnual(medianIncome) + '.';
+                }
+                html += '</p>';
+                html += '</div>';
+                html += '<div class="table-scroll">';
+                html += '<table class="results-table" role="table">';
+                html += '<thead><tr><th scope="col">Categoría</th>';
+                for (var p = 1; p <= 8; p++) {
+                    html += '<th scope="col">' + p + (p === 1 ? ' Persona' : ' Personas') + '</th>';
+                }
+                html += '</tr></thead><tbody>';
+
+                categories.forEach(function(cat) {
+                    html += '<tr>';
+                    html += '<td class="income-category ' + cat.css + '">' + cat.label + '</td>';
+                    for (var p = 1; p <= 8; p++) {
+                        var val = findILValue(ilMedian, cat.prefix, cat.prefixAlt, p);
+                        html += '<td class="amount">' + (val ? fmtAnnual(val) : '—') + '</td>';
+                    }
+                    html += '</tr>';
+                });
+
+                html += '</tbody></table>';
+                html += '</div>';
+                html += '</div>';
+            }
+
+            html += '<div class="context-cards">';
+            html += '<div class="context-card"><h4>¿Qué significa esto para mí?</h4><p>Si su ingreso está por debajo del límite de "Muy Bajo" para el tamaño de su hogar, probablemente califica para Section 8 y vivienda pública. Por debajo de "Extremadamente Bajo" significa que tiene prioridad para asistencia. <a href="../../guias/como-solicitar-section-8">Aprenda cómo solicitar</a>.</p></div>';
+            html += '<div class="context-card"><h4>Sobre los Alquileres Justos de Mercado</h4><p>Los FMR son la base para los montos de pago de vales. Su PHA puede establecer su estándar de pago entre el 90–110% del FMR. <a href="../../guias/como-encontrar-su-pha">Encuentre su PHA local</a> para montos exactos.</p></div>';
+            html += '<div class="context-card"><h4>La Regla del 30% del Ingreso</h4><p>Con un vale de vivienda, usted paga aproximadamente el 30% de su ingreso bruto ajustado hacia el alquiler. El vale cubre el resto, hasta el estándar de pago. <a href="../../guias/presupuesto-con-poco-dinero">Ayuda con presupuesto</a>.</p></div>';
+            html += '</div>';
+
+            html += '<p style="margin-top: 2rem; font-size: 0.85rem; color: var(--color-text-muted);"><em>Datos de la <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" style="color: inherit; text-decoration: underline;">API de Datos de HUD</a>. Actualizados anualmente por el Departamento de Vivienda y Desarrollo Urbano de EE.UU. La elegibilidad real es determinada por su PHA local y puede variar.</em></p>';
+
+            html += '</div>';
+            resultsArea.innerHTML = html;
+
+            resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function findILValue(data, prefix, prefixAlt, personCount) {
+            var ilCodes = {
+                'extremely_low': 'il30',
+                'very_low': 'il50',
+                'low': 'il80'
+            };
+            var ilCode = ilCodes[prefix] || '';
+
+            var nested = data[prefix];
+            if (nested && typeof nested === 'object') {
+                if (nested[ilCode + '_p' + personCount] !== undefined) {
+                    return nested[ilCode + '_p' + personCount];
+                }
+                if (nested['p' + personCount] !== undefined) {
+                    return nested['p' + personCount];
+                }
+                if (nested['person_' + personCount] !== undefined) {
+                    return nested['person_' + personCount];
+                }
+                if (Array.isArray(nested)) {
+                    return nested[personCount - 1];
+                }
+            }
+
+            var patterns = [
+                ilCode + '_p' + personCount,
+                prefix + '_' + personCount,
+                prefixAlt + '_' + personCount,
+                prefix + personCount,
+            ];
+            for (var i = 0; i < patterns.length; i++) {
+                if (data[patterns[i]] !== undefined && data[patterns[i]] !== null) {
+                    return data[patterns[i]];
+                }
+            }
+
+            return null;
+        }
+
+        function escapeHtml(str) {
+            var div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        loadStates();
+    })();
+    </script>
+</body>
+</html>
