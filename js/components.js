@@ -265,7 +265,7 @@ function renderSearchResults(results) {
     container.innerHTML = results.map((r, i) => `
         <a href="${root}${encodeURI(r.url)}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
             <div class="search-result-title">${escapeHTML(r.title)}</div>
-            <div class="search-result-desc">${escapeHTML(r.desc)}</div>
+            <div class="search-result-desc">${escapeHTML(r.description || r.desc || "")}</div>
         </a>
     `).join('');
     liveRegion.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' found. Use arrow keys to navigate.';
