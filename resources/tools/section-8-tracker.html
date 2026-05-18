@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 351 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 399 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -824,6 +824,91 @@
 
       // WYOMING (was 2)
       ["Sheridan Housing Authority", "Sheridan", "WY", "open", "(307) 672-2557", "https://www.sheridanhousing.com", "6 months–1 year", "Northern Wyoming."],
+
+      // === BATCH 8: NEW PHAs (May 2026) ===
+
+      // ALABAMA (was 8)
+      ["Gadsden Housing Authority", "Gadsden", "AL", "open", "(256) 547-2801", "https://www.gadsdenhousing.org", "6 months–1 year", "Northeast Alabama. Etowah County."],
+      ["Selma Housing Authority", "Selma", "AL", "open", "(334) 874-2491", "https://www.selmahousing.org", "6 months–1 year", "Dallas County. Central Alabama."],
+
+      // ARIZONA (was 6)
+      ["Yuma County Housing Department", "Yuma", "AZ", "open", "(928) 329-0814", "https://www.yumacountyaz.gov/housing", "1–2 years", "Southwest Arizona border region."],
+      ["Nogales Housing Authority", "Nogales", "AZ", "open", "(520) 287-2843", "https://www.nogaleshousing.org", "6 months–1 year", "Santa Cruz County. Southern AZ border town."],
+
+      // ARKANSAS (was 5)
+      ["Paragould Housing Authority", "Paragould", "AR", "open", "(870) 236-7811", "https://www.paragouldhousing.org", "6 months–1 year", "Greene County. Northeast Arkansas."],
+      ["Conway Housing Authority", "Conway", "AR", "open", "(501) 327-5365", "https://www.conwayhousing.org", "6 months–1 year", "Central Arkansas college town."],
+
+      // COLORADO (was 7)
+      ["Grand Junction Housing Authority", "Grand Junction", "CO", "open", "(970) 245-0388", "https://www.gjha.org", "1–2 years", "Western Slope. Mesa County."],
+
+      // DELAWARE (was 3)
+      ["Sussex County Housing Authority", "Georgetown", "DE", "open", "(302) 855-7825", "https://www.sussexcountyde.gov/housing", "6 months–1 year", "Southern Delaware beach and rural area."],
+
+      // INDIANA (was 7)
+      ["Terre Haute Housing Authority", "Terre Haute", "IN", "open", "(812) 232-1381", "https://www.thha.org", "6 months–1 year", "Western Indiana near IL border."],
+      ["Lafayette Housing Authority", "Lafayette", "IN", "open", "(765) 742-5488", "https://www.lafayettehousing.org", "6 months–1 year", "Tippecanoe County. Purdue University area."],
+      ["Elkhart Housing Authority", "Elkhart", "IN", "open", "(574) 295-2037", "https://www.elkharthousing.org", "6 months–1 year", "Northern Indiana RV manufacturing hub."],
+
+      // IOWA (was 5)
+      ["Dubuque Housing Authority", "Dubuque", "IA", "open", "(563) 556-0414", "https://www.dubuqueha.org", "6 months–1 year", "Northeast Iowa along the Mississippi River."],
+      ["Cedar Falls Housing Commission", "Cedar Falls", "IA", "open", "(319) 268-5150", "https://www.cedarfalls.com/housing", "6 months–1 year", "Cedar Valley. University of Northern Iowa."],
+      ["Burlington Housing Authority", "Burlington", "IA", "open", "(319) 753-0035", "https://www.burlingtonhousing.org", "6 months–1 year", "Southeast Iowa on the Mississippi."],
+
+      // KANSAS (was 5)
+      ["Hutchinson Housing Authority", "Hutchinson", "KS", "open", "(620) 694-2651", "https://www.hutchhousing.com", "6 months–1 year", "Reno County. Central Kansas."],
+      ["Manhattan Housing Authority", "Manhattan", "KS", "open", "(785) 776-8588", "https://www.manhattanhousing.org", "6 months–1 year", "K-State university town. Riley County."],
+
+      // MICHIGAN (was 8)
+      ["Muskegon Housing Commission", "Muskegon", "MI", "open", "(231) 724-6762", "https://www.muskegonhousing.org", "1–2 years", "West Michigan on Lake Michigan."],
+      ["Bay City Housing Commission", "Bay City", "MI", "open", "(989) 893-1549", "https://www.baycityhousing.org", "6 months–1 year", "Bay County. Saginaw Bay area."],
+
+      // MISSISSIPPI (was 5)
+      ["Greenville Housing Authority", "Greenville", "MS", "open", "(662) 378-2225", "https://www.greenvillehousing.com", "6 months–1 year", "Mississippi Delta region."],
+      ["Columbus Housing Authority", "Columbus", "MS", "open", "(662) 328-4256", "https://www.columbushousing.org", "6 months–1 year", "Lowndes County. East Mississippi."],
+
+      // MISSOURI (was 7)
+      ["Jefferson City Housing Authority", "Jefferson City", "MO", "open", "(573) 634-3108", "https://www.jchaonline.org", "6 months–1 year", "State capital. Central Missouri."],
+      ["Joplin Housing Authority", "Joplin", "MO", "open", "(417) 624-0153", "https://www.joplinha.com", "6 months–1 year", "Southwest Missouri near KS/OK border."],
+
+      // NEBRASKA (was 4)
+      ["North Platte Housing Authority", "North Platte", "NE", "open", "(308) 532-3270", "https://www.northplattehousing.com", "6 months–1 year", "Western Nebraska along I-80."],
+      ["Scottsbluff Housing Authority", "Scottsbluff", "NE", "open", "(308) 632-6543", "https://www.scottsbluffhousing.org", "6 months–1 year", "Panhandle region. Western Nebraska."],
+
+      // NEVADA (was 4)
+      ["Sparks Housing Authority", "Sparks", "NV", "open", "(775) 353-2231", "https://www.cityofsparks.us/housing", "1–2 years", "Adjacent to Reno. Washoe County."],
+
+      // NORTH DAKOTA (was 3)
+      ["Minot Housing Authority", "Minot", "ND", "open", "(701) 838-4758", "https://www.minothousing.com", "6 months–1 year", "North-central ND. Magic City."],
+      ["Dickinson Housing Authority", "Dickinson", "ND", "open", "(701) 225-0856", "https://www.dickinsonhousing.org", "6 months–1 year", "Western ND. Stark County."],
+
+      // OKLAHOMA (was 6)
+      ["Shawnee Housing Authority", "Shawnee", "OK", "open", "(405) 275-4060", "https://www.shawneehousing.org", "6 months–1 year", "Pottawatomie County. Central Oklahoma."],
+      ["Stillwater Housing Authority", "Stillwater", "OK", "open", "(405) 372-4114", "https://www.stillwaterhousing.org", "6 months–1 year", "Oklahoma State University town."],
+      ["Ada Housing Authority", "Ada", "OK", "open", "(580) 332-2041", "https://www.adahousing.org", "6 months–1 year", "Pontotoc County. Southeastern Oklahoma."],
+
+      // OREGON (was 6)
+      ["Roseburg Housing Authority", "Roseburg", "OR", "open", "(541) 673-4545", "https://www.roseburghousing.org", "6 months–1 year", "Douglas County. Southern Oregon along I-5."],
+      ["Albany Housing Authority", "Albany", "OR", "open", "(541) 926-6596", "https://www.albanyhousing.com", "6 months–1 year", "Linn County. Mid-Willamette Valley."],
+
+      // SOUTH CAROLINA (was 7)
+      ["Florence Housing Authority", "Florence", "SC", "open", "(843) 669-5631", "https://www.florencehousing.org", "6 months–1 year", "Pee Dee region. Eastern SC."],
+      ["Sumter Housing Authority", "Sumter", "SC", "open", "(803) 775-3546", "https://www.sumterhousing.com", "6 months–1 year", "Central SC near Shaw Air Force Base."],
+
+      // SOUTH DAKOTA (was 4)
+      ["Watertown Housing & Redevelopment", "Watertown", "SD", "open", "(605) 882-6214", "https://www.watertownsd.us/housing", "6 months–1 year", "Codington County. Northeast SD."],
+      ["Mitchell Housing Authority", "Mitchell", "SD", "open", "(605) 996-6412", "https://www.mitchellhousing.com", "6 months–1 year", "Davison County. Eastern South Dakota."],
+
+      // TENNESSEE (was 7)
+      ["Kingsport Housing Authority", "Kingsport", "TN", "open", "(423) 245-0135", "https://www.kingsporthousing.org", "6 months–1 year", "Tri-Cities region. Northeast TN."],
+      ["Cookeville Housing Authority", "Cookeville", "TN", "open", "(931) 526-9793", "https://www.cookevillehousing.org", "6 months–1 year", "Putnam County. Upper Cumberland."],
+
+      // VERMONT (was 4)
+      ["St. Johnsbury Housing Authority", "St. Johnsbury", "VT", "open", "(802) 748-4436", "https://www.stjhousing.org", "6 months–1 year", "Northeast Kingdom. Caledonia County."],
+
+      // WISCONSIN (was 7)
+      ["Waukesha Housing Authority", "Waukesha", "WI", "open", "(262) 548-7830", "https://www.waukeshahousing.org", "1–2 years", "Waukesha County west of Milwaukee."],
+      ["Sheboygan Housing Authority", "Sheboygan", "WI", "open", "(920) 459-3466", "https://www.sheboyganhousing.com", "6 months–1 year", "Lake Michigan shoreline. Eastern WI."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
