@@ -102,21 +102,79 @@ async function loadSearchIndex() {
     }
 }
 
+const SEARCH_SYNONYMS = {
+    'section8': ['section 8', 'housing choice voucher'],
+    'sec8': ['section 8'],
+    'hcv': ['housing choice voucher', 'section 8'],
+    'pha': ['public housing authority', 'housing authority'],
+    'hud': ['housing urban development'],
+    'hudvash': ['hud-vash', 'hud vash', 'veterans'],
+    'vash': ['hud-vash', 'veterans'],
+    'lihtc': ['low income housing tax credit', 'tax credit'],
+    'ami': ['area median income', 'income limit'],
+    'fmr': ['fair market rent'],
+    'ssi': ['supplemental security income'],
+    'ssdi': ['social security disability'],
+    'snap': ['food stamps', 'food assistance'],
+    'tanf': ['temporary assistance', 'cash assistance'],
+    'liheap': ['energy assistance', 'utility assistance'],
+    'hqs': ['housing quality standards', 'inspection'],
+    'rta': ['reasonable accommodation'],
+    'fha': ['fair housing act', 'discrimination'],
+    'voucher': ['section 8', 'housing choice voucher'],
+    'vouchers': ['section 8', 'housing choice voucher'],
+    'eviciton': ['eviction'],
+    'evction': ['eviction'],
+    'afordable': ['affordable'],
+    'housng': ['housing'],
+    'seccion': ['section'],
+    'aplicar': ['apply', 'solicitar'],
+    'waitlist': ['waiting list'],
+    'waitinglist': ['waiting list'],
+    'recertification': ['recertification', 'annual review'],
+    'portability': ['transfer', 'move', 'portability'],
+};
+
+function expandSearchTerms(terms) {
+    const expanded = new Set(terms);
+    for (const term of terms) {
+        const synonyms = SEARCH_SYNONYMS[term];
+        if (synonyms) {
+            for (const syn of synonyms) {
+                syn.split(/\s+/).forEach(w => expanded.add(w));
+            }
+        }
+        if (term.length > 4) {
+            for (const [key, syns] of Object.entries(SEARCH_SYNONYMS)) {
+                if (key.length > 4 && (term.includes(key) || key.includes(term))) {
+                    for (const syn of syns) {
+                        syn.split(/\s+/).forEach(w => expanded.add(w));
+                    }
+                }
+            }
+        }
+    }
+    return Array.from(expanded);
+}
+
 function performSearch(query) {
     if (!searchIndex || !query.trim()) return [];
-    const terms = query.toLowerCase().trim().split(/\s+/);
+    const rawTerms = query.toLowerCase().trim().split(/\s+/);
+    const terms = expandSearchTerms(rawTerms);
     const scored = searchIndex.map(item => {
-        const haystack = (item.title + ' ' + item.desc + ' ' + item.keywords).toLowerCase();
+        const title = (item.title || '').toLowerCase();
+        const desc = (item.description || item.desc || '').toLowerCase();
+        const body = (item.body || '').toLowerCase();
         let score = 0;
         for (const term of terms) {
-            if (item.title.toLowerCase().includes(term)) score += 3;
-            if (item.keywords.toLowerCase().includes(term)) score += 2;
-            if (item.desc.toLowerCase().includes(term)) score += 1;
+            if (title.includes(term)) score += 3;
+            if (desc.includes(term)) score += 2;
+            if (body.includes(term)) score += 1;
         }
         return { ...item, score };
     }).filter(item => item.score > 0);
     scored.sort((a, b) => b.score - a.score);
-    return scored.slice(0, 6);
+    return scored.slice(0, 8);
 }
 
 let searchActiveIndex = -1; // tracks arrow-key highlighted result

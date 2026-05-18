@@ -113,6 +113,7 @@
     <main id="main-content" class="container fade-in">
         <div class="post-content">
             <p>This dashboard gives you a complete picture of your housing affordability. Enter your information below and we'll estimate your rent under Section 8, show where you fall on the income scale, and identify programs you may qualify for.</p>
+            <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Takes about 2 minutes — just your income and household size.</p>
         </div>
 
         <div class="kyn-form" id="kynForm">
@@ -327,9 +328,4 @@
 
             // Show results
             document.getElementById('results').classList.add('visible');
-            document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    })();
-    </script>
-</body>
-</html>
+        
