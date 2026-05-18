@@ -797,4 +797,18 @@
     renderStats();
     populateStates();
     renderList();
-    document.getElementById('lastU
+    document.getElementById('lastUpdated').textContent = 'Last updated: May 2026';
+
+    // Check URL params for state pre-selection
+    var params = new URLSearchParams(window.location.search);
+    var stateParam = params.get('state');
+    if (stateParam) {
+        var upper = stateParam.toUpperCase();
+        if (STATE_NAMES[upper]) {
+            document.getElementById('stateSelect').value = upper;
+            renderList();
+        }
+    }
+    </script>
+</body>
+</html>
