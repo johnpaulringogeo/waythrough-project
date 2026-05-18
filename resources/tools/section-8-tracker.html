@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 295 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 351 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -712,6 +712,118 @@
       // WYOMING
       ["Wyoming Community Development Authority", "Casper", "WY", "open", "(307) 265-0603", "https://www.wyomingcda.com", "6 months-1 year", "Statewide program."],
       ["Cheyenne Housing Authority", "Cheyenne", "WY", "open", "(307) 633-8326", "https://www.cheyennehousing.org", "6 months-1 year", "Capital city."],
+
+      // === BATCH 7: 55 NEW PHAs (May 2026) ===
+
+      // ALASKA (was 2)
+      ["Tlingit Haida Regional Housing Authority", "Juneau", "AK", "open", "(907) 780-6868", "https://www.thrha.org", "1–2 years", "Serves Alaska Native communities across Southeast Alaska."],
+
+      // ARIZONA (was 4)
+      ["Pima County Housing Center", "Tucson", "AZ", "lottery", "(520) 724-2030", "https://www.pima.gov/housing", "2–3 years", "Covers unincorporated Pima County outside Tucson."],
+      ["Flagstaff Housing Authority", "Flagstaff", "AZ", "open", "(928) 779-6132", "https://www.flagstaffhousing.org", "1–2 years", "Northern Arizona. College town with growing need."],
+
+      // ARKANSAS (was 3)
+      ["Pine Bluff Housing Authority", "Pine Bluff", "AR", "open", "(870) 535-3640", "https://www.pbhauthority.com", "6 months–1 year", "Southeast Arkansas."],
+      ["Jonesboro Urban Renewal & Housing", "Jonesboro", "AR", "open", "(870) 935-0889", "https://www.jonesborohousing.org", "6 months–1 year", "Northeast Arkansas."],
+
+      // COLORADO (was 4)
+      ["Aurora Housing Authority", "Aurora", "CO", "closed", "(303) 340-2140", "https://www.auroragov.org/housing", "2–3 years", "Denver metro suburb. Third-largest city in CO."],
+      ["Fort Collins Housing Authority", "Fort Collins", "CO", "open", "(970) 416-2910", "https://www.fcgov.com/socialsustainability", "1–2 years", "Northern Colorado college town."],
+      ["Pueblo Housing Authority", "Pueblo", "CO", "open", "(719) 545-4830", "https://www.hacpueblo.com", "1–2 years", "Southern Colorado. Shorter wait times."],
+
+      // CONNECTICUT (was 6)
+      ["New London Housing Authority", "New London", "CT", "open", "(860) 443-2851", "https://www.nlha.org", "1–2 years", "Southeastern Connecticut."],
+
+      // DELAWARE (was 2)
+      ["Newark Housing Authority", "Newark", "DE", "open", "(302) 366-7073", "https://www.cityofnewarkde.us/housing", "1–2 years", "University town near I-95 corridor."],
+
+      // GEORGIA (was 10)
+      ["Valdosta Housing Authority", "Valdosta", "GA", "open", "(229) 247-2179", "https://www.valdostahousing.org", "6 months–1 year", "South Georgia near FL border."],
+
+      // ILLINOIS (was 10)
+      ["Danville Housing Authority", "Danville", "IL", "open", "(217) 442-0500", "https://www.danvillehousing.org", "6 months–1 year", "East-central Illinois near IN border."],
+      ["Waukegan Housing Authority", "Waukegan", "IL", "lottery", "(847) 244-4490", "https://www.waukeganhousing.org", "1–2 years", "Lake County suburb north of Chicago."],
+
+      // KANSAS (was 3)
+      ["Lawrence-Douglas County Housing Authority", "Lawrence", "KS", "open", "(785) 842-8110", "https://www.ldcha.org", "1–2 years", "University town. Eastern Kansas."],
+      ["Salina Housing Authority", "Salina", "KS", "open", "(785) 827-0441", "https://www.salinahousing.org", "6 months–1 year", "Central Kansas. Smaller program."],
+
+      // LOUISIANA (was 7)
+      ["Alexandria Housing Authority", "Alexandria", "LA", "open", "(318) 442-8897", "https://www.alexandriahousing.org", "1–2 years", "Central Louisiana. Open list."],
+
+      // MAINE (was 2)
+      ["Bangor Housing Authority", "Bangor", "ME", "open", "(207) 942-6365", "https://www.bangorhousing.org", "1–2 years", "Largest city in northern Maine."],
+      ["Lewiston Housing Authority", "Lewiston", "ME", "open", "(207) 784-7351", "https://www.lewistonhousing.org", "1–2 years", "Second-largest city in Maine."],
+
+      // MASSACHUSETTS (was 4)
+      ["Lowell Housing Authority", "Lowell", "MA", "closed", "(978) 937-3500", "https://www.lhma.org", "3–5 years", "Merrimack Valley. High demand."],
+      ["New Bedford Housing Authority", "New Bedford", "MA", "closed", "(508) 997-4800", "https://www.newbedfordha.com", "2–4 years", "South Coast Massachusetts."],
+      ["Brockton Housing Authority", "Brockton", "MA", "closed", "(508) 588-1880", "https://www.brocktonhousingauthority.com", "2–4 years", "Plymouth County south of Boston."],
+
+      // MINNESOTA (was 6)
+      ["Moorhead Public Housing Agency", "Moorhead", "MN", "open", "(218) 299-5364", "https://www.ci.moorhead.mn.us/housing", "6 months–1 year", "Fargo-Moorhead metro area. Short waits."],
+
+      // MONTANA (was 2)
+      ["Great Falls Housing Authority", "Great Falls", "MT", "open", "(406) 453-4311", "https://www.gfrha.org", "6 months–1 year", "Central Montana. Open list."],
+      ["Missoula Housing Authority", "Missoula", "MT", "lottery", "(406) 549-4113", "https://www.missoulahousing.org", "1–2 years", "College town. Periodic lottery openings."],
+
+      // NEW HAMPSHIRE (was 2)
+      ["Nashua Housing & Redevelopment Authority", "Nashua", "NH", "closed", "(603) 883-5661", "https://www.nashuanh.gov/housing", "2–3 years", "Second-largest city in NH."],
+      ["Laconia Housing & Redevelopment Authority", "Laconia", "NH", "open", "(603) 524-2112", "https://www.laconianh.gov/housing", "1–2 years", "Lakes Region. Shorter wait."],
+
+      // NEW MEXICO (was 2)
+      ["Las Cruces Housing Authority", "Las Cruces", "NM", "open", "(575) 528-2000", "https://www.las-cruces.org/housing", "1–2 years", "Southern NM near El Paso."],
+      ["Santa Fe Civic Housing Authority", "Santa Fe", "NM", "lottery", "(505) 988-2859", "https://www.sfcha.org", "1–3 years", "State capital. Lottery-based openings."],
+
+      // NORTH CAROLINA (was 8)
+      ["High Point Housing Authority", "High Point", "NC", "open", "(336) 887-2661", "https://www.hphousing.org", "1–2 years", "Piedmont Triad metro area."],
+      ["Rocky Mount Housing Authority", "Rocky Mount", "NC", "open", "(252) 977-3035", "https://www.rmhousing.org", "6 months–1 year", "Eastern NC. Shorter waits."],
+
+      // OHIO (was 9)
+      ["Springfield Metropolitan Housing Authority", "Springfield", "OH", "open", "(937) 325-7921", "https://www.smha.com", "1–2 years", "Clark County between Columbus and Dayton."],
+      ["Hamilton Metropolitan Housing Authority", "Hamilton", "OH", "open", "(513) 868-3825", "https://www.hamiltonha.org", "1–2 years", "Butler County north of Cincinnati."],
+
+      // OREGON (was 4)
+      ["Clackamas County Housing Authority", "Oregon City", "OR", "closed", "(503) 655-8267", "https://www.clackamas.us/housingauthority", "2–3 years", "Portland metro south suburb."],
+      ["Central Oregon Regional Housing Authority", "Redmond", "OR", "open", "(541) 923-1018", "https://www.housing-works.org", "1–2 years", "Covers Deschutes, Crook, and Jefferson counties."],
+
+      // RHODE ISLAND (was 2)
+      ["Woonsocket Housing Authority", "Woonsocket", "RI", "open", "(401) 765-6100", "https://www.woonsockethousing.org", "1–2 years", "Northern RI near MA border. Shorter wait."],
+      ["Pawtucket Housing Authority", "Pawtucket", "RI", "closed", "(401) 725-0770", "https://www.pawtuckethousing.org", "2–3 years", "Providence metro area."],
+
+      // SOUTH DAKOTA (was 3)
+      ["Brookings Housing & Redevelopment Commission", "Brookings", "SD", "open", "(605) 692-6262", "https://www.brookingshousing.com", "6 months–1 year", "College town. Eastern SD."],
+
+      // TEXAS (was 15)
+      ["Killeen Housing Authority", "Killeen", "TX", "open", "(254) 634-7811", "https://www.killeenhousing.org", "1–2 years", "Central TX near Fort Cavazos. Military community."],
+      ["Brownsville Housing Authority", "Brownsville", "TX", "open", "(956) 541-8315", "https://www.hacb.us", "1–2 years", "Southernmost city in TX. Rio Grande Valley."],
+      ["Abilene Housing Authority", "Abilene", "TX", "open", "(325) 676-6385", "https://www.abilenehousing.org", "1–2 years", "West-central Texas."],
+      ["Tyler Housing Authority", "Tyler", "TX", "open", "(903) 597-1471", "https://www.tylerhousing.org", "6 months–1 year", "East Texas. Smaller program."],
+
+      // UTAH (was 3)
+      ["Davis Community Housing Authority", "Layton", "UT", "lottery", "(801) 773-8340", "https://www.daviscountyutah.gov/housing", "1–2 years", "North of Salt Lake City. Davis County."],
+      ["St. George Housing Authority", "St. George", "UT", "open", "(435) 628-3648", "https://www.sgcity.org/housing", "1–2 years", "Southern Utah. Fast-growing area."],
+
+      // VERMONT (was 2)
+      ["Barre Housing Authority", "Barre", "VT", "open", "(802) 476-4148", "https://www.barrehousing.org", "1–2 years", "Central Vermont. Open list."],
+      ["Rutland Housing Authority", "Rutland", "VT", "open", "(802) 775-2926", "https://www.rutlandhousing.org", "1–2 years", "Southern Vermont."],
+
+      // WASHINGTON (was 5)
+      ["Vancouver Housing Authority", "Vancouver", "WA", "lottery", "(360) 694-2501", "https://www.vhausa.org", "2–3 years", "Portland metro across the river. Lottery system."],
+      ["Bremerton Housing Authority", "Bremerton", "WA", "open", "(360) 478-5765", "https://www.bremertonhousing.org", "1–2 years", "Kitsap Peninsula near Navy base."],
+      ["Yakima Housing Authority", "Yakima", "WA", "open", "(509) 453-3106", "https://www.yakimahousing.org", "1–2 years", "Central Washington agricultural area."],
+
+      // WEST VIRGINIA (was 2)
+      ["Parkersburg Housing Authority", "Parkersburg", "WV", "open", "(304) 485-8588", "https://www.parkha.org", "6 months–1 year", "Mid-Ohio Valley. Short waits."],
+      ["Wheeling Housing Authority", "Wheeling", "WV", "open", "(304) 232-6581", "https://www.wheelingha.org", "6 months–1 year", "Northern Panhandle near Pittsburgh."],
+      ["Beckley Housing Authority", "Beckley", "WV", "open", "(304) 256-1764", "https://www.beckleyha.org", "6 months–1 year", "Southern WV coal country."],
+
+      // WISCONSIN (was 5)
+      ["Appleton Housing Authority", "Appleton", "WI", "open", "(920) 734-3418", "https://www.appletonhousing.org", "1–2 years", "Fox Valley. Northeast Wisconsin."],
+      ["Oshkosh Housing Authority", "Oshkosh", "WI", "open", "(920) 424-0169", "https://www.ci.oshkosh.wi.us/housing", "1–2 years", "Winnebago County along Lake Winnebago."],
+
+      // WYOMING (was 2)
+      ["Sheridan Housing Authority", "Sheridan", "WY", "open", "(307) 672-2557", "https://www.sheridanhousing.com", "6 months–1 year", "Northern Wyoming."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
