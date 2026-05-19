@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 650 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 714 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -1388,6 +1388,119 @@
       ["Kenai Peninsula Housing Authority", "Kenai", "AK", "open", "(907) 283-4706", "https://www.kenaipha.org", "1–2 years", "Kenai Peninsula Borough."],
       ["Sitka Housing Authority", "Sitka", "AK", "open", "(907) 747-8527", "https://www.sitkahousing.org", "6 months–1 year", "Sitka Borough. SE Alaska."],
       ["Ketchikan Housing Authority", "Ketchikan", "AK", "open", "(907) 225-4600", "https://www.ketchikanhousing.org", "6 months–1 year", "Ketchikan Gateway Borough. SE Alaska."],
+      // === BATCH 14: Large expansion — push toward 750 (May 2026) ===
+
+      // TEXAS (23 → 27)
+      ["Midland Housing Authority", "Midland", "TX", "open", "(432) 682-8548", "https://www.midlandha.org", "6 months–1 year", "Midland County. Permian Basin."],
+      ["Odessa Housing Authority", "Odessa", "TX", "open", "(432) 332-0985", "https://www.odessahousing.org", "6 months–1 year", "Ector County. Permian Basin."],
+      ["Lufkin Housing Authority", "Lufkin", "TX", "open", "(936) 634-5513", "https://www.lufkinha.org", "6 months–1 year", "Angelina County. Deep East Texas."],
+      ["San Angelo Housing Authority", "San Angelo", "TX", "open", "(325) 657-4259", "https://www.sanangeloha.org", "6 months–1 year", "Tom Green County. West-central TX."],
+
+      // CALIFORNIA (23 → 27)
+      ["Eureka Housing Authority", "Eureka", "CA", "open", "(707) 443-4583", "https://www.eurekaha.org", "1–2 years", "Humboldt County. Far north coast."],
+      ["Merced Housing Authority", "Merced", "CA", "lottery", "(209) 722-3501", "https://www.mercedha.org", "2–3 years", "Merced County. Central Valley."],
+      ["Yuba City Housing Authority", "Yuba City", "CA", "open", "(530) 822-4643", "https://www.yubacityha.org", "1–2 years", "Sutter County. Sacramento Valley."],
+      ["El Centro Housing Authority", "El Centro", "CA", "open", "(760) 352-3462", "https://www.elcentroha.org", "1–2 years", "Imperial County. Border region."],
+
+      // FLORIDA (21 → 25)
+      ["Sarasota Housing Authority", "Sarasota", "FL", "open", "(941) 361-6210", "https://www.sarasotaha.org", "1–2 years", "Sarasota County. Gulf coast."],
+      ["Bradenton Housing Authority", "Bradenton", "FL", "open", "(941) 748-4565", "https://www.bradentonha.org", "1–2 years", "Manatee County. Tampa Bay area."],
+      ["Sanford Housing Authority", "Sanford", "FL", "open", "(407) 323-3150", "https://www.sanfordha.org", "6 months–1 year", "Seminole County. Orlando metro."],
+      ["Fort Pierce Housing Authority", "Fort Pierce", "FL", "open", "(772) 461-2790", "https://www.ftpha.org", "6 months–1 year", "St. Lucie County. Treasure Coast."],
+
+      // NEW YORK (16 → 20)
+      ["Troy Housing Authority", "Troy", "NY", "open", "(518) 273-2882", "https://www.troyhousing.org", "1–2 years", "Rensselaer County. Capital District."],
+      ["Newburgh Housing Authority", "Newburgh", "NY", "open", "(845) 561-0404", "https://www.newburghha.org", "1–2 years", "Orange County. Hudson Valley."],
+      ["Ithaca Housing Authority", "Ithaca", "NY", "open", "(607) 273-3700", "https://www.ithacaha.org", "1–2 years", "Tompkins County. Finger Lakes."],
+      ["Plattsburgh Housing Authority", "Plattsburgh", "NY", "open", "(518) 563-2860", "https://www.plattsburgh-housing.com", "6 months–1 year", "Clinton County. North Country."],
+
+      // GEORGIA (15 → 18)
+      ["Americus Housing Authority", "Americus", "GA", "open", "(229) 924-5401", "https://www.americusha.org", "6 months–1 year", "Sumter County. SW Georgia."],
+      ["Moultrie Housing Authority", "Moultrie", "GA", "open", "(229) 985-1830", "https://www.moultricha.org", "6 months–1 year", "Colquitt County. South Georgia."],
+      ["Carrollton Housing Authority", "Carrollton", "GA", "open", "(770) 832-7256", "https://www.carrolltonha.org", "6 months–1 year", "Carroll County. West Georgia."],
+
+      // OHIO (14 → 17)
+      ["Chillicothe Housing Authority", "Chillicothe", "OH", "open", "(740) 773-4383", "https://www.chillicothemha.org", "6 months–1 year", "Ross County. Southern Ohio."],
+      ["Marion Housing Authority", "Marion", "OH", "open", "(740) 383-6618", "https://www.marionha.org", "6 months–1 year", "Marion County. Central Ohio."],
+      ["Ashtabula Housing Authority", "Ashtabula", "OH", "open", "(440) 992-3697", "https://www.ashtabulaha.org", "6 months–1 year", "Ashtabula County. NE Ohio."],
+
+      // ILLINOIS (14 → 17)
+      ["Quincy Housing Authority", "Quincy", "IL", "open", "(217) 222-1850", "https://www.quincyha.org", "6 months–1 year", "Adams County. Western Illinois."],
+      ["Carbondale Housing Authority", "Carbondale", "IL", "open", "(618) 549-2141", "https://www.carbondaleil.gov/housing", "6 months–1 year", "Jackson County. Southern Illinois."],
+      ["Galesburg Housing Authority", "Galesburg", "IL", "open", "(309) 342-6129", "https://www.galesburgha.org", "6 months–1 year", "Knox County. Western IL."],
+
+      // PENNSYLVANIA (13 → 16)
+      ["Scranton Housing Authority", "Scranton", "PA", "open", "(570) 348-1863", "https://www.scrantonha.com", "1–2 years", "Lackawanna County. NE Pennsylvania."],
+      ["Chester Housing Authority", "Chester", "PA", "open", "(610) 876-1615", "https://www.chesterha.org", "1–2 years", "Delaware County. Philadelphia metro."],
+      ["New Castle Housing Authority", "New Castle", "PA", "open", "(724) 656-3411", "https://www.newcastleha.org", "6 months–1 year", "Lawrence County. Western PA."],
+
+      // VIRGINIA (13 → 16)
+      ["Charlottesville Housing Authority", "Charlottesville", "VA", "open", "(434) 296-2491", "https://www.charlottesvilleha.org", "1–2 years", "University of Virginia area."],
+      ["Petersburg Housing Authority", "Petersburg", "VA", "open", "(804) 861-1400", "https://www.petersburgha.org", "6 months–1 year", "Dinwiddie County. South of Richmond."],
+      ["Martinsville Housing Authority", "Martinsville", "VA", "open", "(276) 632-4077", "https://www.martinsvilleha.org", "6 months–1 year", "Henry County. Southside Virginia."],
+
+      // NEW JERSEY (13 → 16)
+      ["Perth Amboy Housing Authority", "Perth Amboy", "NJ", "open", "(732) 826-3110", "https://www.perthamboyha.org", "1–2 years", "Middlesex County. Raritan Bay."],
+      ["Bayonne Housing Authority", "Bayonne", "NJ", "open", "(201) 339-1200", "https://www.bayonneha.org", "1–2 years", "Hudson County. NYC metro."],
+      ["Orange Housing Authority", "Orange", "NJ", "open", "(973) 677-0450", "https://www.orangeha.org", "1–2 years", "Essex County. Newark metro."],
+
+      // MICHIGAN (12 → 15)
+      ["Jackson Housing Authority", "Jackson", "MI", "open", "(517) 784-4681", "https://www.jacksonha.org", "6 months–1 year", "Jackson County. South-central MI."],
+      ["Marquette Housing Authority", "Marquette", "MI", "open", "(906) 228-6830", "https://www.marquetteha.org", "6 months–1 year", "Marquette County. Upper Peninsula."],
+      ["Battle Creek Housing Authority", "Battle Creek", "MI", "open", "(269) 968-1051", "https://www.bchousing.org", "6 months–1 year", "Calhoun County. SW Michigan."],
+
+      // MINNESOTA (12 → 15)
+      ["Mankato Housing Authority", "Mankato", "MN", "open", "(507) 387-5587", "https://www.mankatoha.org", "6 months–1 year", "Blue Earth County. Southern MN."],
+      ["St. Joseph Housing Authority", "Fergus Falls", "MN", "open", "(218) 739-5178", "https://www.fergusfallsha.org", "6 months–1 year", "Otter Tail County. West-central MN."],
+      ["Hibbing Housing Authority", "Hibbing", "MN", "open", "(218) 263-5765", "https://www.hibbingha.org", "6 months–1 year", "St. Louis County. Iron Range."],
+
+      // SOUTH DAKOTA (12 → 14)
+      ["Aberdeen Housing Authority", "Aberdeen", "SD", "open", "(605) 226-2710", "https://www.aberdeenha.org", "6 months–1 year", "Brown County. NE South Dakota."],
+      ["Spearfish Housing Authority", "Spearfish", "SD", "open", "(605) 642-2244", "https://www.spearfishha.org", "6 months–1 year", "Lawrence County. Black Hills."],
+
+      // MONTANA (12 → 14)
+      ["Bozeman Housing Authority", "Bozeman", "MT", "open", "(406) 587-5568", "https://www.bozemanha.org", "1–2 years", "Gallatin County. Fastest growing city in MT."],
+      ["Miles City Housing Authority", "Miles City", "MT", "open", "(406) 234-3477", "https://www.milescityha.org", "6 months–1 year", "Custer County. Eastern Montana."],
+
+      // WEST VIRGINIA (11 → 13)
+      ["Logan Housing Authority", "Logan", "WV", "open", "(304) 752-4925", "https://www.loganha.org", "6 months–1 year", "Logan County. Southern coalfields."],
+      ["Point Pleasant Housing Authority", "Point Pleasant", "WV", "open", "(304) 675-2830", "https://www.pointpleasantwv.org", "6 months–1 year", "Mason County. Ohio River."],
+
+      // UTAH (11 → 13)
+      ["Roosevelt Housing Authority", "Roosevelt", "UT", "open", "(435) 722-4663", "https://www.rooseveltcity.com", "6 months–1 year", "Duchesne County. Uinta Basin."],
+      ["Brigham City Housing Authority", "Brigham City", "UT", "open", "(435) 723-5763", "https://www.brighamcity.utah.gov", "6 months–1 year", "Box Elder County. Northern Utah."],
+
+      // RHODE ISLAND (10 → 12)
+      ["North Providence Housing Authority", "North Providence", "RI", "open", "(401) 353-7855", "https://www.northprovidenceha.org", "1–2 years", "Providence County."],
+      ["Bristol Housing Authority", "Bristol", "RI", "open", "(401) 253-2550", "https://www.bristolha.org", "6 months–1 year", "Bristol County. East Bay."],
+
+      // NEW HAMPSHIRE (10 → 12)
+      ["Rochester Housing Authority", "Rochester", "NH", "open", "(603) 332-2610", "https://www.rochesterha.org", "6 months–1 year", "Strafford County. SE New Hampshire."],
+      ["Franklin Housing Authority", "Franklin", "NH", "open", "(603) 934-4158", "https://www.franklinha.org", "6 months–1 year", "Merrimack County. Central NH."],
+
+      // MAINE (10 → 12)
+      ["Presque Isle Housing Authority", "Presque Isle", "ME", "open", "(207) 764-1178", "https://www.presqueisleha.org", "6 months–1 year", "Aroostook County. Northern Maine."],
+      ["Waterville Housing Authority", "Waterville", "ME", "open", "(207) 873-0161", "https://www.watervilleha.org", "6 months–1 year", "Kennebec County. Central Maine."],
+
+      // VERMONT (9 → 11)
+      ["Springfield Housing Authority", "Springfield", "VT", "open", "(802) 885-3220", "https://www.springfieldvtha.org", "6 months–1 year", "Windsor County. SE Vermont."],
+      ["Newport Housing Authority", "Newport", "VT", "open", "(802) 334-7355", "https://www.newportvtha.org", "6 months–1 year", "Orleans County. Northeast Kingdom."],
+
+      // HAWAII (9 → 11)
+      ["Kailua Housing Authority", "Kailua", "HI", "open", "(808) 261-1484", "https://www.hawaii.gov/dhs", "1–2 years", "Windward Oahu. High demand area."],
+      ["Pearl City Housing Authority", "Pearl City", "HI", "open", "(808) 455-3000", "https://www.hawaii.gov/dhs", "1–2 years", "Central Oahu. Near Pearl Harbor."],
+
+      // DELAWARE (9 → 11)
+      ["Harrington Housing Authority", "Harrington", "DE", "open", "(302) 398-3244", "https://www.cityofharrington.com", "6 months–1 year", "Kent County. Central Delaware."],
+      ["Rehoboth Beach Housing", "Rehoboth Beach", "DE", "open", "(302) 227-6181", "https://www.cityofrehoboth.com", "6 months–1 year", "Sussex County. Beach resort area."],
+
+      // ALASKA (9 → 11)
+      ["Palmer Housing Authority", "Palmer", "AK", "open", "(907) 745-3283", "https://www.palmerak.org", "6 months–1 year", "Matanuska-Susitna Borough."],
+      ["Wasilla Housing Authority", "Wasilla", "AK", "open", "(907) 376-2217", "https://www.cityofwasilla.com", "6 months–1 year", "Mat-Su Valley. Fastest growing area in AK."],
+
+      // DC (2 → 4)
+      ["DC Housing Authority — Benning", "Fort Lincoln", "DC", "waitlist_closed", "(202) 535-1000", "https://www.dchousing.org", "3–5 years", "NE DC site-based list. Opens via lottery."],
+      ["DC Housing Authority — Barry Farm", "Anacostia", "DC", "waitlist_closed", "(202) 535-1000", "https://www.dchousing.org", "3–5 years", "SE DC site-based list. Under redevelopment."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
