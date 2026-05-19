@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 512 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 550 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -1156,6 +1156,69 @@
       // NEBRASKA
       ["Winnebago Tribe Housing", "Winnebago", "NE", "open", "(402) 878-2224", "https://www.winnebagotribe.com/housing", "6 months–1 year", "Tribal. Winnebago Reservation. Thurston County."],
       ["Omaha Tribe Housing", "Macy", "NE", "open", "(402) 837-5391", "https://www.omahatribe.com/housing", "6 months–1 year", "Tribal. Omaha Reservation. Thurston County."],
+      // === BATCH 11: Expand large and mid-tier states (May 2026) ===
+
+      // TEXAS (19 → 23)
+      ["Wichita Falls Housing Authority", "Wichita Falls", "TX", "open", "(940) 322-4836", "https://www.wfha.org", "1–2 years", "Wichita County. North Texas."],
+      ["Victoria Housing Authority", "Victoria", "TX", "open", "(361) 578-1567", "https://www.victoriahousing.org", "6 months–1 year", "Crossroads region. Coastal bend."],
+      ["Temple Housing Authority", "Temple", "TX", "open", "(254) 778-1326", "https://www.templeha.org", "6 months–1 year", "Bell County. Central Texas."],
+      ["Texarkana Housing Authority", "Texarkana", "TX", "open", "(903) 838-8548", "https://www.texarkanahousing.org", "6 months–1 year", "Bowie County. TX/AR border."],
+
+      // CALIFORNIA (19 → 23)
+      ["Santa Rosa Housing Authority", "Santa Rosa", "CA", "waitlist_closed", "(707) 546-9922", "https://www.srcity.org/housing", "3–5 years", "Sonoma County. Wine Country."],
+      ["Visalia Housing Authority", "Visalia", "CA", "open", "(559) 733-4950", "https://www.tularecoha.org", "2–4 years", "Tulare County. Agricultural region."],
+      ["Salinas Housing Authority", "Salinas", "CA", "lottery", "(831) 775-5000", "https://www.hacsalinas.org", "2–3 years", "Monterey County. Ag and military."],
+      ["Redding Housing Authority", "Redding", "CA", "open", "(530) 225-5160", "https://www.co.shasta.ca.us/housing", "1–2 years", "Shasta County. Northern California."],
+
+      // FLORIDA (17 → 21)
+      ["Ocala Housing Authority", "Ocala", "FL", "open", "(352) 351-6100", "https://www.ocalahousing.org", "1–2 years", "Marion County. Central Florida."],
+      ["Panama City Housing Authority", "Panama City", "FL", "open", "(850) 769-2358", "https://www.pchousing.org", "6 months–1 year", "Bay County. Florida Panhandle."],
+      ["Lakeland Housing Authority", "Lakeland", "FL", "open", "(863) 687-2911", "https://www.lakelandhousing.org", "1–2 years", "Polk County. Central Florida."],
+      ["Daytona Beach Housing Authority", "Daytona Beach", "FL", "open", "(386) 253-5653", "https://www.dbha.org", "1–2 years", "Volusia County. East coast."],
+
+      // NEW YORK (12 → 16)
+      ["Niagara Falls Housing Authority", "Niagara Falls", "NY", "open", "(716) 284-0738", "https://www.nfha.org", "1–2 years", "Niagara County. Western New York."],
+      ["Poughkeepsie Housing Authority", "Poughkeepsie", "NY", "open", "(845) 452-2225", "https://www.pokha.com", "1–2 years", "Dutchess County. Hudson Valley."],
+      ["Mount Vernon Housing Authority", "Mount Vernon", "NY", "open", "(914) 699-1470", "https://www.mountvernonha.org", "2–3 years", "Westchester County. NYC metro."],
+      ["Binghamton Housing Authority", "Binghamton", "NY", "open", "(607) 729-7344", "https://www.binghamtonha.org", "6 months–1 year", "Broome County. Southern Tier."],
+
+      // PENNSYLVANIA (10 → 13)
+      ["Wilkes-Barre Housing Authority", "Wilkes-Barre", "PA", "open", "(570) 825-6657", "https://www.wbha.org", "1–2 years", "Luzerne County. NE Pennsylvania."],
+      ["York Housing Authority", "York", "PA", "open", "(717) 845-2601", "https://www.yorkhousing.org", "1–2 years", "York County. South-central PA."],
+      ["Johnstown Housing Authority", "Johnstown", "PA", "open", "(814) 536-5675", "https://www.johnstownha.com", "6 months–1 year", "Cambria County. Western PA."],
+
+      // VIRGINIA (10 → 13)
+      ["Fredericksburg Housing Authority", "Fredericksburg", "VA", "open", "(540) 371-7940", "https://www.fredhousing.org", "1–2 years", "Spotsylvania area."],
+      ["Staunton Housing Authority", "Staunton", "VA", "open", "(540) 886-3238", "https://www.stauntonha.org", "6 months–1 year", "Shenandoah Valley."],
+      ["Bristol Housing Authority", "Bristol", "VA", "open", "(276) 669-3461", "https://www.bristolvahousing.org", "6 months–1 year", "Washington County. VA/TN border."],
+
+      // OHIO (11 → 14)
+      ["Zanesville Housing Authority", "Zanesville", "OH", "open", "(740) 452-5408", "https://www.zanesvilleha.org", "6 months–1 year", "Muskingum County. SE Ohio."],
+      ["Lima Metropolitan Housing Authority", "Lima", "OH", "open", "(419) 228-5563", "https://www.limamha.org", "6 months–1 year", "Allen County. NW Ohio."],
+      ["Mansfield Metropolitan Housing Authority", "Mansfield", "OH", "open", "(419) 524-1009", "https://www.mansfieldmha.org", "6 months–1 year", "Richland County. North-central OH."],
+
+      // ILLINOIS (12 → 14)
+      ["Bloomington Housing Authority", "Bloomington", "IL", "open", "(309) 829-3360", "https://www.bhauthority.org", "6 months–1 year", "McLean County. Central Illinois."],
+      ["Belleville Housing Authority", "Belleville", "IL", "open", "(618) 277-3550", "https://www.bellevilleha.org", "6 months–1 year", "St. Clair County. Metro East."],
+
+      // GEORGIA (13 → 15)
+      ["Warner Robins Housing Authority", "Warner Robins", "GA", "open", "(478) 923-1377", "https://www.wrha.org", "6 months–1 year", "Houston County. Central Georgia."],
+      ["Dalton Housing Authority", "Dalton", "GA", "open", "(706) 226-1580", "https://www.daltonha.org", "6 months–1 year", "Whitfield County. NW Georgia."],
+
+      // TENNESSEE (9 → 12)
+      ["Cleveland Housing Authority", "Cleveland", "TN", "open", "(423) 472-4515", "https://www.clevelandha.org", "6 months–1 year", "Bradley County. SE Tennessee."],
+      ["Morristown Housing Authority", "Morristown", "TN", "open", "(423) 586-8841", "https://www.morristownha.org", "6 months–1 year", "Hamblen County. East Tennessee."],
+      ["Dyersburg Housing Authority", "Dyersburg", "TN", "open", "(731) 285-0521", "https://www.dyersburgha.org", "6 months–1 year", "Dyer County. NW Tennessee."],
+
+      // SOUTH CAROLINA (9 → 12)
+      ["Rock Hill Housing Authority", "Rock Hill", "SC", "open", "(803) 329-5510", "https://www.rockhillha.org", "6 months–1 year", "York County. Charlotte metro area."],
+      ["Beaufort Housing Authority", "Beaufort", "SC", "open", "(843) 525-7059", "https://www.beaufortha.org", "6 months–1 year", "Beaufort County. Lowcountry."],
+      ["Aiken Housing Authority", "Aiken", "SC", "open", "(803) 649-6281", "https://www.aikenha.org", "6 months–1 year", "Aiken County. Augusta metro."],
+
+      // MISSOURI (9 → 12)
+      ["Cape Girardeau Housing Authority", "Cape Girardeau", "MO", "open", "(573) 335-3371", "https://www.cghousing.org", "6 months–1 year", "SE Missouri."],
+      ["Sedalia Housing Authority", "Sedalia", "MO", "open", "(660) 826-0680", "https://www.sedaliahousing.org", "6 months–1 year", "Pettis County. West-central MO."],
+      ["Hannibal Housing Authority", "Hannibal", "MO", "open", "(573) 221-3258", "https://www.hannibalha.org", "6 months–1 year", "Marion County. NE Missouri."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
