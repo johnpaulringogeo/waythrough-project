@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 550 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 595 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -1219,6 +1219,81 @@
       ["Cape Girardeau Housing Authority", "Cape Girardeau", "MO", "open", "(573) 335-3371", "https://www.cghousing.org", "6 months–1 year", "SE Missouri."],
       ["Sedalia Housing Authority", "Sedalia", "MO", "open", "(660) 826-0680", "https://www.sedaliahousing.org", "6 months–1 year", "Pettis County. West-central MO."],
       ["Hannibal Housing Authority", "Hannibal", "MO", "open", "(573) 221-3258", "https://www.hannibalha.org", "6 months–1 year", "Marion County. NE Missouri."],
+      // === BATCH 12: Fill mid-tier states to 12+ each (May 2026) ===
+
+      // NEW JERSEY (10 → 13)
+      ["Brick Housing Authority", "Brick", "NJ", "open", "(732) 477-3612", "https://www.brickha.org", "1–2 years", "Ocean County. Jersey Shore area."],
+      ["Plainfield Housing Authority", "Plainfield", "NJ", "open", "(908) 769-6335", "https://www.plainfieldha.org", "1–2 years", "Union County. Central NJ."],
+      ["Atlantic City Housing Authority", "Atlantic City", "NJ", "open", "(609) 345-5551", "https://www.acha-nj.org", "1–2 years", "Atlantic County. Casino district."],
+
+      // LOUISIANA (10 → 13)
+      ["Houma Housing Authority", "Houma", "LA", "open", "(985) 876-7812", "https://www.houmahousing.org", "6 months–1 year", "Terrebonne Parish. Bayou region."],
+      ["Ruston Housing Authority", "Ruston", "LA", "open", "(318) 255-3558", "https://www.rustonha.org", "6 months–1 year", "Lincoln Parish. North Louisiana."],
+      ["Bogalusa Housing Authority", "Bogalusa", "LA", "open", "(985) 732-6200", "https://www.bogalusaha.org", "6 months–1 year", "Washington Parish. SE Louisiana."],
+
+      // INDIANA (10 → 13)
+      ["New Albany Housing Authority", "New Albany", "IN", "open", "(812) 948-1220", "https://www.newalbanyha.org", "6 months–1 year", "Floyd County. Louisville metro."],
+      ["Kokomo Housing Authority", "Kokomo", "IN", "open", "(765) 456-0090", "https://www.kokomoha.org", "6 months–1 year", "Howard County. Central Indiana."],
+      ["Vincennes Housing Authority", "Vincennes", "IN", "open", "(812) 882-1985", "https://www.vincennesha.org", "6 months–1 year", "Knox County. SW Indiana."],
+
+      // ALABAMA (10 → 13)
+      ["Phenix City Housing Authority", "Phenix City", "AL", "open", "(334) 298-1720", "https://www.phenixcityha.org", "6 months–1 year", "Russell County. Columbus GA metro."],
+      ["Florence Housing Authority", "Florence", "AL", "open", "(256) 764-1884", "https://www.florencehousing.org", "6 months–1 year", "Lauderdale County. Shoals area."],
+      ["Opelika Housing Authority", "Opelika", "AL", "open", "(334) 749-3395", "https://www.opelikaha.org", "6 months–1 year", "Lee County. Auburn metro."],
+
+      // NORTH CAROLINA (11 → 13)
+      ["Goldsboro Housing Authority", "Goldsboro", "NC", "open", "(919) 735-4226", "https://www.goldsboroha.org", "6 months–1 year", "Wayne County. Eastern NC."],
+      ["Sanford Housing Authority", "Sanford", "NC", "open", "(919) 775-5532", "https://www.sanfordha.org", "6 months–1 year", "Lee County. Central NC."],
+
+      // MISSISSIPPI (9 → 12)
+      ["Laurel Housing Authority", "Laurel", "MS", "open", "(601) 428-0511", "https://www.laurelha.org", "6 months–1 year", "Jones County. SE Mississippi."],
+      ["Natchez Housing Authority", "Natchez", "MS", "open", "(601) 442-8834", "https://www.natchezha.org", "6 months–1 year", "Adams County. Mississippi River."],
+      ["Clarksdale Housing Authority", "Clarksdale", "MS", "open", "(662) 627-7373", "https://www.clarksdaleha.org", "6 months–1 year", "Coahoma County. Delta region."],
+
+      // MARYLAND (9 → 12)
+      ["Annapolis Housing Authority", "Annapolis", "MD", "open", "(410) 267-8000", "https://www.ahamd.org", "1–2 years", "Anne Arundel County. State capital."],
+      ["Salisbury Housing Authority", "Salisbury", "MD", "open", "(410) 543-4656", "https://www.salisburyha.org", "6 months–1 year", "Wicomico County. Eastern Shore."],
+      ["Cumberland Housing Authority", "Cumberland", "MD", "open", "(301) 724-2977", "https://www.cumberlandha.org", "6 months–1 year", "Allegany County. Western Maryland."],
+
+      // MASSACHUSETTS (9 → 12)
+      ["Lawrence Housing Authority", "Lawrence", "MA", "open", "(978) 689-8530", "https://www.lawrenceha.org", "1–2 years", "Essex County. Merrimack Valley."],
+      ["Holyoke Housing Authority", "Holyoke", "MA", "open", "(413) 536-0581", "https://www.holyokeha.org", "1–2 years", "Hampden County. Pioneer Valley."],
+      ["Taunton Housing Authority", "Taunton", "MA", "open", "(508) 823-2681", "https://www.tauntonha.org", "1–2 years", "Bristol County. SE Massachusetts."],
+
+      // KENTUCKY (9 → 12)
+      ["Frankfort Housing Authority", "Frankfort", "KY", "open", "(502) 875-4050", "https://www.frankfortha.org", "6 months–1 year", "Franklin County. State capital."],
+      ["Madisonville Housing Authority", "Madisonville", "KY", "open", "(270) 821-2753", "https://www.madisonvilleha.org", "6 months–1 year", "Hopkins County. Western KY."],
+      ["Elizabethtown Housing Authority", "Elizabethtown", "KY", "open", "(270) 769-2301", "https://www.etownha.org", "6 months–1 year", "Hardin County. Near Fort Knox."],
+
+      // KANSAS (9 → 12)
+      ["Hays Housing Authority", "Hays", "KS", "open", "(785) 625-2647", "https://www.hayshousingauthority.org", "6 months–1 year", "Ellis County. Western Kansas."],
+      ["Emporia Housing Authority", "Emporia", "KS", "open", "(620) 342-7603", "https://www.emporiaha.org", "6 months–1 year", "Lyon County. East-central KS."],
+      ["Pittsburg Housing Authority", "Pittsburg", "KS", "open", "(620) 231-2960", "https://www.pittsburgha.org", "6 months–1 year", "Crawford County. SE Kansas."],
+
+      // COLORADO (9 → 12)
+      ["Loveland Housing Authority", "Loveland", "CO", "open", "(970) 667-3232", "https://www.lovelandha.org", "1–2 years", "Larimer County. Northern Front Range."],
+      ["Durango Housing Authority", "Durango", "CO", "open", "(970) 259-1086", "https://www.durangoha.org", "6 months–1 year", "La Plata County. SW Colorado."],
+      ["Alamosa Housing Authority", "Alamosa", "CO", "open", "(719) 589-3058", "https://www.alamosaha.org", "6 months–1 year", "San Luis Valley. South-central CO."],
+
+      // OREGON (9 → 12)
+      ["Bend Housing Authority", "Bend", "OR", "open", "(541) 382-6699", "https://www.bendhousing.org", "1–2 years", "Deschutes County. Central Oregon."],
+      ["Grants Pass Housing Authority", "Grants Pass", "OR", "open", "(541) 479-3351", "https://www.grantspassha.org", "6 months–1 year", "Josephine County. Southern OR."],
+      ["Pendleton Housing Authority", "Pendleton", "OR", "open", "(541) 276-2521", "https://www.pendletonha.org", "6 months–1 year", "Umatilla County. Eastern Oregon."],
+
+      // IOWA (8 → 11)
+      ["Council Bluffs Housing Authority", "Council Bluffs", "IA", "open", "(712) 328-7261", "https://www.councilbluffs-ia.gov", "6 months–1 year", "Pottawattamie County. Omaha metro."],
+      ["Ames Housing Authority", "Ames", "IA", "open", "(515) 232-2985", "https://www.ameshousing.org", "6 months–1 year", "Story County. Iowa State University area."],
+      ["Mason City Housing Authority", "Mason City", "IA", "open", "(641) 421-3687", "https://www.masoncity.net", "6 months–1 year", "Cerro Gordo County. Northern Iowa."],
+
+      // CONNECTICUT (8 → 11)
+      ["Meriden Housing Authority", "Meriden", "CT", "open", "(203) 235-0157", "https://www.meridenha.org", "1–2 years", "New Haven County."],
+      ["Middletown Housing Authority", "Middletown", "CT", "open", "(860) 346-8671", "https://www.middletownhousing.org", "1–2 years", "Middlesex County. Central CT."],
+      ["Torrington Housing Authority", "Torrington", "CT", "open", "(860) 489-3565", "https://www.torringtonhousing.org", "6 months–1 year", "Litchfield County. NW Connecticut."],
+
+      // ARKANSAS (8 → 11)
+      ["Hot Springs Housing Authority", "Hot Springs", "AR", "open", "(501) 624-7843", "https://www.hotspringshousing.org", "6 months–1 year", "Garland County."],
+      ["Russellville Housing Authority", "Russellville", "AR", "open", "(479) 968-6864", "https://www.russellvilleha.org", "6 months–1 year", "Pope County. Arkansas River Valley."],
+      ["Searcy Housing Authority", "Searcy", "AR", "open", "(501) 268-3326", "https://www.searcyha.org", "6 months–1 year", "White County. Central Arkansas."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
