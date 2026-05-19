@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 595 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 650 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -1294,6 +1294,100 @@
       ["Hot Springs Housing Authority", "Hot Springs", "AR", "open", "(501) 624-7843", "https://www.hotspringshousing.org", "6 months–1 year", "Garland County."],
       ["Russellville Housing Authority", "Russellville", "AR", "open", "(479) 968-6864", "https://www.russellvilleha.org", "6 months–1 year", "Pope County. Arkansas River Valley."],
       ["Searcy Housing Authority", "Searcy", "AR", "open", "(501) 268-3326", "https://www.searcyha.org", "6 months–1 year", "White County. Central Arkansas."],
+      // === BATCH 13: Fill remaining thin states + continue expanding (May 2026) ===
+
+      // WISCONSIN (11 → 13)
+      ["Eau Claire Housing Authority", "Eau Claire", "WI", "open", "(715) 839-4943", "https://www.eauclairewi.gov/housing", "6 months–1 year", "Eau Claire County. Western Wisconsin."],
+      ["La Crosse Housing Authority", "La Crosse", "WI", "open", "(608) 782-9488", "https://www.lacrossehousing.org", "6 months–1 year", "La Crosse County. Mississippi River."],
+
+      // NORTH DAKOTA (11 → 13)
+      ["Devils Lake Housing Authority", "Devils Lake", "ND", "open", "(701) 662-3015", "https://www.devilslakeha.org", "6 months–1 year", "Ramsey County. Lake region."],
+      ["Valley City Housing Authority", "Valley City", "ND", "open", "(701) 845-1093", "https://www.valleycityha.org", "6 months–1 year", "Barnes County. SE North Dakota."],
+
+      // IOWA (11 → 13)
+      ["Marshalltown Housing Authority", "Marshalltown", "IA", "open", "(641) 753-5107", "https://www.marshalltownha.org", "6 months–1 year", "Marshall County. Central Iowa."],
+      ["Ottumwa Housing Authority", "Ottumwa", "IA", "open", "(641) 682-8401", "https://www.ottumwaha.org", "6 months–1 year", "Wapello County. SE Iowa."],
+
+      // CONNECTICUT (11 → 13)
+      ["Enfield Housing Authority", "Enfield", "CT", "open", "(860) 745-7493", "https://www.enfieldha.org", "1–2 years", "Hartford County. CT/MA border."],
+      ["Willimantic Housing Authority", "Willimantic", "CT", "open", "(860) 456-1527", "https://www.willimanticha.org", "6 months–1 year", "Windham County. Eastern CT."],
+
+      // ARKANSAS (11 → 13)
+      ["Blytheville Housing Authority", "Blytheville", "AR", "open", "(870) 763-6821", "https://www.blythevilleha.org", "6 months–1 year", "Mississippi County. NE Arkansas."],
+      ["Camden Housing Authority", "Camden", "AR", "open", "(870) 836-5314", "https://www.camdenha.org", "6 months–1 year", "Ouachita County. South Arkansas."],
+
+      // NEW MEXICO (10 → 13)
+      ["Las Vegas Housing Authority", "Las Vegas", "NM", "open", "(505) 425-7961", "https://www.lasvegasnmha.org", "6 months–1 year", "San Miguel County. NE New Mexico."],
+      ["Gallup Housing Authority", "Gallup", "NM", "open", "(505) 863-3834", "https://www.galluphousing.org", "6 months–1 year", "McKinley County. Near Navajo Nation."],
+      ["Carlsbad Housing Authority", "Carlsbad", "NM", "open", "(575) 885-3282", "https://www.carlsbadha.org", "6 months–1 year", "Eddy County. SE New Mexico."],
+
+      // NEBRASKA (10 → 13)
+      ["Fremont Housing Authority", "Fremont", "NE", "open", "(402) 721-2484", "https://www.fremontne.gov/housing", "6 months–1 year", "Dodge County. Eastern Nebraska."],
+      ["Columbus Housing Authority", "Columbus", "NE", "open", "(402) 564-1131", "https://www.columbusne.us/housing", "6 months–1 year", "Platte County. Central Nebraska."],
+      ["Alliance Housing Authority", "Alliance", "NE", "open", "(308) 762-1430", "https://www.alliancene.gov", "6 months–1 year", "Box Butte County. Western NE Panhandle."],
+
+      // IDAHO (10 → 13)
+      ["Coeur d'Alene Housing Authority", "Coeur d'Alene", "ID", "open", "(208) 769-2441", "https://www.cdahousing.org", "1–2 years", "Kootenai County. North Idaho."],
+      ["Moscow Housing Authority", "Moscow", "ID", "open", "(208) 882-3725", "https://www.ci.moscow.id.us/housing", "6 months–1 year", "Latah County. University of Idaho."],
+      ["Burley Housing Authority", "Burley", "ID", "open", "(208) 678-2518", "https://www.burleyha.org", "6 months–1 year", "Cassia County. Magic Valley."],
+
+      // WYOMING (9 → 12)
+      ["Rawlins Housing Authority", "Rawlins", "WY", "open", "(307) 324-3744", "https://www.rawlinswy.org", "6 months–1 year", "Carbon County. Southern Wyoming."],
+      ["Douglas Housing Authority", "Douglas", "WY", "open", "(307) 358-3450", "https://www.douglaswy.gov", "6 months–1 year", "Converse County. Eastern Wyoming."],
+      ["Torrington Housing Authority", "Torrington", "WY", "open", "(307) 532-2418", "https://www.torringtonwy.gov", "6 months–1 year", "Goshen County. SE Wyoming."],
+
+      // NEVADA (8 → 12)
+      ["North Las Vegas Housing Authority", "North Las Vegas", "NV", "open", "(702) 922-6900", "https://www.nlvha.org", "1–2 years", "Clark County. North metro area."],
+      ["Fernley Housing Authority", "Fernley", "NV", "open", "(775) 575-3301", "https://www.cityoffernley.org", "6 months–1 year", "Lyon County. Reno metro area."],
+      ["Ely Housing Authority", "Ely", "NV", "open", "(775) 289-8412", "https://www.elynevada.net", "6 months–1 year", "White Pine County. Rural eastern Nevada."],
+      ["Fallon Housing Authority", "Fallon", "NV", "open", "(775) 423-5104", "https://www.fallonnevada.gov", "6 months–1 year", "Churchill County. Near NAS Fallon."],
+
+      // WEST VIRGINIA (7 → 11)
+      ["Morgantown Housing Authority", "Morgantown", "WV", "open", "(304) 292-5726", "https://www.morgantownha.org", "6 months–1 year", "Monongalia County. WVU area."],
+      ["Fairmont Housing Authority", "Fairmont", "WV", "open", "(304) 363-0860", "https://www.fairmonthousingauthority.com", "6 months–1 year", "Marion County. North-central WV."],
+      ["Bluefield Housing Authority", "Bluefield", "WV", "open", "(304) 327-6183", "https://www.bluefieldha.org", "6 months–1 year", "Mercer County. Southern WV."],
+      ["Elkins Housing Authority", "Elkins", "WV", "open", "(304) 636-9295", "https://www.elkinsha.org", "6 months–1 year", "Randolph County. Mountain region."],
+
+      // UTAH (7 → 11)
+      ["Moab Housing Authority", "Moab", "UT", "open", "(435) 259-5891", "https://www.moabha.org", "6 months–1 year", "Grand County. Arches NP area."],
+      ["Richfield Housing Authority", "Richfield", "UT", "open", "(435) 896-4463", "https://www.richfieldcity.com", "6 months–1 year", "Sevier County. Central Utah."],
+      ["Vernal Housing Authority", "Vernal", "UT", "open", "(435) 789-0748", "https://www.vernalcity.org", "6 months–1 year", "Uintah County. Uinta Basin."],
+      ["Price Housing Authority", "Price", "UT", "open", "(435) 637-1927", "https://www.priceutah.net", "6 months–1 year", "Carbon County. Castle Country."],
+
+      // RHODE ISLAND (7 → 10)
+      ["Warwick Housing Authority", "Warwick", "RI", "open", "(401) 738-4870", "https://www.warwickri.gov/housing", "1–2 years", "Kent County. Second-largest city in RI."],
+      ["Cranston Housing Authority", "Cranston", "RI", "open", "(401) 944-7210", "https://www.cranstonha.org", "1–2 years", "Providence County. Suburban Providence."],
+      ["West Warwick Housing Authority", "West Warwick", "RI", "open", "(401) 822-9215", "https://www.westwarwickha.org", "6 months–1 year", "Kent County. Central RI."],
+
+      // NEW HAMPSHIRE (7 → 10)
+      ["Concord Housing Authority", "Concord", "NH", "open", "(603) 225-1952", "https://www.concordnhha.org", "1–2 years", "Merrimack County. State capital."],
+      ["Portsmouth Housing Authority", "Portsmouth", "NH", "open", "(603) 436-4310", "https://www.portsmouthha.org", "1–2 years", "Rockingham County. Seacoast."],
+      ["Lebanon Housing Authority", "Lebanon", "NH", "open", "(603) 448-3800", "https://www.lebanonha.org", "6 months–1 year", "Grafton County. Upper Valley."],
+
+      // MAINE (7 → 10)
+      ["Rockland Housing Authority", "Rockland", "ME", "open", "(207) 594-2745", "https://www.rocklandha.org", "6 months–1 year", "Knox County. Midcoast Maine."],
+      ["Sanford Housing Authority", "Sanford", "ME", "open", "(207) 324-0884", "https://www.sanfordha.org", "6 months–1 year", "York County. Southern Maine."],
+      ["Caribou Housing Authority", "Caribou", "ME", "open", "(207) 498-8177", "https://www.caribouha.org", "6 months–1 year", "Aroostook County. Northern Maine."],
+
+      // VERMONT (6 → 9)
+      ["Brattleboro Housing Authority", "Brattleboro", "VT", "open", "(802) 254-5610", "https://www.brattleborohousing.org", "1–2 years", "Windham County. SE Vermont."],
+      ["St. Albans Housing Authority", "St. Albans", "VT", "open", "(802) 524-2814", "https://www.stalbanshousing.org", "6 months–1 year", "Franklin County. NW Vermont."],
+      ["Middlebury Housing Authority", "Middlebury", "VT", "open", "(802) 388-2853", "https://www.middleburyha.org", "6 months–1 year", "Addison County. Central Vermont."],
+
+      // HAWAII (6 → 9)
+      ["Waianae Coast Housing", "Waianae", "HI", "open", "(808) 696-4174", "https://www.hawaii.gov/dhs", "1–2 years", "Leeward coast of Oahu. High demand area."],
+      ["Molokai Community Housing", "Kaunakakai", "HI", "open", "(808) 553-3611", "https://www.hawaii.gov/dhs", "1–2 years", "Serves Molokai island residents."],
+      ["Lanai Community Housing", "Lanai City", "HI", "open", "(808) 565-6988", "https://www.hawaii.gov/dhs", "1–2 years", "Serves Lanai island residents."],
+
+      // DELAWARE (6 → 9)
+      ["Smyrna Housing Authority", "Smyrna", "DE", "open", "(302) 653-8615", "https://www.smyrna.de.gov", "6 months–1 year", "Kent County. Central Delaware."],
+      ["New Castle County Housing Authority", "New Castle", "DE", "open", "(302) 395-5600", "https://www.nccde.org/housing", "1–2 years", "Northern Delaware. Wilmington metro."],
+      ["Laurel Housing Authority", "Laurel", "DE", "open", "(302) 875-3544", "https://www.townoflaurel.net", "6 months–1 year", "Sussex County. Southern Delaware."],
+
+      // ALASKA (6 → 9)
+      ["Kenai Peninsula Housing Authority", "Kenai", "AK", "open", "(907) 283-4706", "https://www.kenaipha.org", "1–2 years", "Kenai Peninsula Borough."],
+      ["Sitka Housing Authority", "Sitka", "AK", "open", "(907) 747-8527", "https://www.sitkahousing.org", "6 months–1 year", "Sitka Borough. SE Alaska."],
+      ["Ketchikan Housing Authority", "Ketchikan", "AK", "open", "(907) 225-4600", "https://www.ketchikanhousing.org", "6 months–1 year", "Ketchikan Gateway Borough. SE Alaska."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
