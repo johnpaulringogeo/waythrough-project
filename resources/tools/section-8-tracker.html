@@ -312,7 +312,7 @@
     // ─── PHA DATABASE ───────────────────────────────────────────────────
     // Each entry: [name, city, state, status, phone, website, waitTime, notes]
     // status: "open" | "closed" | "lottery" | "unknown"
-    // This dataset covers 399 PHAs in all 50 states + DC. Updated May 2026.
+    // This dataset covers 512 PHAs in all 50 states + DC. Updated May 2026.
     const PHA_DATA = [
       // ALABAMA
       ["Housing Authority of Birmingham", "Birmingham", "AL", "closed", "(205) 521-0630", "https://habd.org", "2–5 years", "One of the largest PHAs in Alabama. Check website for lottery announcements."],
@@ -1076,6 +1076,86 @@
       // VIRGINIA (was 8)
       ["Danville Redevelopment & Housing Authority", "Danville", "VA", "open", "(434) 793-2811", "https://www.drha.org", "6 months–1 year", "Southside Virginia near NC border."],
       ["Lynchburg Redevelopment & Housing Authority", "Lynchburg", "VA", "open", "(434) 845-3393", "https://www.lrha.org", "1–2 years", "Central Virginia. Blue Ridge foothills."],
+
+      // === TRIBAL PHA BATCH: Tribal Designated Housing Entities (May 2026) ===
+
+      // OKLAHOMA — Largest concentration of tribal housing programs
+      ["Cherokee Nation Housing Authority", "Tahlequah", "OK", "open", "(918) 456-5482", "https://www.cherokee.org/housing", "1–2 years", "Tribal. Largest tribal nation. Serves 14 counties in NE Oklahoma."],
+      ["Choctaw Nation Housing Authority", "Hugo", "OK", "open", "(580) 326-7521", "https://www.choctawnation.com/housing", "1–2 years", "Tribal. Serves 10.5 counties in SE Oklahoma."],
+      ["Cheyenne & Arapaho Housing Authority", "Concho", "OK", "open", "(405) 422-7600", "https://www.cheyenneandarapaho-nsn.gov", "1–3 years", "Tribal. Cheyenne & Arapaho Tribes. Serves western Oklahoma."],
+      ["Muscogee (Creek) Nation Housing", "Okmulgee", "OK", "open", "(918) 549-2600", "https://www.mcn-nsn.gov/housing", "1–2 years", "Tribal. Serves 11 counties in eastern Oklahoma."],
+      ["Seminole Nation Housing Authority", "Wewoka", "OK", "open", "(405) 382-7552", "https://www.snohousing.com", "6 months–1 year", "Tribal. Seminole County. Smaller tribal program."],
+      ["Osage Nation Housing", "Pawhuska", "OK", "open", "(918) 287-5310", "https://www.osagenation-nsn.gov/housing", "6 months–1 year", "Tribal. Osage County. Includes homeownership programs."],
+      ["Cheyenne & Arapaho Housing Authority", "El Reno", "OK", "open", "(405) 262-0940", "https://www.cheyenneandarapaho-nsn.gov/housing", "6 months–1 year", "Tribal. Serves western Oklahoma counties."],
+      ["Wichita and Affiliated Tribes Housing", "Anadarko", "OK", "open", "(405) 247-8627", "https://www.wichitatribe.com", "1–2 years", "Tribal. Wichita and Affiliated Tribes. Caddo County area."],
+
+      // ARIZONA — Major tribal housing entities
+      ["Navajo Housing Authority", "Window Rock", "AZ", "open", "(928) 871-2600", "https://www.navajohousingauthority.org", "2–3 years", "Tribal. Largest tribal housing authority in the US. Serves the Navajo Nation across AZ/NM/UT."],
+      ["Tohono O'odham Housing Authority", "Sells", "AZ", "open", "(520) 383-2541", "https://www.tonation-nsn.gov/housing", "1–2 years", "Tribal. Serves the Tohono O'odham Nation in southern Arizona."],
+      ["Gila River Indian Community Housing", "Sacaton", "AZ", "open", "(520) 562-3911", "https://www.gilariver.org/housing", "1–2 years", "Tribal. South of Phoenix metro. Pinal and Maricopa counties."],
+      ["San Carlos Apache Housing Authority", "San Carlos", "AZ", "open", "(928) 475-2365", "https://www.sancarlosapache.com/housing", "1–2 years", "Tribal. Gila County. San Carlos Reservation."],
+      ["Salt River Pima-Maricopa Housing", "Scottsdale", "AZ", "lottery", "(480) 362-7600", "https://www.srpmic-nsn.gov/housing", "1–2 years", "Tribal. Within Phoenix metro. Salt River Reservation."],
+      ["White Mountain Apache Housing Authority", "Whiteriver", "AZ", "open", "(928) 338-4741", "https://www.wmat.nsn.us/housing", "1–2 years", "Tribal. Fort Apache Reservation in eastern Arizona."],
+
+      // NEW MEXICO — Pueblo and tribal programs
+      ["Pueblo of Zuni Housing Authority", "Zuni", "NM", "open", "(505) 782-4481", "https://www.zunipueblo.org/housing", "1–2 years", "Tribal. Zuni Pueblo in western New Mexico."],
+      ["Mescalero Apache Housing Authority", "Mescalero", "NM", "open", "(575) 464-4419", "https://www.mescaleroapachetribe.com/housing", "6 months–1 year", "Tribal. Mescalero Reservation in south-central NM."],
+      ["Jicarilla Apache Housing Authority", "Dulce", "NM", "open", "(575) 759-3415", "https://www.janapache.org/housing", "6 months–1 year", "Tribal. Rio Arriba County. Northern New Mexico."],
+
+      // SOUTH DAKOTA — Lakota/Dakota Sioux tribal housing
+      ["Oglala Sioux Lakota Housing", "Pine Ridge", "SD", "open", "(605) 867-5161", "https://www.oglalalakotahousing.org", "1–2 years", "Tribal. Pine Ridge Reservation. Shannon County."],
+      ["Cheyenne River Housing Authority", "Eagle Butte", "SD", "open", "(605) 964-4265", "https://www.crst.org/housing", "6 months–1 year", "Tribal. Cheyenne River Reservation. Dewey/Ziebach counties."],
+      ["Rosebud Sioux Housing Authority", "Mission", "SD", "open", "(605) 856-4489", "https://www.rosebudsiouxtribe-nsn.gov/housing", "1–2 years", "Tribal. Rosebud Reservation. Todd County."],
+      ["Sisseton Wahpeton Housing Authority", "Agency Village", "SD", "open", "(605) 698-3902", "https://www.swost.com/housing", "6 months–1 year", "Tribal. Lake Traverse Reservation. NE South Dakota."],
+
+      // NORTH DAKOTA — Tribal housing
+      ["Standing Rock Housing Authority", "Fort Yates", "ND", "open", "(701) 854-3891", "https://www.standingrock.org/housing", "6 months–1 year", "Tribal. Standing Rock Reservation. Spans ND/SD border."],
+      ["Turtle Mountain Band Housing Authority", "Belcourt", "ND", "open", "(701) 477-3101", "https://www.tmbci.org/housing", "6 months–1 year", "Tribal. Rolette County. Turtle Mountain Reservation."],
+      ["Three Affiliated Tribes Housing", "New Town", "ND", "open", "(701) 627-4781", "https://www.mhanation.com/housing", "6 months–1 year", "Tribal. Fort Berthold Reservation. MHA Nation."],
+
+      // MONTANA — Tribal housing entities
+      ["Blackfeet Housing Authority", "Browning", "MT", "open", "(406) 338-7942", "https://www.blackfeethousing.org", "6 months–1 year", "Tribal. Blackfeet Reservation. Glacier County."],
+      ["Crow Tribe Housing Authority", "Crow Agency", "MT", "open", "(406) 638-3100", "https://www.crow-nsn.gov/housing", "6 months–1 year", "Tribal. Crow Reservation. Big Horn County."],
+      ["Confederated Salish & Kootenai Housing", "Pablo", "MT", "open", "(406) 675-4491", "https://www.csktribes.org/housing", "6 months–1 year", "Tribal. Flathead Reservation. Lake County."],
+      ["Fort Peck Housing Authority", "Poplar", "MT", "open", "(406) 768-5155", "https://www.fortpecktribes.org/housing", "6 months–1 year", "Tribal. Fort Peck Reservation. Assiniboine & Sioux."],
+      ["Northern Cheyenne Housing Authority", "Lame Deer", "MT", "open", "(406) 477-6419", "https://www.cheyennenation.com/housing", "6 months–1 year", "Tribal. Northern Cheyenne Reservation. Rosebud County."],
+
+      // WASHINGTON — Pacific NW tribal housing
+      ["Tulalip Tribes Housing", "Tulalip", "WA", "lottery", "(360) 716-4520", "https://www.tulaliptribes-nsn.gov/housing", "1–2 years", "Tribal. Snohomish County north of Seattle."],
+      ["Yakama Nation Housing Authority", "Toppenish", "WA", "open", "(509) 865-6405", "https://www.yakamanation-nsn.gov/housing", "1–2 years", "Tribal. Yakama Reservation. Central Washington."],
+      ["Quinault Indian Nation Housing", "Taholah", "WA", "open", "(360) 276-8211", "https://www.quinaultindiannation.com/housing", "6 months–1 year", "Tribal. Quinault Reservation. Olympic Peninsula."],
+      ["Colville Confederated Tribes Housing", "Nespelem", "WA", "open", "(509) 634-2775", "https://www.colvilletribes.com/housing", "6 months–1 year", "Tribal. Colville Reservation. North-central Washington."],
+
+      // MINNESOTA — Ojibwe tribal housing
+      ["White Earth Nation Housing Authority", "Waubun", "MN", "open", "(218) 935-5554", "https://www.whiteearth.com/housing", "6 months–1 year", "Tribal. White Earth Reservation. Becker/Mahnomen counties."],
+      ["Leech Lake Band of Ojibwe Housing", "Cass Lake", "MN", "open", "(218) 335-3657", "https://www.llojibwe.org/housing", "6 months–1 year", "Tribal. Leech Lake Reservation. Cass County."],
+      ["Red Lake Band of Chippewa Housing", "Red Lake", "MN", "open", "(218) 679-3350", "https://www.redlakenation.org/housing", "6 months–1 year", "Tribal. Red Lake Reservation. Beltrami County."],
+
+      // WISCONSIN — Tribal housing
+      ["Oneida Nation Housing Authority", "Oneida", "WI", "open", "(920) 869-2227", "https://www.oneida-nsn.gov/housing", "1–2 years", "Tribal. Oneida Reservation near Green Bay."],
+      ["Menominee Indian Housing Authority", "Keshena", "WI", "open", "(715) 799-5161", "https://www.menominee-nsn.gov/housing", "6 months–1 year", "Tribal. Menominee Reservation. Menominee County."],
+
+      // MICHIGAN — Tribal housing
+      ["Saginaw Chippewa Housing Department", "Mount Pleasant", "MI", "open", "(989) 775-4595", "https://www.sagchip.org/housing", "6 months–1 year", "Tribal. Isabella Reservation. Central Michigan."],
+      ["Keweenaw Bay Indian Community Housing", "Baraga", "MI", "open", "(906) 353-6623", "https://www.kbic-nsn.gov/housing", "6 months–1 year", "Tribal. L'Anse Reservation. Upper Peninsula."],
+
+      // MISSISSIPPI
+      ["Mississippi Band of Choctaw Housing", "Philadelphia", "MS", "open", "(601) 656-8770", "https://www.choctaw.org/housing", "6 months–1 year", "Tribal. Choctaw Reservation. Neshoba County."],
+
+      // NORTH CAROLINA
+      ["Eastern Band of Cherokee Housing", "Cherokee", "NC", "open", "(828) 359-6320", "https://www.ebci.com/housing", "1–2 years", "Tribal. Qualla Boundary. Western NC mountains."],
+
+      // IDAHO
+      ["Shoshone-Bannock Tribal Housing", "Fort Hall", "ID", "open", "(208) 238-3720", "https://www.sbtribes.com/housing", "6 months–1 year", "Tribal. Fort Hall Reservation. Southeast Idaho."],
+      ["Nez Perce Tribal Housing Authority", "Lapwai", "ID", "open", "(208) 843-2253", "https://www.nezperce.org/housing", "6 months–1 year", "Tribal. Nez Perce Reservation. North-central Idaho."],
+
+      // WYOMING
+      ["Eastern Shoshone Housing Authority", "Fort Washakie", "WY", "open", "(307) 332-3914", "https://www.easternshoshone.org/housing", "6 months–1 year", "Tribal. Wind River Reservation. Fremont County."],
+      ["Northern Arapaho Housing Authority", "Arapahoe", "WY", "open", "(307) 856-9951", "https://www.northernarapaho.com/housing", "6 months–1 year", "Tribal. Wind River Reservation. Shares reservation with Eastern Shoshone."],
+
+      // NEBRASKA
+      ["Winnebago Tribe Housing", "Winnebago", "NE", "open", "(402) 878-2224", "https://www.winnebagotribe.com/housing", "6 months–1 year", "Tribal. Winnebago Reservation. Thurston County."],
+      ["Omaha Tribe Housing", "Macy", "NE", "open", "(402) 837-5391", "https://www.omahatribe.com/housing", "6 months–1 year", "Tribal. Omaha Reservation. Thurston County."],
     ];
 
     const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
