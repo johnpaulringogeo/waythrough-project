@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>What Counts as Income on Section 8? The Complete List</title>
+      <link>https://waythroughproject.com/blog/posts/what-counts-as-income-section-8</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/what-counts-as-income-section-8</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <description>Not all money counts as income for Section 8. Here's what your PHA includes, what's excluded, and the deductions that can lower your rent portion.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>How Section 8 Inspections Work (And How to Pass Yours)</title>

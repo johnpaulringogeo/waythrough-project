@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "What Counts as Income on Section 8? The Complete List",
+      "description": "Not all money counts as income for Section 8. Here's what your PHA includes, what's excluded, and the deductions that can lower your rent portion.",
+      "url": "blog/posts/what-counts-as-income-section-8.html",
+      "date": "2026-05-20",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "How Section 8 Inspections Work (And How to Pass Yours)",
       "description": "HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.",
       "url": "blog/posts/how-section-8-inspections-work",
@@ -17,7 +25,7 @@
       "tag": "Practical"
     },
     {
-      "title": "My Income Went Up on Section 8 — Will I Lose My Voucher?",
+      "title": "My Income Went Up on Section 8 \u2014 Will I Lose My Voucher?",
       "description": "Getting a raise on Section 8 doesn't mean losing your voucher. Here's exactly what happens to your rent, when to report changes, and how to plan for the benefits cliff.",
       "url": "blog/posts/income-went-up-on-section-8",
       "date": "2026-04-30",
@@ -25,7 +33,7 @@
       "tag": "Explainer"
     },
     {
-      "title": "I Need a Place to Stay Tonight — Here's What to Do",
+      "title": "I Need a Place to Stay Tonight \u2014 Here's What to Do",
       "description": "If you need emergency housing right now, here are the phone numbers to call, what to expect at a shelter, and what to do if shelters are full.",
       "url": "blog/posts/emergency-housing-tonight",
       "date": "2026-04-26",
@@ -74,7 +82,7 @@
     },
     {
       "title": "What Housing First Actually Means (And Why It Works)",
-      "description": "Understanding the Housing First model — why it works better than treatment-first approaches, how HUD-VASH uses it, and what it means for people experiencing homelessness.",
+      "description": "Understanding the Housing First model \u2014 why it works better than treatment-first approaches, how HUD-VASH uses it, and what it means for people experiencing homelessness.",
       "url": "blog/posts/housing-first-explained",
       "date": "2026-04-06",
       "readTime": "6 min read",
@@ -90,7 +98,7 @@
     },
     {
       "title": "The Benefits Cliff: What It Is and How to Plan for It",
-      "description": "Understanding the benefits cliff — how a raise or new job can suddenly reduce your assistance. We explain which programs have cliffs, and strategies to manage them.",
+      "description": "Understanding the benefits cliff \u2014 how a raise or new job can suddenly reduce your assistance. We explain which programs have cliffs, and strategies to manage them.",
       "url": "blog/posts/benefits-cliff-explained",
       "date": "2026-03-31",
       "readTime": "6 min read",
@@ -129,7 +137,7 @@
       "tag": "Your Rights"
     },
     {
-      "title": "Utility Allowances Explained — How They Affect Your Rent",
+      "title": "Utility Allowances Explained \u2014 How They Affect Your Rent",
       "description": "What are utility allowances in Section 8 and public housing? Learn how they work, how they lower your rent, and what to do if your real bills are higher.",
       "url": "blog/posts/utility-allowances-explained",
       "date": "2026-03-16",
@@ -138,7 +146,7 @@
     },
     {
       "title": "What to Do When a Landlord Rejects Your Voucher",
-      "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it — your rights, your options, and how to keep moving forward.",
+      "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it \u2014 your rights, your options, and how to keep moving forward.",
       "url": "blog/posts/landlord-rejects-voucher",
       "date": "2026-03-13",
       "readTime": "8 min read",
@@ -146,15 +154,15 @@
     },
     {
       "title": "5 Lesser-Known Affordable Housing Programs",
-      "description": "Section 8 isn't your only option. Here are five federal housing programs that could help you — and that most people have never heard of.",
+      "description": "Section 8 isn't your only option. Here are five federal housing programs that could help you \u2014 and that most people have never heard of.",
       "url": "blog/posts/five-programs-you-dont-know",
       "date": "2026-03-10",
       "readTime": "9 min read",
       "tag": "Guide"
     },
     {
-      "title": "Section 8 Explained — What It Is & How It Works",
-      "description": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program — what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
+      "title": "Section 8 Explained \u2014 What It Is & How It Works",
+      "description": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program \u2014 what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
       "url": "blog/posts/section-8-explained",
       "date": "2026-03-07",
       "readTime": "10 min read",
@@ -162,7 +170,7 @@
     },
     {
       "title": "Welcome to Waythrough Project",
-      "description": "Why I built Waythrough Project, how the resource finder works, and what you'll find here — free guides, tools, templates, and state-by-state resources for navigating affordable housing.",
+      "description": "Why I built Waythrough Project, how the resource finder works, and what you'll find here \u2014 free guides, tools, templates, and state-by-state resources for navigating affordable housing.",
       "url": "blog/posts/welcome",
       "date": "2026-03-04",
       "readTime": "6 min read",
