@@ -125,8 +125,13 @@ def main():
 
     # 3. Update posts.json — prepend
     with open(PJSON) as f:
-        posts = json.load(f)
-    posts.insert(0, {
+        posts_data = json.load(f)
+    # posts.json may be {"posts": [...]} or a bare [...]
+    if isinstance(posts_data, dict) and "posts" in posts_data:
+        posts_list = posts_data["posts"]
+    else:
+        posts_list = posts_data
+    posts_list.insert(0, {
         "title": pick["title"],
         "description": pick["description"],
         "url": f"blog/posts/{pick['filename']}",
@@ -135,7 +140,7 @@ def main():
         "tag": pick["tag"]
     })
     with open(PJSON, "w") as f:
-        json.dump(posts, f, indent=2)
+        json.dump(posts_data, f, indent=2)
 
     # 4. Update feed.xml — add item after <image> block, update lastBuildDate
     with open(FEED) as f:
