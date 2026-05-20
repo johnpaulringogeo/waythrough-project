@@ -94,8 +94,10 @@ def main():
 
     print(f"Publishing: {pick['title']} ({pick['date']})")
 
-    # 1. Move file
-    os.rename(src, dst)
+    # 1. Copy draft to posts/ (we delete the draft at the very end,
+    #    so a crash mid-run leaves the draft intact for retry)
+    import shutil
+    shutil.copy2(src, dst)
 
     # 2. Update blog/index.html — insert card after Welcome card
     with open(INDEX) as f:
@@ -179,6 +181,9 @@ def main():
     sm = sm.replace("</urlset>", new_url + "</urlset>")
     with open(SMAP, "w") as f:
         f.write(sm)
+
+    # 6. All updates succeeded — now remove the draft
+    os.remove(src)
 
     print(f"Done! Published {slug} and updated index, posts.json, feed.xml, sitemap.xml")
     return 0
