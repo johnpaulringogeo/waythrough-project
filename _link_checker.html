@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><title>Link Checker</title></head>
+<body>
+<h1>Link Checker</h1>
+<div id="status">Loading...</div>
+<pre id="output"></pre>
+<script>
+const urls = ["https://answers.hud.gov/housingcounseling/s/", "https://avp.org", "https://choosework.ssa.gov/findhelp/", "https://communityactionpartnership.com/find-a-cap/", "https://dbedt.hawaii.gov/hhfdc/", "https://dca.georgia.gov", "https://dhcd.maryland.gov", "https://eldercare.acl.gov/", "https://esusurent.com", "https://evictionlab.org/map/", "https://findahealthcenter.hrsa.gov/", "https://findtreatment.gov", "https://hcr.ny.gov", "https://housing.az.gov", "https://commerce.mt.gov/Housing/", "https://housing.nv.gov", "https://housingnm.org", "https://www.hud.gov/program_offices/fair_housing_equal_opp", "https://immigrantjustice.org/", "https://kshousingcorp.org", "https://legalaidofnebraska.org", "https://legalaidwv.org", "https://michiganlegalhelp.org", "https://nationalfairhousing.org", "https://nevadalegalservices.org", "https://niccc.nationalreentryresourcecenter.org/", "https://ohiohome.org", "https://policies.google.com/privacy", "https://rebuildingtogether.org/", "https://resources.hud.gov/", "https://studentaid.gov/", "https://thda.org", "https://utahhousingcorp.org", "https://www.211.org", "https://www.aa.org", "https://acf.gov/ocs/programs/liheap", "https://adfa.arkansas.gov", "https://www.ahfa.com", "https://www.ahfc.us", "https://www.alsc-law.org", "https://www.annualcreditreport.com", "https://www.apprenticeship.gov", "https://www.archives.gov/veterans/military-service-records", "https://www.archives.gov/veterans/military-service-records", "https://www.arlegalservices.org", "https://www.azlawhelp.org", "https://www.benefits.gov", "https://www.benefits.gov/", "https://www.calhfa.ca.gov", "https://www.careeronestop.org", "https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx", "https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/find-unemployment-benefits.aspx", "https://www.chfa.org", "https://www.chfainfo.com", "https://www.choosework.ssa.gov", "https://www.cloudflare.com/privacypolicy/", "https://www.coloradolegalservices.org", "https://www.consumerfinance.gov/complaint/", "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/", "https://www.consumerfinance.gov/housing/", "https://www.craigslist.org", "https://www.dchfa.org", "https://www.declasi.org", "https://www.destatehousing.com", "https://www.energy.gov/cmei/scep/wap/weatherization-assistance-program", "https://www.equifax.com/personal/credit-report-services/", "https://www.experian.com/boost", "https://www.experian.com/help/dispute-credit/", "https://www.lifelinesupport.org", "https://www.feedingamerica.org", "https://www.findhelp.org", "https://www.floridahousing.org", "https://www.floridalawhelp.org", "https://www.fns.usda.gov/snap/state-directory", "https://www.georgialegalaid.org", "https://www.habitat.org/local", "https://www.healthcare.gov", "https://www.healthcare.gov/", "https://www.healthcare.gov/glossary/navigator/", "https://www.helprilaw.org", "https://www.hrc.org/", "https://www.hud.gov", "https://www.hud.gov/contactus/public-housing-contacts", "https://www.hud.gov/counseling", "https://www.hud.gov/program_offices/fair_housing_equal_opp", "https://www.hud.gov/counseling", "https://www.hud.gov/contactus/fairhousing", "https://www.hud.gov/reporthousingdiscrimination", "https://answers.hud.gov/housingcounseling/s/", "https://www.hud.gov/contactus/public-housing-contacts", "https://www.hud.gov/topics/rental_assistance", "https://www.hudexchange.info", "https://www.huduser.gov/", "https://www.huduser.gov/lihtc/", "https://www.huduser.gov/portal/dataset/fmr-api.html", "https://www.huduser.gov/portal/datasets/fmr.html", "https://www.huduser.gov/portal/datasets/il.html", "https://www.huduser.gov/portal/datasets/lihtc.html", "https://www.idahohousing.com", "https://www.idaholegalaid.org", "https://www.ihda.org", "https://www.illinoislegalaid.org", "https://www.in.gov/ihcda/", "https://www.indianalegalservices.org", "https://opportunityiowa.gov/about/iowa-finance-authority", "https://www.iowalegalaid.org", "https://www.jobcorps.gov", "https://www.kansaslegalservices.org", "https://www.klaid.org", "https://www.kyhousing.org", "https://www.lambdalegal.org/", "https://www.las.org", "https://www.lawhelp.org", "https://www.lawhelp.org/", "https://www.lawhelp.org/dc", "https://www.lawhelp.org/sc", "https://www.lawhelpca.org", "https://www.lawhelpmn.org", "https://www.lawhelpny.org", "https://www.lawyoming.org", "https://www.legalaction.org", "https://www.legalaidhawaii.org", "https://www.legalaidnc.org", "https://www.legalaidok.org", "https://lsnd.org/", "https://www.legalservicesalabama.org", "https://mapresearch.org/", "https://www.lhc.la.gov", "https://www.lifelinesupport.org", "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help", "https://www.lsc.gov/find-legal-aid", "https://www.lsmo.org", "https://www.lsnj.org", "https://www.mainehousing.org", "https://www.masshousing.com", "https://www.masslegalhelp.org", "https://www.mdlab.org", "https://www.medicaid.gov/", "https://www.mhdc.com", "https://www.michigan.gov/mshda", "https://www.mnhousing.gov", "https://www.moneymanagement.org/", "https://www.montanalawhelp.org", "https://www.mshomecorp.com", "https://www.mslegalservices.org", "https://www.myloancare.com/", "https://www.na.org", "https://www.nami.org", "https://www.ndrn.org", "https://www.nchfa.com", "https://www.nclrights.org/", "https://www.ndhousing.nd.gov/", "https://www.ndrn.org", "https://www.newmexicolegalaid.org", "https://www.nfcc.org", "https://www.nhhfa.org", "https://www.nhla.org", "https://www.nifa.org", "https://www.nilc.org/", "https://www.nj.gov/dca/hmfa/", "https://www.nlg.org/", "https://www.nlihc.org", "https://www.ohfa.org", "https://www.ohiolegalhelp.org", "https://www.oregon.gov/ohcs", "https://www.oregonlawhelp.org", "https://www.oxfordhouse.org", "https://www.palegalaid.net", "https://www.pflag.org", "https://www.phfa.org", "https://www.ptla.org", "https://www.rd.usda.gov/about-rd/offices/state-offices", "https://www.rentprep.com", "https://www.rentreporters.com", "https://www.rentreporters.com/", "https://www.rentspree.com", "https://www.renttrack.com", "https://www.rihousing.com", "https://www.schousing.com", "https://www.sdhda.org", "https://www.sdlawhelp.org", "https://www.slls.org", "https://www.slsct.org", "https://www.mysmartmove.com", "https://www.smartrecovery.org", "https://www.ssa.gov", "https://www.ssa.gov/ssi", "https://www.ssa.gov/myaccount/", "https://www.ssa.gov/work/", "https://www.tdhca.state.tx.us", "https://www.texaslawhelp.org", "https://www.thetrevorproject.org", "https://www.transunion.com/credit-disputes", "https://www.utahlegalservices.org", "https://www.va.gov/", "https://www.va.gov/careers-employment/", "https://www.va.gov/find-locations/", "https://www.va.gov/health-care/apply-for-health-care-benefits/", "https://www.va.gov/housing-assistance/disability-housing-grants/", "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/", "https://www.va.gov/get-help-from-accredited-representative/", "https://www.valegalaid.org", "https://www.vhfa.org", "https://www.virginiahousing.com", "https://www.vtlegalaid.org", "https://www.washingtonlawhelp.org", "https://www.wheda.com", "https://www.wshfc.org", "https://www.wvhdf.com", "https://www.wyomingcda.com"];
+
+const results = [];
+let done = 0;
+
+async function checkUrl(url) {
+  try {
+    const controller = new AbortController();
+    const tid = setTimeout(() => controller.abort(), 12000);
+    const r = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: controller.signal });
+    clearTimeout(tid);
+    return { url, status: r.status, finalUrl: r.url, ok: r.ok, redirected: r.redirected };
+  } catch(e1) {
+    try {
+      const controller2 = new AbortController();
+      const tid2 = setTimeout(() => controller2.abort(), 12000);
+      const r2 = await fetch(url, { redirect: 'follow', signal: controller2.signal });
+      clearTimeout(tid2);
+      return { url, status: r2.status, finalUrl: r2.url, ok: r2.ok, redirected: r2.redirected };
+    } catch(e2) {
+      return { url, status: 0, error: e2.message, ok: false };
+    }
+  }
+}
+
+async function run() {
+  for (let i = 0; i < urls.length; i += 5) {
+    const batch = urls.slice(i, i+5);
+    const br = await Promise.all(batch.map(checkUrl));
+    results.push(...br);
+    done += br.length;
+    document.getElementById('status').textContent = `Checked ${done}/${urls.length}`;
+  }
+  document.getElementById('status').textContent = `DONE: ${done}/${urls.length}`;
+  window._linkResults = results;
+  document.getElementById('output').textContent = JSON.stringify(results, null, 2);
+}
+run();
+</script>
+</body>
+</html>
