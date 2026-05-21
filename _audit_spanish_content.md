@@ -1,3 +1,21 @@
+## Fixes Applied (2026-05-21)
+
+1. **Issue 6 (CRITICAL): Fixed 737 broken internal links** -- 29 slug mismatches corrected across all es/ HTML files. All old slugs now resolve to actual filenames (e.g., como-solicitar-section-8 -> como-solicitar-seccion-8, vivienda-de-emergencia-esta-noche -> necesito-vivienda-esta-noche, donde-comenzar -> donde-empezar, etc.)
+
+2. **Issue 15 (HIGH): Fixed 57 links pointing to English pages** -- Fixed es/recursos/donde-empezar.html (22 English guide links -> Spanish equivalents), es/index.html (4 topic cards), es/recursos/vivienda-de-emergencia.html (2 guide links), and glossary links across 5 resource pages.
+
+3. **Issue 16 (HIGH): Added 8 missing phone numbers** -- Added HUD Fair Housing (1-800-669-9777) and SSA (1-800-772-1213) to FAQ; DAV/Veterans (1-844-827-4338) to HUD-VASH guide; SAMHSA (1-800-662-4357) to recovery housing guide; HUD Resource Center (1-800-955-2232) to find-your-PHA guide; HUD Counseling (1-800-569-4287) to housing counselor guide; VA Benefits hotline (1-877-424-3838) to VA benefits guide; National DV Hotline (1-800-799-7233) to Sarah's story page. Foreclosure guide already had the HUD Counseling number.
+
+4. **Issue 17 (HIGH): Fixed nav bar links** -- In js/components.js, changed Spanish nav Blog link from /blog/ to /es/blog/, Guides link from /resources/guides/ to /es/recursos/guias/, and footer Privacy/Terms/Accessibility links to Spanish versions (/es/privacidad, /es/terminos, /es/recursos/accesibilidad). Also fixed Spanish footer Blog link.
+
+5. **Issue 27 (MEDIUM): Replaced "desahucio" with "desalojo"** -- 13 instances in es/recursos/derechos-del-inquilino.html changed to US Latino Spanish usage.
+
+6. **Issue 28 (MEDIUM): Fixed template literal bug** -- In es/recursos/herramientas/evaluador-elegibilidad.html, removed backslash escapes from JavaScript template literal (backticks and ${} expressions) that prevented the results grid from rendering.
+
+7. **Issue 37 (LOW): Standardized "Section 8" to "Sección 8"** -- Replaced "Section 8" with "Sección 8" across all 128 Spanish HTML files. No URL slugs were affected (they use lowercase "section-8").
+
+---
+
 # Spanish Content Audit - Waythrough Project
 
 **Audit date:** 2026-05-21

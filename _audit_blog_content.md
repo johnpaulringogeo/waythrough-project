@@ -1,3 +1,23 @@
+## Fixes Applied (2026-05-21)
+
+- **Issue 3 (CRITICAL): Incorrect $15,000 EID cap** - Fixed in `resources/benefits.html`, `resources/employment.html`, `es/recursos/beneficios.html`, `es/recursos/empleo.html`. Replaced $15,000 cap with accurate EID description (100% exclusion for 12 months, 50% for months 13-24). Updated example calculations.
+- **Issue 4 (CRITICAL): Missing "aid paid pending" protection** - Added prominent callout section to `blog/posts/benefits-cut-what-to-do.html` explaining the 10-day appeal window and aid paid pending protection.
+- **Issue 5 (CRITICAL): Wrong SGA amount** - Fixed in `resources/guides/how-benefits-interact.html` and `es/recursos/guias/como-interactuan-beneficios.html`. Changed $1,470/month to $1,620/month.
+- **Issue 12 (HIGH): Outdated SSI rate ($943)** - Updated to $967/month (2025 rate) in `resources/benefits.html`, `es/recursos/beneficios.html`, `resources/guides/how-to-apply-ssi-ssdi.html`, `es/recursos/guias/como-solicitar-ssi-ssdi.html`, `resources/tools/benefits-calculator.html`, `es/recursos/herramientas/calculadora-beneficios.html`. Also updated $1,550 SGA to $1,620 and work credit amount to $1,810 in SSI/SSDI guide files. Changed "2024" labels to "2025".
+- **Issue 13 (HIGH): ACP program referenced as active** - Removed ACP from "Lifeline/ACP" in `resources/guides/budgeting-when-money-is-tight.html`. Spanish version already did not reference ACP.
+- **Issue 14 (HIGH): ERA framed as active federal program** - Updated `resources/guides/emergency-rental-assistance.html` and `es/recursos/guias/asistencia-renta-emergencia.html` to note federal ERA funding is largely exhausted. Updated COVID-19 hardship requirement to generic "documented hardship." Removed NLIHC tracker reference. Updated `resources/emergency-housing.html` and `es/recursos/vivienda-de-emergencia.html` to clarify most federal ERA has ended.
+- **Issue 23 (MEDIUM): SOI state count inconsistent** - Standardized to "more than 20 states plus Washington, D.C." in `blog/posts/landlord-rejects-voucher.html` and `blog/drafts/housing-discrimination-what-to-do.html`. Added reference to SOI Protections guide.
+- **Issue 24 (MEDIUM): SNAP "hard cliff" description** - Clarified in `blog/posts/benefits-cliff-explained.html` that SNAP benefits taper gradually but have a hard cutoff at eligibility limit.
+- **Issue 25 (MEDIUM): Benefits calculator uses 2024 data** - Added visible disclaimer banners to `resources/tools/benefits-calculator.html`, `resources/tools/know-your-numbers.html`, `es/recursos/herramientas/calculadora-beneficios.html`, `es/recursos/herramientas/conozca-sus-numeros.html`.
+- **Issue 26 (MEDIUM): Landlord FAQ states SOI as universal** - Added jurisdiction qualifier in `for-landlords/landlord-faq.html` and `es/para-propietarios/preguntas-frecuentes-propietarios.html`.
+- **Issue 31 (LOW): DV survivors page H1 typo** - Fixed "Violencece" to "Violence" in `who-we-help/dv-survivors.html` and `js/search-index.json`.
+- **Issue 32 (LOW): Duplicate structured data** - Removed duplicate Article ld+json blocks from 7 blog posts: `why-housing-changes-everything.html`, `benefits-cliff-explained.html`, `how-section-8-inspections-work.html`, `housing-first-explained.html`, `pha-wont-call-back.html`, `section-8-myths.html`, `voucher-housing-search-tips.html`.
+- **Issue 33 (LOW): components.js loaded twice** - Removed duplicate script tag from `blog/posts/why-housing-changes-everything.html`.
+- **Issue 34 (LOW): Story pages missing footer div** - Added `<div id="site-footer"></div>` to all 9 story pages.
+- **Issue 35 (LOW): FSS story name/gender mismatch** - Changed "Jerome" to "Diane" in `stories/keisha-benefits-cliff.html`.
+
+---
+
 # Content Accuracy Audit - Waythrough Project
 
 **Date:** May 21, 2026  

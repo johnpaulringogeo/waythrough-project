@@ -1,3 +1,23 @@
+## Fixes Applied (2026-05-21)
+
+- **Issue 1 (CRITICAL):** Fixed HUD deductions from "per month" to "per year" in `resources/guides/understanding-rent-calculation.html` and Spanish `es/recursos/guias/como-se-calcula-la-renta.html`. Recalculated all example figures (Sarah's and Rosa's examples) with correct annual deduction amounts converted to monthly equivalents.
+- **Issue 2 (CRITICAL):** Fixed Veterans hotline mislabel in `resources/emergency-housing.html` and Spanish `es/recursos/vivienda-de-emergencia.html`. Changed "Veterans Crisis Line" to "VA National Call Center for Homeless Veterans" for 1-877-424-3838. Added actual Veterans Crisis Line (988 press 1) alongside it.
+- **Issue 9 (HIGH):** Removed SNAP from countable income list in `resources/guides/understanding-rent-calculation.html` and Spanish version. SNAP is explicitly excluded from Section 8 income calculations.
+- **Issue 10 (HIGH):** Fixed wrong HUD Fair Housing phone number from 1-888-569-1112 to 1-800-669-9777 in `resources/guides/source-of-income-protections.html` and Spanish `es/recursos/guias/protecciones-fuente-ingreso.html`.
+- **Issue 11 (HIGH):** Fixed SOI protection contradictions across guide and 6 state pages (both English and Spanish):
+  - Removed Colorado, Montana, Wisconsin from statewide SOI list in guide (they lack statewide laws). Added a new "local protections only" note.
+  - Added Indiana and Nevada to statewide SOI list in guide.
+  - Updated Montana state page to "Limited (local ordinances)" from "No".
+  - Updated Wisconsin state page to "Limited (local ordinances -- Madison, Milwaukee County)" from "No".
+  - Updated Michigan state page to "Yes (effective 2025)" from "No", reflecting Elliott-Larsen Act expansion.
+  - Fixed Indiana and Nevada intro paragraphs in Spanish to match their "Yes" quick reference boxes.
+  - Fixed Colorado Spanish intro paragraph that incorrectly said state had SOI protection.
+  - Updated count from "22 states" to "21 states" in guide.
+- **Issue 21 (MEDIUM):** Fixed medical expense deduction threshold from "$200 per year" to "3% of annual gross income" in rent calculation guide (English and Spanish). Updated Rosa's example calculation to use correct threshold.
+- **Issue 22 (MEDIUM):** Fixed EID description from "$50/month excluded plus 20% above that for 24 months" to correct HUD rule: 100% excluded for first 12 months, 50% excluded for months 13-24, must have been previously unemployed or receiving welfare. Fixed in both English and Spanish.
+
+---
+
 # Resource Content Accuracy Audit
 
 **Date:** May 21, 2026  

@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico">
     <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
     <title>Evaluador de Elegibilidad para Programas de Vivienda — Waythrough Project</title>
-    <meta name="description" content="Descubra para qué programas de vivienda asequible podría calificar según sus ingresos, tamaño del hogar y situación. Evaluación rápida para Section 8.">
+    <meta name="description" content="Descubra para qué programas de vivienda asequible podría calificar según sus ingresos, tamaño del hogar y situación. Evaluación rápida para Sección 8.">
     <meta property="og:title" content="Evaluador de Elegibilidad para Programas de Vivienda — Waythrough Project">
     <meta property="og:description" content="Descubra para qué programas de vivienda asequible podría calificar según sus ingresos, tamaño del hogar y situación.">
     <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
     <meta property="og:site_name" content="Waythrough Project">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Evaluador de Elegibilidad para Programas de Vivienda — Waythrough Project">
-    <meta name="twitter:description" content="Evaluación rápida para Section 8, vivienda pública, HUD-VASH, LIHTC y más.">
+    <meta name="twitter:description" content="Evaluación rápida para Sección 8, vivienda pública, HUD-VASH, LIHTC y más.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href="https://waythroughproject.com/es/recursos/herramientas/evaluador-elegibilidad">
@@ -235,7 +235,7 @@
                             <div class="results-grid" id="results-grid"></div>
                         </div>
                         <div class="disclaimer-box">
-                            <strong>Importante:</strong> Estos son estimados nacionales aproximados. Los límites de ingresos reales varían significativamente según la ubicación — su Autoridad de Vivienda Pública (PHA) local establece los umbrales exactos para su área según el Ingreso Medio del Área (AMI). Use <a href="estimador-renta">nuestra herramienta de búsqueda de renta</a> o contacte a su <a href="../guias/como-encontrar-su-pha">PHA local</a> para obtener números exactos.
+                            <strong>Importante:</strong> Estos son estimados nacionales aproximados. Los límites de ingresos reales varían significativamente según la ubicación — su Autoridad de Vivienda Pública (PHA) local establece los umbrales exactos para su área según el Ingreso Medio del Área (AMI). Use <a href="estimador-renta">nuestra herramienta de búsqueda de renta</a> o contacte a su <a href="../guias/como-encontrar-tu-pha">PHA local</a> para obtener números exactos.
                         </div>
                         <div class="step-nav" style="margin-top: 1.5rem;">
                             <button class="btn btn-outline" onclick="startOver()">Comenzar de Nuevo</button>
@@ -251,8 +251,8 @@
                             <h3>Dónde Empezar</h3>
                             <p>¿No sabe por dónde comenzar? Nuestra guía interactiva le ayuda a encontrar el camino correcto según su situación.</p>
                         </a>
-                        <a href="../guias/como-solicitar-section-8" class="related-item">
-                            <h3>Solicitar Section 8</h3>
+                        <a href="../guias/como-solicitar-seccion-8" class="related-item">
+                            <h3>Solicitar Sección 8</h3>
                             <p>Una guía completa desde encontrar listas de espera abiertas hasta obtener su voucher de vivienda.</p>
                         </a>
                         <a href="../guias/como-solicitar-hud-vash" class="related-item">
@@ -350,22 +350,22 @@
 
             const programs = [];
 
-            // Section 8 HCV
+            // Sección 8 HCV
             if (annualIncome <= vli) {
-                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'green', text: 'Su ingreso est\u00e1 dentro del l\u00edmite de muy bajos ingresos para el tama\u00f1o de su hogar. Es probable que cumpla con el requisito de ingresos para Section 8.', link: '../guias/como-solicitar-section-8.html', linkText: 'C\u00f3mo solicitar Section 8' });
+                programs.push({ name: 'Sección 8 Housing Choice Voucher', status: 'green', text: 'Su ingreso est\u00e1 dentro del l\u00edmite de muy bajos ingresos para el tama\u00f1o de su hogar. Es probable que cumpla con el requisito de ingresos para Sección 8.', link: '../guias/como-solicitar-seccion-8.html', linkText: 'C\u00f3mo solicitar Sección 8' });
             } else if (annualIncome <= vli * 1.15) {
-                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'yellow', text: 'Su ingreso est\u00e1 cerca del l\u00edmite de muy bajos ingresos. La elegibilidad depende de los l\u00edmites de ingresos espec\u00edficos de su \u00e1rea, que pueden ser m\u00e1s altos o m\u00e1s bajos que los estimados nacionales.', link: '../guias/como-solicitar-section-8.html', linkText: 'C\u00f3mo solicitar Section 8' });
+                programs.push({ name: 'Sección 8 Housing Choice Voucher', status: 'yellow', text: 'Su ingreso est\u00e1 cerca del l\u00edmite de muy bajos ingresos. La elegibilidad depende de los l\u00edmites de ingresos espec\u00edficos de su \u00e1rea, que pueden ser m\u00e1s altos o m\u00e1s bajos que los estimados nacionales.', link: '../guias/como-solicitar-seccion-8.html', linkText: 'C\u00f3mo solicitar Sección 8' });
             } else {
-                programs.push({ name: 'Section 8 Housing Choice Voucher', status: 'red', text: 'Su ingreso parece exceder el l\u00edmite de muy bajos ingresos (50% AMI) para el tama\u00f1o de su hogar. Los l\u00edmites de ingresos var\u00edan seg\u00fan el \u00e1rea, as\u00ed que consulte con su PHA local para los umbrales exactos.', link: '../guias/como-encontrar-su-pha.html', linkText: 'Encuentre su PHA local' });
+                programs.push({ name: 'Sección 8 Housing Choice Voucher', status: 'red', text: 'Su ingreso parece exceder el l\u00edmite de muy bajos ingresos (50% AMI) para el tama\u00f1o de su hogar. Los l\u00edmites de ingresos var\u00edan seg\u00fan el \u00e1rea, as\u00ed que consulte con su PHA local para los umbrales exactos.', link: '../guias/como-encontrar-tu-pha.html', linkText: 'Encuentre su PHA local' });
             }
 
             // Vivienda P\u00fablica
             if (annualIncome <= vli) {
-                programs.push({ name: 'Vivienda P\u00fablica', status: 'green', text: 'Su ingreso est\u00e1 dentro de los l\u00edmites de elegibilidad para vivienda p\u00fablica. Contacte a su PHA local para encontrar unidades disponibles y solicitar.', link: '../guias/como-encontrar-su-pha.html', linkText: 'Encuentre su PHA local' });
+                programs.push({ name: 'Vivienda P\u00fablica', status: 'green', text: 'Su ingreso est\u00e1 dentro de los l\u00edmites de elegibilidad para vivienda p\u00fablica. Contacte a su PHA local para encontrar unidades disponibles y solicitar.', link: '../guias/como-encontrar-tu-pha.html', linkText: 'Encuentre su PHA local' });
             } else if (annualIncome <= vli * 1.15) {
-                programs.push({ name: 'Vivienda P\u00fablica', status: 'yellow', text: 'Su ingreso est\u00e1 cerca del l\u00edmite. Los l\u00edmites de ingresos de vivienda p\u00fablica son similares a Section 8 y var\u00edan seg\u00fan el \u00e1rea.', link: '../guias/como-encontrar-su-pha.html', linkText: 'Encuentre su PHA local' });
+                programs.push({ name: 'Vivienda P\u00fablica', status: 'yellow', text: 'Su ingreso est\u00e1 cerca del l\u00edmite. Los l\u00edmites de ingresos de vivienda p\u00fablica son similares a Sección 8 y var\u00edan seg\u00fan el \u00e1rea.', link: '../guias/como-encontrar-tu-pha.html', linkText: 'Encuentre su PHA local' });
             } else {
-                programs.push({ name: 'Vivienda P\u00fablica', status: 'red', text: 'Su ingreso parece exceder los l\u00edmites de ingresos de vivienda p\u00fablica para el tama\u00f1o de su hogar.', link: '../guias/como-encontrar-su-pha.html', linkText: 'Encuentre su PHA local' });
+                programs.push({ name: 'Vivienda P\u00fablica', status: 'red', text: 'Su ingreso parece exceder los l\u00edmites de ingresos de vivienda p\u00fablica para el tama\u00f1o de su hogar.', link: '../guias/como-encontrar-tu-pha.html', linkText: 'Encuentre su PHA local' });
             }
 
             // LIHTC
@@ -388,14 +388,14 @@
                 }
             }
 
-            // Section 811
+            // Sección 811
             if (hasDisability) {
                 if (annualIncome <= eli) {
-                    programs.push({ name: 'Section 811 (Vivienda para Discapacidad)', status: 'green', text: 'Como persona con discapacidad e ingresos extremadamente bajos, es probable que califique para vivienda de apoyo Section 811. Estas unidades est\u00e1n dise\u00f1adas espec\u00edficamente para personas con discapacidades.', link: '../guias/como-solicitar-adaptacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
+                    programs.push({ name: 'Sección 811 (Vivienda para Discapacidad)', status: 'green', text: 'Como persona con discapacidad e ingresos extremadamente bajos, es probable que califique para vivienda de apoyo Sección 811. Estas unidades est\u00e1n dise\u00f1adas espec\u00edficamente para personas con discapacidades.', link: '../guias/como-solicitar-acomodacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
                 } else if (annualIncome <= vli) {
-                    programs.push({ name: 'Section 811 (Vivienda para Discapacidad)', status: 'yellow', text: 'Section 811 est\u00e1 dirigido a personas con discapacidad e ingresos extremadamente bajos (30% AMI). Su ingreso puede estar por encima del umbral, pero los l\u00edmites var\u00edan seg\u00fan el \u00e1rea.', link: '../guias/como-solicitar-adaptacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
+                    programs.push({ name: 'Sección 811 (Vivienda para Discapacidad)', status: 'yellow', text: 'Sección 811 est\u00e1 dirigido a personas con discapacidad e ingresos extremadamente bajos (30% AMI). Su ingreso puede estar por encima del umbral, pero los l\u00edmites var\u00edan seg\u00fan el \u00e1rea.', link: '../guias/como-solicitar-acomodacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
                 } else {
-                    programs.push({ name: 'Section 811 (Vivienda para Discapacidad)', status: 'red', text: 'Section 811 requiere ingresos extremadamente bajos (30% AMI) y una discapacidad. Su ingreso parece exceder el umbral.', link: '../guias/como-solicitar-adaptacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
+                    programs.push({ name: 'Sección 811 (Vivienda para Discapacidad)', status: 'red', text: 'Sección 811 requiere ingresos extremadamente bajos (30% AMI) y una discapacidad. Su ingreso parece exceder el umbral.', link: '../guias/como-solicitar-acomodacion-razonable.html', linkText: 'Conozca los derechos de vivienda por discapacidad' });
                 }
             }
 
@@ -425,15 +425,15 @@
             const grid = document.getElementById('results-grid');
             grid.innerHTML = programs.map(p => {
                 const icon = p.status === 'green' ? '&#10003;' : p.status === 'yellow' ? '?' : '&#10007;';
-                return \`
+                return `
                     <div class="result-card">
-                        <div class="result-status status-\${p.status}">\${icon}</div>
+                        <div class="result-status status-${p.status}">${icon}</div>
                         <div class="result-info">
-                            <h3>\${p.name}</h3>
-                            <p>\${p.text}</p>
-                            <a href="\${p.link}">\${p.linkText} &rarr;</a>
+                            <h3>${p.name}</h3>
+                            <p>${p.text}</p>
+                            <a href="${p.link}">${p.linkText} &rarr;</a>
                         </div>
-                    </div>\`;
+                    </div>`;
             }).join('');
 
             showStep(2);
@@ -441,4 +441,4 @@
     })();
     </script>
 </body>
-</html>
+</html>        

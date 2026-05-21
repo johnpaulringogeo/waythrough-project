@@ -17,7 +17,7 @@
     <title>Conozca Sus Números — Waythrough Project</title>
     <meta name="description" content="Vea su renta estimada, categoría de ingresos y elegibilidad para programas — todo en un solo lugar. Herramienta interactiva gratuita.">
     <meta property="og:title" content="Conozca Sus Números — Waythrough Project">
-    <meta property="og:description" content="Vea su renta estimada bajo Section 8, categoría de ingresos y elegibilidad para programas de vivienda.">
+    <meta property="og:description" content="Vea su renta estimada bajo Sección 8, categoría de ingresos y elegibilidad para programas de vivienda.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://waythroughproject.com/es/recursos/herramientas/conozca-sus-numeros">
     <meta property="og:site_name" content="Waythrough Project">
@@ -145,7 +145,8 @@
     </div>
     <main id="main-content" class="container fade-in">
         <div class="post-content">
-            <p>Este panel le da una imagen completa de su asequibilidad de vivienda. Ingrese su informaci\u00f3n a continuaci\u00f3n y estimaremos su renta bajo Section 8, le mostraremos d\u00f3nde se ubica en la escala de ingresos e identificaremos programas para los que podr\u00eda calificar.</p>
+            <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-bottom: 1.5rem; font-size: 0.9rem; color: #5d4037;"><strong>Nota:</strong> Esta herramienta usa cifras estimadas. Los montos reales pueden variar seg&uacute;n su estado, circunstancias del hogar y reglas actuales del programa. Consulte los sitios web oficiales de los programas para las tasas actuales.</div>
+            <p>Este panel le da una imagen completa de su asequibilidad de vivienda. Ingrese su informaci\u00f3n a continuaci\u00f3n y estimaremos su renta bajo Sección 8, le mostraremos d\u00f3nde se ubica en la escala de ingresos e identificaremos programas para los que podr\u00eda calificar.</p>
             <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Toma unos 2 minutos — solo necesita sus ingresos y tamaño de hogar.</p>
         </div>
 
@@ -189,7 +190,7 @@
 
         <div class="kyn-results" id="results" aria-live="polite" aria-atomic="false">
             <div class="kyn-panel" id="panelRent">
-                <h2>Su Renta Estimada Bajo Section 8</h2>
+                <h2>Su Renta Estimada Bajo Sección 8</h2>
                 <div id="rentCalc"></div>
             </div>
 
@@ -209,17 +210,17 @@
             </div>
 
             <div class="kyn-disclaimer">
-                <strong>Importante:</strong> Estos son estimados basados en promedios nacionales y la f\u00f3rmula est\u00e1ndar de renta de Section 8. Sus montos reales dependen de su Autoridad de Vivienda P\u00fablica local, los l\u00edmites de ingresos espec\u00edficos del condado y sus circunstancias individuales. Use estos n\u00fameros como punto de partida \u2014 contacte a su PHA para cifras exactas.
+                <strong>Importante:</strong> Estos son estimados basados en promedios nacionales y la f\u00f3rmula est\u00e1ndar de renta de Sección 8. Sus montos reales dependen de su Autoridad de Vivienda P\u00fablica local, los l\u00edmites de ingresos espec\u00edficos del condado y sus circunstancias individuales. Use estos n\u00fameros como punto de partida \u2014 contacte a su PHA para cifras exactas.
             </div>
         </div>
 
         <div class="post-content" style="margin-top: 48px;">
             <h2>Recursos Relacionados</h2>
             <ul>
-                <li><a href="../guias/entendiendo-calculo-renta">C\u00f3mo Se Calcula Su Renta en Section 8</a> \u2014 Explicaci\u00f3n completa de la f\u00f3rmula</li>
+                <li><a href="../guias/entendiendo-calculo-renta">C\u00f3mo Se Calcula Su Renta en Sección 8</a> \u2014 Explicaci\u00f3n completa de la f\u00f3rmula</li>
                 <li><a href="calculadora-presupuesto">Calculadora de Presupuesto Mensual</a> \u2014 Herramienta detallada de planificaci\u00f3n de presupuesto</li>
                 <li><a href="evaluador-elegibilidad">Evaluador de Elegibilidad</a> \u2014 Verifique qu\u00e9 programas se ajustan a su situaci\u00f3n</li>
-                <li><a href="../guias/como-solicitar-section-8">C\u00f3mo Solicitar Section 8</a> \u2014 Gu\u00eda paso a paso</li>
+                <li><a href="../guias/como-solicitar-seccion-8">C\u00f3mo Solicitar Sección 8</a> \u2014 Gu\u00eda paso a paso</li>
             </ul>
         </div>
     </main>
@@ -256,7 +257,7 @@
 
             const annualIncome = monthlyIncome * 12;
 
-            // --- C\u00e1lculo de Renta Section 8 ---
+            // --- C\u00e1lculo de Renta Sección 8 ---
             const depDeduction = deps * 480;
             const elderlyDeduction = isElderlyDisabled ? 400 : 0;
             const annualMedical = medicalMonthly * 12;
@@ -323,10 +324,10 @@
             }
 
             let progHtml = '';
-            progHtml += progRow('Section 8 (Housing Choice Voucher)', isBelowVLI ? 'likely' : isBelowLI ? 'possible' : 'unlikely', 'El ingreso debe estar por debajo del 50% AMI (la mayor\u00eda de las PHAs)');
+            progHtml += progRow('Sección 8 (Housing Choice Voucher)', isBelowVLI ? 'likely' : isBelowLI ? 'possible' : 'unlikely', 'El ingreso debe estar por debajo del 50% AMI (la mayor\u00eda de las PHAs)');
             progHtml += progRow('Vivienda P\u00fablica', isBelowLI ? 'likely' : 'unlikely', 'El ingreso debe estar por debajo del 80% AMI');
             progHtml += progRow('LIHTC (Vivienda con Cr\u00e9dito Fiscal)', isBelowLI ? 'likely' : 'unlikely', 'T\u00edpicamente 60% AMI o menos, no necesita voucher');
-            progHtml += progRow('Section 811', isElderlyDisabled && isBelowELI ? 'likely' : isElderlyDisabled && isBelowVLI ? 'possible' : 'check', 'Para adultos no mayores con discapacidades');
+            progHtml += progRow('Sección 811', isElderlyDisabled && isBelowELI ? 'likely' : isElderlyDisabled && isBelowVLI ? 'possible' : 'check', 'Para adultos no mayores con discapacidades');
             progHtml += progRow('Section 202', isElderlyDisabled && isBelowVLI ? 'likely' : 'check', 'Para personas mayores de 62+');
             progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requiere estatus de veterano \u2014 referido a trav\u00e9s del VA');
             progHtml += progRow('SNAP (Cupones de Alimentos)', isBelowFPL130 ? 'likely' : 'possible', 'Generalmente por debajo del 130% del Nivel Federal de Pobreza');
@@ -350,14 +351,4 @@
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#e67e22;"></span>Servicios: ' + fmt(utilitiesMonthly) + '</span>';
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#3498db;"></span>Restante: ' + fmt(remaining) + '</span>';
             budgetHtml += '</div>';
-            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Despu\u00e9s de la renta estimada y los servicios p\u00fablicos, le quedar\u00edan aproximadamente <strong>' + fmt(remaining) + '/mes</strong> para alimentos, transporte, atenci\u00f3n m\u00e9dica y otros gastos.</p>';
-
-            document.getElementById('budgetChart').innerHTML = budgetHtml;
-
-            document.getElementById('results').classList.add('visible');
-            document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-    })();
-    </script>
-</body>
-</html>
+            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Despu\u00e9s de la renta estimada y los servicios p\u00fablicos, le quedar\u00edan aproximadamente

@@ -294,8 +294,8 @@ function renderNav() {
     const navLinks = isSpanish ? [
         { href: `${root}es/recursos/`, text: 'Recursos' },
         { href: `${root}es/recursos/donde-empezar`, text: 'Dónde Empezar' },
-        { href: `${root}blog/`, text: 'Blog' },
-        { href: `${root}resources/guides/`, text: 'Guías' },
+        { href: `${root}es/blog/`, text: 'Blog' },
+        { href: `${root}es/recursos/guias/`, text: 'Guías' },
         { href: `${root}es/recursos/preguntas-frecuentes`, text: 'Preguntas' },
         { href: `${root}es/#about`, text: 'Acerca de' },
     ] : [
@@ -500,7 +500,7 @@ function renderFooter() {
                         <li><a href="${root}es/recursos/preguntas-frecuentes">Preguntas Frecuentes</a></li>
                         <li><a href="${root}es/recursos/respuestas-de-la-comunidad">Respuestas</a></li>
                         <li><a href="${root}index">English</a></li>
-                        <li><a href="${root}blog/">Blog</a></li>
+                        <li><a href="${root}es/blog/">Blog</a></li>
                         <li><span class="footer-link-placeholder">YouTube — próximamente</span></li>
                         <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
                     </ul>
@@ -509,9 +509,9 @@ function renderFooter() {
             <div class="footer-bottom">
                 <p>&copy; ${new Date().getFullYear()} Waythrough Project. Todos los derechos reservados.</p>
                 <p>
-                    <a href="${root}resources/accessibility" style="margin-right:16px;">Accesibilidad</a>
-                    <a href="${root}privacy" style="margin-right:16px;">Privacidad</a>
-                    <a href="${root}terms">Términos de Uso</a>
+                    <a href="${root}es/recursos/accesibilidad" style="margin-right:16px;">Accesibilidad</a>
+                    <a href="${root}es/privacidad" style="margin-right:16px;">Privacidad</a>
+                    <a href="${root}es/terminos">Términos de Uso</a>
                 </p>
             </div>
         </div>

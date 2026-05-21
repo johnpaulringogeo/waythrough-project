@@ -782,6 +782,7 @@
                 <span class="section-label">Herramienta</span>
                 <h1>Calculadora de Interacci&oacute;n de Beneficios</h1>
                 <p class="subtitle">Comprenda c&oacute;mo funcionan juntos los diferentes programas de beneficios y c&oacute;mo obtener uno afecta su elegibilidad y montos para otros. Vea la historia real de c&oacute;mo sus ingresos afectan su apoyo total.</p>
+                <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-top: 1rem; font-size: 0.9rem; color: #5d4037;"><strong>Nota:</strong> Esta herramienta usa cifras estimadas. Los montos reales pueden variar seg&uacute;n su estado, circunstancias del hogar y reglas actuales del programa. Consulte los sitios web oficiales de los programas para las tasas actuales.</div>
             </div>
         </header>
 
@@ -829,7 +830,7 @@
                         <div class="checkbox-grid">
                             <div class="checkbox-item">
                                 <input type="checkbox" id="benefit-section8" name="benefit-section8">
-                                <label for="benefit-section8"><strong>Section 8</strong><br>Housing Choice Voucher</label>
+                                <label for="benefit-section8"><strong>Sección 8</strong><br>Housing Choice Voucher</label>
                             </div>
                             <div class="checkbox-item">
                                 <input type="checkbox" id="benefit-ssi" name="benefit-ssi">
@@ -895,9 +896,9 @@
                 <div class="tips-section">
                     <div class="tips-title">Datos Clave</div>
                     <ul class="tips-list">
-                        <li><strong>Renta de Section 8:</strong> Usted t&iacute;picamente paga el 30% de su ingreso ajustado, con deducciones por dependientes y miembros del hogar mayores/con discapacidad</li>
-                        <li><strong>SNAP y vivienda:</strong> Cuando Section 8 reduce su renta, su beneficio de SNAP puede disminuir porque los costos de vivienda se cuentan en su contra</li>
-                        <li><strong>L&iacute;mites de SSI:</strong> SSI tiene l&iacute;mites estrictos de ingresos ($943/mes a nivel federal) y cuenta muchas fuentes de ingresos, pero SSDI es m&aacute;s generoso</li>
+                        <li><strong>Renta de Sección 8:</strong> Usted t&iacute;picamente paga el 30% de su ingreso ajustado, con deducciones por dependientes y miembros del hogar mayores/con discapacidad</li>
+                        <li><strong>SNAP y vivienda:</strong> Cuando Sección 8 reduce su renta, su beneficio de SNAP puede disminuir porque los costos de vivienda se cuentan en su contra</li>
+                        <li><strong>L&iacute;mites de SSI:</strong> SSI tiene l&iacute;mites estrictos de ingresos ($967/mes a nivel federal) y cuenta muchas fuentes de ingresos, pero SSDI es m&aacute;s generoso</li>
                         <li><strong>Medicaid var&iacute;a:</strong> Cada estado es diferente. La mayor&iacute;a de los estados lo cubren si el ingreso est&aacute; por debajo del 100-138% de la l&iacute;nea federal de pobreza</li>
                         <li><strong>Incentivos laborales:</strong> Algunos programas tienen incentivos laborales, exclusiones para estudiantes o gastos de trabajo para ciegos/discapacitados que pueden ayudarle a ganar m&aacute;s</li>
                         <li><strong>Ganar m&aacute;s vale la pena:</strong> Use el control deslizante de ingresos para ver: casi siempre sale ganando cuando gana m&aacute;s, incluso si algunos beneficios disminuyen</li>
@@ -920,7 +921,7 @@
                         <a href="../beneficios" class="resource-link">Beneficios y Apoyo Financiero</a>
                         <a href="../guias/como-solicitar-snap" class="resource-link">Solicitar SNAP</a>
                         <a href="../guias/como-solicitar-ssi-ssdi" class="resource-link">Solicitar SSI/SSDI</a>
-                        <a href="../guias/como-solicitar-section-8" class="resource-link">Solicitar Section 8</a>
+                        <a href="../guias/como-solicitar-seccion-8" class="resource-link">Solicitar Sección 8</a>
                     </div>
                 </div>
 
@@ -953,8 +954,8 @@
             8: 1750
         };
 
-        // SSI federal rate 2024
-        const SSI_RATE = 943;
+        // SSI federal rate 2025
+        const SSI_RATE = 967;
 
         // Get form elements
         const householdSizeInput = document.getElementById('household-size');
@@ -996,7 +997,7 @@
             return (income / fpl) * 100;
         }
 
-        // Calculate Section 8 rent
+        // Calculate Sección 8 rent
         function calcSection8Rent(income, householdSize) {
             // Standard deductions
             const dependentDeduction = 480;
@@ -1134,11 +1135,11 @@
 
             const cards = [];
 
-            // Section 8
+            // Sección 8
             if (results.selected.section8) {
-                const eligible = results.section8Eligible && results.income < 3500; // Rough Section 8 limit
+                const eligible = results.section8Eligible && results.income < 3500; // Rough Sección 8 limit
                 cards.push({
-                    title: 'Voucher de Vivienda Section 8',
+                    title: 'Voucher de Vivienda Sección 8',
                     amount: results.section8Rent,
                     eligible: eligible,
                     note: eligible
@@ -1151,8 +1152,8 @@
                         <div class="warning-box">
                             <div class="warning-icon">⚠️</div>
                             <div class="warning-content">
-                                <div class="warning-title">Section 8 affects your SNAP</div>
-                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
+                                <div class="warning-title">Sección 8 affects your SNAP</div>
+                                <p class="warning-text">When Sección 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
                             </div>
                         </div>
                     `;
@@ -1354,19 +1355,4 @@
         householdSizeInput.addEventListener('change', renderResults);
         householdSizeInput.addEventListener('change', renderChart);
         grossIncomeInput.addEventListener('input', renderResults);
-        grossIncomeInput.addEventListener('input', renderChart);
-
-        Object.values(benefitCheckboxes).forEach(checkbox => {
-            checkbox.addEventListener('change', renderResults);
-            checkbox.addEventListener('change', renderChart);
-        });
-
-        incomeSlider.addEventListener('input', renderChart);
-
-        // Initial render
-        renderResults();
-        renderChart();
-    </script>
-</body>
-
-</html>
+        gross
