@@ -1,1 +1,44 @@
+# Force apex domain
 https://www.waythroughproject.com/* https://waythroughproject.com/:splat 301
+
+# Spanish URL recovery — old/wrong slugs that Google indexed before the 5/21 audit fixed internal links.
+# These let Google reach the correct page and preserve any link equity.
+
+# Old singular "a-quien-ayudamos" -> plural "a-quienes-ayudamos"
+/es/a-quien-ayudamos/* /es/a-quienes-ayudamos/:splat 301
+
+# Top-level pages that were moved under /es/recursos/
+/es/empleo /es/recursos/empleo 301
+/es/empleo.html /es/recursos/empleo 301
+/es/familias.html /es/recursos/familias 301
+
+# Old /es/guias/ path -> /es/recursos/guias/ (strip .html for cleanliness)
+/es/guias/como-evitar-desalojo.html /es/recursos/guias/como-evitar-desalojo 301
+/es/guias/como-encontrar-vivienda-lihtc.html /es/recursos/guias/como-encontrar-vivienda-lihtc 301
+/es/guias/entendiendo-avisos-del-propietario /es/recursos/guias/entendiendo-avisos-del-propietario 301
+/es/guias/entendiendo-avisos-del-propietario.html /es/recursos/guias/entendiendo-avisos-del-propietario 301
+/es/guias/como-encontrar-su-pha /es/recursos/guias/como-encontrar-tu-pha 301
+/es/guias/como-prevenir-ejecucion-hipotecaria /es/recursos/guias/como-prevenir-ejecucion-hipotecaria 301
+/es/guias/como-solicitar-acomodacion-razonable.html /es/recursos/guias/como-solicitar-acomodacion-razonable 301
+/es/guias/asistencia-renta-emergencia /es/recursos/guias/asistencia-renta-emergencia 301
+
+# Guide slug renames
+/es/recursos/guias/como-apelar-denegacion-vivienda /es/recursos/guias/como-apelar-negacion-vivienda 301
+/es/recursos/guias/como-apelar-negacion /es/recursos/guias/como-apelar-negacion-vivienda 301
+/es/recursos/guias/como-apelar-negacion.html /es/recursos/guias/como-apelar-negacion-vivienda 301
+/es/recursos/guias/terminacion-de-voucher-section-8 /es/recursos/guias/terminacion-cupon-seccion-8 301
+/es/recursos/guias/como-hablar-con-su-pha /es/recursos/guias/como-comunicarte-con-tu-pha 301
+/es/recursos/guias/programas-asistencia-servicios-publicos /es/recursos/guias/programas-asistencia-servicios 301
+/es/recursos/plantillas/solicitud-de-reparacion /es/recursos/plantillas/solicitud-reparacion 301
+/es/recursos/guias/como-funciona-la-recertificacion /es/recursos/guias/como-funciona-recertificacion 301
+/es/recursos/guias/entendiendo-el-calculo-de-alquiler /es/recursos/guias/como-se-calcula-la-renta 301
+/es/recursos/guias/entender-calculo-renta /es/recursos/guias/como-se-calcula-la-renta 301
+/es/recursos/guias/asistencia-emergencia-renta /es/recursos/guias/asistencia-renta-emergencia 301
+/es/recursos/guias/como-evitar-el-desalojo /es/recursos/guias/como-evitar-desalojo 301
+/es/recursos/guias/lista-de-documentos /es/recursos/guias/lista-documentos 301
+
+# Blog post that's actually a guide
+/es/blog/posts/necesito-vivienda-esta-noche /es/recursos/guias/necesito-vivienda-esta-noche 301
+
+# Directory listing with no index
+/es/recursos/herramientas/ /es/recursos/ 301
