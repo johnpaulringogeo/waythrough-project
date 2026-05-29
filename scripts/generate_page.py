@@ -59,7 +59,11 @@ ES_REDFLAGS = [
 def es_accent_violations(html):
     """Return the sorted list of red-flag un-accented words found in visible
     es text (HTML tags, and therefore href URLs/slugs, are stripped first)."""
-    text = re.sub(r"<[^>]+>", " ", html)
+    # Drop <script>/<style> blocks first so JS string literals / URL slugs
+    # are not mistaken for un-accented visible Spanish prose.
+    text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", html,
+                  flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
     found = []
     for w in ES_REDFLAGS:
         if re.search(r"\b" + w + r"\b", text, re.IGNORECASE):

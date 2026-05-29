@@ -6,7 +6,14 @@ Usage:
     python3 scripts/check_spanish.py es/recursos/estados/*.html
 
 Exits non-zero if any page's visible text contains a red-flag un-accented
-Spanish word. HTML tags (and therefore href URL slugs) are ignored.
+Spanish word. HTML tags (and therefore href URL slugs) plus <script>/<style>
+blocks (JS string literals, slugs) are ignored.
+
+Known false positives to eyeball manually (these are correct as-is):
+  - "Division" inside an English proper noun, e.g. "Salvation Army Cascade
+    Division" or a place like "Division Circle" - correct English, not Spanish.
+  - "limites"/"limite" as the VERB ("no te limites a una sola PHA", "que
+    limite ...") - correctly un-accented, unlike the noun "limite/limites".
 """
 import sys
 import re
@@ -32,7 +39,11 @@ ES_REDFLAGS = [
 
 
 def violations(html):
-    text = re.sub(r"<[^>]+>", " ", html)
+    # Drop <script>/<style> blocks first so JS string literals and URL slugs
+    # (correctly plain-ASCII) aren't mistaken for un-accented visible prose.
+    text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", html,
+                  flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", text)
     out = {}
     for w in ES_REDFLAGS:
         n = len(re.findall(r"\b" + w + r"\b", text, re.IGNORECASE))
