@@ -1,0 +1,160 @@
+{
+  "slug": "iowa",
+  "kind": "state",
+  "en": {
+    "breadcrumb_label": "Iowa",
+    "section_label": "State Resources",
+    "h1": "Iowa Housing Resources & Tenant Rights",
+    "updated": "May 2026",
+    "meta": {
+      "title": "Iowa Tenant Rights, Eviction Notice & Rental Help 2026 | Waythrough",
+      "description": "Iowa housing 2026: the Uniform Residential Landlord and Tenant Law (3-day nonpayment notice), 2-month deposit cap with 30-day return, statutory late-fee caps, no rent control, no source-of-income protection (cities barred from requiring vouchers), and where to get help.",
+      "og_title": "Iowa Tenant Rights & Eviction Process (2026) | Waythrough",
+      "og_description": "Iowa's 3-day nonpayment notice, deposit and late-fee caps, the fast FED timeline, and why cities can't require landlords to take vouchers.",
+      "twitter_title": "Iowa Tenant Rights & Rental Help (2026) — Waythrough",
+      "twitter_description": "3-day nonpayment notice, deposit and late-fee caps, the FED eviction timeline, and where to find help in Iowa."
+    },
+    "intro_html": "<p>Iowa&rsquo;s landlord-tenant rules come from the <strong>Uniform Residential Landlord and Tenant Law</strong> (Iowa Code Chapter 562A). There is <strong>no rent control</strong> &mdash; and state law bars cities from enacting it &mdash; and <strong>no statewide source-of-income protection</strong>. In fact, a 2021 law went further and <strong>barred local governments from requiring landlords to accept Housing Choice Vouchers</strong>. On the tenant&rsquo;s side, Iowa does cap security deposits and late fees. This page explains the statewide framework, the eviction timeline, and where to get help.</p>",
+    "quick_numbers": [
+      "<strong>211 Iowa</strong> &mdash; free, 24/7 &mdash; dial <strong>2-1-1</strong> for rental help, shelters, and utilities",
+      "<strong>Iowa Legal Aid:</strong> 1-800-532-1275 &middot; <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">iowalegalaid.org</a>",
+      "<strong>Iowa Civil Rights Commission</strong> (fair housing): 1-800-457-4416",
+      "<strong>Iowa Finance Authority:</strong> <a href=\"https://www.iowafinance.com\" target=\"_blank\" rel=\"noopener\">iowafinance.com</a>",
+      "<strong>HUD fair housing:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Public Housing & Vouchers in Iowa</h2>\n<p>Section 8 Housing Choice Vouchers and public housing in Iowa are run by local housing authorities (in cities like Des Moines, Cedar Rapids, Davenport, and Iowa City), and the <strong>Iowa Finance Authority (IFA)</strong> supports affordable-housing development statewide. To find the authority that serves you, use HUD&rsquo;s <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> or read <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a>. Each authority keeps its own waitlist, so apply to several. For income-restricted apartments, search <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">HUD&rsquo;s LIHTC database</a> or read <a href=\"../guides/how-to-find-lihtc-housing\">how to find LIHTC housing</a>.</p>\n\n<h2>Source of Income & Rent Control in Iowa</h2>\n<p>Iowa has <strong>no statewide source-of-income protection</strong>, so a landlord may legally decline to accept a Housing Choice Voucher. A <strong>2021 law went a step further</strong> and prohibited Iowa cities and counties from requiring landlords to accept vouchers &mdash; voiding local ordinances that had been adopted in places like Des Moines, Iowa City, and Marion. Federal fair-housing law still bars discrimination based on race, color, national origin, religion, sex, disability, and familial status &mdash; see our <a href=\"../guides/source-of-income-protections\">source-of-income protections guide</a>. Iowa also has <strong>no rent control</strong>, and state law prevents local rent control, so there is no legal cap on rent increases. For a month-to-month tenancy, a landlord generally must give at least <strong>30 days&rsquo; written notice</strong> before raising the rent.</p>\n\n<h2>Emergency Rental Assistance in Iowa</h2>\n<ul>\n<li><strong>Dial 211</strong> for the current list of rental, deposit, and eviction-prevention funds near you</li>\n<li><strong>Community Action agencies</strong> across the state administer rental and utility assistance &mdash; 211 can connect you</li>\n<li><strong>LIHEAP</strong> helps with heating and cooling bills &mdash; see <a href=\"../guides/utility-assistance-programs\">utility assistance programs</a></li>\n<li>The Iowa Finance Authority funds homelessness-prevention programs through local partners</li>\n</ul>\n<p>See our <a href=\"../guides/emergency-rental-assistance\">emergency rental assistance guide</a> for how these programs work.</p>\n\n<h2>Iowa Tenant Law: Key Protections at a Glance</h2>\n<div class=\"callout\">\n<h3>Quick Reference: Iowa</h3>\n<ul>\n<li><strong>Source-of-income protection:</strong> none &mdash; and cities are barred from requiring landlords to accept vouchers (2021 law)</li>\n<li><strong>Rent control:</strong> none &mdash; and local rent control is preempted by state law</li>\n<li><strong>Rent-increase notice (month-to-month):</strong> at least 30 days</li>\n<li><strong>Nonpayment notice:</strong> 3 days to pay or quit (Iowa Code &sect; 562A.27)</li>\n<li><strong>Lease-violation notice:</strong> 7 days to cure</li>\n<li><strong>Security deposit:</strong> capped at 2 months&rsquo; rent; returned within <strong>30 days</strong> with an itemized statement</li>\n<li><strong>Late fees:</strong> capped by statute &mdash; about $12/day or $60/month for rent up to $700, and $20/day or $100/month above that</li>\n</ul>\n</div>\n\n<h3>Security deposits & late fees</h3>\n<p>An Iowa landlord may not collect more than <strong>two months&rsquo; rent</strong> as a security deposit, and must return it within <strong>30 days</strong> after you move out and provide a forwarding address, along with an itemized statement of any deductions. Iowa also <strong>caps late fees</strong>: for rent of $700 or less a month, no more than $12 a day or $60 a month; for rent above $700, no more than $20 a day or $100 a month. See <a href=\"../guides/how-to-recover-security-deposit\">how to recover your security deposit</a>.</p>\n\n<h3>Eviction process & how long it takes</h3>\n<p>Self-help eviction is illegal &mdash; a landlord cannot change the locks or shut off utilities and must go through the court. The sequence (forcible entry and detainer, or FED):</p>\n<ul>\n<li><strong>Notice:</strong> for nonpayment, a <strong>3-day notice</strong> to pay or quit; for a lease violation, a 7-day notice to cure</li>\n<li><strong>FED petition</strong> filed in district court; a hearing is set quickly &mdash; often within a couple of weeks</li>\n<li><strong>Hearing</strong> &mdash; appear and raise any defenses (the rent was paid, improper notice, conditions, retaliation); if you do not appear, the landlord usually wins by default</li>\n<li><strong>Judgment and writ:</strong> if the landlord wins, the court issues a writ of removal and a sheriff carries it out (often after about 3 days)</li>\n</ul>\n<p>Because the FED process is fast, an Iowa eviction can run in as little as <strong>two to four weeks</strong>. Act quickly &mdash; get help from <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> (1-800-532-1275), and read <a href=\"../guides/how-to-avoid-eviction\">how to avoid eviction</a>.</p>\n\n<h2>Other Housing Programs in Iowa</h2>\n<ul>\n<li><strong>HUD-VASH (veterans)</strong> &mdash; a voucher paired with VA case management; see <a href=\"../guides/how-to-apply-hud-vash\">how to apply for HUD-VASH</a></li>\n<li><strong>Permanent Supportive Housing & rapid re-housing</strong> &mdash; access through Coordinated Entry by calling 211</li>\n<li><strong>Eviction prevention</strong> &mdash; our <a href=\"../eviction-prevention\">eviction prevention</a> hub explains what to do before your court date</li>\n</ul>\n\n<h2>Where to Get Help in Iowa</h2>\n<p><strong>Tenant help & legal aid:</strong> <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> (1-800-532-1275) handles eviction and housing cases for income-eligible tenants and publishes plain-language guides.</p>\n<p><strong>Discrimination complaints:</strong> the Iowa Civil Rights Commission (1-800-457-4416) enforces fair-housing law.</p>\n<p><strong>Find your local PHA:</strong> HUD&rsquo;s <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> or our <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a> guide.</p>\n<p><strong>211 helpline:</strong> dial <strong>2-1-1</strong> or visit <a href=\"https://www.211iowa.org\" target=\"_blank\" rel=\"noopener\">211iowa.org</a> for rental help, shelters, and utility assistance.</p>\n<p><strong>HUD fair housing:</strong> file at <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> or call <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of programs in about two minutes.</p><p>Iowa&rsquo;s eviction timeline is short, so if you have a notice, contact <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> right away and read <a href=\"../eviction-prevention\">eviction prevention</a> for your next moves.</p>",
+    "related_resources": [
+      {
+        "href": "resources/guides/how-to-avoid-eviction",
+        "title": "How to Avoid Eviction",
+        "desc": "Iowa's fast FED timeline and your defenses."
+      },
+      {
+        "href": "resources/guides/how-to-recover-security-deposit",
+        "title": "Recover Your Deposit",
+        "desc": "Iowa's 2-month cap and 30-day return rule."
+      },
+      {
+        "href": "resources/guides/how-to-apply-section-8",
+        "title": "Apply for Section 8",
+        "desc": "Step-by-step voucher application."
+      },
+      {
+        "href": "resources/guides/how-to-find-your-pha",
+        "title": "Find Your Housing Authority",
+        "desc": "Locate the PHA that serves your area."
+      },
+      {
+        "href": "resources/guides/emergency-rental-assistance",
+        "title": "Emergency Rental Assistance",
+        "desc": "Funds for back rent and deposits through 211."
+      },
+      {
+        "href": "resources/tenant-rights",
+        "title": "Your Rights as a Tenant",
+        "desc": "Habitability, deposits, and eviction defense."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a landlord refuse a Section 8 voucher in Iowa?",
+        "a": "Yes. Iowa has no statewide source-of-income protection, and a 2021 law went further by barring cities and counties from requiring landlords to accept Housing Choice Vouchers - voiding local ordinances in places like Des Moines, Iowa City, and Marion. Federal fair-housing law still prohibits discrimination based on race, color, national origin, religion, sex, disability, and familial status. Contact the Iowa Civil Rights Commission at 1-800-457-4416 about those protected classes."
+      },
+      {
+        "q": "How much notice does my landlord give for nonpayment in Iowa?",
+        "a": "Three days. Under the Uniform Residential Landlord and Tenant Law (Iowa Code 562A.27), a landlord must give a 3-day notice to pay or quit before filing for eviction. For other lease violations, the notice is 7 days to cure. Iowa's eviction (forcible entry and detainer) process moves quickly, so respond right away."
+      },
+      {
+        "q": "Does Iowa limit late fees?",
+        "a": "Yes. Iowa caps late fees by statute. For rent of $700 or less per month, a late fee can be no more than $12 a day or $60 a month. For rent above $700, the cap is $20 a day or $100 a month. A late fee larger than the statutory cap is not enforceable."
+      },
+      {
+        "q": "Is there rent control in Iowa?",
+        "a": "No. Iowa has no rent control, and state law prevents local governments from enacting it, so there is no legal cap on rent increases. For a month-to-month tenancy, a landlord generally must give at least 30 days' written notice before raising the rent."
+      },
+      {
+        "q": "How much can a landlord charge for a security deposit in Iowa, and when is it returned?",
+        "a": "No more than two months' rent. After you move out and provide a forwarding address, the landlord must return the deposit within 30 days with an itemized statement of any deductions for unpaid rent or damage beyond normal wear. Document the unit's condition at move-in and move-out to support your claim."
+      }
+    ]
+  },
+  "es": {
+    "breadcrumb_label": "Iowa",
+    "section_label": "Recursos por estado",
+    "h1": "Recursos de vivienda y derechos del inquilino en Iowa",
+    "updated": "mayo 2026",
+    "meta": {
+      "title": "Iowa: derechos del inquilino, aviso de desalojo y ayuda 2026 | Waythrough",
+      "description": "Vivienda en Iowa 2026: la Ley Uniforme de Propietario e Inquilino (aviso de 3 días por falta de pago), tope de depósito de 2 meses con devolución en 30 días, topes legales de recargos por atraso, sin control de renta, sin protección de fuente de ingresos (las ciudades no pueden exigir cupones), y dónde conseguir ayuda.",
+      "og_title": "Iowa: derechos del inquilino y proceso de desalojo (2026) | Waythrough",
+      "og_description": "El aviso de 3 días por falta de pago de Iowa, los topes de depósito y de recargos, el rápido cronograma FED, y por qué las ciudades no pueden exigir que los propietarios acepten cupones.",
+      "twitter_title": "Iowa: derechos del inquilino y ayuda de alquiler (2026) — Waythrough",
+      "twitter_description": "Aviso de 3 días por falta de pago, topes de depósito y de recargos, el cronograma de desalojo FED, y dónde encontrar ayuda en Iowa."
+    },
+    "intro_html": "<p>Las reglas de propietario e inquilino de Iowa vienen de la <strong>Ley Uniforme de Propietario e Inquilino de Vivienda</strong> (Código de Iowa Capítulo 562A). No hay <strong>control de renta</strong> &mdash; y la ley estatal impide que las ciudades lo establezcan &mdash; ni <strong>protección estatal de fuente de ingresos</strong>. De hecho, una ley de 2021 fue más lejos y <strong>prohibió a los gobiernos locales exigir que los propietarios acepten cupones de Sección 8</strong>. Del lado del inquilino, Iowa sí pone tope a los depósitos de seguridad y a los recargos por atraso. Esta página explica el marco estatal, el cronograma de desalojo y dónde conseguir ayuda.</p>",
+    "quick_numbers": [
+      "<strong>211 Iowa</strong> &mdash; gratis, 24/7 &mdash; marque <strong>2-1-1</strong> para ayuda de alquiler, refugios y servicios",
+      "<strong>Iowa Legal Aid:</strong> 1-800-532-1275 &middot; <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">iowalegalaid.org</a>",
+      "<strong>Comisión de Derechos Civiles de Iowa</strong> (vivienda justa): 1-800-457-4416",
+      "<strong>Autoridad Financiera de Iowa:</strong> <a href=\"https://www.iowafinance.com\" target=\"_blank\" rel=\"noopener\">iowafinance.com</a>",
+      "<strong>Vivienda justa de HUD:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Vivienda pública y cupones en Iowa</h2>\n<p>Los cupones de Sección 8 y la vivienda pública en Iowa los manejan las autoridades de vivienda locales (en ciudades como Des Moines, Cedar Rapids, Davenport e Iowa City), y la <strong>Autoridad Financiera de Iowa (IFA)</strong> apoya el desarrollo de vivienda asequible en todo el estado. Para encontrar la autoridad que le corresponde, use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o lea <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">cómo encontrar su PHA</a>. Cada autoridad tiene su propia lista de espera, así que solicite en varias. Para apartamentos con renta restringida, busque en la <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">base LIHTC de HUD</a> o lea <a href=\"../../../es/recursos/guias/como-encontrar-vivienda-lihtc\">cómo encontrar vivienda LIHTC</a>.</p>\n\n<h2>Fuente de ingresos y control de renta en Iowa</h2>\n<p>Iowa <strong>no tiene protección estatal de fuente de ingresos</strong>, así que un propietario puede legalmente negarse a aceptar un cupón de Sección 8. Una <strong>ley de 2021 fue un paso más allá</strong> y prohibió a las ciudades y condados de Iowa exigir que los propietarios acepten cupones &mdash; anulando ordenanzas locales que se habían adoptado en lugares como Des Moines, Iowa City y Marion. La ley federal de vivienda justa todavía prohíbe la discriminación por raza, color, origen nacional, religión, sexo, discapacidad y situación familiar &mdash; vea nuestra guía de <a href=\"../../../es/recursos/guias/protecciones-fuente-ingreso\">protecciones de fuente de ingresos</a>. Iowa tampoco tiene <strong>control de renta</strong>, y la ley estatal impide el control de renta local, así que no hay tope legal sobre los aumentos de renta. Para un arrendamiento de mes a mes, un propietario generalmente debe dar al menos <strong>30 días de aviso escrito</strong> antes de subir la renta.</p>\n\n<h2>Asistencia de alquiler de emergencia en Iowa</h2>\n<ul>\n<li><strong>Marque 211</strong> para la lista actual de fondos de alquiler, depósito y prevención de desalojos cerca de usted</li>\n<li>Las <strong>agencias de Acción Comunitaria</strong> de todo el estado administran asistencia de alquiler y servicios &mdash; el 211 puede conectarlo</li>\n<li><strong>LIHEAP</strong> ayuda con las facturas de calefacción y enfriamiento &mdash; vea <a href=\"../../../es/recursos/guias/programas-asistencia-servicios\">programas de asistencia de servicios</a></li>\n<li>La Autoridad Financiera de Iowa financia programas de prevención de personas sin hogar mediante socios locales</li>\n</ul>\n<p>Vea nuestra <a href=\"../../../es/recursos/guias/asistencia-renta-emergencia\">guía de asistencia de alquiler de emergencia</a> para saber cómo funcionan estos programas.</p>\n\n<h2>Ley de inquilinos de Iowa: protecciones clave</h2>\n<div class=\"callout\">\n<h3>Referencia rápida: Iowa</h3>\n<ul>\n<li><strong>Protección de fuente de ingresos:</strong> ninguna &mdash; y las ciudades no pueden exigir que los propietarios acepten cupones (ley de 2021)</li>\n<li><strong>Control de renta:</strong> ninguno &mdash; y el control de renta local está bloqueado por la ley estatal</li>\n<li><strong>Aviso de aumento de renta (mes a mes):</strong> al menos 30 días</li>\n<li><strong>Aviso por falta de pago:</strong> 3 días para pagar o desocupar (Código de Iowa &sect; 562A.27)</li>\n<li><strong>Aviso de violación del contrato:</strong> 7 días para corregir</li>\n<li><strong>Depósito de seguridad:</strong> con tope de 2 meses de renta; devuelto dentro de <strong>30 días</strong> con una lista detallada</li>\n<li><strong>Recargos por atraso:</strong> con tope por ley &mdash; cerca de $12/día o $60/mes para renta de hasta $700, y $20/día o $100/mes por encima de eso</li>\n</ul>\n</div>\n\n<h3>Depósitos de seguridad y recargos por atraso</h3>\n<p>Un propietario de Iowa no puede cobrar más de <strong>dos meses de renta</strong> como depósito de seguridad, y debe devolverlo dentro de <strong>30 días</strong> después de que se mude y dé una dirección de reenvío, junto con una lista detallada de cualquier deducción. Iowa también <strong>pone tope a los recargos por atraso</strong>: para renta de $700 o menos al mes, no más de $12 al día o $60 al mes; para renta por encima de $700, no más de $20 al día o $100 al mes. Vea <a href=\"../../../es/recursos/guias/como-recuperar-deposito-seguridad\">cómo recuperar su depósito</a>.</p>\n\n<h3>Proceso de desalojo y cuánto tarda</h3>\n<p>El auto-desalojo es ilegal &mdash; un propietario no puede cambiar las cerraduras ni cortar los servicios y debe usar la corte. La secuencia (entrada y retención forzosa, o FED):</p>\n<ul>\n<li><strong>Aviso:</strong> por falta de pago, un <strong>aviso de 3 días</strong> para pagar o desocupar; por una violación del contrato, un aviso de 7 días para corregir</li>\n<li><strong>Petición FED</strong> presentada en la corte de distrito; se fija una audiencia rápido &mdash; a menudo dentro de un par de semanas</li>\n<li><strong>Audiencia</strong> &mdash; preséntese y presente cualquier defensa (la renta fue pagada, aviso indebido, condiciones, represalia); si no se presenta, el propietario suele ganar por incomparecencia</li>\n<li><strong>Fallo y orden:</strong> si el propietario gana, la corte emite una orden de expulsión y un sheriff la ejecuta (a menudo tras unos 3 días)</li>\n</ul>\n<p>Como el proceso FED es rápido, un desalojo en Iowa puede correr en tan poco como <strong>dos a cuatro semanas</strong>. Actúe rápido &mdash; consiga ayuda de <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> (1-800-532-1275), y lea <a href=\"../../../es/recursos/guias/como-evitar-desalojo\">cómo evitar el desalojo</a>.</p>\n\n<h2>Otros programas de vivienda en Iowa</h2>\n<ul>\n<li><strong>HUD-VASH (veteranos)</strong> &mdash; un cupón con manejo de caso de la VA; vea <a href=\"../../../es/recursos/guias/como-solicitar-hud-vash\">cómo solicitar HUD-VASH</a></li>\n<li><strong>Vivienda de Apoyo Permanente y realojamiento rápido</strong> &mdash; acceda por la Entrada Coordinada llamando al 211</li>\n<li><strong>Prevención de desalojos</strong> &mdash; nuestro centro de <a href=\"../../../es/recursos/prevencion-desalojos\">prevención de desalojos</a> explica qué hacer antes de su cita en la corte</li>\n</ul>\n\n<h2>Dónde conseguir ayuda en Iowa</h2>\n<p><strong>Ayuda al inquilino y asistencia legal:</strong> <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> (1-800-532-1275) maneja casos de desalojo y vivienda para inquilinos elegibles por ingresos y publica guías en lenguaje sencillo.</p>\n<p><strong>Quejas de discriminación:</strong> la Comisión de Derechos Civiles de Iowa (1-800-457-4416) aplica la ley de vivienda justa.</p>\n<p><strong>Encuentre su PHA local:</strong> el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o nuestra guía <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">cómo encontrar su PHA</a>.</p>\n<p><strong>Línea 211:</strong> marque <strong>2-1-1</strong> o visite <a href=\"https://www.211iowa.org\" target=\"_blank\" rel=\"noopener\">211iowa.org</a> para ayuda de alquiler, refugios y servicios.</p>\n<p><strong>Vivienda justa de HUD:</strong> presente en <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> o llame al <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde empezar</a> le conecta con la combinación correcta de programas en unos dos minutos.</p><p>El cronograma de desalojo de Iowa es corto, así que si tiene un aviso, contacte a <a href=\"https://www.iowalegalaid.org\" target=\"_blank\" rel=\"noopener\">Iowa Legal Aid</a> de inmediato y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevención de desalojos</a> para sus próximos pasos.</p>",
+    "related_resources": [
+      {
+        "href": "es/recursos/guias/como-evitar-desalojo",
+        "title": "Cómo evitar el desalojo",
+        "desc": "El rápido cronograma FED de Iowa y sus defensas."
+      },
+      {
+        "href": "es/recursos/guias/como-recuperar-deposito-seguridad",
+        "title": "Recupere su depósito",
+        "desc": "El tope de 2 meses y la devolución en 30 días de Iowa."
+      },
+      {
+        "href": "es/recursos/guias/como-solicitar-seccion-8",
+        "title": "Solicitar Sección 8",
+        "desc": "Solicitud del cupón paso a paso."
+      },
+      {
+        "href": "es/recursos/guias/como-encontrar-tu-pha",
+        "title": "Encuentre su autoridad de vivienda",
+        "desc": "Localice la PHA que sirve a su área."
+      },
+      {
+        "href": "es/recursos/guias/asistencia-renta-emergencia",
+        "title": "Asistencia de alquiler de emergencia",
+        "desc": "Fondos para renta atrasada y depósitos por el 211."
+      },
+      {
+        "href": "es/recursos/derechos-del-inquilino",
+        "title": "Sus derechos como inquilino",
+        "desc": "Habitabilidad, depósitos y defensa de desalojo."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puede un propietario rechazar un cupón de Sección 8 en Iowa?",
+        "a": "Sí. Iowa no tiene protección estatal de fuente de ingresos, y una ley de 2021 fue más lejos al prohibir que las ciudades y condados exijan que los propietarios acepten cupones de Sección 8, anulando ordenanzas locales en lugares como Des Moines, Iowa City y Marion. La ley federal de vivienda justa todavía prohíbe la discriminación por raza, color, origen nacional, religión, sexo, discapacidad y situación familiar. Contacte a la Comisión de Derechos Civiles de Iowa al 1-800-457-4416 sobre esas clases protegidas."
+      },
+      {
+        "q": "¿Cuánto aviso da mi propietario por falta de pago en Iowa?",
+        "a": "Tres días. Bajo la Ley Uniforme de Propietario e Inquilino de Vivienda (Código de Iowa 562A.27), un propietario debe dar un aviso de 3 días para pagar o desocupar antes de presentar el desalojo. Por otras violaciones del contrato, el aviso es de 7 días para corregir. El proceso de desalojo de Iowa (entrada y retención forzosa) avanza rápido, así que responda de inmediato."
+      },
+      {
+        "q": "¿Iowa limita los recargos por atraso?",
+        "a": "Sí. Iowa pone tope a los recargos por atraso por ley. Para renta de $700 o menos al mes, un recargo por atraso no puede ser más de $12 al día o $60 al mes. Para renta por encima de $700, el tope es $20 al día o $100 al mes. Un recargo mayor que el tope legal no es exigible."
+      },
+      {
+        "q": "¿Hay control de renta en Iowa?",
+        "a": "No. Iowa no tiene control de renta, y la ley estatal impide que los gobiernos locales lo establezcan, así que no hay tope legal sobre los aumentos de renta. Para un arrendamiento de mes a mes, un propietario generalmente debe dar al menos 30 días de aviso escrito antes de subir la renta."
+      },
+      {
+        "q": "¿Cuánto puede cobrar un propietario por un depósito de seguridad en Iowa, y cuándo se devuelve?",
+        "a": "No más de dos meses de renta. Después de que se mude y dé una dirección de reenvío, el propietario debe devolver el depósito dentro de 30 días con una lista detallada de cualquier deducción por renta no pagada o daños más allá del desgaste normal. Documente la condición de la unidad al entrar y al salir para respaldar su reclamo."
+      }
+    ]
+  }
+}

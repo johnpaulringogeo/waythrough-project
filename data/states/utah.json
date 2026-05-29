@@ -1,0 +1,160 @@
+{
+  "slug": "utah",
+  "kind": "state",
+  "en": {
+    "breadcrumb_label": "Utah",
+    "section_label": "State Resources",
+    "h1": "Utah Housing Resources & Tenant Rights",
+    "updated": "May 2026",
+    "meta": {
+      "title": "Utah Tenant Rights, Eviction Notice & Rental Help 2026 | Waythrough",
+      "description": "Utah housing 2026: the Fit Premises Act, the 3-day eviction notice and treble-damages risk, deposit return in 30 days, no rent control, no source-of-income protection for vouchers, and where to find rental help.",
+      "og_title": "Utah Tenant Rights & Eviction Process (2026) | Waythrough",
+      "og_description": "Utah's Fit Premises Act, the 3-day notice and treble-damages risk, deposit rules, and rental help through 211 and Utah Legal Services.",
+      "twitter_title": "Utah Tenant Rights & Rental Help (2026) — Waythrough",
+      "twitter_description": "Fit Premises Act, 3-day notice, treble-damages risk, 30-day deposit return, and where to find help in Utah."
+    },
+    "intro_html": "<p>Utah&rsquo;s landlord-tenant rules come from the <strong>Fit Premises Act</strong> (Utah Code Title 57, Chapter 22) and the state&rsquo;s eviction (unlawful detainer) statute. There is <strong>no rent control</strong> and <strong>no source-of-income protection</strong> &mdash; Utah law specifically says refusing to take a Housing Choice Voucher is not discrimination. Utah eviction moves on a <strong>3-day notice</strong> and carries a <strong>treble-damages</strong> risk, so never ignore one. This page explains the statewide framework, the eviction timeline, and where to get help.</p>",
+    "quick_numbers": [
+      "<strong>211 Utah</strong> &mdash; free, 24/7 &mdash; dial <strong>2-1-1</strong> for rental help, shelters, and utilities",
+      "<strong>Utah Legal Services:</strong> 1-800-662-4245 &middot; <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">utahlegalservices.org</a>",
+      "<strong>Utah Antidiscrimination & Labor Division</strong> (fair housing): 1-800-222-1238",
+      "<strong>Utah Housing Corporation:</strong> <a href=\"https://utahhousingcorp.org\" target=\"_blank\" rel=\"noopener\">utahhousingcorp.org</a>",
+      "<strong>HUD fair housing:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Public Housing & Vouchers in Utah</h2>\n<p>Section 8 Housing Choice Vouchers and public housing in Utah are run by local housing authorities (in cities like Salt Lake City, West Valley City, Provo, and Ogden), and the <strong>Utah Housing Corporation</strong> supports affordable-housing development statewide. To find the authority that serves you, use HUD&rsquo;s <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> or read <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a>. Each authority keeps its own waitlist, so apply to several. For income-restricted apartments, search <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">HUD&rsquo;s LIHTC database</a> or read <a href=\"../guides/how-to-find-lihtc-housing\">how to find LIHTC housing</a>.</p>\n\n<h2>Source of Income & Rent Control in Utah</h2>\n<p>Utah has <strong>no source-of-income protection</strong> for renters. Utah&rsquo;s Fair Housing Act specifically states that a landlord&rsquo;s refusal to participate in the Housing Choice Voucher program is <em>not</em> a discriminatory housing practice &mdash; so a landlord may legally decline Section 8. Federal fair-housing law still bars discrimination based on race, color, national origin, religion, sex, disability, and familial status, and Utah&rsquo;s law adds sexual orientation and gender identity. See our <a href=\"../guides/source-of-income-protections\">source-of-income protections guide</a>. Utah also has <strong>no rent control</strong>, and state law prevents local rent control, so there is no legal cap on rent increases. For a month-to-month tenancy, a landlord generally must give at least <strong>15 days&rsquo; written notice</strong> before raising the rent or ending the tenancy.</p>\n\n<h2>Emergency Rental Assistance in Utah</h2>\n<ul>\n<li><strong>Dial 211</strong> for the current list of rental, deposit, and eviction-prevention funds near you</li>\n<li><strong>Community Action agencies</strong> across the state administer rental and utility assistance &mdash; 211 can connect you</li>\n<li><strong>HEAT (LIHEAP)</strong> helps with heating and cooling bills &mdash; see <a href=\"../guides/utility-assistance-programs\">utility assistance programs</a></li>\n<li>Local nonprofits and the Salt Lake County and Utah housing offices run prevention funds; 211 keeps the current list</li>\n</ul>\n<p>See our <a href=\"../guides/emergency-rental-assistance\">emergency rental assistance guide</a> for how these programs work.</p>\n\n<h2>Utah Tenant Law: Key Protections at a Glance</h2>\n<div class=\"callout\">\n<h3>Quick Reference: Utah</h3>\n<ul>\n<li><strong>Source-of-income protection:</strong> none &mdash; Utah law says refusing a voucher is not discrimination</li>\n<li><strong>Rent control:</strong> none &mdash; and local rent control is preempted by state law</li>\n<li><strong>Rent-increase notice (month-to-month):</strong> at least 15 days</li>\n<li><strong>Nonpayment notice:</strong> 3 days to pay or quit</li>\n<li><strong>Habitability:</strong> the Fit Premises Act requires safe, sanitary, fit housing; tenant remedies follow written notice</li>\n<li><strong>Security deposit:</strong> no statutory cap; returned within <strong>30 days</strong> with an itemized statement (since May 2025, electronic return is allowed with your consent)</li>\n<li><strong>Eviction risk:</strong> losing an unlawful detainer can mean <strong>treble (triple) damages</strong> for the holdover period &mdash; never ignore a notice</li>\n</ul>\n</div>\n\n<h3>Security deposits</h3>\n<p>Utah does not cap the security deposit, but after you move out the landlord must return it within <strong>30 days</strong>, along with an itemized statement of any deductions for unpaid rent or damage beyond normal wear. As of <strong>May 2025</strong>, a landlord may return your deposit and any prepaid rent electronically if you consent. Document the unit&rsquo;s condition at move-in and move-out, and read <a href=\"../guides/how-to-recover-security-deposit\">how to recover your security deposit</a>.</p>\n\n<h3>Eviction process & how long it takes</h3>\n<p>Self-help eviction is illegal &mdash; a landlord cannot change the locks or shut off utilities and must go through the court. The sequence (unlawful detainer):</p>\n<ul>\n<li><strong>Notice:</strong> for nonpayment, a <strong>3-day notice</strong> to pay or quit; a 3-day notice to comply or quit for a lease violation; and a 3-day notice to quit for serious issues like illegal activity</li>\n<li><strong>Complaint filed</strong> in district court; Utah uses an expedited process, and you must answer within the time stated (often just a few days)</li>\n<li><strong>Hearing</strong> &mdash; appear and raise any defenses (the rent was paid, improper notice, conditions, retaliation); if you don&rsquo;t answer, the landlord usually wins by default</li>\n<li><strong>Order of restitution:</strong> if the landlord wins, the court issues an order and a constable or sheriff carries out the removal &mdash; and the court can award <strong>treble (triple) damages</strong> for the time you stayed after the notice</li>\n</ul>\n<p>Because of the fast timeline and the treble-damages risk, a Utah eviction can run in as little as <strong>two to six weeks</strong> &mdash; and waiting it out can be expensive. Act immediately: get help from <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> (1-800-662-4245), and read <a href=\"../guides/how-to-avoid-eviction\">how to avoid eviction</a>.</p>\n\n<h2>Other Housing Programs in Utah</h2>\n<ul>\n<li><strong>HUD-VASH (veterans)</strong> &mdash; a voucher paired with VA case management; see <a href=\"../guides/how-to-apply-hud-vash\">how to apply for HUD-VASH</a></li>\n<li><strong>Permanent Supportive Housing & rapid re-housing</strong> &mdash; access through Coordinated Entry by calling 211</li>\n<li><strong>Eviction prevention</strong> &mdash; our <a href=\"../eviction-prevention\">eviction prevention</a> hub explains what to do before your court date</li>\n</ul>\n\n<h2>Where to Get Help in Utah</h2>\n<p><strong>Tenant help & legal aid:</strong> <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> (1-800-662-4245) handles eviction and housing cases for income-eligible tenants.</p>\n<p><strong>Discrimination complaints:</strong> the Utah Antidiscrimination and Labor Division (1-800-222-1238) enforces the Utah Fair Housing Act (note that vouchers are not a protected source of income).</p>\n<p><strong>Find your local PHA:</strong> HUD&rsquo;s <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> or our <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a> guide.</p>\n<p><strong>211 helpline:</strong> dial <strong>2-1-1</strong> or visit <a href=\"https://211utah.org\" target=\"_blank\" rel=\"noopener\">211utah.org</a> for rental help, shelters, and utility assistance.</p>\n<p><strong>HUD fair housing:</strong> file at <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> or call <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of programs in about two minutes.</p><p>Utah&rsquo;s eviction timeline is short and the treble-damages risk is real, so if you have a 3-day notice, contact <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> right away and read <a href=\"../eviction-prevention\">eviction prevention</a>.</p>",
+    "related_resources": [
+      {
+        "href": "resources/guides/how-to-avoid-eviction",
+        "title": "How to Avoid Eviction",
+        "desc": "Utah's fast timeline, treble damages, and your defenses."
+      },
+      {
+        "href": "resources/guides/how-to-recover-security-deposit",
+        "title": "Recover Your Deposit",
+        "desc": "Utah's 30-day return and 2025 electronic-return rule."
+      },
+      {
+        "href": "resources/guides/how-to-apply-section-8",
+        "title": "Apply for Section 8",
+        "desc": "Step-by-step voucher application."
+      },
+      {
+        "href": "resources/guides/how-to-find-your-pha",
+        "title": "Find Your Housing Authority",
+        "desc": "Locate the PHA that serves your area."
+      },
+      {
+        "href": "resources/guides/emergency-rental-assistance",
+        "title": "Emergency Rental Assistance",
+        "desc": "Funds for back rent and deposits through 211."
+      },
+      {
+        "href": "resources/tenant-rights",
+        "title": "Your Rights as a Tenant",
+        "desc": "Habitability, deposits, and eviction defense."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a landlord refuse a Section 8 voucher in Utah?",
+        "a": "Yes. Utah has no source-of-income protection, and the Utah Fair Housing Act specifically says a landlord's refusal to participate in the Housing Choice Voucher program is not a discriminatory housing practice. Federal fair-housing law still prohibits discrimination based on race, color, national origin, religion, sex, disability, and familial status, and Utah law adds sexual orientation and gender identity. Contact the Utah Antidiscrimination and Labor Division at 1-800-222-1238 about those protected classes."
+      },
+      {
+        "q": "How fast can I be evicted in Utah, and what are treble damages?",
+        "a": "Quickly. Utah uses a 3-day notice (to pay or quit for nonpayment) and an expedited unlawful detainer process, so an eviction can run in two to six weeks. Importantly, if the landlord wins, the court can award treble - triple - damages for the time you stayed after the notice expired. That makes ignoring a notice expensive, so contact Utah Legal Services (1-800-662-4245) immediately."
+      },
+      {
+        "q": "Is there rent control in Utah?",
+        "a": "No. Utah has no rent control, and state law prevents local governments from enacting it, so there is no legal cap on rent increases. For a month-to-month tenancy, a landlord generally must give at least 15 days' written notice before raising the rent or ending the tenancy."
+      },
+      {
+        "q": "When does my landlord have to return my deposit in Utah?",
+        "a": "Within 30 days after you move out. The landlord must return the deposit along with an itemized statement of any deductions for unpaid rent or damage beyond normal wear. As of May 2025, the landlord may return your deposit and any prepaid rent electronically if you consent. There is no statutory cap on the deposit amount."
+      },
+      {
+        "q": "Does my Utah landlord have to keep the rental in good condition?",
+        "a": "Yes. The Fit Premises Act requires landlords to provide safe, sanitary, and fit housing. If there's a problem, give the landlord written notice; the statute sets the time the landlord has to act (shorter for conditions that seriously affect health and safety). Keep records, and get advice from Utah Legal Services before withholding rent or pursuing repair remedies so you follow the rules correctly."
+      }
+    ]
+  },
+  "es": {
+    "breadcrumb_label": "Utah",
+    "section_label": "Recursos por estado",
+    "h1": "Recursos de vivienda y derechos del inquilino en Utah",
+    "updated": "mayo 2026",
+    "meta": {
+      "title": "Utah: derechos del inquilino, aviso de desalojo y ayuda 2026 | Waythrough",
+      "description": "Vivienda en Utah 2026: la Ley de Vivienda Apta (Fit Premises Act), el aviso de desalojo de 3 días y el riesgo de daños triples, devolución del depósito en 30 días, sin control de renta, sin protección de fuente de ingresos para cupones, y dónde encontrar ayuda.",
+      "og_title": "Utah: derechos del inquilino y proceso de desalojo (2026) | Waythrough",
+      "og_description": "La Ley de Vivienda Apta de Utah, el aviso de 3 días y el riesgo de daños triples, reglas de depósito y ayuda de alquiler por el 211 y Utah Legal Services.",
+      "twitter_title": "Utah: derechos del inquilino y ayuda de alquiler (2026) — Waythrough",
+      "twitter_description": "Ley de Vivienda Apta, aviso de 3 días, riesgo de daños triples, devolución del depósito en 30 días, y dónde encontrar ayuda en Utah."
+    },
+    "intro_html": "<p>Las reglas de propietario e inquilino de Utah vienen de la <strong>Ley de Vivienda Apta (Fit Premises Act)</strong> (Utah Code Título 57, Capítulo 22) y del estatuto estatal de desalojo (retención ilegal). No hay <strong>control de renta</strong> ni <strong>protección de fuente de ingresos</strong> &mdash; la ley de Utah dice específicamente que negarse a aceptar un cupón de Sección 8 no es discriminación. El desalojo en Utah avanza con un <strong>aviso de 3 días</strong> y conlleva un riesgo de <strong>daños triples</strong>, así que nunca lo ignore. Esta página explica el marco estatal, el cronograma de desalojo y dónde conseguir ayuda.</p>",
+    "quick_numbers": [
+      "<strong>211 Utah</strong> &mdash; gratis, 24/7 &mdash; marque <strong>2-1-1</strong> para ayuda de alquiler, refugios y servicios",
+      "<strong>Utah Legal Services:</strong> 1-800-662-4245 &middot; <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">utahlegalservices.org</a>",
+      "<strong>División Antidiscriminación y Laboral de Utah</strong> (vivienda justa): 1-800-222-1238",
+      "<strong>Corporación de Vivienda de Utah:</strong> <a href=\"https://utahhousingcorp.org\" target=\"_blank\" rel=\"noopener\">utahhousingcorp.org</a>",
+      "<strong>Vivienda justa de HUD:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Vivienda pública y cupones en Utah</h2>\n<p>Los cupones de Sección 8 y la vivienda pública en Utah los manejan las autoridades de vivienda locales (en ciudades como Salt Lake City, West Valley City, Provo y Ogden), y la <strong>Corporación de Vivienda de Utah</strong> apoya el desarrollo de vivienda asequible en todo el estado. Para encontrar la autoridad que le corresponde, use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o lea <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">cómo encontrar su PHA</a>. Cada autoridad tiene su propia lista de espera, así que solicite en varias. Para apartamentos con renta restringida, busque en la <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">base LIHTC de HUD</a> o lea <a href=\"../../../es/recursos/guias/como-encontrar-vivienda-lihtc\">cómo encontrar vivienda LIHTC</a>.</p>\n\n<h2>Fuente de ingresos y control de renta en Utah</h2>\n<p>Utah <strong>no tiene protección de fuente de ingresos</strong> para inquilinos. La Ley de Vivienda Justa de Utah dice específicamente que la negativa de un propietario a participar en el programa de cupones de Sección 8 <em>no</em> es una práctica de vivienda discriminatoria &mdash; así que un propietario puede legalmente rechazar la Sección 8. La ley federal de vivienda justa todavía prohíbe la discriminación por raza, color, origen nacional, religión, sexo, discapacidad y situación familiar, y la ley de Utah agrega orientación sexual e identidad de género. Vea nuestra guía de <a href=\"../../../es/recursos/guias/protecciones-fuente-ingreso\">protecciones de fuente de ingresos</a>. Utah tampoco tiene <strong>control de renta</strong>, y la ley estatal impide el control de renta local, así que no hay tope legal sobre los aumentos de renta. Para un arrendamiento de mes a mes, un propietario generalmente debe dar al menos <strong>15 días de aviso escrito</strong> antes de subir la renta o terminar el arrendamiento.</p>\n\n<h2>Asistencia de alquiler de emergencia en Utah</h2>\n<ul>\n<li><strong>Marque 211</strong> para la lista actual de fondos de alquiler, depósito y prevención de desalojos cerca de usted</li>\n<li>Las <strong>agencias de Acción Comunitaria</strong> de todo el estado administran asistencia de alquiler y servicios &mdash; el 211 puede conectarlo</li>\n<li><strong>HEAT (LIHEAP)</strong> ayuda con las facturas de calefacción y enfriamiento &mdash; vea <a href=\"../../../es/recursos/guias/programas-asistencia-servicios\">programas de asistencia de servicios</a></li>\n<li>Organizaciones sin fines de lucro locales y las oficinas de vivienda del condado de Salt Lake y del estado tienen fondos de prevención; el 211 mantiene la lista actual</li>\n</ul>\n<p>Vea nuestra <a href=\"../../../es/recursos/guias/asistencia-renta-emergencia\">guía de asistencia de alquiler de emergencia</a> para saber cómo funcionan estos programas.</p>\n\n<h2>Ley de inquilinos de Utah: protecciones clave</h2>\n<div class=\"callout\">\n<h3>Referencia rápida: Utah</h3>\n<ul>\n<li><strong>Protección de fuente de ingresos:</strong> ninguna &mdash; la ley de Utah dice que rechazar un cupón no es discriminación</li>\n<li><strong>Control de renta:</strong> ninguno &mdash; y el control de renta local está bloqueado por la ley estatal</li>\n<li><strong>Aviso de aumento de renta (mes a mes):</strong> al menos 15 días</li>\n<li><strong>Aviso por falta de pago:</strong> 3 días para pagar o desocupar</li>\n<li><strong>Habitabilidad:</strong> la Ley de Vivienda Apta exige vivienda segura, sanitaria y apta; los remedios del inquilino siguen al aviso escrito</li>\n<li><strong>Depósito de seguridad:</strong> sin tope legal; devuelto dentro de <strong>30 días</strong> con una lista detallada (desde mayo de 2025 se permite la devolución electrónica con su consentimiento)</li>\n<li><strong>Riesgo de desalojo:</strong> perder una retención ilegal puede significar <strong>daños triples</strong> por el periodo en que se quedó &mdash; nunca ignore un aviso</li>\n</ul>\n</div>\n\n<h3>Depósitos de seguridad</h3>\n<p>Utah no pone tope al depósito de seguridad, pero después de que se mude el propietario debe devolverlo dentro de <strong>30 días</strong>, junto con una lista detallada de cualquier deducción por renta no pagada o daños más allá del desgaste normal. Desde <strong>mayo de 2025</strong>, un propietario puede devolver su depósito y cualquier renta prepagada de forma electrónica si usted lo consiente. Documente la condición de la unidad al entrar y al salir, y lea <a href=\"../../../es/recursos/guias/como-recuperar-deposito-seguridad\">cómo recuperar su depósito</a>.</p>\n\n<h3>Proceso de desalojo y cuánto tarda</h3>\n<p>El auto-desalojo es ilegal &mdash; un propietario no puede cambiar las cerraduras ni cortar los servicios y debe usar la corte. La secuencia (retención ilegal):</p>\n<ul>\n<li><strong>Aviso:</strong> por falta de pago, un <strong>aviso de 3 días</strong> para pagar o desocupar; un aviso de 3 días para cumplir o desocupar por una violación del contrato; y un aviso de 3 días para desocupar por asuntos graves como actividad ilegal</li>\n<li><strong>Demanda presentada</strong> en la corte de distrito; Utah usa un proceso acelerado, y debe responder dentro del tiempo indicado (a menudo solo unos días)</li>\n<li><strong>Audiencia</strong> &mdash; preséntese y presente cualquier defensa (la renta fue pagada, aviso indebido, condiciones, represalia); si no responde, el propietario suele ganar por incomparecencia</li>\n<li><strong>Orden de restitución:</strong> si el propietario gana, la corte emite una orden y un alguacil o sheriff ejecuta la expulsión &mdash; y la corte puede otorgar <strong>daños triples</strong> por el tiempo que se quedó después del aviso</li>\n</ul>\n<p>Por el cronograma rápido y el riesgo de daños triples, un desalojo en Utah puede correr en tan poco como <strong>dos a seis semanas</strong> &mdash; y esperar puede salir caro. Actúe de inmediato: consiga ayuda de <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> (1-800-662-4245), y lea <a href=\"../../../es/recursos/guias/como-evitar-desalojo\">cómo evitar el desalojo</a>.</p>\n\n<h2>Otros programas de vivienda en Utah</h2>\n<ul>\n<li><strong>HUD-VASH (veteranos)</strong> &mdash; un cupón con manejo de caso de la VA; vea <a href=\"../../../es/recursos/guias/como-solicitar-hud-vash\">cómo solicitar HUD-VASH</a></li>\n<li><strong>Vivienda de Apoyo Permanente y realojamiento rápido</strong> &mdash; acceda por la Entrada Coordinada llamando al 211</li>\n<li><strong>Prevención de desalojos</strong> &mdash; nuestro centro de <a href=\"../../../es/recursos/prevencion-desalojos\">prevención de desalojos</a> explica qué hacer antes de su cita en la corte</li>\n</ul>\n\n<h2>Dónde conseguir ayuda en Utah</h2>\n<p><strong>Ayuda al inquilino y asistencia legal:</strong> <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> (1-800-662-4245) maneja casos de desalojo y vivienda para inquilinos elegibles por ingresos.</p>\n<p><strong>Quejas de discriminación:</strong> la División Antidiscriminación y Laboral de Utah (1-800-222-1238) aplica la Ley de Vivienda Justa de Utah (note que los cupones no son una fuente de ingresos protegida).</p>\n<p><strong>Encuentre su PHA local:</strong> el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o nuestra guía <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">cómo encontrar su PHA</a>.</p>\n<p><strong>Línea 211:</strong> marque <strong>2-1-1</strong> o visite <a href=\"https://211utah.org\" target=\"_blank\" rel=\"noopener\">211utah.org</a> para ayuda de alquiler, refugios y servicios.</p>\n<p><strong>Vivienda justa de HUD:</strong> presente en <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> o llame al <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde empezar</a> le conecta con la combinación correcta de programas en unos dos minutos.</p><p>El cronograma de desalojo de Utah es corto y el riesgo de daños triples es real, así que si tiene un aviso de 3 días, contacte a <a href=\"https://www.utahlegalservices.org\" target=\"_blank\" rel=\"noopener\">Utah Legal Services</a> de inmediato y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevención de desalojos</a>.</p>",
+    "related_resources": [
+      {
+        "href": "es/recursos/guias/como-evitar-desalojo",
+        "title": "Cómo evitar el desalojo",
+        "desc": "El cronograma rápido de Utah, los daños triples y sus defensas."
+      },
+      {
+        "href": "es/recursos/guias/como-recuperar-deposito-seguridad",
+        "title": "Recupere su depósito",
+        "desc": "La devolución en 30 días y la regla de devolución electrónica de 2025 de Utah."
+      },
+      {
+        "href": "es/recursos/guias/como-solicitar-seccion-8",
+        "title": "Solicitar Sección 8",
+        "desc": "Solicitud del cupón paso a paso."
+      },
+      {
+        "href": "es/recursos/guias/como-encontrar-tu-pha",
+        "title": "Encuentre su autoridad de vivienda",
+        "desc": "Localice la PHA que sirve a su área."
+      },
+      {
+        "href": "es/recursos/guias/asistencia-renta-emergencia",
+        "title": "Asistencia de alquiler de emergencia",
+        "desc": "Fondos para renta atrasada y depósitos por el 211."
+      },
+      {
+        "href": "es/recursos/derechos-del-inquilino",
+        "title": "Sus derechos como inquilino",
+        "desc": "Habitabilidad, depósitos y defensa de desalojo."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "¿Puede un propietario rechazar un cupón de Sección 8 en Utah?",
+        "a": "Sí. Utah no tiene protección de fuente de ingresos, y la Ley de Vivienda Justa de Utah dice específicamente que la negativa de un propietario a participar en el programa de cupones de Sección 8 no es una práctica de vivienda discriminatoria. La ley federal de vivienda justa todavía prohíbe la discriminación por raza, color, origen nacional, religión, sexo, discapacidad y situación familiar, y la ley de Utah agrega orientación sexual e identidad de género. Contacte a la División Antidiscriminación y Laboral de Utah al 1-800-222-1238 sobre esas clases protegidas."
+      },
+      {
+        "q": "¿Qué tan rápido me pueden desalojar en Utah, y qué son los daños triples?",
+        "a": "Rápido. Utah usa un aviso de 3 días (para pagar o desocupar por falta de pago) y un proceso acelerado de retención ilegal, así que un desalojo puede correr en dos a seis semanas. Importante: si el propietario gana, la corte puede otorgar daños triples por el tiempo que se quedó después de que venció el aviso. Eso hace que ignorar un aviso salga caro, así que contacte a Utah Legal Services (1-800-662-4245) de inmediato."
+      },
+      {
+        "q": "¿Hay control de renta en Utah?",
+        "a": "No. Utah no tiene control de renta, y la ley estatal impide que los gobiernos locales lo establezcan, así que no hay tope legal sobre los aumentos de renta. Para un arrendamiento de mes a mes, un propietario generalmente debe dar al menos 15 días de aviso escrito antes de subir la renta o terminar el arrendamiento."
+      },
+      {
+        "q": "¿Cuándo tiene que devolver mi propietario el depósito en Utah?",
+        "a": "Dentro de 30 días después de que se mude. El propietario debe devolver el depósito junto con una lista detallada de cualquier deducción por renta no pagada o daños más allá del desgaste normal. Desde mayo de 2025, el propietario puede devolver su depósito y cualquier renta prepagada de forma electrónica si usted lo consiente. No hay tope legal sobre el monto del depósito."
+      },
+      {
+        "q": "¿Mi propietario en Utah tiene que mantener el alquiler en buenas condiciones?",
+        "a": "Sí. La Ley de Vivienda Apta exige que los propietarios provean vivienda segura, sanitaria y apta. Si hay un problema, dé al propietario aviso escrito; el estatuto fija el tiempo que el propietario tiene para actuar (más corto para condiciones que afectan seriamente la salud y la seguridad). Guarde registros y consiga consejo de Utah Legal Services antes de retener la renta o usar remedios de reparación para seguir las reglas correctamente."
+      }
+    ]
+  }
+}
