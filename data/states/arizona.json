@@ -1,0 +1,160 @@
+{
+  "slug": "arizona",
+  "kind": "state",
+  "en": {
+    "breadcrumb_label": "Arizona",
+    "section_label": "State Resources",
+    "h1": "Arizona Housing Resources & Tenant Rights",
+    "updated": "May 2026",
+    "meta": {
+      "title": "Arizona Tenant Rights, ARLTA Eviction Rules, Vouchers & Help 2026 | Waythrough",
+      "description": "Arizona housing 2026: ARLTA 5-day eviction notice (ARS 33-1368), 1.5-month deposit cap (33-1321), no rent control, source-of-income preemption, ADOH & DES programs, eviction timeline, and city links.",
+      "og_title": "Arizona Tenant Rights, ARLTA & Housing Help (2026) | Waythrough",
+      "og_description": "ARLTA 5-day notice, 1.5-month deposit cap, no rent control, source-of-income preemption, ADOH/DES assistance, and links to Phoenix, Mesa, and Tucson.",
+      "twitter_title": "Arizona Tenant Rights & ARLTA Eviction Rules (2026) — Waythrough",
+      "twitter_description": "ARLTA 5-day notice (ARS 33-1368), 1.5-month deposit cap, no rent control, source-of-income preemption, and Arizona eviction timeline."
+    },
+    "intro_html": "<p>Arizona sets its rental rules at the state level under the <strong>Arizona Residential Landlord and Tenant Act</strong> (ARLTA, A.R.S. Title 33, Chapter 10). Tenant protections are limited and the eviction timeline is fast: nonpayment gets only a 5-day notice, and a court hearing can come within days. Arizona has no rent control, and state law goes a step further than most &mdash; it <strong>preempts cities from passing their own rent control or source-of-income ordinances</strong>. The <strong>Arizona Department of Housing (ADOH)</strong> is the state housing agency, and the Department of Economic Security (DES) runs rental and utility assistance. This page covers the statewide rules, the eviction timeline, and links to every Arizona city we cover.</p>",
+    "quick_numbers": [
+      "<strong>211 Arizona</strong> &mdash; free, 24/7 &mdash; for any housing emergency anywhere in Arizona",
+      "<strong>AZLawHelp.org</strong> (free legal aid): <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">azlawhelp.org</a>",
+      "<strong>Arizona Department of Housing:</strong> <a href=\"https://housing.az.gov\" target=\"_blank\" rel=\"noopener\">housing.az.gov</a>",
+      "<strong>DES rental & utility assistance:</strong> <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">des.az.gov</a>",
+      "<strong>HUD fair housing:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Public Housing & Vouchers in Arizona</h2>\n<p>Section 8 Housing Choice Vouchers and public housing are run by local authorities &mdash; the City of Phoenix Housing Department, the City of Mesa Housing Authority, and others &mdash; while the <strong>Arizona Department of Housing (ADOH)</strong> administers a statewide voucher program for areas without a local PHA and oversees project-based Section 8 contracts covering thousands of units. ADOH also allocates Low-Income Housing Tax Credits &mdash; search <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">HUD&rsquo;s LIHTC database</a> or read <a href=\"../guides/how-to-find-lihtc-housing\">how to find LIHTC housing</a>.</p>\n<p>Apply to several authorities at once &mdash; you are not limited to your home city. Use <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">HUD&rsquo;s PHA directory</a> or our <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a> and <a href=\"../guides/how-to-apply-section-8\">how to apply for Section 8</a> guides. City-specific waitlist status is on the city pages below.</p>\n\n<h2>Rent Control & Source-of-Income Preemption</h2>\n<p>Arizona has <strong>no rent control</strong>, and under A.R.S. 33-1329 the state reserves that power entirely &mdash; cities and counties cannot cap rents. Arizona also <strong>preempts local source-of-income protections</strong>: unlike states where a city can choose to ban voucher discrimination, Arizona law bars municipalities from enacting those ordinances. The practical result is that a landlord can legally decline a Housing Choice Voucher anywhere in the state, and no Arizona city can change that. Part of using a voucher here is finding landlords who already participate &mdash; ask your PHA for its participating-landlord list and read our <a href=\"../guides/source-of-income-protections\">source-of-income protections guide</a>.</p>\n\n<h2>Emergency Rental Assistance in Arizona</h2>\n<p>If you are behind on rent or cannot cover this month, these are the main channels:</p>\n<ul>\n<li><strong>Arizona Emergency Rental Assistance (ERAP)</strong> through the Department of Economic Security has covered unpaid rent, future rent, and utilities &mdash; check <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">des.az.gov</a> for current availability before assuming it is closed</li>\n<li><strong>Dial 211</strong> to be routed to whatever local rental and prevention funds are open near you, and to your regional Coordinated Entry for shelter and rapid re-housing</li>\n<li><strong>LIHEAP / utility help</strong> through DES lowers heating and cooling bills &mdash; vital in Arizona heat, and it frees up cash for rent. See <a href=\"../guides/utility-assistance-programs\">utility assistance programs</a></li>\n<li><strong>Community Action Agencies, the Salvation Army, Catholic Charities, and St. Vincent de Paul</strong> provide one-time emergency assistance across the state</li>\n</ul>\n<p>See our <a href=\"../guides/emergency-rental-assistance\">emergency rental assistance guide</a> for the national picture.</p>\n\n<h2>Arizona Tenant Law: Key Protections at a Glance</h2>\n<div class=\"callout\">\n<h3>Quick Reference: Arizona (AZ)</h3>\n<ul>\n<li><strong>Source-of-income protection:</strong> none &mdash; and the state preempts cities from creating it</li>\n<li><strong>Rent control:</strong> none &mdash; preempted statewide (A.R.S. 33-1329)</li>\n<li><strong>Security deposit limit:</strong> 1.5 months&rsquo; rent (A.R.S. 33-1321)</li>\n<li><strong>Deposit return deadline:</strong> 14 business days, itemized</li>\n<li><strong>Eviction notice (nonpayment):</strong> 5 days (A.R.S. 33-1368)</li>\n<li><strong>Eviction notice (lease violation):</strong> 10 days to cure; 5 days for a health/safety breach</li>\n<li><strong>Notice to end month-to-month:</strong> 30 days (A.R.S. 33-1375)</li>\n<li><strong>Self-help eviction:</strong> illegal (A.R.S. 33-1367)</li>\n</ul>\n</div>\n\n<h3>Security deposits</h3>\n<p>Under A.R.S. 33-1321, a landlord cannot demand more than <strong>one and one-half months&rsquo; rent</strong> as a deposit (including any prepaid rent). After you move out and request it, the landlord has <strong>14 business days</strong> to return the deposit with an itemized list of deductions. You have the right to be present at a move-out inspection if you ask. See <a href=\"../guides/how-to-recover-security-deposit\">how to recover your security deposit</a>.</p>\n\n<h3>Eviction process & how long it takes</h3>\n<p>Arizona&rsquo;s process is fast, and self-help eviction (lockouts, removing belongings, shutting off utilities) is illegal under A.R.S. 33-1367. The sequence:</p>\n<ul>\n<li><strong>5-day notice</strong> for nonpayment, or a 10-day cure notice for a lease violation (5 days for a health/safety breach)</li>\n<li><strong>Special detainer action</strong> filed in justice or superior court; you are served a summons</li>\n<li><strong>Hearing within days</strong> &mdash; Arizona courts set the eviction hearing quickly after filing, so do not wait. Appear and bring your lease, receipts, and photos</li>\n<li><strong>Judgment and writ of restitution:</strong> if the landlord wins, the court issues a writ and a constable carries out the eviction shortly after</li>\n</ul>\n<p>An uncontested Arizona eviction can finish in about <strong>two to three weeks</strong> from the notice. Because the timeline is short, get help the same day you receive a notice &mdash; <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> and read <a href=\"../guides/how-to-avoid-eviction\">how to avoid eviction</a> and <a href=\"../guides/understanding-landlord-notices\">understanding landlord notices</a>.</p>\n\n<h2>Other Housing Programs in Arizona</h2>\n<ul>\n<li><strong>Public housing</strong> &mdash; government-owned affordable apartments run by local authorities; the public-housing waitlist is separate from the Section 8 list</li>\n<li><strong>LIHTC (tax-credit) apartments</strong> &mdash; privately owned, income-restricted units allocated by ADOH; search <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">HUD&rsquo;s LIHTC database</a> for your county</li>\n<li><strong>HUD-VASH (veterans)</strong> &mdash; a voucher paired with VA case management; ask your VA medical center or see <a href=\"../guides/how-to-apply-hud-vash\">how to apply for HUD-VASH</a></li>\n<li><strong>Emergency Housing Vouchers & rapid re-housing</strong> &mdash; for people experiencing or at risk of homelessness; access through Coordinated Entry by calling 211</li>\n<li><strong>Eviction prevention</strong> &mdash; if you are behind, our <a href=\"../eviction-prevention\">eviction prevention</a> hub explains what to do before your court date</li>\n</ul>\n\n<h2>Major Arizona Cities We Cover</h2>\n<p>City pages carry local PHA waitlist status, named rental-assistance programs, and shelter contacts:</p>\n<ul>\n<li><a href=\"../cities/phoenix\">Phoenix affordable housing resources</a></li>\n<li><a href=\"../cities/mesa\">Mesa affordable housing resources</a></li>\n<li><a href=\"../cities/tucson\">Tucson affordable housing resources</a></li>\n</ul>\n\n<h2>Where to Get Help in Arizona</h2>\n<p><strong>Free legal aid:</strong> <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> connects renters to Community Legal Services, Southern Arizona Legal Aid, and DNA People&rsquo;s Legal Services.</p>\n<p><strong>State housing agency:</strong> <a href=\"https://housing.az.gov\" target=\"_blank\" rel=\"noopener\">Arizona Department of Housing</a> for vouchers, LIHTC, and programs; <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">DES</a> for rental and utility assistance.</p>\n<p><strong>Find your local PHA:</strong> HUD&rsquo;s <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> or our <a href=\"../guides/how-to-find-your-pha\">how to find your PHA</a> guide.</p>\n<p><strong>211 helpline:</strong> dial <strong>2-1-1</strong> or visit <a href=\"https://www.211.org\" target=\"_blank\" rel=\"noopener\">211.org</a> for rental help, shelters, and utility assistance.</p>\n<p><strong>HUD fair housing:</strong> file at <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> or call <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Arizona programs in about two minutes based on whether your need is an emergency or long-term.</p><p>Because Arizona evictions move fast, do not wait if you have a 5-day notice: contact <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> the same day and read <a href=\"../eviction-prevention\">eviction prevention</a>.</p>",
+    "related_resources": [
+      {
+        "href": "resources/tenant-rights",
+        "title": "Your Rights as a Tenant",
+        "desc": "Habitability, deposits, and eviction defense."
+      },
+      {
+        "href": "resources/guides/how-to-avoid-eviction",
+        "title": "How to Avoid Eviction",
+        "desc": "Steps to take after a 5-day notice in Arizona."
+      },
+      {
+        "href": "resources/guides/how-to-recover-security-deposit",
+        "title": "Recover Your Deposit",
+        "desc": "Arizona's 1.5-month cap and 14-day return rule."
+      },
+      {
+        "href": "resources/guides/how-to-apply-section-8",
+        "title": "Apply for Section 8",
+        "desc": "Step-by-step voucher application."
+      },
+      {
+        "href": "resources/guides/source-of-income-protections",
+        "title": "Source-of-Income Protections",
+        "desc": "What applies (and what's preempted) in Arizona."
+      },
+      {
+        "href": "resources/guides/how-to-file-housing-discrimination-complaint",
+        "title": "File a Discrimination Complaint",
+        "desc": "How to file a fair housing complaint with HUD."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a landlord refuse my Section 8 voucher in Arizona?",
+        "a": "Yes. Arizona has no source-of-income protection, and state law preempts cities and counties from creating one, so a landlord can legally decline a Housing Choice Voucher anywhere in the state. The practical step is to find landlords who already accept Section 8 - ask your PHA for its participating-landlord list."
+      },
+      {
+        "q": "How much can a landlord charge for a security deposit in Arizona?",
+        "a": "No more than one and one-half months' rent, including any prepaid rent (A.R.S. 33-1321). After you move out and ask for it back, the landlord has 14 business days to return the deposit with an itemized list of any deductions. You can request to be present at the move-out inspection."
+      },
+      {
+        "q": "How fast is eviction in Arizona?",
+        "a": "Fast. Nonpayment gets only a 5-day notice (A.R.S. 33-1368), then the landlord files a special detainer action and the court sets a hearing within days. An uncontested eviction can finish in about two to three weeks from the notice. Self-help eviction - lockouts, removing belongings, shutting off utilities - is illegal (A.R.S. 33-1367). Get legal help the same day you are served."
+      },
+      {
+        "q": "Is there rent control in Arizona?",
+        "a": "No. Arizona has no rent control, and A.R.S. 33-1329 preempts cities and counties from adopting it. There is no cap on how much a landlord can raise the rent at renewal; your protection comes from your lease term and the 30-day notice required before a month-to-month increase."
+      },
+      {
+        "q": "What notice does my landlord owe me in Arizona?",
+        "a": "For nonpayment of rent, a 5-day notice. For a lease violation, a 10-day notice to cure (5 days for a material health or safety breach). To end a month-to-month tenancy, 30 days (A.R.S. 33-1375). Notices must be in writing; verbal demands do not start the clock."
+      }
+    ]
+  },
+  "es": {
+    "breadcrumb_label": "Arizona",
+    "section_label": "Recursos por estado",
+    "h1": "Recursos de vivienda y derechos del inquilino en Arizona",
+    "updated": "mayo 2026",
+    "meta": {
+      "title": "Arizona: derechos del inquilino, reglas de desalojo ARLTA, cupones y ayuda 2026 | Waythrough",
+      "description": "Vivienda en Arizona 2026: aviso de desalojo de 5 dias de ARLTA (ARS 33-1368), tope de deposito de 1.5 meses (33-1321), sin control de renta, preempcion de fuente de ingresos, programas de ADOH y DES, y enlaces por ciudad.",
+      "og_title": "Arizona: derechos del inquilino, ARLTA y ayuda de vivienda (2026) | Waythrough",
+      "og_description": "Aviso de 5 dias de ARLTA, tope de deposito de 1.5 meses, sin control de renta, preempcion de fuente de ingresos, ayuda de ADOH/DES, y enlaces a Phoenix, Mesa y Tucson.",
+      "twitter_title": "Arizona: derechos del inquilino y reglas ARLTA (2026) — Waythrough",
+      "twitter_description": "Aviso de 5 dias de ARLTA (ARS 33-1368), tope de deposito de 1.5 meses, sin control de renta, preempcion de fuente de ingresos."
+    },
+    "intro_html": "<p>Arizona fija sus reglas de alquiler a nivel estatal bajo la <strong>Ley de Arrendamiento Residencial de Arizona</strong> (ARLTA, A.R.S. Titulo 33, Capitulo 10). Las protecciones para inquilinos son limitadas y el cronograma de desalojo es rapido: la falta de pago solo recibe un aviso de 5 dias, y una audiencia puede llegar en pocos dias. Arizona no tiene control de renta, y la ley estatal va mas alla que la mayoria &mdash; <strong>impide que las ciudades aprueben su propio control de renta u ordenanzas de fuente de ingresos</strong>. El <strong>Departamento de Vivienda de Arizona (ADOH)</strong> es la agencia estatal de vivienda, y el Departamento de Seguridad Economica (DES) administra la asistencia de alquiler y servicios. Esta pagina cubre las reglas estatales, el cronograma de desalojo y enlaces a cada ciudad de Arizona que cubrimos.</p>",
+    "quick_numbers": [
+      "<strong>211 Arizona</strong> &mdash; gratis, 24/7 &mdash; para cualquier emergencia de vivienda en Arizona",
+      "<strong>AZLawHelp.org</strong> (ayuda legal gratuita): <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">azlawhelp.org</a>",
+      "<strong>Departamento de Vivienda de Arizona:</strong> <a href=\"https://housing.az.gov\" target=\"_blank\" rel=\"noopener\">housing.az.gov</a>",
+      "<strong>DES (asistencia de alquiler y servicios):</strong> <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">des.az.gov</a>",
+      "<strong>Vivienda justa de HUD:</strong> 1-800-669-9777"
+    ],
+    "body_html": "<h2>Vivienda publica y cupones en Arizona</h2>\n<p>Los cupones de Seccion 8 y la vivienda publica los manejan las autoridades locales &mdash; el Departamento de Vivienda de la Ciudad de Phoenix, la Autoridad de Vivienda de la Ciudad de Mesa y otras &mdash; mientras que el <strong>Departamento de Vivienda de Arizona (ADOH)</strong> administra un programa estatal de cupones para zonas sin PHA local y supervisa los contratos de Seccion 8 basados en proyecto que cubren miles de unidades. ADOH tambien asigna los Creditos Fiscales (LIHTC) &mdash; busque en la <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">base LIHTC de HUD</a> o lea <a href=\"../../../es/recursos/guias/como-encontrar-vivienda-lihtc\">como encontrar vivienda LIHTC</a>.</p>\n<p>Solicite en varias autoridades a la vez &mdash; no esta limitado a su ciudad. Use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o nuestras guias <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">como encontrar su PHA</a> y <a href=\"../../../es/recursos/guias/como-solicitar-seccion-8\">como solicitar Seccion 8</a>. El estado de las listas por ciudad esta en las paginas de abajo.</p>\n\n<h2>Control de renta y preempcion de fuente de ingresos</h2>\n<p>Arizona <strong>no tiene control de renta</strong>, y bajo la A.R.S. 33-1329 el estado se reserva ese poder por completo &mdash; las ciudades y condados no pueden limitar las rentas. Arizona tambien <strong>impide las protecciones locales de fuente de ingresos</strong>: a diferencia de estados donde una ciudad puede prohibir la discriminacion por cupon, la ley de Arizona prohibe a los municipios promulgar esas ordenanzas. El resultado practico es que un propietario puede rechazar legalmente un cupon de Seccion 8 en cualquier parte del estado, y ninguna ciudad de Arizona puede cambiarlo. Parte de usar un cupon aqui es encontrar propietarios que ya participen &mdash; pida a su PHA la lista de propietarios participantes y lea nuestra guia de <a href=\"../../../es/recursos/guias/protecciones-fuente-ingreso\">protecciones de fuente de ingresos</a>.</p>\n\n<h2>Asistencia de alquiler de emergencia en Arizona</h2>\n<p>Si esta atrasado en el alquiler o no puede cubrir este mes, estos son los canales principales:</p>\n<ul>\n<li><strong>Asistencia de Alquiler de Emergencia de Arizona (ERAP)</strong> a traves del Departamento de Seguridad Economica ha cubierto alquiler atrasado, alquiler futuro y servicios &mdash; revise <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">des.az.gov</a> por disponibilidad actual antes de suponer que esta cerrado</li>\n<li><strong>Marque 211</strong> para que lo dirijan a los fondos locales de alquiler y prevencion que esten abiertos, y a la Entrada Coordinada de su region para refugio y realojamiento</li>\n<li><strong>LIHEAP / ayuda con servicios</strong> a traves de DES baja las facturas de calefaccion y refrigeracion &mdash; vital en el calor de Arizona, y libera dinero para el alquiler. Vea <a href=\"../../../es/recursos/guias/programas-asistencia-servicios\">programas de asistencia de servicios</a></li>\n<li><strong>Las Agencias de Accion Comunitaria, el Salvation Army, Catholic Charities y St. Vincent de Paul</strong> dan asistencia unica de emergencia en todo el estado</li>\n</ul>\n<p>Vea nuestra <a href=\"../../../es/recursos/guias/asistencia-renta-emergencia\">guia de asistencia de alquiler de emergencia</a> para el panorama nacional.</p>\n\n<h2>Ley de inquilinos de Arizona: protecciones clave</h2>\n<div class=\"callout\">\n<h3>Referencia rapida: Arizona (AZ)</h3>\n<ul>\n<li><strong>Proteccion de fuente de ingresos:</strong> ninguna &mdash; y el estado impide que las ciudades la creen</li>\n<li><strong>Control de renta:</strong> ninguno &mdash; preempido en todo el estado (A.R.S. 33-1329)</li>\n<li><strong>Limite de deposito:</strong> 1.5 meses de alquiler (A.R.S. 33-1321)</li>\n<li><strong>Plazo de devolucion del deposito:</strong> 14 dias habiles, con detalle</li>\n<li><strong>Aviso de desalojo (falta de pago):</strong> 5 dias (A.R.S. 33-1368)</li>\n<li><strong>Aviso de desalojo (violacion):</strong> 10 dias para corregir; 5 dias por una falta de salud/seguridad</li>\n<li><strong>Aviso para terminar mes a mes:</strong> 30 dias (A.R.S. 33-1375)</li>\n<li><strong>Auto-desalojo:</strong> ilegal (A.R.S. 33-1367)</li>\n</ul>\n</div>\n\n<h3>Depositos de seguridad</h3>\n<p>Bajo la A.R.S. 33-1321, un propietario no puede exigir mas de <strong>un mes y medio de alquiler</strong> como deposito (incluyendo cualquier renta prepagada). Despues de mudarse y solicitarlo, el propietario tiene <strong>14 dias habiles</strong> para devolver el deposito con una lista detallada de deducciones. Tiene derecho a estar presente en una inspeccion de salida si lo solicita. Vea <a href=\"../../../es/recursos/guias/como-recuperar-deposito-seguridad\">como recuperar su deposito</a>.</p>\n\n<h3>Proceso de desalojo y cuanto tarda</h3>\n<p>El proceso de Arizona es rapido, y el auto-desalojo (cambiar cerraduras, sacar pertenencias, cortar servicios) es ilegal bajo la A.R.S. 33-1367. La secuencia:</p>\n<ul>\n<li><strong>Aviso de 5 dias</strong> por falta de pago, o un aviso de 10 dias para corregir una violacion (5 dias por una falta de salud/seguridad)</li>\n<li><strong>Accion de detentacion especial</strong> presentada en la corte de paz o superior; le entregan una citacion</li>\n<li><strong>Audiencia en pocos dias</strong> &mdash; las cortes de Arizona fijan la audiencia rapidamente tras la presentacion, asi que no espere. Presentese con su contrato, recibos y fotos</li>\n<li><strong>Fallo y orden de restitucion:</strong> si el propietario gana, la corte emite una orden y un alguacil ejecuta el desalojo poco despues</li>\n</ul>\n<p>Un desalojo sin disputa en Arizona puede terminar en unas <strong>dos a tres semanas</strong> desde el aviso. Como el plazo es corto, busque ayuda el mismo dia que reciba un aviso &mdash; <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> y lea <a href=\"../../../es/recursos/guias/como-evitar-desalojo\">como evitar el desalojo</a> y <a href=\"../../../es/recursos/guias/entendiendo-avisos-del-propietario\">entendiendo los avisos del propietario</a>.</p>\n\n<h2>Otros programas de vivienda en Arizona</h2>\n<ul>\n<li><strong>Vivienda publica</strong> &mdash; apartamentos asequibles propiedad del gobierno administrados por autoridades locales; la lista de vivienda publica es separada de la de Seccion 8</li>\n<li><strong>Apartamentos LIHTC (credito fiscal)</strong> &mdash; unidades de propiedad privada con renta restringida asignadas por ADOH; busque en la <a href=\"https://www.huduser.gov/lihtc/\" target=\"_blank\" rel=\"noopener\">base LIHTC de HUD</a> por su condado</li>\n<li><strong>HUD-VASH (veteranos)</strong> &mdash; un cupon combinado con manejo de caso de la VA; pregunte en su centro medico VA o vea <a href=\"../../../es/recursos/guias/como-solicitar-hud-vash\">como solicitar HUD-VASH</a></li>\n<li><strong>Vouchers de Vivienda de Emergencia y realojamiento rapido</strong> &mdash; para personas sin hogar o en riesgo; acceda por la Entrada Coordinada llamando al 211</li>\n<li><strong>Prevencion de desalojos</strong> &mdash; si esta atrasado, nuestro centro de <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a> explica que hacer antes de su cita en la corte</li>\n</ul>\n\n<h2>Principales ciudades de Arizona que cubrimos</h2>\n<p>Las paginas de ciudad tienen el estado local de listas, programas de ayuda nombrados y contactos de refugios:</p>\n<ul>\n<li><a href=\"../../../es/recursos/ciudades/phoenix\">Recursos de vivienda en Phoenix</a></li>\n<li><a href=\"../../../es/recursos/ciudades/mesa\">Recursos de vivienda en Mesa</a></li>\n<li><a href=\"../../../es/recursos/ciudades/tucson\">Recursos de vivienda en Tucson</a></li>\n</ul>\n\n<h2>Donde conseguir ayuda en Arizona</h2>\n<p><strong>Ayuda legal gratuita:</strong> <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> conecta a inquilinos con Community Legal Services, Southern Arizona Legal Aid y DNA People&rsquo;s Legal Services.</p>\n<p><strong>Agencia estatal de vivienda:</strong> <a href=\"https://housing.az.gov\" target=\"_blank\" rel=\"noopener\">Departamento de Vivienda de Arizona</a> para cupones, LIHTC y programas; <a href=\"https://des.az.gov\" target=\"_blank\" rel=\"noopener\">DES</a> para asistencia de alquiler y servicios.</p>\n<p><strong>Encuentre su PHA local:</strong> el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> o nuestra guia <a href=\"../../../es/recursos/guias/como-encontrar-tu-pha\">como encontrar su PHA</a>.</p>\n<p><strong>Linea 211:</strong> marque <strong>2-1-1</strong> o visite <a href=\"https://www.211.org\" target=\"_blank\" rel=\"noopener\">211.org</a> para ayuda de alquiler, refugios y servicios.</p>\n<p><strong>Vivienda justa de HUD:</strong> presente en <a href=\"https://www.hud.gov/reporthousingdiscrimination\" target=\"_blank\" rel=\"noopener\">hud.gov/reporthousingdiscrimination</a> o llame al <strong>1-800-669-9777</strong>.</p>",
+    "next_steps_html": "<p>No sabe por donde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Arizona en unos dos minutos segun si su necesidad es emergencia o largo plazo.</p><p>Como los desalojos en Arizona son rapidos, no espere si tiene un aviso de 5 dias: contacte a <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> el mismo dia y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>.</p>",
+    "related_resources": [
+      {
+        "href": "es/recursos/derechos-del-inquilino",
+        "title": "Sus derechos como inquilino",
+        "desc": "Habitabilidad, depositos y defensa de desalojo."
+      },
+      {
+        "href": "es/recursos/guias/como-evitar-desalojo",
+        "title": "Como evitar el desalojo",
+        "desc": "Pasos tras un aviso de 5 dias en Arizona."
+      },
+      {
+        "href": "es/recursos/guias/como-recuperar-deposito-seguridad",
+        "title": "Recupere su deposito",
+        "desc": "El tope de 1.5 meses y la regla de 14 dias de Arizona."
+      },
+      {
+        "href": "es/recursos/guias/como-solicitar-seccion-8",
+        "title": "Solicitar Seccion 8",
+        "desc": "Solicitud del cupon paso a paso."
+      },
+      {
+        "href": "es/recursos/guias/protecciones-fuente-ingreso",
+        "title": "Protecciones de fuente de ingresos",
+        "desc": "Que aplica (y que esta preempido) en Arizona."
+      },
+      {
+        "href": "es/recursos/guias/como-presentar-queja-discriminacion",
+        "title": "Presentar queja de discriminacion",
+        "desc": "Como presentar una queja de vivienda justa con HUD."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Puede un propietario rechazar mi cupon de Seccion 8 en Arizona?",
+        "a": "Si. Arizona no tiene proteccion de fuente de ingresos, y la ley estatal impide que las ciudades y condados la creen, asi que un propietario puede rechazar legalmente un cupon de Seccion 8 en cualquier parte del estado. El paso practico es encontrar propietarios que ya acepten Seccion 8 - pida a su PHA la lista de propietarios participantes."
+      },
+      {
+        "q": "Cuanto puede cobrar un propietario de deposito en Arizona?",
+        "a": "No mas de un mes y medio de alquiler, incluyendo cualquier renta prepagada (A.R.S. 33-1321). Despues de mudarse y pedirlo, el propietario tiene 14 dias habiles para devolver el deposito con una lista detallada de deducciones. Puede pedir estar presente en la inspeccion de salida."
+      },
+      {
+        "q": "Que tan rapido es el desalojo en Arizona?",
+        "a": "Rapido. La falta de pago solo recibe un aviso de 5 dias (A.R.S. 33-1368), luego el propietario presenta una accion de detentacion especial y la corte fija una audiencia en pocos dias. Un desalojo sin disputa puede terminar en unas dos a tres semanas desde el aviso. El auto-desalojo - cambiar cerraduras, sacar pertenencias, cortar servicios - es ilegal (A.R.S. 33-1367). Busque ayuda legal el mismo dia que le notifiquen."
+      },
+      {
+        "q": "Hay control de renta en Arizona?",
+        "a": "No. Arizona no tiene control de renta, y la A.R.S. 33-1329 impide que las ciudades y condados lo adopten. No hay tope para cuanto puede subir la renta un propietario en la renovacion; su proteccion viene del plazo de su contrato y del aviso de 30 dias requerido antes de un aumento mes a mes."
+      },
+      {
+        "q": "Que aviso me debe mi propietario en Arizona?",
+        "a": "Por falta de pago, un aviso de 5 dias. Por una violacion del contrato, un aviso de 10 dias para corregir (5 dias por una falta material de salud o seguridad). Para terminar un arriendo mes a mes, 30 dias (A.R.S. 33-1375). Los avisos deben ser por escrito; las demandas verbales no inician el plazo."
+      }
+    ]
+  }
+}
