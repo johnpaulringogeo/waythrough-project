@@ -1,0 +1,97 @@
+{#- State page template. Renders one language at a time.
+    Mirrors city.html.j2 exactly, but the breadcrumb has a 4th level
+    (Home / Resources / State Resources / <state>) to match the
+    BreadcrumbList JSON-LD the generator emits for state pages.
+    Caller passes: data (the lang-specific block), slug, lang, depth,
+    alt_lang_url, states_path.
+-#}
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YQ0HKFH50D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{ rel_prefix }}images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="{{ rel_prefix }}images/favicon.ico">
+    <link rel="apple-touch-icon" href="{{ rel_prefix }}images/apple-touch-icon.png">
+    <title>{{ data.meta.title }}</title>
+    <meta name="description" content="{{ data.meta.description }}">
+    <meta property="og:title" content="{{ data.meta.og_title or data.meta.title }}">
+    <meta property="og:description" content="{{ data.meta.og_description or data.meta.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://waythroughproject.com{{ canonical_path }}">
+    <meta property="og:site_name" content="Waythrough Project">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ data.meta.twitter_title or data.meta.og_title or data.meta.title }}">
+    <meta name="twitter:description" content="{{ data.meta.twitter_description or data.meta.og_description or data.meta.description }}">
+    <link rel="canonical" href="https://waythroughproject.com{{ canonical_path }}">
+    {%- if alt_lang_url %}
+    <link rel="alternate" hreflang="{{ 'es' if lang == 'en' else 'en' }}" href="https://waythroughproject.com{{ alt_lang_url }}">
+    <link rel="alternate" hreflang="{{ lang }}" href="https://waythroughproject.com{{ canonical_path }}">
+    {%- endif %}
+    <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
+    <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
+    <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="{{ rel_prefix }}css/style.css?v=26">
+    <script src="{{ rel_prefix }}js/components.js?v=30" defer></script>
+    <script type="application/ld+json">
+{{ breadcrumb_json }}
+    </script>
+    {%- if data.faqs %}
+    <script type="application/ld+json">
+{{ faq_json }}
+    </script>
+    {%- endif %}
+</head>
+<body>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="{{ rel_prefix }}{{ home_path }}">{{ labels.home }}</a><span class="sep">/</span><a href="{{ rel_prefix }}{{ resources_path }}">{{ labels.resources }}</a><span class="sep">/</span><a href="{{ rel_prefix }}{{ states_path }}">{{ labels.state_resources }}</a><span class="sep">/</span><span class="current">{{ data.breadcrumb_label }}</span></div></nav>
+
+    <div class="page-header fade-in">
+        <div class="container">
+            <span class="section-label">{{ data.section_label }}</span>
+            <h1>{{ data.h1 }}</h1>
+            <p class="page-meta">Waythrough Project · {{ labels.updated }} {{ data.updated }}</p>
+        </div>
+    </div>
+
+    <main id="main-content" class="container post-content fade-in">
+        {{ data.intro_html | safe }}
+
+        {%- if data.quick_numbers %}
+        <div class="callout">
+            <strong>{{ labels.quick_numbers }}</strong>
+            <ul style="margin: 0.5rem 0 0;">
+                {%- for item in data.quick_numbers %}
+                <li>{{ item | safe }}</li>
+                {%- endfor %}
+            </ul>
+        </div>
+        {%- endif %}
+
+        {{ data.body_html | safe }}
+
+        <h2>{{ labels.next_steps }}</h2>
+        {{ data.next_steps_html | safe }}
+
+        <section class="related-resources">
+            <h2>{{ labels.related_resources }}</h2>
+            <div class="related-list">
+                {%- for r in data.related_resources %}
+                <a href="{{ rel_prefix }}{{ r.href }}" class="related-item"><h3>{{ r.title }}</h3><p>{{ r.desc }}</p></a>
+                {%- endfor %}
+            </div>
+        </section>
+    </main>
+</body>
+</html>

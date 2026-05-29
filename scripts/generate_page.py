@@ -84,7 +84,9 @@ LAYOUTS = {
             "quick_numbers": "Quick numbers to write down:",
             "next_steps": "Next Steps",
             "related_resources": "Related Resources",
+            "state_resources": "State Resources",
         },
+        "states_path": "resources/states/",
         "breadcrumb_position3_name": "State Resources",
         "breadcrumb_position4_name": "{breadcrumb_label}",
     },
@@ -103,7 +105,9 @@ LAYOUTS = {
             "quick_numbers": "Números importantes para anotar:",
             "next_steps": "Próximos pasos",
             "related_resources": "Recursos relacionados",
+            "state_resources": "Recursos por estado",
         },
+        "states_path": "es/recursos/estados/",
         "breadcrumb_position3_name": "Recursos por estado",
         "breadcrumb_position4_name": "{breadcrumb_label}",
     },
@@ -119,7 +123,7 @@ def build_breadcrumb_json(layout, data, lang):
         {"@type": "ListItem", "position": 1, "name": layout["labels"]["home"], "item": home_url},
         {"@type": "ListItem", "position": 2, "name": layout["labels"]["resources"], "item": resources_url},
     ]
-    # State pages have 4 levels (Home → Resources → State Resources → <state>)
+    # State pages have 4 levels (Home -> Resources -> State Resources -> <state>)
     if "breadcrumb_position4_name" in layout:
         states_url = f"https://waythroughproject.com{layout['canonical_path'].format(slug='').rsplit('/', 1)[0]}/"
         items.append({
@@ -168,7 +172,7 @@ def render_one(env, kind, lang, slug, data, layout):
     breadcrumb_json = build_breadcrumb_json(layout, data, lang)
     faq_json = build_faq_json(data.get("faqs", [])) if data.get("faqs") else ""
 
-    template = env.get_template("city.html.j2")
+    template = env.get_template(f"{kind}.html.j2")
     html = template.render(
         data=data,
         lang=lang,
@@ -179,6 +183,7 @@ def render_one(env, kind, lang, slug, data, layout):
         rel_prefix=layout["rel_prefix"],
         home_path=layout["home_path"],
         resources_path=layout["resources_path"],
+        states_path=layout.get("states_path", ""),
         labels=layout["labels"],
         breadcrumb_json=breadcrumb_json,
         faq_json=faq_json,
