@@ -11,11 +11,16 @@ Writes:
     es/recursos/ciudades/<slug>.html  (Spanish city)
     resources/states/<slug>.html  (English state)
     es/recursos/estados/<slug>.html  (Spanish state)
+
+Safeguard: Spanish (es) pages are validated for missing diacritics before they
+are written. If an es page contains a red-flag un-accented Spanish word in its
+visible text, generation raises an error so plain-ASCII Spanish can never ship.
 """
 import argparse
 import glob
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -29,6 +34,37 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = REPO_ROOT / "templates"
 DATA_DIR = REPO_ROOT / "data"
+
+
+# Words that ALWAYS take a diacritic in Spanish (Spanish-only spellings, so they
+# won't collide with English text that may appear on a page). If any of these
+# show up un-accented in the VISIBLE text of an es page, the page is missing its
+# accents and must be fixed before publishing.
+ES_REDFLAGS = [
+    "informacion", "deposito", "depositos", "seccion", "proteccion",
+    "pagina", "paginas", "telefono", "numero", "numeros", "credito", "creditos",
+    "energia", "mayoria", "garantia", "dias", "ano", "anos", "dueno", "duenos",
+    "duena", "danos", "nino", "ninos", "despues", "segun", "tambien", "ademas",
+    "aqui", "alli", "asi", "comision", "division", "articulo", "economica",
+    "economico", "energetica", "energetico", "restitucion", "citacion",
+    "devolucion", "discriminacion", "reubicacion", "inspeccion", "renovacion",
+    "aplicacion", "terminacion", "estabilizacion", "anulacion", "calefaccion",
+    "jurisdiccion", "organizacion", "declaracion", "condicion", "situacion",
+    "duracion", "comunicacion", "preempcion", "practicamente", "pequeno",
+    "pequenos", "pequena", "interes", "cupon", "razon", "habia", "habian",
+    "tenia", "limite", "limites", "maximo", "maxima", "minimo",
+]
+
+
+def es_accent_violations(html):
+    """Return the sorted list of red-flag un-accented words found in visible
+    es text (HTML tags, and therefore href URLs/slugs, are stripped first)."""
+    text = re.sub(r"<[^>]+>", " ", html)
+    found = []
+    for w in ES_REDFLAGS:
+        if re.search(r"\b" + w + r"\b", text, re.IGNORECASE):
+            found.append(w)
+    return sorted(set(found))
 
 
 # Output path layouts and breadcrumb context per (kind, lang).
@@ -188,6 +224,16 @@ def render_one(env, kind, lang, slug, data, layout):
         breadcrumb_json=breadcrumb_json,
         faq_json=faq_json,
     )
+
+    # Safeguard: never write a Spanish page that is missing its accents.
+    if lang == "es":
+        bad = es_accent_violations(html)
+        if bad:
+            raise ValueError(
+                f"Spanish accent check FAILED for {output_path.name}: found un-accented "
+                f"word(s) {bad}. Add proper diacritics (a/e/i/o/u accents, n-tilde, "
+                f"opening question/exclamation marks) to the 'es' block before generating."
+            )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html, encoding="utf-8")
