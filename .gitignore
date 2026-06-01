@@ -16,3 +16,6 @@ node_modules/
 BRAND_GUIDE.md
 SETUP_GUIDE.md
 Waythrough_Site_Improvement_Roadmap.docx
+
+# Phase 4 thin-content audit output (local only)
+_audit/
