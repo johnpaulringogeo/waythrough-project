@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Your Landlord Won't Fix Things? Here's What to Do",
+      "description": "Broken heater, leaking pipes, mold \u2014 and your landlord ignores your requests. Here's how to escalate repairs legally, whether you're on Section 8 or not.",
+      "url": "blog/posts/landlord-not-making-repairs.html",
+      "date": "2026-06-03",
+      "readTime": "8 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "Moving to a New Place With Your Section 8 Voucher",
       "description": "You can move with Section 8 \u2014 even to another state. Here's how portability works, what paperwork you need, and the timeline for transferring your voucher.",
       "url": "blog/posts/moving-with-section-8-voucher.html",

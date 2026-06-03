@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Your Landlord Won't Fix Things? Here's What to Do</title>
+      <link>https://waythroughproject.com/blog/posts/landlord-not-making-repairs</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/landlord-not-making-repairs</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Broken heater, leaking pipes, mold — and your landlord ignores your requests. Here's how to escalate repairs legally, whether you're on Section 8 or not.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Moving to a New Place With Your Section 8 Voucher</title>
