@@ -1,44 +1,68 @@
-# Force apex domain
-https://www.waythroughproject.com/* https://waythroughproject.com/:splat 301
+# ============================================================
+# Waythrough Project — Cloudflare Pages redirects (PATH-based only)
+# www -> apex is handled in functions/_middleware.js (Pages cannot
+# match hostnames here). Specific rules win over the /es/guias/* splat.
+# ============================================================
 
-# Spanish URL recovery — old/wrong slugs that Google indexed before the 5/21 audit fixed internal links.
-# These let Google reach the correct page and preserve any link equity.
+# --- Spanish: old top-level /es/<page> -> /es/recursos/<page> ---
+/es/empleo                  /es/recursos/empleo                 301
+/es/empleo.html             /es/recursos/empleo                 301
+/es/familias                /es/recursos/familias               301
+/es/familias.html           /es/recursos/familias               301
+/es/glosario                /es/recursos/glosario               301
+/es/glosario.html           /es/recursos/glosario               301
+/es/beneficios              /es/recursos/beneficios             301
+/es/beneficios.html         /es/recursos/beneficios             301
+/es/credito-vivienda        /es/recursos/credito-vivienda       301
+/es/estados                 /es/recursos/estados                301
+/es/uso-de-sustancias       /es/recursos/uso-de-sustancias      301
+/es/uso-de-sustancias.html  /es/recursos/uso-de-sustancias      301
+/es/recursos/donde-comenzar /es/recursos/donde-empezar          301
 
-# Old singular "a-quien-ayudamos" -> plural "a-quienes-ayudamos"
-/es/a-quien-ayudamos/* /es/a-quienes-ayudamos/:splat 301
+# --- a-quien-ayudamos (singular) -> a-quienes-ayudamos (plural) ---
+/es/a-quien-ayudamos/*      /es/a-quienes-ayudamos/:splat       301
 
-# Top-level pages that were moved under /es/recursos/
-/es/empleo /es/recursos/empleo 301
-/es/empleo.html /es/recursos/empleo 301
-/es/familias.html /es/recursos/familias 301
-
-# Old /es/guias/ path -> /es/recursos/guias/ (strip .html for cleanliness)
-/es/guias/como-evitar-desalojo.html /es/recursos/guias/como-evitar-desalojo 301
-/es/guias/como-encontrar-vivienda-lihtc.html /es/recursos/guias/como-encontrar-vivienda-lihtc 301
-/es/guias/entendiendo-avisos-del-propietario /es/recursos/guias/entendiendo-avisos-del-propietario 301
-/es/guias/entendiendo-avisos-del-propietario.html /es/recursos/guias/entendiendo-avisos-del-propietario 301
-/es/guias/como-encontrar-su-pha /es/recursos/guias/como-encontrar-tu-pha 301
-/es/guias/como-prevenir-ejecucion-hipotecaria /es/recursos/guias/como-prevenir-ejecucion-hipotecaria 301
-/es/guias/como-solicitar-acomodacion-razonable.html /es/recursos/guias/como-solicitar-acomodacion-razonable 301
-/es/guias/asistencia-renta-emergencia /es/recursos/guias/asistencia-renta-emergencia 301
-
-# Guide slug renames
+# --- Spanish guide RENAMES (old slug -> current slug, one hop) ---
+/es/guias/como-encontrar-su-pha               /es/recursos/guias/como-encontrar-tu-pha        301
+/es/recursos/guias/como-encontrar-su-pha      /es/recursos/guias/como-encontrar-tu-pha        301
+/es/recursos/guias/como-encontrar-su-pha.html /es/recursos/guias/como-encontrar-tu-pha        301
+/es/guias/como-solicitar-section-8                /es/recursos/guias/como-solicitar-seccion-8 301
+/es/recursos/guias/como-solicitar-section-8       /es/recursos/guias/como-solicitar-seccion-8 301
+/es/recursos/guias/como-solicitar-section-8.html  /es/recursos/guias/como-solicitar-seccion-8 301
+/es/recursos/guias/como-solicitar-adaptacion-razonable      /es/recursos/guias/como-solicitar-acomodacion-razonable 301
+/es/recursos/guias/como-solicitar-adaptacion-razonable.html /es/recursos/guias/como-solicitar-acomodacion-razonable 301
+/es/recursos/guias/como-comunicarse-con-su-pha    /es/recursos/guias/como-comunicarte-con-tu-pha  301
+/es/recursos/guias/como-hablar-con-su-pha         /es/recursos/guias/como-comunicarte-con-tu-pha  301
+/es/recursos/guias/como-encontrar-vivienda-de-recuperacion  /es/recursos/guias/como-encontrar-vivienda-recuperacion 301
+/es/recursos/guias/como-presentar-queja-de-discriminacion       /es/recursos/guias/como-presentar-queja-discriminacion 301
+/es/recursos/guias/como-presentar-queja-discriminacion-vivienda /es/recursos/guias/como-presentar-queja-discriminacion 301
+/es/recursos/guias/asistencia-emergencia-alquiler /es/recursos/guias/asistencia-renta-emergencia  301
+/es/recursos/guias/asistencia-emergencia-renta    /es/recursos/guias/asistencia-renta-emergencia  301
+/es/recursos/guias/autosuficiencia-familiar       /es/recursos/guias/programa-autosuficiencia-familiar 301
 /es/recursos/guias/como-apelar-denegacion-vivienda /es/recursos/guias/como-apelar-negacion-vivienda 301
-/es/recursos/guias/como-apelar-negacion /es/recursos/guias/como-apelar-negacion-vivienda 301
-/es/recursos/guias/como-apelar-negacion.html /es/recursos/guias/como-apelar-negacion-vivienda 301
-/es/recursos/guias/terminacion-de-voucher-section-8 /es/recursos/guias/terminacion-cupon-seccion-8 301
-/es/recursos/guias/como-hablar-con-su-pha /es/recursos/guias/como-comunicarte-con-tu-pha 301
-/es/recursos/guias/programas-asistencia-servicios-publicos /es/recursos/guias/programas-asistencia-servicios 301
-/es/recursos/plantillas/solicitud-de-reparacion /es/recursos/plantillas/solicitud-reparacion 301
+/es/recursos/guias/como-apelar-negacion           /es/recursos/guias/como-apelar-negacion-vivienda 301
+/es/recursos/guias/como-apelar-negacion.html      /es/recursos/guias/como-apelar-negacion-vivienda 301
+/es/recursos/guias/como-evitar-el-desalojo        /es/recursos/guias/como-evitar-desalojo         301
 /es/recursos/guias/como-funciona-la-recertificacion /es/recursos/guias/como-funciona-recertificacion 301
-/es/recursos/guias/entendiendo-el-calculo-de-alquiler /es/recursos/guias/como-se-calcula-la-renta 301
-/es/recursos/guias/entender-calculo-renta /es/recursos/guias/como-se-calcula-la-renta 301
-/es/recursos/guias/asistencia-emergencia-renta /es/recursos/guias/asistencia-renta-emergencia 301
-/es/recursos/guias/como-evitar-el-desalojo /es/recursos/guias/como-evitar-desalojo 301
-/es/recursos/guias/lista-de-documentos /es/recursos/guias/lista-documentos 301
+/es/recursos/guias/estrategias-lista-de-espera    /es/recursos/guias/estrategias-lista-espera     301
+/es/recursos/guias/programas-asistencia-servicios-publicos /es/recursos/guias/programas-asistencia-servicios 301
+/es/recursos/guias/protecciones-fuente-ingresos   /es/recursos/guias/protecciones-fuente-ingreso  301
+/es/recursos/guias/entender-calculo-renta             /es/recursos/guias/como-se-calcula-la-renta  301
+/es/recursos/guias/entendiendo-el-calculo-de-alquiler /es/recursos/guias/como-se-calcula-la-renta  301
+/es/recursos/guias/lista-de-documentos            /es/recursos/guias/lista-documentos             301
+/es/recursos/guias/terminacion-de-voucher-section-8 /es/recursos/guias/terminacion-cupon-seccion-8 301
+/es/blog/posts/necesito-vivienda-esta-noche       /es/recursos/guias/necesito-vivienda-esta-noche 301
+/es/recursos/plantillas/solicitud-de-reparacion   /es/recursos/plantillas/solicitud-reparacion    301
+/es/recursos/herramientas/                        /es/recursos/                                   301
 
-# Blog post that's actually a guide
-/es/blog/posts/necesito-vivienda-esta-noche /es/recursos/guias/necesito-vivienda-esta-noche 301
+# --- Old /es/guias/<slug>.html (extension) -> current extensionless guide ---
+/es/guias/como-encontrar-vivienda-lihtc.html       /es/recursos/guias/como-encontrar-vivienda-lihtc        301
+/es/guias/como-evitar-desalojo.html                /es/recursos/guias/como-evitar-desalojo                 301
+/es/guias/como-solicitar-acomodacion-razonable.html /es/recursos/guias/como-solicitar-acomodacion-razonable 301
+/es/guias/entendiendo-avisos-del-propietario.html  /es/recursos/guias/entendiendo-avisos-del-propietario   301
 
-# Directory listing with no index
-/es/recursos/herramientas/ /es/recursos/ 301
+# --- Spanish guides: old /es/guias/<slug> -> /es/recursos/guias/<slug> (same-slug moves; catch-all) ---
+/es/guias/*  /es/recursos/guias/:splat  301
+
+# --- English path with stray Spanish slug (old bad internal link) ---
+/resources/guides/programa-autosuficiencia-familiar /es/recursos/guias/programa-autosuficiencia-familiar 301
