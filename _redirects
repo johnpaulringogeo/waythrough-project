@@ -66,3 +66,7 @@
 
 # --- English path with stray Spanish slug (old bad internal link) ---
 /resources/guides/programa-autosuficiencia-familiar /es/recursos/guias/programa-autosuficiencia-familiar 301
+
+# --- Old HUD data endpoints (pre-/api/hud/ prefix) -> current proxy (fixes ghost 404s like /fmr/listStates) ---
+/fmr/*  /api/hud/fmr/:splat  301
+/il/*   /api/hud/il/:splat   301
