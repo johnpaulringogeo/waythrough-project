@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Section 8 Protections for Domestic Violence Survivors</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-and-domestic-violence</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-and-domestic-violence</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <description>VAWA protects your housing if you're experiencing domestic violence. Here's how to keep your voucher, break your lease safely, and get emergency transfer priority.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Your Landlord Won't Fix Things? Here's What to Do</title>
