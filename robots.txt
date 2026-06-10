@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /blog/drafts/
+Disallow: /_link_checker
 Sitemap: https://waythroughproject.com/sitemap.xml
