@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>How to Read Your Lease (Without a Law Degree)</title>
+      <link>https://waythroughproject.com/blog/posts/how-to-read-your-lease</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/how-to-read-your-lease</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Leases are confusing on purpose. Here's a plain-English guide to the clauses that actually matter — late fees, maintenance, lease breaks, and what's enforceable.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Section 8 Protections for Domestic Violence Survivors</title>

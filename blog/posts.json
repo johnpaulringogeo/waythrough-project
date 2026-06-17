@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "How to Read Your Lease (Without a Law Degree)",
+      "description": "Leases are confusing on purpose. Here's a plain-English guide to the clauses that actually matter \u2014 late fees, maintenance, lease breaks, and what's enforceable.",
+      "url": "blog/posts/how-to-read-your-lease.html",
+      "date": "2026-06-17",
+      "readTime": "9 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "Section 8 Protections for Domestic Violence Survivors",
       "description": "VAWA protects your housing if you're experiencing domestic violence. Here's how to keep your voucher, break your lease safely, and get emergency transfer priority.",
       "url": "blog/posts/section-8-and-domestic-violence.html",
