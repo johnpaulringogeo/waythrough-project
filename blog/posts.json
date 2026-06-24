@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "What Is Fair Market Rent and Why Does It Matter?",
+      "description": "Fair Market Rent determines your Section 8 payment standard. Here's how HUD calculates it, how it affects what apartments you can afford, and what to do if FMR is too low in your area.",
+      "url": "blog/posts/what-is-fair-market-rent.html",
+      "date": "2026-06-24",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "How to Read Your Lease (Without a Law Degree)",
       "description": "Leases are confusing on purpose. Here's a plain-English guide to the clauses that actually matter \u2014 late fees, maintenance, lease breaks, and what's enforceable.",
       "url": "blog/posts/how-to-read-your-lease.html",

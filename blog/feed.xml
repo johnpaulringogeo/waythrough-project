@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>What Is Fair Market Rent and Why Does It Matter?</title>
+      <link>https://waythroughproject.com/blog/posts/what-is-fair-market-rent</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/what-is-fair-market-rent</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Fair Market Rent determines your Section 8 payment standard. Here's how HUD calculates it, how it affects what apartments you can afford, and what to do if FMR is too low in your area.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>How to Read Your Lease (Without a Law Degree)</title>
