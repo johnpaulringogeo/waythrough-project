@@ -850,6 +850,8 @@
                         { value: 'veteran', label: "I'm a veteran", desc: 'Veteran-specific housing help' },
                         { value: 'senior', label: "I'm 62 or older", desc: 'Senior housing programs' },
                         { value: 'disability', label: 'I have a disability', desc: 'Accessible housing and accommodations' },
+                        { value: 'family', label: "I have children or I'm a single parent", desc: 'Family housing and familial-status protections' },
+                        { value: 'immigrant', label: "I'm an immigrant or English isn't my first language", desc: 'Your rights apply regardless of status, plus language help' },
                         { value: 'dv-survivor', label: "I'm a survivor of domestic violence", desc: 'Safety protections and housing rights' },
                         { value: 'none', label: 'None of these', desc: '' }
                     ]
@@ -1208,23 +1210,24 @@
                 });
             });
 
-            // Update nav — hide Continue and Skip for single-select (auto-advances on click)
+            // Update nav — every question shows the same "Continue" button so the flow
+            // is consistent (no question silently auto-advances). Skip is available on
+            // any optional question.
             backBtn.disabled = state.history.length === 0;
-            if (qDef.multi) {
-                nextBtn.style.display = '';
-                skipBtn.style.display = qDef.required ? 'none' : '';
-                skipBtn.disabled = qDef.required;
-            } else {
-                nextBtn.style.display = 'none';
-                skipBtn.style.display = 'none';
-            }
+            nextBtn.style.display = '';
+            skipBtn.style.display = qDef.required ? 'none' : '';
+            skipBtn.disabled = qDef.required;
 
-            // Update progress
+            // Update progress — show the step number only. The total can shift as
+            // optional/branching questions appear or hide, which made an "of N"
+            // denominator jump around. The bar conveys overall progress and is clamped
+            // so it never moves backward.
             var total = getTotalSteps();
             var current = getCurrentStepNumber();
-            var pct = (current / total) * 100;
-            progressFill.style.width = pct + '%';
-            progressText.textContent = 'Step ' + current + ' of ' + total;
+            var pct = Math.min(100, (current / total) * 100);
+            state.maxPct = Math.max(state.maxPct || 0, pct);
+            progressFill.style.width = state.maxPct + '%';
+            progressText.textContent = 'Step ' + current;
 
             // Focus
             questionsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1274,9 +1277,6 @@
                 clickedBtn.classList.add('selected');
                 clickedBtn.setAttribute('aria-pressed', 'true');
                 state.answers[qDef.id] = value;
-
-                // Auto-advance after a brief delay so the selection is visible
-                setTimeout(function() { advance(); }, 250);
             }
         }
 
@@ -1292,6 +1292,7 @@
             state.answers = {};
             state.branch = null;
             state.history = [];
+            state.maxPct = 0;
             renderQuestion(Q1);
         }
 
@@ -1374,7 +1375,7 @@
         function restartWizard() {
             resultsContainer.classList.add('wizard-hidden');
             wizardIntro.classList.remove('wizard-hidden');
-            state = { branch: null, questionIndex: -1, answers: {}, history: [] };
+            state = { branch: null, questionIndex: -1, answers: {}, history: [], maxPct: 0 };
         }
 
         // Event listeners
@@ -1839,6 +1840,13 @@
                     meta: 'Rights'
                 });
 
+                focused.push({
+                    title: 'Was the Notice Unfair? Know Your Fair Housing Rights',
+                    link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                    description: 'If the real reason may be your race, family, national origin, or disability — not what the notice claims — that can be illegal discrimination. Here’s how to document it and file a free complaint.',
+                    meta: 'Fair Housing • Rights'
+                });
+
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
                         title: 'Find Free Legal Help',
@@ -1900,6 +1908,28 @@
                         link: '../who-we-help/disabilities.html',
                         description: 'Reasonable accommodations and legal protections that may apply to your eviction situation.',
                         meta: 'Disabilities \u2022 Rights'
+                    });
+                }
+                if (aboutYou.indexOf('family') !== -1) {
+                    focused.push({
+                        title: 'Families Can’t Be Pushed Out Unfairly',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        description: 'Refusing or evicting families because they have children — or enforcing rules only against them — is familial-status discrimination under the Fair Housing Act. Document it and file a free complaint.',
+                        meta: 'Families • Fair Housing'
+                    });
+                    additional.push({
+                        title: 'Family Housing Resources',
+                        link: 'families.html',
+                        description: 'Housing programs and protections that help keep families together.',
+                        meta: 'Families'
+                    });
+                }
+                if (aboutYou.indexOf('immigrant') !== -1) {
+                    focused.push({
+                        title: 'Your Rights Apply Regardless of Immigration Status',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        description: 'Tenant and fair-housing protections cover you whatever your immigration status, and national-origin discrimination is illegal. You can also ask for a free interpreter when you seek help.',
+                        meta: 'Immigrants • Rights'
                     });
                 }
             }
