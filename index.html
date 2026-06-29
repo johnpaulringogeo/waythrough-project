@@ -304,21 +304,23 @@
     <div class="container">
         <h2>From the Blog</h2>
         <p class="section-desc">Personal insights and practical advice from someone who's worked inside the system.</p>
+                <!-- Auto-populated with the 3 newest posts from blog/posts.json by the script near </body>.
+             The static items below are the no-JS fallback; update blog/posts.json when you publish. -->
         <div class="blog-list" id="blog-latest">
-            <a href="blog/posts/how-section-8-inspections-work" class="blog-item">
-                <div class="blog-item-meta">May 13, 2026 · 8 min read</div>
-                <h3>How Section 8 Inspections Work (And How to Pass Yours)</h3>
-                <p>HQS inspections can make or break your housing search. Here's exactly what inspectors look for, common fail items, and how to prepare so your unit passes the first time.</p>
+            <a href="blog/posts/landlord-not-making-repairs" class="blog-item">
+                <div class="blog-item-meta">June 3, 2026 · 8 min read</div>
+                <h3>Your Landlord Won't Fix Things? Here's What to Do</h3>
+                <p>Broken heater, leaking pipes, mold — and your landlord ignores your requests. Here's how to escalate repairs legally, whether you're on Section 8 or not.</p>
             </a>
-            <a href="blog/posts/renting-with-eviction-record" class="blog-item">
-                <div class="blog-item-meta">May 4, 2026 · 8 min read</div>
-                <h3>Renting With an Eviction on Your Record: What Actually Works</h3>
-                <p>An eviction on your record doesn't mean you can't find housing. Here's what landlords actually see, how to address it, and programs that give second chances.</p>
+            <a href="blog/posts/moving-with-section-8-voucher" class="blog-item">
+                <div class="blog-item-meta">May 27, 2026 · 7 min read</div>
+                <h3>Moving to a New Place With Your Section 8 Voucher</h3>
+                <p>You can move with Section 8 — even to another state. Here's how portability works, what paperwork you need, and the timeline for transferring your voucher.</p>
             </a>
-            <a href="blog/posts/income-went-up-on-section-8" class="blog-item">
-                <div class="blog-item-meta">April 30, 2026 · 8 min read</div>
-                <h3>My Income Went Up on Section 8 — Will I Lose My Voucher?</h3>
-                <p>A raise doesn't automatically mean losing your voucher. Here's how rent gets recalculated, when to report changes, and how the Family Self-Sufficiency program works.</p>
+            <a href="blog/posts/what-counts-as-income-section-8" class="blog-item">
+                <div class="blog-item-meta">May 20, 2026 · 7 min read</div>
+                <h3>What Counts as Income on Section 8? The Complete List</h3>
+                <p>Not all money counts as income for Section 8. Here's what your PHA includes, what's excluded, and the deductions that can lower your rent portion.</p>
             </a>
         </div>
         <div class="section-more">
@@ -351,6 +353,49 @@
     </div>
 </section>
 </main>
+
+
+<script>
+/* "From the Blog": auto-populate the 3 newest posts from blog/posts.json.
+   Uses textContent (so escape sequences can never render literally) and strips
+   any trailing ".html" for clean URLs. Falls back to the static markup in
+   #blog-latest if the fetch fails or JS is disabled. */
+(function () {
+  var el = document.getElementById('blog-latest');
+  if (!el || !window.fetch) return;
+  var MONTHS = ['January','February','March','April','May','June','July','August',
+                'September','October','November','December'];
+  function fmtDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? MONTHS[+m[2] - 1] + ' ' + (+m[3]) + ', ' + m[1] : '';
+  }
+  fetch('blog/posts.json', { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (data) {
+      var posts = (data && data.posts) || [];
+      if (!posts.length) return;
+      posts.sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
+      var frag = document.createDocumentFragment();
+      posts.slice(0, 3).forEach(function (p) {
+        var a = document.createElement('a');
+        a.className = 'blog-item';
+        a.href = String(p.url || '').replace(/\.html$/, '');
+        var meta = document.createElement('div');
+        meta.className = 'blog-item-meta';
+        meta.textContent = fmtDate(p.date) + (p.readTime ? ' · ' + p.readTime : '');
+        var h = document.createElement('h3');
+        h.textContent = p.title || '';
+        var desc = document.createElement('p');
+        desc.textContent = p.description || '';
+        a.appendChild(meta); a.appendChild(h); a.appendChild(desc);
+        frag.appendChild(a);
+      });
+      el.innerHTML = '';
+      el.appendChild(frag);
+    })
+    .catch(function () { /* keep the static fallback already in the page */ });
+})();
+</script>
 
 </body>
 </html>
