@@ -135,18 +135,18 @@
     </style>
 </head>
 <body>
-    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../../">Inicio</a><span class="sep">/</span><a href="../">Recursos</a><span class="sep">/</span><a href="./">Herramientas</a><span class="sep">/</span><span class="current">Conozca Sus N\u00fameros</span></div></nav>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="../../../">Inicio</a><span class="sep">/</span><a href="../">Recursos</a><span class="sep">/</span><a href="./">Herramientas</a><span class="sep">/</span><span class="current">Conozca Sus Números</span></div></nav>
     <div class="page-header fade-in">
         <div class="container">
             <span class="section-label">Herramienta Interactiva</span>
-            <h1>Conozca Sus N\u00fameros</h1>
-            <p class="page-meta">Vea su renta estimada, categor\u00eda de ingresos y elegibilidad para programas \u2014 todo en un solo lugar.</p>
+            <h1>Conozca Sus Números</h1>
+            <p class="page-meta">Vea su renta estimada, categoría de ingresos y elegibilidad para programas — todo en un solo lugar.</p>
         </div>
     </div>
     <main id="main-content" class="container fade-in">
         <div class="post-content">
             <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-bottom: 1.5rem; font-size: 0.9rem; color: #5d4037;"><strong>Nota:</strong> Esta herramienta usa cifras estimadas. Los montos reales pueden variar seg&uacute;n su estado, circunstancias del hogar y reglas actuales del programa. Consulte los sitios web oficiales de los programas para las tasas actuales.</div>
-            <p>Este panel le da una imagen completa de su asequibilidad de vivienda. Ingrese su informaci\u00f3n a continuaci\u00f3n y estimaremos su renta bajo Sección 8, le mostraremos d\u00f3nde se ubica en la escala de ingresos e identificaremos programas para los que podr\u00eda calificar.</p>
+            <p>Este panel le da una imagen completa de su asequibilidad de vivienda. Ingrese su información a continuación y estimaremos su renta bajo Sección 8, le mostraremos dónde se ubica en la escala de ingresos e identificaremos programas para los que podría calificar.</p>
             <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Toma unos 2 minutos — solo necesita sus ingresos y tamaño de hogar.</p>
         </div>
 
@@ -154,7 +154,7 @@
             <label for="income">Ingreso Mensual Bruto (antes de impuestos)</label>
             <input type="number" id="income" placeholder="ej. 1500" min="0" step="1">
 
-            <label for="hhSize">Tama\u00f1o del Hogar</label>
+            <label for="hhSize">Tamaño del Hogar</label>
             <select id="hhSize">
                 <option value="1">1 persona</option>
                 <option value="2">2 personas</option>
@@ -166,7 +166,7 @@
                 <option value="8">8 personas</option>
             </select>
 
-            <label for="dependents">N\u00famero de Dependientes Menores de 18</label>
+            <label for="dependents">Número de Dependientes Menores de 18</label>
             <input type="number" id="dependents" value="0" min="0" max="10">
 
             <div class="kyn-check-row">
@@ -175,17 +175,17 @@
             </div>
 
             <div class="kyn-conditional" id="medicalRow">
-                <label for="medical">Gastos M\u00e9dicos Mensuales de Su Bolsillo</label>
+                <label for="medical">Gastos Médicos Mensuales de Su Bolsillo</label>
                 <input type="number" id="medical" value="0" min="0" placeholder="ej. 200">
             </div>
 
             <label for="childcare">Gastos Mensuales de Cuidado Infantil (relacionados con trabajo)</label>
             <input type="number" id="childcare" value="0" min="0" placeholder="ej. 400">
 
-            <label for="utilities">Servicios P\u00fablicos Mensuales Estimados (opcional \u2014 predeterminado $150)</label>
+            <label for="utilities">Servicios Públicos Mensuales Estimados (opcional — predeterminado $150)</label>
             <input type="number" id="utilities" value="150" min="0" placeholder="150">
 
-            <button class="kyn-btn" id="calcBtn">Calcular Mis N\u00fameros</button>
+            <button class="kyn-btn" id="calcBtn">Calcular Mis Números</button>
         </div>
 
         <div class="kyn-results" id="results" aria-live="polite" aria-atomic="false">
@@ -195,12 +195,12 @@
             </div>
 
             <div class="kyn-panel" id="panelIncome">
-                <h2>Estado de L\u00edmite de Ingresos</h2>
+                <h2>Estado de Límite de Ingresos</h2>
                 <div id="incomeStatus"></div>
             </div>
 
             <div class="kyn-panel" id="panelPrograms">
-                <h2>Programas Para los Que Podr\u00eda Calificar</h2>
+                <h2>Programas Para los Que Podría Calificar</h2>
                 <div id="programList"></div>
             </div>
 
@@ -210,17 +210,17 @@
             </div>
 
             <div class="kyn-disclaimer">
-                <strong>Importante:</strong> Estos son estimados basados en promedios nacionales y la f\u00f3rmula est\u00e1ndar de renta de Sección 8. Sus montos reales dependen de su Autoridad de Vivienda P\u00fablica local, los l\u00edmites de ingresos espec\u00edficos del condado y sus circunstancias individuales. Use estos n\u00fameros como punto de partida \u2014 contacte a su PHA para cifras exactas.
+                <strong>Importante:</strong> Estos son estimados basados en promedios nacionales y la fórmula estándar de renta de Sección 8. Sus montos reales dependen de su Autoridad de Vivienda Pública local, los límites de ingresos específicos del condado y sus circunstancias individuales. Use estos números como punto de partida — contacte a su PHA para cifras exactas.
             </div>
         </div>
 
         <div class="post-content" style="margin-top: 48px;">
             <h2>Recursos Relacionados</h2>
             <ul>
-                <li><a href="../guias/entendiendo-calculo-renta">C\u00f3mo Se Calcula Su Renta en Sección 8</a> \u2014 Explicaci\u00f3n completa de la f\u00f3rmula</li>
-                <li><a href="calculadora-presupuesto">Calculadora de Presupuesto Mensual</a> \u2014 Herramienta detallada de planificaci\u00f3n de presupuesto</li>
-                <li><a href="evaluador-elegibilidad">Evaluador de Elegibilidad</a> \u2014 Verifique qu\u00e9 programas se ajustan a su situaci\u00f3n</li>
-                <li><a href="../guias/como-solicitar-seccion-8">C\u00f3mo Solicitar Sección 8</a> \u2014 Gu\u00eda paso a paso</li>
+                <li><a href="../guias/entendiendo-calculo-renta">Cómo Se Calcula Su Renta en Sección 8</a> — Explicación completa de la fórmula</li>
+                <li><a href="calculadora-presupuesto">Calculadora de Presupuesto Mensual</a> — Herramienta detallada de planificación de presupuesto</li>
+                <li><a href="evaluador-elegibilidad">Evaluador de Elegibilidad</a> — Verifique qué programas se ajustan a su situación</li>
+                <li><a href="../guias/como-solicitar-seccion-8">Cómo Solicitar Sección 8</a> — Guía paso a paso</li>
             </ul>
         </div>
     </main>
@@ -257,7 +257,7 @@
 
             const annualIncome = monthlyIncome * 12;
 
-            // --- C\u00e1lculo de Renta Sección 8 ---
+            // --- Cálculo de Renta Sección 8 ---
             const depDeduction = deps * 480;
             const elderlyDeduction = isElderlyDisabled ? 400 : 0;
             const annualMedical = medicalMonthly * 12;
@@ -272,10 +272,10 @@
 
             let html = '';
             html += '<div class="kyn-calc-step"><span>Ingreso Anual Bruto</span><span>' + fmt(annualIncome) + '</span></div>';
-            if (depDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducci\u00f3n por dependientes (' + deps + ' x $480)</span><span>-' + fmt(depDeduction) + '</span></div>';
-            if (elderlyDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducci\u00f3n por persona mayor/discapacidad</span><span>-' + fmt(elderlyDeduction) + '</span></div>';
-            if (medicalDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducci\u00f3n por gastos m\u00e9dicos (exceso sobre 3%)</span><span>-' + fmt(medicalDeduction) + '</span></div>';
-            if (childcareDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducci\u00f3n por cuidado infantil</span><span>-' + fmt(childcareDeduction) + '</span></div>';
+            if (depDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por dependientes (' + deps + ' x $480)</span><span>-' + fmt(depDeduction) + '</span></div>';
+            if (elderlyDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por persona mayor/discapacidad</span><span>-' + fmt(elderlyDeduction) + '</span></div>';
+            if (medicalDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por gastos médicos (exceso sobre 3%)</span><span>-' + fmt(medicalDeduction) + '</span></div>';
+            if (childcareDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por cuidado infantil</span><span>-' + fmt(childcareDeduction) + '</span></div>';
             html += '<div class="kyn-calc-step"><span>Ingreso Anual Ajustado</span><span>' + fmt(adjustedIncome) + '</span></div>';
             html += '<div class="kyn-calc-step"><span>30% del Ingreso Ajustado (anual)</span><span>' + fmt(ttp) + '</span></div>';
             html += '<div class="kyn-calc-step total"><span>Su Renta Mensual Estimada (TTP)</span><span>' + fmt(monthlyTTP) + '/mes</span></div>';
@@ -283,11 +283,11 @@
             const housingPct = monthlyIncome > 0 ? Math.min(100, (monthlyTTP / monthlyIncome) * 100) : 0;
             html += '<p style="margin-top:16px;font-size:0.95rem;">Eso es aproximadamente <strong>' + Math.round(housingPct) + '%</strong> de su ingreso bruto destinado a renta.</p>';
             html += '<div class="kyn-bar-wrap"><div class="kyn-bar" style="width:' + housingPct + '%;background:' + (housingPct <= 30 ? '#4caf50' : housingPct <= 40 ? '#ff9800' : '#f44336') + ';"></div></div>';
-            html += '<div class="kyn-bar-label">0% \u2014 ' + Math.round(housingPct) + '% del ingreso \u2192 vivienda \u2014 100%</div>';
+            html += '<div class="kyn-bar-label">0% — ' + Math.round(housingPct) + '% del ingreso → vivienda — 100%</div>';
 
             document.getElementById('rentCalc').innerHTML = html;
 
-            // --- Estado de L\u00edmite de Ingresos ---
+            // --- Estado de Límite de Ingresos ---
             const factor = sizeFactors[hhSize] || 1;
             const eli = baseAMI * 0.30 * factor;
             const vli = baseAMI * 0.50 * factor;
@@ -297,15 +297,15 @@
             if (annualIncome <= eli) { catLabel = 'Ingresos Extremadamente Bajos (menor al 30% AMI)'; catClass = 'kyn-cat-eli'; }
             else if (annualIncome <= vli) { catLabel = 'Ingresos Muy Bajos (30-50% AMI)'; catClass = 'kyn-cat-vli'; }
             else if (annualIncome <= li) { catLabel = 'Ingresos Bajos (50-80% AMI)'; catClass = 'kyn-cat-li'; }
-            else { catLabel = 'Por Encima de los L\u00edmites de Ingresos Bajos'; catClass = 'kyn-cat-above'; }
+            else { catLabel = 'Por Encima de los Límites de Ingresos Bajos'; catClass = 'kyn-cat-above'; }
 
             let incHtml = '<div class="kyn-income-cat ' + catClass + '">' + catLabel + '</div>';
             incHtml += '<p style="font-size:0.95rem;">Para un hogar de ' + hhSize + ', los estimados nacionales son:</p>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Extremadamente Bajos (30% AMI)</span><span>Menos de ' + fmt(eli) + '/a\u00f1o</span></div>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Muy Bajos (50% AMI)</span><span>Menos de ' + fmt(vli) + '/a\u00f1o</span></div>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Bajos (80% AMI)</span><span>Menos de ' + fmt(li) + '/a\u00f1o</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Extremadamente Bajos (30% AMI)</span><span>Menos de ' + fmt(eli) + '/año</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Muy Bajos (50% AMI)</span><span>Menos de ' + fmt(vli) + '/año</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Bajos (80% AMI)</span><span>Menos de ' + fmt(li) + '/año</span></div>';
             incHtml += '<div class="kyn-calc-step"><span>Su ingreso anual</span><span><strong>' + fmt(annualIncome) + '</strong></span></div>';
-            incHtml += '<p style="font-size:0.85rem;color:var(--color-text-light);margin-top:12px;">Nota: Los l\u00edmites de ingresos reales var\u00edan significativamente por condado. Estos son estimados nacionales. Consulte con su PHA local para los l\u00edmites exactos.</p>';
+            incHtml += '<p style="font-size:0.85rem;color:var(--color-text-light);margin-top:12px;">Nota: Los límites de ingresos reales varían significativamente por condado. Estos son estimados nacionales. Consulte con su PHA local para los límites exactos.</p>';
 
             document.getElementById('incomeStatus').innerHTML = incHtml;
 
@@ -319,19 +319,19 @@
 
             function progRow(name, status, note) {
                 const dotClass = status === 'likely' ? 'kyn-dot-green' : status === 'possible' ? 'kyn-dot-yellow' : status === 'check' ? 'kyn-dot-gray' : 'kyn-dot-red';
-                const label = status === 'likely' ? 'Probablemente elegible' : status === 'possible' ? 'Podr\u00eda calificar' : status === 'check' ? 'Verifique requisitos' : 'Poco probable';
+                const label = status === 'likely' ? 'Probablemente elegible' : status === 'possible' ? 'Podría calificar' : status === 'check' ? 'Verifique requisitos' : 'Poco probable';
                 return '<div class="kyn-program-row"><div><strong>' + name + '</strong><br><span style="font-size:0.85rem;color:var(--color-text-light);">' + (note || '') + '</span></div><div><span class="kyn-dot ' + dotClass + '"></span>' + label + '</div></div>';
             }
 
             let progHtml = '';
-            progHtml += progRow('Sección 8 (Housing Choice Voucher)', isBelowVLI ? 'likely' : isBelowLI ? 'possible' : 'unlikely', 'El ingreso debe estar por debajo del 50% AMI (la mayor\u00eda de las PHAs)');
-            progHtml += progRow('Vivienda P\u00fablica', isBelowLI ? 'likely' : 'unlikely', 'El ingreso debe estar por debajo del 80% AMI');
-            progHtml += progRow('LIHTC (Vivienda con Cr\u00e9dito Fiscal)', isBelowLI ? 'likely' : 'unlikely', 'T\u00edpicamente 60% AMI o menos, no necesita voucher');
+            progHtml += progRow('Sección 8 (Housing Choice Voucher)', isBelowVLI ? 'likely' : isBelowLI ? 'possible' : 'unlikely', 'El ingreso debe estar por debajo del 50% AMI (la mayoría de las PHAs)');
+            progHtml += progRow('Vivienda Pública', isBelowLI ? 'likely' : 'unlikely', 'El ingreso debe estar por debajo del 80% AMI');
+            progHtml += progRow('LIHTC (Vivienda con Crédito Fiscal)', isBelowLI ? 'likely' : 'unlikely', 'Típicamente 60% AMI o menos, no necesita voucher');
             progHtml += progRow('Sección 811', isElderlyDisabled && isBelowELI ? 'likely' : isElderlyDisabled && isBelowVLI ? 'possible' : 'check', 'Para adultos no mayores con discapacidades');
             progHtml += progRow('Section 202', isElderlyDisabled && isBelowVLI ? 'likely' : 'check', 'Para personas mayores de 62+');
-            progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requiere estatus de veterano \u2014 referido a trav\u00e9s del VA');
+            progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requiere estatus de veterano — referido a través del VA');
             progHtml += progRow('SNAP (Cupones de Alimentos)', isBelowFPL130 ? 'likely' : 'possible', 'Generalmente por debajo del 130% del Nivel Federal de Pobreza');
-            progHtml += progRow('Medicaid', isBelowFPL138 ? 'likely' : 'possible', 'Generalmente por debajo del 138% FPL en estados con expansi\u00f3n');
+            progHtml += progRow('Medicaid', isBelowFPL138 ? 'likely' : 'possible', 'Generalmente por debajo del 138% FPL en estados con expansión');
 
             document.getElementById('programList').innerHTML = progHtml;
 
@@ -351,4 +351,4 @@
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#e67e22;"></span>Servicios: ' + fmt(utilitiesMonthly) + '</span>';
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#3498db;"></span>Restante: ' + fmt(remaining) + '</span>';
             budgetHtml += '</div>';
-            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Despu\u00e9s de la renta estimada y los servicios p\u00fablicos, le quedar\u00edan aproximadamente
+            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Después de la renta estimada y los servicios públicos, le quedarían aproximadamente
