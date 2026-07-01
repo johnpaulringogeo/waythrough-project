@@ -1840,12 +1840,14 @@
                     meta: 'Rights'
                 });
 
-                focused.push({
-                    title: 'Was the Notice Unfair? Know Your Fair Housing Rights',
-                    link: 'guides/how-to-file-housing-discrimination-complaint.html',
-                    description: 'If the real reason may be your race, family, national origin, or disability — not what the notice claims — that can be illegal discrimination. Here’s how to document it and file a free complaint.',
-                    meta: 'Fair Housing • Rights'
-                });
+                if ((a['about-you'] || []).indexOf('family') === -1 && (a['about-you'] || []).indexOf('immigrant') === -1) {
+                    focused.push({
+                        title: 'Was the Notice Unfair? Know Your Fair Housing Rights',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        description: 'If the real reason may be your race, family, national origin, or disability — not what the notice claims — that can be illegal discrimination. Here’s how to document it and file a free complaint.',
+                        meta: 'Fair Housing • Rights'
+                    });
+                }
 
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
@@ -1913,7 +1915,7 @@
                 if (aboutYou.indexOf('family') !== -1) {
                     focused.push({
                         title: 'Families Can’t Be Pushed Out Unfairly',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html#familial-status',
                         description: 'Refusing or evicting families because they have children — or enforcing rules only against them — is familial-status discrimination under the Fair Housing Act. Document it and file a free complaint.',
                         meta: 'Families • Fair Housing'
                     });
@@ -1927,7 +1929,7 @@
                 if (aboutYou.indexOf('immigrant') !== -1) {
                     focused.push({
                         title: 'Your Rights Apply Regardless of Immigration Status',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        link: 'guides/how-to-file-housing-discrimination-complaint.html#immigrants',
                         description: 'Tenant and fair-housing protections cover you whatever your immigration status, and national-origin discrimination is illegal. You can also ask for a free interpreter when you seek help.',
                         meta: 'Immigrants • Rights'
                     });
