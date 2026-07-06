@@ -1,0 +1,40 @@
+{
+  "slug": "new-york-nycha",
+  "kind": "authority",
+  "name": "New York City Housing Authority (NYCHA)",
+  "short_name": "NYCHA",
+  "city": "New York City",
+  "state": "NY",
+  "serves": "New York City (all five boroughs)",
+  "phone": "(718) 707-7771",
+  "official_url": "https://www.nyc.gov/site/nycha/index.page",
+  "apply_url": "https://www.nyc.gov/site/nycha/index.page",
+  "city_slug": "new-york",
+  "state_slug": "new-york",
+  "updated": "May 2026",
+  "intro": "The New York City Housing Authority (NYCHA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers and public housing for New York City — the largest public housing authority in North America. A separate agency, the NYC Department of Housing Preservation and Development (HPD), administers its own set of Section 8 vouchers. This page summarizes NYCHA's current waiting-list status, contact information, and how to apply, and links to the official site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing",
+    "HUD-VASH (for veterans)",
+    "Family Unification Program (FUP)",
+    "Emergency Housing Vouchers"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed / paused", "note": "The list was closed from 2009, reopened briefly by lottery in 2024, and as of August 1, 2025 NYCHA paused voucher issuance and processing for applicants on the general HCV waiting list."},
+    {"program": "Public Housing", "status": "Separate NYCHA waiting list", "note": "Check the official NYCHA site for the current status of the public-housing application."},
+    {"program": "Specialty referrals (HUD-VASH, FUP, EHV)", "status": "Accepted by referral", "note": "Accessed through partner agencies and the VA rather than open registration."}
+  ],
+  "also_serving": [
+    "The <strong>NYC Department of Housing Preservation and Development (HPD)</strong> separately administers roughly 30,000 Section 8 vouchers tied to specific affordable developments — you apply property-by-property through <strong>NYC Housing Connect</strong> (housingconnect.nyc.gov)."
+  ],
+  "faqs": [
+    {"q": "Is the NYC (NYCHA) Section 8 waiting list open?", "a": "No. NYCHA's Housing Choice Voucher waiting list has been closed since 2009. It reopened briefly by lottery in 2024, and as of August 1, 2025 NYCHA paused voucher issuance and processing for applicants on the general HCV waiting list. Confirm the current status on the official NYCHA site before relying on it."},
+    {"q": "What is the difference between NYCHA and HPD Section 8?", "a": "NYCHA and the NYC Department of Housing Preservation and Development (HPD) run separate Section 8 programs. NYCHA administers the larger tenant-based voucher program (currently closed/paused). HPD administers roughly 30,000 vouchers tied to specific affordable housing developments — you apply property-by-property through NYC Housing Connect at housingconnect.nyc.gov."},
+    {"q": "How can I apply for affordable housing in NYC right now?", "a": "With NYCHA's Section 8 list closed, the most active path is NYC Housing Connect (housingconnect.nyc.gov), where you can apply to HPD- and city-funded affordable apartments by lottery. Veterans may qualify for HUD-VASH, and NYCHA public-housing applications may be available separately — check the official NYCHA site."}
+  ],
+  "sources": [
+    {"label": "NYCHA — official website", "url": "https://www.nyc.gov/site/nycha/index.page"},
+    {"label": "NYC Housing Connect (HPD)", "url": "https://housingconnect.nyc.gov/"}
+  ]
+}

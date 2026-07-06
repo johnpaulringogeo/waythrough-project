@@ -1,0 +1,42 @@
+{
+  "slug": "chicago-cha",
+  "kind": "authority",
+  "name": "Chicago Housing Authority (CHA)",
+  "short_name": "CHA",
+  "city": "Chicago",
+  "state": "IL",
+  "serves": "the City of Chicago, Illinois",
+  "phone": "(312) 935-1777",
+  "official_url": "https://www.thecha.org/",
+  "apply_url": "https://applyonline.thecha.org/",
+  "city_slug": "chicago",
+  "state_slug": "illinois",
+  "updated": "May 2026",
+  "intro": "The Chicago Housing Authority (CHA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, Project-Based Vouchers, and public housing for the City of Chicago — the second-largest housing authority in the country. This page summarizes CHA's current waiting-list status, contact information, and how to apply, and links to the official CHA site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Project-Based Vouchers (PBV)",
+    "Public Housing",
+    "HUD-VASH (for veterans)",
+    "Family Unification Program (FUP)",
+    "Emergency Housing Vouchers and Mainstream vouchers"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "The general HCV waiting list closed in 2008 and has not reopened; more than 16,000 households remain on it."},
+    {"program": "Project-Based Vouchers (PBV)", "status": "Rolling, property-by-property", "note": "CHA operates separate PBV waiting lists for specific developments — apply through the online portal below."},
+    {"program": "Public Housing", "status": "Partially open", "note": "Certain senior and family developments accept applications — check the online portal for current openings."},
+    {"program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)", "status": "Accepted by referral", "note": "Accessed through partner agencies rather than open public registration."}
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of Cook County (HACC)</strong> serves suburban Cook County outside the City of Chicago, with its own separate waiting lists."
+  ],
+  "faqs": [
+    {"q": "Is the Chicago (CHA) Section 8 waiting list open?", "a": "No. The Chicago Housing Authority's general Housing Choice Voucher (Section 8) waiting list has been closed since 2008 and has not reopened; more than 16,000 households remain on it. CHA does operate rolling Project-Based Voucher waiting lists for specific developments, and certain public-housing developments accept applications — check applyonline.thecha.org for current openings and confirm before relying on any status."},
+    {"q": "How do I apply for CHA housing right now?", "a": "Because the general Section 8 list is closed, the realistic paths are CHA's property-specific Project-Based Voucher waiting lists and public-housing developments that are currently open, both through applyonline.thecha.org. Veterans may qualify for HUD-VASH, and families in the child-welfare system may qualify for the Family Unification Program by referral."},
+    {"q": "Who serves the Chicago suburbs?", "a": "The Housing Authority of Cook County (HACC) administers Section 8 and public housing for suburban Cook County outside the City of Chicago, and runs its own separate waiting lists. Neighboring counties have their own authorities as well."}
+  ],
+  "sources": [
+    {"label": "CHA — official website", "url": "https://www.thecha.org/"},
+    {"label": "CHA — apply online portal", "url": "https://applyonline.thecha.org/"}
+  ]
+}
