@@ -61,6 +61,24 @@
 /es/guias/como-solicitar-acomodacion-razonable.html /es/recursos/guias/como-solicitar-acomodacion-razonable 301
 /es/guias/entendiendo-avisos-del-propietario.html  /es/recursos/guias/entendiendo-avisos-del-propietario   301
 
+# --- Broken internal ES guide slugs (wrong/old slug used in links) -> correct guide (added 2026-07-06) ---
+/es/recursos/guias/como-aplicar-seccion-8             /es/recursos/guias/como-solicitar-seccion-8           301
+/es/recursos/guias/como-aplicar-ssi-ssdi              /es/recursos/guias/como-solicitar-ssi-ssdi            301
+/es/recursos/guias/entendiendo-su-contrato            /es/recursos/guias/entendiendo-tu-contrato            301
+/es/recursos/guias/como-transferir-voucher            /es/recursos/guias/como-transferir-cupon              301
+/es/recursos/guias/source-of-income-protections       /es/recursos/guias/protecciones-fuente-ingreso        301
+/es/recursos/guias/estandares-de-pago-section-8       /es/recursos/guias/estandares-pago-seccion-8          301
+/es/recursos/guias/lista-de-espera-abierta-encontrada /es/recursos/guias/encontraste-lista-espera-abierta   301
+/es/recursos/guias/encontro-lista-espera-abierta      /es/recursos/guias/encontraste-lista-espera-abierta   301
+/es/recursos/guias/entendiendo-avisos-del-arrendador  /es/recursos/guias/entendiendo-avisos-del-propietario 301
+/es/recursos/guias/que-hacer-cuando-pierde-su-empleo  /es/recursos/guias/que-hacer-si-pierdes-tu-empleo     301
+/es/recursos/guias/como-se-calcula-el-alquiler        /es/recursos/guias/como-se-calcula-la-renta           301
+/es/recursos/derechos-inquilinos                      /es/recursos/derechos-del-inquilino                   301
+
+# --- Path-bug catch-alls (double /es/es/ and /es/resources/ leakage from bad relative links) ---
+/es/es/*         /es/:splat         301
+/es/resources/*  /resources/:splat  301
+
 # --- Spanish guides: old /es/guias/<slug> -> /es/recursos/guias/<slug> (same-slug moves; catch-all) ---
 /es/guias/*  /es/recursos/guias/:splat  301
 

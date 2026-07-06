@@ -481,6 +481,7 @@ function renderFooter() {
                     <ul>
                         <li><a href="${root}es/recursos/">Recursos</a></li>
                         <li><a href="${root}es/recursos/beneficios">Beneficios</a></li>
+                        <li><a href="${root}es/recursos/ciudades/">Ciudades</a></li>
                         <li><a href="${root}es/recursos/derechos-del-inquilino">Derechos del Inquilino</a></li>
                         <li><a href="${root}es/recursos/vivienda-de-emergencia">Vivienda de Emergencia</a></li>
                     </ul>
@@ -547,6 +548,7 @@ function renderFooter() {
                         <li><a href="${root}resources/guides/document-checklist">Document Checklist</a></li>
                         <li><a href="${root}resources/tools/eligibility-screener">Eligibility Screener</a></li>
                         <li><a href="${root}resources/states/">State Resources</a></li>
+                        <li><a href="${root}resources/cities/">City Guides</a></li>
                         <li><a href="${root}resources/templates/">Letter Templates</a></li>
                     </ul>
                 </div>
@@ -687,6 +689,80 @@ function addTableOfContents() {
 }
 
 
+// ── GA4 Event Tracking ──
+// Fires gtag events for the meaningful actions on a resource site so they can
+// be marked as key events in GA4 (Admin → Events). Safe no-op if gtag is absent.
+function initAnalyticsTracking() {
+    if (typeof gtag !== 'function') return;
+    const siteHost = window.location.hostname;
+
+    // Delegated click tracking: outbound links, downloads, phone, email.
+    document.addEventListener('click', function (e) {
+        const link = e.target.closest('a[href]');
+        if (!link) return;
+        const href = link.getAttribute('href') || '';
+        const linkText = (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 100);
+
+        // Phone / email → contact_click (a key "reached out" action)
+        if (/^tel:/i.test(href)) {
+            gtag('event', 'contact_click', { method: 'phone', contact: href.replace(/^tel:/i, ''), link_text: linkText });
+            return;
+        }
+        if (/^mailto:/i.test(href)) {
+            gtag('event', 'contact_click', { method: 'email', contact: href.replace(/^mailto:/i, ''), link_text: linkText });
+            return;
+        }
+
+        // File downloads (checklists, printables, templates)
+        if (/\.(pdf|docx?|xlsx?|pptx?|zip|csv)($|\?|#)/i.test(href)) {
+            const fileName = href.split('#')[0].split('?')[0].split('/').pop();
+            gtag('event', 'file_download', {
+                file_name: fileName,
+                file_extension: (fileName.split('.').pop() || '').toLowerCase(),
+                link_text: linkText
+            });
+            return;
+        }
+
+        // Outbound links — especially clicks through to official/authority sites
+        if (/^https?:\/\//i.test(href)) {
+            let linkHost;
+            try { linkHost = new URL(href).hostname; } catch (_) { return; }
+            if (linkHost && linkHost !== siteHost) {
+                gtag('event', 'outbound_click', {
+                    link_url: href,
+                    link_domain: linkHost,
+                    link_text: linkText,
+                    // .gov ≈ a housing authority / official resource: the core success action
+                    is_authority: /(^|\.)gov(\.|$)/i.test(linkHost)
+                });
+            }
+        }
+    }, { passive: true });
+
+    // Scroll depth — fire once each at 50% and 90% to measure content engagement.
+    const fired = {};
+    function checkScrollDepth() {
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        if (scrollable <= 0) return;
+        const pct = (window.scrollY / scrollable) * 100;
+        [50, 90].forEach(function (threshold) {
+            if (pct >= threshold && !fired[threshold]) {
+                fired[threshold] = true;
+                gtag('event', 'scroll_depth', { percent_scrolled: threshold });
+            }
+        });
+        if (fired[50] && fired[90]) window.removeEventListener('scroll', onScroll);
+    }
+    let ticking = false;
+    function onScroll() {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(function () { checkScrollDepth(); ticking = false; });
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+}
+
 // ── Initialize shared behaviors ──
 function initShared() {
     // Prefetch search index in background
@@ -724,6 +800,7 @@ function initShared() {
     renderBackToTop();
     addReadingTime();
     addTableOfContents();
+    initAnalyticsTracking();
 
     // Fix anchor scroll for fixed nav
     function scrollToHash(hash) {
@@ -782,3 +859,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     initShared();
 });
+// build v31 — GA4 event tracking added (outbound_click, file_download, contact_click, scroll_depth)
