@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>How Self-Employment Income Works on Section 8</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-and-self-employment</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-and-self-employment</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Self-employment income on Section 8 is calculated differently than wages. Here's what counts, what you can deduct, and how to document your income at recertification.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Can You Get Section 8 With a Criminal Record?</title>
