@@ -189,6 +189,7 @@
         </div>
 
         <div class="kyn-results" id="results" aria-live="polite" aria-atomic="false">
+            <p style="text-align:center;font-size:0.85rem;color:var(--color-text-light);margin:0 0 16px;"><strong>Datos de 2026</strong> — actualizado julio 2026</p>
             <div class="kyn-panel" id="panelRent">
                 <h2>Su Renta Estimada Bajo Sección 8</h2>
                 <div id="rentCalc"></div>
@@ -235,9 +236,15 @@
 
         document.getElementById('calcBtn').addEventListener('click', calculate);
 
-        const baseAMI = 98000;
+        // National median family income basis for a 4-person household — FY2026 HUD estimate.
+        // Source: HUD FY2026 Estimated Median Family Incomes (issued May 1, 2026),
+        // https://www.huduser.gov/portal/datasets/il/il26/Medians-FY26-Notice.pdf
+        const baseAMI = 106800; // FY2026 U.S. national median family income
         const sizeFactors = { 1: 0.70, 2: 0.80, 3: 0.90, 4: 1.00, 5: 1.08, 6: 1.16, 7: 1.24, 8: 1.32 };
-        const fpl = { 1: 15060, 2: 20440, 3: 25820, 4: 31200, 5: 36580, 6: 41960, 7: 47340, 8: 52720 };
+
+        // 2026 HHS Federal Poverty Guidelines (annual, 48 contiguous states + DC), effective Jan 13, 2026.
+        // Source: HHS/ASPE, https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines
+        const fpl = { 1: 15960, 2: 21640, 3: 27320, 4: 33000, 5: 38680, 6: 44360, 7: 50040, 8: 55720 };
 
         function fmt(n) { return '$' + Math.round(n).toLocaleString(); }
 
@@ -310,7 +317,7 @@
             document.getElementById('incomeStatus').innerHTML = incHtml;
 
             // --- Elegibilidad para Programas ---
-            const fplAnnual = fpl[hhSize] || 31200;
+            const fplAnnual = fpl[hhSize] || 33000;
             const isBelowVLI = annualIncome <= vli;
             const isBelowLI = annualIncome <= li;
             const isBelowELI = annualIncome <= eli;

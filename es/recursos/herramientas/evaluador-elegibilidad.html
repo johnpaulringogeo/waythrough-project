@@ -235,6 +235,7 @@
                             <div class="results-grid" id="results-grid"></div>
                         </div>
                         <div class="disclaimer-box">
+                            <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">Datos de 2026 — actualizado julio 2026</p>
                             <strong>Importante:</strong> Estos son estimados nacionales aproximados. Los límites de ingresos reales varían significativamente según la ubicación — su Autoridad de Vivienda Pública (PHA) local establece los umbrales exactos para su área según el Ingreso Medio del Área (AMI). Use <a href="estimador-renta">nuestra herramienta de búsqueda de renta</a> o contacte a su <a href="../guias/como-encontrar-tu-pha">PHA local</a> para obtener números exactos.
                         </div>
                         <div class="step-nav" style="margin-top: 1.5rem;">
@@ -275,7 +276,11 @@
         const totalSteps = 3;
         const answers = { veteran: null, disability: null, homeless: null, dv: null, children: null };
 
-        const veryLowIncome = { 1: 32000, 2: 36500, 3: 41000, 4: 45600, 5: 49250, 6: 52900, 7: 56550, 8: 60200 };
+        // Rough national income limits (annual) by household size — ~50% of the FY2026 HUD
+        // national median family income ($106,800), scaled by HUD household-size factors.
+        // Actual limits vary widely by area. Source: HUD FY2026 median family incomes,
+        // https://www.huduser.gov/portal/datasets/il/il26/Medians-FY26-Notice.pdf
+        const veryLowIncome = { 1: 37380, 2: 42720, 3: 48060, 4: 53400, 5: 57672, 6: 61944, 7: 66216, 8: 70488 };
         const extremelyLowIncome = {};
         const lowIncome60 = {};
         for (let i = 1; i <= 8; i++) {

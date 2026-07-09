@@ -908,7 +908,7 @@
                     <ul class="tips-list">
                         <li><strong>Section 8 rent:</strong> You typically pay 30% of your adjusted income, with deductions for dependents and elderly/disabled household members</li>
                         <li><strong>SNAP and shelter:</strong> When Section 8 lowers your rent, your SNAP benefit may decrease because shelter costs are counted against you</li>
-                        <li><strong>SSI limits:</strong> SSI has strict income limits ($967/month federally) and counts many income sources, but SSDI is more generous</li>
+                        <li><strong>SSI limits:</strong> SSI has strict income limits ($994/month federally) and counts many income sources, but SSDI is more generous</li>
                         <li><strong>Medicaid varies:</strong> Each state is different. Most states cover you if income is below 100–138% of the federal poverty line</li>
                         <li><strong>Work incentives:</strong> Some programs have work incentives, student exclusions, or blind/disabled work expenses that can help you earn more</li>
                         <li><strong>Earning more is worth it:</strong> Use the income slider to see—you almost always come out ahead when you earn more, even if some benefits go down</li>
@@ -917,7 +917,8 @@
 
                 <!-- Disclaimer -->
                 <div class="disclaimer">
-                    <p><strong>Important:</strong> These are estimates based on 2024 federal guidelines. Actual benefit amounts vary widely by:</p>
+                    <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">2026 data — updated July 2026</p>
+                    <p><strong>Important:</strong> These are estimates based on 2026 federal guidelines. Actual benefit amounts vary widely by:</p>
                     <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
                         <li>Your state or local area (rules differ significantly)</li>
                         <li>Details of your situation (assets, expenses, dependents, disabilities, student status)</li>
@@ -942,32 +943,37 @@
     </main>
 
     <script>
-        // ===== Federal Poverty Level (2024) =====
+        // ===== Federal Poverty Level — 2026 HHS Poverty Guidelines (monthly, 48 states + DC) =====
+        // Annual guideline ÷ 12, effective Jan 13, 2026. Source: HHS/ASPE,
+        // https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines
         const FPL = {
-            1: 1255,
-            2: 1703,
-            3: 2152,
-            4: 2600,
-            5: 3048,
-            6: 3496,
-            7: 3944,
-            8: 4392
+            1: 1330,
+            2: 1803,
+            3: 2277,
+            4: 2750,
+            5: 3223,
+            6: 3697,
+            7: 4170,
+            8: 4643
         };
 
-        // SNAP max allotments
+        // SNAP maximum monthly allotments — FY2026 (48 States + DC), effective Oct 1, 2025.
+        // Source: USDA FNS FY2026 SNAP COLA memo,
+        // https://www.usda.gov/sites/default/files/guidance-documents/fns.snap-cola-fy26memo.pdf
         const SNAP_ALLOTMENTS = {
-            1: 291,
-            2: 535,
-            3: 766,
-            4: 973,
-            5: 1155,
-            6: 1386,
-            7: 1532,
-            8: 1750
+            1: 298,
+            2: 546,
+            3: 785,
+            4: 994,
+            5: 1183,
+            6: 1421,
+            7: 1571,
+            8: 1789
         };
 
-        // SSI federal rate 2025
-        const SSI_RATE = 967;
+        // SSI federal benefit rate — 2026 individual rate (2.8% COLA effective Jan 2026).
+        // Source: SSA, https://www.ssa.gov/oact/cola/SSI.html
+        const SSI_RATE = 994;
 
         // Get form elements
         const householdSizeInput = document.getElementById('household-size');
@@ -1355,16 +1361,4 @@
 
                 comparisonInfo.style.display = 'flex';
                 comparisonText.innerHTML = `
-                    You'd have an extra ${formatCurrency(netIncrease)} from wages. Your benefits would change by ${benefitsChange < 0 ? `−${formatCurrency(Math.abs(benefitsChange))}` : `+${formatCurrency(benefitsChange)}`},
-                    but your total available would increase by <strong>${formatCurrency(totalNetChange)}</strong>. You're always better off earning more.
-                `;
-            } else {
-                comparisonInfo.style.display = 'none';
-            }
-        }
-
-        // Event listeners
-        householdSizeInput.addEventListener('change', renderResults);
-        householdSizeInput.addEventListener('change', renderChart);
-        grossIncomeInput.addEventListener('input', renderResults);
-        grossIncomeInput.addEventListener('input', 
+                    You'd have an extra ${formatCurrency(netIncrease)} from wages. Your benefits would c
