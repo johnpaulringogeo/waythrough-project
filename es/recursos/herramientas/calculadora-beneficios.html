@@ -1003,7 +1003,7 @@
             return (income / fpl) * 100;
         }
 
-        // Calculate Sección 8 rent
+        // Calculate Section 8 rent
         function calcSection8Rent(income, householdSize) {
             // Standard deductions
             const dependentDeduction = 480;
@@ -1141,11 +1141,11 @@
 
             const cards = [];
 
-            // Sección 8
+            // Section 8
             if (results.selected.section8) {
-                const eligible = results.section8Eligible && results.income < 3500; // Rough Sección 8 limit
+                const eligible = results.section8Eligible && results.income < 3500; // Rough Section 8 limit
                 cards.push({
-                    title: 'Voucher de Vivienda Sección 8',
+                    title: 'Voucher de Vivienda Section 8',
                     amount: results.section8Rent,
                     eligible: eligible,
                     note: eligible
@@ -1158,8 +1158,8 @@
                         <div class="warning-box">
                             <div class="warning-icon">⚠️</div>
                             <div class="warning-content">
-                                <div class="warning-title">Sección 8 affects your SNAP</div>
-                                <p class="warning-text">When Sección 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
+                                <div class="warning-title">Section 8 affects your SNAP</div>
+                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
                             </div>
                         </div>
                     `;
@@ -1361,4 +1361,19 @@
         householdSizeInput.addEventListener('change', renderResults);
         householdSizeInput.addEventListener('change', renderChart);
         grossIncomeInput.addEventListener('input', renderResults);
-        gross
+        grossIncomeInput.addEventListener('input', renderChart);
+
+        Object.values(benefitCheckboxes).forEach(checkbox => {
+            checkbox.addEventListener('change', renderResults);
+            checkbox.addEventListener('change', renderChart);
+        });
+
+        incomeSlider.addEventListener('input', renderChart);
+
+        // Initial render
+        renderResults();
+        renderChart();
+    </script>
+</body>
+
+</html>

@@ -1361,4 +1361,31 @@
 
                 comparisonInfo.style.display = 'flex';
                 comparisonText.innerHTML = `
-                    You'd have an extra ${formatCurrency(netIncrease)} from wages. Your benefits would c
+                    You'd have an extra ${formatCurrency(netIncrease)} from wages. Your benefits would change by ${benefitsChange < 0 ? `−${formatCurrency(Math.abs(benefitsChange))}` : `+${formatCurrency(benefitsChange)}`},
+                    but your total available would increase by <strong>${formatCurrency(totalNetChange)}</strong>. You're always better off earning more.
+                `;
+            } else {
+                comparisonInfo.style.display = 'none';
+            }
+        }
+
+        // Event listeners
+        householdSizeInput.addEventListener('change', renderResults);
+        householdSizeInput.addEventListener('change', renderChart);
+        grossIncomeInput.addEventListener('input', renderResults);
+        grossIncomeInput.addEventListener('input', renderChart);
+
+        Object.values(benefitCheckboxes).forEach(checkbox => {
+            checkbox.addEventListener('change', renderResults);
+            checkbox.addEventListener('change', renderChart);
+        });
+
+        incomeSlider.addEventListener('input', renderChart);
+
+        // Initial render
+        renderResults();
+        renderChart();
+    </script>
+</body>
+
+</html>

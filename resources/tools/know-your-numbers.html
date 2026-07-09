@@ -325,4 +325,19 @@
             budgetHtml += '<div style="width:' + remPct + '%;background:#3498db;">' + Math.round(remPct) + '%</div>';
             budgetHtml += '</div>';
             budgetHtml += '<div class="kyn-budget-legend">';
-     
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#2a644b;"></span>Rent: ' + fmt(monthlyTTP) + '</span>';
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#e67e22;"></span>Utilities: ' + fmt(utilitiesMonthly) + '</span>';
+            budgetHtml += '<span><span class="kyn-legend-dot" style="background:#3498db;"></span>Remaining: ' + fmt(remaining) + '</span>';
+            budgetHtml += '</div>';
+            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">After estimated rent and utilities, you\'d have about <strong>' + fmt(remaining) + '/month</strong> for food, transportation, healthcare, and other expenses.</p>';
+
+            document.getElementById('budgetChart').innerHTML = budgetHtml;
+
+            // Show results
+            document.getElementById('results').classList.add('visible');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    })();
+    </script>
+</body>
+</html>

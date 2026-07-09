@@ -358,4 +358,14 @@
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#e67e22;"></span>Servicios: ' + fmt(utilitiesMonthly) + '</span>';
             budgetHtml += '<span><span class="kyn-legend-dot" style="background:#3498db;"></span>Restante: ' + fmt(remaining) + '</span>';
             budgetHtml += '</div>';
-            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Después de la renta estimada y los servicios públicos, le quedarían aproximadamente
+            budgetHtml += '<p style="margin-top:16px;font-size:0.95rem;">Despu\u00e9s de la renta estimada y los servicios p\u00fablicos, le quedar\u00edan aproximadamente <strong>' + fmt(remaining) + '/mes</strong> para alimentos, transporte, atenci\u00f3n m\u00e9dica y otros gastos.</p>';
+
+            document.getElementById('budgetChart').innerHTML = budgetHtml;
+
+            document.getElementById('results').classList.add('visible');
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    })();
+    </script>
+</body>
+</html>
