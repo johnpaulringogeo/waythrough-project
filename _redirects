@@ -88,3 +88,10 @@
 # --- Old HUD data endpoints (pre-/api/hud/ prefix) -> current proxy (fixes ghost 404s like /fmr/listStates) ---
 /fmr/*  /api/hud/fmr/:splat  301
 /il/*   /api/hud/il/:splat   301
+
+# --- 404 cleanup 2026-07-10: stale / mistyped URLs from GSC Not-Found report -> closest topical page ---
+# (apex paths; www is normalized to apex by functions/_middleware.js before these run)
+/es/recursos/vivienda-emergencia.html         /es/recursos/vivienda-de-emergencia             301
+/es/herramientas/rastreador-section-8.html    /es/recursos/herramientas/rastreador-section-8  301
+/es/credito-vivienda/                         /es/recursos/credito-vivienda                   301
+/es/estados/                                  /es/recursos/estados                            301
