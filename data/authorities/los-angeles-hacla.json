@@ -22,21 +22,106 @@
     "Mainstream and Foster Youth to Independence vouchers"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "The most recent opening used a lottery. As of January 1, 2026, HACLA moved to the Rent Café online portal — existing waiting-list members must use the new portal."},
-    {"program": "Public Housing", "status": "Separate waitlist managed by HACLA", "note": "Check the official site for current openings."},
-    {"program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)", "status": "Still accepted by referral", "note": "These are accessed through partner agencies and the Coordinated Entry System (CES), not open public registration."}
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "The most recent opening used a lottery. As of January 1, 2026, HACLA moved to the Rent Café online portal — existing waiting-list members must use the new portal."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Separate waitlist managed by HACLA",
+      "note": "Check the official site for current openings."
+    },
+    {
+      "program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+      "status": "Still accepted by referral",
+      "note": "These are accessed through partner agencies and the Coordinated Entry System (CES), not open public registration."
+    }
   ],
   "also_serving": [
     "<strong>Los Angeles County Development Authority (LACDA)</strong> serves unincorporated LA County and many contracting cities. Its voucher list is closed to public registration but continually accepts referrals from the Coordinated Entry System for households experiencing homelessness — call 211 to be screened.",
     "Other LA-area authorities with separate waiting lists: <strong>Long Beach</strong>, <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong>, and <strong>Pomona</strong>."
   ],
   "faqs": [
-    {"q": "Is the Los Angeles (HACLA) Section 8 waiting list open?", "a": "As of May 2026, HACLA's Housing Choice Voucher waiting list is closed; the most recent opening used a lottery. Starting January 1, 2026, HACLA moved to the Rent Café online portal, and existing waiting-list members must use the new portal. Confirm the current status on HACLA's official site before relying on it."},
-    {"q": "What is the difference between HACLA and LACDA?", "a": "HACLA serves the City of Los Angeles. The Los Angeles County Development Authority (LACDA) serves unincorporated LA County and many contracting cities. LACDA's list is closed to public registration but accepts referrals from the Coordinated Entry System (CES) for people experiencing homelessness — call 211 to be screened."},
-    {"q": "Can I still get a voucher if the list is closed?", "a": "Specialty vouchers are still accessible by referral even when the general list is closed: HUD-VASH for veterans, the Family Unification Program, Emergency Housing Vouchers, Mainstream vouchers, and Foster Youth to Independence vouchers. These come through partner agencies and CES rather than open registration."}
+    {
+      "q": "Is the Los Angeles (HACLA) Section 8 waiting list open?",
+      "a": "As of May 2026, HACLA's Housing Choice Voucher waiting list is closed; the most recent opening used a lottery. Starting January 1, 2026, HACLA moved to the Rent Café online portal, and existing waiting-list members must use the new portal. Confirm the current status on HACLA's official site before relying on it."
+    },
+    {
+      "q": "What is the difference between HACLA and LACDA?",
+      "a": "HACLA serves the City of Los Angeles. The Los Angeles County Development Authority (LACDA) serves unincorporated LA County and many contracting cities. LACDA's list is closed to public registration but accepts referrals from the Coordinated Entry System (CES) for people experiencing homelessness — call 211 to be screened."
+    },
+    {
+      "q": "Can I still get a voucher if the list is closed?",
+      "a": "Specialty vouchers are still accessible by referral even when the general list is closed: HUD-VASH for veterans, the Family Unification Program, Emergency Housing Vouchers, Mainstream vouchers, and Foster Youth to Independence vouchers. These come through partner agencies and CES rather than open registration."
+    }
   ],
   "sources": [
-    {"label": "HACLA — official website", "url": "https://www.hacla.org/"},
-    {"label": "LACDA — official website", "url": "https://www.lacda.org/"}
-  ]
+    {
+      "label": "HACLA — official website",
+      "url": "https://www.hacla.org/"
+    },
+    {
+      "label": "LACDA — official website",
+      "url": "https://www.lacda.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Los Ángeles, California",
+    "updated": "mayo de 2026",
+    "intro": "La Autoridad de Vivienda de la Ciudad de Los Ángeles (HACLA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Los Ángeles. Una autoridad separada, la Autoridad de Desarrollo del Condado de Los Ángeles (LACDA), sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. Esta página resume el estado actual de la lista de espera de HACLA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HACLA para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública",
+      "HUD-VASH (para veteranos)",
+      "Programa de Unificación Familiar (FUP)",
+      "Vales de Vivienda de Emergencia (EHV)",
+      "Vales Mainstream y Foster Youth to Independence"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "La apertura más reciente usó una lotería. A partir del 1 de enero de 2026, HACLA se cambió al portal en línea Rent Café — los miembros actuales de la lista de espera deben usar el nuevo portal."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Lista de espera separada administrada por HACLA",
+        "note": "Revise el sitio oficial para ver las aperturas actuales."
+      },
+      {
+        "program": "Referencias especializadas (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+        "status": "Aún se aceptan por referencia",
+        "note": "Se accede a través de agencias asociadas y del Sistema de Entrada Coordinada (CES), no por registro público abierto."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Desarrollo del Condado de Los Ángeles (LACDA)</strong> sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. Su lista de vales está cerrada al registro público, pero acepta continuamente referencias del Sistema de Entrada Coordinada para hogares sin vivienda — llame al 211 para ser evaluado.",
+      "Otras autoridades del área de Los Ángeles con listas de espera separadas: <strong>Long Beach</strong>, <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong> y <strong>Pomona</strong>."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Los Ángeles (HACLA)?",
+        "a": "A partir de mayo de 2026, la lista de espera del Housing Choice Voucher de HACLA está cerrada; la apertura más reciente usó una lotería. A partir del 1 de enero de 2026, HACLA se cambió al portal en línea Rent Café, y los miembros actuales de la lista de espera deben usar el nuevo portal. Confirme el estado actual en el sitio oficial de HACLA antes de confiar en él."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre HACLA y LACDA?",
+        "a": "HACLA sirve la ciudad de Los Ángeles. La Autoridad de Desarrollo del Condado de Los Ángeles (LACDA) sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. La lista de LACDA está cerrada al registro público, pero acepta referencias del Sistema de Entrada Coordinada (CES) para personas sin vivienda — llame al 211 para ser evaluado."
+      },
+      {
+        "q": "¿Puedo obtener un vale aunque la lista esté cerrada?",
+        "a": "Los vales especializados siguen siendo accesibles por referencia aun cuando la lista general está cerrada: HUD-VASH para veteranos, el Programa de Unificación Familiar, los Vales de Vivienda de Emergencia, los vales Mainstream y los vales Foster Youth to Independence. Estos llegan a través de agencias asociadas y del CES en lugar de un registro abierto."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HACLA — sitio web oficial",
+        "url": "https://www.hacla.org/"
+      },
+      {
+        "label": "LACDA — sitio web oficial",
+        "url": "https://www.lacda.org/"
+      }
+    ]
+  }
 }

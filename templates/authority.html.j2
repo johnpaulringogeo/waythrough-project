@@ -1,7 +1,10 @@
-{#- Housing-authority page template (English). Renders one authority from data/authorities/<slug>.json.
-    Caller passes: data, title, description, canonical_path, rel_prefix, breadcrumb_json, gov_json, faq_json -#}
+{#- Housing-authority page template (bilingual EN/ES). Renders one authority from
+    data/authorities/<slug>.json for a given language. The caller (generate_authority.py)
+    passes fully-built, language-specific strings so the template stays a thin shell.
+    Context: data, lang, t, title, description, canonical_path, alt_en_url, alt_es_url,
+    rel_prefix, home_href, resources_href, breadcrumb_json, gov_json, faq_json -#}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ0HKFH50D"></script>
@@ -29,6 +32,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href="https://waythroughproject.com{{ canonical_path }}">
+    <link rel="alternate" hreflang="en" href="{{ alt_en_url }}">
+    <link rel="alternate" hreflang="es" href="{{ alt_es_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ alt_en_url }}">
     <meta property="og:image" content="https://waythroughproject.com/images/og-default.png">
     <meta name="twitter:image" content="https://waythroughproject.com/images/og-default.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -49,54 +55,48 @@
 </head>
 <body>
     <main id="main-content">
-        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="{{ rel_prefix }}">Home</a><span class="sep">/</span><a href="{{ rel_prefix }}resources/">Resources</a><span class="sep">/</span><a href="./">Housing Authorities</a><span class="sep">/</span><span class="current">{{ data.short_name or data.name }}</span></div></nav>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><div class="container"><a href="{{ home_href }}">{{ t.home }}</a><span class="sep">/</span><a href="{{ resources_href }}">{{ t.resources }}</a><span class="sep">/</span><a href="./">{{ t.authorities }}</a><span class="sep">/</span><span class="current">{{ data.short_name or data.name }}</span></div></nav>
         <header class="page-header">
             <div class="container">
-                <span class="section-label">Housing Authority</span>
+                <span class="section-label">{{ t.section_label }}</span>
                 <h1>{{ data.name }}</h1>
-                <p class="page-meta">Serves {{ data.serves }} · Last checked {{ data.updated }}</p>
+                <p class="page-meta">{{ t.page_meta }}</p>
             </div>
         </header>
         <div class="container">
             <div class="post-content">
                 <div class="callout">
-                    <p><strong>Waythrough is an independent resource, not {{ data.short_name or data.name }}.</strong> We summarize public information to help you get oriented. For applications and the most current waiting-list status, always use the official links below.</p>
+                    <p>{{ t.independent_html }}</p>
                 </div>
 
                 <p>{{ data.intro }}</p>
 
                 <div class="callout">
-                    <h2 style="font-size:1.1rem;margin-top:0;">Quick Facts</h2>
-                    <p>
-                        <strong>Serves:</strong> {{ data.serves }}<br>
-                        <strong>Phone:</strong> <a href="tel:{{ data.phone | replace('(','') | replace(')','') | replace(' ','') | replace('-','') }}">{{ data.phone }}</a><br>
-                        <strong>Official site:</strong> <a href="{{ data.official_url }}" target="_blank" rel="noopener">{{ data.official_url | replace('https://','') | replace('http://','') }}</a><br>
-                        <strong>Apply:</strong> <a href="{{ data.apply_url }}" target="_blank" rel="noopener">{{ data.short_name or data.name }} application page</a><br>
-                        <strong>Status last checked:</strong> {{ data.updated }}
-                    </p>
+                    <h2 style="font-size:1.1rem;margin-top:0;">{{ t.quick_facts }}</h2>
+                    <p>{{ t.quick_facts_html }}</p>
                 </div>
 
-                <h2>Waiting-List Status</h2>
-                <p>Waiting lists open and close frequently, so treat the status below as a starting point and confirm on the official site before you rely on it.</p>
+                <h2>{{ t.waitlist_status }}</h2>
+                <p>{{ t.waitlist_intro }}</p>
                 <ul>
                     {%- for w in data.waitlists %}
                     <li><strong>{{ w.program }}:</strong> {{ w.status }}{% if w.note %} — {{ w.note }}{% endif %}</li>
                     {%- endfor %}
                 </ul>
 
-                <h2>Programs {{ data.short_name or data.name }} Runs</h2>
+                <h2>{{ t.programs_heading }}</h2>
                 <ul>
                     {%- for p in data.programs %}
                     <li>{{ p }}</li>
                     {%- endfor %}
                 </ul>
 
-                <h2>How to Apply</h2>
-                <p>Apply directly through the authority's official application page: <a href="{{ data.apply_url }}" target="_blank" rel="noopener">{{ data.apply_url | replace('https://','') | replace('http://','') }}</a>. If you have already applied, call <a href="tel:{{ data.phone | replace('(','') | replace(')','') | replace(' ','') | replace('-','') }}">{{ data.phone }}</a> to verify your position and keep your contact information current — if the authority cannot reach you when your name comes up, you can be dropped from the list.</p>
-                <p>New to the process? Our <a href="{{ rel_prefix }}resources/guides/how-to-apply-section-8">step-by-step guide to applying for Section 8</a> walks through the whole thing, and <a href="{{ rel_prefix }}resources/guides/how-to-find-your-pha">how to find your PHA</a> helps you locate the right authority.</p>
+                <h2>{{ t.how_to_apply }}</h2>
+                <p>{{ t.apply_body_html }}</p>
+                <p>{{ t.new_to_process_html }}</p>
 
                 {%- if data.also_serving %}
-                <h2>Other Authorities Serving This Area</h2>
+                <h2>{{ t.other_authorities }}</h2>
                 <ul>
                     {%- for a in data.also_serving %}
                     <li>{{ a }}</li>
@@ -104,11 +104,11 @@
                 </ul>
                 {%- endif %}
 
-                <h2>More Local Resources</h2>
-                <p>For the full picture of affordable housing in this area — emergency shelter, rental assistance, tenant rights, and legal aid — see {% if data.city_slug %}our <a href="{{ rel_prefix }}resources/cities/{{ data.city_slug }}">{{ data.city }} housing resources</a> page{% if data.state_slug %} and our <a href="{{ rel_prefix }}resources/states/{{ data.state_slug }}">{{ data.state }} state resources</a>{% endif %}{% elif data.state_slug %}our <a href="{{ rel_prefix }}resources/states/{{ data.state_slug }}">{{ data.state }} state resources</a>{% endif %}.</p>
+                <h2>{{ t.more_local_heading }}</h2>
+                <p>{{ t.more_local_html }}</p>
 
                 {%- if data.faqs %}
-                <h2>Frequently Asked Questions</h2>
+                <h2>{{ t.faq_heading }}</h2>
                 {%- for f in data.faqs %}
                 <h3>{{ f.q }}</h3>
                 <p>{{ f.a }}</p>
@@ -116,7 +116,7 @@
                 {%- endif %}
 
                 {%- if data.sources %}
-                <h2>Sources</h2>
+                <h2>{{ t.sources }}</h2>
                 <ul>
                     {%- for s in data.sources %}
                     <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>

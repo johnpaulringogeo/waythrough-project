@@ -22,24 +22,130 @@
     "Family Self-Sufficiency (FSS) and homeownership programs"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (tenant-based Section 8)", "status": "Closed", "note": "HHA's official site states the Housing Choice Voucher waiting list is currently closed. If you are already on it, make sure you completed the required re-registration — people who did not re-register can lose their place."},
-    {"program": "Public Housing", "status": "Closed", "note": "A site-based public-housing lottery for eight named properties accepted applications in late June and early July 2026 and has closed; applicants are notified by email through the RentCafe portal."},
-    {"program": "Project-Based Vouchers (PBV)", "status": "Varies by property", "note": "PBV lists are tied to specific developments; check the official site for current openings."}
+    {
+      "program": "Housing Choice Voucher (tenant-based Section 8)",
+      "status": "Closed",
+      "note": "HHA's official site states the Housing Choice Voucher waiting list is currently closed. If you are already on it, make sure you completed the required re-registration — people who did not re-register can lose their place."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Closed",
+      "note": "A site-based public-housing lottery for eight named properties accepted applications in late June and early July 2026 and has closed; applicants are notified by email through the RentCafe portal."
+    },
+    {
+      "program": "Project-Based Vouchers (PBV)",
+      "status": "Varies by property",
+      "note": "PBV lists are tied to specific developments; check the official site for current openings."
+    }
   ],
   "also_serving": [
     "<strong>Harris County Housing Authority (HCHA)</strong> is a separate authority serving unincorporated Harris County outside the Houston city limits, with its own waiting lists (hchatexas.org).",
     "The <strong>Texas Department of Housing and Community Affairs (TDHCA)</strong> administers Section 8 in parts of Texas that do not have a local PHA."
   ],
   "faqs": [
-    {"q": "Is the Houston (HHA) Section 8 waiting list open?", "a": "As of July 2026, the Houston Housing Authority's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, according to HHA's official site, and its site-based public-housing lottery for eight properties has also closed. Always confirm the current status on the official HHA site before relying on it."},
-    {"q": "Is the Houston Housing Authority the same as Housing Alliance HTX?", "a": "Yes. In 2025 the Houston Housing Authority began operating under the name Housing Alliance HTX. It is the same public housing authority; both housingforhouston.com and alliancehtx.org are official."},
-    {"q": "Who do I contact if I live outside the Houston city limits?", "a": "The Harris County Housing Authority (HCHA) serves unincorporated Harris County outside the city and runs its own separate waiting lists at hchatexas.org. It is a different agency from the Houston Housing Authority."},
-    {"q": "How do I check my HHA waiting-list status?", "a": "Use HHA's applicant portal (hha.myhousing.com) or the RentCafe portal rather than calling the office. Keep your contact information current so HHA can reach you when your name comes up."}
+    {
+      "q": "Is the Houston (HHA) Section 8 waiting list open?",
+      "a": "As of July 2026, the Houston Housing Authority's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, according to HHA's official site, and its site-based public-housing lottery for eight properties has also closed. Always confirm the current status on the official HHA site before relying on it."
+    },
+    {
+      "q": "Is the Houston Housing Authority the same as Housing Alliance HTX?",
+      "a": "Yes. In 2025 the Houston Housing Authority began operating under the name Housing Alliance HTX. It is the same public housing authority; both housingforhouston.com and alliancehtx.org are official."
+    },
+    {
+      "q": "Who do I contact if I live outside the Houston city limits?",
+      "a": "The Harris County Housing Authority (HCHA) serves unincorporated Harris County outside the city and runs its own separate waiting lists at hchatexas.org. It is a different agency from the Houston Housing Authority."
+    },
+    {
+      "q": "How do I check my HHA waiting-list status?",
+      "a": "Use HHA's applicant portal (hha.myhousing.com) or the RentCafe portal rather than calling the office. Keep your contact information current so HHA can reach you when your name comes up."
+    }
   ],
   "sources": [
-    {"label": "Houston Housing Authority — official site", "url": "https://housingforhouston.com/"},
-    {"label": "HHA — Housing Choice Voucher (waitlist status)", "url": "https://housingforhouston.com/residents/housing-choice-voucher/"},
-    {"label": "HHA — Public Housing", "url": "https://housingforhouston.com/residents/public-housing/"},
-    {"label": "Housing Alliance HTX (HHA's current brand)", "url": "https://www.alliancehtx.org/"}
-  ]
+    {
+      "label": "Houston Housing Authority — official site",
+      "url": "https://housingforhouston.com/"
+    },
+    {
+      "label": "HHA — Housing Choice Voucher (waitlist status)",
+      "url": "https://housingforhouston.com/residents/housing-choice-voucher/"
+    },
+    {
+      "label": "HHA — Public Housing",
+      "url": "https://housingforhouston.com/residents/public-housing/"
+    },
+    {
+      "label": "Housing Alliance HTX (HHA's current brand)",
+      "url": "https://www.alliancehtx.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Houston, Texas",
+    "updated": "julio de 2026",
+    "intro": "La Autoridad de Vivienda de Houston (HHA) — que comenzó a operar bajo el nombre Housing Alliance HTX en 2025 — es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y los vales basados en proyectos para la ciudad de Houston. Esta página resume el estado actual de la lista de espera de HHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HHA para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8 basado en el inquilino)",
+      "Vivienda pública",
+      "Vales Basados en Proyectos (PBV)",
+      "HUD-VASH (para veteranos)",
+      "Vales Mainstream (personas con discapacidades menores de edad avanzada)",
+      "Programas de Autosuficiencia Familiar (FSS) y de compra de vivienda"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8 basado en el inquilino)",
+        "status": "Cerrada",
+        "note": "El sitio oficial de HHA indica que la lista de espera del Housing Choice Voucher está cerrada actualmente. Si ya está en ella, asegúrese de haber completado el nuevo registro requerido — quienes no se volvieron a registrar pueden perder su lugar."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Cerrada",
+        "note": "Una lotería de vivienda pública por sitio para ocho propiedades específicas aceptó solicitudes a fines de junio y principios de julio de 2026 y ha cerrado; a los solicitantes se les notifica por correo electrónico a través del portal RentCafe."
+      },
+      {
+        "program": "Vales Basados en Proyectos (PBV)",
+        "status": "Varía según la propiedad",
+        "note": "Las listas de PBV están ligadas a desarrollos específicos; revise el sitio oficial para ver las aperturas actuales."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de Harris (HCHA)</strong> es una autoridad separada que sirve el condado no incorporado de Harris fuera de los límites de la ciudad de Houston, con sus propias listas de espera (hchatexas.org).",
+      "El <strong>Departamento de Vivienda y Asuntos Comunitarios de Texas (TDHCA)</strong> administra la Sección 8 en las partes de Texas que no tienen una PHA local."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Houston (HHA)?",
+        "a": "A partir de julio de 2026, la lista de espera del Housing Choice Voucher (Sección 8) basado en el inquilino de la Autoridad de Vivienda de Houston está cerrada, según el sitio oficial de HHA, y su lotería de vivienda pública por sitio para ocho propiedades también ha cerrado. Confirme siempre el estado actual en el sitio oficial de HHA antes de confiar en él."
+      },
+      {
+        "q": "¿Es la Autoridad de Vivienda de Houston lo mismo que Housing Alliance HTX?",
+        "a": "Sí. En 2025 la Autoridad de Vivienda de Houston comenzó a operar bajo el nombre Housing Alliance HTX. Es la misma autoridad pública de vivienda; tanto housingforhouston.com como alliancehtx.org son oficiales."
+      },
+      {
+        "q": "¿A quién contacto si vivo fuera de los límites de la ciudad de Houston?",
+        "a": "La Autoridad de Vivienda del Condado de Harris (HCHA) sirve el condado no incorporado de Harris fuera de la ciudad y administra sus propias listas de espera separadas en hchatexas.org. Es una agencia diferente de la Autoridad de Vivienda de Houston."
+      },
+      {
+        "q": "¿Cómo verifico el estado de mi lista de espera de HHA?",
+        "a": "Use el portal para solicitantes de HHA (hha.myhousing.com) o el portal RentCafe en lugar de llamar a la oficina. Mantenga su información de contacto al día para que HHA pueda localizarle cuando le toque su turno."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Autoridad de Vivienda de Houston — sitio oficial",
+        "url": "https://housingforhouston.com/"
+      },
+      {
+        "label": "HHA — Housing Choice Voucher (estado de la lista de espera)",
+        "url": "https://housingforhouston.com/residents/housing-choice-voucher/"
+      },
+      {
+        "label": "HHA — Vivienda pública",
+        "url": "https://housingforhouston.com/residents/public-housing/"
+      },
+      {
+        "label": "Housing Alliance HTX (marca actual de HHA)",
+        "url": "https://www.alliancehtx.org/"
+      }
+    ]
+  }
 }

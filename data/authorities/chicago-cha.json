@@ -22,21 +22,114 @@
     "Emergency Housing Vouchers and Mainstream vouchers"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "The general HCV waiting list closed in 2008 and has not reopened; more than 16,000 households remain on it."},
-    {"program": "Project-Based Vouchers (PBV)", "status": "Rolling, property-by-property", "note": "CHA operates separate PBV waiting lists for specific developments — apply through the online portal below."},
-    {"program": "Public Housing", "status": "Partially open", "note": "Certain senior and family developments accept applications — check the online portal for current openings."},
-    {"program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)", "status": "Accepted by referral", "note": "Accessed through partner agencies rather than open public registration."}
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "The general HCV waiting list closed in 2008 and has not reopened; more than 16,000 households remain on it."
+    },
+    {
+      "program": "Project-Based Vouchers (PBV)",
+      "status": "Rolling, property-by-property",
+      "note": "CHA operates separate PBV waiting lists for specific developments — apply through the online portal below."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Partially open",
+      "note": "Certain senior and family developments accept applications — check the online portal for current openings."
+    },
+    {
+      "program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+      "status": "Accepted by referral",
+      "note": "Accessed through partner agencies rather than open public registration."
+    }
   ],
   "also_serving": [
     "<strong>Housing Authority of Cook County (HACC)</strong> serves suburban Cook County outside the City of Chicago, with its own separate waiting lists."
   ],
   "faqs": [
-    {"q": "Is the Chicago (CHA) Section 8 waiting list open?", "a": "No. The Chicago Housing Authority's general Housing Choice Voucher (Section 8) waiting list has been closed since 2008 and has not reopened; more than 16,000 households remain on it. CHA does operate rolling Project-Based Voucher waiting lists for specific developments, and certain public-housing developments accept applications — check applyonline.thecha.org for current openings and confirm before relying on any status."},
-    {"q": "How do I apply for CHA housing right now?", "a": "Because the general Section 8 list is closed, the realistic paths are CHA's property-specific Project-Based Voucher waiting lists and public-housing developments that are currently open, both through applyonline.thecha.org. Veterans may qualify for HUD-VASH, and families in the child-welfare system may qualify for the Family Unification Program by referral."},
-    {"q": "Who serves the Chicago suburbs?", "a": "The Housing Authority of Cook County (HACC) administers Section 8 and public housing for suburban Cook County outside the City of Chicago, and runs its own separate waiting lists. Neighboring counties have their own authorities as well."}
+    {
+      "q": "Is the Chicago (CHA) Section 8 waiting list open?",
+      "a": "No. The Chicago Housing Authority's general Housing Choice Voucher (Section 8) waiting list has been closed since 2008 and has not reopened; more than 16,000 households remain on it. CHA does operate rolling Project-Based Voucher waiting lists for specific developments, and certain public-housing developments accept applications — check applyonline.thecha.org for current openings and confirm before relying on any status."
+    },
+    {
+      "q": "How do I apply for CHA housing right now?",
+      "a": "Because the general Section 8 list is closed, the realistic paths are CHA's property-specific Project-Based Voucher waiting lists and public-housing developments that are currently open, both through applyonline.thecha.org. Veterans may qualify for HUD-VASH, and families in the child-welfare system may qualify for the Family Unification Program by referral."
+    },
+    {
+      "q": "Who serves the Chicago suburbs?",
+      "a": "The Housing Authority of Cook County (HACC) administers Section 8 and public housing for suburban Cook County outside the City of Chicago, and runs its own separate waiting lists. Neighboring counties have their own authorities as well."
+    }
   ],
   "sources": [
-    {"label": "CHA — official website", "url": "https://www.thecha.org/"},
-    {"label": "CHA — apply online portal", "url": "https://applyonline.thecha.org/"}
-  ]
+    {
+      "label": "CHA — official website",
+      "url": "https://www.thecha.org/"
+    },
+    {
+      "label": "CHA — apply online portal",
+      "url": "https://applyonline.thecha.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Chicago, Illinois",
+    "updated": "mayo de 2026",
+    "intro": "La Autoridad de Vivienda de Chicago (CHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Chicago — la segunda autoridad de vivienda más grande del país. Esta página resume el estado actual de la lista de espera de CHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de CHA para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vales Basados en Proyectos (PBV)",
+      "Vivienda pública",
+      "HUD-VASH (para veteranos)",
+      "Programa de Unificación Familiar (FUP)",
+      "Vales de Vivienda de Emergencia y vales Mainstream"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "La lista general de HCV cerró en 2008 y no ha vuelto a abrir; más de 16,000 hogares permanecen en ella."
+      },
+      {
+        "program": "Vales Basados en Proyectos (PBV)",
+        "status": "Continua, propiedad por propiedad",
+        "note": "CHA administra listas de espera de PBV separadas para desarrollos específicos — solicite a través del portal en línea de abajo."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Parcialmente abierta",
+        "note": "Ciertos desarrollos para personas mayores y familias aceptan solicitudes — revise el portal en línea para ver las aperturas actuales."
+      },
+      {
+        "program": "Referencias especializadas (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+        "status": "Se aceptan por referencia",
+        "note": "Se accede a través de agencias asociadas en lugar de un registro público abierto."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de Cook (HACC)</strong> sirve el condado suburbano de Cook fuera de la ciudad de Chicago, con sus propias listas de espera separadas."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Chicago (CHA)?",
+        "a": "No. La lista de espera general del Housing Choice Voucher (Sección 8) de la Autoridad de Vivienda de Chicago ha estado cerrada desde 2008 y no ha vuelto a abrir; más de 16,000 hogares permanecen en ella. CHA sí administra listas de espera continuas de Vales Basados en Proyectos para desarrollos específicos, y ciertos desarrollos de vivienda pública aceptan solicitudes — revise applyonline.thecha.org para ver las aperturas actuales y confirme antes de confiar en cualquier estado."
+      },
+      {
+        "q": "¿Cómo solicito vivienda de CHA ahora mismo?",
+        "a": "Como la lista general de la Sección 8 está cerrada, las vías realistas son las listas de espera de Vales Basados en Proyectos específicas por propiedad de CHA y los desarrollos de vivienda pública que estén abiertos actualmente, ambos a través de applyonline.thecha.org. Los veteranos pueden calificar para HUD-VASH, y las familias en el sistema de bienestar infantil pueden calificar para el Programa de Unificación Familiar por referencia."
+      },
+      {
+        "q": "¿Quién sirve a los suburbios de Chicago?",
+        "a": "La Autoridad de Vivienda del Condado de Cook (HACC) administra la Sección 8 y la vivienda pública para el condado suburbano de Cook fuera de la ciudad de Chicago, y administra sus propias listas de espera separadas. Los condados vecinos también tienen sus propias autoridades."
+      }
+    ],
+    "sources": [
+      {
+        "label": "CHA — sitio web oficial",
+        "url": "https://www.thecha.org/"
+      },
+      {
+        "label": "CHA — portal de solicitud en línea",
+        "url": "https://applyonline.thecha.org/"
+      }
+    ]
+  }
 }

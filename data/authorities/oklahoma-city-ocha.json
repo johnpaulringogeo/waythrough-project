@@ -21,22 +21,111 @@
     "HUD-VASH (for veterans) and Single Room Occupancy (SRO)"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "OCHA's official apply page states the Section 8 waiting list is currently closed. Applications are accepted online only, when a list is open."},
-    {"program": "Public Housing", "status": "Check the online portal", "note": "OCHA does not post a single public-housing status; individual properties open and close their own lists. Check the Rent Café portal for what is currently open."}
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "OCHA's official apply page states the Section 8 waiting list is currently closed. Applications are accepted online only, when a list is open."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Check the online portal",
+      "note": "OCHA does not post a single public-housing status; individual properties open and close their own lists. Check the Rent Café portal for what is currently open."
+    }
   ],
   "also_serving": [
     "The <strong>Oklahoma Housing Finance Agency (OHFA)</strong> administers Section 8 statewide across all 77 Oklahoma counties, including Oklahoma County (ohfa.org).",
     "Nearby cities run their own authorities with separate waiting lists, including the housing authorities of <strong>Del City</strong> and <strong>Norman</strong>."
   ],
   "faqs": [
-    {"q": "Is the Oklahoma City (OCHA) Section 8 waiting list open?", "a": "As of July 2026, OCHA's Section 8 Housing Choice Voucher waiting list is closed, according to the authority's official apply page. Some individual public-housing properties may still be accepting applications through OCHA's online portal. Confirm current openings on the official site before relying on any status."},
-    {"q": "How do I apply for OCHA housing?", "a": "Applications are online only, through OCHA's Rent Café portal (portal.ochanet.org). A valid email address is required, you may apply only once per open waiting list, and all adult household members must pass a criminal background check and not owe a debt to any housing authority."},
-    {"q": "Where do vouchers work, and who serves the rest of the metro?", "a": "An OCHA voucher can generally be used only within the Oklahoma City limits. The Oklahoma Housing Finance Agency (OHFA) administers Section 8 statewide, including Oklahoma County, and nearby cities such as Del City and Norman run their own housing authorities."}
+    {
+      "q": "Is the Oklahoma City (OCHA) Section 8 waiting list open?",
+      "a": "As of July 2026, OCHA's Section 8 Housing Choice Voucher waiting list is closed, according to the authority's official apply page. Some individual public-housing properties may still be accepting applications through OCHA's online portal. Confirm current openings on the official site before relying on any status."
+    },
+    {
+      "q": "How do I apply for OCHA housing?",
+      "a": "Applications are online only, through OCHA's Rent Café portal (portal.ochanet.org). A valid email address is required, you may apply only once per open waiting list, and all adult household members must pass a criminal background check and not owe a debt to any housing authority."
+    },
+    {
+      "q": "Where do vouchers work, and who serves the rest of the metro?",
+      "a": "An OCHA voucher can generally be used only within the Oklahoma City limits. The Oklahoma Housing Finance Agency (OHFA) administers Section 8 statewide, including Oklahoma County, and nearby cities such as Del City and Norman run their own housing authorities."
+    }
   ],
   "sources": [
-    {"label": "Oklahoma City Housing Authority — official site", "url": "https://www.ochanet.org"},
-    {"label": "OCHA — apply for Section 8 (waitlist status)", "url": "https://www.ochanet.org/leased_housing/apply_for_section_8.php"},
-    {"label": "OCHA — applicant portal", "url": "https://portal.ochanet.org"},
-    {"label": "HUD — Oklahoma PHA contact list", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"}
-  ]
+    {
+      "label": "Oklahoma City Housing Authority — official site",
+      "url": "https://www.ochanet.org"
+    },
+    {
+      "label": "OCHA — apply for Section 8 (waitlist status)",
+      "url": "https://www.ochanet.org/leased_housing/apply_for_section_8.php"
+    },
+    {
+      "label": "OCHA — applicant portal",
+      "url": "https://portal.ochanet.org"
+    },
+    {
+      "label": "HUD — Oklahoma PHA contact list",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Oklahoma City, Oklahoma",
+    "updated": "julio de 2026",
+    "intro": "La Autoridad de Vivienda de Oklahoma City (OCHA) — legalmente la Autoridad de Vivienda de la Ciudad de Oklahoma City — administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Oklahoma City. Esta página resume el estado actual de la lista de espera de OCHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de OCHA para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8 / “Programa de Vales de Vivienda”)",
+      "Vivienda pública (propiedades para familias y personas mayores)",
+      "Autosuficiencia Familiar (FSS) y Programa de Unificación Familiar (FUP)",
+      "Vales Mainstream (personas con discapacidades)",
+      "HUD-VASH (para veteranos) y Ocupación de una Sola Habitación (SRO)"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "La página oficial de solicitud de OCHA indica que la lista de espera de la Sección 8 está cerrada actualmente. Las solicitudes se aceptan solo en línea, cuando una lista está abierta."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Revise el portal en línea",
+        "note": "OCHA no publica un solo estado de vivienda pública; cada propiedad abre y cierra sus propias listas. Revise el portal Rent Café para ver lo que está abierto actualmente."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Agencia de Financiamiento de Vivienda de Oklahoma (OHFA)</strong> administra la Sección 8 a nivel estatal en los 77 condados de Oklahoma, incluido el condado de Oklahoma (ohfa.org).",
+      "Las ciudades cercanas administran sus propias autoridades con listas de espera separadas, incluidas las autoridades de vivienda de <strong>Del City</strong> y <strong>Norman</strong>."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Oklahoma City (OCHA)?",
+        "a": "A partir de julio de 2026, la lista de espera del Housing Choice Voucher de la Sección 8 de OCHA está cerrada, según la página oficial de solicitud de la autoridad. Algunas propiedades individuales de vivienda pública pueden seguir aceptando solicitudes a través del portal en línea de OCHA. Confirme las aperturas actuales en el sitio oficial antes de confiar en cualquier estado."
+      },
+      {
+        "q": "¿Cómo solicito vivienda de OCHA?",
+        "a": "Las solicitudes son solo en línea, a través del portal Rent Café de OCHA (portal.ochanet.org). Se requiere una dirección de correo electrónico válida, puede solicitar solo una vez por lista de espera abierta, y todos los miembros adultos del hogar deben pasar una verificación de antecedentes penales y no deber una deuda a ninguna autoridad de vivienda."
+      },
+      {
+        "q": "¿Dónde funcionan los vales y quién sirve al resto del área metropolitana?",
+        "a": "Un vale de OCHA generalmente solo puede usarse dentro de los límites de la ciudad de Oklahoma City. La Agencia de Financiamiento de Vivienda de Oklahoma (OHFA) administra la Sección 8 a nivel estatal, incluido el condado de Oklahoma, y ciudades cercanas como Del City y Norman administran sus propias autoridades de vivienda."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Autoridad de Vivienda de Oklahoma City — sitio oficial",
+        "url": "https://www.ochanet.org"
+      },
+      {
+        "label": "OCHA — solicitar la Sección 8 (estado de la lista de espera)",
+        "url": "https://www.ochanet.org/leased_housing/apply_for_section_8.php"
+      },
+      {
+        "label": "OCHA — portal para solicitantes",
+        "url": "https://portal.ochanet.org"
+      },
+      {
+        "label": "HUD — lista de contactos de agencias de vivienda pública de Oklahoma",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
+      }
+    ]
+  }
 }

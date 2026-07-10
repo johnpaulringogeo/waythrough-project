@@ -22,21 +22,106 @@
     "Mainstream vouchers (non-elderly people with disabilities)"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (tenant-based Section 8)", "status": "Closed", "note": "Watch HACM's apply page for reopenings, and apply to neighboring authorities in the meantime."},
-    {"program": "Project-Based Vouchers (PBV)", "status": "Open until further notice", "note": "Tied to specific HACM-affiliated properties. This is currently the most accessible path — worth acting on."},
-    {"program": "Public Housing", "status": "Site-specific waitlists", "note": "Separate applications for HACM-owned communities, including senior and family properties."}
+    {
+      "program": "Housing Choice Voucher (tenant-based Section 8)",
+      "status": "Closed",
+      "note": "Watch HACM's apply page for reopenings, and apply to neighboring authorities in the meantime."
+    },
+    {
+      "program": "Project-Based Vouchers (PBV)",
+      "status": "Open until further notice",
+      "note": "Tied to specific HACM-affiliated properties. This is currently the most accessible path — worth acting on."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Site-specific waitlists",
+      "note": "Separate applications for HACM-owned communities, including senior and family properties."
+    }
   ],
   "also_serving": [
     "<strong>Housing Authority of Milwaukee County</strong> is a separate authority that serves areas outside the City of Milwaukee limits.",
     "Neighboring authorities that run their own separate waiting lists: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong>, and <strong>WHEDA</strong> (statewide)."
   ],
   "faqs": [
-    {"q": "Is the Milwaukee (HACM) Section 8 waiting list open?", "a": "As of May 2026, HACM's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, but its Project-Based Voucher (PBV) waiting lists are open until further notice. PBV is tied to specific HACM-affiliated properties and is currently the most accessible path. Always confirm the current status on HACM's official apply page before relying on it."},
-    {"q": "How do I check my place on the HACM waiting list?", "a": "Call HACM at (414) 286-5677 to verify your position if you have already applied. Keep your contact information current with HACM — if they cannot reach you when your name comes up, you can be removed from the list."},
-    {"q": "Who do I contact if I live outside the City of Milwaukee?", "a": "The Housing Authority of Milwaukee County is a separate authority for areas outside the city limits. You can also apply to neighboring authorities such as West Allis, Waukesha County, Racine, Kenosha, and the statewide WHEDA program, each of which runs its own waiting list."}
+    {
+      "q": "Is the Milwaukee (HACM) Section 8 waiting list open?",
+      "a": "As of May 2026, HACM's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, but its Project-Based Voucher (PBV) waiting lists are open until further notice. PBV is tied to specific HACM-affiliated properties and is currently the most accessible path. Always confirm the current status on HACM's official apply page before relying on it."
+    },
+    {
+      "q": "How do I check my place on the HACM waiting list?",
+      "a": "Call HACM at (414) 286-5677 to verify your position if you have already applied. Keep your contact information current with HACM — if they cannot reach you when your name comes up, you can be removed from the list."
+    },
+    {
+      "q": "Who do I contact if I live outside the City of Milwaukee?",
+      "a": "The Housing Authority of Milwaukee County is a separate authority for areas outside the city limits. You can also apply to neighboring authorities such as West Allis, Waukesha County, Racine, Kenosha, and the statewide WHEDA program, each of which runs its own waiting list."
+    }
   ],
   "sources": [
-    {"label": "HACM — official website", "url": "https://www.hacm.org/"},
-    {"label": "HACM — apply for housing", "url": "https://www.hacm.org/programs/housing/apply-for-housing"}
-  ]
+    {
+      "label": "HACM — official website",
+      "url": "https://www.hacm.org/"
+    },
+    {
+      "label": "HACM — apply for housing",
+      "url": "https://www.hacm.org/programs/housing/apply-for-housing"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Milwaukee, Wisconsin",
+    "updated": "mayo de 2026",
+    "intro": "La Autoridad de Vivienda de la Ciudad de Milwaukee (HACM) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Milwaukee. Esta página resume el estado actual de la lista de espera de HACM, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HACM para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8 basado en el inquilino)",
+      "Vales Basados en Proyectos (PBV)",
+      "Vivienda pública",
+      "Vales de Vivienda de Emergencia (EHV)",
+      "HUD-VASH (para veteranos)",
+      "Vales Mainstream (personas con discapacidades menores de edad avanzada)"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8 basado en el inquilino)",
+        "status": "Cerrada",
+        "note": "Vigile la página de solicitud de HACM por si reabre, y solicite mientras tanto a las autoridades vecinas."
+      },
+      {
+        "program": "Vales Basados en Proyectos (PBV)",
+        "status": "Abierta hasta nuevo aviso",
+        "note": "Ligada a propiedades específicas afiliadas a HACM. Actualmente es la vía más accesible — vale la pena actuar."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Listas de espera por propiedad",
+        "note": "Solicitudes separadas para las comunidades propiedad de HACM, incluidas propiedades para personas mayores y familias."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de Milwaukee</strong> es una autoridad separada que sirve las zonas fuera de los límites de la ciudad de Milwaukee.",
+      "Autoridades vecinas que administran sus propias listas de espera: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong> y <strong>WHEDA</strong> (a nivel estatal)."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Milwaukee (HACM)?",
+        "a": "A partir de mayo de 2026, la lista de espera del Housing Choice Voucher (Sección 8) basado en el inquilino de HACM está cerrada, pero sus listas de espera de Vales Basados en Proyectos (PBV) están abiertas hasta nuevo aviso. El PBV está ligado a propiedades específicas afiliadas a HACM y actualmente es la vía más accesible. Confirme siempre el estado actual en la página de solicitud oficial de HACM antes de confiar en él."
+      },
+      {
+        "q": "¿Cómo verifico mi lugar en la lista de espera de HACM?",
+        "a": "Llame a HACM al (414) 286-5677 para verificar su posición si ya presentó su solicitud. Mantenga su información de contacto al día con HACM — si no pueden localizarle cuando le toque su turno, pueden retirarle de la lista."
+      },
+      {
+        "q": "¿A quién contacto si vivo fuera de la ciudad de Milwaukee?",
+        "a": "La Autoridad de Vivienda del Condado de Milwaukee es una autoridad separada para las zonas fuera de los límites de la ciudad. También puede solicitar a autoridades vecinas como West Allis, Waukesha County, Racine, Kenosha y el programa estatal WHEDA, cada una con su propia lista de espera."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HACM — sitio web oficial",
+        "url": "https://www.hacm.org/"
+      },
+      {
+        "label": "HACM — solicitar vivienda",
+        "url": "https://www.hacm.org/programs/housing/apply-for-housing"
+      }
+    ]
+  }
 }

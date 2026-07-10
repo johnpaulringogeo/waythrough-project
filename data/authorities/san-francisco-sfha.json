@@ -19,20 +19,93 @@
     "Below-market-rate affordable units via the DAHLIA lottery (city-run, separate from SFHA)"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "Check sfha.org for any reopening. In the meantime, apply to nearby authorities and to affordable-unit lotteries."},
-    {"program": "Below-market-rate affordable units", "status": "Ongoing lotteries", "note": "Applied for through the city's DAHLIA portal (housing.sfgov.org) — this is separate from Section 8 and does not require an SFHA voucher."}
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Check sfha.org for any reopening. In the meantime, apply to nearby authorities and to affordable-unit lotteries."
+    },
+    {
+      "program": "Below-market-rate affordable units",
+      "status": "Ongoing lotteries",
+      "note": "Applied for through the city's DAHLIA portal (housing.sfgov.org) — this is separate from Section 8 and does not require an SFHA voucher."
+    }
   ],
   "also_serving": [
     "The <strong>DAHLIA SF Housing Portal</strong> (housing.sfgov.org) lists affordable rental and ownership opportunities across San Francisco through regular lotteries — the most active path when the Section 8 list is closed.",
     "<strong>SF ERAP</strong> (emergency rent help) helpline: (415) 653-5744, for households at risk of eviction."
   ],
   "faqs": [
-    {"q": "Is the San Francisco (SFHA) Section 8 waiting list open?", "a": "As of May 2026, the San Francisco Housing Authority's Housing Choice Voucher (Section 8) waiting list is closed. Confirm the current status on sfha.org before relying on it. While it is closed, the most active path to affordable housing in San Francisco is the city's DAHLIA portal (housing.sfgov.org), which runs regular lotteries for below-market-rate apartments."},
-    {"q": "What is DAHLIA and how is it different from Section 8?", "a": "DAHLIA (housing.sfgov.org) is San Francisco's official portal for below-market-rate affordable apartments, awarded by lottery. It is run by the city and is separate from SFHA's Section 8 program — you do not need a voucher to apply. It is usually the most active option when the SFHA voucher list is closed."},
-    {"q": "Who do I call for emergency rent help in San Francisco?", "a": "The San Francisco Emergency Rental Assistance Program (SF ERAP) helpline is (415) 653-5744. If you are facing eviction, San Francisco also guarantees a right to counsel — free legal representation — for tenants in eviction cases."}
+    {
+      "q": "Is the San Francisco (SFHA) Section 8 waiting list open?",
+      "a": "As of May 2026, the San Francisco Housing Authority's Housing Choice Voucher (Section 8) waiting list is closed. Confirm the current status on sfha.org before relying on it. While it is closed, the most active path to affordable housing in San Francisco is the city's DAHLIA portal (housing.sfgov.org), which runs regular lotteries for below-market-rate apartments."
+    },
+    {
+      "q": "What is DAHLIA and how is it different from Section 8?",
+      "a": "DAHLIA (housing.sfgov.org) is San Francisco's official portal for below-market-rate affordable apartments, awarded by lottery. It is run by the city and is separate from SFHA's Section 8 program — you do not need a voucher to apply. It is usually the most active option when the SFHA voucher list is closed."
+    },
+    {
+      "q": "Who do I call for emergency rent help in San Francisco?",
+      "a": "The San Francisco Emergency Rental Assistance Program (SF ERAP) helpline is (415) 653-5744. If you are facing eviction, San Francisco also guarantees a right to counsel — free legal representation — for tenants in eviction cases."
+    }
   ],
   "sources": [
-    {"label": "SFHA — official website", "url": "https://www.sfha.org/"},
-    {"label": "DAHLIA SF Housing Portal", "url": "https://housing.sfgov.org/"}
-  ]
+    {
+      "label": "SFHA — official website",
+      "url": "https://www.sfha.org/"
+    },
+    {
+      "label": "DAHLIA SF Housing Portal",
+      "url": "https://housing.sfgov.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad y el condado de San Francisco, California",
+    "updated": "mayo de 2026",
+    "intro": "La Autoridad de Vivienda de San Francisco (SFHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8 y la asistencia de alquiler basada en proyectos para la ciudad y el condado de San Francisco. Por separado, el portal DAHLIA de la ciudad realiza loterías continuas para apartamentos asequibles a precio por debajo del mercado. Esta página resume el estado actual de la lista de espera de SFHA y su información de contacto, y enlaza a los sitios oficiales para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vales Basados en Proyectos (incluidos desarrollos convertidos por RAD)",
+      "Unidades asequibles a precio por debajo del mercado mediante la lotería DAHLIA (administrada por la ciudad, separada de SFHA)"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Revise sfha.org por si reabre. Mientras tanto, solicite a autoridades cercanas y a las loterías de unidades asequibles."
+      },
+      {
+        "program": "Unidades asequibles a precio por debajo del mercado",
+        "status": "Loterías continuas",
+        "note": "Se solicitan a través del portal DAHLIA de la ciudad (housing.sfgov.org) — esto es separado de la Sección 8 y no requiere un vale de SFHA."
+      }
+    ],
+    "also_serving": [
+      "El <strong>portal de vivienda DAHLIA SF</strong> (housing.sfgov.org) publica oportunidades de alquiler y compra asequibles en todo San Francisco mediante loterías regulares — la vía más activa cuando la lista de la Sección 8 está cerrada.",
+      "Línea de <strong>SF ERAP</strong> (ayuda de alquiler de emergencia): (415) 653-5744, para hogares en riesgo de desalojo."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de San Francisco (SFHA)?",
+        "a": "A partir de mayo de 2026, la lista de espera del Housing Choice Voucher (Sección 8) de la Autoridad de Vivienda de San Francisco está cerrada. Confirme el estado actual en sfha.org antes de confiar en él. Mientras está cerrada, la vía más activa hacia la vivienda asequible en San Francisco es el portal DAHLIA de la ciudad (housing.sfgov.org), que realiza loterías regulares para apartamentos a precio por debajo del mercado."
+      },
+      {
+        "q": "¿Qué es DAHLIA y en qué se diferencia de la Sección 8?",
+        "a": "DAHLIA (housing.sfgov.org) es el portal oficial de San Francisco para apartamentos asequibles a precio por debajo del mercado, otorgados por lotería. Lo administra la ciudad y es separado del programa de la Sección 8 de SFHA — usted no necesita un vale para solicitar. Suele ser la opción más activa cuando la lista de vales de SFHA está cerrada."
+      },
+      {
+        "q": "¿A quién llamo para obtener ayuda de alquiler de emergencia en San Francisco?",
+        "a": "La línea del Programa de Asistencia de Alquiler de Emergencia de San Francisco (SF ERAP) es (415) 653-5744. Si enfrenta un desalojo, San Francisco también garantiza el derecho a un abogado — representación legal gratuita — para los inquilinos en casos de desalojo."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SFHA — sitio web oficial",
+        "url": "https://www.sfha.org/"
+      },
+      {
+        "label": "Portal de vivienda DAHLIA SF",
+        "url": "https://housing.sfgov.org/"
+      }
+    ]
+  }
 }

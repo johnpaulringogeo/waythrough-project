@@ -22,23 +22,122 @@
     "Section 32 homeownership and down-payment assistance"
   ],
   "waitlists": [
-    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "The City of Phoenix Section 8 Housing Choice Voucher waiting list is currently closed. Openings are announced at phoenix.gov/housing and are filled by random lottery, not first-come, first-served."},
-    {"program": "Senior & affordable housing communities", "status": "Some open", "note": "Select senior communities have shown open waiting lists on the city's MyHousing portal (for example Fillmore Gardens, Maryvale Parkway Terrace, and Sunnyslope Manor). Confirm current openings on the portal."},
-    {"program": "HUD-VASH / FUP / Mainstream", "status": "By referral", "note": "These are accessed through partner agencies — VASH through the VA Medical Center — rather than an open public waiting list."}
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "The City of Phoenix Section 8 Housing Choice Voucher waiting list is currently closed. Openings are announced at phoenix.gov/housing and are filled by random lottery, not first-come, first-served."
+    },
+    {
+      "program": "Senior & affordable housing communities",
+      "status": "Some open",
+      "note": "Select senior communities have shown open waiting lists on the city's MyHousing portal (for example Fillmore Gardens, Maryvale Parkway Terrace, and Sunnyslope Manor). Confirm current openings on the portal."
+    },
+    {
+      "program": "HUD-VASH / FUP / Mainstream",
+      "status": "By referral",
+      "note": "These are accessed through partner agencies — VASH through the VA Medical Center — rather than an open public waiting list."
+    }
   ],
   "also_serving": [
     "<strong>Housing Authority of Maricopa County (HAMC)</strong> is a separate authority serving Maricopa County outside the City of Phoenix, with its own waiting lists (maricopahousing.org).",
     "The City of Phoenix is also the HOPWA grantee for housing assistance for people with HIV/AIDS across Maricopa and Pinal Counties."
   ],
   "faqs": [
-    {"q": "Is the Phoenix Section 8 waiting list open?", "a": "As of July 2026, the City of Phoenix Housing Choice Voucher (Section 8) waiting list is closed, per the city's official housing pages. Some senior and affordable-housing communities do show open waiting lists on the city's MyHousing portal. When the Section 8 list opens, applicants are chosen by random lottery rather than first-come, first-served. Confirm current status at phoenix.gov/housing."},
-    {"q": "How do I apply for Phoenix housing?", "a": "Apply through the City of Phoenix MyHousing applicant portal (phxhousing.myhousing.com). There is no cost to apply, you may submit only one application per household, and you can check your status on the portal about 24 hours after applying."},
-    {"q": "Who serves the Phoenix suburbs and the rest of Maricopa County?", "a": "The Housing Authority of Maricopa County (HAMC) administers vouchers and housing for Maricopa County outside the City of Phoenix and runs its own separate waiting lists at maricopahousing.org."}
+    {
+      "q": "Is the Phoenix Section 8 waiting list open?",
+      "a": "As of July 2026, the City of Phoenix Housing Choice Voucher (Section 8) waiting list is closed, per the city's official housing pages. Some senior and affordable-housing communities do show open waiting lists on the city's MyHousing portal. When the Section 8 list opens, applicants are chosen by random lottery rather than first-come, first-served. Confirm current status at phoenix.gov/housing."
+    },
+    {
+      "q": "How do I apply for Phoenix housing?",
+      "a": "Apply through the City of Phoenix MyHousing applicant portal (phxhousing.myhousing.com). There is no cost to apply, you may submit only one application per household, and you can check your status on the portal about 24 hours after applying."
+    },
+    {
+      "q": "Who serves the Phoenix suburbs and the rest of Maricopa County?",
+      "a": "The Housing Authority of Maricopa County (HAMC) administers vouchers and housing for Maricopa County outside the City of Phoenix and runs its own separate waiting lists at maricopahousing.org."
+    }
   ],
   "sources": [
-    {"label": "City of Phoenix Housing Department — official site", "url": "https://www.phoenix.gov/housing"},
-    {"label": "City of Phoenix — Section 8 Housing Choice Voucher (waitlist status)", "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"},
-    {"label": "City of Phoenix — apply (MyHousing portal)", "url": "https://phxhousing.myhousing.com/"},
-    {"label": "Housing Authority of Maricopa County", "url": "https://maricopahousing.org/"}
-  ]
+    {
+      "label": "City of Phoenix Housing Department — official site",
+      "url": "https://www.phoenix.gov/housing"
+    },
+    {
+      "label": "City of Phoenix — Section 8 Housing Choice Voucher (waitlist status)",
+      "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"
+    },
+    {
+      "label": "City of Phoenix — apply (MyHousing portal)",
+      "url": "https://phxhousing.myhousing.com/"
+    },
+    {
+      "label": "Housing Authority of Maricopa County",
+      "url": "https://maricopahousing.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Phoenix, Arizona",
+    "updated": "julio de 2026",
+    "intro": "El Departamento de Vivienda de la Ciudad de Phoenix es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y las comunidades de alquiler asequible propiedad de la ciudad para la ciudad de Phoenix. Esta página resume el estado actual de la lista de espera del departamento, su información de contacto y cómo solicitar, y enlaza al sitio oficial de la ciudad para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública",
+      "Comunidades de alquiler asequible y para personas mayores propiedad de la ciudad",
+      "HUD-VASH (para veteranos)",
+      "Programa de Unificación Familiar (FUP) y vales Mainstream",
+      "Compra de vivienda de la Sección 32 y asistencia para el pago inicial"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "La lista de espera del Housing Choice Voucher de la Sección 8 de la Ciudad de Phoenix está cerrada actualmente. Las aperturas se anuncian en phoenix.gov/housing y se llenan por lotería aleatoria, no por orden de llegada."
+      },
+      {
+        "program": "Comunidades para personas mayores y de vivienda asequible",
+        "status": "Algunas abiertas",
+        "note": "Algunas comunidades para personas mayores han mostrado listas de espera abiertas en el portal MyHousing de la ciudad (por ejemplo, Fillmore Gardens, Maryvale Parkway Terrace y Sunnyslope Manor). Confirme las aperturas actuales en el portal."
+      },
+      {
+        "program": "HUD-VASH / FUP / Mainstream",
+        "status": "Por referencia",
+        "note": "Se accede a estos a través de agencias asociadas — VASH a través del Centro Médico del VA — en lugar de una lista de espera pública abierta."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de Maricopa (HAMC)</strong> es una autoridad separada que sirve el condado de Maricopa fuera de la ciudad de Phoenix, con sus propias listas de espera (maricopahousing.org).",
+      "La ciudad de Phoenix también es la beneficiaria de HOPWA para asistencia de vivienda a personas con VIH/SIDA en los condados de Maricopa y Pinal."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Phoenix?",
+        "a": "A partir de julio de 2026, la lista de espera del Housing Choice Voucher (Sección 8) de la Ciudad de Phoenix está cerrada, según las páginas oficiales de vivienda de la ciudad. Algunas comunidades para personas mayores y de vivienda asequible sí muestran listas de espera abiertas en el portal MyHousing de la ciudad. Cuando la lista de la Sección 8 abre, los solicitantes se eligen por lotería aleatoria en lugar de por orden de llegada. Confirme el estado actual en phoenix.gov/housing."
+      },
+      {
+        "q": "¿Cómo solicito vivienda en Phoenix?",
+        "a": "Solicite a través del portal para solicitantes MyHousing de la Ciudad de Phoenix (phxhousing.myhousing.com). No hay costo por solicitar, puede enviar solo una solicitud por hogar y puede verificar su estado en el portal aproximadamente 24 horas después de solicitar."
+      },
+      {
+        "q": "¿Quién sirve a los suburbios de Phoenix y al resto del condado de Maricopa?",
+        "a": "La Autoridad de Vivienda del Condado de Maricopa (HAMC) administra los vales y la vivienda para el condado de Maricopa fuera de la ciudad de Phoenix y administra sus propias listas de espera separadas en maricopahousing.org."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Departamento de Vivienda de la Ciudad de Phoenix — sitio oficial",
+        "url": "https://www.phoenix.gov/housing"
+      },
+      {
+        "label": "Ciudad de Phoenix — Housing Choice Voucher de la Sección 8 (estado de la lista de espera)",
+        "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"
+      },
+      {
+        "label": "Ciudad de Phoenix — solicitar (portal MyHousing)",
+        "url": "https://phxhousing.myhousing.com/"
+      },
+      {
+        "label": "Autoridad de Vivienda del Condado de Maricopa",
+        "url": "https://maricopahousing.org/"
+      }
+    ]
+  }
 }
