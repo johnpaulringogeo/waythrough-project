@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Arizona programs in about two minutes based on whether your need is an emergency or long-term.</p><p>Because Arizona evictions move fast, do not wait if you have a 5-day notice: contact <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> the same day and read <a href=\"../eviction-prevention\">eviction prevention</a>.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/phoenix-az",
+        "title": "Phoenix Housing Department",
+        "desc": "Phoenix's Section 8 waitlist status and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."

@@ -1,0 +1,42 @@
+{
+  "slug": "oklahoma-city-ocha",
+  "kind": "authority",
+  "name": "Oklahoma City Housing Authority (OCHA)",
+  "short_name": "OCHA",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "serves": "the City of Oklahoma City, Oklahoma",
+  "phone": "(405) 239-7551",
+  "official_url": "https://www.ochanet.org",
+  "apply_url": "https://portal.ochanet.org",
+  "city_slug": "oklahoma-city",
+  "state_slug": "oklahoma",
+  "updated": "July 2026",
+  "intro": "The Oklahoma City Housing Authority (OCHA) — legally the Housing Authority of the City of Oklahoma City — administers Section 8 Housing Choice Vouchers and public housing for the City of Oklahoma City. This page summarizes OCHA's current waiting-list status, contact information, and how to apply, and links to the official OCHA site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8 / “Housing Voucher Program”)",
+    "Public Housing (family and senior properties)",
+    "Family Self-Sufficiency (FSS) and Family Unification Program (FUP)",
+    "Mainstream vouchers (people with disabilities)",
+    "HUD-VASH (for veterans) and Single Room Occupancy (SRO)"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "OCHA's official apply page states the Section 8 waiting list is currently closed. Applications are accepted online only, when a list is open."},
+    {"program": "Public Housing", "status": "Check the online portal", "note": "OCHA does not post a single public-housing status; individual properties open and close their own lists. Check the Rent Café portal for what is currently open."}
+  ],
+  "also_serving": [
+    "The <strong>Oklahoma Housing Finance Agency (OHFA)</strong> administers Section 8 statewide across all 77 Oklahoma counties, including Oklahoma County (ohfa.org).",
+    "Nearby cities run their own authorities with separate waiting lists, including the housing authorities of <strong>Del City</strong> and <strong>Norman</strong>."
+  ],
+  "faqs": [
+    {"q": "Is the Oklahoma City (OCHA) Section 8 waiting list open?", "a": "As of July 2026, OCHA's Section 8 Housing Choice Voucher waiting list is closed, according to the authority's official apply page. Some individual public-housing properties may still be accepting applications through OCHA's online portal. Confirm current openings on the official site before relying on any status."},
+    {"q": "How do I apply for OCHA housing?", "a": "Applications are online only, through OCHA's Rent Café portal (portal.ochanet.org). A valid email address is required, you may apply only once per open waiting list, and all adult household members must pass a criminal background check and not owe a debt to any housing authority."},
+    {"q": "Where do vouchers work, and who serves the rest of the metro?", "a": "An OCHA voucher can generally be used only within the Oklahoma City limits. The Oklahoma Housing Finance Agency (OHFA) administers Section 8 statewide, including Oklahoma County, and nearby cities such as Del City and Norman run their own housing authorities."}
+  ],
+  "sources": [
+    {"label": "Oklahoma City Housing Authority — official site", "url": "https://www.ochanet.org"},
+    {"label": "OCHA — apply for Section 8 (waitlist status)", "url": "https://www.ochanet.org/leased_housing/apply_for_section_8.php"},
+    {"label": "OCHA — applicant portal", "url": "https://portal.ochanet.org"},
+    {"label": "HUD — Oklahoma PHA contact list", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"}
+  ]
+}

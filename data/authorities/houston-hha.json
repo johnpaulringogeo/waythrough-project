@@ -1,0 +1,45 @@
+{
+  "slug": "houston-hha",
+  "kind": "authority",
+  "name": "Houston Housing Authority (HHA)",
+  "short_name": "HHA",
+  "city": "Houston",
+  "state": "TX",
+  "serves": "the City of Houston, Texas",
+  "phone": "(713) 260-0500",
+  "official_url": "https://housingforhouston.com/",
+  "apply_url": "https://housingforhouston.com/residents/housing-choice-voucher/",
+  "city_slug": "houston",
+  "state_slug": "texas",
+  "updated": "July 2026",
+  "intro": "The Houston Housing Authority (HHA) — which began operating under the name Housing Alliance HTX in 2025 — is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, public housing, and project-based vouchers for the City of Houston. This page summarizes HHA's current waiting-list status, contact information, and how to apply, and links to the official HHA site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (tenant-based Section 8)",
+    "Public Housing",
+    "Project-Based Vouchers (PBV)",
+    "HUD-VASH (for veterans)",
+    "Mainstream vouchers (non-elderly people with disabilities)",
+    "Family Self-Sufficiency (FSS) and homeownership programs"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (tenant-based Section 8)", "status": "Closed", "note": "HHA's official site states the Housing Choice Voucher waiting list is currently closed. If you are already on it, make sure you completed the required re-registration — people who did not re-register can lose their place."},
+    {"program": "Public Housing", "status": "Closed", "note": "A site-based public-housing lottery for eight named properties accepted applications in late June and early July 2026 and has closed; applicants are notified by email through the RentCafe portal."},
+    {"program": "Project-Based Vouchers (PBV)", "status": "Varies by property", "note": "PBV lists are tied to specific developments; check the official site for current openings."}
+  ],
+  "also_serving": [
+    "<strong>Harris County Housing Authority (HCHA)</strong> is a separate authority serving unincorporated Harris County outside the Houston city limits, with its own waiting lists (hchatexas.org).",
+    "The <strong>Texas Department of Housing and Community Affairs (TDHCA)</strong> administers Section 8 in parts of Texas that do not have a local PHA."
+  ],
+  "faqs": [
+    {"q": "Is the Houston (HHA) Section 8 waiting list open?", "a": "As of July 2026, the Houston Housing Authority's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, according to HHA's official site, and its site-based public-housing lottery for eight properties has also closed. Always confirm the current status on the official HHA site before relying on it."},
+    {"q": "Is the Houston Housing Authority the same as Housing Alliance HTX?", "a": "Yes. In 2025 the Houston Housing Authority began operating under the name Housing Alliance HTX. It is the same public housing authority; both housingforhouston.com and alliancehtx.org are official."},
+    {"q": "Who do I contact if I live outside the Houston city limits?", "a": "The Harris County Housing Authority (HCHA) serves unincorporated Harris County outside the city and runs its own separate waiting lists at hchatexas.org. It is a different agency from the Houston Housing Authority."},
+    {"q": "How do I check my HHA waiting-list status?", "a": "Use HHA's applicant portal (hha.myhousing.com) or the RentCafe portal rather than calling the office. Keep your contact information current so HHA can reach you when your name comes up."}
+  ],
+  "sources": [
+    {"label": "Houston Housing Authority — official site", "url": "https://housingforhouston.com/"},
+    {"label": "HHA — Housing Choice Voucher (waitlist status)", "url": "https://housingforhouston.com/residents/housing-choice-voucher/"},
+    {"label": "HHA — Public Housing", "url": "https://housingforhouston.com/residents/public-housing/"},
+    {"label": "Housing Alliance HTX (HHA's current brand)", "url": "https://www.alliancehtx.org/"}
+  ]
+}

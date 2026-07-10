@@ -42,7 +42,7 @@ def build_gov_json(data):
     obj = {
         "@context": "https://schema.org",
         "@type": "GovernmentOffice",
-        "name": data["name"],
+        "name": data.get("schema_name") or data["name"],
         "telephone": data.get("phone", ""),
         "url": data.get("official_url", ""),
         "areaServed": data.get("serves", ""),

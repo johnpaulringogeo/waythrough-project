@@ -1,0 +1,44 @@
+{
+  "slug": "phoenix-az",
+  "kind": "authority",
+  "name": "City of Phoenix Housing Department",
+  "short_name": "the Phoenix Housing Department",
+  "city": "Phoenix",
+  "state": "AZ",
+  "serves": "the City of Phoenix, Arizona",
+  "phone": "(602) 262-6794",
+  "official_url": "https://www.phoenix.gov/housing",
+  "apply_url": "https://phxhousing.myhousing.com/",
+  "city_slug": "phoenix",
+  "state_slug": "arizona",
+  "updated": "July 2026",
+  "intro": "The City of Phoenix Housing Department is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, public housing, and city-owned affordable rental communities for the City of Phoenix. This page summarizes the department's current waiting-list status, contact information, and how to apply, and links to the official city site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing",
+    "City-owned affordable and senior rental communities",
+    "HUD-VASH (for veterans)",
+    "Family Unification Program (FUP) and Mainstream vouchers",
+    "Section 32 homeownership and down-payment assistance"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "The City of Phoenix Section 8 Housing Choice Voucher waiting list is currently closed. Openings are announced at phoenix.gov/housing and are filled by random lottery, not first-come, first-served."},
+    {"program": "Senior & affordable housing communities", "status": "Some open", "note": "Select senior communities have shown open waiting lists on the city's MyHousing portal (for example Fillmore Gardens, Maryvale Parkway Terrace, and Sunnyslope Manor). Confirm current openings on the portal."},
+    {"program": "HUD-VASH / FUP / Mainstream", "status": "By referral", "note": "These are accessed through partner agencies — VASH through the VA Medical Center — rather than an open public waiting list."}
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of Maricopa County (HAMC)</strong> is a separate authority serving Maricopa County outside the City of Phoenix, with its own waiting lists (maricopahousing.org).",
+    "The City of Phoenix is also the HOPWA grantee for housing assistance for people with HIV/AIDS across Maricopa and Pinal Counties."
+  ],
+  "faqs": [
+    {"q": "Is the Phoenix Section 8 waiting list open?", "a": "As of July 2026, the City of Phoenix Housing Choice Voucher (Section 8) waiting list is closed, per the city's official housing pages. Some senior and affordable-housing communities do show open waiting lists on the city's MyHousing portal. When the Section 8 list opens, applicants are chosen by random lottery rather than first-come, first-served. Confirm current status at phoenix.gov/housing."},
+    {"q": "How do I apply for Phoenix housing?", "a": "Apply through the City of Phoenix MyHousing applicant portal (phxhousing.myhousing.com). There is no cost to apply, you may submit only one application per household, and you can check your status on the portal about 24 hours after applying."},
+    {"q": "Who serves the Phoenix suburbs and the rest of Maricopa County?", "a": "The Housing Authority of Maricopa County (HAMC) administers vouchers and housing for Maricopa County outside the City of Phoenix and runs its own separate waiting lists at maricopahousing.org."}
+  ],
+  "sources": [
+    {"label": "City of Phoenix Housing Department — official site", "url": "https://www.phoenix.gov/housing"},
+    {"label": "City of Phoenix — Section 8 Housing Choice Voucher (waitlist status)", "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"},
+    {"label": "City of Phoenix — apply (MyHousing portal)", "url": "https://phxhousing.myhousing.com/"},
+    {"label": "Housing Authority of Maricopa County", "url": "https://maricopahousing.org/"}
+  ]
+}

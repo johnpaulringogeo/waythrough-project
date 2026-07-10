@@ -1,0 +1,45 @@
+{
+  "slug": "philadelphia-pha",
+  "kind": "authority",
+  "name": "Philadelphia Housing Authority (PHA)",
+  "short_name": "PHA",
+  "city": "Philadelphia",
+  "state": "PA",
+  "serves": "the City of Philadelphia, Pennsylvania",
+  "phone": "(215) 684-4000",
+  "official_url": "https://www.pha.phila.gov/",
+  "apply_url": "https://www.pha.phila.gov/housing/admissions/",
+  "city_slug": "philadelphia",
+  "state_slug": "pennsylvania",
+  "updated": "July 2026",
+  "intro": "The Philadelphia Housing Authority (PHA) is the public housing authority that administers Section 8 Housing Choice Vouchers and public housing for the City of Philadelphia — the fourth-largest housing authority in the United States, housing about 80,000 people. This page summarizes PHA's current waiting-list status, contact information, and how to apply, and links to the official PHA site for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing (about 13,000 PHA-owned units)",
+    "Project-Based / Unit-Based Vouchers",
+    "Emergency Housing Vouchers (EHV, by referral)",
+    "HUD-VASH (for veterans) and Family Unification Program (FUP)",
+    "Housing Choice Voucher Homeownership program"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8)", "status": "Closed", "note": "PHA's official site states the Housing Choice Voucher waiting list is currently closed; it was last opened in January 2023, and PHA is drawing invitations from that 2023 list."},
+    {"program": "Public Housing", "status": "Closed (with exceptions)", "note": "PHA closed its public-housing waiting lists in 2013; senior-designated developments and special programs remain open, and some tax-credit (PAPMC) properties keep their own separate lists."},
+    {"program": "Emergency Housing Vouchers (EHV)", "status": "By referral only", "note": "You cannot apply to PHA directly; referrals come through the City of Philadelphia's Office of Homeless Services (215-686-7177)."}
+  ],
+  "also_serving": [
+    "The <strong>Pennsylvania Housing Finance Agency (PHFA)</strong> runs statewide affordable-housing, Section 811, and homebuyer programs (phfa.org).",
+    "The <strong>City of Philadelphia Office of Homeless Services</strong> is the gateway for Emergency Housing Voucher referrals and emergency housing (215-686-7177)."
+  ],
+  "faqs": [
+    {"q": "Is the Philadelphia (PHA) Section 8 waiting list open?", "a": "No. As of July 2026, the Philadelphia Housing Authority's Housing Choice Voucher (Section 8) waiting list is closed, according to PHA's official site. It was last opened in January 2023, and PHA is currently inviting applicants from that 2023 list as vouchers become available. Confirm the current status on the official PHA site before relying on it."},
+    {"q": "How do I apply for PHA housing right now?", "a": "Because both main waiting lists are closed, the realistic paths are senior-designated developments, special programs, and site-based tax-credit (PAPMC) properties, applied for through PHA's online self-service portal linked from the Admissions page. Register for a PIN first. Veterans may also qualify for HUD-VASH."},
+    {"q": "How do I check my place on the PHA waiting list?", "a": "Log in to PHA's online self-service portal, or call (215) 684-4000. Applicants from the 2023 Housing Choice Voucher list can call the HCV department at (215) 684-4300 with their client ID. PHA does not disclose your exact numeric position."},
+    {"q": "What does “PHA” mean on this page?", "a": "Here, PHA refers specifically to the Philadelphia Housing Authority. Note that “PHA” is also a generic abbreviation for “public housing authority,” so elsewhere you may see it used in that broader sense."}
+  ],
+  "sources": [
+    {"label": "Philadelphia Housing Authority — official site", "url": "https://www.pha.phila.gov/"},
+    {"label": "PHA — Admissions / how to apply", "url": "https://www.pha.phila.gov/housing/admissions/"},
+    {"label": "PHA — Housing Choice Voucher (waitlist status)", "url": "https://www.pha.phila.gov/housing/housing-choice-voucher/"},
+    {"label": "HUD — Pennsylvania PHA contact list", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_PA.pdf"}
+  ]
+}

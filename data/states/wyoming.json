@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of programs in about two minutes.</p><p>Wyoming&rsquo;s eviction timeline is short, so if you get a 3-day notice, contact <a href=\"https://www.lawyoming.org\" target=\"_blank\" rel=\"noopener\">Legal Aid of Wyoming</a> (1-877-432-9955) right away and read <a href=\"../eviction-prevention\">eviction prevention</a>.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/riverton-wy",
+        "title": "Riverton Housing Authority",
+        "desc": "Who runs Section 8 for Riverton & Fremont County, and how to apply."
+      },
+      {
         "href": "resources/guides/how-to-avoid-eviction",
         "title": "How to Avoid Eviction",
         "desc": "Wyoming's 3-day FED process and your defenses."

@@ -105,7 +105,7 @@
                 {%- endif %}
 
                 <h2>More Local Resources</h2>
-                <p>For the full picture of affordable housing in this area — emergency shelter, rental assistance, tenant rights, and legal aid — see our <a href="{{ rel_prefix }}resources/cities/{{ data.city_slug }}">{{ data.city }} housing resources</a> page{% if data.state_slug %} and our <a href="{{ rel_prefix }}resources/states/{{ data.state_slug }}">{{ data.state }} state resources</a>{% endif %}.</p>
+                <p>For the full picture of affordable housing in this area — emergency shelter, rental assistance, tenant rights, and legal aid — see {% if data.city_slug %}our <a href="{{ rel_prefix }}resources/cities/{{ data.city_slug }}">{{ data.city }} housing resources</a> page{% if data.state_slug %} and our <a href="{{ rel_prefix }}resources/states/{{ data.state_slug }}">{{ data.state }} state resources</a>{% endif %}{% elif data.state_slug %}our <a href="{{ rel_prefix }}resources/states/{{ data.state_slug }}">{{ data.state }} state resources</a>{% endif %}.</p>
 
                 {%- if data.faqs %}
                 <h2>Frequently Asked Questions</h2>

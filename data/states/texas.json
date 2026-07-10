@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Texas programs in about two minutes based on whether your need is an emergency or long-term.</p><p>If you have a notice to vacate, do not wait for the court date: get an eviction-answer form at <a href=\"https://texaslawhelp.org\" target=\"_blank\" rel=\"noopener\">TexasLawHelp.org</a> and read <a href=\"../eviction-prevention\">eviction prevention</a>. Showing up to your JP hearing is the single most important thing you can do.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/houston-hha",
+        "title": "Houston Housing Authority (HHA)",
+        "desc": "Houston's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, repairs, deposits, and eviction defense."

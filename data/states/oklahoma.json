@@ -25,6 +25,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Oklahoma programs in about two minutes.</p><p>If you have a 5-day notice, do not wait: get help from <a href=\"https://oklaw.org\" target=\"_blank\" rel=\"noopener\">Legal Aid Services of Oklahoma</a> (1-888-534-5243) and read <a href=\"../eviction-prevention\">eviction prevention</a> before your hearing.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/oklahoma-city-ocha",
+        "title": "Oklahoma City Housing Authority (OCHA)",
+        "desc": "Oklahoma City's Section 8 waitlist status and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."

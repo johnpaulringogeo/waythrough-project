@@ -25,6 +25,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Pennsylvania programs in about two minutes.</p><p>If you have a notice to quit, do not wait: get help at <a href=\"https://www.palawhelp.org\" target=\"_blank\" rel=\"noopener\">PALawHELP.org</a> and, in Philadelphia, ask about the Eviction Diversion Program. Read <a href=\"../eviction-prevention\">eviction prevention</a> too.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/philadelphia-pha",
+        "title": "Philadelphia Housing Authority (PHA)",
+        "desc": "Philadelphia's Section 8 waitlist status and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."

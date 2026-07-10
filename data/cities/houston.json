@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure which program is right for you? Our <a href=\"../where-to-start\">Where to Start</a> tool asks a few quick questions and routes you to the right combination of programs.</p>\n<p>The HHA voucher waitlist is closed and average wait is 45 months — call (713) 260-0500 to verify your existing position or ask about specialty referrals (HUD-VASH, FUP, EHV). For rent help, call (713) 400-4900 (BakerRipley) or 211. If you got a 3-day notice, call Lone Star Legal Aid at (713) 226-0600 the same day — Texas evictions are among the fastest and the 2025 SB 38 made them even faster.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/houston-hha",
+        "title": "Houston Housing Authority (HHA)",
+        "desc": "Section 8 waitlist status, contact, and how to apply for HHA."
+      },
+      {
         "href": "resources/where-to-start",
         "title": "Where to Start",
         "desc": "Find the right programs for your situation."

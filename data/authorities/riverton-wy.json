@@ -1,0 +1,43 @@
+{
+  "slug": "riverton-wy",
+  "kind": "authority",
+  "name": "Riverton Housing Authority",
+  "short_name": "",
+  "schema_name": "Housing Choice Voucher Office serving Riverton, WY (Cheyenne Housing Authority)",
+  "city": "Riverton",
+  "state": "WY",
+  "serves": "Riverton and Fremont County, Wyoming",
+  "phone": "(307) 332-2746",
+  "official_url": "https://www.cheyennehousing.org/",
+  "apply_url": "https://www.cheyennehousing.org/housing-choice-voucher",
+  "city_slug": "",
+  "state_slug": "wyoming",
+  "updated": "July 2026",
+  "intro": "If you are searching for the “Riverton Housing Authority,” here is the key thing to know: Riverton, Wyoming does not have its own local public housing authority, and the site many people look for (rivertonhousing.org) is no longer online. Section 8 Housing Choice Vouchers for Riverton and the surrounding Fremont County area are administered regionally by the Cheyenne Housing Authority (CHA), which runs a Housing Choice Voucher office for the Lander/Riverton area. This page explains how to reach that office, what affordable-apartment options exist in Riverton, and how to apply, and links to the official sources for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Vouchers (Section 8) for the Riverton area — administered by the Cheyenne Housing Authority's Lander/Riverton voucher office, not a local Riverton authority",
+    "Low-Income Housing Tax Credit (LIHTC) apartment communities located in Riverton — privately owned and income-restricted, each with its own waiting list (listed below)",
+    "Statewide affordable-housing and first-time homebuyer programs through the Wyoming Community Development Authority (WCDA)"
+  ],
+  "waitlists": [
+    {"program": "Housing Choice Voucher (Section 8) — Cheyenne Housing Authority, Lander/Riverton office", "status": "Contact the office to confirm current status", "note": "Because Riverton has no PHA of its own, vouchers here are handled by the Cheyenne Housing Authority. Voucher waiting lists open and close with funding — call (307) 332-2746 to confirm whether the list is open before you apply. (Checked July 2026.)"},
+    {"program": "Riverton LIHTC apartments (tax-credit affordable housing)", "status": "Apply at each property", "note": "These are privately managed complexes with their own separate waiting lists — see the list in the FAQ below."}
+  ],
+  "also_serving": [
+    "<strong>Cheyenne Housing Authority (CHA)</strong> — main office at 3304 Sheridan St, Cheyenne, WY 82009, (307) 633-8333 — administers Housing Choice Vouchers for Riverton through its Lander/Riverton voucher office at (307) 332-2746.",
+    "<strong>Eastern Shoshone Housing Authority</strong> (Fort Washakie) and <strong>Northern Arapaho</strong> tribal housing serve enrolled tribal members on and near the Wind River Reservation.",
+    "<strong>Wyoming Community Development Authority (WCDA)</strong> — the statewide housing finance agency — runs other affordable-housing and first-time homebuyer programs across Wyoming."
+  ],
+  "faqs": [
+    {"q": "Is there a Riverton Housing Authority?", "a": "Not as a standalone local agency. Riverton, Wyoming does not have its own public housing authority, and the website people often look for (rivertonhousing.org) is no longer online. Section 8 Housing Choice Vouchers for Riverton and Fremont County are administered by the Cheyenne Housing Authority, which operates a Housing Choice Voucher office for the Lander/Riverton area reachable at (307) 332-2746."},
+    {"q": "How do I apply for Section 8 in Riverton, WY?", "a": "Contact the Cheyenne Housing Authority's Lander/Riverton Housing Choice Voucher office at (307) 332-2746, or start on the Cheyenne Housing Authority's Housing Choice Voucher page. Voucher waiting lists open and close depending on funding, so ask whether the list is currently open before applying, and keep your contact information current once you are on it."},
+    {"q": "What affordable apartments are in Riverton?", "a": "Riverton has several income-restricted Low-Income Housing Tax Credit (LIHTC) apartment communities, each privately managed with its own waiting list: Airport Rd Project (1280 Quiver Ln), Beaver Creek Housing (1515 Bitterroot Dr), College Hill Apartments (3012 College Hill Dr) and College Hill Phase II (615 Eagle Dr), Copper Mountain Apartments (614 Hill St), Owl Creek Apartments (2220 Rose Ln), Wolf Creek Apartments (608 Wolf Creek Dr), and Woodridge Apartments (1302 Redwood Dr). Apply directly at each property. For reference, the HUD Fair Market Rent for Fremont County is about $779 for a one-bedroom and $1,024 for a two-bedroom."},
+    {"q": "Who serves tribal members near Riverton?", "a": "Riverton borders the Wind River Reservation. Enrolled members of the Eastern Shoshone and Northern Arapaho tribes may qualify for housing through the Eastern Shoshone Housing Authority in Fort Washakie or Northern Arapaho tribal housing programs, which are separate from the Section 8 voucher program."}
+  ],
+  "sources": [
+    {"label": "Cheyenne Housing Authority — official site", "url": "https://www.cheyennehousing.org/"},
+    {"label": "Cheyenne Housing Authority — Contact (lists the Lander/Riverton voucher office)", "url": "https://www.cheyennehousing.org/contact-us"},
+    {"label": "Cheyenne Housing Authority — Housing Choice Voucher program", "url": "https://www.cheyennehousing.org/housing-choice-voucher"},
+    {"label": "HUD — Wyoming Public Housing Agency contact list", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_WY.pdf"}
+  ]
+}
