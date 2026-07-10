@@ -2,7 +2,9 @@
  * Cloudflare Pages Function — HUD API Proxy
  *
  * Proxies requests to the HUD User API (huduser.gov) to avoid CORS issues.
- * The API token is kept server-side so it's not exposed to clients.
+ * The API token is read from the HUD_API_TOKEN environment variable
+ * (a Cloudflare Pages Functions binding) so it is never exposed to
+ * clients or committed to source control.
  *
  * URL mapping:
  *   /api/hud/fmr/listStates       → https://www.huduser.gov/hudapi/public/fmr/listStates
@@ -13,7 +15,6 @@
  */
 
 const HUD_API_BASE = 'https://www.huduser.gov/hudapi/public';
-const HUD_API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI2IiwianRpIjoiZDVkMDJjM2M5NDUyNzFkNjEzNjI5ZTk3NGRhMGEwODNjYmE1MWY3YmRlMDgzYTVjNzkwMzA2MDk5NTAyZTI1YWJjMWM5ZjdiNzU0MDU3NDMiLCJpYXQiOjE3NzQ4OTg5NTIuNTM1Mzk2LCJuYmYiOjE3NzQ4OTg5NTIuNTM1Mzk4LCJleHAiOjIwOTA1MTgxNTIuNTMxMjk3LCJzdWIiOiIxMjQxNjgiLCJzY29wZXMiOltdfQ.iUSBmLhvDlf7F6TWZ4341RAkd_T1OWnKH3cAdN7efBY5CB1X2yNbBDS3w34_uTgMUK2JJ_ieupojw-Z3to8W_A';
 
 // CORS headers for browser requests
 const CORS_HEADERS = {
@@ -49,10 +50,21 @@ export async function onRequest(context) {
         });
     }
 
+    // Read the HUD API token from the Cloudflare Pages Functions environment.
+    const hudToken = context.env && context.env.HUD_API_TOKEN;
+    if (!hudToken) {
+        return new Response(JSON.stringify({
+            error: 'Server misconfiguration: the HUD_API_TOKEN environment variable is not set.',
+        }), {
+            status: 500,
+            headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
+        });
+    }
+
     try {
         const hudResponse = await fetch(HUD_API_BASE + apiPath, {
             headers: {
-                'Authorization': 'Bearer ' + HUD_API_TOKEN,
+                'Authorization': 'Bearer ' + hudToken,
                 'User-Agent': 'WaythroughProject/1.0',
             },
         });
