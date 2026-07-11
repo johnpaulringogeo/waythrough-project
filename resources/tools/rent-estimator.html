@@ -932,4 +932,13 @@
         // Escape HTML for safe insertion
         function escapeHtml(str) {
             var div = document.createElement('div');
-            div.textCont
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // Initialize
+        loadStates();
+    })();
+    </script>
+</body>
+</html>
