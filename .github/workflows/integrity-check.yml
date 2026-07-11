@@ -1,0 +1,21 @@
+name: Repo Integrity Check
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run integrity check
+        run: python scripts/check_integrity.py

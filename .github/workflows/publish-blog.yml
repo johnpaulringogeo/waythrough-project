@@ -35,6 +35,10 @@ jobs:
         if: steps.check.outputs.has_drafts == 'true'
         run: python .github/scripts/publish-draft.py
 
+      - name: Verify repo integrity before publishing
+        if: steps.check.outputs.has_drafts == 'true'
+        run: python scripts/check_integrity.py
+
       - name: Commit and push
         if: steps.check.outputs.has_drafts == 'true'
         run: |
