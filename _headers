@@ -4,12 +4,16 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://api.web3forms.com https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self' https://api.web3forms.com; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  Cache-Control: public, max-age=0, must-revalidate
 
 /css/*
+  ! Cache-Control
   Cache-Control: public, max-age=31536000, immutable
 
 /js/*
+  ! Cache-Control
   Cache-Control: public, max-age=31536000, immutable
 
 /images/*
+  ! Cache-Control
   Cache-Control: public, max-age=31536000, immutable
