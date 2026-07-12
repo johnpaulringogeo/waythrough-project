@@ -19,3 +19,16 @@ Waythrough_Site_Improvement_Roadmap.docx
 
 # Phase 4 thin-content audit output (local only)
 _audit/
+
+# Scratch/junk files (never commit -- housekeeping 2026-07-12)
+*.bak.*
+_deltest.tmp
+*_probe*.txt
+_pm_session_commands_*.md
+COMMIT_MSG.txt
+_just_made.txt
+_sync_test.txt
+
+# Local build/tooling artifacts
+.wrangler/
+__pycache__/

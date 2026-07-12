@@ -11,6 +11,13 @@ moves it to blog/posts/, and updates:
 
 Run from the repo root:
     python .github/scripts/publish-draft.py
+
+WARNING: Never re-add a draft that has already been published (i.e. one that
+was moved out of blog/drafts/ into blog/posts/). Re-adding a published draft
+here causes DUPLICATE PUBLICATION -- this script will move it to blog/posts/
+again and add a second blog/index.html card, blog/posts.json entry,
+blog/feed.xml <item>, and sitemap.xml <url>. Ghost drafts of already-published
+posts must be deleted, never restored to blog/drafts/.
 """
 
 import os, re, json, sys
