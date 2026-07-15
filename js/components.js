@@ -502,7 +502,7 @@ function renderFooter() {
                         <li><a href="${root}es/recursos/respuestas-de-la-comunidad">Respuestas</a></li>
                         <li><a href="${root}index">English</a></li>
                         <li><a href="${root}es/blog/">Blog</a></li>
-                        <li><span class="footer-link-placeholder">YouTube — próximamente</span></li>
+                        <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
                         <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
                     </ul>
                 </div>
@@ -559,7 +559,7 @@ function renderFooter() {
                         <li><a href="${root}resources/community-answers">Community Q&A</a></li>
                         <li><a href="${root}es/">Español</a></li>
                         <li><a href="${root}blog/">Blog</a></li>
-                        <li><span class="footer-link-placeholder">YouTube — coming soon</span></li>
+                        <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
                         <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
                     </ul>
                 </div>
