@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Can You Apply for Section 8 in Multiple States?</title>
+      <link>https://waythroughproject.com/blog/posts/applying-for-section-8-in-multiple-states</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/applying-for-section-8-in-multiple-states</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Yes — and you should. Here's how to apply to multiple PHAs at once, how the waiting lists work, and what happens when you get called from a list in a different state.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Your Rights When Your Apartment Building Gets Sold</title>
