@@ -35,7 +35,7 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     <script>(function(){try{var t=localStorage.getItem(\'theme\');if(!t){t=window.matchMedia&&window.matchMedia(\'(prefers-color-scheme: dark)\').matches?\'dark\':\'light\';}document.documentElement.setAttribute(\'data-theme\',t);}catch(e){}})();</script>
     <link rel="stylesheet" href="../../../css/style.css?v=26">
-    <script src="../../../js/components.js?v=32" defer></script>
+    <script src="../../../js/components.js?v=31" defer></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -285,7 +285,7 @@
             if (childcareDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por cuidado infantil</span><span>-' + fmt(childcareDeduction) + '</span></div>';
             html += '<div class="kyn-calc-step"><span>Ingreso Anual Ajustado</span><span>' + fmt(adjustedIncome) + '</span></div>';
             html += '<div class="kyn-calc-step"><span>30% del Ingreso Ajustado (anual)</span><span>' + fmt(ttp) + '</span></div>';
-            html += '<div class="kyn-calc-step total"><span>Su Renta Mensual Estimada (TTP)</span><span>' + fmt(monthlyTTP) + '/mes</span></div>';
+            html += '<div class="kyn-calc-step total"><span>Su Renta Mensual Estimada (TTP)</span><span>' + fmt(monthlyTTP) + '&#47;mes</span></div>';
 
             const housingPct = monthlyIncome > 0 ? Math.min(100, (monthlyTTP / monthlyIncome) * 100) : 0;
             html += '<p style="margin-top:16px;font-size:0.95rem;">Eso es aproximadamente <strong>' + Math.round(housingPct) + '%</strong> de su ingreso bruto destinado a renta.</p>';
@@ -308,9 +308,9 @@
 
             let incHtml = '<div class="kyn-income-cat ' + catClass + '">' + catLabel + '</div>';
             incHtml += '<p style="font-size:0.95rem;">Para un hogar de ' + hhSize + ', los estimados nacionales son:</p>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Extremadamente Bajos (30% AMI)</span><span>Menos de ' + fmt(eli) + '/año</span></div>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Muy Bajos (50% AMI)</span><span>Menos de ' + fmt(vli) + '/año</span></div>';
-            incHtml += '<div class="kyn-calc-step"><span>Ingresos Bajos (80% AMI)</span><span>Menos de ' + fmt(li) + '/año</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Extremadamente Bajos (30% AMI)</span><span>Menos de ' + fmt(eli) + '&#47;año</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Muy Bajos (50% AMI)</span><span>Menos de ' + fmt(vli) + '&#47;año</span></div>';
+            incHtml += '<div class="kyn-calc-step"><span>Ingresos Bajos (80% AMI)</span><span>Menos de ' + fmt(li) + '&#47;año</span></div>';
             incHtml += '<div class="kyn-calc-step"><span>Su ingreso anual</span><span><strong>' + fmt(annualIncome) + '</strong></span></div>';
             incHtml += '<p style="font-size:0.85rem;color:var(--color-text-light);margin-top:12px;">Nota: Los límites de ingresos reales varían significativamente por condado. Estos son estimados nacionales. Consulte con su PHA local para los límites exactos.</p>';
 
