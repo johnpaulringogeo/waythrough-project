@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>You Owe a Housing Authority Money — Now What?</title>
+      <link>https://waythroughproject.com/blog/posts/what-to-do-if-you-owe-a-pha-money</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/what-to-do-if-you-owe-a-pha-money</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Owing money to a PHA can block you from getting a new voucher. Here's how repayment agreements work, how to dispute a debt, and how to get back on track.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Can You Apply for Section 8 in Multiple States?</title>
