@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure which program is right for you? Our <a href=\"../where-to-start\">Where to Start</a> tool asks a few quick questions about your situation and routes you to the right combination of programs.</p>\n<p>The RHA Section 8 waitlist is closed — call (919) 831-1100 to verify your existing position or ask about specialty referrals (HUD-VASH, FUP, EHV). For rent help, contact Wake Prevent! through Wake County or call 211. If you got a 10-day notice, contact Legal Aid of North Carolina at 1-866-219-LANC the same day — NC eviction trials happen 7-10 days after filing.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/raleigh-rha",
+        "title": "Raleigh Housing Authority (RHA)",
+        "desc": "Section 8 waitlist status, contact, and how to apply for RHA."
+      },
+      {
         "href": "resources/where-to-start",
         "title": "Where to Start",
         "desc": "Find the right programs for your situation."

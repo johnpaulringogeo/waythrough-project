@@ -1,0 +1,180 @@
+{
+  "slug": "jacksonville-jha",
+  "kind": "authority",
+  "name": "Jacksonville Housing",
+  "short_name": "Jacksonville Housing",
+  "schema_name": "Jacksonville Housing (formerly Jacksonville Housing Authority)",
+  "city": "Jacksonville",
+  "state": "FL",
+  "serves": "Jacksonville and Duval County, Florida",
+  "phone": "(904) 630-3810",
+  "official_url": "https://www.jaxha.org/",
+  "apply_url": "https://myportals.jaxha.org/",
+  "city_slug": "jacksonville",
+  "state_slug": "florida",
+  "updated": "July 30, 2026",
+  "intro": "Jacksonville Housing — formerly the Jacksonville Housing Authority, and still HUD agency number FL001 — is the public housing authority for Jacksonville and Duval County, Florida. Its own site says it operates 2,881 public housing units and manages 7,868 Housing Choice Vouchers. This page summarizes what Jacksonville Housing itself publishes about its waiting-list status, contact information, and how to apply, and links to its own pages for anything time-sensitive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing (2,881 units)",
+    "Site-specific public housing waiting lists, including Centennial Towers and Hogan Creek",
+    "Voucher portability into and out of Jacksonville"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked July 30, 2026). Jacksonville Housing's own program pages say: \"All Waiting Lists(s) are officially closed effective Wednesday, May 31st, 2023, by 5:00 p.m. - NO Applications will be accepted after this date,\" and its applicant portal page states: \"The Housing Choice Voucher waiting list is closed and not accepting applications.\" Note the year — 2023, not 2026. Some listing sites have this date wrong."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Closed",
+      "note": "Closed (checked July 30, 2026): \"The Public Housing waiting list is closed and not accepting applications.\" The closure has not been unbroken — Jacksonville Housing reopened the five-bedroom public housing list in November 2023, then closed Centennial Towers, Hogan Creek and the working and non-working five-bedroom lists on Friday, August 23, 2024, adding that \"all other Jacksonville Housing waiting lists are closed at this time.\" That pattern is worth knowing: individual lists can open briefly even while the main lists stay shut, so check jaxha.org regularly."
+    }
+  ],
+  "also_serving": [
+    "<strong>Check that you have the right Jacksonville.</strong> Housing agencies in several other states also use the name \"Jacksonville Housing Authority.\" Florida's agency is HUD number FL001, its website is jaxha.org, and its phone is (904) 630-3810. If a phone number or waiting-list notice you found does not match those, you are probably looking at a different state's agency.",
+    "<strong>Use myportals.jaxha.org, not apply.jaxha.org.</strong> The apply.jaxha.org address fails with a security-certificate error. The portal Jacksonville Housing links from its own site is myportals.jaxha.org.",
+    "Jacksonville Housing's own site describes its service area as the City of Jacksonville and Duval County. If you live in Clay, St. Johns or Nassau County, look up your own county's housing authority — you may be able to apply there as well."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Jacksonville Section 8 waiting list open?",
+      "a": "No. As of July 30, 2026, all Jacksonville Housing waiting lists are closed. Its program pages state: \"All Waiting Lists(s) are officially closed effective Wednesday, May 31st, 2023, by 5:00 p.m. - NO Applications will be accepted after this date.\" The year is 2023. If you have seen a 2026 date for this closure somewhere else, that is an error. Confirm current status at jaxha.org or by calling (904) 630-3810."
+    },
+    {
+      "q": "I'm behind on rent — do I still get a 30-day notice before eviction?",
+      "a": "For now, yes, but this is actively changing and you should not count on it. HUD published an interim final rule on February 26, 2026 that would revoke the 30-day pre-termination notice requirement for nonpayment of rent in public housing and project-based Section 8. On March 13, 2026, HUD delayed that rule's effective date indefinitely while it considers public comments, so the 30-day notice requirement remains in place pending a final rule. The practical advice does not change either way: if you are behind on rent, act immediately rather than waiting for a notice period. Contact your housing authority or property manager the day you know you will be short, ask in writing about a repayment agreement, keep copies of everything you send and receive, and get legal help early — a Florida eviction moves quickly once it is filed."
+    },
+    {
+      "q": "How do I apply for housing in Jacksonville?",
+      "a": "Applications go through the Rent Café portal at myportals.jaxha.org — but only when a waiting list is open, and as of July 30, 2026 none are. Create your account now anyway so you are ready the moment a list opens, and check jaxha.org's news page regularly, since Jacksonville Housing has opened individual lists for short periods in the past."
+    },
+    {
+      "q": "What preferences does Jacksonville Housing use?",
+      "a": "Its public housing FAQ lists a working-family preference — \"two families from this category will be selected for every one family selected from the Non-Working Families category\" — for households whose head or spouse has worked at least 30 hours a week continuously for at least six months. Households whose head or spouse is at least 62 or has a documented disability also qualify for that preference. There are separate preferences for people with disabilities, for applicants who verify they are victims of domestic violence, and for applicants displaced by government action. There is a veteran preference for \"any veteran who has served active duty in any branch of the United States military service\" — the FAQ sets no discharge-status condition — and if the veteran dies before admission, their spouse keeps that place and preference. Its current Housing Choice Voucher administrative plan defines working families by a different test: head, spouse or co-head \"employed and currently working 28 hours in Duval County.\" Ask which rule applies to the program you are applying for."
+    },
+    {
+      "q": "How many units does Jacksonville Housing have?",
+      "a": "Its own site says 2,881 public housing units and 7,868 Housing Choice Vouchers. Its PHA Annual Plan gives a larger voucher total of 9,081. Both figures are Jacksonville Housing's own, published in different documents; the difference likely reflects different counting dates or which voucher categories are included. Either way, demand far exceeds supply, which is why the lists have stayed closed."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Jacksonville Housing - official site",
+      "url": "https://www.jaxha.org/"
+    },
+    {
+      "label": "Jacksonville Housing - Housing Choice Voucher program (waiting-list status)",
+      "url": "https://www.jaxha.org/hcv-program"
+    },
+    {
+      "label": "Jacksonville Housing - Public Housing (waiting-list status)",
+      "url": "https://www.jaxha.org/public-housing"
+    },
+    {
+      "label": "Jacksonville Housing - applicant Rent Café portal page",
+      "url": "https://www.jaxha.org/applicant-rent-cafe"
+    },
+    {
+      "label": "Jacksonville Housing - Public Housing FAQ (preferences)",
+      "url": "https://www.jaxha.org/public-housing-faq"
+    },
+    {
+      "label": "Jacksonville Housing - applicant and resident portal",
+      "url": "https://myportals.jaxha.org/"
+    },
+    {
+      "label": "HUD / Federal Register - Revocation of the 30-Day Notification Requirement (February 26, 2026)",
+      "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of"
+    },
+    {
+      "label": "HUD / Federal Register - Indefinite Delay of Effective Date (March 13, 2026)",
+      "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04990/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of"
+    }
+  ],
+  "es": {
+    "serves": "Jacksonville y el condado de Duval, Florida",
+    "updated": "30 de julio de 2026",
+    "intro": "Jacksonville Housing — antes llamada Jacksonville Housing Authority, y todavía la agencia número FL001 de HUD — es la autoridad pública de vivienda de Jacksonville y del condado de Duval, Florida. Su propio sitio indica que administra 2,881 unidades de vivienda pública y 7,868 Housing Choice Vouchers. Esta página resume lo que la propia agencia publica sobre el estado de sus listas de espera, su información de contacto y cómo solicitar, y enlaza a sus páginas oficiales para cualquier asunto urgente.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública (2,881 unidades)",
+      "Listas de espera de propiedades específicas, como Centennial Towers y Hogan Creek",
+      "Portabilidad de vales hacia y desde Jacksonville"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 30 de julio de 2026). Las páginas oficiales de la agencia dicen, en inglés: \"All Waiting Lists(s) are officially closed effective Wednesday, May 31st, 2023, by 5:00 p.m. - NO Applications will be accepted after this date\" — todas las listas de espera están cerradas oficialmente desde las 5:00 p. m. del miércoles 31 de mayo de 2023 y no se aceptan solicitudes. Su portal para solicitantes añade que la lista del Housing Choice Voucher está cerrada. Fíjese en el año: 2023, no 2026. Algunos sitios que recopilan listas de espera publican esta fecha de forma incorrecta."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 30 de julio de 2026): la lista de espera de vivienda pública está cerrada y no acepta solicitudes. El cierre no ha sido continuo: la agencia reabrió la lista de cinco recámaras en noviembre de 2023 y después cerró Centennial Towers, Hogan Creek y las listas de cinco recámaras para familias trabajadoras y no trabajadoras el viernes 23 de agosto de 2024, indicando que todas las demás listas seguían cerradas. Vale la pena saberlo: algunas listas individuales pueden abrir por poco tiempo aunque las principales sigan cerradas, así que revise jaxha.org con regularidad."
+      }
+    ],
+    "also_serving": [
+      "<strong>Confirme que se trata del Jacksonville correcto.</strong> Agencias de vivienda de otros estados también usan el nombre \"Jacksonville Housing Authority\". La agencia de Florida es la número FL001 de HUD, su sitio web es jaxha.org y su teléfono es el (904) 630-3810. Si un número de teléfono o un aviso de lista de espera que encontró no coincide con esos datos, es probable que esté viendo la agencia de otro estado.",
+      "<strong>Use myportals.jaxha.org, no apply.jaxha.org.</strong> La dirección apply.jaxha.org falla con un error de certificado de seguridad. El portal que la propia agencia enlaza desde su sitio es myportals.jaxha.org.",
+      "El sitio oficial describe su zona de servicio como la ciudad de Jacksonville y el condado de Duval. Si usted vive en los condados de Clay, St. Johns o Nassau, busque la autoridad de vivienda de su propio condado, donde quizá también pueda presentar una solicitud."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Jacksonville?",
+        "a": "No. Al 30 de julio de 2026, todas las listas de espera de Jacksonville Housing están cerradas. Sus páginas oficiales indican que las listas cerraron a las 5:00 p. m. del miércoles 31 de mayo de 2023 y que no se aceptan solicitudes después de esa fecha. El año es 2023. Si vio una fecha de 2026 para este cierre en otro sitio, es un error. Confirme el estado actual en jaxha.org o llamando al (904) 630-3810."
+      },
+      {
+        "q": "Estoy atrasado en el alquiler: ¿todavía recibo un aviso de 30 días antes del desalojo?",
+        "a": "Por ahora sí, pero esto está cambiando y no conviene contar con ello. HUD publicó una regla interina final el 26 de febrero de 2026 que eliminaría el requisito de dar un aviso de 30 días antes de terminar el contrato por falta de pago del alquiler en la vivienda pública y en la Sección 8 basada en proyectos. El 13 de marzo de 2026, HUD aplazó indefinidamente la entrada en vigor de esa regla mientras analiza los comentarios del público, así que el requisito del aviso de 30 días sigue vigente hasta que se emita una regla final. El consejo práctico no cambia: si está atrasado en el alquiler, actúe de inmediato en lugar de esperar un plazo. Comuníquese con su autoridad de vivienda o con el administrador de la propiedad el mismo día en que sepa que no podrá pagar, pida por escrito un acuerdo de pago, guarde copia de todo lo que envíe y reciba, y busque ayuda legal cuanto antes: en Florida un desalojo avanza con rapidez una vez presentado."
+      },
+      {
+        "q": "¿Cómo solicito vivienda en Jacksonville?",
+        "a": "Las solicitudes se presentan por el portal Rent Café en myportals.jaxha.org, pero solo cuando hay una lista abierta, y al 30 de julio de 2026 no hay ninguna. Cree su cuenta de todos modos para estar listo en cuanto abra una lista, y revise la sección de noticias de jaxha.org con regularidad, ya que la agencia ha abierto listas individuales por períodos cortos en el pasado."
+      },
+      {
+        "q": "¿Qué preferencias usa Jacksonville Housing?",
+        "a": "Sus preguntas frecuentes de vivienda pública describen una preferencia para familias trabajadoras: se selecciona a dos familias de esa categoría por cada familia de la categoría de familias no trabajadoras, para hogares cuyo jefe de familia o cónyuge haya trabajado al menos 30 horas por semana de forma continua durante al menos seis meses. Los hogares cuyo jefe de familia o cónyuge tenga 62 años o más, o una discapacidad documentada, también califican para esa preferencia. Hay preferencias aparte para personas con discapacidad, para quienes comprueban que son víctimas de violencia doméstica y para quienes fueron desplazados por una acción del gobierno. Existe además una preferencia para cualquier veterano que haya prestado servicio activo en cualquier rama de las fuerzas armadas de Estados Unidos — las preguntas frecuentes no exigen un tipo de baja en particular — y si el veterano fallece antes de la admisión, su cónyuge conserva ese lugar y esa preferencia. El plan administrativo vigente del Housing Choice Voucher define a las familias trabajadoras con otro criterio: jefe de familia, cónyuge o co-jefe empleado y trabajando 28 horas en el condado de Duval. Pregunte cuál regla se aplica al programa que le interesa."
+      },
+      {
+        "q": "¿Cuántas unidades tiene Jacksonville Housing?",
+        "a": "Su propio sitio indica 2,881 unidades de vivienda pública y 7,868 Housing Choice Vouchers. Su Plan Anual de la PHA da un total mayor de vales: 9,081. Ambas cifras son de la propia agencia, publicadas en documentos distintos; la diferencia probablemente refleja fechas de conteo distintas o qué categorías de vales se incluyen. En cualquier caso, la demanda supera con mucho la oferta, y por eso las listas siguen cerradas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Jacksonville Housing - sitio oficial (en inglés)",
+        "url": "https://www.jaxha.org/"
+      },
+      {
+        "label": "Jacksonville Housing - programa Housing Choice Voucher (estado de la lista)",
+        "url": "https://www.jaxha.org/hcv-program"
+      },
+      {
+        "label": "Jacksonville Housing - vivienda pública (estado de la lista)",
+        "url": "https://www.jaxha.org/public-housing"
+      },
+      {
+        "label": "Jacksonville Housing - página del portal Rent Café para solicitantes",
+        "url": "https://www.jaxha.org/applicant-rent-cafe"
+      },
+      {
+        "label": "Jacksonville Housing - preguntas frecuentes de vivienda pública (preferencias)",
+        "url": "https://www.jaxha.org/public-housing-faq"
+      },
+      {
+        "label": "Jacksonville Housing - portal para solicitantes y residentes",
+        "url": "https://myportals.jaxha.org/"
+      },
+      {
+        "label": "HUD / Federal Register - revocación del requisito de aviso de 30 días (26 de febrero de 2026)",
+        "url": "https://www.federalregister.gov/documents/2026/02/26/2026-03921/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of"
+      },
+      {
+        "label": "HUD / Federal Register - aplazamiento indefinido de la entrada en vigor (13 de marzo de 2026)",
+        "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04990/revocation-of-the-30-day-notification-requirement-prior-to-termination-of-lease-for-nonpayment-of"
+      }
+    ]
+  }
+}

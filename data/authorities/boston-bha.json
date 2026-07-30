@@ -1,0 +1,249 @@
+{
+  "slug": "boston-bha",
+  "kind": "authority",
+  "name": "Boston Housing Authority",
+  "short_name": "BHA",
+  "city": "Boston",
+  "state": "MA",
+  "serves": "the City of Boston, Massachusetts",
+  "phone": "(617) 988-4000",
+  "official_url": "https://www.bostonhousing.org/",
+  "apply_url": "https://boston.myhousing.com/",
+  "city_slug": "boston",
+  "state_slug": "massachusetts",
+  "updated": "July 30, 2026",
+  "intro": "The Boston Housing Authority (BHA) is the public housing authority for the City of Boston. Here is the headline most people miss: BHA's Section 8 tenant-based voucher waiting list is closed, but its public housing waiting lists are still taking applications. Those are two different things with two different applications, and being turned away from one does not mean you are shut out of the other. This page summarizes what BHA itself publishes about each list, plus the statewide Massachusetts programs that sit alongside them, and links to the official pages for anything time-sensitive.",
+  "programs": [
+    "Section 8 Housing Choice Voucher, tenant-based",
+    "Federal and City of Boston funded public housing",
+    "State-aided public housing",
+    "Project-Based Voucher and Moderate Rehabilitation programs",
+    "City of Boston Voucher Program (referral only)",
+    "Massachusetts Rental Voucher Program (MRVP)"
+  ],
+  "waitlists": [
+    {
+      "program": "Section 8 Housing Choice Voucher (tenant-based)",
+      "status": "Closed",
+      "note": "Closed (checked July 30, 2026). BHA states: \"BHA is not currently able to accept new applications for the Tenant-Based Program and the waiting list is closed until further notice.\" Two things to know. First, BHA's Housing Choice Voucher administrative plan says it \"will give at least two weeks advance public notice that a Family may apply for housing assistance before opening any waiting list\" — so there will be warning, but only about two weeks of it. Second, the same plan says that while the list is closed BHA \"will not maintain a list of individuals who wish to be notified when the waiting list is reopened.\" Nobody will call you. You have to watch bostonhousing.org yourself."
+    },
+    {
+      "program": "Public housing — federal and City of Boston funded",
+      "status": "Accepting applications",
+      "note": "Open to new applicants (checked July 30, 2026). BHA states that \"new applicants may apply to public housing programs, the Project-Based voucher program and the Mod Rehab program.\" Apply online at boston.myhousing.com. Federal developments require the applicant to be at least 62 and/or disabled where the development is designated for elderly or disabled households."
+    },
+    {
+      "program": "Public housing — state-aided",
+      "status": "Accepting applications",
+      "note": "A separate application from the federal and city list above — you should file both. BHA links it as the \"State Housing Application\"; Massachusetts brands the same system CHAMP, the Common Housing Application for Massachusetts Programs, at publichousingapplication.ocd.state.ma.us. Note the age rule differs: state-funded developments require applicants to be at least 60 and/or disabled, while federal developments require 62 and/or disabled (checked July 30, 2026)."
+    },
+    {
+      "program": "Project-Based Voucher and Mod Rehab",
+      "status": "Accepting applications (Priority One only)",
+      "note": "These lists are open, but BHA states that \"for most Leased Housing/Section 8 programs and Moderate Rehabilitation applicants must be qualified as Priority One status,\" and that applicants \"must provide proof of their Priority One status when submitting their application.\" Ask BHA what documents establish Priority One before you apply (checked July 30, 2026)."
+    },
+    {
+      "program": "Massachusetts Rental Voucher Program (MRVP) — BHA's allocation",
+      "status": "Closed",
+      "note": "BHA lists its MRVP allocation as \"currently closed to new applicants\" (checked July 30, 2026). This is separate from the statewide MRVP list — see the section below, because the statewide answer is different and staff at either agency may tell you something that sounds contradictory."
+    },
+    {
+      "program": "City of Boston Voucher Program",
+      "status": "By referral only",
+      "note": "Not something you can apply for directly. BHA states that clients \"cannot apply directly to the BHA for the CBVP\" and that it uses \"a closed referral system\" through partner organizations."
+    }
+  ],
+  "also_serving": [
+    "<strong>Statewide Section 8, run by EOHLC, is closed.</strong> The Massachusetts Executive Office of Housing and Livable Communities states: \"Effective January 13, 2025, EOHLC has closed its HCVP/Section 8 mobile voucher waiting list until further notice,\" and that applications \"will not be accepted by EOHLC or its regional administering agencies (RAA) on or after January 13, 2025.\" So the statewide list is not a fallback for BHA's closed list right now.",
+    "<strong>Statewide MRVP: the list is open, but vouchers are not being issued.</strong> Both halves matter. Massachusetts confirms that \"people can still apply for mobile and project-based MRVP and mobile AHVP in CHAMP\" — but a notice dated January 22, 2025 states that \"as of today, January 22, 2025, LHAs and RAAs may no longer pull any new MRVP mobile lists,\" and the state confirms that \"mobile voucher issuance pauses are still in effect for MRVP and AHVP.\" You can join the list; you should not expect a mobile voucher from it while the pause holds. Applying anyway still makes sense — it preserves your application date.",
+    "<strong>One statement on mass.gov does not apply to Boston.</strong> The state's rental assistance page says you can still join the Section 8 waitlist administered by local housing authorities. That is not true of BHA, whose tenant-based list is closed. Check each authority individually.",
+    "<strong>Expect a long wait even once you are on a list.</strong> BHA states that \"the waiting time for housing can vary by waiting list and can be over ten years from your date of application,\" depending on bedroom size, unit type, and your priority and preference points."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Boston Section 8 waiting list open?",
+      "a": "No. As of July 30, 2026, BHA's tenant-based Section 8 Housing Choice Voucher waiting list is closed until further notice. But do not stop there — BHA's public housing waiting lists are still accepting applications, and those are a separate application. BHA is also still issuing some tenant-based vouchers under narrow circumstances, including through HUD-VASH for veterans and for households who have lived in a project-based program for at least a year."
+    },
+    {
+      "q": "Can I still apply for public housing in Boston?",
+      "a": "Yes. This is the most useful thing on this page. BHA runs two separate public housing applications and you should file both. Federal and City of Boston funded developments are applied for at boston.myhousing.com. State-aided developments are applied for through the state's application, which Massachusetts calls CHAMP, at publichousingapplication.ocd.state.ma.us. The age rules differ — 62 and/or disabled for federal developments, 60 and/or disabled for state-funded ones — so you may qualify for one before the other."
+    },
+    {
+      "q": "Will BHA notify me when the Section 8 list reopens?",
+      "a": "No, and this catches people out. BHA's administrative plan states that while the waiting list is closed, BHA \"will not maintain a list of individuals who wish to be notified when the waiting list is reopened.\" It also commits to giving \"at least two weeks advance public notice\" before opening any waiting list. Two weeks is not long, so check bostonhousing.org yourself on a regular schedule, and call the Status Information Line at (617) 988-3400, Monday through Wednesday from 11am to 2pm."
+    },
+    {
+      "q": "Is the Massachusetts state voucher list open?",
+      "a": "It depends which one, and the honest answer has two halves. The statewide Section 8 list run by EOHLC closed on January 13, 2025 and remains closed. The statewide MRVP list is still open for applications through CHAMP — but MRVP mobile voucher issuance has been paused since January 22, 2025 and the pause is still in effect, and BHA's own MRVP allocation is separately closed to new applicants. It is still worth applying through CHAMP to establish your application date; just do not plan around receiving a mobile voucher while the pause continues."
+    },
+    {
+      "q": "Can I visit BHA in person?",
+      "a": "Call before you go. BHA's own pages give two different street numbers for its Chauncy Street offices — its contact page says 52 Chauncy Street and its applications page and FAQ say 56 Chauncy Street — and the posted hours differ between pages too. BHA occupies both buildings, so either address will get you to the right block, but confirm which door and what hours before making the trip. Main switchboard: (617) 988-4000. Leased Housing: (617) 988-4400. Application status: (617) 988-3400, Monday through Wednesday, 11am to 2pm. Translation line: (617) 988-4001."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Boston Housing Authority - official site",
+      "url": "https://www.bostonhousing.org/"
+    },
+    {
+      "label": "BHA - Voucher Programs (tenant-based waiting-list status)",
+      "url": "https://www.bostonhousing.org/en/Section-8-Leased-Housing/Voucher-Programs.aspx"
+    },
+    {
+      "label": "BHA - Apply for Housing (both public housing applications, status line)",
+      "url": "https://www.bostonhousing.org/en/Applications/Apply-for-Housing.aspx"
+    },
+    {
+      "label": "BHA - FAQ (which lists are accepting applicants)",
+      "url": "https://www.bostonhousing.org/en/FAQ.aspx"
+    },
+    {
+      "label": "BHA - Public Housing (age rules by funding source)",
+      "url": "https://www.bostonhousing.org/en/Applications/Housing-Programs/Public-Housing.aspx"
+    },
+    {
+      "label": "BHA - Section 8 Voucher and MRVP program status",
+      "url": "https://www.bostonhousing.org/en/Applications/Housing-Programs/Section-8-Voucher.aspx"
+    },
+    {
+      "label": "BHA - Contact Us (phone numbers, office address)",
+      "url": "https://www.bostonhousing.org/en/Contact-Us.aspx"
+    },
+    {
+      "label": "BHA - Housing Choice Voucher Administrative Plan, effective April 1, 2026 (PDF)",
+      "url": "https://www.bostonhousing.org/BHA/media/Documents/Leased%20Housing/Admin-Plan-Final-4-1-26.pdf"
+    },
+    {
+      "label": "Mass.gov - Section 8 Housing Choice Voucher Program (statewide closure)",
+      "url": "https://www.mass.gov/info-details/section-8-housing-choice-voucher-program-hcvp"
+    },
+    {
+      "label": "Mass.gov - MRVP and AHVP policy update FAQ (issuance pause)",
+      "url": "https://www.mass.gov/info-details/frequently-asked-questions-regarding-massachusetts-rental-voucher-program-mrvp-and-alternative-housing-voucher-program-ahvp-policy-updates"
+    },
+    {
+      "label": "Mass.gov - Apply for state-funded public housing (CHAMP)",
+      "url": "https://www.mass.gov/how-to/apply-for-state-funded-public-housing"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Boston, Massachusetts",
+    "updated": "30 de julio de 2026",
+    "intro": "La Autoridad de Vivienda de Boston (BHA) es la autoridad pública de vivienda de la ciudad de Boston. Este es el punto que casi todo el mundo pasa por alto: la lista de espera del vale de la Sección 8 basado en el inquilino está cerrada, pero las listas de espera de vivienda pública sí siguen aceptando solicitudes. Son dos cosas distintas, con dos solicitudes distintas, y que le rechacen una no significa que quede fuera de la otra. Esta página resume lo que la propia BHA publica sobre cada lista, junto con los programas estatales de Massachusetts que funcionan en paralelo, y enlaza a las páginas oficiales para cualquier asunto urgente.",
+    "programs": [
+      "Vale de la Sección 8 (Housing Choice Voucher) basado en el inquilino",
+      "Vivienda pública financiada por el gobierno federal y por la ciudad de Boston",
+      "Vivienda pública financiada por el estado",
+      "Programas de vales basados en proyectos y de Rehabilitación Moderada",
+      "Programa de Vales de la Ciudad de Boston (solo por referencia)",
+      "Programa de Vales de Alquiler de Massachusetts (MRVP)"
+    ],
+    "waitlists": [
+      {
+        "program": "Vale de la Sección 8 (basado en el inquilino)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 30 de julio de 2026). BHA indica, en inglés: \"BHA is not currently able to accept new applications for the Tenant-Based Program and the waiting list is closed until further notice\" — no puede aceptar solicitudes nuevas y la lista está cerrada hasta nuevo aviso. Hay dos detalles importantes. Primero, el plan administrativo del Housing Choice Voucher de BHA dice que dará al menos dos semanas de aviso público antes de abrir cualquier lista de espera; habrá aviso, pero solo de unas dos semanas. Segundo, ese mismo plan indica que mientras la lista está cerrada BHA no mantiene un registro de personas que quieran ser avisadas cuando vuelva a abrir. Nadie le va a llamar: usted tiene que revisar bostonhousing.org por su cuenta."
+      },
+      {
+        "program": "Vivienda pública financiada por el gobierno federal y por la ciudad",
+        "status": "Acepta solicitudes",
+        "note": "Abierta a solicitantes nuevos (verificado el 30 de julio de 2026). BHA indica que los solicitantes nuevos pueden presentar solicitud para los programas de vivienda pública, el programa de vales basados en proyectos y el programa de Rehabilitación Moderada. Solicite en línea en boston.myhousing.com. En los desarrollos federales designados para personas mayores o con discapacidad, el solicitante debe tener al menos 62 años o una discapacidad."
+      },
+      {
+        "program": "Vivienda pública financiada por el estado",
+        "status": "Acepta solicitudes",
+        "note": "Es una solicitud aparte de la federal y municipal descrita arriba: conviene presentar ambas. BHA la enlaza como \"State Housing Application\"; Massachusetts llama a ese mismo sistema CHAMP y está en publichousingapplication.ocd.state.ma.us. Fíjese en que la regla de edad cambia: los desarrollos financiados por el estado piden al menos 60 años o una discapacidad, mientras que los federales piden 62 años o una discapacidad (verificado el 30 de julio de 2026)."
+      },
+      {
+        "program": "Vales basados en proyectos y Rehabilitación Moderada",
+        "status": "Acepta solicitudes (solo Prioridad Uno)",
+        "note": "Estas listas están abiertas, pero BHA indica que para la mayoría de los programas de la Sección 8 y de Rehabilitación Moderada los solicitantes deben calificar con el estatus de Prioridad Uno y deben presentar comprobante de ese estatus al momento de solicitar. Pregunte a BHA qué documentos acreditan la Prioridad Uno antes de solicitar (verificado el 30 de julio de 2026)."
+      },
+      {
+        "program": "Programa de Vales de Alquiler de Massachusetts (MRVP) — la asignación de BHA",
+        "status": "Cerrada",
+        "note": "BHA describe su asignación de MRVP como cerrada a solicitantes nuevos (verificado el 30 de julio de 2026). Esto es distinto de la lista estatal de MRVP; vea la sección de abajo, porque la respuesta a nivel estatal es diferente y el personal de cualquiera de las dos agencias podría decirle algo que suene contradictorio."
+      },
+      {
+        "program": "Programa de Vales de la Ciudad de Boston",
+        "status": "Solo por referencia",
+        "note": "No es un programa al que usted pueda solicitar directamente. BHA indica que los clientes no pueden solicitar el CBVP directamente ante la agencia y que usa un sistema cerrado de referencias a través de organizaciones asociadas."
+      }
+    ],
+    "also_serving": [
+      "<strong>La lista estatal de la Sección 8, administrada por EOHLC, está cerrada.</strong> La Oficina Ejecutiva de Vivienda y Comunidades Habitables de Massachusetts indica que, a partir del 13 de enero de 2025, cerró su lista de espera de vales móviles de la Sección 8 hasta nuevo aviso, y que ni EOHLC ni sus agencias regionales aceptan solicitudes desde esa fecha. Por eso la lista estatal no es una alternativa a la lista cerrada de BHA en este momento.",
+      "<strong>MRVP estatal: la lista está abierta, pero no se están emitiendo vales.</strong> Las dos mitades importan. Massachusetts confirma que las personas todavía pueden solicitar el MRVP móvil y basado en proyectos a través de CHAMP, pero un aviso del 22 de enero de 2025 indica que desde ese día las autoridades locales y regionales ya no pueden sacar nombres de las listas de vales móviles de MRVP, y el estado confirma que la pausa en la emisión de vales móviles sigue vigente. Usted puede inscribirse en la lista; lo que no debe esperar es recibir un vale móvil mientras dure la pausa. Aun así vale la pena solicitar, porque así queda registrada su fecha de solicitud.",
+      "<strong>Hay una frase en mass.gov que no aplica a Boston.</strong> La página estatal de asistencia de alquiler dice que usted todavía puede inscribirse en la lista de la Sección 8 administrada por las autoridades locales de vivienda. Eso no es cierto en el caso de BHA, cuya lista basada en el inquilino está cerrada. Verifique cada autoridad por separado.",
+      "<strong>Cuente con una espera larga incluso una vez que esté en la lista.</strong> BHA indica que el tiempo de espera varía según la lista y puede superar los diez años desde la fecha de su solicitud, dependiendo del número de recámaras, del tipo de unidad y de sus puntos de prioridad y preferencia."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Boston?",
+        "a": "No. Al 30 de julio de 2026, la lista de espera del vale de la Sección 8 basado en el inquilino de BHA está cerrada hasta nuevo aviso. Pero no se quede ahí: las listas de espera de vivienda pública de BHA sí siguen aceptando solicitudes, y esa es una solicitud aparte. BHA además sigue emitiendo algunos vales basados en el inquilino en casos limitados, entre ellos a veteranos por medio de HUD-VASH y a hogares que llevan al menos un año en un programa basado en proyectos."
+      },
+      {
+        "q": "¿Todavía puedo solicitar vivienda pública en Boston?",
+        "a": "Sí. Esto es lo más útil de esta página. BHA maneja dos solicitudes de vivienda pública distintas y conviene presentar las dos. Los desarrollos financiados por el gobierno federal y por la ciudad de Boston se solicitan en boston.myhousing.com. Los desarrollos financiados por el estado se solicitan mediante la solicitud estatal, que Massachusetts llama CHAMP, en publichousingapplication.ocd.state.ma.us. Las reglas de edad son distintas — 62 años o discapacidad para los desarrollos federales, 60 años o discapacidad para los estatales — así que quizá califique primero para unos y no para otros."
+      },
+      {
+        "q": "¿BHA me avisará cuando vuelva a abrir la lista de la Sección 8?",
+        "a": "No, y esto toma por sorpresa a mucha gente. El plan administrativo de BHA indica que mientras la lista de espera está cerrada la agencia no mantiene un registro de personas que quieran ser avisadas cuando vuelva a abrir. También se compromete a dar al menos dos semanas de aviso público antes de abrir cualquier lista. Dos semanas es poco tiempo, así que revise bostonhousing.org usted mismo de forma periódica y llame a la línea de estado de solicitudes al (617) 988-3400, de lunes a miércoles de 11:00 a. m. a 2:00 p. m."
+      },
+      {
+        "q": "¿Está abierta la lista estatal de vales de Massachusetts?",
+        "a": "Depende de cuál, y la respuesta honesta tiene dos partes. La lista estatal de la Sección 8 administrada por EOHLC cerró el 13 de enero de 2025 y sigue cerrada. La lista estatal de MRVP sigue abierta para solicitudes a través de CHAMP, pero la emisión de vales móviles de MRVP está en pausa desde el 22 de enero de 2025 y esa pausa continúa vigente, y la asignación propia de MRVP de BHA está cerrada por separado a solicitantes nuevos. Aun así conviene solicitar por CHAMP para dejar registrada su fecha de solicitud; lo que no conviene es hacer planes contando con recibir un vale móvil mientras siga la pausa."
+      },
+      {
+        "q": "¿Puedo ir en persona a las oficinas de BHA?",
+        "a": "Llame antes de ir. Las propias páginas de BHA dan dos números de calle distintos para sus oficinas de Chauncy Street — la página de contacto dice 52 Chauncy Street y la página de solicitudes y las preguntas frecuentes dicen 56 Chauncy Street — y los horarios publicados también difieren entre páginas. BHA ocupa ambos edificios, así que cualquiera de las dos direcciones le deja en la cuadra correcta, pero confirme por cuál puerta entrar y en qué horario antes de hacer el viaje. Conmutador principal: (617) 988-4000. Leased Housing: (617) 988-4400. Estado de la solicitud: (617) 988-3400, de lunes a miércoles de 11:00 a. m. a 2:00 p. m. Línea de traducción: (617) 988-4001."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Autoridad de Vivienda de Boston - sitio oficial (en inglés)",
+        "url": "https://www.bostonhousing.org/"
+      },
+      {
+        "label": "BHA - programas de vales (estado de la lista basada en el inquilino)",
+        "url": "https://www.bostonhousing.org/en/Section-8-Leased-Housing/Voucher-Programs.aspx"
+      },
+      {
+        "label": "BHA - solicitar vivienda (las dos solicitudes y la línea de estado)",
+        "url": "https://www.bostonhousing.org/en/Applications/Apply-for-Housing.aspx"
+      },
+      {
+        "label": "BHA - preguntas frecuentes (qué listas aceptan solicitantes)",
+        "url": "https://www.bostonhousing.org/en/FAQ.aspx"
+      },
+      {
+        "label": "BHA - vivienda pública (reglas de edad por fuente de financiamiento)",
+        "url": "https://www.bostonhousing.org/en/Applications/Housing-Programs/Public-Housing.aspx"
+      },
+      {
+        "label": "BHA - estado del vale de la Sección 8 y del MRVP",
+        "url": "https://www.bostonhousing.org/en/Applications/Housing-Programs/Section-8-Voucher.aspx"
+      },
+      {
+        "label": "BHA - contacto (teléfonos y dirección de oficinas)",
+        "url": "https://www.bostonhousing.org/en/Contact-Us.aspx"
+      },
+      {
+        "label": "BHA - plan administrativo del Housing Choice Voucher, vigente desde el 1 de abril de 2026 (PDF)",
+        "url": "https://www.bostonhousing.org/BHA/media/Documents/Leased%20Housing/Admin-Plan-Final-4-1-26.pdf"
+      },
+      {
+        "label": "Mass.gov - programa de vales de la Sección 8 (cierre estatal)",
+        "url": "https://www.mass.gov/info-details/section-8-housing-choice-voucher-program-hcvp"
+      },
+      {
+        "label": "Mass.gov - preguntas frecuentes de MRVP y AHVP (pausa en la emisión)",
+        "url": "https://www.mass.gov/info-details/frequently-asked-questions-regarding-massachusetts-rental-voucher-program-mrvp-and-alternative-housing-voucher-program-ahvp-policy-updates"
+      },
+      {
+        "label": "Mass.gov - solicitar vivienda pública financiada por el estado (CHAMP)",
+        "url": "https://www.mass.gov/how-to/apply-for-state-funded-public-housing"
+      }
+    ]
+  }
+}

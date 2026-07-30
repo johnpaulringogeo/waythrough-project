@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Florida programs in about two minutes based on whether your need is an emergency or long-term.</p><p>If you have been served an eviction, do not wait: contact <a href=\"https://www.floridalawhelp.org\" target=\"_blank\" rel=\"noopener\">FloridaLawHelp.org</a> the same day and ask specifically about depositing rent into the court registry &mdash; missing that step is how many Florida tenants lose. Read <a href=\"../eviction-prevention\">eviction prevention</a> too.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/jacksonville-jha",
+        "title": "Jacksonville Housing",
+        "desc": "Jacksonville's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."

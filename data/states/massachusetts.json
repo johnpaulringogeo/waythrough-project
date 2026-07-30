@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure where to start? Our <a href=\"../where-to-start\">Where to Start</a> tool routes you to the right mix of Massachusetts programs in about two minutes.</p><p>If you are behind on rent, apply for <strong>RAFT</strong> right away &mdash; a pending application blocks a nonpayment eviction. Find a lawyer through <a href=\"https://www.masslegalhelp.org\" target=\"_blank\" rel=\"noopener\">MassLegalHelp.org</a> and read <a href=\"../eviction-prevention\">eviction prevention</a>.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/boston-bha",
+        "title": "Boston Housing Authority (BHA)",
+        "desc": "Boston's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, retaliation, and eviction defense."
