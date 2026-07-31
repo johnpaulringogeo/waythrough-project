@@ -70,6 +70,31 @@ def tag_class(tag):
     }
     return mapping.get(t, "tag-guide")
 
+def asset_versions(index_html):
+    """Current ?v= cache-buster for each shared asset, read from blog/index.html."""
+    versions = {}
+    for asset in ("components.js", "style.css"):
+        m = re.search(re.escape(asset) + r"\?v=(\d+)", index_html)
+        if m:
+            versions[asset] = m.group(1)
+    return versions
+
+
+def normalize_asset_versions(html, versions):
+    """Re-stamp components.js / style.css ?v= to the versions the site uses now.
+
+    js/ and css/ are served immutable for a year, so a post carrying a stale
+    ?v= pins its visitors to a year-old cached script. Drafts sit in
+    blog/drafts/ for weeks or months and are published verbatim, so their
+    ?v= is routinely behind by the time this script runs -- which is how a
+    stale draft reference silently becomes a stale live post. Re-stamping at
+    publish time keeps every post on the same assets as the rest of the site.
+    """
+    for asset, ver in versions.items():
+        html = re.sub(re.escape(asset) + r"\?v=\d+", asset + "?v=" + ver, html)
+    return html
+
+
 # ── main ─────────────────────────────────────────────────────────────
 
 def main():
@@ -101,10 +126,15 @@ def main():
 
     print(f"Publishing: {pick['title']} ({pick['date']})")
 
-    # 1. Copy draft to posts/ (we delete the draft at the very end,
-    #    so a crash mid-run leaves the draft intact for retry)
-    import shutil
-    shutil.copy2(src, dst)
+    # 1. Copy draft to posts/, re-stamping the shared-asset cache-busters to
+    #    whatever blog/index.html uses right now (we delete the draft at the
+    #    very end, so a crash mid-run leaves the draft intact for retry)
+    with open(INDEX) as f:
+        versions = asset_versions(f.read())
+    with open(src, newline="") as f:
+        draft_html = f.read()
+    with open(dst, "w", newline="") as f:
+        f.write(normalize_asset_versions(draft_html, versions))
 
     # 2. Update blog/index.html — insert card after Welcome card
     with open(INDEX) as f:
