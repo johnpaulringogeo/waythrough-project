@@ -107,6 +107,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde empezar</a> le conecta con la combinación correcta de programas de Oklahoma en unos dos minutos.</p><p>Si tiene un aviso de 5 días, no espere: consiga ayuda de <a href=\"https://oklaw.org\" target=\"_blank\" rel=\"noopener\">Legal Aid Services of Oklahoma</a> (1-888-534-5243) y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevención de desalojos</a> antes de su audiencia.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/oklahoma-city-ocha",
+        "title": "Autoridad de Vivienda de Oklahoma City (OCHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Oklahoma City, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, depósitos y defensa de desalojo."

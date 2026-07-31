@@ -99,6 +99,11 @@
     "next_steps_html": "<p>¿No está seguro qué programa es el adecuado para usted? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a>.</p>\n<p>El alcance de Sección 8 de NYCHA está pausado — llame al (718) 707-7771 solo para verificar su posición existente. Para la ruta práctica: si está sin hogar o enfrentando desalojo, pregunte sobre CityFHEPS a través de un refugio DHS o HRA. Para ayuda con renta, aplique al One Shot Deal vía ACCESS HRA. Si recibió un aviso de 14 días o papeles de la corte, tiene Derecho a un Abogado de NYC — llame a Legal Aid Society al (212) 577-3300 el mismo día. La protección de fuente de ingresos de NYC más Desalojo por Causa Justa (vigente 17 de abril de 2026) a menudo derrotan el caso por completo.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/new-york-nycha",
+        "title": "Autoridad de Vivienda de la Ciudad de Nueva York (NYCHA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados."

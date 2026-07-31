@@ -99,6 +99,11 @@
     "next_steps_html": "<p>¿No está seguro qué programa es el adecuado para usted? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a>.</p>\n<p>La lista de vouchers de HACLA está cerrada — llame al (213) 252-2500 solo para verificar su posición existente o preguntar sobre HUD-VASH/FUP/EHV. LACDA acepta solo referencias CES — comience llamando al 211. Si recibió un aviso de 3 días, llame a Stay Housed L.A. al (888) 694-0040 el mismo día — combinan defensa legal con asistencia de alquiler, y la protección de fuente de ingresos de California más LA RSO/JUST Act a menudo derrotan el desalojo por completo.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/los-angeles-hacla",
+        "title": "Autoridad de Vivienda de la Ciudad de Los Ángeles (HACLA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados."

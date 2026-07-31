@@ -107,6 +107,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Pensilvania en unos dos minutos.</p><p>Si tiene un aviso para desocupar, no espere: consiga ayuda en <a href=\"https://www.palawhelp.org/es\" target=\"_blank\" rel=\"noopener\">PALawHELP.org</a> y, en Filadelfia, pregunte por el Programa de Diversion de Desalojo. Lea también <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/philadelphia-pha",
+        "title": "Autoridad de Vivienda de Filadelfia (PHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Filadelfia, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, depósitos y defensa de desalojo."

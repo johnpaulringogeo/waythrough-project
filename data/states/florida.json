@@ -109,6 +109,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Florida en unos dos minutos según si su necesidad es emergencia o largo plazo.</p><p>Si le notificaron un desalojo, no espere: contacte a <a href=\"https://www.floridalawhelp.org\" target=\"_blank\" rel=\"noopener\">FloridaLawHelp.org</a> el mismo día y pregunte especificamente por depositar la renta en el registro de la corte &mdash; saltarse ese paso es como muchos inquilinos de Florida pierden. Lea también <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/jacksonville-jha",
+        "title": "Autoridad de Vivienda de Jacksonville (JHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Jacksonville, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, depósitos y defensa de desalojo."

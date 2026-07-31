@@ -111,6 +111,11 @@
     "next_steps_html": "<p>El sistema de vivienda de Phoenix no está diseñado para darle un solo número de teléfono — es un centro de agencias. Si necesita refugio <strong>esta noche</strong>, llame al 211 y pida acceso a Entrada Coordinada. Si necesita ayuda con <strong>el alquiler de este mes</strong>, llame a CPLC al 602-253-0838 o a SVdP al 602-580-6948. Si está tratando de <strong>entrar a la lista de Sección 8</strong>, revise phxhousing.myhousing.com semanalmente — las aperturas son raras y cortas. Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a> le guía a través de esto en aproximadamente dos minutos.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/phoenix-az",
+        "title": "Departamento de Vivienda de la Ciudad de Phoenix",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados para su situación."

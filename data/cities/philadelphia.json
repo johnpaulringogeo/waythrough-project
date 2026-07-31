@@ -111,6 +111,11 @@
     "next_steps_html": "<p>Dos movimientos fuertes que cualquier persona en Philly debería hacer: <strong>llame al 215-320-7880 para PHL Rent Assist si está en riesgo de desalojo</strong>, y <strong>pregunte a su propietario si ha iniciado Eviction Diversion — si no, eso es palanca</strong>. Para Sección 8, la próxima apertura realista se espera en 2027 — fije un recordatorio del calendario para revisar pha.phila.gov a principios de 2027 y aplique a las PHAs suburbanas (condados de Delaware, Bucks, Montgomery) cuando sus listas abran. Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a> le guía a través de esto en aproximadamente dos minutos.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/philadelphia-pha",
+        "title": "Autoridad de Vivienda de Filadelfia (PHA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados para su situación."

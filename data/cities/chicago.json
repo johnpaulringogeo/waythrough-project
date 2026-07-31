@@ -99,6 +99,11 @@
     "next_steps_html": "<p>¿No está seguro qué programa es el adecuado para usted? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a>.</p>\n<p>La lista de vouchers de CHA está cerrada y 16,000+ hogares ya están esperando — llame al (312) 935-1777 solo para verificar su posición existente o preguntar sobre referencias especializadas. Para ayuda con renta, aplique al RAP/ERAP de Chicago en chicago.gov o llame al 211. Si recibió un aviso de 5 días, envíe 'hi' al 866-773-6837 (Rentervention) el mismo día — la protección de fuente de ingresos de Illinois ahora hace que el rechazo de vouchers sea ilegal en todo el estado.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/chicago-cha",
+        "title": "Autoridad de Vivienda de Chicago (CHA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados."

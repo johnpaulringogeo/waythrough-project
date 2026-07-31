@@ -109,6 +109,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Massachusetts en unos dos minutos.</p><p>Si está atrasado en el alquiler, solicite <strong>RAFT</strong> de inmediato &mdash; una solicitud pendiente bloquea un desalojo por falta de pago. Encuentre un abogado por <a href=\"https://www.masslegalhelp.org\" target=\"_blank\" rel=\"noopener\">MassLegalHelp.org</a> y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/boston-bha",
+        "title": "Autoridad de Vivienda de Boston (BHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Boston, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, depósitos, represalias y defensa de desalojo."

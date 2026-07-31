@@ -104,6 +104,11 @@
     "next_steps_html": "<p>¿No está seguro qué programa es el adecuado para usted? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a>.</p>\n<p>La lista de vouchers de HHA está cerrada y el promedio de espera es de 45 meses — llame al (713) 260-0500 para verificar su posición existente o preguntar sobre referencias especializadas. Para ayuda con renta, llame al (713) 400-4900 (BakerRipley) o al 211. Si recibió un aviso de 3 días, llame a Lone Star Legal Aid al (713) 226-0600 el mismo día.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/houston-hha",
+        "title": "Autoridad de Vivienda de Houston (HHA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados."

@@ -109,6 +109,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Arizona en unos dos minutos según si su necesidad es emergencia o largo plazo.</p><p>Como los desalojos en Arizona son rapidos, no espere si tiene un aviso de 5 días: contacte a <a href=\"https://www.azlawhelp.org\" target=\"_blank\" rel=\"noopener\">AZLawHelp.org</a> el mismo día y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/phoenix-az",
+        "title": "Departamento de Vivienda de la Ciudad de Phoenix",
+        "desc": "Estado de la lista de espera de Sección 8 en Phoenix, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, depósitos y defensa de desalojo."

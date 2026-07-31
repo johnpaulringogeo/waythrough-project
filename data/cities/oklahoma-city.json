@@ -104,6 +104,11 @@
     "next_steps_html": "<p>¿No está seguro qué programa es el adecuado para usted? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Dónde comenzar</a> le hace algunas preguntas rápidas sobre su situación — emergencia versus largo plazo, familia versus individuo, empleo versus beneficios — y le conecta con la combinación correcta de programas. Toma aproximadamente dos minutos.</p>\n        <p>Si recibió un aviso de 5 días en OKC, contacte a Legal Aid Services of Oklahoma al (405) 488-6800 inmediatamente — el cronograma es corto y 5 días está entre los períodos de aviso más cortos del país. Para ayuda con renta, llame a la Community Action Agency de OKC o Catholic Charities. Si necesita refugio o entrada coordinada, llame al Homeless Alliance vía 211.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/oklahoma-city-ocha",
+        "title": "Autoridad de Vivienda de Oklahoma City (OCHA)",
+        "desc": "Estado de la lista de espera de Sección 8, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/donde-empezar",
         "title": "Dónde comenzar",
         "desc": "Encuentre los programas adecuados para su situación."

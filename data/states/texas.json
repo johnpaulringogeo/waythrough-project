@@ -109,6 +109,11 @@
     "next_steps_html": "<p>¿No sabe por dónde empezar? Nuestra herramienta <a href=\"../../../es/recursos/donde-empezar\">Donde empezar</a> le conecta con la combinacion correcta de programas de Texas en unos dos minutos según si su necesidad es emergencia o largo plazo.</p><p>Si tiene un aviso para desocupar, no espere a la fecha de corte: obtenga un formulario de respuesta en <a href=\"https://texaslawhelp.org/es\" target=\"_blank\" rel=\"noopener\">TexasLawHelp.org</a> y lea <a href=\"../../../es/recursos/prevencion-desalojos\">prevencion de desalojos</a>. Presentarse a su audiencia es lo más importante que puede hacer.</p>",
     "related_resources": [
       {
+        "href": "es/recursos/autoridades-de-vivienda/houston-hha",
+        "title": "Autoridad de Vivienda de Houston (HHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Houston, contacto y cómo solicitar."
+      },
+      {
         "href": "es/recursos/derechos-del-inquilino",
         "title": "Sus derechos como inquilino",
         "desc": "Habitabilidad, reparaciones, depósitos y defensa de desalojo."
