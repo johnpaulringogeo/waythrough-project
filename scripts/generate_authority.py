@@ -16,7 +16,8 @@ phone, URLs, city/state, slugs) are inherited by the Spanish page.
 
 Safeguard: Spanish pages are validated for missing diacritics before writing. If an
 es page's visible text contains a red-flag un-accented Spanish word, generation raises
-an error so plain-ASCII Spanish can never ship (mirrors scripts/generate_page.py).
+an error so plain-ASCII Spanish can never ship (mirrors scripts/generate_page.py,
+including its ES_FALSE_POSITIVES exemptions).
 """
 import json
 import re
@@ -36,7 +37,7 @@ OUT = {
     "es": ROOT / "es" / "recursos" / "autoridades-de-vivienda",
 }
 
-# ---- Spanish accent guard (same red-flag list as generate_page.py) ----
+# ---- Spanish accent guard (same red-flag list and exemptions as generate_page.py) ----
 ES_REDFLAGS = [
     "informacion", "deposito", "depositos", "seccion", "proteccion",
     "pagina", "paginas", "telefono", "numero", "numeros", "credito", "creditos",
@@ -53,14 +54,49 @@ ES_REDFLAGS = [
 ]
 
 
+# Documented false positives: spellings that look like a red-flag word but are
+# correct as written. Ported from scripts/generate_page.py (commit cce6b99) so
+# both generators make the same call. These are the two cases that
+# scripts/check_spanish.py names in its docstring. check_spanish.py only
+# *reports*, so a human can eyeball them there; this generator HARD-RAISES, so
+# it has to know them or it blocks pages whose Spanish is already correct.
+#
+#   1. "Division" inside an English proper noun -- "Salvation Army Massachusetts
+#      Division", "Division Circle" (a San Francisco Navigation Center). Exempt
+#      ONLY when the word is capitalised AND sits directly beside another
+#      capitalised word, i.e. it is part of a multi-word English name. Lower-case
+#      "division" in Spanish prose, where the accented spelling is required, is
+#      still caught.
+#   2. "limite"/"limites" as the VERB after a reflexive clitic -- "no te limites
+#      a una sola PHA", "que no se limite a ...". Correctly un-accented, unlike
+#      the noun. Safe because a noun can never follow a reflexive clitic, so this
+#      cannot mask a missing accent on the noun. NOTE: the bare subjunctive
+#      "que limite ..." that check_spanish.py also lists is deliberately NOT
+#      exempted -- "que limites de ingresos" is a real un-accented-noun risk, so
+#      that one still raises and gets a human look.
+ES_FALSE_POSITIVES = [
+    re.compile(r"\b[A-Z][\w'’-]*\s+Division\b|\bDivision\s+[A-Z][\w'’-]*"),
+    re.compile(r"\b(?:te|se|me|nos|os)\s+limites?\b", re.IGNORECASE),
+]
+
+
 def es_accent_violations(page_html):
+    """Return the sorted red-flag un-accented words found in visible es text.
+
+    A hit that falls entirely inside an ES_FALSE_POSITIVES span is correct as
+    written and does not count. Every other hit still raises -- this narrows the
+    guard, it does not weaken it.
+    """
     text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", page_html,
                   flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
+    exempt = [m.span() for pat in ES_FALSE_POSITIVES for m in pat.finditer(text)]
     found = []
     for w in ES_REDFLAGS:
-        if re.search(r"\b" + w + r"\b", text, re.IGNORECASE):
-            found.append(w)
+        for m in re.finditer(r"\b" + w + r"\b", text, re.IGNORECASE):
+            if not any(st <= m.start() and m.end() <= en for st, en in exempt):
+                found.append(w)
+                break
     return sorted(set(found))
 
 
