@@ -2981,6 +2981,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/derechos-cuando-venden-su-edificio</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/solicitar-section-8-en-varios-estados</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/debe-dinero-a-una-pha-que-hacer</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <!-- Spanish housing-authority directory (ES parity batch) -->
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/</loc>
