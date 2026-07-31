@@ -15,6 +15,8 @@ Writes:
 Safeguard: Spanish (es) pages are validated for missing diacritics before they
 are written. If an es page contains a red-flag un-accented Spanish word in its
 visible text, generation raises an error so plain-ASCII Spanish can never ship.
+The two false positives that scripts/check_spanish.py documents in its own
+docstring are exempted narrowly here -- see ES_FALSE_POSITIVES below.
 """
 import argparse
 import glob
@@ -56,18 +58,51 @@ ES_REDFLAGS = [
 ]
 
 
+# Documented false positives: spellings that look like a red-flag word but are
+# correct as written. These are the two cases scripts/check_spanish.py names in
+# its docstring. check_spanish.py only *reports*, so a human can eyeball them
+# there; generate_page.py HARD-RAISES, so it has to know them or it blocks
+# pages whose Spanish is already correct.
+#
+#   1. "Division" inside an English proper noun -- "Salvation Army Massachusetts
+#      Division", "Division Circle" (a San Francisco Navigation Center). Exempt
+#      ONLY when the word is capitalised AND sits directly beside another
+#      capitalised word, i.e. it is part of a multi-word English name. Lower-case
+#      "division" in Spanish prose, where "division" with an accent is required,
+#      is still caught.
+#   2. "limite"/"limites" as the VERB after a reflexive clitic -- "no te limites
+#      a una sola PHA", "que no se limite a ...". Correctly un-accented, unlike
+#      the noun. Safe because a noun can never follow a reflexive clitic, so this
+#      cannot mask a missing accent on the noun. NOTE: the bare subjunctive
+#      "que limite ..." that check_spanish.py also lists is deliberately NOT
+#      exempted -- "que limites de ingresos" is a real un-accented-noun risk, so
+#      that one still raises and gets a human look.
+ES_FALSE_POSITIVES = [
+    re.compile(r"\b[A-Z][\w'\u2019-]*\s+Division\b|\bDivision\s+[A-Z][\w'\u2019-]*"),
+    re.compile(r"\b(?:te|se|me|nos|os)\s+limites?\b", re.IGNORECASE),
+]
+
+
 def es_accent_violations(html):
     """Return the sorted list of red-flag un-accented words found in visible
-    es text (HTML tags, and therefore href URLs/slugs, are stripped first)."""
+    es text (HTML tags, and therefore href URLs/slugs, are stripped first).
+
+    A hit that falls entirely inside an ES_FALSE_POSITIVES span is correct as
+    written and does not count. Every other hit still raises -- this narrows the
+    guard, it does not weaken it.
+    """
     # Drop <script>/<style> blocks first so JS string literals / URL slugs
     # are not mistaken for un-accented visible Spanish prose.
     text = re.sub(r"<(script|style)\b[^>]*>.*?</\1>", " ", html,
                   flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
+    exempt = [m.span() for pat in ES_FALSE_POSITIVES for m in pat.finditer(text)]
     found = []
     for w in ES_REDFLAGS:
-        if re.search(r"\b" + w + r"\b", text, re.IGNORECASE):
-            found.append(w)
+        for m in re.finditer(r"\b" + w + r"\b", text, re.IGNORECASE):
+            if not any(s <= m.start() and m.end() <= e for s, e in exempt):
+                found.append(w)
+                break
     return sorted(set(found))
 
 
@@ -152,6 +187,9 @@ LAYOUTS = {
         "breadcrumb_position4_name": "{breadcrumb_label}",
     },
 }
+
+# The only kinds this generator renders; see process_data_file().
+KINDS = sorted({kind for kind, _lang in LAYOUTS})
 
 
 def build_breadcrumb_json(layout, data, lang):
@@ -245,12 +283,20 @@ def render_one(env, kind, lang, slug, data, layout):
 
 
 def process_data_file(env, json_path):
-    """Process one JSON data file -> writes EN and ES output."""
+    """Process one JSON data file -> writes EN and ES output.
+
+    Returns None, writing nothing, for a data file whose "kind" this generator
+    does not own: data/authorities/*.json is kind="authority" and belongs to
+    scripts/generate_authority.py, which renders it with its own accent guard.
+    Without this, --all dies on the first authority JSON with a KeyError.
+    """
     with open(json_path, encoding="utf-8") as f:
         spec = json.load(f)
 
     slug = spec["slug"]
     kind = spec.get("kind", "city")
+    if kind not in KINDS:
+        return None
     written = []
     for lang in ("en", "es"):
         if lang not in spec:
@@ -286,9 +332,13 @@ def main():
         sys.exit(1)
 
     total_written = 0
+    skipped = []
     for jf in json_files:
         try:
             written = process_data_file(env, jf)
+            if written is None:
+                skipped.append(jf)
+                continue
             for w in written:
                 rel = w.relative_to(REPO_ROOT)
                 print(f"  wrote: {rel}")
@@ -297,7 +347,13 @@ def main():
             print(f"  ERROR on {jf}: {e}", file=sys.stderr)
             raise
 
-    print(f"\nWrote {total_written} file(s) from {len(json_files)} data file(s).")
+    if skipped:
+        print(f"\nSkipped {len(skipped)} data file(s) this generator does not own "
+              f"-- run scripts/generate_authority.py for those:")
+        for jf in skipped:
+            print(f"  skipped: {jf}")
+    print(f"\nWrote {total_written} file(s) from "
+          f"{len(json_files) - len(skipped)} data file(s).")
 
 
 if __name__ == "__main__":
