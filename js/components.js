@@ -18,6 +18,24 @@ const root = depth === 0 ? './' : '../'.repeat(depth);
 const pageLang = document.documentElement.lang || 'en';
 const isSpanish = pageLang === 'es';
 
+// ── Language switch target ──
+// Point the switcher at THIS page's translated twin (every page declares both
+// hreflang alternates) instead of dumping everyone on the other language's home
+// page. Keeps the reader on the same content, and gives each English page a real
+// link to its Spanish counterpart rather than funnelling them all into /es/.
+// Falls back to the home page when a page has no declared twin.
+const langTwinHref = (() => {
+    try {
+        const wanted = isSpanish ? 'en' : 'es';
+        const alt = document.querySelector('link[rel="alternate"][hreflang="' + wanted + '"]');
+        const href = alt && alt.getAttribute('href');
+        if (href) return href;
+    } catch (_e) {
+        // fall through to the home-page default
+    }
+    return isSpanish ? `${root}index` : `${root}es/`;
+})();
+
 // ── SVG Icons (reusable) ──
 const ICONS = {
     home: '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>',
@@ -312,8 +330,8 @@ function renderNav() {
     const themeLabel = isSpanish ? 'Cambiar modo oscuro' : 'Toggle dark mode';
     const menuLabel = isSpanish ? 'Abrir menú' : 'Toggle menu';
     const langSwitchHTML = isSpanish
-        ? `<a href="${root}index" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
-        : `<a href="${root}es/" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
+        ? `<a href="${langTwinHref}" class="nav-lang-switch" aria-label="Switch to English" title="English">EN</a>`
+        : `<a href="${langTwinHref}" class="nav-lang-switch" aria-label="Cambiar a español" title="Español">ES</a>`;
 
     const nav = document.createElement('nav');
     nav.className = 'nav';
@@ -500,7 +518,7 @@ function renderFooter() {
                     <ul>
                         <li><a href="${root}es/recursos/preguntas-frecuentes">Preguntas Frecuentes</a></li>
                         <li><a href="${root}es/recursos/respuestas-de-la-comunidad">Respuestas</a></li>
-                        <li><a href="${root}index">English</a></li>
+                        <li><a href="${langTwinHref}">English</a></li>
                         <li><a href="${root}es/blog/">Blog</a></li>
                         <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
                         <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
@@ -557,7 +575,7 @@ function renderFooter() {
                     <ul>
                         <li><a href="${root}resources/ask">Ask a Question</a></li>
                         <li><a href="${root}resources/community-answers">Community Q&A</a></li>
-                        <li><a href="${root}es/">Español</a></li>
+                        <li><a href="${langTwinHref}">Español</a></li>
                         <li><a href="${root}blog/">Blog</a></li>
                         <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
                         <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
