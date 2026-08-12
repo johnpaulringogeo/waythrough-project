@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Project-Based vs. Tenant-Based Vouchers: What's the Difference?",
+      "description": "Section 8 comes in two forms \u2014 one stays with you, one stays with the building. Here's how each works and which is better for your situation.",
+      "url": "blog/posts/project-based-vs-tenant-based-vouchers.html",
+      "date": "2026-08-12",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "Can You Get Section 8 With Zero Income?",
       "description": "Yes \u2014 having no income doesn't disqualify you from Section 8. Here's how it works, what your rent portion would be, and what documentation you need.",
       "url": "blog/posts/section-8-with-no-income.html",
