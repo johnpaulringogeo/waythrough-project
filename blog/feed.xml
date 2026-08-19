@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Housing Quality Standards: The Minimum Your Apartment Must Meet</title>
+      <link>https://waythroughproject.com/blog/posts/what-is-housing-quality-standards</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/what-is-housing-quality-standards</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description>HQS is the federal standard every Section 8 unit must pass. Here's what it requires, what happens if your unit falls below standard, and how to use HQS to get repairs done.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Project-Based vs. Tenant-Based Vouchers: What's the Difference?</title>

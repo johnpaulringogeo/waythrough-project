@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Housing Quality Standards: The Minimum Your Apartment Must Meet",
+      "description": "HQS is the federal standard every Section 8 unit must pass. Here's what it requires, what happens if your unit falls below standard, and how to use HQS to get repairs done.",
+      "url": "blog/posts/what-is-housing-quality-standards.html",
+      "date": "2026-08-19",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "Project-Based vs. Tenant-Based Vouchers: What's the Difference?",
       "description": "Section 8 comes in two forms \u2014 one stays with you, one stays with the building. Here's how each works and which is better for your situation.",
       "url": "blog/posts/project-based-vs-tenant-based-vouchers.html",
