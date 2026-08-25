@@ -1,0 +1,218 @@
+{
+  "slug": "virginia-beach-hnp",
+  "kind": "authority",
+  "name": "Virginia Beach Housing and Neighborhood Preservation",
+  "schema_name": "City of Virginia Beach Department of Housing and Neighborhood Preservation",
+  "short_name": "HNP",
+  "city": "Virginia Beach",
+  "state": "VA",
+  "serves": "the City of Virginia Beach, Virginia",
+  "phone": "(757) 385-5750",
+  "official_url": "https://housing.virginiabeach.gov/",
+  "apply_url": "https://housing.virginiabeach.gov/housing-choice-voucher",
+  "city_slug": "virginia-beach",
+  "state_slug": "virginia",
+  "updated": "August 25, 2026",
+  "intro": "If you are searching for the \"Virginia Beach Redevelopment and Housing Authority,\" here is the key thing to know: there isn't one. Unlike Norfolk, Chesapeake, Portsmouth and most of its Hampton Roads neighbors, Virginia Beach has no separate redevelopment and housing authority. Section 8 Housing Choice Vouchers here are run by a department of the city government, the Department of Housing and Neighborhood Preservation, which states plainly that it \"administers the federally funded Housing Choice Voucher (HCV) program for Virginia Beach.\" HUD lists it as PHA VA039 under the name \"Va. Beach Dept. of Hsg and Neighborhood Pres.\" This page explains how that department works, what its waiting-list status actually is, how to reach the right people, and what your options are in the neighboring cities that do run public housing.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Homeless services and the Regional Housing Crisis Hotline",
+    "Housing development and affordable-housing production",
+    "Home rehabilitation for owner-occupied and manufactured homes",
+    "Housing code enforcement"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed and not accepting applications (checked August 25, 2026). The department's own wording is: \"The waiting list for the Virginia Beach HCV program is closed and no new applications are being accepted.\" Its waiting-list FAQ adds the detail that matters most: \"The Housing Choice Voucher waiting list for Virginia Beach reopened on Tuesday, Nov. 9, 2021, and closed the same day.\" No reopening date has been set. If you applied in 2021, the department says \"the easiest way to check the status of your application any time is to log into your account at www.assistancecheck.com.\""
+    },
+    {
+      "program": "Public housing in Virginia Beach",
+      "status": "Does not exist",
+      "note": "There is no city-run public housing to apply for. HUD's PHA contact report lists VA039 with a program type of \"Section 8,\" and the department's own site lists vouchers, homeless services, housing development, rehabilitation and code enforcement, with no public housing program. If you specifically want public housing, you have to apply to a neighboring city's authority instead, and those are separate agencies with separate lists."
+    },
+    {
+      "program": "Chesapeake public housing (Chesapeake Redevelopment and Housing Authority)",
+      "status": "Closed",
+      "note": "The nearest public housing authority, and it is closed too. CRHA's waiting-list page reads: \"The Public Housing Waiting List is currently closed and we are not accepting applications at this time.\" You can check an existing application through its MyHousing portal. Occupancy office (757) 470-5860, main line (757) 523-0401, 1468 S. Military Hwy, Chesapeake (checked August 25, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>There is no Virginia Beach Redevelopment and Housing Authority, and searching for one wastes time.</strong> Aggregator sites list a \"Virginia Beach Redevelopment and Housing Authority\" because most Virginia cities have one. Virginia Beach does not. The city department at (757) 385-5750 is the whole answer, and its Rental Housing division is the part that handles vouchers: administrator N. Lynn Carter, (757) 385-5745, RentalHsgDivision@VBgov.com.",
+    "<strong>Norfolk Redevelopment and Housing Authority (NRHA)</strong> is a genuinely separate agency next door, running both vouchers and public housing for the City of Norfolk with its own waiting lists. Main line (757) 623-1111. Applying in Virginia Beach does not put you on Norfolk's list, and the reverse is also true.",
+    "<strong>Chesapeake Redevelopment and Housing Authority (CRHA)</strong> runs public housing and vouchers for Chesapeake from 1468 S. Military Hwy. Its public housing list is closed as of August 25, 2026, but it describes itself as \"a political subdivision of Virginia with a nine-member Board of Commissioners appointed by Chesapeake's City Council\" and posts openings on its own site. Occupancy (757) 470-5860.",
+    "<strong>If you need help this week rather than a place on a list,</strong> the department points to the Regional Housing Crisis Hotline at (757) 227-5932, Monday through Friday from 8 a.m. to 5:30 p.m., and to the Housing Resource Center at 104 N. Witchduck Road, open for walk-ins Monday, Tuesday, Thursday and Friday from 8 a.m. to noon. That is the front door for people experiencing or facing homelessness, and it is not the same thing as the voucher waiting list."
+  ],
+  "faqs": [
+    {
+      "q": "Is there a Virginia Beach Redevelopment and Housing Authority?",
+      "a": "No. Virginia Beach does not have a redevelopment and housing authority, even though most Virginia cities do and many directory sites list one. The Housing Choice Voucher program for the city is run by the City of Virginia Beach Department of Housing and Neighborhood Preservation, which states that it \"administers the federally funded Housing Choice Voucher (HCV) program for Virginia Beach.\" HUD lists the department itself as the public housing agency, PHA code VA039. The number to call is (757) 385-5750."
+    },
+    {
+      "q": "Is the Virginia Beach Section 8 waiting list open?",
+      "a": "No. As of August 25, 2026 the department states: \"The waiting list for the Virginia Beach HCV program is closed and no new applications are being accepted.\" The list has been closed for years. Its own FAQ says the list \"reopened on Tuesday, Nov. 9, 2021, and closed the same day,\" and no reopening date has been announced since. That one-day pattern is worth planning around: if it happens again, you will need to apply within hours, not weeks."
+    },
+    {
+      "q": "Why is the wait so long, and how many vouchers are there?",
+      "a": "The department gives the reason directly: \"The U.S. Department of Housing and Urban Development (HUD) has allotted a fixed number of vouchers for Virginia Beach. Vouchers only become available as current HCV participants leave the program.\" It reports that \"more than 2,000 households, including families, seniors, persons with disabilities, and veterans are able to afford rental housing through the HCV program\" in Virginia Beach, and its Rental Housing division provides more than $20 million a year in assistance to over 2,300 households. It also cautions that \"applying for the waiting list does not guarantee admission to the HCV program.\""
+    },
+    {
+      "q": "What preferences does Virginia Beach use?",
+      "a": "The department's waiting-list FAQ lists local preferences covering displacement, victims of domestic violence, homelessness, Virginia Beach residency, elderly or disabled status, veteran status, employment, families with children, and insufficient funding. It does not publish the point weightings, and it notes that how long any individual waits depends on which preferences a household matches, how many applications are on the list, and how many vouchers are turned over by departing participants. Confirm your own preference status with the Rental Housing division at (757) 385-5745."
+    },
+    {
+      "q": "I applied years ago. How do I check my place on the list?",
+      "a": "Log in at www.assistancecheck.com, which the department names as \"the easiest way to check the status of your application any time.\" There is also a fuller portal, Assistance Connect, described as \"a secure website where you can access your case file, submit and track requests, communicate with Rental Housing staff, and more.\" You have to be set up for it: email VBAssistConnect@vbgov.com or call (757) 385-5787. Keep your address and phone current either way, because if the department cannot reach you when your name comes up, you can lose your place."
+    },
+    {
+      "q": "Where do I look for public housing near Virginia Beach?",
+      "a": "In the neighboring cities, because Virginia Beach has none. Norfolk Redevelopment and Housing Authority, (757) 623-1111, runs public housing and vouchers for Norfolk. Chesapeake Redevelopment and Housing Authority, (757) 523-0401, runs them for Chesapeake, though as of August 25, 2026 its public housing list reads \"currently closed and we are not accepting applications at this time.\" These are separate agencies with separate applications and separate residency preferences, so being on the Virginia Beach voucher list does not help you with either."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Virginia Beach Housing and Neighborhood Preservation - official site",
+      "url": "https://housing.virginiabeach.gov/"
+    },
+    {
+      "label": "City of Virginia Beach - Housing Choice Voucher (waiting-list status, who administers it)",
+      "url": "https://housing.virginiabeach.gov/housing-choice-voucher"
+    },
+    {
+      "label": "City of Virginia Beach - Housing Choice Voucher Waiting List FAQs (Nov. 9, 2021 opening, preferences)",
+      "url": "https://housing.virginiabeach.gov/housing-choice-voucher/waiting-list-faqs"
+    },
+    {
+      "label": "City of Virginia Beach - About Us (divisions, direct phone numbers)",
+      "url": "https://housing.virginiabeach.gov/about-us"
+    },
+    {
+      "label": "City of Virginia Beach - Assistance Connect portal",
+      "url": "https://housing.virginiabeach.gov/housing-choice-voucher/assistance-connect"
+    },
+    {
+      "label": "City of Virginia Beach - Housing Resources (crisis hotline, Housing Resource Center)",
+      "url": "https://housing.virginiabeach.gov/housing-resources"
+    },
+    {
+      "label": "HUD - PHA Contact Report for Virginia (VA039 name and program type)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_VA.pdf"
+    },
+    {
+      "label": "Norfolk Redevelopment and Housing Authority - official site",
+      "url": "https://www.nrha.us/"
+    },
+    {
+      "label": "Chesapeake Redevelopment and Housing Authority - official site",
+      "url": "https://www.crhava.org/"
+    },
+    {
+      "label": "CRHA - Public Housing Waiting List status",
+      "url": "https://www.crhava.org/housing_information/public_housing/waiting_list.php"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Virginia Beach, Virginia",
+    "updated": "25 de agosto de 2026",
+    "intro": "Si usted está buscando la \"Virginia Beach Redevelopment and Housing Authority\", lo más importante que debe saber es esto: no existe. A diferencia de Norfolk, Chesapeake, Portsmouth y casi todas sus vecinas de Hampton Roads, Virginia Beach no tiene una autoridad de vivienda y reurbanización aparte. Aquí los vales de la Sección 8 los administra un departamento del gobierno municipal, el Department of Housing and Neighborhood Preservation, que declara con claridad que \"administers the federally funded Housing Choice Voucher (HCV) program for Virginia Beach\" (administra el programa federal de vales de vivienda para Virginia Beach). HUD lo registra como la agencia pública de vivienda VA039, con el nombre \"Va. Beach Dept. of Hsg and Neighborhood Pres.\" Esta página explica cómo funciona ese departamento, cuál es de verdad el estado de su lista de espera, cómo comunicarse con las personas indicadas y qué opciones tiene en las ciudades vecinas que sí administran vivienda pública.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Servicios para personas sin hogar y la línea regional de crisis de vivienda",
+      "Desarrollo de vivienda y producción de vivienda asequible",
+      "Rehabilitación de viviendas ocupadas por sus dueños y de casas prefabricadas",
+      "Cumplimiento del código de vivienda"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada y sin aceptar solicitudes (verificado el 25 de agosto de 2026). El departamento lo dice así: \"The waiting list for the Virginia Beach HCV program is closed and no new applications are being accepted\" (la lista está cerrada y no se aceptan solicitudes nuevas). Su sección de preguntas frecuentes añade el dato más importante: \"The Housing Choice Voucher waiting list for Virginia Beach reopened on Tuesday, Nov. 9, 2021, and closed the same day\" (reabrió el martes 9 de noviembre de 2021 y cerró ese mismo día). No hay fecha de reapertura. Si usted solicitó en 2021, el departamento dice que \"the easiest way to check the status of your application any time is to log into your account at www.assistancecheck.com\" (la forma más fácil de revisar su solicitud es entrar a su cuenta en ese sitio)."
+      },
+      {
+        "program": "Vivienda pública en Virginia Beach",
+        "status": "No existe",
+        "note": "No hay vivienda pública municipal a la cual solicitar. El informe de contactos de PHA de HUD clasifica a VA039 como programa de \"Section 8\", y el propio sitio del departamento enumera vales, servicios para personas sin hogar, desarrollo de vivienda, rehabilitación y cumplimiento del código, sin ningún programa de vivienda pública. Si usted busca específicamente vivienda pública, tiene que solicitar a la autoridad de una ciudad vecina, y esas son agencias aparte con listas aparte."
+      },
+      {
+        "program": "Vivienda pública de Chesapeake (Chesapeake Redevelopment and Housing Authority)",
+        "status": "Cerrada",
+        "note": "La autoridad de vivienda pública más cercana, y también está cerrada. Su página dice: \"The Public Housing Waiting List is currently closed and we are not accepting applications at this time\" (la lista está cerrada y no se aceptan solicitudes). Puede consultar una solicitud existente en su portal MyHousing. Oficina de ocupación (757) 470-5860, línea principal (757) 523-0401, 1468 S. Military Hwy, Chesapeake (verificado el 25 de agosto de 2026)."
+      }
+    ],
+    "also_serving": [
+      "<strong>No existe una Virginia Beach Redevelopment and Housing Authority, y buscarla le hace perder tiempo.</strong> Los sitios agregadores la enumeran porque casi todas las ciudades de Virginia tienen una. Virginia Beach no. El departamento municipal en el (757) 385-5750 es la respuesta completa, y su división de vivienda de alquiler es la parte que maneja los vales: la administradora N. Lynn Carter, (757) 385-5745, RentalHsgDivision@VBgov.com.",
+      "<strong>La Norfolk Redevelopment and Housing Authority (NRHA)</strong> sí es una agencia aparte, justo al lado, que administra vales y vivienda pública para la ciudad de Norfolk con sus propias listas de espera. Línea principal (757) 623-1111. Solicitar en Virginia Beach no le pone en la lista de Norfolk, ni al revés.",
+      "<strong>La Chesapeake Redevelopment and Housing Authority (CRHA)</strong> administra vivienda pública y vales para Chesapeake desde 1468 S. Military Hwy. Su lista de vivienda pública está cerrada al 25 de agosto de 2026, pero se describe como una subdivisión política de Virginia con una junta de nueve comisionados nombrados por el concejo municipal de Chesapeake, y publica las aperturas en su propio sitio. Ocupación (757) 470-5860.",
+      "<strong>Si necesita ayuda esta semana y no un lugar en una lista,</strong> el departamento remite a la línea regional de crisis de vivienda, (757) 227-5932, de lunes a viernes de 8 a.m. a 5:30 p.m., y al Housing Resource Center en 104 N. Witchduck Road, abierto sin cita los lunes, martes, jueves y viernes de 8 a.m. al mediodía. Esa es la puerta de entrada para quien está sin hogar o a punto de estarlo, y no es lo mismo que la lista de espera de vales."
+    ],
+    "faqs": [
+      {
+        "q": "¿Existe una autoridad de vivienda y reurbanización de Virginia Beach?",
+        "a": "No. Virginia Beach no tiene una autoridad de vivienda y reurbanización, aunque casi todas las ciudades de Virginia sí la tienen y muchos directorios en línea la enumeran. El programa de vales de la Sección 8 de la ciudad lo administra el City of Virginia Beach Department of Housing and Neighborhood Preservation, que declara que \"administers the federally funded Housing Choice Voucher (HCV) program for Virginia Beach\". HUD registra al propio departamento como la agencia pública de vivienda, con el código VA039. El número al que debe llamar es el (757) 385-5750."
+      },
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Virginia Beach?",
+        "a": "No. Al 25 de agosto de 2026, el departamento declara: \"The waiting list for the Virginia Beach HCV program is closed and no new applications are being accepted\" (la lista está cerrada y no se aceptan solicitudes nuevas). Lleva años cerrada. Su propia sección de preguntas dice que la lista \"reopened on Tuesday, Nov. 9, 2021, and closed the same day\" (reabrió el martes 9 de noviembre de 2021 y cerró ese mismo día), y desde entonces no se ha anunciado ninguna reapertura. Vale la pena planificar con ese patrón en mente: si vuelve a ocurrir, tendrá que solicitar en cuestión de horas, no de semanas."
+      },
+      {
+        "q": "¿Por qué es tan larga la espera y cuántos vales hay?",
+        "a": "El departamento da la razón directamente: \"The U.S. Department of Housing and Urban Development (HUD) has allotted a fixed number of vouchers for Virginia Beach. Vouchers only become available as current HCV participants leave the program\" (HUD asignó un número fijo de vales, y solo se liberan cuando alguien deja el programa). Informa que \"more than 2,000 households, including families, seniors, persons with disabilities, and veterans\" pagan su alquiler con estos vales en Virginia Beach, y su división de vivienda de alquiler entrega más de 20 millones de dólares al año a más de 2,300 hogares. También advierte que \"applying for the waiting list does not guarantee admission to the HCV program\" (solicitar no garantiza la admisión)."
+      },
+      {
+        "q": "¿Qué preferencias usa Virginia Beach?",
+        "a": "La sección de preguntas del departamento enumera preferencias locales por desplazamiento, víctimas de violencia doméstica, falta de vivienda, residencia en Virginia Beach, ser persona mayor o con discapacidad, condición de veterano, empleo, familias con hijos e ingresos insuficientes. No publica cuánto pesa cada una, y señala que el tiempo de espera de cada hogar depende de las preferencias que le correspondan, de cuántas solicitudes hay en la lista y de cuántos vales dejan libres quienes salen del programa. Confirme su situación con la división de vivienda de alquiler al (757) 385-5745."
+      },
+      {
+        "q": "Solicité hace años. ¿Cómo reviso mi lugar en la lista?",
+        "a": "Entre a www.assistancecheck.com, que el departamento nombra como la forma más fácil de revisar su solicitud en cualquier momento. También existe un portal más completo, Assistance Connect, descrito como \"a secure website where you can access your case file, submit and track requests, communicate with Rental Housing staff, and more\" (un sitio seguro para ver su expediente, hacer solicitudes y comunicarse con el personal). Hay que darse de alta: escriba a VBAssistConnect@vbgov.com o llame al (757) 385-5787. En cualquier caso, mantenga su dirección y su teléfono al día, porque si no pueden localizarle cuando le toque su turno, puede perder su lugar."
+      },
+      {
+        "q": "¿Dónde busco vivienda pública cerca de Virginia Beach?",
+        "a": "En las ciudades vecinas, porque Virginia Beach no tiene. La Norfolk Redevelopment and Housing Authority, (757) 623-1111, administra vivienda pública y vales para Norfolk. La Chesapeake Redevelopment and Housing Authority, (757) 523-0401, hace lo mismo en Chesapeake, aunque al 25 de agosto de 2026 su lista de vivienda pública aparece como cerrada y sin aceptar solicitudes. Son agencias aparte, con solicitudes aparte y preferencias de residencia propias, así que estar en la lista de vales de Virginia Beach no le sirve en ninguna de las dos."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Virginia Beach Housing and Neighborhood Preservation - sitio oficial (en inglés)",
+        "url": "https://housing.virginiabeach.gov/"
+      },
+      {
+        "label": "Ciudad de Virginia Beach - Housing Choice Voucher: estado de la lista y quién lo administra (en inglés)",
+        "url": "https://housing.virginiabeach.gov/housing-choice-voucher"
+      },
+      {
+        "label": "Ciudad de Virginia Beach - Preguntas sobre la lista de espera, apertura del 9 de noviembre de 2021 y preferencias (en inglés)",
+        "url": "https://housing.virginiabeach.gov/housing-choice-voucher/waiting-list-faqs"
+      },
+      {
+        "label": "Ciudad de Virginia Beach - Acerca del departamento: divisiones y teléfonos directos (en inglés)",
+        "url": "https://housing.virginiabeach.gov/about-us"
+      },
+      {
+        "label": "Ciudad de Virginia Beach - Portal Assistance Connect (en inglés)",
+        "url": "https://housing.virginiabeach.gov/housing-choice-voucher/assistance-connect"
+      },
+      {
+        "label": "Ciudad de Virginia Beach - Recursos de vivienda: línea de crisis y Housing Resource Center (en inglés)",
+        "url": "https://housing.virginiabeach.gov/housing-resources"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA de Virginia, nombre y tipo de programa de VA039 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_VA.pdf"
+      },
+      {
+        "label": "Norfolk Redevelopment and Housing Authority - sitio oficial (en inglés)",
+        "url": "https://www.nrha.us/"
+      },
+      {
+        "label": "Chesapeake Redevelopment and Housing Authority - sitio oficial (en inglés)",
+        "url": "https://www.crhava.org/"
+      },
+      {
+        "label": "CRHA - Estado de la lista de espera de vivienda pública (en inglés)",
+        "url": "https://www.crhava.org/housing_information/public_housing/waiting_list.php"
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "nashville-mdha",
+  "kind": "authority",
+  "name": "Nashville's Metropolitan Development and Housing Agency (MDHA)",
+  "schema_name": "Metropolitan Development and Housing Agency",
+  "short_name": "MDHA",
+  "city": "Nashville",
+  "state": "TN",
+  "serves": "Nashville and Davidson County, Tennessee",
+  "phone": "(615) 252-8400",
+  "official_url": "https://www.nashville-mdha.org/",
+  "apply_url": "https://www.nashville-mdha.org/apply-for-housing/",
+  "city_slug": "nashville",
+  "state_slug": "tennessee",
+  "updated": "August 25, 2026",
+  "intro": "The Metropolitan Development and Housing Agency (MDHA) is the housing authority for Nashville and Davidson County, Tennessee. It was created in 1938 as the Nashville Housing Authority and took its current name in 1973, and it now houses roughly 30,000 people through about 8,000 Housing Choice Vouchers and more than 6,700 apartments it owns. The headline most people find is that MDHA's main voucher and affordable-housing waiting lists are closed. That is true, and it is also only half the story: MDHA opens waiting lists for individual apartment communities several times a year, they are announced only a few days ahead, and they close within about a week. This page covers both, plus how to reach the right department and how to keep an existing application alive.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Moderate Rehabilitation",
+    "Affordable apartments at MDHA-owned communities, largely through Project-Based Rental Assistance",
+    "Project-Based Vouchers at partner properties",
+    "Shelter Plus Care",
+    "Family Unification Program and Family Self-Sufficiency",
+    "Section 8 homeownership",
+    "Federal community development funds for Metro Nashville: HOME, CDBG, ESG and HOPWA",
+    "Redevelopment districts across the urban core"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked August 25, 2026). MDHA's wording is: \"MDHA is not currently accepting applications for our voucher program waiting lists.\" No reopening date has been published. MDHA says it \"announces waiting list openings in advance here on our website and on our social media pages (@NashvilleMDHA), so we encourage you to check back regularly for the latest information.\" If you already applied, MDHA says you can \"check your position on the waiting list by logging into Rent Cafe with the username you used to submit your application.\""
+    },
+    {
+      "program": "MDHA affordable-housing waiting lists, agency-wide",
+      "status": "Closed",
+      "note": "Closed (checked August 25, 2026): \"MDHA is not currently accepting applications for our affordable housing waiting lists.\" This is the agency-wide list, and it is not the same thing as the individual property lists below."
+    },
+    {
+      "program": "Individual apartment communities, opened one at a time",
+      "status": "Open periodically, for short windows",
+      "note": "This is the part that is easy to miss. MDHA opens the waiting list for one property at a time and announces it on its own news page a few days beforehand. In 2026 alone it opened lists for Neighborhood Housing, Vine Hill Apartments, Historic Preston Taylor Apartments, Shelby House project-based vouchers, Vine Hill Studio Apartments, Parthenon Towers, Carleen Batson Waller Manor, Sudekum Apartments and CWA Plaza Apartments II, between February and April. The windows are short: the Neighborhood Housing list ran \"from noon Feb. 13, 2026, to 3 p.m. Feb. 20, 2026\" and that is typical. As of August 25, 2026, MDHA's apply page showed no property list open, so the practical move is to check nashville-mdha.org/apply-for-housing and the agency's news page every week or two."
+    }
+  ],
+  "also_serving": [
+    "<strong>The short windows are the whole game.</strong> MDHA does not keep property lists open. Between February and April 2026 it opened nine of them, each announced a few days ahead and closed within about a week. Following @NashvilleMDHA and bookmarking the apply page is worth more here than it is at most authorities, because a list you find two weeks late is a list you missed.",
+    "<strong>The application is online through Rent Cafe, and the login changed in January 2026.</strong> MDHA posted an update to its Rent Cafe login process on January 12, 2026. If you have an older account and cannot get in, that is why. The applicant portal is at rentcafe.com/onlineleasing/mdha, and MDHA says there is \"absolutely no cost to submit a pre-application on-line\" and that \"you should only apply through the approved website.\"",
+    "<strong>Call the right department, not the switchboard.</strong> (615) 252-8400 is MDHA's main line, but the Rental Assistance Department, which handles vouchers, is (615) 252-6500. Resident Services runs an information line at (615) 252-8527. For an overdue balance, Finance is (615) 252-8440. Voucher questions by email go to Section8@Nashville-MDHA.org.",
+    "<strong>If you are homeless right now, MDHA points you elsewhere first.</strong> Its own guidance is to contact the Metro Office of Homeless Services at (615) 862-6444 for Coordinated Entry. That is a separate process from the MDHA waiting lists and it does not require a list to be open.",
+    "<strong>Outside Davidson County, the state agency runs the program.</strong> The Tennessee Housing Development Agency \"administers the Housing Choice Voucher program in 72 Tennessee counties\" and publishes a coverage map. Its own waiting list currently reads \"Status: Closed\" with \"No application dates currently scheduled\" (checked August 25, 2026), and it announces openings through local newspaper advertisements and social media. General information (800) 228-THDA."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Nashville Section 8 waiting list open?",
+      "a": "No. As of August 25, 2026 MDHA states that it \"is not currently accepting applications for our voucher program waiting lists,\" and it has not published a reopening date. MDHA says openings are announced in advance on its website and on its social media pages (@NashvilleMDHA). What it does open regularly are waiting lists for individual apartment communities, so check nashville-mdha.org/apply-for-housing rather than assuming there is nothing to apply for."
+    },
+    {
+      "q": "MDHA says its lists are closed, so is there anything I can apply for?",
+      "a": "Often, yes, just not the main list. MDHA opens property-level waiting lists one at a time throughout the year. In 2026 it opened nine between February and April, including Vine Hill Apartments, Parthenon Towers, Sudekum Apartments and CWA Plaza Apartments II. Each is announced on MDHA's news page only a few days before it opens and stays open for roughly a week. As of August 25, 2026 none were open, but that changes month to month, which is why checking the apply page regularly matters more here than at an authority that opens one list every few years."
+    },
+    {
+      "q": "How short are the application windows really?",
+      "a": "About a week. MDHA's Neighborhood Housing list ran \"from noon Feb. 13, 2026, to 3 p.m. Feb. 20, 2026,\" and the other 2026 openings followed the same pattern. Applications are accepted online only. Set up your Rent Cafe account before a list opens rather than during it, and have your household information ready, because you will not have time to sort out a login problem inside the window. If you need help applying, MDHA directs people to the Resident Services information line at (615) 252-8527 and says to press 0 when prompted."
+    },
+    {
+      "q": "How do I check my place on the MDHA waiting list?",
+      "a": "For vouchers, MDHA says to \"check your position on the waiting list by logging into Rent Cafe with the username you used to submit your application.\" For affordable housing at a specific property, MDHA says to contact that property directly and gives leasing office numbers on its communities page. Keep your contact details current in Rent Cafe. MDHA updated its Rent Cafe login process in January 2026, so if an older account will not open, that change is the likely reason."
+    },
+    {
+      "q": "What number should I call at MDHA?",
+      "a": "(615) 252-8400 reaches MDHA's main office at 701 S. Sixth St. For voucher questions specifically, the Rental Assistance Department is (615) 252-6500, and email goes to Section8@Nashville-MDHA.org. Resident Services runs an information line at (615) 252-8527, and Finance handles overdue balances at (615) 252-8440. If you are currently homeless, MDHA points to the Metro Office of Homeless Services at (615) 862-6444."
+    },
+    {
+      "q": "How big is MDHA, and what does it actually own?",
+      "a": "MDHA describes itself as housing roughly 30,000 Nashvillians. It manages more than 7,000 vouchers and owns more than 6,700 units, primarily affordable housing, across nearly 40 properties, with about 300 employees and a $215 million budget. It is also a development authority overseeing 11 redevelopment districts, and it administers Metro Nashville's federal HOME, CDBG, ESG and HOPWA funds. Its Payment in Lieu of Taxes program has helped create or preserve roughly 12,000 affordable units across more than 50 developments since 2016."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Metropolitan Development and Housing Agency - official site",
+      "url": "https://www.nashville-mdha.org/"
+    },
+    {
+      "label": "MDHA - Apply for Housing (waiting-list status, open property lists)",
+      "url": "https://www.nashville-mdha.org/apply-for-housing/"
+    },
+    {
+      "label": "MDHA - Frequently Asked Questions (list status, department phone numbers)",
+      "url": "https://www.nashville-mdha.org/frequently-asked-questions/"
+    },
+    {
+      "label": "MDHA - Rental Assistance Department (voucher program)",
+      "url": "https://www.nashville-mdha.org/rental-assistance-voucher-program/"
+    },
+    {
+      "label": "MDHA - News (property waiting-list openings)",
+      "url": "https://www.nashville-mdha.org/news/"
+    },
+    {
+      "label": "MDHA - Neighborhood Housing waiting list opening, February 2026",
+      "url": "https://www.nashville-mdha.org/2026/02/13/affordable-housing-waiting-list-now-open-for-neighborhood-housing/"
+    },
+    {
+      "label": "MDHA - About Us and history (scale, budget, Metro relationship)",
+      "url": "https://www.nashville-mdha.org/history/"
+    },
+    {
+      "label": "MDHA - Communities (units, vouchers, property leasing offices)",
+      "url": "https://www.nashville-mdha.org/communities/"
+    },
+    {
+      "label": "MDHA - Contact Us",
+      "url": "https://www.nashville-mdha.org/contact-us/"
+    },
+    {
+      "label": "THDA - Housing Choice Voucher program (72 counties)",
+      "url": "https://thda.org/help-for-renters/housing-choice-voucher-hcv-program/"
+    },
+    {
+      "label": "THDA - Waiting List Openings and Closings",
+      "url": "https://thda.org/help-for-renters/waiting-list-openings-and-closings/"
+    }
+  ],
+  "es": {
+    "serves": "Nashville y el condado de Davidson, Tennessee",
+    "updated": "25 de agosto de 2026",
+    "intro": "La Metropolitan Development and Housing Agency (MDHA) es la autoridad de vivienda de Nashville y el condado de Davidson, Tennessee. Fue creada en 1938 como la Nashville Housing Authority y adoptó su nombre actual en 1973; hoy da vivienda a unas 30,000 personas mediante unos 8,000 vales de la Sección 8 y más de 6,700 apartamentos propios. Lo primero que encuentra la mayoría es que las listas principales de vales y de vivienda asequible de MDHA están cerradas. Eso es cierto, y también es solo la mitad de la historia: MDHA abre listas de espera de comunidades de apartamentos concretas varias veces al año, las anuncia con pocos días de anticipación y las cierra en aproximadamente una semana. Esta página cubre ambas cosas, además de cómo comunicarse con el departamento correcto y cómo mantener viva una solicitud ya presentada.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Rehabilitación Moderada (Moderate Rehabilitation)",
+      "Apartamentos asequibles en comunidades propias de MDHA, en gran parte con asistencia de alquiler basada en proyecto",
+      "Vales basados en proyecto en propiedades asociadas",
+      "Shelter Plus Care",
+      "Programa de Unificación Familiar y Autosuficiencia Familiar",
+      "Compra de vivienda con la Sección 8",
+      "Fondos federales de desarrollo comunitario para Metro Nashville: HOME, CDBG, ESG y HOPWA",
+      "Distritos de reurbanización en el centro de la ciudad"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 25 de agosto de 2026). MDHA lo dice así: \"MDHA is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales). No hay fecha de reapertura publicada. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Si usted ya solicitó, MDHA indica que puede revisar su posición entrando a Rent Cafe con el mismo usuario con el que presentó la solicitud."
+      },
+      {
+        "program": "Listas de vivienda asequible de MDHA, a nivel de toda la agencia",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 25 de agosto de 2026): \"MDHA is not currently accepting applications for our affordable housing waiting lists\" (no acepta solicitudes para las listas de vivienda asequible). Esta es la lista general de la agencia, y no es lo mismo que las listas de cada propiedad que aparecen abajo."
+      },
+      {
+        "program": "Comunidades de apartamentos individuales, que abren de una en una",
+        "status": "Abren periódicamente, por poco tiempo",
+        "note": "Esta es la parte que se pasa por alto con facilidad. MDHA abre la lista de espera de una propiedad a la vez y lo anuncia en su página de noticias unos pocos días antes. Solo en 2026 abrió listas para Neighborhood Housing, Vine Hill Apartments, Historic Preston Taylor Apartments, los vales basados en proyecto de Shelby House, Vine Hill Studio Apartments, Parthenon Towers, Carleen Batson Waller Manor, Sudekum Apartments y CWA Plaza Apartments II, entre febrero y abril. Los plazos son cortos: la lista de Neighborhood Housing estuvo abierta \"from noon Feb. 13, 2026, to 3 p.m. Feb. 20, 2026\" (del mediodía del 13 de febrero a las 3 p.m. del 20 de febrero de 2026), y eso es lo habitual. Al 25 de agosto de 2026, la página de solicitudes de MDHA no mostraba ninguna lista de propiedad abierta, así que lo práctico es revisar nashville-mdha.org/apply-for-housing y su página de noticias cada una o dos semanas."
+      }
+    ],
+    "also_serving": [
+      "<strong>Los plazos cortos lo son todo.</strong> MDHA no deja las listas de propiedades abiertas. Entre febrero y abril de 2026 abrió nueve, cada una anunciada con pocos días de anticipación y cerrada en aproximadamente una semana. Seguir a @NashvilleMDHA y guardar la página de solicitudes vale más aquí que en la mayoría de las autoridades, porque una lista que usted encuentra dos semanas tarde es una lista que ya perdió.",
+      "<strong>La solicitud es en línea por Rent Cafe, y el acceso cambió en enero de 2026.</strong> MDHA publicó una actualización de su proceso de acceso a Rent Cafe el 12 de enero de 2026. Si tiene una cuenta antigua y no logra entrar, esa es la explicación. El portal está en rentcafe.com/onlineleasing/mdha, y MDHA advierte que no cuesta nada presentar una presolicitud en línea y que solo debe solicitar a través del sitio autorizado.",
+      "<strong>Llame al departamento correcto, no a la centralita.</strong> El (615) 252-8400 es la línea principal de MDHA, pero el Departamento de Asistencia de Alquiler, que maneja los vales, es el (615) 252-6500. Servicios al Residente tiene una línea de información en el (615) 252-8527. Para un saldo vencido, Finanzas es el (615) 252-8440. Las preguntas sobre vales por correo van a Section8@Nashville-MDHA.org.",
+      "<strong>Si usted está sin hogar en este momento, MDHA le remite primero a otra parte.</strong> Su propia guía es comunicarse con la Metro Office of Homeless Services al (615) 862-6444 para la entrada coordinada. Ese es un proceso aparte de las listas de espera de MDHA y no requiere que haya una lista abierta.",
+      "<strong>Fuera del condado de Davidson, el programa lo administra la agencia estatal.</strong> La Tennessee Housing Development Agency administra el programa de vales en 72 condados de Tennessee y publica un mapa de cobertura. Su propia lista de espera aparece hoy como cerrada, sin fechas de solicitud programadas (verificado el 25 de agosto de 2026), y anuncia las aperturas mediante avisos en periódicos locales y redes sociales. Información general (800) 228-THDA."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Nashville?",
+        "a": "No. Al 25 de agosto de 2026, MDHA declara que \"is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales) y no ha publicado una fecha de reapertura. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Lo que sí abre con regularidad son las listas de comunidades de apartamentos individuales, así que revise nashville-mdha.org/apply-for-housing en lugar de suponer que no hay nada a lo cual solicitar."
+      },
+      {
+        "q": "MDHA dice que sus listas están cerradas. ¿Hay algo a lo que pueda solicitar?",
+        "a": "Muchas veces sí, solo que no la lista principal. MDHA abre listas de espera por propiedad a lo largo del año, de una en una. En 2026 abrió nueve entre febrero y abril, incluidas Vine Hill Apartments, Parthenon Towers, Sudekum Apartments y CWA Plaza Apartments II. Cada una se anuncia en la página de noticias de MDHA pocos días antes de abrir y permanece abierta alrededor de una semana. Al 25 de agosto de 2026 no había ninguna abierta, pero eso cambia de mes a mes, y por eso revisar la página de solicitudes con frecuencia importa más aquí que en una autoridad que abre una lista cada varios años."
+      },
+      {
+        "q": "¿Qué tan cortos son los plazos para solicitar?",
+        "a": "Alrededor de una semana. La lista de Neighborhood Housing de MDHA estuvo abierta \"from noon Feb. 13, 2026, to 3 p.m. Feb. 20, 2026\", y las demás aperturas de 2026 siguieron el mismo patrón. Las solicitudes se aceptan solo en línea. Cree su cuenta de Rent Cafe antes de que abra una lista, no durante, y tenga lista la información de su hogar, porque no tendrá tiempo de resolver un problema de acceso dentro del plazo. Si necesita ayuda para solicitar, MDHA remite a la línea de información de Servicios al Residente, (615) 252-8527, y dice que marque 0 cuando se lo pidan."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en la lista de espera de MDHA?",
+        "a": "Para los vales, MDHA dice que revise su posición entrando a Rent Cafe con el mismo usuario con el que presentó la solicitud. Para vivienda asequible en una propiedad concreta, MDHA indica que se comunique directamente con esa propiedad y publica los teléfonos de las oficinas de arrendamiento en su página de comunidades. Mantenga sus datos de contacto al día en Rent Cafe. MDHA actualizó su proceso de acceso a Rent Cafe en enero de 2026, así que si una cuenta antigua no abre, ese cambio es la causa más probable."
+      },
+      {
+        "q": "¿A qué número debo llamar en MDHA?",
+        "a": "El (615) 252-8400 comunica con la oficina principal de MDHA en 701 S. Sixth St. Para preguntas sobre vales, el Departamento de Asistencia de Alquiler es el (615) 252-6500, y el correo es Section8@Nashville-MDHA.org. Servicios al Residente atiende una línea de información en el (615) 252-8527, y Finanzas maneja los saldos vencidos en el (615) 252-8440. Si usted está sin hogar en este momento, MDHA remite a la Metro Office of Homeless Services al (615) 862-6444."
+      },
+      {
+        "q": "¿Qué tamaño tiene MDHA y qué administra en realidad?",
+        "a": "MDHA se describe como la agencia que da vivienda a unas 30,000 personas en Nashville. Administra más de 7,000 vales y es dueña de más de 6,700 unidades, principalmente vivienda asequible, en casi 40 propiedades, con unos 300 empleados y un presupuesto de 215 millones de dólares. También es una agencia de desarrollo que supervisa 11 distritos de reurbanización, y administra los fondos federales HOME, CDBG, ESG y HOPWA de Metro Nashville. Su programa de pagos en lugar de impuestos ha ayudado a crear o preservar unas 12,000 unidades asequibles en más de 50 desarrollos desde 2016."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Metropolitan Development and Housing Agency - sitio oficial (en inglés)",
+        "url": "https://www.nashville-mdha.org/"
+      },
+      {
+        "label": "MDHA - Solicitar vivienda: estado de las listas y listas de propiedades abiertas (en inglés)",
+        "url": "https://www.nashville-mdha.org/apply-for-housing/"
+      },
+      {
+        "label": "MDHA - Preguntas frecuentes: estado de las listas y teléfonos por departamento (en inglés)",
+        "url": "https://www.nashville-mdha.org/frequently-asked-questions/"
+      },
+      {
+        "label": "MDHA - Departamento de Asistencia de Alquiler, programa de vales (en inglés)",
+        "url": "https://www.nashville-mdha.org/rental-assistance-voucher-program/"
+      },
+      {
+        "label": "MDHA - Noticias: aperturas de listas de espera por propiedad (en inglés)",
+        "url": "https://www.nashville-mdha.org/news/"
+      },
+      {
+        "label": "MDHA - Apertura de la lista de Neighborhood Housing, febrero de 2026 (en inglés)",
+        "url": "https://www.nashville-mdha.org/2026/02/13/affordable-housing-waiting-list-now-open-for-neighborhood-housing/"
+      },
+      {
+        "label": "MDHA - Historia y datos de la agencia: tamaño, presupuesto y relación con Metro (en inglés)",
+        "url": "https://www.nashville-mdha.org/history/"
+      },
+      {
+        "label": "MDHA - Comunidades: unidades, vales y oficinas de arrendamiento (en inglés)",
+        "url": "https://www.nashville-mdha.org/communities/"
+      },
+      {
+        "label": "MDHA - Contacto (en inglés)",
+        "url": "https://www.nashville-mdha.org/contact-us/"
+      },
+      {
+        "label": "THDA - Programa de vales de vivienda en 72 condados (en inglés)",
+        "url": "https://thda.org/help-for-renters/housing-choice-voucher-hcv-program/"
+      },
+      {
+        "label": "THDA - Aperturas y cierres de listas de espera (en inglés)",
+        "url": "https://thda.org/help-for-renters/waiting-list-openings-and-closings/"
+      }
+    ]
+  }
+}

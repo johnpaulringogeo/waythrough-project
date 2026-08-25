@@ -36,6 +36,16 @@
         "desc": "San Francisco's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/long-beach-haclb",
+        "title": "Housing Authority of the City of Long Beach",
+        "desc": "Long Beach's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
+        "href": "resources/housing-authorities/fresno-ca",
+        "title": "Fresno Housing (Housing Authority of the City and County of Fresno)",
+        "desc": "Fresno's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, privacy, retaliation, and eviction defense."
@@ -122,6 +132,16 @@
         "href": "es/recursos/autoridades-de-vivienda/san-francisco-sfha",
         "title": "Autoridad de Vivienda de San Francisco (SFHA)",
         "desc": "Estado de la lista de espera de Sección 8 en San Francisco, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/long-beach-haclb",
+        "title": "Autoridad de Vivienda de la Ciudad de Long Beach (HACLB)",
+        "desc": "Estado de la lista de espera de Sección 8 en Long Beach, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/fresno-ca",
+        "title": "Fresno Housing (autoridades de la ciudad y del condado de Fresno)",
+        "desc": "Estado de la lista de espera de Sección 8 en Fresno, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",
