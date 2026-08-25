@@ -177,7 +177,25 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-solicitar-seccion-8</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/requisitos-elegibilidad-seccion-8</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/como-enviar-solicitud-seccion-8</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/preferencias-lista-espera-seccion-8</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -765,7 +783,25 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/how-to-apply-section-8</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/section-8-eligibility-requirements</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/how-to-submit-section-8-application</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/section-8-waiting-list-preferences</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
