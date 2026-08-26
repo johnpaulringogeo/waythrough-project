@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>How to Appeal a Section 8 Denial</title>
+      <link>https://waythroughproject.com/blog/posts/appeal-section-8-denial</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/appeal-section-8-denial</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Denied for Section 8? You have the right to appeal. Here's how informal hearings work, what evidence to bring, and how to give yourself the best chance of winning.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Housing Quality Standards: The Minimum Your Apartment Must Meet</title>
