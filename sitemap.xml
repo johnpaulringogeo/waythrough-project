@@ -3071,6 +3071,24 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/estandares-de-calidad-de-vivienda-hqs</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/voucher-por-proyecto-vs-por-inquilino</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/section-8-sin-ingresos</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <!-- Spanish housing-authority directory (ES parity batch) -->
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/</loc>
