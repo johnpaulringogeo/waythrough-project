@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>The HUD 50058: What It Is and Why It Matters</title>
+      <link>https://waythroughproject.com/blog/posts/understanding-your-hud-50058</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/understanding-your-hud-50058</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The 50058 is the form that controls your Section 8 benefits. Here's what's on it, how to check it for errors, and why reviewing it can save you money.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>How to Appeal a Section 8 Denial</title>

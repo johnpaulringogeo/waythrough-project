@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "The HUD 50058: What It Is and Why It Matters",
+      "description": "The 50058 is the form that controls your Section 8 benefits. Here's what's on it, how to check it for errors, and why reviewing it can save you money.",
+      "url": "blog/posts/understanding-your-hud-50058.html",
+      "date": "2026-09-02",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "How to Appeal a Section 8 Denial",
       "description": "Denied for Section 8? You have the right to appeal. Here's how informal hearings work, what evidence to bring, and how to give yourself the best chance of winning.",
       "url": "blog/posts/appeal-section-8-denial.html",
