@@ -12,8 +12,8 @@
   "apply_url": "https://www.denverhousing.org/housing-choice-vouchers-section8/",
   "city_slug": "denver",
   "state_slug": "colorado",
-  "updated": "August 25, 2026",
-  "intro": "The Denver Housing Authority, formally the Housing Authority of the City and County of Denver, is a quasi-municipal corporation that has provided affordable housing in Denver since 1938 and now serves over 31,100 people through more than 13,000 units and Housing Choice Vouchers. The single most important thing to understand about applying here is that DHA does not run a conventional Section 8 waiting list at all. It runs a lottery, once a year, and if you miss the registration window you wait a year for the next one. As of August 25, 2026 that window has not opened yet: DHA's entry page states \"The 2027 Lottery is Currently Closed\" and says registration takes place on \"the 3rd Thursday and Friday of September 2026,\" which is only a few weeks away. This page explains how the lottery works, what else is open, and who to call.",
+  "updated": "September 8, 2026",
+  "intro": "The Denver Housing Authority, formally the Housing Authority of the City and County of Denver, is a quasi-municipal corporation that has provided affordable housing in Denver since 1938 and now serves over 31,100 people through more than 13,000 units and Housing Choice Vouchers. The single most important thing to understand about applying here is that DHA does not run a conventional Section 8 waiting list at all. It runs a lottery, once a year, and if you miss the registration window you wait a year for the next one. DHA has now published the dates. Its Housing Choice Voucher page reads \"The 2027 Housing Choice Voucher (HCV) Lottery Opens September 17-18 for 48 Hours\" and says the lottery \"will open September 17, 12:00 a.m. to September 18, 11:59 p.m.\", and the banner across denverhousing.org reads \"Opens Sept. 17 | 48 Hours Only\" (both checked September 8, 2026). This page explains how the lottery works, what else is open, and who to call.",
   "programs": [
     "Housing Choice Voucher (Section 8), awarded through an annual lottery",
     "Subsidized and public housing at DHA properties",
@@ -25,13 +25,13 @@
   "waitlists": [
     {
       "program": "Housing Choice Voucher (Section 8)",
-      "status": "Closed now, annual lottery registration expected in September 2026",
-      "note": "There is no ongoing waiting list to join. DHA states: \"Once annually the Denver Housing Authority holds an online lottery process on our website for interested applicants, 18 years of age and older.\" As of August 25, 2026 its entry page reads \"The 2027 Lottery is Currently Closed\" and states that registration takes place on \"the 3rd Thursday and Friday of September 2026.\" On the calendar that points to September 17 and 18, 2026, but DHA publishes the rule rather than the dates, and it also says \"the dates of the lottery change yearly; however, these dates are announced in all local papers under the public notice section, the DHA phone system as well as our website.\" Confirm on denverhousing.org before you rely on those two days."
+      "status": "Registration opens September 17, 2026, 48 hours only, closing September 18, 2026",
+      "note": "There is no ongoing waiting list to join. DHA states: \"Once annually the Denver Housing Authority holds an online lottery process on our website for interested applicants, 18 years of age and older.\" For the 2027 lottery DHA has now published the dates. Its Housing Choice Voucher page reads \"The 2027 Housing Choice Voucher (HCV) Lottery Opens September 17-18 for 48 Hours\" and says it \"will open September 17, 12:00 a.m. to September 18, 11:59 p.m.\" (checked September 8, 2026). DHA's own entry form still read \"The 2027 Lottery is Currently Closed\" on that date; the form opens on September 17. DHA says entries \"MUST be submitted on-line (through the internet) using ANY computer, tablet, or smart phone that has Internet access by going to DHA's website at www.denverhousing.org,\" and that \"Only one computer entry can be submitted per household.\" To take part you must be \"18 years of age or older\" and \"A U.S. citizen or eligible immigrant and have legal capacity to enter into a lease under state and local law.\" If you need a computer, DHA opens its Opportunity Centers at Westwood Homes, 855 South Irving Street, and North Lincoln Homes, 1401 Mariposa Street, from 8:00 a.m. to 4:00 p.m., and warns that \"DHA's Osage Street office WILL NOT be open for lottery entries.\""
     },
     {
       "program": "Subsidized and public housing waiting lists",
       "status": "Closed",
-      "note": "Closed (checked August 25, 2026). DHA's wait-list page reads: \"There are no currently open lottery or pre-application lists.\" When they do open, DHA says \"a public notice will run in four local newspapers in English and Spanish. (Denver Post, El Semanario, Denver Weekly and La Voz).\" DHA describes three subsidized waiting lists organized by bedroom size and says \"you may submit interest cards for all three waiting lists,\" and that reaching the top of a list typically takes 6 to 12 months once you are on it."
+      "note": "Closed (checked September 8, 2026). DHA's wait-list page reads: \"There are no currently open lottery or pre-application lists.\" When they do open, DHA says \"a public notice will run in four local newspapers in English and Spanish. (Denver Post, El Semanario, Denver Weekly and La Voz).\" DHA describes three subsidized waiting lists organized by bedroom size and says \"you may submit interest cards for all three waiting lists,\" and that reaching the top of a list typically takes 6 to 12 months once you are on it."
     },
     {
       "program": "Individual DHA properties",
@@ -41,7 +41,7 @@
   ],
   "also_serving": [
     "<strong>The lottery is a registration, not an application, and it does not guarantee anything.</strong> DHA is explicit: \"Lottery registration does not guarantee that your number will be drawn. The amount of lottery numbers drawn depends on available funding.\" After registration closes, \"throughout the following year, as funds are available, DHA will randomly select lottery numbers via a computerized random selection process,\" and selected households are notified by mail within 120 days of a drawing. There are no scheduled drawing dates: DHA says \"lottery numbers are drawn as funds are available, so, there are no specific dates.\"",
-    "<strong>Register once, and get the Social Security number right.</strong> DHA warns that duplicate entries disqualify every entry from that household, and that you should \"be sure to enter your Social Security number correctly, you will need your Social Security to check your lottery status later.\" Registration takes under ten minutes and asks for name, Social Security number, date of birth, family size, income range and mailing address. Results are checked back on DHA's site using that same Social Security number.",
+    "<strong>Register once, and get the Social Security number right.</strong> DHA warns that duplicate entries disqualify every entry from that household, and that you should \"be sure to enter your Social Security number correctly, you will need your Social Security to check your lottery status later.\" Registration takes under ten minutes and asks for name, Social Security number, date of birth, family size, income range and mailing address. Results are checked back on DHA's site using that same Social Security number, and DHA tells registrants to \"print your confirmation page or make note of your lottery number.\"",
     "<strong>Results lag by months, and that is normal.</strong> DHA's lottery results page currently covers \"the lottery held in September 2025 only,\" and states that \"information for the lottery held in September 2026 is expected to be available in January 2027.\" So if you register this September, do not read the silence through the autumn as a rejection.",
     "<strong>DHA has two offices and a separate walk-in location for vouchers.</strong> The central office is at 1035 Osage St., open Monday through Friday 8 a.m. to 4:30 p.m. The HCV and Section 8 walk-in office is at 1401 Mariposa Street, open Tuesday through Friday 8 a.m. to 4:30 p.m. Mail goes to PO Box 40305, Santa Fe Drive Station, Denver, CO 80204. Portability questions have their own line at (720) 932-3220 and mailbox DHAPorts@denverhousing.org.",
     "<strong>The Housing Authority of the City of Aurora is a separate agency next door.</strong> It serves Aurora, runs its own vouchers and affordable communities, and states that it \"currently serves 2,000 households through voucher programs and 1,620 residents that reside in our affordable rental communities.\" Its main line is (720) 251-2100 and its office is at 2280 S Xanadu Way. A Denver lottery registration does not put you on Aurora's lists."
@@ -49,11 +49,11 @@
   "faqs": [
     {
       "q": "How do I get on the Denver Section 8 waiting list?",
-      "a": "You do not, because there is not one. DHA awards Housing Choice Vouchers through an annual online lottery instead of an open waiting list. You register during a short window once a year, and DHA then draws numbers at random through the following year as funding allows. As of August 25, 2026 the entry page reads \"The 2027 Lottery is Currently Closed\" and says registration takes place on \"the 3rd Thursday and Friday of September 2026,\" which points to September 17 and 18. Check denverhousing.org in early September to confirm the exact days."
+      "a": "You do not, because there is not one. DHA awards Housing Choice Vouchers through an annual online lottery instead of an open waiting list. You register during a short window once a year, and DHA then draws numbers at random through the following year as funding allows. For 2027 that window is September 17 and 18, 2026: DHA says the lottery \"will open September 17, 12:00 a.m. to September 18, 11:59 p.m.\" (checked September 8, 2026). Register at denverhousing.org during those two days. DHA also warns that entries \"do not carry over from year to year; persons must re-register each year,\" so a registration from a past year does not count."
     },
     {
       "q": "When is the next Denver housing lottery?",
-      "a": "DHA states that the 2027 lottery registration takes place on \"the 3rd Thursday and Friday of September 2026.\" That is September 17 and 18, 2026 on the calendar, though DHA publishes the rule rather than the two dates, and adds that \"the dates of the lottery change yearly; however, these dates are announced in all local papers under the public notice section, the DHA phone system as well as our website.\" If you want one reminder to set this year, set it for the first week of September and check DHA's site then. The window is two days, and the next one after that is a year later."
+      "a": "September 17 and 18, 2026, and the window is only 48 hours. DHA's Housing Choice Voucher page says the 2027 lottery \"will open September 17, 12:00 a.m. to September 18, 11:59 p.m.\", and the banner on denverhousing.org reads \"Opens Sept. 17 | 48 Hours Only\" (both checked September 8, 2026). Register online at denverhousing.org. DHA says entries \"MUST be submitted on-line (through the internet) using ANY computer, tablet, or smart phone that has Internet access,\" and that \"Only one computer entry can be submitted per household.\" Have this ready before you start: \"Name, social security number, date of birth, family size, income range and mailing address.\" DHA says the process \"takes less than 10 minutes\" and tells you to \"be sure to enter your Social Security number correctly\" and to \"print your confirmation page or make note of your lottery number.\" You must be \"18 years of age or older\" and \"A U.S. citizen or eligible immigrant.\" Never pay anyone to enter: DHA says \"NEVER pay money to apply for housing!\" After 11:59 p.m. on September 18 the window is shut until next year."
     },
     {
       "q": "Does winning the lottery mean I get a voucher?",
@@ -61,11 +61,11 @@
     },
     {
       "q": "I registered. How do I check my lottery status?",
-      "a": "Through DHA's lottery results page, using the Social Security number you entered on the application. Expect a wait: as of August 25, 2026 the page covers \"the lottery held in September 2025 only,\" and DHA says \"information for the lottery held in September 2026 is expected to be available in January 2027.\" Also note DHA's warning that duplicate entries disqualify all entries from a household, so if you think someone in your household also registered, call (720) 932-3023 rather than registering again."
+      "a": "Through DHA's lottery results page, using the Social Security number you entered on the application. Expect a wait: checked September 8, 2026, that page still covers \"the lottery held in September 2025 only,\" and DHA says \"information for the lottery held in September 2026 is expected to be available in January 2027.\" Also note DHA's warning that duplicate entries disqualify all entries from a household, so if you think someone in your household also registered, call (720) 932-3023 rather than registering again."
     },
     {
       "q": "Is there anything open in Denver besides the lottery?",
-      "a": "Not much right now, but it is worth checking rather than assuming. DHA's wait-list page reads \"there are no currently open lottery or pre-application lists\" as of August 25, 2026. Its property availability page is more mixed: several DHA properties say to contact the office for status, and Benedict Park Place says applications \"can be picked up at 305 Park Ave West, Denver, Co 80205.\" The Occupancy department at (720) 932-3020 is the right number to ask what is actually accepting applications."
+      "a": "Not much right now, but it is worth checking rather than assuming. DHA's wait-list page read \"There are no currently open lottery or pre-application lists\" when we checked on September 8, 2026, and its availability page lists Section 8 Housing Choice Vouchers as \"Apply when lottery is open.\" That availability page is more mixed elsewhere: several DHA properties say to contact the office for status, and Benedict Park Place says applications \"can be picked up at 305 Park Ave West, Denver, Co 80205.\" The Occupancy department at (720) 932-3020 is the right number to ask what is actually accepting applications."
     },
     {
       "q": "What number should I call at DHA?",
@@ -78,11 +78,15 @@
       "url": "https://www.denverhousing.org/"
     },
     {
-      "label": "DHA - Housing Choice Voucher / Section 8 (how the annual lottery works)",
+      "label": "DHA - Housing Choice Voucher / Section 8 (2027 lottery dates and how the lottery works)",
       "url": "https://www.denverhousing.org/housing-choice-vouchers-section8/"
     },
     {
-      "label": "DHA - Section 8 Lottery Entry Form (2027 lottery status and September 2026 registration)",
+      "label": "DHA - HCV Lottery page (2027 dates, who can enter, where to find a computer)",
+      "url": "https://www.denverhousing.org/hcv-lottery/"
+    },
+    {
+      "label": "DHA - Section 8 Lottery Entry Form (opens September 17, 2026)",
       "url": "https://sites.denverhousing.org/templates/lottery/s8lotteryentry2.aspx"
     },
     {
@@ -112,8 +116,8 @@
   ],
   "es": {
     "serves": "la ciudad y el condado de Denver, Colorado",
-    "updated": "25 de agosto de 2026",
-    "intro": "La Denver Housing Authority, formalmente la Housing Authority of the City and County of Denver, es una corporación cuasi municipal que provee vivienda asequible en Denver desde 1938 y que hoy atiende a más de 31,100 personas con más de 13,000 unidades y vales de vivienda. Lo más importante que debe entender aquí es que DHA no maneja una lista de espera común de la Sección 8. Maneja un sorteo, una vez al año, y si usted pierde el plazo de inscripción tiene que esperar un año hasta el siguiente. Al 25 de agosto de 2026 ese plazo aún no ha abierto: la página de inscripción de DHA dice \"The 2027 Lottery is Currently Closed\" (el sorteo de 2027 está cerrado) y señala que la inscripción ocurre en \"the 3rd Thursday and Friday of September 2026\" (el tercer jueves y viernes de septiembre de 2026), es decir dentro de pocas semanas. Esta página explica cómo funciona el sorteo, qué más está abierto y a quién llamar.",
+    "updated": "8 de septiembre de 2026",
+    "intro": "La Denver Housing Authority, formalmente la Housing Authority of the City and County of Denver, es una corporación cuasi municipal que provee vivienda asequible en Denver desde 1938 y que hoy atiende a más de 31,100 personas con más de 13,000 unidades y vales de vivienda. Lo más importante que debe entender aquí es que DHA no maneja una lista de espera común de la Sección 8. Maneja un sorteo, una vez al año, y si usted pierde el plazo de inscripción tiene que esperar un año hasta el siguiente. DHA ya publicó las fechas. Su página del Housing Choice Voucher dice \"The 2027 Housing Choice Voucher (HCV) Lottery Opens September 17-18 for 48 Hours\" (el sorteo de 2027 abre del 17 al 18 de septiembre, solo 48 horas) y precisa que abrirá \"September 17, 12:00 a.m. to September 18, 11:59 p.m.\", es decir del 17 de septiembre a las 12:00 a.m. hasta el 18 de septiembre a las 11:59 p.m. El aviso en denverhousing.org dice \"Opens Sept. 17 | 48 Hours Only\" (abre el 17 de septiembre, solo 48 horas). Verificado el 8 de septiembre de 2026. Esta página explica cómo funciona el sorteo, qué más está abierto y a quién llamar.",
     "programs": [
       "Housing Choice Voucher (Sección 8), otorgado mediante un sorteo anual",
       "Vivienda pública y subsidiada en propiedades de DHA",
@@ -125,13 +129,13 @@
     "waitlists": [
       {
         "program": "Housing Choice Voucher (Sección 8)",
-        "status": "Cerrado ahora; se espera la inscripción al sorteo anual en septiembre de 2026",
-        "note": "No hay una lista de espera permanente a la cual inscribirse. DHA declara: \"Once annually the Denver Housing Authority holds an online lottery process on our website for interested applicants, 18 years of age and older\" (una vez al año realiza un sorteo en línea para mayores de 18 años). Al 25 de agosto de 2026 su página de inscripción dice \"The 2027 Lottery is Currently Closed\" y señala que la inscripción ocurre en \"the 3rd Thursday and Friday of September 2026\". En el calendario eso corresponde al 17 y 18 de septiembre de 2026, pero DHA publica la regla y no las fechas, y además advierte que \"the dates of the lottery change yearly\" (las fechas del sorteo cambian cada año) y que se anuncian en los periódicos locales, en su sistema telefónico y en su sitio web. Confirme en denverhousing.org antes de contar con esos dos días."
+        "status": "La inscripción abre el 17 de septiembre de 2026, solo 48 horas, y cierra el 18 de septiembre de 2026",
+        "note": "No hay una lista de espera permanente a la cual inscribirse. DHA declara: \"Once annually the Denver Housing Authority holds an online lottery process on our website for interested applicants, 18 years of age and older\" (una vez al año realiza un sorteo en línea para mayores de 18 años). Para el sorteo de 2027 DHA ya publicó las fechas: su página del Housing Choice Voucher dice \"The 2027 Housing Choice Voucher (HCV) Lottery Opens September 17-18 for 48 Hours\" y precisa que abrirá \"September 17, 12:00 a.m. to September 18, 11:59 p.m.\", es decir del 17 de septiembre a las 12:00 a.m. hasta el 18 de septiembre a las 11:59 p.m. (verificado el 8 de septiembre de 2026). Ese mismo día el formulario de inscripción de DHA todavía decía \"The 2027 Lottery is Currently Closed\" (el sorteo de 2027 está cerrado); el formulario abre el 17 de septiembre. DHA indica que las inscripciones \"MUST be submitted on-line (through the internet) using ANY computer, tablet, or smart phone that has Internet access by going to DHA's website at www.denverhousing.org\" (deben enviarse en línea desde cualquier computadora, tableta o teléfono inteligente con acceso a internet, entrando al sitio de DHA) y que \"Only one computer entry can be submitted per household\" (solo se acepta una inscripción por hogar). Para participar debe tener \"18 years of age or older\" (18 años o más) y ser \"A U.S. citizen or eligible immigrant\" (ciudadano estadounidense o inmigrante elegible) con capacidad legal para firmar un contrato de alquiler. Si necesita una computadora, DHA abre sus Opportunity Centers en Westwood Homes, 855 South Irving Street, y North Lincoln Homes, 1401 Mariposa Street, de 8:00 a.m. a 4:00 p.m., y advierte que su oficina de Osage Street no estará abierta para inscripciones al sorteo."
       },
       {
         "program": "Listas de vivienda pública y subsidiada",
         "status": "Cerradas",
-        "note": "Cerradas (verificado el 25 de agosto de 2026). La página de listas de DHA dice: \"There are no currently open lottery or pre-application lists\" (no hay listas de sorteo ni de presolicitud abiertas). Cuando abren, DHA indica que publica un aviso en cuatro periódicos locales en inglés y en español: Denver Post, El Semanario, Denver Weekly y La Voz. DHA describe tres listas subsidiadas organizadas por número de recámaras, dice que usted puede presentar tarjetas de interés para las tres, y que llegar al principio de una lista suele tomar de 6 a 12 meses una vez que está en ella."
+        "note": "Cerradas (verificado el 8 de septiembre de 2026). La página de listas de DHA dice: \"There are no currently open lottery or pre-application lists\" (no hay listas de sorteo ni de presolicitud abiertas). Cuando abren, DHA indica que publica un aviso en cuatro periódicos locales en inglés y en español: Denver Post, El Semanario, Denver Weekly y La Voz. DHA describe tres listas subsidiadas organizadas por número de recámaras, dice que usted puede presentar tarjetas de interés para las tres, y que llegar al principio de una lista suele tomar de 6 a 12 meses una vez que está en ella."
       },
       {
         "program": "Propiedades individuales de DHA",
@@ -141,7 +145,7 @@
     ],
     "also_serving": [
       "<strong>El sorteo es una inscripción, no una solicitud, y no garantiza nada.</strong> DHA lo dice sin rodeos: \"Lottery registration does not guarantee that your number will be drawn. The amount of lottery numbers drawn depends on available funding\" (inscribirse no garantiza que salga su número; cuántos se sacan depende de los fondos disponibles). Después del cierre, a lo largo del año siguiente y según haya fondos, DHA saca números al azar por computadora, y avisa por correo postal a los hogares seleccionados dentro de los 120 días posteriores a cada sorteo. No hay fechas fijas de sorteo: DHA dice que los números se sacan cuando hay fondos.",
-      "<strong>Inscríbase una sola vez, y escriba bien el número de Seguro Social.</strong> DHA advierte que las inscripciones duplicadas descalifican todas las inscripciones de ese hogar, y que debe asegurarse de escribir correctamente su número de Seguro Social porque lo necesitará después para consultar su estado. La inscripción toma menos de diez minutos y pide nombre, número de Seguro Social, fecha de nacimiento, tamaño de la familia, rango de ingresos y dirección postal.",
+      "<strong>Inscríbase una sola vez, y escriba bien el número de Seguro Social.</strong> DHA advierte que las inscripciones duplicadas descalifican todas las inscripciones de ese hogar, y que debe asegurarse de escribir correctamente su número de Seguro Social porque lo necesitará después para consultar su estado. La inscripción toma menos de diez minutos y pide nombre, número de Seguro Social, fecha de nacimiento, tamaño de la familia, rango de ingresos y dirección postal, y DHA le indica que imprima la página de confirmación o anote su número de sorteo.",
       "<strong>Los resultados tardan meses, y eso es normal.</strong> La página de resultados de DHA cubre hoy únicamente el sorteo realizado en septiembre de 2025, e indica que la información del sorteo de septiembre de 2026 se espera para enero de 2027. Así que si usted se inscribe este septiembre, no interprete el silencio del otoño como un rechazo.",
       "<strong>DHA tiene dos oficinas y un lugar aparte para atención sin cita sobre vales.</strong> La oficina central está en 1035 Osage St., abierta de lunes a viernes de 8 a.m. a 4:30 p.m. La oficina de atención sin cita para la Sección 8 está en 1401 Mariposa Street, abierta de martes a viernes de 8 a.m. a 4:30 p.m. El correo va a PO Box 40305, Santa Fe Drive Station, Denver, CO 80204. Las preguntas de portabilidad tienen su propia línea, (720) 932-3220, y el correo DHAPorts@denverhousing.org.",
       "<strong>La Housing Authority of the City of Aurora es una agencia aparte, justo al lado.</strong> Sirve a Aurora, administra sus propios vales y comunidades asequibles, y declara que atiende a 2,000 hogares con programas de vales y a 1,620 residentes en sus comunidades de alquiler asequible. Su línea principal es (720) 251-2100 y su oficina está en 2280 S Xanadu Way. Inscribirse en el sorteo de Denver no le pone en las listas de Aurora."
@@ -149,11 +153,11 @@
     "faqs": [
       {
         "q": "¿Cómo me inscribo en la lista de espera de la Sección 8 de Denver?",
-        "a": "No se inscribe, porque no existe esa lista. DHA otorga los vales de vivienda mediante un sorteo anual en línea en lugar de una lista de espera abierta. Usted se inscribe durante un plazo corto una vez al año, y después DHA saca números al azar durante el año siguiente según haya fondos. Al 25 de agosto de 2026 la página de inscripción dice \"The 2027 Lottery is Currently Closed\" y señala que la inscripción ocurre en \"the 3rd Thursday and Friday of September 2026\", lo que apunta al 17 y 18 de septiembre. Revise denverhousing.org a principios de septiembre para confirmar los días exactos."
+        "a": "No se inscribe, porque no existe esa lista. DHA otorga los vales de vivienda mediante un sorteo anual en línea en lugar de una lista de espera abierta. Usted se inscribe durante un plazo corto una vez al año, y después DHA saca números al azar durante el año siguiente según haya fondos. Para 2027 ese plazo es el 17 y el 18 de septiembre de 2026: DHA dice que el sorteo abrirá \"September 17, 12:00 a.m. to September 18, 11:59 p.m.\" (verificado el 8 de septiembre de 2026). Inscríbase en denverhousing.org esos dos días. DHA también advierte que las inscripciones \"do not carry over from year to year; persons must re-register each year\" (no se transfieren de un año a otro; hay que volver a inscribirse cada año), así que una inscripción de un año anterior no cuenta."
       },
       {
         "q": "¿Cuándo es el próximo sorteo de vivienda de Denver?",
-        "a": "DHA indica que la inscripción del sorteo de 2027 ocurre en \"the 3rd Thursday and Friday of September 2026\". En el calendario eso corresponde al 17 y 18 de septiembre de 2026, aunque DHA publica la regla y no las dos fechas, y añade que las fechas del sorteo cambian cada año y se anuncian en los periódicos locales, en su sistema telefónico y en su sitio web. Si va a ponerse un solo recordatorio este año, póngalo para la primera semana de septiembre y revise el sitio de DHA entonces. El plazo dura dos días, y el siguiente es un año después."
+        "a": "El 17 y el 18 de septiembre de 2026, y el plazo dura solo 48 horas. La página del Housing Choice Voucher de DHA dice que el sorteo de 2027 abrirá \"September 17, 12:00 a.m. to September 18, 11:59 p.m.\", y el aviso en denverhousing.org dice \"Opens Sept. 17 | 48 Hours Only\" (ambos verificados el 8 de septiembre de 2026). Inscríbase en línea en denverhousing.org. DHA indica que las inscripciones \"MUST be submitted on-line (through the internet) using ANY computer, tablet, or smart phone that has Internet access\" (deben enviarse en línea desde cualquier computadora, tableta o teléfono inteligente con acceso a internet) y que \"Only one computer entry can be submitted per household\" (solo una inscripción por hogar). Tenga esto listo antes de empezar: \"Name, social security number, date of birth, family size, income range and mailing address\" (nombre, número de Seguro Social, fecha de nacimiento, tamaño de la familia, rango de ingresos y dirección postal). DHA dice que el trámite \"takes less than 10 minutes\" (toma menos de 10 minutos), que debe escribir bien su número de Seguro Social, y que debe \"print your confirmation page or make note of your lottery number\" (imprimir la página de confirmación o anotar su número de sorteo). Debe tener 18 años o más y ser ciudadano estadounidense o inmigrante elegible. Nunca pague a nadie por inscribirse: DHA advierte \"NEVER pay money to apply for housing!\" (nunca pague dinero para solicitar vivienda). Después de las 11:59 p.m. del 18 de septiembre el plazo queda cerrado hasta el año próximo."
       },
       {
         "q": "¿Salir en el sorteo significa que me dan un vale?",
@@ -161,11 +165,11 @@
       },
       {
         "q": "Ya me inscribí. ¿Cómo consulto mi estado en el sorteo?",
-        "a": "En la página de resultados del sorteo de DHA, con el mismo número de Seguro Social que puso en la solicitud. Espere una demora: al 25 de agosto de 2026 esa página cubre únicamente el sorteo de septiembre de 2025, y DHA dice que la información del sorteo de septiembre de 2026 se espera para enero de 2027. Tenga en cuenta también la advertencia de DHA de que las inscripciones duplicadas descalifican todas las de un mismo hogar; si cree que alguien más de su hogar también se inscribió, llame al (720) 932-3023 en vez de volver a inscribirse."
+        "a": "En la página de resultados del sorteo de DHA, con el mismo número de Seguro Social que puso en la solicitud. Espere una demora: verificado el 8 de septiembre de 2026, esa página cubre todavía únicamente el sorteo de septiembre de 2025, y DHA dice que la información del sorteo de septiembre de 2026 se espera para enero de 2027. Tenga en cuenta también la advertencia de DHA de que las inscripciones duplicadas descalifican todas las de un mismo hogar; si cree que alguien más de su hogar también se inscribió, llame al (720) 932-3023 en vez de volver a inscribirse."
       },
       {
         "q": "¿Hay algo abierto en Denver además del sorteo?",
-        "a": "Poco en este momento, pero conviene revisar en lugar de suponer. La página de listas de DHA dice que no hay listas de sorteo ni de presolicitud abiertas al 25 de agosto de 2026. Su página de disponibilidad de propiedades es más variada: varias propiedades piden comunicarse con la oficina para saber el estado, y Benedict Park Place indica que las solicitudes se recogen en 305 Park Ave West, Denver, CO 80205. El departamento de ocupación, (720) 932-3020, es el número correcto para preguntar qué está aceptando solicitudes."
+        "a": "Poco en este momento, pero conviene revisar en lugar de suponer. La página de listas de DHA decía \"There are no currently open lottery or pre-application lists\" (no hay listas de sorteo ni de presolicitud abiertas) cuando lo verificamos el 8 de septiembre de 2026, y su página de disponibilidad describe los vales de la Sección 8 como \"Apply when lottery is open\" (solicite cuando el sorteo esté abierto). Esa página de disponibilidad es más variada en lo demás: varias propiedades piden comunicarse con la oficina para saber el estado, y Benedict Park Place indica que las solicitudes se recogen en 305 Park Ave West, Denver, CO 80205. El departamento de ocupación, (720) 932-3020, es el número correcto para preguntar qué está aceptando solicitudes."
       },
       {
         "q": "¿A qué número debo llamar en DHA?",
@@ -178,11 +182,15 @@
         "url": "https://www.denverhousing.org/"
       },
       {
-        "label": "DHA - Housing Choice Voucher / Sección 8: cómo funciona el sorteo anual (en inglés)",
+        "label": "DHA - Housing Choice Voucher / Sección 8: fechas del sorteo 2027 y cómo funciona (en inglés)",
         "url": "https://www.denverhousing.org/housing-choice-vouchers-section8/"
       },
       {
-        "label": "DHA - Formulario de inscripción al sorteo: estado del sorteo 2027 y septiembre de 2026 (en inglés)",
+        "label": "DHA - Página del sorteo HCV: fechas de 2027, quién puede inscribirse y dónde usar una computadora (en inglés)",
+        "url": "https://www.denverhousing.org/hcv-lottery/"
+      },
+      {
+        "label": "DHA - Formulario de inscripción al sorteo: abre el 17 de septiembre de 2026 (en inglés)",
         "url": "https://sites.denverhousing.org/templates/lottery/s8lotteryentry2.aspx"
       },
       {
