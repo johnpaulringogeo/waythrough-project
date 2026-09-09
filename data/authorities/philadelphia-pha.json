@@ -17,7 +17,6 @@
     "Housing Choice Voucher (Section 8)",
     "Public Housing (about 13,000 PHA-owned units)",
     "Project-Based / Unit-Based Vouchers",
-    "Emergency Housing Vouchers (EHV, by referral)",
     "HUD-VASH (for veterans) and Family Unification Program (FUP)",
     "Housing Choice Voucher Homeownership program"
   ],
@@ -31,16 +30,11 @@
       "program": "Public Housing",
       "status": "Closed (with exceptions)",
       "note": "PHA closed its public-housing waiting lists in 2013; senior-designated developments and special programs remain open, and some tax-credit (PAPMC) properties keep their own separate lists."
-    },
-    {
-      "program": "Emergency Housing Vouchers (EHV)",
-      "status": "By referral only",
-      "note": "You cannot apply to PHA directly; referrals come through the City of Philadelphia's Office of Homeless Services (215-686-7177)."
     }
   ],
   "also_serving": [
     "The <strong>Pennsylvania Housing Finance Agency (PHFA)</strong> runs statewide affordable-housing, Section 811, and homebuyer programs (phfa.org).",
-    "The <strong>City of Philadelphia Office of Homeless Services</strong> is the gateway for Emergency Housing Voucher referrals and emergency housing (215-686-7177)."
+    "The <strong>City of Philadelphia Office of Homeless Services</strong> is the gateway for emergency housing and shelter in Philadelphia (215-686-7177)."
   ],
   "faqs": [
     {
@@ -86,7 +80,6 @@
       "Housing Choice Voucher (Sección 8)",
       "Vivienda pública (unas 13,000 unidades propiedad de PHA)",
       "Vales Basados en Proyectos / por Unidad",
-      "Vales de Vivienda de Emergencia (EHV, por referencia)",
       "HUD-VASH (para veteranos) y Programa de Unificación Familiar (FUP)",
       "Programa de compra de vivienda con Housing Choice Voucher"
     ],
@@ -100,16 +93,11 @@
         "program": "Vivienda pública",
         "status": "Cerrada (con excepciones)",
         "note": "PHA cerró sus listas de espera de vivienda pública en 2013; los desarrollos designados para personas mayores y los programas especiales permanecen abiertos, y algunas propiedades con crédito fiscal (PAPMC) mantienen sus propias listas separadas."
-      },
-      {
-        "program": "Vales de Vivienda de Emergencia (EHV)",
-        "status": "Solo por referencia",
-        "note": "No puede solicitar directamente a PHA; las referencias llegan a través de la Oficina de Servicios para Personas sin Hogar de la Ciudad de Filadelfia (215-686-7177)."
       }
     ],
     "also_serving": [
       "La <strong>Agencia de Financiamiento de Vivienda de Pensilvania (PHFA)</strong> administra programas estatales de vivienda asequible, de la Sección 811 y de compra de vivienda (phfa.org).",
-      "La <strong>Oficina de Servicios para Personas sin Hogar de la Ciudad de Filadelfia</strong> es la puerta de entrada para las referencias de Vales de Vivienda de Emergencia y la vivienda de emergencia (215-686-7177)."
+      "La <strong>Oficina de Servicios para Personas sin Hogar de la Ciudad de Filadelfia</strong> es la puerta de entrada para la vivienda de emergencia y los albergues en Filadelfia (215-686-7177)."
     ],
     "faqs": [
       {

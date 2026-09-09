@@ -17,8 +17,7 @@
     "Housing Choice Voucher (Section 8)",
     "Public Housing",
     "HUD-VASH (for veterans)",
-    "Family Unification Program (FUP)",
-    "Emergency Housing Vouchers"
+    "Family Unification Program (FUP)"
   ],
   "waitlists": [
     {
@@ -32,7 +31,7 @@
       "note": "Check the official NYCHA site for the current status of the public-housing application."
     },
     {
-      "program": "Specialty referrals (HUD-VASH, FUP, EHV)",
+      "program": "Specialty referrals (HUD-VASH, FUP)",
       "status": "Accepted by referral",
       "note": "Accessed through partner agencies and the VA rather than open registration."
     }
@@ -72,8 +71,7 @@
       "Housing Choice Voucher (Sección 8)",
       "Vivienda pública",
       "HUD-VASH (para veteranos)",
-      "Programa de Unificación Familiar (FUP)",
-      "Vales de Vivienda de Emergencia"
+      "Programa de Unificación Familiar (FUP)"
     ],
     "waitlists": [
       {
@@ -87,7 +85,7 @@
         "note": "Revise el sitio oficial de NYCHA para ver el estado actual de la solicitud de vivienda pública."
       },
       {
-        "program": "Referencias especializadas (HUD-VASH, FUP, EHV)",
+        "program": "Referencias especializadas (HUD-VASH, FUP)",
         "status": "Se aceptan por referencia",
         "note": "Se accede a través de agencias asociadas y del VA en lugar de un registro abierto."
       }

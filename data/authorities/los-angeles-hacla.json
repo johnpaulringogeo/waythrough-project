@@ -18,7 +18,6 @@
     "Public Housing",
     "HUD-VASH (for veterans)",
     "Family Unification Program (FUP)",
-    "Emergency Housing Vouchers (EHV)",
     "Mainstream and Foster Youth to Independence vouchers"
   ],
   "waitlists": [
@@ -33,7 +32,7 @@
       "note": "Check the official site for current openings."
     },
     {
-      "program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+      "program": "Specialty referrals (HUD-VASH, FUP, Mainstream, FYI)",
       "status": "Still accepted by referral",
       "note": "These are accessed through partner agencies and the Coordinated Entry System (CES), not open public registration."
     }
@@ -53,7 +52,7 @@
     },
     {
       "q": "Can I still get a voucher if the list is closed?",
-      "a": "Specialty vouchers are still accessible by referral even when the general list is closed: HUD-VASH for veterans, the Family Unification Program, Emergency Housing Vouchers, Mainstream vouchers, and Foster Youth to Independence vouchers. These come through partner agencies and CES rather than open registration."
+      "a": "Specialty vouchers are still accessible by referral even when the general list is closed: HUD-VASH for veterans, the Family Unification Program, Mainstream vouchers, and Foster Youth to Independence vouchers. These come through partner agencies and CES rather than open registration."
     }
   ],
   "sources": [
@@ -75,7 +74,6 @@
       "Vivienda pública",
       "HUD-VASH (para veteranos)",
       "Programa de Unificación Familiar (FUP)",
-      "Vales de Vivienda de Emergencia (EHV)",
       "Vales Mainstream y Foster Youth to Independence"
     ],
     "waitlists": [
@@ -90,7 +88,7 @@
         "note": "Revise el sitio oficial para ver las aperturas actuales."
       },
       {
-        "program": "Referencias especializadas (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+        "program": "Referencias especializadas (HUD-VASH, FUP, Mainstream, FYI)",
         "status": "Aún se aceptan por referencia",
         "note": "Se accede a través de agencias asociadas y del Sistema de Entrada Coordinada (CES), no por registro público abierto."
       }
@@ -110,7 +108,7 @@
       },
       {
         "q": "¿Puedo obtener un vale aunque la lista esté cerrada?",
-        "a": "Los vales especializados siguen siendo accesibles por referencia aun cuando la lista general está cerrada: HUD-VASH para veteranos, el Programa de Unificación Familiar, los Vales de Vivienda de Emergencia, los vales Mainstream y los vales Foster Youth to Independence. Estos llegan a través de agencias asociadas y del CES en lugar de un registro abierto."
+        "a": "Los vales especializados siguen siendo accesibles por referencia aun cuando la lista general está cerrada: HUD-VASH para veteranos, el Programa de Unificación Familiar, los vales Mainstream y los vales Foster Youth to Independence. Estos llegan a través de agencias asociadas y del CES en lugar de un registro abierto."
       }
     ],
     "sources": [

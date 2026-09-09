@@ -19,7 +19,7 @@
     "Public Housing",
     "HUD-VASH (for veterans)",
     "Family Unification Program (FUP)",
-    "Emergency Housing Vouchers and Mainstream vouchers"
+    "Mainstream vouchers"
   ],
   "waitlists": [
     {
@@ -38,7 +38,7 @@
       "note": "Certain senior and family developments accept applications — check the online portal for current openings."
     },
     {
-      "program": "Specialty referrals (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+      "program": "Specialty referrals (HUD-VASH, FUP, Mainstream, FYI)",
       "status": "Accepted by referral",
       "note": "Accessed through partner agencies rather than open public registration."
     }
@@ -80,7 +80,7 @@
       "Vivienda pública",
       "HUD-VASH (para veteranos)",
       "Programa de Unificación Familiar (FUP)",
-      "Vales de Vivienda de Emergencia y vales Mainstream"
+      "Vales Mainstream"
     ],
     "waitlists": [
       {
@@ -99,7 +99,7 @@
         "note": "Ciertos desarrollos para personas mayores y familias aceptan solicitudes — revise el portal en línea para ver las aperturas actuales."
       },
       {
-        "program": "Referencias especializadas (HUD-VASH, FUP, EHV, Mainstream, FYI)",
+        "program": "Referencias especializadas (HUD-VASH, FUP, Mainstream, FYI)",
         "status": "Se aceptan por referencia",
         "note": "Se accede a través de agencias asociadas en lugar de un registro público abierto."
       }
