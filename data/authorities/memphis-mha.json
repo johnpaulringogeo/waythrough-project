@@ -1,0 +1,258 @@
+{
+  "slug": "memphis-mha",
+  "kind": "authority",
+  "name": "Memphis Housing Authority (MHA)",
+  "schema_name": "Memphis Housing Authority",
+  "short_name": "MHA",
+  "city": "Memphis",
+  "state": "TN",
+  "serves": "Memphis and Shelby County, Tennessee",
+  "phone": "(901) 544-1100",
+  "official_url": "https://www.memphisha.org/",
+  "apply_url": "https://myportal-memphisha.securecafe.com/onlineleasing/memphis-housing-authority/guestlogin.aspx",
+  "city_slug": "memphis",
+  "state_slug": "tennessee",
+  "updated": "September 9, 2026",
+  "intro": "The Memphis Housing Authority is the public housing agency for Memphis, and HUD lists it as PHA TN001 with a program type of Combined, meaning it runs both Housing Choice Vouchers and traditional public housing. If you came here looking for a Shelby County housing authority, the key thing to know is that HUD's current Tennessee list contains no separate Shelby County agency, and MHA's own materials describe serving \"over 26,000 low-income families and individuals\" across Memphis and Shelby County. This page covers what MHA's own pages say about each waiting list, which is not the same answer for vouchers and for public housing, the phone numbers that appear on its site rather than in HUD's directory, and the six-month rule that quietly removes people from the public housing list.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing at MHA managed and privately managed properties",
+    "Project-Based Vouchers and project-based rental assistance at RAD converted properties"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed and not accepting applications (checked September 9, 2026). MHA's Applicant Information page states: \"MHA's Housing Choice Voucher Program (HCVP) waiting list is currently closed and is not accepting applications at this time.\" It adds that \"MHA will publicly advertise when the waiting list re-opens.\" No reopening date is published anywhere on the site, and MHA's news page put roughly 15,000 applicants on the list."
+    },
+    {
+      "program": "Public Housing at five senior properties",
+      "status": "Open",
+      "note": "As of September 9, 2026 the dedicated public housing page reads, in MHA's own words and its own grammar, \"A selected Public Housing Waitlists are OPEN!\" and names five senior properties: Latham Terrace, 855 S. Fourth St., 1 and 2 bedroom, age 62 and over, 901-774-0151; Lyons Ridge, 1633 Pennsylvania St., 2 bedroom, age 55 to 61 and disabled or age 62 and over, 901-948-5165; Fairway Manor, 12 W. Fairway Ave., 2 bedroom, age 62 and over, 901-930-2878; Cleaborn Senior, 360 S. Lauderdale St., 2 bedroom, age 62 and over, 901-572-2303; and Legends North, 295 W. Red Sox Ln., 2 bedroom, age 62 and over, 901-244-3200. MHA publishes no closing date for any of them, so call the property before you travel."
+    },
+    {
+      "program": "Public Housing at every other site, and project-based lists",
+      "status": "Closed",
+      "note": "MHA's FAQ gives the pattern rather than a status: \"Applications for Public Housing open when a site has units available,\" and the voucher list \"opens once every few years\" while \"Project-Based Public Housing waitlists open as units become available at each site.\" Every site-based opening MHA has announced since 2021 has already closed, the most recent being South City Senior in November 2024. Nothing else is open that MHA publishes."
+    }
+  ],
+  "also_serving": [
+    "<strong>Millington Housing Authority</strong> runs its own small public housing program north of the city, at 4888 Bill Knight Avenue, Millington TN 38053, (901) 872-2038. HUD lists it as TN045 with a program type of Low-Rent. It is the only other public housing agency in the Shelby County area on HUD's current list.",
+    "<strong>Shelby County government's Department of Housing</strong> is not a housing authority and runs no voucher list. It funds rehabilitation and down payment assistance through CDBG, taking applications at portal.neighborlysoftware.com, and its own FAQ refers Section 8 questions elsewhere (develop901.com)."
+  ],
+  "faqs": [
+    {
+      "q": "Is there a Shelby County housing authority?",
+      "a": "Not a separate one today. HUD's current Tennessee PHA contact report lists no agency named Shelby County, and MHA describes itself as serving \"over 26,000 low-income families and individuals\" across Memphis and Shelby County. A HUD Office of Inspector General audit dated January 24, 2012 shows that a Shelby County housing authority existed then and ran both public housing and vouchers, but no MHA, HUD or county page states what became of it, so we are not going to guess at a merger nobody documented. The other agency in the area is Millington Housing Authority, HUD code TN045, (901) 872-2038. Shelby County government's own Department of Housing is a different kind of body: it funds rehabilitation and down payment assistance and sends Section 8 questions elsewhere."
+    },
+    {
+      "q": "Which Memphis waiting lists are actually open right now?",
+      "a": "As of September 9, 2026, five senior public housing lists and nothing else. MHA's public housing page says \"A selected Public Housing Waitlists are OPEN!\" and names Latham Terrace, Lyons Ridge, Fairway Manor, Cleaborn Senior and Legends North. All five are age restricted: four at 62 and over, and Lyons Ridge also at 55 to 61 for people with a disability. The Housing Choice Voucher list is closed. MHA publishes no closing date for the five, and property lists can change without notice, so call the property directly before you make the trip."
+    },
+    {
+      "q": "I am already on a public housing waiting list. Do I have to do anything?",
+      "a": "Yes, every six months, and this is the single most common way people lose a place they have waited years for. MHA's public housing page states: \"If you are already on a Public Housing waiting list, you must confirm your continued interest every six (6) months through the Applicant Portal. Please ensure your contact information is accurate and up to date. Failure to update your information may result in removal from the waiting list.\" Log into the applicant portal, confirm your interest, and keep your address and phone number current."
+    },
+    {
+      "q": "How does MHA choose people off the voucher waiting list?",
+      "a": "Randomly, not by the date you applied. MHA's waiting list information page says \"Everyone was added to the waitlist in a random order,\" and its application instructions state that \"Applicant selection and ranking will be determined randomly, not by when the pre-application was submitted.\" Only one pre-application per person is allowed. When your name reaches the top, MHA says it will notify you by first-class mail, which means an out-of-date address can cost you the voucher outright."
+    },
+    {
+      "q": "Are there preferences that move me up the list?",
+      "a": "For public housing, yes. MHA's Admissions and Continued Occupancy Policy lists a veterans preference for applicants whose head or co-head is an eligible veteran, a displacement preference covering a presidentially declared natural disaster, governmental action or domestic violence, and an upward mobility preference for households with an adult who is employed or in job training, including training required of people receiving Temporary Assistance to Needy Families. For the Housing Choice Voucher program MHA publishes no preference categories at all, and the only selection statement on its site says random. Do not assume the public housing preferences carry over to vouchers."
+    },
+    {
+      "q": "What number should I actually call?",
+      "a": "(901) 544-1100 is MHA's main number, and it appears labeled as theirs on three of its own pages. For voucher questions, HCVP customer service is (901) 544-1347. For public housing waiting list or applicant portal problems, call (901) 544-1107 or email phwaitlist@memphisha.org. HUD's directory lists (901) 544-1146 for TN001, a number that appears on no MHA page we could find, so use the ones above. MHA also warns that because of call volume, \"calls, emails, and voicemails are answered within 2 business days.\""
+    },
+    {
+      "q": "When is the voucher office actually open?",
+      "a": "General office hours are Monday through Friday, 8:00 am to 4:00 pm, but MHA's own pages disagree about Fridays for the voucher program. Three of them, the homepage, the About HCV Program page and the Contact HCVP page, give Monday through Thursday 8am to 4pm by drop-off and appointment and then say \"Friday: HCVP Closed for Administrative Purposes.\" A fourth, Office Hours and Directions, lists Friday drop-off hours instead. We publish the three-page majority: do not count on Friday for voucher business, and call first if that is your only option."
+    },
+    {
+      "q": "What do I need to have ready before I apply?",
+      "a": "MHA asks for documentation of proof of birth, Social Security numbers, income, assets and expenses for everyone in the household, plus legal identity and citizenship or eligible immigrant status. It also asks for non-certified criminal history reports for every member 18 and over, covering the counties they have lived in or been arrested in over the past three years. MHA states the income test as household income less than half of the median income for the City of Memphis, measured before taxes."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Memphis Housing Authority - official site",
+      "url": "https://www.memphisha.org/"
+    },
+    {
+      "label": "MHA - Applicant Information (Housing Choice Voucher waiting list closed)",
+      "url": "https://www.memphisha.org/departments/applicant_information.php"
+    },
+    {
+      "label": "MHA - Public Housing (the five open senior waiting lists, six-month interest rule)",
+      "url": "https://www.memphisha.org/programs/public_housing.php"
+    },
+    {
+      "label": "MHA - Housing Choice Voucher Program Waiting List Information (random order, notice by mail)",
+      "url": "https://www.memphisha.org/action_alert/housing_choice_voucher_program_waiting_list_information.php"
+    },
+    {
+      "label": "MHA - About the Housing Choice Voucher Program (status, hours)",
+      "url": "https://www.memphisha.org/departments/about_housing_choice_voucher_program.php"
+    },
+    {
+      "label": "MHA - Contact HCVP (voucher phone, department emails, hours, response time)",
+      "url": "https://www.memphisha.org/departments/contact_hcvp.php"
+    },
+    {
+      "label": "MHA - Office Hours and Directions (main phone, address, hours)",
+      "url": "https://www.memphisha.org/about_mha/office_hours_and_directions.php"
+    },
+    {
+      "label": "MHA - Frequently Asked Questions (how the two list types work, documents needed)",
+      "url": "https://www.memphisha.org/about_mha/frequently_asked_questions.php"
+    },
+    {
+      "label": "MHA - Admissions and Continued Occupancy Policy, TN001 Exhibit 3-2 (public housing preferences)",
+      "url": "https://cms5.revize.com/revize/memphisha/Agency%20Plan/TN001-Exhibit-3-2-ACOP.pdf"
+    },
+    {
+      "label": "MHA - Waiting List Application Instructions (random selection, one application per person)",
+      "url": "https://cms5.revize.com/revize/memphisha/Waiting%20List%20Application%20Instructions%20031722.pdf"
+    },
+    {
+      "label": "MHA - Applicant Portal (SecureCafe)",
+      "url": "https://myportal-memphisha.securecafe.com/onlineleasing/memphis-housing-authority/guestlogin.aspx"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Tennessee (TN001 Combined; no Shelby County entry; TN045 Millington)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TN.pdf"
+    },
+    {
+      "label": "HUD OIG - Shelby County, TN, Housing Authority audit, January 24 2012",
+      "url": "https://www.hudoig.gov/reports-publications/report/shelby-county-tn-housing-authority-mismanaged-its-hud-funded-programs"
+    },
+    {
+      "label": "Shelby County Department of Housing (CDBG programs, not a housing authority)",
+      "url": "https://www.develop901.com/department-of-housing"
+    }
+  ],
+  "es": {
+    "serves": "Memphis y el condado de Shelby, Tennessee",
+    "updated": "9 de septiembre de 2026",
+    "intro": "La Memphis Housing Authority es la agencia de vivienda pública de Memphis, y HUD la registra como la PHA TN001 con un tipo de programa \"Combined\", es decir que administra tanto los vales de la Sección 8 como la vivienda pública tradicional. Si usted llegó aquí buscando una autoridad de vivienda del condado de Shelby, lo más importante que debe saber es que la lista actual de HUD para Tennessee no contiene ninguna agencia aparte del condado de Shelby, y que los propios materiales de MHA describen que sirve a \"over 26,000 low-income families and individuals\" (más de 26,000 familias e individuos de bajos ingresos) en Memphis y el condado de Shelby. Esta página explica qué dicen las propias páginas de MHA sobre cada lista de espera, que no es la misma respuesta para los vales y para la vivienda pública, los números de teléfono que aparecen en su sitio y no en el directorio de HUD, y la regla de los seis meses que elimina discretamente a las personas de la lista de vivienda pública.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública en propiedades administradas por MHA y por administradores privados",
+      "Vales Basados en Proyectos y asistencia de alquiler basada en proyectos en propiedades convertidas por RAD"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada y sin aceptar solicitudes (verificado el 9 de septiembre de 2026). La página Applicant Information de MHA dice: \"MHA's Housing Choice Voucher Program (HCVP) waiting list is currently closed and is not accepting applications at this time\" (la lista de espera del programa de vales está cerrada y no acepta solicitudes en este momento). Y agrega: \"MHA will publicly advertise when the waiting list re-opens\" (MHA anunciará públicamente cuando la lista vuelva a abrir). No hay ninguna fecha de reapertura publicada en el sitio, y la página de noticias de MHA situó en unos 15,000 el número de solicitantes en la lista."
+      },
+      {
+        "program": "Vivienda pública en cinco propiedades para personas mayores",
+        "status": "Abierta",
+        "note": "Al 9 de septiembre de 2026, la página dedicada a vivienda pública dice, con las palabras y la gramática de MHA, \"A selected Public Housing Waitlists are OPEN!\" (hay listas de espera de vivienda pública abiertas) y nombra cinco propiedades para personas mayores: Latham Terrace, 855 S. Fourth St., de 1 y 2 recámaras, 62 años o más, 901-774-0151; Lyons Ridge, 1633 Pennsylvania St., de 2 recámaras, de 55 a 61 años con discapacidad o 62 años o más, 901-948-5165; Fairway Manor, 12 W. Fairway Ave., de 2 recámaras, 62 años o más, 901-930-2878; Cleaborn Senior, 360 S. Lauderdale St., de 2 recámaras, 62 años o más, 901-572-2303; y Legends North, 295 W. Red Sox Ln., de 2 recámaras, 62 años o más, 901-244-3200. MHA no publica una fecha de cierre para ninguna, así que llame a la propiedad antes de trasladarse."
+      },
+      {
+        "program": "Vivienda pública en todos los demás sitios, y listas basadas en proyectos",
+        "status": "Cerradas",
+        "note": "Las preguntas frecuentes de MHA describen el patrón en lugar de un estado: \"Applications for Public Housing open when a site has units available\" (las solicitudes de vivienda pública abren cuando un sitio tiene unidades disponibles), la lista de vales \"opens once every few years\" (abre una vez cada varios años) y las listas de vivienda pública basada en proyectos \"open as units become available at each site\" (abren a medida que hay unidades disponibles en cada sitio). Todas las aperturas por sitio que MHA ha anunciado desde 2021 ya cerraron, la más reciente South City Senior en noviembre de 2024. No hay nada más abierto que MHA publique."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Millington Housing Authority</strong> administra su propio programa pequeño de vivienda pública al norte de la ciudad, en 4888 Bill Knight Avenue, Millington TN 38053, (901) 872-2038. HUD la registra como TN045 con tipo de programa \"Low-Rent\". Es la única otra agencia de vivienda pública del área del condado de Shelby en la lista actual de HUD.",
+      "El <strong>Departamento de Vivienda del gobierno del condado de Shelby</strong> no es una autoridad de vivienda y no administra ninguna lista de vales. Financia rehabilitación y ayuda para el pago inicial con fondos CDBG, y recibe solicitudes en portal.neighborlysoftware.com; sus propias preguntas frecuentes remiten las consultas sobre la Sección 8 a otra parte (develop901.com)."
+    ],
+    "faqs": [
+      {
+        "q": "¿Existe una autoridad de vivienda del condado de Shelby?",
+        "a": "Hoy no existe una aparte. El informe actual de contactos de PHA de HUD para Tennessee no incluye ninguna agencia llamada Shelby County, y MHA se describe como una agencia que sirve a \"over 26,000 low-income families and individuals\" (más de 26,000 familias e individuos de bajos ingresos) en Memphis y el condado de Shelby. Una auditoría de la Oficina del Inspector General de HUD fechada el 24 de enero de 2012 muestra que entonces sí existía una autoridad de vivienda del condado de Shelby que administraba vivienda pública y vales, pero ninguna página de MHA, de HUD ni del condado dice qué pasó con ella, así que no vamos a inventar una fusión que nadie documentó. La otra agencia del área es la Millington Housing Authority, código TN045 de HUD, (901) 872-2038. El Departamento de Vivienda del gobierno del condado de Shelby es un tipo de organismo distinto: financia rehabilitación y ayuda para el pago inicial, y remite a otra parte las preguntas sobre la Sección 8."
+      },
+      {
+        "q": "¿Qué listas de espera de Memphis están abiertas ahora mismo?",
+        "a": "Al 9 de septiembre de 2026, cinco listas de vivienda pública para personas mayores y nada más. La página de vivienda pública de MHA dice \"A selected Public Housing Waitlists are OPEN!\" y nombra Latham Terrace, Lyons Ridge, Fairway Manor, Cleaborn Senior y Legends North. Las cinco tienen restricción de edad: cuatro para 62 años o más, y Lyons Ridge también de 55 a 61 años para personas con una discapacidad. La lista de Housing Choice Voucher está cerrada. MHA no publica fecha de cierre para las cinco, y las listas por propiedad pueden cambiar sin aviso, así que llame directamente a la propiedad antes de hacer el viaje."
+      },
+      {
+        "q": "Ya estoy en una lista de espera de vivienda pública. ¿Tengo que hacer algo?",
+        "a": "Sí, cada seis meses, y esta es la forma más común en que la gente pierde un lugar que esperó años por conseguir. La página de vivienda pública de MHA dice: \"If you are already on a Public Housing waiting list, you must confirm your continued interest every six (6) months through the Applicant Portal. Please ensure your contact information is accurate and up to date. Failure to update your information may result in removal from the waiting list\" (si ya está en una lista de espera de vivienda pública, debe confirmar su interés cada seis meses a través del portal del solicitante; mantenga su información de contacto correcta y al día, porque no actualizarla puede provocar que lo eliminen de la lista). Entre al portal del solicitante, confirme su interés y mantenga su dirección y su teléfono al día."
+      },
+      {
+        "q": "¿Cómo elige MHA a las personas de la lista de espera de vales?",
+        "a": "Al azar, no por la fecha en que usted solicitó. La página de información de la lista de espera de MHA dice \"Everyone was added to the waitlist in a random order\" (todos fueron agregados a la lista en orden aleatorio), y sus instrucciones de solicitud dicen que \"Applicant selection and ranking will be determined randomly, not by when the pre-application was submitted\" (la selección y el orden se determinan al azar, no según cuándo se envió la presolicitud). Solo se permite una presolicitud por persona. Cuando su nombre llegue al principio de la lista, MHA dice que le avisará por correo de primera clase, lo que significa que una dirección desactualizada puede costarle el vale."
+      },
+      {
+        "q": "¿Hay preferencias que me suban en la lista?",
+        "a": "Para vivienda pública, sí. La Política de Admisiones y Ocupación Continua de MHA incluye una preferencia para veteranos cuando el jefe o cojefe del hogar es un veterano elegible, una preferencia por desplazamiento que cubre un desastre natural declarado por el presidente, una acción gubernamental o la violencia doméstica, y una preferencia de movilidad ascendente para hogares con un adulto empleado o en capacitación laboral, incluida la capacitación exigida a quienes reciben Asistencia Temporal para Familias Necesitadas. Para el programa de vales, MHA no publica ninguna categoría de preferencia, y la única declaración de selección en su sitio dice que es al azar. No suponga que las preferencias de vivienda pública se aplican a los vales."
+      },
+      {
+        "q": "¿A qué número debo llamar realmente?",
+        "a": "El (901) 544-1100 es el número principal de MHA y aparece identificado como suyo en tres de sus propias páginas. Para preguntas sobre vales, el servicio al cliente del HCVP es el (901) 544-1347. Para problemas con la lista de espera de vivienda pública o con el portal del solicitante, llame al (901) 544-1107 o escriba a phwaitlist@memphisha.org. El directorio de HUD lista el (901) 544-1146 para TN001, un número que no aparece en ninguna página de MHA que hayamos encontrado, así que use los de arriba. MHA también advierte que por el volumen de llamadas \"calls, emails, and voicemails are answered within 2 business days\" (las llamadas, los correos y los mensajes de voz se responden en un plazo de dos días hábiles)."
+      },
+      {
+        "q": "¿Cuándo está abierta realmente la oficina de vales?",
+        "a": "El horario general de oficina es de lunes a viernes, de 8:00 am a 4:00 pm, pero las propias páginas de MHA no coinciden sobre los viernes para el programa de vales. Tres de ellas, la página principal, la página About HCV Program y la página Contact HCVP, indican de lunes a jueves de 8am a 4pm por entrega de documentos y cita, y luego dicen \"Friday: HCVP Closed for Administrative Purposes\" (viernes: el HCVP cierra por motivos administrativos). Una cuarta, Office Hours and Directions, indica en cambio horario de entrega los viernes. Nosotros publicamos la mayoría de tres páginas: no cuente con el viernes para trámites de vales, y llame antes si esa es su única opción."
+      },
+      {
+        "q": "¿Qué necesito tener listo antes de solicitar?",
+        "a": "MHA pide documentación de la prueba de nacimiento, los números de Seguro Social, los ingresos, los bienes y los gastos de todos los integrantes del hogar, además de la identidad legal y el estatus de ciudadanía o de inmigrante elegible. También pide informes de antecedentes penales no certificados para cada integrante de 18 años o más, que cubran los condados donde han vivido o han sido arrestados en los últimos tres años. MHA describe la prueba de ingresos como un ingreso del hogar menor a la mitad del ingreso medio de la ciudad de Memphis, medido antes de impuestos."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Memphis Housing Authority - sitio oficial (en inglés)",
+        "url": "https://www.memphisha.org/"
+      },
+      {
+        "label": "MHA - Applicant Information: la lista de vales está cerrada (en inglés)",
+        "url": "https://www.memphisha.org/departments/applicant_information.php"
+      },
+      {
+        "label": "MHA - Public Housing: las cinco listas abiertas y la regla de los seis meses (en inglés)",
+        "url": "https://www.memphisha.org/programs/public_housing.php"
+      },
+      {
+        "label": "MHA - Información de la lista de espera de vales: orden aleatorio, aviso por correo (en inglés)",
+        "url": "https://www.memphisha.org/action_alert/housing_choice_voucher_program_waiting_list_information.php"
+      },
+      {
+        "label": "MHA - About the Housing Choice Voucher Program: estado y horarios (en inglés)",
+        "url": "https://www.memphisha.org/departments/about_housing_choice_voucher_program.php"
+      },
+      {
+        "label": "MHA - Contact HCVP: teléfono de vales, correos por departamento, horarios (en inglés)",
+        "url": "https://www.memphisha.org/departments/contact_hcvp.php"
+      },
+      {
+        "label": "MHA - Office Hours and Directions: teléfono principal, dirección, horarios (en inglés)",
+        "url": "https://www.memphisha.org/about_mha/office_hours_and_directions.php"
+      },
+      {
+        "label": "MHA - Preguntas frecuentes: cómo funcionan los dos tipos de lista (en inglés)",
+        "url": "https://www.memphisha.org/about_mha/frequently_asked_questions.php"
+      },
+      {
+        "label": "MHA - Política de Admisiones y Ocupación Continua, TN001 Exhibit 3-2 (en inglés)",
+        "url": "https://cms5.revize.com/revize/memphisha/Agency%20Plan/TN001-Exhibit-3-2-ACOP.pdf"
+      },
+      {
+        "label": "MHA - Instrucciones de solicitud: selección aleatoria, una solicitud por persona (en inglés)",
+        "url": "https://cms5.revize.com/revize/memphisha/Waiting%20List%20Application%20Instructions%20031722.pdf"
+      },
+      {
+        "label": "MHA - Portal del solicitante (SecureCafe, en inglés)",
+        "url": "https://myportal-memphisha.securecafe.com/onlineleasing/memphis-housing-authority/guestlogin.aspx"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Tennessee: TN001 Combined, sin entrada de Shelby County (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TN.pdf"
+      },
+      {
+        "label": "HUD OIG - Auditoría de la Shelby County, TN, Housing Authority, 24 de enero de 2012 (en inglés)",
+        "url": "https://www.hudoig.gov/reports-publications/report/shelby-county-tn-housing-authority-mismanaged-its-hud-funded-programs"
+      },
+      {
+        "label": "Departamento de Vivienda del condado de Shelby: programas CDBG, no es una PHA (en inglés)",
+        "url": "https://www.develop901.com/department-of-housing"
+      }
+    ]
+  }
+}

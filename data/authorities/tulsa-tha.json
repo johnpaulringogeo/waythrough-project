@@ -1,0 +1,278 @@
+{
+  "slug": "tulsa-tha",
+  "kind": "authority",
+  "name": "Tulsa Housing Authority (THA)",
+  "schema_name": "Housing Authority of the City of Tulsa",
+  "short_name": "THA",
+  "city": "Tulsa",
+  "state": "OK",
+  "serves": "the City of Tulsa, Oklahoma",
+  "phone": "(918) 582-0021",
+  "official_url": "https://www.tulsahousing.org/",
+  "apply_url": "https://www.tulsahousing.org/applyforhousing/",
+  "city_slug": "tulsa",
+  "state_slug": "oklahoma",
+  "updated": "September 9, 2026",
+  "intro": "The Housing Authority of the City of Tulsa, which brands itself Tulsa Housing Authority, is the public housing agency for Tulsa and is listed by HUD as PHA OK073. Before anything else, one warning about THA's own website. A page there titled \"River West and Section 8 Housing Choice Voucher Waitlist Closure Information\" announces closing those lists \"on September 18 at 4 p.m.\" and prints no year anywhere in the body. That notice is from 2024. Read today it looks like a deadline days away, and it is not: the page's own modification metadata dates it to September 2024, THA's news archive contains no waitlist item at all, and the page says \"Wednesday, September 18,\" which was a Wednesday in 2024 and is a Friday in 2026. THA closed those lists on September 18, 2024. What is true today is further down this page, and it comes from the status system THA itself tells applicants to use.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Project-Based Vouchers and project-based rental assistance",
+    "Affordable and mixed-finance housing at THA communities",
+    "Housing Choice Voucher portability for families moving in or out of Tulsa"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8) and all THA lists",
+      "status": "No open lists shown",
+      "note": "THA publishes no open or closed statement on either its Apply page or its Section 8 program page. What it does publish is where to check, on its Application Instructions page: \"Please do not call THA to check your status. You may check the status of your application at www.waitlistcheck.com.\" Because THA designates that system itself, we treat it as THA's operator portal rather than an aggregator. As of September 9, 2026, both THA listings there read \"There are no open waiting lists at this time.\" We are deliberately not writing the word closed in THA's voice, because THA does not say it. Call (918) 582-0021 or Rental Assistance at (918) 581-5780 to confirm before relying on this."
+    },
+    {
+      "program": "River West and Section 8, the 2024 closure",
+      "status": "Closed on September 18, 2024",
+      "note": "This entry exists to date a notice that is still live on THA's site without a year on it. THA announced it \"will be closing the following waitlists on September 18 at 4 p.m.: River West ... Section 8 Housing Choice Vouchers,\" that \"All other waitlists for THA properties will remain open,\" and that the closure \"will not impact existing applications.\" The notice put over 9,200 applicants on the River West list and over 9,800 on the Section 8 list, with a wait of roughly two years for both. That was September 18, 2024, not 2026. THA's Section 8 Administrative Plan explains the mechanism behind such closures: THA may stop taking applications \"when there are enough applicants to fill anticipated openings for the next 24 months.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>THA's own documents disagree about whether Tulsa still has public housing, so here is both sides.</strong> THA's 2026 Annual PHA Plan, filed on HUD form 50075-SM and proposed September 2, 2025, states \"THA will have no public housing as of January 1, 2026,\" and its unit table reads 0 public housing units against 7,341 Housing Choice Vouchers. But THA's About page still describes \"traditional public housing,\" its Apply page still offers a public housing application track, and HUD still labels OK073 as Combined. The dated, numeric, HUD-filed plan is the better document and its date has passed, but three other sources still say otherwise. We are reporting the conflict rather than picking a side. If public housing specifically is what you need, ask THA directly what exists today.",
+    "<strong>Every applicant must attend a domestic violence class.</strong> THA holds it at 415 E. Independence St. \"every Monday at 1:00pm, except for holidays and closings due to inclement weather,\" and applicants must be \"present and signed in by 1:00pm.\" It is unusual and almost nobody else publishes it, so plan for it.",
+    "<strong>The Oklahoma Housing Finance Agency (OHFA)</strong>, HUD code OK901, (405) 842-2471, \"provides monthly rental assistance to low-income families across the State of Oklahoma,\" and its own page says \"OHFA's Housing Choice Voucher waiting list is now closed to new applicants.\" OHFA publishes no county coverage map, so we are not going to tell you it covers Sand Springs, Sapulpa, Broken Arrow or Owasso. HUD's Oklahoma report shows no separate authority for those places or for Tulsa County, so ask OHFA where you fall.",
+    "<strong>THA's own scam warning, worth repeating:</strong> \"THA does not request or require anyone to pay to complete or process an application for low-income housing.\" Nobody legitimate will charge you a fee to apply."
+  ],
+  "faqs": [
+    {
+      "q": "Why does THA's website say the waitlist closes on September 18?",
+      "a": "Because that page is from 2024 and prints no year, which is exactly why it misleads. There is no September 18 deadline this year. THA's waitlist closure notice says it \"will be closing\" the River West and Section 8 lists \"on September 18 at 4 p.m.\" and refers to \"Wednesday, September 18.\" Three independent checks put that in 2024: the page's own modification metadata reads September 12, 2024; THA's news archive runs to April 16, 2026 and contains no waitlist item at all, and a genuine imminent closure would be announced there; and September 18 was a Wednesday in 2024, whereas in 2026 it falls on a Friday. So THA closed those two lists on September 18, 2024. There is no deadline this month. Do not rush an application against a date that has already passed."
+    },
+    {
+      "q": "So what is actually open in Tulsa right now?",
+      "a": "As of September 9, 2026, nothing that THA's own status system shows. THA does not publish an open or closed statement on its website. Instead its Application Instructions page says: \"Please do not call THA to check your status. You may check the status of your application at www.waitlistcheck.com.\" Both THA listings on that system, one for the Housing Authority of the City of Tulsa and one for Tulsa Housing Authority public housing, read \"There are no open waiting lists at this time.\" That is a snapshot of the system THA points people to, not a statement in THA's own words, and lists can open without much warning. Check waitlistcheck yourself and call Rental Assistance at (918) 581-5780."
+    },
+    {
+      "q": "Does Tulsa still have public housing?",
+      "a": "THA's own documents contradict each other, and we would rather show you that than pretend. Its 2026 Annual PHA Plan, proposed September 2, 2025 on HUD's form, says \"THA will have no public housing as of January 1, 2026,\" and its unit table for the fiscal year beginning January 2026 reads 0 public housing units and 7,341 Housing Choice Vouchers. Meanwhile THA's About page still advertises \"traditional public housing,\" its Apply page still offers a public housing track, and HUD's contact report still lists OK073 as Combined. The HUD-filed plan is the more reliable document and its effective date has passed, but three live sources say otherwise, so we are not declaring a winner. Call (918) 582-0021 and ask what exists today before you apply for a program that may no longer be there."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "(918) 582-0021. THA publishes it on its own Fact Sheet, updated March 2025 and linked from the About page, and on both the home page and contact page of its applicant portal. HUD's directory has the phone and fax reversed for OK073 and lists (918) 582-0645, which appears on no current THA page. And (918) 581-5600, the number we ourselves used to publish, appears on no official THA or HUD source we could find, so we have replaced it. For vouchers specifically, Rental Assistance is (918) 581-5780. Other useful lines: application assistance 918-581-5944, inspections (918) 581-5791, portability (918) 581-5742. The address is 415 E. Independence St., Tulsa, OK 74106. THA does not publish office hours anywhere we could find."
+    },
+    {
+      "q": "How does THA order its waiting list?",
+      "a": "By preference tier first, then by date and time within a tier, and explicitly not by lottery. THA's published Section 8 Administrative Plan says \"All applicants in the pool will be maintained in order of preference. Applications equal in preference will be maintained by date and time sequence.\" The higher tier covers involuntary displacement by authority action or declared natural disaster, and households whose head or spouse is 62 or older. Three preferences rank equally below that: domestic violence, including anyone in a shelter as a result of it or facing actual or threatened physical violence; disability, meaning one or more family members who are disabled; and military, meaning a current service member, a veteran, or the surviving spouse of a veteran. Public housing, per the ACOP linked from THA's About page, is chronological: \"The applications will be date stamped, and processed in chronological order.\""
+    },
+    {
+      "q": "What do I need to have ready to apply?",
+      "a": "From THA's Application Instructions: full name, address, Social Security numbers and cards, dates of birth and birth certificates, household income, citizenship status, and pen and paper. THA specifically requires a valid Social Security number and a date of birth entered as mm/dd/yyyy. For vouchers, THA adds that each applicant must complete a Release of Information for Housing Consideration form, that criminal convictions within the past two years may cause denial, that a family member must be a U.S. citizen or eligible immigrant, and that the family must have settled any outstanding debt owed to THA. If you cannot apply online, THA says to \"call the property and a staff person will complete your application over the phone.\""
+    },
+    {
+      "q": "What do THA's application statuses mean?",
+      "a": "THA publishes its own vocabulary on the Apply page, and it is more specific than most. Active means \"you have an active application for this program and are waiting selection from the waiting list.\" Hold means \"your application has been selected from the waiting list and you should receive an appointment letter or is in the eligibility determination process,\" so Hold is good news rather than a problem. Inactive means the application \"has been certified ineligible for assistance due to either a balance owed to Tulsa Housing Authority and/or an Undesirable status for a previous residency with Tulsa Housing Authority or appointment letters were mailed and two separate appointments were missed.\" That last clause is worth reading twice: missing two appointments is enough to end an application."
+    },
+    {
+      "q": "How long do I have to find a place once I get a voucher?",
+      "a": "THA's Housing Choice Voucher page states that \"Applicants will have up to 120 days from the voucher issuance date to find a unit and complete the rental process.\" Start looking the day you get it rather than the week the clock runs out, because the search, the landlord's paperwork and the inspection all have to fit inside that window. THA notifies applicants of selection by first-class mail, and its administrative plan says that notice states \"the approximate date that assistance may be offered,\" so keep your mailing address current with THA the entire time you are waiting."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Tulsa Housing Authority - official site",
+      "url": "https://www.tulsahousing.org/"
+    },
+    {
+      "label": "THA - Apply for Housing (application tracks, status vocabulary)",
+      "url": "https://www.tulsahousing.org/applyforhousing/"
+    },
+    {
+      "label": "THA - Application Instructions (what to have ready, the Monday class, check status at waitlistcheck)",
+      "url": "https://www.tulsahousing.org/applyforhousing/application-instructions/"
+    },
+    {
+      "label": "THA - Section 8 Housing Choice Vouchers (eligibility, the 120 day search, department contacts)",
+      "url": "https://www.tulsahousing.org/housing/voucher-programs/section-8-housing-choice-vouchers/"
+    },
+    {
+      "label": "THA - River West and Section 8 Waitlist Closure Information (dated to 2024 by its own metadata)",
+      "url": "https://www.tulsahousing.org/waitlist-closure-info/"
+    },
+    {
+      "label": "THA - News and Updates archive (most recent items April 16 2026; no waitlist item)",
+      "url": "https://www.tulsahousing.org/about/media/"
+    },
+    {
+      "label": "THA - Contact (department phone directory)",
+      "url": "https://www.tulsahousing.org/contact/"
+    },
+    {
+      "label": "THA - About (mission, plans, ACOP and fact sheet links)",
+      "url": "https://www.tulsahousing.org/about/"
+    },
+    {
+      "label": "THA - 2026 Annual PHA Plan, proposed September 2 2025 (no public housing as of January 1 2026; 7,341 vouchers)",
+      "url": "https://www.tulsahousing.org/wp-content/uploads/2025/09/2026-Annual-Plan-Proposed-09022025.pdf"
+    },
+    {
+      "label": "THA - Fact Sheet, updated March 2025 (phone, address)",
+      "url": "https://www.tulsahousing.org/wp-content/uploads/2025/03/Updated-fact-sheet.pdf"
+    },
+    {
+      "label": "THA - Section 8 Administrative Plan (preference tiers, date and time order, the 24 month suspension rule)",
+      "url": "https://www.tulsahousing.org/wp-content/uploads/2022/03/Admin-Plan-2022.pdf"
+    },
+    {
+      "label": "THA - Admissions and Continued Occupancy Policy (public housing, chronological order)",
+      "url": "https://www.tulsahousing.org/wp-content/uploads/2018/05/THA-ACOP.pdf"
+    },
+    {
+      "label": "THA - applicant portal, RentCafe",
+      "url": "https://myportal.tulsahousing.org/"
+    },
+    {
+      "label": "Waitlistcheck - Housing Authority of the City of Tulsa (the status system THA directs applicants to)",
+      "url": "https://www.waitlistcheck.com/OK1180-1811"
+    },
+    {
+      "label": "Waitlistcheck - Tulsa Housing Authority, Public Housing",
+      "url": "https://www.waitlistcheck.com/application/form.php?ID=2527-OK073"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Oklahoma (OK073 Combined; OK901 OHFA; no suburb authorities)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
+    },
+    {
+      "label": "Oklahoma Housing Finance Agency - Housing Choice Voucher (statewide, list closed)",
+      "url": "https://www.ohfa.org/housingchoicevoucher/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Tulsa, Oklahoma",
+    "updated": "9 de septiembre de 2026",
+    "intro": "La Housing Authority of the City of Tulsa, que se presenta como Tulsa Housing Authority, es la agencia de vivienda pública de Tulsa y HUD la registra como la PHA OK073. Antes que nada, una advertencia sobre el propio sitio de THA. Allí hay una página titulada \"River West and Section 8 Housing Choice Voucher Waitlist Closure Information\" que anuncia el cierre de esas listas \"on September 18 at 4 p.m.\" y que no imprime ningún año en el cuerpo del texto. Ese aviso es de 2024. Leída hoy parece una fecha límite a pocos días, pero no lo es: los metadatos de modificación de la propia página la fechan en septiembre de 2024, el archivo de noticias de THA no contiene ningún aviso sobre listas de espera, y la página dice \"Wednesday, September 18\", que fue miércoles en 2024 y en 2026 cae viernes. THA cerró esas listas el 18 de septiembre de 2024. Lo que sí es cierto hoy está más abajo en esta página, y viene del sistema de estado que la propia THA indica a los solicitantes.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vales Basados en Proyectos y asistencia de alquiler basada en proyectos",
+      "Vivienda asequible y de financiamiento mixto en las comunidades de THA",
+      "Portabilidad del Housing Choice Voucher para familias que se mudan a Tulsa o desde Tulsa"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8) y todas las listas de THA",
+        "status": "No se muestran listas abiertas",
+        "note": "THA no publica ninguna declaración de abierta o cerrada, ni en su página Apply ni en la del programa de la Sección 8. Lo que sí publica es dónde consultar, en su página de instrucciones: \"Please do not call THA to check your status. You may check the status of your application at www.waitlistcheck.com\" (no llame a THA para consultar su estado; puede revisarlo en waitlistcheck.com). Como la propia THA designa ese sistema, lo tratamos como su portal de operador y no como un agregador. Al 9 de septiembre de 2026, los dos registros de THA en ese sistema dicen \"There are no open waiting lists at this time\" (no hay listas de espera abiertas en este momento). A propósito no escribimos la palabra cerrada como si fuera de THA, porque THA no la dice. Llame al (918) 582-0021 o a Rental Assistance al (918) 581-5780 para confirmar antes de depender de esto."
+      },
+      {
+        "program": "River West y Sección 8, el cierre de 2024",
+        "status": "Cerradas el 18 de septiembre de 2024",
+        "note": "Esta entrada existe para ponerle fecha a un aviso que sigue publicado en el sitio de THA sin año. THA anunció que \"will be closing the following waitlists on September 18 at 4 p.m.: River West ... Section 8 Housing Choice Vouchers\" (anunciaba el cierre de esas listas un 18 de septiembre, sin decir el año), que \"All other waitlists for THA properties will remain open\" (las demás listas de propiedades de THA seguirán abiertas) y que el cierre \"will not impact existing applications\" (no afectará las solicitudes existentes). El aviso mencionaba más de 9,200 solicitantes en la lista de River West y más de 9,800 en la de la Sección 8, con una espera de unos dos años en ambas. Eso fue el 18 de septiembre de 2024, no de 2026. El Plan Administrativo de la Sección 8 de THA explica el mecanismo detrás de estos cierres: THA puede dejar de recibir solicitudes \"when there are enough applicants to fill anticipated openings for the next 24 months\" (cuando hay suficientes solicitantes para cubrir las vacantes previstas de los próximos 24 meses)."
+      }
+    ],
+    "also_serving": [
+      "<strong>Los propios documentos de THA no coinciden sobre si Tulsa todavía tiene vivienda pública, así que aquí están las dos versiones.</strong> El Plan Anual 2026 de THA, presentado en el formulario 50075-SM de HUD y propuesto el 2 de septiembre de 2025, dice \"THA will have no public housing as of January 1, 2026\" (THA no tendrá vivienda pública a partir del 1 de enero de 2026), y su tabla de unidades indica 0 unidades de vivienda pública frente a 7,341 vales de la Sección 8. Pero la página About de THA todavía describe \"traditional public housing\", su página Apply todavía ofrece una vía de solicitud de vivienda pública, y HUD sigue registrando OK073 como \"Combined\". El plan presentado ante HUD tiene fecha, cifras y es el mejor documento, y su fecha ya pasó, pero otras tres fuentes dicen lo contrario. Reportamos el conflicto en lugar de elegir un lado. Si lo que usted necesita es vivienda pública en concreto, pregunte directamente a THA qué existe hoy.",
+      "<strong>Todos los solicitantes deben asistir a una clase sobre violencia doméstica.</strong> THA la imparte en el 415 E. Independence St. \"every Monday at 1:00pm, except for holidays and closings due to inclement weather\" (todos los lunes a la 1:00 pm, salvo días feriados y cierres por mal tiempo), y los solicitantes deben estar \"present and signed in by 1:00pm\" (presentes y registrados a la 1:00 pm). Es un requisito poco común que casi nadie publica, así que téngalo en cuenta.",
+      "<strong>La Oklahoma Housing Finance Agency (OHFA)</strong>, código OK901 de HUD, (405) 842-2471, \"provides monthly rental assistance to low-income families across the State of Oklahoma\" (ofrece asistencia mensual de alquiler a familias de bajos ingresos en todo el estado de Oklahoma), y su propia página dice \"OHFA's Housing Choice Voucher waiting list is now closed to new applicants\" (su lista de espera está cerrada a nuevos solicitantes). OHFA no publica un mapa de cobertura por condado, así que no vamos a decirle que cubre Sand Springs, Sapulpa, Broken Arrow ni Owasso. El informe de HUD para Oklahoma no muestra ninguna autoridad aparte para esos lugares ni para el condado de Tulsa, así que pregunte a OHFA dónde le corresponde.",
+      "<strong>La advertencia de la propia THA sobre estafas, que vale la pena repetir:</strong> \"THA does not request or require anyone to pay to complete or process an application for low-income housing\" (THA no pide ni exige que nadie pague para completar o procesar una solicitud de vivienda para personas de bajos ingresos). Nadie legítimo le va a cobrar por solicitar."
+    ],
+    "faqs": [
+      {
+        "q": "¿Por qué el sitio de THA dice que la lista cierra el 18 de septiembre?",
+        "a": "Porque esa página es de 2024 y no imprime el año, que es justamente por lo que confunde. No hay ninguna fecha límite el 18 de septiembre de este año. El aviso de cierre de THA dice que \"will be closing\" las listas de River West y de la Sección 8 \"on September 18 at 4 p.m.\" y menciona \"Wednesday, September 18\". Tres comprobaciones independientes la sitúan en 2024: los metadatos de modificación de la propia página dicen 12 de septiembre de 2024; el archivo de noticias de THA llega hasta el 16 de abril de 2026 y no contiene ningún aviso sobre listas de espera, y un cierre real e inminente se anunciaría ahí; y el 18 de septiembre fue miércoles en 2024, mientras que en 2026 cae viernes. Así que THA cerró esas dos listas el 18 de septiembre de 2024. No hay ninguna fecha límite este mes. No corra a presentar una solicitud contra una fecha que ya pasó."
+      },
+      {
+        "q": "Entonces, ¿qué está abierto en Tulsa ahora mismo?",
+        "a": "Al 9 de septiembre de 2026, nada que muestre el propio sistema de estado de THA. THA no publica una declaración de abierta o cerrada en su sitio. En cambio, su página de instrucciones dice: \"Please do not call THA to check your status. You may check the status of your application at www.waitlistcheck.com\". Los dos registros de THA en ese sistema, uno para la Housing Authority of the City of Tulsa y otro para la vivienda pública de Tulsa Housing Authority, dicen \"There are no open waiting lists at this time\". Eso es una foto del sistema al que THA remite a la gente, no una declaración con las palabras de THA, y las listas pueden abrir con poco aviso. Revise waitlistcheck usted mismo y llame a Rental Assistance al (918) 581-5780."
+      },
+      {
+        "q": "¿Tulsa todavía tiene vivienda pública?",
+        "a": "Los propios documentos de THA se contradicen, y preferimos mostrárselo en lugar de disimularlo. Su Plan Anual 2026, propuesto el 2 de septiembre de 2025 en el formulario de HUD, dice \"THA will have no public housing as of January 1, 2026\", y su tabla de unidades para el año fiscal que empieza en enero de 2026 indica 0 unidades de vivienda pública y 7,341 vales de la Sección 8. Mientras tanto, la página About de THA todavía anuncia \"traditional public housing\", su página Apply todavía ofrece una vía de vivienda pública, y el informe de contactos de HUD sigue registrando OK073 como \"Combined\". El plan presentado ante HUD es el documento más confiable y su fecha de vigencia ya pasó, pero hay tres fuentes vivas que dicen lo contrario, así que no declaramos un ganador. Llame al (918) 582-0021 y pregunte qué existe hoy antes de solicitar un programa que quizá ya no esté."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "Al (918) 582-0021. THA lo publica en su propia hoja informativa, actualizada en marzo de 2025 y enlazada desde la página About, y en la página principal y la de contacto de su portal de solicitantes. El directorio de HUD tiene el teléfono y el fax invertidos para OK073 y lista el (918) 582-0645, que no aparece en ninguna página actual de THA. Y el (918) 581-5600, el número que nosotros mismos publicábamos antes, no aparece en ninguna fuente oficial de THA ni de HUD que hayamos encontrado, así que lo reemplazamos. Para vales en concreto, Rental Assistance es el (918) 581-5780. Otras líneas útiles: ayuda con la solicitud 918-581-5944, inspecciones (918) 581-5791, portabilidad (918) 581-5742. La dirección es 415 E. Independence St., Tulsa, OK 74106. THA no publica su horario de oficina en ninguna parte que hayamos podido encontrar."
+      },
+      {
+        "q": "¿Cómo ordena THA su lista de espera?",
+        "a": "Primero por nivel de preferencia y después por fecha y hora dentro de cada nivel, y explícitamente no por sorteo. El Plan Administrativo de la Sección 8 publicado por THA dice \"All applicants in the pool will be maintained in order of preference. Applications equal in preference will be maintained by date and time sequence\" (los solicitantes se ordenan por preferencia, y quienes tienen la misma preferencia se ordenan por fecha y hora). El nivel más alto cubre el desplazamiento involuntario por acción de la autoridad o por un desastre natural declarado, y a los hogares cuyo jefe o cónyuge tiene 62 años o más. Tres preferencias quedan igualadas debajo: violencia doméstica, incluida cualquier persona en un albergue por esa causa o que enfrente violencia física real o amenazada; discapacidad, es decir uno o más integrantes con discapacidad; y militar, es decir un miembro activo, un veterano o el cónyuge sobreviviente de un veterano. La vivienda pública, según la ACOP enlazada desde la página About, es cronológica: \"The applications will be date stamped, and processed in chronological order\"."
+      },
+      {
+        "q": "¿Qué necesito tener listo para solicitar?",
+        "a": "De las instrucciones de solicitud de THA: nombre completo, dirección, números y tarjetas de Seguro Social, fechas de nacimiento y actas, ingresos del hogar, estatus de ciudadanía, y lápiz y papel. THA exige específicamente un número de Seguro Social válido y la fecha de nacimiento en formato mm/dd/yyyy. Para los vales, THA agrega que cada solicitante debe completar un formulario de Autorización de Información, que las condenas penales de los últimos dos años pueden causar una negativa, que un integrante de la familia debe ser ciudadano estadounidense o inmigrante elegible, y que la familia debe haber saldado cualquier deuda pendiente con THA. Si no puede solicitar en línea, THA dice que llame a la propiedad y un miembro del personal completará su solicitud por teléfono."
+      },
+      {
+        "q": "¿Qué significan los estados de solicitud de THA?",
+        "a": "THA publica su propio vocabulario en la página Apply, y es más específico que el de la mayoría. \"Active\" significa que usted tiene una solicitud activa y espera ser seleccionado de la lista. \"Hold\" significa que su solicitud ya fue seleccionada de la lista y que debería recibir una carta de cita, o que está en proceso de determinación de elegibilidad; es decir, \"Hold\" es una buena noticia y no un problema. \"Inactive\" significa que la solicitud fue certificada como no elegible por un saldo adeudado a Tulsa Housing Authority, por un estatus de \"Undesirable\" en una residencia anterior con THA, o porque se enviaron cartas de cita y se faltó a dos citas distintas. Esa última parte conviene leerla dos veces: faltar a dos citas basta para terminar una solicitud."
+      },
+      {
+        "q": "¿Cuánto tiempo tengo para encontrar vivienda una vez que recibo el vale?",
+        "a": "La página del Housing Choice Voucher de THA dice que \"Applicants will have up to 120 days from the voucher issuance date to find a unit and complete the rental process\" (hasta 120 días desde la emisión del vale para encontrar una unidad y completar el proceso de alquiler). Empiece a buscar el mismo día que lo reciba y no la semana en que se vence el plazo, porque la búsqueda, el papeleo del propietario y la inspección tienen que caber dentro de esa ventana. THA avisa la selección por correo de primera clase, y su plan administrativo dice que ese aviso indica \"the approximate date that assistance may be offered\" (la fecha aproximada en que se podría ofrecer la asistencia), así que mantenga su dirección postal al día con THA durante toda la espera."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tulsa Housing Authority - sitio oficial (en inglés)",
+        "url": "https://www.tulsahousing.org/"
+      },
+      {
+        "label": "THA - Solicitar vivienda: vías de solicitud, vocabulario de estados (en inglés)",
+        "url": "https://www.tulsahousing.org/applyforhousing/"
+      },
+      {
+        "label": "THA - Instrucciones de solicitud: qué tener listo, la clase de los lunes, waitlistcheck (en inglés)",
+        "url": "https://www.tulsahousing.org/applyforhousing/application-instructions/"
+      },
+      {
+        "label": "THA - Vales de la Sección 8: elegibilidad, los 120 días, contactos (en inglés)",
+        "url": "https://www.tulsahousing.org/housing/voucher-programs/section-8-housing-choice-vouchers/"
+      },
+      {
+        "label": "THA - Aviso de cierre de River West y Sección 8, fechado en 2024 por sus metadatos (en inglés)",
+        "url": "https://www.tulsahousing.org/waitlist-closure-info/"
+      },
+      {
+        "label": "THA - Archivo de noticias: lo más reciente del 16 de abril de 2026, sin avisos de listas (en inglés)",
+        "url": "https://www.tulsahousing.org/about/media/"
+      },
+      {
+        "label": "THA - Contacto: directorio de teléfonos por departamento (en inglés)",
+        "url": "https://www.tulsahousing.org/contact/"
+      },
+      {
+        "label": "THA - About: misión, planes, enlaces a la ACOP y la hoja informativa (en inglés)",
+        "url": "https://www.tulsahousing.org/about/"
+      },
+      {
+        "label": "THA - Plan Anual 2026, propuesto el 2 de septiembre de 2025: 0 unidades de vivienda pública (en inglés)",
+        "url": "https://www.tulsahousing.org/wp-content/uploads/2025/09/2026-Annual-Plan-Proposed-09022025.pdf"
+      },
+      {
+        "label": "THA - Hoja informativa, actualizada en marzo de 2025: teléfono y dirección (en inglés)",
+        "url": "https://www.tulsahousing.org/wp-content/uploads/2025/03/Updated-fact-sheet.pdf"
+      },
+      {
+        "label": "THA - Plan Administrativo de la Sección 8: niveles de preferencia, orden por fecha y hora (en inglés)",
+        "url": "https://www.tulsahousing.org/wp-content/uploads/2022/03/Admin-Plan-2022.pdf"
+      },
+      {
+        "label": "THA - Política de Admisiones y Ocupación Continua: vivienda pública, orden cronológico (en inglés)",
+        "url": "https://www.tulsahousing.org/wp-content/uploads/2018/05/THA-ACOP.pdf"
+      },
+      {
+        "label": "THA - portal del solicitante, RentCafe (en inglés)",
+        "url": "https://myportal.tulsahousing.org/"
+      },
+      {
+        "label": "Waitlistcheck - Housing Authority of the City of Tulsa, el sistema que THA indica (en inglés)",
+        "url": "https://www.waitlistcheck.com/OK1180-1811"
+      },
+      {
+        "label": "Waitlistcheck - Tulsa Housing Authority, vivienda pública (en inglés)",
+        "url": "https://www.waitlistcheck.com/application/form.php?ID=2527-OK073"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Oklahoma: OK073 Combined, OK901 OHFA (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
+      },
+      {
+        "label": "Oklahoma Housing Finance Agency - Housing Choice Voucher: estatal, lista cerrada (en inglés)",
+        "url": "https://www.ohfa.org/housingchoicevoucher/"
+      }
+    ]
+  }
+}

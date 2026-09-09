@@ -31,6 +31,11 @@
         "desc": "Jacksonville's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/tampa-tha",
+        "title": "Tampa Housing Authority (THA)",
+        "desc": "Tampa's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."
@@ -112,6 +117,11 @@
         "href": "es/recursos/autoridades-de-vivienda/jacksonville-jha",
         "title": "Autoridad de Vivienda de Jacksonville (JHA)",
         "desc": "Estado de la lista de espera de Sección 8 en Jacksonville, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/tampa-tha",
+        "title": "Tampa Housing Authority (THA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Tampa, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",

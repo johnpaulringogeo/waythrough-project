@@ -345,7 +345,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/columbus</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -393,7 +393,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/indianapolis</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -435,7 +435,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/memphis</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -561,7 +561,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/tampa</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -573,7 +573,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/tulsa</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -837,7 +837,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/how-to-find-your-pha</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1005,7 +1005,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1124,6 +1124,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/memphis-mha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/columbus-cmha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/indianapolis-iha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/tulsa-tha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/tampa-tha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/cities/</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -1191,7 +1221,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/florida</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1221,7 +1251,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/indiana</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1347,13 +1377,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/ohio</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/oklahoma</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1389,7 +1419,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/tennessee</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1539,7 +1569,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/tools/section-8-tracker</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1960,7 +1990,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/columbus</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2008,7 +2038,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/indianapolis</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2050,7 +2080,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/memphis</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2176,7 +2206,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/tampa</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2188,7 +2218,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/tulsa</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2284,7 +2314,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/florida</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2314,7 +2344,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/indiana</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2440,13 +2470,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/ohio</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/oklahoma</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2482,7 +2512,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/tennessee</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2608,7 +2638,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-encontrar-tu-pha</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2878,7 +2908,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/herramientas/rastreador-section-8</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3098,7 +3128,7 @@
   <!-- Spanish housing-authority directory (ES parity batch) -->
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/</loc>
-    <lastmod>2026-09-08</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3213,6 +3243,36 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/denver-dha</loc>
     <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/memphis-mha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/columbus-cmha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/indianapolis-iha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/tulsa-tha</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/tampa-tha</loc>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

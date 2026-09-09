@@ -1,0 +1,306 @@
+{
+  "slug": "tampa-tha",
+  "kind": "authority",
+  "name": "Tampa Housing Authority (THA)",
+  "schema_name": "Housing Authority of the City of Tampa",
+  "short_name": "THA",
+  "city": "Tampa",
+  "state": "FL",
+  "serves": "the City of Tampa and Hillsborough County, Florida",
+  "phone": "813.341.9101",
+  "official_url": "https://www.tampaha.org/",
+  "apply_url": "https://www.tampaha.org/apply-online",
+  "city_slug": "tampa",
+  "state_slug": "florida",
+  "updated": "September 9, 2026",
+  "intro": "If you are searching for the \"Housing Authority of Hillsborough County,\" here is the key thing to know: HUD's Florida list does not contain one. The only two public housing agencies in the county are the Housing Authority of the City of Tampa, HUD code FL003, and the much smaller Plant City Housing Authority, FL034. And Tampa Housing Authority's own About page states that it \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County.\" So if you live in unincorporated Hillsborough County, Tampa Housing Authority is very likely your agency, and this page is about how it works: what its own pages say is closed, the one place it says to look for whatever is open, and the three visiting rules that will waste your trip if you do not know them.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing, about 271 remaining units",
+    "Project-Based Vouchers and RAD converted properties, about 12,097 units and vouchers combined",
+    "Coordinated entry set-asides for people emerging from homelessness"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed with no reopening date. THA's dedicated page states, verbatim (checked September 9, 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice.\" The same page adds a warning worth repeating: \"Be extremely cautious of scams.\" Nobody legitimate charges a fee to put you on a THA list."
+    },
+    {
+      "program": "All other THA waiting lists",
+      "status": "Closed, with the portal as the only current source",
+      "note": "THA's Apply Online page says: \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed.\" That wording implies there may be something selectable inside the portal, but THA does not name it and it is only visible after you create an account, which we have not done. So we will not tell you a list is open and we will not tell you none is. THA points applicants at its portal for whatever is open, and its FAQ says: \"We regularly update this link, so if no waitlists are visible, it means none are currently available.\" Check tampaha.org/wait-list-information and the portal yourself, and call 813.341.9101 if it is unclear."
+    },
+    {
+      "program": "Public Housing and subsidized properties",
+      "status": "No status published per property",
+      "note": "THA lists more than 60 subsidized properties with addresses, phones and unit types, and publishes no waiting-list status for any of them. It also says plainly on its Available Units page: \"The Tampa Housing Authority does not maintain an available unit listing.\" Selection across THA's lists is by lottery rather than date order, so applying the first minute a list opens confers no advantage. THA's typical wait, in its own words: \"It varies, but the waiting period typically ranges from 3 to 5 years.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>Three visiting rules that are easy to miss and will cost you a trip.</strong> THA's sitewide hours are Monday to Friday, 8:00 am to 5:00 pm, but its Housing page adds that the \"Customer service area will be closed for lunch from 12 pm to 1 pm daily,\" that there are \"No Walk-Ins for Housing Specialists the last 5 business days of the month,\" and that \"The customer service lobby will be closed every last Friday of the month.\" None of those appear in the footer hours.",
+    "<strong>The only published preference is a homelessness set-aside through coordinated entry.</strong> THA's page titled \"Wait List Information\" is not a status page at all: it explains that \"The Tampa Housing Authority must fill units that are reserved for people emerging from homelessness from our community's coordinated entry system,\" and defines chronically homeless and literally homeless elderly in HUD's statutory language. Coordinated entry for this area runs through the Tampa Hillsborough Homeless Initiative at thhi.org. THA publishes no veteran, elderly, residency or working-family preference schedule anywhere.",
+    "<strong>Plant City Housing Authority</strong> is the county's other agency, HUD code FL034, at 1306 Larrick Lane, 813-752-0569. It is small and runs its own separate lists, so it is worth a call if you are in or near Plant City.",
+    "<strong>The City of Tampa's Rental and Move-In Assistance Program (RMAP) is not THA's.</strong> Tampa.gov states it \"is administered only by City of Tampa staff through the official online application process.\" As of September 9, 2026 the City's page described a Phase X reopening \"Tuesday, April 21st\" with applications accepted \"Tuesdays only from 9:00 a.m. to 12:00 p.m.\" through its online portal, and was stamped \"Updated: 06/29/2026\" with no current open or closed banner. Phases close when funding runs out, and the page shows no current status in either direction. Check tampa.gov before you count on it.",
+    "<strong>Emergency Housing Vouchers have ended here.</strong> THA received 222 of them in July 2021, and its own EHV page says \"The EHV program sunset September 30th, 2023 and no longer accepting applications.\" It is not a route into assistance today."
+  ],
+  "faqs": [
+    {
+      "q": "Is there a Housing Authority of Hillsborough County?",
+      "a": "Not one that we can find in any official source, and two independent sources point the other way. HUD's Florida PHA contact report contains no entry named Hillsborough: the only agencies in the county are FL003, the Housing Authority of the City of Tampa, and FL034, Plant City Housing Authority. And Tampa Housing Authority's own About page says it \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County.\" Two more official pages corroborate it: Temple Terrace's city website says \"The City of Temple Terrace does not provide housing-related services directly\" and refers residents to THA, and Hillsborough County's own Housing Finance Authority is a bond-financing body created in 1985 that runs no voucher or public housing list. No official page states the negative outright, so we will put it this way: if you are in unincorporated Hillsborough County, Tampa Housing Authority is where to start, and Plant City if you are out that way."
+    },
+    {
+      "q": "Is the Tampa Section 8 waiting list open?",
+      "a": "No. THA's dedicated page says: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (checked September 9, 2026). No reopening date is published. For everything else, THA's Apply Online page says \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed,\" which hints that something may be selectable inside the portal without naming it. We are not going to claim a list is open on that basis, and we are not going to claim none is. THA's FAQ tells you how to read the absence: \"if no waitlists are visible, it means none are currently available.\" Check for yourself and call 813.341.9101."
+    },
+    {
+      "q": "Does applying the moment a list opens help?",
+      "a": "No, and this is the useful difference between Tampa and many other cities. THA's FAQ states that \"applicants are selected through a lottery system\" and that \"Due to the high demand for housing assistance and our limited resources, our waitlists operate on a lottery system. While joining a waitlist does not guarantee housing assistance, it does provide you with an opportunity to be selected.\" So being first in line buys nothing. What does matter is applying at all before the window shuts, because THA warns that \"our waitlists can close at any time without notice.\" It also says plainly: \"Please understand that this is not emergency housing.\" Typical wait once you are on: three to five years."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "813.341.9101 is THA's main number, and it appears on the homepage, the FAQ, the dedicated Housing Choice Voucher page and the Help Center. TTY and TDD is 800.390.9290. The closest thing to a voucher line is Customer Service at 813.253.0551, given in THA's Assisted Housing FAQ. Two numbers to ignore: HUD's directory has the phone and fax reversed for FL003 and lists (813) 367-0778, and (813) 253-6991, which we ourselves used to publish, appears on no THA page we could find. There is also a Public Safety Anonymous Hotline at (813) 344-3210, but that is only for reporting safety hazards, criminal activity, lease violations or contractor abuse, not a general line. The office is at 5301 West Cypress Street, Tampa, FL 33607, with mail to P.O. Box 4766, Tampa, FL 33677."
+    },
+    {
+      "q": "Which THA website is the real one, tampaha.org or thafl.com?",
+      "a": "Both are THA's and neither is a scam, but tampaha.org is the public site to use. It carries all the internal navigation, the footer copyright and every social handle. thafl.com is THA's portal gateway and internal identity: its homepage reads \"Welcome to the Tampa Housing Authority Portal\" and points back at tampaha.org, THA's press contact is an @thafl.com address, procurement runs at portal.thafl.com, and the agency's PHA Plan documents are hosted on a thafl.sharepoint.com address. Note also that portal.thafl.com is the older system for clients, vendors and employees and is not where you join a waiting list. The applicant portal THA's Apply Online page actually links is at bob.ai, tied to THA by the phaCode=FL003 parameter in the link."
+    },
+    {
+      "q": "Are there preferences that would move me up?",
+      "a": "Only one that THA publishes, and it is a set-aside rather than a points schedule. THA's Wait List Information page explains that it \"must fill units that are reserved for people emerging from homelessness from our community's coordinated entry system,\" and it defines two HUD categories: chronically homeless, meaning a homeless individual with a disability who lives in a place not meant for human habitation, a safe haven or an emergency shelter and has been homeless that way for at least 12 months or on at least four separate occasions in the last three years; and literally homeless elderly, meaning an individual or family who lacks a fixed, regular and adequate nighttime residence. Access is through coordinated entry at thhi.org, not through THA directly. THA publishes no veteran, elderly-general, residency or working-family preference, and we are not going to invent one."
+    },
+    {
+      "q": "Does Tampa still have public housing?",
+      "a": "Yes, but only a little of it in the original form. THA's Housing page states that \"This agency currently administers 271 public housing units and 12,097 RAD (formerly public housing), Housing Choice Vouchers, and other special rental assistance programs.\" Most of what used to be public housing here was converted under RAD, a process THA's own FAQ describes as covering thirteen properties and having been anticipated to complete by September 2016. In practice this means most THA-assisted apartments are now project-based rather than traditional public housing, and each property runs its own list. THA lists more than 60 subsidized properties with phone numbers, and calling the property is more productive than calling the main line about a specific building."
+    },
+    {
+      "q": "When can I actually go in person?",
+      "a": "Weekdays 8:00 am to 5:00 pm, minus three exceptions THA publishes on its Housing page but not in its footer. The customer service area closes for lunch from 12 pm to 1 pm every day. There are no walk-ins for Housing Specialists during the last five business days of the month. And the customer service lobby is closed every last Friday of the month. Between them, those rules block out a meaningful slice of the month, so check the calendar before you drive to 5301 West Cypress Street, and call 813.341.9101 or Customer Service at 813.253.0551 first if your question can be answered by phone."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Tampa Housing Authority - official site",
+      "url": "https://www.tampaha.org/"
+    },
+    {
+      "label": "THA - Assisted Housing, Housing Choice Voucher Section 8 (waitlist closed, main phone)",
+      "url": "https://www.tampaha.org/assisted-housing-hcv-section-8"
+    },
+    {
+      "label": "THA - Apply Online (all other waitlists closed; links the Bob.ai portal)",
+      "url": "https://www.tampaha.org/apply-online"
+    },
+    {
+      "label": "THA - Wait List Information (coordinated entry, chronically homeless and literally homeless elderly)",
+      "url": "https://www.tampaha.org/wait-list-information"
+    },
+    {
+      "label": "THA - About Us (serves the City of Tampa and Hillsborough County)",
+      "url": "https://www.tampaha.org/about-us"
+    },
+    {
+      "label": "THA - Housing (271 public housing units, 12,097 RAD, lunch and last-5-business-days rules)",
+      "url": "https://www.tampaha.org/housing"
+    },
+    {
+      "label": "THA - FAQ (lottery system, how to find open lists, wait times, public safety hotline)",
+      "url": "https://www.tampaha.org/faq"
+    },
+    {
+      "label": "THA - Assisted Housing FAQs (Customer Service 813.253.0551)",
+      "url": "https://www.tampaha.org/assisted-housing-faqs"
+    },
+    {
+      "label": "THA - Emergency Housing Vouchers (222 vouchers July 2021; program sunset September 30 2023)",
+      "url": "https://www.tampaha.org/emergency-housing-vouchers"
+    },
+    {
+      "label": "THA - Help Center (address, mailing address, phone, TTY, hours)",
+      "url": "https://www.tampaha.org/help-center"
+    },
+    {
+      "label": "THA - Available Units (THA does not maintain an available unit listing)",
+      "url": "https://www.tampaha.org/available-units"
+    },
+    {
+      "label": "THA - Subsidized Units (property list, no waitlist status)",
+      "url": "https://www.tampaha.org/subsidized-units"
+    },
+    {
+      "label": "THA - RAD FAQs for Public Housing (legal name, conversion scope)",
+      "url": "https://www.tampaha.org/rad-faqs-for-public-housing"
+    },
+    {
+      "label": "THA - applicant portal, Bob.ai",
+      "url": "https://bob.ai/pha/FL003/apply"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Florida (FL003 Combined, FL034 Plant City; no Hillsborough entry)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"
+    },
+    {
+      "label": "City of Tampa - Rental and Move-In Assistance Program (RMAP), updated June 29 2026",
+      "url": "https://www.tampa.gov/housing-and-community-development/rental-move-in-assistance"
+    },
+    {
+      "label": "City of Temple Terrace - Housing Assistance and Info (no city housing services; refers to THA)",
+      "url": "https://www.templeterrace.gov/730/Housing-Assistance-and-Info"
+    },
+    {
+      "label": "Hillsborough County - Housing Finance Authority (bond financing, created 1985; not a housing authority)",
+      "url": "https://hcfl.gov/councils/housing-finance-authority"
+    },
+    {
+      "label": "Plant City Housing Authority - official site",
+      "url": "https://plantcityhousing.org/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Tampa y el condado de Hillsborough, Florida",
+    "updated": "9 de septiembre de 2026",
+    "intro": "Si usted está buscando la \"Housing Authority of Hillsborough County\", lo más importante que debe saber es esto: la lista de HUD para Florida no incluye ninguna. Las únicas dos agencias de vivienda pública del condado son la Housing Authority of the City of Tampa, código FL003 de HUD, y la mucho más pequeña Plant City Housing Authority, FL034. Y la propia página About de Tampa Housing Authority dice que \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County\" (ofrece oportunidades de vivienda para residentes de la ciudad de Tampa y del condado de Hillsborough). Así que si usted vive en la zona no incorporada del condado de Hillsborough, es muy probable que Tampa Housing Authority sea su agencia, y esta página explica cómo funciona: qué dicen sus propias páginas que está cerrado, el único lugar donde indica buscar lo que esté abierto, y las tres reglas de visita que le harán perder el viaje si no las conoce.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública, unas 271 unidades restantes",
+      "Vales Basados en Proyectos y propiedades convertidas por RAD, unas 12,097 unidades y vales en total",
+      "Cupos reservados por entrada coordinada para personas que salen de una situación sin hogar"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada y sin fecha de reapertura. La página dedicada de THA dice, textualmente (verificado el 9 de septiembre de 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (la lista para recibir el vale de la Sección 8 está cerrada y no aceptará solicitudes hasta nuevo aviso). La misma página agrega una advertencia que vale la pena repetir: \"Be extremely cautious of scams\" (tenga mucho cuidado con las estafas). Nadie legítimo le va a cobrar por ponerlo en una lista de THA."
+      },
+      {
+        "program": "Todas las demás listas de espera de THA",
+        "status": "Cerradas, con el portal como única fuente actual",
+        "note": "La página Apply Online de THA dice: \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed\" (vaya a este sitio y seleccione la solicitud abierta; por ahora todas las demás listas de Tampa Housing están cerradas). Esa redacción da a entender que puede haber algo seleccionable dentro del portal, pero THA no lo nombra y solo se ve después de crear una cuenta, cosa que no hicimos. Por eso no le vamos a decir que hay una lista abierta ni que no hay ninguna. THA remite a su portal para lo que esté abierto, y sus preguntas frecuentes explican cómo interpretar la ausencia: \"We regularly update this link, so if no waitlists are visible, it means none are currently available\" (actualizamos este enlace con frecuencia, así que si no se ve ninguna lista es que no hay ninguna disponible). Revise usted mismo tampaha.org/wait-list-information y el portal, y llame al 813.341.9101 si no queda claro."
+      },
+      {
+        "program": "Vivienda pública y propiedades subsidiadas",
+        "status": "Sin estado publicado por propiedad",
+        "note": "THA lista más de 60 propiedades subsidiadas con direcciones, teléfonos y tipos de unidad, y no publica el estado de la lista de espera de ninguna. También dice con claridad en su página Available Units: \"The Tampa Housing Authority does not maintain an available unit listing\" (THA no mantiene un listado de unidades disponibles). La selección en las listas de THA es por sorteo y no por orden de llegada, así que solicitar en el primer minuto no da ninguna ventaja. El tiempo de espera típico, en palabras de THA: \"It varies, but the waiting period typically ranges from 3 to 5 years\" (varía, pero suele ir de 3 a 5 años)."
+      }
+    ],
+    "also_serving": [
+      "<strong>Tres reglas de visita fáciles de pasar por alto que le costarán el viaje.</strong> El horario general de THA es de lunes a viernes, de 8:00 am a 5:00 pm, pero su página Housing agrega que el área de servicio al cliente \"will be closed for lunch from 12 pm to 1 pm daily\" (cierra por almuerzo de 12 a 1 todos los días), que no hay \"Walk-Ins for Housing Specialists the last 5 business days of the month\" (atención sin cita con los especialistas los últimos 5 días hábiles del mes), y que \"The customer service lobby will be closed every last Friday of the month\" (el vestíbulo de servicio al cliente cierra el último viernes de cada mes). Ninguna de las tres aparece en el horario del pie de página.",
+      "<strong>La única preferencia publicada es un cupo reservado por situación de calle a través de la entrada coordinada.</strong> La página de THA titulada \"Wait List Information\" no es una página de estado: explica que THA \"must fill units that are reserved for people emerging from homelessness from our community's coordinated entry system\" (debe llenar unidades reservadas para personas que salen de una situación sin hogar mediante el sistema de entrada coordinada de la comunidad), y define en el lenguaje legal de HUD las categorías de persona sin hogar crónica y persona mayor literalmente sin hogar. La entrada coordinada de esta zona la maneja la Tampa Hillsborough Homeless Initiative, en thhi.org. THA no publica en ninguna parte una tabla de preferencias para veteranos, personas mayores en general, residencia ni familias trabajadoras.",
+      "<strong>La Plant City Housing Authority</strong> es la otra agencia del condado, código FL034 de HUD, en 1306 Larrick Lane, 813-752-0569. Es pequeña y maneja sus propias listas, así que vale una llamada si usted está en Plant City o cerca.",
+      "<strong>El programa RMAP de ayuda con alquiler y mudanza es de la Ciudad de Tampa, no de THA.</strong> Tampa.gov dice que \"is administered only by City of Tampa staff through the official online application process\" (lo administra únicamente personal de la Ciudad a través del proceso oficial en línea). Al 9 de septiembre de 2026, la página de la Ciudad describía una reapertura de la Fase X el \"Tuesday, April 21st\" con solicitudes recibidas \"Tuesdays only from 9:00 a.m. to 12:00 p.m.\" a través de su portal en línea, y estaba marcada \"Updated: 06/29/2026\" sin ningún aviso vigente de abierto o cerrado. Las fases cierran cuando se acaban los fondos, y la página no muestra ningún estado actual en ninguna dirección. Consulte tampa.gov antes de contar con ese programa.",
+      "<strong>Los Emergency Housing Vouchers terminaron aquí.</strong> THA recibió 222 de ellos en julio de 2021, y su propia página dice \"The EHV program sunset September 30th, 2023 and no longer accepting applications\" (el programa terminó el 30 de septiembre de 2023 y ya no acepta solicitudes). Hoy no es una vía de acceso a la asistencia."
+    ],
+    "faqs": [
+      {
+        "q": "¿Existe una Housing Authority of Hillsborough County?",
+        "a": "No encontramos ninguna en ninguna fuente oficial, y dos fuentes independientes apuntan en sentido contrario. El informe de contactos de PHA de HUD para Florida no tiene ninguna entrada llamada Hillsborough: las únicas agencias del condado son FL003, la Housing Authority of the City of Tampa, y FL034, la Plant City Housing Authority. Y la propia página About de Tampa Housing Authority dice que \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County\". Dos páginas oficiales más lo corroboran: el sitio de la ciudad de Temple Terrace dice \"The City of Temple Terrace does not provide housing-related services directly\" (la ciudad no presta servicios de vivienda directamente) y remite a sus residentes a THA, y la Housing Finance Authority del propio condado de Hillsborough es un organismo de financiamiento con bonos creado en 1985 que no maneja ninguna lista de vales ni de vivienda pública. Ninguna página oficial declara la negativa de forma directa, así que lo diremos así: si usted está en la zona no incorporada del condado de Hillsborough, Tampa Housing Authority es donde empezar, y Plant City si vive por ese lado."
+      },
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Tampa?",
+        "a": "No. La página dedicada de THA dice: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (verificado el 9 de septiembre de 2026). No hay fecha de reapertura publicada. Para todo lo demás, la página Apply Online de THA dice \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed\", lo que insinúa que puede haber algo seleccionable dentro del portal sin nombrarlo. No vamos a afirmar que haya una lista abierta con esa base, ni vamos a afirmar que no la haya. Las preguntas frecuentes de THA explican cómo leer la ausencia: \"if no waitlists are visible, it means none are currently available\" (si no se ve ninguna lista, es que no hay ninguna disponible). Compruébelo usted mismo y llame al 813.341.9101."
+      },
+      {
+        "q": "¿Ayuda solicitar en el momento en que abre una lista?",
+        "a": "No, y esta es la diferencia útil entre Tampa y muchas otras ciudades. Las preguntas frecuentes de THA dicen que \"applicants are selected through a lottery system\" (los solicitantes se eligen por sorteo) y que \"Due to the high demand for housing assistance and our limited resources, our waitlists operate on a lottery system. While joining a waitlist does not guarantee housing assistance, it does provide you with an opportunity to be selected\" (por la alta demanda y los recursos limitados, las listas funcionan por sorteo; inscribirse no garantiza asistencia, pero da la oportunidad de ser seleccionado). Así que llegar primero no sirve de nada. Lo que sí importa es solicitar antes de que se cierre la ventana, porque THA advierte que \"our waitlists can close at any time without notice\" (las listas pueden cerrar en cualquier momento sin aviso). También dice con claridad: \"Please understand that this is not emergency housing\" (esto no es vivienda de emergencia). La espera típica, una vez inscrito, es de tres a cinco años."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El 813.341.9101 es el número principal de THA y aparece en la página principal, en las preguntas frecuentes, en la página dedicada al Housing Choice Voucher y en el Help Center. El TTY y TDD es 800.390.9290. Lo más parecido a una línea de vales es Servicio al Cliente, en el 813.253.0551, que THA da en sus preguntas frecuentes de vivienda asistida. Dos números que conviene ignorar: el directorio de HUD tiene el teléfono y el fax invertidos para FL003 y lista el (813) 367-0778, y el (813) 253-6991, que nosotros mismos publicábamos antes, no aparece en ninguna página de THA que hayamos encontrado. También existe una línea anónima de seguridad pública, el (813) 344-3210, pero es solo para reportar riesgos de seguridad, actividad delictiva, violaciones del contrato de arrendamiento o abusos de contratistas, no es una línea general. La oficina está en 5301 West Cypress Street, Tampa, FL 33607, y la correspondencia va a P.O. Box 4766, Tampa, FL 33677."
+      },
+      {
+        "q": "¿Cuál sitio web de THA es el verdadero, tampaha.org o thafl.com?",
+        "a": "Los dos son de THA y ninguno es una estafa, pero tampaha.org es el sitio público que debe usar. Ahí está toda la navegación interna, el aviso de derechos de autor del pie de página y todas las cuentas de redes sociales. thafl.com es la puerta de entrada a los portales y la identidad interna de THA: su página principal dice \"Welcome to the Tampa Housing Authority Portal\" y apunta de vuelta a tampaha.org, el contacto de prensa de THA es una dirección @thafl.com, las compras se manejan en portal.thafl.com, y los documentos del plan de la agencia están alojados en una dirección de thafl.sharepoint.com. Tenga en cuenta también que portal.thafl.com es el sistema más antiguo para clientes, proveedores y empleados, y no es donde uno se inscribe en una lista de espera. El portal de solicitantes que enlaza la página Apply Online de THA está en bob.ai, vinculado a THA por el parámetro phaCode=FL003 del enlace."
+      },
+      {
+        "q": "¿Hay preferencias que me suban en la lista?",
+        "a": "Solo una que THA publica, y es un cupo reservado más que una tabla de puntos. Su página Wait List Information explica que THA \"must fill units that are reserved for people emerging from homelessness from our community's coordinated entry system\", y define dos categorías de HUD: persona sin hogar crónica, es decir una persona sin hogar con una discapacidad que vive en un lugar no apto para habitación humana, en un refugio seguro o en un albergue de emergencia y que ha estado así al menos 12 meses o en al menos cuatro ocasiones distintas en los últimos tres años; y persona mayor literalmente sin hogar, es decir una persona o familia que carece de una residencia nocturna fija, regular y adecuada. El acceso es por entrada coordinada en thhi.org, no directamente con THA. THA no publica ninguna preferencia para veteranos, personas mayores en general, residencia ni familias trabajadoras, y no vamos a inventar una."
+      },
+      {
+        "q": "¿Tampa todavía tiene vivienda pública?",
+        "a": "Sí, pero muy poca en su forma original. La página Housing de THA dice que \"This agency currently administers 271 public housing units and 12,097 RAD (formerly public housing), Housing Choice Vouchers, and other special rental assistance programs\" (administra 271 unidades de vivienda pública y 12,097 unidades RAD, antes vivienda pública, vales y otros programas de asistencia). La mayor parte de lo que antes era vivienda pública aquí se convirtió bajo RAD, un proceso que las propias preguntas frecuentes de THA describen como abarcando trece propiedades y previsto para completarse en septiembre de 2016. En la práctica esto significa que la mayoría de los apartamentos con asistencia de THA hoy son basados en proyectos y no vivienda pública tradicional, y cada propiedad maneja su propia lista. THA lista más de 60 propiedades subsidiadas con teléfonos, y llamar a la propiedad rinde más que llamar a la línea principal por un edificio específico."
+      },
+      {
+        "q": "¿Cuándo puedo ir en persona?",
+        "a": "Entre semana de 8:00 am a 5:00 pm, menos tres excepciones que THA publica en su página Housing pero no en el pie de página. El área de servicio al cliente cierra por almuerzo de 12 a 1 todos los días. No hay atención sin cita con los especialistas de vivienda durante los últimos cinco días hábiles del mes. Y el vestíbulo de servicio al cliente cierra el último viernes de cada mes. Entre las tres, esas reglas bloquean una parte considerable del mes, así que revise el calendario antes de manejar hasta el 5301 West Cypress Street, y llame antes al 813.341.9101 o a Servicio al Cliente al 813.253.0551 si su pregunta se puede resolver por teléfono."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tampa Housing Authority - sitio oficial (en inglés)",
+        "url": "https://www.tampaha.org/"
+      },
+      {
+        "label": "THA - Vivienda asistida, vale de la Sección 8: lista cerrada, teléfono principal (en inglés)",
+        "url": "https://www.tampaha.org/assisted-housing-hcv-section-8"
+      },
+      {
+        "label": "THA - Apply Online: las demás listas están cerradas; enlaza el portal Bob.ai (en inglés)",
+        "url": "https://www.tampaha.org/apply-online"
+      },
+      {
+        "label": "THA - Wait List Information: entrada coordinada y definiciones de HUD (en inglés)",
+        "url": "https://www.tampaha.org/wait-list-information"
+      },
+      {
+        "label": "THA - About Us: sirve a la ciudad de Tampa y al condado de Hillsborough (en inglés)",
+        "url": "https://www.tampaha.org/about-us"
+      },
+      {
+        "label": "THA - Housing: 271 unidades de vivienda pública, 12,097 RAD, reglas de horario (en inglés)",
+        "url": "https://www.tampaha.org/housing"
+      },
+      {
+        "label": "THA - Preguntas frecuentes: sorteo, cómo encontrar listas abiertas, tiempos de espera (en inglés)",
+        "url": "https://www.tampaha.org/faq"
+      },
+      {
+        "label": "THA - Preguntas frecuentes de vivienda asistida: Servicio al Cliente 813.253.0551 (en inglés)",
+        "url": "https://www.tampaha.org/assisted-housing-faqs"
+      },
+      {
+        "label": "THA - Emergency Housing Vouchers: 222 vales en julio de 2021, fin el 30 de septiembre de 2023 (en inglés)",
+        "url": "https://www.tampaha.org/emergency-housing-vouchers"
+      },
+      {
+        "label": "THA - Help Center: dirección, apartado postal, teléfono, TTY, horarios (en inglés)",
+        "url": "https://www.tampaha.org/help-center"
+      },
+      {
+        "label": "THA - Available Units: THA no mantiene un listado de unidades disponibles (en inglés)",
+        "url": "https://www.tampaha.org/available-units"
+      },
+      {
+        "label": "THA - Unidades subsidiadas: listado de propiedades, sin estado de listas (en inglés)",
+        "url": "https://www.tampaha.org/subsidized-units"
+      },
+      {
+        "label": "THA - Preguntas frecuentes de RAD: nombre legal, alcance de la conversión (en inglés)",
+        "url": "https://www.tampaha.org/rad-faqs-for-public-housing"
+      },
+      {
+        "label": "THA - portal del solicitante, Bob.ai (en inglés)",
+        "url": "https://bob.ai/pha/FL003/apply"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Florida: FL003 y FL034, sin entrada de Hillsborough (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"
+      },
+      {
+        "label": "Ciudad de Tampa - Programa RMAP de ayuda con alquiler y mudanza, actualizado el 29 de junio de 2026 (en inglés)",
+        "url": "https://www.tampa.gov/housing-and-community-development/rental-move-in-assistance"
+      },
+      {
+        "label": "Ciudad de Temple Terrace - Ayuda de vivienda: no presta servicios directos, remite a THA (en inglés)",
+        "url": "https://www.templeterrace.gov/730/Housing-Assistance-and-Info"
+      },
+      {
+        "label": "Condado de Hillsborough - Housing Finance Authority: financiamiento con bonos, no es una PHA (en inglés)",
+        "url": "https://hcfl.gov/councils/housing-finance-authority"
+      },
+      {
+        "label": "Plant City Housing Authority - sitio oficial (en inglés)",
+        "url": "https://plantcityhousing.org/"
+      }
+    ]
+  }
+}

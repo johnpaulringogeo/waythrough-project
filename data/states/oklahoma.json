@@ -30,6 +30,11 @@
         "desc": "Oklahoma City's Section 8 waitlist status and how to apply."
       },
       {
+        "href": "resources/housing-authorities/tulsa-tha",
+        "title": "Tulsa Housing Authority (THA)",
+        "desc": "Tulsa's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."
@@ -110,6 +115,11 @@
         "href": "es/recursos/autoridades-de-vivienda/oklahoma-city-ocha",
         "title": "Autoridad de Vivienda de Oklahoma City (OCHA)",
         "desc": "Estado de la lista de espera de Sección 8 en Oklahoma City, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/tulsa-tha",
+        "title": "Tulsa Housing Authority (THA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Tulsa, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",
