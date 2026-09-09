@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Housing Discrimination: How to Recognize It and What to Do",
+      "description": "Fair housing law protects you from discrimination based on race, color, religion, sex, national origin, disability, and family status. Here's how to spot it and fight back.",
+      "url": "blog/posts/housing-discrimination-what-to-do.html",
+      "date": "2026-09-09",
+      "readTime": "8 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "The HUD 50058: What It Is and Why It Matters",
       "description": "The 50058 is the form that controls your Section 8 benefits. Here's what's on it, how to check it for errors, and why reviewing it can save you money.",
       "url": "blog/posts/understanding-your-hud-50058.html",
