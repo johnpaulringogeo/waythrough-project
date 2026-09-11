@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure which program is right for you? Our <a href=\"../where-to-start\">Where to Start</a> tool asks a few quick questions and routes you.</p>\n<p>HACLA voucher waitlist is closed — call (833) 422-5248 only to verify your existing position or ask about HUD-VASH or FUP. LACDA accepts CES referrals only — start by calling 211 to be screened. If you got a 3-day notice, call Stay Housed L.A. at (888) 694-0040 the same day — they bundle legal defense with rental assistance, and California source-of-income protection plus LA RSO/JUST Act often defeat the eviction outright.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/los-angeles-hacla",
+        "title": "Housing Authority of the City of Los Angeles (HACLA)",
+        "desc": "Section 8 waitlist status, contact, and how to apply for HACLA."
+      },
+      {
         "href": "resources/where-to-start",
         "title": "Where to Start",
         "desc": "Find the right programs for your situation."

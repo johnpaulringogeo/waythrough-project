@@ -83,6 +83,15 @@
 
         <h2>{{ labels.next_steps }}</h2>
         {{ data.next_steps_html | safe }}
+        {%- if faq_items %}
+        <section class="page-faq" style="overflow-wrap: anywhere;">
+        <h2>{{ labels.faq_heading }}</h2>
+        {%- for f in faq_items %}
+        <h3>{{ f.q }}</h3>
+        <p>{{ f.a }}</p>
+        {%- endfor %}
+        </section>
+        {%- endif %}
 
         <section class="related-resources">
             <h2>{{ labels.related_resources }}</h2>

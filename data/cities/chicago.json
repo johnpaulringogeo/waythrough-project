@@ -26,6 +26,11 @@
     "next_steps_html": "<p>Not sure which program is right for you? Our <a href=\"../where-to-start\">Where to Start</a> tool asks a few quick questions and routes you to the right combination of programs.</p>\n<p>The CHA voucher waitlist is closed and 16,000+ households are already waiting — call (312) 935-2600 only to check your existing position or ask about specialty referrals (HUD-VASH, FUP). For rent help, apply to Chicago RAP/ERAP through chicago.gov or dial 211. If you got a 5-day notice, text 'hi' to 866-773-6837 (Rentervention) the same day — Illinois source-of-income protection now makes voucher refusal illegal statewide.</p>",
     "related_resources": [
       {
+        "href": "resources/housing-authorities/chicago-cha",
+        "title": "Chicago Housing Authority (CHA)",
+        "desc": "Chicago's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/where-to-start",
         "title": "Where to Start",
         "desc": "Find the right programs for your situation."

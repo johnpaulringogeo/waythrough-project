@@ -12,6 +12,11 @@ Writes:
     resources/states/<slug>.html  (English state)
     es/recursos/estados/<slug>.html  (Spanish state)
 
+Each page renders its data.faqs as a visible FAQ section AND as FAQPage JSON-LD.
+The FAQ text is plain text in the JSON; build_faq_items() below escapes it and
+turns only the official targets inside an answer into links, and it refuses any
+q/a that carries markup, an HTML entity, an unverified domain or an aggregator.
+
 Safeguard: Spanish (es) pages are validated for missing diacritics before they
 are written. If an es page contains a red-flag un-accented Spanish word in its
 visible text, generation raises an error so plain-ASCII Spanish can never ship.
@@ -20,6 +25,7 @@ docstring are exempted narrowly here -- see ES_FALSE_POSITIVES below.
 """
 import argparse
 import glob
+import html
 import json
 import os
 import re
@@ -123,6 +129,7 @@ LAYOUTS = {
             "quick_numbers": "Quick numbers to write down:",
             "next_steps": "Next Steps",
             "related_resources": "Related Resources",
+            "faq_heading": "Frequently Asked Questions",
         },
         "breadcrumb_position3_name": "{breadcrumb_label}",  # filled from data
     },
@@ -141,6 +148,7 @@ LAYOUTS = {
             "quick_numbers": "Números importantes para anotar:",
             "next_steps": "Próximos pasos",
             "related_resources": "Recursos relacionados",
+            "faq_heading": "Preguntas frecuentes",
         },
         "breadcrumb_position3_name": "{breadcrumb_label}",
     },
@@ -159,6 +167,7 @@ LAYOUTS = {
             "quick_numbers": "Quick numbers to write down:",
             "next_steps": "Next Steps",
             "related_resources": "Related Resources",
+            "faq_heading": "Frequently Asked Questions",
             "state_resources": "State Resources",
         },
         "states_path": "resources/states/",
@@ -180,6 +189,7 @@ LAYOUTS = {
             "quick_numbers": "Números importantes para anotar:",
             "next_steps": "Próximos pasos",
             "related_resources": "Recursos relacionados",
+            "faq_heading": "Preguntas frecuentes",
             "state_resources": "Recursos por estado",
         },
         "states_path": "es/recursos/estados/",
@@ -241,6 +251,230 @@ def build_faq_json(faqs):
     }, indent=2, ensure_ascii=False)
 
 
+# ---------------------------------------------------------------------------
+# Visible FAQ section (S-FAQ, 2026-09-11).
+#
+# data.faqs[].q and data.faqs[].a are PLAIN TEXT. The same raw strings go into
+# the FAQPage JSON-LD (build_faq_json above), and build_faq_items() derives the
+# visible <h3>/<p> copy from them: every text segment is HTML-escaped, and only
+# the official targets named inside an answer become links --
+#   * bare or www. domains, optional path  -> https link, new tab
+#   * US phone numbers, vanity letters too -> tel:+1XXXXXXXXXX (211/311/911 never)
+#   * email addresses                      -> mailto:
+# so the visible copy and the schema copy cannot drift apart.
+#
+# It REFUSES (raises) rather than render something wrong:
+#   * a q or a containing "<" or ">": FAQ copy is not markup;
+#   * a q or a containing an HTML entity (&rsquo;, &amp;, ...): write the character;
+#   * a domain missing from FAQ_LINK_TARGETS: fetch it, then record the verdict;
+#   * a domain belonging to an aggregator (FAQ_AGGREGATORS), whatever the table says.
+# ---------------------------------------------------------------------------
+
+# Every domain token that appears in a FAQ answer, with the href it gets, as
+# verified by fetching it on 2026-09-11 (S-FAQ). Keys are the token as written,
+# host lower-cased. None = checked and dead (404 / no DNS / broken TLS), so the
+# text stays plain until someone fixes the answer. A new domain in any answer
+# makes the generator raise until it has been fetched and added here.
+FAQ_LINK_TARGETS = {
+    "211info.org": "https://211info.org",
+    "abqha.org/wait-list": "https://abqha.org/wait-list",
+    "applicant.atlantahousing.org": "https://applicant.atlantahousing.org",
+    "applyonline.thecha.org": "https://applyonline.thecha.org",
+    "boston.myhousing.com": "https://boston.myhousing.com",
+    "bostonhousing.org": "https://bostonhousing.org",
+    "caaofokc.org": "https://caaofokc.org",
+    "cabq.gov/help/rental-assistance": "https://cabq.gov/help/rental-assistance",
+    "ccrd.colorado.gov": "https://ccrd.colorado.gov",
+    "chicago.gov": "https://chicago.gov",
+    "chnhousingpartners.org": "https://chnhousingpartners.org",
+    "cmha.net": "https://cmha.net",
+    "connect.homeforward.org": "https://connect.homeforward.org",
+    "denverhousing.org": "https://denverhousing.org",
+    "dhantx.com/applicants": "https://dhantx.com/applicants",
+    "doh.colorado.gov/emergency-rental-assistance": "https://doh.colorado.gov/emergency-rental-assistance",
+    "encapnebraska.org": "https://encapnebraska.org",
+    "erap.dhs.dc.gov": "https://erap.dhs.dc.gov",
+    "freeevictionhelp.org": "https://freeevictionhelp.org",
+    "fwhs.org": "https://fwhs.org",
+    "habc.org": "https://habc.org",
+    "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
+    "hakc.org": "https://hakc.org",
+    "hakc.org/apply-online": "https://hakc.org/apply-online",
+    "hatctx.com": "https://hatctx.com",
+    "homesa.org": "https://homesa.org",
+    "housing.sfgov.org": "https://housing.sfgov.org",
+    "housinglink.org": "https://housinglink.org",
+    "indyhousing.org": "https://indyhousing.org",
+    "jacksonvilleevictiondiversion.org": "https://jacksonvilleevictiondiversion.org",
+    "kcba.org": "https://kcba.org",
+    "kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants": "https://kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants",
+    "kshousingcorp.org": "https://kshousingcorp.org",
+    "las.org": "https://las.org",
+    "law.lis.virginia.gov": "https://law.lis.virginia.gov",
+    "lawmo.org": "https://lawmo.org",
+    "legalaiddc.org": "https://legalaiddc.org",
+    "longbeach.gov/haclb/apply": "https://longbeach.gov/haclb/apply",
+    "mainehousing.org": "https://mainehousing.org",
+    "mass.gov": "https://mass.gov",
+    "mass.gov/mcad": "https://mass.gov/mcad",
+    "mccr.maryland.gov": "https://mccr.maryland.gov",
+    "mdlab.org": "https://mdlab.org",
+    "mesaaz.gov/residents/housing": "https://mesaaz.gov/residents/housing",
+    "mifa.org/applyonline": "https://mifa.org/applyonline",
+    "mn.gov/mdhr": "https://mn.gov/mdhr",  # bot-blocked to scripts, live for people
+    "nashville-mdha.org": "https://nashville-mdha.org",
+    "oakha.org": "https://oakha.org",
+    "ohauthority.org": "https://ohauthority.org",
+    "phxhousing.myhousing.com": "https://phxhousing.myhousing.com",
+    "planninghcd.cityofomaha.org/for-renters": "https://planninghcd.cityofomaha.org/for-renters",  # bot-blocked to scripts, live for people
+    "publichousingapplication.ocd.state.ma.us": "https://publichousingapplication.ocd.state.ma.us",
+    "rent-assist.phila.gov": "https://rent-assist.phila.gov",
+    "rentful614.com": "https://rentful614.com",
+    "rhanc.gov": "https://rhanc.gov",
+    "rihousing.com": "https://rihousing.com",
+    "sacwaitlist.com": "https://sacwaitlist.com",
+    "scchousingauthority.org": "https://scchousingauthority.org",
+    "seattlehousing.org": "https://www.seattlehousing.org",  # apex fails TLS (hostname mismatch); www. works
+    "sfrb.org": "https://sfrb.org",
+    "shelbycountycsa.org": "https://shelbycountycsa.org",
+    "shra.org": "https://shra.org",
+    "slha.org": "https://slha.org",
+    "snvrha.org": "https://snvrha.org",
+    "stayhousedla.org": "https://stayhousedla.org",
+    "stopmyeviction.org": "https://stopmyeviction.org",
+    "waitlistcheck.com": "https://waitlistcheck.com",
+    "wichita.gov": "https://wichita.gov",
+    "wichita.myhousing.com": "https://wichita.myhousing.com",
+    "www.sacwaitlist.com": "https://www.sacwaitlist.com",
+    "www.waitlistcheck.com": "https://www.waitlistcheck.com",
+    "yourlegalaid.org": "https://yourlegalaid.org",
+    "cmhanet.com/HCV/ProspectiveResidents": None,  # 404
+    "longbeach.gov/homelessness/RenterAid": None,  # 404
+    "mass.gov/raft": None,  # 404
+    "metroareacontinuumofcare.org": None,  # DNS failure
+    "needlinknashville.org": None,  # DNS failure
+    "rent-help.kingcounty.gov": None,  # TLS certificate EXPIRED
+    "stlouis-mo.gov/help-stl/request-help-stl": None,  # 404
+    "teamkyhherf.ky.gov": None,  # DNS failure
+    "trla.org/applyforhelp": None,  # 404 status
+    "waitlistcentralri.com": None,  # TLS fails on apex and www.
+}
+
+# Never linked, never cited: listing sites that republish PHA data.
+FAQ_AGGREGATORS = ("affordablehousingonline.com", "section8waitlist.org", "publichousing.com",
+                   "lowincomehousing.us", "gosection8.com")
+
+FAQ_EMAIL_RE = re.compile(
+    r"(?<![A-Za-z0-9._%+-])[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+FAQ_DOMAIN_RE = re.compile(
+    r"(?<![A-Za-z0-9@._%+/-])"
+    r"(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:gov|org|com|net|us|edu|info)"
+    r"(?![A-Za-z0-9-])"
+    r"(?:/[A-Za-z0-9/_.~%?=&#+-]*)?")
+FAQ_PHONE_RE = re.compile(
+    r"(?<![A-Za-z0-9-])"
+    r"(?:1-)?(?:\(\d{3}\) \d{3}-|\d{3}-\d{3}-|\d{3}\.\d{3}\.)(?:\d{4}|[A-Z]{4})"
+    r"(?![A-Za-z0-9])")
+FAQ_TRAILING = '.,;)"'   # sentence punctuation after a domain is not part of it
+FAQ_ENTITY_RE = re.compile(r"&(?:#[0-9]+|#[xX][0-9a-fA-F]+|[A-Za-z][A-Za-z0-9]*);")
+KEYPAD = {c: d for d, letters in (("2", "ABC"), ("3", "DEF"), ("4", "GHI"), ("5", "JKL"),
+                                   ("6", "MNO"), ("7", "PQRS"), ("8", "TUV"), ("9", "WXYZ"))
+          for c in letters}
+
+
+def _faq_host(token):
+    return token.split("/", 1)[0].lower()
+
+
+def _faq_is_aggregator(host):
+    host = host[4:] if host.startswith("www.") else host
+    return any(host == a or host.endswith("." + a) for a in FAQ_AGGREGATORS)
+
+
+assert all(v is None or v.startswith("https://") for v in FAQ_LINK_TARGETS.values())
+assert not any(_faq_is_aggregator(_faq_host(k)) or (v and _faq_is_aggregator(_faq_host(v[8:])))
+               for k, v in FAQ_LINK_TARGETS.items())
+
+
+def faq_tel(token):
+    """'(216) 391-HELP' -> 'tel:+12163914357' (letters map to the phone keypad)."""
+    body = token[2:] if token.startswith("1-") else token
+    digits = "".join(KEYPAD.get(ch, ch) for ch in body if ch.isalnum())
+    if len(digits) != 10 or not digits.isdigit():
+        raise ValueError(f"not a 10-digit US phone number: {token!r}")
+    return "tel:+1" + digits
+
+
+def faq_tokens(text):
+    """The link tokens inside one answer: [(kind, start, end, token)], in order.
+    kind is 'email', 'url' or 'tel'. Emails win over the domain inside them."""
+    spans = []
+
+    def free(s, e):
+        return all(e <= a or s >= b for _k, a, b, _t in spans)
+
+    for m in FAQ_EMAIL_RE.finditer(text):
+        spans.append(("email", m.start(), m.end(), m.group(0)))
+    for m in FAQ_DOMAIN_RE.finditer(text):
+        tok = m.group(0)
+        while tok and tok[-1] in FAQ_TRAILING:
+            tok = tok[:-1]
+        if free(m.start(), m.start() + len(tok)):
+            spans.append(("url", m.start(), m.start() + len(tok), tok))
+    for m in FAQ_PHONE_RE.finditer(text):
+        if free(m.start(), m.end()):
+            spans.append(("tel", m.start(), m.end(), m.group(0)))
+    return sorted(spans, key=lambda s: s[1])
+
+
+def faq_plain_text(where, s):
+    """Raise unless s is plain text: no tags, no HTML entities."""
+    if "<" in s or ">" in s:
+        raise ValueError(f"FAQ {where} must be plain text but contains '<' or '>': {s[:90]!r}")
+    for m in FAQ_ENTITY_RE.finditer(s):
+        if html.unescape(m.group(0)) != m.group(0):
+            raise ValueError(f"FAQ {where} must be plain text but contains the HTML entity "
+                             f"{m.group(0)} -- write the character itself")
+
+
+def faq_anchor(kind, token):
+    """HTML for one link token; a verified-dead domain comes back as plain text."""
+    text = html.escape(token, quote=False)
+    if kind == "email":
+        return f'<a href="mailto:{html.escape(token)}">{text}</a>'
+    if kind == "tel":
+        return f'<a href="{faq_tel(token)}">{text}</a>'
+    host = _faq_host(token)
+    if _faq_is_aggregator(host):
+        raise ValueError(f"FAQ answer links an aggregator ({host}) -- cite the authority's own site")
+    key = host + token[len(host):]
+    if key not in FAQ_LINK_TARGETS:
+        raise ValueError(f"FAQ link target {key!r} has not been verified -- fetch it, then add it "
+                         f"to FAQ_LINK_TARGETS in scripts/generate_page.py (None if it is dead)")
+    href = FAQ_LINK_TARGETS[key]
+    if href is None:
+        return text
+    return f'<a href="{html.escape(href)}" target="_blank" rel="noopener">{text}</a>'
+
+
+def build_faq_items(faqs, lang="en"):
+    """Visible FAQ copy: [{'q': html, 'a': html}] in JSON order. The question is
+    escaped text; the answer is escaped text with its link tokens as anchors."""
+    items = []
+    for n, f in enumerate(faqs):
+        q, a = f["q"], f["a"]
+        faq_plain_text(f"{lang}.faqs[{n}].q", q)
+        faq_plain_text(f"{lang}.faqs[{n}].a", a)
+        out, pos = [], 0
+        for kind, s, e, tok in faq_tokens(a):
+            out.append(html.escape(a[pos:s], quote=False))
+            out.append(faq_anchor(kind, tok))
+            pos = e
+        out.append(html.escape(a[pos:], quote=False))
+        items.append({"q": html.escape(q, quote=False), "a": "".join(out)})
+    return items
+
+
 def render_one(env, kind, lang, slug, data, layout):
     """Render one language's page for one location."""
     canonical_path = layout["canonical_path"].format(slug=slug)
@@ -249,6 +483,7 @@ def render_one(env, kind, lang, slug, data, layout):
 
     breadcrumb_json = build_breadcrumb_json(layout, data, lang)
     faq_json = build_faq_json(data.get("faqs", [])) if data.get("faqs") else ""
+    faq_items = build_faq_items(data.get("faqs") or [], lang)
 
     template = env.get_template(f"{kind}.html.j2")
     html = template.render(
@@ -265,6 +500,7 @@ def render_one(env, kind, lang, slug, data, layout):
         labels=layout["labels"],
         breadcrumb_json=breadcrumb_json,
         faq_json=faq_json,
+        faq_items=faq_items,
     )
 
     # Safeguard: never write a Spanish page that is missing its accents.

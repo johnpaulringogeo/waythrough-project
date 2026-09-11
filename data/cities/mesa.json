@@ -28,7 +28,8 @@
       {"href": "resources/guides/how-to-apply-section-8", "title": "Apply for Section 8", "desc": "Step-by-step voucher application guide."},
       {"href": "resources/states/arizona", "title": "Arizona Resources", "desc": "State-wide tenant rights and programs."},
       {"href": "resources/guides/emergency-housing-tonight", "title": "Need Help Tonight?", "desc": "Find emergency shelter right now."},
-      {"href": "resources/guides/emergency-rental-assistance", "title": "Rental Assistance Guide", "desc": "National programs and how to qualify."}
+      {"href": "resources/guides/emergency-rental-assistance", "title": "Rental Assistance Guide", "desc": "National programs and how to qualify."},
+      {"href": "resources/guides/how-to-file-housing-discrimination-complaint", "title": "File a Discrimination Complaint", "desc": "How to file a fair housing complaint with HUD."}
     ],
     "faqs": [
       {"q": "Is the Mesa Section 8 waitlist open in 2026?", "a": "No. The City of Mesa Housing Authority (CMHA) Section 8 Housing Choice Voucher waitlist is closed as of September 9, 2026. Mesa publishes neither a date for its most recent opening nor an average wait time, so treat any such figure you see elsewhere as unverified. To check status or apply for other programs, call CMHA at 480-644-3536 or visit mesaaz.gov/residents/housing."},
