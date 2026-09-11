@@ -30,6 +30,11 @@
         "desc": "Nashville's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/guides/emergency-rent-help-nashville",
+        "title": "Emergency Rent Help in Nashville",
+        "desc": "Who actually pays rent in Davidson County, and free eviction lawyers."
+      },
+      {
         "href": "resources/housing-authorities/memphis-mha",
         "title": "Memphis Housing Authority (MHA)",
         "desc": "Memphis's Section 8 waitlist status, contact, and how to apply."
@@ -115,6 +120,11 @@
         "href": "es/recursos/autoridades-de-vivienda/nashville-mdha",
         "title": "Metropolitan Development and Housing Agency (MDHA) de Nashville",
         "desc": "Estado de la lista de espera de Sección 8 en Nashville, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/guias/asistencia-renta-emergencia-nashville",
+        "title": "Ayuda de emergencia con la renta en Nashville",
+        "desc": "Quién paga de verdad la renta en el Condado de Davidson y abogados gratis contra el desalojo."
       },
       {
         "href": "es/recursos/autoridades-de-vivienda/memphis-mha",

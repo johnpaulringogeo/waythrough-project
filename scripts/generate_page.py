@@ -323,6 +323,7 @@ FAQ_LINK_TARGETS = {
     "mifa.org/applyonline": "https://mifa.org/applyonline",
     "mn.gov/mdhr": "https://mn.gov/mdhr",  # bot-blocked to scripts, live for people
     "nashville-mdha.org": "https://nashville-mdha.org",
+    "needlink.org": "https://needlink.org",  # NeedLink Nashville's current site (needlinknashville.org is dead); fetched live 2026-09-11 (NASH)
     "oakha.org": "https://oakha.org",
     "ohauthority.org": "https://ohauthority.org",
     "phxhousing.myhousing.com": "https://phxhousing.myhousing.com",
@@ -332,7 +333,9 @@ FAQ_LINK_TARGETS = {
     "rentful614.com": "https://rentful614.com",
     "rhanc.gov": "https://rhanc.gov",
     "rihousing.com": "https://rihousing.com",
+    "rooftopnashville.org": "https://rooftopnashville.org",  # fetched live 2026-09-11 (NASH); apex redirects to www.
     "sacwaitlist.com": "https://sacwaitlist.com",
+    "sahelp.org": "https://sahelp.org",  # The Salvation Army's request system; fetched live 2026-09-11 (NASH)
     "scchousingauthority.org": "https://scchousingauthority.org",
     "seattlehousing.org": "https://www.seattlehousing.org",  # apex fails TLS (hostname mismatch); www. works
     "sfrb.org": "https://sfrb.org",
