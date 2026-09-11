@@ -105,19 +105,26 @@ function escapeHTML(str) {
 
 // ── Search state ──
 let searchIndex = null;
+let searchIndexRequest = null; // the one in-flight load, shared by init, open and typing
 let searchOpen = false;
 
 async function loadSearchIndex() {
     if (searchIndex) return searchIndex;
-    try {
-        const res = await fetch(root + 'js/search-index.json?v=16');
-        if (!res.ok) throw new Error('Search index returned ' + res.status);
-        searchIndex = await res.json();
-        return searchIndex;
-    } catch (e) {
-        console.warn('Search index failed to load', e);
-        return [];
-    }
+    if (searchIndexRequest) return searchIndexRequest;
+    searchIndexRequest = (async () => {
+        try {
+            const res = await fetch(root + 'js/search-index.json?v=17');
+            if (!res.ok) throw new Error('Search index returned ' + res.status);
+            searchIndex = await res.json();
+            return searchIndex;
+        } catch (e) {
+            console.warn('Search index failed to load', e);
+            return [];
+        } finally {
+            searchIndexRequest = null; // a failed load can be retried, as before
+        }
+    })();
+    return searchIndexRequest;
 }
 
 const SEARCH_SYNONYMS = {
@@ -387,7 +394,7 @@ function renderNav() {
     // Prefetch search index in background
     const prefetchLink = document.createElement('link');
     prefetchLink.rel = 'prefetch';
-    prefetchLink.href = root + 'js/search-index.json?v=16';
+    prefetchLink.href = root + 'js/search-index.json?v=17';
     document.head.append(prefetchLink);
 
     document.body.prepend(nav);
