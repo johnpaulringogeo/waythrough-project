@@ -11,8 +11,8 @@
   "apply_url": "https://www.longbeach.gov/haclb/apply/",
   "city_slug": "long-beach",
   "state_slug": "california",
-  "updated": "August 25, 2026",
-  "intro": "The Housing Authority of the City of Long Beach (HACLB) runs Section 8 Housing Choice Vouchers for the City of Long Beach, California. It is a voucher-only agency: HUD's PHA contact report lists Long Beach (CA068) with a program type of \"Section 8,\" and HACLB's own program pages list vouchers, Shelter Plus Care, VASH and project-based voucher apartments, but no public housing of its own. That distinction matters more than it sounds, because the largest public housing community inside Long Beach city limits is not HACLB's at all, and its waiting lists are open right now while HACLB's are closed. This page summarizes what HACLB itself publishes about its waiting-list status, contact information and how to apply, explains the Carmelitos exception, and links to the official pages for anything time-sensitive.",
+  "updated": "September 21, 2026",
+  "intro": "The Housing Authority of the City of Long Beach (HACLB) runs Section 8 Housing Choice Vouchers for the City of Long Beach, California. It is a voucher-only agency: HUD's PHA contact report lists Long Beach (CA068) with a program type of \"Section 8,\" and HACLB's own program pages list vouchers, Shelter Plus Care, VASH and project-based voucher apartments, but no public housing of its own. That distinction matters more than it sounds, because the largest public housing community inside Long Beach city limits is not HACLB's at all. Its waiting lists, run by Los Angeles County, were open from August 17 to September 16, 2026 and are closed now, like HACLB's. This page summarizes what HACLB itself publishes about its waiting-list status, contact information and how to apply, explains the Carmelitos exception, and links to the official pages for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
     "Shelter Plus Care and homeless assistance",
@@ -25,17 +25,17 @@
     {
       "program": "Housing Choice Voucher (Section 8)",
       "status": "Closed",
-      "note": "Closed with no reopening scheduled (checked August 25, 2026). HACLB's notice reads: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time.\" Its application page adds: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media.\" That page also offers a mailing list you can join so HACLB can tell you directly when the lists reopen."
+      "note": "Closed with no reopening scheduled (checked September 21, 2026). HACLB's notice reads: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time.\" Its application page adds: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media.\" That page also offers a mailing list you can join so HACLB can tell you directly when the lists reopen."
     },
     {
       "program": "Carmelitos public housing, in Long Beach but run by Los Angeles County",
-      "status": "Open until September 16, 2026",
-      "note": "This is not an HACLB list, and HACLB's own site does not mention it, but it is public housing inside Long Beach. The Los Angeles County Development Authority (LACDA) opened 16 site-based waiting lists on August 17, 2026 at 8:00 a.m., closing September 16, 2026 at 5:00 p.m., and two of them are Carmelitos Senior (155 units, Long Beach) and Carmelitos Family (558 units, Long Beach). LACDA warns that smaller sites close earlier, \"once 1,000 applications are received, or on September 16, 2026.\" Register at harp.lacda.org or call (626) 586-1522, Monday through Friday, 8:00 a.m. to 5:00 p.m. (checked August 25, 2026)."
+      "status": "Closed September 16, 2026",
+      "note": "This is not an HACLB list, but it is public housing inside Long Beach. The Los Angeles County Development Authority (LACDA) took registrations for its 16 site-based waiting lists from August 17, 2026 until 5:00 p.m. on September 16, 2026, and two of them are Carmelitos Senior (155 units, Long Beach) and Carmelitos Family (558 units, Long Beach). LACDA's page now reads \"WAITING LISTS FOR ELDERLY AND GENERAL OCCUPANCY PUBLIC HOUSING SITES ARE CLOSED\" and \"The waiting list application period closed on September 16, 2026, at 5:00 p.m.,\" and its registration portal, harp.lacda.org, reads \"ALL PUBLIC HOUSING WAITING LISTS ARE NOW CLOSED\" (checked September 21, 2026). LACDA gives no date for the next opening. For questions, LACDA's line is (626) 586-1522."
     },
     {
       "program": "Los Angeles County Development Authority Section 8",
       "status": "Closed",
-      "note": "LACDA's registration portal states plainly: \"This is not for the waiting list for the Section 8 Program, which remains closed.\" Its multifamily program waiting lists are closed as well (checked August 25, 2026)."
+      "note": "LACDA's site-based waiting list page states: \"The County's Section 8 waiting list also remains closed.\" Its registration portal adds: \"MULTIFAMILY PROGRAM WAITING LISTS ARE NOW CLOSED!\" (checked September 21, 2026)."
     },
     {
       "program": "Privately owned affordable apartments in Long Beach",
@@ -45,22 +45,22 @@
   ],
   "also_serving": [
     "<strong>The Los Angeles County Development Authority (LACDA) is a separate agency, and Long Beach sits outside most of its territory on purpose.</strong> LACDA says it \"serves the unincorporated areas of Los Angeles County (areas that are not part of a city) and 62 incorporated cities,\" and it names Long Beach as one of 18 cities in the county that run their own public housing agency. Main line (626) 262-4511.",
-    "<strong>The one exception is Carmelitos, and it is a large one.</strong> LACDA states that it \"has a Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only.\" Carmelitos is in Long Beach and its two open lists cover 155 senior units and 558 family units. Because HACLB does not link to it, most Long Beach applicants never hear about it.",
+    "<strong>The one exception is Carmelitos, and it is a large one.</strong> LACDA states that it \"has a Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only.\" Carmelitos is in Long Beach, and its two site-based lists cover 155 senior units and 558 family units. Those lists were open from August 17 to September 16, 2026 and are closed now. HACLB's home page did carry a news item about the county's opening, \"Los Angeles County Public Housing Waiting List is Open. Applications accepted 8/17/2026 - 9/16/2026,\" but it does not name Carmelitos, so watch lacda.org for the next opening.",
     "<strong>HUD is ending the Emergency Housing Voucher program.</strong> HACLB's home page states: \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program.\" HACLB had been allocated 582 of these vouchers through the American Rescue Plan Act. If you hold one, call HACLB at (562) 570-6985 and ask what the wind-down means for your household rather than waiting for a letter.",
     "<strong>HACLB is appointment-only.</strong> Its office at 1500 Hughes Way, Suite C-300 is open Monday, Tuesday, Wednesday and Friday from 7:30 a.m. to 4:00 p.m. and Thursday from 7:30 a.m. to 2:00 p.m., and it asks you to \"schedule an appointment in advance by calling (562) 570-6985.\" A drop box is available Monday through Friday, 4:30 a.m. to 7:00 p.m., and the waiting-list mailbox is HA-WaitingList@longbeach.gov."
   ],
   "faqs": [
     {
       "q": "Is the Long Beach Section 8 waiting list open?",
-      "a": "No. As of August 25, 2026 the Housing Authority of the City of Long Beach states that its \"waiting list is currently closed, and no openings are scheduled at this time.\" There is no announced reopening date. HACLB says it will share the news on its website and social media when the lists reopen, and its application page offers a mailing list you can join. Confirm at longbeach.gov/haclb/apply or call (562) 570-6985 before you rely on this."
+      "a": "No. As of September 21, 2026 the Housing Authority of the City of Long Beach states that its \"waiting list is currently closed, and no openings are scheduled at this time.\" There is no announced reopening date. HACLB says it will share the news on its website and social media when the lists reopen, and its application page offers a mailing list you can join. Confirm at longbeach.gov/haclb/apply or call (562) 570-6985 before you rely on this."
     },
     {
       "q": "Does Long Beach have public housing?",
-      "a": "Not through HACLB. HUD's PHA contact report lists the City of Long Beach Housing Authority (CA068) with a program type of \"Section 8,\" and HACLB's program pages list only voucher-based programs. But Carmelitos, a large public housing community inside Long Beach, is owned by the Los Angeles County Development Authority, and its senior and family waiting lists are open from August 17 to September 16, 2026. If you want public housing in Long Beach, that is the application to make."
+      "a": "Not through HACLB. HUD's PHA contact report lists the City of Long Beach Housing Authority (CA068) with a program type of \"Section 8,\" and HACLB's program pages list only voucher-based programs. But Carmelitos, a large public housing community inside Long Beach, is owned by the Los Angeles County Development Authority. Its senior and family waiting lists were open from August 17 to September 16, 2026 and are closed now: LACDA's page reads \"The waiting list application period closed on September 16, 2026, at 5:00 p.m.\" (checked September 21, 2026). If you want public housing in Long Beach, Carmelitos is still the place to watch, and LACDA has not given a date for its next opening."
     },
     {
       "q": "Can I apply for Carmelitos if I live in Long Beach?",
-      "a": "Yes, and you are treated as a local applicant. LACDA states that it \"has a Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only.\" Register online at harp.lacda.org or call (626) 586-1522 between 8:00 a.m. and 5:00 p.m., Monday through Friday. Registration closes September 16, 2026 at 5:00 p.m., and LACDA says smaller sites may close sooner once 1,000 applications are received."
+      "a": "Yes, whenever LACDA opens the Carmelitos lists, and you are treated as a local applicant. LACDA states that it \"has a Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only.\" The most recent registration ran from August 17 to September 16, 2026 and is closed; LACDA's registration portal, harp.lacda.org, now reads \"ALL PUBLIC HOUSING WAITING LISTS ARE NOW CLOSED\" (checked September 21, 2026). For questions, call LACDA at (626) 586-1522."
     },
     {
       "q": "What number should I call at the Long Beach Housing Authority?",
@@ -72,7 +72,7 @@
     },
     {
       "q": "How will I find out when HACLB reopens its list?",
-      "a": "HACLB says it will announce it on its website and social media, and its application page offers a mailing list sign-up. Because the reopening is not scheduled, it is worth setting your own reminder to check longbeach.gov/haclb every few weeks rather than waiting to see it. In the meantime, the Carmelitos lists are open through September 16, 2026, and the privately owned affordable buildings on HACLB's list each keep their own waiting list you can join at any time."
+      "a": "HACLB says it will announce it on its website and social media, and its application page offers a mailing list sign-up. Because the reopening is not scheduled, it is worth setting your own reminder to check longbeach.gov/haclb every few weeks rather than waiting to see it. In the meantime, the privately owned affordable buildings on HACLB's list each keep their own waiting list you can join at any time. The Carmelitos public housing lists that Los Angeles County opened on August 17, 2026 closed on September 16, 2026."
     }
   ],
   "sources": [
@@ -105,7 +105,7 @@
       "url": "https://www.longbeach.gov/haclb/about/mission/"
     },
     {
-      "label": "LACDA - Site-Based Waiting Lists (Carmelitos, open August 17 to September 16, 2026)",
+      "label": "LACDA - Site-Based Waiting Lists (Carmelitos; registration ran August 17 to September 16, 2026 and is closed)",
       "url": "https://www.lacda.org/public-housing/site-based-waiting-lists"
     },
     {
@@ -123,8 +123,8 @@
   ],
   "es": {
     "serves": "la ciudad de Long Beach, California",
-    "updated": "25 de agosto de 2026",
-    "intro": "La Autoridad de Vivienda de la Ciudad de Long Beach (HACLB) administra los vales de la Sección 8 (Housing Choice Voucher) para la ciudad de Long Beach, California. Es una agencia que solo maneja vales: el informe de contactos de PHA de HUD clasifica a Long Beach (CA068) como programa de \"Section 8\", y las propias páginas de HACLB enumeran vales, Shelter Plus Care, VASH y apartamentos con vales basados en proyecto, pero ninguna vivienda pública propia. Esa distinción importa más de lo que parece, porque la comunidad de vivienda pública más grande dentro de los límites de Long Beach no es de HACLB, y sus listas de espera están abiertas ahora mismo mientras que las de HACLB están cerradas. Esta página resume lo que HACLB publica sobre el estado de su lista de espera, su información de contacto y cómo solicitar, explica la excepción de Carmelitos y enlaza a las páginas oficiales para cualquier dato que cambie con el tiempo.",
+    "updated": "21 de septiembre de 2026",
+    "intro": "La Autoridad de Vivienda de la Ciudad de Long Beach (HACLB) administra los vales de la Sección 8 (Housing Choice Voucher) para la ciudad de Long Beach, California. Es una agencia que solo maneja vales: el informe de contactos de PHA de HUD clasifica a Long Beach (CA068) como programa de \"Section 8\", y las propias páginas de HACLB enumeran vales, Shelter Plus Care, VASH y apartamentos con vales basados en proyecto, pero ninguna vivienda pública propia. Esa distinción importa más de lo que parece, porque la comunidad de vivienda pública más grande dentro de los límites de Long Beach no es de HACLB. Sus listas de espera, del condado de Los Ángeles, estuvieron abiertas del 17 de agosto al 16 de septiembre de 2026 y ahora están cerradas, igual que las de HACLB. Esta página resume lo que HACLB publica sobre el estado de su lista de espera, su información de contacto y cómo solicitar, explica la excepción de Carmelitos y enlaza a las páginas oficiales para cualquier dato que cambie con el tiempo.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
       "Shelter Plus Care y asistencia para personas sin hogar",
@@ -137,17 +137,17 @@
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "Cerrada y sin fecha de reapertura (verificado el 25 de agosto de 2026). El aviso de HACLB dice: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time\" (la lista de espera está cerrada y no hay aperturas programadas). Su página de solicitud añade: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media\" (cuando las listas reabran, lo anunciaremos en nuestro sitio web y redes sociales). Esa misma página ofrece una lista de correo a la que puede inscribirse para que HACLB le avise directamente."
+        "note": "Cerrada y sin fecha de reapertura (verificado el 21 de septiembre de 2026). El aviso de HACLB dice: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time\" (la lista de espera está cerrada y no hay aperturas programadas). Su página de solicitud añade: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media\" (cuando las listas reabran, lo anunciaremos en nuestro sitio web y redes sociales). Esa misma página ofrece una lista de correo a la que puede inscribirse para que HACLB le avise directamente."
       },
       {
         "program": "Vivienda pública de Carmelitos, en Long Beach pero administrada por el condado de Los Ángeles",
-        "status": "Abierta hasta el 16 de septiembre de 2026",
-        "note": "Esta no es una lista de HACLB, y el sitio de HACLB no la menciona, pero es vivienda pública dentro de Long Beach. La Los Angeles County Development Authority (LACDA) abrió 16 listas de espera por sitio el 17 de agosto de 2026 a las 8:00 a.m., que cierran el 16 de septiembre de 2026 a las 5:00 p.m., y dos de ellas son Carmelitos Senior (155 unidades, Long Beach) y Carmelitos Family (558 unidades, Long Beach). LACDA advierte que los sitios pequeños cierran antes, \"once 1,000 applications are received, or on September 16, 2026\" (cuando se reciban 1,000 solicitudes). Inscríbase en harp.lacda.org o llame al (626) 586-1522, de lunes a viernes de 8:00 a.m. a 5:00 p.m. (verificado el 25 de agosto de 2026)."
+        "status": "Cerrada desde el 16 de septiembre de 2026",
+        "note": "Esta no es una lista de HACLB, pero es vivienda pública dentro de Long Beach. La Los Angeles County Development Authority (LACDA) recibió inscripciones para sus 16 listas de espera por sitio desde el 17 de agosto de 2026 hasta las 5:00 p.m. del 16 de septiembre de 2026, y dos de ellas son Carmelitos Senior (155 unidades, Long Beach) y Carmelitos Family (558 unidades, Long Beach). La página de LACDA ahora dice \"WAITING LISTS FOR ELDERLY AND GENERAL OCCUPANCY PUBLIC HOUSING SITES ARE CLOSED\" (las listas de vivienda pública para personas mayores y de ocupación general están cerradas) y \"The waiting list application period closed on September 16, 2026, at 5:00 p.m.\" (el período de solicitud cerró el 16 de septiembre de 2026 a las 5:00 p.m.), y su portal de inscripción, harp.lacda.org, dice \"ALL PUBLIC HOUSING WAITING LISTS ARE NOW CLOSED\" (todas las listas de vivienda pública están cerradas). Verificado el 21 de septiembre de 2026. LACDA no da fecha para la próxima apertura. Para preguntas, la línea de LACDA es el (626) 586-1522."
       },
       {
         "program": "Sección 8 de la Los Angeles County Development Authority",
         "status": "Cerrada",
-        "note": "El portal de inscripción de LACDA lo dice sin rodeos: \"This is not for the waiting list for the Section 8 Program, which remains closed\" (la lista del programa de Sección 8 sigue cerrada). Sus listas del programa multifamiliar también están cerradas (verificado el 25 de agosto de 2026)."
+        "note": "La página de listas de espera por sitio de LACDA dice: \"The County's Section 8 waiting list also remains closed\" (la lista de la Sección 8 del condado también sigue cerrada). Su portal de inscripción añade: \"MULTIFAMILY PROGRAM WAITING LISTS ARE NOW CLOSED!\" (las listas del programa multifamiliar están cerradas). Verificado el 21 de septiembre de 2026."
       },
       {
         "program": "Apartamentos asequibles de propiedad privada en Long Beach",
@@ -157,22 +157,22 @@
     ],
     "also_serving": [
       "<strong>La Los Angeles County Development Authority (LACDA) es una agencia aparte, y Long Beach queda fuera de casi todo su territorio a propósito.</strong> LACDA dice que sirve a \"the unincorporated areas of Los Angeles County (areas that are not part of a city) and 62 incorporated cities\" (las zonas no incorporadas del condado y 62 ciudades incorporadas), y nombra a Long Beach como una de las 18 ciudades del condado que tienen su propia agencia de vivienda. Línea principal (626) 262-4511.",
-      "<strong>La única excepción es Carmelitos, y es una excepción grande.</strong> LACDA declara que tiene un \"Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only\": un acuerdo que permite a los residentes de Long Beach contar como solicitantes locales, únicamente para Carmelitos. Carmelitos está en Long Beach y sus dos listas abiertas cubren 155 unidades para personas mayores y 558 unidades familiares. Como HACLB no lo menciona, casi nadie en Long Beach se entera.",
+      "<strong>La única excepción es Carmelitos, y es una excepción grande.</strong> LACDA declara que tiene un \"Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only\": un acuerdo que permite a los residentes de Long Beach contar como solicitantes locales, únicamente para Carmelitos. Carmelitos está en Long Beach, y sus dos listas por sitio cubren 155 unidades para personas mayores y 558 unidades familiares. Esas listas estuvieron abiertas del 17 de agosto al 16 de septiembre de 2026 y ahora están cerradas. La página principal de HACLB sí publicó un aviso sobre la apertura del condado, \"Los Angeles County Public Housing Waiting List is Open. Applications accepted 8/17/2026 - 9/16/2026\" (la lista de vivienda pública del condado está abierta; solicitudes del 17 de agosto al 16 de septiembre de 2026), pero no nombra a Carmelitos, así que consulte lacda.org para la próxima apertura.",
       "<strong>HUD va a terminar el programa Emergency Housing Voucher.</strong> La página principal de HACLB dice: \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program\" (HUD nos notificó que va a terminar el programa). A HACLB le habían asignado 582 de estos vales bajo la Ley del Plan de Rescate Estadounidense. Si usted tiene uno, llame a HACLB al (562) 570-6985 y pregunte qué significa el cierre del programa para su hogar en lugar de esperar una carta.",
       "<strong>HACLB atiende solo con cita.</strong> Su oficina en 1500 Hughes Way, Suite C-300 abre lunes, martes, miércoles y viernes de 7:30 a.m. a 4:00 p.m. y jueves de 7:30 a.m. a 2:00 p.m., y le pide que programe una cita por adelantado llamando al (562) 570-6985. Hay un buzón disponible de lunes a viernes de 4:30 a.m. a 7:00 p.m., y el correo para asuntos de la lista de espera es HA-WaitingList@longbeach.gov."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Long Beach?",
-        "a": "No. Al 25 de agosto de 2026, la Autoridad de Vivienda de la Ciudad de Long Beach declara que su lista de espera \"is currently closed, and no openings are scheduled at this time\" (está cerrada y no hay aperturas programadas). No hay fecha anunciada de reapertura. HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una lista de correo para avisarle. Confirme en longbeach.gov/haclb/apply o llame al (562) 570-6985 antes de dar esto por seguro."
+        "a": "No. Al 21 de septiembre de 2026, la Autoridad de Vivienda de la Ciudad de Long Beach declara que su lista de espera \"is currently closed, and no openings are scheduled at this time\" (está cerrada y no hay aperturas programadas). No hay fecha anunciada de reapertura. HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una lista de correo para avisarle. Confirme en longbeach.gov/haclb/apply o llame al (562) 570-6985 antes de dar esto por seguro."
       },
       {
         "q": "¿Hay vivienda pública en Long Beach?",
-        "a": "No a través de HACLB. El informe de contactos de PHA de HUD clasifica a la City of Long Beach Housing Authority (CA068) como programa de \"Section 8\", y las páginas de programas de HACLB solo enumeran programas basados en vales. Pero Carmelitos, una comunidad grande de vivienda pública dentro de Long Beach, pertenece a la Los Angeles County Development Authority, y sus listas para personas mayores y para familias están abiertas del 17 de agosto al 16 de septiembre de 2026. Si busca vivienda pública en Long Beach, esa es la solicitud que debe presentar."
+        "a": "No a través de HACLB. El informe de contactos de PHA de HUD clasifica a la City of Long Beach Housing Authority (CA068) como programa de \"Section 8\", y las páginas de programas de HACLB solo enumeran programas basados en vales. Pero Carmelitos, una comunidad grande de vivienda pública dentro de Long Beach, pertenece a la Los Angeles County Development Authority. Sus listas para personas mayores y para familias estuvieron abiertas del 17 de agosto al 16 de septiembre de 2026 y ahora están cerradas: la página de LACDA dice \"The waiting list application period closed on September 16, 2026, at 5:00 p.m.\" (el período de solicitud cerró el 16 de septiembre de 2026 a las 5:00 p.m.; verificado el 21 de septiembre de 2026). Si busca vivienda pública en Long Beach, Carmelitos sigue siendo el lugar que conviene vigilar, y LACDA no ha dado fecha para la próxima apertura."
       },
       {
         "q": "¿Puedo solicitar Carmelitos si vivo en Long Beach?",
-        "a": "Sí, y le tratan como solicitante local. LACDA declara que tiene un acuerdo con la autoridad de vivienda de Long Beach \"to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only\" (para que los residentes de Long Beach cuenten como solicitantes dentro de la jurisdicción, únicamente para Carmelitos). Inscríbase en harp.lacda.org o llame al (626) 586-1522 de 8:00 a.m. a 5:00 p.m., de lunes a viernes. La inscripción cierra el 16 de septiembre de 2026 a las 5:00 p.m., y LACDA advierte que los sitios pequeños pueden cerrar antes al recibir 1,000 solicitudes."
+        "a": "Sí, cada vez que LACDA abra las listas de Carmelitos, y le tratan como solicitante local. LACDA declara que tiene un acuerdo con la autoridad de vivienda de Long Beach \"to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only\" (para que los residentes de Long Beach cuenten como solicitantes dentro de la jurisdicción, únicamente para Carmelitos). La inscripción más reciente fue del 17 de agosto al 16 de septiembre de 2026 y ya cerró; el portal de inscripción de LACDA, harp.lacda.org, ahora dice \"ALL PUBLIC HOUSING WAITING LISTS ARE NOW CLOSED\" (todas las listas de vivienda pública están cerradas; verificado el 21 de septiembre de 2026). Para preguntas, llame a LACDA al (626) 586-1522."
       },
       {
         "q": "¿A qué número debo llamar en la autoridad de vivienda de Long Beach?",
@@ -184,7 +184,7 @@
       },
       {
         "q": "¿Cómo me entero de cuándo reabre la lista de HACLB?",
-        "a": "HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una inscripción a su lista de correo. Como la reapertura no está programada, conviene ponerse un recordatorio propio para revisar longbeach.gov/haclb cada pocas semanas en vez de esperar a verlo. Mientras tanto, las listas de Carmelitos están abiertas hasta el 16 de septiembre de 2026, y los edificios asequibles de propiedad privada del listado de HACLB mantienen cada uno su propia lista a la que puede inscribirse en cualquier momento."
+        "a": "HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una inscripción a su lista de correo. Como la reapertura no está programada, conviene ponerse un recordatorio propio para revisar longbeach.gov/haclb cada pocas semanas en vez de esperar a verlo. Mientras tanto, los edificios asequibles de propiedad privada del listado de HACLB mantienen cada uno su propia lista a la que puede inscribirse en cualquier momento. Las listas de vivienda pública de Carmelitos que el condado de Los Ángeles abrió el 17 de agosto de 2026 cerraron el 16 de septiembre de 2026."
       }
     ],
     "sources": [
@@ -217,7 +217,7 @@
         "url": "https://www.longbeach.gov/haclb/about/mission/"
       },
       {
-        "label": "LACDA - Listas de espera por sitio, Carmelitos abierto del 17 de agosto al 16 de septiembre de 2026 (en inglés)",
+        "label": "LACDA - Listas de espera por sitio, Carmelitos: inscripción del 17 de agosto al 16 de septiembre de 2026, ya cerrada (en inglés)",
         "url": "https://www.lacda.org/public-housing/site-based-waiting-lists"
       },
       {

@@ -288,6 +288,7 @@ FAQ_LINK_TARGETS = {
     "chicago.gov": "https://chicago.gov",
     "chnhousingpartners.org": "https://chnhousingpartners.org",
     "cmha.net": "https://cmha.net",
+    "cmhanet.com/apply-housing-waitlist": "https://www.cmhanet.com/apply-housing-waitlist",  # fetched live 2026-09-21 (W-2/3 + X2); replaces cmhanet.com/HCV/ProspectiveResidents
     "connect.homeforward.org": "https://connect.homeforward.org",
     "denverhousing.org": "https://denverhousing.org",
     "dhantx.com/applicants": "https://dhantx.com/applicants",
@@ -314,9 +315,11 @@ FAQ_LINK_TARGETS = {
     "lawmo.org": "https://lawmo.org",
     "legalaiddc.org": "https://legalaiddc.org",
     "longbeach.gov/haclb/apply": "https://longbeach.gov/haclb/apply",
+    "longbeach.gov/renteraid": "https://www.longbeach.gov/homelessness/homeless-services/RenterAid/",  # fetched live 2026-09-21 (W-2/3 + X2); the City's own short link, redirects here
     "mainehousing.org": "https://mainehousing.org",
     "mass.gov": "https://mass.gov",
     "mass.gov/mcad": "https://mass.gov/mcad",
+    "mass.gov/raft": "https://www.mass.gov/how-to/apply-for-raft-emergency-help-for-housing-costs",  # fetched live 2026-09-21 (W-2/3 + X2): resolves again (redirects to the RAFT how-to page); was None on 2026-09-11
     "mccr.maryland.gov": "https://mccr.maryland.gov",
     "mdlab.org": "https://mdlab.org",
     "mesaaz.gov/residents/housing": "https://mesaaz.gov/residents/housing",
@@ -344,16 +347,21 @@ FAQ_LINK_TARGETS = {
     "slha.org": "https://slha.org",
     "snvrha.org": "https://snvrha.org",
     "stayhousedla.org": "https://stayhousedla.org",
+    "stlouis-mo.gov/government/departments/human-services/help-stl/request-help-stl.cfm": "https://www.stlouis-mo.gov/government/departments/human-services/help-stl/request-help-stl.cfm",  # fetched live 2026-09-21 (W-2/3 + X2)
     "stopmyeviction.org": "https://stopmyeviction.org",
+    "thresholdcoc.org/resources": "https://www.thresholdcoc.org/resources",  # fetched live 2026-09-21 (W-2/3 + X2); MACCH renamed itself Threshold CoC
+    "trla.org/atc": "https://www.trla.org/atc",  # fetched live 2026-09-21 (W-2/3 + X2); Austin Tenants Council, a TRLA project
+    "trla.org/offices": "https://www.trla.org/offices",  # fetched live 2026-09-21 (W-2/3 + X2); TRLA's phone intake lines
+    "uwkc.org/renthelp": "https://www.uwkc.org/renthelp/",  # fetched live 2026-09-21 (W-2/3 + X2); Keep King County Housed applications
     "waitlistcheck.com": "https://waitlistcheck.com",
     "wichita.gov": "https://wichita.gov",
     "wichita.myhousing.com": "https://wichita.myhousing.com",
     "www.sacwaitlist.com": "https://www.sacwaitlist.com",
+    "www.waitlist-centralri.com": "https://www.waitlist-centralri.com",  # fetched live 2026-09-21 (W-2/3 + X2); RIHousing's portal (the apex does not connect)
     "www.waitlistcheck.com": "https://www.waitlistcheck.com",
     "yourlegalaid.org": "https://yourlegalaid.org",
     "cmhanet.com/HCV/ProspectiveResidents": None,  # 404
     "longbeach.gov/homelessness/RenterAid": None,  # 404
-    "mass.gov/raft": None,  # 404
     "metroareacontinuumofcare.org": None,  # DNS failure
     "needlinknashville.org": None,  # DNS failure
     "rent-help.kingcounty.gov": None,  # TLS certificate EXPIRED

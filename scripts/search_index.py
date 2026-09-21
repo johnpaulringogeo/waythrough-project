@@ -10,6 +10,16 @@ publishes, and a session adding pages can call it by hand:
 
     python scripts/search_index.py add /resources/guides/<slug> /es/recursos/guias/<slug>
     python scripts/search_index.py missing      # sitemap URLs with no entry; exit 1 if any
+    python scripts/search_index.py refresh --all [--dry-run]    # re-derive stale entries
+    python scripts/search_index.py refresh /resources/cities/<slug> ... [--dry-run]
+
+refresh re-derives the title, description and body of entries that already exist,
+from the pages as they are now and by the same SECTIONS rules; url, category and
+array order never change. Pages get edited after their entry is written (a
+retitle, a regenerated city page), so an entry goes stale unless someone
+refreshes it. --all covers every entry a SECTIONS row covers and whose category
+is that row's category; the rest (state pages, tools, entries filed under
+another category) are left as they are and counted in the report.
 
 Entry shape, key order as in the file:
 
@@ -156,6 +166,80 @@ def insert_entry(index_path, entry):
     return True
 
 
+def refresh_entries(index_path, urls=None, write=True):
+    """Re-derive title, description and body of existing entries from their pages.
+
+    urls=None refreshes every entry whose url a SECTIONS row covers and whose
+    category is that row's category; entries outside SECTIONS or filed under a
+    different category are skipped and reported. Given urls, each must already be
+    in the index and be covered with a matching category, or ValueError is
+    raised. url, category, key order and array order never change, and nothing
+    is written unless write is true and at least one entry changed. Returns
+    {"changed": [...], "unchanged": [...], "skipped_no_section": [...],
+    "skipped_category": [...]} (lists of urls).
+    """
+    with open(index_path, encoding="utf-8", newline="") as f:
+        stored = f.read()
+    entries = json.loads(stored)
+    if _dumps(entries) != stored:
+        raise ValueError("%s does not round-trip through json.dumps(indent=2, "
+                         "ensure_ascii=False); refusing to rewrite it" % index_path)
+    repo = os.path.dirname(os.path.dirname(os.path.abspath(index_path)))
+    position = {}
+    for i, e in enumerate(entries):
+        if e.get("url") in position:
+            raise ValueError("duplicate url in the index: %r" % e.get("url"))
+        position[e.get("url")] = i
+    if urls is None:
+        targets = list(range(len(entries)))
+    else:
+        absent = [u for u in urls if u not in position]
+        if absent:
+            raise ValueError("not in the index (use add): %s" % ", ".join(absent))
+        targets = [position[u] for u in urls]
+    report = {"changed": [], "unchanged": [], "skipped_no_section": [], "skipped_category": []}
+    refreshed = [dict(e) for e in entries]
+    for i in targets:
+        entry = entries[i]
+        url = entry["url"]
+        try:
+            _prefix, category, _start, _decode = section_for(url)
+        except ValueError:
+            if urls is not None:
+                raise
+            report["skipped_no_section"].append(url)
+            continue
+        if category != entry["category"]:
+            if urls is not None:
+                raise ValueError("%s is filed under %r, not its section's %r; refresh it by hand "
+                                 "only after proving the rule for it" % (url, entry["category"], category))
+            report["skipped_category"].append(url)
+            continue
+        derived = derive_entry(os.path.join(repo, repo_path_for(url)), url)
+        new = dict(entry)
+        for key in ("title", "description", "body"):
+            new[key] = derived[key]
+        refreshed[i] = new
+        report["changed" if new != entry else "unchanged"].append(url)
+    # Only title, description and body may differ; everything else stays put.
+    if len(refreshed) != len(entries):
+        raise AssertionError("entry count changed")
+    for old, new in zip(entries, refreshed):
+        if list(old) != list(new):
+            raise AssertionError("key order changed for %r" % old.get("url"))
+        for key in old:
+            if key not in ("title", "description", "body") and old[key] != new[key]:
+                raise AssertionError("%s changed for %r" % (key, old.get("url")))
+        if len(new["body"]) > BODY_CHARS:
+            raise AssertionError("body over %d characters for %r" % (BODY_CHARS, new["url"]))
+    if write and report["changed"]:
+        tmp = index_path + ".tmp"
+        with open(tmp, "w", encoding="utf-8", newline="") as f:
+            f.write(_dumps(refreshed))
+        os.replace(tmp, index_path)
+    return report
+
+
 def _repo_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -177,7 +261,26 @@ def main(argv):
         for u in gaps:
             print(u)
         return 1 if gaps else 0
-    print("usage: search_index.py add URL... | missing", file=sys.stderr)
+    if len(argv) >= 2 and argv[0] == "refresh":
+        args = argv[1:]
+        dry = "--dry-run" in args
+        args = [a for a in args if a != "--dry-run"]
+        if args == ["--all"]:
+            urls = None
+        elif args and all(a.startswith("/") for a in args):
+            urls = args
+        else:
+            print("usage: search_index.py refresh --all | URL... [--dry-run]", file=sys.stderr)
+            return 2
+        report = refresh_entries(index_path, urls, write=not dry)
+        for url in report["changed"]:
+            print(("stale   " if dry else "refreshed ") + url)
+        print("%s: %d changed, %d already current, %d outside SECTIONS, %d filed under another category"
+              % ("dry run" if dry else "refresh", len(report["changed"]), len(report["unchanged"]),
+                 len(report["skipped_no_section"]), len(report["skipped_category"])))
+        return 0
+    print("usage: search_index.py add URL... | missing | refresh --all | refresh URL... [--dry-run]",
+          file=sys.stderr)
     return 2
 
 
