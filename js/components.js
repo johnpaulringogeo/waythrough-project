@@ -113,7 +113,7 @@ async function loadSearchIndex() {
     if (searchIndexRequest) return searchIndexRequest;
     searchIndexRequest = (async () => {
         try {
-            const res = await fetch(root + 'js/search-index.json?v=17');
+            const res = await fetch(root + 'js/search-index.json');
             if (!res.ok) throw new Error('Search index returned ' + res.status);
             searchIndex = await res.json();
             return searchIndex;
@@ -288,7 +288,7 @@ function renderSearchResults(results) {
         return;
     }
     container.innerHTML = results.map((r, i) => `
-        <a href="${root}${encodeURI(r.url)}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
+        <a href="${root}${encodeURI(r.url.replace(/^\//, ''))}" class="search-result-item" role="option" id="search-result-${i}" aria-selected="false" tabindex="-1">
             <div class="search-result-title">${escapeHTML(r.title)}</div>
             <div class="search-result-desc">${escapeHTML(r.description || r.desc || "")}</div>
         </a>
@@ -391,11 +391,6 @@ function renderNav() {
         </div>
         <div class="search-backdrop" id="searchBackdrop"></div>
     `;
-    // Prefetch search index in background
-    const prefetchLink = document.createElement('link');
-    prefetchLink.rel = 'prefetch';
-    prefetchLink.href = root + 'js/search-index.json?v=17';
-    document.head.append(prefetchLink);
 
     document.body.prepend(nav);
     nav.after(searchOverlay);

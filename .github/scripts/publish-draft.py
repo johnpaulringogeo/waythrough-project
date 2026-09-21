@@ -8,6 +8,7 @@ moves it to blog/posts/, and updates:
   - blog/posts.json  (prepends entry)
   - blog/feed.xml    (adds <item>, updates lastBuildDate)
   - sitemap.xml      (adds <url> entry)
+  - js/search-index.json  (adds the post's site-search entry, via scripts/search_index.py)
 
 Run from the repo root:
     python .github/scripts/publish-draft.py
@@ -30,6 +31,10 @@ INDEX  = os.path.join(REPO, "blog", "index.html")
 PJSON  = os.path.join(REPO, "blog", "posts.json")
 FEED   = os.path.join(REPO, "blog", "feed.xml")
 SMAP   = os.path.join(REPO, "sitemap.xml")
+SINDEX = os.path.join(REPO, "js", "search-index.json")
+
+sys.path.insert(0, os.path.join(REPO, "scripts"))
+import search_index  # scripts/search_index.py: derives and inserts site-search entries
 
 # ── helpers ──────────────────────────────────────────────────────────
 
@@ -219,10 +224,19 @@ def main():
     with open(SMAP, "w") as f:
         f.write(sm)
 
-    # 6. All updates succeeded — now remove the draft
+    # 6. Update js/search-index.json — add the post's site-search entry, derived
+    #    from the page just written. Nothing is written if the url already has an
+    #    entry, so a retry after a crash never adds a second one.
+    post_url = f"/blog/posts/{slug}"
+    if search_index.insert_entry(SINDEX, search_index.derive_entry(dst, post_url)):
+        print(f"Added the search-index entry for {post_url}")
+    else:
+        print(f"Search-index entry for {post_url} already present; left as is")
+
+    # 7. All updates succeeded — now remove the draft
     os.remove(src)
 
-    print(f"Done! Published {slug} and updated index, posts.json, feed.xml, sitemap.xml")
+    print(f"Done! Published {slug} and updated index, posts.json, feed.xml, sitemap.xml, search-index.json")
     return 0
 
 if __name__ == "__main__":

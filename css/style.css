@@ -1025,6 +1025,7 @@ select:focus-visible {
 .post-content {
     padding: 28px 0 0;
     max-width: 720px;
+    overflow-wrap: break-word;
 }
 .post-content h2 {
     font-size: 1.4rem;
