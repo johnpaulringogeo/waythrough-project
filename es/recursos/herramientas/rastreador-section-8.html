@@ -346,8 +346,8 @@
                         </select>
                     </div>
                     <div class="control-group">
-                        <label for="searchInput">Buscar PHAs</label>
-                        <input type="text" id="searchInput" placeholder="Buscar por nombre o ciudad...">
+                        <label for="phaSearch">Buscar PHAs</label>
+                        <input type="text" id="phaSearch" placeholder="Buscar por nombre o ciudad...">
                     </div>
                 </div>
                 <div class="filter-chips">
@@ -862,7 +862,7 @@
 
     function getFiltered() {
         const state = document.getElementById('stateSelect').value;
-        const query = document.getElementById('searchInput').value.toLowerCase().trim();
+        const query = document.getElementById('phaSearch').value.toLowerCase().trim();
         return PHA_DATA.filter(p => {
             if (state && p[2] !== state) return false;
             if (activeFilter === 'open' && p[3] !== 'open') return false;
@@ -907,7 +907,7 @@
     }
 
     document.getElementById('stateSelect').addEventListener('change', renderList);
-    document.getElementById('searchInput').addEventListener('input', renderList);
+    document.getElementById('phaSearch').addEventListener('input', renderList);
     document.querySelectorAll('.filter-chip').forEach(function(chip) {
         chip.addEventListener('click', function() {
             document.querySelectorAll('.filter-chip').forEach(function(c) { c.classList.remove('active'); });
@@ -920,7 +920,7 @@
     renderStats();
     populateStates();
     renderList();
-    document.getElementById('lastUpdated').textContent = '\u00daltima actualizaci\u00f3n: mayo 2026';
+    document.getElementById('lastUpdated').textContent = '\u00daltima actualizaci\u00f3n: septiembre 2026';
     </script>
 </body>
 </html>

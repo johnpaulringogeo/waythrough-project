@@ -325,8 +325,8 @@
                         </select>
                     </div>
                     <div class="control-group">
-                        <label for="searchInput">Search PHAs</label>
-                        <input type="text" id="searchInput" placeholder="Search by name or city...">
+                        <label for="phaSearch">Search PHAs</label>
+                        <input type="text" id="phaSearch" placeholder="Search by name or city...">
                     </div>
                 </div>
                 <div class="filter-chips">
@@ -1209,7 +1209,7 @@
 
     function getFiltered() {
         const state = document.getElementById('stateSelect').value;
-        const query = document.getElementById('searchInput').value.toLowerCase().trim();
+        const query = document.getElementById('phaSearch').value.toLowerCase().trim();
         return PHA_DATA.filter(p => {
             if (state && p[2] !== state) return false;
             if (activeFilter === 'open' && p[3] !== 'open') return false;
@@ -1254,7 +1254,7 @@
     }
 
     document.getElementById('stateSelect').addEventListener('change', renderList);
-    document.getElementById('searchInput').addEventListener('input', renderList);
+    document.getElementById('phaSearch').addEventListener('input', renderList);
     document.querySelectorAll('.filter-chip').forEach(function(chip) {
         chip.addEventListener('click', function() {
             document.querySelectorAll('.filter-chip').forEach(function(c) { c.classList.remove('active'); });
@@ -1267,7 +1267,7 @@
     renderStats();
     populateStates();
     renderList();
-    document.getElementById('lastUpdated').textContent = 'Last updated: May 2026';
+    document.getElementById('lastUpdated').textContent = 'Last updated: September 2026';
 
     // Check URL params for state pre-selection
     var params = new URLSearchParams(window.location.search);
