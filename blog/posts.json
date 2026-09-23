@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "The FSS Program: How Section 8 Can Help You Build Savings",
+      "description": "The Family Self-Sufficiency program puts money in escrow as your income grows on Section 8. Here's how it works, who qualifies, and why more people should sign up.",
+      "url": "blog/posts/family-self-sufficiency-program.html",
+      "date": "2026-09-23",
+      "readTime": "7 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "Can You Buy a House With a Section 8 Voucher?",
       "description": "Yes \u2014 the Section 8 Homeownership Program lets you use your voucher toward a mortgage instead of rent. Here's how it works and whether it's right for you.",
       "url": "blog/posts/section-8-and-homeownership.html",
