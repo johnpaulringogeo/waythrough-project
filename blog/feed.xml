@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Emergency Rental Assistance Programs That Still Have Funding</title>
+      <link>https://waythroughproject.com/blog/posts/emergency-rental-assistance-programs</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/emergency-rental-assistance-programs</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Facing eviction or behind on rent? Some emergency rental assistance programs still have money. Here's how to find them, what you need to apply, and how fast they pay.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>The FSS Program: How Section 8 Can Help You Build Savings</title>
