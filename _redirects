@@ -75,6 +75,10 @@
 /es/recursos/guias/como-se-calcula-el-alquiler        /es/recursos/guias/como-se-calcula-la-renta           301
 /es/recursos/derechos-inquilinos                      /es/recursos/derechos-del-inquilino                   301
 
+# --- Retired blog posts -> the fuller guide on the same topic (2026-10-15) ---
+/blog/posts/how-annual-recertification-works       /resources/guides/how-to-handle-recertification 301
+/blog/posts/how-annual-recertification-works.html  /resources/guides/how-to-handle-recertification 301
+
 # --- Path-bug catch-alls (double /es/es/ and /es/resources/ leakage from bad relative links) ---
 /es/es/*         /es/:splat         301
 /es/resources/*  /resources/:splat  301
