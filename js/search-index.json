@@ -228,7 +228,7 @@
     "description": "New owner, same lease. Here's what happens to your tenancy when the building sells, what the new landlord can and can't do, and special rules for Section 8.",
     "url": "/blog/posts/tenant-rights-during-sale-of-building",
     "category": "Blog",
-    "body": "Your Rights When Your Apartment Building Gets Sold | Waythrough Project Home / Blog / Building Sale Rights Blog Your Rights When Your Apartment Building Gets Sold Matt &middot; July 15, 2026 &middot; 7 min read When your apartment building is sold, your lease transfers to the new owner. The new land"
+    "body": "Your Rights When Your Apartment Building Gets Sold | Waythrough Project Home / Blog / Building Sale Rights Blog Your Rights When Your Apartment Building Gets Sold Matt &middot; July 15, 2026 &middot; Updated October 15, 2026 &middot; 7 min read When your apartment building is sold, your lease transf"
   },
   {
     "title": "Can You Apply for Section 8 in Multiple States? | Waythrough Project",
@@ -284,7 +284,7 @@
     "description": "Fair housing law protects you from discrimination based on race, color, religion, sex, national origin, disability, and family status. Here's how to spot it and fight back.",
     "url": "/blog/posts/housing-discrimination-what-to-do",
     "category": "Blog",
-    "body": "Housing Discrimination: How to Recognize It and What to Do | Waythrough Project Home / Blog / Housing Discrimination Blog Housing Discrimination: How to Recognize It and What to Do Matt &middot; September 9, 2026 &middot; 8 min read The Fair Housing Act protects you from discrimination in housing ba"
+    "body": "Housing Discrimination: How to Recognize It and What to Do | Waythrough Project Home / Blog / Housing Discrimination Blog Housing Discrimination: How to Recognize It and What to Do Matt &middot; September 9, 2026 &middot; Updated October 15, 2026 &middot; 8 min read The Fair Housing Act protects you"
   },
   {
     "title": "Can You Buy a House With a Section 8 Voucher? | Waythrough Project",
@@ -312,7 +312,7 @@
     "description": "The rules around roommates and Section 8 are confusing. Here's what's allowed, what you need to report, and how an unreported roommate can cost you your voucher.",
     "url": "/blog/posts/section-8-and-roommates",
     "category": "Blog",
-    "body": "Can You Have a Roommate on Section 8? | Waythrough Project Home / Blog / Roommates on Section 8 Blog Can You Have a Roommate on Section 8? Matt &middot; October 14, 2026 &middot; 6 min read Yes, you can have a roommate on Section 8 — but they must be approved by your PHA and listed on your voucher a"
+    "body": "Can You Have a Roommate on Section 8? | Waythrough Project Home / Blog / Roommates on Section 8 Blog Can You Have a Roommate on Section 8? Matt &middot; October 14, 2026 &middot; Updated October 15, 2026 &middot; 6 min read Yes, you can have a roommate on Section 8 — but they must be approved by you"
   },
   {
     "title": "Waythrough Project en Español — Guías de Vivienda",
@@ -1247,10 +1247,10 @@
   },
   {
     "title": "How Your Rent Is Calculated in Section 8 | Waythrough",
-    "description": "Understand how Section 8 calculates rent: the 30% rule, income deductions, adjusted gross income, utility allowances, and what happens when income changes.",
+    "description": "How Section 8 calculates your rent: Total Tenant Payment, the deductions you can claim, utility allowances, the voucher subsidy, and the HOTMA changes for 2027.",
     "url": "/resources/guides/understanding-rent-calculation",
     "category": "Guide",
-    "body": "How Your Rent Is Calculated in Section 8 | Waythrough Home / Resources / Rent Calculation in Section 8 Guide How Your Rent Is Calculated in Section 8 Matt · Updated April 2026 Section 8 rent calculation is one of the most confusing parts of the program, but understanding it helps you predict your co"
+    "body": "How Your Rent Is Calculated in Section 8 | Waythrough Home / Resources / Rent Calculation in Section 8 Guide How Your Rent Is Calculated in Section 8 Matt · Updated October 2026 Section 8 rent calculation is one of the most confusing parts of the program, but understanding it helps you predict your "
   },
   {
     "title": "Understanding Your Lease — What Every Renter Should Know | Waythrough",
@@ -2202,7 +2202,7 @@
     "description": "Nuevo dueño, mismo contrato. Esto es lo que pasa con su arrendamiento cuando venden el edificio, lo que el nuevo propietario puede y no puede hacer, y las reglas especiales para la Sección 8.",
     "url": "/es/blog/posts/derechos-cuando-venden-su-edificio",
     "category": "Blog",
-    "body": "Cuando venden el edificio donde vive, su contrato de arrendamiento se transfiere al nuevo dueño. El nuevo propietario debe respetar los términos de su contrato actual — no puede subirle la renta, cambiar las reglas ni desalojarlo solo porque compró el edificio. Para los inquilinos de la Sección 8, e"
+    "body": "Cuando venden el edificio donde vive, su contrato de arrendamiento se transfiere al nuevo dueño. El nuevo propietario debe respetar los términos de su contrato actual — no puede subirle la renta, cambiar las reglas ni desalojarlo solo porque compró el edificio. Para los inquilinos de la Sección 8, l"
   },
   {
     "title": "¿Puede solicitar la Sección 8 en varios estados? | Waythrough",
@@ -2258,7 +2258,7 @@
     "description": "La ley de vivienda justa lo protege contra la discriminación por raza, color, religión, sexo, origen nacional, discapacidad y situación familiar. Cómo detectarla y cómo defenderse.",
     "url": "/es/blog/posts/discriminacion-en-la-vivienda-que-hacer",
     "category": "Blog",
-    "body": "La Ley de Vivienda Justa (Fair Housing Act) lo protege contra la discriminación en la vivienda por siete características: raza, color, religión, sexo (incluidas la identidad de género y la orientación sexual), origen nacional, discapacidad y situación familiar. Si un propietario se niega a rentarle,"
+    "body": "La Ley de Vivienda Justa (Fair Housing Act) lo protege contra la discriminación en la vivienda por siete características: raza, color, religión, sexo, origen nacional, discapacidad y situación familiar. Si un propietario se niega a rentarle, le cobra más o lo trata de forma diferente por cualquiera "
   },
   {
     "title": "¿Puede comprar una casa con un voucher de la Sección 8? | Waythrough",
@@ -2286,7 +2286,7 @@
     "description": "Las reglas sobre compañeros de cuarto y la Sección 8 son confusas. Qué está permitido, qué tiene que reportar y cómo un compañero de cuarto no reportado le puede costar su voucher.",
     "url": "/es/blog/posts/section-8-y-companeros-de-cuarto",
     "category": "Blog",
-    "body": "Sí, puede tener un compañero de cuarto con la Sección 8 — pero su PHA lo tiene que aprobar y debe aparecer en su voucher como miembro del hogar. Un ocupante no autorizado (alguien que vive con usted y no está en su voucher) es una violación grave del programa que puede llevar a la terminación. Cualq"
+    "body": "Sí, puede tener un compañero de cuarto con la Sección 8 — pero su PHA lo tiene que aprobar y debe aparecer en su voucher como miembro del hogar. Un ocupante no autorizado (alguien que vive con usted y no está en su voucher) es una violación grave del programa que puede llevar a la terminación. HUD n"
   },
   {
     "title": "David: Luchando por Adaptaciones | Waythrough",
@@ -3347,10 +3347,10 @@
   },
   {
     "title": "Cómo Se Calcula Tu Renta en la Sección 8 | Waythrough",
-    "description": "Entiende cómo la Sección 8 calcula la renta: la regla del 30%, deducciones de ingreso, ingreso bruto ajustado y asignaciones de servicios.",
+    "description": "Cómo calcula la Sección 8 tu renta: el Pago Total del Inquilino, las deducciones, la asignación de servicios, el subsidio del vale y los cambios de HOTMA en 2027.",
     "url": "/es/recursos/guias/como-se-calcula-la-renta",
     "category": "Guías",
-    "body": "El cálculo de renta de la Sección 8 es una de las partes más confusas del programa, pero entenderlo te ayuda a predecir tus costos, planificar tu presupuesto y detectar errores. La regla básica es simple: pagas el 30% de tu ingreso bruto ajustado hacia la renta, pero llegar a ese ingreso ajustado in"
+    "body": "El cálculo de renta de la Sección 8 es una de las partes más confusas del programa, pero entenderlo te ayuda a predecir tus costos, planificar tu presupuesto y detectar errores. En resumen: con un vale de Elección de Vivienda (Housing Choice Voucher), tu parte de la renta por lo general empieza en a"
   },
   {
     "title": "Cómo Solicitar una Acomodación Razonable | Waythrough",
