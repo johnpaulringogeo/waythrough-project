@@ -817,6 +817,20 @@
                                 <p class="form-hint">Income from employment before taxes</p>
                             </div>
                         </div>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="dependents">Dependents</label>
+                                <input type="number" id="dependents" min="0" max="7" value="0" step="1">
+                                <p class="form-hint">Children under 18, plus adults with a disability or full-time students (not the head of household or spouse)</p>
+                            </div>
+                            <div class="form-group">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="elderly-disabled">
+                                    <label for="elderly-disabled">Head of household or spouse is 62+ or has a disability</label>
+                                </div>
+                                <p class="form-hint">Adds HUD's elderly/disabled family deduction</p>
+                            </div>
+                        </div>
                     </section>
 
                     <!-- BENEFITS SECTION -->
@@ -978,6 +992,8 @@
         // Get form elements
         const householdSizeInput = document.getElementById('household-size');
         const grossIncomeInput = document.getElementById('gross-income');
+        const dependentsInput = document.getElementById('dependents');
+        const elderlyDisabledInput = document.getElementById('elderly-disabled');
         const resultsSection = document.getElementById('results-section');
         const resultsGrid = document.getElementById('results-grid');
         const chartSection = document.getElementById('chart-section');
@@ -1017,14 +1033,15 @@
 
         // Calculate Section 8 rent
         function calcSection8Rent(income, householdSize) {
-            // Standard deductions
-            const dependentDeduction = 480;
-            const dependents = Math.max(0, householdSize - 1);
-            const elderlyDisabledDeduction = 400;
-
-            const deductions = (dependents * dependentDeduction) + elderlyDisabledDeduction;
-            const adjustedIncome = Math.max(0, income - deductions);
-            const rent = Math.max(50, Math.round(adjustedIncome * 0.30));
+            // HUD annual deductions (24 CFR 5.611), converted to monthly because income here is monthly:
+            // $480 per dependent and $400 per elderly/disabled family (HOTMA amounts, $525 / $575,
+            // apply from Jan 1, 2027). Dependents can't exceed the other household members.
+            const dependents = Math.min(Math.max(0, parseInt(dependentsInput.value) || 0), Math.max(0, householdSize - 1));
+            const annualDeductions = (dependents * 480) + (elderlyDisabledInput.checked ? 400 : 0);
+            const adjustedIncome = Math.max(0, income - annualDeductions / 12);
+            // Total Tenant Payment: the greater of 30% of monthly adjusted income or 10% of monthly
+            // gross income (24 CFR 5.628). A PHA may also set a minimum rent of up to $50.
+            const rent = Math.round(Math.max(adjustedIncome * 0.30, income * 0.10));
 
             return { rent, adjustedIncome };
         }
@@ -1374,6 +1391,10 @@
         householdSizeInput.addEventListener('change', renderChart);
         grossIncomeInput.addEventListener('input', renderResults);
         grossIncomeInput.addEventListener('input', renderChart);
+        dependentsInput.addEventListener('input', renderResults);
+        dependentsInput.addEventListener('input', renderChart);
+        elderlyDisabledInput.addEventListener('change', renderResults);
+        elderlyDisabledInput.addEventListener('change', renderChart);
 
         Object.values(benefitCheckboxes).forEach(checkbox => {
             checkbox.addEventListener('change', renderResults);
