@@ -32,3 +32,6 @@ _sync_test.txt
 # Local build/tooling artifacts
 .wrangler/
 __pycache__/
+
+# Local Claude Code launch config
+.claude/
