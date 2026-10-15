@@ -58,6 +58,30 @@
   "inLanguage": "es"
 }
 </script>
+<style>
+/* Homepage task-first hero (inline so style.css needs no sitewide bump) */
+.welcome { padding: 104px 0 40px; }
+.welcome-eyebrow { font-size: .85rem; font-weight: 600; letter-spacing: .02em; color: var(--color-primary); margin-bottom: 10px; }
+.welcome h1 { max-width: 760px; margin-left: auto; margin-right: auto; }
+.hero-find { max-width: 560px; margin: 28px auto 0; text-align: left; }
+.hero-find label { display: block; font-weight: 600; margin-bottom: 8px; color: var(--color-text); }
+.hero-find-row { display: flex; gap: 8px; }
+.hero-find select { flex: 1; min-width: 0; font: inherit; font-size: 1rem; padding: 12px 14px; border: 1.5px solid var(--color-border); border-radius: var(--radius); background: var(--color-bg-card); color: var(--color-text); }
+.hero-find select:focus-visible { outline: 3px solid var(--color-primary); outline-offset: 2px; }
+.hero-find .btn { flex: 0 0 auto; padding: 12px 22px; }
+.hero-tasks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; max-width: 760px; margin: 22px auto 0; }
+.hero-task { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-bg-card); color: var(--color-text); font-weight: 600; text-align: left; text-decoration: none; box-shadow: var(--shadow-sm); transition: border-color .15s, transform .15s; }
+.hero-task:hover, .hero-task:focus-visible { border-color: var(--color-primary); transform: translateY(-1px); }
+.hero-task-icon { font-size: 1.3rem; line-height: 1; }
+.hero-task small { display: block; font-weight: 400; color: var(--color-text-light); font-size: .85rem; margin-top: 2px; }
+.hero-more { margin-top: 20px; font-size: .95rem; color: var(--color-text-light); }
+.hero-more a, .hero-more button { color: var(--color-primary); font-weight: 600; }
+.hero-more button { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; }
+@media (max-width: 640px) {
+  .welcome { padding: 88px 0 28px; }
+  .hero-tasks { grid-template-columns: 1fr; }
+}
+</style>
 </head>
 <body>
 <main id="main-content">
@@ -65,12 +89,141 @@
 <!-- ===== WELCOME ===== -->
 <section class="welcome">
     <div class="container">
-        <h1>Waythrough Project</h1>
-        <p class="welcome-tagline">ayudándote a superar las barreras de la vivienda asequible</p>
-        <p class="welcome-desc">Somos un centro de recursos gratuito construido sobre experiencia real navegando el sistema de vivienda asequible. Ya sea que estés solicitando asistencia por primera vez o tratando de entender tus derechos, todo aquí está diseñado para ayudarte a dar tu próximo paso.</p>
-        <p style="margin-top: 20px;"><a href="recursos/donde-empezar" class="btn btn-outline btn-sm">¿No sabes por dónde empezar?</a></p>
+        <p class="welcome-eyebrow">Waythrough Project · gratis, sin registrarse</p>
+        <h1>Ayuda gratuita para encontrar y conservar vivienda asequible</h1>
+        <p class="welcome-desc">Guías en lenguaje sencillo, números de teléfono reales y listas de espera abiertas en todos los estados — de alguien que pasó años ayudando a personas a navegar el sistema.</p>
+        <form class="hero-find" id="heroFind" action="recursos/estados/" method="get">
+            <label for="heroPlace">Encuentra ayuda donde vives</label>
+            <div class="hero-find-row">
+                <select id="heroPlace" name="place" required>
+                    <option value="">Elige tu ciudad o estado…</option>
+                    <optgroup label="Ciudades">
+                        <option value="recursos/ciudades/albuquerque">Albuquerque, NM</option>
+                        <option value="recursos/ciudades/atlanta">Atlanta, GA</option>
+                        <option value="recursos/ciudades/austin">Austin, TX</option>
+                        <option value="recursos/ciudades/baltimore">Baltimore, MD</option>
+                        <option value="recursos/ciudades/boston">Boston, MA</option>
+                        <option value="recursos/ciudades/charlotte">Charlotte, NC</option>
+                        <option value="recursos/ciudades/chicago">Chicago, IL</option>
+                        <option value="recursos/ciudades/cleveland">Cleveland, OH</option>
+                        <option value="recursos/ciudades/colorado-springs">Colorado Springs, CO</option>
+                        <option value="recursos/ciudades/columbus">Columbus, OH</option>
+                        <option value="recursos/ciudades/dallas">Dallas, TX</option>
+                        <option value="recursos/ciudades/denver">Denver, CO</option>
+                        <option value="recursos/ciudades/detroit">Detroit, MI</option>
+                        <option value="recursos/ciudades/el-paso">El Paso, TX</option>
+                        <option value="recursos/ciudades/philadelphia">Filadelfia, PA</option>
+                        <option value="recursos/ciudades/fort-worth">Fort Worth, TX</option>
+                        <option value="recursos/ciudades/fresno">Fresno, CA</option>
+                        <option value="recursos/ciudades/houston">Houston, TX</option>
+                        <option value="recursos/ciudades/indianapolis">Indianapolis, IN</option>
+                        <option value="recursos/ciudades/jacksonville">Jacksonville, FL</option>
+                        <option value="recursos/ciudades/kansas-city">Kansas City, MO</option>
+                        <option value="recursos/ciudades/las-vegas">Las Vegas, NV</option>
+                        <option value="recursos/ciudades/long-beach">Long Beach, CA</option>
+                        <option value="recursos/ciudades/los-angeles">Los Ángeles, CA</option>
+                        <option value="recursos/ciudades/louisville">Louisville, KY</option>
+                        <option value="recursos/ciudades/memphis">Memphis, TN</option>
+                        <option value="recursos/ciudades/mesa">Mesa, AZ</option>
+                        <option value="recursos/ciudades/miami">Miami, FL</option>
+                        <option value="recursos/ciudades/milwaukee">Milwaukee, WI</option>
+                        <option value="recursos/ciudades/minneapolis">Minneapolis, MN</option>
+                        <option value="recursos/ciudades/nashville">Nashville, TN</option>
+                        <option value="recursos/ciudades/new-york">Nueva York</option>
+                        <option value="recursos/ciudades/oakland">Oakland, CA</option>
+                        <option value="recursos/ciudades/oklahoma-city">Oklahoma City, OK</option>
+                        <option value="recursos/ciudades/omaha">Omaha, NE</option>
+                        <option value="recursos/ciudades/phoenix">Phoenix, AZ</option>
+                        <option value="recursos/ciudades/portland">Portland, OR</option>
+                        <option value="recursos/ciudades/raleigh">Raleigh, NC</option>
+                        <option value="recursos/ciudades/sacramento">Sacramento, CA</option>
+                        <option value="recursos/ciudades/san-antonio">San Antonio, TX</option>
+                        <option value="recursos/ciudades/san-diego">San Diego, CA</option>
+                        <option value="recursos/ciudades/san-francisco">San Francisco, CA</option>
+                        <option value="recursos/ciudades/san-jose">San Jose, CA</option>
+                        <option value="recursos/ciudades/seattle">Seattle, WA</option>
+                        <option value="recursos/ciudades/st-louis">St. Louis, MO</option>
+                        <option value="recursos/ciudades/tampa">Tampa, FL</option>
+                        <option value="recursos/ciudades/tucson">Tucson, AZ</option>
+                        <option value="recursos/ciudades/tulsa">Tulsa, OK</option>
+                        <option value="recursos/ciudades/virginia-beach">Virginia Beach, VA</option>
+                        <option value="recursos/ciudades/washington-dc">Washington, DC</option>
+                    </optgroup>
+                    <optgroup label="Estados">
+                        <option value="recursos/estados/alabama">Alabama</option>
+                        <option value="recursos/estados/alaska">Alaska</option>
+                        <option value="recursos/estados/arizona">Arizona</option>
+                        <option value="recursos/estados/arkansas">Arkansas</option>
+                        <option value="recursos/estados/california">California</option>
+                        <option value="recursos/estados/north-carolina">Carolina del Norte</option>
+                        <option value="recursos/estados/colorado">Colorado</option>
+                        <option value="recursos/estados/connecticut">Connecticut</option>
+                        <option value="recursos/estados/delaware">Delaware</option>
+                        <option value="recursos/estados/florida">Florida</option>
+                        <option value="recursos/estados/georgia">Georgia</option>
+                        <option value="recursos/estados/hawaii">Hawaii</option>
+                        <option value="recursos/estados/idaho">Idaho</option>
+                        <option value="recursos/estados/illinois">Illinois</option>
+                        <option value="recursos/estados/indiana">Indiana</option>
+                        <option value="recursos/estados/iowa">Iowa</option>
+                        <option value="recursos/estados/kansas">Kansas</option>
+                        <option value="recursos/estados/kentucky">Kentucky</option>
+                        <option value="recursos/estados/louisiana">Louisiana</option>
+                        <option value="recursos/estados/maine">Maine</option>
+                        <option value="recursos/estados/maryland">Maryland</option>
+                        <option value="recursos/estados/massachusetts">Massachusetts</option>
+                        <option value="recursos/estados/michigan">Michigan</option>
+                        <option value="recursos/estados/minnesota">Minnesota</option>
+                        <option value="recursos/estados/mississippi">Mississippi</option>
+                        <option value="recursos/estados/missouri">Missouri</option>
+                        <option value="recursos/estados/montana">Montana</option>
+                        <option value="recursos/estados/nebraska">Nebraska</option>
+                        <option value="recursos/estados/nevada">Nevada</option>
+                        <option value="recursos/estados/new-hampshire">New Hampshire</option>
+                        <option value="recursos/estados/new-jersey">New Jersey</option>
+                        <option value="recursos/estados/north-dakota">North Dakota</option>
+                        <option value="recursos/estados/new-york">Nueva York</option>
+                        <option value="recursos/estados/new-mexico">Nuevo México</option>
+                        <option value="recursos/estados/ohio">Ohio</option>
+                        <option value="recursos/estados/oklahoma">Oklahoma</option>
+                        <option value="recursos/estados/oregon">Oregón</option>
+                        <option value="recursos/estados/pennsylvania">Pensilvania</option>
+                        <option value="recursos/estados/rhode-island">Rhode Island</option>
+                        <option value="recursos/estados/south-carolina">South Carolina</option>
+                        <option value="recursos/estados/south-dakota">South Dakota</option>
+                        <option value="recursos/estados/tennessee">Tennessee</option>
+                        <option value="recursos/estados/texas">Texas</option>
+                        <option value="recursos/estados/utah">Utah</option>
+                        <option value="recursos/estados/vermont">Vermont</option>
+                        <option value="recursos/estados/virginia">Virginia</option>
+                        <option value="recursos/estados/washington">Washington</option>
+                        <option value="recursos/estados/district-of-columbia">Washington, D.C.</option>
+                        <option value="recursos/estados/west-virginia">West Virginia</option>
+                        <option value="recursos/estados/wisconsin">Wisconsin</option>
+                        <option value="recursos/estados/wyoming">Wyoming</option>
+                    </optgroup>
+                </select>
+                <button type="submit" class="btn btn-primary">Ir</button>
+            </div>
+        </form>
+        <nav class="hero-tasks" aria-label="Necesidades comunes">
+            <a href="recursos/prevencion-desalojos" class="hero-task"><span class="hero-task-icon" aria-hidden="true">🏠</span><span>Atrasado en la renta o enfrentando un desalojo<small>Ayuda de emergencia con la renta y tus derechos</small></span></a>
+            <a href="recursos/guias/como-solicitar-seccion-8" class="hero-task"><span class="hero-task-icon" aria-hidden="true">📝</span><span>Solicitar Sección 8<small>Paso a paso, de la lista de espera al vale</small></span></a>
+            <a href="recursos/herramientas/rastreador-section-8" class="hero-task"><span class="hero-task-icon" aria-hidden="true">📋</span><span>Encontrar listas de espera abiertas<small>Autoridades de vivienda por estado, con teléfonos</small></span></a>
+            <a href="recursos/vivienda-de-emergencia" class="hero-task"><span class="hero-task-icon" aria-hidden="true">🌙</span><span>Necesito dónde quedarme esta noche<small>Refugios, líneas de ayuda y 211</small></span></a>
+        </nav>
+        <p class="hero-more"><a href="recursos/donde-empezar">¿No sabes por dónde empezar?</a> o <button type="button" id="heroSearch">Buscar en todas las guías</button></p>
     </div>
 </section>
+<script>
+(function(){
+  var f=document.getElementById('heroFind'), s=document.getElementById('heroPlace');
+  function go(){ if(!s.value) return; try{ if(window.gtag) gtag('event','find_location',{place:s.value,source:'home_hero'}); }catch(e){} window.location.href=s.value; }
+  f.addEventListener('submit',function(ev){ ev.preventDefault(); go(); });
+  s.addEventListener('change',go);
+  document.getElementById('heroSearch').addEventListener('click',function(){ if(typeof openSearch==='function') openSearch(); else window.location.href='recursos/donde-empezar'; });
+})();
+</script>
 
 <!-- ===== EXPLORE BY TOPIC ===== -->
 <section class="topics" id="topics">
