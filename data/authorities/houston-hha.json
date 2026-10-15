@@ -1,18 +1,18 @@
 {
   "slug": "houston-hha",
   "kind": "authority",
-  "name": "Houston Housing Authority (HHA)",
-  "short_name": "HHA",
+  "name": "Housing Alliance HTX (Houston Housing Authority)",
+  "short_name": "Housing Alliance HTX",
   "city": "Houston",
   "state": "TX",
   "serves": "the City of Houston, Texas",
   "phone": "(713) 260-0500",
-  "official_url": "https://housingforhouston.com/",
-  "apply_url": "https://housingforhouston.com/residents/housing-choice-voucher/",
+  "official_url": "https://www.alliancehtx.org/",
+  "apply_url": "https://www.alliancehtx.org/rent-cafe-access",
   "city_slug": "houston",
   "state_slug": "texas",
   "updated": "July 2026",
-  "intro": "The Houston Housing Authority (HHA) — which began operating under the name Housing Alliance HTX in 2025 — is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, public housing, and project-based vouchers for the City of Houston. This page summarizes HHA's current waiting-list status, contact information, and how to apply, and links to the official HHA site for anything time-sensitive.",
+  "intro": "Housing Alliance HTX — the Houston Housing Authority (HHA), which began operating under the name Housing Alliance HTX in 2025 — is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, public housing, and project-based vouchers for the City of Houston. This page summarizes HHA's current waiting-list status, contact information, and how to apply, and links to the official HHA site for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (tenant-based Section 8)",
     "Public Housing",
@@ -49,7 +49,7 @@
     },
     {
       "q": "Is the Houston Housing Authority the same as Housing Alliance HTX?",
-      "a": "Yes. In 2025 the Houston Housing Authority began operating under the name Housing Alliance HTX. It is the same public housing authority; both housingforhouston.com and alliancehtx.org are official."
+      "a": "Yes. In 2025 the Houston Housing Authority began operating under the name Housing Alliance HTX. It is the same public housing authority. Its official website is now alliancehtx.org; the old housingforhouston.com address no longer loads."
     },
     {
       "q": "Who do I contact if I live outside the Houston city limits?",
@@ -57,31 +57,31 @@
     },
     {
       "q": "How do I check my HHA waiting-list status?",
-      "a": "Use HHA's applicant portal (hha.myhousing.com) or the RentCafe portal rather than calling the office. Keep your contact information current so HHA can reach you when your name comes up."
+      "a": "Use the Rent Café portal (the Check Waitlist Status link on alliancehtx.org) rather than calling the office. Keep your contact information current so HHA can reach you when your name comes up."
     }
   ],
   "sources": [
     {
-      "label": "Houston Housing Authority — official site",
-      "url": "https://housingforhouston.com/"
-    },
-    {
-      "label": "HHA — Housing Choice Voucher (waitlist status)",
-      "url": "https://housingforhouston.com/residents/housing-choice-voucher/"
-    },
-    {
-      "label": "HHA — Public Housing",
-      "url": "https://housingforhouston.com/residents/public-housing/"
-    },
-    {
-      "label": "Housing Alliance HTX (HHA's current brand)",
+      "label": "Housing Alliance HTX (formerly Houston Housing Authority) — official site",
       "url": "https://www.alliancehtx.org/"
+    },
+    {
+      "label": "Housing Alliance HTX — Housing Programs (Housing Choice Voucher, public housing)",
+      "url": "https://www.alliancehtx.org/housing-programs"
+    },
+    {
+      "label": "Housing Alliance HTX — Public Housing",
+      "url": "https://www.alliancehtx.org/public-housing"
+    },
+    {
+      "label": "Housing Alliance HTX — Apply for Housing / Rent Café (waitlist status)",
+      "url": "https://www.alliancehtx.org/rent-cafe-access"
     }
   ],
   "es": {
     "serves": "la ciudad de Houston, Texas",
     "updated": "julio de 2026",
-    "intro": "La Autoridad de Vivienda de Houston (HHA) — que comenzó a operar bajo el nombre Housing Alliance HTX en 2025 — es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y los vales basados en proyectos para la ciudad de Houston. Esta página resume el estado actual de la lista de espera de HHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HHA para cualquier asunto urgente.",
+    "intro": "Housing Alliance HTX — la Autoridad de Vivienda de Houston (HHA), que comenzó a operar bajo el nombre Housing Alliance HTX en 2025 — es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y los vales basados en proyectos para la ciudad de Houston. Esta página resume el estado actual de la lista de espera de HHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HHA para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8 basado en el inquilino)",
       "Vivienda pública",
@@ -118,7 +118,7 @@
       },
       {
         "q": "¿Es la Autoridad de Vivienda de Houston lo mismo que Housing Alliance HTX?",
-        "a": "Sí. En 2025 la Autoridad de Vivienda de Houston comenzó a operar bajo el nombre Housing Alliance HTX. Es la misma autoridad pública de vivienda; tanto housingforhouston.com como alliancehtx.org son oficiales."
+        "a": "Sí. En 2025 la Autoridad de Vivienda de Houston comenzó a operar bajo el nombre Housing Alliance HTX. Es la misma autoridad pública de vivienda. Su sitio web oficial ahora es alliancehtx.org; la antigua dirección housingforhouston.com ya no carga."
       },
       {
         "q": "¿A quién contacto si vivo fuera de los límites de la ciudad de Houston?",
@@ -126,25 +126,25 @@
       },
       {
         "q": "¿Cómo verifico el estado de mi lista de espera de HHA?",
-        "a": "Use el portal para solicitantes de HHA (hha.myhousing.com) o el portal RentCafe en lugar de llamar a la oficina. Mantenga su información de contacto al día para que HHA pueda localizarle cuando le toque su turno."
+        "a": "Use el portal Rent Café (el enlace Check Waitlist Status en alliancehtx.org) en lugar de llamar a la oficina. Mantenga su información de contacto al día para que HHA pueda localizarle cuando le toque su turno."
       }
     ],
     "sources": [
       {
-        "label": "Autoridad de Vivienda de Houston — sitio oficial",
-        "url": "https://housingforhouston.com/"
-      },
-      {
-        "label": "HHA — Housing Choice Voucher (estado de la lista de espera)",
-        "url": "https://housingforhouston.com/residents/housing-choice-voucher/"
-      },
-      {
-        "label": "HHA — Vivienda pública",
-        "url": "https://housingforhouston.com/residents/public-housing/"
-      },
-      {
-        "label": "Housing Alliance HTX (marca actual de HHA)",
+        "label": "Housing Alliance HTX (antes Autoridad de Vivienda de Houston) — sitio oficial",
         "url": "https://www.alliancehtx.org/"
+      },
+      {
+        "label": "Housing Alliance HTX — programas de vivienda (Housing Choice Voucher, vivienda pública)",
+        "url": "https://www.alliancehtx.org/housing-programs"
+      },
+      {
+        "label": "Housing Alliance HTX — vivienda pública",
+        "url": "https://www.alliancehtx.org/public-housing"
+      },
+      {
+        "label": "Housing Alliance HTX — solicitar vivienda / Rent Café (estado de la lista de espera)",
+        "url": "https://www.alliancehtx.org/rent-cafe-access"
       }
     ]
   }

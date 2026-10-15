@@ -7,8 +7,8 @@
   "state": "CA",
   "serves": "the City and County of San Francisco, California",
   "phone": "(415) 715-3280",
-  "official_url": "https://www.sfha.org/",
-  "apply_url": "https://www.sfha.org/",
+  "official_url": "https://sfha.org/",
+  "apply_url": "https://sfha.org/",
   "city_slug": "san-francisco",
   "state_slug": "california",
   "updated": "May 2026",
@@ -51,7 +51,7 @@
   "sources": [
     {
       "label": "SFHA — official website",
-      "url": "https://www.sfha.org/"
+      "url": "https://sfha.org/"
     },
     {
       "label": "DAHLIA SF Housing Portal",
@@ -100,7 +100,7 @@
     "sources": [
       {
         "label": "SFHA — sitio web oficial",
-        "url": "https://www.sfha.org/"
+        "url": "https://sfha.org/"
       },
       {
         "label": "Portal de vivienda DAHLIA SF",

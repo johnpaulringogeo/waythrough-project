@@ -91,19 +91,19 @@
     },
     {
       "label": "HOME — Programs: voucher status, wait times, and the no-emergency-shelter statement",
-      "url": "https://www.ephome.org/housing/"
+      "url": "https://www.ephome.org/voucher.html"
     },
     {
       "label": "HOME — Contact Us (phone, address, hours)",
-      "url": "https://www.ephome.org/housing/contact_us.php"
+      "url": "https://www.ephome.org/contact.html"
     },
     {
       "label": "HOME — Rental Assistance Demonstration (RAD) project",
-      "url": "https://www.ephome.org/housing/about_hacep/rental_assistance_demonstration_(rad)_project/index.php"
+      "url": "https://www.ephome.org/affordable-housing.html"
     },
     {
       "label": "HOME — voucher waiting-list pre-application",
-      "url": "https://www.ephome.org/housing/voucher_program/waitlist_application.php"
+      "url": "https://www.ephome.org/voucher.html"
     },
     {
       "label": "HOME applicant portal (linked from ephome.org as \"Apply to PBV Properties\")",
@@ -115,7 +115,7 @@
     },
     {
       "label": "Envolve El Paso — the second site-based operator portal",
-      "url": "https://envolveelpaso.com/"
+      "url": "https://www.envolveelpaso.com/"
     },
     {
       "label": "El Paso County Housing Authority (EPCHA) — the separate county authority",
@@ -207,19 +207,19 @@
       },
       {
         "label": "HOME — Programas: estado de los vales, tiempos de espera y la declaración de que no hay refugio de emergencia",
-        "url": "https://www.ephome.org/housing/"
+        "url": "https://www.ephome.org/voucher.html"
       },
       {
         "label": "HOME — Contacto (teléfono, domicilio y horario)",
-        "url": "https://www.ephome.org/housing/contact_us.php"
+        "url": "https://www.ephome.org/contact.html"
       },
       {
         "label": "HOME — proyecto Rental Assistance Demonstration (RAD)",
-        "url": "https://www.ephome.org/housing/about_hacep/rental_assistance_demonstration_(rad)_project/index.php"
+        "url": "https://www.ephome.org/affordable-housing.html"
       },
       {
         "label": "HOME — presolicitud para la lista de espera de vales",
-        "url": "https://www.ephome.org/housing/voucher_program/waitlist_application.php"
+        "url": "https://www.ephome.org/voucher.html"
       },
       {
         "label": "Portal para solicitantes de HOME (enlazado desde ephome.org como «Apply to PBV Properties»)",
@@ -231,7 +231,7 @@
       },
       {
         "label": "Envolve El Paso — el segundo portal de operador por sitio",
-        "url": "https://envolveelpaso.com/"
+        "url": "https://www.envolveelpaso.com/"
       },
       {
         "label": "Autoridad de Vivienda del Condado de El Paso (EPCHA) — la autoridad del condado, distinta",
