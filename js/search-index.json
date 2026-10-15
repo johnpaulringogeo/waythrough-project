@@ -918,7 +918,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 54 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 56 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -3431,7 +3431,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 54 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 56 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -3857,6 +3857,20 @@
     "body": "Housing Authority Directory: Section 8 Contacts & Waitlist Status | Waythrough Home / Resources / Housing Authorities Housing Authority Directory Housing Authority Directory Section 8 and public housing are run locally by Public Housing Authorities (PHAs) . Each authority has its own waiting lists, "
   },
   {
+    "title": "Tampa RMAP Program: Is It Open and How to Apply | Waythrough",
+    "description": "City of Tampa RMAP pays move-in costs only: up to $10,000, Tuesdays 9 a.m. to noon, online only. Who qualifies, how to apply, and where to go instead.",
+    "url": "/resources/guides/tampa-rmap-program",
+    "category": "Guide",
+    "body": "Tampa RMAP Program: Is It Open and How to Apply | Waythrough Home / Resources / Tampa RMAP Program How-To Guide Tampa RMAP: What It Pays Now, Who Qualifies, and How to Apply Matt · Updated October 2026 RMAP is the City of Tampa's Rental and Move-In Assistance Program . Right now it is in a stage the"
+  },
+  {
+    "title": "Philadelphia Emergency Rent Help: What's Open | Waythrough",
+    "description": "Help paying rent in Philadelphia: Eviction Diversion and its Targeted Financial Assistance (up to $3,500 owed), free eviction lawyers, PHA, and 211.",
+    "url": "/resources/guides/emergency-rent-help-philadelphia",
+    "category": "Guide",
+    "body": "Philadelphia Emergency Rent Help: What's Open | Waythrough Home / Resources / Emergency Rent Help in Philadelphia How-To Guide Emergency Rent Help in Philadelphia: What's Open Now and Who to Call Matt · Updated October 2026 If you rent in Philadelphia and you are behind, there is no city rent applic"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4037,5 +4051,19 @@
     "url": "/es/recursos/autoridades-de-vivienda/",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda Directorio de Autoridades de Vivienda Directorio de Autoridades de Vivienda La Sección 8 y la vivienda pública son administradas localmente por las Autoridades Públicas de Vivienda (PHA) . Cada autoridad tiene sus propias listas de espera, su propio proces"
+  },
+  {
+    "title": "Programa RMAP de Tampa: ¿está abierto? | Waythrough",
+    "description": "El RMAP de Tampa solo paga gastos de mudanza: hasta $10,000, los martes de 9 a.m. a 12 p.m., solo en línea. Quién califica, cómo solicitar y otras opciones.",
+    "url": "/es/recursos/guias/programa-rmap-tampa",
+    "category": "Guías",
+    "body": "RMAP es el Rental and Move-In Assistance Program de la Ciudad de Tampa, un programa de ayuda con el alquiler y la mudanza. Ahora está en una etapa que la ciudad llama Fase X, y en esta fase solo ayuda a quienes se mudan a una vivienda de alquiler nueva dentro de los límites de la ciudad de Tampa . P"
+  },
+  {
+    "title": "Ayuda de emergencia con la renta en Filadelfia | Waythrough",
+    "description": "Ayuda con la renta en Filadelfia: el Programa de Desvío de Desalojos y su ayuda económica (deudas de hasta $3,500), abogados gratis, PHA y el 211.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-filadelfia",
+    "category": "Guías",
+    "body": "Si usted alquila en Filadelfia y está atrasado con la renta, hoy no hay una solicitud de la ciudad que pueda llenar por su cuenta. El dinero principal de la ciudad para la renta, llamado Targeted Financial Assistance (TFA) o ayuda económica dirigida, se paga a través del Programa de Desvío de Desalo"
   }
 ]
