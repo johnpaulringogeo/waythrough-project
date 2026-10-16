@@ -12,7 +12,9 @@ Writes:
 Each JSON keeps its English content at the top level (unchanged) and, optionally, a
 localized "es" block that overrides the translatable fields (serves, updated, intro,
 programs, waitlists, also_serving, faqs, sources). Shared fields (name, short_name,
-phone, URLs, city/state, slugs) are inherited by the Spanish page.
+phone, URLs, city/state, slugs) are inherited by the Spanish page. Optional
+"meta_title" / "meta_description" override the default <title> and meta
+description; when set at the top level they must also be set in "es".
 
 Safeguard: Spanish pages are validated for missing diacritics before writing. If an
 es page's visible text contains a red-flag un-accented Spanish word, generation raises
@@ -144,6 +146,11 @@ def paths_for(lang, slug):
 
 
 def build_title(m, lang):
+    # Optional per-page override: "meta_title" at the top level (EN) and in the
+    # "es" block (ES). render() refuses an EN override without an ES one, so the
+    # Spanish page can never inherit an English title.
+    if m.get("meta_title"):
+        return m["meta_title"]
     if lang == "en":
         return f"{m['name']}: Section 8 Waitlist Status, Contact & How to Apply | Waythrough"
     return (f"{m['name']}: estado de la lista de espera de Sección 8, contacto y "
@@ -151,6 +158,8 @@ def build_title(m, lang):
 
 
 def build_description(m, lang):
+    if m.get("meta_description"):
+        return m["meta_description"]
     if lang == "en":
         return (f"{m['name']} in {m['city']}, {m['state']}: current Section 8 / "
                 f"Housing Choice Voucher waiting-list status, phone {m.get('phone','')}, programs offered, "
@@ -323,6 +332,10 @@ def faq_json(m):
 
 def render(env, data, lang, stage_dir=None):
     slug = data["slug"]
+    if lang == "es":
+        for k in ("meta_title", "meta_description"):
+            if data.get(k) and not data["es"].get(k):
+                raise ValueError(f"{slug}: top-level {k} needs an es.{k} too")
     m = merged_for(data, lang)
     p = paths_for(lang, slug)
     tmpl = env.get_template("authority.html.j2")

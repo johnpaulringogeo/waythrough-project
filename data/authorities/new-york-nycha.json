@@ -8,113 +8,212 @@
   "serves": "New York City (all five boroughs)",
   "phone": "(718) 707-7771",
   "official_url": "https://www.nyc.gov/site/nycha/index.page",
-  "apply_url": "https://www.nyc.gov/site/nycha/index.page",
+  "apply_url": "https://www.nyc.gov/site/nycha/eligibility/apply.page",
   "city_slug": "new-york",
   "state_slug": "new-york",
-  "updated": "May 2026",
-  "intro": "The New York City Housing Authority (NYCHA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers and public housing for New York City — the largest public housing authority in North America. A separate agency, the NYC Department of Housing Preservation and Development (HPD), administers its own set of Section 8 vouchers. This page summarizes NYCHA's current waiting-list status, contact information, and how to apply, and links to the official site for anything time-sensitive.",
+  "updated": "October 16, 2026",
+  "meta_title": "NYCHA Section 8 Waiting List, Application & Phone Number | Waythrough",
+  "meta_description": "NYCHA's Section 8 waitlist is closed (checked Oct 16, 2026). How to apply for NYCHA public housing online, NYCHA's phone number (718) 707-7771, and NYC rent help.",
+  "intro": "The New York City Housing Authority (NYCHA) runs public housing and the largest Section 8 (Housing Choice Voucher) program in the country for all five boroughs. We checked NYCHA's own site on October 16, 2026: the Section 8 waitlist is closed to new applicants, and voucher issuance to people already on that list is still paused. NYCHA public housing is different: you can apply online right now through ApplyNYCHA on NYCHA's Self-Service Portal. NYCHA's phone number for applicants, residents and voucher holders is the Customer Contact Center, (718) 707-7771.",
   "programs": [
-    "Housing Choice Voucher (Section 8)",
-    "Public Housing",
-    "HUD-VASH (for veterans)",
-    "Family Unification Program (FUP)"
+    "Housing Choice Voucher (Section 8): NYCHA says about 107,979 vouchers and over 26,933 owners take part",
+    "Public Housing (apply online through ApplyNYCHA)",
+    "Special Admission referrals: Veterans Affairs Supportive Housing (HUD-VASH) and Stability Vouchers",
+    "Emergency Housing Vouchers (EHV) for current participants only; HUD funding for EHV ends in late 2026"
   ],
   "waitlists": [
     {
       "program": "Housing Choice Voucher (Section 8)",
-      "status": "Closed / paused",
-      "note": "The list was closed from 2009, reopened briefly by lottery in 2024, and as of August 1, 2025 NYCHA paused voucher issuance and processing for applicants on the general HCV waiting list."
+      "status": "Closed to new applicants; voucher issuance paused",
+      "note": "NYCHA's <a href=\"https://www.nyc.gov/site/nycha/section-8/applicants.page\" target=\"_blank\" rel=\"noopener\">Applying for Section 8 page</a> says: \"The New York City Housing Authority (NYCHA) Housing Choice Voucher (Section 8) waitlist is currently closed to new applicants.\" (checked October 16, 2026). The last window was online from June 3 to June 9, 2024, the first general opening since December 10, 2009. <a href=\"https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page\" target=\"_blank\" rel=\"noopener\">NYCHA reported</a> 633,808 online applications and said \"200,000 applications were randomly selected by lottery\" for the list. Then, NYCHA says, \"Effective August 1, 2025, NYCHA paused active outreach, including activities related to the application process and voucher issuance for applicants on the general HCV waitlist.\" Its <a href=\"https://www.nyc.gov/site/nycha/section-8/section-8-program-updates.page\" target=\"_blank\" rel=\"noopener\">Section 8 Program Updates</a> page says the pause \"remains in effect,\" that you \"will stay on the waitlist and your position will remain unchanged,\" and that \"NYCHA is not currently issuing new tenant-based Section 8 vouchers to those on the HCV waitlist.\" NYCHA will contact applicants when it resumes."
     },
     {
       "program": "Public Housing",
-      "status": "Separate NYCHA waiting list",
-      "note": "Check the official NYCHA site for the current status of the public-housing application."
+      "status": "Taking applications online through ApplyNYCHA",
+      "note": "NYCHA's <a href=\"https://www.nyc.gov/site/nycha/eligibility/apply.page\" target=\"_blank\" rel=\"noopener\">Apply page</a> says: \"To be considered for an apartment in a public housing development, you must submit an application via ApplyNYCHA.\" (checked October 16, 2026). You pick a first and second borough, not a specific development. You do not send documents with the application; NYCHA checks them at your Eligibility Interview. There is no minimum income, and applicants who live or work in New York City are prioritized. NYCHA sends a letter within 30 days. Your application is active for two years, and you must renew it every 24 months on the Self-Service Portal (\"Update/Renew My Case\") to stay on the waitlist; you keep your original filing date. NYCHA warns: \"Because of the extremely large size of the waitlist and low vacancy rate, we cannot estimate when you will be selected for an Eligibility Interview.\" You may be on the public housing and Section 8 lists at the same time."
     },
     {
-      "program": "Specialty referrals (HUD-VASH, FUP)",
-      "status": "Accepted by referral",
-      "note": "Accessed through partner agencies and the VA rather than open registration."
+      "program": "Special Admission referrals (HUD-VASH, Stability Vouchers)",
+      "status": "By referral only",
+      "note": "NYCHA says it \"will continue to accept and process referrals\" under Veterans Affairs Supportive Housing (VASH) and Stability Vouchers. These come through partner agencies (for veterans, the VA), not public sign-up."
     }
   ],
   "also_serving": [
-    "The <strong>NYC Department of Housing Preservation and Development (HPD)</strong> separately administers roughly 30,000 Section 8 vouchers tied to specific affordable developments — you apply property-by-property through <strong>NYC Housing Connect</strong> (housingconnect.nyc.gov)."
+    "<strong>NYCHA phone numbers and offices.</strong> NYCHA calls its Customer Contact Center (CCC) \"NYCHA's single point of contact for public housing residents, Section 8 voucher holders, and Section 8 landlords\": <a href=\"tel:+17187077771\">(718) 707-7771</a>. For help with a public housing application, NYCHA lists the CCC from 8 a.m. to 5 p.m., Monday through Friday. Walk-in centers: 478 East Fordham Road (1 Fordham Plaza), 2nd Floor, Bronx, and 787 Atlantic Avenue, 2nd Floor, Brooklyn, both Monday to Friday, 8 a.m. to 5 p.m.; without internet you can book an appointment there and apply at a NYCHA kiosk. NYCHA's main switchboard is (212) 306-3000. Full list on <a href=\"https://www.nyc.gov/site/nycha/about/contact.page\" target=\"_blank\" rel=\"noopener\">NYCHA's contact page</a>. Status checks and updates for both programs are on the <a href=\"https://selfserve.nycha.info/\" target=\"_blank\" rel=\"noopener\">NYCHA Self-Service Portal</a> (selfserve.nycha.info). NYCHA says: \"Never pay money to apply for public housing or Section 8\"; report scams to NYCHA's Inspector General at (212) 306-3355.",
+    "<strong>HPD Section 8 is a second door, but not an open one.</strong> The NYC Department of Housing Preservation and Development (HPD) runs its own Section 8 program and <a href=\"https://www.nyc.gov/site/hpd/services-and-information/about-section-8.page\" target=\"_blank\" rel=\"noopener\">says it serves</a> over 39,000 households. HPD gives vouchers to families in buildings developed or renovated under certain HPD programs and to homeless households referred by DHS and HRA providers, and its <a href=\"https://www.nyc.gov/site/hpd/services-and-information/section-8-eligibility.page\" target=\"_blank\" rel=\"noopener\">eligibility page</a> says: \"Applications are not accepted by the general public.\" (checked October 16, 2026). If you live in an HPD-assisted building or a shelter, ask your building management or caseworker.",
+    "<strong>NYC Housing Connect for affordable lotteries.</strong> HPD calls <a href=\"https://housingconnect.nyc.gov/\" target=\"_blank\" rel=\"noopener\">NYC Housing Connect</a> \"New Yorkers' portal to find and apply for affordable rental and homeownership opportunities across the five boroughs.\" You register once and apply to each lottery that fits your income and household size. These are income-restricted apartments, not Section 8. Details on <a href=\"https://www.nyc.gov/site/hpd/services-and-information/housing-connect-rentals.page\" target=\"_blank\" rel=\"noopener\">HPD's Housing Connect page</a>.",
+    "<strong>Behind on rent or facing eviction.</strong> HRA's Emergency Assistance, which HRA also calls a \"One Shot Deal,\" can help if you will lose your housing without help; you must have an interview, and you may have to pay some or all of it back. HRA says you can apply \"online using ACCESSHRA\" (<a href=\"https://a069-access.nyc.gov/\" target=\"_blank\" rel=\"noopener\">ACCESS HRA</a>) or at a Benefit Access Center; DSS OneNumber (718) 557-1399 (<a href=\"https://www.nyc.gov/site/hra/help/cash-assistance.page\" target=\"_blank\" rel=\"noopener\">HRA cash assistance page</a>). If you have an eviction case, NYC's <a href=\"https://www.nyc.gov/site/hra/help/legal-services-for-tenants.page\" target=\"_blank\" rel=\"noopener\">Right-to-Counsel</a> program gives free legal help \"in every ZIP code, regardless of immigration status,\" in Housing Court and in NYCHA termination cases: call 311 and ask for the Tenant Helpline, or Housing Court Answers at (718) 557-1379. It is illegal for a landlord to refuse a voucher; report it through 311 to the NYC Commission on Human Rights. Our <a href=\"../cities/new-york\">New York City housing resources</a> page has CityFHEPS, shelter and tenant-rights details."
   ],
   "faqs": [
     {
-      "q": "Is the NYC (NYCHA) Section 8 waiting list open?",
-      "a": "No. NYCHA's Housing Choice Voucher waiting list has been closed since 2009. It reopened briefly by lottery in 2024, and as of August 1, 2025 NYCHA paused voucher issuance and processing for applicants on the general HCV waiting list. Confirm the current status on the official NYCHA site before relying on it."
+      "q": "Is the NYCHA Section 8 waiting list open?",
+      "a": "No. NYCHA says its Housing Choice Voucher (Section 8) waitlist \"is currently closed to new applicants\" (checked October 16, 2026). The last window was June 3 to June 9, 2024, when NYCHA received 633,808 online applications and picked 200,000 by lottery. Since August 1, 2025, NYCHA has paused voucher issuance to people on that list, and NYCHA says the pause remains in effect. NYCHA public housing is a separate list that is taking applications online."
+    },
+    {
+      "q": "How do I apply for NYCHA public housing?",
+      "a": "Online through ApplyNYCHA on NYCHA's Self-Service Portal, selfserve.nycha.info. NYCHA says you \"must submit an application via ApplyNYCHA.\" You choose a first and second borough, you do not need to send documents, and NYCHA mails a letter within 30 days. Without internet, book an appointment at a NYCHA Walk-in Center and apply at a kiosk. For help, call the Customer Contact Center at (718) 707-7771, 8 a.m. to 5 p.m., Monday through Friday. Renew your application every two years to stay on the list."
+    },
+    {
+      "q": "What is the NYCHA phone number?",
+      "a": "The NYCHA Customer Contact Center is (718) 707-7771. NYCHA says it serves public housing residents, Section 8 voucher holders, Section 8 landlords and public housing applicants. NYCHA's main switchboard is (212) 306-3000. To report a scam or fraud, call NYCHA's Inspector General hotline at (212) 306-3355."
+    },
+    {
+      "q": "I am already on the NYCHA Section 8 waitlist. What should I do?",
+      "a": "Keep your contact information current on the NYCHA Self-Service Portal at selfserve.nycha.info. NYCHA says applicants were not removed during the pause and \"will stay on the waitlist and your position will remain unchanged,\" and that it will contact applicants in order of preference and placement when voucher issuance restarts. If NYCHA sends you a notice asking you to update your application, answer it by the deadline. For help updating your information, call (718) 707-7771."
     },
     {
       "q": "What is the difference between NYCHA and HPD Section 8?",
-      "a": "NYCHA and the NYC Department of Housing Preservation and Development (HPD) run separate Section 8 programs. NYCHA administers the larger tenant-based voucher program (currently closed/paused). HPD administers roughly 30,000 vouchers tied to specific affordable housing developments — you apply property-by-property through NYC Housing Connect at housingconnect.nyc.gov."
+      "a": "They are separate programs. NYCHA runs the largest Section 8 program in the country, and its waitlist is closed. The NYC Department of Housing Preservation and Development (HPD) runs its own Section 8 program for households in certain HPD-assisted buildings and homeless households referred by DHS and HRA providers; HPD says \"Applications are not accepted by the general public.\" NYC Housing Connect is a third, separate door: lotteries for income-restricted apartments, not Section 8."
     },
     {
-      "q": "How can I apply for affordable housing in NYC right now?",
-      "a": "With NYCHA's Section 8 list closed, the most active path is NYC Housing Connect (housingconnect.nyc.gov), where you can apply to HPD- and city-funded affordable apartments by lottery. Veterans may qualify for HUD-VASH, and NYCHA public-housing applications may be available separately — check the official NYCHA site."
+      "q": "Where can I get affordable housing or rent help in NYC right now?",
+      "a": "Apply for NYCHA public housing through ApplyNYCHA, and apply to affordable lotteries on NYC Housing Connect. If you are behind on rent, HRA's Emergency Assistance (One Shot Deal) can be requested online through ACCESS HRA or at a Benefit Access Center. If you have an eviction case, call 311 and ask for the Tenant Helpline about free Right-to-Counsel legal help."
     }
   ],
   "sources": [
     {
-      "label": "NYCHA — official website",
-      "url": "https://www.nyc.gov/site/nycha/index.page"
+      "label": "NYCHA: Applying for Section 8",
+      "url": "https://www.nyc.gov/site/nycha/section-8/applicants.page"
     },
     {
-      "label": "NYC Housing Connect (HPD)",
-      "url": "https://housingconnect.nyc.gov/"
+      "label": "NYCHA: Section 8 Program Updates",
+      "url": "https://www.nyc.gov/site/nycha/section-8/section-8-program-updates.page"
+    },
+    {
+      "label": "NYCHA: Apply for public housing (ApplyNYCHA)",
+      "url": "https://www.nyc.gov/site/nycha/eligibility/apply.page"
+    },
+    {
+      "label": "NYCHA: Public Housing Applicant FAQs",
+      "url": "https://www.nyc.gov/site/nycha/eligibility/public-housing-applicant-faq.page"
+    },
+    {
+      "label": "NYCHA: Contact",
+      "url": "https://www.nyc.gov/site/nycha/about/contact.page"
+    },
+    {
+      "label": "NYCHA press release, August 1, 2024 (2024 Section 8 lottery)",
+      "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page"
+    },
+    {
+      "label": "HPD: Section 8 eligibility",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/section-8-eligibility.page"
+    },
+    {
+      "label": "HPD: NYC Housing Connect",
+      "url": "https://www.nyc.gov/site/hpd/services-and-information/housing-connect-rentals.page"
+    },
+    {
+      "label": "HRA: Cash assistance and Emergency Assistance (One Shot Deal)",
+      "url": "https://www.nyc.gov/site/hra/help/cash-assistance.page"
+    },
+    {
+      "label": "HRA Office of Civil Justice: Legal Services for Tenants (Right to Counsel)",
+      "url": "https://www.nyc.gov/site/hra/help/legal-services-for-tenants.page"
     }
   ],
   "es": {
+    "name": "Autoridad de la Vivienda de la Ciudad de Nueva York (NYCHA)",
     "serves": "la ciudad de Nueva York (los cinco distritos)",
-    "updated": "mayo de 2026",
-    "intro": "La Autoridad de Vivienda de la Ciudad de Nueva York (NYCHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Nueva York — la autoridad de vivienda pública más grande de América del Norte. Una agencia separada, el Departamento de Preservación y Desarrollo de la Vivienda de la Ciudad de Nueva York (HPD), administra su propio conjunto de vales de la Sección 8. Esta página resume el estado actual de la lista de espera de NYCHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial para cualquier asunto urgente.",
+    "updated": "16 de octubre de 2026",
+    "meta_title": "NYCHA en español: lista de Sección 8, solicitud y teléfono | Waythrough",
+    "meta_description": "Autoridad de la Vivienda de la Ciudad de Nueva York (NYCHA): Sección 8 cerrada (16 oct. 2026), cómo solicitar vivienda pública en línea y teléfono (718) 707-7771.",
+    "intro": "La Autoridad de la Vivienda de la Ciudad de Nueva York (NYCHA, por sus siglas en inglés) administra la vivienda pública y el programa de Sección 8 (Housing Choice Voucher) más grande del país en los cinco distritos. Revisamos el sitio de NYCHA el 16 de octubre de 2026: la lista de espera de Sección 8 está cerrada a nuevos solicitantes, y la entrega de vales a quienes ya están en esa lista sigue en pausa. La vivienda pública de NYCHA es otra cosa: puede solicitarla en línea ahora mismo por ApplyNYCHA, en el Portal de Autoservicio de NYCHA. El teléfono de NYCHA para solicitantes, residentes y personas con vale es el Centro de Contacto al Cliente, (718) 707-7771.",
     "programs": [
-      "Housing Choice Voucher (Sección 8)",
-      "Vivienda pública",
-      "HUD-VASH (para veteranos)",
-      "Programa de Unificación Familiar (FUP)"
+      "Housing Choice Voucher (Sección 8): según NYCHA, participan unos 107,979 vales y más de 26,933 propietarios",
+      "Vivienda pública (solicitud en línea por ApplyNYCHA)",
+      "Referencias de admisión especial: Veterans Affairs Supportive Housing (HUD-VASH) y Stability Vouchers",
+      "Vales de Vivienda de Emergencia (EHV) solo para participantes actuales; los fondos de HUD para EHV terminan a fines de 2026"
     ],
     "waitlists": [
       {
         "program": "Housing Choice Voucher (Sección 8)",
-        "status": "Cerrada / en pausa",
-        "note": "La lista estuvo cerrada desde 2009, reabrió brevemente por lotería en 2024 y, a partir del 1 de agosto de 2025, NYCHA pausó la emisión y el procesamiento de vales para los solicitantes en la lista de espera general de HCV."
+        "status": "Cerrada a nuevos solicitantes; entrega de vales en pausa",
+        "note": "La <a href=\"https://www.nyc.gov/site/nycha/section-8/applicants.page\" target=\"_blank\" rel=\"noopener\">página de solicitud de Sección 8 de NYCHA</a> dice: \"The New York City Housing Authority (NYCHA) Housing Choice Voucher (Section 8) waitlist is currently closed to new applicants\" (la lista de espera de Sección 8 de NYCHA está cerrada a nuevos solicitantes), verificado el 16 de octubre de 2026. La última apertura fue en línea del 3 al 9 de junio de 2024, la primera apertura general desde el 10 de diciembre de 2009. <a href=\"https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page\" target=\"_blank\" rel=\"noopener\">NYCHA informó</a> que recibió 633,808 solicitudes en línea y que eligió 200,000 por lotería para la lista. Luego, según NYCHA, a partir del 1 de agosto de 2025 pausó el contacto activo con los solicitantes, incluidos el proceso de solicitud y la entrega de vales para la lista general de HCV. Su página <a href=\"https://www.nyc.gov/site/nycha/section-8/section-8-program-updates.page\" target=\"_blank\" rel=\"noopener\">Section 8 Program Updates</a> dice que la pausa sigue vigente, que usted se queda en la lista con la misma posición y que NYCHA no está entregando nuevos vales de Sección 8 a quienes están en la lista. NYCHA avisará a los solicitantes cuando reanude la entrega."
       },
       {
         "program": "Vivienda pública",
-        "status": "Lista de espera separada de NYCHA",
-        "note": "Revise el sitio oficial de NYCHA para ver el estado actual de la solicitud de vivienda pública."
+        "status": "Recibe solicitudes en línea por ApplyNYCHA",
+        "note": "La <a href=\"https://www.nyc.gov/site/nycha/eligibility/apply.page\" target=\"_blank\" rel=\"noopener\">página Apply de NYCHA</a> dice: \"To be considered for an apartment in a public housing development, you must submit an application via ApplyNYCHA\" (para ser considerado para un apartamento de vivienda pública, debe enviar una solicitud por ApplyNYCHA), verificado el 16 de octubre de 2026. Usted elige un primer y un segundo distrito, no un desarrollo específico. No envía documentos con la solicitud; NYCHA los revisa en su entrevista de elegibilidad. No hay ingreso mínimo, y se da prioridad a quienes viven o trabajan en la ciudad de Nueva York. NYCHA envía una carta en un plazo de 30 días. La solicitud dura dos años, y debe renovarla cada 24 meses en el Portal de Autoservicio (\"Update/Renew My Case\") para seguir en la lista; conserva la fecha original. NYCHA advierte que, por el tamaño enorme de la lista y la poca disponibilidad de apartamentos, no puede calcular cuándo lo llamarán a la entrevista. Puede estar en la lista de vivienda pública y en la de Sección 8 al mismo tiempo."
       },
       {
-        "program": "Referencias especializadas (HUD-VASH, FUP)",
-        "status": "Se aceptan por referencia",
-        "note": "Se accede a través de agencias asociadas y del VA en lugar de un registro abierto."
+        "program": "Referencias de admisión especial (HUD-VASH, Stability Vouchers)",
+        "status": "Solo por referencia",
+        "note": "NYCHA dice que seguirá aceptando y procesando referencias de Veterans Affairs Supportive Housing (VASH) y de Stability Vouchers. Llegan por agencias aliadas (para veteranos, la VA), no por inscripción pública."
       }
     ],
     "also_serving": [
-      "El <strong>Departamento de Preservación y Desarrollo de la Vivienda de la Ciudad de Nueva York (HPD)</strong> administra por separado aproximadamente 30,000 vales de la Sección 8 ligados a desarrollos asequibles específicos — usted solicita propiedad por propiedad a través de <strong>NYC Housing Connect</strong> (housingconnect.nyc.gov)."
+      "<strong>Teléfonos y oficinas de NYCHA.</strong> NYCHA llama a su Centro de Contacto al Cliente (CCC) su único punto de contacto para residentes de vivienda pública, personas con vale de Sección 8 y propietarios de Sección 8: <a href=\"tel:+17187077771\">(718) 707-7771</a>. Para ayuda con una solicitud de vivienda pública, NYCHA indica el CCC de 8 a.m. a 5 p.m., de lunes a viernes. Centros sin cita: 478 East Fordham Road (1 Fordham Plaza), 2.º piso, Bronx, y 787 Atlantic Avenue, 2.º piso, Brooklyn, ambos de lunes a viernes de 8 a.m. a 5 p.m.; si no tiene internet, puede pedir una cita allí y solicitar en un quiosco de NYCHA. La central telefónica de NYCHA es el (212) 306-3000. Lista completa en la <a href=\"https://www.nyc.gov/site/nycha/about/contact.page\" target=\"_blank\" rel=\"noopener\">página de contacto de NYCHA</a>. El estado y los cambios de ambos programas se hacen en el <a href=\"https://selfserve.nycha.info/\" target=\"_blank\" rel=\"noopener\">Portal de Autoservicio de NYCHA</a> (selfserve.nycha.info). NYCHA advierte: nunca pague dinero para solicitar vivienda pública o Sección 8; denuncie estafas a la Oficina del Inspector General de NYCHA al (212) 306-3355.",
+      "<strong>La Sección 8 de HPD es otra puerta, pero no está abierta al público.</strong> El Departamento de Preservación y Desarrollo de la Vivienda de la Ciudad de Nueva York (HPD) tiene su propio programa de Sección 8 y <a href=\"https://www.nyc.gov/site/hpd/services-and-information/about-section-8.page\" target=\"_blank\" rel=\"noopener\">dice que atiende</a> a más de 39,000 hogares. HPD da vales a familias en edificios desarrollados o renovados con ciertos programas de HPD y a hogares sin vivienda referidos por proveedores de DHS y HRA, y su <a href=\"https://www.nyc.gov/site/hpd/services-and-information/section-8-eligibility.page\" target=\"_blank\" rel=\"noopener\">página de elegibilidad</a> dice: \"Applications are not accepted by the general public\" (no se aceptan solicitudes del público en general), verificado el 16 de octubre de 2026. Si vive en un edificio con ayuda de HPD o en un refugio, pregunte a la administración o a su trabajador social.",
+      "<strong>NYC Housing Connect para loterías de vivienda asequible.</strong> HPD describe <a href=\"https://housingconnect.nyc.gov/\" target=\"_blank\" rel=\"noopener\">NYC Housing Connect</a> como el portal de los neoyorquinos para encontrar y solicitar oportunidades de alquiler y compra asequibles en los cinco distritos. Usted se registra una vez y solicita cada lotería que corresponda a sus ingresos y al tamaño de su hogar. Son apartamentos con ingresos restringidos, no Sección 8. Detalles en la <a href=\"https://www.nyc.gov/site/hpd/services-and-information/housing-connect-rentals.page\" target=\"_blank\" rel=\"noopener\">página de Housing Connect de HPD</a>.",
+      "<strong>Atrasado con la renta o con riesgo de desalojo.</strong> La Asistencia de Emergencia de HRA, que HRA también llama \"One Shot Deal\", puede ayudar si va a perder su vivienda sin ayuda; debe tener una entrevista y es posible que tenga que devolver una parte o todo. HRA dice que puede solicitarla en línea por <a href=\"https://a069-access.nyc.gov/\" target=\"_blank\" rel=\"noopener\">ACCESS HRA</a> o en un Benefit Access Center; DSS OneNumber (718) 557-1399 (<a href=\"https://www.nyc.gov/site/hra/help/cash-assistance.page\" target=\"_blank\" rel=\"noopener\">página de asistencia en efectivo de HRA</a>). Si tiene un caso de desalojo, el programa de <a href=\"https://www.nyc.gov/site/hra/help/legal-services-for-tenants.page\" target=\"_blank\" rel=\"noopener\">Derecho a Abogado (Right-to-Counsel)</a> de la ciudad da ayuda legal gratuita en todos los códigos postales y sin importar su estatus migratorio, en la Corte de Vivienda y en los casos de terminación de NYCHA: llame al 311 y pida la Tenant Helpline, o a Housing Court Answers al (718) 557-1379. Es ilegal que un propietario rechace un vale; denúncielo por el 311 a la Comisión de Derechos Humanos de NYC. Nuestra página de <a href=\"../../../es/recursos/ciudades/new-york\">recursos de vivienda de Nueva York</a> tiene detalles de CityFHEPS, refugios y derechos del inquilino."
     ],
     "faqs": [
       {
-        "q": "¿Está abierta la lista de espera de la Sección 8 de Nueva York (NYCHA)?",
-        "a": "No. La lista de espera del Housing Choice Voucher de NYCHA ha estado cerrada desde 2009. Reabrió brevemente por lotería en 2024 y, a partir del 1 de agosto de 2025, NYCHA pausó la emisión y el procesamiento de vales para los solicitantes en la lista de espera general de HCV. Confirme el estado actual en el sitio oficial de NYCHA antes de confiar en él."
+        "q": "¿Está abierta la lista de espera de Sección 8 de NYCHA?",
+        "a": "No. NYCHA dice que su lista de espera de Housing Choice Voucher (Sección 8) \"is currently closed to new applicants\" (está cerrada a nuevos solicitantes), verificado el 16 de octubre de 2026. La última apertura fue del 3 al 9 de junio de 2024, cuando NYCHA recibió 633,808 solicitudes en línea y eligió 200,000 por lotería. Desde el 1 de agosto de 2025, NYCHA pausó la entrega de vales a quienes están en esa lista, y dice que la pausa sigue vigente. La vivienda pública de NYCHA es una lista aparte que sí recibe solicitudes en línea."
+      },
+      {
+        "q": "¿Cómo solicito vivienda pública de NYCHA?",
+        "a": "En línea por ApplyNYCHA, en el Portal de Autoservicio de NYCHA, selfserve.nycha.info. NYCHA dice que debe enviar la solicitud por ApplyNYCHA. Usted elige un primer y un segundo distrito, no necesita enviar documentos y NYCHA le manda una carta en un plazo de 30 días. Si no tiene internet, pida una cita en un Centro sin cita de NYCHA y solicite en un quiosco. Para ayuda, llame al Centro de Contacto al Cliente al (718) 707-7771, de 8 a.m. a 5 p.m., de lunes a viernes. Renueve su solicitud cada dos años para seguir en la lista."
+      },
+      {
+        "q": "¿Cuál es el teléfono de NYCHA?",
+        "a": "El Centro de Contacto al Cliente de NYCHA es el (718) 707-7771. Según NYCHA, atiende a residentes de vivienda pública, personas con vale de Sección 8, propietarios de Sección 8 y solicitantes de vivienda pública. La central telefónica de NYCHA es el (212) 306-3000. Para denunciar una estafa o un fraude, llame a la línea del Inspector General de NYCHA al (212) 306-3355."
+      },
+      {
+        "q": "Ya estoy en la lista de Sección 8 de NYCHA. ¿Qué debo hacer?",
+        "a": "Mantenga sus datos de contacto al día en el Portal de Autoservicio de NYCHA, selfserve.nycha.info. NYCHA dice que no sacó a nadie de la lista durante la pausa, que usted conserva su posición y que, cuando reanude la entrega de vales, contactará a los solicitantes según su preferencia y su lugar en la lista. Si NYCHA le envía un aviso para actualizar su solicitud, respóndalo antes de la fecha límite. Para ayuda con sus datos, llame al (718) 707-7771."
       },
       {
         "q": "¿Cuál es la diferencia entre la Sección 8 de NYCHA y la de HPD?",
-        "a": "NYCHA y el Departamento de Preservación y Desarrollo de la Vivienda de la Ciudad de Nueva York (HPD) administran programas de la Sección 8 separados. NYCHA administra el programa de vales basados en el inquilino más grande (actualmente cerrado o en pausa). HPD administra aproximadamente 30,000 vales ligados a desarrollos de vivienda asequible específicos — usted solicita propiedad por propiedad a través de NYC Housing Connect en housingconnect.nyc.gov."
+        "a": "Son programas separados. NYCHA tiene el programa de Sección 8 más grande del país, y su lista está cerrada. El Departamento de Preservación y Desarrollo de la Vivienda de la Ciudad de Nueva York (HPD) tiene su propio programa de Sección 8 para hogares en ciertos edificios con ayuda de HPD y hogares sin vivienda referidos por proveedores de DHS y HRA; HPD dice que no acepta solicitudes del público en general. NYC Housing Connect es una tercera puerta, aparte: loterías de apartamentos con ingresos restringidos, no Sección 8."
       },
       {
-        "q": "¿Cómo puedo solicitar vivienda asequible en Nueva York ahora mismo?",
-        "a": "Con la lista de la Sección 8 de NYCHA cerrada, la vía más activa es NYC Housing Connect (housingconnect.nyc.gov), donde puede solicitar apartamentos asequibles financiados por HPD y la ciudad mediante lotería. Los veteranos pueden calificar para HUD-VASH, y las solicitudes de vivienda pública de NYCHA pueden estar disponibles por separado — revise el sitio oficial de NYCHA."
+        "q": "¿Dónde puedo conseguir vivienda asequible o ayuda con la renta en Nueva York ahora mismo?",
+        "a": "Solicite vivienda pública de NYCHA por ApplyNYCHA y participe en las loterías de vivienda asequible de NYC Housing Connect. Si está atrasado con la renta, puede pedir la Asistencia de Emergencia de HRA (One Shot Deal) en línea por ACCESS HRA o en un Benefit Access Center. Si tiene un caso de desalojo, llame al 311 y pida la Tenant Helpline para recibir ayuda legal gratuita del programa de Derecho a Abogado."
       }
     ],
     "sources": [
       {
-        "label": "NYCHA — sitio web oficial",
-        "url": "https://www.nyc.gov/site/nycha/index.page"
+        "label": "NYCHA: Applying for Section 8 (solicitud de Sección 8)",
+        "url": "https://www.nyc.gov/site/nycha/section-8/applicants.page"
       },
       {
-        "label": "NYC Housing Connect (HPD)",
-        "url": "https://housingconnect.nyc.gov/"
+        "label": "NYCHA: Section 8 Program Updates (novedades de Sección 8)",
+        "url": "https://www.nyc.gov/site/nycha/section-8/section-8-program-updates.page"
+      },
+      {
+        "label": "NYCHA: Apply (solicitud de vivienda pública por ApplyNYCHA)",
+        "url": "https://www.nyc.gov/site/nycha/eligibility/apply.page"
+      },
+      {
+        "label": "NYCHA: Public Housing Applicant FAQs (preguntas de solicitantes)",
+        "url": "https://www.nyc.gov/site/nycha/eligibility/public-housing-applicant-faq.page"
+      },
+      {
+        "label": "NYCHA: Contact (contacto)",
+        "url": "https://www.nyc.gov/site/nycha/about/contact.page"
+      },
+      {
+        "label": "Comunicado de NYCHA del 1 de agosto de 2024 (lotería de Sección 8 de 2024)",
+        "url": "https://www.nyc.gov/site/nycha/about/press/pr-2024/pr-20240801.page"
+      },
+      {
+        "label": "HPD: Section 8 Eligibility (elegibilidad)",
+        "url": "https://www.nyc.gov/site/hpd/services-and-information/section-8-eligibility.page"
+      },
+      {
+        "label": "HPD: NYC Housing Connect",
+        "url": "https://www.nyc.gov/site/hpd/services-and-information/housing-connect-rentals.page"
+      },
+      {
+        "label": "HRA: asistencia en efectivo y Asistencia de Emergencia (One Shot Deal)",
+        "url": "https://www.nyc.gov/site/hra/help/cash-assistance.page"
+      },
+      {
+        "label": "Oficina de Justicia Civil de HRA: servicios legales para inquilinos (Derecho a Abogado)",
+        "url": "https://www.nyc.gov/site/hra/help/legal-services-for-tenants.page"
       }
     ]
   }
