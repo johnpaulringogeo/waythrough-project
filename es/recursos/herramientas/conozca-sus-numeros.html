@@ -166,7 +166,7 @@
                 <option value="8">8 personas</option>
             </select>
 
-            <label for="dependents">Número de Dependientes Menores de 18</label>
+            <label for="dependents">Número de Dependientes (menores de 18, o estudiantes de tiempo completo o personas con discapacidad, que no sean el jefe de hogar ni su cónyuge)</label>
             <input type="number" id="dependents" value="0" min="0" max="10">
 
             <div class="kyn-check-row">
@@ -184,6 +184,13 @@
 
             <label for="utilities">Servicios Públicos Mensuales Estimados (opcional — predeterminado $150)</label>
             <input type="number" id="utilities" value="150" min="0" placeholder="150">
+
+            <label for="rules">¿Qué reglas usa su autoridad de vivienda?</label>
+            <select id="rules">
+                <option value="now">Reglas actuales (la mayoría de las autoridades hasta el 31 de diciembre de 2026)</option>
+                <option value="2027">Nuevas reglas de HOTMA (la mayoría de las autoridades desde el 1 de enero de 2027)</option>
+            </select>
+            <p style="font-size:0.85rem;color:var(--color-text-light);margin-top:6px;">HUD aplica las nuevas reglas de ingresos (HOTMA) en la mayoría de las autoridades de vivienda desde el 1 de enero de 2027 (Aviso PIH 2026-15). Su autoridad de vivienda le puede decir qué reglas le aplican.</p>
 
             <button class="kyn-btn" id="calcBtn">Calcular Mis Números</button>
         </div>
@@ -234,6 +241,7 @@
             medicalRow.classList.toggle('visible', this.checked);
         });
 
+        if (new Date() >= new Date('2027-01-01T00:00:00')) document.getElementById('rules').value = '2027';
         document.getElementById('calcBtn').addEventListener('click', calculate);
 
         // National median family income basis for a 4-person household — FY2026 HUD estimate.
@@ -265,26 +273,37 @@
             const annualIncome = monthlyIncome * 12;
 
             // --- Cálculo de Renta Sección 8 ---
-            const depDeduction = deps * 480;
-            const elderlyDeduction = isElderlyDisabled ? 400 : 0;
+            // HUD deductions (24 CFR 5.611). Current amounts, or the HOTMA amounts HUD enforces for most
+            // housing authorities from Jan 1, 2027 (Notice PIH 2026-15; CY2027 inflation-adjusted table).
+            const R = document.getElementById('rules').value === '2027'
+                ? { dep: 525, elderly: 575, medPct: 10 }
+                : { dep: 480, elderly: 400, medPct: 3 };
+            const depCount = Math.min(deps, Math.max(0, hhSize - 1));
+            const depDeduction = depCount * R.dep;
+            const elderlyDeduction = isElderlyDisabled ? R.elderly : 0;
             const annualMedical = medicalMonthly * 12;
-            const medicalThreshold = annualIncome * 0.03;
+            const medicalThreshold = annualIncome * R.medPct / 100;
             const medicalDeduction = isElderlyDisabled ? Math.max(0, annualMedical - medicalThreshold) : 0;
             const childcareDeduction = childcareMonthly * 12;
 
             const totalDeductions = depDeduction + elderlyDeduction + medicalDeduction + childcareDeduction;
             const adjustedIncome = Math.max(0, annualIncome - totalDeductions);
-            const ttp = adjustedIncome * 0.30;
+            // Total Tenant Payment = the higher of 30% of adjusted income or 10% of gross income (24 CFR 5.628)
+            const ttp30 = adjustedIncome * 0.30;
+            const tenPct = annualIncome * 0.10;
+            const ttp = Math.max(ttp30, tenPct);
             const monthlyTTP = ttp / 12;
 
             let html = '';
             html += '<div class="kyn-calc-step"><span>Ingreso Anual Bruto</span><span>' + fmt(annualIncome) + '</span></div>';
-            if (depDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por dependientes (' + deps + ' x $480)</span><span>-' + fmt(depDeduction) + '</span></div>';
+            if (depDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por dependientes (' + depCount + ' x $' + R.dep + ')</span><span>-' + fmt(depDeduction) + '</span></div>';
             if (elderlyDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por persona mayor/discapacidad</span><span>-' + fmt(elderlyDeduction) + '</span></div>';
-            if (medicalDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por gastos médicos (exceso sobre 3%)</span><span>-' + fmt(medicalDeduction) + '</span></div>';
+            if (medicalDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por gastos médicos (exceso sobre ' + R.medPct + '% del ingreso)</span><span>-' + fmt(medicalDeduction) + '</span></div>';
             if (childcareDeduction > 0) html += '<div class="kyn-calc-step"><span>Deducción por cuidado infantil</span><span>-' + fmt(childcareDeduction) + '</span></div>';
             html += '<div class="kyn-calc-step"><span>Ingreso Anual Ajustado</span><span>' + fmt(adjustedIncome) + '</span></div>';
-            html += '<div class="kyn-calc-step"><span>30% del Ingreso Ajustado (anual)</span><span>' + fmt(ttp) + '</span></div>';
+            html += '<div class="kyn-calc-step"><span>30% del Ingreso Ajustado (anual)</span><span>' + fmt(ttp30) + '</span></div>';
+            html += '<div class="kyn-calc-step"><span>10% del Ingreso Bruto (anual)</span><span>' + fmt(tenPct) + '</span></div>';
+            html += '<div class="kyn-calc-step"><span style="font-size:0.85rem;">Su renta es la cantidad más alta de las dos' + (tenPct > ttp30 ? ' (aquí, la del 10%)' : '') + '. Una autoridad de vivienda también puede fijar una renta mínima de hasta $50.</span><span></span></div>';
             html += '<div class="kyn-calc-step total"><span>Su Renta Mensual Estimada (TTP)</span><span>' + fmt(monthlyTTP) + '&#47;mes</span></div>';
 
             const housingPct = monthlyIncome > 0 ? Math.min(100, (monthlyTTP / monthlyIncome) * 100) : 0;
