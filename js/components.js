@@ -196,6 +196,8 @@ function performSearch(query) {
             if (desc.includes(term)) score += 2;
             if (body.includes(term)) score += 1;
         }
+        // Same-language pages first: a match in the reader's language outranks an equal one in the other.
+        if (score > 0 && (item.url || '').startsWith('/es/') === isSpanish) score += 2;
         return { ...item, score };
     }).filter(item => item.score > 0);
     scored.sort((a, b) => b.score - a.score);
@@ -277,14 +279,38 @@ function updateActiveResult(items) {
     }
 }
 
+// GA4: one `search` event per settled query (1.5s without typing), never repeated for the same
+// term; `search_result_click` when a result is chosen. Lets the monthly review see what visitors
+// look for and whether site search finds it.
+let searchTrackTimer, lastTrackedSearch = '';
+function trackSearch(query, count) {
+    clearTimeout(searchTrackTimer);
+    const term = query.trim().toLowerCase().slice(0, 100);
+    searchTrackTimer = setTimeout(() => {
+        if (term.length < 3 || term === lastTrackedSearch || typeof gtag !== 'function') return;
+        lastTrackedSearch = term;
+        gtag('event', 'search', { search_term: term, results_count: count, language: isSpanish ? 'es' : 'en' });
+    }, 1500);
+}
+document.addEventListener('click', e => {
+    const a = e.target.closest && e.target.closest('.search-result-item');
+    if (!a || typeof gtag !== 'function') return;
+    const input = document.getElementById('searchInput');
+    gtag('event', 'search_result_click', {
+        search_term: (input ? input.value : '').trim().toLowerCase().slice(0, 100),
+        link_url: a.getAttribute('href'),
+        result_position: Number((a.id || '').replace('search-result-', '')) + 1
+    });
+});
+
 function renderSearchResults(results) {
     const container = document.getElementById('searchResults');
     const liveRegion = document.getElementById('searchLive');
     searchActiveIndex = -1;
 
     if (!results.length) {
-        container.innerHTML = '<div class="search-no-results">No matching resources found. Try a different keyword.</div>';
-        liveRegion.textContent = 'No matching resources found.';
+        container.innerHTML = '<div class="search-no-results">' + (isSpanish ? 'No encontramos recursos. Pruebe con otra palabra.' : 'No matching resources found. Try a different keyword.') + '</div>';
+        liveRegion.textContent = isSpanish ? 'No encontramos recursos.' : 'No matching resources found.';
         return;
     }
     container.innerHTML = results.map((r, i) => `
@@ -293,7 +319,9 @@ function renderSearchResults(results) {
             <div class="search-result-desc">${escapeHTML(r.description || r.desc || "")}</div>
         </a>
     `).join('');
-    liveRegion.textContent = results.length + ' result' + (results.length === 1 ? '' : 's') + ' found. Use arrow keys to navigate.';
+    liveRegion.textContent = isSpanish
+        ? results.length + (results.length === 1 ? ' resultado' : ' resultados') + '. Use las flechas para navegar.'
+        : results.length + ' result' + (results.length === 1 ? '' : 's') + ' found. Use arrow keys to navigate.';
 }
 
 // Focus trap: keep Tab within the search overlay when open
@@ -454,6 +482,7 @@ function renderNav() {
             }
             const results = performSearch(query);
             renderSearchResults(results);
+            trackSearch(query, results.length);
             searchInput.setAttribute('aria-expanded', results.length > 0 ? 'true' : 'false');
         }, 200);
     });
@@ -693,7 +722,7 @@ function addTableOfContents() {
     let tocHTML = '<div class="toc-title">' + tocTitle + '</div><ol class="toc-list">';
     headings.forEach(h => {
         // Skip "Related Resources" heading
-        if (h.textContent.trim() === 'Related Resources') return;
+        if (/^(related resources|recursos relacionados)$/i.test(h.textContent.trim())) return;
         tocHTML += '<li><a href="#' + h.id + '">' + escapeHTML(h.textContent.trim()) + '</a></li>';
     });
     tocHTML += '</ol>';
