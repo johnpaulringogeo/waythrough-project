@@ -299,11 +299,14 @@ FAQ_LINK_TARGETS = {
     "freeevictionhelp.org": "https://freeevictionhelp.org",
     "fwhs.org": "https://fwhs.org",
     "habc.org": "https://www.habc.org",
+    "hacla.org": "https://www.hacla.org",  # fetched live 2026-10-15 (SEO2); Section 8 page says the list is closed
     "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
+    "hacm.org/subsidized": "https://www.hacm.org/subsidized",  # fetched live 2026-10-15 (SEO2); HACM's short link to its open waiting lists page; bot-blocked to scripts, live for people
     "hakc.org": "https://www.hakc.org",
     "hakc.org/apply-online": "https://www.hakc.org/apply-online",
     "hatctx.com": "https://hatctx.com",
     "homesa.org": "https://homesa.org",
+    "housing.lacity.gov": "https://housing.lacity.gov",  # fetched live 2026-10-15 (SEO2); LAHD, the City of LA housing department
     "housing.sfgov.org": "https://housing.sfgov.org",
     "housinglink.org": "https://www.housinglink.org",
     "indyhousing.org": "https://www.indyhousing.org",
@@ -311,6 +314,7 @@ FAQ_LINK_TARGETS = {
     "kcba.org": "https://www.kcba.org",
     "kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants": "https://kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants",
     "kshousingcorp.org": "https://kshousingcorp.org",
+    "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
     "las.org": "https://las.org",
     "law.lis.virginia.gov": "https://law.lis.virginia.gov",
     "lawmo.org": "https://lawmo.org",
@@ -326,6 +330,7 @@ FAQ_LINK_TARGETS = {
     "mesaaz.gov/residents/housing": "https://mesaaz.gov/residents/housing",
     "mifa.org/applyonline": "https://www.mifa.org/applyonline",
     "mn.gov/mdhr": "https://mn.gov/mdhr",  # bot-blocked to scripts, live for people
+    "myportal.hacm.org": "https://myportal.hacm.org",  # fetched live 2026-10-15 (SEO2); HACM's RentCafe applicant portal; bot-blocked to scripts, live for people
     "nashville-mdha.org": "https://www.nashville-mdha.org",
     "needlink.org": "https://needlink.org",  # NeedLink Nashville's current site (needlinknashville.org is dead); fetched live 2026-09-11 (NASH)
     "oakha.org": "https://www.oakha.org",
