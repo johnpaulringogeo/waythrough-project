@@ -651,7 +651,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -747,7 +747,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/found-open-waiting-list</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1004,6 +1004,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/guides/section-8-lottery</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/immigration-housing</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1149,7 +1155,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/denver-dha</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2620,7 +2626,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2812,7 +2818,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/encontraste-lista-espera-abierta</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2927,6 +2933,12 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/vivienda-durante-divorcio</loc>
     <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/loteria-seccion-8</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3350,7 +3362,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/denver-dha</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
