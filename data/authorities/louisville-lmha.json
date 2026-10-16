@@ -1,0 +1,252 @@
+{
+  "slug": "louisville-lmha",
+  "kind": "authority",
+  "name": "Louisville Metro Housing Authority (LMHA)",
+  "schema_name": "Louisville Metro Housing Authority",
+  "short_name": "LMHA",
+  "city": "Louisville",
+  "state": "KY",
+  "serves": "Louisville Metro and Jefferson County, Kentucky",
+  "phone": "(502) 569-3400",
+  "official_url": "https://www.lmha1.org/",
+  "apply_url": "https://portal.lmha1.org/",
+  "city_slug": "louisville",
+  "state_slug": "kentucky",
+  "updated": "October 15, 2026",
+  "intro": "The Louisville Metro Housing Authority is the public housing agency for Louisville Metro and Jefferson County. HUD lists it as PHA KY001 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing, and LMHA says it serves \"more than 11,000 households\" and owns and manages \"nearly 3,000 traditional Public Housing (PH) units.\" The short answer to the question most people bring here is that LMHA is not taking new applications for either program. Its Section 8 page says so, its rental process page dates the pause to July 1, 2024, and its applicant portal says the same for public housing. This page covers those exact words, the three phone numbers that do different jobs, the six privately managed communities that keep their own lists, the points system LMHA uses when the voucher list does reopen, and the 20-day rule that removes people who miss a letter.",
+  "programs": [
+    "Housing Choice Voucher (Section 8)",
+    "Public Housing at LMHA sites, including senior and disabled buildings for ages 55 and over",
+    "Project-Based Vouchers (PBV) and RAD project-based sites with their own waiting lists",
+    "Special programs including Family Self-Sufficiency"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked October 15, 2026). LMHA's Section 8 page and its HCV Self-Service page both read: \"Please be advised that we are not accepting Housing Choice Voucher applications at this time.\" Its Rental Process and Eligibility page adds: \"As of July 1, 2024 the application process for Metro Louisville has been put on hold.\" No reopening date is published on any LMHA page or in its news list. LMHA's Administrative Plan says a reopening is announced \"at least 10 business days\" ahead in local media."
+    },
+    {
+      "program": "Public Housing (LMHA's central list)",
+      "status": "Closed",
+      "note": "LMHA's public housing application page gives no status and sends applicants to its online portal. The portal's welcome page, checked October 15, 2026, reads: \"New applications are NOT being taken at this time for Section 8 or Public Housing. Applications are closed.\" The central list covers Parkway Place, Scattered Sites, Avenue Plaza, Will E. Seay Plaza, Lourdes Hall and St. Catherine Court."
+    },
+    {
+      "program": "Privately managed public housing sites and project-based (PBV) sites",
+      "status": "Apply at each site; no status published",
+      "note": "LMHA's Admissions and Continued Occupancy Policy names six privately managed communities with their own site-based lists, each taken at that site's office: Liberty Green (502) 582-8500, Sheppard Square (502) 561-0078, Villages of Park DuValle (502) 778-7277, The Oaks (502) 778-8333, Wilart Arms (502) 772-2249, and Family Scholar House (502) 584-8090. Project-based voucher sites also keep separate lists, mostly run by the owners, and LMHA's PBV site list says: \"Availability is not guaranteed. Please contact the site for unit information.\" LMHA publishes no open or closed status for any of these, so call the site."
+    }
+  ],
+  "also_serving": [
+    "<strong>Kentucky Housing Corporation</strong> runs the statewide Section 8 program for areas outside local housing authorities. HUD lists it as KY901, program type Section 8, in Frankfort, (502) 564-7630. It does not cover Louisville Metro, which is LMHA's jurisdiction.",
+    "<strong>Across the river in Indiana</strong>, the Housing Authority of the City of New Albany (IN012, (812) 206-2033) and the Housing Authority of the City of Jeffersonville (IN023, (812) 283-3553) run their own lists. Both numbers are as HUD lists them, so confirm with each authority."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Louisville Section 8 waiting list open?",
+      "a": "No. As of October 15, 2026, LMHA's Section 8 page reads: \"Please be advised that we are not accepting Housing Choice Voucher applications at this time.\" Its Rental Process and Eligibility page says: \"As of July 1, 2024 the application process for Metro Louisville has been put on hold.\" LMHA publishes no reopening date. Its Administrative Plan says reopenings are announced at least 10 business days in advance in local media, so watch lmha1.org and local news."
+    },
+    {
+      "q": "Can I apply for public housing in Louisville?",
+      "a": "Not on LMHA's central list right now. LMHA's applicant portal reads: \"New applications are NOT being taken at this time for Section 8 or Public Housing. Applications are closed.\" Six privately managed communities keep their own lists and take applications at their own offices: Liberty Green, Sheppard Square, Villages of Park DuValle, The Oaks, Wilart Arms and Family Scholar House. LMHA does not publish whether those lists are open, so call the community before you go."
+    },
+    {
+      "q": "I am already on the list. How do I check my place?",
+      "a": "Call (502) 584-1704 and follow the prompts. LMHA's Section 8 page describes it as the line for \"information regarding your position on the LMHA HCV waiting list\" and says it is open 24 hours a day, seven days a week, and the applicant portal gives the same number. Keep your address current in writing: LMHA's Administrative Plan says that if you do not respond to a letter within 20 calendar days, or if mail comes back with no forwarding address, you are removed from the waiting list without further notice."
+    },
+    {
+      "q": "How will LMHA pick people when the voucher list reopens?",
+      "a": "By points, then by date and time, not by lottery. LMHA's Administrative Plan, effective April 21, 2026, assigns preference points: 100 for VAWA, 50 for families who lost assistance because of insufficient funding, 25 for displacement, 5 for residency, 3 for elderly or disabled households and 3 for veterans. Within the same points, families are served first-come, first-served by the date and time the complete application is received. For public housing, LMHA's policy lists families by bedroom size and date and time, with preference holders first, and offers every fourth eligible unit to a family referred from the homeless Continuum of Care."
+    },
+    {
+      "q": "Which LMHA number should I call?",
+      "a": "(502) 569-3400 is LMHA's main office, printed in the footer of every LMHA page, on its public housing application page and on its applicant portal. (502) 569-6060 is the Section 8 number, labeled that way in the footer and given on the Section 8 page as the line to reach a customer service representative. (502) 584-1704 is only for waiting-list position. Office hours are Monday through Friday, 8:00 am to 4:30 pm, and LMHA's Section 8 page says meetings with a specialist are by appointment only."
+    },
+    {
+      "q": "Where is the LMHA office?",
+      "a": "LMHA's own pages, its applicant portal and its May 2026 admissions policy all give 320 South Fifth Street, Louisville, KY 40202. A December 2024 LMHA news post announced a move to the 500W building at 500 W. Jefferson St. starting in May 2025, and HUD's directory gives a third address, 420 S 8th Street, so call (502) 569-3400 to confirm before you visit in person."
+    },
+    {
+      "q": "What changed for voucher holders in 2026?",
+      "a": "LMHA posted three changes on April 28, 2026: a $50 minimum rent starting at each family's next certification, a cut in the standard medical deduction from $2,200 to $500 effective July 1, 2026, and the end of utility reimbursement payments on July 1, 2026. If your share of the rent went up after July, these are the likely reasons, and your specialist can confirm the math."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Louisville Metro Housing Authority - official site (main phone, Section 8 number, address, hours)",
+      "url": "https://www.lmha1.org/"
+    },
+    {
+      "label": "LMHA - Section 8 (not accepting HCV applications, waiting-list position line, appointments)",
+      "url": "https://www.lmha1.org/section_8/index.php"
+    },
+    {
+      "label": "LMHA - HCV Self-Service (not accepting HCV applications)",
+      "url": "https://www.lmha1.org/section_8/hcv_self_service.php"
+    },
+    {
+      "label": "LMHA - Rental Process and Eligibility (application process on hold since July 1, 2024)",
+      "url": "https://www.lmha1.org/section_8/rental_process_and_eligibility.php"
+    },
+    {
+      "label": "LMHA - Applicant portal (applications closed for Section 8 and public housing)",
+      "url": "https://portal.lmha1.org/"
+    },
+    {
+      "label": "LMHA - Application for Public Housing",
+      "url": "https://www.lmha1.org/housing/application_for_public_housing.php"
+    },
+    {
+      "label": "LMHA - About Public Housing (nearly 3,000 units)",
+      "url": "https://www.lmha1.org/housing/about_public_housing.php"
+    },
+    {
+      "label": "LMHA - Admissions and Continued Occupancy Policy, effective May 4, 2026 (site lists, preferences)",
+      "url": "https://www.lmha1.org/docs/ACOP%20(Effective%205-4-2026).pdf"
+    },
+    {
+      "label": "LMHA - HCV Administrative Plan 2026 (preference points, 20-day rule, reopening notice)",
+      "url": "https://www.lmha1.org/docs/Complete%20Admin%20Plan%202026.pdf"
+    },
+    {
+      "label": "LMHA - Project-Based Voucher sites (call each site)",
+      "url": "https://www.lmha1.org/docs/PBV_Sites.pdf"
+    },
+    {
+      "label": "LMHA - April 28, 2026 HCV program changes",
+      "url": "https://www.lmha1.org/_T12_R88.php"
+    },
+    {
+      "label": "LMHA - December 2024 headquarters move announcement",
+      "url": "https://www.lmha1.org/_T12_R73.php"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Kentucky (KY001 Combined; KY901 Kentucky Housing Corporation)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Indiana (IN012 New Albany; IN023 Jeffersonville)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_IN.pdf"
+    }
+  ],
+  "es": {
+    "serves": "Louisville Metro y el condado de Jefferson, Kentucky",
+    "updated": "15 de octubre de 2026",
+    "intro": "La Louisville Metro Housing Authority es la agencia de vivienda pública de Louisville Metro y el condado de Jefferson. HUD la registra como la PHA KY001 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, y LMHA dice que sirve a \"more than 11,000 households\" (más de 11,000 hogares) y que es dueña y administradora de \"nearly 3,000 traditional Public Housing (PH) units\" (casi 3,000 unidades de vivienda pública tradicional). La respuesta corta a la pregunta que trae aquí a la mayoría de la gente es que LMHA no está aceptando solicitudes nuevas para ninguno de los dos programas. Lo dice su página de la Sección 8, su página del proceso de alquiler fecha la pausa el 1 de julio de 2024, y su portal de solicitantes dice lo mismo para la vivienda pública. Esta página explica esas palabras exactas, los tres números de teléfono que sirven para cosas distintas, las seis comunidades de administración privada que llevan sus propias listas, el sistema de puntos que LMHA usará cuando la lista de vales vuelva a abrir y la regla de 20 días que elimina a quienes no responden una carta.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8)",
+      "Vivienda pública en sitios de LMHA, incluidos edificios para personas mayores y con discapacidad de 55 años o más",
+      "Vales Basados en Proyectos (PBV) y sitios basados en proyectos de RAD con sus propias listas de espera",
+      "Programas especiales, incluido el de Autosuficiencia Familiar"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 15 de octubre de 2026). La página de la Sección 8 de LMHA y su página HCV Self-Service dicen: \"Please be advised that we are not accepting Housing Choice Voucher applications at this time\" (le informamos que no estamos aceptando solicitudes de Housing Choice Voucher en este momento). Su página Rental Process and Eligibility agrega: \"As of July 1, 2024 the application process for Metro Louisville has been put on hold\" (desde el 1 de julio de 2024 el proceso de solicitud para Metro Louisville está en pausa). Ninguna página de LMHA ni su lista de noticias publica una fecha de reapertura. El Plan Administrativo de LMHA dice que una reapertura se anuncia \"at least 10 business days\" (con al menos 10 días hábiles) de anticipación en medios locales."
+      },
+      {
+        "program": "Vivienda pública (lista central de LMHA)",
+        "status": "Cerrada",
+        "note": "La página de solicitud de vivienda pública de LMHA no da un estado y envía a los solicitantes a su portal en línea. La página de bienvenida del portal, revisada el 15 de octubre de 2026, dice: \"New applications are NOT being taken at this time for Section 8 or Public Housing. Applications are closed\" (no se están aceptando solicitudes nuevas para la Sección 8 ni para vivienda pública; las solicitudes están cerradas). La lista central cubre Parkway Place, Scattered Sites, Avenue Plaza, Will E. Seay Plaza, Lourdes Hall y St. Catherine Court."
+      },
+      {
+        "program": "Sitios de vivienda pública de administración privada y sitios con vales basados en proyectos (PBV)",
+        "status": "Se solicita en cada sitio; sin estado publicado",
+        "note": "La Política de Admisiones y Ocupación Continua de LMHA nombra seis comunidades de administración privada con sus propias listas por sitio, cada una en la oficina de ese sitio: Liberty Green (502) 582-8500, Sheppard Square (502) 561-0078, Villages of Park DuValle (502) 778-7277, The Oaks (502) 778-8333, Wilart Arms (502) 772-2249 y Family Scholar House (502) 584-8090. Los sitios con vales basados en proyectos también llevan listas separadas, en su mayoría administradas por los dueños, y la lista de sitios PBV de LMHA dice: \"Availability is not guaranteed. Please contact the site for unit information\" (la disponibilidad no está garantizada; comuníquese con el sitio para información sobre unidades). LMHA no publica si alguna de estas listas está abierta o cerrada, así que llame al sitio."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Kentucky Housing Corporation</strong> administra el programa estatal de la Sección 8 para las zonas fuera de las autoridades de vivienda locales. HUD la registra como KY901, con tipo de programa \"Section 8\", en Frankfort, (502) 564-7630. No cubre Louisville Metro, que es la jurisdicción de LMHA.",
+      "<strong>Al otro lado del río, en Indiana</strong>, la Housing Authority of the City of New Albany (IN012, (812) 206-2033) y la Housing Authority of the City of Jeffersonville (IN023, (812) 283-3553) administran sus propias listas. Ambos números son los que lista HUD, así que confírmelos con cada autoridad."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Louisville?",
+        "a": "No. Al 15 de octubre de 2026, la página de la Sección 8 de LMHA dice: \"Please be advised that we are not accepting Housing Choice Voucher applications at this time\" (no estamos aceptando solicitudes de Housing Choice Voucher en este momento). Su página Rental Process and Eligibility dice: \"As of July 1, 2024 the application process for Metro Louisville has been put on hold\" (desde el 1 de julio de 2024 el proceso de solicitud está en pausa). LMHA no publica una fecha de reapertura. Su Plan Administrativo dice que las reaperturas se anuncian con al menos 10 días hábiles de anticipación en medios locales, así que esté pendiente de lmha1.org y de las noticias locales."
+      },
+      {
+        "q": "¿Puedo solicitar vivienda pública en Louisville?",
+        "a": "No en la lista central de LMHA por ahora. El portal de solicitantes de LMHA dice: \"New applications are NOT being taken at this time for Section 8 or Public Housing. Applications are closed\" (no se aceptan solicitudes nuevas para la Sección 8 ni para vivienda pública; las solicitudes están cerradas). Seis comunidades de administración privada llevan sus propias listas y reciben solicitudes en sus propias oficinas: Liberty Green, Sheppard Square, Villages of Park DuValle, The Oaks, Wilart Arms y Family Scholar House. LMHA no publica si esas listas están abiertas, así que llame a la comunidad antes de ir."
+      },
+      {
+        "q": "Ya estoy en la lista. ¿Cómo reviso mi lugar?",
+        "a": "Llame al (502) 584-1704 y siga las indicaciones. La página de la Sección 8 de LMHA la describe como la línea de \"information regarding your position on the LMHA HCV waiting list\" (información sobre su posición en la lista de espera de vales de LMHA) y dice que funciona las 24 horas, los siete días de la semana, y el portal de solicitantes da el mismo número. Mantenga su dirección al día por escrito: el Plan Administrativo de LMHA dice que si no responde una carta en 20 días naturales, o si el correo regresa sin dirección de reenvío, lo eliminan de la lista de espera sin más aviso."
+      },
+      {
+        "q": "¿Cómo elegirá LMHA a las personas cuando vuelva a abrir la lista de vales?",
+        "a": "Por puntos y luego por fecha y hora, no por sorteo. El Plan Administrativo de LMHA, vigente desde el 21 de abril de 2026, asigna puntos de preferencia: 100 por VAWA, 50 a familias que perdieron su asistencia por falta de fondos, 25 por desplazamiento, 5 por residencia, 3 a hogares de personas mayores o con discapacidad y 3 a veteranos. Con los mismos puntos, se atiende por orden de llegada según la fecha y hora en que se recibe la solicitud completa. Para la vivienda pública, la política de LMHA ordena a las familias por tamaño de recámaras y por fecha y hora, con quienes tienen preferencia primero, y ofrece una de cada cuatro unidades disponibles a una familia referida por el Continuum of Care para personas sin hogar."
+      },
+      {
+        "q": "¿A qué número de LMHA debo llamar?",
+        "a": "El (502) 569-3400 es la oficina principal de LMHA, impreso al pie de cada página de LMHA, en su página de solicitud de vivienda pública y en su portal de solicitantes. El (502) 569-6060 es el número de la Sección 8, identificado así al pie de página y señalado en la página de la Sección 8 como la línea para hablar con un representante de servicio al cliente. El (502) 584-1704 es solo para su posición en la lista de espera. El horario de oficina es de lunes a viernes, de 8:00 am a 4:30 pm, y la página de la Sección 8 de LMHA dice que las reuniones con un especialista son solo con cita."
+      },
+      {
+        "q": "¿Dónde está la oficina de LMHA?",
+        "a": "Las propias páginas de LMHA, su portal de solicitantes y su política de admisiones de mayo de 2026 dan 320 South Fifth Street, Louisville, KY 40202. Una noticia de LMHA de diciembre de 2024 anunció una mudanza al edificio 500W, en 500 W. Jefferson St., a partir de mayo de 2025, y el directorio de HUD da una tercera dirección, 420 S 8th Street, así que llame al (502) 569-3400 para confirmar antes de ir en persona."
+      },
+      {
+        "q": "¿Qué cambió en 2026 para quienes tienen vale?",
+        "a": "LMHA publicó tres cambios el 28 de abril de 2026: una renta mínima de $50 a partir de la siguiente certificación de cada familia, una reducción de la deducción médica estándar de $2,200 a $500 a partir del 1 de julio de 2026, y el fin de los pagos de reembolso de servicios públicos el 1 de julio de 2026. Si su parte de la renta subió después de julio, estas son las razones probables, y su especialista puede confirmar las cuentas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Louisville Metro Housing Authority - sitio oficial: teléfonos, dirección, horario (en inglés)",
+        "url": "https://www.lmha1.org/"
+      },
+      {
+        "label": "LMHA - Section 8: no se aceptan solicitudes, línea de posición en la lista, citas (en inglés)",
+        "url": "https://www.lmha1.org/section_8/index.php"
+      },
+      {
+        "label": "LMHA - HCV Self-Service: no se aceptan solicitudes de vales (en inglés)",
+        "url": "https://www.lmha1.org/section_8/hcv_self_service.php"
+      },
+      {
+        "label": "LMHA - Rental Process and Eligibility: proceso en pausa desde el 1 de julio de 2024 (en inglés)",
+        "url": "https://www.lmha1.org/section_8/rental_process_and_eligibility.php"
+      },
+      {
+        "label": "LMHA - Portal de solicitantes: solicitudes cerradas para Sección 8 y vivienda pública (en inglés)",
+        "url": "https://portal.lmha1.org/"
+      },
+      {
+        "label": "LMHA - Application for Public Housing (en inglés)",
+        "url": "https://www.lmha1.org/housing/application_for_public_housing.php"
+      },
+      {
+        "label": "LMHA - About Public Housing: casi 3,000 unidades (en inglés)",
+        "url": "https://www.lmha1.org/housing/about_public_housing.php"
+      },
+      {
+        "label": "LMHA - Política de Admisiones y Ocupación Continua, vigente desde el 4 de mayo de 2026 (en inglés)",
+        "url": "https://www.lmha1.org/docs/ACOP%20(Effective%205-4-2026).pdf"
+      },
+      {
+        "label": "LMHA - Plan Administrativo de HCV 2026: puntos de preferencia, regla de 20 días (en inglés)",
+        "url": "https://www.lmha1.org/docs/Complete%20Admin%20Plan%202026.pdf"
+      },
+      {
+        "label": "LMHA - Sitios con vales basados en proyectos: llame a cada sitio (en inglés)",
+        "url": "https://www.lmha1.org/docs/PBV_Sites.pdf"
+      },
+      {
+        "label": "LMHA - Cambios del programa de vales del 28 de abril de 2026 (en inglés)",
+        "url": "https://www.lmha1.org/_T12_R88.php"
+      },
+      {
+        "label": "LMHA - Anuncio de mudanza de la sede, diciembre de 2024 (en inglés)",
+        "url": "https://www.lmha1.org/_T12_R73.php"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Kentucky: KY001 Combined, KY901 Kentucky Housing Corporation (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Indiana: IN012 New Albany, IN023 Jeffersonville (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_IN.pdf"
+      }
+    ]
+  }
+}

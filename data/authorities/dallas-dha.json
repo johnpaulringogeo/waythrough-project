@@ -1,0 +1,246 @@
+{
+  "slug": "dallas-dha",
+  "kind": "authority",
+  "name": "Dallas Housing Authority (DHA)",
+  "schema_name": "Housing Authority of the City of Dallas, Texas",
+  "short_name": "DHA",
+  "city": "Dallas",
+  "state": "TX",
+  "serves": "Dallas and seven North Texas counties: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall and Tarrant",
+  "phone": "(214) 951-8300",
+  "official_url": "https://dhantx.com/",
+  "apply_url": "https://dhantx.com/applicants/housing-choice-voucher-program/how-to-apply/",
+  "city_slug": "dallas",
+  "state_slug": "texas",
+  "updated": "October 15, 2026",
+  "intro": "The Dallas Housing Authority, legally the Housing Authority of the City of Dallas, Texas, now calls itself DHA, Housing Solutions for North Texas. HUD lists it as PHA TX009 with a program type of Combined, and DHA says it provides housing across seven North Texas counties: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall and Tarrant. Dallas works differently from most big cities. There is no closed list to wait out: DHA takes preliminary applications for both Section 8 and public housing at any time, then picks people by lottery when vouchers or units come free, and an application that is not picked expires after 18 months. Since July 13, 2026 it has run public housing lotteries every week on a published schedule. This page covers DHA's exact words, how the lottery and the 18-month clock work, the October 2026 lottery schedule, and why the phone number is harder to find than it should be.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), which DHA says serves more than 16,250 households",
+    "Public Housing at DHA-owned properties, which DHA describes as 31 properties with about 5,000 units",
+    "Project-Based Vouchers, including tax credit properties with their own lists",
+    "Special purpose vouchers and Walker Settlement vouchers, with separate waiting lists"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Accepting preliminary applications at any time",
+      "note": "Checked October 15, 2026. DHA's How to Apply page reads: \"You may apply for the program through our open lottery system at any time,\" \"DHA accepts pre-applications on an ongoing basis instead of limiting it to a few days,\" and \"You can submit a preliminary application at any time.\" DHA's Administrative Plan says it has accepted preliminary applications since January 21, 2020 and that \"until further notice, DHA will maintain a continuously open waiting list.\" Selection is random: \"As voucher funds become available, DHA will run a lottery to randomly select applicants from the waiting list.\" An application that is not selected expires after 18 months, and DHA says \"you may re-apply.\""
+    },
+    {
+      "program": "Public Housing (DHA-owned properties)",
+      "status": "Accepting preliminary applications at any time, by property",
+      "note": "DHA's public housing apply page uses the same words, \"ongoing basis\" and \"at any time,\" and you choose the properties you want. DHA's lottery page says: \"We review each Public Housing property for vacancies once per month and conduct a lottery based on unit availability.\" A DHA news post dated July 10, 2026 says it now runs \"a lottery each week for a set of properties,\" starting July 13, 2026. As of October 15, 2026, the lottery page listed pulls on October 5 (11 units), October 12 (19 units), October 19 (8 units) and October 26 (30 units), each naming the properties with vacancies."
+    },
+    {
+      "program": "Project-based and special purpose vouchers",
+      "status": "Separate lists",
+      "note": "DHA's Administrative Plan says project-based voucher properties built with Low Income Housing Tax Credits \"will have separate waiting lists, maintained jointly by DHA and the property owner at the property,\" and that DHA keeps a separate waiting list for each HUD special use voucher. Walker Settlement vouchers are limited to class members. Ask the property, or DHA, about these lists directly."
+    }
+  ],
+  "also_serving": [
+    "<strong>Dallas County Housing Assistance Program</strong> is a separate, Section 8 only agency. HUD lists it as TX559, (214) 819-1871.",
+    "<strong>City programs nearby</strong> keep their own lists, including the Garland Housing Authority (TX435, (972) 205-3391), Grand Prairie Housing and Neighborhood Services (TX434, (972) 237-8176), the City of Mesquite Housing Office (TX436, (972) 329-8739), the Housing Authority of Plano (TX128, (972) 423-4928) and the Housing Authority of McKinney (TX027, (972) 542-5641).",
+    "<strong>Fort Worth</strong> is served by its own housing authority (HUD code TX004, (817) 333-3400) and Tarrant County by the Tarrant County Housing Assistance Office (TX431, (817) 531-7654). All of the numbers in this section are as HUD lists them, so confirm each one with the agency."
+  ],
+  "faqs": [
+    {
+      "q": "Can I apply for Section 8 in Dallas right now?",
+      "a": "Yes. As of October 15, 2026, DHA's How to Apply page says \"You can submit a preliminary application at any time\" and \"DHA accepts pre-applications on an ongoing basis instead of limiting it to a few days.\" Its Administrative Plan calls this a continuously open waiting list, in place since January 21, 2020. You apply by registering an account on DHA's RentCafe portal, linked from the How to Apply page, and DHA says the preliminary application takes about 20 minutes. You need an email address, the names and ages of everyone in your household, and your annual household income."
+    },
+    {
+      "q": "If the list is always open, why have I not been called?",
+      "a": "Because DHA picks by lottery, not by date. DHA says: \"As voucher funds become available, DHA will run a lottery to randomly select applicants from the waiting list.\" Its Administrative Plan says applicants are processed in lottery number order within each preference group. Applying early does not move you up, and being in the pool is not a promise of a voucher. If you are selected, DHA contacts you by email and mail, and you then have 14 days to complete the full application with documents such as proof of income, bank statements and Social Security information."
+    },
+    {
+      "q": "Does my DHA application expire?",
+      "a": "Yes, after 18 months. DHA's How to Apply page says \"Once you apply, your application will stay on the waiting list until you are selected, or for up to 18 months,\" and \"Preliminary applications not selected through the lottery process expire in 18 months, but you may re-apply.\" DHA's lottery page says it will notify you as your application nears the expiration date. Write down the date you applied and re-apply when it runs out rather than assuming you are still in the pool."
+    },
+    {
+      "q": "How do the weekly public housing lotteries work?",
+      "a": "DHA reviews each public housing property for vacancies once a month and draws from the applicants for the properties that have openings. Since July 13, 2026 it has run a lottery each week for a set of properties, and it publishes the schedule. As of October 15, 2026, its lottery page listed 11 units for October 5, 19 for October 12, 8 for October 19 and 30 for October 26, with the property names for each. If you are selected, DHA emails the address on your preliminary application, so check that inbox and its spam folder."
+    },
+    {
+      "q": "How do I check my DHA application status?",
+      "a": "Online. DHA's applicant pages say: \"You can check the status of your application at any time by logging into the RentCafe Applicant Portal.\" Use the same email and password you registered with. For other questions, DHA's current client pages give the customer service email dhacustomerservice@dhantx.com."
+    },
+    {
+      "q": "What is DHA's phone number?",
+      "a": "(214) 951-8300. It is the number HUD lists for TX009, and DHA prints it on its own forms, including its Change of Ownership and/or Management packet for landlords and its Visitor Registration Form. It does not appear on DHA's web pages, which list no general phone number and only an email, info@dhantx.com. DHA's headquarters is at 3939 N. Hampton Road, Dallas, TX 75212, open Monday through Thursday from 8 a.m. to 5:30 p.m. and Friday from 8 a.m. to noon."
+    },
+    {
+      "q": "What are DHA's income limits?",
+      "a": "DHA publishes the limits HUD set for Dallas on May 1, 2026, with an area median income of $121,100. The very low income limit, 50 percent of median, is $42,400 for one person, $48,450 for two, $54,500 for three and $60,550 for four. The extremely low income limit, 30 percent, is $25,450 for one person and $36,350 for four, and the low income limit, 80 percent, is $67,850 for one person and $96,900 for four. DHA's Applicants page has the full table up to eight people."
+    },
+    {
+      "q": "Can DHA help me if I need housing this week?",
+      "a": "Not quickly. DHA says: \"DHA is not an emergency housing provider. Our programs are often full and it can take months for resources to open up for new candidates to have access to housing assistance through DHA.\" Apply anyway, because the pool only helps you if you are in it, but look for shelter and emergency rental help at the same time. DHA keeps an Emergency Housing Resources page for that."
+    }
+  ],
+  "sources": [
+    {
+      "label": "DHA - official site (headquarters, hours, email)",
+      "url": "https://dhantx.com/"
+    },
+    {
+      "label": "DHA - For Applicants (seven counties, apply anytime, 2026 income limits, status check)",
+      "url": "https://dhantx.com/applicants/"
+    },
+    {
+      "label": "DHA - Housing Choice Voucher How to Apply (any time, ongoing basis, lottery, 18 months)",
+      "url": "https://dhantx.com/applicants/housing-choice-voucher-program/how-to-apply/"
+    },
+    {
+      "label": "DHA - Apply for a Public Housing Residence (ongoing basis, choose properties)",
+      "url": "https://dhantx.com/applicants/public-housing/apply-for-a-public-housing-residence/"
+    },
+    {
+      "label": "DHA - Applicant Lottery Information and Updates (monthly vacancy review, October 2026 schedule)",
+      "url": "https://dhantx.com/applicants/applicant-lottery-information-updates/"
+    },
+    {
+      "label": "DHA - New lottery and waitlist management process, July 10, 2026",
+      "url": "https://dhantx.com/news/dhas-new-lottery-and-waitlist-management-process/"
+    },
+    {
+      "label": "DHA - Administrative Plan for the Housing Choice Voucher programs, 2025 (continuously open list, lottery order, separate lists)",
+      "url": "https://dhantx.com/wp-content/uploads/2025/12/2025-Admin-Plan-Final-2025-09-16.pdf"
+    },
+    {
+      "label": "DHA - Change of Ownership and/or Management packet (phone 214.951.8300)",
+      "url": "https://dhantx.com/wp-content/uploads/2024/12/DHA-Change-of-Ownership-and-or-Management-HCV-2024_08_09.pdf"
+    },
+    {
+      "label": "DHA - Visitor Registration Form (phone 214.951.8300)",
+      "url": "https://dhantx.com/wp-content/uploads/2023/06/Visitor-Registration-Form-DHA01-12.pdf"
+    },
+    {
+      "label": "DHA - Emergency Housing Resources (not an emergency housing provider)",
+      "url": "https://dhantx.com/applicants/emergency-housing-resources/"
+    },
+    {
+      "label": "DHA - 2027 PHA Plan draft (PHA code TX009, legal name)",
+      "url": "https://dhantx.com/wp-content/uploads/2026/08/2027-PHA-Plan-Draft-V3.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Texas (TX009 Combined; TX559 Dallas County; nearby city agencies)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+    }
+  ],
+  "es": {
+    "serves": "Dallas y siete condados del norte de Texas: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall y Tarrant",
+    "updated": "15 de octubre de 2026",
+    "intro": "La Dallas Housing Authority, cuyo nombre legal es Housing Authority of the City of Dallas, Texas, ahora se presenta como DHA, Housing Solutions for North Texas. HUD la registra como la PHA TX009 con un tipo de programa \"Combined\", y DHA dice que ofrece vivienda en siete condados del norte de Texas: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall y Tarrant. Dallas funciona distinto de la mayoría de las ciudades grandes. No hay una lista cerrada que esperar: DHA recibe presolicitudes para la Sección 8 y para vivienda pública en cualquier momento, luego elige por sorteo cuando se liberan vales o unidades, y una solicitud que no sale elegida vence a los 18 meses. Desde el 13 de julio de 2026 hace sorteos de vivienda pública cada semana con un calendario publicado. Esta página explica las palabras exactas de DHA, cómo funcionan el sorteo y el plazo de 18 meses, el calendario de sorteos de octubre de 2026 y por qué el número de teléfono es más difícil de encontrar de lo que debería.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), que según DHA sirve a más de 16,250 hogares",
+      "Vivienda pública en propiedades de DHA, que DHA describe como 31 propiedades con unas 5,000 unidades",
+      "Vales Basados en Proyectos, incluidas propiedades con crédito fiscal que tienen sus propias listas",
+      "Vales para fines especiales y vales del acuerdo Walker, con listas de espera separadas"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Acepta presolicitudes en cualquier momento",
+        "note": "Verificado el 15 de octubre de 2026. La página How to Apply de DHA dice: \"You may apply for the program through our open lottery system at any time\" (puede solicitar el programa a través de nuestro sistema de sorteo abierto en cualquier momento), \"DHA accepts pre-applications on an ongoing basis instead of limiting it to a few days\" (DHA acepta presolicitudes de forma continua en lugar de limitarlas a unos pocos días) y \"You can submit a preliminary application at any time\" (puede enviar una presolicitud en cualquier momento). El Plan Administrativo de DHA dice que acepta presolicitudes desde el 21 de enero de 2020 y que \"until further notice, DHA will maintain a continuously open waiting list\" (hasta nuevo aviso, DHA mantendrá una lista de espera abierta de forma continua). La selección es al azar: \"As voucher funds become available, DHA will run a lottery to randomly select applicants from the waiting list\" (cuando haya fondos para vales, DHA hará un sorteo para elegir al azar a solicitantes de la lista). Una solicitud que no sale elegida vence a los 18 meses, y DHA dice \"you may re-apply\" (puede volver a solicitar)."
+      },
+      {
+        "program": "Vivienda pública (propiedades de DHA)",
+        "status": "Acepta presolicitudes en cualquier momento, por propiedad",
+        "note": "La página de solicitud de vivienda pública de DHA usa las mismas palabras, \"ongoing basis\" (de forma continua) y \"at any time\" (en cualquier momento), y usted elige las propiedades que quiere. La página de sorteos de DHA dice: \"We review each Public Housing property for vacancies once per month and conduct a lottery based on unit availability\" (revisamos cada propiedad de vivienda pública una vez al mes y hacemos un sorteo según las unidades disponibles). Una noticia de DHA del 10 de julio de 2026 dice que ahora hace \"a lottery each week for a set of properties\" (un sorteo cada semana para un grupo de propiedades), desde el 13 de julio de 2026. Al 15 de octubre de 2026, la página de sorteos mostraba sorteos el 5 de octubre (11 unidades), el 12 de octubre (19 unidades), el 19 de octubre (8 unidades) y el 26 de octubre (30 unidades), cada uno con los nombres de las propiedades con vacantes."
+      },
+      {
+        "program": "Vales basados en proyectos y vales para fines especiales",
+        "status": "Listas separadas",
+        "note": "El Plan Administrativo de DHA dice que las propiedades con vales basados en proyectos construidas con créditos fiscales para vivienda de bajos ingresos \"will have separate waiting lists, maintained jointly by DHA and the property owner at the property\" (tendrán listas de espera separadas, administradas en conjunto por DHA y el dueño en la propiedad), y que DHA lleva una lista separada para cada vale de uso especial de HUD. Los vales del acuerdo Walker son solo para los miembros de esa demanda colectiva. Pregunte directamente a la propiedad, o a DHA, por estas listas."
+      }
+    ],
+    "also_serving": [
+      "El <strong>Dallas County Housing Assistance Program</strong> es una agencia aparte, solo de la Sección 8. HUD la registra como TX559, (214) 819-1871.",
+      "Los <strong>programas de ciudades cercanas</strong> llevan sus propias listas, entre ellos la Garland Housing Authority (TX435, (972) 205-3391), Grand Prairie Housing and Neighborhood Services (TX434, (972) 237-8176), la City of Mesquite Housing Office (TX436, (972) 329-8739), la Housing Authority of Plano (TX128, (972) 423-4928) y la Housing Authority of McKinney (TX027, (972) 542-5641).",
+      "<strong>Fort Worth</strong> tiene su propia autoridad de vivienda (código TX004 de HUD, (817) 333-3400) y el condado de Tarrant tiene la Tarrant County Housing Assistance Office (TX431, (817) 531-7654). Todos los números de esta sección son los que lista HUD, así que confírmelos con cada agencia."
+    ],
+    "faqs": [
+      {
+        "q": "¿Puedo solicitar la Sección 8 en Dallas ahora mismo?",
+        "a": "Sí. Al 15 de octubre de 2026, la página How to Apply de DHA dice \"You can submit a preliminary application at any time\" (puede enviar una presolicitud en cualquier momento) y \"DHA accepts pre-applications on an ongoing basis instead of limiting it to a few days\" (DHA acepta presolicitudes de forma continua en lugar de limitarlas a unos pocos días). Su Plan Administrativo lo llama una lista de espera abierta de forma continua, vigente desde el 21 de enero de 2020. Para solicitar, cree una cuenta en el portal RentCafe de DHA, enlazado desde la página How to Apply; DHA dice que la presolicitud toma unos 20 minutos. Necesita un correo electrónico, los nombres y edades de todos en su hogar y el ingreso anual del hogar."
+      },
+      {
+        "q": "Si la lista siempre está abierta, ¿por qué no me han llamado?",
+        "a": "Porque DHA elige por sorteo, no por fecha. DHA dice: \"As voucher funds become available, DHA will run a lottery to randomly select applicants from the waiting list\" (cuando haya fondos para vales, DHA hará un sorteo para elegir al azar a solicitantes de la lista). Su Plan Administrativo dice que los solicitantes se procesan según su número de sorteo dentro de cada grupo de preferencia. Solicitar temprano no lo adelanta, y estar en el grupo no garantiza un vale. Si sale elegido, DHA le avisa por correo electrónico y por correo postal, y entonces tiene 14 días para completar la solicitud completa con documentos como comprobantes de ingresos, estados de cuenta bancarios e información del Seguro Social."
+      },
+      {
+        "q": "¿Vence mi solicitud de DHA?",
+        "a": "Sí, a los 18 meses. La página How to Apply de DHA dice \"Once you apply, your application will stay on the waiting list until you are selected, or for up to 18 months\" (una vez que solicita, su solicitud queda en la lista hasta que lo elijan, o hasta por 18 meses) y \"Preliminary applications not selected through the lottery process expire in 18 months, but you may re-apply\" (las presolicitudes que no salen en el sorteo vencen a los 18 meses, pero puede volver a solicitar). La página de sorteos de DHA dice que le avisará cuando su solicitud esté por vencer. Anote la fecha en que solicitó y vuelva a solicitar cuando venza, en lugar de suponer que sigue en el grupo."
+      },
+      {
+        "q": "¿Cómo funcionan los sorteos semanales de vivienda pública?",
+        "a": "DHA revisa cada propiedad de vivienda pública una vez al mes y sortea entre los solicitantes de las propiedades que tienen vacantes. Desde el 13 de julio de 2026 hace un sorteo cada semana para un grupo de propiedades, y publica el calendario. Al 15 de octubre de 2026, su página de sorteos mostraba 11 unidades para el 5 de octubre, 19 para el 12 de octubre, 8 para el 19 de octubre y 30 para el 26 de octubre, con los nombres de las propiedades de cada uno. Si sale elegido, DHA escribe al correo electrónico de su presolicitud, así que revise esa bandeja y la de correo no deseado."
+      },
+      {
+        "q": "¿Cómo reviso el estado de mi solicitud con DHA?",
+        "a": "En línea. Las páginas para solicitantes de DHA dicen: \"You can check the status of your application at any time by logging into the RentCafe Applicant Portal\" (puede revisar el estado de su solicitud en cualquier momento entrando al portal de solicitantes de RentCafe). Use el mismo correo y la misma contraseña con que se registró. Para otras preguntas, las páginas de DHA para clientes actuales dan el correo de servicio al cliente dhacustomerservice@dhantx.com."
+      },
+      {
+        "q": "¿Cuál es el teléfono de DHA?",
+        "a": "El (214) 951-8300. Es el número que HUD lista para TX009, y DHA lo imprime en sus propios formularios, como su paquete de cambio de dueño o de administración para propietarios y su formulario de registro de visitantes. No aparece en las páginas web de DHA, que no muestran ningún teléfono general y solo un correo, info@dhantx.com. La sede de DHA está en 3939 N. Hampton Road, Dallas, TX 75212, y abre de lunes a jueves de 8 a.m. a 5:30 p.m. y los viernes de 8 a.m. a mediodía."
+      },
+      {
+        "q": "¿Cuáles son los límites de ingresos de DHA?",
+        "a": "DHA publica los límites que HUD fijó para Dallas el 1 de mayo de 2026, con un ingreso medio del área de $121,100. El límite de ingresos muy bajos, el 50 por ciento de la mediana, es de $42,400 para una persona, $48,450 para dos, $54,500 para tres y $60,550 para cuatro. El límite de ingresos extremadamente bajos, el 30 por ciento, es de $25,450 para una persona y $36,350 para cuatro, y el de ingresos bajos, el 80 por ciento, es de $67,850 para una persona y $96,900 para cuatro. La página For Applicants de DHA tiene la tabla completa hasta para ocho personas."
+      },
+      {
+        "q": "¿Puede DHA ayudarme si necesito vivienda esta semana?",
+        "a": "No rápidamente. DHA dice: \"DHA is not an emergency housing provider. Our programs are often full and it can take months for resources to open up for new candidates to have access to housing assistance through DHA\" (DHA no es un proveedor de vivienda de emergencia; sus programas suelen estar llenos y pueden pasar meses antes de que haya recursos para nuevos candidatos). Solicite de todos modos, porque el grupo solo le sirve si está en él, pero busque al mismo tiempo refugio y ayuda de emergencia para el alquiler. DHA tiene una página de recursos de vivienda de emergencia para eso."
+      }
+    ],
+    "sources": [
+      {
+        "label": "DHA - sitio oficial: sede, horario, correo (en inglés)",
+        "url": "https://dhantx.com/"
+      },
+      {
+        "label": "DHA - For Applicants: siete condados, solicitar en cualquier momento, límites de ingresos de 2026 (en inglés)",
+        "url": "https://dhantx.com/applicants/"
+      },
+      {
+        "label": "DHA - How to Apply de la Sección 8: en cualquier momento, sorteo, 18 meses (en inglés)",
+        "url": "https://dhantx.com/applicants/housing-choice-voucher-program/how-to-apply/"
+      },
+      {
+        "label": "DHA - Solicitud de vivienda pública: de forma continua, elegir propiedades (en inglés)",
+        "url": "https://dhantx.com/applicants/public-housing/apply-for-a-public-housing-residence/"
+      },
+      {
+        "label": "DHA - Información y novedades de sorteos: revisión mensual, calendario de octubre de 2026 (en inglés)",
+        "url": "https://dhantx.com/applicants/applicant-lottery-information-updates/"
+      },
+      {
+        "label": "DHA - Nuevo proceso de sorteos y lista de espera, 10 de julio de 2026 (en inglés)",
+        "url": "https://dhantx.com/news/dhas-new-lottery-and-waitlist-management-process/"
+      },
+      {
+        "label": "DHA - Plan Administrativo de los programas de vales, 2025: lista abierta continua, orden de sorteo (en inglés)",
+        "url": "https://dhantx.com/wp-content/uploads/2025/12/2025-Admin-Plan-Final-2025-09-16.pdf"
+      },
+      {
+        "label": "DHA - Paquete de cambio de dueño o de administración: teléfono 214.951.8300 (en inglés)",
+        "url": "https://dhantx.com/wp-content/uploads/2024/12/DHA-Change-of-Ownership-and-or-Management-HCV-2024_08_09.pdf"
+      },
+      {
+        "label": "DHA - Formulario de registro de visitantes: teléfono 214.951.8300 (en inglés)",
+        "url": "https://dhantx.com/wp-content/uploads/2023/06/Visitor-Registration-Form-DHA01-12.pdf"
+      },
+      {
+        "label": "DHA - Recursos de vivienda de emergencia (en inglés)",
+        "url": "https://dhantx.com/applicants/emergency-housing-resources/"
+      },
+      {
+        "label": "DHA - Borrador del Plan de la PHA 2027: código TX009, nombre legal (en inglés)",
+        "url": "https://dhantx.com/wp-content/uploads/2026/08/2027-PHA-Plan-Draft-V3.pdf"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Texas: TX009 Combined, TX559 condado de Dallas (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+      }
+    ]
+  }
+}

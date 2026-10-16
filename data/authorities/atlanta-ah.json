@@ -1,0 +1,248 @@
+{
+  "slug": "atlanta-ah",
+  "kind": "authority",
+  "name": "Atlanta Housing (Atlanta Housing Authority)",
+  "schema_name": "Housing Authority of the City of Atlanta, Georgia",
+  "short_name": "Atlanta Housing",
+  "city": "Atlanta",
+  "state": "GA",
+  "serves": "the City of Atlanta, Georgia",
+  "phone": "(404) 892-4700",
+  "official_url": "https://www.atlantahousing.org/",
+  "apply_url": "https://my.atlantahousing.org/",
+  "city_slug": "atlanta",
+  "state_slug": "georgia",
+  "updated": "October 15, 2026",
+  "intro": "Atlanta Housing is the name the Housing Authority of the City of Atlanta, Georgia has used since its 2018 rebranding, and many people still call it AHA or the Atlanta Housing Authority. HUD lists it as PHA GA006 with a program type of Combined, and it is a Moving to Work agency, which is why it uses its own names for programs: HomeFlex for what used to be called Project Based Rental Assistance, Mixed for the mixed-income communities built on former public housing sites, and AH-owned for the buildings it still owns. The answer most people want is short. The Housing Choice Voucher list is closed, and the last opening closed on March 27, 2017. Everything else runs through property-by-property waiting lists, and Atlanta Housing does not publish a current list of which ones are open. This page covers AH's exact words, how it says it will announce a voucher opening, how each kind of list picks people, and the other housing authorities around Atlanta.",
+  "programs": [
+    "Housing Choice Voucher Program (tenant-based Section 8)",
+    "HomeFlex, formerly called Project Based Rental Assistance: the subsidy stays with the property",
+    "Mixed communities, formerly called AH Sponsored Communities, on the sites of former public housing",
+    "AH-owned residential communities, including senior high-rises and small family communities",
+    "Supportive housing (HAVEN) and homeownership programs"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher Program (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked October 15, 2026). Atlanta Housing's FAQ reads: \"No, the Housing Choice Voucher Program is not accepting applications at this time.\" AH's Housing Choice overview, linked as its Waiting List page, says: \"The most recent opening of the Housing Choice Voucher Program Waiting closed on March 27, 2017.\" AH's FY2026 Moving to Work report, adopted in September 2026, lists the voucher waiting list at 20,874 households and closed, and its FY2027 plan says AH does not plan to change the waiting list. No reopening date is published."
+    },
+    {
+      "program": "HomeFlex, Mixed and AH-owned communities",
+      "status": "Site-based lists; no current open list published",
+      "note": "AH's Housing Options page says \"Each property maintains a site-based waiting list,\" and its Housing Programs page tells applicants they \"must first contact each community's property management office to find out if the waiting list is open.\" The open-or-closed list AH links from that page is dated March 2018, so do not rely on it. AH's FY2026 Moving to Work report counts some site-based lists as open and others as closed as of June 30, 2026, without naming the properties. Its current property listings, dated July 10, 2026 for HomeFlex and January 1, 2025 for AH-owned communities, give names and contacts but no waiting-list status."
+    }
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of Fulton County</strong> is a separate agency from Atlanta Housing. HUD lists it as GA264, program type Combined, phone (404) 588-4950.",
+    "<strong>Housing Authority of DeKalb County</strong>, HUD code GA237, program type Combined, (404) 270-2500. The <strong>Housing Authority of the City of Decatur</strong> is GA011, (404) 270-2100.",
+    "<strong>Smaller city authorities</strong> in the metro include East Point (GA078, (404) 768-0078), College Park (GA232, (404) 761-2805) and Marietta (GA010, (770) 419-3200).",
+    "<strong>Georgia Department of Community Affairs</strong> runs the statewide voucher program for areas without a local housing authority; HUD lists it as GA901, Georgia Residential Finance, (404) 679-4940. All of the numbers in this section are as HUD lists them, so confirm each one with the agency."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Atlanta Section 8 waiting list open?",
+      "a": "No. As of October 15, 2026, Atlanta Housing's FAQ says: \"No, the Housing Choice Voucher Program is not accepting applications at this time.\" The last opening closed on March 27, 2017, according to AH's own Housing Choice overview, and AH's September 2026 Moving to Work report still lists the voucher list as closed, with 20,874 households on it. AH publishes no reopening date."
+    },
+    {
+      "q": "How will Atlanta Housing announce the next voucher opening?",
+      "a": "AH's Housing Programs page says: \"When AH opens the waiting list, we will put a notice on our website and an advertisement in the legal section of the Atlanta Journal Constitution. We also will get the message out to the public through radio and other media.\" Its FAQ adds local media outlets and social service agencies. AH also says \"You can only register when the waiting list is open,\" so there is no way to get on the voucher list early."
+    },
+    {
+      "q": "How does Atlanta Housing pick people from the voucher list?",
+      "a": "At random. AH's FAQ says it uses \"a computerized, random selection process to draw applicants from the Waiting List on a periodic basis,\" and that \"All Housing Choice Voucher Program applicants have an equal chance of being drawn.\" AH's FY2027 Moving to Work plan describes a local residency and employment preference that helps families who live or work in the City of Atlanta get a voucher before others. The FAQ also says the program does not have a preference for homeless, veteran, disabled, elderly or domestic violence circumstances."
+    },
+    {
+      "q": "How do I find out which Atlanta properties are taking applications?",
+      "a": "Call the properties. AH's Housing Programs page says you \"must first contact each community's property management office to find out if the waiting list is open,\" and that property managers \"must pull people from their waiting lists in order of the date each person applied.\" The open-or-closed list it links is dated March 2018 and is out of date. AH's current HomeFlex and AH-owned property listings name the communities, so use them to find who to call. Once you are on a list, answer every letter the community sends and keep your contact details current."
+    },
+    {
+      "q": "I applied years ago. How do I check my status?",
+      "a": "For the voucher list, AH's FAQ says: \"To determine your status on the Housing Choice Voucher Program waiting list, please contact customer services at 404-892-4700.\" For a HomeFlex, Mixed or AH-owned community, ask that community's management office, because each keeps its own list. AH's applicant and participant portal is at my.atlantahousing.org."
+    },
+    {
+      "q": "What phone number and office should I use?",
+      "a": "(404) 892-4700 is Atlanta Housing's number. It is in the footer of every AH page, in its FAQ as the customer services line, and on its applicant portal, and HUD lists the same number for GA006. The office is at 230 John Wesley Dobbs Avenue NE, Atlanta, GA 30303, open Monday through Friday except holidays, 8 am to 5 pm. AH's site currently warns of higher than normal call volume and says a staff member will respond to its online contact form within 24 to 48 hours."
+    },
+    {
+      "q": "What rules come with an Atlanta Housing voucher?",
+      "a": "A few that surprise people. AH's Housing Programs page says: \"During the first year of using a voucher, you must live within the city of Atlanta.\" AH's FAQ sets the tenant's share of rent at 30 percent of adjusted monthly income or a $125 minimum rent, whichever is higher. AH's eligibility page also has a work requirement: one adult between 18 and 61 who is not disabled must work at least 20 hours a week, and other adults in that group must work or be in school or training for 20 hours."
+    },
+    {
+      "q": "Is the Housing Authority of Fulton County the same as Atlanta Housing?",
+      "a": "No. HUD lists them as two different agencies: Atlanta Housing is GA006 and serves the City of Atlanta, while the Housing Authority of Fulton County is GA264. DeKalb County, Decatur, East Point, College Park and Marietta each have their own authority too, and each keeps its own waiting list, so applying to Atlanta Housing does not put you on theirs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Atlanta Housing - official site (phone, address, hours)",
+      "url": "https://www.atlantahousing.org/"
+    },
+    {
+      "label": "Atlanta Housing - FAQ (voucher list not accepting applications, status line, random selection, minimum rent)",
+      "url": "https://www.atlantahousing.org/developers-property-owners/faq-communication/"
+    },
+    {
+      "label": "Atlanta Housing - Housing Programs (how openings are announced, contact each community, first-year rule)",
+      "url": "https://www.atlantahousing.org/housing-programs/"
+    },
+    {
+      "label": "Atlanta Housing - Housing Options (HomeFlex, Mixed and AH-owned, site-based lists)",
+      "url": "https://www.atlantahousing.org/housing-programs/housing-options/"
+    },
+    {
+      "label": "Atlanta Housing - Participant Eligibility (work requirement)",
+      "url": "https://www.atlantahousing.org/housing-programs/participant-eligibility/"
+    },
+    {
+      "label": "Atlanta Housing - Housing Choice overview (last opening closed March 27, 2017)",
+      "url": "https://www.atlantahousing.org/wp-content/uploads/2020/09/housing-choice-overview_09182020.pdf"
+    },
+    {
+      "label": "Atlanta Housing - FY2026 Moving to Work Annual Report (waiting list table)",
+      "url": "https://www.atlantahousing.org/wp-content/uploads/2026/10/HA-GA006-FY2026-Annual-MTW-Report_Submission.pdf"
+    },
+    {
+      "label": "Atlanta Housing - FY2027 Moving to Work Annual Plan (lottery, local residency preference)",
+      "url": "https://www.atlantahousing.org/wp-content/uploads/2026/09/HA-GA-006-FY-2027-MTW-ANNUAL-PLAN-CLEAN-VERSION-UPDATED.pdf"
+    },
+    {
+      "label": "Atlanta Housing - HomeFlex property listing, July 10, 2026",
+      "url": "https://www.atlantahousing.org/wp-content/uploads/2026/07/HomeFlex-Property-Listing-Update-7.10.26.pdf"
+    },
+    {
+      "label": "Atlanta Housing - AH-owned property information, January 1, 2025",
+      "url": "https://www.atlantahousing.org/wp-content/uploads/2025/01/AH-Owned-Property-Information-1.1.25.pdf"
+    },
+    {
+      "label": "Atlanta Housing - About Us (legal name, Moving to Work)",
+      "url": "https://www.atlantahousing.org/about-us/"
+    },
+    {
+      "label": "Atlanta Housing - Applicant and participant portal (RENTCafe)",
+      "url": "https://my.atlantahousing.org/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Georgia (GA006 Combined; GA264 Fulton County; GA237 DeKalb County)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_GA.pdf"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Atlanta, Georgia",
+    "updated": "15 de octubre de 2026",
+    "intro": "Atlanta Housing es el nombre que usa la Housing Authority of the City of Atlanta, Georgia desde su cambio de marca de 2018, y mucha gente todavía la llama AHA o Atlanta Housing Authority. HUD la registra como la PHA GA006 con un tipo de programa \"Combined\", y es una agencia Moving to Work, por eso usa sus propios nombres para los programas: HomeFlex para lo que antes se llamaba Project Based Rental Assistance, Mixed para las comunidades de ingresos mixtos construidas donde antes había vivienda pública, y AH-owned para los edificios que todavía son suyos. La respuesta que busca la mayoría es corta. La lista de Housing Choice Voucher está cerrada, y la última apertura cerró el 27 de marzo de 2017. Todo lo demás funciona con listas de espera propiedad por propiedad, y Atlanta Housing no publica una lista actual de cuáles están abiertas. Esta página explica las palabras exactas de AH, cómo dice que anunciará una apertura de vales, cómo elige a las personas cada tipo de lista y las otras autoridades de vivienda alrededor de Atlanta.",
+    "programs": [
+      "Housing Choice Voucher Program (Sección 8 basada en el inquilino)",
+      "HomeFlex, antes llamado Project Based Rental Assistance: el subsidio se queda con la propiedad",
+      "Comunidades Mixed, antes llamadas AH Sponsored Communities, donde antes había vivienda pública",
+      "Comunidades residenciales propiedad de AH, incluidas torres para personas mayores y comunidades familiares pequeñas",
+      "Vivienda de apoyo (HAVEN) y programas para comprar vivienda"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher Program (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 15 de octubre de 2026). Las preguntas frecuentes de Atlanta Housing dicen: \"No, the Housing Choice Voucher Program is not accepting applications at this time\" (no, el programa de vales no está aceptando solicitudes en este momento). El resumen de Housing Choice de AH, enlazado como su página de lista de espera, dice: \"The most recent opening of the Housing Choice Voucher Program Waiting closed on March 27, 2017\" (la apertura más reciente de la lista cerró el 27 de marzo de 2017). El informe Moving to Work del año fiscal 2026 de AH, adoptado en septiembre de 2026, registra la lista de vales con 20,874 hogares y cerrada, y su plan del año fiscal 2027 dice que AH no planea cambiar la lista. No hay fecha de reapertura publicada."
+      },
+      {
+        "program": "Comunidades HomeFlex, Mixed y propiedad de AH",
+        "status": "Listas por propiedad; no hay una lista actual de abiertas publicada",
+        "note": "La página Housing Options de AH dice \"Each property maintains a site-based waiting list\" (cada propiedad mantiene su propia lista de espera), y su página Housing Programs indica que los solicitantes \"must first contact each community's property management office to find out if the waiting list is open\" (deben comunicarse primero con la oficina de administración de cada comunidad para saber si la lista está abierta). La lista de abiertas y cerradas que AH enlaza desde esa página es de marzo de 2018, así que no confíe en ella. El informe Moving to Work del año fiscal 2026 de AH cuenta algunas listas por propiedad como abiertas y otras como cerradas al 30 de junio de 2026, sin nombrar las propiedades. Sus listados actuales, del 10 de julio de 2026 para HomeFlex y del 1 de enero de 2025 para las comunidades propiedad de AH, dan nombres y contactos pero no el estado de las listas."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Housing Authority of Fulton County</strong> es una agencia distinta de Atlanta Housing. HUD la registra como GA264, con tipo de programa \"Combined\", teléfono (404) 588-4950.",
+      "La <strong>Housing Authority of DeKalb County</strong>, código GA237 de HUD, con tipo de programa \"Combined\", (404) 270-2500. La <strong>Housing Authority of the City of Decatur</strong> es GA011, (404) 270-2100.",
+      "Entre las <strong>autoridades municipales más pequeñas</strong> del área metropolitana están East Point (GA078, (404) 768-0078), College Park (GA232, (404) 761-2805) y Marietta (GA010, (770) 419-3200).",
+      "El <strong>Georgia Department of Community Affairs</strong> administra el programa estatal de vales para las zonas sin autoridad de vivienda local; HUD lo registra como GA901, Georgia Residential Finance, (404) 679-4940. Todos los números de esta sección son los que lista HUD, así que confírmelos con cada agencia."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Atlanta?",
+        "a": "No. Al 15 de octubre de 2026, las preguntas frecuentes de Atlanta Housing dicen: \"No, the Housing Choice Voucher Program is not accepting applications at this time\" (no, el programa de vales no está aceptando solicitudes en este momento). La última apertura cerró el 27 de marzo de 2017, según el propio resumen de Housing Choice de AH, y el informe Moving to Work de AH de septiembre de 2026 sigue registrando la lista como cerrada, con 20,874 hogares. AH no publica una fecha de reapertura."
+      },
+      {
+        "q": "¿Cómo anunciará Atlanta Housing la próxima apertura de vales?",
+        "a": "La página Housing Programs de AH dice: \"When AH opens the waiting list, we will put a notice on our website and an advertisement in the legal section of the Atlanta Journal Constitution. We also will get the message out to the public through radio and other media\" (cuando AH abra la lista, pondrá un aviso en su sitio web y un anuncio en la sección legal del Atlanta Journal-Constitution, y también difundirá el mensaje por radio y otros medios). Sus preguntas frecuentes agregan los medios locales y las agencias de servicios sociales. AH también dice \"You can only register when the waiting list is open\" (solo puede inscribirse cuando la lista está abierta), así que no hay forma de entrar antes a la lista de vales."
+      },
+      {
+        "q": "¿Cómo elige Atlanta Housing a las personas de la lista de vales?",
+        "a": "Al azar. Las preguntas frecuentes de AH dicen que usa \"a computerized, random selection process to draw applicants from the Waiting List on a periodic basis\" (un proceso de selección aleatoria computarizado para sacar solicitantes de la lista periódicamente), y que \"All Housing Choice Voucher Program applicants have an equal chance of being drawn\" (todos los solicitantes tienen la misma probabilidad de salir). El plan Moving to Work del año fiscal 2027 de AH describe una preferencia local por residencia y empleo que ayuda a las familias que viven o trabajan en la ciudad de Atlanta a recibir un vale antes que otras. Las preguntas frecuentes también dicen que el programa no tiene preferencia por estar sin hogar, ser veterano, tener una discapacidad, ser persona mayor o sufrir violencia doméstica."
+      },
+      {
+        "q": "¿Cómo sé qué propiedades de Atlanta están aceptando solicitudes?",
+        "a": "Llame a las propiedades. La página Housing Programs de AH dice que usted \"must first contact each community's property management office to find out if the waiting list is open\" (debe comunicarse primero con la oficina de administración de cada comunidad para saber si la lista está abierta), y que los administradores \"must pull people from their waiting lists in order of the date each person applied\" (deben llamar a las personas en el orden de la fecha en que solicitaron). La lista de abiertas y cerradas que enlaza es de marzo de 2018 y está desactualizada. Los listados actuales de HomeFlex y de las propiedades de AH nombran las comunidades, así que úselos para saber a quién llamar. Una vez en una lista, conteste cada carta que le mande la comunidad y mantenga sus datos de contacto al día."
+      },
+      {
+        "q": "Solicité hace años. ¿Cómo reviso mi estado?",
+        "a": "Para la lista de vales, las preguntas frecuentes de AH dicen: \"To determine your status on the Housing Choice Voucher Program waiting list, please contact customer services at 404-892-4700\" (para saber su estado en la lista, comuníquese con servicio al cliente al 404-892-4700). Para una comunidad HomeFlex, Mixed o propiedad de AH, pregunte en la oficina de administración de esa comunidad, porque cada una lleva su propia lista. El portal de solicitantes y participantes de AH está en my.atlantahousing.org."
+      },
+      {
+        "q": "¿Qué teléfono y qué oficina debo usar?",
+        "a": "El (404) 892-4700 es el número de Atlanta Housing. Aparece al pie de cada página de AH, en sus preguntas frecuentes como la línea de servicio al cliente y en su portal de solicitantes, y HUD lista el mismo número para GA006. La oficina está en 230 John Wesley Dobbs Avenue NE, Atlanta, GA 30303, y abre de lunes a viernes, excepto días festivos, de 8 am a 5 pm. El sitio de AH avisa que hay un volumen de llamadas mayor de lo normal y que un empleado responderá su formulario de contacto en línea en un plazo de 24 a 48 horas."
+      },
+      {
+        "q": "¿Qué reglas vienen con un vale de Atlanta Housing?",
+        "a": "Algunas que sorprenden a la gente. La página Housing Programs de AH dice: \"During the first year of using a voucher, you must live within the city of Atlanta\" (durante el primer año de uso del vale, debe vivir dentro de la ciudad de Atlanta). Las preguntas frecuentes de AH fijan la parte del inquilino en el 30 por ciento del ingreso mensual ajustado o una renta mínima de $125, lo que sea mayor. La página de elegibilidad de AH también tiene un requisito de trabajo: un adulto de 18 a 61 años sin discapacidad debe trabajar al menos 20 horas por semana, y los demás adultos de ese grupo deben trabajar o estudiar o capacitarse 20 horas."
+      },
+      {
+        "q": "¿La Housing Authority of Fulton County es lo mismo que Atlanta Housing?",
+        "a": "No. HUD las registra como dos agencias distintas: Atlanta Housing es GA006 y sirve a la ciudad de Atlanta, mientras que la Housing Authority of Fulton County es GA264. El condado de DeKalb, Decatur, East Point, College Park y Marietta también tienen su propia autoridad, y cada una lleva su propia lista de espera, así que solicitar a Atlanta Housing no lo pone en las listas de ellas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Atlanta Housing - sitio oficial: teléfono, dirección, horario (en inglés)",
+        "url": "https://www.atlantahousing.org/"
+      },
+      {
+        "label": "Atlanta Housing - Preguntas frecuentes: lista de vales cerrada, línea de estado, selección aleatoria (en inglés)",
+        "url": "https://www.atlantahousing.org/developers-property-owners/faq-communication/"
+      },
+      {
+        "label": "Atlanta Housing - Housing Programs: cómo se anuncian las aperturas, regla del primer año (en inglés)",
+        "url": "https://www.atlantahousing.org/housing-programs/"
+      },
+      {
+        "label": "Atlanta Housing - Housing Options: HomeFlex, Mixed y propiedades de AH, listas por propiedad (en inglés)",
+        "url": "https://www.atlantahousing.org/housing-programs/housing-options/"
+      },
+      {
+        "label": "Atlanta Housing - Participant Eligibility: requisito de trabajo (en inglés)",
+        "url": "https://www.atlantahousing.org/housing-programs/participant-eligibility/"
+      },
+      {
+        "label": "Atlanta Housing - Resumen de Housing Choice: última apertura cerró el 27 de marzo de 2017 (en inglés)",
+        "url": "https://www.atlantahousing.org/wp-content/uploads/2020/09/housing-choice-overview_09182020.pdf"
+      },
+      {
+        "label": "Atlanta Housing - Informe anual Moving to Work, año fiscal 2026: tabla de listas de espera (en inglés)",
+        "url": "https://www.atlantahousing.org/wp-content/uploads/2026/10/HA-GA006-FY2026-Annual-MTW-Report_Submission.pdf"
+      },
+      {
+        "label": "Atlanta Housing - Plan anual Moving to Work, año fiscal 2027: sorteo, preferencia local (en inglés)",
+        "url": "https://www.atlantahousing.org/wp-content/uploads/2026/09/HA-GA-006-FY-2027-MTW-ANNUAL-PLAN-CLEAN-VERSION-UPDATED.pdf"
+      },
+      {
+        "label": "Atlanta Housing - Listado de propiedades HomeFlex, 10 de julio de 2026 (en inglés)",
+        "url": "https://www.atlantahousing.org/wp-content/uploads/2026/07/HomeFlex-Property-Listing-Update-7.10.26.pdf"
+      },
+      {
+        "label": "Atlanta Housing - Propiedades de AH, 1 de enero de 2025 (en inglés)",
+        "url": "https://www.atlantahousing.org/wp-content/uploads/2025/01/AH-Owned-Property-Information-1.1.25.pdf"
+      },
+      {
+        "label": "Atlanta Housing - About Us: nombre legal, Moving to Work (en inglés)",
+        "url": "https://www.atlantahousing.org/about-us/"
+      },
+      {
+        "label": "Atlanta Housing - Portal de solicitantes y participantes (RENTCafe, en inglés)",
+        "url": "https://my.atlantahousing.org/"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Georgia: GA006 Combined, GA264 Fulton, GA237 DeKalb (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_GA.pdf"
+      }
+    ]
+  }
+}

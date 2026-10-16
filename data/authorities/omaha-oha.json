@@ -1,0 +1,252 @@
+{
+  "slug": "omaha-oha",
+  "kind": "authority",
+  "name": "Omaha Housing Authority (OHA)",
+  "schema_name": "Omaha Housing Authority",
+  "short_name": "OHA",
+  "city": "Omaha",
+  "state": "NE",
+  "serves": "Omaha, Ralston, Papillion, La Vista, Millard and Douglas County, Nebraska",
+  "phone": "(402) 444-6900",
+  "official_url": "https://ohauthority.org/",
+  "apply_url": "https://myportal.ohauthority.org/",
+  "city_slug": "omaha",
+  "state_slug": "nebraska",
+  "updated": "October 15, 2026",
+  "intro": "The Omaha Housing Authority, legally the Housing Authority of the City of Omaha, is the public housing agency for Omaha. HUD lists it as PHA NE001 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing, and OHA says it administers about 4,300 vouchers and about 2,760 public housing homes. Its central office, with the Public Housing Intake and Section 8 departments, is at 1823 Harney Street. The short version today: the Section 8 list is closed, and public housing is open only for one-bedroom apartments in OHA's senior towers, for people 62 and older. This page covers OHA's exact words on both, how OHA announces a voucher opening and runs its lottery, the preference points on the public housing list, and the two other housing agencies in the metro that people often confuse with OHA.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), about 4,300 vouchers",
+    "Public Housing, about 2,760 homes including senior towers, apartments, town homes, duplexes and single-family houses",
+    "HUD-VASH vouchers for veterans, by referral from the VA",
+    "Affordable and market-rate housing at OHA properties, with their own applications"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked October 15, 2026). OHA's homepage and its Contact page both read: \"The Housing Choice Voucher (Section 8) wait list is currently closed.\" OHA's applicant portal says: \"Currently, OHA's Section 8 wait list is closed.\" No OHA page gives a closing date or a reopening date. The most recent opening OHA documents ran from 8:00 a.m. on Tuesday, August 8, 2023 to noon on Monday, August 14, 2023, followed by a lottery of \"no less than 1,500 names.\""
+    },
+    {
+      "program": "Public Housing",
+      "status": "Open only for one-bedroom senior tower apartments, ages 62 and older",
+      "note": "OHA's Public Housing page reads: \"Effective January 1, 2025, the Public Housing waiting list is only open for one bedroom apartments in our Senior Towers to applicants ages 62 and older.\" The homepage and the applicant portal repeat it, checked October 15, 2026. Applications go in through OHA's online portal at myportal.ohauthority.org, or with help in person at 1823 Harney Street, 8 am to 4 pm, Monday through Friday. The list runs in date and time order, and preference points can move an application up."
+    }
+  ],
+  "also_serving": [
+    "<strong>Douglas County Housing Authority</strong> is a separate agency, HUD code NE153, program type Combined, at 3211 N 90th Street, Omaha, NE 68134, (402) 444-6203. It describes its area as \"the subdivisions and small community jurisdictions in the greater Omaha metropolitan area,\" and its own site said on October 15, 2026: \"We are NOT accepting Section 8 Applications.\"",
+    "<strong>Bellevue Housing Authority</strong>, HUD code NE174, program type Combined, serves Bellevue in Sarpy County from 8214 Armstrong Circle, (402) 734-5448. HUD's Nebraska list has no separate Sarpy County housing authority.",
+    "<strong>Municipal Housing Agency of Council Bluffs</strong>, across the river in Iowa, HUD code IA023, program type Combined, 505 S Sixth St., (712) 322-1491."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Omaha Section 8 waiting list open?",
+      "a": "No. As of October 15, 2026, OHA's homepage and Contact page say: \"The Housing Choice Voucher (Section 8) wait list is currently closed.\" OHA's applicant portal says the same thing in different words. OHA does not publish a closing date or a reopening date. The most recent opening it documents ran from August 8 to August 14, 2023, so treat any other date you see online as unconfirmed unless OHA's own site shows it."
+    },
+    {
+      "q": "How will I know when OHA opens the voucher list?",
+      "a": "OHA says that when the list opens, it will be published in the Omaha World-Herald Sunday paper, the Omaha Star and El Perico, and on OHA's website, at least seven business days before applications are accepted. You then fill out a pre-application on OHA's portal and select the Section 8 wait list. After the window closes, OHA says \"a computerized lottery system will randomly choose a predetermined number of pre-applicants to fill out the full application.\" So applying on the first day does not put you ahead."
+    },
+    {
+      "q": "Can I apply for public housing in Omaha right now?",
+      "a": "Only for one bedroom in a senior tower, and only if you are 62 or older. OHA's Public Housing page says that effective January 1, 2025, the waiting list \"is only open for one bedroom apartments in our Senior Towers to applicants ages 62 and older.\" You can apply online at myportal.ohauthority.org, or get help in person at 1823 Harney Street from 8 am to 4 pm on weekdays. For help by phone, OHA gives (402) 444-6900, extension 2285 or 2215."
+    },
+    {
+      "q": "How does OHA order the public housing list?",
+      "a": "By date and time, adjusted by preference points. OHA's public housing application page says \"Applications are placed on the waiting list in date/time order. Preference points can move an application higher on the waiting list,\" and that preferences are available for Mobility, Displaced, and Senior (62 and older), if you are eligible and provide documentation. OHA also lists as ineligible anyone who \"withdrawn from the waiting list within the past six months,\" so think twice before withdrawing."
+    },
+    {
+      "q": "How long is the wait once I am on the voucher list?",
+      "a": "OHA's own pages disagree. Its Wait List Information page says \"Currently the estimated wait for assistance is six months to two years,\" while its Section 8 FAQ says OHA tries to keep the list at a number where the wait is normally two to six months. Neither is a promise. OHA also says plainly that \"The Housing Choice Voucher (Section 8) Program is not an emergency housing program,\" so if you need housing now, look at shelter and rental assistance first."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "(402) 444-6900 is OHA's main number. It is in the footer of every OHA page, in the body of its Contact, Housing Vouchers and Landlords pages, and on its applicant portal, and HUD's directory lists the same number for NE001. OHA publishes no separate Section 8 phone line; for voucher questions it gives the email contactsect8@ohauthority.org. The office is at 1823 Harney Street, and OHA notes that the entrance to the Intake Department is in the back of the building."
+    },
+    {
+      "q": "Does OHA cover Douglas County, or is that a different agency?",
+      "a": "Both, which confuses people. OHA's statement of policies says \"The jurisdiction of the OHA is the city of Omaha, Ralston, Papillion, LaVista, Millard, and the County of Douglas.\" The Douglas County Housing Authority, HUD code NE153, is a separate agency that serves smaller communities around the metro, and its own site said on October 15, 2026 that it is not accepting Section 8 applications either. If you live in Bellevue, the Bellevue Housing Authority runs its own program."
+    },
+    {
+      "q": "What should I bring to a Section 8 appointment?",
+      "a": "OHA's application process page lists a picture ID, Social Security cards or proof of Social Security numbers for everyone in the household, birth certificates for members under 18, documentation of all income and assets, proof of citizenship or eligible immigration status, and proof of custody of children, plus disability verification, a marriage certificate or a divorce decree if they apply. Everyone must pass a criminal background check. If you are missing a document, OHA says you must provide it within the time it gives you."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Omaha Housing Authority - official site (Section 8 closed, senior towers notice, office)",
+      "url": "https://ohauthority.org/"
+    },
+    {
+      "label": "OHA - Contact (Section 8 closed, address, main phone)",
+      "url": "https://ohauthority.org/contact/"
+    },
+    {
+      "label": "OHA - Wait List Information (how openings are announced, estimated wait)",
+      "url": "https://ohauthority.org/housing-vouchers/wait-list-information/"
+    },
+    {
+      "label": "OHA - Housing Choice Voucher Application Process (portal pre-application, computerized lottery, documents)",
+      "url": "https://ohauthority.org/housing-vouchers/application-process/"
+    },
+    {
+      "label": "OHA - Housing Vouchers (about 4,300 vouchers, Section 8 email)",
+      "url": "https://ohauthority.org/housing-vouchers/"
+    },
+    {
+      "label": "OHA - Housing Choice Voucher FAQs (wait of two to six months)",
+      "url": "https://ohauthority.org/housing-vouchers/faqs/"
+    },
+    {
+      "label": "OHA - Statement of Policies (jurisdiction)",
+      "url": "https://ohauthority.org/housing-vouchers/statement-of-policies/"
+    },
+    {
+      "label": "OHA - Public Housing (senior towers only, about 2,760 homes)",
+      "url": "https://ohauthority.org/public-housing/"
+    },
+    {
+      "label": "OHA - Public Housing Application Process (date and time order, preference points, phone extensions)",
+      "url": "https://ohauthority.org/public-housing/application-process/"
+    },
+    {
+      "label": "OHA - Public Housing Eligibility Requirements (six-month withdrawal rule)",
+      "url": "https://ohauthority.org/public-housing/eligibility-requirements/"
+    },
+    {
+      "label": "OHA - Section 8 lottery opening notice, August 2023",
+      "url": "https://ohauthority.org/wp-content/uploads/2023/07/Section-8-Lottery-Opening-2023.pdf"
+    },
+    {
+      "label": "OHA - Applicant portal (RentCafe)",
+      "url": "https://myportal.ohauthority.org/"
+    },
+    {
+      "label": "Douglas County Housing Authority - official site (not accepting Section 8 applications)",
+      "url": "http://www.douglascountyhousing.com/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Nebraska (NE001 Combined; NE153 Douglas County; NE174 Bellevue)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NE.pdf"
+    }
+  ],
+  "es": {
+    "serves": "Omaha, Ralston, Papillion, La Vista, Millard y el condado de Douglas, Nebraska",
+    "updated": "15 de octubre de 2026",
+    "intro": "La Omaha Housing Authority, cuyo nombre legal es Housing Authority of the City of Omaha, es la agencia de vivienda pública de Omaha. HUD la registra como la PHA NE001 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, y OHA dice que administra unos 4,300 vales y unas 2,760 viviendas públicas. Su oficina central, con los departamentos de admisión de vivienda pública y de la Sección 8, está en 1823 Harney Street. En resumen, hoy: la lista de la Sección 8 está cerrada, y la vivienda pública solo está abierta para apartamentos de una recámara en las torres para personas mayores de OHA, para personas de 62 años o más. Esta página explica las palabras exactas de OHA sobre ambas, cómo anuncia OHA una apertura de vales y cómo hace su sorteo, los puntos de preferencia de la lista de vivienda pública y las otras dos agencias de vivienda del área metropolitana que la gente suele confundir con OHA.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), unos 4,300 vales",
+      "Vivienda pública, unas 2,760 viviendas que incluyen torres para personas mayores, apartamentos, casas adosadas, dúplex y casas unifamiliares",
+      "Vales HUD-VASH para veteranos, por referencia del VA",
+      "Vivienda asequible y a precio de mercado en propiedades de OHA, con sus propias solicitudes"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 15 de octubre de 2026). La página principal de OHA y su página Contact dicen: \"The Housing Choice Voucher (Section 8) wait list is currently closed\" (la lista de espera de la Sección 8 está cerrada actualmente). El portal de solicitantes de OHA dice: \"Currently, OHA's Section 8 wait list is closed\" (actualmente la lista de la Sección 8 de OHA está cerrada). Ninguna página de OHA da una fecha de cierre ni de reapertura. La apertura más reciente que OHA documenta fue desde las 8:00 a.m. del martes 8 de agosto de 2023 hasta el mediodía del lunes 14 de agosto de 2023, seguida de un sorteo de \"no less than 1,500 names\" (no menos de 1,500 nombres)."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Abierta solo para apartamentos de una recámara en las torres para personas mayores, de 62 años o más",
+        "note": "La página de vivienda pública de OHA dice: \"Effective January 1, 2025, the Public Housing waiting list is only open for one bedroom apartments in our Senior Towers to applicants ages 62 and older\" (a partir del 1 de enero de 2025, la lista de vivienda pública solo está abierta para apartamentos de una recámara en las torres para personas mayores, para solicitantes de 62 años o más). La página principal y el portal de solicitantes lo repiten, verificado el 15 de octubre de 2026. Las solicitudes se presentan en el portal en línea de OHA, myportal.ohauthority.org, o con ayuda en persona en 1823 Harney Street, de 8 am a 4 pm, de lunes a viernes. La lista sigue el orden de fecha y hora, y los puntos de preferencia pueden subir una solicitud."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Douglas County Housing Authority</strong> es una agencia aparte, código NE153 de HUD, con tipo de programa \"Combined\", en 3211 N 90th Street, Omaha, NE 68134, (402) 444-6203. Describe su zona como \"the subdivisions and small community jurisdictions in the greater Omaha metropolitan area\" (las subdivisiones y comunidades pequeñas del área metropolitana de Omaha), y su propio sitio decía el 15 de octubre de 2026: \"We are NOT accepting Section 8 Applications\" (no estamos aceptando solicitudes de la Sección 8).",
+      "La <strong>Bellevue Housing Authority</strong>, código NE174 de HUD, con tipo de programa \"Combined\", sirve a Bellevue, en el condado de Sarpy, desde 8214 Armstrong Circle, (402) 734-5448. La lista de HUD para Nebraska no tiene una autoridad de vivienda aparte para el condado de Sarpy.",
+      "La <strong>Municipal Housing Agency of Council Bluffs</strong>, al otro lado del río en Iowa, código IA023 de HUD, con tipo de programa \"Combined\", en 505 S Sixth St., (712) 322-1491."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Omaha?",
+        "a": "No. Al 15 de octubre de 2026, la página principal y la página Contact de OHA dicen: \"The Housing Choice Voucher (Section 8) wait list is currently closed\" (la lista de espera de la Sección 8 está cerrada actualmente). El portal de solicitantes de OHA dice lo mismo con otras palabras. OHA no publica una fecha de cierre ni de reapertura. La apertura más reciente que documenta fue del 8 al 14 de agosto de 2023, así que tome cualquier otra fecha que vea en internet como no confirmada, a menos que aparezca en el propio sitio de OHA."
+      },
+      {
+        "q": "¿Cómo sabré cuándo abre OHA la lista de vales?",
+        "a": "OHA dice que cuando abra la lista lo publicará en la edición dominical del Omaha World-Herald, en el Omaha Star y en El Perico, y en el sitio web de OHA, al menos siete días hábiles antes de aceptar solicitudes. Luego se llena una presolicitud en el portal de OHA y se elige la lista de la Sección 8. Cuando cierra el periodo, OHA dice que \"a computerized lottery system will randomly choose a predetermined number of pre-applicants to fill out the full application\" (un sistema de sorteo computarizado elegirá al azar un número predeterminado de presolicitantes para llenar la solicitud completa). Así que solicitar el primer día no lo pone por delante."
+      },
+      {
+        "q": "¿Puedo solicitar vivienda pública en Omaha ahora mismo?",
+        "a": "Solo para una recámara en una torre para personas mayores, y solo si tiene 62 años o más. La página de vivienda pública de OHA dice que a partir del 1 de enero de 2025 la lista \"is only open for one bedroom apartments in our Senior Towers to applicants ages 62 and older\" (solo está abierta para apartamentos de una recámara en las torres para personas mayores, para solicitantes de 62 años o más). Puede solicitar en línea en myportal.ohauthority.org, o recibir ayuda en persona en 1823 Harney Street, de 8 am a 4 pm entre semana. Para ayuda por teléfono, OHA da el (402) 444-6900, extensión 2285 o 2215."
+      },
+      {
+        "q": "¿Cómo ordena OHA la lista de vivienda pública?",
+        "a": "Por fecha y hora, ajustada con puntos de preferencia. La página de solicitud de vivienda pública de OHA dice \"Applications are placed on the waiting list in date/time order. Preference points can move an application higher on the waiting list\" (las solicitudes se colocan en la lista por fecha y hora; los puntos de preferencia pueden subir una solicitud), y que hay preferencias por Movilidad, Desplazamiento y Personas mayores (62 años o más), si usted es elegible y presenta documentación. OHA también considera no elegible a quien se haya \"withdrawn from the waiting list within the past six months\" (retirado de la lista en los últimos seis meses), así que piénselo bien antes de retirarse."
+      },
+      {
+        "q": "¿Cuánto hay que esperar una vez en la lista de vales?",
+        "a": "Las propias páginas de OHA no coinciden. Su página Wait List Information dice \"Currently the estimated wait for assistance is six months to two years\" (la espera estimada actual es de seis meses a dos años), mientras que sus preguntas frecuentes de la Sección 8 dicen que OHA procura mantener la lista en un número en que la espera normal sea de dos a seis meses. Ninguna de las dos es una promesa. OHA también dice claramente que \"The Housing Choice Voucher (Section 8) Program is not an emergency housing program\" (la Sección 8 no es un programa de vivienda de emergencia), así que si necesita vivienda ya, busque primero refugio y asistencia de alquiler."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El (402) 444-6900 es el número principal de OHA. Aparece al pie de cada página de OHA, en el cuerpo de sus páginas Contact, Housing Vouchers y Landlords, y en su portal de solicitantes, y el directorio de HUD lista el mismo número para NE001. OHA no publica una línea separada para la Sección 8; para preguntas sobre vales da el correo contactsect8@ohauthority.org. La oficina está en 1823 Harney Street, y OHA indica que la entrada al departamento de admisión está en la parte de atrás del edificio."
+      },
+      {
+        "q": "¿OHA cubre el condado de Douglas, o es otra agencia?",
+        "a": "Las dos, y eso confunde a la gente. La declaración de políticas de OHA dice \"The jurisdiction of the OHA is the city of Omaha, Ralston, Papillion, LaVista, Millard, and the County of Douglas\" (la jurisdicción de OHA es la ciudad de Omaha, Ralston, Papillion, La Vista, Millard y el condado de Douglas). La Douglas County Housing Authority, código NE153 de HUD, es una agencia aparte que sirve a comunidades más pequeñas alrededor del área metropolitana, y su propio sitio decía el 15 de octubre de 2026 que tampoco está aceptando solicitudes de la Sección 8. Si vive en Bellevue, la Bellevue Housing Authority administra su propio programa."
+      },
+      {
+        "q": "¿Qué debo llevar a una cita de la Sección 8?",
+        "a": "La página del proceso de solicitud de OHA pide una identificación con foto, las tarjetas de Seguro Social o prueba de los números de Seguro Social de todos en el hogar, actas de nacimiento de los menores de 18 años, documentación de todos los ingresos y bienes, prueba de ciudadanía o de estatus migratorio elegible y prueba de la custodia de los niños, además de verificación de discapacidad, acta de matrimonio o sentencia de divorcio si corresponde. Todos deben pasar una revisión de antecedentes penales. Si le falta un documento, OHA dice que debe entregarlo dentro del plazo que le indiquen."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Omaha Housing Authority - sitio oficial: Sección 8 cerrada, aviso de torres para personas mayores (en inglés)",
+        "url": "https://ohauthority.org/"
+      },
+      {
+        "label": "OHA - Contact: Sección 8 cerrada, dirección, teléfono (en inglés)",
+        "url": "https://ohauthority.org/contact/"
+      },
+      {
+        "label": "OHA - Wait List Information: cómo se anuncian las aperturas, espera estimada (en inglés)",
+        "url": "https://ohauthority.org/housing-vouchers/wait-list-information/"
+      },
+      {
+        "label": "OHA - Proceso de solicitud de vales: presolicitud en el portal, sorteo, documentos (en inglés)",
+        "url": "https://ohauthority.org/housing-vouchers/application-process/"
+      },
+      {
+        "label": "OHA - Housing Vouchers: unos 4,300 vales, correo de la Sección 8 (en inglés)",
+        "url": "https://ohauthority.org/housing-vouchers/"
+      },
+      {
+        "label": "OHA - Preguntas frecuentes de vales: espera de dos a seis meses (en inglés)",
+        "url": "https://ohauthority.org/housing-vouchers/faqs/"
+      },
+      {
+        "label": "OHA - Statement of Policies: jurisdicción (en inglés)",
+        "url": "https://ohauthority.org/housing-vouchers/statement-of-policies/"
+      },
+      {
+        "label": "OHA - Public Housing: solo torres para personas mayores, unas 2,760 viviendas (en inglés)",
+        "url": "https://ohauthority.org/public-housing/"
+      },
+      {
+        "label": "OHA - Proceso de solicitud de vivienda pública: fecha y hora, puntos de preferencia (en inglés)",
+        "url": "https://ohauthority.org/public-housing/application-process/"
+      },
+      {
+        "label": "OHA - Requisitos de vivienda pública: regla de retiro de seis meses (en inglés)",
+        "url": "https://ohauthority.org/public-housing/eligibility-requirements/"
+      },
+      {
+        "label": "OHA - Aviso de apertura y sorteo de la Sección 8, agosto de 2023 (en inglés)",
+        "url": "https://ohauthority.org/wp-content/uploads/2023/07/Section-8-Lottery-Opening-2023.pdf"
+      },
+      {
+        "label": "OHA - Portal de solicitantes (RentCafe, en inglés)",
+        "url": "https://myportal.ohauthority.org/"
+      },
+      {
+        "label": "Douglas County Housing Authority - sitio oficial: no acepta solicitudes de la Sección 8 (en inglés)",
+        "url": "http://www.douglascountyhousing.com/"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Nebraska: NE001 Combined, NE153, NE174 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NE.pdf"
+      }
+    ]
+  }
+}

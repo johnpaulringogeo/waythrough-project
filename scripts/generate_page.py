@@ -277,6 +277,7 @@ def build_faq_json(faqs):
 # makes the generator raise until it has been fetched and added here.
 FAQ_LINK_TARGETS = {
     "211info.org": "https://www.211info.org",
+    "abqha.org/how-to-apply": "https://abqha.org/how-to-apply/",  # fetched live 2026-10-15 (AUTH5) in a browser; scripted fetches get a SiteGround bot check
     "abqha.org/wait-list": "https://abqha.org/wait-list",
     "applicant.atlantahousing.org": "https://applicant.atlantahousing.org",
     "applyonline.thecha.org": "https://applyonline.thecha.org",

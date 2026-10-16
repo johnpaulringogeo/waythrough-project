@@ -36,6 +36,11 @@
         "desc": "El Paso's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/dallas-dha",
+        "title": "Dallas Housing Authority (DHA)",
+        "desc": "Dallas's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, repairs, deposits, and eviction defense."
@@ -122,6 +127,11 @@
         "href": "es/recursos/autoridades-de-vivienda/el-paso-home",
         "title": "Autoridad de Vivienda de la Ciudad de El Paso (HOME)",
         "desc": "Estado de la lista de espera de Sección 8 en El Paso, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/dallas-dha",
+        "title": "Dallas Housing Authority (DHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Dallas, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",
