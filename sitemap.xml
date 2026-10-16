@@ -1190,6 +1190,36 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/albuquerque-aha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/atlanta-ah</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/dallas-dha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/louisville-lmha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/omaha-oha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/cities/</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -1305,7 +1335,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/kentucky</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1389,7 +1419,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/new-mexico</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2404,7 +2434,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/kentucky</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2488,7 +2518,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/new-mexico</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3393,6 +3423,36 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/tampa-tha</loc>
     <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/albuquerque-aha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/atlanta-ah</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/dallas-dha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/louisville-lmha</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/omaha-oha</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
