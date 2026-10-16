@@ -6,119 +6,257 @@
   "city": "Los Angeles",
   "state": "CA",
   "serves": "the City of Los Angeles, California",
-  "phone": "(213) 252-2500",
+  "phone": "(833) 422-5248",
   "official_url": "https://www.hacla.org/",
-  "apply_url": "https://www.hacla.org/",
+  "apply_url": "https://www.hacla.org/en/about-public-housing/public-housing-applicants",
   "city_slug": "los-angeles",
   "state_slug": "california",
-  "updated": "May 2026",
-  "intro": "The Housing Authority of the City of Los Angeles (HACLA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers and public housing for the City of Los Angeles. A separate authority, the Los Angeles County Development Authority (LACDA), serves unincorporated LA County and many contracting cities. This page summarizes HACLA's current waiting-list status, contact information, and how to apply, and links to the official HACLA site for anything time-sensitive.",
+  "updated": "October 15, 2026",
+  "intro": "The Housing Authority of the City of Los Angeles (HACLA) runs Section 8 Housing Choice Vouchers and public housing for the City of Los Angeles. Unincorporated LA County and many smaller cities are served by a different agency, the Los Angeles County Development Authority (LACDA). We checked HACLA's own site on October 15, 2026: the Section 8 waiting list is closed, but the public housing waiting list takes online applications through RentCafe, except 1-bedroom applications. HACLA's phone number is (833) 422-5248, which HACLA spells 833-HACLA-4-U.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
     "Public Housing",
-    "HUD-VASH (for veterans)",
-    "Family Unification Program (FUP)",
-    "Mainstream and Foster Youth to Independence vouchers"
+    "Project-Based Vouchers (PBV)",
+    "HUD-VASH (for homeless veterans, with the West L.A. VA Medical Center)",
+    "Homeless and supportive-housing vouchers: Homeless Program, Tenant-Based Supportive Housing, Continuum of Care, Emergency Housing Vouchers and Stability Vouchers",
+    "Family Unification Program (FUP) and Mainstream vouchers",
+    "Housing Opportunities for Persons with AIDS (HOPWA)",
+    "Family Self-Sufficiency (FSS)"
   ],
   "waitlists": [
     {
       "program": "Housing Choice Voucher (Section 8)",
       "status": "Closed",
-      "note": "The most recent opening used a lottery. As of January 1, 2026, HACLA moved to the Rent Café online portal — existing waiting-list members must use the new portal."
+      "note": "HACLA's Section 8 page says: \"The Section 8 Waiting List is currently closed.\" (checked October 15, 2026). HACLA's FAQ adds that the list \"only accepts new applicants during a specific window of time\" and that when it opens, \"it will be widely publicized via newspaper, television, radio, social media, etc. and the HACLA website will be updated.\" The same FAQ describes the list as \"closed and unlikely to reopen soon.\" The last opening was an online lottery that took applications from 6:00 a.m. on October 17 to 5:00 p.m. on October 30, 2022. HACLA received 223,375 applications and used \"a computer-randomized lottery to select up to 30,000 applicants,\" with a preference for people who live or work in the City of Los Angeles and for veterans. If you are already on the list, HACLA says \"your wait time is dependent upon funding and the availability of vouchers.\" HACLA moved Section 8 participants to the Rent Café portal on January 1, 2026, for annual reexaminations and documents; that portal is for current participants and does not reopen the waiting list. Our <a href=\"../guides/section-8-lottery\">guide to Section 8 lotteries</a> explains how these openings work."
     },
     {
       "program": "Public Housing",
-      "status": "Separate waitlist managed by HACLA",
-      "note": "Check the official site for current openings."
+      "status": "Open through RentCafe, except 1-bedroom applications",
+      "note": "HACLA's FAQ says: \"The Public Housing Waiting List is open\" and \"Please note HACLA is not accepting 1-bedroom applications for Public Housing at this time.\" (checked October 15, 2026). It is one citywide list for all of HACLA's public housing developments. HACLA says \"Applicants cannot apply for a specific site,\" and that placement \"is based on date/time of the application and family eligibility status.\" Preferences go to households whose head or co-head works at least 20 hours a week, is a full-time student, is a veteran or active member of the military, or is disabled or 62 or older, and families of veterans get priority within each preference. You get up to three unit offers at three different sites and have five business days to answer each one; refusing all three removes you from the list. HACLA says you may be on this list and the Section 8 list at the same time. How to apply is below."
     },
     {
-      "program": "Specialty referrals (HUD-VASH, FUP, Mainstream, FYI)",
-      "status": "Still accepted by referral",
-      "note": "These are accessed through partner agencies and the Coordinated Entry System (CES), not open public registration."
+      "program": "Project-based vouchers and HACLA's other buildings",
+      "status": "No public list for project-based vouchers; HACLA's other buildings take applications one by one",
+      "note": "HACLA's FAQ says its Project-Based Voucher units have \"No Waiting List; PBV vouchers are available through referrals made from the Los Angeles Homeless Services Authority (LAHSA) through partner organizations or LAHSA service centers.\" Separately, HACLA's Asset Management department oversees more than 2,500 apartments that are not public housing: market-rate, income-restricted and senior buildings. HACLA says \"Our Asset Management properties each have different eligibility criteria\" and that to apply you should \"contact the Site Manager and/or the Property Management Company directly.\" HACLA's <a href=\"https://www.hacla.org/en/asset-management/online-recertification-and-waitlists\" target=\"_blank\" rel=\"noopener\">Online Recertification and Waitlists</a> page lists 12 of these buildings, each with its own page; Apperson Apartments, for example, has a RentCafe \"Sign up for Waitlist\" link. HACLA also posts a current vacancy list on its home page. If a site manager does not answer, Asset Management is at (213) 252-8840 or assetmanagement@hacla.org."
+    },
+    {
+      "program": "Homeless and specialty vouchers (HUD-VASH, EHV, Stability Vouchers, supportive housing)",
+      "status": "By referral only",
+      "note": "These are not open to public sign-up. HACLA says it works with the County Departments of Mental Health and Health Services for referrals to its Homeless Program, partners with the West L.A. VA Medical Center for HUD-VASH, and fills its Stability Vouchers through \"direct referrals from the CoC.\" HACLA's FAQ says it \"does not offer homeless services directly to individuals\" and points people to 2-1-1 for LA County, 311 for the City, and LAHSA. The HOPWA tenant-based program for people living with HIV/AIDS is \"Currently closed for new applicants.\""
     }
   ],
   "also_serving": [
-    "<strong>Los Angeles County Development Authority (LACDA)</strong> serves unincorporated LA County and many contracting cities. Its voucher list is closed to public registration but continually accepts referrals from the Coordinated Entry System for households experiencing homelessness — call 211 to be screened.",
-    "Other LA-area authorities with separate waiting lists: <strong>Long Beach</strong>, <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong>, and <strong>Pomona</strong>."
+    "<strong>Los Angeles County Development Authority (LACDA)</strong> serves unincorporated LA County and many smaller cities, with its own lists. Its Section 8 list is closed to public registration; LACDA says the program is \"open to prioritize and continually accept referrals from a Coordinated Entry System (CES) and/or other partnering agencies for families that are homeless.\" LACDA's public housing site-based waiting lists took registrations from August 16 to September 16, 2026, and its <a href=\"https://www.lacda.org/public-housing/shared-info/how-to-apply\" target=\"_blank\" rel=\"noopener\">How To Apply page</a> now reads \"WAITING LISTS FOR ELDERLY AND GENERAL OCCUPANCY PUBLIC HOUSING SITES ARE CLOSED\" (checked October 15, 2026). LACDA: (626) 262-4511.",
+    "Other LA-area authorities with separate waiting lists: <strong>Long Beach</strong> (see our <a href=\"long-beach-haclb\">Long Beach HACLB page</a>), <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong>, and <strong>Pomona</strong>.",
+    "<strong>What to do while the Section 8 list is closed.</strong> Apply for HACLA public housing through RentCafe now (HACLA is not taking 1-bedroom applications at the moment), and ask about HACLA's other buildings listed above. Apply to LIHTC (tax credit) apartments building by building; see <a href=\"../guides/how-to-find-lihtc-housing\">how to find LIHTC housing</a>. If you are behind on rent or have an eviction notice, call or text <strong>2-1-1</strong>, LA County's 24/7 line, to be screened for prevention programs, and call <strong>Stay Housed LA</strong> at <a href=\"tel:+18886940040\">1-888-694-0040</a> (<a href=\"https://www.stayhousedla.org/\" target=\"_blank\" rel=\"noopener\">stayhousedla.org</a>) for free eviction legal help and connections to rental assistance. LA County's 2026 Emergency Rent Relief round closed on March 11, 2026; watch <a href=\"https://lacounty.gov/prevention/\" target=\"_blank\" rel=\"noopener\">lacounty.gov/prevention</a> for a new one. If you are homeless, 2-1-1 is also the way into Coordinated Entry, which is how HACLA's and LACDA's homeless vouchers are filled. Our <a href=\"../cities/los-angeles\">Los Angeles housing resources</a> page covers renter protections and more numbers."
   ],
   "faqs": [
     {
       "q": "Is the Los Angeles (HACLA) Section 8 waiting list open?",
-      "a": "As of May 2026, HACLA's Housing Choice Voucher waiting list is closed; the most recent opening used a lottery. Starting January 1, 2026, HACLA moved to the Rent Café online portal, and existing waiting-list members must use the new portal. Confirm the current status on HACLA's official site before relying on it."
+      "a": "No. HACLA's Section 8 page says: \"The Section 8 Waiting List is currently closed.\" (checked October 15, 2026). HACLA's FAQ says the list \"only accepts new applicants during a specific window of time\" and that an opening will be announced in the news, on social media and on hacla.org. The last opening was an online lottery from October 17 to October 30, 2022, when HACLA received 223,375 applications and picked up to 30,000 for the list. HACLA public housing is a separate list that is taking online applications, except 1-bedroom applications."
+    },
+    {
+      "q": "How do I apply for HACLA public housing?",
+      "a": "Online through RentCafe. HACLA says: \"To apply for the Public Housing Program online you must register for a RentCafe account with a valid email address.\" After you submit, you get a Registration Code; keep it, because you need it to update your application later. You can also request a paper application at application.help@hacla.org or from HACLA's Customer Contact Center at (833) 422-5248. HACLA's FAQ says it is not accepting 1-bedroom applications at this time, and you cannot choose a specific development (checked October 15, 2026)."
+    },
+    {
+      "q": "What is HACLA's phone number?",
+      "a": "(833) 422-5248, which HACLA also writes as 833-HACLA-4-U. HACLA's contact page lists it for the main office, the Section 8 program and the Public Housing Application Center, and HACLA's FAQ gives the same number for checking the status of a Section 8 or public housing application. Hours are 8:00 a.m. to 4:00 p.m., Monday to Friday, and the TDD line is (213) 252-5313. HACLA's Asset Management department, which handles its buildings that are not public housing, is (213) 252-8840. The older (213) 252-2500 number is not listed on HACLA's contact page (checked October 15, 2026)."
     },
     {
       "q": "What is the difference between HACLA and LACDA?",
-      "a": "HACLA serves the City of Los Angeles. The Los Angeles County Development Authority (LACDA) serves unincorporated LA County and many contracting cities. LACDA's list is closed to public registration but accepts referrals from the Coordinated Entry System (CES) for people experiencing homelessness — call 211 to be screened."
+      "a": "HACLA serves the City of Los Angeles. The Los Angeles County Development Authority (LACDA) serves unincorporated LA County and many smaller cities, and runs its own lists. LACDA's Section 8 list is closed to public registration but takes referrals for homeless families through the Coordinated Entry System. Its public housing site-based lists took registrations from August 16 to September 16, 2026, and are now closed (checked October 15, 2026). LACDA's number is (626) 262-4511."
     },
     {
-      "q": "Can I still get a voucher if the list is closed?",
-      "a": "Specialty vouchers are still accessible by referral even when the general list is closed: HUD-VASH for veterans, the Family Unification Program, Mainstream vouchers, and Foster Youth to Independence vouchers. These come through partner agencies and CES rather than open registration."
+      "q": "Can I get a HACLA voucher if I am homeless?",
+      "a": "Not by signing up directly. HACLA's FAQ says it \"does not offer homeless services directly to individuals.\" Its homeless and supportive-housing vouchers, including HUD-VASH for veterans, Stability Vouchers and project-based supportive housing, are filled by referral from LAHSA, the County health and mental health departments, the VA and the Continuum of Care. Start by calling or texting 2-1-1; veterans should also contact the VA."
+    },
+    {
+      "q": "What can I do while the HACLA Section 8 list is closed?",
+      "a": "Apply for HACLA public housing through RentCafe, and apply to HACLA's other buildings and to LIHTC (tax credit) apartments one building at a time. If you are behind on rent or got an eviction notice, call or text 2-1-1 to be screened for LA County prevention programs, and call Stay Housed LA at 1-888-694-0040 for free legal help and connections to rental assistance. Keep your contact information current on every list you join, because HACLA removes applicants who do not respond."
     }
   ],
   "sources": [
     {
-      "label": "HACLA — official website",
-      "url": "https://www.hacla.org/"
+      "label": "HACLA - About Section 8 (\"The Section 8 Waiting List is currently closed\")",
+      "url": "https://www.hacla.org/en/about-section-8"
     },
     {
-      "label": "LACDA — official website",
-      "url": "https://www.lacda.org/"
+      "label": "HACLA - FAQ (how the two waiting lists work, public housing open except 1-bedroom, project-based vouchers by referral, checking your status)",
+      "url": "https://www.hacla.org/en/about-us/faq"
+    },
+    {
+      "label": "HACLA - Contact Us (833-HACLA-4-U for the main office, Section 8 and the Public Housing Application Center; TDD; hours)",
+      "url": "https://www.hacla.org/en/about-us/contact-us"
+    },
+    {
+      "label": "HACLA - Public Housing Applicants (one citywide list, preferences, offers, how to apply through RentCafe)",
+      "url": "https://www.hacla.org/en/about-public-housing/public-housing-applicants"
+    },
+    {
+      "label": "HACLA - Participant Information (the Rent Café portal for Section 8 participants from January 1, 2026)",
+      "url": "https://www.hacla.org/en/about-section-8/participant-information"
+    },
+    {
+      "label": "HACLA - Homeless Initiatives (referral-based voucher programs)",
+      "url": "https://www.hacla.org/en/about-section-8/homeless-initiatives"
+    },
+    {
+      "label": "HACLA - Asset Management Portfolio (buildings that are not public housing, and how to apply)",
+      "url": "https://www.hacla.org/en/asset-management/am-portfolio"
+    },
+    {
+      "label": "HACLA - Online Recertification and Waitlists (Asset Management buildings)",
+      "url": "https://www.hacla.org/en/asset-management/online-recertification-and-waitlists"
+    },
+    {
+      "label": "HACLA - HACLA to Open Section 8 Housing Voucher Waiting List Lottery (October 17-30, 2022)",
+      "url": "https://www.hacla.org/en/news/hacla-open-section-8-housing-voucher-waiting-list-lottery"
+    },
+    {
+      "label": "HACLA - Section 8 Waiting List Lottery Application Period Now Closed (223,375 applications, up to 30,000 selected)",
+      "url": "https://www.hacla.org/en/news/haclas-section-8-waiting-list-lottery-application-period-now-closed-0"
+    },
+    {
+      "label": "LACDA - Public Housing: How To Apply (site-based lists closed; Section 8 by CES referral)",
+      "url": "https://www.lacda.org/public-housing/shared-info/how-to-apply"
+    },
+    {
+      "label": "LACDA - Section 8 Applicants",
+      "url": "https://www.lacda.org/section-8/applicants"
+    },
+    {
+      "label": "Stay Housed LA - free eviction legal help",
+      "url": "https://www.stayhousedla.org/"
+    },
+    {
+      "label": "LA County - Homelessness prevention programs",
+      "url": "https://lacounty.gov/prevention/"
     }
   ],
   "es": {
     "serves": "la ciudad de Los Ángeles, California",
-    "updated": "mayo de 2026",
-    "intro": "La Autoridad de Vivienda de la Ciudad de Los Ángeles (HACLA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Los Ángeles. Una autoridad separada, la Autoridad de Desarrollo del Condado de Los Ángeles (LACDA), sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. Esta página resume el estado actual de la lista de espera de HACLA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HACLA para cualquier asunto urgente.",
+    "updated": "15 de octubre de 2026",
+    "intro": "La Autoridad de Vivienda de la Ciudad de Los Ángeles (HACLA) administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública de la ciudad de Los Ángeles. El condado no incorporado de Los Ángeles y muchas ciudades más pequeñas tienen otra agencia, la Autoridad de Desarrollo del Condado de Los Ángeles (LACDA). Revisamos el sitio de HACLA el 15 de octubre de 2026: la lista de espera de la Sección 8 está cerrada, pero la lista de espera de vivienda pública acepta solicitudes en línea por RentCafe, excepto solicitudes de 1 recámara. El teléfono de HACLA es el (833) 422-5248, que HACLA escribe como 833-HACLA-4-U.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
       "Vivienda pública",
-      "HUD-VASH (para veteranos)",
-      "Programa de Unificación Familiar (FUP)",
-      "Vales Mainstream y Foster Youth to Independence"
+      "Vales basados en proyectos (Project-Based Vouchers, PBV)",
+      "HUD-VASH (para veteranos sin hogar, con el Centro Médico de la VA de West L.A.)",
+      "Vales para personas sin hogar y de vivienda con apoyo: Homeless Program, Tenant-Based Supportive Housing, Continuum of Care, Emergency Housing Vouchers y Stability Vouchers",
+      "Programa de Unificación Familiar (FUP) y vales Mainstream",
+      "Housing Opportunities for Persons with AIDS (HOPWA)",
+      "Programa de Autosuficiencia Familiar (FSS)"
     ],
     "waitlists": [
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "La apertura más reciente usó una lotería. A partir del 1 de enero de 2026, HACLA se cambió al portal en línea Rent Café — los miembros actuales de la lista de espera deben usar el nuevo portal."
+        "note": "La página de Sección 8 de HACLA dice: \"The Section 8 Waiting List is currently closed\" (la lista de espera de la Sección 8 está cerrada), verificado el 15 de octubre de 2026. Las preguntas frecuentes de HACLA agregan que la lista \"only accepts new applicants during a specific window of time\" (solo acepta solicitantes nuevos durante un periodo específico) y que, cuando abra, se anunciará ampliamente en periódicos, televisión, radio y redes sociales, y se actualizará el sitio de HACLA. Las mismas preguntas frecuentes describen la lista como \"closed and unlikely to reopen soon\" (cerrada y con pocas probabilidades de reabrir pronto). La última apertura fue una lotería en línea que recibió solicitudes desde las 6:00 a.m. del 17 de octubre hasta las 5:00 p.m. del 30 de octubre de 2022. HACLA recibió 223,375 solicitudes y usó una lotería por computadora para escoger hasta 30,000 solicitantes, con preferencia para quienes viven o trabajan en la ciudad de Los Ángeles y para veteranos. Si usted ya está en la lista, HACLA dice que su tiempo de espera depende de los fondos y de los vales disponibles. El 1 de enero de 2026 HACLA pasó a los participantes de la Sección 8 al portal Rent Café para las reexaminaciones anuales y los documentos; ese portal es para participantes actuales y no reabre la lista de espera. Nuestra <a href=\"../guias/loteria-seccion-8\">guía de loterías de la Sección 8</a> explica cómo funcionan estas aperturas."
       },
       {
         "program": "Vivienda pública",
-        "status": "Lista de espera separada administrada por HACLA",
-        "note": "Revise el sitio oficial para ver las aperturas actuales."
+        "status": "Abierta por RentCafe, excepto solicitudes de 1 recámara",
+        "note": "Las preguntas frecuentes de HACLA dicen: \"The Public Housing Waiting List is open\" (la lista de espera de vivienda pública está abierta) y \"Please note HACLA is not accepting 1-bedroom applications for Public Housing at this time\" (por ahora HACLA no acepta solicitudes de 1 recámara para vivienda pública), verificado el 15 de octubre de 2026. Es una sola lista para todos los desarrollos de vivienda pública de HACLA en la ciudad. HACLA dice que no se puede solicitar un desarrollo específico y que el lugar en la lista depende de la fecha y hora de la solicitud y de la elegibilidad de la familia. Hay preferencia para hogares cuyo jefe o cojefe trabaja al menos 20 horas por semana, estudia tiempo completo, es veterano o miembro activo de las fuerzas armadas, o tiene una discapacidad o 62 años o más, y las familias de veteranos tienen prioridad dentro de cada preferencia. Usted recibe hasta tres ofertas de unidad en tres lugares distintos y tiene cinco días hábiles para responder a cada una; si rechaza las tres, sale de la lista. HACLA dice que se puede estar en esta lista y en la de la Sección 8 al mismo tiempo. Abajo se explica cómo solicitar."
       },
       {
-        "program": "Referencias especializadas (HUD-VASH, FUP, Mainstream, FYI)",
-        "status": "Aún se aceptan por referencia",
-        "note": "Se accede a través de agencias asociadas y del Sistema de Entrada Coordinada (CES), no por registro público abierto."
+        "program": "Vales basados en proyectos y otros edificios de HACLA",
+        "status": "No hay lista pública para los vales basados en proyectos; los otros edificios de HACLA reciben solicitudes uno por uno",
+        "note": "Las preguntas frecuentes de HACLA dicen que sus unidades con vales basados en proyectos no tienen lista de espera: \"No Waiting List; PBV vouchers are available through referrals made from the Los Angeles Homeless Services Authority (LAHSA)\" (los vales PBV se asignan por referencia de LAHSA, a través de organizaciones asociadas o de sus centros de servicio). Aparte, el departamento de Asset Management de HACLA supervisa más de 2,500 apartamentos que no son vivienda pública: edificios a precio de mercado, con renta limitada por ingresos y para personas mayores. HACLA dice que cada propiedad tiene sus propios requisitos de elegibilidad y que, para solicitar, hay que comunicarse directamente con el administrador del sitio o con la compañía administradora. La página <a href=\"https://www.hacla.org/en/asset-management/online-recertification-and-waitlists\" target=\"_blank\" rel=\"noopener\">Online Recertification and Waitlists</a> de HACLA (en inglés) muestra 12 de estos edificios, cada uno con su propia página; Apperson Apartments, por ejemplo, tiene un enlace de RentCafe \"Sign up for Waitlist\" (inscribirse en la lista de espera). HACLA también publica una lista de vacantes actuales en su página principal. Si el administrador no responde, Asset Management atiende en el (213) 252-8840 o en assetmanagement@hacla.org."
+      },
+      {
+        "program": "Vales para personas sin hogar y especializados (HUD-VASH, EHV, Stability Vouchers, vivienda con apoyo)",
+        "status": "Solo por referencia",
+        "note": "No están abiertos al registro público. HACLA dice que trabaja con los Departamentos de Salud Mental y de Servicios de Salud del Condado para recibir referencias a su Homeless Program, que se asocia con el Centro Médico de la VA de West L.A. para HUD-VASH y que asigna sus Stability Vouchers por referencias directas del Continuum of Care (CoC). Las preguntas frecuentes de HACLA dicen que no ofrece servicios para personas sin hogar directamente y remiten al 2-1-1 del Condado de Los Ángeles, al 311 de la Ciudad y a LAHSA. El programa HOPWA de asistencia de alquiler para personas con VIH/SIDA está \"Currently closed for new applicants\" (cerrado para solicitantes nuevos)."
       }
     ],
     "also_serving": [
-      "La <strong>Autoridad de Desarrollo del Condado de Los Ángeles (LACDA)</strong> sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. Su lista de vales está cerrada al registro público, pero acepta continuamente referencias del Sistema de Entrada Coordinada para hogares sin vivienda — llame al 211 para ser evaluado.",
-      "Otras autoridades del área de Los Ángeles con listas de espera separadas: <strong>Long Beach</strong>, <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong> y <strong>Pomona</strong>."
+      "La <strong>Autoridad de Desarrollo del Condado de Los Ángeles (LACDA)</strong> sirve el condado no incorporado de Los Ángeles y muchas ciudades más pequeñas, con sus propias listas. Su lista de la Sección 8 está cerrada al registro público; LACDA dice que el programa sigue aceptando referencias del Sistema de Entrada Coordinada (CES) y de otras agencias asociadas para familias sin hogar. Las listas de espera por sitio de la vivienda pública de LACDA recibieron inscripciones del 16 de agosto al 16 de septiembre de 2026, y su <a href=\"https://www.lacda.org/public-housing/shared-info/how-to-apply\" target=\"_blank\" rel=\"noopener\">página How To Apply</a> (en inglés) dice ahora \"WAITING LISTS FOR ELDERLY AND GENERAL OCCUPANCY PUBLIC HOUSING SITES ARE CLOSED\" (las listas de espera de vivienda pública para personas mayores y de ocupación general están cerradas), verificado el 15 de octubre de 2026. LACDA: (626) 262-4511.",
+      "Otras autoridades del área de Los Ángeles con listas de espera separadas: <strong>Long Beach</strong> (vea nuestra <a href=\"long-beach-haclb\">página de HACLB de Long Beach</a>), <strong>Pasadena</strong>, <strong>Burbank</strong>, <strong>Glendale</strong>, <strong>Compton</strong>, <strong>Inglewood</strong> y <strong>Pomona</strong>.",
+      "<strong>Qué hacer mientras la lista de la Sección 8 está cerrada.</strong> Solicite ya la vivienda pública de HACLA por RentCafe (por ahora HACLA no acepta solicitudes de 1 recámara) y pregunte por los otros edificios de HACLA mencionados arriba. Solicite en apartamentos LIHTC (crédito fiscal) edificio por edificio; vea <a href=\"../guias/como-encontrar-vivienda-lihtc\">cómo encontrar vivienda LIHTC</a>. Si está atrasado con la renta o recibió un aviso de desalojo, llame o envíe un texto al <strong>2-1-1</strong>, la línea del Condado de Los Ángeles disponible 24/7, para que lo evalúen para programas de prevención, y llame a <strong>Stay Housed LA</strong> al <a href=\"tel:+18886940040\">1-888-694-0040</a> (<a href=\"https://www.stayhousedla.org/\" target=\"_blank\" rel=\"noopener\">stayhousedla.org</a>) para ayuda legal gratuita contra el desalojo y conexión con asistencia de alquiler. La ronda 2026 del Emergency Rent Relief del Condado cerró el 11 de marzo de 2026; esté atento a <a href=\"https://lacounty.gov/prevention/\" target=\"_blank\" rel=\"noopener\">lacounty.gov/prevention</a> por si abre otra. Si no tiene hogar, el 2-1-1 también es la entrada al Sistema de Entrada Coordinada, que es como se asignan los vales para personas sin hogar de HACLA y de LACDA. Nuestra página de <a href=\"../ciudades/los-angeles\">recursos de vivienda de Los Ángeles</a> explica las protecciones para inquilinos y tiene más teléfonos."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Los Ángeles (HACLA)?",
-        "a": "A partir de mayo de 2026, la lista de espera del Housing Choice Voucher de HACLA está cerrada; la apertura más reciente usó una lotería. A partir del 1 de enero de 2026, HACLA se cambió al portal en línea Rent Café, y los miembros actuales de la lista de espera deben usar el nuevo portal. Confirme el estado actual en el sitio oficial de HACLA antes de confiar en él."
+        "a": "No. La página de Sección 8 de HACLA dice: \"The Section 8 Waiting List is currently closed\" (la lista de espera de la Sección 8 está cerrada), verificado el 15 de octubre de 2026. Las preguntas frecuentes de HACLA dicen que la lista solo acepta solicitantes nuevos durante un periodo específico y que una apertura se anunciará en los medios, en redes sociales y en hacla.org. La última apertura fue una lotería en línea del 17 al 30 de octubre de 2022: HACLA recibió 223,375 solicitudes y escogió hasta 30,000 para la lista. La vivienda pública de HACLA es una lista aparte que acepta solicitudes en línea, excepto solicitudes de 1 recámara."
+      },
+      {
+        "q": "¿Cómo solicito la vivienda pública de HACLA?",
+        "a": "En línea por RentCafe. HACLA dice que para solicitar en línea hay que crear una cuenta de RentCafe con un correo electrónico válido. Al enviar la solicitud recibe un Código de Registro; guárdelo, porque lo necesitará para actualizar su solicitud más adelante. También puede pedir una solicitud en papel en application.help@hacla.org o al Centro de Atención de HACLA, (833) 422-5248. Las preguntas frecuentes de HACLA dicen que por ahora no acepta solicitudes de 1 recámara y que no se puede escoger un desarrollo específico (verificado el 15 de octubre de 2026)."
+      },
+      {
+        "q": "¿Cuál es el número de teléfono de HACLA?",
+        "a": "El (833) 422-5248, que HACLA también escribe como 833-HACLA-4-U. La página de contacto de HACLA lo da para la oficina principal, el programa de Sección 8 y el Centro de Solicitudes de Vivienda Pública, y las preguntas frecuentes de HACLA dan el mismo número para consultar el estado de una solicitud de Sección 8 o de vivienda pública. El horario es de 8:00 a.m. a 4:00 p.m., de lunes a viernes, y la línea TDD es el (213) 252-5313. El departamento de Asset Management de HACLA, que maneja sus edificios que no son vivienda pública, atiende en el (213) 252-8840. El número anterior, (213) 252-2500, no aparece en la página de contacto de HACLA (verificado el 15 de octubre de 2026)."
       },
       {
         "q": "¿Cuál es la diferencia entre HACLA y LACDA?",
-        "a": "HACLA sirve la ciudad de Los Ángeles. La Autoridad de Desarrollo del Condado de Los Ángeles (LACDA) sirve el condado no incorporado de Los Ángeles y muchas ciudades por contrato. La lista de LACDA está cerrada al registro público, pero acepta referencias del Sistema de Entrada Coordinada (CES) para personas sin vivienda — llame al 211 para ser evaluado."
+        "a": "HACLA sirve la ciudad de Los Ángeles. La Autoridad de Desarrollo del Condado de Los Ángeles (LACDA) sirve el condado no incorporado de Los Ángeles y muchas ciudades más pequeñas, y tiene sus propias listas. La lista de la Sección 8 de LACDA está cerrada al registro público, pero acepta referencias de familias sin hogar a través del Sistema de Entrada Coordinada. Sus listas de vivienda pública por sitio recibieron inscripciones del 16 de agosto al 16 de septiembre de 2026 y ahora están cerradas (verificado el 15 de octubre de 2026). El teléfono de LACDA es el (626) 262-4511."
       },
       {
-        "q": "¿Puedo obtener un vale aunque la lista esté cerrada?",
-        "a": "Los vales especializados siguen siendo accesibles por referencia aun cuando la lista general está cerrada: HUD-VASH para veteranos, el Programa de Unificación Familiar, los vales Mainstream y los vales Foster Youth to Independence. Estos llegan a través de agencias asociadas y del CES en lugar de un registro abierto."
+        "q": "¿Puedo obtener un vale de HACLA si no tengo hogar?",
+        "a": "No inscribiéndose directamente. Las preguntas frecuentes de HACLA dicen que no ofrece servicios para personas sin hogar directamente. Sus vales para personas sin hogar y de vivienda con apoyo, entre ellos HUD-VASH para veteranos, los Stability Vouchers y la vivienda con apoyo basada en proyectos, se asignan por referencia de LAHSA, de los departamentos de salud y salud mental del Condado, de la VA y del Continuum of Care. Empiece por llamar o enviar un texto al 2-1-1; los veteranos también deben comunicarse con la VA."
+      },
+      {
+        "q": "¿Qué puedo hacer mientras la lista de la Sección 8 de HACLA está cerrada?",
+        "a": "Solicite la vivienda pública de HACLA por RentCafe, y solicite en los otros edificios de HACLA y en apartamentos LIHTC (crédito fiscal), uno por uno. Si está atrasado con la renta o recibió un aviso de desalojo, llame o envíe un texto al 2-1-1 para que lo evalúen para los programas de prevención del Condado de Los Ángeles, y llame a Stay Housed LA al 1-888-694-0040 para ayuda legal gratuita y conexión con asistencia de alquiler. Mantenga al día su información de contacto en cada lista en la que esté, porque HACLA saca de la lista a quienes no responden."
       }
     ],
     "sources": [
       {
-        "label": "HACLA — sitio web oficial",
-        "url": "https://www.hacla.org/"
+        "label": "HACLA - About Section 8 (lista de espera de la Sección 8 cerrada), en inglés",
+        "url": "https://www.hacla.org/en/about-section-8"
       },
       {
-        "label": "LACDA — sitio web oficial",
-        "url": "https://www.lacda.org/"
+        "label": "HACLA - FAQ (cómo funcionan las dos listas, vivienda pública abierta excepto 1 recámara, vales basados en proyectos por referencia, consultar su estado), en inglés",
+        "url": "https://www.hacla.org/en/about-us/faq"
+      },
+      {
+        "label": "HACLA - Contact Us (833-HACLA-4-U para la oficina principal, la Sección 8 y el Centro de Solicitudes de Vivienda Pública; TDD; horario), en inglés",
+        "url": "https://www.hacla.org/en/about-us/contact-us"
+      },
+      {
+        "label": "HACLA - Public Housing Applicants (una sola lista, preferencias, ofertas, cómo solicitar por RentCafe), en inglés",
+        "url": "https://www.hacla.org/en/about-public-housing/public-housing-applicants"
+      },
+      {
+        "label": "HACLA - Participant Information (el portal Rent Café para participantes de la Sección 8 desde el 1 de enero de 2026), en inglés",
+        "url": "https://www.hacla.org/en/about-section-8/participant-information"
+      },
+      {
+        "label": "HACLA - Homeless Initiatives (programas de vales por referencia), en inglés",
+        "url": "https://www.hacla.org/en/about-section-8/homeless-initiatives"
+      },
+      {
+        "label": "HACLA - Asset Management Portfolio (edificios que no son vivienda pública y cómo solicitar), en inglés",
+        "url": "https://www.hacla.org/en/asset-management/am-portfolio"
+      },
+      {
+        "label": "HACLA - Online Recertification and Waitlists (edificios de Asset Management), en inglés",
+        "url": "https://www.hacla.org/en/asset-management/online-recertification-and-waitlists"
+      },
+      {
+        "label": "HACLA - HACLA to Open Section 8 Housing Voucher Waiting List Lottery (17 al 30 de octubre de 2022), en inglés",
+        "url": "https://www.hacla.org/en/news/hacla-open-section-8-housing-voucher-waiting-list-lottery"
+      },
+      {
+        "label": "HACLA - Section 8 Waiting List Lottery Application Period Now Closed (223,375 solicitudes, hasta 30,000 escogidas), en inglés",
+        "url": "https://www.hacla.org/en/news/haclas-section-8-waiting-list-lottery-application-period-now-closed-0"
+      },
+      {
+        "label": "LACDA - Public Housing: How To Apply (listas por sitio cerradas; Sección 8 por referencia del CES), en inglés",
+        "url": "https://www.lacda.org/public-housing/shared-info/how-to-apply"
+      },
+      {
+        "label": "LACDA - Section 8 Applicants, en inglés",
+        "url": "https://www.lacda.org/section-8/applicants"
+      },
+      {
+        "label": "Stay Housed LA - ayuda legal gratuita contra el desalojo",
+        "url": "https://www.stayhousedla.org/"
+      },
+      {
+        "label": "Condado de Los Ángeles - programas de prevención de la falta de vivienda, en inglés",
+        "url": "https://lacounty.gov/prevention/"
       }
     ]
   }
