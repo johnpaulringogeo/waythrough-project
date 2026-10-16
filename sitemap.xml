@@ -489,7 +489,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/omaha</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1022,6 +1022,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-omaha</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/immigration-housing</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1227,7 +1233,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/omaha-oha</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2218,7 +2224,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/omaha</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2997,6 +3003,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-omaha</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/es/recursos/herramientas/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -3476,7 +3488,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/omaha-oha</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -918,7 +918,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 61 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 62 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -3431,7 +3431,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 61 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 62 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -3941,6 +3941,13 @@
     "body": "Emergency Rent & Eviction Help in Dallas | Waythrough Home / Resources / Emergency Rent Help in Dallas How-To Guide Emergency Rent Help in Dallas: What's Open, Free Eviction Lawyers, and Texas's 2026 Eviction Clock Matt · Updated October 2026 If you rent in Dallas and you are behind, start with the "
   },
   {
+    "title": "Emergency Rent & Eviction Help in Omaha | Waythrough",
+    "description": "Omaha rent help, door by door: Douglas County General Assistance, Together's walk-in clinic, 211, what happened to MACCH, free eviction lawyers, and the 7-day notice.",
+    "url": "/resources/guides/emergency-rent-help-omaha",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Omaha | Waythrough Home / Resources / Emergency Rent Help in Omaha How-To Guide Emergency Rent Help in Omaha: Who Still Pays, What Happened to MACCH, and the 7-Day Clock Matt · Updated October 2026 If you rent in Omaha and you are behind, there is no single rent fun"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4205,5 +4212,12 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-dallas",
     "category": "Guías",
     "body": "Si usted alquila en Dallas y se atrasó con la renta, empecemos con la noticia difícil: el programa de ayuda con la renta de la Ciudad de Dallas no está recibiendo solicitudes de renta. Su página dice \"Rental Assistance-Not accepting applications at this time\" (no se aceptan solicitudes de ayuda con "
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Omaha | Waythrough",
+    "description": "Ayuda con la renta en Omaha: la Asistencia General del Condado de Douglas, la clínica sin cita de Together, el 211, qué pasó con MACCH, abogados gratis y el aviso de 7 días.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-omaha",
+    "category": "Guías",
+    "body": "Si usted alquila en Omaha y se atrasó con la renta, no hay un solo fondo al que pueda solicitar, y no existe una solicitud de renta de MACCH, ni en línea ni en ningún otro lugar. MACCH, el Continuum of Care del área metropolitana para personas sin hogar, ahora se llama Threshold Continuum of Care , "
   }
 ]
