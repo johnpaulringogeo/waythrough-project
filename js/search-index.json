@@ -918,7 +918,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 59 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 61 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -3431,7 +3431,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 59 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 61 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -3927,6 +3927,20 @@
     "body": "Omaha Housing Authority (OHA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough Home / Resources / Housing Authorities / OHA Housing Authority Omaha Housing Authority (OHA) Serves Omaha, Ralston, Papillion, La Vista, Millard and Douglas County, Nebraska · Last checked October 15, 2026 "
   },
   {
+    "title": "Emergency Rent & Eviction Help in Austin | Waythrough",
+    "description": "Austin rent help after I Belong in Austin closed: El Buen's monthly hotline, Austin Public Health's rent line, free TRLA eviction lawyers, 2026 rules.",
+    "url": "/resources/guides/emergency-rent-help-austin",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Austin | Waythrough Home / Resources / Emergency Rent Help in Austin How-To Guide Emergency Rent Help in Austin: Who Still Pays, Free Eviction Lawyers, and Texas's 2026 Eviction Clock Matt · Updated October 2026 If you rent in Austin and you are behind, know this fi"
+  },
+  {
+    "title": "Emergency Rent & Eviction Help in Dallas | Waythrough",
+    "description": "Dallas rent help, door by door: what the City and County still pay, free eviction lawyers at DEAC and Legal Aid, and Texas's 2026 eviction rules.",
+    "url": "/resources/guides/emergency-rent-help-dallas",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Dallas | Waythrough Home / Resources / Emergency Rent Help in Dallas How-To Guide Emergency Rent Help in Dallas: What's Open, Free Eviction Lawyers, and Texas's 2026 Eviction Clock Matt · Updated October 2026 If you rent in Dallas and you are behind, start with the "
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4177,5 +4191,19 @@
     "url": "/es/recursos/autoridades-de-vivienda/omaha-oha",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / OHA Autoridad de Vivienda Omaha Housing Authority (OHA) Sirve a Omaha, Ralston, Papillion, La Vista, Millard y el condado de Douglas, Nebraska · Última verificación: 15 de octubre de 2026 Waythrough es un recurso independiente, no es OHA. Resumimos infor"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Austin | Waythrough",
+    "description": "Ayuda con la renta en Austin tras el cierre de I Belong in Austin: la línea mensual de El Buen, Austin Public Health, abogados de TRLA y las reglas de 2026.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-austin",
+    "category": "Guías",
+    "body": "Si usted alquila en Austin y se atrasó con la renta, sepa esto primero: el portal de renta I Belong in Austin de la Ciudad está cerrado. La Ciudad dice que \"will close indefinitely\" (cerrará indefinidamente) y que el dinero que le queda va a ayuda legal y a acuerdos negociados de desalojo. La puerta"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Dallas | Waythrough",
+    "description": "Ayuda con la renta en Dallas: qué pagan la Ciudad y el Condado, abogados gratis de DEAC y Legal Aid, y las nuevas reglas de desalojo de Texas de 2026.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-dallas",
+    "category": "Guías",
+    "body": "Si usted alquila en Dallas y se atrasó con la renta, empecemos con la noticia difícil: el programa de ayuda con la renta de la Ciudad de Dallas no está recibiendo solicitudes de renta. Su página dice \"Rental Assistance-Not accepting applications at this time\" (no se aceptan solicitudes de ayuda con "
   }
 ]
