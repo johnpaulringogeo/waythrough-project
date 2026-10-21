@@ -918,7 +918,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 64 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 65 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -3431,7 +3431,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 64 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 65 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -3962,6 +3962,13 @@
     "body": "Emergency Rent & Eviction Help in El Paso | Waythrough Home / Resources / Emergency Rent Help in El Paso How-To Guide Emergency Rent Help in El Paso: Who Still Pays, Free Eviction Help, and the 3-Day Notice Matt · Updated October 2026 If you rent in El Paso and you are behind, there are two public d"
   },
   {
+    "title": "Free Legal Help for Tenants Facing Eviction | Waythrough",
+    "description": "Free legal help for tenants: find legal aid with LSC or LawHelp.org, call 211, see where renters have a right to a free eviction lawyer, and what to bring.",
+    "url": "/resources/guides/free-legal-help-for-tenants",
+    "category": "Guide",
+    "body": "Free Legal Help for Tenants Facing Eviction | Waythrough Home / Resources / Free Legal Help for Tenants How-To Guide Free Legal Help for Tenants: How to Find a Lawyer When You Face Eviction Matt · Updated October 2026 If you rent and need a lawyer, start with your local legal aid office. Legal aid g"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4247,5 +4254,12 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-el-paso",
     "category": "Guías",
     "body": "Si usted alquila en El Paso y se atrasó con la renta, hay dos puertas públicas que todavía pagan la renta. La Asistencia General del Condado de El Paso (El Paso County General Assistance) \"meets the emergency rent or mortgage payment needs of El Paso County residents\" (cubre las necesidades de pago "
+  },
+  {
+    "title": "Ayuda legal gratis para inquilinos con desalojo | Waythrough",
+    "description": "Ayuda legal gratis para inquilinos: busque ayuda legal con LSC o LawHelp.org, llame al 211 y vea dónde tiene derecho a un abogado gratis en su desalojo.",
+    "url": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+    "category": "Guías",
+    "body": "Si alquila y necesita un abogado, empiece por la oficina de ayuda legal (legal aid) de su zona. Son organizaciones sin fines de lucro que dan ayuda legal gratis a personas de bajos ingresos, y los desalojos son uno de los casos que más atienden. Puede encontrar la suya con la herramienta de búsqueda"
   }
 ]
