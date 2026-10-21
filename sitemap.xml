@@ -315,7 +315,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/boston</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -651,7 +651,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1046,6 +1046,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-boston</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/immigration-housing</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -1131,7 +1137,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/boston-bha</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2068,7 +2074,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/boston</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2692,7 +2698,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3041,6 +3047,12 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/ayuda-legal-gratuita-inquilinos</loc>
     <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-boston</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3404,7 +3416,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/boston-bha</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
