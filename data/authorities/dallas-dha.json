@@ -40,7 +40,8 @@
   "also_serving": [
     "<strong>Dallas County Housing Assistance Program</strong> is a separate, Section 8 only agency. HUD lists it as TX559, (214) 819-1871.",
     "<strong>City programs nearby</strong> keep their own lists, including the Garland Housing Authority (TX435, (972) 205-3391), Grand Prairie Housing and Neighborhood Services (TX434, (972) 237-8176), the City of Mesquite Housing Office (TX436, (972) 329-8739), the Housing Authority of Plano (TX128, (972) 423-4928) and the Housing Authority of McKinney (TX027, (972) 542-5641).",
-    "<strong>Fort Worth</strong> is served by its own housing authority (HUD code TX004, (817) 333-3400) and Tarrant County by the Tarrant County Housing Assistance Office (TX431, (817) 531-7654). All of the numbers in this section are as HUD lists them, so confirm each one with the agency."
+    "<strong>Fort Worth</strong> is served by its own housing authority (HUD code TX004, (817) 333-3400) and Tarrant County by the Tarrant County Housing Assistance Office (TX431, (817) 531-7654). All of the numbers in this section are as HUD lists them, so confirm each one with the agency.",
+    "<strong>DHA is not an emergency rent fund.</strong> If you are behind on rent, the City of Dallas's own social services page says \"Rental Assistance-Not accepting applications at this time\" (checked October 21, 2026). Dallas County helps with rent only for residents with a disability, through its Welfare Assistance program at (214) 819-1800, and one of its requirements is \"Not receiving housing assistance (e.g., Section 8).\" See our <a href=\"../guides/emergency-rent-help-dallas\">Dallas emergency rent help guide</a> for the doors that are still open, free eviction lawyers, and Texas's 2026 eviction timeline."
   ],
   "faqs": [
     {
@@ -124,6 +125,14 @@
     {
       "label": "HUD - PHA Contact Report, Texas (TX009 Combined; TX559 Dallas County; nearby city agencies)",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+    },
+    {
+      "label": "City of Dallas - Office of Community Care social services (Rental Assistance-Not accepting applications at this time)",
+      "url": "https://dallascityhall.com/departments/community-empowerment/Pages/socialservice.aspx"
+    },
+    {
+      "label": "Dallas County Health and Human Services - Welfare Assistance (rent help for residents with a disability; not receiving Section 8)",
+      "url": "https://www.dallascounty.org/departments/dchhs/human-services/welfare-assist.php"
     }
   ],
   "es": {
@@ -156,7 +165,8 @@
     "also_serving": [
       "El <strong>Dallas County Housing Assistance Program</strong> es una agencia aparte, solo de la Sección 8. HUD la registra como TX559, (214) 819-1871.",
       "Los <strong>programas de ciudades cercanas</strong> llevan sus propias listas, entre ellos la Garland Housing Authority (TX435, (972) 205-3391), Grand Prairie Housing and Neighborhood Services (TX434, (972) 237-8176), la City of Mesquite Housing Office (TX436, (972) 329-8739), la Housing Authority of Plano (TX128, (972) 423-4928) y la Housing Authority of McKinney (TX027, (972) 542-5641).",
-      "<strong>Fort Worth</strong> tiene su propia autoridad de vivienda (código TX004 de HUD, (817) 333-3400) y el condado de Tarrant tiene la Tarrant County Housing Assistance Office (TX431, (817) 531-7654). Todos los números de esta sección son los que lista HUD, así que confírmelos con cada agencia."
+      "<strong>Fort Worth</strong> tiene su propia autoridad de vivienda (código TX004 de HUD, (817) 333-3400) y el condado de Tarrant tiene la Tarrant County Housing Assistance Office (TX431, (817) 531-7654). Todos los números de esta sección son los que lista HUD, así que confírmelos con cada agencia.",
+      "<strong>DHA no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, la propia página de servicios sociales de la Ciudad de Dallas dice \"Rental Assistance-Not accepting applications at this time\" (no se aceptan solicitudes de ayuda con la renta por ahora) (verificado el 21 de octubre de 2026). El Condado de Dallas ayuda con la renta solo a residentes con una discapacidad, con su programa de Asistencia Social (Welfare Assistance) al (214) 819-1800, y uno de sus requisitos es \"Not receiving housing assistance (e.g., Section 8)\" (no recibir ayuda de vivienda, como la Sección 8). Vea nuestra <a href=\"../guias/asistencia-renta-emergencia-dallas\">guía de ayuda de emergencia con la renta en Dallas</a>: las puertas que siguen abiertas, abogados gratis contra el desalojo y los plazos de desalojo de Texas en 2026."
     ],
     "faqs": [
       {
@@ -240,6 +250,14 @@
       {
         "label": "HUD - Informe de contactos de PHA, Texas: TX009 Combined, TX559 condado de Dallas (en inglés)",
         "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+      },
+      {
+        "label": "Ciudad de Dallas - servicios sociales de la Office of Community Care: no se aceptan solicitudes de ayuda con la renta (en inglés)",
+        "url": "https://dallascityhall.com/departments/community-empowerment/Pages/socialservice.aspx"
+      },
+      {
+        "label": "Condado de Dallas - Asistencia Social (Welfare Assistance): renta para residentes con discapacidad que no reciben Sección 8 (en inglés)",
+        "url": "https://www.dallascounty.org/departments/dchhs/human-services/welfare-assist.php"
       }
     ]
   }
