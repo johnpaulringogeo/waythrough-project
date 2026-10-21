@@ -1427,7 +1427,7 @@
             var html = '<div class="results-section"><h3>' + title + '</h3><div class="resource-list">';
             items.forEach(function(item) {
                 if (item.link) {
-                    html += '<a href="' + item.link + '" class="resource-card">';
+                    html += '<a href="' + item.link + '" class="resource-card"' + (item.external ? ' target="_blank" rel="noopener"' : '') + '>';
                 } else {
                     html += '<div class="resource-card">';
                 }
@@ -1452,6 +1452,7 @@
             if (branch === 'stay-tonight') {
                 focused.push({
                     title: 'Llama al 211 para Vivienda de Emergencia',
+                    link: 'vivienda-de-emergencia.html',
                     description: 'Disponible 24/7, gratuito. Te conectarán con los refugios de emergencia más cercanos y ayuda inmediata en tu área.',
                     meta: 'Emergencia • Inmediato'
                 });
@@ -1476,6 +1477,8 @@
                 if (who.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'Línea de Crisis para Veteranos',
+                        link: 'https://www.veteranscrisisline.net/es/',
+                        external: true,
                         description: 'Llama al 988 y presiona 1, o envía un mensaje de texto al 838255. Disponible 24/7. También pueden conectarte con servicios de vivienda de emergencia del VA.',
                         meta: 'Veteranos • Crisis • 24/7'
                     });
@@ -1487,7 +1490,9 @@
                     });
                     focused.push({
                         title: 'SSVF — Servicios de Apoyo para Familias de Veteranos',
-                        description: 'Un programa del VA que proporciona reubicación rápida, fondos para refugio de emergencia y manejo de casos para veteranos en crisis. Llama al 877-424-3838.',
+                        link: 'https://department.va.gov/homeless/supportive-services-for-veteran-families/',
+                        external: true,
+                        description: 'Un programa del VA que proporciona reubicación rápida, fondos para refugio de emergencia y manejo de casos para veteranos en crisis. Llama al Centro Nacional de Llamadas para Veteranos sin Hogar al 877-424-3838, disponible 24/7.',
                         meta: 'Veteranos • Emergencia'
                     });
                 }
@@ -1555,7 +1560,8 @@
 
                     if (a['repair-stage'] === 'code-violations') {
                         focused.push({
-                            title: 'Actúa Antes de la Condena',
+                            title: 'Actúa Antes de que Declaren Inhabitable tu Casa',
+                            link: 'guias/programas-reparacion-vivienda.html',
                             description: 'Contacta al 211 y a tu Agencia de Acción Comunitaria inmediatamente — pueden acelerar la asistencia de reparación de emergencia cuando hay violaciones de código involucradas.',
                             meta: 'Urgente'
                         });
@@ -1563,6 +1569,8 @@
 
                     focused.push({
                         title: 'Llama al 211 para Ayuda Local',
+                        link: 'https://www.211.org/',
+                        external: true,
                         description: 'Mantienen una base de datos de programas locales de reparación del hogar, incluyendo programas de emergencia que pueden no ser ampliamente conocidos.',
                         meta: 'Primer Paso'
                     });
@@ -1601,6 +1609,7 @@
                     if (a.urgency === 'behind' || a['foreclosure-stage'] === 'missed-notice' || a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Contacta a un Consejero de Vivienda Aprobado por HUD',
+                            link: 'guias/como-encontrar-consejero-vivienda.html',
                             description: 'Ayuda gratuita y confidencial de un consejero certificado que puede negociar con tu prestamista en tu nombre. Llama al 800-569-4287 o visita hud.gov/counseling.',
                             meta: 'Gratuito • Inmediato'
                         });
@@ -1609,6 +1618,7 @@
                     if (a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Conoce Tus Derechos Legales',
+                            link: 'guias/ayuda-legal-gratuita-inquilinos.html',
                             description: 'La ejecución hipotecaria tiene requisitos legales estrictos. Tu prestamista debe cumplirlos. Un consejero de vivienda o abogado de asistencia legal puede decirte si los ha cumplido.',
                             meta: 'Legal • Urgente'
                         });
@@ -1617,6 +1627,7 @@
                     if (a.urgency === 'next-month' || a.urgency === 'planning') {
                         focused.push({
                             title: 'Habla con Tu Prestamista Temprano',
+                            link: 'guias/como-prevenir-ejecucion-hipotecaria.html',
                             description: 'Los prestamistas tienen departamentos de mitigación de pérdidas específicamente para esto. Contáctalos antes de perder un pago — tus opciones son mucho mejores.',
                             meta: 'Prevención'
                         });
@@ -1736,7 +1747,9 @@
                     if (isRepair) {
                         additional.push({
                             title: 'Subvenciones de Vivienda Adaptada del VA',
-                            description: 'Los veteranos con discapacidades conectadas al servicio pueden calificar para subvenciones de hasta $110,000 para modificaciones del hogar. Llama al 877-827-3702.',
+                            link: 'https://www.va.gov/housing-assistance/disability-housing-grants/',
+                            external: true,
+                            description: 'Los veteranos con discapacidades conectadas al servicio pueden calificar para subvenciones de hasta $126,526 (año fiscal 2026) para modificaciones del hogar. Llama al 877-827-3702.',
                             meta: 'Veteranos • Vivienda'
                         });
                     }
@@ -1804,6 +1817,7 @@
                 if (a.stage === 'worried') {
                     focused.push({
                         title: 'Habla con Tu Arrendador Ahora',
+                        link: 'prevencion-desalojos.html',
                         description: 'Si estás atrasado/a o esperas estarlo, contacta a tu arrendador antes de que tome acción. Muchos arrendadores prefieren un plan de pago antes que el proceso de desalojo. Pon cualquier acuerdo por escrito.',
                         meta: 'Prevención • Primer Paso'
                     });
@@ -1832,7 +1846,8 @@
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
                         title: 'Encuentra Ayuda Legal Gratuita',
-                        description: 'Llama al 211, visita lawhelp.org, o contacta a tu colegio de abogados local para clínicas legales gratuitas para inquilinos.',
+                        link: 'guias/ayuda-legal-gratuita-inquilinos.html',
+                        description: 'Llama al 211, visita lawhelp.org o contacta a tu oficina local de ayuda legal. Algunas ciudades y estados dan por ley un abogado gratis a los inquilinos que enfrentan un desalojo.',
                         meta: 'Asistencia Legal'
                     });
                 }
@@ -1857,7 +1872,9 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'SSVF — Servicios de Apoyo para Familias de Veteranos',
-                        description: 'Un programa del VA diseñado específicamente para prevenir que los veteranos se queden sin hogar. Pueden ayudar con renta, servicios públicos, depósitos y asistencia legal. Llama al 877-424-3838.',
+                        link: 'https://department.va.gov/homeless/supportive-services-for-veteran-families/',
+                        external: true,
+                        description: 'Un programa del VA diseñado específicamente para prevenir que los veteranos se queden sin hogar. Pueden ayudar con renta, servicios públicos, depósitos y asistencia legal. Llama al Centro Nacional de Llamadas para Veteranos sin Hogar al 877-424-3838, disponible 24/7.',
                         meta: 'Veteranos • Prevención'
                     });
                     additional.push({
@@ -1906,6 +1923,8 @@
                     var urgentFiling = a.when === 'this-week' || a.when === 'past-month';
                     focused.push({
                         title: 'Solicita Beneficios de Desempleo',
+                        link: 'https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/find-unemployment-benefits.aspx',
+                        external: true,
                         description: urgentFiling
                             ? 'Solicita lo antes posible — los beneficios se retrotraen a tu fecha de solicitud, no a tu último día de trabajo. Cada día que esperas es dinero que pierdes.'
                             : 'Solicita en línea a través del sitio web de desempleo de tu estado. Incluso si te despidieron, podrías calificar — solicita de todos modos.',
@@ -1916,6 +1935,8 @@
                 if (a.when === 'this-week') {
                     focused.push({
                         title: 'Cobertura COBRA o del Mercado',
+                        link: 'https://www.cuidadodesalud.gov/es/have-job-based-coverage/if-you-lose-job-based-coverage/',
+                        external: true,
                         description: 'Tienes 60 días para elegir COBRA y 60 días para un Período de Inscripción Especial en el mercado. No dejes pasar estos plazos.',
                         meta: 'Salud • Plazo Limitado'
                     });
@@ -2189,6 +2210,7 @@
                 if (a.problem === 'running-out') {
                     focused.push({
                         title: 'Contacta a Tu PHA Inmediatamente',
+                        link: 'guias/como-encontrar-tu-pha.html',
                         description: 'Tu PHA a veces puede conceder extensiones en el plazo de búsqueda de tu cupón. Llámalos lo antes posible.',
                         meta: 'Urgente'
                     });
@@ -2333,7 +2355,9 @@
                     } else {
                         focused.push({
                             title: 'Recursos Adicionales de Alimentos',
-                            description: 'Llama al 211 para encontrar bancos de alimentos locales, comidas comunitarias y despensas en tu área.',
+                            link: 'https://www.fns.usda.gov/national-hunger-hotline',
+                            external: true,
+                            description: 'Llama al 211 o a la Línea Nacional contra el Hambre del USDA al 1-866-348-6479 para encontrar bancos de alimentos locales, comidas comunitarias y despensas en tu área.',
                             meta: 'Alimentos'
                         });
                     }
@@ -2416,7 +2440,9 @@
                     if (needs.indexOf('employment') !== -1) {
                         additional.push({
                             title: 'Rehabilitación Vocacional del VA',
-                            description: 'Capacitación laboral, ayuda con currículum y servicios de carrera para veteranos con discapacidades conectadas al servicio. Llama al 877-827-3702.',
+                            link: 'https://www.va.gov/careers-employment/vocational-rehabilitation/',
+                            external: true,
+                            description: 'Capacitación laboral, ayuda con currículum y servicios de carrera para veteranos con discapacidades conectadas al servicio. Llama a la línea de beneficios del VA al 800-827-1000.',
                             meta: 'Veteranos • Empleo'
                         });
                     }

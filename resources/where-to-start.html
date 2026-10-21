@@ -1456,7 +1456,7 @@
             var html = '<div class="results-section"><h3>' + title + '</h3><div class="resource-list">';
             items.forEach(function(item) {
                 if (item.link) {
-                    html += '<a href="' + item.link + '" class="resource-card">';
+                    html += '<a href="' + item.link + '" class="resource-card"' + (item.external ? ' target="_blank" rel="noopener"' : '') + '>';
                 } else {
                     html += '<div class="resource-card">';
                 }
@@ -1481,6 +1481,7 @@
             if (branch === 'stay-tonight') {
                 focused.push({
                     title: 'Call 211 for Emergency Housing',
+                    link: 'emergency-housing.html',
                     description: 'Available 24/7, toll-free. They\'ll connect you with the nearest emergency shelters and immediate aid in your area.',
                     meta: 'Emergency \u2022 Immediate'
                 });
@@ -1505,6 +1506,8 @@
                 if (who.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'Veterans Crisis Line',
+                        link: 'https://www.veteranscrisisline.net/',
+                        external: true,
                         description: 'Call 988 and press 1, or text 838255. Available 24/7. They can also connect you with VA emergency housing services.',
                         meta: 'Veterans \u2022 Crisis \u2022 24/7'
                     });
@@ -1516,7 +1519,9 @@
                     });
                     focused.push({
                         title: 'SSVF — Supportive Services for Veteran Families',
-                        description: 'A VA program that provides rapid rehousing, emergency shelter funds, and case management for veterans in crisis. Call 877-424-3838.',
+                        link: 'https://department.va.gov/homeless/supportive-services-for-veteran-families/',
+                        external: true,
+                        description: 'A VA program that provides rapid rehousing, emergency shelter funds, and case management for veterans in crisis. Call the National Call Center for Homeless Veterans at 877-424-3838, 24/7.',
                         meta: 'Veterans \u2022 Emergency'
                     });
                 }
@@ -1586,6 +1591,7 @@
                     if (a['repair-stage'] === 'code-violations') {
                         focused.push({
                             title: 'Act Before Condemnation',
+                            link: 'guides/home-repair-assistance.html',
                             description: 'Contact 211 and your Community Action Agency immediately — they can fast-track emergency repair assistance when code violations are involved.',
                             meta: 'Urgent'
                         });
@@ -1593,6 +1599,8 @@
 
                     focused.push({
                         title: 'Call 211 for Local Help',
+                        link: 'https://www.211.org/',
+                        external: true,
                         description: 'They maintain a database of local home repair programs, including emergency programs that may not be widely advertised.',
                         meta: 'First Step'
                     });
@@ -1632,6 +1640,7 @@
                     if (a.urgency === 'behind' || a['foreclosure-stage'] === 'missed-notice' || a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Contact a HUD-Approved Housing Counselor',
+                            link: 'guides/finding-housing-counselor.html',
                             description: 'Free, confidential help from a certified counselor who can negotiate with your lender on your behalf. Call 800-569-4287 or visit hud.gov/counseling.',
                             meta: 'Free \u2022 Immediate'
                         });
@@ -1640,6 +1649,7 @@
                     if (a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Know Your Legal Rights',
+                            link: 'guides/free-legal-help-for-tenants.html',
                             description: 'Foreclosure has strict legal requirements. Your lender must follow them. A housing counselor or legal aid attorney can tell you if they have.',
                             meta: 'Legal \u2022 Urgent'
                         });
@@ -1648,6 +1658,7 @@
                     if (a.urgency === 'next-month' || a.urgency === 'planning') {
                         focused.push({
                             title: 'Talk to Your Lender Early',
+                            link: 'guides/how-to-prevent-foreclosure.html',
                             description: 'Lenders have loss mitigation departments specifically for this. Contact them before you miss a payment \u2014 your options are much better.',
                             meta: 'Prevention'
                         });
@@ -1770,7 +1781,9 @@
                     if (isRepair) {
                         additional.push({
                             title: 'VA Adapted Housing Grants',
-                            description: 'Veterans with service-connected disabilities may qualify for grants up to $110,000 for home modifications. Call 877-827-3702.',
+                            link: 'https://www.va.gov/housing-assistance/disability-housing-grants/',
+                            external: true,
+                            description: 'Veterans with service-connected disabilities may qualify for grants of up to $126,526 (fiscal year 2026) for home modifications. Call 877-827-3702.',
                             meta: 'Veterans \u2022 Housing'
                         });
                     }
@@ -1838,6 +1851,7 @@
                 if (a.stage === 'worried') {
                     focused.push({
                         title: 'Talk to Your Landlord Now',
+                        link: 'eviction-prevention.html',
                         description: 'If you\'re behind or expect to be, contact your landlord before they take action. Many landlords prefer a payment plan over the eviction process. Put any agreement in writing.',
                         meta: 'Prevention \u2022 First Step'
                     });
@@ -1875,7 +1889,8 @@
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
                         title: 'Find Free Legal Help',
-                        description: 'Call 211, visit lawhelp.org, or contact your local bar association for free tenant legal clinics.',
+                        link: 'guides/free-legal-help-for-tenants.html',
+                        description: 'Call 211, visit lawhelp.org, or contact your local legal aid office. Some cities and states give tenants facing eviction a free lawyer by law.',
                         meta: 'Legal Aid'
                     });
                 }
@@ -1901,7 +1916,9 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'SSVF — Supportive Services for Veteran Families',
-                        description: 'A VA program specifically designed to prevent veteran homelessness. They can help with rent, utilities, deposits, and legal assistance. Call 877-424-3838.',
+                        link: 'https://department.va.gov/homeless/supportive-services-for-veteran-families/',
+                        external: true,
+                        description: 'A VA program specifically designed to prevent veteran homelessness. They can help with rent, utilities, deposits, and legal assistance. Call the National Call Center for Homeless Veterans at 877-424-3838, 24/7.',
                         meta: 'Veterans \u2022 Prevention'
                     });
                     additional.push({
@@ -1972,6 +1989,8 @@
                     var urgentFiling = a.when === 'this-week' || a.when === 'past-month';
                     focused.push({
                         title: 'File for Unemployment Benefits',
+                        link: 'https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/find-unemployment-benefits.aspx',
+                        external: true,
                         description: urgentFiling
                             ? 'File as soon as possible \u2014 benefits are backdated to your filing date, not your last day of work. Every day you wait is money you lose.'
                             : 'File online through your state\'s unemployment website. Even if you were fired, you may still qualify \u2014 file anyway.',
@@ -1982,6 +2001,8 @@
                 if (a.when === 'this-week') {
                     focused.push({
                         title: 'COBRA or Marketplace Coverage',
+                        link: 'https://www.healthcare.gov/have-job-based-coverage/if-you-lose-job-based-coverage/',
+                        external: true,
                         description: 'You have 60 days to elect COBRA and 60 days for a Special Enrollment Period on the marketplace. Don\'t let these deadlines pass.',
                         meta: 'Healthcare \u2022 Time-Sensitive'
                     });
@@ -2257,6 +2278,7 @@
                 if (a.problem === 'running-out') {
                     focused.push({
                         title: 'Contact Your PHA Immediately',
+                        link: 'guides/how-to-find-your-pha.html',
                         description: 'Your PHA can sometimes grant extensions on your voucher search deadline. Call them as soon as possible.',
                         meta: 'Urgent'
                     });
@@ -2402,7 +2424,9 @@
                     } else {
                         focused.push({
                             title: 'Additional Food Resources',
-                            description: 'Call 211 to find local food banks, community meals, and pantries in your area.',
+                            link: 'https://www.fns.usda.gov/national-hunger-hotline',
+                            external: true,
+                            description: 'Call 211 or the USDA National Hunger Hotline at 1-866-348-6479 to find local food banks, community meals, and pantries in your area.',
                             meta: 'Food'
                         });
                     }
@@ -2487,7 +2511,9 @@
                     if (needs.indexOf('employment') !== -1) {
                         additional.push({
                             title: 'VA Vocational Rehabilitation',
-                            description: 'Job training, resume help, and career services for veterans with service-connected disabilities. Call 877-827-3702.',
+                            link: 'https://www.va.gov/careers-employment/vocational-rehabilitation/',
+                            external: true,
+                            description: 'Job training, resume help, and career services for veterans with service-connected disabilities. Call the VA benefits hotline at 800-827-1000.',
                             meta: 'Veterans \u2022 Employment'
                         });
                     }
