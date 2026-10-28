@@ -411,7 +411,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/las-vegas</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1065,6 +1065,12 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-sacramento</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-las-vegas</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -2188,7 +2194,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/las-vegas</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3088,6 +3094,12 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-sacramento</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-las-vegas</loc>
     <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

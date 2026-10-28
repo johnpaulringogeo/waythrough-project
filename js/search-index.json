@@ -637,11 +637,11 @@
     "body": "Kansas City, MO Affordable Housing 2026: HAKC waitlist status, KC Tenants Bill of Rights | Waythrough Home / Resources / Kansas City Housing City Resources Affordable Housing in Kansas City, MO Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numb"
   },
   {
-    "title": "Las Vegas, NV Affordable Housing 2026: SNRHA Waitlists Closed | Waythrough",
-    "description": "Las Vegas NV 2026: SNRHA HCV waitlist closed; Jan 2026 PBV/PH/LIHTC window closed Feb 9 — (702) 477-3100. CHAP rental help, NV AB 218 voucher protection, Shade Tree shelter, 7-day notice rules.",
+    "title": "Las Vegas, NV Affordable Housing 2026: SNRHA, Rent Help, Eviction Rules | Waythrough",
+    "description": "Las Vegas NV 2026: SNRHA Section 8 list closed — (702) 477-3100. CHAP rent funds exhausted; Eviction Diversion Program, Clark County Social Service, 7-day notice rules.",
     "url": "/resources/cities/las-vegas",
     "category": "City",
-    "body": "Las Vegas, NV Affordable Housing 2026: SNRHA Waitlists Closed | Waythrough Home / Resources / Las Vegas Housing City Resources Affordable Housing in Las Vegas, NV Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in La"
+    "body": "Las Vegas, NV Affordable Housing 2026: SNRHA, Rent Help, Eviction Rules | Waythrough Home / Resources / Las Vegas Housing City Resources Affordable Housing in Las Vegas, NV Waythrough Project · Updated October 2026 This page collects the specific programs, agencies, phone numbers, and rules that app"
   },
   {
     "title": "Long Beach, CA Affordable Housing 2026: HACLB, MSC, Just Cause, Renter Aid | Waythrough",
@@ -2653,11 +2653,11 @@
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Kansas City, Missouri y el Condado de Jackson — no consejos genéricos sobre Sección 8. Dos cosas para saber: la lista de HCV de HAKC cerró el 16 de marzo de 2026, pero sus listas de Voucher Basado e"
   },
   {
-    "title": "Vivienda asequible en Las Vegas, NV: listas de espera de SNRHA cerradas | Waythrough",
-    "description": "Las Vegas NV 2026: lista HCV de SNRHA cerrada; la ventana PBV/Vivienda Pública/LIHTC de enero cerró el 9 de febrero. CHAP ayuda de alquiler, NV AB 218 protección de voucher, refugio Shade Tree, reglas de aviso 7 días.",
+    "title": "Vivienda asequible en Las Vegas, NV: SNRHA, ayuda con la renta y desalojos | Waythrough",
+    "description": "Las Vegas NV 2026: lista de Sección 8 de SNRHA cerrada — (702) 477-3100. Fondos de CHAP agotados; Programa de Desviación de Desalojos, Clark County Social Service, aviso de 7 días.",
     "url": "/es/recursos/ciudades/las-vegas",
     "category": "Recursos de Ciudades",
-    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Las Vegas y el Condado de Clark — no consejos genéricos sobre Sección 8. Dos cosas para saber por adelantado: las listas de espera de SNRHA están cerradas — la ventana de PBV, Vivienda Pública y LIH"
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Las Vegas y el Condado de Clark — no consejos genéricos sobre Sección 8. Dos cosas para saber por adelantado: la lista de Sección 8 (Housing Choice Voucher) de SNRHA está cerrada, y el programa de r"
   },
   {
     "title": "Vivienda asequible en Long Beach, CA: HACLB, MSC, Causa Justa, Renter Aid | Waythrough",
@@ -4011,6 +4011,13 @@
     "body": "Emergency Rent & Eviction Help in Sacramento | Waythrough Home / Resources / Emergency Rent Help in Sacramento How-To Guide Emergency Rent Help in Sacramento: What's Still Open, Free Eviction Help, and the 10-Court-Day Deadline Matt · Updated October 2026 If you rent in Sacramento or anywhere in Sac"
   },
   {
+    "title": "Emergency Rent & Eviction Help in Las Vegas | Waythrough",
+    "description": "Las Vegas rent help after CHAP ran out: the Eviction Diversion Program, Clark County Social Service, free eviction lawyers, and Nevada's 7-day notice.",
+    "url": "/resources/guides/emergency-rent-help-las-vegas",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Las Vegas | Waythrough Home / Resources / Emergency Rent Help in Las Vegas How-To Guide Emergency Rent Help in Las Vegas: What Is Left After CHAP, the Eviction Diversion Program, and Nevada's 7-Day Notice Matt · Updated October 2026 If you rent in Las Vegas or anywh"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4331,5 +4338,12 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-sacramento",
     "category": "Guías",
     "body": "Si usted alquila en Sacramento o en cualquier parte del Condado de Sacramento y se atrasó con la renta, empecemos por la mala noticia: el gran programa de la pandemia, el Sacramento Emergency Rental Assistance (SERA) , está cerrado. La Agencia de Vivienda y Reurbanización de Sacramento (SHRA) dice, "
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Las Vegas | Waythrough",
+    "description": "Ayuda con la renta en Las Vegas después de que se acabó CHAP: el Programa de Desviación de Desalojos, Clark County Social Service, abogados gratis y el aviso de 7 días.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-las-vegas",
+    "category": "Guías",
+    "body": "Si usted alquila en Las Vegas o en cualquier parte del Condado de Clark y se atrasó con la renta, empiece por la mala noticia: el gran programa de renta del Condado, CHAP (que después se llamó Eviction Prevention and Fixed Income Rent Assistance), se quedó sin dinero y no está procesando solicitudes"
   }
 ]
