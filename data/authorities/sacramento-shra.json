@@ -1,0 +1,234 @@
+{
+  "slug": "sacramento-shra",
+  "kind": "authority",
+  "name": "Sacramento Housing and Redevelopment Agency (SHRA)",
+  "schema_name": "Sacramento Housing and Redevelopment Agency",
+  "short_name": "SHRA",
+  "city": "Sacramento",
+  "state": "CA",
+  "serves": "The City and County of Sacramento, California, including all incorporated cities in the County",
+  "phone": "(916) 440-1390",
+  "official_url": "https://www.shra.org/",
+  "apply_url": "https://www.sacwaitlist.com/waitingList",
+  "city_slug": "sacramento",
+  "state_slug": "california",
+  "updated": "October 28, 2026",
+  "intro": "The Sacramento Housing and Redevelopment Agency (SHRA) is the housing authority for both the City and the County of Sacramento. Its mission statement says it serves \"as the Housing Authority for the City and County of Sacramento,\" and HUD lists two housing authorities under it: the City of Sacramento Housing Authority (CA005) and the County of Sacramento Housing Authority (CA007), both with a program type of Combined. SHRA says the voucher program is operated by SHRA \"acting as the Housing Authority of the County of Sacramento\" for the city and county, \"including all incorporated cities in the County,\" and it also runs public housing. The short version today: the tenant-based Section 8 list is closed, but on sacwaitlist.com, the only place SHRA posts its waiting lists, several project-based voucher and public housing lists show \"Bedroom(s) Open,\" almost all of them for 3, 4 or 5 bedrooms. This page lists each one as of October 28, 2026, how SHRA's preference points work, the scam warning SHRA has posted, and how to reach SHRA, which sees people by appointment only.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): Tenant Based Vouchers, and Project Based Vouchers at specific privately owned affordable communities",
+    "Public Housing: apartments, duplexes and single-family homes in the City and County",
+    "Foster Youth to Independence (FYI) vouchers, by referral only",
+    "Homeless housing programs and navigation centers, and financing for new affordable housing"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8), tenant-based",
+      "status": "Closed",
+      "note": "Closed (checked October 28, 2026). SHRA's waiting list site, sacwaitlist.com, reads: \"Tenant-Based Housing Choice Voucher Program waiting list (formerly known as the Section 8 program) is currently closed.\" No SHRA page gives a reopening date. SHRA says openings are posted on its website, Facebook and Twitter and in local media."
+    },
+    {
+      "program": "Project-based voucher lists",
+      "status": "Some bedroom sizes open, as of October 28, 2026",
+      "note": "On sacwaitlist.com, checked October 28, 2026, these project-based lists show \"Bedroom(s) Open\": Project-Based County, 3, 4 and 5 bedrooms (preferences: Residency, Veteran); Project-Based City, 3, 4 and 5 bedrooms (Homeless, Residency, Veteran); Phoenix Park, 4400 Shining Star Drive, 4 bedrooms; and Mirasol Village, 3, 4 and 5 bedrooms. Phoenix Park and Mirasol Village list the preferences Rent Burdened or Homeless, Residency, Disabled, Veteran, and Displaced by Government. A project-based voucher stays with the unit, so you live at that property."
+    },
+    {
+      "program": "Foster Youth to Independence (FYI) vouchers",
+      "status": "\"Open for Referral Only\"",
+      "note": "sacwaitlist.com lists a tenant-based \"HOUSING CHOICE VOUCHER - FYI REFERRAL\" list as \"Open for Referral Only\" (checked October 28, 2026), for young people 18 to 24 who left foster care, or will within 90 days, and are homeless or at risk of homelessness. You cannot sign up for it on your own; a referring agency has to send you."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Some sites and bedroom sizes open, as of October 28, 2026",
+      "note": "SHRA's public housing page says \"Applications for public housing are being accepted for selected sites and bedroom sizes.\" On sacwaitlist.com, checked October 28, 2026, these lists show \"Bedroom(s) Open\": Walnut Grove, 14215 Grove Street, Walnut Grove, 3 bedrooms (you must get an access code from a sign posted at the site, facing Grove Street); County Housing, 4 and 5 bedrooms; and City Housing, 4 bedrooms. All three list the preferences Veteran, Homeless, Homeless with Services, and Involuntary Displaced. SHRA says public housing applicants are added \"on a first come, first served basis.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>City of Roseville</strong> housing authority, HUD code CA128, program type Section 8, 316 Vernon Street, Suite 150, Roseville, CA 95678, (916) 774-5270.",
+    "<strong>Placer County Housing Authority</strong>, HUD code CA149, program type Section 8, 11434 B Avenue, Auburn, CA 95603, (530) 889-7676.",
+    "<strong>Housing Authority of the County of Yolo</strong>, HUD code CA044, program type Combined, 147 West Main Street, Woodland, CA 95695, (530) 662-5428. Each of these keeps its own lists, so applying to SHRA does not put you on theirs.",
+    "<strong>SHRA is not an emergency rent fund.</strong> Its sacwaitlist.com site says \"SHRA does not provide immediate emergency housing or hotel vouchers,\" and its SERA page says \"As of December 11th, 2024, all rental assistance funds have been disbursed and the SERA program is closed.\" Dial 211 and see our <a href=\"../guides/emergency-rent-help-sacramento\">Sacramento emergency rent help guide</a>: the Coordinated Access System, CalWORKs Homeless Assistance, SSVF for veterans, and free legal help."
+  ],
+  "faqs": [
+    {
+      "q": "Is the SHRA Section 8 waiting list open?",
+      "a": "No. As of October 28, 2026, sacwaitlist.com says the \"Tenant-Based Housing Choice Voucher Program waiting list (formerly known as the Section 8 program) is currently closed.\" SHRA gives no reopening date. Some project-based voucher and public housing lists are open, mostly for 3 to 5 bedrooms, so if your household fits one of those sizes, look at those lists now rather than waiting for the tenant-based list."
+    },
+    {
+      "q": "Which SHRA lists are open right now?",
+      "a": "On October 28, 2026, sacwaitlist.com showed \"Bedroom(s) Open\" for: Project-Based County, 3, 4 and 5 bedrooms; Project-Based City, 3, 4 and 5 bedrooms; Phoenix Park, 4 bedrooms; Mirasol Village, 3, 4 and 5 bedrooms; and public housing at Walnut Grove, 3 bedrooms, County Housing, 4 and 5 bedrooms, and City Housing, 4 bedrooms. The FYI voucher list is open for referral only. SHRA says it manages 12 different wait lists that open and close at different times, so check sacwaitlist.com before you apply."
+    },
+    {
+      "q": "How do SHRA's preference points work?",
+      "a": "SHRA's HCV and public housing FAQs say your wait depends on when you applied and on your preference points, which are based on factors such as living or working in Sacramento County, having a household member with a disability, being rent burdened, being a veteran or having a veteran in the family, and being homeless. Each list on sacwaitlist.com names its own preferences. SHRA also says it cannot give you your exact position on a list, and that the best way to be picked sooner is to sign up for every list you qualify for."
+    },
+    {
+      "q": "How do I apply?",
+      "a": "Online at sacwaitlist.com, from any device with internet access and an email address. SHRA says \"There is no charge to apply,\" and the site can be translated into many languages. You can also ask SHRA for a paper application. For a reasonable accommodation, call 916-440-1390, TTY 711 or 1 (800) 855-7100. SHRA asks you to apply only to lists whose criteria you meet."
+    },
+    {
+      "q": "Is that Section 8 flyer I saw real?",
+      "a": "Be careful. SHRA's homepage warns that flyers listing the website www.govassistance.org \"are NOT LEGITIMATE and should be ignored,\" and that \"All Sacramento Housing and Redevelopment Agency waiting lists are ONLY posted on Sacwaitlist.com.\" SHRA also says paying someone for a credit check is not part of its process: \"There is never a fee to apply.\" Do not give money or personal information to anyone who contacts you about a list."
+    },
+    {
+      "q": "How do I keep my place on an SHRA list?",
+      "a": "SHRA says you must notify it in writing within 30 days of any change, such as a new address, phone number or email, a household member moving in or out, or a change in income, and you can update your information on sacwaitlist.com. If you are removed for not responding, there is no right to an informal review, but SHRA says you may ask to be reinstated because of extenuating circumstances. If your application is denied for cause, you can request an informal review."
+    },
+    {
+      "q": "What number should I call, and where is SHRA's office?",
+      "a": "(916) 440-1390 is SHRA's communication center. It appears on SHRA's Contact Us, Housing Choice Voucher, Public Housing and Find Housing pages and in the sacwaitlist.com footer; TTY is 711 or 1 (800) 855-7100. SHRA says \"You must have an appointment to receive assistance at the office\" at 630 I Street, Sacramento, CA 95814, where there is a document drop box; its fax is 916-449-1285. All SHRA offices are closed every other Friday. HUD's directory lists 801 12th Street and (916) 440-1319 for both housing authorities; SHRA's own Contact page lists 801 12th Street for its Development department, so use 630 I Street and (916) 440-1390 for housing questions."
+    },
+    {
+      "q": "What are the income limits for SHRA public housing?",
+      "a": "SHRA's public housing FAQ lists these maximum incomes: $46,850 for 1 person, $53,550 for 2, $60,250 for 3, $66,900 for 4, $72,300 for 5, $77,650 for 6, $83,000 for 7 and $88,350 for 8. At least one household member must be a U.S. citizen or have eligible immigration status. SHRA runs a background check on adults, and drug, fraud or violent criminal activity in the past three years can lead to an individualized review rather than an automatic denial."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SHRA - Sacwaitlist.com waiting lists (tenant-based HCV closed; open project-based and public housing lists and bedroom sizes; no emergency housing)",
+      "url": "https://www.sacwaitlist.com/waitingList"
+    },
+    {
+      "label": "SHRA - official site (waiting lists only on Sacwaitlist.com, govassistance.org scam warning)",
+      "url": "https://www.shra.org/"
+    },
+    {
+      "label": "SHRA - Housing Choice Voucher Program and FAQ (12 wait lists, how to apply, preference points, updates, phone)",
+      "url": "https://www.shra.org/housing-choice-voucher-program/"
+    },
+    {
+      "label": "SHRA - Public Housing Program and FAQ (selected sites and bedroom sizes, first come first served, income limits)",
+      "url": "https://www.shra.org/shra-housing-programs/public-housing-program-frequently-asked-questions-faq/"
+    },
+    {
+      "label": "SHRA - Contact Us (630 I Street, (916) 440-1390, appointments, fax, closure dates)",
+      "url": "https://www.shra.org/contact-us/"
+    },
+    {
+      "label": "SHRA - Find Housing (apply at sacwaitlist.com, no charge, reasonable accommodation)",
+      "url": "https://www.shra.org/find-housing/"
+    },
+    {
+      "label": "SHRA - About SHRA (Housing Authority for the City and County of Sacramento)",
+      "url": "https://www.shra.org/about-shra/"
+    },
+    {
+      "label": "SHRA - Sacramento Emergency Rental Assistance (SERA) Program (closed)",
+      "url": "https://www.shra.org/sera/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, California (CA005 and CA007 Combined; CA128; CA149; CA044)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+    }
+  ],
+  "es": {
+    "serves": "La ciudad y el condado de Sacramento, California, incluidas todas las ciudades incorporadas del condado",
+    "updated": "28 de octubre de 2026",
+    "intro": "La Sacramento Housing and Redevelopment Agency (SHRA) es la autoridad de vivienda de la ciudad y del condado de Sacramento. Su misión dice que sirve \"as the Housing Authority for the City and County of Sacramento\" (como la autoridad de vivienda de la ciudad y el condado de Sacramento), y HUD registra dos autoridades de vivienda a su cargo: la City of Sacramento Housing Authority (CA005) y la County of Sacramento Housing Authority (CA007), ambas con tipo de programa \"Combined\". SHRA dice que administra el programa de vales \"acting as the Housing Authority of the County of Sacramento\" (como la autoridad de vivienda del condado de Sacramento) para la ciudad y el condado, \"including all incorporated cities in the County\" (incluidas todas las ciudades incorporadas del condado), y también administra la vivienda pública. En resumen, hoy: la lista de la Sección 8 basada en el inquilino está cerrada, pero en sacwaitlist.com, el único lugar donde SHRA publica sus listas de espera, varias listas de vales basados en el proyecto y de vivienda pública muestran \"Bedroom(s) Open\" (recámaras abiertas), casi todas para 3, 4 o 5 recámaras. Esta página detalla cada una al 28 de octubre de 2026, cómo funcionan los puntos de preferencia de SHRA, el aviso de estafa que SHRA ha publicado y cómo comunicarse con SHRA, que atiende solo con cita.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8): vales basados en el inquilino, y vales basados en el proyecto en comunidades asequibles privadas específicas",
+      "Vivienda pública: apartamentos, dúplex y casas unifamiliares en la ciudad y el condado",
+      "Vales Foster Youth to Independence (FYI), solo por referencia",
+      "Programas de vivienda para personas sin hogar y centros de navegación, y financiamiento para nueva vivienda asequible"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8), basada en el inquilino",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 28 de octubre de 2026). El sitio de listas de espera de SHRA, sacwaitlist.com, dice: \"Tenant-Based Housing Choice Voucher Program waiting list (formerly known as the Section 8 program) is currently closed\" (la lista de espera de vales basados en el inquilino, antes llamada Sección 8, está cerrada actualmente). Ninguna página de SHRA da una fecha de reapertura. SHRA dice que las aperturas se anuncian en su sitio web, en Facebook y Twitter y en los medios locales."
+      },
+      {
+        "program": "Listas de vales basados en el proyecto",
+        "status": "Algunos tamaños abiertos, al 28 de octubre de 2026",
+        "note": "En sacwaitlist.com, verificado el 28 de octubre de 2026, estas listas basadas en el proyecto muestran \"Bedroom(s) Open\": Project-Based County, 3, 4 y 5 recámaras (preferencias: Residency, Veteran); Project-Based City, 3, 4 y 5 recámaras (Homeless, Residency, Veteran); Phoenix Park, 4400 Shining Star Drive, 4 recámaras; y Mirasol Village, 3, 4 y 5 recámaras. Phoenix Park y Mirasol Village tienen las preferencias Rent Burdened or Homeless, Residency, Disabled, Veteran y Displaced by Government (carga de renta alta o sin hogar, residencia, discapacidad, veterano y desplazado por el gobierno). Un vale basado en el proyecto se queda con la unidad, así que usted vive en esa propiedad."
+      },
+      {
+        "program": "Vales Foster Youth to Independence (FYI)",
+        "status": "\"Open for Referral Only\" (abierta solo por referencia)",
+        "note": "sacwaitlist.com muestra una lista basada en el inquilino \"HOUSING CHOICE VOUCHER - FYI REFERRAL\" como \"Open for Referral Only\" (verificado el 28 de octubre de 2026), para jóvenes de 18 a 24 años que salieron del sistema de crianza temporal, o saldrán dentro de 90 días, y que están sin hogar o en riesgo de quedarse sin hogar. No se puede inscribir por su cuenta; una agencia tiene que referirlo."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Algunos sitios y tamaños abiertos, al 28 de octubre de 2026",
+        "note": "La página de vivienda pública de SHRA dice \"Applications for public housing are being accepted for selected sites and bedroom sizes\" (se aceptan solicitudes de vivienda pública para algunos sitios y tamaños). En sacwaitlist.com, verificado el 28 de octubre de 2026, estas listas muestran \"Bedroom(s) Open\": Walnut Grove, 14215 Grove Street, Walnut Grove, 3 recámaras (debe obtener un código de acceso en un letrero colocado en el sitio, frente a Grove Street); County Housing, 4 y 5 recámaras; y City Housing, 4 recámaras. Las tres tienen las preferencias Veteran, Homeless, Homeless with Services e Involuntary Displaced (veterano, sin hogar, sin hogar con servicios y desplazado involuntariamente). SHRA dice que los solicitantes de vivienda pública entran a la lista \"on a first come, first served basis\" (por orden de llegada)."
+      }
+    ],
+    "also_serving": [
+      "La autoridad de vivienda de la <strong>City of Roseville</strong>, código CA128 de HUD, con tipo de programa \"Section 8\", en 316 Vernon Street, Suite 150, Roseville, CA 95678, (916) 774-5270.",
+      "La <strong>Placer County Housing Authority</strong>, código CA149 de HUD, con tipo de programa \"Section 8\", en 11434 B Avenue, Auburn, CA 95603, (530) 889-7676.",
+      "La <strong>Housing Authority of the County of Yolo</strong>, código CA044 de HUD, con tipo de programa \"Combined\", en 147 West Main Street, Woodland, CA 95695, (530) 662-5428. Cada una lleva sus propias listas, así que solicitar a SHRA no lo pone en las de ellas.",
+      "<strong>SHRA no es un fondo de emergencia para la renta.</strong> Su sitio sacwaitlist.com dice \"SHRA does not provide immediate emergency housing or hotel vouchers\" (SHRA no ofrece vivienda inmediata de emergencia ni vales de hotel), y su página de SERA dice \"As of December 11th, 2024, all rental assistance funds have been disbursed and the SERA program is closed\" (desde el 11 de diciembre de 2024 se repartieron todos los fondos y el programa SERA está cerrado). Marque el 211 y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-sacramento\">guía de ayuda de emergencia con la renta en Sacramento</a>: el Coordinated Access System, la ayuda CalWORKs para familias sin hogar, SSVF para veteranos y ayuda legal gratis."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de SHRA?",
+        "a": "No. Al 28 de octubre de 2026, sacwaitlist.com dice que la \"Tenant-Based Housing Choice Voucher Program waiting list (formerly known as the Section 8 program) is currently closed\" (la lista de vales basados en el inquilino, antes llamada Sección 8, está cerrada actualmente). SHRA no da fecha de reapertura. Algunas listas de vales basados en el proyecto y de vivienda pública están abiertas, casi todas para 3 a 5 recámaras, así que si su hogar cabe en uno de esos tamaños, revise esas listas ahora en vez de esperar la lista basada en el inquilino."
+      },
+      {
+        "q": "¿Qué listas de SHRA están abiertas ahora?",
+        "a": "El 28 de octubre de 2026, sacwaitlist.com mostraba \"Bedroom(s) Open\" para: Project-Based County, 3, 4 y 5 recámaras; Project-Based City, 3, 4 y 5 recámaras; Phoenix Park, 4 recámaras; Mirasol Village, 3, 4 y 5 recámaras; y vivienda pública en Walnut Grove, 3 recámaras, County Housing, 4 y 5 recámaras, y City Housing, 4 recámaras. La lista de vales FYI está abierta solo por referencia. SHRA dice que maneja 12 listas de espera distintas que abren y cierran en momentos diferentes, así que revise sacwaitlist.com antes de solicitar."
+      },
+      {
+        "q": "¿Cómo funcionan los puntos de preferencia de SHRA?",
+        "a": "Las preguntas frecuentes de vales y de vivienda pública de SHRA dicen que la espera depende de cuándo presentó la solicitud y de sus puntos de preferencia, que se basan en factores como vivir o trabajar en el condado de Sacramento, tener a alguien con discapacidad en el hogar, pagar una renta muy alta en relación con sus ingresos, ser veterano o tener un veterano en la familia, y estar sin hogar. Cada lista en sacwaitlist.com indica sus propias preferencias. SHRA también dice que no puede darle su posición exacta en una lista, y que la mejor forma de ser elegido antes es inscribirse en todas las listas para las que califique."
+      },
+      {
+        "q": "¿Cómo solicito?",
+        "a": "En línea en sacwaitlist.com, desde cualquier aparato con internet y un correo electrónico. SHRA dice \"There is no charge to apply\" (solicitar no cuesta nada), y el sitio se puede traducir a muchos idiomas, incluido el español. También puede pedirle a SHRA una solicitud en papel. Para un ajuste razonable, llame al 916-440-1390, TTY 711 o 1 (800) 855-7100. SHRA pide solicitar solo las listas cuyos requisitos usted cumple."
+      },
+      {
+        "q": "¿Es real ese folleto de la Sección 8 que vi?",
+        "a": "Tenga cuidado. La página principal de SHRA advierte que los folletos con el sitio www.govassistance.org \"are NOT LEGITIMATE and should be ignored\" (no son legítimos y hay que ignorarlos), y que \"All Sacramento Housing and Redevelopment Agency waiting lists are ONLY posted on Sacwaitlist.com\" (todas las listas de espera de SHRA se publican SOLO en Sacwaitlist.com). SHRA también dice que pagarle a alguien por una revisión de crédito no es parte de su proceso: \"There is never a fee to apply\" (nunca se cobra por solicitar). No le dé dinero ni datos personales a nadie que lo contacte por una lista."
+      },
+      {
+        "q": "¿Cómo mantengo mi lugar en una lista de SHRA?",
+        "a": "SHRA dice que debe avisarle por escrito dentro de 30 días de cualquier cambio, como una nueva dirección, teléfono o correo, una persona que entra o sale del hogar, o un cambio de ingresos, y puede actualizar sus datos en sacwaitlist.com. Si lo sacan de la lista por no responder, no tiene derecho a una revisión informal, pero SHRA dice que puede pedir que lo reincorporen por circunstancias atenuantes. Si le niegan la solicitud por causa justificada, puede pedir una revisión informal."
+      },
+      {
+        "q": "¿A qué número debo llamar y dónde está la oficina de SHRA?",
+        "a": "El (916) 440-1390 es el centro de comunicación de SHRA. Aparece en sus páginas Contact Us, Housing Choice Voucher, Public Housing y Find Housing y al pie de sacwaitlist.com; el TTY es 711 o 1 (800) 855-7100. SHRA dice \"You must have an appointment to receive assistance at the office\" (debe tener cita para recibir ayuda en la oficina) de 630 I Street, Sacramento, CA 95814, donde hay un buzón para documentos; su fax es el 916-449-1285. Todas las oficinas de SHRA cierran un viernes sí y otro no. El directorio de HUD lista 801 12th Street y el (916) 440-1319 para las dos autoridades; la propia página Contact Us de SHRA lista 801 12th Street para su departamento de desarrollo, así que para temas de vivienda use 630 I Street y el (916) 440-1390."
+      },
+      {
+        "q": "¿Cuáles son los límites de ingresos para la vivienda pública de SHRA?",
+        "a": "Las preguntas frecuentes de vivienda pública de SHRA dan estos ingresos máximos: $46,850 para 1 persona, $53,550 para 2, $60,250 para 3, $66,900 para 4, $72,300 para 5, $77,650 para 6, $83,000 para 7 y $88,350 para 8. Al menos un miembro del hogar debe ser ciudadano de EE. UU. o tener un estatus migratorio elegible. SHRA revisa los antecedentes de los adultos, y la actividad criminal relacionada con drogas, fraude o violencia en los últimos tres años puede llevar a una revisión individual en vez de un rechazo automático."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SHRA - Listas de espera en Sacwaitlist.com: vales basados en el inquilino cerrados; listas abiertas y tamaños; sin vivienda de emergencia (en inglés)",
+        "url": "https://www.sacwaitlist.com/waitingList"
+      },
+      {
+        "label": "SHRA - sitio oficial: listas solo en Sacwaitlist.com, aviso de estafa de govassistance.org (en inglés)",
+        "url": "https://www.shra.org/"
+      },
+      {
+        "label": "SHRA - Programa de vales y preguntas frecuentes: 12 listas, cómo solicitar, puntos de preferencia, actualizaciones, teléfono (en inglés)",
+        "url": "https://www.shra.org/housing-choice-voucher-program/"
+      },
+      {
+        "label": "SHRA - Vivienda pública y preguntas frecuentes: algunos sitios y tamaños, por orden de llegada, límites de ingresos (en inglés)",
+        "url": "https://www.shra.org/shra-housing-programs/public-housing-program-frequently-asked-questions-faq/"
+      },
+      {
+        "label": "SHRA - Contact Us: 630 I Street, (916) 440-1390, citas, fax, días de cierre (en inglés)",
+        "url": "https://www.shra.org/contact-us/"
+      },
+      {
+        "label": "SHRA - Find Housing: solicitar en sacwaitlist.com, sin costo, ajustes razonables (en inglés)",
+        "url": "https://www.shra.org/find-housing/"
+      },
+      {
+        "label": "SHRA - About SHRA: autoridad de vivienda de la ciudad y el condado de Sacramento (en inglés)",
+        "url": "https://www.shra.org/about-shra/"
+      },
+      {
+        "label": "SHRA - Programa SERA de ayuda de emergencia con la renta: cerrado (en inglés)",
+        "url": "https://www.shra.org/sera/"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, California: CA005 y CA007 Combined; CA128; CA149; CA044 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+      }
+    ]
+  }
+}

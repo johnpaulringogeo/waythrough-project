@@ -1,0 +1,250 @@
+{
+  "slug": "las-vegas-snrha",
+  "kind": "authority",
+  "name": "Southern Nevada Regional Housing Authority (SNRHA)",
+  "schema_name": "Southern Nevada Regional Housing Authority",
+  "short_name": "SNRHA",
+  "city": "Las Vegas",
+  "state": "NV",
+  "serves": "Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin and the rest of Clark County, Nevada",
+  "phone": "(702) 477-3100",
+  "official_url": "https://www.snvrha.org/",
+  "apply_url": "https://onlineportal-snvrha.securecafe.com/onlineleasing/snrha-live/guestlogin.aspx",
+  "city_slug": "las-vegas",
+  "state_slug": "nevada",
+  "updated": "October 28, 2026",
+  "intro": "The Southern Nevada Regional Housing Authority (SNRHA) is the public housing agency for all of Clark County. Its Applicant Overview page says it provides housing \"throughout Clark County, including Las Vegas, North Las Vegas, Henderson, Mesquite, and Laughlin.\" HUD lists it as PHA NV018 with a program type of Combined, at 340 North 11th Street, Las Vegas, NV 89101. SNRHA runs four programs, each with its own waiting list: Housing Choice Vouchers, public housing, RAD/PBV communities and non-aided affordable housing. The short version today: the Section 8 voucher list is closed, but SNRHA is taking online entries for its 2026 Project Based Voucher waitlist from October 26 to November 16, 2026, and its public housing and RAD/PBV pages both say \"Waitlist is Open.\" This page covers each list in SNRHA's own words, the six PBV properties and their bedroom sizes, the preference points, how the RentCafe portal works, and what veterans can do at any time.",
+  "programs": [
+    "Housing Choice Voucher (Section 8); SNRHA says it assists \"many thousands of households\"",
+    "Public Housing communities owned and managed by SNRHA across Southern Nevada",
+    "RAD/PBV communities: SNRHA properties renovated through HUD's Rental Assistance Demonstration and filled through Project-Based Vouchers",
+    "Affordable Housing communities, a non-aided program without direct HUD funding, \"over a thousand housing units\"",
+    "Family Self-Sufficiency, FLEX, Senior Services and other supportive services for residents"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked October 28, 2026). The status line on SNRHA's How to Apply for HCV Housing page reads \"Waitlist is Closed,\" and the page says \"SNRHA accepts pre-applications only when a wait list becomes open.\" When it does open, you apply on the RentCafe portal, and \"After the wait list closes, SNRHA will run a lottery to randomly select applicants from the waiting list.\" No SNRHA page gives a reopening date."
+    },
+    {
+      "program": "2026 Project Based Voucher (PBV) waitlist",
+      "status": "Open October 26 to November 16, 2026, online only",
+      "note": "SNRHA's homepage reads \"PBV Waitlist is Now OPEN!!!\" and its public notice says it \"is opening its 2026 PBV Waitlist,\" with online entries accepted \"beginning on Monday October 26, 2026 at 8 a.m. and closing Monday, November 16, 2026 at 5 p.m.\" The notice lists six properties, as of October 28, 2026: Buffalo Cactus Senior (62 and older, 1 bedroom), Hampton Court in Henderson (family, 1, 2 and 3 bedrooms), James Down Towers (seniors 62 and older, 1 and 2 bedrooms), Pearson Pines Senior (62 and older, 1 and 2 bedrooms), Robert Gordon Plaza (62 and older, 1 and 2 bedrooms) and Vera Johnson Manor B (family, 2 and 3 bedrooms). \"All applications submitted successfully will be placed on the waiting list.\" SNRHA is not accepting paper applications, and only one entry per family counts."
+    },
+    {
+      "program": "Public Housing",
+      "status": "\"Waitlist is Open\" (SNRHA's status line)",
+      "note": "The status line on SNRHA's How to Apply for Public Housing page reads \"Waitlist is Open\" (checked October 28, 2026). That page does not name the open properties; it says to go to the RentCafe applicant portal \"and make note of any open wait lists listed in the header above the login form.\" On October 28, 2026 the portal header read \"Waiting Lists Are Now Open!\" and \"We Are Currently Accepting Applications For Available Waiting Lists,\" without naming them, so the property and bedroom choices only appear once you register and start an application."
+    },
+    {
+      "program": "RAD/PBV Housing",
+      "status": "\"Waitlist is Open\" (SNRHA's status line)",
+      "note": "The status line on SNRHA's How to Apply for RAD Housing page reads \"Waitlist is Open\" (checked October 28, 2026). SNRHA says that after a list closes it selects \"by time and date which means, a first come first serve basis.\" The 2026 PBV waitlist above is the opening SNRHA has announced."
+    },
+    {
+      "program": "Affordable Housing (non-aided)",
+      "status": "Closed",
+      "note": "The status line on SNRHA's How to Apply for Affordable Housing page reads \"Waitlist is Closed\" (checked October 28, 2026). When a list opens, you apply through each community's Apply Now button, and SNRHA says it selects applicants \"by date and time.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>No separate authority for Henderson or North Las Vegas.</strong> HUD's Nevada list has only three housing authorities, and SNRHA is the one for Clark County. The other two are the <strong>City of Reno Housing Authority</strong>, HUD code NV001, program type Combined, 1525 E 9th Street, Reno, NV 89512, (775) 329-3630, and the <strong>Nevada Rural Housing Authority</strong>, HUD code NV905, program type Section 8, 3695 Desatoya Drive, Carson City, NV 89701, (775) 887-1795.",
+    "<strong>SNRHA is not an emergency rent fund.</strong> Its PBV notice says \"SNRHA does not have immediate or emergency housing.\" If you are behind on rent, dial 211 and see our <a href=\"../guides/emergency-rent-help-las-vegas\">Las Vegas emergency rent help guide</a> for the help that still exists, free legal aid, and Nevada's 7-day notice."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Las Vegas Section 8 waiting list open?",
+      "a": "No. As of October 28, 2026, the status line on SNRHA's How to Apply for HCV Housing page reads \"Waitlist is Closed,\" and SNRHA says it \"accepts pre-applications only when a wait list becomes open.\" What is open is different: SNRHA's 2026 Project Based Voucher waitlist takes online entries from 8 a.m. on Monday, October 26 to 5 p.m. on Monday, November 16, 2026, and its public housing and RAD/PBV pages say \"Waitlist is Open.\" A project-based voucher stays with the apartment, so you live at that property rather than renting anywhere."
+    },
+    {
+      "q": "How do I apply for the 2026 PBV waitlist?",
+      "a": "Online only, on SNRHA's RentCafe portal at onlineportal.snvrha.org, by 5 p.m. on November 16, 2026. SNRHA's notice says you must be 18 or older or legally emancipated, a U.S. citizen or eligible immigrant, and have an email address. You enter the Social Security number of the head of household and co-head or spouse, and only one entry per family counts; multiple entries are voided. Free computer help is at 340 N. 11th Street, 8 a.m. to 4 p.m., Monday through Thursday. For a reasonable accommodation, the notice gives 702-477-3206."
+    },
+    {
+      "q": "What preference points are on the PBV list?",
+      "a": "SNRHA's 2026 PBV notice lists these possible preference points: working 20 or more hours a week; full-time students 18 and older in an accredited school or training program; receiving SSI or SSD, or proof of inability to work; age 62 or older; families who live or work in Clark County; veterans or spouses of veterans; disabled veterans with a service-connected disability; and spouses of veterans whose death was service-connected. Claim every one you qualify for."
+    },
+    {
+      "q": "Which public housing lists are open?",
+      "a": "SNRHA's public housing page says \"Waitlist is Open,\" but it does not name the properties. SNRHA tells you to check the header of its RentCafe applicant portal, and on October 28, 2026 that header only said \"We Are Currently Accepting Applications For Available Waiting Lists.\" You see the open properties after you register and start an application, and SNRHA asks you to apply only for properties you are eligible for. If you are unsure, call (702) 477-3100."
+    },
+    {
+      "q": "Can veterans apply when a list is closed?",
+      "a": "Yes, for the property lists. SNRHA's Applicant Overview page says \"VETERANS can apply to any AFFORDABLE, RAD/PBV, OR PUBLIC HOUSING community anytime,\" online through RentCafe or in person at its administrative offices at 340 N 11th Street, Las Vegas, Monday through Thursday, 7:00 am to 6:00 pm. That does not include the Section 8 voucher list, which is closed."
+    },
+    {
+      "q": "Who can SNRHA turn down?",
+      "a": "SNRHA's PBV notice says criminal background checks are run on everyone 18 and older, and that SNRHA will deny any household member who is subject to a lifetime sex offender registration requirement, or who has been convicted of making methamphetamine in public housing or in a Section 8 assisted property. Every household must also be income qualified; SNRHA says applicants \"are required to be income qualified prior to becoming a resident.\""
+    },
+    {
+      "q": "What number should I call?",
+      "a": "(702) 477-3100 is SNRHA's main number. It is in the footer of every snvrha.org page, on its Contact page, at the top of the RentCafe applicant portal and in the 2026 PBV notice, and HUD's directory lists the same number for NV018. For TDD, SNRHA gives 7-1-1, and its PBV notice also gives 1-800-833-5833. The reasonable accommodation line, 702-477-3206, appears only in the PBV notice. The portal lists office hours of 7 a.m. to 6 p.m., Monday through Thursday, and SNRHA says calls may be recorded."
+    },
+    {
+      "q": "If I get a voucher, how long do I have to find a place?",
+      "a": "SNRHA's HCV page says you have 90 days to find housing on the private market and can apply for a 30-day extension. If you do not find housing in time, it says you can submit another preliminary application. You and the landlord complete the Request for Tenancy Approval in RentCafe, and SNRHA inspects the unit before you sign the lease."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SNRHA - official site (PBV Waitlist is Now OPEN, main phone, address)",
+      "url": "https://www.snvrha.org/"
+    },
+    {
+      "label": "SNRHA - Public Notice, 2026 PBV Waitlist (October 26 to November 16, 2026; properties; preference points; denials)",
+      "url": "https://cdn.prod.website-files.com/6578d5f8bf00aeb22afcf5f9/6ad6bd7e66a44e24f1a6e22f_Waitlist%20Public%20Notice%20%20102026.pdf"
+    },
+    {
+      "label": "SNRHA - How to Apply for HCV Housing (Waitlist is Closed, lottery, 90 days to find housing)",
+      "url": "https://www.snvrha.org/applicants/housing-choice-voucher/how-to-apply-for-hcv-housing"
+    },
+    {
+      "label": "SNRHA - How to Apply for Public Housing (Waitlist is Open, check the portal header)",
+      "url": "https://www.snvrha.org/applicants/public-housing/how-to-apply-for-public-housing"
+    },
+    {
+      "label": "SNRHA - How to Apply for RAD Housing (Waitlist is Open, first come first serve)",
+      "url": "https://www.snvrha.org/applicants/rad-housing/how-to-apply-for-rad-housing"
+    },
+    {
+      "label": "SNRHA - How to Apply for Affordable Housing (Waitlist is Closed)",
+      "url": "https://www.snvrha.org/applicants/affordable-housing/how-to-apply-for-affordable-housing"
+    },
+    {
+      "label": "SNRHA - Applicant Overview (area served, four programs, veterans can apply anytime)",
+      "url": "https://www.snvrha.org/applicants/applicant-overview"
+    },
+    {
+      "label": "SNRHA - Contact Us (address, phone, fax)",
+      "url": "https://www.snvrha.org/contact"
+    },
+    {
+      "label": "SNRHA - RentCafe applicant portal (Waiting Lists Are Now Open, office hours)",
+      "url": "https://onlineportal-snvrha.securecafe.com/onlineleasing/snrha-live/guestlogin.aspx"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Nevada (NV018 Combined; NV001; NV905)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NV.pdf"
+    }
+  ],
+  "es": {
+    "serves": "Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin y el resto del condado de Clark, Nevada",
+    "updated": "28 de octubre de 2026",
+    "intro": "La Southern Nevada Regional Housing Authority (SNRHA) es la agencia de vivienda pública de todo el condado de Clark. Su página Applicant Overview dice que ofrece vivienda \"throughout Clark County, including Las Vegas, North Las Vegas, Henderson, Mesquite, and Laughlin\" (en todo el condado de Clark, incluidos Las Vegas, North Las Vegas, Henderson, Mesquite y Laughlin). HUD la registra como la PHA NV018 con un tipo de programa \"Combined\", en 340 North 11th Street, Las Vegas, NV 89101. SNRHA administra cuatro programas, cada uno con su propia lista de espera: los vales de la Sección 8, la vivienda pública, las comunidades RAD/PBV y la vivienda asequible sin ayuda federal. En resumen, hoy: la lista de vales de la Sección 8 está cerrada, pero SNRHA recibe inscripciones en línea para su lista de Project Based Voucher (vales basados en el proyecto) de 2026 del 26 de octubre al 16 de noviembre de 2026, y sus páginas de vivienda pública y de RAD/PBV dicen \"Waitlist is Open\" (la lista de espera está abierta). Esta página explica cada lista con las palabras de SNRHA, las seis propiedades de PBV y sus tamaños, los puntos de preferencia, cómo funciona el portal RentCafe y lo que los veteranos pueden hacer en cualquier momento.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8); SNRHA dice que ayuda a \"many thousands of households\" (muchos miles de hogares)",
+      "Comunidades de vivienda pública que SNRHA posee y administra en el sur de Nevada",
+      "Comunidades RAD/PBV: propiedades de SNRHA renovadas con el programa Rental Assistance Demonstration de HUD y ocupadas mediante vales basados en el proyecto",
+      "Comunidades de vivienda asequible, un programa sin ayuda directa de HUD, con \"over a thousand housing units\" (más de mil viviendas)",
+      "Family Self-Sufficiency, FLEX, servicios para personas mayores y otros servicios de apoyo para residentes"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 28 de octubre de 2026). La línea de estado de la página How to Apply for HCV Housing de SNRHA dice \"Waitlist is Closed\" (la lista de espera está cerrada), y la página dice \"SNRHA accepts pre-applications only when a wait list becomes open\" (SNRHA solo acepta presolicitudes cuando abre una lista). Cuando abra, se solicita en el portal RentCafe, y \"After the wait list closes, SNRHA will run a lottery to randomly select applicants from the waiting list\" (cuando la lista cierra, SNRHA hace un sorteo para elegir solicitantes al azar). Ninguna página de SNRHA da una fecha de reapertura."
+      },
+      {
+        "program": "Lista de Project Based Voucher (PBV) de 2026",
+        "status": "Abierta del 26 de octubre al 16 de noviembre de 2026, solo en línea",
+        "note": "La página principal de SNRHA dice \"PBV Waitlist is Now OPEN!!!\" (¡la lista de PBV ya está abierta!), y su aviso público dice que \"is opening its 2026 PBV Waitlist\" (abre su lista de PBV de 2026), con inscripciones en línea \"beginning on Monday October 26, 2026 at 8 a.m. and closing Monday, November 16, 2026 at 5 p.m.\" (desde el lunes 26 de octubre de 2026 a las 8 a.m. hasta el lunes 16 de noviembre de 2026 a las 5 p.m.). El aviso menciona seis propiedades, al 28 de octubre de 2026: Buffalo Cactus Senior (62 años o más, 1 recámara), Hampton Court en Henderson (familias, 1, 2 y 3 recámaras), James Down Towers (personas mayores de 62 años o más, 1 y 2 recámaras), Pearson Pines Senior (62 años o más, 1 y 2 recámaras), Robert Gordon Plaza (62 años o más, 1 y 2 recámaras) y Vera Johnson Manor B (familias, 2 y 3 recámaras). \"All applications submitted successfully will be placed on the waiting list\" (todas las solicitudes enviadas correctamente entran a la lista). SNRHA no acepta solicitudes en papel, y solo cuenta una inscripción por familia."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "\"Waitlist is Open\" (línea de estado de SNRHA)",
+        "note": "La línea de estado de la página How to Apply for Public Housing de SNRHA dice \"Waitlist is Open\" (verificado el 28 de octubre de 2026). Esa página no nombra las propiedades abiertas; indica ir al portal de solicitantes de RentCafe \"and make note of any open wait lists listed in the header above the login form\" (y fijarse en las listas abiertas que aparecen en el encabezado, arriba del formulario de entrada). El 28 de octubre de 2026 el encabezado del portal decía \"Waiting Lists Are Now Open!\" y \"We Are Currently Accepting Applications For Available Waiting Lists\" (estamos aceptando solicitudes para las listas disponibles), sin nombrarlas, así que las propiedades y los tamaños solo aparecen después de registrarse y empezar una solicitud."
+      },
+      {
+        "program": "Vivienda RAD/PBV",
+        "status": "\"Waitlist is Open\" (línea de estado de SNRHA)",
+        "note": "La línea de estado de la página How to Apply for RAD Housing de SNRHA dice \"Waitlist is Open\" (verificado el 28 de octubre de 2026). SNRHA dice que, cuando cierra una lista, elige \"by time and date which means, a first come first serve basis\" (por fecha y hora, es decir, por orden de llegada). La lista de PBV de 2026 de arriba es la apertura que SNRHA ha anunciado."
+      },
+      {
+        "program": "Vivienda asequible (sin ayuda federal)",
+        "status": "Cerrada",
+        "note": "La línea de estado de la página How to Apply for Affordable Housing de SNRHA dice \"Waitlist is Closed\" (verificado el 28 de octubre de 2026). Cuando abra una lista, se solicita con el botón Apply Now de cada comunidad, y SNRHA dice que elige a los solicitantes \"by date and time\" (por fecha y hora)."
+      }
+    ],
+    "also_serving": [
+      "<strong>No hay una autoridad aparte para Henderson ni para North Las Vegas.</strong> La lista de HUD para Nevada tiene solo tres autoridades de vivienda, y SNRHA es la del condado de Clark. Las otras dos son la <strong>City of Reno Housing Authority</strong>, código NV001 de HUD, con tipo de programa \"Combined\", en 1525 E 9th Street, Reno, NV 89512, (775) 329-3630, y la <strong>Nevada Rural Housing Authority</strong>, código NV905 de HUD, con tipo de programa \"Section 8\", en 3695 Desatoya Drive, Carson City, NV 89701, (775) 887-1795.",
+      "<strong>SNRHA no es un fondo de emergencia para la renta.</strong> Su aviso de PBV dice \"SNRHA does not have immediate or emergency housing\" (SNRHA no tiene vivienda inmediata ni de emergencia). Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-las-vegas\">guía de ayuda de emergencia con la renta en Las Vegas</a> para la ayuda que todavía existe, la ayuda legal gratis y el aviso de 7 días de Nevada."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Las Vegas?",
+        "a": "No. Al 28 de octubre de 2026, la línea de estado de la página How to Apply for HCV Housing de SNRHA dice \"Waitlist is Closed\" (la lista de espera está cerrada), y SNRHA dice que \"accepts pre-applications only when a wait list becomes open\" (solo acepta presolicitudes cuando abre una lista). Lo que sí está abierto es otra cosa: la lista de Project Based Voucher de 2026 recibe inscripciones en línea desde las 8 a.m. del lunes 26 de octubre hasta las 5 p.m. del lunes 16 de noviembre de 2026, y sus páginas de vivienda pública y de RAD/PBV dicen \"Waitlist is Open\". Un vale basado en el proyecto se queda con el apartamento, así que usted vive en esa propiedad en lugar de rentar donde quiera."
+      },
+      {
+        "q": "¿Cómo me inscribo en la lista de PBV de 2026?",
+        "a": "Solo en línea, en el portal RentCafe de SNRHA en onlineportal.snvrha.org, antes de las 5 p.m. del 16 de noviembre de 2026. El aviso de SNRHA dice que debe tener 18 años o más o estar emancipado legalmente, ser ciudadano de EE. UU. o inmigrante elegible y tener un correo electrónico. Se ingresa el número de Seguro Social del jefe de hogar y del cojefe o cónyuge, y solo cuenta una inscripción por familia; las inscripciones repetidas se anulan. Hay ayuda gratis con computadoras en 340 N. 11th Street, de 8 a.m. a 4 p.m., de lunes a jueves. Para un ajuste razonable, el aviso da el 702-477-3206."
+      },
+      {
+        "q": "¿Qué puntos de preferencia tiene la lista de PBV?",
+        "a": "El aviso de PBV de 2026 de SNRHA menciona estos posibles puntos de preferencia: trabajar 20 horas o más por semana; ser estudiante de tiempo completo de 18 años o más en una escuela o programa de capacitación acreditado; recibir SSI o SSD, o tener prueba de que no puede trabajar; tener 62 años o más; vivir o trabajar en el condado de Clark; ser veterano o cónyuge de veterano; ser veterano con una discapacidad relacionada con el servicio; y ser cónyuge de un veterano cuya muerte estuvo relacionada con el servicio. Pida todos los que le correspondan."
+      },
+      {
+        "q": "¿Qué listas de vivienda pública están abiertas?",
+        "a": "La página de vivienda pública de SNRHA dice \"Waitlist is Open\", pero no nombra las propiedades. SNRHA indica revisar el encabezado de su portal de solicitantes de RentCafe, y el 28 de octubre de 2026 ese encabezado solo decía \"We Are Currently Accepting Applications For Available Waiting Lists\" (estamos aceptando solicitudes para las listas disponibles). Las propiedades abiertas se ven después de registrarse y empezar una solicitud, y SNRHA pide solicitar solo las propiedades para las que usted es elegible. Si tiene dudas, llame al (702) 477-3100."
+      },
+      {
+        "q": "¿Los veteranos pueden solicitar cuando una lista está cerrada?",
+        "a": "Sí, para las listas por propiedad. La página Applicant Overview de SNRHA dice \"VETERANS can apply to any AFFORDABLE, RAD/PBV, OR PUBLIC HOUSING community anytime\" (los veteranos pueden solicitar en cualquier momento a cualquier comunidad de vivienda asequible, RAD/PBV o vivienda pública), en línea por RentCafe o en persona en sus oficinas administrativas de 340 N 11th Street, Las Vegas, de lunes a jueves, de 7:00 am a 6:00 pm. Eso no incluye la lista de vales de la Sección 8, que está cerrada."
+      },
+      {
+        "q": "¿A quién puede rechazar SNRHA?",
+        "a": "El aviso de PBV de SNRHA dice que se revisan los antecedentes penales de todas las personas de 18 años o más, y que SNRHA rechazará a cualquier miembro del hogar que deba registrarse de por vida como agresor sexual, o que haya sido condenado por fabricar metanfetamina en vivienda pública o en una propiedad con ayuda de la Sección 8. Además, todo hogar debe calificar por ingresos; SNRHA dice que los solicitantes \"are required to be income qualified prior to becoming a resident\" (deben calificar por ingresos antes de ser residentes)."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El (702) 477-3100 es el número principal de SNRHA. Aparece al pie de cada página de snvrha.org, en su página Contact, en la parte de arriba del portal de solicitantes de RentCafe y en el aviso de PBV de 2026, y el directorio de HUD lista el mismo número para NV018. Para TDD, SNRHA da el 7-1-1, y su aviso de PBV también da el 1-800-833-5833. La línea para ajustes razonables, el 702-477-3206, aparece solo en el aviso de PBV. El portal indica un horario de 7 a.m. a 6 p.m., de lunes a jueves, y SNRHA dice que las llamadas pueden ser grabadas."
+      },
+      {
+        "q": "Si recibo un vale, ¿cuánto tiempo tengo para encontrar vivienda?",
+        "a": "La página de vales de SNRHA dice que tiene 90 días para encontrar vivienda en el mercado privado y que puede pedir una extensión de 30 días. Si no encuentra vivienda a tiempo, dice que puede enviar otra solicitud preliminar. Usted y el dueño llenan la Request for Tenancy Approval en RentCafe, y SNRHA inspecciona la unidad antes de que firme el contrato."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SNRHA - sitio oficial: lista de PBV abierta, teléfono principal, dirección (en inglés)",
+        "url": "https://www.snvrha.org/"
+      },
+      {
+        "label": "SNRHA - Aviso público, lista de PBV de 2026: del 26 de octubre al 16 de noviembre de 2026, propiedades, puntos de preferencia, rechazos (en inglés)",
+        "url": "https://cdn.prod.website-files.com/6578d5f8bf00aeb22afcf5f9/6ad6bd7e66a44e24f1a6e22f_Waitlist%20Public%20Notice%20%20102026.pdf"
+      },
+      {
+        "label": "SNRHA - How to Apply for HCV Housing: lista cerrada, sorteo, 90 días para encontrar vivienda (en inglés)",
+        "url": "https://www.snvrha.org/applicants/housing-choice-voucher/how-to-apply-for-hcv-housing"
+      },
+      {
+        "label": "SNRHA - How to Apply for Public Housing: lista abierta, revisar el encabezado del portal (en inglés)",
+        "url": "https://www.snvrha.org/applicants/public-housing/how-to-apply-for-public-housing"
+      },
+      {
+        "label": "SNRHA - How to Apply for RAD Housing: lista abierta, por orden de llegada (en inglés)",
+        "url": "https://www.snvrha.org/applicants/rad-housing/how-to-apply-for-rad-housing"
+      },
+      {
+        "label": "SNRHA - How to Apply for Affordable Housing: lista cerrada (en inglés)",
+        "url": "https://www.snvrha.org/applicants/affordable-housing/how-to-apply-for-affordable-housing"
+      },
+      {
+        "label": "SNRHA - Applicant Overview: zona que sirve, cuatro programas, veteranos en cualquier momento (en inglés)",
+        "url": "https://www.snvrha.org/applicants/applicant-overview"
+      },
+      {
+        "label": "SNRHA - Contact Us: dirección, teléfono, fax (en inglés)",
+        "url": "https://www.snvrha.org/contact"
+      },
+      {
+        "label": "SNRHA - Portal de solicitantes de RentCafe: listas abiertas, horario (en inglés)",
+        "url": "https://onlineportal-snvrha.securecafe.com/onlineleasing/snrha-live/guestlogin.aspx"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Nevada: NV018 Combined; NV001; NV905 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NV.pdf"
+      }
+    ]
+  }
+}

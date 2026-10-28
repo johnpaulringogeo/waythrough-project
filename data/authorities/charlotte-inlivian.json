@@ -1,0 +1,222 @@
+{
+  "slug": "charlotte-inlivian",
+  "kind": "authority",
+  "name": "INLIVIAN (Charlotte Housing Authority)",
+  "schema_name": "INLIVIAN",
+  "short_name": "INLIVIAN",
+  "city": "Charlotte",
+  "state": "NC",
+  "serves": "Charlotte and Mecklenburg County, North Carolina",
+  "phone": "(704) 336-5183",
+  "official_url": "https://www.inlivian.com/",
+  "apply_url": "https://www.inlivian.com/application-portal/",
+  "city_slug": "charlotte",
+  "state_slug": "north-carolina",
+  "updated": "October 28, 2026",
+  "intro": "INLIVIAN is the new name of the Charlotte Housing Authority. Its own Administrative Plan defines INLIVIAN as \"Formerly The Housing Authority of the City of Charlotte,\" an agency that dates back to 1939, and some of its systems still carry the old CHA name, such as the cha-nc.org email address for the voucher waiting list. HUD lists it as PHA NC003 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing, from 400 East Boulevard in Charlotte. INLIVIAN has been a Moving to Work agency since 2008, which lets it set some of its own rules, including a work requirement for voucher families. The short version today: the Section 8 list is closed, with more than 6,000 households already on it, and there is no single public housing list. You apply community by community, and no INLIVIAN page says a community list is open right now. This page covers INLIVIAN's exact words, how its community lists work, who gets picked first, and the neighboring housing authorities you can apply to as well.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), tenant-based and project-based",
+    "Income-based apartments in INLIVIAN communities; its homepage says it owns and manages 45 properties, and its property search lists 43 communities managed by Blue Horizon Management Company",
+    "Mixed-income, workforce and market-rate apartments in the same communities, with their own income rules",
+    "Family Self-Sufficiency, Destination Homeownership, senior services and youth programs for residents"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked October 28, 2026). INLIVIAN's HCV Waiting List Information page reads: \"The tenant-based Housing Choice Voucher (Section 8) waiting list is currently closed to new applicants. There are currently more than 6,000 households on this list.\" Its Application Portal page repeats: \"Please keep in mind our Housing Choice Voucher waitlist is currently closed,\" and its FAQ tells you to check whether the list is open, adding \"as of today it is not.\" No INLIVIAN page gives a reopening date. If you are already on the list, INLIVIAN sends an annual letter, and you must answer it every year to stay on."
+    },
+    {
+      "program": "Income-based apartments (community lists)",
+      "status": "No agency-wide list; no INLIVIAN page says a community list is open as of October 28, 2026",
+      "note": "INLIVIAN's FAQ says \"you will need to complete a separate application for each community\" and that the wait \"will vary by property.\" Its January 9, 2026 notice said nine communities managed by Blue Horizon Management Company would open waitlists on January 12, 2026: Autumn Place, Edwin Towers and Woodlawn House for seniors (2 bedrooms), and Cedar Knoll, Claremont, McMullen Woods, Robinsdale, Tarlton Hills and Wallace Woods for families (mostly 3 bedrooms). It gave no closing date. Checked October 28, 2026, the Tarlton Hills and Meadow Oaks pages say \"This site is not currently accepting applications\"; eight community pages (Arbor Glen, Fairmarket Square, Glen Cove, McMullen Wood, Nia Point, Springfield Gardens, Sunridge and The Park at Oaklawn) say availability \"is currently for those not needing rental assistance\"; and the other community pages give no status. Log in to the Applicant Portal to see which lists will take an application."
+    }
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of the City of Concord</strong>, HUD code NC008, program type Combined, 283 Harold Goodman Circle SW, Concord, NC 28025, (704) 920-6109.",
+    "<strong>Gastonia Housing Authority</strong>, HUD code NC057, program type Combined, 340 E Long Avenue, Gastonia, NC 28054, (704) 864-6771.",
+    "<strong>Monroe Housing Authority</strong>, HUD code NC065, program type Combined, 504 Hough Street, Monroe, NC 28112, (704) 289-2514. <strong>Mooresville Housing Authority</strong>, HUD code NC024, program type Low-Rent (public housing only), 1046 N Main Street, Mooresville, NC 28115, (704) 664-1659. Each one keeps its own lists, so applying to INLIVIAN does not put you on theirs.",
+    "<strong>INLIVIAN is not an emergency rent fund.</strong> Its FAQ says \"No, INLIVIAN does not provide emergency or temporary housing.\" If you are behind on rent, dial 211 and see our <a href=\"../guides/emergency-rent-help-charlotte\">Charlotte emergency rent help guide</a>: Crisis Assistance Ministry, free eviction lawyers, and North Carolina's 10-day demand rule."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Charlotte Section 8 waiting list open?",
+      "a": "No. As of October 28, 2026, INLIVIAN's HCV Waiting List Information page says: \"The tenant-based Housing Choice Voucher (Section 8) waiting list is currently closed to new applicants. There are currently more than 6,000 households on this list.\" Its Application Portal page and its FAQ say the same. INLIVIAN publishes no reopening date, and its FAQ says it will update its website with any announcement of an opening, so treat any date you see elsewhere as unconfirmed unless INLIVIAN's own site shows it."
+    },
+    {
+      "q": "Is INLIVIAN the same as the Charlotte Housing Authority?",
+      "a": "Yes. INLIVIAN's Administrative Plan defines it as \"Formerly The Housing Authority of the City of Charlotte,\" and its History page traces the agency back to 1939. HUD still lists it under PHA code NC003, now with the name INLIVIAN, at 400 East Boulevard. Old letters, the cha-nc.org email address and the applicant portal's web address still use the CHA name, so do not be thrown off if you see both."
+    },
+    {
+      "q": "Can I apply for an INLIVIAN apartment right now?",
+      "a": "Only community by community, and no INLIVIAN page says a list is open today. INLIVIAN's FAQ says you need a separate application for each community. Its January 12, 2026 openings covered nine communities and had no closing date, but as of October 28, 2026 the Tarlton Hills and Meadow Oaks pages say they are not accepting applications, and eight other community pages say availability is only for people who do not need rental assistance. The Applicant Portal is where you see and sign up for open lists; call (704) 336-5183 if you cannot tell."
+    },
+    {
+      "q": "Who gets a voucher first when INLIVIAN pulls names?",
+      "a": "INLIVIAN's 2025 Amended Administrative Plan says it selects, in order: families being displaced from INLIVIAN or affiliate properties because of relocation or recapitalization; families receiving a HUD special funded voucher, such as an Emergency Housing Voucher, whose funding will end; and then everyone else by date and time of application. The plan also lists preferences for homeless families in a self-reliance supportive service program and for victims of domestic violence. If INLIVIAN cannot verify a preference you claimed, its HCV page says your name goes back on the list by date and time."
+    },
+    {
+      "q": "Does INLIVIAN have a work requirement?",
+      "a": "Yes. INLIVIAN's Housing Choice Voucher page says that effective January 1, 2018, \"All non-elderly/non-disabled households will be expected to work 20 hours per week,\" and that families moving their voucher to Charlotte must already work in the Charlotte Mecklenburg area or bring a job offer letter. For income-based apartments, its FAQ lists proof of full-time employment (over 30 hours) for 6 months, plus credit, criminal and eviction background checks, and says Family Self-Sufficiency program eligibility may be required."
+    },
+    {
+      "q": "How do I update my information if I am already on the list?",
+      "a": "Use INLIVIAN's Applicant Portal. INLIVIAN says anyone who used its old system must register again on the new portal, using a registration code, an email address and a Social Security number. If you cannot log in, it gives the email HCVwaitlist@cha-nc.org (include your name and Social Security number). Without internet access, write to HCV Wait List Update, P.O. Box 36795, Charlotte, NC 28236. Answer the annual letter, or you can be dropped."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "(704) 336-5183 is INLIVIAN's main number. It is in the footer of every INLIVIAN page, in the body of the HCV Waiting List Information page, on the Application Portal page as the Customer Service Center, and at the top of the RentCafe applicant portal, and HUD's directory lists the same number for NC003. For moving a voucher from another housing authority, INLIVIAN's HCV page and FAQ both give a portability hotline, (704) 336-8271."
+    },
+    {
+      "q": "Can INLIVIAN help me with rent or housing tonight?",
+      "a": "No. INLIVIAN's FAQ says \"No, INLIVIAN does not provide emergency or temporary housing,\" and the voucher program is a long wait. If you are behind on rent, dial 211 and see our Charlotte emergency rent help guide. If you already live in INLIVIAN housing or have a voucher and fall behind, call (704) 336-5183 right away and get legal help, because an eviction can cost you your assistance."
+    }
+  ],
+  "sources": [
+    {
+      "label": "INLIVIAN - HCV Waiting List Information (Section 8 closed, more than 6,000 households, annual letter, how to update)",
+      "url": "https://www.inlivian.com/hcv-waiting-list-information/"
+    },
+    {
+      "label": "INLIVIAN - Application Portal (how to apply, HCV waitlist closed, Customer Service Center number)",
+      "url": "https://www.inlivian.com/application-portal/"
+    },
+    {
+      "label": "INLIVIAN - FAQ (separate application per community, no emergency housing, income-based eligibility, portability hotline)",
+      "url": "https://www.inlivian.com/about/faq/"
+    },
+    {
+      "label": "INLIVIAN - Housing Choice Voucher Program (eligibility, preference verification, work requirement, portability)",
+      "url": "https://www.inlivian.com/housing-choice-voucher/"
+    },
+    {
+      "label": "INLIVIAN - 2025 Amended Administrative Plan (formerly the Housing Authority of the City of Charlotte, selection order, preferences)",
+      "url": "https://www.inlivian.com/wp-content/uploads/2025/11/2025-Amended-Administrative-Plan.pdf"
+    },
+    {
+      "label": "INLIVIAN - Affordable Housing Waitlists Opening January 12, 2026 (notice)",
+      "url": "https://www.inlivian.com/2026/01/09/affordable-housing-waitlists-opening-january-12-2026/"
+    },
+    {
+      "label": "INLIVIAN - Find Your New Home (community pages and their application status lines)",
+      "url": "https://www.inlivian.com/property/"
+    },
+    {
+      "label": "INLIVIAN - History (Housing Authority of the City of Charlotte, 1939; Moving to Work since 2008)",
+      "url": "https://www.inlivian.com/about/history/"
+    },
+    {
+      "label": "INLIVIAN - Applicant Portal (RentCafe)",
+      "url": "https://resportals.securecafe.com/onlineleasing/cha/guestlogin.aspx"
+    },
+    {
+      "label": "HUD - PHA Contact Report, North Carolina (NC003 INLIVIAN, Combined; NC008, NC024, NC057, NC065)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NC.pdf"
+    }
+  ],
+  "es": {
+    "serves": "Charlotte y el condado de Mecklenburg, Carolina del Norte",
+    "updated": "28 de octubre de 2026",
+    "intro": "INLIVIAN es el nuevo nombre de la Charlotte Housing Authority. Su propio Plan Administrativo define a INLIVIAN como \"Formerly The Housing Authority of the City of Charlotte\" (antes la Autoridad de Vivienda de la Ciudad de Charlotte), una agencia que existe desde 1939, y algunos de sus sistemas todavía llevan el nombre antiguo, CHA, como el correo cha-nc.org de la lista de espera de vales. HUD la registra como la PHA NC003 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, desde 400 East Boulevard en Charlotte. INLIVIAN es una agencia Moving to Work desde 2008, lo que le permite fijar algunas reglas propias, entre ellas un requisito de trabajo para las familias con vale. En resumen, hoy: la lista de la Sección 8 está cerrada, con más de 6,000 hogares ya en ella, y no hay una sola lista de vivienda pública. Se solicita comunidad por comunidad, y ninguna página de INLIVIAN dice que la lista de alguna comunidad esté abierta ahora. Esta página explica las palabras exactas de INLIVIAN, cómo funcionan las listas por comunidad, a quién eligen primero y las autoridades de vivienda vecinas a las que también puede solicitar.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), vales basados en el inquilino y vales basados en el proyecto",
+      "Apartamentos con renta según ingresos en las comunidades de INLIVIAN; su página principal dice que es dueña y administra 45 propiedades, y su buscador de propiedades muestra 43 comunidades administradas por Blue Horizon Management Company",
+      "Apartamentos de ingresos mixtos, para trabajadores y a precio de mercado en las mismas comunidades, con sus propias reglas de ingresos",
+      "Family Self-Sufficiency, Destination Homeownership, servicios para personas mayores y programas juveniles para residentes"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 28 de octubre de 2026). La página HCV Waiting List Information de INLIVIAN dice: \"The tenant-based Housing Choice Voucher (Section 8) waiting list is currently closed to new applicants. There are currently more than 6,000 households on this list\" (la lista de espera de vales de la Sección 8 está cerrada para nuevos solicitantes; hay más de 6,000 hogares en ella). Su página Application Portal lo repite: \"Please keep in mind our Housing Choice Voucher waitlist is currently closed\" (recuerde que nuestra lista de vales está cerrada actualmente), y sus preguntas frecuentes indican que hay que revisar si la lista está abierta y agregan \"as of today it is not\" (a la fecha de hoy no lo está). Ninguna página de INLIVIAN da una fecha de reapertura. Si ya está en la lista, INLIVIAN envía una carta anual, y debe contestarla cada año para seguir en ella."
+      },
+      {
+        "program": "Apartamentos con renta según ingresos (listas por comunidad)",
+        "status": "No hay una lista general; ninguna página de INLIVIAN dice que la lista de una comunidad esté abierta al 28 de octubre de 2026",
+        "note": "Las preguntas frecuentes de INLIVIAN dicen \"you will need to complete a separate application for each community\" (debe llenar una solicitud aparte para cada comunidad) y que la espera \"will vary by property\" (varía según la propiedad). Su aviso del 9 de enero de 2026 decía que nueve comunidades administradas por Blue Horizon Management Company abrirían sus listas el 12 de enero de 2026: Autumn Place, Edwin Towers y Woodlawn House para personas mayores (2 recámaras), y Cedar Knoll, Claremont, McMullen Woods, Robinsdale, Tarlton Hills y Wallace Woods para familias (casi todas de 3 recámaras). No dio fecha de cierre. Al verificar el 28 de octubre de 2026, las páginas de Tarlton Hills y Meadow Oaks dicen \"This site is not currently accepting applications\" (este sitio no está aceptando solicitudes); ocho páginas de comunidades (Arbor Glen, Fairmarket Square, Glen Cove, McMullen Wood, Nia Point, Springfield Gardens, Sunridge y The Park at Oaklawn) dicen que la disponibilidad \"is currently for those not needing rental assistance\" (es por ahora para quienes no necesitan ayuda con la renta); y las demás páginas no indican ningún estado. Entre al Applicant Portal para ver qué listas aceptan solicitudes."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Housing Authority of the City of Concord</strong>, código NC008 de HUD, con tipo de programa \"Combined\", en 283 Harold Goodman Circle SW, Concord, NC 28025, (704) 920-6109.",
+      "La <strong>Gastonia Housing Authority</strong>, código NC057 de HUD, con tipo de programa \"Combined\", en 340 E Long Avenue, Gastonia, NC 28054, (704) 864-6771.",
+      "La <strong>Monroe Housing Authority</strong>, código NC065 de HUD, con tipo de programa \"Combined\", en 504 Hough Street, Monroe, NC 28112, (704) 289-2514. La <strong>Mooresville Housing Authority</strong>, código NC024 de HUD, con tipo de programa \"Low-Rent\" (solo vivienda pública), en 1046 N Main Street, Mooresville, NC 28115, (704) 664-1659. Cada una lleva sus propias listas, así que solicitar a INLIVIAN no lo pone en las de ellas.",
+      "<strong>INLIVIAN no es un fondo de emergencia para la renta.</strong> Sus preguntas frecuentes dicen \"No, INLIVIAN does not provide emergency or temporary housing\" (INLIVIAN no ofrece vivienda de emergencia ni temporal). Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-charlotte\">guía de ayuda de emergencia con la renta en Charlotte</a>: Crisis Assistance Ministry, abogados gratis para casos de desalojo y la regla de reclamo de 10 días de Carolina del Norte."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Charlotte?",
+        "a": "No. Al 28 de octubre de 2026, la página HCV Waiting List Information de INLIVIAN dice: \"The tenant-based Housing Choice Voucher (Section 8) waiting list is currently closed to new applicants. There are currently more than 6,000 households on this list\" (la lista de espera de vales de la Sección 8 está cerrada para nuevos solicitantes; hay más de 6,000 hogares en ella). Su página Application Portal y sus preguntas frecuentes dicen lo mismo. INLIVIAN no publica una fecha de reapertura, y sus preguntas frecuentes dicen que anunciará cualquier apertura en su sitio web, así que tome como no confirmada cualquier fecha que vea en otro lugar, a menos que aparezca en el propio sitio de INLIVIAN."
+      },
+      {
+        "q": "¿INLIVIAN es lo mismo que la Charlotte Housing Authority?",
+        "a": "Sí. El Plan Administrativo de INLIVIAN la define como \"Formerly The Housing Authority of the City of Charlotte\" (antes la Autoridad de Vivienda de la Ciudad de Charlotte), y su página de historia remonta la agencia a 1939. HUD todavía la registra con el código NC003, ahora con el nombre INLIVIAN, en 400 East Boulevard. Las cartas antiguas, el correo cha-nc.org y la dirección web del portal de solicitantes todavía usan el nombre CHA, así que no se confunda si ve los dos."
+      },
+      {
+        "q": "¿Puedo solicitar un apartamento de INLIVIAN ahora mismo?",
+        "a": "Solo comunidad por comunidad, y ninguna página de INLIVIAN dice hoy que una lista esté abierta. Las preguntas frecuentes de INLIVIAN dicen que necesita una solicitud aparte para cada comunidad. Las aperturas del 12 de enero de 2026 abarcaron nueve comunidades y no tenían fecha de cierre, pero al 28 de octubre de 2026 las páginas de Tarlton Hills y Meadow Oaks dicen que no aceptan solicitudes, y otras ocho páginas de comunidades dicen que la disponibilidad es solo para personas que no necesitan ayuda con la renta. En el Applicant Portal se ven las listas abiertas y se inscribe en ellas; llame al (704) 336-5183 si no está seguro."
+      },
+      {
+        "q": "¿A quién le dan un vale primero cuando INLIVIAN saca nombres de la lista?",
+        "a": "El Plan Administrativo Enmendado de 2025 de INLIVIAN dice que elige, en este orden: a las familias desplazadas de propiedades de INLIVIAN o de sus afiliadas por reubicación o recapitalización; a las familias que reciben un vale especial de HUD, como un Emergency Housing Voucher, cuyo financiamiento va a terminar; y luego a todos los demás por fecha y hora de solicitud. El plan también menciona preferencias para familias sin hogar que participan en un programa de servicios de apoyo para la autosuficiencia y para víctimas de violencia doméstica. Si INLIVIAN no puede verificar una preferencia que usted pidió, su página de vales dice que su nombre vuelve a la lista por fecha y hora."
+      },
+      {
+        "q": "¿INLIVIAN tiene un requisito de trabajo?",
+        "a": "Sí. La página de vales de INLIVIAN dice que a partir del 1 de enero de 2018, \"All non-elderly/non-disabled households will be expected to work 20 hours per week\" (todos los hogares que no sean de personas mayores ni con discapacidad deberán trabajar 20 horas por semana), y que las familias que traen su vale a Charlotte ya deben trabajar en el área de Charlotte Mecklenburg o presentar una carta con una oferta de empleo. Para los apartamentos con renta según ingresos, sus preguntas frecuentes piden prueba de empleo de tiempo completo (más de 30 horas) durante 6 meses, además de revisiones de crédito, antecedentes penales y desalojos, y dicen que se puede exigir ser elegible para el programa Family Self-Sufficiency."
+      },
+      {
+        "q": "¿Cómo actualizo mis datos si ya estoy en la lista?",
+        "a": "Use el Applicant Portal de INLIVIAN. INLIVIAN dice que quien usaba su sistema anterior debe registrarse de nuevo en el portal nuevo, con un código de registro, un correo electrónico y un número de Seguro Social. Si no puede entrar, da el correo HCVwaitlist@cha-nc.org (incluya su nombre y su número de Seguro Social). Si no tiene internet, escriba a HCV Wait List Update, P.O. Box 36795, Charlotte, NC 28236. Conteste la carta anual, o lo pueden sacar de la lista."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El (704) 336-5183 es el número principal de INLIVIAN. Aparece al pie de cada página de INLIVIAN, en el cuerpo de la página HCV Waiting List Information, en la página Application Portal como su centro de servicio al cliente y en la parte de arriba del portal de solicitantes de RentCafe, y el directorio de HUD lista el mismo número para NC003. Para traer un vale de otra autoridad de vivienda, la página de vales de INLIVIAN y sus preguntas frecuentes dan una línea de portabilidad, el (704) 336-8271."
+      },
+      {
+        "q": "¿Puede INLIVIAN ayudarme con la renta o con vivienda esta noche?",
+        "a": "No. Las preguntas frecuentes de INLIVIAN dicen \"No, INLIVIAN does not provide emergency or temporary housing\" (INLIVIAN no ofrece vivienda de emergencia ni temporal), y el programa de vales tiene una espera larga. Si está atrasado con la renta, marque el 211 y vea nuestra guía de ayuda de emergencia con la renta en Charlotte. Si ya vive en vivienda de INLIVIAN o tiene un vale y se atrasa, llame de inmediato al (704) 336-5183 y busque ayuda legal, porque un desalojo le puede costar su asistencia."
+      }
+    ],
+    "sources": [
+      {
+        "label": "INLIVIAN - HCV Waiting List Information: Sección 8 cerrada, más de 6,000 hogares, carta anual, cómo actualizar (en inglés)",
+        "url": "https://www.inlivian.com/hcv-waiting-list-information/"
+      },
+      {
+        "label": "INLIVIAN - Application Portal: cómo solicitar, lista de vales cerrada, centro de servicio al cliente (en inglés)",
+        "url": "https://www.inlivian.com/application-portal/"
+      },
+      {
+        "label": "INLIVIAN - Preguntas frecuentes: solicitud aparte por comunidad, sin vivienda de emergencia, requisitos, línea de portabilidad (en inglés)",
+        "url": "https://www.inlivian.com/about/faq/"
+      },
+      {
+        "label": "INLIVIAN - Programa de vales: requisitos, verificación de preferencias, requisito de trabajo, portabilidad (en inglés)",
+        "url": "https://www.inlivian.com/housing-choice-voucher/"
+      },
+      {
+        "label": "INLIVIAN - Plan Administrativo Enmendado de 2025: antes la Housing Authority of the City of Charlotte, orden de selección, preferencias (en inglés)",
+        "url": "https://www.inlivian.com/wp-content/uploads/2025/11/2025-Amended-Administrative-Plan.pdf"
+      },
+      {
+        "label": "INLIVIAN - Aviso: listas de vivienda asequible abren el 12 de enero de 2026 (en inglés)",
+        "url": "https://www.inlivian.com/2026/01/09/affordable-housing-waitlists-opening-january-12-2026/"
+      },
+      {
+        "label": "INLIVIAN - Find Your New Home: páginas de las comunidades y su estado de solicitudes (en inglés)",
+        "url": "https://www.inlivian.com/property/"
+      },
+      {
+        "label": "INLIVIAN - Historia: Housing Authority of the City of Charlotte, 1939; Moving to Work desde 2008 (en inglés)",
+        "url": "https://www.inlivian.com/about/history/"
+      },
+      {
+        "label": "INLIVIAN - Portal de solicitantes (RentCafe, en inglés)",
+        "url": "https://resportals.securecafe.com/onlineleasing/cha/guestlogin.aspx"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Carolina del Norte: NC003 INLIVIAN Combined; NC008, NC024, NC057, NC065 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_NC.pdf"
+      }
+    ]
+  }
+}
