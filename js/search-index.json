@@ -561,10 +561,10 @@
   },
   {
     "title": "Colorado Springs, CO Affordable Housing 2026: CSHA, CERA, Springs Rescue Mission, HB24-1098 | Waythrough",
-    "description": "Colorado Springs CO 2026: CSHA lists not accepting pre-applications; HUD voucher pause in effect, CERA window June 8-10 2026 closed, Springs Rescue Mission, HB24-1098 just cause eviction, CO source-of-income protection.",
+    "description": "Colorado Springs CO 2026: CSHA lists not accepting pre-applications; HUD voucher pause in effect, next CERA window Nov 4-6 2026, Springs Rescue Mission, HB24-1098 just cause eviction, CO source-of-income protection.",
     "url": "/resources/cities/colorado-springs",
     "category": "City",
-    "body": "Colorado Springs, CO Affordable Housing 2026: CSHA, CERA, Springs Rescue Mission, HB24-1098 | Waythrough Home / Resources / Colorado Springs Housing City Resources Affordable Housing in Colorado Springs, CO Waythrough Project · Updated September 2026 This page collects the specific programs, agencie"
+    "body": "Colorado Springs, CO Affordable Housing 2026: CSHA, CERA, Springs Rescue Mission, HB24-1098 | Waythrough Home / Resources / Colorado Springs Housing City Resources Affordable Housing in Colorado Springs, CO Waythrough Project · Updated October 2026 This page collects the specific programs, agencies,"
   },
   {
     "title": "Columbus, OH Affordable Housing 2026: CMHA Lottery Pool, IMPACT, YWCA | Waythrough",
@@ -932,7 +932,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 66 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 67 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -2584,7 +2584,7 @@
   },
   {
     "title": "Vivienda asequible en Colorado Springs, CO: CSHA, CERA, Springs Rescue Mission, HB24-1098 | Waythrough",
-    "description": "Colorado Springs CO 2026: lotería anual de Sección 8 de CSHA en julio, ventana CERA 8-10 de junio 2026, Springs Rescue Mission, HB24-1098 causa justa, protección de fuente de ingresos de CO.",
+    "description": "Colorado Springs CO 2026: listas de CSHA cerradas y pausa de vales de HUD, próxima ventana de CERA 4-6 de noviembre 2026, Springs Rescue Mission, HB24-1098 causa justa, protección de fuente de ingresos de CO.",
     "url": "/es/recursos/ciudades/colorado-springs",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Colorado Springs y el Condado de El Paso — no consejos genéricos sobre Sección 8. CSHA dice \"None of our waiting lists are currently accepting online only pre-applications\" (ninguna de nuestras list"
@@ -3459,7 +3459,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 66 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 67 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4060,6 +4060,13 @@
     "body": "Sacramento Housing and Redevelopment Agency (SHRA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough Home / Resources / Housing Authorities / SHRA Housing Authority Sacramento Housing and Redevelopment Agency (SHRA) Serves The City and County of Sacramento, California, including all in"
   },
   {
+    "title": "Emergency Rent Help in Colorado Springs | Waythrough",
+    "description": "Colorado Springs rent help, door by door: CERA's next window (Nov. 4-6), 211, LEAP and Project COPE utility help, free eviction lawyers, the 10-day notice.",
+    "url": "/resources/guides/emergency-rent-help-colorado-springs",
+    "category": "Guide",
+    "body": "Emergency Rent Help in Colorado Springs | Waythrough Home / Resources / Emergency Rent Help in Colorado Springs How-To Guide Emergency Rent Help in Colorado Springs: CERA's Random Selection, 211, Free Eviction Lawyers, and the 10-Day Notice Matt · Updated October 2026 If you rent in Colorado Springs"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4415,5 +4422,12 @@
     "url": "/es/recursos/autoridades-de-vivienda/sacramento-shra",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / SHRA Autoridad de Vivienda Sacramento Housing and Redevelopment Agency (SHRA) Sirve a La ciudad y el condado de Sacramento, California, incluidas todas las ciudades incorporadas del condado · Última verificación: 28 de octubre de 2026 Waythrough es un re"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Colorado Springs | Waythrough",
+    "description": "Ayuda con la renta en Colorado Springs: la próxima ventana de CERA (4-6 de nov.), el 211, ayuda con servicios públicos, abogados gratis y el aviso de 10 días.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-colorado-springs",
+    "category": "Guías",
+    "body": "Si usted alquila en Colorado Springs y se atrasó con la renta, la puerta que de verdad paga es el programa estatal CERA (Colorado Emergency Rental Assistance, o Asistencia de Emergencia para el Alquiler de Colorado). Puede pagar hasta $15,000, pero escoge a los hogares por sorteo, y su ventana mensu"
   }
 ]
