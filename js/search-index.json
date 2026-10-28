@@ -540,10 +540,10 @@
   },
   {
     "title": "Charlotte, NC Affordable Housing 2026: INLIVIAN, Crisis Assistance Ministry, Roof Above | Waythrough",
-    "description": "Charlotte NC 2026: INLIVIAN HCV closed (6,000+ on list), affordable property lists announced for Jan 12, 2026 - status since unconfirmed. Crisis Assistance Ministry 704-371-3001, Roof Above shelter, North Carolina tenant rights.",
+    "description": "Charlotte NC 2026: INLIVIAN HCV closed (6,000+ on list); no INLIVIAN community list shown open as of Oct 28, 2026. Crisis Assistance Ministry 704-371-3001, Roof Above shelter, North Carolina tenant rights.",
     "url": "/resources/cities/charlotte",
     "category": "City",
-    "body": "Charlotte, NC Affordable Housing 2026: INLIVIAN, Crisis Assistance Ministry, Roof Above | Waythrough Home / Resources / Charlotte Housing City Resources Affordable Housing in Charlotte, NC Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, "
+    "body": "Charlotte, NC Affordable Housing 2026: INLIVIAN, Crisis Assistance Ministry, Roof Above | Waythrough Home / Resources / Charlotte Housing City Resources Affordable Housing in Charlotte, NC Waythrough Project · Updated October 2026 This page collects the specific programs, agencies, phone numbers, an"
   },
   {
     "title": "Chicago, IL Affordable Housing 2026: CHA, RLTO, Rentervention | Waythrough",
@@ -1149,7 +1149,7 @@
   },
   {
     "title": "What Does PHA Stand For? Find Your Public Housing Authority",
-    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 29 authorities or on HUD’s list.",
+    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 32 authorities or on HUD’s list.",
     "url": "/resources/guides/how-to-find-your-pha",
     "category": "Guide",
     "body": "What Does PHA Stand For? Find Your Public Housing Authority Home / Resources / Find Your PHA How-To Guide What Does PHA Stand For? Find Your Local Public Housing Authority Matt · 6 min read PHA stands for Public Housing Authority — the local government agency that runs Section 8 Housing Choice Vouch"
@@ -2556,7 +2556,7 @@
   },
   {
     "title": "Vivienda asequible en Charlotte, NC: INLIVIAN, Crisis Assistance Ministry y ayuda en español | Waythrough",
-    "description": "Charlotte NC: lista de INLIVIAN HCV cerrada, listas de propiedades asequibles anunciadas para el 12 de enero - estado posterior sin confirmar. Crisis Assistance Ministry 704-371-3001, Roof Above y derechos de inquilinos en Carolina del Norte.",
+    "description": "Charlotte NC: lista de INLIVIAN HCV cerrada (más de 6,000 en la lista); ninguna lista por comunidad aparece abierta al 28 de oct. de 2026. Crisis Assistance Ministry 704-371-3001, Roof Above y derechos de inquilinos en Carolina del Norte.",
     "url": "/es/recursos/ciudades/charlotte",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Charlotte y el Condado de Mecklenburg — no consejos genéricos sobre Sección 8. Si necesita refugio esta noche, quiere saber si la lista de INLIVIAN está abierta, o busca una organización que pueda a"
@@ -4032,6 +4032,27 @@
     "body": "NYC Emergency Rent Help: One Shot Deal Guide | Waythrough Home / Resources / Emergency Rent Help in New York City How-To Guide Emergency Rent Help in New York City: The One Shot Deal, Homebase, CityFHEPS, and a Free Lawyer Matt · Updated October 2026 If you rent in New York City and you are behind, "
   },
   {
+    "title": "INLIVIAN (Charlotte Housing Authority): Section 8 Waitlist Status, Contact & How to Apply | Waythrough",
+    "description": "INLIVIAN (Charlotte Housing Authority) in Charlotte, NC: current Section 8 / Housing Choice Voucher waiting-list status, phone (704) 336-5183, programs offered, and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/charlotte-inlivian",
+    "category": "Guide",
+    "body": "INLIVIAN (Charlotte Housing Authority): Section 8 Waitlist Status, Contact & How to Apply | Waythrough Home / Resources / Housing Authorities / INLIVIAN Housing Authority INLIVIAN (Charlotte Housing Authority) Serves Charlotte and Mecklenburg County, North Carolina · Last checked October 28, 2026 Wa"
+  },
+  {
+    "title": "Southern Nevada Regional Housing Authority (SNRHA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough",
+    "description": "Southern Nevada Regional Housing Authority (SNRHA) in Las Vegas, NV: current Section 8 / Housing Choice Voucher waiting-list status, phone (702) 477-3100, programs offered, and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/las-vegas-snrha",
+    "category": "Guide",
+    "body": "Southern Nevada Regional Housing Authority (SNRHA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough Home / Resources / Housing Authorities / SNRHA Housing Authority Southern Nevada Regional Housing Authority (SNRHA) Serves Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin and "
+  },
+  {
+    "title": "Sacramento Housing and Redevelopment Agency (SHRA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough",
+    "description": "Sacramento Housing and Redevelopment Agency (SHRA) in Sacramento, CA: current Section 8 / Housing Choice Voucher waiting-list status, phone (916) 440-1390, programs offered, and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/sacramento-shra",
+    "category": "Guide",
+    "body": "Sacramento Housing and Redevelopment Agency (SHRA): Section 8 Waitlist Status, Contact & How to Apply | Waythrough Home / Resources / Housing Authorities / SHRA Housing Authority Sacramento Housing and Redevelopment Agency (SHRA) Serves The City and County of Sacramento, California, including all in"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4366,5 +4387,26 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-nueva-york",
     "category": "Guías",
     "body": "Si usted alquila en la Ciudad de Nueva York y se atrasó con la renta, la puerta que paga la renta atrasada es el One Shot Deal de la Ciudad, una ayuda de emergencia (Emergency Assistance) de la Administración de Recursos Humanos (HRA). Se solicita en línea en ACCESS HRA : empieza una solicitud de As"
+  },
+  {
+    "title": "INLIVIAN (Charlotte Housing Authority): estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
+    "description": "INLIVIAN (Charlotte Housing Authority) en Charlotte, NC: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (704) 336-5183, programas que ofrece y cómo solicitar. Una guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/charlotte-inlivian",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / INLIVIAN Autoridad de Vivienda INLIVIAN (Charlotte Housing Authority) Sirve a Charlotte y el condado de Mecklenburg, Carolina del Norte · Última verificación: 28 de octubre de 2026 Waythrough es un recurso independiente, no es INLIVIAN. Resumimos informa"
+  },
+  {
+    "title": "Southern Nevada Regional Housing Authority (SNRHA): estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
+    "description": "Southern Nevada Regional Housing Authority (SNRHA) en Las Vegas, NV: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (702) 477-3100, programas que ofrece y cómo solicitar. Una guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/las-vegas-snrha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / SNRHA Autoridad de Vivienda Southern Nevada Regional Housing Authority (SNRHA) Sirve a Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin y el resto del condado de Clark, Nevada · Última verificación: 28 de octubre de 2026 Waythrough es un recurso"
+  },
+  {
+    "title": "Sacramento Housing and Redevelopment Agency (SHRA): estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
+    "description": "Sacramento Housing and Redevelopment Agency (SHRA) en Sacramento, CA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (916) 440-1390, programas que ofrece y cómo solicitar. Una guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/sacramento-shra",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / SHRA Autoridad de Vivienda Sacramento Housing and Redevelopment Agency (SHRA) Sirve a La ciudad y el condado de Sacramento, California, incluidas todas las ciudades incorporadas del condado · Última verificación: 28 de octubre de 2026 Waythrough es un re"
   }
 ]
