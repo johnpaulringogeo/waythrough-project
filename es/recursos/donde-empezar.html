@@ -1500,7 +1500,7 @@
                 if (who.indexOf('children') !== -1) {
                     additional.push({
                         title: 'Recursos de Vivienda para Familias',
-                        link: '../familias.html',
+                        link: 'familias.html',
                         description: 'Refugios y programas de vivienda que mantienen a las familias unidas.',
                         meta: 'Familias'
                     });
@@ -1538,7 +1538,7 @@
                 if (isRepair) {
                     focused.push({
                         title: 'Asistencia para Reparaciones del Hogar',
-                        link: '../guias/programas-reparacion-vivienda.html',
+                        link: 'guias/programas-reparacion-vivienda.html',
                         description: 'Programas federales, estatales y sin fines de lucro que ayudan a propietarios de bajos ingresos a pagar reparaciones — muchos son subvenciones gratuitas.',
                         meta: 'Guía • Empieza Aquí'
                     });
@@ -1578,7 +1578,7 @@
                     if (a['repair-stage'] === 'condemned' || a['repair-stage'] === 'code-violations') {
                         additional.push({
                             title: 'Cómo Prevenir la Ejecución Hipotecaria',
-                            link: '../guias/como-prevenir-ejecucion-hipotecaria.html',
+                            link: 'guias/como-prevenir-ejecucion-hipotecaria.html',
                             description: 'Si los costos de reparación amenazan tu hipoteca, explora tus opciones temprano.',
                             meta: 'Hipoteca'
                         });
@@ -1592,7 +1592,7 @@
                     });
                     additional.push({
                         title: 'Solicitar Medicaid',
-                        link: '../guias/como-solicitar-medicaid.html',
+                        link: 'guias/como-solicitar-medicaid.html',
                         description: 'Cobertura de salud gratuita puede liberar dinero para reparaciones del hogar.',
                         meta: 'Beneficios'
                     });
@@ -1601,7 +1601,7 @@
                 if (isHomeowner) {
                     focused.push({
                         title: 'Cómo Prevenir la Ejecución Hipotecaria',
-                        link: '../guias/como-prevenir-ejecucion-hipotecaria.html',
+                        link: 'guias/como-prevenir-ejecucion-hipotecaria.html',
                         description: 'Guía paso a paso — consejeros de HUD, modificación de préstamo, indulgencia y qué hacer en cada etapa.',
                         meta: 'Ejecución Hipotecaria • Guía'
                     });
@@ -1638,13 +1638,13 @@
                     if (a.urgency === 'behind') {
                         focused.push({
                             title: 'Asistencia de Renta de Emergencia',
-                            link: '../guias/asistencia-renta-emergencia.html',
+                            link: 'guias/asistencia-renta-emergencia.html',
                             description: 'Programas que pueden pagar directamente a tu arrendador la renta atrasada y servicios públicos. Solicita lo antes posible.',
                             meta: 'Urgente • Financiero'
                         });
                         focused.push({
                             title: 'Cómo Evitar el Desalojo',
-                            link: '../guias/como-evitar-desalojo.html',
+                            link: 'guias/como-evitar-desalojo.html',
                             description: 'Si estás atrasado/a en la renta, así es como puedes protegerte antes de que tu arrendador tome acción.',
                             meta: 'Prevención'
                         });
@@ -1662,14 +1662,14 @@
                     if (a.assistance === 'section-8') {
                         focused.push({
                             title: 'Manejar la Recertificación',
-                            link: '../guias/como-manejar-recertificacion.html',
+                            link: 'guias/como-manejar-recertificacion.html',
                             description: 'Si tu ingreso cambió, solicita una recertificación provisional para reducir tu porción de renta.',
                             meta: 'Cupón • Importante'
                         });
                     } else if (a.assistance === 'none' || a.assistance === 'not-sure') {
                         focused.push({
                             title: 'Encuentra Tu Autoridad de Vivienda Pública',
-                            link: '../guias/como-encontrar-tu-pha.html',
+                            link: 'guias/como-encontrar-tu-pha.html',
                             description: 'Tu PHA administra Sección 8 y puede conectarte con programas locales.',
                             meta: 'Primer Paso'
                         });
@@ -1681,7 +1681,7 @@
                     if (!isHomeowner && !isRepair) {
                         additional.push({
                             title: 'Asistencia de Renta de Emergencia',
-                            link: '../guias/asistencia-renta-emergencia.html',
+                            link: 'guias/asistencia-renta-emergencia.html',
                             description: 'Programas que ayudan a cubrir renta y servicios públicos.',
                             meta: 'Financiero'
                         });
@@ -1697,7 +1697,7 @@
                     });
                     additional.push({
                         title: 'Solicitar Medicaid',
-                        link: '../guias/como-solicitar-medicaid.html',
+                        link: 'guias/como-solicitar-medicaid.html',
                         description: 'Cobertura de salud gratuita puede eliminar un gasto importante.',
                         meta: 'Beneficios'
                     });
@@ -1706,13 +1706,13 @@
                 if (helpType.indexOf('budgeting') !== -1) {
                     additional.push({
                         title: 'Presupuesto Cuando el Dinero es Escaso',
-                        link: '../guias/presupuesto-con-poco-dinero.html',
+                        link: 'guias/presupuesto-con-poco-dinero.html',
                         description: 'Estrategias prácticas para manejar costos de vivienda y gastos de vida.',
                         meta: 'Finanzas'
                     });
                     additional.push({
                         title: 'Salir de las Deudas',
-                        link: '../guias/como-salir-de-deudas.html',
+                        link: 'guias/como-salir-de-deudas.html',
                         description: 'Manejo de facturas médicas, cobros y deudas cuando el ingreso es bajo.',
                         meta: 'Finanzas'
                     });
@@ -1722,14 +1722,14 @@
                     if (isHomeowner || isRepair) {
                         additional.push({
                             title: 'Cómo Prevenir la Ejecución Hipotecaria',
-                            link: '../guias/como-prevenir-ejecucion-hipotecaria.html',
+                            link: 'guias/como-prevenir-ejecucion-hipotecaria.html',
                             description: 'Modificación de préstamo, refinanciamiento y otras opciones a largo plazo.',
                             meta: 'Hipoteca'
                         });
                     } else {
                         additional.push({
                             title: 'Encontrar Vivienda Asequible LIHTC',
-                            link: '../guias/como-encontrar-vivienda-lihtc.html',
+                            link: 'guias/como-encontrar-vivienda-lihtc.html',
                             description: 'Apartamentos por debajo del mercado que no requieren un cupón.',
                             meta: 'Vivienda'
                         });
@@ -1740,7 +1740,7 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'Beneficios del VA para Veteranos',
-                        link: '../guias/beneficios-va.html',
+                        link: 'guias/beneficios-va.html',
                         description: 'Compensación por discapacidad del VA, pensión del VA, atención médica y Ayuda y Asistencia — beneficios que quizás no sabías que calificas.',
                         meta: 'Veteranos • Beneficios'
                     });
@@ -1790,7 +1790,7 @@
                 if (a.stage === 'got-notice') {
                     focused.push({
                         title: 'Cómo Entender los Avisos del Arrendador',
-                        link: '../guias/entendiendo-avisos-del-propietario.html',
+                        link: 'guias/entendiendo-avisos-del-propietario.html',
                         description: 'Qué significa tu aviso, cómo responder y cuáles son tus plazos — explicado en lenguaje sencillo.',
                         meta: 'Avisos • Urgente'
                     });
@@ -1798,7 +1798,7 @@
                     if (a['notice-type'] === 'pay-or-vacate') {
                         focused.push({
                             title: 'Asistencia de Renta de Emergencia',
-                            link: '../guias/asistencia-renta-emergencia.html',
+                            link: 'guias/asistencia-renta-emergencia.html',
                             description: 'Programas que pueden pagar directamente a tu arrendador — algunos pueden detener un desalojo si el pago está pendiente.',
                             meta: 'Financiero • Urgente'
                         });
@@ -1808,7 +1808,7 @@
                 if (a.stage === 'court') {
                     focused.push({
                         title: 'Prevención y Defensa contra Desalojos',
-                        link: '../prevencion-desalojos.html',
+                        link: 'prevencion-desalojos.html',
                         description: 'Asistencia legal, preparación para la corte y programas de prevención de desalojos.',
                         meta: 'Legal • Corte'
                     });
@@ -1823,7 +1823,7 @@
                     });
                     focused.push({
                         title: 'Asistencia de Renta de Emergencia',
-                        link: '../guias/asistencia-renta-emergencia.html',
+                        link: 'guias/asistencia-renta-emergencia.html',
                         description: 'Solicita ahora, antes de recibir un aviso. Muchos programas procesan más rápido cuando no hay una demanda de desalojo involucrada.',
                         meta: 'Financiero • Prevención'
                     });
@@ -1831,7 +1831,7 @@
 
                 focused.push({
                     title: 'Cómo Evitar el Desalojo',
-                    link: '../guias/como-evitar-desalojo.html',
+                    link: 'guias/como-evitar-desalojo.html',
                     description: 'Guía paso a paso que cubre cada etapa — desde la primera advertencia hasta la corte.',
                     meta: 'Guía'
                 });
@@ -1855,7 +1855,7 @@
                 if (a.stage !== 'got-notice' || a['notice-type'] !== 'pay-or-vacate') {
                     additional.push({
                         title: 'Asistencia de Renta de Emergencia',
-                        link: '../guias/asistencia-renta-emergencia.html',
+                        link: 'guias/asistencia-renta-emergencia.html',
                         description: 'Programas que ayudan a cubrir renta y servicios públicos.',
                         meta: 'Financiero'
                     });
@@ -1863,7 +1863,7 @@
 
                 additional.push({
                     title: 'Cómo Entender Tu Contrato de Arrendamiento',
-                    link: '../guias/entendiendo-tu-contrato.html',
+                    link: 'guias/entendiendo-tu-contrato.html',
                     description: 'Conoce lo que realmente dice tu contrato y qué términos son ejecutables.',
                     meta: 'Derechos del Inquilino'
                 });
@@ -1914,7 +1914,7 @@
             if (branch === 'lost-job') {
                 focused.push({
                     title: 'Qué Hacer Cuando Pierdes Tu Trabajo',
-                    link: '../guias/que-hacer-si-pierdes-tu-empleo.html',
+                    link: 'guias/que-hacer-si-pierdes-tu-empleo.html',
                     description: 'Pasos inmediatos — beneficios de desempleo, cobertura de salud, ayuda con la renta y cómo recuperarte.',
                     meta: 'Guía • Empieza Aquí'
                 });
@@ -1945,7 +1945,7 @@
                 if (a.concern === 'rent' || a.concern === 'all') {
                     focused.push({
                         title: 'Asistencia de Renta de Emergencia',
-                        link: '../guias/asistencia-renta-emergencia.html',
+                        link: 'guias/asistencia-renta-emergencia.html',
                         description: 'Programas que pueden cubrir la renta mientras estás entre trabajos.',
                         meta: 'Vivienda • Urgente'
                     });
@@ -1954,7 +1954,7 @@
                 if (a.concern === 'insurance' || a.concern === 'all') {
                     focused.push({
                         title: 'Solicitar Medicaid',
-                        link: '../guias/como-solicitar-medicaid.html',
+                        link: 'guias/como-solicitar-medicaid.html',
                         description: 'Cobertura de salud gratuita o de bajo costo ahora que tu ingreso ha cambiado.',
                         meta: 'Salud'
                     });
@@ -1963,7 +1963,7 @@
                 if (a.concern === 'new-job' || a.concern === 'all') {
                     focused.push({
                         title: 'Empleo y Capacitación Laboral',
-                        link: '../empleo.html',
+                        link: 'empleo.html',
                         description: 'Centros de Empleo Americanos, programas de capacitación y recursos de carrera — todo gratis.',
                         meta: 'Empleo'
                     });
@@ -1978,14 +1978,14 @@
 
                 additional.push({
                     title: 'Presupuesto Cuando el Dinero es Escaso',
-                    link: '../guias/presupuesto-con-poco-dinero.html',
+                    link: 'guias/presupuesto-con-poco-dinero.html',
                     description: 'Estrategias de presupuesto de supervivencia para cuando el ingreso baja repentinamente.',
                     meta: 'Finanzas'
                 });
 
                 additional.push({
                     title: 'Salir de las Deudas',
-                    link: '../guias/como-salir-de-deudas.html',
+                    link: 'guias/como-salir-de-deudas.html',
                     description: 'Programas de dificultad, indulgencia y manejo de deudas durante la pérdida de empleo.',
                     meta: 'Finanzas'
                 });
@@ -1994,7 +1994,7 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'Beneficios del VA para Veteranos',
-                        link: '../guias/beneficios-va.html',
+                        link: 'guias/beneficios-va.html',
                         description: 'Compensación por discapacidad del VA, pensión, atención médica y rehabilitación vocacional — podrías calificar para apoyo de ingresos y capacitación laboral.',
                         meta: 'Veteranos • Beneficios'
                     });
@@ -2016,7 +2016,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Solicitar SSI/SSDI',
-                        link: '../guias/como-solicitar-ssi-ssdi.html',
+                        link: 'guias/como-solicitar-ssi-ssdi.html',
                         description: 'Si tienes una discapacidad, podrías calificar para ingresos por discapacidad incluso sin empleo.',
                         meta: 'Discapacidad • Ingresos'
                     });
@@ -2035,7 +2035,7 @@
                 if (a['applied-before'] === 'have-voucher') {
                     focused.push({
                         title: 'Usar Tu Cupón',
-                        link: '../guias/como-transferir-cupon.html',
+                        link: 'guias/como-transferir-cupon.html',
                         description: 'Cómo buscar apartamentos, portabilidad y qué necesitan los arrendadores de ti.',
                         meta: 'Cupón'
                     });
@@ -2063,14 +2063,14 @@
 
                 focused.push({
                     title: 'Encontrar Vivienda Asequible LIHTC',
-                    link: '../guias/como-encontrar-vivienda-lihtc.html',
+                    link: 'guias/como-encontrar-vivienda-lihtc.html',
                     description: 'Apartamentos por debajo del mercado que no requieren un cupón. Disponibles en la mayoría de las áreas.',
                     meta: 'Búsqueda de Vivienda'
                 });
 
                 focused.push({
                     title: 'Encuentra Tu Autoridad de Vivienda Pública',
-                    link: '../guias/como-encontrar-tu-pha.html',
+                    link: 'guias/como-encontrar-tu-pha.html',
                     description: 'Tu PHA es el punto de partida para vivienda pública y Sección 8 en tu área.',
                     meta: 'Primer Paso'
                 });
@@ -2079,13 +2079,13 @@
                 if (barriers.indexOf('bad-credit') !== -1) {
                     focused.push({
                         title: 'Alquilar con Mal Historial de Alquiler',
-                        link: '../guias/alquilar-con-mal-historial.html',
+                        link: 'guias/alquilar-con-mal-historial.html',
                         description: 'Desalojos pasados o mal crédito no tienen que impedirte obtener vivienda. Así es como puedes avanzar.',
                         meta: 'Crédito • Historial'
                     });
                     additional.push({
                         title: 'Reconstruir Crédito para Vivienda',
-                        link: '../guias/reconstruir-credito-para-vivienda.html',
+                        link: 'guias/reconstruir-credito-para-vivienda.html',
                         description: 'Pasos prácticos para mejorar tu crédito y referencias de alquiler.',
                         meta: 'Crédito'
                     });
@@ -2094,7 +2094,7 @@
                 if (barriers.indexOf('criminal-record') !== -1) {
                     focused.push({
                         title: 'Vivienda con Antecedentes Penales',
-                        link: '../guias/antecedentes-penales-y-vivienda.html',
+                        link: 'guias/antecedentes-penales-y-vivienda.html',
                         description: 'Tus derechos, políticas de arrendadores y programas que trabajan con personas que tienen antecedentes.',
                         meta: 'Legal • Derechos'
                     });
@@ -2103,7 +2103,7 @@
                 if (barriers.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Solicitar Adaptación Razonable',
-                        link: '../guias/como-solicitar-acomodacion-razonable.html',
+                        link: 'guias/como-solicitar-acomodacion-razonable.html',
                         description: 'Tu derecho a modificaciones por necesidades de discapacidad.',
                         meta: 'Discapacidades'
                     });
@@ -2134,7 +2134,7 @@
                     });
                     additional.push({
                         title: 'Rastreador de Lista de Espera de Sección 8',
-                        link: '../herramientas/rastreador-section-8.html',
+                        link: 'herramientas/rastreador-section-8.html',
                         description: 'Encuentra listas de espera abiertas por estado — busca 183 PHAs con información de contacto y tiempos de espera estimados.',
                         meta: 'Herramienta'
                     });
@@ -2150,7 +2150,7 @@
                     });
                     additional.push({
                         title: 'Beneficios del VA para Veteranos',
-                        link: '../guias/beneficios-va.html',
+                        link: 'guias/beneficios-va.html',
                         description: 'Compensación por discapacidad, pensión y atención médica — ingresos adicionales que hacen la vivienda más asequible.',
                         meta: 'Veteranos • Beneficios'
                     });
@@ -2174,7 +2174,7 @@
                 if (aboutYou.indexOf('recovery') !== -1) {
                     additional.push({
                         title: 'Uso de Sustancias y Vivienda de Recuperación',
-                        link: '../uso-de-sustancias.html',
+                        link: 'uso-de-sustancias.html',
                         description: 'Oxford Houses, vivienda sobria y programas de vivienda que apoyan la recuperación.',
                         meta: 'Recuperación'
                     });
@@ -2186,13 +2186,13 @@
                 if (a.problem === 'wont-accept') {
                     focused.push({
                         title: 'Protecciones de Fuente de Ingreso',
-                        link: '../guias/protecciones-fuente-ingreso.html',
+                        link: 'guias/protecciones-fuente-ingreso.html',
                         description: 'Muchos estados y ciudades hacen ilegal que los arrendadores rechacen cupones. Verifica si estás protegido/a.',
                         meta: 'Derechos • Legal'
                     });
                     focused.push({
                         title: 'Presentar una Queja por Discriminación de Vivienda',
-                        link: '../guias/como-presentar-queja-discriminacion.html',
+                        link: 'guias/como-presentar-queja-discriminacion.html',
                         description: 'Si rechazar tu cupón es ilegal en tu área, así es como puedes presentar una queja.',
                         meta: 'Derechos • Legal'
                     });
@@ -2201,7 +2201,7 @@
                 if (a.problem === 'cant-find') {
                     focused.push({
                         title: 'Consulta de Renta Justa de Mercado y Límites de Ingreso',
-                        link: '../herramientas/estimador-renta.html',
+                        link: 'herramientas/estimador-renta.html',
                         description: 'Verifica la FMR de tu área para entender lo que cubrirá tu cupón.',
                         meta: 'Herramienta'
                     });
@@ -2219,7 +2219,7 @@
                 if (a.problem === 'moving') {
                     focused.push({
                         title: 'Transferir Tu Cupón (Portabilidad)',
-                        link: '../guias/como-transferir-cupon.html',
+                        link: 'guias/como-transferir-cupon.html',
                         description: 'Cómo usar tu cupón en una ciudad, condado o estado diferente.',
                         meta: 'Portabilidad'
                     });
@@ -2228,7 +2228,7 @@
                 if (a['pha-contact'] === 'no' || a['pha-contact'] === 'what-is-pha') {
                     focused.push({
                         title: 'Encuentra Tu Autoridad de Vivienda Pública',
-                        link: '../guias/como-encontrar-tu-pha.html',
+                        link: 'guias/como-encontrar-tu-pha.html',
                         description: 'Tu PHA administra tu cupón y puede ayudar a resolver problemas. Encuentra la tuya aquí.',
                         meta: 'Importante'
                     });
@@ -2236,14 +2236,14 @@
 
                 focused.push({
                     title: 'Manejar la Recertificación',
-                    link: '../guias/como-manejar-recertificacion.html',
+                    link: 'guias/como-manejar-recertificacion.html',
                     description: 'Mantén tu cupón activo cumpliendo con las revisiones anuales.',
                     meta: 'Cupón'
                 });
 
                 additional.push({
                     title: 'Encontrar Vivienda Asequible LIHTC',
-                    link: '../guias/como-encontrar-vivienda-lihtc.html',
+                    link: 'guias/como-encontrar-vivienda-lihtc.html',
                     description: 'Apartamentos asequibles que no dependen de un cupón — una buena opción de respaldo.',
                     meta: 'Vivienda'
                 });
@@ -2253,7 +2253,7 @@
             if (branch === 'discrimination') {
                 focused.push({
                     title: 'Presentar una Queja por Discriminación de Vivienda',
-                    link: '../guias/como-presentar-queja-discriminacion.html',
+                    link: 'guias/como-presentar-queja-discriminacion.html',
                     description: 'Guía paso a paso para presentar una queja ante HUD. El proceso es gratuito y confidencial.',
                     meta: 'Derechos • Legal'
                 });
@@ -2261,7 +2261,7 @@
                 if (a['discrimination-type'] === 'voucher-rejected') {
                     focused.push({
                         title: 'Protecciones de Fuente de Ingreso',
-                        link: '../guias/protecciones-fuente-ingreso.html',
+                        link: 'guias/protecciones-fuente-ingreso.html',
                         description: 'Muchos estados y ciudades hacen ilegal rechazar cupones. Averigua si estás protegido/a.',
                         meta: 'Cupón • Derechos'
                     });
@@ -2277,7 +2277,7 @@
                     if (a['discrimination-basis'] && a['discrimination-basis'].indexOf('voucher') !== -1) {
                         focused.push({
                             title: 'Protecciones de Fuente de Ingreso',
-                            link: '../guias/protecciones-fuente-ingreso.html',
+                            link: 'guias/protecciones-fuente-ingreso.html',
                             description: 'Leyes que te protegen de ser denegado/a vivienda por tu fuente de ingreso.',
                             meta: 'Cupón • Derechos'
                         });
@@ -2287,7 +2287,7 @@
                 if (a['discrimination-type'] === 'accommodation-denied') {
                     focused.push({
                         title: 'Solicitar una Adaptación Razonable',
-                        link: '../guias/como-solicitar-acomodacion-razonable.html',
+                        link: 'guias/como-solicitar-acomodacion-razonable.html',
                         description: 'Carta modelo y proceso paso a paso para solicitar adaptaciones por discapacidad.',
                         meta: 'Discapacidades • Derechos'
                     });
@@ -2308,14 +2308,14 @@
 
                 additional.push({
                     title: 'Alquilar con Mal Historial de Alquiler',
-                    link: '../guias/alquilar-con-mal-historial.html',
+                    link: 'guias/alquilar-con-mal-historial.html',
                     description: 'Si una negación está relacionada con tu historial, así es como puedes avanzar.',
                     meta: 'Historial'
                 });
 
                 additional.push({
                     title: 'Vivienda con Antecedentes Penales',
-                    link: '../guias/antecedentes-penales-y-vivienda.html',
+                    link: 'guias/antecedentes-penales-y-vivienda.html',
                     description: 'Tus derechos y políticas de arrendadores sobre antecedentes penales.',
                     meta: 'Legal • Derechos'
                 });
@@ -2324,7 +2324,7 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     additional.push({
                         title: 'Beneficios del VA para Veteranos',
-                        link: '../guias/beneficios-va.html',
+                        link: 'guias/beneficios-va.html',
                         description: 'Asistencia legal del VA y programas de vivienda para veteranos.',
                         meta: 'Veteranos'
                     });
@@ -2368,7 +2368,7 @@
                     if (currentBenefits.indexOf('medicaid') === -1) {
                         focused.push({
                             title: 'Solicitar Medicaid',
-                            link: '../guias/como-solicitar-medicaid.html',
+                            link: 'guias/como-solicitar-medicaid.html',
                             description: 'Cobertura de salud gratuita o de bajo costo basada en tu ingreso.',
                             meta: 'Salud'
                         });
@@ -2376,14 +2376,14 @@
                     if (aboutYou.indexOf('veteran') !== -1) {
                         focused.push({
                             title: 'Atención Médica del VA para Veteranos',
-                            link: '../guias/beneficios-va.html',
+                            link: 'guias/beneficios-va.html',
                             description: 'Atención médica gratuita o de bajo costo, servicios de salud mental, recetas y más a través del VA — no se requiere clasificación de discapacidad para muchos servicios.',
                             meta: 'Veteranos • Salud'
                         });
                     }
                     focused.push({
                         title: 'Recursos de Salud Mental',
-                        link: '../salud-mental.html',
+                        link: 'salud-mental.html',
                         description: 'Encontrar terapia, apoyo con medicamentos y líneas de crisis.',
                         meta: 'Salud Mental'
                     });
@@ -2392,13 +2392,13 @@
                 if (needs.indexOf('employment') !== -1) {
                     focused.push({
                         title: 'Empleo y Capacitación Laboral',
-                        link: '../empleo.html',
+                        link: 'empleo.html',
                         description: 'Ayuda con búsqueda de empleo, programas de capacitación gratuitos y recursos de carrera.',
                         meta: 'Empleo'
                     });
                     additional.push({
                         title: 'Programa de Autosuficiencia Familiar',
-                        link: '../guias/programa-autosuficiencia-familiar.html',
+                        link: 'guias/programa-autosuficiencia-familiar.html',
                         description: 'Si tienes un cupón, este programa te ayuda a aumentar ingresos y ahorros.',
                         meta: 'Crecimiento de Ingresos'
                     });
@@ -2407,13 +2407,13 @@
                 if (needs.indexOf('debt') !== -1) {
                     focused.push({
                         title: 'Salir de las Deudas',
-                        link: '../guias/como-salir-de-deudas.html',
+                        link: 'guias/como-salir-de-deudas.html',
                         description: 'Manejo de facturas médicas, cobros, préstamos estudiantiles y otras deudas con ingreso bajo.',
                         meta: 'Finanzas'
                     });
                     focused.push({
                         title: 'Presupuesto Cuando el Dinero es Escaso',
-                        link: '../guias/presupuesto-con-poco-dinero.html',
+                        link: 'guias/presupuesto-con-poco-dinero.html',
                         description: 'Estrategias prácticas para estirar un ingreso limitado.',
                         meta: 'Finanzas'
                     });
@@ -2422,7 +2422,7 @@
                 if (currentBenefits.indexOf('ssi') === -1) {
                     additional.push({
                         title: 'Solicitar SSI/SSDI',
-                        link: '../guias/como-solicitar-ssi-ssdi.html',
+                        link: 'guias/como-solicitar-ssi-ssdi.html',
                         description: 'Beneficios de ingresos por discapacidad si tienes una condición que califica.',
                         meta: 'Beneficios'
                     });
@@ -2432,7 +2432,7 @@
                     if (needs.indexOf('healthcare') === -1) {
                         additional.push({
                             title: 'Beneficios del VA para Veteranos',
-                            link: '../guias/beneficios-va.html',
+                            link: 'guias/beneficios-va.html',
                             description: 'Compensación por discapacidad, pensión, atención médica y más — beneficios para los que podrías calificar.',
                             meta: 'Veteranos'
                         });
@@ -2458,7 +2458,7 @@
                 if (aboutYou.indexOf('disability') !== -1 && currentBenefits.indexOf('ssi') === -1) {
                     focused.push({
                         title: 'Solicitar SSI/SSDI',
-                        link: '../guias/como-solicitar-ssi-ssdi.html',
+                        link: 'guias/como-solicitar-ssi-ssdi.html',
                         description: 'Beneficios de ingresos por discapacidad si tienes una condición que califica.',
                         meta: 'Discapacidad • Ingresos'
                     });
