@@ -61,8 +61,15 @@ print('sitemap lastmod ->', date, 'on', len(refresh_urls), 'modified pages')
 idx = 'js/search-index.json'
 b = open(idx, 'rb').read(); open(idx, 'wb').write(b.replace(b'\r\n', b'\n'))
 env = dict(os.environ, MSYS_NO_PATHCONV='1')
-if new_urls:
-    print(subprocess.run([sys.executable, 'scripts/search_index.py', 'add', *new_urls], capture_output=True, text=True, env=env).stdout.strip())
+failures = []
+# Every added page gets an index entry, whether or not its sitemap entry was new this run
+# (add is idempotent). One URL per call, so one failure can't silently skip the rest.
+for u in sorted(set(new_urls) | {'/' + url_for(p) for p in added}):
+    r = subprocess.run([sys.executable, 'scripts/search_index.py', 'add', u], capture_output=True, text=True, env=env)
+    if r.returncode != 0:
+        failures.append(u); print('INDEX ADD FAILED', u, (r.stderr or r.stdout).strip().splitlines()[-1:])
+    else:
+        print(r.stdout.strip())
 covered = []
 for u in refresh_urls:
     r = subprocess.run([sys.executable, 'scripts/search_index.py', 'refresh', u, '--dry-run'], capture_output=True, text=True, env=env)
@@ -73,3 +80,5 @@ if covered:
 r = subprocess.run([sys.executable, 'scripts/search_index.py', 'missing'], capture_output=True, text=True, env=env)
 print('missing exit', r.returncode, r.stdout.strip()[:300])
 assert 'Program Files' not in open(idx, encoding='utf-8').read()
+if failures or r.returncode != 0:
+    sys.exit('POSTMERGE INCOMPLETE: fix the failures above (index add failed: %s; missing exit %d)' % (failures, r.returncode))
