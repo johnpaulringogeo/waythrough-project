@@ -714,11 +714,11 @@
     "body": "Nashville, TN Affordable Housing 2026: MDHA, L.E.G.A.C.Y. Court, NeedLink | Waythrough Home / Resources / Nashville Housing City Resources Affordable Housing in Nashville, TN Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that"
   },
   {
-    "title": "New York City Affordable Housing 2026: NYCHA, CityFHEPS, Good Cause, Right to Counsel | Waythrough",
-    "description": "NYC 2026: NYCHA HCV outreach paused Aug 2025 (633,808 applications), CityFHEPS for homeless households, Good Cause Eviction effective April 17 2026, NYC Right to Counsel, rent stabilization 3%/4.5% caps.",
+    "title": "NYC Affordable Housing and Rent Help 2026 | Waythrough",
+    "description": "New York City, checked Oct 2026: behind on rent, apply for HRA's One Shot Deal; facing eviction, get a free lawyer via 311; NYCHA Section 8 is closed.",
     "url": "/resources/cities/new-york",
     "category": "City",
-    "body": "New York City Affordable Housing 2026: NYCHA, CityFHEPS, Good Cause, Right to Counsel | Waythrough Home / Resources / New York Housing City Resources Affordable Housing in New York City Waythrough Project · Updated October 2026 This page collects the specific programs, agencies, phone numbers, and r"
+    "body": "NYC Affordable Housing and Rent Help 2026 | Waythrough Home / Resources / New York Housing City Resources Affordable Housing and Rent Help in New York City Waythrough Project · Updated October 2026 If you live in New York City and you are behind on rent, facing eviction, or looking for a place you c"
   },
   {
     "title": "Oakland, CA Affordable Housing 2026: OHA, RAP 0.8% Cap, Just Cause | Waythrough",
@@ -932,7 +932,7 @@
   },
   {
     "title": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 65 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 66 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "All Housing Guides — Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handl"
@@ -2730,11 +2730,11 @@
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Nashville y el Condado de Davidson — no consejos genéricos sobre Sección 8. Nashville tiene dos características locales notables que vale la pena conocer: el programa Eviction Right to Counsel, que "
   },
   {
-    "title": "Vivienda asequible en Nueva York: NYCHA, CityFHEPS, Good Cause, Derecho a Abogado | Waythrough",
-    "description": "NYC 2026: alcance de HCV de NYCHA pausado Ago 2025 (633,808 solicitudes), CityFHEPS para hogares sin hogar, Desalojo por Causa Justa vigente 17 de abril 2026, Derecho a un Abogado de NYC, estabilización de alquileres 3%/4.5%.",
+    "title": "Vivienda asequible y ayuda con la renta en NYC | Waythrough",
+    "description": "Nueva York, oct. 2026: si debe renta, pida el One Shot Deal de HRA; si enfrenta un desalojo, abogado gratis por el 311; la Sección 8 de NYCHA está cerrada.",
     "url": "/es/recursos/ciudades/new-york",
     "category": "Recursos de Ciudades",
-    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en la Ciudad de Nueva York — no consejos genéricos sobre Sección 8. La lista de HCV de NYCHA atrajo 633,808 solicitudes cuando reabrió brevemente en 2024, pero el alcance activo fue pausado el 1 de ago"
+    "body": "Si vive en la Ciudad de Nueva York y está atrasado con la renta, enfrenta un desalojo o busca un lugar que pueda pagar, estas son las puertas que de verdad están abiertas, revisadas el 28 de octubre de 2026. Empiece por la que le corresponde hoy. Qué hacer hoy Atrasado con la renta: solicite el One "
   },
   {
     "title": "Vivienda asequible en Oakland, CA: OHA, RAP límite 0.8%, Causa Justa | Waythrough",
@@ -3452,7 +3452,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 65 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 66 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4025,6 +4025,13 @@
     "body": "Emergency Rent & Eviction Help in Las Vegas | Waythrough Home / Resources / Emergency Rent Help in Las Vegas How-To Guide Emergency Rent Help in Las Vegas: What Is Left After CHAP, the Eviction Diversion Program, and Nevada's 7-Day Notice Matt · Updated October 2026 If you rent in Las Vegas or anywh"
   },
   {
+    "title": "NYC Emergency Rent Help: One Shot Deal Guide | Waythrough",
+    "description": "Behind on rent in NYC? How to get HRA's One Shot Deal on ACCESS HRA, the documents, the repayment rules, Homebase, CityFHEPS, and a free lawyer through 311.",
+    "url": "/resources/guides/emergency-rent-help-new-york-city",
+    "category": "Guide",
+    "body": "NYC Emergency Rent Help: One Shot Deal Guide | Waythrough Home / Resources / Emergency Rent Help in New York City How-To Guide Emergency Rent Help in New York City: The One Shot Deal, Homebase, CityFHEPS, and a Free Lawyer Matt · Updated October 2026 If you rent in New York City and you are behind, "
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4352,5 +4359,12 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-las-vegas",
     "category": "Guías",
     "body": "Si usted alquila en Las Vegas o en cualquier parte del Condado de Clark y se atrasó con la renta, empiece por la mala noticia: el gran programa de renta del Condado, CHAP (que después se llamó Eviction Prevention and Fixed Income Rent Assistance), se quedó sin dinero y no está procesando solicitudes"
+  },
+  {
+    "title": "Ayuda con la renta en NYC: One Shot Deal | Waythrough",
+    "description": "¿Atrasado con la renta en NYC? Cómo pedir el One Shot Deal en ACCESS HRA, los documentos, si hay que devolverlo, Homebase, CityFHEPS y un abogado gratis.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-nueva-york",
+    "category": "Guías",
+    "body": "Si usted alquila en la Ciudad de Nueva York y se atrasó con la renta, la puerta que paga la renta atrasada es el One Shot Deal de la Ciudad, una ayuda de emergencia (Emergency Assistance) de la Administración de Recursos Humanos (HRA). Se solicita en línea en ACCESS HRA : empieza una solicitud de As"
   }
 ]
