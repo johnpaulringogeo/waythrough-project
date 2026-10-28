@@ -806,10 +806,10 @@
   },
   {
     "title": "St. Louis, MO Affordable Housing 2026: SLHA, HELP-STL Right to Counsel | Waythrough",
-    "description": "St. Louis MO 2026: SLHA HCV closed (314-531-4770) but Elderly-Only list open year-round. HELP-STL Right to Counsel for eviction (314-657-1671), City ERA, Peter & Paul, ALIVE DV.",
+    "description": "St. Louis MO 2026: SLHA HCV closed (314-531-4770) but Elderly-Only list open year-round. HELP-STL Right to Counsel for City renters (314-657-1671), 211 for rent help.",
     "url": "/resources/cities/st-louis",
     "category": "City",
-    "body": "St. Louis, MO Affordable Housing 2026: SLHA, HELP-STL Right to Counsel | Waythrough Home / Resources / St. Louis Housing City Resources Affordable Housing in St. Louis, MO Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that ap"
+    "body": "St. Louis, MO Affordable Housing 2026: SLHA, HELP-STL Right to Counsel | Waythrough Home / Resources / St. Louis Housing City Resources Affordable Housing in St. Louis, MO Waythrough Project · Updated October 2026 This page collects the specific programs, agencies, phone numbers, and rules that appl"
   },
   {
     "title": "Tampa, FL Affordable Housing 2026: THA, RMAP, Metropolitan Ministries | Waythrough",
@@ -2822,7 +2822,7 @@
   },
   {
     "title": "Vivienda asequible en St. Louis, MO: SLHA, HELP-STL Right to Counsel | Waythrough",
-    "description": "St. Louis MO 2026: SLHA HCV cerrada (314-531-4770) pero lista Solo Personas Mayores abierta todo el año. HELP-STL Right to Counsel contra desalojo (314-657-1671), ERA de la Ciudad.",
+    "description": "St. Louis MO 2026: SLHA HCV cerrada (314-531-4770) pero lista Solo Personas Mayores abierta todo el año. HELP-STL Right to Counsel contra desalojo (314-657-1671), 211 para la renta.",
     "url": "/es/recursos/ciudades/st-louis",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en la Ciudad de St. Louis y el Condado de St. Louis — no consejos genéricos sobre Sección 8. Dos cosas para saber: la Ciudad de St. Louis tiene un programa de Right to Counsel (HELP-STL) que provee rep"
@@ -3997,6 +3997,13 @@
     "body": "Emergency Rent & Eviction Help in Charlotte | Waythrough Home / Resources / Emergency Rent Help in Charlotte How-To Guide Emergency Rent Help in Charlotte: Crisis Assistance Ministry, Free Eviction Lawyers, and the 10-Day Demand Matt · Updated October 2026 If you rent in Charlotte or anywhere in Mec"
   },
   {
+    "title": "Emergency Rent & Eviction Help in St. Louis | Waythrough",
+    "description": "St. Louis rent and eviction help, door by door: HELP-STL free eviction lawyers, Legal Services of Eastern Missouri, 211, and Missouri's fast rent-and-possession clock.",
+    "url": "/resources/guides/emergency-rent-help-st-louis",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in St. Louis | Waythrough Home / Resources / Emergency Rent Help in St. Louis How-To Guide Emergency Rent Help in St. Louis: Free Eviction Lawyers, 211, and Missouri's Rent-and-Possession Clock Matt · Updated October 2026 If you rent in St. Louis and you are behind, he"
+  },
+  {
     "title": "Boston Housing Authority: estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
     "description": "Boston Housing Authority en Boston, MA: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (617) 988-4000, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4303,5 +4310,12 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-charlotte",
     "category": "Guías",
     "body": "Si usted alquila en Charlotte o en cualquier parte del Condado de Mecklenburg y se atrasó con la renta, la Ciudad y el Condado lo mandan a la misma puerta: Crisis Assistance Ministry , en Spratt Street. El Departamento de Servicios Sociales del Condado tiene un contrato con esta organización para re"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en St. Louis | Waythrough",
+    "description": "Ayuda con la renta y el desalojo en St. Louis: abogados gratis de HELP-STL, Legal Services of Eastern Missouri, el 211 y los plazos rápidos de Missouri.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-st-louis",
+    "category": "Guías",
+    "body": "Si usted alquila en St. Louis y se atrasó con la renta, esta es la situación real. La Ciudad de St. Louis no tiene un fondo de renta abierto en este momento: su última ronda de Asistencia de Renta de Emergencia (ERA 3) cerró las solicitudes el 16 de diciembre de 2024. Lo que sí tiene la Ciudad es fu"
   }
 ]

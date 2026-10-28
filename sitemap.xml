@@ -555,7 +555,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/st-louis</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -651,7 +651,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1041,7 +1041,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/free-legal-help-for-tenants</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1054,6 +1054,12 @@
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-charlotte</loc>
     <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-st-louis</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2320,7 +2326,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/st-louis</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2704,7 +2710,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3052,7 +3058,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/ayuda-legal-gratuita-inquilinos</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3065,6 +3071,12 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-charlotte</loc>
     <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-st-louis</loc>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
