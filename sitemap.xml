@@ -291,7 +291,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/albuquerque</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -369,13 +369,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/el-paso</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/fort-worth</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1029,13 +1029,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-albuquerque</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-el-paso</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1089,7 +1089,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1239,7 +1239,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/albuquerque-aha</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1689,7 +1689,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/tools/section-8-tracker</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1828,7 +1828,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/blog/</loc>
-    <lastmod>2026-05-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2056,7 +2056,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/albuquerque</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2134,13 +2134,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/el-paso</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/fort-worth</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3040,13 +3040,13 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-albuquerque</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-el-paso</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3118,7 +3118,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/herramientas/rastreador-section-8</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3371,10 +3371,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/sesion-informativa-section-8-que-esperar</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
   <!-- Spanish housing-authority directory (ES parity batch) -->
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3524,7 +3530,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/albuquerque-aha</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3565,5 +3571,5 @@
   <url><loc>https://waythroughproject.com/blog/posts/family-self-sufficiency-program</loc><lastmod>2026-09-23</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/emergency-rental-assistance-programs</loc><lastmod>2026-09-30</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/section-8-and-roommates</loc><lastmod>2026-10-15</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://waythroughproject.com/blog/posts/what-happens-at-section-8-briefing</loc><lastmod>2026-10-21</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/what-happens-at-section-8-briefing</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>

@@ -319,7 +319,7 @@
     "description": "Got a Section 8 briefing letter? Here is what happens at the voucher briefing, what to bring, what to ask, and the three numbers you must leave with.",
     "url": "/blog/posts/what-happens-at-section-8-briefing",
     "category": "Blog",
-    "body": "Section 8 Briefing: What to Expect and Bring | Waythrough Home / Blog / Section 8 Briefing Blog Your Section 8 Briefing: What to Expect and What to Bring Matt &middot; October 21, 2026 &middot; 6 min read A Section 8 briefing is the meeting where your housing authority (PHA) explains how the voucher"
+    "body": "Section 8 Briefing: What to Expect and Bring | Waythrough Home / Blog / Section 8 Briefing Blog Your Section 8 Briefing: What to Expect and What to Bring Matt &middot; October 21, 2026 &middot; Updated October 28, 2026 &middot; 6 min read A Section 8 briefing is the meeting where your housing author"
   },
   {
     "title": "Waythrough Project en Español — Guías de Vivienda",
@@ -498,7 +498,7 @@
   },
   {
     "title": "Albuquerque, NM Affordable Housing 2026: AHA Section 8 Window, Rent Help | Waythrough",
-    "description": "Albuquerque NM 2026: AHA Section 8 pre-applications Oct 16 to Nov 15, public housing open to Oct 31. City of ABQ Emergency Rental & Utility Assistance, Gateway West shelter, Joy Junction, NM 3-day notice rules.",
+    "description": "Albuquerque NM 2026: AHA Section 8 pre-apps only Oct 16 to Nov 15; public housing only Oct 5 to 31. City of ABQ Emergency Rental & Utility Assistance, Gateway West shelter, Joy Junction, NM 3-day notice rules.",
     "url": "/resources/cities/albuquerque",
     "category": "City",
     "body": "Albuquerque, NM Affordable Housing 2026: AHA Section 8 Window, Rent Help | Waythrough Home / Resources / Albuquerque Housing City Resources Affordable Housing in Albuquerque, NM Waythrough Project · Updated October 2026 This page collects the specific programs, agencies, phone numbers, and rules tha"
@@ -596,7 +596,7 @@
   },
   {
     "title": "Fort Worth Section 8, Rent Help & Eviction Rules (2026)",
-    "description": "FWHS isn't taking Section 8 applications; a PBV list opens Nov 1–5, 2026 at 3 properties. City rent aid is out of funds. Where Fort Worth renters can go now.",
+    "description": "FWHS isn't taking Section 8 applications; a PBV list at 3 properties takes applications only Nov 1–5, 2026. City rent aid is out of funds. Where Fort Worth renters can go now.",
     "url": "/resources/cities/fort-worth",
     "category": "City",
     "body": "Fort Worth Section 8, Rent Help & Eviction Rules (2026) Home / Resources / Fort Worth Housing City Resources Affordable Housing & Rent Help in Fort Worth, TX Waythrough Project · Updated October 2026 What a Fort Worth renter needs to know, checked on the official sites on October 15, 2026 : Section "
@@ -2303,6 +2303,13 @@
     "body": "Sí, puede tener un compañero de cuarto con la Sección 8 — pero su PHA lo tiene que aprobar y debe aparecer en su voucher como miembro del hogar. Un ocupante no autorizado (alguien que vive con usted y no está en su voucher) es una violación grave del programa que puede llevar a la terminación. HUD n"
   },
   {
+    "title": "Su sesión informativa de la Sección 8: qué esperar y qué llevar | Waythrough",
+    "description": "¿Recibió una carta para la sesión informativa de la Sección 8? Qué pasa en la reunión, qué llevar, qué preguntar y los tres datos que no puede olvidar anotar.",
+    "url": "/es/blog/posts/sesion-informativa-section-8-que-esperar",
+    "category": "Blog",
+    "body": "La sesión informativa de la Sección 8 (en inglés, “briefing”) es la reunión en la que su autoridad de vivienda (PHA) le explica cómo funciona el programa de vouchers y lo prepara para recibir su voucher. HUD dice que usted tiene que asistir a esta sesión antes de que le entreguen el voucher. Calcule"
+  },
+  {
     "title": "David: Luchando por Adaptaciones | Waythrough",
     "description": "Un usuario de silla de ruedas insistió en adaptaciones razonables y se negó a rendirse ante un propietario resistente. Historia de Waythrough Project.",
     "url": "/es/historias/david-adaptaciones-discapacidad",
@@ -2507,10 +2514,10 @@
   },
   {
     "title": "Vivienda asequible en Albuquerque, NM: ventana de Sección 8 de AHA y ayuda con la renta | Waythrough",
-    "description": "Albuquerque NM 2026: presolicitudes de Sección 8 de AHA del 16 oct al 15 nov, vivienda pública abierta hasta el 31 oct. Asistencia de Emergencia con la Renta y los Servicios de la Ciudad de ABQ, refugio Gateway West, Joy Junction.",
+    "description": "Albuquerque NM 2026: presolicitudes de Sección 8 de AHA solo del 16 oct al 15 nov; vivienda pública solo del 5 al 31 oct. Asistencia de Emergencia con la Renta y los Servicios de la Ciudad de ABQ, refugio Gateway West, Joy Junction.",
     "url": "/es/recursos/ciudades/albuquerque",
     "category": "Recursos de Ciudades",
-    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Albuquerque y el Condado de Bernalillo — no consejos genéricos sobre Sección 8. AHA anuncia un periodo de presolicitudes de Sección 8 del 16 de octubre al 15 de noviembre de 2026, y su lista de vivi"
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Albuquerque y el Condado de Bernalillo — no consejos genéricos sobre Sección 8. AHA recibe presolicitudes de Sección 8 solo del 16 de octubre al 15 de noviembre de 2026, y de vivienda pública solo d"
   },
   {
     "title": "Vivienda asequible en Atlanta, GA: Atlanta Housing, HOPE Atlanta, Legal Aid | Waythrough",
@@ -2605,10 +2612,10 @@
   },
   {
     "title": "Fort Worth: Sección 8, ayuda con la renta y desalojos (2026)",
-    "description": "FWHS no acepta solicitudes de Sección 8; una lista PBV abre del 1 al 5 de nov. de 2026. La ayuda de renta municipal no tiene fondos. Dónde ir en Fort Worth.",
+    "description": "FWHS no acepta solicitudes de Sección 8; una lista PBV recibe solicitudes solo del 1 al 5 de nov. de 2026. La ayuda de renta municipal no tiene fondos. Dónde ir en Fort Worth.",
     "url": "/es/recursos/ciudades/fort-worth",
     "category": "Recursos de Ciudades",
-    "body": "Lo que un inquilino de Fort Worth necesita saber, verificado en los sitios oficiales el 15 de octubre de 2026 : Sección 8: Fort Worth Housing Solutions (FWHS) dice que no está aceptando solicitudes para su lista de espera de cupones (\"FWHS is not currently accepting Wait List applications\"). Próxima"
+    "body": "Lo que un inquilino de Fort Worth necesita saber, verificado en los sitios oficiales el 15 de octubre de 2026 : Sección 8: Fort Worth Housing Solutions (FWHS) dice que no está aceptando solicitudes para su lista de espera de cupones (\"FWHS is not currently accepting Wait List applications\"). Ventana"
   },
   {
     "title": "Vivienda asequible en Fresno, CA: Fresno Housing, Poverello House, Marjaree Mason, AB 1482 | Waythrough",
@@ -4211,7 +4218,7 @@
     "description": "Albuquerque Housing Authority (AHA) en Albuquerque, NM: estado actual de la lista de espera de Sección 8 / Housing Choice Voucher, teléfono (505) 764-3920, programas que ofrece y cómo solicitar. Una guía independiente.",
     "url": "/es/recursos/autoridades-de-vivienda/albuquerque-aha",
     "category": "Guías",
-    "body": "Inicio / Recursos / Autoridades de Vivienda / AHA Autoridad de Vivienda Albuquerque Housing Authority (AHA) Sirve a Albuquerque, Nuevo México, y los vales de la Sección 8 también se usan en Rio Rancho y el condado de Bernalillo · Última verificación: 15 de octubre de 2026 Waythrough es un recurso in"
+    "body": "Inicio / Recursos / Autoridades de Vivienda / AHA Autoridad de Vivienda Albuquerque Housing Authority (AHA) Sirve a Albuquerque, Nuevo México, y los vales de la Sección 8 también se usan en Rio Rancho y el condado de Bernalillo · Última verificación: 28 de octubre de 2026 Waythrough es un recurso in"
   },
   {
     "title": "Atlanta Housing (Atlanta Housing Authority): estado de la lista de espera de Sección 8, contacto y cómo solicitar | Waythrough",
