@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Does Section 8 Check Your Credit? What PHAs and Landlords Look At</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-and-credit-scores</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-and-credit-scores</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Section 8 does not use your credit score to decide if you qualify, but landlords can. See what PHAs check, what landlords check, and how to get approved.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Your Section 8 Briefing: What to Expect and What to Bring</title>
