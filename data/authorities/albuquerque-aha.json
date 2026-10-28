@@ -12,8 +12,8 @@
   "apply_url": "https://abqha.org/how-to-apply/",
   "city_slug": "albuquerque",
   "state_slug": "new-mexico",
-  "updated": "October 15, 2026",
-  "intro": "The Albuquerque Housing Authority is the public housing agency for the City of Albuquerque. HUD lists it as PHA NM001, under the name City of Albuquerque Housing Authority, with a program type of Combined, so it runs both Section 8 Housing Choice Vouchers and public housing, from one office at 1840 University Blvd SE. This month is unusual. AHA's How to Apply page, updated October 15, 2026, lists a Section 8 pre-application window of October 16 through November 15, 2026, and a public housing window that is already running, October 5 through October 31, 2026. Both are online only. This page covers what each window means, the annual Section 8 lottery that wipes the pool every year, the points system that orders the public housing list, and the two project-based properties taking applications today.",
+  "updated": "October 28, 2026",
+  "intro": "The Albuquerque Housing Authority is the public housing agency for the City of Albuquerque. HUD lists it as PHA NM001, under the name City of Albuquerque Housing Authority, with a program type of Combined, so it runs both Section 8 Housing Choice Vouchers and public housing, from one office at 1840 University Blvd SE. AHA has two short windows this fall, both online only. Public housing pre-applications are accepted only October 5 through October 31, 2026; after October 31, that list is closed. Section 8 pre-applications are accepted only October 16 through November 15, 2026; after November 15, that window is closed. AHA's How to Apply page said OPEN for both when we checked on October 28, 2026. This page covers what each window means, the annual Section 8 lottery that wipes the pool every year, the points system that orders the public housing list, and the two project-based properties AHA listed as taking applications on October 15, 2026.",
   "programs": [
     "Housing Choice Voucher (Section 8), which AHA says helps over 4,000 Albuquerque households",
     "Public Housing: about 950 AHA-owned units, including 373 designated for elderly and disabled residents",
@@ -24,34 +24,34 @@
   "waitlists": [
     {
       "program": "Housing Choice Voucher (Section 8)",
-      "status": "Pre-application window listed for October 16 to November 15, 2026",
-      "note": "Checked October 15, 2026. AHA's How to Apply page reads: \"Section 8 Housing Choice Voucher (HCV) OPEN October 16, 2026 through November 15, 2026.\" On the day we checked, the window had not started yet and the page carried apply buttons only for public housing and project-based vouchers, so look for the Section 8 link on that page from October 16. AHA says \"Pre-applications will be taken ONLINE ONLY\" and \"Walk-ins will not be accepted.\" This is a lottery, not a line: AHA's Section 8 Administrative Plan says \"Applicants will be placed on the waiting list using a lottery system,\" and that \"On an annual basis, the Housing Choice Voucher program's application pool and waiting list are purged.\" The earlier windows AHA's document library records ran in June 2021, September 2022, June 2023, and July 15 to August 15, 2024."
+      "status": "Pre-applications only October 16 through November 15, 2026; closed after November 15",
+      "note": "Checked October 28, 2026. AHA's How to Apply page reads: \"Section 8 Housing Choice Voucher (HCV) OPEN October 16, 2026 through November 15, 2026.\" November 15, 2026 is the last day of this window; after that, the window is closed, and AHA's How to Apply page is where the next one will be posted. AHA says \"Pre-applications will be taken ONLINE ONLY\" and \"Walk-ins will not be accepted.\" This is a lottery, not a line: AHA's Section 8 Administrative Plan says \"Applicants will be placed on the waiting list using a lottery system,\" and that \"On an annual basis, the Housing Choice Voucher program's application pool and waiting list are purged.\" The earlier windows AHA's document library records ran in June 2021, September 2022, June 2023, and July 15 to August 15, 2024."
     },
     {
       "program": "Public Housing",
-      "status": "Open October 5 to October 31, 2026",
-      "note": "Checked October 15, 2026. The How to Apply page reads: \"Public Housing Units OPEN October 5, 2026 through October 31, 2026,\" with the apply button pointing to AHA's online portal at myhousing.abqha.org. AHA keeps one community-wide public housing list, not separate lists by site, and orders it by preference points and then by the date and time your complete application is received."
+      "status": "Pre-applications only October 5 through October 31, 2026; closed after October 31",
+      "note": "Checked October 28, 2026. The How to Apply page reads: \"Public Housing Units OPEN October 5, 2026 through October 31, 2026.\" October 31, 2026 is the last day; after that, this list is closed until AHA posts a new window. During the window, the apply button pointed to AHA's online portal at myhousing.abqha.org. AHA keeps one community-wide public housing list, not separate lists by site, and orders it by preference points and then by the date and time your complete application is received."
     },
     {
       "program": "Project-Based Vouchers (PBV)",
       "status": "Accepting pre-applications at two properties",
-      "note": "AHA's How to Apply page lists \"Project Based Voucher (PBV) Program OPEN Until Further Notice.\" As of October 15, 2026, its PBV page named two properties taking applications: Felician 2, 1325 Stephanie Rd SE in Rio Rancho, one and two bedrooms, for households with at least one member age 55 or older, with a preference for active military and veterans; and Casitas de Camino, 221 60th St NW, two to four bedrooms, with a preference for veterans and households with children. The same page listed 18 other PBV properties that are \"not currently taking applications.\" A PBV is tied to the unit and does not move with you."
+      "note": "AHA's How to Apply page lists \"Project Based Voucher (PBV) Program OPEN Until Further Notice\" (checked October 28, 2026). As of October 15, 2026, its PBV page named two properties taking applications: Felician 2, 1325 Stephanie Rd SE in Rio Rancho, one and two bedrooms, for households with at least one member age 55 or older, with a preference for active military and veterans; and Casitas de Camino, 221 60th St NW, two to four bedrooms, with a preference for veterans and households with children. The same page listed 18 other PBV properties that are \"not currently taking applications.\" A PBV is tied to the unit and does not move with you."
     },
     {
       "program": "Affordable Housing Units",
       "status": "Closed",
-      "note": "The How to Apply page reads: \"Affordable Housing Units CLOSED Until Further Notice.\""
+      "note": "The How to Apply page reads: \"Affordable Housing Units CLOSED Until Further Notice\" (checked October 28, 2026)."
     }
   ],
   "also_serving": [
     "<strong>Bernalillo County Housing Department</strong> is a separate agency for the county. HUD lists it as NM057, program type Combined, at 2400 Wellesley Dr. NE, Albuquerque, NM 87107, phone (505) 314-0200. Its own site did not load for us, so confirm the number there before you rely on it.",
-    "<strong>Rio Rancho</strong> has no housing authority of its own in HUD's New Mexico list. AHA's 2024 Section 8 announcement says its voucher program serves households in \"Albuquerque, Rio Rancho and Bernalillo County,\" and one of the two PBV properties open today, Felician 2, is in Rio Rancho.",
+    "<strong>Rio Rancho</strong> has no housing authority of its own in HUD's New Mexico list. AHA's 2024 Section 8 announcement says its voucher program serves households in \"Albuquerque, Rio Rancho and Bernalillo County,\" and one of the two PBV properties AHA listed as taking applications on October 15, 2026, Felician 2, is in Rio Rancho.",
     "<strong>AHA does not pay emergency rent.</strong> If you are behind, our <a href=\"../guides/emergency-rent-help-albuquerque\">guide to emergency rent help in Albuquerque</a> covers the City's Emergency Rental &amp; Utility Assistance Program and its four Health &amp; Social Service Centers, Catholic Charities, motel vouchers and shelter, free eviction lawyers, and New Mexico's 3-day notice (checked October 16, 2026)."
   ],
   "faqs": [
     {
       "q": "Is the Albuquerque Section 8 waiting list open?",
-      "a": "A window is scheduled. As of October 15, 2026, AHA's How to Apply page lists Section 8 Housing Choice Voucher pre-applications as \"OPEN October 16, 2026 through November 15, 2026.\" On the day we checked, the window had not started and there was no Section 8 apply button yet, only buttons for public housing and project-based vouchers. Pre-applications are online only, there is no paper form, and AHA says walk-ins will not be accepted. If the dates move, AHA's page is the source to trust, not this one."
+      "a": "Only from October 16 through November 15, 2026. AHA's How to Apply page lists Section 8 Housing Choice Voucher pre-applications as \"OPEN October 16, 2026 through November 15, 2026,\" and it still said OPEN when we checked on October 28, 2026. After November 15, 2026, this window is closed; watch AHA's How to Apply page or use its waiting list notification form to hear about the next one. Pre-applications are online only, there is no paper form, and AHA says walk-ins will not be accepted. If the dates move, AHA's page is the source to trust, not this one."
     },
     {
       "q": "How does the AHA Section 8 lottery work?",
@@ -59,7 +59,7 @@
     },
     {
       "q": "Can I apply for public housing in Albuquerque right now?",
-      "a": "Yes, until October 31, 2026. AHA's How to Apply page reads \"Public Housing Units OPEN October 5, 2026 through October 31, 2026,\" and the apply button goes to AHA's online portal, myhousing.abqha.org. AHA keeps a single community-wide public housing list. Within it, families are ranked by preference points and then by the date and time AHA receives the complete application, so finishing your application earlier in the window does matter here, unlike the Section 8 lottery."
+      "a": "Only through October 31, 2026. AHA's How to Apply page reads \"Public Housing Units OPEN October 5, 2026 through October 31, 2026\" (checked October 28, 2026), and pre-applications go through AHA's online portal, myhousing.abqha.org. After October 31, 2026, the public housing list is closed until AHA posts a new window. AHA keeps a single community-wide public housing list. Within it, families are ranked by preference points and then by the date and time AHA receives the complete application, so finishing your application earlier in the window does matter here, unlike the Section 8 lottery."
     },
     {
       "q": "Which preferences does AHA use?",
@@ -146,8 +146,8 @@
   ],
   "es": {
     "serves": "Albuquerque, Nuevo México, y los vales de la Sección 8 también se usan en Rio Rancho y el condado de Bernalillo",
-    "updated": "15 de octubre de 2026",
-    "intro": "La Albuquerque Housing Authority es la agencia de vivienda pública de la ciudad de Albuquerque. HUD la registra como la PHA NM001, con el nombre City of Albuquerque Housing Authority y un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, desde una sola oficina en 1840 University Blvd SE. Este mes es poco común. La página How to Apply de AHA, actualizada el 15 de octubre de 2026, anuncia un periodo de presolicitudes de la Sección 8 del 16 de octubre al 15 de noviembre de 2026, y un periodo de vivienda pública que ya está en curso, del 5 al 31 de octubre de 2026. Ambos son solo en línea. Esta página explica qué significa cada periodo, el sorteo anual de la Sección 8 que borra el grupo de solicitantes cada año, el sistema de puntos que ordena la lista de vivienda pública y las dos propiedades con vales basados en proyectos que aceptan solicitudes hoy.",
+    "updated": "28 de octubre de 2026",
+    "intro": "La Albuquerque Housing Authority es la agencia de vivienda pública de la ciudad de Albuquerque. HUD la registra como la PHA NM001, con el nombre City of Albuquerque Housing Authority y un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, desde una sola oficina en 1840 University Blvd SE. AHA tiene dos periodos cortos este otoño, ambos solo en línea. Las presolicitudes de vivienda pública se aceptan solo del 5 al 31 de octubre de 2026; después del 31 de octubre, esa lista queda cerrada. Las presolicitudes de la Sección 8 se aceptan solo del 16 de octubre al 15 de noviembre de 2026; después del 15 de noviembre, ese periodo queda cerrado. La página How to Apply de AHA decía OPEN (abierto) para los dos cuando la revisamos el 28 de octubre de 2026. Esta página explica qué significa cada periodo, el sorteo anual de la Sección 8 que borra el grupo de solicitantes cada año, el sistema de puntos que ordena la lista de vivienda pública y las dos propiedades con vales basados en proyectos que, según AHA, aceptaban solicitudes el 15 de octubre de 2026.",
     "programs": [
       "Housing Choice Voucher (Sección 8), que según AHA ayuda a más de 4,000 hogares de Albuquerque",
       "Vivienda pública: unas 950 unidades propiedad de AHA, incluidas 373 destinadas a personas mayores y con discapacidad",
@@ -158,34 +158,34 @@
     "waitlists": [
       {
         "program": "Housing Choice Voucher (Sección 8)",
-        "status": "Periodo de presolicitudes anunciado del 16 de octubre al 15 de noviembre de 2026",
-        "note": "Verificado el 15 de octubre de 2026. La página How to Apply de AHA dice: \"Section 8 Housing Choice Voucher (HCV) OPEN October 16, 2026 through November 15, 2026\" (presolicitudes de la Sección 8 abiertas del 16 de octubre al 15 de noviembre de 2026). El día que revisamos, el periodo todavía no había comenzado y la página solo tenía botones para solicitar vivienda pública y vales basados en proyectos, así que busque el enlace de la Sección 8 en esa página a partir del 16 de octubre. AHA dice \"Pre-applications will be taken ONLINE ONLY\" (las presolicitudes se reciben solo en línea) y \"Walk-ins will not be accepted\" (no se atiende sin cita). Es un sorteo, no una fila: el Plan Administrativo de la Sección 8 de AHA dice \"Applicants will be placed on the waiting list using a lottery system\" (los solicitantes se colocan en la lista mediante un sistema de sorteo) y que \"On an annual basis, the Housing Choice Voucher program's application pool and waiting list are purged\" (cada año se depuran el grupo de solicitudes y la lista de espera). Los periodos anteriores que registra la biblioteca de documentos de AHA fueron en junio de 2021, septiembre de 2022, junio de 2023 y del 15 de julio al 15 de agosto de 2024."
+        "status": "Presolicitudes solo del 16 de octubre al 15 de noviembre de 2026; cerrado después del 15 de noviembre",
+        "note": "Verificado el 28 de octubre de 2026. La página How to Apply de AHA dice: \"Section 8 Housing Choice Voucher (HCV) OPEN October 16, 2026 through November 15, 2026\" (presolicitudes de la Sección 8 abiertas del 16 de octubre al 15 de noviembre de 2026). El 15 de noviembre de 2026 es el último día de este periodo; después, el periodo queda cerrado, y la página How to Apply de AHA es donde se publicará el siguiente. AHA dice \"Pre-applications will be taken ONLINE ONLY\" (las presolicitudes se reciben solo en línea) y \"Walk-ins will not be accepted\" (no se atiende sin cita). Es un sorteo, no una fila: el Plan Administrativo de la Sección 8 de AHA dice \"Applicants will be placed on the waiting list using a lottery system\" (los solicitantes se colocan en la lista mediante un sistema de sorteo) y que \"On an annual basis, the Housing Choice Voucher program's application pool and waiting list are purged\" (cada año se depuran el grupo de solicitudes y la lista de espera). Los periodos anteriores que registra la biblioteca de documentos de AHA fueron en junio de 2021, septiembre de 2022, junio de 2023 y del 15 de julio al 15 de agosto de 2024."
       },
       {
         "program": "Vivienda pública",
-        "status": "Abierta del 5 al 31 de octubre de 2026",
-        "note": "Verificado el 15 de octubre de 2026. La página How to Apply dice: \"Public Housing Units OPEN October 5, 2026 through October 31, 2026\" (unidades de vivienda pública abiertas del 5 al 31 de octubre de 2026), y el botón para solicitar lleva al portal en línea de AHA, myhousing.abqha.org. AHA mantiene una sola lista de vivienda pública para toda la comunidad, no listas separadas por propiedad, y la ordena por puntos de preferencia y luego por la fecha y hora en que recibe su solicitud completa."
+        "status": "Presolicitudes solo del 5 al 31 de octubre de 2026; cerrada después del 31 de octubre",
+        "note": "Verificado el 28 de octubre de 2026. La página How to Apply dice: \"Public Housing Units OPEN October 5, 2026 through October 31, 2026\" (unidades de vivienda pública abiertas del 5 al 31 de octubre de 2026). El 31 de octubre de 2026 es el último día; después, esta lista queda cerrada hasta que AHA publique un nuevo periodo. Durante el periodo, el botón para solicitar llevaba al portal en línea de AHA, myhousing.abqha.org. AHA mantiene una sola lista de vivienda pública para toda la comunidad, no listas separadas por propiedad, y la ordena por puntos de preferencia y luego por la fecha y hora en que recibe su solicitud completa."
       },
       {
         "program": "Vales Basados en Proyectos (PBV)",
         "status": "Aceptan presolicitudes en dos propiedades",
-        "note": "La página How to Apply de AHA dice \"Project Based Voucher (PBV) Program OPEN Until Further Notice\" (el programa PBV está abierto hasta nuevo aviso). Al 15 de octubre de 2026, su página de PBV nombraba dos propiedades que aceptaban solicitudes: Felician 2, en 1325 Stephanie Rd SE, Rio Rancho, de una y dos recámaras, para hogares con al menos un integrante de 55 años o más, con preferencia para militares en servicio activo y veteranos; y Casitas de Camino, en 221 60th St NW, de dos a cuatro recámaras, con preferencia para veteranos y hogares con menores. La misma página enumeraba otras 18 propiedades con PBV que \"not currently taking applications\" (no están aceptando solicitudes). Un PBV está vinculado a la unidad y no se muda con usted."
+        "note": "La página How to Apply de AHA dice \"Project Based Voucher (PBV) Program OPEN Until Further Notice\" (el programa PBV está abierto hasta nuevo aviso) (verificado el 28 de octubre de 2026). Al 15 de octubre de 2026, su página de PBV nombraba dos propiedades que aceptaban solicitudes: Felician 2, en 1325 Stephanie Rd SE, Rio Rancho, de una y dos recámaras, para hogares con al menos un integrante de 55 años o más, con preferencia para militares en servicio activo y veteranos; y Casitas de Camino, en 221 60th St NW, de dos a cuatro recámaras, con preferencia para veteranos y hogares con menores. La misma página enumeraba otras 18 propiedades con PBV que \"not currently taking applications\" (no están aceptando solicitudes). Un PBV está vinculado a la unidad y no se muda con usted."
       },
       {
         "program": "Unidades de vivienda asequible",
         "status": "Cerrada",
-        "note": "La página How to Apply dice: \"Affordable Housing Units CLOSED Until Further Notice\" (unidades de vivienda asequible cerradas hasta nuevo aviso)."
+        "note": "La página How to Apply dice: \"Affordable Housing Units CLOSED Until Further Notice\" (unidades de vivienda asequible cerradas hasta nuevo aviso) (verificado el 28 de octubre de 2026)."
       }
     ],
     "also_serving": [
       "El <strong>Bernalillo County Housing Department</strong> es una agencia aparte para el condado. HUD la registra como NM057, con tipo de programa \"Combined\", en 2400 Wellesley Dr. NE, Albuquerque, NM 87107, teléfono (505) 314-0200. Su propio sitio no cargó cuando lo revisamos, así que confirme el número allí antes de confiar en él.",
-      "<strong>Rio Rancho</strong> no tiene una autoridad de vivienda propia en la lista de HUD para Nuevo México. El anuncio de la Sección 8 de AHA de 2024 dice que su programa de vales sirve a hogares en \"Albuquerque, Rio Rancho and Bernalillo County\", y una de las dos propiedades con PBV abiertas hoy, Felician 2, está en Rio Rancho.",
+      "<strong>Rio Rancho</strong> no tiene una autoridad de vivienda propia en la lista de HUD para Nuevo México. El anuncio de la Sección 8 de AHA de 2024 dice que su programa de vales sirve a hogares en \"Albuquerque, Rio Rancho and Bernalillo County\", y una de las dos propiedades con PBV que, según AHA, aceptaban solicitudes el 15 de octubre de 2026, Felician 2, está en Rio Rancho.",
       "<strong>AHA no paga renta de emergencia.</strong> Si está atrasado, nuestra <a href=\"../guias/asistencia-renta-emergencia-albuquerque\">guía de ayuda con la renta en Albuquerque</a> explica el Programa de Asistencia de Emergencia con la Renta y los Servicios de la Ciudad y sus cuatro Centros de Salud y Servicios Sociales, Catholic Charities, los vales de motel y los refugios, los abogados gratis y el aviso de 3 días de Nuevo México (verificado el 16 de octubre de 2026)."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 en Albuquerque?",
-        "a": "Hay un periodo programado. Al 15 de octubre de 2026, la página How to Apply de AHA anuncia las presolicitudes de Housing Choice Voucher como \"OPEN October 16, 2026 through November 15, 2026\" (abiertas del 16 de octubre al 15 de noviembre de 2026). El día que revisamos, el periodo no había comenzado y todavía no había un botón para solicitar la Sección 8, solo para vivienda pública y vales basados en proyectos. Las presolicitudes son solo en línea, no hay formulario en papel y AHA dice que no atiende sin cita. Si las fechas cambian, la fuente confiable es la página de AHA, no esta."
+        "a": "Solo del 16 de octubre al 15 de noviembre de 2026. La página How to Apply de AHA anuncia las presolicitudes de Housing Choice Voucher como \"OPEN October 16, 2026 through November 15, 2026\" (abiertas del 16 de octubre al 15 de noviembre de 2026), y todavía decía OPEN (abierto) cuando la revisamos el 28 de octubre de 2026. Después del 15 de noviembre de 2026, este periodo queda cerrado; revise la página How to Apply de AHA o use su formulario de aviso de lista de espera para enterarse del siguiente. Las presolicitudes son solo en línea, no hay formulario en papel y AHA dice que no atiende sin cita. Si las fechas cambian, la fuente confiable es la página de AHA, no esta."
       },
       {
         "q": "¿Cómo funciona el sorteo de la Sección 8 de AHA?",
@@ -193,7 +193,7 @@
       },
       {
         "q": "¿Puedo solicitar vivienda pública en Albuquerque ahora mismo?",
-        "a": "Sí, hasta el 31 de octubre de 2026. La página How to Apply de AHA dice \"Public Housing Units OPEN October 5, 2026 through October 31, 2026\" (abierta del 5 al 31 de octubre de 2026), y el botón lleva al portal en línea de AHA, myhousing.abqha.org. AHA mantiene una sola lista de vivienda pública para toda la comunidad. Dentro de ella, las familias se ordenan por puntos de preferencia y luego por la fecha y hora en que AHA recibe la solicitud completa, así que aquí sí importa terminar su solicitud más temprano dentro del periodo, a diferencia del sorteo de la Sección 8."
+        "a": "Solo hasta el 31 de octubre de 2026. La página How to Apply de AHA dice \"Public Housing Units OPEN October 5, 2026 through October 31, 2026\" (abierta del 5 al 31 de octubre de 2026) (verificado el 28 de octubre de 2026), y las presolicitudes se hacen en el portal en línea de AHA, myhousing.abqha.org. Después del 31 de octubre de 2026, la lista de vivienda pública queda cerrada hasta que AHA publique un nuevo periodo. AHA mantiene una sola lista de vivienda pública para toda la comunidad. Dentro de ella, las familias se ordenan por puntos de preferencia y luego por la fecha y hora en que AHA recibe la solicitud completa, así que aquí sí importa terminar su solicitud más temprano dentro del periodo, a diferencia del sorteo de la Sección 8."
       },
       {
         "q": "¿Qué preferencias usa AHA?",
