@@ -47,9 +47,23 @@ def violations(html):
     out = {}
     for w in ES_REDFLAGS:
         n = len(re.findall(r"\b" + w + r"\b", text, re.IGNORECASE))
+        n -= len(_exempt(w, text))
         if n:
             out[w] = n
     return out
+
+
+# The two documented false positives, recognised instead of eyeballed:
+#  - "Division" as part of an English proper noun: a capitalised word right before or after it
+#    ("Salvation Army Midland Division", "Division Circle"). Lowercase "division" in prose still fails.
+#  - "limite"/"limites" as the subjunctive VERB right after te/se/que/no
+#    ("no te limites", "que limite"). The noun ("el limite", "los limites") still fails.
+def _exempt(word, text):
+    if word == "division":
+        return re.findall(r"\b[A-Z][A-Za-z.]*\s+Division\b|\bDivision\s+(?=[A-Z])", text)
+    if word in ("limite", "limites"):
+        return re.findall(r"\b(?:te|se|que|no)\s+" + word + r"\b", text, re.IGNORECASE)
+    return []
 
 
 def main():
