@@ -557,7 +557,7 @@
     "description": "Cleveland OH 2026: Cuyahoga CMHA Section 8 waitlist is always open (15,994 vouchers). Free Right to Counsel lawyers for families, 2100 Lakeside, Norma Herr.",
     "url": "/resources/cities/cleveland",
     "category": "City",
-    "body": "Cleveland, OH Section 8 Waitlist Open 2026 | Waythrough Home / Resources / Cleveland Housing City Resources Affordable Housing in Cleveland, OH Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Cleveland and Cuyahog"
+    "body": "Cleveland, OH Section 8 Waitlist Open 2026 | Waythrough Home / Resources / Cleveland Housing City Resources Affordable Housing in Cleveland, OH Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Cleveland and Cuyahoga"
   },
   {
     "title": "Colorado Springs, CO Section 8 & Rent Help | Waythrough",
@@ -641,7 +641,7 @@
     "description": "Kansas City MO 2026: HAKC posts no waitlist status; 3822 Summit St, (816) 968-4100. KC Tenants Bill of Rights, KC Eviction Defense Project, reStart shelter.",
     "url": "/resources/cities/kansas-city",
     "category": "City",
-    "body": "Kansas City, MO Section 8 & Rent Help 2026 | Waythrough Home / Resources / Kansas City Housing City Resources Affordable Housing in Kansas City, MO Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Kansas City, Miss"
+    "body": "Kansas City, MO Section 8 & Rent Help 2026 | Waythrough Home / Resources / Kansas City Housing City Resources Affordable Housing in Kansas City, MO Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Kansas City, Misso"
   },
   {
     "title": "Las Vegas, NV Section 8 & Rent Help 2026 | Waythrough",
@@ -704,7 +704,7 @@
     "description": "Minneapolis MN 2026: MPHA Section 8 closed (7,000+ HCVs). City and Wilson Foundation $6M rent help, Hennepin County $9.6M, 30-day pre-eviction notice rule.",
     "url": "/resources/cities/minneapolis",
     "category": "City",
-    "body": "Minneapolis, MN Section 8 & Rent Help 2026 | Waythrough Home / Resources / Minneapolis Housing City Resources Affordable Housing in Minneapolis, MN Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Minneapolis and H"
+    "body": "Minneapolis, MN Section 8 & Rent Help 2026 | Waythrough Home / Resources / Minneapolis Housing City Resources Affordable Housing in Minneapolis, MN Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Minneapolis and He"
   },
   {
     "title": "Nashville, TN Section 8 & Rent Help 2026 | Waythrough",
@@ -1149,7 +1149,7 @@
   },
   {
     "title": "What Does PHA Stand For? Find Your Public Housing Authority",
-    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 35 authorities or on HUD’s list.",
+    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 41 authorities or on HUD’s list.",
     "url": "/resources/guides/how-to-find-your-pha",
     "category": "Guide",
     "body": "What Does PHA Stand For? Find Your Public Housing Authority Home / Resources / Find Your PHA How-To Guide What Does PHA Stand For? Find Your Local Public Housing Authority Matt · 6 min read PHA stands for Public Housing Authority — the local government agency that runs Section 8 Housing Choice Vouch"
@@ -2664,7 +2664,7 @@
     "description": "Kansas City MO 2026: HAKC no publica el estado de sus listas; 3822 Summit St, (816) 968-4100. Derechos de Inquilinos de KC, KC Eviction Defense Project.",
     "url": "/es/recursos/ciudades/kansas-city",
     "category": "Recursos de Ciudades",
-    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Kansas City, Missouri y el Condado de Jackson — no consejos genéricos sobre Sección 8. Dos cosas para saber: la lista de HCV de HAKC cerró el 16 de marzo de 2026, pero sus listas de Voucher Basado e"
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Kansas City, Missouri y el Condado de Jackson — no consejos genéricos sobre Sección 8. Dos cosas para saber: HAKC no publica si alguna de sus listas de espera está abierta o cerrada (recibe una sola"
   },
   {
     "title": "Sección 8 y ayuda con la renta en Las Vegas, NV | Waythrough",
@@ -4200,6 +4200,48 @@
     "body": "Santa Clara County Housing Authority Section 8 Waitlist Home / Resources / Housing Authorities / SCCHA Housing Authority Santa Clara County Housing Authority (SCCHA) Serves San José and all of Santa Clara County, California · Last checked November 3, 2026 Waythrough is an independent resource, not S"
   },
   {
+    "title": "HABC Baltimore Section 8 Waitlist & How to Apply",
+    "description": "HABC (Housing Authority of Baltimore City): Section 8 and public housing waitlist status checked November 3, 2026, phone (410) 396-3232 and how to apply.",
+    "url": "/resources/housing-authorities/baltimore-habc",
+    "category": "Guide",
+    "body": "HABC Baltimore Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / HABC Housing Authority Housing Authority of Baltimore City (HABC) Serves Baltimore City, Maryland (not Baltimore County) · Last checked November 3, 2026 Waythrough is an independent resource, not HABC. We summa"
+  },
+  {
+    "title": "CMHA Cleveland Section 8 Waitlist & How to Apply",
+    "description": "Cuyahoga Metropolitan Housing Authority (CMHA Cleveland): Section 8 list open year-round, lottery picks, phones and how to apply. Checked Nov 3, 2026.",
+    "url": "/resources/housing-authorities/cleveland-cmha",
+    "category": "Guide",
+    "body": "CMHA Cleveland Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / CMHA Housing Authority Cuyahoga Metropolitan Housing Authority (CMHA) Serves Cleveland and Cuyahoga County, Ohio · Last checked November 3, 2026 Waythrough is an independent resource, not CMHA. We summarize pub"
+  },
+  {
+    "title": "Detroit Housing Commission Section 8 Waitlist & How to Apply",
+    "description": "Detroit Housing Commission in Detroit, MI: Section 8 waitlist status (checked November 3, 2026), phone (313) 877-8000, programs and how to apply.",
+    "url": "/resources/housing-authorities/detroit-dhc",
+    "category": "Guide",
+    "body": "Detroit Housing Commission Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / DHC Housing Authority Detroit Housing Commission (DHC) Serves Detroit, Michigan · Last checked November 3, 2026 Waythrough is an independent resource, not DHC. We summarize public information to hel"
+  },
+  {
+    "title": "HAKC Kansas City Section 8 Waitlist & How to Apply",
+    "description": "Housing Authority of Kansas City, Missouri (HAKC): Section 8 and public housing waitlist status, phone (816) 968-4100, how to apply. Checked Nov 3, 2026.",
+    "url": "/resources/housing-authorities/kansas-city-hakc",
+    "category": "Guide",
+    "body": "HAKC Kansas City Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / HAKC Housing Authority Housing Authority of Kansas City, Missouri (HAKC) Serves Kansas City, Missouri and Jackson County, with public housing in Jackson, Clay and Platte counties · Last checked November 3, 20"
+  },
+  {
+    "title": "MPHA Minneapolis Section 8 Waitlist & How to Apply",
+    "description": "Minneapolis Public Housing Authority (MPHA): Section 8 list closed, high-rise public housing lists open, phones and how to apply. Checked Nov 3, 2026.",
+    "url": "/resources/housing-authorities/minneapolis-mpha",
+    "category": "Guide",
+    "body": "MPHA Minneapolis Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / MPHA Housing Authority Minneapolis Public Housing Authority (MPHA) Serves the City of Minneapolis, Minnesota · Last checked November 3, 2026 Waythrough is an independent resource, not MPHA. We summarize publi"
+  },
+  {
+    "title": "DC Housing Authority Section 8 Waitlist & How to Apply",
+    "description": "DC Housing Authority in Washington, DC: Section 8 waitlist status (checked November 3, 2026), phone (202) 535-1000, programs and how to apply.",
+    "url": "/resources/housing-authorities/washington-dc-dcha",
+    "category": "Guide",
+    "body": "DC Housing Authority Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / DCHA Housing Authority District of Columbia Housing Authority (DCHA) Serves the District of Columbia · Last checked November 3, 2026 Waythrough is an independent resource, not DCHA. We summarize public in"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4695,5 +4737,47 @@
     "url": "/es/recursos/autoridades-de-vivienda/san-jose-sccha",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / SCCHA Autoridad de Vivienda Santa Clara County Housing Authority (SCCHA) Sirve a San José y todo el condado de Santa Clara, California · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es SCCHA. Resumimos informació"
+  },
+  {
+    "title": "Lista de espera Sección 8 de HABC Baltimore y cómo solicitar",
+    "description": "HABC (Housing Authority of Baltimore City): listas de Sección 8 y vivienda pública (verificadas el 3 de noviembre de 2026), teléfono (410) 396-3232.",
+    "url": "/es/recursos/autoridades-de-vivienda/baltimore-habc",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / HABC Autoridad de Vivienda Housing Authority of Baltimore City (HABC) Sirve a la ciudad de Baltimore, Maryland (no el condado de Baltimore) · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es HABC. Resumimos inform"
+  },
+  {
+    "title": "Lista de espera Sección 8 de CMHA Cleveland y cómo solicitar",
+    "description": "CMHA Cleveland (Cuyahoga Metropolitan Housing Authority): lista de Sección 8 abierta todo el año, sorteos, teléfonos y cómo solicitar. Verificado 3 nov 2026.",
+    "url": "/es/recursos/autoridades-de-vivienda/cleveland-cmha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / CMHA Autoridad de Vivienda Cuyahoga Metropolitan Housing Authority (CMHA) Sirve a Cleveland y el condado de Cuyahoga, Ohio · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es CMHA. Resumimos información pública par"
+  },
+  {
+    "title": "Detroit Housing Commission: lista de espera Sección 8",
+    "description": "Detroit Housing Commission en Detroit, MI: estado de la lista de espera de Sección 8, teléfono (313) 877-8000, programas y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/detroit-dhc",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / DHC Autoridad de Vivienda Detroit Housing Commission (DHC) Sirve a Detroit, Michigan · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es DHC. Resumimos información pública para ayudarle a orientarse. Para solicitud"
+  },
+  {
+    "title": "HAKC Kansas City: lista de espera Sección 8 y solicitud",
+    "description": "HAKC, Kansas City, Missouri: estado de las listas de Sección 8 y vivienda pública, teléfono (816) 968-4100 y cómo solicitar. Verificado el 3 de nov. de 2026.",
+    "url": "/es/recursos/autoridades-de-vivienda/kansas-city-hakc",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / HAKC Autoridad de Vivienda Housing Authority of Kansas City, Missouri (HAKC) Sirve a Kansas City, Missouri y el condado de Jackson, con vivienda pública en los condados de Jackson, Clay y Platte · Última verificación: 3 de noviembre de 2026 Waythrough es"
+  },
+  {
+    "title": "MPHA Minneapolis: lista de espera Sección 8 y solicitud",
+    "description": "MPHA, Minneapolis: Sección 8 cerrada, listas de vivienda pública en torres abiertas, teléfonos y cómo solicitar. Guía independiente. Verificado 3 nov 2026.",
+    "url": "/es/recursos/autoridades-de-vivienda/minneapolis-mpha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / MPHA Autoridad de Vivienda Minneapolis Public Housing Authority (MPHA) Sirve a la ciudad de Minneapolis, Minnesota · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es MPHA. Resumimos información pública para ayudar"
+  },
+  {
+    "title": "DC Housing Authority: lista de espera Sección 8 y solicitud",
+    "description": "DC Housing Authority en Washington, DC: estado de la lista de espera de Sección 8, teléfono (202) 535-1000, programas y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/washington-dc-dcha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / DCHA Autoridad de Vivienda District of Columbia Housing Authority (DCHA) Sirve a el Distrito de Columbia · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es DCHA. Resumimos información pública para ayudarle a orien"
   }
 ]
