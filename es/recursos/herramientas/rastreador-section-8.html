@@ -129,7 +129,7 @@
         .control-group select:focus, .control-group input:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-light); }
         .filter-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
         .filter-chip { padding: 0.4rem 1rem; border: 1px solid var(--color-border); border-radius: 20px; background: var(--color-bg); color: var(--color-text-light); cursor: pointer; font-size: 0.85rem; font-family: inherit; transition: all 0.2s; }
-        .filter-chip.active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
+        .filter-chip.active { background: var(--color-primary); color: var(--color-on-primary, #fff); border-color: var(--color-primary); }
         .filter-chip:hover:not(.active) { border-color: var(--color-primary); color: var(--color-primary); }
 
         /* Results */
@@ -165,7 +165,7 @@
         .tips-section h2 { font-family: 'Playfair Display', Georgia, serif; margin-bottom: 1.25rem; font-size: 1.3rem; }
         .tip-item { padding: 0.75rem 0; border-bottom: 1px solid var(--color-border-light, var(--color-border)); line-height: 1.6; }
         .tip-item:last-child { border-bottom: none; }
-        .tip-number { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; background: var(--color-primary); color: #fff; font-size: 0.75rem; font-weight: 600; margin-right: 0.5rem; flex-shrink: 0; }
+        .tip-number { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 50%; background: var(--color-primary); color: var(--color-on-primary, #fff); font-size: 0.75rem; font-weight: 600; margin-right: 0.5rem; flex-shrink: 0; }
 
         /* FAQ */
         .faq-section { margin-top: 2rem; }

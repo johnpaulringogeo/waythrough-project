@@ -66,7 +66,11 @@ function getPreferredTheme() {
 function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
 }
-// Apply theme immediately (before DOMContentLoaded) to avoid flash
+// Apply theme immediately (before DOMContentLoaded) to avoid flash.
+// style.css only hides .fade-in content once html[data-theme] exists (set by each page's inline
+// head script). If that script didn't run, the content has been showing all along, so setting the
+// attribute here must not suddenly hide it: .no-fade turns the fade off for this page view.
+if (!document.documentElement.hasAttribute('data-theme')) document.documentElement.classList.add('no-fade');
 applyTheme(getPreferredTheme());
 
 function toggleTheme() {
@@ -461,6 +465,11 @@ function renderNav() {
         if (searchOpen) closeSearch();
         else openSearch();
     });
+    // The index (~85KB gzipped) is fetched only when someone shows intent to search: hovering,
+    // focusing or touching the toggle, or opening the overlay (openSearch also loads it).
+    ['pointerenter', 'pointerdown', 'focus'].forEach(type => {
+        searchToggle.addEventListener(type, () => { loadSearchIndex(); }, { once: true, passive: true });
+    });
     searchClose.addEventListener('click', closeSearch);
     searchBackdrop.addEventListener('click', closeSearch);
 
@@ -472,6 +481,9 @@ function renderNav() {
     searchInput.addEventListener('input', () => {
         clearTimeout(searchDebounce);
         searchDebounce = setTimeout(async () => {
+            if (!searchIndex && searchInput.value.trim().length >= 2) {
+                document.getElementById('searchResults').innerHTML = '<div class="search-no-results">' + (isSpanish ? 'Cargando…' : 'Loading…') + '</div>';
+            }
             await loadSearchIndex();
             const query = searchInput.value;
             if (query.trim().length < 2) {
@@ -717,24 +729,116 @@ function addTableOfContents() {
 
     const toc = document.createElement('aside');
     toc.className = 'toc';
-    toc.setAttribute('aria-label', 'Table of contents');
-    const tocTitle = isSpanish ? 'En Esta Guía' : 'In This Guide';
-    let tocHTML = '<div class="toc-title">' + tocTitle + '</div><ol class="toc-list">';
+    toc.setAttribute('aria-label', isSpanish ? 'Tabla de contenido' : 'Table of contents');
+    const tocTitle = isSpanish ? 'En esta guía' : 'In this guide';
+    let items = '';
+    let count = 0;
     headings.forEach(h => {
         // Skip "Related Resources" heading
         if (/^(related resources|recursos relacionados)$/i.test(h.textContent.trim())) return;
-        tocHTML += '<li><a href="#' + h.id + '">' + escapeHTML(h.textContent.trim()) + '</a></li>';
+        items += '<li><a href="#' + h.id + '">' + escapeHTML(h.textContent.trim()) + '</a></li>';
+        count++;
     });
-    tocHTML += '</ol>';
-    toc.innerHTML = tocHTML;
+    // A <details>: expanded on desktop as before, collapsed to one 44px row on phones so it
+    // doesn't push the first door (apply link / phone number) half a screen down.
+    const open = window.matchMedia('(min-width: 769px)').matches ? ' open' : '';
+    toc.innerHTML = '<details class="toc-details"' + open + '><summary class="toc-title">' + tocTitle +
+        ' <span class="toc-count">(' + count + ')</span></summary><ol class="toc-list">' + items + '</ol></details>';
 
-    // Insert before the first paragraph
-    const firstP = content.querySelector('p');
-    if (firstP) {
-        firstP.after(toc);
+    // Insert after the first paragraph that is a direct child (never inside a callout such as the
+    // authority pages' disclaimer box), then past any callouts right after it, so a
+    // "Quick numbers" / "Quick Facts" box stays above the TOC.
+    let anchor = content.querySelector(':scope > p');
+    if (anchor) {
+        while (anchor.nextElementSibling && anchor.nextElementSibling.classList.contains('callout')) {
+            anchor = anchor.nextElementSibling;
+        }
+        anchor.after(toc);
     } else {
         content.prepend(toc);
     }
+}
+
+// ── Auto-link phone numbers (tap to call) ──
+// Rule: inside <main>, plain-text US phone numbers become tel: links; the visible text is unchanged.
+//  - 10-digit numbers with separators only: (555) 555-5555, 555-555-5555, 555.555.5555, an optional
+//    leading 1 / +1 (1-800-555-5555, 1 (800) 555-5555), and keypad letters ((833) 837-HOME ->
+//    tel:+18338374663). Area code and exchange must start with 2-9, a dashed/dotted number must use
+//    the same separator twice, and the number can't touch other letters/digits. So ZIPs, years,
+//    dates, dollar amounts, 7-digit fragments, statute and case numbers (RCW 59.18.057,
+//    2024-CV-001234) never match. A number labelled "fax" just before it is left alone.
+//  - 211 -> tel:211 only when it is clearly a phone reference: "2-1-1" with hyphens, or "211" right
+//    after call/dial/text/contact/llame/marque/llamando/línea (optionally "or text", "al", "el"),
+//    or right before "at"/"line"/"hotline". Never "Section 211", "211.org" or a date.
+//  - Skips text inside links, buttons, form fields, summary, code/pre/script/style and [data-no-tel].
+// The delegated click handler in initAnalyticsTracking() sends contact_click for these links too.
+const TEL_PHONE_RE = /(^|[^\w$#§@./-])((?:\+?1[-.\s]?)?(?:\(([2-9]\d\d)\)[  ]?|([2-9]\d\d)([-.]))([2-9A-Z][0-9A-Z]{2})([-.])([0-9A-Z]{4,7}))(?![\w-]|\.\d)/g;
+const TEL_211_RE = /(^|[^\w$#§@./-])(2-1-1|211)(?![\w-]|[.,]\d|\.[A-Za-z])/g;
+const TEL_211_BEFORE = /\b(?:call|dial|text|calling|dialing|contact|llame|llama|llamar|llamando|marque|marca|marcar|marcando|contacte|textee|l[ií]nea)(?:\s+(?:or|o)\s+(?:text|textee|env[ií]e un (?:mensaje de )?texto))?\s+(?:(?:al|el|a|to)\s+)?$/i;
+const TEL_211_AFTER = /^\s+(?:at|line|hotline|helpline)\b/i;
+const TEL_KEYPAD = { A: 2, B: 2, C: 2, D: 3, E: 3, F: 3, G: 4, H: 4, I: 4, J: 5, K: 5, L: 5, M: 6, N: 6, O: 6, P: 7, Q: 7, R: 7, S: 7, T: 8, U: 8, V: 8, W: 9, X: 9, Y: 9, Z: 9 };
+
+// Returns [{ start, end, tel }] for one string. `before` is the text that precedes it (for context).
+function findPhoneMatches(text, before) {
+    const found = [];
+    let m;
+    TEL_PHONE_RE.lastIndex = 0;
+    while ((m = TEL_PHONE_RE.exec(text))) {
+        const start = m.index + m[1].length;
+        const area = m[3] || m[4];
+        const last = m[8];
+        const ok = (!m[5] || m[5] === m[7]) &&           // 555-555.5555 is not a phone number
+            area.slice(1) !== '11' &&                     // N11 is never an area code
+            (/[A-Z]/.test(last) || last.length === 4) &&  // a digits-only last group is exactly 4
+            !/\bfax\b\D{0,12}$/i.test((before + text.slice(0, start)).slice(-20));
+        if (!ok) continue;
+        const digits = (area + m[6] + last).replace(/[A-Z]/g, c => TEL_KEYPAD[c]).slice(0, 10);
+        found.push({ start, end: start + m[2].length, tel: '+1' + digits });
+    }
+    TEL_211_RE.lastIndex = 0;
+    while ((m = TEL_211_RE.exec(text))) {
+        const start = m.index + m[1].length;
+        const end = start + m[2].length;
+        if (found.some(f => start < f.end && end > f.start)) continue;
+        if (m[2] === '211' && !TEL_211_BEFORE.test((before + text.slice(0, start)).slice(-60)) &&
+            !TEL_211_AFTER.test(text.slice(end))) continue;
+        found.push({ start, end, tel: '211' });
+    }
+    return found.sort((a, b) => a.start - b.start);
+}
+
+function linkifyPhones() {
+    const main = document.querySelector('main');
+    if (!main || !document.createTreeWalker) return;
+    const SKIP = 'a,button,script,style,code,pre,input,textarea,select,option,label,summary,svg,noscript,[contenteditable],[data-no-tel]';
+    const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+    const jobs = [];
+    let prev = '';
+    let node;
+    while ((node = walker.nextNode())) {
+        const text = node.data;
+        const before = prev;
+        prev = (prev + text).slice(-60);
+        if (!/\d/.test(text) || !node.parentElement || node.parentElement.closest(SKIP)) continue;
+        const matches = findPhoneMatches(text, before);
+        if (matches.length) jobs.push({ node, matches });
+    }
+    jobs.forEach(({ node, matches }) => {
+        const text = node.data;
+        const frag = document.createDocumentFragment();
+        let pos = 0;
+        matches.forEach(({ start, end, tel }) => {
+            if (start > pos) frag.appendChild(document.createTextNode(text.slice(pos, start)));
+            const a = document.createElement('a');
+            a.href = 'tel:' + tel;
+            a.className = 'tel-auto';
+            a.textContent = text.slice(start, end);
+            frag.appendChild(a);
+            pos = end;
+        });
+        if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+        node.parentNode.replaceChild(frag, node);
+    });
 }
 
 
@@ -814,8 +918,7 @@ function initAnalyticsTracking() {
 
 // ── Initialize shared behaviors ──
 function initShared() {
-    // Prefetch search index in background
-    loadSearchIndex();
+    // The search index is no longer prefetched on every page view; see the searchToggle listeners.
 
     // Navbar scroll shadow
     const nav = document.getElementById('nav');
@@ -849,6 +952,7 @@ function initShared() {
     renderBackToTop();
     addReadingTime();
     addTableOfContents();
+    linkifyPhones();
     initAnalyticsTracking();
 
     // Fix anchor scroll for fixed nav

@@ -23,6 +23,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     --color-primary: #2563eb;
     --color-primary-dark: #1d4ed8;
     --color-primary-light: #dbeafe;
+    --color-on-primary: #fff; /* text on a var(--color-primary) fill */
     --color-accent: #f59e0b;
     --color-text: #1a1a2e;
     --color-text-light: #4b5563;
@@ -56,6 +57,8 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     --color-primary: #60a5fa;
     --color-primary-dark: #93bbfd;
     --color-primary-light: #1e3a5f;
+    /* White on #60a5fa is 2.54:1; this near-black is 7.36:1 (AA needs 4.5). */
+    --color-on-primary: #0b1220;
     --color-accent: #fbbf24;
     --color-text: #e2e8f0;
     --color-text-light: #94a3b8;
@@ -98,7 +101,7 @@ h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; line-height: 1
     z-index: 10000;
     padding: 12px 24px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-on-primary);
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
@@ -207,10 +210,10 @@ select:focus-visible {
     cursor: pointer;
     transition: all 0.2s ease;
 }
-.btn-primary { background: var(--color-primary); color: #fff; }
+.btn-primary { background: var(--color-primary); color: var(--color-on-primary); }
 .btn-primary:hover { background: var(--color-primary-dark); }
 .btn-outline { background: transparent; color: var(--color-primary); border: 1.5px solid var(--color-primary); }
-.btn-outline:hover { background: var(--color-primary); color: #fff; }
+.btn-outline:hover { background: var(--color-primary); color: var(--color-on-primary); }
 .btn-sm { padding: 8px 16px; font-size: 0.85rem; }
 
 /* ===== NAVIGATION ===== */
@@ -288,9 +291,10 @@ select:focus-visible {
 }
 .mobile-nav.active { display: block; }
 .mobile-nav ul { list-style: none; }
-.mobile-nav li { padding: 12px 0; border-bottom: 1px solid var(--color-border-light); }
+.mobile-nav li { border-bottom: 1px solid var(--color-border-light); }
 .mobile-nav li:last-child { border-bottom: none; }
-.mobile-nav a { font-size: 0.95rem; font-weight: 500; color: var(--color-text); }
+/* The padding lives on the link (not the li) so the whole ~50px row is the tap target. */
+.mobile-nav a { display: block; padding: 12px 0; font-size: 0.95rem; font-weight: 500; color: var(--color-text); }
 
 /* ===== NAV ACTIONS (search + hamburger) ===== */
 .nav-actions {
@@ -489,7 +493,7 @@ select:focus-visible {
     color: var(--color-text-light);
     cursor: default;
 }
-.footer-social a:hover { background: var(--color-primary); color: #fff; }
+.footer-social a:hover { background: var(--color-primary); color: var(--color-on-primary); }
 .footer-social .social-link { opacity: 0.6; }
 .footer-social a svg,
 .footer-social .social-link svg { width: 16px; height: 16px; }
@@ -626,7 +630,7 @@ select:focus-visible {
 }
 .situation-link:hover {
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-on-primary);
 }
 [data-theme="dark"] .situation-link,
 [data-theme="dark"] .section-label {
@@ -734,7 +738,7 @@ select:focus-visible {
 }
 .quick-link:hover {
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-on-primary);
 }
 
 /* ===== BLOG SECTION (homepage) ===== */
@@ -1022,11 +1026,15 @@ select:focus-visible {
     align-items: center;
     gap: 16px;
 }
+/* padding-top only: .container's 24px side padding must still apply (main.container.post-content). */
 .post-content {
-    padding: 28px 0 0;
+    padding-top: 28px;
     max-width: 720px;
     overflow-wrap: break-word;
 }
+/* On main.container.post-content the 720px includes the 2x24px padding (border-box), so add it
+   back to keep the desktop text column 720px wide, as it was. */
+.container.post-content { max-width: calc(720px + 48px); }
 .post-content h2 {
     font-size: 1.4rem;
     margin: 40px 0 14px;
@@ -1061,6 +1069,8 @@ select:focus-visible {
     color: var(--color-text-light);
 }
 .post-content a { color: var(--color-primary); text-decoration: underline; }
+/* Phone numbers auto-linked by components.js (linkifyPhones): never break a number across lines. */
+a.tel-auto { white-space: nowrap; }
 .post-content a:visited { color: #7c4dcc; }
 [data-theme="dark"] .post-content a:visited { color: #b39ddb; }
 .post-content a:hover { color: var(--color-primary-dark); }
@@ -1183,7 +1193,7 @@ textarea {
 .cta-form button {
     padding: 10px 20px;
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-on-primary);
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 0.88rem;
@@ -1205,7 +1215,7 @@ textarea {
 
 /* ===== BREADCRUMBS ===== */
 .breadcrumbs {
-    padding: 80px 0 0;
+    padding-top: 80px; /* top only, so nav.breadcrumbs.container keeps its side padding */
     font-family: 'Inter', sans-serif;
     font-size: 0.8rem;
 }
@@ -1364,7 +1374,7 @@ textarea {
     background: var(--color-bg-soft);
     border: 1px solid var(--color-border);
     border-radius: var(--radius);
-    padding: 20px 24px;
+    padding: 8px 24px;
     margin: 24px 0 32px;
 }
 .toc-title {
@@ -1374,8 +1384,32 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-text);
-    margin-bottom: 12px;
 }
+/* The TOC is a <details>: open on desktop, collapsed on phones (components.js decides). */
+.toc-details > summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    cursor: pointer;
+    list-style: none;
+}
+.toc-details > summary::-webkit-details-marker { display: none; }
+.toc-details > summary::after {
+    content: '';
+    flex: 0 0 auto;
+    width: 8px;
+    height: 8px;
+    margin: 0 4px 4px auto;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+}
+.toc-details[open] > summary::after { transform: rotate(-135deg); margin-bottom: -4px; }
+.toc-details[open] { padding-bottom: 12px; }
+.toc-details[open] > .toc-list { margin-top: 4px; }
+.toc-count { font-weight: 500; color: var(--color-text-light); letter-spacing: 0; }
 .toc-list {
     list-style: none;
     counter-reset: toc-counter;
@@ -1426,12 +1460,43 @@ textarea {
 [data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 [data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 
+/* ===== TOUCH TAP TARGETS (44x44 minimum) ===== */
+@media (max-width: 768px), (pointer: coarse) {
+    .search-toggle, .theme-toggle { width: 44px; height: 44px; }
+    .hamburger { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+    /* Keep the small bordered ES/EN pill, but widen its hit area to ~46x45 with an invisible overlay. */
+    .nav-lang-switch { position: relative; }
+    .nav-lang-switch::after { content: ''; position: absolute; inset: -7px -6px; }
+    .toc-list li { display: flex; align-items: baseline; margin-bottom: 0; }
+    .toc-list li::before { flex: 0 0 auto; }
+    .toc-list a { display: block; flex: 1; padding: 10px 0; }
+}
+/* Four 44px nav targets + the logo must fit a 320px phone: tighten the row's padding and gaps. */
+@media (max-width: 400px) {
+    .nav-actions { gap: 2px; }
+    .nav-logo { gap: 6px; }
+}
+@media (max-width: 360px) {
+    .nav-inner { padding: 0 16px; }
+    .nav-logo { font-size: 1rem; }
+    .nav-logo-img { width: 28px; }
+}
+
 /* ===== ANIMATIONS ===== */
+/* Content is visible by default. It is only hidden for the fade when the inline theme script in
+   <head> has run (it sets html[data-theme] on every page), so no-JS visitors see it immediately.
+   If components.js is slow or fails, the CSS-only animation reveals it after 1.5s anyway. */
 .fade-in {
-    opacity: 0;
-    transform: translateY(16px);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
+@media (prefers-reduced-motion: no-preference) {
+    html[data-theme]:not(.no-fade) .fade-in:not(.visible) {
+        opacity: 0;
+        transform: translateY(16px);
+        animation: wt-reveal 0.5s ease 1.5s forwards;
+    }
+}
+@keyframes wt-reveal { to { opacity: 1; transform: none; } }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
 /* ===== STORIES GRID ===== */
