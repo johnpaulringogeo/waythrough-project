@@ -39,6 +39,21 @@
         "desc": "Dallas's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/austin-haca",
+        "title": "Austin Housing Authority (HACA)",
+        "desc": "Austin's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
+        "href": "resources/housing-authorities/fort-worth-fwhs",
+        "title": "Fort Worth Housing Solutions (FWHS)",
+        "desc": "Fort Worth's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
+        "href": "resources/housing-authorities/san-antonio-saha",
+        "title": "Opportunity Home San Antonio (formerly SAHA)",
+        "desc": "San Antonio's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, repairs, deposits, and eviction defense."
@@ -128,6 +143,21 @@
         "href": "es/recursos/autoridades-de-vivienda/dallas-dha",
         "title": "Dallas Housing Authority (DHA)",
         "desc": "Estado de la lista de espera de Sección 8 en Dallas, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/austin-haca",
+        "title": "Austin Housing Authority (HACA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Austin, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/fort-worth-fwhs",
+        "title": "Fort Worth Housing Solutions (FWHS)",
+        "desc": "Estado de la lista de espera de Sección 8 en Fort Worth, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/san-antonio-saha",
+        "title": "Opportunity Home San Antonio (antes SAHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en San Antonio, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",

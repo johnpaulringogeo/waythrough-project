@@ -1,0 +1,235 @@
+{
+  "slug": "austin-haca",
+  "kind": "authority",
+  "name": "Austin Housing Authority (HACA)",
+  "schema_name": "Housing Authority of the City of Austin",
+  "short_name": "AHA",
+  "meta_title": "Austin Housing Authority (HACA) Section 8 Waitlist",
+  "title_name": "Austin Housing Authority",
+  "city": "Austin",
+  "state": "TX",
+  "serves": "the City of Austin, Texas, with vouchers usable in Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle and Manor",
+  "phone": "(512) 477-4488",
+  "official_url": "https://austinha.org/",
+  "apply_url": "https://austinha.org/helpful-articles/voucher-clients/how-do-i-apply/",
+  "city_slug": "austin",
+  "state_slug": "texas",
+  "updated": "November 3, 2026",
+  "intro": "The Austin Housing Authority (AHA) is the name the Housing Authority of the City of Austin (HACA) now goes by. Its old hacanet.org address forwards to austinha.org, and its policy documents, including the Housing Choice Voucher Administrative Plan revised May 29, 2025, still use the legal name. HUD lists it as PHA TX001 with a program type of Combined. AHA says it is \"an independent public entity, separate from the City of Austin,\" and that it serves 27,000 residents through vouchers, its Pathways properties and the communities built by its subsidiary, the Austin Affordable Housing Corporation. As of November 3, 2026, every AHA waiting list is closed. Its Housing Choice Voucher page reads \"Waitlist Applications Closed,\" and its How do I apply? page says \"All Austin Housing Authority waitlists are currently closed.\" This page covers AHA's exact words, how its lottery and preferences work, how to check a status you already have, and the Travis County authority people often mix it up with.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), usable in Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle and Manor",
+    "Pathways properties: 18 AHA-owned communities with Project-Based Rental Assistance (PBRA), where rent is based on income",
+    "Special purpose vouchers named in AHA's Administrative Plan: Mainstream, HUD-VASH for veterans, Family Unification, Non-Elderly Disabled, Foster Youth to Independence, Stability Vouchers and Emergency Housing Vouchers",
+    "Family Self-Sufficiency (FSS) for voucher holders and Pathways residents",
+    "Affordable communities developed by its subsidiary, the Austin Affordable Housing Corporation"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 3, 2026. AHA's Housing Choice Voucher page reads \"Waitlist Applications Closed\" and says \"When the Housing Choice Voucher waitlist is open, you can submit an application online to be considered for placement on the waitlist. Applicants selected through the lottery process will be contacted to complete eligibility verification.\" Its How do I apply? page says \"All Austin Housing Authority waitlists are currently closed. When a waitlist reopens, we will make a public announcement and eligible households will have the opportunity to apply and participate in the waitlist lottery process.\" No opening date was posted. AHA also says: \"If no housing waitlist opening is posted on our website, we are not currently accepting applications.\""
+    },
+    {
+      "program": "Pathways properties (former public housing, now PBRA)",
+      "status": "Closed",
+      "note": "AHA's Our Pathways Properties page lists 18 properties and reads \"Waitlist Applications Closed\" (checked November 3, 2026). AHA says these properties \"are made possible through the Project-based Rental Assistance (PBRA) program\" and that \"your rent is discounted based on your income level and eligibility.\" When a Pathways list opens, AHA says the property will appear at the top of that page \"under Accepting Waitlist Applications.\" Each property has its own list, so you apply property by property."
+    },
+    {
+      "program": "Pathways at Goodrich Place",
+      "status": "Taking applications at the property",
+      "note": "AHA's Find Housing page says \"Goodrich is Accepting Applications Now\" and links to the property's own site, which calls it \"an income-restricted community\" at 2126 Goodrich Ave., lists a $15 application fee and asks you to call its leasing team at (512) 912-7838 (checked November 3, 2026). This is an application to one apartment community, not a place on the voucher list. Ask the leasing office how rent is set for the unit you want before you pay the fee."
+    }
+  ],
+  "also_serving": [
+    "<strong>The Housing Authority of Travis County (HATC)</strong> is a separate agency with its own lists, at 502 East Highland Mall Boulevard, Suite 106-B, Austin, TX 78752, (512) 854-8245. HUD lists it as TX480. Its vouchers can be used \"within Travis County.\" As of November 3, 2026, its Housing Choice Voucher waitlist page reads \"CLOSED\" and \"NOTICE: Our waitlist is not currently open.\" HATC says its list \"is organized by a lottery system\" and that applying earlier \"does not increase your chances.\" Its affordable housing properties keep their own lists, linked from <a href=\"https://hatctx.com/waitlists\" target=\"_blank\" rel=\"noopener\">hatctx.com/waitlists</a>.",
+    "<strong>The Texas Department of Housing and Community Affairs (TDHCA)</strong> runs a separate Section 8 program for parts of Texas without a local housing authority. HUD lists it as TX901, at 221 E. 11th Street in Austin.",
+    "<strong>AHA is not an emergency rent fund.</strong> AHA says: \"We do not offer emergency housing, but there are other organizations that do.\" If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-austin\">Austin emergency rent help guide</a> for who still pays rent in Austin, free eviction lawyers, and Texas's 2026 eviction timeline."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Austin Housing Authority Section 8 waitlist open?",
+      "a": "No. As of November 3, 2026, AHA's Housing Choice Voucher page reads \"Waitlist Applications Closed,\" and its How do I apply? page says \"All Austin Housing Authority waitlists are currently closed.\" AHA says that when a list reopens it will make a public announcement and run a lottery among the people who apply. No opening date was posted. Until one is, AHA says \"If no housing waitlist opening is posted on our website, we are not currently accepting applications.\" The Housing Authority of Travis County's voucher list was also closed on November 3, 2026."
+    },
+    {
+      "q": "Is HACA the same as the Austin Housing Authority?",
+      "a": "Yes. The Housing Authority of the City of Austin (HACA) now goes by Austin Housing Authority (AHA). Its old hacanet.org address forwards to austinha.org, HUD lists PHA TX001 as Austin Housing Authority, and AHA's Administrative Plan still uses the legal name. The phone number did not change: (512) 477-4488, Monday through Friday, 8 a.m. to 5 p.m., at 1124 S. IH 35 in Austin."
+    },
+    {
+      "q": "How do I check my AHA waitlist status?",
+      "a": "Online. AHA's waitlist status page says \"You can check your status at any time by visiting the application portal\" and links each list separately. Housing Choice Voucher applicants log in to AHA's Emphasys applicant portal at haca.myhousing.com. Each Pathways property has its own RentCafe status link, and for most properties there are separate links for people who applied before and after January 1, 2021. Keep your phone, email and mailing address current in the portal, because AHA uses them to reach you. For questions, call (512) 477-4488."
+    },
+    {
+      "q": "Who gets preference on the AHA voucher list?",
+      "a": "AHA's Administrative Plan, revised May 29, 2025, gives each family at most one weighted local preference plus a residency preference. The weights include elderly 2, disabled 2, involuntarily displaced 2, families with minor children 2, homeless 3 and residency 1. The residency preference covers people who live in, work in, or have been hired to work in Travis, Hays, Bastrop, Caldwell or Williamson County. The homeless preference requires a referral from a homeless service provider that has an agreement with AHA, and up to 25 percent of vouchers issued each year go to it. AHA verifies preferences only when your name is drawn; if it cannot verify one, you go back on the list without it."
+    },
+    {
+      "q": "How long is the wait for AHA housing?",
+      "a": "Years, in most cases. AHA's application portal says \"All of AHA's housing programs have extensive waiting lists\" and \"Waiting times vary from as little as 6 months to over 3 years.\" Its Find Housing page says \"you may be on the waiting list for a number of years.\" Apply to every list you qualify for when it opens, including the Housing Authority of Travis County and the Pathways properties, rather than waiting on one."
+    },
+    {
+      "q": "What is the difference between AHA and the Housing Authority of Travis County?",
+      "a": "They are two separate agencies with separate waiting lists. AHA (HUD code TX001) is the City of Austin's housing authority. The Housing Authority of Travis County, or HATC (HUD code TX480), runs its own voucher program usable within Travis County, plus its own affordable properties. Being on one list does not put you on the other. HATC is at 502 East Highland Mall Boulevard, Suite 106-B, (512) 854-8245, and its voucher list was closed on November 3, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "label": "AHA - Housing Choice Voucher Program (Waitlist Applications Closed; where vouchers can be used; HQ, hours, phone)",
+      "url": "https://austinha.org/find-housing/housing-choice-voucher-program/"
+    },
+    {
+      "label": "AHA - How do I apply? (all AHA waitlists currently closed; lottery; application steps)",
+      "url": "https://austinha.org/helpful-articles/voucher-clients/how-do-i-apply/"
+    },
+    {
+      "label": "AHA - Find Housing (Goodrich accepting applications; no emergency housing; years on the list)",
+      "url": "https://austinha.org/find-housing/en/"
+    },
+    {
+      "label": "AHA - Our Pathways Properties (18 PBRA properties; Waitlist Applications Closed)",
+      "url": "https://austinha.org/find-housing/our-pathway-properties/"
+    },
+    {
+      "label": "Pathways at Goodrich Place - property site (income-restricted community; leasing phone)",
+      "url": "https://www.pathwaysatgoodrich.org/"
+    },
+    {
+      "label": "AHA - How to check your housing waitlist status (status links for each list)",
+      "url": "https://austinha.org/helpful-articles/voucher-clients/how-to-check-your-housing-waitlist-status/en/"
+    },
+    {
+      "label": "AHA - applicant portal (extensive waiting lists; 6 months to over 3 years)",
+      "url": "https://haca.myhousing.com/"
+    },
+    {
+      "label": "AHA - About Austin Housing Authority (independent public entity; 27,000 residents)",
+      "url": "https://austinha.org/about-us/about-austin-housing-authority/en/"
+    },
+    {
+      "label": "AHA - HCV Administrative Plan, revised May 29, 2025 (lottery, preference weights, residency counties)",
+      "url": "https://austinha.org/wp-content/uploads/2026/10/HCV-Administrative-Plan-5.29.25.pdf"
+    },
+    {
+      "label": "Housing Authority of Travis County - Waitlists and Housing Choice Voucher waitlist (not currently open; lottery)",
+      "url": "https://hatctx.com/assistance/assistance-waitlist"
+    },
+    {
+      "label": "Housing Authority of Travis County - Housing Choice Vouchers (usable within Travis County; random selection)",
+      "url": "https://hatctx.com/assistance/housing-choice-vouchers"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Texas (TX001 Austin Housing Authority, Combined; TX480 Travis County; TX901 TDHCA)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+    }
+  ],
+  "es": {
+    "meta_title": "Austin Housing Authority (HACA): lista de espera Sección 8",
+    "serves": "la Ciudad de Austin, Texas, con vales que se pueden usar en Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle y Manor",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Austin Housing Authority (AHA, Autoridad de Vivienda de Austin) es el nombre que ahora usa la Housing Authority of the City of Austin (HACA). Su antigua dirección hacanet.org redirige a austinha.org, y sus documentos de política, incluido el Plan Administrativo del programa de vales revisado el 29 de mayo de 2025, siguen usando el nombre legal. HUD la registra como la PHA TX001 con un tipo de programa \"Combined\". AHA dice que es \"an independent public entity, separate from the City of Austin\" (una entidad pública independiente, separada de la Ciudad de Austin) y que sirve a 27,000 residentes con vales, sus propiedades Pathways y las comunidades de su filial, la Austin Affordable Housing Corporation. Al 3 de noviembre de 2026, todas las listas de espera de AHA están cerradas. Su página del programa de vales dice \"Waitlist Applications Closed\" (solicitudes cerradas), y su página How do I apply? dice \"All Austin Housing Authority waitlists are currently closed\" (todas las listas de espera de AHA están cerradas por ahora). Esta página explica las palabras exactas de AHA, cómo funcionan su sorteo y sus preferencias, cómo revisar el estado de una solicitud que ya tiene y la autoridad del condado de Travis con la que mucha gente la confunde.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), que se puede usar en Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle y Manor",
+      "Propiedades Pathways: 18 comunidades de AHA con Asistencia de Renta Basada en Proyectos (PBRA), donde la renta depende de sus ingresos",
+      "Vales para fines especiales que nombra el Plan Administrativo de AHA: Mainstream, HUD-VASH para veteranos, Reunificación Familiar, personas con discapacidad menores de 62 años, Foster Youth to Independence, Stability Vouchers y Emergency Housing Vouchers",
+      "Programa de Autosuficiencia Familiar (FSS) para personas con vale y residentes de Pathways",
+      "Comunidades asequibles de su filial, la Austin Affordable Housing Corporation"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Verificado el 3 de noviembre de 2026. La página del programa de vales de AHA dice \"Waitlist Applications Closed\" (solicitudes cerradas) y \"When the Housing Choice Voucher waitlist is open, you can submit an application online to be considered for placement on the waitlist. Applicants selected through the lottery process will be contacted to complete eligibility verification\" (cuando la lista está abierta, puede enviar una solicitud en línea; a quienes salgan elegidos en el sorteo se les contactará para verificar su elegibilidad). Su página How do I apply? dice \"All Austin Housing Authority waitlists are currently closed. When a waitlist reopens, we will make a public announcement and eligible households will have the opportunity to apply and participate in the waitlist lottery process\" (todas las listas están cerradas; cuando una lista vuelva a abrir, AHA lo anunciará públicamente y los hogares elegibles podrán solicitar y participar en el sorteo). No había ninguna fecha de apertura publicada. AHA también dice: \"If no housing waitlist opening is posted on our website, we are not currently accepting applications\" (si no hay una apertura publicada en nuestro sitio, no estamos aceptando solicitudes)."
+      },
+      {
+        "program": "Propiedades Pathways (antes vivienda pública, ahora PBRA)",
+        "status": "Cerradas",
+        "note": "La página Our Pathways Properties de AHA muestra 18 propiedades y dice \"Waitlist Applications Closed\" (solicitudes cerradas) (verificado el 3 de noviembre de 2026). AHA dice que estas propiedades \"are made possible through the Project-based Rental Assistance (PBRA) program\" (existen gracias al programa de Asistencia de Renta Basada en Proyectos) y que \"your rent is discounted based on your income level and eligibility\" (su renta tiene un descuento según su nivel de ingresos y su elegibilidad). Cuando abra la lista de una propiedad Pathways, AHA dice que aparecerá arriba en esa página, \"under Accepting Waitlist Applications\" (bajo propiedades que aceptan solicitudes). Cada propiedad tiene su propia lista, así que se solicita propiedad por propiedad."
+      },
+      {
+        "program": "Pathways at Goodrich Place",
+        "status": "Recibe solicitudes en la propiedad",
+        "note": "La página Find Housing de AHA dice \"Goodrich is Accepting Applications Now\" (Goodrich está aceptando solicitudes ahora) y enlaza al sitio de la propiedad, que la describe como \"an income-restricted community\" (una comunidad con renta limitada por ingresos) en 2126 Goodrich Ave., cobra $15 por solicitud y pide llamar a su oficina de arrendamiento al (512) 912-7838 (verificado el 3 de noviembre de 2026). Es una solicitud para una sola comunidad de apartamentos, no un lugar en la lista de vales. Pregunte en la oficina cómo se fija la renta de la unidad que le interesa antes de pagar la cuota."
+      }
+    ],
+    "also_serving": [
+      "<strong>La Housing Authority of Travis County (HATC, Autoridad de Vivienda del Condado de Travis)</strong> es una agencia aparte con sus propias listas, en 502 East Highland Mall Boulevard, Suite 106-B, Austin, TX 78752, (512) 854-8245. HUD la registra como TX480. Sus vales se pueden usar \"within Travis County\" (dentro del condado de Travis). Al 3 de noviembre de 2026, su página de la lista de vales dice \"CLOSED\" (cerrada) y \"NOTICE: Our waitlist is not currently open\" (aviso: nuestra lista de espera no está abierta por ahora). HATC dice que su lista \"is organized by a lottery system\" (se organiza por sorteo) y que solicitar antes \"does not increase your chances\" (no aumenta sus probabilidades). Sus propiedades asequibles llevan sus propias listas, enlazadas desde <a href=\"https://hatctx.com/waitlists\" target=\"_blank\" rel=\"noopener\">hatctx.com/waitlists</a>.",
+      "<strong>El Departamento de Vivienda y Asuntos Comunitarios de Texas (TDHCA)</strong> administra un programa de Sección 8 aparte para las zonas de Texas que no tienen una autoridad de vivienda local. HUD lo registra como TX901, en 221 E. 11th Street, en Austin.",
+      "<strong>AHA no es un fondo de emergencia para la renta.</strong> AHA dice: \"We do not offer emergency housing, but there are other organizations that do\" (no ofrecemos vivienda de emergencia, pero hay otras organizaciones que sí). Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-austin\">guía de ayuda de emergencia con la renta en Austin</a>: quién todavía ayuda con la renta en Austin, abogados gratis contra el desalojo y los plazos de desalojo de Texas en 2026."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 de la Austin Housing Authority?",
+        "a": "No. Al 3 de noviembre de 2026, la página del programa de vales de AHA dice \"Waitlist Applications Closed\" (solicitudes cerradas), y su página How do I apply? dice \"All Austin Housing Authority waitlists are currently closed\" (todas las listas de espera de AHA están cerradas por ahora). AHA dice que cuando una lista vuelva a abrir lo anunciará públicamente y hará un sorteo entre quienes soliciten. No había ninguna fecha de apertura publicada. Mientras no la haya, AHA dice \"If no housing waitlist opening is posted on our website, we are not currently accepting applications\" (si no hay una apertura publicada en nuestro sitio, no estamos aceptando solicitudes). La lista de vales de la Housing Authority of Travis County también estaba cerrada el 3 de noviembre de 2026."
+      },
+      {
+        "q": "¿HACA es lo mismo que la Austin Housing Authority?",
+        "a": "Sí. La Housing Authority of the City of Austin (HACA) ahora se llama Austin Housing Authority (AHA). Su antigua dirección hacanet.org redirige a austinha.org, HUD registra la PHA TX001 como Austin Housing Authority y el Plan Administrativo de AHA sigue usando el nombre legal. El teléfono no cambió: (512) 477-4488, de lunes a viernes de 8 a.m. a 5 p.m., en 1124 S. IH 35, en Austin."
+      },
+      {
+        "q": "¿Cómo reviso el estado de mi solicitud con AHA?",
+        "a": "En línea. La página de AHA sobre el estado de la lista dice \"You can check your status at any time by visiting the application portal\" (puede revisar su estado en cualquier momento en el portal de solicitudes) y tiene un enlace para cada lista. Quienes solicitaron un vale entran al portal de solicitantes de AHA (Emphasys) en haca.myhousing.com. Cada propiedad Pathways tiene su propio enlace de RentCafe, y en la mayoría hay enlaces distintos para quienes solicitaron antes y después del 1 de enero de 2021. Mantenga al día su teléfono, correo electrónico y dirección en el portal, porque AHA los usa para contactarle. Para preguntas, llame al (512) 477-4488."
+      },
+      {
+        "q": "¿Quién tiene preferencia en la lista de vales de AHA?",
+        "a": "El Plan Administrativo de AHA, revisado el 29 de mayo de 2025, da a cada familia como máximo una preferencia local con puntaje, más una preferencia de residencia. Los puntajes incluyen personas mayores 2, personas con discapacidad 2, desplazados involuntariamente 2, familias con hijos menores 2, personas sin hogar 3 y residencia 1. La preferencia de residencia cubre a quienes viven, trabajan o han sido contratados para trabajar en los condados de Travis, Hays, Bastrop, Caldwell o Williamson. La preferencia para personas sin hogar exige que lo refiera un proveedor de servicios para personas sin hogar que tenga un acuerdo con AHA, y hasta el 25 por ciento de los vales que se entregan cada año van a esa preferencia. AHA verifica las preferencias solo cuando sale su nombre; si no puede verificar una, usted vuelve a la lista sin ella."
+      },
+      {
+        "q": "¿Cuánto hay que esperar para recibir vivienda de AHA?",
+        "a": "Años, en la mayoría de los casos. El portal de solicitudes de AHA dice \"All of AHA's housing programs have extensive waiting lists\" (todos los programas de vivienda de AHA tienen listas de espera largas) y \"Waiting times vary from as little as 6 months to over 3 years\" (la espera va desde 6 meses hasta más de 3 años). Su página Find Housing dice \"you may be on the waiting list for a number of years\" (puede estar en la lista durante varios años). Cuando abran, solicite en todas las listas para las que califique, incluidas la de la Housing Authority of Travis County y las de las propiedades Pathways, en lugar de esperar en una sola."
+      },
+      {
+        "q": "¿Qué diferencia hay entre AHA y la Housing Authority of Travis County?",
+        "a": "Son dos agencias distintas con listas de espera distintas. AHA (código TX001 de HUD) es la autoridad de vivienda de la Ciudad de Austin. La Housing Authority of Travis County, o HATC (código TX480 de HUD), tiene su propio programa de vales que se pueden usar dentro del condado de Travis, además de sus propias propiedades asequibles. Estar en una lista no lo pone en la otra. HATC está en 502 East Highland Mall Boulevard, Suite 106-B, (512) 854-8245, y su lista de vales estaba cerrada el 3 de noviembre de 2026."
+      }
+    ],
+    "sources": [
+      {
+        "label": "AHA - Programa Housing Choice Voucher: solicitudes cerradas, dónde se usan los vales, sede, horario y teléfono (en inglés)",
+        "url": "https://austinha.org/find-housing/housing-choice-voucher-program/"
+      },
+      {
+        "label": "AHA - How do I apply?: todas las listas cerradas, sorteo, pasos para solicitar (en inglés)",
+        "url": "https://austinha.org/helpful-articles/voucher-clients/how-do-i-apply/"
+      },
+      {
+        "label": "AHA - Find Housing: Goodrich acepta solicitudes, no ofrece vivienda de emergencia, años de espera (en inglés)",
+        "url": "https://austinha.org/find-housing/en/"
+      },
+      {
+        "label": "AHA - Our Pathways Properties: 18 propiedades PBRA, solicitudes cerradas (en inglés)",
+        "url": "https://austinha.org/find-housing/our-pathway-properties/"
+      },
+      {
+        "label": "Pathways at Goodrich Place - sitio de la propiedad: comunidad con renta limitada, teléfono de arrendamiento (en inglés)",
+        "url": "https://www.pathwaysatgoodrich.org/"
+      },
+      {
+        "label": "AHA - Cómo revisar el estado de su lista: enlaces para cada lista (en inglés)",
+        "url": "https://austinha.org/helpful-articles/voucher-clients/how-to-check-your-housing-waitlist-status/en/"
+      },
+      {
+        "label": "AHA - Portal de solicitudes: listas largas, de 6 meses a más de 3 años (en inglés)",
+        "url": "https://haca.myhousing.com/"
+      },
+      {
+        "label": "AHA - Acerca de la Austin Housing Authority: entidad pública independiente, 27,000 residentes (en inglés)",
+        "url": "https://austinha.org/about-us/about-austin-housing-authority/en/"
+      },
+      {
+        "label": "AHA - Plan Administrativo del programa de vales, revisado el 29 de mayo de 2025: sorteo, puntajes de preferencia, condados de residencia (en inglés)",
+        "url": "https://austinha.org/wp-content/uploads/2026/10/HCV-Administrative-Plan-5.29.25.pdf"
+      },
+      {
+        "label": "Housing Authority of Travis County - Lista de espera de vales: no está abierta, sorteo (en inglés)",
+        "url": "https://hatctx.com/assistance/assistance-waitlist"
+      },
+      {
+        "label": "Housing Authority of Travis County - Housing Choice Vouchers: dentro del condado de Travis, selección al azar (en inglés)",
+        "url": "https://hatctx.com/assistance/housing-choice-vouchers"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Texas: TX001 Austin Housing Authority, TX480 condado de Travis, TX901 TDHCA (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_TX.pdf"
+      }
+    ]
+  }
+}
