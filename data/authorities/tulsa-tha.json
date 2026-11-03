@@ -4,6 +4,7 @@
   "name": "Tulsa Housing Authority (THA)",
   "schema_name": "Housing Authority of the City of Tulsa",
   "short_name": "THA",
+  "title_name": "Tulsa Housing Authority",
   "city": "Tulsa",
   "state": "OK",
   "serves": "the City of Tulsa, Oklahoma",

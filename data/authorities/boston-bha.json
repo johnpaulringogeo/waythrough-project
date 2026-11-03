@@ -3,6 +3,7 @@
   "kind": "authority",
   "name": "Boston Housing Authority",
   "short_name": "BHA",
+  "title_name": "Boston Housing Authority",
   "city": "Boston",
   "state": "MA",
   "serves": "the City of Boston, Massachusetts",

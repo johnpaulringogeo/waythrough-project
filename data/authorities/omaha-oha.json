@@ -4,6 +4,7 @@
   "name": "Omaha Housing Authority (OHA)",
   "schema_name": "Omaha Housing Authority",
   "short_name": "OHA",
+  "title_name": "Omaha Housing Authority",
   "city": "Omaha",
   "state": "NE",
   "serves": "Omaha, Ralston, Papillion, La Vista, Millard and Douglas County, Nebraska",

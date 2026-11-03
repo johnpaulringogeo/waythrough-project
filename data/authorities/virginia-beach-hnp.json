@@ -4,6 +4,7 @@
   "name": "Virginia Beach Housing and Neighborhood Preservation",
   "schema_name": "City of Virginia Beach Department of Housing and Neighborhood Preservation",
   "short_name": "HNP",
+  "title_name": "Virginia Beach Housing",
   "city": "Virginia Beach",
   "state": "VA",
   "serves": "the City of Virginia Beach, Virginia",

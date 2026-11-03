@@ -12,9 +12,17 @@ Writes:
 Each JSON keeps its English content at the top level (unchanged) and, optionally, a
 localized "es" block that overrides the translatable fields (serves, updated, intro,
 programs, waitlists, also_serving, faqs, sources). Shared fields (name, short_name,
-phone, URLs, city/state, slugs) are inherited by the Spanish page. Optional
-"meta_title" / "meta_description" override the default <title> and meta
-description; when set at the top level they must also be set in "es".
+phone, URLs, city/state, slugs) are inherited by the Spanish page.
+
+Titles: "title_name" is the name people search (e.g. "HACLA", "MDHA Nashville",
+"Denver Housing Authority"); it feeds a compact <title> pattern (TITLE_PATTERNS)
+that is always <= 60 characters, and the meta description pattern
+(DESC_PATTERNS, 140-158 characters). The full legal "name" stays in the H1 and
+body. An "es" block may set its own "title_name". Optional "meta_title" /
+"meta_description" override the default <title> and meta description for an
+intent the pattern can't carry (Denver's lottery, CHA's phone number); when set
+at the top level they must also be set in "es". Generation raises if any title
+is over 60 characters or any description is over 158.
 
 Safeguard: Spanish pages are validated for missing diacritics before writing. If an
 es page's visible text contains a red-flag un-accented Spanish word, generation raises
@@ -145,28 +153,93 @@ def paths_for(lang, slug):
     }
 
 
+# Google cuts titles off at about 60 characters and Bing flags anything over 70,
+# so the words a searcher typed ("waitlist", "apply", the city) fall off the end.
+# The full legal name stays in the H1 and the body; the <title> uses
+# "title_name", the name people actually search (an acronym plus city, or the
+# common name). The first pattern that fits TITLE_MAX wins, longest first.
+TITLE_MAX = 60
+DESC_MIN, DESC_MAX = 140, 158
+
+TITLE_PATTERNS = {
+    "en": [
+        "{n} Section 8 Waitlist: Status & How to Apply | Waythrough",
+        "{n} Section 8 Waitlist & How to Apply | Waythrough",
+        "{n} Section 8 Waitlist & How to Apply",
+        "{n} Section 8 Waitlist",
+    ],
+    "es": [
+        "Lista de espera Sección 8 de {n}: estado y cómo solicitar",
+        "Lista de espera Sección 8 de {n} y cómo solicitar",
+        "{n}: lista de espera Sección 8 y solicitud",
+        "{n}: lista de espera Sección 8",
+    ],
+}
+
+# Meta description candidates in order of preference (the dated ones first):
+# the first one that lands in DESC_MIN..DESC_MAX wins; otherwise the longest
+# one that is <= DESC_MAX.
+DESC_PATTERNS = {
+    "en": [
+        "{n} in {c}, {s}: Section 8 waitlist status (checked {u}), phone {ph}, programs offered and how to apply. An independent guide.",
+        "{n} in {c}, {s}: Section 8 waitlist status (checked {u}), phone {ph}, programs and how to apply. An independent guide.",
+        "{n} in {c}, {s}: Section 8 waitlist status (checked {u}), phone {ph}, programs and how to apply.",
+        "{n} in {c}, {s}: Section 8 waitlist status, phone {ph}, programs offered and how to apply. An independent guide.",
+        "{n} in {c}, {s}: Section 8 waitlist status, phone {ph}, programs and how to apply. An independent guide.",
+        "{n} in {c}, {s}: Section 8 waitlist status, phone {ph}, programs and how to apply.",
+    ],
+    "es": [
+        "{n} en {c}, {s}: estado de la lista de espera de Sección 8 (verificado {ue}), teléfono {ph}, programas y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: lista de espera de Sección 8 (verificada {ue}), teléfono {ph}, programas y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: lista de espera de Sección 8 (verificada {ue}), teléfono {ph}, programas y cómo solicitar.",
+        "{n} en {c}, {s}: estado de la lista de espera de Sección 8, teléfono {ph}, programas que ofrece y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: estado de la lista de espera de Sección 8, teléfono {ph}, programas y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: lista de espera de Sección 8, teléfono {ph}, programas que ofrece y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: lista de espera de Sección 8, teléfono {ph}, programas y cómo solicitar. Guía independiente.",
+        "{n} en {c}, {s}: lista de espera de Sección 8, teléfono {ph}, programas y cómo solicitar.",
+    ],
+}
+
+
+def title_name(m):
+    return m.get("title_name") or m.get("short_name") or m["name"]
+
+
 def build_title(m, lang):
     # Optional per-page override: "meta_title" at the top level (EN) and in the
     # "es" block (ES). render() refuses an EN override without an ES one, so the
     # Spanish page can never inherit an English title.
     if m.get("meta_title"):
-        return m["meta_title"]
-    if lang == "en":
-        return f"{m['name']}: Section 8 Waitlist Status, Contact & How to Apply | Waythrough"
-    return (f"{m['name']}: estado de la lista de espera de Sección 8, contacto y "
-            f"cómo solicitar | Waythrough")
+        title = m["meta_title"]
+    else:
+        n = title_name(m)
+        title = next((p.format(n=n) for p in TITLE_PATTERNS[lang]
+                      if len(p.format(n=n)) <= TITLE_MAX), None)
+        if title is None:
+            raise ValueError(f"{m['slug']} ({lang}): title_name {n!r} is too long for any "
+                             f"title pattern; shorten it or set meta_title")
+    if len(title) > TITLE_MAX:
+        raise ValueError(f"{m['slug']} ({lang}): title is {len(title)} characters, "
+                         f"max {TITLE_MAX}: {title!r}")
+    return title
 
 
 def build_description(m, lang):
     if m.get("meta_description"):
-        return m["meta_description"]
-    if lang == "en":
-        return (f"{m['name']} in {m['city']}, {m['state']}: current Section 8 / "
-                f"Housing Choice Voucher waiting-list status, phone {m.get('phone','')}, programs offered, "
-                f"and how to apply. An independent guide.")
-    return (f"{m['name']} en {m['city']}, {m['state']}: estado actual de la lista de espera de "
-            f"Sección 8 / Housing Choice Voucher, teléfono {m.get('phone','')}, programas que ofrece "
-            f"y cómo solicitar. Una guía independiente.")
+        desc = m["meta_description"]
+    else:
+        fields = dict(n=title_name(m), c=m["city"], s=m["state"],
+                      ph=m.get("phone", ""), u=m["updated"],
+                      # "el 15 de octubre de 2026" but "en mayo de 2026"
+                      ue=("el " if m["updated"][:1].isdigit() else "en ") + m["updated"])
+        cands = [p.format(**fields) for p in DESC_PATTERNS[lang]]
+        fits = [d for d in cands if len(d) <= DESC_MAX]
+        desc = next((d for d in fits if len(d) >= DESC_MIN),
+                    max(fits, key=len) if fits else cands[-1])
+    if len(desc) > DESC_MAX:
+        raise ValueError(f"{m['slug']} ({lang}): meta description is {len(desc)} characters, "
+                         f"max {DESC_MAX}: {desc!r}")
+    return desc
 
 
 def build_strings(m, lang, p):

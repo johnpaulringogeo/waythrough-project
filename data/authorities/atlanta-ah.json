@@ -4,6 +4,7 @@
   "name": "Atlanta Housing (Atlanta Housing Authority)",
   "schema_name": "Housing Authority of the City of Atlanta, Georgia",
   "short_name": "Atlanta Housing",
+  "title_name": "Atlanta Housing",
   "city": "Atlanta",
   "state": "GA",
   "serves": "the City of Atlanta, Georgia",

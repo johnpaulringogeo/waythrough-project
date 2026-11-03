@@ -4,6 +4,7 @@
   "name": "Tampa Housing Authority (THA)",
   "schema_name": "Housing Authority of the City of Tampa",
   "short_name": "THA",
+  "title_name": "Tampa Housing Authority",
   "city": "Tampa",
   "state": "FL",
   "serves": "the City of Tampa and Hillsborough County, Florida",

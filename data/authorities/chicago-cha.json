@@ -3,6 +3,8 @@
   "kind": "authority",
   "name": "Chicago Housing Authority (CHA)",
   "short_name": "CHA",
+  "title_name": "Chicago Housing Authority",
+  "meta_title": "Chicago Housing Authority Phone Number & Section 8 Waitlist",
   "city": "Chicago",
   "state": "IL",
   "serves": "the City of Chicago, Illinois",
@@ -71,6 +73,7 @@
     }
   ],
   "es": {
+    "meta_title": "Chicago Housing Authority: teléfono y lista de Sección 8",
     "serves": "la ciudad de Chicago, Illinois",
     "updated": "mayo de 2026",
     "intro": "La Autoridad de Vivienda de Chicago (CHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Chicago — la segunda autoridad de vivienda más grande del país. Esta página resume el estado actual de la lista de espera de CHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de CHA para cualquier asunto urgente.",

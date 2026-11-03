@@ -4,6 +4,7 @@
   "name": "Albuquerque Housing Authority (AHA)",
   "schema_name": "Albuquerque Housing Authority",
   "short_name": "AHA",
+  "title_name": "Albuquerque Housing Authority",
   "city": "Albuquerque",
   "state": "NM",
   "serves": "Albuquerque, New Mexico, with Section 8 vouchers also used in Rio Rancho and Bernalillo County",

@@ -4,6 +4,7 @@
   "name": "Indianapolis Housing Agency (IHA)",
   "schema_name": "Indianapolis Housing Agency",
   "short_name": "IHA",
+  "title_name": "Indianapolis Housing Agency",
   "city": "Indianapolis",
   "state": "IN",
   "serves": "the city of Indianapolis and Marion County, Indiana",

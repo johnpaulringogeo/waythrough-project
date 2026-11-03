@@ -3,6 +3,7 @@
   "kind": "authority",
   "name": "Housing Authority of the City of El Paso (HOME)",
   "short_name": "HOME",
+  "title_name": "El Paso HOME",
   "schema_name": "Housing Opportunity Management Enterprises",
   "city": "El Paso",
   "state": "TX",

@@ -4,6 +4,7 @@
   "name": "Columbus Metropolitan Housing Authority (CMHA)",
   "schema_name": "Columbus Metropolitan Housing Authority",
   "short_name": "CMHA",
+  "title_name": "CMHA Columbus",
   "city": "Columbus",
   "state": "OH",
   "serves": "Franklin County and central Ohio",

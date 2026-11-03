@@ -3,6 +3,7 @@
   "kind": "authority",
   "name": "City of Phoenix Housing Department",
   "short_name": "the Phoenix Housing Department",
+  "title_name": "Phoenix Housing",
   "city": "Phoenix",
   "state": "AZ",
   "serves": "the City of Phoenix, Arizona",

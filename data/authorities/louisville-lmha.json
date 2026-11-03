@@ -4,6 +4,7 @@
   "name": "Louisville Metro Housing Authority (LMHA)",
   "schema_name": "Louisville Metro Housing Authority",
   "short_name": "LMHA",
+  "title_name": "LMHA Louisville",
   "city": "Louisville",
   "state": "KY",
   "serves": "Louisville Metro and Jefferson County, Kentucky",

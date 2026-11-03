@@ -4,6 +4,7 @@
   "name": "Memphis Housing Authority (MHA)",
   "schema_name": "Memphis Housing Authority",
   "short_name": "MHA",
+  "title_name": "Memphis Housing Authority",
   "city": "Memphis",
   "state": "TN",
   "serves": "Memphis and Shelby County, Tennessee",

@@ -4,6 +4,7 @@
   "name": "Dallas Housing Authority (DHA)",
   "schema_name": "Housing Authority of the City of Dallas, Texas",
   "short_name": "DHA",
+  "title_name": "Dallas Housing Authority",
   "city": "Dallas",
   "state": "TX",
   "serves": "Dallas and seven North Texas counties: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall and Tarrant",

@@ -4,6 +4,8 @@
   "name": "Denver Housing Authority (DHA)",
   "schema_name": "Housing Authority of the City and County of Denver",
   "short_name": "DHA",
+  "title_name": "Denver Housing Authority",
+  "meta_title": "Denver Housing Authority Section 8 Lottery & Waitlist",
   "city": "Denver",
   "state": "CO",
   "serves": "the City and County of Denver, Colorado",
@@ -132,6 +134,7 @@
     }
   ],
   "es": {
+    "meta_title": "Denver Housing Authority: lotería y lista de Sección 8",
     "serves": "la ciudad y el condado de Denver, Colorado",
     "updated": "15 de octubre de 2026",
     "intro": "La Denver Housing Authority, formalmente la Housing Authority of the City and County of Denver, es una corporación cuasi municipal que provee vivienda asequible en Denver desde 1938 y que hoy atiende a más de 31,100 personas con más de 13,000 unidades y vales de vivienda. Lo más importante que debe entender aquí es que DHA no maneja una lista de espera común de la Sección 8. Maneja un sorteo, una vez al año, y si usted pierde el plazo de inscripción tiene que esperar un año hasta el siguiente. El sorteo de 2027 ya se realizó: la página del sorteo de DHA dice \"The lottery closed at 11:59 p.m. on Friday, September 18, 2026\" (el sorteo cerró a las 11:59 p.m. del viernes 18 de septiembre de 2026). Igual de importante, DHA dice \"Because of limited federal funding, DHA did not select names from the Housing Choice Voucher lottery in 2025 or 2026\" (por la falta de fondos federales, DHA no sacó nombres del sorteo en 2025 ni en 2026) y \"Based on current funding, DHA may not be able to select names from the 2027 lottery\" (con los fondos actuales, quizá DHA no pueda sacar nombres del sorteo de 2027). Verificado el 15 de octubre de 2026. Dicho de forma sencilla: no salió nadie de los dos últimos sorteos, y puede que un número del sorteo de 2027 nunca salga. Mantenga al día su inscripción y su dirección postal, pero no dependa solo del sorteo. Esta página explica cómo funciona el sorteo, qué dice DHA sobre el próximo, qué otras puertas tiene abiertas mientras tanto quien alquila en Denver y a quién llamar.",
