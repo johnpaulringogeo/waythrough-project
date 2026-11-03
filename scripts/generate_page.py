@@ -319,6 +319,7 @@ FAQ_LINK_TARGETS = {
     "law.lis.virginia.gov": "https://law.lis.virginia.gov",
     "lawmo.org": "https://lawmo.org",
     "legalaiddc.org": "https://www.legalaiddc.org",
+    "legalhelpmd.org": "https://legalhelpmd.org",  # fetched live 2026-11-03 (Baltimore guide); Maryland Access to Counsel in Evictions intake site
     "longbeach.gov/haclb/apply": "https://longbeach.gov/haclb/apply",
     "longbeach.gov/renteraid": "https://www.longbeach.gov/homelessness/homeless-services/RenterAid/",  # fetched live 2026-09-21 (W-2/3 + X2); the City's own short link, redirects here
     "mainehousing.org": "https://mainehousing.org",
