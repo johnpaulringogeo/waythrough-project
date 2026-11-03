@@ -28,6 +28,11 @@
         "desc": "Columbus's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/cleveland-cmha",
+        "title": "Cuyahoga Metropolitan Housing Authority (CMHA)",
+        "desc": "Cleveland's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."
@@ -106,6 +111,11 @@
         "href": "es/recursos/autoridades-de-vivienda/columbus-cmha",
         "title": "Columbus Metropolitan Housing Authority (CMHA)",
         "desc": "Estado de la lista de espera de Sección 8 en Columbus, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/cleveland-cmha",
+        "title": "Cuyahoga Metropolitan Housing Authority (CMHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Cleveland, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",

@@ -1,0 +1,263 @@
+{
+  "slug": "minneapolis-mpha",
+  "kind": "authority",
+  "name": "Minneapolis Public Housing Authority (MPHA)",
+  "schema_name": "Minneapolis Public Housing Authority",
+  "short_name": "MPHA",
+  "title_name": "MPHA Minneapolis",
+  "meta_description": "Minneapolis Public Housing Authority (MPHA): Section 8 list closed, high-rise public housing lists open, phones and how to apply. Checked Nov 3, 2026.",
+  "city": "Minneapolis",
+  "state": "MN",
+  "serves": "the City of Minneapolis, Minnesota",
+  "phone": "(612) 342-1400",
+  "official_url": "https://mphaonline.org/",
+  "apply_url": "https://portal.mphaonline.org/",
+  "city_slug": "minneapolis",
+  "state_slug": "minnesota",
+  "updated": "November 3, 2026",
+  "intro": "The Minneapolis Public Housing Authority (MPHA) is the public housing agency for the City of Minneapolis. HUD lists it, under its legal name PHA in and for the City of Minneapolis, as PHA MN002 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing. MPHA says it owns and operates nearly 6,000 rental units, most of them studio and one-bedroom apartments in 42 high-rises, and administers nearly 7,500 tenant-based and project-based vouchers. Its headquarters is at 1001 N Washington Ave., Minneapolis, MN 55401. The short version today: the federal Section 8 list is closed, the family public housing lists (2 to 5 bedrooms) are closed, and MPHA's high-rise lists for seniors, near-elderly and disabled applicants are open. A one-time window for the state-funded Bring It Home voucher ran October 13 to 15, 2026 and is over. The suburbs around the city are served by a different agency, Metro HRA, whose voucher list is also closed. This page covers MPHA's exact words, how to apply for a high-rise, the preference points, and which number to call.",
+  "programs": [
+    "Housing Choice Vouchers (Section 8), over 7,000 tenant-based vouchers",
+    "Project-Based Vouchers in privately owned buildings, filled from MPHA's voucher waiting list",
+    "Public housing and deeply affordable housing, nearly 6,000 units: 42 high-rises, 184 family homes at Glendale, more than 700 scattered-site family homes and new multiplexes",
+    "Bring It Home state vouchers, paid for by a two-year, $21 million Minnesota Housing grant and usable only in Minneapolis",
+    "Special purpose vouchers by referral, including Stable Homes Stable Schools, the Community Choice Demonstration with Metro HRA, HUD-VASH and Family Unification"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked November 3, 2026). MPHA's Tenant-Based Vouchers page is headed \"Applying for Housing Vouchers – Waitlist Currently Closed\" and says: \"The Housing Choice Voucher waitlist is currently closed for new applications, you may check back periodically for any updates.\" MPHA's applicant portal lists \"Housing Choice Voucher – Closed.\" MPHA gives no reopening date. Its October 1, 2026 news release called the Bring It Home window \"the first time MPHA has accepted public applications for any tenant-based housing assistance voucher since 2019.\" If you think you are already on the list, MPHA says to call 612-335-4404 with the head of household's Social Security number and date of birth."
+    },
+    {
+      "program": "Bring It Home (state-funded voucher)",
+      "status": "Closed since October 15, 2026",
+      "note": "Bring It Home (BIH) is a Minnesota Housing voucher that works like Section 8; MPHA's BIH vouchers can only be used in Minneapolis. MPHA took applications only from 12 a.m. Tuesday, October 13, 2026 until 11:59 p.m. Thursday, October 15, 2026, when, in MPHA's words, \"The waiting list will close for new applications.\" That window has passed, so do not apply until MPHA announces a new one (the portal line \"Bring It Home - Open until 11:59pm on Thursday, October 15, 2026\" refers to the old window). Applying entered a lottery for up to 1,500 waitlist spots, with households with children under 18 and households at or below 30 percent of area median income placed first. MPHA said applicants would see their status in RentCafe by November 1, 2026; log in at portal.mphaonline.org to check yours."
+    },
+    {
+      "program": "Public housing high-rises (studio and one-bedroom)",
+      "status": "Open: Near Elderly (50 to 61), Elderly (62+) and Disabled lists",
+      "note": "MPHA's applicant portal, checked November 3, 2026, lists \"Near Elderly - Open,\" \"Elderly – Open\" and \"Disabled - Open\" for its studio and one-bedroom high-rise apartments, for 1- and 2-person households with income at or below 80 percent of area median income. Near-elderly and disabled applicants pre-apply online at portal.mphaonline.org. Seniors 62 and older apply in person at 1001 Washington Avenue North or ask for a paper application by mail, because the portal says \"Pre-applications for the Elderly Waiting List are not currently available online.\" MPHA's senior page lists in-person applications Monday, Tuesday, Thursday and Friday, 8:00 a.m. to 3:30 p.m."
+    },
+    {
+      "program": "Public housing for families (2 to 5 bedrooms)",
+      "status": "Closed",
+      "note": "MPHA's Housing for Families page says: \"MPHA's waitlist for family housing is currently closed,\" and the portal lists its 2-, 3-, 4- and 5-bedroom wait lists as \"Closed\" (checked November 3, 2026). The last opening MPHA describes ran October 10 to 15, 2024 and was followed by a lottery. No reopening date is posted."
+    }
+  ],
+  "also_serving": [
+    "<strong>Metro HRA</strong>, the housing authority of the Metropolitan Council, HUD code MN163, program type Section 8, runs what it calls the largest voucher program in Minnesota for nearly 100 communities in Anoka, Carver and most of suburban Hennepin and Ramsey counties; the city list on its Service Area page does not include Minneapolis or St. Paul. Its Housing Choice Voucher page said on November 3, 2026: \"The waitlist is currently closed. Applications are only accepted when Metro HRA announces an open waitlist period.\" Its Bring It Home page also showed \"Waiting List Closed,\" with Metro HRA inviting households already on its voucher list. 390 Robert St. N., St. Paul; applications and wait list (651) 602-1880, general questions (651) 602-1428 (Metro HRA's Contact page).",
+    "<strong>Public Housing Agency of the City of St Paul</strong>, HUD code MN001, 555 N. Wabasha Street, St. Paul, (651) 298-5664 (HUD's Minnesota list), runs St. Paul's own vouchers and public housing.",
+    "Several suburbs run their own housing authorities, including the <strong>Bloomington HRA</strong> (HUD code MN152, (952) 563-8937), the <strong>Richfield HRA</strong> (MN216), the <strong>Plymouth HRA</strong> (MN170) and the <strong>Hopkins HRA</strong> (MN078), all on HUD's Minnesota list. HUD's list has no separate Hennepin County housing authority.",
+    "<strong>MPHA is not an emergency rent fund.</strong> If you are behind on rent, dial 211 and see our <a href=\"../cities/minneapolis\">Minneapolis housing resources page</a> for the City's emergency rental assistance, Hennepin County's rent help and free tenant advice from HOME Line."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Minneapolis Section 8 waiting list open?",
+      "a": "No. As of November 3, 2026, MPHA's Tenant-Based Vouchers page says \"The Housing Choice Voucher waitlist is currently closed for new applications,\" and MPHA's portal lists \"Housing Choice Voucher – Closed.\" MPHA posts no reopening date, and says it had not taken public applications for any tenant-based voucher between 2019 and its October 2026 Bring It Home window, which closed October 15, 2026. If you live in the suburbs, Metro HRA's voucher list is closed too. The lists that are open in Minneapolis right now are MPHA's high-rise public housing lists for people 50 and older and for people with disabilities."
+    },
+    {
+      "q": "What was the Bring It Home waiting list, and how do I find out if I got on it?",
+      "a": "Bring It Home is a state-funded rental voucher from Minnesota Housing that works like Section 8. MPHA took applications for it only from October 13 to October 15, 2026, for households that live in Minnesota, pay more than 30 percent of their income for rent, are not already in a Section 8 program, and are willing to live in Minneapolis. The window is over. Applying entered a lottery for up to 1,500 spots, with households with children under 18 and households at or below 30 percent of area median income placed first. MPHA said applicants would be notified of their status in RentCafe by November 1, 2026, so log in to portal.mphaonline.org to see yours. MPHA's Bring It Home email is bih@mplspha.org."
+    },
+    {
+      "q": "Can I apply for MPHA public housing right now?",
+      "a": "Yes, if you are a 1- or 2-person household for a high-rise studio or one-bedroom. MPHA's portal lists the Near Elderly (ages 50 to 61), Elderly (62 and older) and Disabled lists as open, checked November 3, 2026. Near-elderly and disabled applicants pre-apply online at portal.mphaonline.org with a valid email address and full Social Security number. Seniors 62 and older must apply in person at 1001 Washington Avenue North or ask MPHA to mail an application. Family housing, 2 to 5 bedrooms, is closed. For help with the portal, MPHA gives 612-342-1390 and MPHAapplications@mplspha.org."
+    },
+    {
+      "q": "How does MPHA decide who gets a public housing unit first?",
+      "a": "By preference points and date of application. MPHA's 2026 Statement of Policies says it \"will not place any family on the waiting list that does not have a preference.\" For high-rises, an applicant who is 62 or older gets 40 points, one who is 50 to 61 gets 35, one with a disability gets 30, and a U.S. veteran gets 5, and applications are processed by date, time and points. Family housing applications are processed by date and time, not points, and veterans have a preference there too. MPHA also periodically asks applicants to update their information on the portal; miss the deadline and you are removed from the list."
+    },
+    {
+      "q": "Is Metro HRA the same as MPHA?",
+      "a": "No. Metro HRA is the housing authority of the Metropolitan Council, HUD code MN163, based at 390 Robert St. N. in St. Paul. It serves nearly 100 suburban communities in Anoka, Carver and most of suburban Hennepin and Ramsey counties, but not Minneapolis or St. Paul. On November 3, 2026 its Housing Choice Voucher page said \"The waitlist is currently closed.\" Metro HRA says it takes applications only during an announced open period, picks households at random, and estimates a wait of up to 5 years. For its application and wait list line, call 651-602-1880."
+    },
+    {
+      "q": "Which MPHA phone number should I call?",
+      "a": "It depends on the question. MPHA's main line, 612-342-1400, is listed as a voicemail box; it is in the footer of every MPHA page, on the Contact page and in HUD's directory for MN002. For vouchers, the Housing Choice Vouchers office is 612-342-1480 (footer, Contact page and the Bring It Home release). For public housing applications and leasing, call 612-342-1390 (footer, Contact page and the high-rise application pages). To check your place on the Section 8 waitlist, MPHA's Tenant-Based Vouchers page gives 612-335-4404, and to update your waitlist information you can email hcvwaitinglist@mplspha.org."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MPHA - Tenant-Based Vouchers (waitlist currently closed, status line, update form)",
+      "url": "https://mphaonline.org/housing-choice-vouchers/tenant-based-vouchers/"
+    },
+    {
+      "label": "MPHA - Applicant portal (Housing Choice Voucher closed, family lists closed, high-rise lists open)",
+      "url": "https://portal.mphaonline.org/"
+    },
+    {
+      "label": "MPHA - MPHA to Open Housing Voucher Waitlist in October (Bring It Home, October 13-15, 2026)",
+      "url": "https://mphaonline.org/news/mpha-to-open-housing-voucher-waitlist-in-october/"
+    },
+    {
+      "label": "MPHA - Special Purpose Programs (Bring It Home, Community Choice Demonstration, FUP)",
+      "url": "https://mphaonline.org/housing-choice-vouchers/special-purpose-programs/"
+    },
+    {
+      "label": "MPHA - MPHA Housing (nearly 6,000 units, family waitlist closed)",
+      "url": "https://mphaonline.org/mpha-housing/"
+    },
+    {
+      "label": "MPHA - Housing for Families (waitlist currently closed, October 2024 opening)",
+      "url": "https://mphaonline.org/mpha-housing/housing-for-families/"
+    },
+    {
+      "label": "MPHA - Housing for Seniors (in-person applications)",
+      "url": "https://mphaonline.org/mpha-housing/housing-for-seniors/"
+    },
+    {
+      "label": "MPHA - Housing for Near Elderly (online pre-application)",
+      "url": "https://mphaonline.org/mpha-housing/housing-for-near-elderly/"
+    },
+    {
+      "label": "MPHA - 2026 Statement of Policies (preference points)",
+      "url": "https://mphaonline.org/wp-content/uploads/2026/05/2026-MPHA-Housing-Statement-of-Policies.pdf"
+    },
+    {
+      "label": "MPHA - Contact (main line, voucher office, leasing)",
+      "url": "https://mphaonline.org/about/contact/"
+    },
+    {
+      "label": "Metro HRA - Housing Choice Voucher (Section 8) (waitlist currently closed)",
+      "url": "https://metrohra.metrocouncil.org/tenants-and-applicants/rent-assistance/housing-choice-voucher-section-8/"
+    },
+    {
+      "label": "Metro HRA - Service area",
+      "url": "https://metrohra.metrocouncil.org/tenants-and-applicants/service-area/"
+    },
+    {
+      "label": "Metro HRA - Contact us",
+      "url": "https://metrohra.metrocouncil.org/contact-us/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Minnesota (MN002 Combined; MN163; MN001; MN152)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_MN.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "MPHA, Minneapolis: Sección 8 cerrada, listas de vivienda pública en torres abiertas, teléfonos y cómo solicitar. Guía independiente. Verificado 3 nov 2026.",
+    "serves": "la ciudad de Minneapolis, Minnesota",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Minneapolis Public Housing Authority (MPHA) es la agencia de vivienda pública de la ciudad de Minneapolis. HUD la registra, con su nombre legal PHA in and for the City of Minneapolis, como la PHA MN002 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública. MPHA dice que es dueña y administradora de casi 6,000 viviendas de alquiler, la mayoría estudios y apartamentos de una recámara en 42 torres, y que administra casi 7,500 vales, entre vales para inquilinos y vales basados en proyectos. Su sede está en 1001 N Washington Ave., Minneapolis, MN 55401. En resumen, hoy: la lista federal de la Sección 8 está cerrada, las listas de vivienda pública para familias (de 2 a 5 recámaras) están cerradas, y las listas de las torres de MPHA para personas mayores, personas de 50 a 61 años y personas con discapacidad están abiertas. Un periodo único para el vale estatal Bring It Home fue del 13 al 15 de octubre de 2026 y ya terminó. Los suburbios alrededor de la ciudad los atiende otra agencia, Metro HRA, cuya lista de vales también está cerrada. Esta página explica las palabras exactas de MPHA, cómo solicitar en una torre, los puntos de preferencia y a qué número llamar.",
+    "programs": [
+      "Housing Choice Vouchers (Sección 8), más de 7,000 vales para inquilinos",
+      "Vales basados en proyectos (Project-Based Vouchers) en edificios privados, que se llenan desde la lista de espera de vales de MPHA",
+      "Vivienda pública y vivienda muy asequible, casi 6,000 viviendas: 42 torres, 184 casas familiares en Glendale, más de 700 casas familiares dispersas y nuevos multifamiliares",
+      "Vales estatales Bring It Home, pagados con una subvención de Minnesota Housing de $21 millones por dos años y que solo se pueden usar en Minneapolis",
+      "Vales para fines especiales por referencia, como Stable Homes Stable Schools, la Community Choice Demonstration con Metro HRA, HUD-VASH y Family Unification"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 3 de noviembre de 2026). La página de vales para inquilinos de MPHA tiene el título \"Applying for Housing Vouchers – Waitlist Currently Closed\" (lista cerrada actualmente) y dice: \"The Housing Choice Voucher waitlist is currently closed for new applications, you may check back periodically for any updates\" (la lista de la Sección 8 está cerrada a nuevas solicitudes; vuelva a revisar de vez en cuando). El portal de solicitantes de MPHA dice \"Housing Choice Voucher – Closed\" (cerrada). MPHA no da fecha de reapertura. Su comunicado del 1 de octubre de 2026 llamó al periodo de Bring It Home \"the first time MPHA has accepted public applications for any tenant-based housing assistance voucher since 2019\" (la primera vez desde 2019 que MPHA acepta solicitudes del público para un vale de inquilino). Si cree que ya está en la lista, MPHA dice que llame al 612-335-4404 con el número de Seguro Social y la fecha de nacimiento del jefe de hogar."
+      },
+      {
+        "program": "Bring It Home (vale estatal)",
+        "status": "Cerrada desde el 15 de octubre de 2026",
+        "note": "Bring It Home (BIH) es un vale de Minnesota Housing que funciona como la Sección 8; los vales BIH de MPHA solo se pueden usar en Minneapolis. MPHA aceptó solicitudes únicamente desde las 12 a.m. del martes 13 de octubre de 2026 hasta las 11:59 p.m. del jueves 15 de octubre de 2026, cuando, en palabras de MPHA, \"The waiting list will close for new applications\" (la lista se cerrará a nuevas solicitudes). Ese periodo ya pasó, así que no solicite hasta que MPHA anuncie uno nuevo (la línea del portal \"Bring It Home - Open until 11:59pm on Thursday, October 15, 2026\" se refiere al periodo anterior). Solicitar lo metía en un sorteo de hasta 1,500 lugares, con prioridad para hogares con menores de 18 años y hogares con ingresos de 30 por ciento o menos del ingreso medio del área. MPHA dijo que los solicitantes verían su estado en RentCafe a más tardar el 1 de noviembre de 2026; entre a portal.mphaonline.org para revisar el suyo."
+      },
+      {
+        "program": "Torres de vivienda pública (estudios y una recámara)",
+        "status": "Abiertas: listas Near Elderly (50 a 61 años), Elderly (62+) y Disabled",
+        "note": "El portal de solicitantes de MPHA, verificado el 3 de noviembre de 2026, dice \"Near Elderly - Open\", \"Elderly – Open\" y \"Disabled - Open\" (abiertas) para sus estudios y apartamentos de una recámara en torres, para hogares de 1 o 2 personas con ingresos de 80 por ciento o menos del ingreso medio del área. Las personas de 50 a 61 años y las personas con discapacidad presentan una presolicitud en línea en portal.mphaonline.org. Las personas de 62 años o más solicitan en persona en 1001 Washington Avenue North o piden que les envíen una solicitud en papel por correo, porque el portal dice \"Pre-applications for the Elderly Waiting List are not currently available online\" (la presolicitud para la lista de personas mayores no está disponible en línea por ahora). La página de MPHA para personas mayores indica solicitudes en persona los lunes, martes, jueves y viernes, de 8:00 a.m. a 3:30 p.m."
+      },
+      {
+        "program": "Vivienda pública para familias (de 2 a 5 recámaras)",
+        "status": "Cerrada",
+        "note": "La página Housing for Families de MPHA dice: \"MPHA's waitlist for family housing is currently closed\" (la lista de vivienda para familias está cerrada actualmente), y el portal muestra sus listas de 2, 3, 4 y 5 recámaras como \"Closed\" (cerradas) (verificado el 3 de noviembre de 2026). La última apertura que describe MPHA fue del 10 al 15 de octubre de 2024, seguida de un sorteo. No hay fecha de reapertura publicada."
+      }
+    ],
+    "also_serving": [
+      "<strong>Metro HRA</strong>, la autoridad de vivienda del Metropolitan Council, código MN163 de HUD, con tipo de programa \"Section 8\", administra lo que llama el programa de vales más grande de Minnesota para casi 100 comunidades de los condados de Anoka y Carver y de la mayor parte de los suburbios de los condados de Hennepin y Ramsey; la lista de ciudades de su página de zona de servicio no incluye Minneapolis ni St. Paul. Su página de vales decía el 3 de noviembre de 2026: \"The waitlist is currently closed. Applications are only accepted when Metro HRA announces an open waitlist period\" (la lista está cerrada; solo se aceptan solicitudes cuando Metro HRA anuncia un periodo de apertura). Su página de Bring It Home también decía \"Waiting List Closed\" (lista cerrada), y Metro HRA está invitando a hogares que ya están en su lista de vales. 390 Robert St. N., St. Paul; solicitudes y lista de espera (651) 602-1880, preguntas generales (651) 602-1428 (página de contacto de Metro HRA).",
+      "La <strong>Public Housing Agency of the City of St Paul</strong>, código MN001 de HUD, 555 N. Wabasha Street, St. Paul, (651) 298-5664 (lista de HUD para Minnesota), administra los vales y la vivienda pública propios de St. Paul.",
+      "Varios suburbios tienen su propia autoridad de vivienda, entre ellas la <strong>Bloomington HRA</strong> (código MN152 de HUD, (952) 563-8937), la <strong>Richfield HRA</strong> (MN216), la <strong>Plymouth HRA</strong> (MN170) y la <strong>Hopkins HRA</strong> (MN078), todas en la lista de HUD para Minnesota. La lista de HUD no tiene una autoridad de vivienda aparte para el condado de Hennepin.",
+      "<strong>MPHA no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../ciudades/minneapolis\">página de recursos de vivienda de Minneapolis</a>: la asistencia de emergencia para la renta de la Ciudad, la ayuda con la renta del condado de Hennepin y los consejos gratuitos para inquilinos de HOME Line."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Minneapolis?",
+        "a": "No. Al 3 de noviembre de 2026, la página de vales para inquilinos de MPHA dice \"The Housing Choice Voucher waitlist is currently closed for new applications\" (la lista está cerrada a nuevas solicitudes), y el portal de MPHA dice \"Housing Choice Voucher – Closed\" (cerrada). MPHA no publica fecha de reapertura y dice que no había aceptado solicitudes del público para ningún vale de inquilino entre 2019 y su periodo de Bring It Home de octubre de 2026, que cerró el 15 de octubre de 2026. Si vive en los suburbios, la lista de vales de Metro HRA también está cerrada. Las listas abiertas en Minneapolis ahora mismo son las de vivienda pública en torres de MPHA para personas de 50 años o más y para personas con discapacidad."
+      },
+      {
+        "q": "¿Qué era la lista de espera de Bring It Home y cómo sé si quedé en ella?",
+        "a": "Bring It Home es un vale de alquiler estatal de Minnesota Housing que funciona como la Sección 8. MPHA aceptó solicitudes solo del 13 al 15 de octubre de 2026, de hogares que viven en Minnesota, pagan más del 30 por ciento de sus ingresos en renta, no están ya en un programa de la Sección 8 y están dispuestos a vivir en Minneapolis. Ese periodo terminó. Solicitar lo metía en un sorteo de hasta 1,500 lugares, con prioridad para hogares con menores de 18 años y hogares con ingresos de 30 por ciento o menos del ingreso medio del área. MPHA dijo que avisaría a los solicitantes de su estado en RentCafe a más tardar el 1 de noviembre de 2026, así que entre a portal.mphaonline.org para ver el suyo. El correo de MPHA para Bring It Home es bih@mplspha.org."
+      },
+      {
+        "q": "¿Puedo solicitar vivienda pública de MPHA ahora mismo?",
+        "a": "Sí, si es un hogar de 1 o 2 personas y busca un estudio o un apartamento de una recámara en una torre. El portal de MPHA muestra abiertas las listas Near Elderly (de 50 a 61 años), Elderly (62 años o más) y Disabled (personas con discapacidad), verificado el 3 de noviembre de 2026. Las personas de 50 a 61 años y las personas con discapacidad presentan una presolicitud en línea en portal.mphaonline.org con un correo electrónico válido y su número de Seguro Social completo. Las personas de 62 años o más deben solicitar en persona en 1001 Washington Avenue North o pedir que MPHA les envíe una solicitud por correo. La vivienda para familias, de 2 a 5 recámaras, está cerrada. Para ayuda con el portal, MPHA da el 612-342-1390 y el correo MPHAapplications@mplspha.org."
+      },
+      {
+        "q": "¿Cómo decide MPHA quién recibe primero una vivienda pública?",
+        "a": "Por puntos de preferencia y fecha de solicitud. La Declaración de Políticas de 2026 de MPHA dice que \"will not place any family on the waiting list that does not have a preference\" (no pondrá en la lista a ninguna familia que no tenga una preferencia). En las torres, un solicitante de 62 años o más recibe 40 puntos, uno de 50 a 61 años recibe 35, uno con discapacidad recibe 30 y un veterano de EE. UU. recibe 5, y las solicitudes se procesan por fecha, hora y puntos. Las solicitudes de vivienda para familias se procesan por fecha y hora, no por puntos, y ahí los veteranos también tienen preferencia. MPHA además pide de vez en cuando a los solicitantes que actualicen su información en el portal; si no lo hace a tiempo, lo retiran de la lista."
+      },
+      {
+        "q": "¿Metro HRA es lo mismo que MPHA?",
+        "a": "No. Metro HRA es la autoridad de vivienda del Metropolitan Council, código MN163 de HUD, con sede en 390 Robert St. N., en St. Paul. Sirve a casi 100 comunidades suburbanas de los condados de Anoka y Carver y de la mayor parte de los suburbios de Hennepin y Ramsey, pero no a Minneapolis ni a St. Paul. El 3 de noviembre de 2026 su página de vales decía \"The waitlist is currently closed\" (la lista está cerrada actualmente). Metro HRA dice que solo acepta solicitudes durante un periodo de apertura anunciado, elige hogares al azar y calcula una espera de hasta 5 años. Para su línea de solicitudes y lista de espera, llame al 651-602-1880."
+      },
+      {
+        "q": "¿A qué número de MPHA debo llamar?",
+        "a": "Depende de la pregunta. La línea principal de MPHA, el 612-342-1400, aparece como un buzón de voz; está al pie de cada página de MPHA, en la página de contacto y en el directorio de HUD para MN002. Para vales, la oficina de Housing Choice Vouchers es el 612-342-1480 (pie de página, página de contacto y el comunicado de Bring It Home). Para solicitudes de vivienda pública y arrendamiento, llame al 612-342-1390 (pie de página, página de contacto y las páginas de solicitud de las torres). Para saber su lugar en la lista de la Sección 8, la página de vales para inquilinos de MPHA da el 612-335-4404, y para actualizar su información en la lista puede escribir a hcvwaitinglist@mplspha.org."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MPHA - Vales para inquilinos: lista cerrada actualmente, línea de estado, formulario de actualización (en inglés)",
+        "url": "https://mphaonline.org/housing-choice-vouchers/tenant-based-vouchers/"
+      },
+      {
+        "label": "MPHA - Portal de solicitantes: Sección 8 cerrada, listas de familias cerradas, listas de torres abiertas (en inglés)",
+        "url": "https://portal.mphaonline.org/"
+      },
+      {
+        "label": "MPHA - Comunicado sobre la lista de Bring It Home, del 13 al 15 de octubre de 2026 (en inglés)",
+        "url": "https://mphaonline.org/news/mpha-to-open-housing-voucher-waitlist-in-october/"
+      },
+      {
+        "label": "MPHA - Programas para fines especiales: Bring It Home, Community Choice Demonstration, FUP (en inglés)",
+        "url": "https://mphaonline.org/housing-choice-vouchers/special-purpose-programs/"
+      },
+      {
+        "label": "MPHA - MPHA Housing: casi 6,000 viviendas, lista de familias cerrada (en inglés)",
+        "url": "https://mphaonline.org/mpha-housing/"
+      },
+      {
+        "label": "MPHA - Vivienda para familias: lista cerrada, apertura de octubre de 2024 (en inglés)",
+        "url": "https://mphaonline.org/mpha-housing/housing-for-families/"
+      },
+      {
+        "label": "MPHA - Vivienda para personas mayores: solicitudes en persona (en inglés)",
+        "url": "https://mphaonline.org/mpha-housing/housing-for-seniors/"
+      },
+      {
+        "label": "MPHA - Vivienda para personas de 50 a 61 años: presolicitud en línea (en inglés)",
+        "url": "https://mphaonline.org/mpha-housing/housing-for-near-elderly/"
+      },
+      {
+        "label": "MPHA - Declaración de Políticas de 2026: puntos de preferencia (en inglés)",
+        "url": "https://mphaonline.org/wp-content/uploads/2026/05/2026-MPHA-Housing-Statement-of-Policies.pdf"
+      },
+      {
+        "label": "MPHA - Contacto: línea principal, oficina de vales, arrendamiento (en inglés)",
+        "url": "https://mphaonline.org/about/contact/"
+      },
+      {
+        "label": "Metro HRA - Housing Choice Voucher (Sección 8): lista cerrada actualmente (en inglés)",
+        "url": "https://metrohra.metrocouncil.org/tenants-and-applicants/rent-assistance/housing-choice-voucher-section-8/"
+      },
+      {
+        "label": "Metro HRA - Zona de servicio (en inglés)",
+        "url": "https://metrohra.metrocouncil.org/tenants-and-applicants/service-area/"
+      },
+      {
+        "label": "Metro HRA - Contacto (en inglés)",
+        "url": "https://metrohra.metrocouncil.org/contact-us/"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Minnesota: MN002 Combined, MN163, MN001, MN152 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_MN.pdf"
+      }
+    ]
+  }
+}

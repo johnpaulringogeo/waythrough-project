@@ -338,6 +338,7 @@ FAQ_LINK_TARGETS = {
     "ohauthority.org": "https://ohauthority.org",
     "phxhousing.myhousing.com": "https://phxhousing.myhousing.com",
     "planninghcd.cityofomaha.org/for-renters": "https://planninghcd.cityofomaha.org/for-renters",  # bot-blocked to scripts, live for people
+    "portal.mphaonline.org": "https://portal.mphaonline.org/",  # fetched live 2026-11-03 (AUTH7) in a browser: MPHA's RentCafe applicant portal; scripted fetches get 403
     "publichousingapplication.ocd.state.ma.us": "https://publichousingapplication.ocd.state.ma.us",
     "rent-assist.phila.gov": "https://rent-assist.phila.gov",
     "rentful614.com": "https://www.rentful614.com",

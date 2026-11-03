@@ -1,0 +1,213 @@
+{
+  "slug": "cleveland-cmha",
+  "kind": "authority",
+  "name": "Cuyahoga Metropolitan Housing Authority (CMHA)",
+  "schema_name": "Cuyahoga Metropolitan Housing Authority",
+  "short_name": "CMHA",
+  "title_name": "CMHA Cleveland",
+  "meta_description": "Cuyahoga Metropolitan Housing Authority (CMHA Cleveland): Section 8 list open year-round, lottery picks, phones and how to apply. Checked Nov 3, 2026.",
+  "city": "Cleveland",
+  "state": "OH",
+  "serves": "Cleveland and Cuyahoga County, Ohio",
+  "phone": "(216) 348-5000",
+  "official_url": "https://www.cmha.net/",
+  "apply_url": "https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx",
+  "city_slug": "cleveland",
+  "state_slug": "ohio",
+  "updated": "November 3, 2026",
+  "intro": "The Cuyahoga Metropolitan Housing Authority (CMHA) is the public housing agency for Cleveland and the rest of Cuyahoga County. It is not the Columbus Metropolitan Housing Authority, which also calls itself CMHA but is a separate agency for Franklin County, with its own lists and phone numbers. HUD lists the Cuyahoga agency as PHA OH003 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing. CMHA says it was chartered in 1933 as the first public housing authority in the country and counts about 15,000 vouchers and 10,000 units across 60 properties. Its Main Campus is at 8120 Kinsman Road, Cleveland, OH 44104. The short version today: the voucher list never closes. CMHA takes preliminary applications at any time, picks from them by lottery, and lets each application expire after 18 months. This page covers CMHA's exact words on that, the project-based and public housing lists, which phone number to call, CMHA's preferences, and the other agencies around Cleveland that people mix up with CMHA.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), about 15,000 vouchers used across Cuyahoga County",
+    "Project-Based Vouchers in privately owned buildings, where the subsidy stays with the unit",
+    "Public housing and converted (RAD) CMHA properties, about 10,000 units across 60 properties, from high-rises to scattered single-family houses",
+    "HUD-VASH vouchers for homeless veterans referred by the VA, and Family Unification Program vouchers referred by Cuyahoga County Children and Family Services",
+    "Family Self-Sufficiency and other resident services"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Open year-round, with no closing date",
+      "note": "Checked November 3, 2026. CMHA's Housing Choice Voucher page says: \"CMHA is now accepting year-round preliminary applications for Housing Choice Vouchers\" and \"Lottery-style selections from the preliminary applications will be ongoing, and the waiting list will have no closing date.\" The same page adds: \"Preliminary applications are accepted at any time!\" Selection is random: \"CMHA will select applications through multiple mini lotteries from the preliminary application database,\" and \"your name may come up within a few days, or it may take months.\" Each preliminary application \"will be active for 18 months. If your application expires before you're selected, you can immediately submit another one.\" Applying early does not put you ahead."
+    },
+    {
+      "program": "Project-Based Vouchers",
+      "status": "Some property lists open, for applicants who meet set criteria",
+      "note": "CMHA's Project Based Vouchers page says: \"Several project-based waiting lists remain open with preferences for families meeting certain criteria.\" It names two: Chronically Homeless (a person with a disabling condition, or an adult in a homeless family, who has been homeless for a year or more or at least four times in three years) and Fairfax Intergenerational (adults 55 and older with legal custody of one or more minor children). You apply through the same CMHA applicant portal, and CMHA's PBV and Mod Rehab Property List shows the buildings (checked November 3, 2026)."
+    },
+    {
+      "program": "Public housing (CMHA Properties)",
+      "status": "No open-or-closed status posted; a list of currently leasing properties dated February 20, 2026",
+      "note": "CMHA's CMHA Properties page gives no open or closed status. It says \"Approximate waitlist times vary by bedroom size, type of unit (family vs. high rise) and admission preferences,\" and that an Intake Specialist will contact you when your name reaches the top. CMHA's \"Currently Leasing Properties\" guide, which says \"This list was updated on 2/20/26,\" names 11 properties: one-bedroom apartments at Addison Square, Ambleside, Apthorp Tower (East Cleveland), Bohn Tower, Riverview Tower and Springbrook High Rise; one-bedrooms and some studios at Scranton Manhattan; studios and one-bedrooms in the Bellaire Gardens high-rises and three- and four-bedroom Bellaire Wanda Townhomes; two- to five-bedroom apartments at King Kennedy Family; and one- to four-bedroom apartments at Olde Cedar and Outhwaite Homes. Several converted properties have their own RentCafe application link in that guide; the rest use CMHA's applicant portal. Because the guide is from February, call the CMHA Properties Applications Team at (216) 361-3700 before you count on a building (checked November 3, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>Columbus Metropolitan Housing Authority</strong>, HUD code OH001, is the other Ohio \"CMHA.\" It serves Franklin County and central Ohio, not Cleveland, and has its own waiting lists and portal; applying to one does nothing at the other. See our <a href=\"columbus-cmha\">CMHA Columbus page</a>.",
+    "<strong>Parma Public Housing Agency</strong>, HUD code OH073, program type Section 8, is a separate voucher agency inside Cuyahoga County, at 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (HUD's Ohio list). We could not check its waiting-list status on a site of its own.",
+    "<strong>Lake Metropolitan Housing Authority</strong>, HUD code OH025, program type Combined, serves Lake County to the east from 189 First Street, Painesville, (440) 354-3347. <strong>Lorain Metropolitan Housing Authority</strong>, HUD code OH012, serves Lorain County to the west from 1600 Kansas Avenue, Lorain, (440) 288-1600. Both numbers are from HUD's Ohio list.",
+    "<strong>CMHA is not an emergency rent fund.</strong> A voucher picked by lottery will not arrive in time to stop an eviction. If you are behind on rent, dial 211 and see our <a href=\"../cities/cleveland\">Cleveland housing resources page</a> for Cuyahoga County's Prevention, Retention and Contingency program, CHN Housing Partners and Cleveland's free Right to Counsel eviction lawyers."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Cleveland (CMHA) Section 8 waiting list open?",
+      "a": "Yes, and it does not close. As of November 3, 2026, CMHA's Housing Choice Voucher page says CMHA \"is now accepting year-round preliminary applications\" and that \"the waiting list will have no closing date.\" Applying puts you into a lottery pool, not a line: CMHA selects by \"multiple mini lotteries,\" so someone who applied last year has no edge over you. Your preliminary application stays active for 18 months, and if it expires before you are picked, CMHA says you can immediately submit another one. Keep your email, phone, address and income current in the portal, because that is how CMHA reaches you."
+    },
+    {
+      "q": "How do I apply to CMHA for a Housing Choice Voucher?",
+      "a": "Online, through CMHA's applicant portal, which is the Apply button on CMHA's Housing Choice Voucher page. You need an active private email account, because CMHA sends every notice by email, plus your Social Security number, the names and dates of birth of everyone in your household, and each member's income. CMHA says you can use the kiosks and computers at its Main Campus, 8120 Kinsman Road, and borrow internet hotspots from the Cleveland Public Library or the Cuyahoga County Public Library. If you applied in earlier years, CMHA says you need to reapply. CMHA's own FAQ still points to cmha.net/apply, but that address showed a \"not found\" page on November 3, 2026, so use the Apply button instead."
+    },
+    {
+      "q": "Can I apply for CMHA public housing right now?",
+      "a": "CMHA does not post an open or closed status for its properties. What it does post is a \"Currently Leasing Properties\" guide, last updated February 20, 2026, that lists 11 properties, mostly one-bedroom high-rise apartments, plus family units at King Kennedy Family (two to five bedrooms), Olde Cedar and Outhwaite Homes (one to four bedrooms) and the Bellaire Wanda Townhomes (three and four bedrooms). Apply through the link for that property or through CMHA's applicant portal. Because the guide is months old, call CMHA's Properties Applications Team at (216) 361-3700 to confirm a building is still leasing."
+    },
+    {
+      "q": "Is Cleveland's CMHA the same agency as CMHA in Columbus?",
+      "a": "No. The Cuyahoga Metropolitan Housing Authority, HUD code OH003, serves Cleveland and Cuyahoga County. The Columbus Metropolitan Housing Authority, HUD code OH001, serves Franklin County. They share initials and nothing else: separate waiting lists, separate portals and separate phone numbers, and applying to one does not put you on the other. Inside Cuyahoga County there is also a small separate voucher agency, the Parma Public Housing Agency, HUD code OH073."
+    },
+    {
+      "q": "Does CMHA give some applicants priority?",
+      "a": "Yes. CMHA's 2025 PHA Plan ranks its voucher preferences by points: 50 points for families cut from CMHA's voucher program for lack of funding; 40 points for families displaced from CMHA properties, disaster victims, VAWA emergency transfers, homeless veterans referred by the VA for HUD-VASH, Ohio Home Choice referrals, people ready to move on from permanent supportive housing, and Mobility Demonstration families; and 15 points for Family Unification referrals. For public housing, the plan lists ten high-priority preferences, including homeless families with children, involuntary displacement and youth who aged out of foster care, and three standard ones: homeless; working families and people unable to work because of age or disability; and veterans and their families."
+    },
+    {
+      "q": "Which CMHA phone number should I call?",
+      "a": "For a voucher application, call the Applications Division at (216) 431-1471, option 6, or the Client Information Center at (216) 431-1471, option 1. CMHA's Housing Choice Voucher page gives both, and (216) 431-1471 is also the number on CMHA's applicant portal and its Contact page. For CMHA properties, the Contact page lists the Properties Applications Team at (216) 361-3700. CMHA's main number is (216) 348-5000, on its Contact page, in the footer of every CMHA page and in HUD's directory for OH003. Office hours are Monday to Friday, 8 a.m. to 5 p.m."
+    }
+  ],
+  "sources": [
+    {
+      "label": "CMHA - Housing Choice Voucher Applications (year-round applications, no closing date, mini lotteries, 18 months, phones)",
+      "url": "https://www.cmha.net/housing/applicants/housing_choice_vouchers.php"
+    },
+    {
+      "label": "CMHA - Project Based Vouchers (several project-based lists remain open)",
+      "url": "https://www.cmha.net/housing/applicants/project_based_vouchers.php"
+    },
+    {
+      "label": "CMHA - CMHA Properties (waitlist times, local preferences)",
+      "url": "https://www.cmha.net/housing/applicants/cmha_estates.php"
+    },
+    {
+      "label": "CMHA - Currently Leasing Properties (list updated 2/20/26)",
+      "url": "https://www.cmha.net/_T10_R39.php"
+    },
+    {
+      "label": "CMHA - Contact Us (main number, Client Information Center, Properties Applications Team)",
+      "url": "https://www.cmha.net/about_us/contact_us.php"
+    },
+    {
+      "label": "CMHA - About Us (chartered 1933, vouchers and units)",
+      "url": "https://www.cmha.net/about_us/index.php"
+    },
+    {
+      "label": "CMHA - Applicant portal (RentCafe)",
+      "url": "https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx"
+    },
+    {
+      "label": "CMHA - 2025 Public Housing Agency Plan (voucher and public housing preferences)",
+      "url": "https://www.cmha.net/Document%20Center/About%20Us/Official%20Documents/Policies,%20Plans%20&%20Reports/2025%20PHA%20PLAN.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Ohio (OH003 Combined; OH001; OH073; OH025; OH012)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "CMHA Cleveland (Cuyahoga Metropolitan Housing Authority): lista de Sección 8 abierta todo el año, sorteos, teléfonos y cómo solicitar. Verificado 3 nov 2026.",
+    "serves": "Cleveland y el condado de Cuyahoga, Ohio",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Cuyahoga Metropolitan Housing Authority (CMHA) es la agencia de vivienda pública de Cleveland y del resto del condado de Cuyahoga. No es la Columbus Metropolitan Housing Authority, que también se llama CMHA pero es una agencia aparte para el condado de Franklin, con sus propias listas y teléfonos. HUD registra a la agencia de Cuyahoga como la PHA OH003 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública. CMHA dice que se fundó en 1933 como la primera autoridad de vivienda pública del país y cuenta unos 15,000 vales y 10,000 viviendas en 60 propiedades. Su campus principal está en 8120 Kinsman Road, Cleveland, OH 44104. En resumen, hoy: la lista de vales nunca cierra. CMHA acepta presolicitudes en cualquier momento, elige entre ellas por sorteo y cada presolicitud vence a los 18 meses. Esta página explica las palabras exactas de CMHA sobre eso, las listas de vales basados en proyectos y de vivienda pública, a qué número llamar, las preferencias de CMHA y las otras agencias alrededor de Cleveland que la gente confunde con CMHA.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), unos 15,000 vales que se usan en todo el condado de Cuyahoga",
+      "Vales basados en proyectos (Project-Based Vouchers) en edificios privados, donde el subsidio se queda con la vivienda",
+      "Vivienda pública y propiedades de CMHA convertidas (RAD), unas 10,000 viviendas en 60 propiedades, desde torres hasta casas unifamiliares dispersas",
+      "Vales HUD-VASH para veteranos sin hogar referidos por el VA, y vales del Family Unification Program referidos por los Servicios para Niños y Familias del condado de Cuyahoga",
+      "Family Self-Sufficiency y otros servicios para residentes"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Abierta todo el año, sin fecha de cierre",
+        "note": "Verificado el 3 de noviembre de 2026. La página de vales de CMHA dice: \"CMHA is now accepting year-round preliminary applications for Housing Choice Vouchers\" (CMHA acepta presolicitudes de vales todo el año) y \"Lottery-style selections from the preliminary applications will be ongoing, and the waiting list will have no closing date\" (las selecciones por sorteo serán continuas y la lista no tendrá fecha de cierre). La misma página agrega: \"Preliminary applications are accepted at any time!\" (se aceptan presolicitudes en cualquier momento). La selección es al azar: \"CMHA will select applications through multiple mini lotteries from the preliminary application database\" (CMHA elegirá solicitudes mediante varios minisorteos) y \"your name may come up within a few days, or it may take months\" (su nombre puede salir en pocos días o tardar meses). Cada presolicitud \"will be active for 18 months\" (estará activa 18 meses), y si vence antes de que lo elijan, puede presentar otra de inmediato. Solicitar antes no lo pone por delante."
+      },
+      {
+        "program": "Vales basados en proyectos",
+        "status": "Algunas listas de propiedades abiertas, para solicitantes que cumplen ciertos criterios",
+        "note": "La página Project Based Vouchers de CMHA dice: \"Several project-based waiting lists remain open with preferences for families meeting certain criteria\" (varias listas basadas en proyectos siguen abiertas, con preferencias para familias que cumplen ciertos criterios). Nombra dos: Chronically Homeless (una persona con una condición incapacitante, o un adulto de una familia sin hogar, que ha estado sin hogar un año o más o al menos cuatro veces en tres años) y Fairfax Intergenerational (adultos de 55 años o más con la custodia legal de uno o más menores). Se solicita en el mismo portal de solicitantes de CMHA, y la lista de propiedades PBV y Mod Rehab de CMHA muestra los edificios (verificado el 3 de noviembre de 2026)."
+      },
+      {
+        "program": "Vivienda pública (propiedades de CMHA)",
+        "status": "Sin estado de abierta o cerrada publicado; una lista de propiedades que están alquilando, fechada el 20 de febrero de 2026",
+        "note": "La página CMHA Properties no da un estado de abierta o cerrada. Dice que \"Approximate waitlist times vary by bedroom size, type of unit (family vs. high rise) and admission preferences\" (la espera varía según el número de recámaras, el tipo de vivienda y las preferencias) y que un especialista de admisión lo contactará cuando su nombre llegue al primer lugar. La guía \"Currently Leasing Properties\" de CMHA, que dice \"This list was updated on 2/20/26\" (esta lista se actualizó el 20/2/26), nombra 11 propiedades: apartamentos de una recámara en Addison Square, Ambleside, Apthorp Tower (East Cleveland), Bohn Tower, Riverview Tower y Springbrook High Rise; de una recámara y algunos estudios en Scranton Manhattan; estudios y de una recámara en las torres Bellaire Gardens y casas adosadas de tres y cuatro recámaras en Bellaire Wanda Townhomes; apartamentos de dos a cinco recámaras en King Kennedy Family; y de una a cuatro recámaras en Olde Cedar y Outhwaite Homes. Varias propiedades convertidas tienen su propio enlace de solicitud en RentCafe en esa guía; las demás usan el portal de solicitantes de CMHA. Como la guía es de febrero, llame al equipo de solicitudes de propiedades de CMHA al (216) 361-3700 antes de contar con un edificio (verificado el 3 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Columbus Metropolitan Housing Authority</strong>, código OH001 de HUD, es la otra \"CMHA\" de Ohio. Sirve al condado de Franklin y al centro de Ohio, no a Cleveland, y tiene sus propias listas de espera y su propio portal; solicitar en una no cuenta en la otra. Vea nuestra <a href=\"columbus-cmha\">página de CMHA Columbus</a>.",
+      "La <strong>Parma Public Housing Agency</strong>, código OH073 de HUD, con tipo de programa \"Section 8\", es una agencia de vales aparte dentro del condado de Cuyahoga, en 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (lista de HUD para Ohio). No pudimos verificar el estado de su lista en un sitio propio.",
+      "La <strong>Lake Metropolitan Housing Authority</strong>, código OH025 de HUD, con tipo de programa \"Combined\", sirve al condado de Lake, al este, desde 189 First Street, Painesville, (440) 354-3347. La <strong>Lorain Metropolitan Housing Authority</strong>, código OH012 de HUD, sirve al condado de Lorain, al oeste, desde 1600 Kansas Avenue, Lorain, (440) 288-1600. Ambos números son de la lista de HUD para Ohio.",
+      "<strong>CMHA no es un fondo de emergencia para la renta.</strong> Un vale elegido por sorteo no llegará a tiempo para detener un desalojo. Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../ciudades/cleveland\">página de recursos de vivienda de Cleveland</a>: el programa Prevention, Retention and Contingency del condado de Cuyahoga, CHN Housing Partners y los abogados gratuitos contra desalojos del programa Right to Counsel de Cleveland."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de CMHA en Cleveland?",
+        "a": "Sí, y no cierra. Al 3 de noviembre de 2026, la página de vales de CMHA dice que CMHA \"is now accepting year-round preliminary applications\" (acepta presolicitudes todo el año) y que \"the waiting list will have no closing date\" (la lista no tendrá fecha de cierre). Solicitar lo mete en un sorteo, no en una fila: CMHA elige mediante \"multiple mini lotteries\" (varios minisorteos), así que quien solicitó el año pasado no le lleva ventaja. Su presolicitud sigue activa 18 meses, y si vence antes de que lo elijan, CMHA dice que puede presentar otra de inmediato. Mantenga al día su correo, teléfono, dirección e ingresos en el portal, porque así es como CMHA se comunica con usted."
+      },
+      {
+        "q": "¿Cómo solicito un vale de la Sección 8 a CMHA?",
+        "a": "En línea, en el portal de solicitantes de CMHA, que es el botón Apply de la página de vales de CMHA. Necesita una cuenta de correo electrónico personal activa, porque CMHA envía todos los avisos por correo, además de su número de Seguro Social, los nombres y fechas de nacimiento de todos en su hogar y los ingresos de cada uno. CMHA dice que puede usar los quioscos y computadoras de su campus principal, en 8120 Kinsman Road, y pedir prestados puntos de acceso a internet en la Cleveland Public Library o la Cuyahoga County Public Library. Si solicitó en años anteriores, CMHA dice que debe volver a solicitar. Las preguntas frecuentes de CMHA todavía remiten a cmha.net/apply, pero esa dirección mostraba una página de \"no encontrado\" el 3 de noviembre de 2026, así que use el botón Apply."
+      },
+      {
+        "q": "¿Puedo solicitar vivienda pública de CMHA ahora mismo?",
+        "a": "CMHA no publica un estado de abierta o cerrada para sus propiedades. Lo que sí publica es una guía \"Currently Leasing Properties\" (propiedades que están alquilando), actualizada por última vez el 20 de febrero de 2026, con 11 propiedades, sobre todo apartamentos de una recámara en torres, además de viviendas familiares en King Kennedy Family (de dos a cinco recámaras), Olde Cedar y Outhwaite Homes (de una a cuatro recámaras) y Bellaire Wanda Townhomes (de tres y cuatro recámaras). Solicite con el enlace de esa propiedad o en el portal de solicitantes de CMHA. Como la guía tiene meses, llame al equipo de solicitudes de propiedades de CMHA al (216) 361-3700 para confirmar que el edificio sigue alquilando."
+      },
+      {
+        "q": "¿La CMHA de Cleveland es la misma agencia que la CMHA de Columbus?",
+        "a": "No. La Cuyahoga Metropolitan Housing Authority, código OH003 de HUD, sirve a Cleveland y al condado de Cuyahoga. La Columbus Metropolitan Housing Authority, código OH001 de HUD, sirve al condado de Franklin. Comparten las siglas y nada más: listas de espera, portales y teléfonos distintos, y solicitar en una no lo inscribe en la otra. Dentro del condado de Cuyahoga también existe una pequeña agencia de vales aparte, la Parma Public Housing Agency, código OH073 de HUD."
+      },
+      {
+        "q": "¿CMHA da prioridad a algunos solicitantes?",
+        "a": "Sí. El Plan de la PHA de 2025 de CMHA ordena sus preferencias de vales por puntos: 50 puntos para familias que perdieron su vale de CMHA por falta de fondos; 40 puntos para familias desplazadas de propiedades de CMHA, víctimas de desastres, traslados de emergencia bajo VAWA, veteranos sin hogar referidos por el VA para HUD-VASH, referidos de Ohio Home Choice, personas listas para dejar la vivienda de apoyo permanente y familias de la Mobility Demonstration; y 15 puntos para referidos del Family Unification Program. Para la vivienda pública, el plan enumera diez preferencias de alta prioridad, entre ellas familias sin hogar con niños, desplazamiento involuntario y jóvenes que salieron del sistema de crianza temporal, y tres preferencias estándar: personas sin hogar; familias que trabajan y personas que no pueden trabajar por edad o discapacidad; y veteranos y sus familias."
+      },
+      {
+        "q": "¿A qué número de CMHA debo llamar?",
+        "a": "Para una solicitud de vale, llame a la División de Solicitudes al (216) 431-1471, opción 6, o al Centro de Información al Cliente al (216) 431-1471, opción 1. La página de vales de CMHA da los dos, y el (216) 431-1471 también aparece en el portal de solicitantes de CMHA y en su página de contacto. Para las propiedades de CMHA, la página de contacto da el equipo de solicitudes de propiedades al (216) 361-3700. El número principal de CMHA es el (216) 348-5000, que aparece en su página de contacto, al pie de cada página de CMHA y en el directorio de HUD para OH003. El horario es de lunes a viernes, de 8 a.m. a 5 p.m."
+      }
+    ],
+    "sources": [
+      {
+        "label": "CMHA - Solicitudes de vales: todo el año, sin fecha de cierre, minisorteos, 18 meses, teléfonos (en inglés)",
+        "url": "https://www.cmha.net/housing/applicants/housing_choice_vouchers.php"
+      },
+      {
+        "label": "CMHA - Project Based Vouchers: varias listas basadas en proyectos siguen abiertas (en inglés)",
+        "url": "https://www.cmha.net/housing/applicants/project_based_vouchers.php"
+      },
+      {
+        "label": "CMHA - CMHA Properties: tiempos de espera, preferencias locales (en inglés)",
+        "url": "https://www.cmha.net/housing/applicants/cmha_estates.php"
+      },
+      {
+        "label": "CMHA - Currently Leasing Properties: lista actualizada el 20/2/26 (en inglés)",
+        "url": "https://www.cmha.net/_T10_R39.php"
+      },
+      {
+        "label": "CMHA - Contact Us: número principal, centro de información, equipo de solicitudes de propiedades (en inglés)",
+        "url": "https://www.cmha.net/about_us/contact_us.php"
+      },
+      {
+        "label": "CMHA - About Us: fundada en 1933, vales y viviendas (en inglés)",
+        "url": "https://www.cmha.net/about_us/index.php"
+      },
+      {
+        "label": "CMHA - Portal de solicitantes (RentCafe, en inglés)",
+        "url": "https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx"
+      },
+      {
+        "label": "CMHA - Plan de la PHA de 2025: preferencias de vales y de vivienda pública (en inglés)",
+        "url": "https://www.cmha.net/Document%20Center/About%20Us/Official%20Documents/Policies,%20Plans%20&%20Reports/2025%20PHA%20PLAN.pdf"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Ohio: OH003 Combined, OH001, OH073, OH025, OH012 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+      }
+    ]
+  }
+}

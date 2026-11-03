@@ -1,0 +1,227 @@
+{
+  "slug": "kansas-city-hakc",
+  "kind": "authority",
+  "name": "Housing Authority of Kansas City, Missouri (HAKC)",
+  "schema_name": "Housing Authority of Kansas City, Missouri",
+  "short_name": "HAKC",
+  "title_name": "HAKC Kansas City",
+  "meta_description": "Housing Authority of Kansas City, Missouri (HAKC): Section 8 and public housing waitlist status, phone (816) 968-4100, how to apply. Checked Nov 3, 2026.",
+  "city": "Kansas City",
+  "state": "MO",
+  "serves": "Kansas City, Missouri and Jackson County, with public housing in Jackson, Clay and Platte counties",
+  "phone": "(816) 968-4100",
+  "official_url": "https://www.hakc.org/",
+  "apply_url": "https://www.hakc.org/apply-online",
+  "city_slug": "kansas-city",
+  "state_slug": "missouri",
+  "updated": "November 3, 2026",
+  "intro": "The Housing Authority of Kansas City, Missouri (HAKC), established in 1941, is the public housing agency for Kansas City on the Missouri side of the state line. HUD lists it as PHA MO002 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing, and HAKC says it manages 10,000 vouchers and \"serves Jackson County along with the Kansas City, Missouri Metropolitan Area.\" Its office is at 3822 Summit St., Kansas City, Missouri 64111, open Monday to Friday, 8:30 a.m. to 4:30 p.m. It is a different agency from the Kansas City, Kansas Housing Authority across the state line. The short version today: HAKC's website does not say whether any of its waiting lists is open or closed. What it does publish is one online application, on the Bob.ai platform, that adds you to all of its voucher lists at once, and a second one that adds you to all of its public housing lists, with weekly emails about your place on each. This page covers HAKC's exact words, how its lists and preferences work, the phone numbers, and the other housing authorities in the metro.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), about 10,000 vouchers",
+    "Project-Based Vouchers at 18 properties, all on HAKC's one voucher application",
+    "Public housing at 11 properties in Jackson, Clay and Platte counties; HAKC's homepage counts 1,722 units and its Public Housing page says \"over 1,900\"",
+    "Section 8 Homeownership Program for voucher holders",
+    "Family Self-Sufficiency, youth, adult and senior programs through Resident Services"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8) and Project-Based Vouchers",
+      "status": "No open-or-closed status posted",
+      "note": "Checked November 3, 2026: no page on hakc.org says the voucher or project-based lists are open or closed, and we found no opening or closing notice among HAKC's 2026 news posts. HAKC's Apply Online page says: \"We have one common application for all our voucher programs, including Project Based Vouchers. We maintain a separate waitlist for programs and our 18 Project-Based Voucher Properties. You submit one application and will be automatically added to 19 waitlists.\" The application link opens a Bob.ai sign-up page that shows no list status before you make an account. HAKC's Administrative Plan says HAKC will close the list when the estimated wait for the newest applicants \"reaches 24 months\" and will announce any reopening \"at least 10 business days prior\" in local media. Its How to Apply page says \"The average wait for voucher assistance is 3 years.\""
+    },
+    {
+      "program": "Public Housing",
+      "status": "No open-or-closed status posted",
+      "note": "HAKC's Apply Online page says: \"We have one common application for our 11 properties. You apply once and are automatically added to 11 waitlists.\" Its Tenant Selection FAQ says the public housing wait \"depends on the bedroom size needed. The average waiting time is 6 to 18 months.\" Paper applications can be picked up at the office and returned to the drop box in the lobby. HAKC says: \"Every Sunday night, we run our waitlists and send an email with your current position on all the waitlists you're a part of.\" When HAKC invites you to send a full application, it expects it within two weeks; after a reminder letter, another two weeks without it removes you \"from all of our waitlists\" (checked November 3, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>Kansas City, Kansas Housing Authority (KCKHA)</strong> is a separate agency across the state line, HUD code KS001, program type Combined, at 1124 N. 9th Street, Kansas City, KS 66101, (913) 281-3300 (KCKHA's homepage and HUD's Kansas list). Its voucher page said on November 3, 2026: \"Currently KCKHA is not accepting applications for the HCV/Section 8 Program. When the wait list opens, announcements will appear on our website.\" Its public housing page takes wait-list applications online, with a separate form for its Bonner Springs properties. KCKHA's own pages give (913) 279-3473 for its voucher office and (913) 279-3441 for Resident Selection.",
+    "<strong>Johnson County Housing Authority</strong>, HUD code KS162, serves Johnson County, Kansas, from 12425 W. 87th St. Pkwy., Lenexa, (913) 715-6600 (HUD's Kansas list).",
+    "On the Missouri side, the <strong>Housing Authority of the City of Independence</strong> (HUD code MO017, (816) 836-9200) and the <strong>Lee's Summit Housing Authority</strong> (HUD code MO030, (816) 524-1100) run their own lists; both numbers are from HUD's Missouri list. HUD's Missouri list has no separate housing authority for Jackson, Clay or Platte County.",
+    "<strong>HAKC is not an emergency rent fund.</strong> If you are behind on rent, dial 211 and see our <a href=\"../cities/kansas-city\">Kansas City housing resources page</a> for the City's tenant assistance providers and free eviction defense through Legal Aid of Western Missouri."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Kansas City, Missouri Section 8 waiting list open?",
+      "a": "HAKC does not say. As of November 3, 2026, no page on hakc.org states that its voucher, project-based or public housing lists are open or closed, so treat any other website that says one way or the other as unconfirmed. What HAKC does show is an Apply Online page with one common application for its voucher programs and one for public housing, on the Bob.ai platform. HAKC's Administrative Plan says a reopening is announced in local media at least 10 business days ahead. If you are not sure your application will be taken, call HAKC at (816) 968-4100."
+    },
+    {
+      "q": "How do I apply to HAKC?",
+      "a": "Online, from HAKC's Apply Online page, which sends you to Bob.ai to make an account, or on paper at the office at 3822 Summit St., returned to the drop box in the lobby. You need an email address, and HAKC strongly suggests a cell phone number that can receive texts. HAKC says to apply you will need a birth certificate, a Social Security card and a valid form of ID. You can apply for both programs: HAKC says once you apply for one, you will be prompted to apply for the other, and each program keeps its own list, so you can stay on one even after the other houses you."
+    },
+    {
+      "q": "How long is the wait for HAKC?",
+      "a": "HAKC gives more than one answer. Its How to Apply page says \"The average wait for voucher assistance is 3 years.\" Its Tenant Selection FAQ says the voucher wait \"averages 1-3 years\" and that public housing averages 6 to 18 months depending on bedroom size. Its Administrative Plan says HAKC will close the voucher list once the estimated wait for the newest applicants reaches 24 months. None of these is a promise, and the Section 8 program is not built for emergencies."
+    },
+    {
+      "q": "Who gets priority on HAKC's lists?",
+      "a": "For vouchers, HAKC's Administrative Plan gives Preference 1 to veterans with an honorable discharge and to homeless households; everyone else is ranked by date and time of application. It also adds a preference for families moving from Emergency Housing Vouchers into regular vouchers as that program winds down. For public housing, HAKC's Public Housing page lists, in order: working, work training program, elderly and disabled; then homeless, job training program, housing factor and rent burden; then non-preference, with applicants ranked by date and time within each group. Bring proof of the preference you claim to your interview."
+    },
+    {
+      "q": "I live in Kansas City, Kansas. Which housing authority do I apply to?",
+      "a": "The Kansas side has its own agency, the Kansas City, Kansas Housing Authority (HUD code KS001, (913) 281-3300), and on November 3, 2026 its voucher page said KCKHA is not accepting applications for the HCV/Section 8 Program. KCKHA's public housing wait list does take applications online. HAKC, on the Missouri side, says on its Public Housing page that \"Anyone seeking housing assistance in the Kansas City, Missouri metropolitan area is eligible to apply for housing assistance,\" so you can also apply to HAKC. In Johnson County, the Johnson County Housing Authority in Lenexa runs a separate program."
+    },
+    {
+      "q": "How do I check my place on the list or update my address?",
+      "a": "Log in to Bob.ai; HAKC runs its lists every Sunday night and emails your position on each one. To change your address, HAKC says to tell it in person or in writing: fill out a change of address form at 3822 Summit St., or fax its Change of Information form to (816) 968-4123. Changing your address with the post office does not change it with HAKC. HAKC's main number is (816) 968-4100, at the top and bottom of every HAKC page, on its Help Center page and in HUD's directory for MO002; for public housing applications, HAKC gives option 3 for the Tenant Selection Department. TTY users can call (800) 735-2966 or 711."
+    }
+  ],
+  "sources": [
+    {
+      "label": "HAKC - Apply Online (one voucher application for 19 waitlists, one public housing application for 11, Sunday position emails, two-week rule)",
+      "url": "https://www.hakc.org/apply-online"
+    },
+    {
+      "label": "HAKC - How to Apply (paper applications, average voucher wait of 3 years)",
+      "url": "https://www.hakc.org/how-to-apply"
+    },
+    {
+      "label": "HAKC - Tenant Selection FAQs (estimated waits, both lists, change of address)",
+      "url": "https://www.hakc.org/tenant-selection-faqs"
+    },
+    {
+      "label": "HAKC - Public Housing (who may apply, local preferences)",
+      "url": "https://www.hakc.org/public-housing"
+    },
+    {
+      "label": "HAKC - How to Apply for Public Housing (Tenant Selection, option 3)",
+      "url": "https://www.hakc.org/how-to-apply-for-public-housing"
+    },
+    {
+      "label": "HAKC - Help Center (address, phone, fax, TTY, hours)",
+      "url": "https://www.hakc.org/help-center"
+    },
+    {
+      "label": "HAKC - Homepage (established 1941, 10,000 vouchers, 1,722 public housing units, service area)",
+      "url": "https://www.hakc.org/"
+    },
+    {
+      "label": "HAKC - HCV Administrative Plan, revised May 2026 (closing and reopening the list, local preferences)",
+      "url": "https://www.hakc.org/utility/openPDF/kchamo/Admin_Plan_05.26.pdf?alt=media"
+    },
+    {
+      "label": "Kansas City, Kansas Housing Authority - Housing Choice Voucher applicants (not accepting applications)",
+      "url": "https://www.kckha.org/housing/voucher_holders/applicants.php"
+    },
+    {
+      "label": "Kansas City, Kansas Housing Authority - Public housing applicants",
+      "url": "https://www.kckha.org/housing/residents/applicants/index.php"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Missouri (MO002 Combined; MO017; MO030)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_MO.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Kansas (KS001 Combined; KS162)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KS.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "HAKC, Kansas City, Missouri: estado de las listas de Sección 8 y vivienda pública, teléfono (816) 968-4100 y cómo solicitar. Verificado el 3 de nov. de 2026.",
+    "serves": "Kansas City, Missouri y el condado de Jackson, con vivienda pública en los condados de Jackson, Clay y Platte",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Housing Authority of Kansas City, Missouri (HAKC), fundada en 1941, es la agencia de vivienda pública de Kansas City del lado de Missouri de la frontera estatal. HUD la registra como la PHA MO002 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública, y HAKC dice que maneja 10,000 vales y que \"serves Jackson County along with the Kansas City, Missouri Metropolitan Area\" (sirve al condado de Jackson y al área metropolitana de Kansas City, Missouri). Su oficina está en 3822 Summit St., Kansas City, Missouri 64111, de lunes a viernes, de 8:30 a.m. a 4:30 p.m. Es una agencia distinta de la Kansas City, Kansas Housing Authority, al otro lado de la frontera estatal. En resumen, hoy: el sitio de HAKC no dice si alguna de sus listas de espera está abierta o cerrada. Lo que sí publica es una solicitud en línea, en la plataforma Bob.ai, que lo inscribe en todas sus listas de vales a la vez, y otra que lo inscribe en todas sus listas de vivienda pública, con correos semanales sobre su lugar en cada una. Esta página explica las palabras exactas de HAKC, cómo funcionan sus listas y preferencias, los teléfonos y las otras autoridades de vivienda del área metropolitana.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), unos 10,000 vales",
+      "Vales basados en proyectos (Project-Based Vouchers) en 18 propiedades, todos en la misma solicitud de vales de HAKC",
+      "Vivienda pública en 11 propiedades en los condados de Jackson, Clay y Platte; la página principal de HAKC cuenta 1,722 viviendas y su página de vivienda pública dice \"over 1,900\" (más de 1,900)",
+      "Programa de compra de vivienda con la Sección 8 (Section 8 Homeownership Program) para quienes ya tienen vale",
+      "Family Self-Sufficiency y programas para jóvenes, adultos y personas mayores a través de Resident Services"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8) y vales basados en proyectos",
+        "status": "Sin estado de abierta o cerrada publicado",
+        "note": "Verificado el 3 de noviembre de 2026: ninguna página de hakc.org dice si las listas de vales o de vales basados en proyectos están abiertas o cerradas, y no encontramos ningún aviso de apertura o cierre entre las noticias de HAKC de 2026. La página Apply Online de HAKC dice: \"We have one common application for all our voucher programs, including Project Based Vouchers. We maintain a separate waitlist for programs and our 18 Project-Based Voucher Properties. You submit one application and will be automatically added to 19 waitlists\" (hay una sola solicitud para todos los programas de vales; usted la presenta una vez y queda inscrito automáticamente en 19 listas). El enlace de solicitud abre una página de registro de Bob.ai que no muestra el estado de ninguna lista antes de crear una cuenta. El Plan Administrativo de HAKC dice que HAKC cerrará la lista cuando la espera estimada de los solicitantes más recientes \"reaches 24 months\" (llegue a 24 meses) y que anunciará cualquier reapertura \"at least 10 business days prior\" (al menos 10 días hábiles antes) en medios locales. Su página How to Apply dice: \"The average wait for voucher assistance is 3 years\" (la espera promedio para un vale es de 3 años)."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Sin estado de abierta o cerrada publicado",
+        "note": "La página Apply Online de HAKC dice: \"We have one common application for our 11 properties. You apply once and are automatically added to 11 waitlists\" (hay una sola solicitud para sus 11 propiedades; usted solicita una vez y queda inscrito automáticamente en 11 listas). Sus preguntas frecuentes de selección de inquilinos dicen que la espera para vivienda pública depende del número de recámaras y que \"The average waiting time is 6 to 18 months\" (la espera promedio es de 6 a 18 meses). Las solicitudes en papel se recogen en la oficina y se devuelven en el buzón del vestíbulo. HAKC dice: \"Every Sunday night, we run our waitlists and send an email with your current position on all the waitlists you're a part of\" (cada domingo por la noche revisamos las listas y enviamos un correo con su lugar en cada lista). Cuando HAKC lo invita a enviar la solicitud completa, espera recibirla en dos semanas; después de una carta de aviso, otras dos semanas sin recibirla lo retiran \"from all of our waitlists\" (de todas nuestras listas) (verificado el 3 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Kansas City, Kansas Housing Authority (KCKHA)</strong> es una agencia aparte al otro lado de la frontera estatal, código KS001 de HUD, con tipo de programa \"Combined\", en 1124 N. 9th Street, Kansas City, KS 66101, (913) 281-3300 (página principal de KCKHA y lista de HUD para Kansas). Su página de vales decía el 3 de noviembre de 2026: \"Currently KCKHA is not accepting applications for the HCV/Section 8 Program. When the wait list opens, announcements will appear on our website\" (actualmente KCKHA no acepta solicitudes para la Sección 8; cuando abra la lista, lo anunciará en su sitio web). Su página de vivienda pública recibe solicitudes para la lista en línea, con un formulario aparte para sus propiedades de Bonner Springs. Las páginas de KCKHA dan el (913) 279-3473 para su oficina de vales y el (913) 279-3441 para Resident Selection.",
+      "La <strong>Johnson County Housing Authority</strong>, código KS162 de HUD, sirve al condado de Johnson, Kansas, desde 12425 W. 87th St. Pkwy., Lenexa, (913) 715-6600 (lista de HUD para Kansas).",
+      "Del lado de Missouri, la <strong>Housing Authority of the City of Independence</strong> (código MO017 de HUD, (816) 836-9200) y la <strong>Lee's Summit Housing Authority</strong> (código MO030 de HUD, (816) 524-1100) manejan sus propias listas; ambos números son de la lista de HUD para Missouri. La lista de HUD para Missouri no tiene una autoridad de vivienda aparte para los condados de Jackson, Clay o Platte.",
+      "<strong>HAKC no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../ciudades/kansas-city\">página de recursos de vivienda de Kansas City</a>: los proveedores de ayuda para inquilinos de la Ciudad y la defensa gratuita contra desalojos de Legal Aid of Western Missouri."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Kansas City, Missouri?",
+        "a": "HAKC no lo dice. Al 3 de noviembre de 2026, ninguna página de hakc.org indica si sus listas de vales, de vales basados en proyectos o de vivienda pública están abiertas o cerradas, así que tome como no confirmado lo que diga cualquier otro sitio en un sentido u otro. Lo que HAKC sí muestra es una página Apply Online con una solicitud común para sus programas de vales y otra para vivienda pública, en la plataforma Bob.ai. El Plan Administrativo de HAKC dice que una reapertura se anuncia en medios locales con al menos 10 días hábiles de anticipación. Si no está seguro de que aceptarán su solicitud, llame a HAKC al (816) 968-4100."
+      },
+      {
+        "q": "¿Cómo solicito a HAKC?",
+        "a": "En línea, desde la página Apply Online de HAKC, que lo lleva a Bob.ai para crear una cuenta, o en papel en la oficina de 3822 Summit St., devolviendo la solicitud en el buzón del vestíbulo. Necesita un correo electrónico, y HAKC recomienda mucho un número de celular que reciba mensajes de texto. HAKC dice que para solicitar necesitará un acta de nacimiento, una tarjeta de Seguro Social y una identificación válida. Puede solicitar los dos programas: HAKC dice que al solicitar uno le pedirán solicitar el otro, y cada programa tiene su propia lista, así que puede seguir en una aunque la otra ya le haya dado vivienda."
+      },
+      {
+        "q": "¿Cuánto hay que esperar con HAKC?",
+        "a": "HAKC da más de una respuesta. Su página How to Apply dice \"The average wait for voucher assistance is 3 years\" (la espera promedio para un vale es de 3 años). Sus preguntas frecuentes de selección de inquilinos dicen que la espera de vales \"averages 1-3 years\" (promedia de 1 a 3 años) y que la vivienda pública promedia de 6 a 18 meses según el número de recámaras. Su Plan Administrativo dice que HAKC cerrará la lista de vales cuando la espera estimada de los solicitantes más recientes llegue a 24 meses. Ninguna de estas cifras es una promesa, y la Sección 8 no está hecha para emergencias."
+      },
+      {
+        "q": "¿Quién tiene prioridad en las listas de HAKC?",
+        "a": "Para los vales, el Plan Administrativo de HAKC da la Preferencia 1 a los veteranos con baja honorable y a los hogares sin vivienda; los demás se ordenan por fecha y hora de solicitud. También agrega una preferencia para familias que pasan de los Emergency Housing Vouchers a los vales regulares a medida que termina ese programa. Para la vivienda pública, la página de vivienda pública de HAKC enumera, en este orden: personas que trabajan, en un programa de capacitación laboral, personas mayores y personas con discapacidad; luego personas sin hogar, en capacitación para el empleo, con un problema de vivienda o con una renta excesiva para sus ingresos; y luego quienes no tienen preferencia, ordenados por fecha y hora dentro de cada grupo. Lleve a su entrevista prueba de la preferencia que reclama."
+      },
+      {
+        "q": "Vivo en Kansas City, Kansas. ¿A qué autoridad de vivienda solicito?",
+        "a": "El lado de Kansas tiene su propia agencia, la Kansas City, Kansas Housing Authority (código KS001 de HUD, (913) 281-3300), y el 3 de noviembre de 2026 su página de vales decía que KCKHA no acepta solicitudes para la Sección 8. La lista de vivienda pública de KCKHA sí recibe solicitudes en línea. HAKC, del lado de Missouri, dice en su página de vivienda pública que \"Anyone seeking housing assistance in the Kansas City, Missouri metropolitan area is eligible to apply for housing assistance\" (cualquier persona que busque ayuda de vivienda en el área metropolitana de Kansas City, Missouri puede solicitar), así que también puede solicitar a HAKC. En el condado de Johnson, la Johnson County Housing Authority de Lenexa tiene un programa aparte."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en la lista o actualizo mi dirección?",
+        "a": "Entre a Bob.ai; HAKC revisa sus listas cada domingo por la noche y le envía por correo su lugar en cada una. Para cambiar su dirección, HAKC dice que se lo comunique en persona o por escrito: llene un formulario de cambio de dirección en 3822 Summit St., o envíe por fax su formulario Change of Information al (816) 968-4123. Cambiar su dirección en el correo postal no la cambia con HAKC. El número principal de HAKC es el (816) 968-4100, arriba y abajo de cada página de HAKC, en su página Help Center y en el directorio de HUD para MO002; para solicitudes de vivienda pública, HAKC indica la opción 3 para el departamento de selección de inquilinos. Las personas que usan TTY pueden llamar al (800) 735-2966 o al 711."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HAKC - Apply Online: una solicitud de vales para 19 listas, una de vivienda pública para 11, correos de los domingos, regla de dos semanas (en inglés)",
+        "url": "https://www.hakc.org/apply-online"
+      },
+      {
+        "label": "HAKC - How to Apply: solicitudes en papel, espera promedio de 3 años (en inglés)",
+        "url": "https://www.hakc.org/how-to-apply"
+      },
+      {
+        "label": "HAKC - Preguntas frecuentes de selección de inquilinos: esperas, ambas listas, cambio de dirección (en inglés)",
+        "url": "https://www.hakc.org/tenant-selection-faqs"
+      },
+      {
+        "label": "HAKC - Public Housing: quién puede solicitar, preferencias locales (en inglés)",
+        "url": "https://www.hakc.org/public-housing"
+      },
+      {
+        "label": "HAKC - Cómo solicitar vivienda pública: selección de inquilinos, opción 3 (en inglés)",
+        "url": "https://www.hakc.org/how-to-apply-for-public-housing"
+      },
+      {
+        "label": "HAKC - Help Center: dirección, teléfono, fax, TTY, horario (en inglés)",
+        "url": "https://www.hakc.org/help-center"
+      },
+      {
+        "label": "HAKC - Página principal: fundada en 1941, 10,000 vales, 1,722 viviendas públicas, zona de servicio (en inglés)",
+        "url": "https://www.hakc.org/"
+      },
+      {
+        "label": "HAKC - Plan Administrativo de vales, revisado en mayo de 2026: cierre y reapertura de la lista, preferencias locales (en inglés)",
+        "url": "https://www.hakc.org/utility/openPDF/kchamo/Admin_Plan_05.26.pdf?alt=media"
+      },
+      {
+        "label": "Kansas City, Kansas Housing Authority - Solicitantes de vales: no acepta solicitudes (en inglés)",
+        "url": "https://www.kckha.org/housing/voucher_holders/applicants.php"
+      },
+      {
+        "label": "Kansas City, Kansas Housing Authority - Solicitantes de vivienda pública (en inglés)",
+        "url": "https://www.kckha.org/housing/residents/applicants/index.php"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Missouri: MO002 Combined, MO017, MO030 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_MO.pdf"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Kansas: KS001 Combined, KS162 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KS.pdf"
+      }
+    ]
+  }
+}
