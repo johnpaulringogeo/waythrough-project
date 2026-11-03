@@ -1149,7 +1149,7 @@
   },
   {
     "title": "What Does PHA Stand For? Find Your Public Housing Authority",
-    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 41 authorities or on HUD’s list.",
+    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 44 authorities or on HUD’s list.",
     "url": "/resources/guides/how-to-find-your-pha",
     "category": "Guide",
     "body": "What Does PHA Stand For? Find Your Public Housing Authority Home / Resources / Find Your PHA How-To Guide What Does PHA Stand For? Find Your Local Public Housing Authority Matt · 6 min read PHA stands for Public Housing Authority — the local government agency that runs Section 8 Housing Choice Vouch"
@@ -4242,6 +4242,27 @@
     "body": "DC Housing Authority Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / DCHA Housing Authority District of Columbia Housing Authority (DCHA) Serves the District of Columbia · Last checked November 3, 2026 Waythrough is an independent resource, not DCHA. We summarize public in"
   },
   {
+    "title": "Austin Housing Authority (HACA) Section 8 Waitlist",
+    "description": "Austin Housing Authority in Austin, TX: Section 8 waitlist status (checked November 3, 2026), phone (512) 477-4488, programs and how to apply.",
+    "url": "/resources/housing-authorities/austin-haca",
+    "category": "Guide",
+    "body": "Austin Housing Authority (HACA) Section 8 Waitlist Home / Resources / Housing Authorities / AHA Housing Authority Austin Housing Authority (HACA) Serves the City of Austin, Texas, with vouchers usable in Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle and Manor · Last checked Novemb"
+  },
+  {
+    "title": "Fort Worth Housing Solutions (FWHS) Section 8 Waitlist",
+    "description": "Fort Worth Housing Solutions in Fort Worth, TX: Section 8 waitlist status (checked November 3, 2026), phone (817) 333-3400, programs and how to apply.",
+    "url": "/resources/housing-authorities/fort-worth-fwhs",
+    "category": "Guide",
+    "body": "Fort Worth Housing Solutions (FWHS) Section 8 Waitlist Home / Resources / Housing Authorities / FWHS Housing Authority Fort Worth Housing Solutions (FWHS) Serves the City of Fort Worth, Texas · Last checked November 3, 2026 Waythrough is an independent resource, not FWHS. We summarize public informa"
+  },
+  {
+    "title": "Opportunity Home (SAHA) Section 8 Waitlist & How to Apply",
+    "description": "Opportunity Home (SAHA) in San Antonio, TX: Section 8 waitlist status (checked November 3, 2026), phone (210) 477-6000, programs and how to apply.",
+    "url": "/resources/housing-authorities/san-antonio-saha",
+    "category": "Guide",
+    "body": "Opportunity Home (SAHA) Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / Opportunity Home Housing Authority Opportunity Home San Antonio (formerly SAHA) Serves the City of San Antonio, Texas · Last checked November 3, 2026 Waythrough is an independent resource, not Opportun"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4779,5 +4800,26 @@
     "url": "/es/recursos/autoridades-de-vivienda/washington-dc-dcha",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / DCHA Autoridad de Vivienda District of Columbia Housing Authority (DCHA) Sirve a el Distrito de Columbia · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es DCHA. Resumimos información pública para ayudarle a orien"
+  },
+  {
+    "title": "Austin Housing Authority (HACA): lista de espera Sección 8",
+    "description": "Austin Housing Authority en Austin, TX: estado de la lista de espera de Sección 8, teléfono (512) 477-4488, programas y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/austin-haca",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / AHA Autoridad de Vivienda Austin Housing Authority (HACA) Sirve a la Ciudad de Austin, Texas, con vales que se pueden usar en Austin, Round Rock, Pflugerville, Cedar Park, Leander, Del Valle y Manor · Última verificación: 3 de noviembre de 2026 Waythroug"
+  },
+  {
+    "title": "FWHS Fort Worth: lista de espera Sección 8 y cómo solicitar",
+    "description": "Fort Worth Housing Solutions en Fort Worth, TX: lista de espera de Sección 8, teléfono (817) 333-3400, programas y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/fort-worth-fwhs",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / FWHS Autoridad de Vivienda Fort Worth Housing Solutions (FWHS) Sirve a la Ciudad de Fort Worth, Texas · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es FWHS. Resumimos información pública para ayudarle a orientar"
+  },
+  {
+    "title": "Opportunity Home (SAHA): lista de espera Sección 8",
+    "description": "Opportunity Home (SAHA) en San Antonio, TX: lista de espera de Sección 8, teléfono (210) 477-6000, programas que ofrece y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/san-antonio-saha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / Opportunity Home Autoridad de Vivienda Opportunity Home San Antonio (formerly SAHA) Sirve a la Ciudad de San Antonio, Texas · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es Opportunity Home. Resumimos informació"
   }
 ]
