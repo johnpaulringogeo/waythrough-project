@@ -1,0 +1,265 @@
+{
+  "slug": "portland-home-forward",
+  "kind": "authority",
+  "name": "Home Forward (formerly the Housing Authority of Portland)",
+  "schema_name": "Home Forward",
+  "short_name": "Home Forward",
+  "title_name": "Home Forward Portland",
+  "meta_description": "Home Forward, Portland's housing authority: Section 8 waitlist status (checked November 3, 2026), 2026 lottery notices, phone (503) 802-8300, how to apply.",
+  "city": "Portland",
+  "state": "OR",
+  "serves": "Portland, Gresham and the rest of Multnomah County, Oregon",
+  "phone": "(503) 802-8300",
+  "official_url": "https://www.homeforward.org/",
+  "apply_url": "https://www.homeforward.org/waitlists/",
+  "city_slug": "portland",
+  "state_slug": "oregon",
+  "updated": "November 3, 2026",
+  "intro": "Home Forward is the public housing agency for Portland. Portland City Council created it on December 11, 1941 as the Housing Authority of Portland, and that is still the name HUD uses: PHA OR002, program type Combined, so it runs both Housing Choice Vouchers and public housing. Home Forward says it serves Portland, Multnomah County, the city of Gresham and other communities in east Multnomah County, runs \"the largest federally-funded housing programs in Oregon,\" and serves nearly 15,000 households. Its main office is at 135 SW Ash Street. The short version today: every general list is closed. Home Forward says \"The Housing Choice Voucher waitlist is closed\" and that it \"is not issuing new vouchers from our HCV waitlist due to funding and budget constraints in 2026 and 2027.\" Its 2026 application for five apartment-community waitlists ran September 9 to 21, 2026 and is closed, with lottery results expected in late 2026. Two narrow priority lists stay open (checked November 3, 2026). This page covers Home Forward's exact words, how its lotteries work, how to check your status, and the neighboring authorities people confuse with it.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), tenant-based",
+    "Project-based vouchers tied to specific apartment communities",
+    "Public housing and other Home Forward apartment communities",
+    "Short-Term Rent Assistance (STRA) and Regional Long-term Rent Assistance (RLRA), reached through partner agencies",
+    "VASH vouchers for veterans, Shelter Plus Care and Mod-Rehab"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed, and no new vouchers are being issued from it in 2026 or 2027",
+      "note": "Checked November 3, 2026. Home Forward's Housing Choice Voucher page reads: \"The Housing Choice Voucher waitlist is closed.\" It says the list \"was last opened in April 2025.\" Home Forward's Federal Funding and Policy Information page, marked \"Last Updated October 2026,\" says \"Home Forward is not issuing new vouchers from our HCV waitlist due to funding and budget constraints in 2026 and 2027.\" Its September 2026 press release repeats that the tenant-based list \"remains closed, and we are not issuing vouchers from that waitlist at this time.\" No Home Forward page gives a reopening date. Home Forward offers an email sign-up for waitlist openings on its site."
+    },
+    {
+      "program": "2026 apartment-community (project-based) waitlists",
+      "status": "Closed; the application window ran September 9 to 21, 2026",
+      "note": "Home Forward took applications from 9:00 a.m. on Wednesday, September 9 to 11:59 p.m. on Monday, September 21, 2026 for five project-based waitlists: Meadowlark Place, Dahlke Manor, Hollywood East, Medallion Apartments and Gresham Civic Station. That window is over. On November 3, 2026, its Waitlists page read: \"2026 Waitlist Application is closed. All qualified applications will be entered into a random lottery.\" It says \"Home Forward expects to notify applicants in late 2026 by mail, email, and through their RentCafe account,\" and that \"2026 waitlist positions will not appear until the lottery is completed and positions are assigned.\" Home Forward says it picks enough applicants \"to fill spots for the next three years.\" Watch homeforward.org/waitlists for the next opening; no date has been announced."
+    },
+    {
+      "program": "Priority lists for terminal illness and ADA-accessible units",
+      "status": "Always open, with medical verification",
+      "note": "Home Forward's Waitlists page says \"Waitlists for Housing Choice Voucher and Project Based apartment communities are always open for anyone who has been diagnosed with a terminal illness and life expectancy of less than 12 months,\" after a Priority Verification Due to Health form completed with a medical provider. It also says the waitlists for ADA-accessible apartment communities it manages \"are open for people who require ADA features,\" after a Priority Verification ADA form (checked November 3, 2026)."
+    },
+    {
+      "program": "Other Home Forward apartment communities",
+      "status": "Ask each leasing office",
+      "note": "Home Forward's housing FAQ says \"For most Home Forward apartment communities, you can contact the leasing office directly to see if there are apartments available,\" with contact details on each property page. For the communities it manages centrally, it says \"We open those waitlists when the estimated wait time for an apartment is less than a year, and we typically open the waitlist for several properties at once.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>How the lotteries work.</strong> Home Forward says its application \"is not first-come, first-served\": everyone who applies in the window \"has the same chance in the lottery,\" and \"Being added to a waitlist does not guarantee rental assistance or housing placement.\" For the 2026 lists, a household had to earn less than 50 percent of Area Median Income, the head of household had to be 18 or an emancipated minor, at least one member had to be a U.S. citizen or have eligible immigration status, and every adult had to agree to a criminal background check. Keep your contact details current in RentCafe at connect.homeforward.org; Home Forward warns that \"If a communication from Home Forward is returned, your name may be removed from the waitlist.\"",
+    "<strong>Housing Authority of Washington County</strong> serves Beaverton, Hillsboro, Tigard and the rest of Washington County. HUD lists it as OR022, 161 NW Adams Ave, Suite 2000, Hillsboro, (503) 846-4794.",
+    "<strong>Housing Authority of Clackamas County</strong>, HUD code OR001, 13930 South Gain Street, Oregon City, (503) 655-8267. Its site said on November 3, 2026: \"All HACC waitlist are currently closed\" and \"The Section 8 wait list is currently closed.\"",
+    "<strong>Vancouver Housing Authority</strong>, across the Columbia River in Washington, is HUD code WA008 (Housing Authority of the City of Vancouver), 2500 Main Street, Vancouver, (360) 694-2501. Washington State rules, not Oregon's, apply there.",
+    "<strong>Home Forward is not an emergency rent fund for the public.</strong> Its Short-Term Rent Assistance is reached through 211info and partner agencies, not by applying to Home Forward. For rent help now, Home Forward's FAQ says to call 2-1-1, and our <a href=\"../guides/emergency-rent-help-portland\">Portland emergency rent help guide</a> covers Multnomah County's Emergency Rent Assistance, the state's eviction-court program and free legal help."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Portland Section 8 waitlist open?",
+      "a": "No. Home Forward says \"The Housing Choice Voucher waitlist is closed\" and that it \"was last opened in April 2025\" (checked November 3, 2026). Its Federal Funding and Policy Information page, updated October 2026, adds that it \"is not issuing new vouchers from our HCV waitlist due to funding and budget constraints in 2026 and 2027.\" No reopening date has been announced. The only general exception is a priority list that is always open to people with a terminal illness and a life expectancy of less than 12 months."
+    },
+    {
+      "q": "I applied in September 2026. When will I hear back?",
+      "a": "Home Forward says it \"expects to notify applicants in late 2026 by mail, email, and through their RentCafe account,\" and that it will announce on its website when notices are available. Until the lottery is processed, your 2026 waitlist position will not show in RentCafe. You can log in at connect.homeforward.org and choose Waiting List Status to confirm your application was received. Make sure your mailing address and email are current, because returned mail can get you removed."
+    },
+    {
+      "q": "Does applying on the first day help?",
+      "a": "No. Home Forward says its waitlist application \"is not first-come, first-served\" and that \"Every qualified applicant who applies during the application period has the same chance in the lottery.\" For the September 2026 opening, it even suggested applying later in the week to avoid heavy website traffic. What matters is applying before the window closes and qualifying when you are selected."
+    },
+    {
+      "q": "Can I get on a Home Forward list right now?",
+      "a": "Only in narrow cases. Home Forward says its Housing Choice Voucher and Project Based waitlists \"are always open for anyone who has been diagnosed with a terminal illness and life expectancy of less than 12 months,\" and its ADA-accessible apartment waitlists are open to people who need ADA features, each with a verification form completed by a medical provider. For many Home Forward apartment communities, it also says to contact the leasing office directly to ask whether apartments are available."
+    },
+    {
+      "q": "What is Home Forward's phone number?",
+      "a": "The main number is (503) 802-8300, listed on Home Forward's Contact page and in HUD's directory for OR002. For questions about the voucher program, Home Forward's Housing Choice Voucher page and its Contact page give Rent Assistance at (503) 802-8333. Property Management is (503) 280-3750 and TTY is (503) 802-8554. The office at 135 SW Ash Street has a lobby window open Tuesday to Thursday, 9 a.m. to noon and 1 to 3 p.m.; Home Forward says it is closed to the public on Fridays without an appointment."
+    },
+    {
+      "q": "I live in Beaverton or Oregon City. Is that Home Forward?",
+      "a": "No. Home Forward serves Portland, Gresham and the rest of Multnomah County. Washington County, including Beaverton and Hillsboro, has the Housing Authority of Washington County, (503) 846-4794. Clackamas County, including Oregon City, has the Housing Authority of Clackamas County, (503) 655-8267, which said on November 3, 2026 that all of its waitlists are closed. You can apply to more than one authority when their lists are open."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Home Forward - official site",
+      "url": "https://www.homeforward.org/"
+    },
+    {
+      "label": "Home Forward - Housing Choice Voucher (waitlist closed, last opened April 2025, Rent Assistance phone)",
+      "url": "https://www.homeforward.org/housing-choice-voucher/"
+    },
+    {
+      "label": "Home Forward - 2026 Waitlists (application closed, lottery, late-2026 notices, always-open priority lists)",
+      "url": "https://www.homeforward.org/waitlists/"
+    },
+    {
+      "label": "Home Forward - Federal Funding and Policy Information (no new vouchers from the HCV waitlist in 2026 and 2027)",
+      "url": "https://www.homeforward.org/federal-funding-policy-information/"
+    },
+    {
+      "label": "Home Forward - Press release: project-based waitlists at five properties, September 9 to 21, 2026",
+      "url": "https://www.homeforward.org/release-home-forward-will-open-project-based-waitlists-at-five-subsidized-affordable-housing-properties-on-september-9th/"
+    },
+    {
+      "label": "Home Forward - FAQ: Housing Programs (leasing offices, when waitlists open)",
+      "url": "https://www.homeforward.org/faq-housing-programs/"
+    },
+    {
+      "label": "Home Forward - FAQ: About Us (service area, largest programs in Oregon)",
+      "url": "https://www.homeforward.org/faq-about-us/"
+    },
+    {
+      "label": "Home Forward - History (created in 1941 as the Housing Authority of Portland)",
+      "url": "https://www.homeforward.org/history/"
+    },
+    {
+      "label": "Home Forward - Contact Us (address, hours, phone numbers)",
+      "url": "https://www.homeforward.org/contact-us/"
+    },
+    {
+      "label": "Home Forward - Rental Assistance (STRA, RLRA, VASH)",
+      "url": "https://www.homeforward.org/rental-assistance/"
+    },
+    {
+      "label": "Home Forward - RentCafe applicant portal",
+      "url": "https://connect.homeforward.org/"
+    },
+    {
+      "label": "Housing Authority of Clackamas County (all waitlists closed)",
+      "url": "https://www.clackamas.us/housingauthority"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Oregon (OR002 Combined; OR022 Washington County; OR001 Clackamas County)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OR.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Washington (WA008 Vancouver)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_WA.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "Home Forward, autoridad de vivienda de Portland: lista de Sección 8 (verificada el 3 de noviembre de 2026), sorteo de 2026, teléfono (503) 802-8300.",
+    "serves": "Portland, Gresham y el resto del condado de Multnomah, Oregón",
+    "updated": "3 de noviembre de 2026",
+    "intro": "Home Forward es la agencia de vivienda pública de Portland. El Concejo Municipal de Portland la creó el 11 de diciembre de 1941 como la Housing Authority of Portland, y ese sigue siendo el nombre que usa HUD: PHA OR002, con tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública. Home Forward dice que sirve a Portland, al condado de Multnomah, a la ciudad de Gresham y a otras comunidades del este del condado, que maneja \"the largest federally-funded housing programs in Oregon\" (los programas de vivienda con fondos federales más grandes de Oregón) y que atiende a casi 15,000 hogares. Su oficina principal está en 135 SW Ash Street. En resumen, hoy: todas las listas generales están cerradas. Home Forward dice \"The Housing Choice Voucher waitlist is closed\" (la lista de espera de vales está cerrada) y que \"is not issuing new vouchers from our HCV waitlist due to funding and budget constraints in 2026 and 2027\" (no está dando vales nuevos de esa lista por falta de fondos y límites de presupuesto en 2026 y 2027). Su solicitud de 2026 para cinco listas de comunidades de apartamentos fue del 9 al 21 de septiembre de 2026 y está cerrada; espera dar los resultados del sorteo a finales de 2026. Dos listas de prioridad muy específicas siguen abiertas (verificado el 3 de noviembre de 2026). Esta página explica las palabras exactas de Home Forward, cómo funcionan sus sorteos, cómo revisar su estado y las autoridades vecinas con las que la gente la confunde.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), basado en el inquilino",
+      "Vales basados en proyectos, ligados a comunidades de apartamentos específicas",
+      "Vivienda pública y otras comunidades de apartamentos de Home Forward",
+      "Short-Term Rent Assistance (STRA) y Regional Long-term Rent Assistance (RLRA), por medio de agencias asociadas",
+      "Vales VASH para veteranos, Shelter Plus Care y Mod-Rehab"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada, y no se darán vales nuevos de ella en 2026 ni en 2027",
+        "note": "Verificado el 3 de noviembre de 2026. La página de vales de Home Forward dice: \"The Housing Choice Voucher waitlist is closed\" (la lista de espera de vales está cerrada). Dice que la lista \"was last opened in April 2025\" (se abrió por última vez en abril de 2025). La página Federal Funding and Policy Information de Home Forward, marcada \"Last Updated October 2026\" (actualizada en octubre de 2026), dice \"Home Forward is not issuing new vouchers from our HCV waitlist due to funding and budget constraints in 2026 and 2027\" (Home Forward no está dando vales nuevos de su lista por falta de fondos y límites de presupuesto en 2026 y 2027). Su comunicado de prensa de septiembre de 2026 repite que la lista basada en el inquilino \"remains closed, and we are not issuing vouchers from that waitlist at this time\" (sigue cerrada y no estamos dando vales de esa lista por ahora). Ninguna página de Home Forward da una fecha de reapertura. Home Forward ofrece en su sitio una inscripción por correo electrónico para recibir avisos de aperturas."
+      },
+      {
+        "program": "Listas de 2026 de comunidades de apartamentos (basadas en proyectos)",
+        "status": "Cerradas; el periodo de solicitud fue del 9 al 21 de septiembre de 2026",
+        "note": "Home Forward recibió solicitudes desde las 9:00 a.m. del miércoles 9 de septiembre hasta las 11:59 p.m. del lunes 21 de septiembre de 2026 para cinco listas basadas en proyectos: Meadowlark Place, Dahlke Manor, Hollywood East, Medallion Apartments y Gresham Civic Station. Ese periodo ya terminó. El 3 de noviembre de 2026 su página de listas decía: \"2026 Waitlist Application is closed. All qualified applications will be entered into a random lottery\" (la solicitud de 2026 está cerrada; todas las solicitudes que califican entrarán en un sorteo). Dice que \"Home Forward expects to notify applicants in late 2026 by mail, email, and through their RentCafe account\" (espera avisar a los solicitantes a finales de 2026 por correo postal, correo electrónico y en su cuenta de RentCafe), y que las posiciones de 2026 no aparecerán hasta que termine el sorteo. Home Forward dice que escoge suficientes solicitantes para llenar los lugares de los próximos tres años. Vigile homeforward.org/waitlists para la próxima apertura; no se ha anunciado ninguna fecha."
+      },
+      {
+        "program": "Listas de prioridad por enfermedad terminal y por unidades accesibles bajo la ADA",
+        "status": "Siempre abiertas, con verificación médica",
+        "note": "La página de listas de Home Forward dice \"Waitlists for Housing Choice Voucher and Project Based apartment communities are always open for anyone who has been diagnosed with a terminal illness and life expectancy of less than 12 months\" (las listas de vales y de comunidades con vales basados en proyectos siempre están abiertas para quien tenga un diagnóstico de enfermedad terminal con una expectativa de vida de menos de 12 meses), después de llenar con un proveedor médico el formulario Priority Verification Due to Health. También dice que las listas de las comunidades accesibles bajo la ADA que administra \"are open for people who require ADA features\" (están abiertas para personas que necesitan características de la ADA), después de llenar el formulario Priority Verification ADA (verificado el 3 de noviembre de 2026)."
+      },
+      {
+        "program": "Otras comunidades de apartamentos de Home Forward",
+        "status": "Pregunte en cada oficina de arrendamiento",
+        "note": "Las preguntas frecuentes de vivienda de Home Forward dicen que, para la mayoría de sus comunidades de apartamentos, puede comunicarse directamente con la oficina de arrendamiento para saber si hay apartamentos disponibles; los datos de contacto están en la página de cada propiedad. Para las comunidades que administra de forma central, dice \"We open those waitlists when the estimated wait time for an apartment is less than a year\" (abrimos esas listas cuando la espera estimada para un apartamento es de menos de un año), y que suele abrir la lista de varias propiedades a la vez."
+      }
+    ],
+    "also_serving": [
+      "<strong>Cómo funcionan los sorteos.</strong> Home Forward dice que su solicitud \"is not first-come, first-served\" (no es por orden de llegada): todos los que solicitan durante el periodo tienen la misma probabilidad en el sorteo, y estar en una lista no garantiza ayuda con la renta ni una vivienda. Para las listas de 2026, el hogar tenía que ganar menos del 50 por ciento del ingreso medio del área, el jefe del hogar tenía que tener 18 años o ser menor emancipado, por lo menos un miembro tenía que ser ciudadano de EE. UU. o tener un estatus migratorio elegible, y todos los adultos tenían que aceptar una revisión de antecedentes penales. Mantenga sus datos de contacto al día en RentCafe, en connect.homeforward.org; Home Forward advierte que si le devuelven una carta, pueden sacar su nombre de la lista.",
+      "La <strong>Housing Authority of Washington County</strong> sirve a Beaverton, Hillsboro, Tigard y el resto del condado de Washington. HUD la registra como OR022, 161 NW Adams Ave, Suite 2000, Hillsboro, (503) 846-4794.",
+      "La <strong>Housing Authority of Clackamas County</strong>, código OR001 de HUD, en 13930 South Gain Street, Oregon City, (503) 655-8267. Su sitio decía el 3 de noviembre de 2026: \"All HACC waitlist are currently closed\" (todas las listas de HACC están cerradas) y \"The Section 8 wait list is currently closed\" (la lista de la Sección 8 está cerrada).",
+      "La <strong>Vancouver Housing Authority</strong>, al otro lado del río Columbia en el estado de Washington, es el código WA008 de HUD (Housing Authority of the City of Vancouver), 2500 Main Street, Vancouver, (360) 694-2501. Ahí se aplican las reglas del estado de Washington, no las de Oregón.",
+      "<strong>Home Forward no es un fondo de emergencia para la renta abierto al público.</strong> Su Short-Term Rent Assistance se consigue por medio de 211info y de agencias asociadas, no solicitando a Home Forward. Para ayuda con la renta ahora, las preguntas frecuentes de Home Forward dicen que llame al 2-1-1, y nuestra <a href=\"../guias/asistencia-renta-emergencia-portland\">guía de ayuda de emergencia con la renta en Portland</a> explica la ayuda de emergencia del condado de Multnomah, el programa estatal para casos de desalojo en la corte y la ayuda legal gratis."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Portland?",
+        "a": "No. Home Forward dice \"The Housing Choice Voucher waitlist is closed\" (la lista de espera de vales está cerrada) y que se abrió por última vez en abril de 2025 (verificado el 3 de noviembre de 2026). Su página Federal Funding and Policy Information, actualizada en octubre de 2026, añade que no está dando vales nuevos de esa lista por falta de fondos y límites de presupuesto en 2026 y 2027. No se ha anunciado una fecha de reapertura. La única excepción general es una lista de prioridad que siempre está abierta para personas con una enfermedad terminal y una expectativa de vida de menos de 12 meses."
+      },
+      {
+        "q": "Solicité en septiembre de 2026. ¿Cuándo me van a responder?",
+        "a": "Home Forward dice que espera avisar a los solicitantes a finales de 2026 por correo postal, correo electrónico y en su cuenta de RentCafe, y que lo anunciará en su sitio web cuando los avisos estén listos. Hasta que se procese el sorteo, su posición de 2026 no aparecerá en RentCafe. Puede entrar a connect.homeforward.org y elegir Waiting List Status para confirmar que recibieron su solicitud. Asegúrese de que su dirección y su correo electrónico estén al día, porque una carta devuelta puede hacer que lo saquen de la lista."
+      },
+      {
+        "q": "¿Sirve de algo solicitar el primer día?",
+        "a": "No. Home Forward dice que su solicitud \"is not first-come, first-served\" (no es por orden de llegada) y que todos los solicitantes que califican y solicitan durante el periodo tienen la misma probabilidad en el sorteo. Para la apertura de septiembre de 2026, incluso sugirió solicitar más tarde en la semana para evitar el tráfico pesado del sitio web. Lo que importa es solicitar antes de que cierre el periodo y calificar cuando lo escojan."
+      },
+      {
+        "q": "¿Puedo entrar ahora mismo a una lista de Home Forward?",
+        "a": "Solo en casos muy específicos. Home Forward dice que sus listas de vales y de comunidades con vales basados en proyectos \"are always open for anyone who has been diagnosed with a terminal illness and life expectancy of less than 12 months\" (siempre están abiertas para quien tenga un diagnóstico de enfermedad terminal con una expectativa de vida de menos de 12 meses), y que sus listas de apartamentos accesibles bajo la ADA están abiertas para quienes necesitan esas características, cada una con un formulario de verificación llenado por un proveedor médico. Para muchas de sus comunidades de apartamentos, también dice que se comunique directamente con la oficina de arrendamiento para preguntar si hay apartamentos disponibles."
+      },
+      {
+        "q": "¿Cuál es el teléfono de Home Forward?",
+        "a": "El número principal es el (503) 802-8300, que aparece en la página de contacto de Home Forward y en el directorio de HUD para OR002. Para preguntas sobre el programa de vales, la página de vales de Home Forward y su página de contacto dan la línea de Rent Assistance, el (503) 802-8333. Property Management es el (503) 280-3750 y la línea TTY es el (503) 802-8554. La oficina de 135 SW Ash Street tiene una ventanilla abierta de martes a jueves, de 9 a.m. a mediodía y de 1 a 3 p.m.; Home Forward dice que los viernes está cerrada al público sin cita."
+      },
+      {
+        "q": "Vivo en Beaverton o en Oregon City. ¿Me toca Home Forward?",
+        "a": "No. Home Forward sirve a Portland, Gresham y el resto del condado de Multnomah. El condado de Washington, que incluye Beaverton y Hillsboro, tiene la Housing Authority of Washington County, (503) 846-4794. El condado de Clackamas, que incluye Oregon City, tiene la Housing Authority of Clackamas County, (503) 655-8267, que decía el 3 de noviembre de 2026 que todas sus listas están cerradas. Puede solicitar en más de una autoridad cuando sus listas estén abiertas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Home Forward - sitio oficial (en inglés)",
+        "url": "https://www.homeforward.org/"
+      },
+      {
+        "label": "Home Forward - Housing Choice Voucher: lista cerrada, última apertura en abril de 2025, teléfono de Rent Assistance (en inglés)",
+        "url": "https://www.homeforward.org/housing-choice-voucher/"
+      },
+      {
+        "label": "Home Forward - Listas de 2026: solicitud cerrada, sorteo, avisos a finales de 2026, listas de prioridad (en inglés)",
+        "url": "https://www.homeforward.org/waitlists/"
+      },
+      {
+        "label": "Home Forward - Federal Funding and Policy Information: sin vales nuevos en 2026 y 2027 (en inglés)",
+        "url": "https://www.homeforward.org/federal-funding-policy-information/"
+      },
+      {
+        "label": "Home Forward - Comunicado: listas de cinco propiedades, del 9 al 21 de septiembre de 2026 (en inglés)",
+        "url": "https://www.homeforward.org/release-home-forward-will-open-project-based-waitlists-at-five-subsidized-affordable-housing-properties-on-september-9th/"
+      },
+      {
+        "label": "Home Forward - Preguntas frecuentes de vivienda: oficinas de arrendamiento, cuándo abren las listas (en inglés)",
+        "url": "https://www.homeforward.org/faq-housing-programs/"
+      },
+      {
+        "label": "Home Forward - Preguntas frecuentes sobre la agencia: zona de servicio (en inglés)",
+        "url": "https://www.homeforward.org/faq-about-us/"
+      },
+      {
+        "label": "Home Forward - Historia: creada en 1941 como Housing Authority of Portland (en inglés)",
+        "url": "https://www.homeforward.org/history/"
+      },
+      {
+        "label": "Home Forward - Contacto: dirección, horario, teléfonos (en inglés)",
+        "url": "https://www.homeforward.org/contact-us/"
+      },
+      {
+        "label": "Home Forward - Rental Assistance: STRA, RLRA, VASH (en inglés)",
+        "url": "https://www.homeforward.org/rental-assistance/"
+      },
+      {
+        "label": "Home Forward - Portal de solicitantes RentCafe (en inglés)",
+        "url": "https://connect.homeforward.org/"
+      },
+      {
+        "label": "Housing Authority of Clackamas County: todas las listas cerradas (en inglés)",
+        "url": "https://www.clackamas.us/housingauthority"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Oregón: OR002 Combined, OR022, OR001 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OR.pdf"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Washington: WA008 Vancouver (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_WA.pdf"
+      }
+    ]
+  }
+}

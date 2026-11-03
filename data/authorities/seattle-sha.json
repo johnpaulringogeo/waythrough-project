@@ -1,0 +1,267 @@
+{
+  "slug": "seattle-sha",
+  "kind": "authority",
+  "name": "Seattle Housing Authority (SHA)",
+  "schema_name": "Seattle Housing Authority",
+  "short_name": "SHA",
+  "title_name": "Seattle Housing Authority",
+  "meta_title": "Seattle Housing Authority Section 8 Waitlist: Apply Any Time",
+  "meta_description": "Seattle Housing Authority: apply for a Section 8 voucher any time, random drawings, monthly Save My Spot check-in, phone (206) 239-1674. Checked Nov 3, 2026.",
+  "city": "Seattle",
+  "state": "WA",
+  "serves": "the city of Seattle, Washington",
+  "phone": "(206) 239-1674",
+  "official_url": "https://www.seattlehousing.org/",
+  "apply_url": "https://www.seattlehousing.org/housing/housing-choice-vouchers/how-apply-housing-choice-voucher",
+  "city_slug": "seattle",
+  "state_slug": "washington",
+  "updated": "November 3, 2026",
+  "intro": "The Seattle Housing Authority (SHA) is the public housing agency for the city of Seattle. HUD lists it as PHA WA001 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing. SHA says it provides housing or rental assistance to 37,774 people in 18,138 households, owns and operates 8,777 apartments and homes at 376 sites, and administers 8,144 Housing Choice Vouchers. Its central office is at 101 Elliott Ave W, Suite 100. Seattle works differently from most cities: there is no voucher waiting list to wait out. SHA says \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time,\" and it draws names at random whenever vouchers are available (checked November 3, 2026). The catch is that you must check in once a month with Save My Spot, or SHA removes you. SHA's own apartments, through the Low-Income Public Housing and Seattle Senior Housing programs, also take applications, but SHA says the wait is \"usually\" no shorter than two years. This page covers SHA's exact words on both, its preferences, how to apply, and the King County Housing Authority, the separate agency for the suburbs, whose lists are all closed.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), 8,144 vouchers, with applicants drawn at random",
+    "Low-Income Public Housing, in apartment buildings, smaller buildings, town homes and a few single-family homes across Seattle",
+    "Seattle Senior Housing Program, for people 62 and older and adults with disabilities",
+    "Special Portfolio and Tax Credit apartments, with their own applications",
+    "Special purpose vouchers, such as HUD-VASH for veterans, by referral",
+    "Collaborative Housing with partner housing providers"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Taking applications at any time; names are drawn at random",
+      "note": "Checked November 3, 2026. SHA's How to Apply page reads: \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time. Applicants will be randomly selected from the voucher list whenever vouchers are available.\" It adds: \"The chance of being drawn is the same no matter when households apply.\" SHA's FAQ says \"You can apply to be on the SHA voucher list anytime\" and \"There is no ranking on the SHA voucher list and no limit to when applications are accepted or the number of applicants on the list,\" so \"there is no way to estimate if and when you will be drawn.\" To stay on the list, SHA says \"you must also check in once every month using Save My Spot\"; \"If you do not do this or we are unable to contact you, we will remove you from the list.\" You apply online through the SHA Portal, and the application is free."
+    },
+    {
+      "program": "Low-Income Public Housing and Seattle Senior Housing",
+      "status": "Taking applications for up to two properties in each program; every property has a wait",
+      "note": "SHA's housing page says \"All properties have a wait time\" and \"Usually wait time is no shorter than two years, and often longer\" (checked November 3, 2026). You may apply for up to two Low-Income Public Housing properties and, if you are eligible, up to two Seattle Senior Housing Program properties. SHA's property list shows an average wait for each building and bedroom size; on November 3, 2026 it ranged from one to two years at some buildings to five to six years at others, and some sizes were marked \"Rarely available\" or \"Undetermined.\" These lists also require the monthly Save My Spot check-in. Questions go to SHA Housing admissions at (206) 239-1737."
+    },
+    {
+      "program": "Special Portfolio and Tax Credit apartments",
+      "status": "Separate applications, property by property",
+      "note": "SHA says its standard housing application is not for the Special Portfolio or Tax Credit programs, which \"have a different application process.\" On November 3, 2026, SHA's homepage said it \"is now leasing tax-credit homes at Yesler,\" with one-, two- and three-bedroom homes and Housing Choice Vouchers accepted. Tax Credit rent is not subsidized, but SHA says there is no citizenship requirement for that housing."
+    }
+  ],
+  "also_serving": [
+    "<strong>Preferences on the voucher list.</strong> SHA checks eligibility only when your name is drawn. It serves first households with income at or below 30 percent of Area Median Income, or that are homeless, at the time of selection or in the 12 months before. SHA says applicants at 31 through 50 percent \"will be returned to the list until all eligible applicants who meet the preferences have been served,\" and applicants above 50 percent \"are not eligible for a voucher and will be removed from the list.\" You do not have to live in Seattle to apply, but a new voucher must be used inside Seattle for at least one year.",
+    "<strong>King County Housing Authority (KCHA)</strong> is a separate agency, HUD code WA002, at 600 Andover Park W., Tukwila, WA 98188, main line (206) 574-1100 (on its Contact page and in HUD's directory); its Contact page also lists a Section 8 office at 700 Andover Park W., (206) 214-1300. KCHA says it serves King County \"not including Seattle or Renton,\" which takes in cities such as Bellevue, Kent, Federal Way and Shoreline. Its waitlist page read on November 3, 2026: \"All waitlists are currently closed and we are not accepting any new applications.\" For vouchers, KCHA says \"We do not know when the waiting list will re-open in the future,\" and that when it does open, you \"can only apply during a specified two-week period prior to a random lottery drawing.\"",
+    "<strong>Renton Housing Authority</strong> serves Renton, which neither SHA nor KCHA covers. HUD lists it as WA011, 2900 NE 10th Street, Renton, (425) 226-1850 ext. 220. Farther out, Tacoma (WA005) and Everett (WA006) have their own housing authorities and their own lists.",
+    "<strong>SHA is not an emergency rent fund.</strong> SHA says \"Since the wait for a voucher is uncertain, it is advisable to seek other option for housing assistance if you are in need.\" If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-seattle\">Seattle emergency rent help guide</a>: Keep King County Housed through United Way of King County, free eviction lawyers, and the 14-day notice rules.",
+    "<strong>Never pay to apply.</strong> SHA warns: \"Application is free. If any website asks for money to complete an application, it is not the correct site.\" Type seattlehousing.org into your browser yourself."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Seattle Section 8 waiting list open?",
+      "a": "SHA does not open and close its voucher list. Its How to Apply page says \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time\" (checked November 3, 2026). Anyone 18 or older, or an emancipated minor, can apply online through the SHA Portal at seattlehousing.org. Being on the list is not the same as getting a voucher: SHA draws names at random only when vouchers become available, and it says \"there is no way to estimate if and when you will be drawn from the list.\""
+    },
+    {
+      "q": "Does applying early move me up the SHA list?",
+      "a": "No. SHA says \"The chance of being drawn is the same no matter when households apply\" and \"There is no ranking on the SHA voucher list.\" Every household on the list has an equal chance in each drawing. What does matter is your income and housing situation when you are drawn: households at or below 30 percent of Area Median Income, or homeless now or in the past 12 months, are served first."
+    },
+    {
+      "q": "What is Save My Spot, and what happens if I miss a month?",
+      "a": "Save My Spot is SHA's monthly check-in. SHA says applicants on the voucher list and on SHA property waitlists \"are required to check in once every month,\" and \"Applicants who do not check in once every month will be removed from the lists.\" You can check in online at savemyspot.seattlehousing.org with the head of household's Social Security number, or by phone at (206) 256-7000 or toll-free (833) 366-5925. SHA notes that leaving a phone message or using its contact form does not count as a check-in."
+    },
+    {
+      "q": "Do I have to live in Seattle to apply?",
+      "a": "No. SHA's FAQ says you do not have to live in Seattle to apply. But if you are drawn and get a voucher, you must first use it inside the city of Seattle for at least one year. If you live in the suburbs and want to stay there, the King County Housing Authority covers King County outside Seattle and Renton, but all of its waitlists were closed on November 3, 2026."
+    },
+    {
+      "q": "How long is the wait for SHA public housing?",
+      "a": "Years, in most cases. SHA says every one of its properties has a wait and that it is \"usually\" no shorter than two years, \"and often longer.\" Its online property list shows the average wait by building and bedroom size; on November 3, 2026 those ranged from one to two years at some buildings to five to six years at others. You can apply to up to two Low-Income Public Housing properties and up to two Seattle Senior Housing properties, and you must check in monthly with Save My Spot. For admissions questions, call (206) 239-1737."
+    },
+    {
+      "q": "What phone number should I call at SHA?",
+      "a": "For the voucher list, call (206) 239-1674 or email voucherlist@seattlehousing.org. That number appears on SHA's How to Apply page, its voucher FAQ and its Contact page, which says applicants can also ask there for a paper application, help in person, a disability accommodation or an interpreter. For SHA apartments, admissions is (206) 239-1737. SHA's central office is (206) 615-3300, the number HUD lists for WA001, at 101 Elliott Ave W, Suite 100, open Monday to Friday, 8 a.m. to 5 p.m."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Seattle Housing Authority - official site (Yesler tax-credit homes notice)",
+      "url": "https://www.seattlehousing.org/"
+    },
+    {
+      "label": "SHA - How to apply for a Housing Choice Voucher (apply any time, random selection, preferences, Save My Spot)",
+      "url": "https://www.seattlehousing.org/housing/housing-choice-vouchers/how-apply-housing-choice-voucher"
+    },
+    {
+      "label": "SHA - Frequently Asked Questions, Housing Choice Voucher application (no ranking, one year in Seattle, free application)",
+      "url": "https://www.seattlehousing.org/frequently-asked-questions-housing-choice-voucher-application"
+    },
+    {
+      "label": "SHA - Save My Spot (monthly check-in, phone numbers)",
+      "url": "https://savemyspot.seattlehousing.org/"
+    },
+    {
+      "label": "SHA - SHA Housing (two-property limit, two-year wait, admissions phone)",
+      "url": "https://www.seattlehousing.org/housing/sha-housing"
+    },
+    {
+      "label": "SHA - SHA Housing application instructions",
+      "url": "https://www.seattlehousing.org/housing/sha-housing/sha-housing-application-instructions"
+    },
+    {
+      "label": "SHA - Eligibility, SHA Housing (income priority, senior housing, citizenship)",
+      "url": "https://www.seattlehousing.org/housing/sha-housing/eligibility-sha-housing"
+    },
+    {
+      "label": "SHA - Properties list (average wait by building and bedroom size)",
+      "url": "https://www.seattlehousing.org/housing/sha-housing/sha-properties/all/list"
+    },
+    {
+      "label": "SHA - About us (people served, units, vouchers)",
+      "url": "https://www.seattlehousing.org/about-us"
+    },
+    {
+      "label": "SHA - Contact us (central office, department phone numbers)",
+      "url": "https://www.seattlehousing.org/contact-us"
+    },
+    {
+      "label": "King County Housing Authority - Waitlists (all waitlists closed)",
+      "url": "https://www.kcha.org/find-housing/waitlists/"
+    },
+    {
+      "label": "KCHA - Housing Choice Vouchers (waitlist closed, no reopening date)",
+      "url": "https://www.kcha.org/find-housing/housing-choice-voucher-section-8/"
+    },
+    {
+      "label": "KCHA - About (service area: King County, not including Seattle or Renton)",
+      "url": "https://www.kcha.org/about/"
+    },
+    {
+      "label": "KCHA - Contact (offices and phone numbers)",
+      "url": "https://www.kcha.org/contact/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Washington (WA001 Combined; WA002 King County; WA011 Renton)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_WA.pdf"
+    }
+  ],
+  "es": {
+    "meta_title": "Seattle Housing Authority: Sección 8, solicite cuando quiera",
+    "meta_description": "Seattle Housing Authority (SHA): solicite el vale de Sección 8 en cualquier momento, sorteos al azar, reporte mensual Save My Spot, teléfono (206) 239-1674.",
+    "serves": "la ciudad de Seattle, Washington",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Seattle Housing Authority (SHA) es la agencia de vivienda pública de la ciudad de Seattle. HUD la registra como la PHA WA001 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública. La SHA dice que da vivienda o ayuda con la renta a 37,774 personas en 18,138 hogares, que es dueña y administra 8,777 apartamentos y casas en 376 sitios, y que administra 8,144 vales de la Sección 8. Su oficina central está en 101 Elliott Ave W, Suite 100. Seattle funciona distinto a la mayoría de las ciudades: no hay una lista de espera de vales que esperar a que abra. La SHA dice \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time\" (la oportunidad de solicitar un vale es continua; las familias y las personas pueden solicitar en cualquier momento), y saca nombres al azar cada vez que hay vales disponibles (verificado el 3 de noviembre de 2026). La condición es que tiene que reportarse una vez al mes con Save My Spot, o la SHA lo saca de la lista. Los apartamentos propios de la SHA, de los programas Low-Income Public Housing y Seattle Senior Housing, también reciben solicitudes, pero la SHA dice que la espera \"usually\" (por lo general) no es menor de dos años. Esta página explica las palabras exactas de la SHA sobre ambos, sus preferencias, cómo solicitar y la King County Housing Authority, la agencia aparte para los suburbios, que tiene todas sus listas cerradas.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), 8,144 vales, con solicitantes escogidos al azar",
+      "Vivienda pública (Low-Income Public Housing), en edificios de apartamentos, edificios pequeños, casas adosadas y algunas casas unifamiliares en todo Seattle",
+      "Seattle Senior Housing Program, para personas de 62 años o más y adultos con discapacidad",
+      "Apartamentos de Special Portfolio y de crédito fiscal (Tax Credit), con sus propias solicitudes",
+      "Vales para fines especiales, como HUD-VASH para veteranos, por referencia",
+      "Collaborative Housing con proveedores de vivienda asociados"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Recibe solicitudes en cualquier momento; los nombres se sacan al azar",
+        "note": "Verificado el 3 de noviembre de 2026. La página How to Apply de la SHA dice: \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time. Applicants will be randomly selected from the voucher list whenever vouchers are available\" (la oportunidad de solicitar es continua; las familias y las personas pueden solicitar en cualquier momento; los solicitantes se escogen al azar cada vez que hay vales disponibles). Añade: \"The chance of being drawn is the same no matter when households apply\" (la probabilidad de salir escogido es la misma sin importar cuándo se solicite). Las preguntas frecuentes de la SHA dicen \"You can apply to be on the SHA voucher list anytime\" (puede solicitar en cualquier momento) y que no hay clasificación en la lista ni límite de solicitantes, así que no hay forma de calcular si le tocará ni cuándo. Para seguir en la lista, la SHA dice que tiene que reportarse \"once every month using Save My Spot\" (una vez al mes con Save My Spot); si no lo hace o no lo pueden localizar, lo sacan de la lista. Se solicita en línea en el SHA Portal, y la solicitud es gratis."
+      },
+      {
+        "program": "Vivienda pública (Low-Income Public Housing) y Seattle Senior Housing",
+        "status": "Recibe solicitudes para hasta dos propiedades en cada programa; todas las propiedades tienen espera",
+        "note": "La página de vivienda de la SHA dice \"All properties have a wait time\" (todas las propiedades tienen tiempo de espera) y \"Usually wait time is no shorter than two years, and often longer\" (por lo general la espera no es menor de dos años, y a menudo es más larga), verificado el 3 de noviembre de 2026. Puede solicitar hasta dos propiedades de vivienda pública y, si es elegible, hasta dos propiedades del Seattle Senior Housing Program. La lista de propiedades de la SHA muestra la espera promedio por edificio y número de recámaras; el 3 de noviembre de 2026 iba de uno a dos años en algunos edificios a cinco o seis años en otros, y algunos tamaños decían \"Rarely available\" (rara vez disponible) o \"Undetermined\" (sin determinar). Estas listas también piden el reporte mensual con Save My Spot. Las preguntas van a la oficina de admisiones de SHA Housing, al (206) 239-1737."
+      },
+      {
+        "program": "Apartamentos de Special Portfolio y de crédito fiscal (Tax Credit)",
+        "status": "Solicitudes aparte, propiedad por propiedad",
+        "note": "La SHA dice que su solicitud normal de vivienda no sirve para los programas Special Portfolio ni Tax Credit, que tienen \"a different application process\" (un proceso de solicitud diferente). El 3 de noviembre de 2026, la página principal de la SHA decía que \"is now leasing tax-credit homes at Yesler\" (está rentando viviendas de crédito fiscal en Yesler), de una, dos y tres recámaras, y que acepta vales de la Sección 8. La renta de crédito fiscal no está subsidiada, pero la SHA dice que esa vivienda no tiene requisitos de ciudadanía."
+      }
+    ],
+    "also_serving": [
+      "<strong>Preferencias en la lista de vales.</strong> La SHA revisa la elegibilidad solo cuando sale su nombre. Atiende primero a los hogares con ingresos de 30 por ciento o menos del ingreso medio del área, o que no tienen hogar, al momento de la selección o en los 12 meses anteriores. La SHA dice que los solicitantes de 31 a 50 por ciento \"will be returned to the list until all eligible applicants who meet the preferences have been served\" (volverán a la lista hasta que se atienda a todos los que cumplen las preferencias), y que los de más de 50 por ciento no son elegibles y se sacan de la lista. No tiene que vivir en Seattle para solicitar, pero un vale nuevo se tiene que usar dentro de Seattle por lo menos un año.",
+      "La <strong>King County Housing Authority (KCHA)</strong> es una agencia aparte, código WA002 de HUD, en 600 Andover Park W., Tukwila, WA 98188, línea principal (206) 574-1100 (en su página de contacto y en el directorio de HUD); su página de contacto también da una oficina de la Sección 8 en 700 Andover Park W., (206) 214-1300. La KCHA dice que sirve al condado de King \"not including Seattle or Renton\" (sin incluir Seattle ni Renton), lo que abarca ciudades como Bellevue, Kent, Federal Way y Shoreline. Su página de listas decía el 3 de noviembre de 2026: \"All waitlists are currently closed and we are not accepting any new applications\" (todas las listas están cerradas y no estamos aceptando solicitudes nuevas). Para los vales, la KCHA dice que no sabe cuándo volverá a abrir la lista, y que cuando abra solo se podrá solicitar durante un periodo de dos semanas antes de un sorteo.",
+      "La <strong>Renton Housing Authority</strong> sirve a Renton, que no cubren ni la SHA ni la KCHA. HUD la registra como WA011, 2900 NE 10th Street, Renton, (425) 226-1850, extensión 220. Más lejos, Tacoma (WA005) y Everett (WA006) tienen sus propias autoridades de vivienda y sus propias listas.",
+      "<strong>La SHA no es un fondo de emergencia para la renta.</strong> La SHA dice que, como la espera de un vale es incierta, conviene buscar otras opciones de ayuda con la vivienda si la necesita. Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-seattle\">guía de ayuda de emergencia con la renta en Seattle</a>: Keep King County Housed por medio de United Way of King County, abogados gratis para desalojos y las reglas del aviso de 14 días.",
+      "<strong>Nunca pague por solicitar.</strong> La SHA advierte: \"Application is free. If any website asks for money to complete an application, it is not the correct site\" (la solicitud es gratis; si un sitio web le pide dinero, no es el sitio correcto). Escriba usted mismo seattlehousing.org en su navegador."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Seattle?",
+        "a": "La SHA no abre ni cierra su lista de vales. Su página How to Apply dice \"The opportunity to apply for a chance to receive a voucher is ongoing. Families and individuals may apply at any time\" (la oportunidad de solicitar es continua; las familias y las personas pueden solicitar en cualquier momento), verificado el 3 de noviembre de 2026. Cualquier persona de 18 años o más, o un menor emancipado, puede solicitar en línea por el SHA Portal en seattlehousing.org. Estar en la lista no es lo mismo que recibir un vale: la SHA saca nombres al azar solo cuando hay vales disponibles, y dice que no hay forma de calcular si le tocará ni cuándo."
+      },
+      {
+        "q": "¿Solicitar temprano me sube en la lista de la SHA?",
+        "a": "No. La SHA dice \"The chance of being drawn is the same no matter when households apply\" (la probabilidad de salir escogido es la misma sin importar cuándo se solicite) y \"There is no ranking on the SHA voucher list\" (no hay clasificación en la lista). Todos los hogares de la lista tienen la misma probabilidad en cada sorteo. Lo que sí importa es su ingreso y su situación de vivienda cuando sale su nombre: los hogares con 30 por ciento o menos del ingreso medio del área, o sin hogar ahora o en los últimos 12 meses, se atienden primero."
+      },
+      {
+        "q": "¿Qué es Save My Spot y qué pasa si no me reporto un mes?",
+        "a": "Save My Spot es el reporte mensual de la SHA. La SHA dice que quienes están en la lista de vales y en las listas de sus propiedades \"are required to check in once every month\" (tienen que reportarse una vez al mes), y que a quien no se reporte cada mes lo sacan de las listas. Puede reportarse en línea en savemyspot.seattlehousing.org con el número de Seguro Social del jefe del hogar, o por teléfono al (206) 256-7000 o gratis al (833) 366-5925. La SHA aclara que dejar un mensaje de voz o usar su formulario de contacto no cuenta como reporte."
+      },
+      {
+        "q": "¿Tengo que vivir en Seattle para solicitar?",
+        "a": "No. Las preguntas frecuentes de la SHA dicen que no hace falta vivir en Seattle para solicitar. Pero si sale escogido y recibe un vale, primero lo tiene que usar dentro de la ciudad de Seattle por lo menos un año. Si vive en los suburbios y quiere quedarse ahí, la King County Housing Authority cubre el condado de King fuera de Seattle y Renton, pero todas sus listas estaban cerradas el 3 de noviembre de 2026."
+      },
+      {
+        "q": "¿Cuánto hay que esperar para la vivienda pública de la SHA?",
+        "a": "Años, en la mayoría de los casos. La SHA dice que todas sus propiedades tienen espera y que \"usually\" (por lo general) no es menor de dos años, \"and often longer\" (y a menudo más). Su lista de propiedades en línea muestra la espera promedio por edificio y número de recámaras; el 3 de noviembre de 2026 iba de uno a dos años en algunos edificios a cinco o seis años en otros. Puede solicitar hasta dos propiedades de vivienda pública y hasta dos del Seattle Senior Housing, y tiene que reportarse cada mes con Save My Spot. Para preguntas de admisión, llame al (206) 239-1737."
+      },
+      {
+        "q": "¿A qué número debo llamar en la SHA?",
+        "a": "Para la lista de vales, llame al (206) 239-1674 o escriba a voucherlist@seattlehousing.org. Ese número aparece en la página How to Apply de la SHA, en sus preguntas frecuentes de vales y en su página de contacto, que dice que ahí también puede pedir una solicitud en papel, ayuda en persona, un ajuste razonable por discapacidad o un intérprete. Para los apartamentos de la SHA, admisiones es el (206) 239-1737. La oficina central de la SHA es el (206) 615-3300, el número que HUD registra para WA001, en 101 Elliott Ave W, Suite 100, abierta de lunes a viernes de 8 a.m. a 5 p.m."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Seattle Housing Authority - sitio oficial: aviso de viviendas de crédito fiscal en Yesler (en inglés)",
+        "url": "https://www.seattlehousing.org/"
+      },
+      {
+        "label": "SHA - Cómo solicitar un vale: en cualquier momento, sorteo, preferencias, Save My Spot (en inglés)",
+        "url": "https://www.seattlehousing.org/housing/housing-choice-vouchers/how-apply-housing-choice-voucher"
+      },
+      {
+        "label": "SHA - Preguntas frecuentes de la solicitud de vales: sin clasificación, un año en Seattle, solicitud gratis (en inglés)",
+        "url": "https://www.seattlehousing.org/frequently-asked-questions-housing-choice-voucher-application"
+      },
+      {
+        "label": "SHA - Save My Spot: reporte mensual, teléfonos (en inglés)",
+        "url": "https://savemyspot.seattlehousing.org/"
+      },
+      {
+        "label": "SHA - SHA Housing: límite de dos propiedades, espera de dos años, teléfono de admisiones (en inglés)",
+        "url": "https://www.seattlehousing.org/housing/sha-housing"
+      },
+      {
+        "label": "SHA - Instrucciones de solicitud de SHA Housing (en inglés)",
+        "url": "https://www.seattlehousing.org/housing/sha-housing/sha-housing-application-instructions"
+      },
+      {
+        "label": "SHA - Elegibilidad de SHA Housing: prioridad por ingreso, vivienda para mayores, ciudadanía (en inglés)",
+        "url": "https://www.seattlehousing.org/housing/sha-housing/eligibility-sha-housing"
+      },
+      {
+        "label": "SHA - Lista de propiedades: espera promedio por edificio y recámaras (en inglés)",
+        "url": "https://www.seattlehousing.org/housing/sha-housing/sha-properties/all/list"
+      },
+      {
+        "label": "SHA - About us: personas atendidas, viviendas, vales (en inglés)",
+        "url": "https://www.seattlehousing.org/about-us"
+      },
+      {
+        "label": "SHA - Contacto: oficina central, teléfonos por departamento (en inglés)",
+        "url": "https://www.seattlehousing.org/contact-us"
+      },
+      {
+        "label": "King County Housing Authority - Waitlists: todas las listas cerradas (en inglés)",
+        "url": "https://www.kcha.org/find-housing/waitlists/"
+      },
+      {
+        "label": "KCHA - Housing Choice Vouchers: lista cerrada, sin fecha de reapertura (en inglés)",
+        "url": "https://www.kcha.org/find-housing/housing-choice-voucher-section-8/"
+      },
+      {
+        "label": "KCHA - About: zona de servicio, condado de King sin Seattle ni Renton (en inglés)",
+        "url": "https://www.kcha.org/about/"
+      },
+      {
+        "label": "KCHA - Contacto: oficinas y teléfonos (en inglés)",
+        "url": "https://www.kcha.org/contact/"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Washington: WA001 Combined, WA002, WA011 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_WA.pdf"
+      }
+    ]
+  }
+}

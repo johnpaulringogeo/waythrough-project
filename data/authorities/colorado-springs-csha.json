@@ -1,0 +1,261 @@
+{
+  "slug": "colorado-springs-csha",
+  "kind": "authority",
+  "name": "Colorado Springs Housing Authority (CSHA)",
+  "schema_name": "Housing Authority of the City of Colorado Springs",
+  "short_name": "CSHA",
+  "title_name": "Colorado Springs Housing Authority",
+  "meta_title": "Colorado Springs Housing Authority Section 8 Waitlist",
+  "meta_description": "Colorado Springs Housing Authority (CSHA): Section 8 lottery and public housing waitlist status (checked November 3, 2026), HUD voucher pause, (719) 387-6700.",
+  "city": "Colorado Springs",
+  "state": "CO",
+  "serves": "Colorado Springs and El Paso County, Colorado",
+  "phone": "(719) 387-6700",
+  "official_url": "https://csha.us/",
+  "apply_url": "https://csha.us/apply-or-check-status/",
+  "city_slug": "colorado-springs",
+  "state_slug": "colorado",
+  "updated": "November 3, 2026",
+  "intro": "The Colorado Springs Housing Authority (CSHA) is the public housing agency for Colorado Springs. HUD lists it under its legal name, the Housing Authority of the City of Colorado Springs, as PHA CO028 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing. CSHA says it owns and manages 706 single-family and multi-family homes, and its main office is at 831 S. Nevada Ave., Floor 2. The short version today: nothing is open. CSHA's homepage says \"None of our waiting lists are currently accepting online only pre-applications\" and \"The current directive from HUD to pause the issuance of new Housing Choice Vouchers is, unfortunately, still in effect. We will announce when voucher issuance resumes\" (checked November 3, 2026). CSHA's voucher list is a lottery that it says \"usually opens every July,\" but no 2026 lottery was announced; the latest one ran July 15 to 17, 2025. Its 2026 openings were all short public housing windows, the last of which closed at noon on October 30, 2026. This page covers CSHA's exact words, how its lottery and public housing lists work, how to check your ranking, and the other agencies around El Paso County that people confuse with CSHA.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), filled through an annual lottery wait list",
+    "Public Housing, 706 single-family and multi-family homes, including senior and disabled buildings",
+    "CSHA-managed senior and disabled housing and other managed properties, some with no El Paso County residency rule",
+    "Rio Grande Village apartments, with sliding-scale and market-rate rents"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8) lottery wait list",
+      "status": "Closed; no 2026 lottery announced, and HUD's pause on new vouchers is still in effect",
+      "note": "Checked November 3, 2026. CSHA's homepage reads: \"None of our waiting lists are currently accepting online only pre-applications\" and \"The current directive from HUD to pause the issuance of new Housing Choice Vouchers is, unfortunately, still in effect.\" CSHA's Apply or Check Status page says \"Our only wait list that opens on a regular basis is our annual HCV/Section 8 Lottery Wait List which usually opens every July,\" but its Wait List Opening Announcements page lists no 2026 voucher lottery. The most recent, the 2025 HCV Lottery, took online pre-applications only from noon on Tuesday, July 15, 2025 to noon on Thursday, July 17, 2025. That notice says every pre-application \"will be randomly assigned a lottery number for selection when there are available vouchers,\" and \"At the end of each lottery year, any remaining applications will be removed, and families must reapply when the waiting list reopens.\" CSHA gives no date for the next lottery."
+    },
+    {
+      "program": "Public Housing (0 to 4 bedrooms)",
+      "status": "Closed; the last 2026 window closed at noon on October 30, 2026",
+      "note": "CSHA opened public housing lists in short online windows in 2026, and all of them are over: 1-bedroom elderly and disabled plus 2-bedroom units from noon on April 1 to noon on April 3, 2026; 1-bedroom elderly and disabled units at Franklin Square Apartments and Southview Plaza Apartments from noon on September 2 to noon on September 4, 2026; and 3- and 4-bedroom units from noon on Wednesday, October 28 to noon on Friday, October 30, 2026. The October notice says \"All applicants will be placed on waiting lists in order of the date and time received,\" and that the lists for public housing 0, 1 and 2 bedrooms and Section 8 \"REMAIN CLOSED.\" After October 30, the homepage again says no list is accepting pre-applications (checked November 3, 2026). CSHA says it announces openings on its website, its phone system and in The Gazette."
+    }
+  ],
+  "also_serving": [
+    "<strong>The El Paso County rule.</strong> CSHA says \"Applicants must live and/or work in El Paso County, Colorado, at the time their application is submitted to be placed on most of our wait lists.\" CSHA's property pages mark the exceptions; on November 3, 2026 they included its Kiowa Properties, Pikes Peak Properties and Rio Grande Village. CSHA also says it is not staffed to help everyone fill out the online pre-application; ask for a reasonable accommodation if you have a medical reason.",
+    "<strong>There is no separate El Paso County housing authority.</strong> HUD's Colorado list has none, and El Paso County's own housing resources page sends residents to CSHA for \"Public Housing and Section 8 Vouchers for Colorado Springs and El Paso County.\"",
+    "<strong>Fountain Housing Authority</strong> (HUD: Housing Authority of the City of Fountain, CO071), 501 E. Iowa Ave., Fountain, (719) 382-5639, serves the Fountain Valley south of Colorado Springs. Its site read on November 3, 2026: \"Fountain Housing Authority waitlists are CLOSED.\"",
+    "<strong>Colorado Division of Housing (DOH)</strong>, HUD code CO911, runs state voucher programs through local agencies, and says \"Vouchers are given by those agencies, not the Division of Housing.\" On its Housing Voucher Programs page (checked November 3, 2026), its Housing Choice Voucher program reads \"Program Status: Pause,\" as do its Family Unification Program and its State Housing Vouchers. Programs listed as open work only by referral: VASH for homeless veterans, \"Referrals made through Colorado VA Medical Centers\"; Community Access Team Vouchers for people with disabilities leaving or at risk of institutions; Section 811; and Project Based Assistance.",
+    "<strong>CSHA is not an emergency rent fund.</strong> For rent help, see our <a href=\"../guides/emergency-rent-help-colorado-springs\">Colorado Springs emergency rent help guide</a>: the state's Colorado Emergency Rental Assistance (CERA) and its monthly random selection, 211, and free eviction help from Colorado Legal Services."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Colorado Springs Section 8 waitlist open?",
+      "a": "No. CSHA's homepage says \"None of our waiting lists are currently accepting online only pre-applications\" and \"The current directive from HUD to pause the issuance of new Housing Choice Vouchers is, unfortunately, still in effect\" (checked November 3, 2026). CSHA says its voucher lottery list \"usually opens every July,\" but no 2026 lottery appears on its Wait List Opening Announcements page; the last one ran July 15 to 17, 2025. CSHA has not announced when it will open again or when voucher issuance will resume."
+    },
+    {
+      "q": "How does the CSHA Section 8 lottery work?",
+      "a": "When the voucher list opens, CSHA takes online pre-applications only, for a few days, usually in July. Every pre-application gets a random lottery number, and CSHA selects by number \"when there are available vouchers,\" so applying early does not help. The lottery list does not carry over: CSHA's 2025 notice says \"At the end of each lottery year, any remaining applications will be removed, and families must reapply when the waiting list reopens.\" CSHA announces openings on its website, on its phone system and in The Gazette, and you can sign up on its site for email alerts."
+    },
+    {
+      "q": "When did CSHA last open public housing?",
+      "a": "Its most recent window was for 3- and 4-bedroom public housing, from noon on Wednesday, October 28 to noon on Friday, October 30, 2026, and it is closed. Earlier 2026 windows ran April 1 to 3 (1-bedroom elderly and disabled, and 2-bedroom units) and September 2 to 4 (1-bedroom elderly and disabled units at Franklin Square and Southview Plaza). Each lasted two days and took online pre-applications only. For the next one, watch CSHA's Wait List Opening Announcements page or sign up for its email alerts."
+    },
+    {
+      "q": "How do I check my ranking on a CSHA waiting list?",
+      "a": "Call (719) 387-6700 and press 1 to hear your ranking on any list you are on; CSHA says to allow at least one week after applying. If you applied online, log in to WaitList Check with the username and password you created. CSHA explains that a status of \"Active\" shows your position, while \"Submitted\" means \"you were not placed on that specific wait list and will have to apply when it opens again.\" Keep your mailing address current with an Application Update Form, because CSHA says not answering its letters can get you removed."
+    },
+    {
+      "q": "What is CSHA's phone number and where is the office?",
+      "a": "The main number is (719) 387-6700. It is on CSHA's homepage, its Apply or Check Status page, its FAQ and its Contact page, and HUD lists the same number for CO028. The main office is at 831 S. Nevada Ave., Floor 2, open Monday, Tuesday, Thursday and Friday from 8 a.m. to 4 p.m. and Wednesday from 8 a.m. to 2 p.m. Housing Choice Voucher staff see visitors by appointment only. CSHA warns that it \"does not send communication via text message to our clients,\" so ignore texts that claim to be from CSHA."
+    },
+    {
+      "q": "I live in Fountain or elsewhere in El Paso County. Where do I apply?",
+      "a": "Most CSHA lists accept people who live or work anywhere in El Paso County, and El Paso County's own housing page points residents to CSHA for Section 8 and public housing. Fountain also has its own agency, the Fountain Housing Authority, (719) 382-5639, whose site said on November 3, 2026 that its waitlists are closed. The Colorado Division of Housing's general voucher program was paused on the same date."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Colorado Springs Housing Authority - official site (no lists accepting pre-applications, HUD voucher pause, text message warning)",
+      "url": "https://csha.us/"
+    },
+    {
+      "label": "CSHA - Apply or Check Status (annual July lottery, El Paso County rule, press 1 for ranking)",
+      "url": "https://csha.us/apply-or-check-status/"
+    },
+    {
+      "label": "CSHA - Wait List Opening Announcements (2026 public housing notices, 2025 HCV lottery)",
+      "url": "https://csha.us/opening-announcements/"
+    },
+    {
+      "label": "CSHA - 2026 Public Housing 3- and 4-bedroom opening notice, October 28 to 30, 2026",
+      "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:c63b5a6c-3051-4b02-af14-62d751ac712e"
+    },
+    {
+      "label": "CSHA - 2026 Franklin Square and Southview Plaza opening notice, September 2 to 4, 2026",
+      "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:fc812985-12da-48b2-af91-50ba0bcf244e"
+    },
+    {
+      "label": "CSHA - 2026 Public Housing 1-bedroom elderly and disabled and 2-bedroom opening notice, April 1 to 3, 2026",
+      "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:a1141cfb-cb4a-4ff5-8472-743e7f0d43e9"
+    },
+    {
+      "label": "CSHA - 2025 HCV Lottery opening notice, July 15 to 17, 2025",
+      "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:3d5df669-f254-416a-8887-a2621724f776"
+    },
+    {
+      "label": "CSHA - FAQs (when lists open, announcements in The Gazette, ranking by phone)",
+      "url": "https://csha.us/faqs/"
+    },
+    {
+      "label": "CSHA - About/Contact Us (offices and hours)",
+      "url": "https://csha.us/about-us/"
+    },
+    {
+      "label": "CSHA - Public Housing Programs (706 homes)",
+      "url": "https://csha.us/ph-programs/"
+    },
+    {
+      "label": "CSHA - Managed Properties (properties without the El Paso County rule)",
+      "url": "https://csha.us/mp-programs/"
+    },
+    {
+      "label": "CSHA - HCV information (appointments only)",
+      "url": "https://csha.us/hcv-info/"
+    },
+    {
+      "label": "El Paso County - Housing Resources (CSHA and Fountain Housing Authority)",
+      "url": "https://admin.elpasoco.com/economic-development/housing-programs/housing-resources/"
+    },
+    {
+      "label": "Fountain Housing Authority - official site (waitlists closed)",
+      "url": "https://fountainhousingauthority.colorado.gov/"
+    },
+    {
+      "label": "Colorado Division of Housing - Housing Voucher Programs (which state programs are open or paused)",
+      "url": "https://doh.colorado.gov/housing-voucher-programs"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Colorado (CO028 Combined; CO071 Fountain; CO911 Division of Housing)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CO.pdf"
+    }
+  ],
+  "es": {
+    "meta_title": "Colorado Springs Housing Authority: lista de Sección 8",
+    "meta_description": "Colorado Springs Housing Authority (CSHA): sorteo de Sección 8 y vivienda pública (verificado el 3 de noviembre de 2026), pausa de HUD, tel. (719) 387-6700.",
+    "serves": "Colorado Springs y el condado de El Paso, Colorado",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Colorado Springs Housing Authority (CSHA) es la agencia de vivienda pública de Colorado Springs. HUD la registra con su nombre legal, Housing Authority of the City of Colorado Springs, como la PHA CO028 con un tipo de programa \"Combined\", así que administra tanto los vales de la Sección 8 como la vivienda pública. La CSHA dice que es dueña y administra 706 viviendas unifamiliares y multifamiliares, y su oficina principal está en 831 S. Nevada Ave., segundo piso. En resumen, hoy: no hay nada abierto. La página principal de la CSHA dice \"None of our waiting lists are currently accepting online only pre-applications\" (ninguna de nuestras listas acepta presolicitudes en línea por ahora) y \"The current directive from HUD to pause the issuance of new Housing Choice Vouchers is, unfortunately, still in effect. We will announce when voucher issuance resumes\" (la directiva de HUD de pausar la emisión de vales nuevos sigue vigente; avisaremos cuando se reanude), verificado el 3 de noviembre de 2026. La lista de vales de la CSHA es un sorteo que, según dice, \"usually opens every July\" (suele abrir cada julio), pero no se anunció ningún sorteo en 2026; el más reciente fue del 15 al 17 de julio de 2025. Sus aperturas de 2026 fueron todas periodos cortos de vivienda pública, y el último cerró al mediodía del 30 de octubre de 2026. Esta página explica las palabras exactas de la CSHA, cómo funcionan su sorteo y sus listas de vivienda pública, cómo revisar su posición y las otras agencias del condado de El Paso con las que la gente confunde a la CSHA.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), que se llena con una lista de sorteo anual",
+      "Vivienda pública, 706 viviendas unifamiliares y multifamiliares, incluidos edificios para personas mayores y con discapacidad",
+      "Vivienda para personas mayores y con discapacidad administrada por la CSHA y otras propiedades administradas, algunas sin el requisito de vivir en el condado de El Paso",
+      "Apartamentos Rio Grande Village, con rentas en escala variable y a precio de mercado"
+    ],
+    "waitlists": [
+      {
+        "program": "Lista de sorteo del Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada; no se anunció un sorteo en 2026, y la pausa de HUD a los vales nuevos sigue vigente",
+        "note": "Verificado el 3 de noviembre de 2026. La página principal de la CSHA dice: \"None of our waiting lists are currently accepting online only pre-applications\" (ninguna de nuestras listas acepta presolicitudes en línea por ahora) y \"The current directive from HUD to pause the issuance of new Housing Choice Vouchers is, unfortunately, still in effect\" (la directiva de HUD de pausar la emisión de vales nuevos, por desgracia, sigue vigente). La página Apply or Check Status de la CSHA dice \"Our only wait list that opens on a regular basis is our annual HCV/Section 8 Lottery Wait List which usually opens every July\" (nuestra única lista que abre con regularidad es el sorteo anual de la Sección 8, que suele abrir cada julio), pero su página de anuncios de apertura no muestra ningún sorteo de vales en 2026. El más reciente, el sorteo HCV de 2025, recibió presolicitudes solo en línea desde el mediodía del martes 15 de julio de 2025 hasta el mediodía del jueves 17 de julio de 2025. Ese aviso dice que cada presolicitud \"will be randomly assigned a lottery number for selection when there are available vouchers\" (recibirá al azar un número de sorteo para la selección cuando haya vales), y que al final de cada año de sorteo se eliminan las solicitudes que queden y las familias tienen que volver a solicitar cuando la lista reabra. La CSHA no da fecha para el próximo sorteo."
+      },
+      {
+        "program": "Vivienda pública (0 a 4 recámaras)",
+        "status": "Cerrada; el último periodo de 2026 cerró al mediodía del 30 de octubre de 2026",
+        "note": "En 2026, la CSHA abrió listas de vivienda pública en periodos cortos en línea, y todos ya terminaron: unidades de una recámara para personas mayores y con discapacidad más unidades de dos recámaras, del mediodía del 1 de abril al mediodía del 3 de abril de 2026; unidades de una recámara para personas mayores y con discapacidad en Franklin Square Apartments y Southview Plaza Apartments, del mediodía del 2 de septiembre al mediodía del 4 de septiembre de 2026; y unidades de tres y cuatro recámaras, del mediodía del miércoles 28 de octubre al mediodía del viernes 30 de octubre de 2026. El aviso de octubre dice \"All applicants will be placed on waiting lists in order of the date and time received\" (todos los solicitantes se colocarán en las listas por orden de fecha y hora de recibo), y que las listas de vivienda pública de 0, 1 y 2 recámaras y de la Sección 8 \"REMAIN CLOSED\" (siguen cerradas). Después del 30 de octubre, la página principal vuelve a decir que ninguna lista acepta presolicitudes (verificado el 3 de noviembre de 2026). La CSHA dice que anuncia las aperturas en su sitio web, en su sistema telefónico y en The Gazette."
+      }
+    ],
+    "also_serving": [
+      "<strong>El requisito del condado de El Paso.</strong> La CSHA dice \"Applicants must live and/or work in El Paso County, Colorado, at the time their application is submitted to be placed on most of our wait lists\" (para entrar a la mayoría de nuestras listas, hay que vivir o trabajar en el condado de El Paso al momento de presentar la solicitud). Las páginas de propiedades de la CSHA marcan las excepciones; el 3 de noviembre de 2026 incluían Kiowa Properties, Pikes Peak Properties y Rio Grande Village. La CSHA también dice que no tiene personal para ayudar a todos a llenar la presolicitud en línea; pida un ajuste razonable si tiene una razón médica.",
+      "<strong>No hay una autoridad de vivienda aparte para el condado de El Paso.</strong> La lista de HUD para Colorado no tiene ninguna, y la propia página de recursos de vivienda del condado de El Paso manda a los residentes a la CSHA para \"Public Housing and Section 8 Vouchers for Colorado Springs and El Paso County\" (vivienda pública y vales de la Sección 8 para Colorado Springs y el condado de El Paso).",
+      "La <strong>Fountain Housing Authority</strong> (en HUD, Housing Authority of the City of Fountain, CO071), 501 E. Iowa Ave., Fountain, (719) 382-5639, sirve al valle de Fountain, al sur de Colorado Springs. Su sitio decía el 3 de noviembre de 2026: \"Fountain Housing Authority waitlists are CLOSED\" (las listas de la Fountain Housing Authority están cerradas).",
+      "La <strong>División de Vivienda de Colorado (DOH)</strong>, código CO911 de HUD, administra programas estatales de vales por medio de agencias locales, y dice que los vales los dan esas agencias, no la División de Vivienda. En su página Housing Voucher Programs (verificada el 3 de noviembre de 2026), su programa Housing Choice Voucher dice \"Program Status: Pause\" (estado del programa: en pausa), igual que su Family Unification Program y sus State Housing Vouchers. Los programas que aparecen abiertos funcionan solo por referencia: VASH para veteranos sin hogar, con referencias de los centros médicos del VA en Colorado; los vales Community Access Team para personas con discapacidad que salen de una institución o corren riesgo de entrar; la Sección 811; y Project Based Assistance.",
+      "<strong>La CSHA no es un fondo de emergencia para la renta.</strong> Para ayuda con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-colorado-springs\">guía de ayuda de emergencia con la renta en Colorado Springs</a>: la Asistencia de Emergencia para la Renta de Colorado (CERA) y su selección al azar mensual, el 211 y la ayuda gratis para desalojos de Colorado Legal Services."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Colorado Springs?",
+        "a": "No. La página principal de la CSHA dice \"None of our waiting lists are currently accepting online only pre-applications\" (ninguna de nuestras listas acepta presolicitudes en línea por ahora) y que la directiva de HUD de pausar la emisión de vales nuevos sigue vigente (verificado el 3 de noviembre de 2026). La CSHA dice que su lista de sorteo de vales suele abrir cada julio, pero no aparece ningún sorteo de 2026 en su página de anuncios de apertura; el último fue del 15 al 17 de julio de 2025. La CSHA no ha anunciado cuándo volverá a abrir ni cuándo reanudará la emisión de vales."
+      },
+      {
+        "q": "¿Cómo funciona el sorteo de la Sección 8 de la CSHA?",
+        "a": "Cuando abre la lista de vales, la CSHA recibe presolicitudes solo en línea durante unos días, por lo general en julio. Cada presolicitud recibe un número de sorteo al azar, y la CSHA escoge por número cuando hay vales disponibles, así que solicitar temprano no ayuda. La lista del sorteo no pasa al año siguiente: el aviso de 2025 de la CSHA dice que al final de cada año de sorteo se eliminan las solicitudes que queden y las familias tienen que volver a solicitar cuando la lista reabra. La CSHA anuncia las aperturas en su sitio web, en su sistema telefónico y en The Gazette, y puede inscribirse en su sitio para recibir avisos por correo electrónico."
+      },
+      {
+        "q": "¿Cuándo abrió la CSHA la vivienda pública por última vez?",
+        "a": "Su periodo más reciente fue para vivienda pública de tres y cuatro recámaras, del mediodía del miércoles 28 de octubre al mediodía del viernes 30 de octubre de 2026, y ya está cerrado. Antes, en 2026, hubo periodos del 1 al 3 de abril (una recámara para personas mayores y con discapacidad, y dos recámaras) y del 2 al 4 de septiembre (una recámara para personas mayores y con discapacidad en Franklin Square y Southview Plaza). Cada uno duró dos días y recibió presolicitudes solo en línea. Para el próximo, vigile la página de anuncios de apertura de la CSHA o inscríbase para recibir sus avisos por correo electrónico."
+      },
+      {
+        "q": "¿Cómo reviso mi posición en una lista de la CSHA?",
+        "a": "Llame al (719) 387-6700 y marque 1 para escuchar su posición en cualquier lista en la que esté; la CSHA dice que espere por lo menos una semana después de solicitar. Si solicitó en línea, entre a WaitList Check con el usuario y la contraseña que creó. La CSHA explica que el estado \"Active\" (activo) muestra su posición, mientras que \"Submitted\" (enviada) quiere decir que no lo pusieron en esa lista y tendrá que solicitar cuando vuelva a abrir. Mantenga su dirección al día con un formulario Application Update Form, porque la CSHA dice que no contestar sus cartas puede hacer que lo saquen de la lista."
+      },
+      {
+        "q": "¿Cuál es el teléfono de la CSHA y dónde está la oficina?",
+        "a": "El número principal es el (719) 387-6700. Aparece en la página principal de la CSHA, en su página Apply or Check Status, en sus preguntas frecuentes y en su página de contacto, y HUD registra el mismo número para CO028. La oficina principal está en 831 S. Nevada Ave., segundo piso, abierta lunes, martes, jueves y viernes de 8 a.m. a 4 p.m., y miércoles de 8 a.m. a 2 p.m. El personal de vales atiende visitas solo con cita. La CSHA advierte que \"does not send communication via text message to our clients\" (no manda comunicaciones por mensaje de texto a sus clientes), así que ignore los mensajes de texto que digan venir de la CSHA."
+      },
+      {
+        "q": "Vivo en Fountain o en otra parte del condado de El Paso. ¿Dónde solicito?",
+        "a": "La mayoría de las listas de la CSHA aceptan a personas que viven o trabajan en cualquier parte del condado de El Paso, y la propia página de vivienda del condado manda a los residentes a la CSHA para la Sección 8 y la vivienda pública. Fountain también tiene su propia agencia, la Fountain Housing Authority, (719) 382-5639, cuyo sitio decía el 3 de noviembre de 2026 que sus listas están cerradas. El programa general de vales de la División de Vivienda de Colorado estaba en pausa en la misma fecha."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Colorado Springs Housing Authority - sitio oficial: ninguna lista abierta, pausa de vales de HUD, aviso sobre mensajes de texto (en inglés)",
+        "url": "https://csha.us/"
+      },
+      {
+        "label": "CSHA - Apply or Check Status: sorteo anual de julio, requisito del condado de El Paso, marcar 1 para la posición (en inglés)",
+        "url": "https://csha.us/apply-or-check-status/"
+      },
+      {
+        "label": "CSHA - Anuncios de apertura de listas: avisos de vivienda pública de 2026, sorteo HCV de 2025 (en inglés)",
+        "url": "https://csha.us/opening-announcements/"
+      },
+      {
+        "label": "CSHA - Aviso de apertura de vivienda pública de 3 y 4 recámaras, 28 al 30 de octubre de 2026 (en inglés)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:c63b5a6c-3051-4b02-af14-62d751ac712e"
+      },
+      {
+        "label": "CSHA - Aviso de apertura de Franklin Square y Southview Plaza, 2 al 4 de septiembre de 2026 (en inglés)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:fc812985-12da-48b2-af91-50ba0bcf244e"
+      },
+      {
+        "label": "CSHA - Aviso de apertura de vivienda pública de 1 recámara para mayores y discapacitados y de 2 recámaras, 1 al 3 de abril de 2026 (en inglés)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:a1141cfb-cb4a-4ff5-8472-743e7f0d43e9"
+      },
+      {
+        "label": "CSHA - Aviso del sorteo HCV de 2025, 15 al 17 de julio de 2025 (en inglés)",
+        "url": "https://acrobat.adobe.com/id/urn:aaid:sc:US:3d5df669-f254-416a-8887-a2621724f776"
+      },
+      {
+        "label": "CSHA - Preguntas frecuentes: cuándo abren las listas, anuncios en The Gazette, posición por teléfono (en inglés)",
+        "url": "https://csha.us/faqs/"
+      },
+      {
+        "label": "CSHA - About/Contact Us: oficinas y horario (en inglés)",
+        "url": "https://csha.us/about-us/"
+      },
+      {
+        "label": "CSHA - Programas de vivienda pública: 706 viviendas (en inglés)",
+        "url": "https://csha.us/ph-programs/"
+      },
+      {
+        "label": "CSHA - Propiedades administradas: propiedades sin el requisito del condado de El Paso (en inglés)",
+        "url": "https://csha.us/mp-programs/"
+      },
+      {
+        "label": "CSHA - Información de vales: solo con cita (en inglés)",
+        "url": "https://csha.us/hcv-info/"
+      },
+      {
+        "label": "Condado de El Paso - Recursos de vivienda: CSHA y Fountain Housing Authority (en inglés)",
+        "url": "https://admin.elpasoco.com/economic-development/housing-programs/housing-resources/"
+      },
+      {
+        "label": "Fountain Housing Authority - sitio oficial: listas cerradas (en inglés)",
+        "url": "https://fountainhousingauthority.colorado.gov/"
+      },
+      {
+        "label": "División de Vivienda de Colorado - Housing Voucher Programs: programas abiertos y en pausa (en inglés)",
+        "url": "https://doh.colorado.gov/housing-voucher-programs"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Colorado: CO028 Combined, CO071, CO911 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CO.pdf"
+      }
+    ]
+  }
+}

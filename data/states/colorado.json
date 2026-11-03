@@ -29,6 +29,11 @@
         "desc": "Denver's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/colorado-springs-csha",
+        "title": "Colorado Springs Housing Authority (CSHA)",
+        "desc": "Colorado Springs' Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, for-cause eviction, and defense."
@@ -108,6 +113,11 @@
         "href": "es/recursos/autoridades-de-vivienda/denver-dha",
         "title": "Denver Housing Authority (DHA)",
         "desc": "Estado de la lista de espera de Sección 8 en Denver, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/colorado-springs-csha",
+        "title": "Colorado Springs Housing Authority (CSHA)",
+        "desc": "Estado de la lista de espera de Sección 8 en Colorado Springs, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",
