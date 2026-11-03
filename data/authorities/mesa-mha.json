@@ -11,6 +11,7 @@
   "phone": "(480) 644-3536",
   "official_url": "https://www.mesaaz.gov/Resident-Resources/Housing",
   "apply_url": "https://www.mesaaz.gov/Resident-Resources/Housing/Application-Wait-List",
+  "status_check_html": "If you are already on the wait list, Mesa says it will contact you only by mail, so report any change of address, phone number, income or household members within 10 business days through the <a href=\"https://mesa.myhousing.com/\" target=\"_blank\" rel=\"noopener\">Applicant Portal</a>; for wait list questions, Mesa lists <a href=\"tel:+14806443536\">480-644-3536</a> (press 2) and <a href=\"mailto:hcvwaitinglist@mesaaz.gov\">hcvwaitinglist@mesaaz.gov</a>.",
   "city_slug": "mesa",
   "state_slug": "arizona",
   "updated": "November 3, 2026",
@@ -136,6 +137,7 @@
     "short_name": "la Mesa Housing Authority",
     "serves": "la ciudad de Mesa, Arizona",
     "updated": "3 de noviembre de 2026",
+    "status_check_html": "Si ya está en la lista de espera, Mesa dice que solo se comunicará con usted por correo postal, así que informe cualquier cambio de dirección, teléfono, ingresos o integrantes del hogar dentro de 10 días hábiles en el <a href=\"https://mesa.myhousing.com/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes</a>; para preguntas sobre la lista, Mesa da el <a href=\"tel:+14806443536\">480-644-3536</a> (marque 2) y el correo <a href=\"mailto:hcvwaitinglist@mesaaz.gov\">hcvwaitinglist@mesaaz.gov</a>.",
     "intro": "La Mesa Housing Authority forma parte de la Ciudad de Mesa. HUD la registra como la PHA AZ005, City of Mesa Housing Authority, con un tipo de programa \"Section 8\", y los avisos de adaptaciones de la Ciudad llaman a la oficina City of Mesa Housing and Community Development. Mesa solo administra vales: su Plan Anual 2026/2027 registra 1,642 vales de la Sección 8 y cero viviendas públicas, así que en Mesa no hay una lista de vivienda pública a la cual inscribirse. La oficina está en 200 S. Center St., Building 1. En resumen, hoy: la lista de espera de la Sección 8 está cerrada y el portal de solicitantes de Mesa no muestra ninguna lista abierta. Esta página explica las palabras exactas de Mesa, qué pasó en la última apertura de agosto de 2022, cómo funcionan el sorteo y las dos preferencias, cómo dice Mesa que anunciará la próxima apertura y la autoridad del condado que la gente suele confundir con Mesa.",
     "programs": [
       "Housing Choice Voucher (Sección 8), 1,642 vales según el Plan Anual 2026/2027",

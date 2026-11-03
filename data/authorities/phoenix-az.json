@@ -10,6 +10,7 @@
   "phone": "(602) 262-6794",
   "official_url": "https://www.phoenix.gov/housing",
   "apply_url": "https://phxhousing.myhousing.com/",
+  "status_check_html": "If you are on the wait list from the September 2023 opening, check your status or update your address, phone, email or household on the <a href=\"https://phxhousing.myhousing.com/\" target=\"_blank\" rel=\"noopener\">Applicant Portal</a> with your pre-application confirmation number, or call the Section 8 office at <a href=\"tel:+16025341974\">602-534-1974</a>; if you get a letter, respond by its deadline or your pre-application will be removed from the wait list.",
   "city_slug": "phoenix",
   "state_slug": "arizona",
   "updated": "July 2026",
@@ -79,6 +80,7 @@
   "es": {
     "serves": "la ciudad de Phoenix, Arizona",
     "updated": "julio de 2026",
+    "status_check_html": "Si está en la lista de espera de la apertura de septiembre de 2023, revise el estado o actualice su dirección, teléfono, correo electrónico o integrantes del hogar en el <a href=\"https://phxhousing.myhousing.com/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes</a> con el número de confirmación de su presolicitud, o llame a la oficina de Sección 8 al <a href=\"tel:+16025341974\">602-534-1974</a>; si recibe una carta, responda antes de la fecha límite o su presolicitud será retirada de la lista.",
     "intro": "El Departamento de Vivienda de la Ciudad de Phoenix es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y las comunidades de alquiler asequible propiedad de la ciudad para la ciudad de Phoenix. Esta página resume el estado actual de la lista de espera del departamento, su información de contacto y cómo solicitar, y enlaza al sitio oficial de la ciudad para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",

@@ -11,6 +11,7 @@
   "phone": "(786) 469-4100",
   "official_url": "https://www.miamidade.gov/global/housing/home.page",
   "apply_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544119346614848",
+  "status_check_html": "If you are on an HCD waiting list, HCD says you can look up your ranking/position number on its <a href=\"https://miamidadevoucher.myhousing.com/\" target=\"_blank\" rel=\"noopener\">voucher portal</a> or in the posted list for your year, and that the number never changes; to update your mailing address or household members, mail or drop off HCD&rsquo;s change forms at the Applicant Leasing Center, 701 NW 1st Court, 14th Floor, <a href=\"tel:+17864694206\">786-469-4206</a>, because the appointment letter is sent by mail.",
   "city_slug": "miami",
   "state_slug": "florida",
   "updated": "November 3, 2026",
@@ -129,6 +130,7 @@
     "name": "Vivienda y Desarrollo Comunitario de Miami-Dade (HCD, antes PHCD)",
     "serves": "el condado de Miami-Dade, Florida, incluida la ciudad de Miami",
     "updated": "3 de noviembre de 2026",
+    "status_check_html": "Si está en una lista de espera de HCD, HCD dice que puede consultar su número de posición en su <a href=\"https://miamidadevoucher.myhousing.com/\" target=\"_blank\" rel=\"noopener\">portal de vales</a> o en la lista publicada de su año, y que ese número nunca cambia; para actualizar su dirección postal o los integrantes de su hogar, envíe por correo o entregue los formularios de cambio de HCD en el Applicant Leasing Center, 701 NW 1st Court, piso 14, <a href=\"tel:+17864694206\">786-469-4206</a>, porque la carta de cita se envía por correo.",
     "intro": "El Departamento de Vivienda y Desarrollo Comunitario del condado de Miami-Dade (Housing and Community Development, HCD) dice que \"serves as the County's official Public Housing Agency (PHA)\" (es la agencia oficial de vivienda pública del condado). Antes se llamaba Public Housing and Community Development (PHCD), y la lista de HUD para Florida todavía la muestra con ese nombre como la PHA FL005, con tipo de programa \"Combined\", en 701 NW 1st Court, en Overtown. HCD dice que maneja unas 6,500 viviendas públicas y da asistencia de alquiler a más de 19,000 hogares con vales de la Sección 8. En resumen, hoy: la lista única de HCD para la Sección 8 y sus viviendas basadas en proyectos está cerrada a la inscripción. La última inscripción para vales fue del 5 al 19 de febrero de 2024, y un sorteo por computadora el 18 de marzo de 2024 eligió 5,000 solicitudes para la lista. Esta página explica las palabras exactas de HCD, cómo funcionan el sorteo y las preferencias, para qué sirve cada teléfono y las autoridades aparte que la gente confunde con HCD: el pequeño programa de la Sección 8 de la Ciudad de Miami, Hialeah, Miami Beach y Homestead.",
     "programs": [
       "Housing Choice Voucher (Sección 8), más de 19,000 hogares",

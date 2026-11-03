@@ -11,6 +11,7 @@
   "phone": "(520) 791-4171",
   "official_url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development",
   "apply_url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8/Application-Status",
+  "status_check_html": "If you applied before the January 1, 2026 closure, HCD says staff cannot give you your place on the waitlist, but you can email <a href=\"mailto:tucsonwaitinglist@tucsonaz.gov\">tucsonwaitinglist@tucsonaz.gov</a> or call <a href=\"tel:+15207915840\">(520) 791-5840</a> to have staff check your waitlist status and confirm your mailing address, because HCD mails a letter when you are selected.",
   "city_slug": "tucson",
   "state_slug": "arizona",
   "updated": "November 3, 2026",
@@ -152,6 +153,7 @@
     "name": "Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (HCD)",
     "serves": "la ciudad de Tucson y el condado de Pima, Arizona",
     "updated": "3 de noviembre de 2026",
+    "status_check_html": "Si presentó su solicitud antes del cierre del 1 de enero de 2026, HCD dice que el personal no puede darle su lugar en la lista de espera, pero puede escribir a <a href=\"mailto:tucsonwaitinglist@tucsonaz.gov\">tucsonwaitinglist@tucsonaz.gov</a> o llamar al <a href=\"tel:+15207915840\">(520) 791-5840</a> para que el personal revise el estado de su solicitud y confirme su dirección postal, porque HCD envía una carta por correo cuando usted es seleccionado.",
     "intro": "El Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (Housing and Community Development, HCD) es la autoridad de vivienda pública de Tucson y también maneja el programa de la Sección 8 del condado de Pima. HUD registra dos agencias en la oficina de HCD, 310 N. Commerce Park Loop: Housing and Community Development Tucson, la PHA AZ004, con tipo de programa \"Combined\", y la Pima County Housing Authority, la PHA AZ033, con tipo de programa \"Section 8\", ambas con el teléfono (520) 791-4171. El Plan Anual de 2026 de HCD para AZ004 registra 1,098 viviendas públicas y 4,278 vales, y la Ciudad dice que el programa de vales tiene unos 6,000 vales para residentes de la ciudad de Tucson y del condado de Pima. En resumen, hoy: el 1 de enero de 2026 HCD cerró la lista de la Sección 8 de la ciudad de Tucson, la del condado de Pima y las listas de vivienda pública de la Ciudad, y no hay fecha de reapertura. Esta página explica las palabras exactas de HCD, cómo funciona el sorteo mensual para quienes solicitaron antes del cierre, las preferencias de HCD, los programas especiales que todavía aceptan referencias y la South Tucson Housing Authority, que es otra agencia.",
     "programs": [
       "Housing Choice Voucher (Sección 8) para la ciudad de Tucson (AZ004) y el condado de Pima (AZ033), unos 6,000 vales en total",
