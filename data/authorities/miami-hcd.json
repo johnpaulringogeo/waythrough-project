@@ -1,0 +1,244 @@
+{
+  "slug": "miami-hcd",
+  "kind": "authority",
+  "name": "Miami-Dade Housing and Community Development (HCD, formerly PHCD)",
+  "schema_name": "Miami-Dade County Department of Housing and Community Development",
+  "short_name": "Miami-Dade HCD",
+  "title_name": "Miami-Dade HCD (PHCD)",
+  "city": "Miami",
+  "state": "FL",
+  "serves": "Miami-Dade County, Florida, including the City of Miami",
+  "phone": "(786) 469-4100",
+  "official_url": "https://www.miamidade.gov/global/housing/home.page",
+  "apply_url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544119346614848",
+  "city_slug": "miami",
+  "state_slug": "florida",
+  "updated": "November 3, 2026",
+  "intro": "Miami-Dade County's Department of Housing and Community Development (HCD) says it \"serves as the County's official Public Housing Agency (PHA).\" It used to call itself Public Housing and Community Development (PHCD), and HUD's Florida list still shows it under that older name as PHA FL005, program type Combined, at 701 NW 1st Court in Overtown. HCD says it manages about 6,500 public housing units and provides rental assistance to more than 19,000 households through Housing Choice Vouchers. The short version today: HCD's single waiting list for Section 8 and its project-based units is closed for registration. The last voucher registration ran February 5 to 19, 2024, and a computer drawing on March 18, 2024 picked 5,000 applications for the list. This page covers HCD's exact words, how the drawing and the preferences work, which phone number does what, and the separate authorities people confuse with HCD: the City of Miami's own small Section 8 program, Hialeah, Miami Beach and Homestead.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), more than 19,000 households",
+    "Public Housing, about 6,500 units across Miami-Dade",
+    "Section 8 Moderate Rehabilitation, about 2,097 units in 48 privately owned buildings",
+    "Section 8 New Construction and County-owned mixed-income properties",
+    "Affordable housing development, homeownership and Documentary Surtax programs as the County's community development office"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8) and project-based units (Public Housing, Moderate Rehabilitation, Section 8 New Construction)",
+      "status": "Closed",
+      "note": "Closed (checked November 3, 2026). HCD's Housing and Section 8 page says there is \"a single online application available only during an open registration period\" for both project-based and tenant-based units, and reads: \"The waiting list is closed for registration.\" HCD's voucher portal, miamidadevoucher.myhousing.com, reads: \"REGISTRATION IS CLOSED.\" The portal's older text estimates that registration \"may open again in about 12 to 18 months\" but gives no date, and that estimate dates from the 2024 round, so do not count on it. The last registration HCD documents ran from midnight February 5, 2024 to 11:59 p.m. February 19, 2024, online only, and the random drawing on March 18, 2024 picked 5,000 applications."
+    },
+    {
+      "program": "County-owned mixed-income properties",
+      "status": "Apply at each property",
+      "note": "HCD's page for its mixed-income properties, such as Lakeside Towers and Park Lake in Kendall, says \"all affordable properties accept applications onsite and you should contact the management office directly for information about availability\" (checked November 3, 2026). HCD does not post an open or closed status for them, so call the property."
+    }
+  ],
+  "also_serving": [
+    "<strong>The City of Miami runs its own, separate Section 8 program.</strong> HUD lists it as PHA FL145, program type Section 8, under the name \"Miami Hsg Conservation,\" at 444 SW 2nd Ave., (305) 416-2080. The City's Section 8 page reads: \"The City's Section 8 program is not accepting new applications,\" and its questions and answers say both its voucher and project-based programs \"ARE PRESENTLY CLOSED AND NOT ACCEPTING APPLICATIONS.\" The City says its voucher application period closed in October 2014 and it is still working through that list; people on it should call 305-416-1572 to update their contact information (checked November 3, 2026).",
+    "<strong>Hialeah Housing Authority</strong> is a separate agency for the City of Hialeah, HUD code FL066, program type Combined, at 75 E. 6th St., 305-888-9744. Its application page reads: \"Currently the Section 8/HCVP waiting list is closed.\" Its last documented opening ran April 21 to May 4, 2017, when a lottery picked 2,500 of 60,919 pre-applications (checked November 3, 2026).",
+    "<strong>Housing Authority of the City of Miami Beach</strong>, HUD code FL017, program type Combined, at 200 Alton Road, 305-532-6401. It says its voucher jurisdiction \"covers Miami Beach and extends ten miles outside the city.\" On November 3, 2026, its Waitlists page marked every list it names, from the Rebecca Tower North project-based list to its affordable buildings, \"Waitlist CLOSED.\"",
+    "<strong>Housing Authority of the City of Homestead</strong>, HUD code FL068, program type Section 8, at 29355 S. Federal Highway, (305) 247-0639, per HUD's Florida list.",
+    "<strong>HCD is not an emergency rent fund.</strong> If you are behind on rent, call the County's Housing Advocacy Hotline at 786-469-4545 and the Homeless Helpline at 1-877-994-4357 (press 1 for prevention), and see our <a href=\"../guides/emergency-rent-help-miami\">Miami emergency rent help guide</a>: what is open, what is closed or paused, light bill help, free eviction lawyers, and Florida's 3-day notice and 5-day answer."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Miami-Dade Section 8 waiting list open?",
+      "a": "No. As of November 3, 2026, HCD's Housing and Section 8 page says: \"The waiting list is closed for registration.\" The same single application covers Section 8 vouchers and HCD's project-based units, including public housing. HCD's voucher portal also reads \"REGISTRATION IS CLOSED.\" HCD gives no date for the next registration, so treat any date you see elsewhere as unconfirmed unless HCD's own site shows it."
+    },
+    {
+      "q": "When did HCD last open the list, and how were people picked?",
+      "a": "The last registration ran from midnight February 5, 2024 to 11:59 p.m. February 19, 2024, online only. All applications went into a computer-generated drawing on March 18, 2024, and only 5,000 were picked, so the day you applied did not matter. HCD's 2024 FAQ ranks the people picked by these preferences: terminated by HCD for insufficient funding, displaced by a natural disaster, displaced by government action, homeless, veterans, the Mainstream preference, and Miami-Dade County residency. HCD says it announces registration in the Miami Herald, the Miami Times, Diario Las Americas and Le Floridien."
+    },
+    {
+      "q": "Is PHCD the same as HCD?",
+      "a": "Yes. The County department now calls itself Miami-Dade Housing and Community Development (HCD). Its 2024 Section 8 notices used the older name, Public Housing and Community Development (PHCD), and HUD's PHA list still shows Miami Dade Public Housing and Community Dev under code FL005. It is the same agency at 701 NW 1st Court."
+    },
+    {
+      "q": "Does the City of Miami have its own Section 8 program?",
+      "a": "Yes, a small one, separate from the County's. HUD lists it as PHA FL145. The City's Section 8 page says \"The City's Section 8 program is not accepting new applications,\" and that both its voucher and project-based programs are closed. Its voucher application period closed in October 2014. If you are on that City list, call 305-416-1572 to update your contact information. Most Miami residents get vouchers through the County's HCD."
+    },
+    {
+      "q": "Are the Hialeah and Miami Beach housing authorities part of HCD?",
+      "a": "No. Each runs its own lists. The Hialeah Housing Authority (305-888-9744) says its Section 8 waiting list is currently closed; its last opening was in 2017. The Housing Authority of the City of Miami Beach (305-532-6401) marked every list on its Waitlists page closed on November 3, 2026. Homestead has its own housing authority too, at (305) 247-0639 per HUD's list."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "786-469-4100 is HCD's main number; it is on every HCD page. For the voucher program, HCD's Housing Choice Voucher page and its 2024 FAQ give 786-654-8440, and HCD's Contact page gives 305-403-3222 to request an appointment. HCD's own pages disagree on the Applicant Leasing Center: the Housing and Section 8 page lists 786-469-4206, while the Contact page lists 786-469-4300; both put the center at 701 NW 1st Court, 14th Floor. HUD's list shows (786) 469-4106 for FL005."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Miami-Dade HCD - Housing and Section 8 (single application, waiting list closed for registration, Applicant Leasing Center)",
+      "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544119346614848"
+    },
+    {
+      "label": "Miami-Dade HCD - Housing Choice Voucher Program (March 18 drawing, 5,000 picked, Section 8 office phone)",
+      "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544821240699928"
+    },
+    {
+      "label": "Miami-Dade HCD - Section 8 voucher portal (registration closed)",
+      "url": "https://miamidadevoucher.myhousing.com/"
+    },
+    {
+      "label": "Miami-Dade PHCD - 2024 Section 8 waitlist randomization FAQ (preferences, phone)",
+      "url": "https://www.miamidade.gov/resources/housing/documents/affordable-housing-resources/faqs-s8-hcv-waiting-list-2024-english-selection-process-1.pdf"
+    },
+    {
+      "label": "Miami-Dade County - Press release, January 18, 2024: 2024 Section 8 waitlist opens February 5 to 19, 2024",
+      "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1705596983119220"
+    },
+    {
+      "label": "Miami-Dade HCD - About (official PHA, about 6,500 public housing units, more than 19,000 voucher households)",
+      "url": "https://www.miamidade.gov/global/housing/about.page"
+    },
+    {
+      "label": "Miami-Dade HCD - Contact (main office, Applicant Leasing Center, Section 8 appointment line)",
+      "url": "https://www.miamidade.gov/global/housing/contact-public-housing-and-community-development.page"
+    },
+    {
+      "label": "Miami-Dade HCD - Section 8 Moderate Rehabilitation (about 2,097 units in 48 locations)",
+      "url": "https://www.miamidade.gov/global/housing/section-8-moderate-rehabilitation.page"
+    },
+    {
+      "label": "Miami-Dade HCD - County-owned mixed income properties (apply onsite)",
+      "url": "https://www.miamidade.gov/global/housing/county-owned-mixed-use-properties.page"
+    },
+    {
+      "label": "City of Miami - Section 8 (not accepting new applications; voucher list closed October 2014)",
+      "url": "https://www.miami.gov/Housing-Assistance/Housing-Assistance/Section-8"
+    },
+    {
+      "label": "Hialeah Housing Authority - Application Information, Housing Choice Voucher (waiting list closed, 2017 lottery)",
+      "url": "https://www.hialeahhousing.org/application-information-housing-choice-voucher"
+    },
+    {
+      "label": "Housing Authority of the City of Miami Beach - Waitlists (all lists closed)",
+      "url": "https://www.hacmb.org/waitlists"
+    },
+    {
+      "label": "Housing Authority of the City of Miami Beach - Section 8 (jurisdiction ten miles outside the city)",
+      "url": "https://www.hacmb.org/section-8"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Florida (FL005 Combined; FL145; FL066; FL017; FL068)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"
+    }
+  ],
+  "es": {
+    "name": "Vivienda y Desarrollo Comunitario de Miami-Dade (HCD, antes PHCD)",
+    "serves": "el condado de Miami-Dade, Florida, incluida la ciudad de Miami",
+    "updated": "3 de noviembre de 2026",
+    "intro": "El Departamento de Vivienda y Desarrollo Comunitario del condado de Miami-Dade (Housing and Community Development, HCD) dice que \"serves as the County's official Public Housing Agency (PHA)\" (es la agencia oficial de vivienda pública del condado). Antes se llamaba Public Housing and Community Development (PHCD), y la lista de HUD para Florida todavía la muestra con ese nombre como la PHA FL005, con tipo de programa \"Combined\", en 701 NW 1st Court, en Overtown. HCD dice que maneja unas 6,500 viviendas públicas y da asistencia de alquiler a más de 19,000 hogares con vales de la Sección 8. En resumen, hoy: la lista única de HCD para la Sección 8 y sus viviendas basadas en proyectos está cerrada a la inscripción. La última inscripción para vales fue del 5 al 19 de febrero de 2024, y un sorteo por computadora el 18 de marzo de 2024 eligió 5,000 solicitudes para la lista. Esta página explica las palabras exactas de HCD, cómo funcionan el sorteo y las preferencias, para qué sirve cada teléfono y las autoridades aparte que la gente confunde con HCD: el pequeño programa de la Sección 8 de la Ciudad de Miami, Hialeah, Miami Beach y Homestead.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), más de 19,000 hogares",
+      "Vivienda pública, unas 6,500 viviendas en todo Miami-Dade",
+      "Rehabilitación Moderada de la Sección 8, unas 2,097 viviendas en 48 edificios privados",
+      "Sección 8 de Nueva Construcción y propiedades de ingresos mixtos del condado",
+      "Desarrollo de vivienda asequible, compra de vivienda y programas del Documentary Surtax como oficina de desarrollo comunitario del condado"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8) y viviendas basadas en proyectos (vivienda pública, Rehabilitación Moderada, Sección 8 de Nueva Construcción)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 3 de noviembre de 2026). La página Housing and Section 8 de HCD dice que hay \"a single online application available only during an open registration period\" (una sola solicitud en línea, disponible solo durante un periodo de inscripción abierto) para las viviendas basadas en proyectos y los vales, y dice: \"The waiting list is closed for registration\" (la lista de espera está cerrada a la inscripción). El portal de vales de HCD, miamidadevoucher.myhousing.com, dice: \"LA INSCRIPCIÓN ESTÁ CERRADA\". El texto antiguo del portal calcula que la inscripción \"puede volver a abrirse en aproximadamente 12 a 18 meses\", pero no da fecha, y ese cálculo viene de la ronda de 2024, así que no cuente con él. La última inscripción que HCD documenta fue desde la medianoche del 5 de febrero de 2024 hasta las 11:59 p.m. del 19 de febrero de 2024, solo en línea, y el sorteo del 18 de marzo de 2024 eligió 5,000 solicitudes."
+      },
+      {
+        "program": "Propiedades de ingresos mixtos del condado",
+        "status": "Se solicita en cada propiedad",
+        "note": "La página de HCD sobre sus propiedades de ingresos mixtos, como Lakeside Towers y Park Lake en Kendall, dice \"all affordable properties accept applications onsite and you should contact the management office directly for information about availability\" (todas las propiedades asequibles aceptan solicitudes en el lugar y debe llamar a la oficina de administración para saber si hay disponibilidad) (verificado el 3 de noviembre de 2026). HCD no publica si están abiertas o cerradas, así que llame a la propiedad."
+      }
+    ],
+    "also_serving": [
+      "<strong>La Ciudad de Miami tiene su propio programa de la Sección 8, aparte.</strong> HUD lo registra como la PHA FL145, con tipo de programa \"Section 8\", con el nombre \"Miami Hsg Conservation\", en 444 SW 2nd Ave., (305) 416-2080. La página de la Sección 8 de la Ciudad dice: \"The City's Section 8 program is not accepting new applications\" (el programa de la Sección 8 de la Ciudad no acepta nuevas solicitudes), y sus preguntas y respuestas dicen que sus programas de vales y basados en proyectos \"ARE PRESENTLY CLOSED AND NOT ACCEPTING APPLICATIONS\" (están cerrados y no aceptan solicitudes). La Ciudad dice que su periodo de solicitud de vales cerró en octubre de 2014 y que todavía está atendiendo esa lista; quienes estén en ella deben llamar al 305-416-1572 para actualizar sus datos (verificado el 3 de noviembre de 2026).",
+      "La <strong>Hialeah Housing Authority</strong> es una agencia aparte para la Ciudad de Hialeah, código FL066 de HUD, con tipo de programa \"Combined\", en 75 E. 6th St., 305-888-9744. Su página de solicitudes dice: \"Currently the Section 8/HCVP waiting list is closed\" (la lista de espera de la Sección 8 está cerrada actualmente). Su última apertura documentada fue del 21 de abril al 4 de mayo de 2017, cuando un sorteo eligió 2,500 de 60,919 presolicitudes (verificado el 3 de noviembre de 2026).",
+      "La <strong>Housing Authority of the City of Miami Beach</strong>, código FL017 de HUD, con tipo de programa \"Combined\", en 200 Alton Road, 305-532-6401. Dice que la jurisdicción de sus vales \"covers Miami Beach and extends ten miles outside the city\" (cubre Miami Beach y se extiende diez millas fuera de la ciudad). El 3 de noviembre de 2026, su página Waitlists marcaba todas las listas que nombra, desde la lista basada en proyectos de Rebecca Tower North hasta sus edificios asequibles, como \"Waitlist CLOSED\" (lista cerrada).",
+      "La <strong>Housing Authority of the City of Homestead</strong>, código FL068 de HUD, con tipo de programa \"Section 8\", en 29355 S. Federal Highway, (305) 247-0639, según la lista de HUD para Florida.",
+      "<strong>HCD no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, llame a la Línea de Defensa de la Vivienda del condado al 786-469-4545 y a la Línea de Ayuda para Personas sin Hogar al 1-877-994-4357 (marque 1 para prevención), y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-miami\">guía de ayuda de emergencia con la renta en Miami</a>: qué está abierto, qué está cerrado o en pausa, ayuda con la factura de luz, abogados gratis contra el desalojo y el aviso de 3 días y la respuesta de 5 días de Florida."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Miami-Dade?",
+        "a": "No. Al 3 de noviembre de 2026, la página Housing and Section 8 de HCD dice: \"The waiting list is closed for registration\" (la lista de espera está cerrada a la inscripción). La misma solicitud única cubre los vales de la Sección 8 y las viviendas basadas en proyectos de HCD, incluida la vivienda pública. El portal de vales de HCD también dice \"LA INSCRIPCIÓN ESTÁ CERRADA\". HCD no da fecha para la próxima inscripción, así que tome cualquier fecha que vea en otro lugar como no confirmada, a menos que aparezca en el propio sitio de HCD."
+      },
+      {
+        "q": "¿Cuándo abrió HCD la lista por última vez y cómo eligieron a la gente?",
+        "a": "La última inscripción fue desde la medianoche del 5 de febrero de 2024 hasta las 11:59 p.m. del 19 de febrero de 2024, solo en línea. Todas las solicitudes entraron en un sorteo por computadora el 18 de marzo de 2024, y solo se eligieron 5,000, así que el día en que solicitó no importaba. Las preguntas frecuentes de 2024 de HCD ordenan a las personas elegidas con estas preferencias: terminadas por HCD por falta de fondos, desplazadas por un desastre natural, desplazadas por una acción del gobierno, personas sin hogar, veteranos, la preferencia Mainstream y la residencia en el condado de Miami-Dade. HCD dice que anuncia la inscripción en el Miami Herald, el Miami Times, el Diario Las Américas y Le Floridien."
+      },
+      {
+        "q": "¿PHCD y HCD son la misma agencia?",
+        "a": "Sí. El departamento del condado ahora se llama Miami-Dade Housing and Community Development (HCD). Sus avisos de la Sección 8 de 2024 usaban el nombre anterior, Public Housing and Community Development (PHCD), y la lista de PHA de HUD todavía muestra Miami Dade Public Housing and Community Dev con el código FL005. Es la misma agencia, en 701 NW 1st Court."
+      },
+      {
+        "q": "¿Tiene la Ciudad de Miami su propio programa de la Sección 8?",
+        "a": "Sí, uno pequeño, aparte del condado. HUD lo registra como la PHA FL145. La página de la Sección 8 de la Ciudad dice \"The City's Section 8 program is not accepting new applications\" (el programa de la Sección 8 de la Ciudad no acepta nuevas solicitudes), y que sus programas de vales y basados en proyectos están cerrados. Su periodo de solicitud de vales cerró en octubre de 2014. Si está en esa lista de la Ciudad, llame al 305-416-1572 para actualizar sus datos. La mayoría de los residentes de Miami recibe vales a través de HCD, del condado."
+      },
+      {
+        "q": "¿Las autoridades de vivienda de Hialeah y de Miami Beach son parte de HCD?",
+        "a": "No. Cada una maneja sus propias listas. La Hialeah Housing Authority (305-888-9744) dice que su lista de la Sección 8 está cerrada actualmente; su última apertura fue en 2017. La Housing Authority of the City of Miami Beach (305-532-6401) marcaba todas las listas de su página Waitlists como cerradas el 3 de noviembre de 2026. Homestead también tiene su propia autoridad de vivienda, al (305) 247-0639 según la lista de HUD."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El 786-469-4100 es el número principal de HCD; aparece en todas las páginas de HCD. Para el programa de vales, la página Housing Choice Voucher de HCD y sus preguntas frecuentes de 2024 dan el 786-654-8440, y la página de contacto de HCD da el 305-403-3222 para pedir una cita. Las propias páginas de HCD no coinciden sobre el Centro de Solicitantes y Arrendamiento (Applicant Leasing Center): la página Housing and Section 8 da el 786-469-4206, mientras que la página de contacto da el 786-469-4300; las dos ubican el centro en 701 NW 1st Court, piso 14. La lista de HUD muestra el (786) 469-4106 para FL005."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Miami-Dade HCD - Housing and Section 8: solicitud única, lista cerrada a la inscripción, Applicant Leasing Center (en inglés)",
+        "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544119346614848"
+      },
+      {
+        "label": "Miami-Dade HCD - Housing Choice Voucher Program: sorteo del 18 de marzo, 5,000 elegidos, teléfono de la Sección 8 (en inglés)",
+        "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser1544821240699928"
+      },
+      {
+        "label": "Miami-Dade HCD - Portal de vales de la Sección 8: inscripción cerrada (en inglés, español y criollo)",
+        "url": "https://miamidadevoucher.myhousing.com/"
+      },
+      {
+        "label": "Miami-Dade PHCD - Preguntas frecuentes del sorteo de 2024: preferencias, teléfono (en inglés)",
+        "url": "https://www.miamidade.gov/resources/housing/documents/affordable-housing-resources/faqs-s8-hcv-waiting-list-2024-english-selection-process-1.pdf"
+      },
+      {
+        "label": "Condado de Miami-Dade - Comunicado del 18 de enero de 2024: la lista de 2024 abre del 5 al 19 de febrero de 2024 (en inglés)",
+        "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1705596983119220"
+      },
+      {
+        "label": "Miami-Dade HCD - About: PHA oficial, unas 6,500 viviendas públicas, más de 19,000 hogares con vales (en inglés)",
+        "url": "https://www.miamidade.gov/global/housing/about.page"
+      },
+      {
+        "label": "Miami-Dade HCD - Contacto: oficina principal, Applicant Leasing Center, línea de citas de la Sección 8 (en inglés)",
+        "url": "https://www.miamidade.gov/global/housing/contact-public-housing-and-community-development.page"
+      },
+      {
+        "label": "Miami-Dade HCD - Rehabilitación Moderada de la Sección 8: unas 2,097 viviendas en 48 lugares (en inglés)",
+        "url": "https://www.miamidade.gov/global/housing/section-8-moderate-rehabilitation.page"
+      },
+      {
+        "label": "Miami-Dade HCD - Propiedades de ingresos mixtos del condado: solicitud en el lugar (en inglés)",
+        "url": "https://www.miamidade.gov/global/housing/county-owned-mixed-use-properties.page"
+      },
+      {
+        "label": "Ciudad de Miami - Section 8: no acepta nuevas solicitudes; lista de vales cerrada desde octubre de 2014 (en inglés)",
+        "url": "https://www.miami.gov/Housing-Assistance/Housing-Assistance/Section-8"
+      },
+      {
+        "label": "Hialeah Housing Authority - Application Information, Housing Choice Voucher: lista cerrada, sorteo de 2017 (en inglés)",
+        "url": "https://www.hialeahhousing.org/application-information-housing-choice-voucher"
+      },
+      {
+        "label": "Housing Authority of the City of Miami Beach - Waitlists: todas las listas cerradas (en inglés)",
+        "url": "https://www.hacmb.org/waitlists"
+      },
+      {
+        "label": "Housing Authority of the City of Miami Beach - Section 8: jurisdicción de diez millas fuera de la ciudad (en inglés)",
+        "url": "https://www.hacmb.org/section-8"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Florida: FL005 Combined, FL145, FL066, FL017, FL068 (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"
+      }
+    ]
+  }
+}

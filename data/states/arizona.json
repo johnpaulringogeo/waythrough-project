@@ -29,6 +29,16 @@
         "desc": "Phoenix's Section 8 waitlist status and how to apply."
       },
       {
+        "href": "resources/housing-authorities/mesa-mha",
+        "title": "Mesa Housing Authority",
+        "desc": "Mesa's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
+        "href": "resources/housing-authorities/tucson-hcd",
+        "title": "City of Tucson HCD",
+        "desc": "Tucson and Pima County Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."
@@ -108,6 +118,16 @@
         "href": "es/recursos/autoridades-de-vivienda/phoenix-az",
         "title": "Departamento de Vivienda de la Ciudad de Phoenix",
         "desc": "Estado de la lista de espera de Sección 8 en Phoenix, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/mesa-mha",
+        "title": "Mesa Housing Authority",
+        "desc": "Estado de la lista de espera de Sección 8 en Mesa, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/tucson-hcd",
+        "title": "HCD de la Ciudad de Tucson",
+        "desc": "Estado de la lista de espera de Sección 8 en Tucson y el condado de Pima, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",

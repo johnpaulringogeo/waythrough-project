@@ -34,6 +34,11 @@
         "desc": "Tampa's Section 8 waitlist status, contact, and how to apply."
       },
       {
+        "href": "resources/housing-authorities/miami-hcd",
+        "title": "Miami-Dade HCD (formerly PHCD)",
+        "desc": "Miami-Dade's Section 8 waitlist status, contact, and how to apply."
+      },
+      {
         "href": "resources/tenant-rights",
         "title": "Your Rights as a Tenant",
         "desc": "Habitability, deposits, and eviction defense."
@@ -118,6 +123,11 @@
         "href": "es/recursos/autoridades-de-vivienda/tampa-tha",
         "title": "Tampa Housing Authority (THA)",
         "desc": "Estado de la lista de espera de Sección 8 en Tampa, contacto y cómo solicitar."
+      },
+      {
+        "href": "es/recursos/autoridades-de-vivienda/miami-hcd",
+        "title": "HCD de Miami-Dade (antes PHCD)",
+        "desc": "Estado de la lista de espera de Sección 8 en Miami-Dade, contacto y cómo solicitar."
       },
       {
         "href": "es/recursos/derechos-del-inquilino",

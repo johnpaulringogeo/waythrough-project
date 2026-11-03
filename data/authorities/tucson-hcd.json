@@ -1,0 +1,290 @@
+{
+  "slug": "tucson-hcd",
+  "kind": "authority",
+  "name": "City of Tucson Housing and Community Development (HCD)",
+  "schema_name": "City of Tucson Housing and Community Development Department",
+  "short_name": "HCD",
+  "title_name": "Tucson HCD",
+  "city": "Tucson",
+  "state": "AZ",
+  "serves": "the City of Tucson and Pima County, Arizona",
+  "phone": "(520) 791-4171",
+  "official_url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development",
+  "apply_url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8/Application-Status",
+  "city_slug": "tucson",
+  "state_slug": "arizona",
+  "updated": "November 3, 2026",
+  "intro": "The City of Tucson Housing and Community Development Department (HCD) is Tucson's public housing authority, and it also runs Pima County's Section 8 program. HUD lists two agencies at HCD's office, 310 N. Commerce Park Loop: Housing and Community Development Tucson, PHA AZ004, program type Combined, and the Pima County Housing Authority, PHA AZ033, program type Section 8, both with the phone number (520) 791-4171. HCD's 2026 Annual Plan for AZ004 lists 1,098 public housing units and 4,278 Housing Choice Vouchers, and the City says the voucher program has about 6,000 vouchers for City of Tucson and Pima County residents. The short version today: on January 1, 2026, HCD closed the City of Tucson Section 8 list, the Pima County Section 8 list and the City's public housing lists, and no reopening date has been set. This page covers HCD's exact words, how the monthly lottery works for people who applied before the closure, HCD's preferences, the specialty programs that still take referrals, and the separate South Tucson Housing Authority.",
+  "programs": [
+    "Housing Choice Voucher (Section 8) for the City of Tucson (AZ004) and Pima County (AZ033), about 6,000 vouchers in all",
+    "Public Housing, 1,098 units in HCD's 2026 Annual Plan, including MLK Apartments, Silverbell Homes, Southpark, Lander Gardens, Craycroft Towers and Tucson House",
+    "City-owned affordable rentals at Posadas Sentinel and El Portal",
+    "HUD-VASH vouchers for homeless veterans, by VA referral",
+    "Family Unification Program (FUP), by referral from partner agencies",
+    "Moderate Rehabilitation, Shelter Plus Care, HOPWA rent subsidy and other specialty programs",
+    "Family Self-Sufficiency (FSS)"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8), City of Tucson and Pima County",
+      "status": "Closed",
+      "note": "Closed (checked November 3, 2026). HCD's Section 8 page reads: \"The Housing Waitlist is currently closed and is not accepting new applications at this time.\" HCD's legal notice says that effective January 1, 2026 it closed the City of Tucson HCV (Section 8) and Pima County HCV (Section 8) waitlists, and that \"No date has been set for the waitlists to reopen.\" HCD's applicant portal, tucsonaz.myhousing.com, says: \"There are currently no waiting lists open.\""
+    },
+    {
+      "program": "Public Housing",
+      "status": "Closed",
+      "note": "HCD's Public Housing page reads: \"The Public Housing Waitlists are closed.\" The January 1, 2026 legal notice names MLK Apartments, Silverbell Homes, Southpark, Posadas Sentinel, Lander Gardens, and AMPs 3, 4, 5 and 6 (checked November 3, 2026). When a name comes up, HCD says you get an email and a letter and have 10 business days to respond, and that you cannot choose your own unit."
+    },
+    {
+      "program": "El Portal (City-owned affordable rentals)",
+      "status": "Closed",
+      "note": "HCD's El Portal page reads: \"El Portal is not currently accepting applications to be placed on our waitlist\" (checked November 3, 2026). El Portal staff: (520) 791-5353."
+    },
+    {
+      "program": "HUD-VASH, FUP and other specialty programs",
+      "status": "By referral",
+      "note": "In its December 23, 2025 announcement, the City said HCD \"will continue to provide vouchers, when capacity allows, for specialty programs\" such as HUD-VASH and the Family Unification Program (FUP). HCD's Specialty Programs page says FUP families and youth \"must currently be on the Section 8 waiting list and referred\" by the Arizona Department of Child Safety, (520) 751-3097, Arizona's Children Association, (520) 622-7611, or the Arizona Department of Economic Security, (520) 628-6810. The same page still says \"Referrals and applications are now being accepted\" for La Frontera's Rally Point Apartments, 30 project-based studios for homeless veterans, but gives no date, so call the leasing office at (520) 838-0034 to confirm (checked November 3, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>South Tucson Housing Authority</strong> is a separate agency for the City of South Tucson, HUD code AZ025, program type Combined, at 1713 S. 3rd Ave., 520-623-8481. Its own page says it runs 172 public housing apartments and 132 Housing Choice Vouchers, all inside South Tucson's 1.2 square miles, and read on November 3, 2026: \"THE WAIT LIST IS CURRENTLY CLOSED.\"",
+    "<strong>Pima County does not run a separate voucher office.</strong> Pima County's rental resources page says \"The Pima County Section 8 program is administered by City of Tucson,\" and HUD lists the Pima County Housing Authority (AZ033) at HCD's address and phone. HCD ran both lists, and both closed on January 1, 2026.",
+    "Elsewhere in Arizona, the <strong>City of Mesa</strong> and the <strong>City of Phoenix</strong> run their own lists. See our <a href=\"mesa-mha\">Mesa Housing Authority page</a> and our <a href=\"phoenix-az\">Phoenix Housing Department page</a>.",
+    "<strong>HCD is not an emergency rent fund.</strong> If you are behind on rent, start with the Pima County Community Action Agency at (520) 724-2667, and see our <a href=\"../guides/emergency-rent-help-tucson\">Tucson emergency rent help guide</a>: Pima County's Emergency Services Network, Interfaith Community Services, Primavera, utility help, free eviction lawyers through EELS and Southern Arizona Legal Aid, and Arizona's 5-day notice."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Tucson Section 8 waiting list open?",
+      "a": "No. As of November 3, 2026, HCD's Section 8 page says: \"The Housing Waitlist is currently closed and is not accepting new applications at this time.\" HCD closed the City of Tucson and Pima County voucher lists and the City's public housing lists on January 1, 2026, and its legal notice says \"No date has been set for the waitlists to reopen.\" Treat any reopening date you see elsewhere as unconfirmed unless HCD's own site shows it."
+    },
+    {
+      "q": "Why did Tucson close the lists?",
+      "a": "In its December 23, 2025 announcement, the City said more than 40,000 Tucsonans were waiting for the two programs, which it expected to keep enrolling people for several more years without new applicants. It said the voucher program has about 6,000 vouchers for City of Tucson and Pima County residents, and that with about 11 percent attrition, roughly 660 vouchers come free each year. HCD's director said, \"Keeping the list open creates false expectations and erodes public trust.\""
+    },
+    {
+      "q": "I applied before January 1, 2026. Where am I on the list?",
+      "a": "HCD says that each month it runs an electronic lottery from the pool of pre-applications, that the timing of your application does not help or hurt your odds, and that \"Staff cannot provide you with your place on the waitlist.\" People picked in the lottery go onto the waitlist and get a letter. HCD warns that there are 15,000+ applications to join the list and it could be a year or more before you are chosen. Keep your mailing address current with HCD's online update form, by email to tucsonwaitinglist@tucsonaz.gov, or by leaving a message at (520) 791-5840."
+    },
+    {
+      "q": "Does HCD give any preferences?",
+      "a": "HCD's Housing Choice Voucher Administrative Plan, effective July 1, 2026, lists three local preferences: families whose HCD voucher was ended because of insufficient program funding, then victims of domestic violence, dating violence, sexual assault, stalking or human trafficking who are referred by a partner agency or need a VAWA emergency transfer, and families moving off an expiring Emergency Housing Voucher. Within each group, families are picked by the date and time their complete application came in."
+    },
+    {
+      "q": "Is Pima County Section 8 a different agency?",
+      "a": "No. Pima County says its Section 8 program is administered by the City of Tucson, and HUD lists the Pima County Housing Authority (AZ033) at HCD's office and phone. Both the City and the County voucher lists closed on January 1, 2026. The South Tucson Housing Authority is a separate agency for the City of South Tucson, at 520-623-8481, and its own page also says its wait list is closed."
+    },
+    {
+      "q": "Can a Tucson landlord refuse my voucher?",
+      "a": "Inside Tucson city limits, generally not. Arizona has no statewide source-of-income protection, but HCD's housing discrimination page says source of income \"is now protected under local fair housing laws in the cities of Tucson, Phoenix, and Tempe,\" and that covers Housing Choice Vouchers. The City says the Arizona Attorney General found in March 2023 that its ordinance does not violate state law. Outside those cities, a landlord can still turn down a voucher."
+    },
+    {
+      "q": "What number should I call?",
+      "a": "(520) 791-4171 is HCD's main number. It is on every HCD page and HUD lists it for both AZ004 and AZ033. For waitlist questions, HCD's Application Status page and its legal notice give (520) 791-5840 and tucsonwaitinglist@tucsonaz.gov, and Pima County's rental resources page gives the same number. HCD's office is at 310 N. Commerce Park Loop, open 8 a.m. to 5 p.m., Monday through Friday."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Tucson HCD - main page (phone, hours)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development"
+    },
+    {
+      "label": "City of Tucson HCD - Section 8 Quick Links (waitlist closed, Moderate Rehab)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8"
+    },
+    {
+      "label": "City of Tucson HCD - Application Status (monthly lottery, 15,000+ applications, waitlist line and email)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8/Application-Status"
+    },
+    {
+      "label": "City of Tucson HCD - Legal notice: waitlists close January 1, 2026",
+      "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/hcd-news/legal-notice-12.1.25.pdf"
+    },
+    {
+      "label": "City of Tucson - Announcement, December 23, 2025: City closes housing wait lists",
+      "url": "https://content.govdelivery.com/accounts/AZTUCSON/bulletins/40145c0"
+    },
+    {
+      "label": "City of Tucson HCD - Public Housing in Tucson (waitlists closed)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Public-Housing-in-Tucson"
+    },
+    {
+      "label": "City of Tucson HCD - Applicant portal (no waiting lists open)",
+      "url": "https://tucsonaz.myhousing.com/"
+    },
+    {
+      "label": "City of Tucson HCD - Specialty Programs (HUD-VASH, FUP referral agencies, Rally Point)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Speciality-Programs"
+    },
+    {
+      "label": "City of Tucson HCD - El Portal (not accepting waitlist applications)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/El-Portal"
+    },
+    {
+      "label": "City of Tucson HCD - Resources for Housing Discrimination (source-of-income protection)",
+      "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Resources-for-Housing-Discrimination"
+    },
+    {
+      "label": "City of Tucson - Source of Income Ordinance (Attorney General report, March 8, 2023)",
+      "url": "https://sourceofincome.tucsonaz.gov/"
+    },
+    {
+      "label": "City of Tucson HCD - FY27 HCV Administrative Plan (local preferences, order of selection)",
+      "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/documents/plans/public-housing-authority/fy27-hcv-administrative-plan.pdf-updated.pdf"
+    },
+    {
+      "label": "City of Tucson HCD - 2026 PHA Annual Plan, AZ004 (1,098 public housing units, 4,278 vouchers)",
+      "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/documents/plans/az004-az033-2026-pha-annual-plan.pdf"
+    },
+    {
+      "label": "Pima County - Rental Assistance & Housing Resources (Section 8 administered by City of Tucson)",
+      "url": "https://www.pima.gov/2777/Rental-Assistance-Housing-Resources"
+    },
+    {
+      "label": "South Tucson Housing Authority - official page (wait list closed)",
+      "url": "https://www.southtucsonaz.gov/stha"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Arizona (AZ004 Combined; AZ033 Section 8; AZ025 Combined)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_AZ.pdf"
+    }
+  ],
+  "es": {
+    "name": "Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (HCD)",
+    "serves": "la ciudad de Tucson y el condado de Pima, Arizona",
+    "updated": "3 de noviembre de 2026",
+    "intro": "El Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (Housing and Community Development, HCD) es la autoridad de vivienda pública de Tucson y también maneja el programa de la Sección 8 del condado de Pima. HUD registra dos agencias en la oficina de HCD, 310 N. Commerce Park Loop: Housing and Community Development Tucson, la PHA AZ004, con tipo de programa \"Combined\", y la Pima County Housing Authority, la PHA AZ033, con tipo de programa \"Section 8\", ambas con el teléfono (520) 791-4171. El Plan Anual de 2026 de HCD para AZ004 registra 1,098 viviendas públicas y 4,278 vales, y la Ciudad dice que el programa de vales tiene unos 6,000 vales para residentes de la ciudad de Tucson y del condado de Pima. En resumen, hoy: el 1 de enero de 2026 HCD cerró la lista de la Sección 8 de la ciudad de Tucson, la del condado de Pima y las listas de vivienda pública de la Ciudad, y no hay fecha de reapertura. Esta página explica las palabras exactas de HCD, cómo funciona el sorteo mensual para quienes solicitaron antes del cierre, las preferencias de HCD, los programas especiales que todavía aceptan referencias y la South Tucson Housing Authority, que es otra agencia.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8) para la ciudad de Tucson (AZ004) y el condado de Pima (AZ033), unos 6,000 vales en total",
+      "Vivienda pública, 1,098 viviendas según el Plan Anual de 2026 de HCD, entre ellas MLK Apartments, Silverbell Homes, Southpark, Lander Gardens, Craycroft Towers y Tucson House",
+      "Alquileres asequibles de la Ciudad en Posadas Sentinel y El Portal",
+      "Vales HUD-VASH para veteranos sin hogar, por referencia del VA",
+      "Programa de Unificación Familiar (FUP), por referencia de agencias asociadas",
+      "Rehabilitación Moderada, Shelter Plus Care, subsidio de renta HOPWA y otros programas especiales",
+      "Programa de Autosuficiencia Familiar (FSS)"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8), ciudad de Tucson y condado de Pima",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 3 de noviembre de 2026). La página de la Sección 8 de HCD dice: \"The Housing Waitlist is currently closed and is not accepting new applications at this time\" (la lista de espera está cerrada y no acepta nuevas solicitudes por ahora). El aviso legal de HCD dice que a partir del 1 de enero de 2026 cerró las listas de vales (Sección 8) de la ciudad de Tucson y del condado de Pima, y que \"No hay fecha para la reapertura de las listas de espera\". El portal de solicitantes de HCD, tucsonaz.myhousing.com, dice: \"There are currently no waiting lists open\" (no hay listas de espera abiertas)."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Cerrada",
+        "note": "La página de vivienda pública de HCD dice: \"The Public Housing Waitlists are closed\" (las listas de vivienda pública están cerradas). El aviso legal del 1 de enero de 2026 nombra MLK Apartments, Silverbell Homes, Southpark, Posadas Sentinel, Lander Gardens y las AMP 3, 4, 5 y 6 (verificado el 3 de noviembre de 2026). Cuando le toca su turno, HCD dice que recibirá un correo electrónico y una carta y tendrá 10 días hábiles para responder, y que no puede elegir su propia vivienda."
+      },
+      {
+        "program": "El Portal (alquileres asequibles de la Ciudad)",
+        "status": "Cerrada",
+        "note": "La página de El Portal de HCD dice: \"El Portal is not currently accepting applications to be placed on our waitlist\" (El Portal no está aceptando solicitudes para su lista de espera) (verificado el 3 de noviembre de 2026). Personal de El Portal: (520) 791-5353."
+      },
+      {
+        "program": "HUD-VASH, FUP y otros programas especiales",
+        "status": "Por referencia",
+        "note": "En su anuncio del 23 de diciembre de 2025, la Ciudad dijo que HCD \"will continue to provide vouchers, when capacity allows, for specialty programs\" (seguirá dando vales, cuando haya capacidad, para programas especiales) como HUD-VASH y el Programa de Unificación Familiar (FUP). La página de programas especiales de HCD dice que las familias y los jóvenes de FUP \"must currently be on the Section 8 waiting list and referred\" (deben estar ya en la lista de la Sección 8 y ser referidos) por el Departamento de Seguridad Infantil de Arizona, (520) 751-3097, Arizona's Children Association, (520) 622-7611, o el Departamento de Seguridad Económica de Arizona, (520) 628-6810. La misma página todavía dice \"Referrals and applications are now being accepted\" (se aceptan referencias y solicitudes) para Rally Point Apartments de La Frontera, 30 estudios con vales basados en proyectos para veteranos sin hogar, pero no da fecha, así que llame a la oficina de alquiler al (520) 838-0034 para confirmar (verificado el 3 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "La <strong>South Tucson Housing Authority</strong> es una agencia aparte para la Ciudad de South Tucson, código AZ025 de HUD, con tipo de programa \"Combined\", en 1713 S. 3rd Ave., 520-623-8481. Su propia página dice que administra 172 apartamentos de vivienda pública y 132 vales de la Sección 8, todos dentro de las 1.2 millas cuadradas de South Tucson, y decía el 3 de noviembre de 2026: \"THE WAIT LIST IS CURRENTLY CLOSED\" (la lista de espera está cerrada).",
+      "<strong>El condado de Pima no tiene una oficina de vales aparte.</strong> La página de recursos de alquiler del condado de Pima dice \"The Pima County Section 8 program is administered by City of Tucson\" (el programa de la Sección 8 del condado de Pima lo administra la Ciudad de Tucson), y HUD registra la Pima County Housing Authority (AZ033) en la dirección y el teléfono de HCD. HCD manejaba las dos listas, y las dos cerraron el 1 de enero de 2026.",
+      "En otras partes de Arizona, la <strong>Ciudad de Mesa</strong> y la <strong>Ciudad de Phoenix</strong> tienen sus propias listas. Vea nuestra <a href=\"mesa-mha\">página de la Mesa Housing Authority</a> y nuestra <a href=\"phoenix-az\">página del Departamento de Vivienda de Phoenix</a>.",
+      "<strong>HCD no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, empiece con la Agencia de Acción Comunitaria del condado de Pima al (520) 724-2667, y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-tucson\">guía de ayuda de emergencia con la renta en Tucson</a>: la red de servicios de emergencia del condado de Pima, Interfaith Community Services, Primavera, ayuda con los servicios, abogados gratis contra el desalojo con EELS y Southern Arizona Legal Aid, y el aviso de 5 días de Arizona."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Tucson?",
+        "a": "No. Al 3 de noviembre de 2026, la página de la Sección 8 de HCD dice: \"The Housing Waitlist is currently closed and is not accepting new applications at this time\" (la lista de espera está cerrada y no acepta nuevas solicitudes por ahora). HCD cerró las listas de vales de la ciudad de Tucson y del condado de Pima y las listas de vivienda pública de la Ciudad el 1 de enero de 2026, y su aviso legal dice que no hay fecha para la reapertura. Tome cualquier fecha de reapertura que vea en otro lugar como no confirmada, a menos que aparezca en el propio sitio de HCD."
+      },
+      {
+        "q": "¿Por qué cerró Tucson las listas?",
+        "a": "En su anuncio del 23 de diciembre de 2025, la Ciudad dijo que más de 40,000 personas de Tucson esperaban ayuda de los dos programas, y que esperaba seguir inscribiendo gente durante varios años más sin nuevos solicitantes. Dijo que el programa de vales tiene unos 6,000 vales para residentes de la ciudad de Tucson y del condado de Pima, y que con una rotación anual de alrededor del 11 por ciento se liberan unos 660 vales al año. La directora de HCD dijo: \"Keeping the list open creates false expectations and erodes public trust\" (mantener la lista abierta crea falsas expectativas y erosiona la confianza del público)."
+      },
+      {
+        "q": "Solicité antes del 1 de enero de 2026. ¿En qué lugar de la lista estoy?",
+        "a": "HCD dice que cada mes hace un sorteo electrónico entre las presolicitudes, que el momento en que solicitó no mejora ni empeora sus probabilidades, y que \"Staff cannot provide you with your place on the waitlist\" (el personal no puede decirle su lugar en la lista). Las personas elegidas en el sorteo pasan a la lista de espera y reciben una carta. HCD advierte que hay más de 15,000 solicitudes para entrar a la lista y que podría pasar un año o más antes de que lo elijan. Mantenga al día su dirección postal con el formulario en línea de HCD, por correo electrónico a tucsonwaitinglist@tucsonaz.gov o dejando un mensaje al (520) 791-5840."
+      },
+      {
+        "q": "¿Da HCD alguna preferencia?",
+        "a": "El Plan Administrativo de vales de HCD, vigente desde el 1 de julio de 2026, tiene tres preferencias locales: primero, las familias cuyo vale de HCD se terminó por falta de fondos del programa; luego, las víctimas de violencia doméstica, violencia en el noviazgo, agresión sexual, acecho o trata de personas referidas por una agencia asociada o que necesitan un traslado de emergencia bajo VAWA; y las familias que dejan un vale de vivienda de emergencia (EHV) que se termina. Dentro de cada grupo, se elige por la fecha y la hora en que llegó la solicitud completa."
+      },
+      {
+        "q": "¿La Sección 8 del condado de Pima es otra agencia?",
+        "a": "No. El condado de Pima dice que su programa de la Sección 8 lo administra la Ciudad de Tucson, y HUD registra la Pima County Housing Authority (AZ033) en la oficina y el teléfono de HCD. Las listas de vales de la Ciudad y del condado cerraron el 1 de enero de 2026. La South Tucson Housing Authority sí es otra agencia, para la Ciudad de South Tucson, al 520-623-8481, y su propia página también dice que su lista está cerrada."
+      },
+      {
+        "q": "¿Puede un propietario de Tucson rechazar mi vale?",
+        "a": "Dentro de los límites de la ciudad de Tucson, por lo general no. Arizona no tiene una protección estatal de la fuente de ingresos, pero la página de discriminación en la vivienda de HCD dice que la fuente de ingresos \"is now protected under local fair housing laws in the cities of Tucson, Phoenix, and Tempe\" (ahora está protegida por las leyes locales de vivienda justa en Tucson, Phoenix y Tempe), y eso incluye los vales de la Sección 8. La Ciudad dice que el Procurador General de Arizona concluyó en marzo de 2023 que su ordenanza no viola la ley estatal. Fuera de esas ciudades, un propietario todavía puede rechazar un vale."
+      },
+      {
+        "q": "¿A qué número debo llamar?",
+        "a": "El (520) 791-4171 es el número principal de HCD. Aparece en todas las páginas de HCD, y HUD lo lista para AZ004 y AZ033. Para preguntas sobre la lista de espera, la página Application Status de HCD y su aviso legal dan el (520) 791-5840 y el correo tucsonwaitinglist@tucsonaz.gov, y la página de recursos de alquiler del condado de Pima da el mismo número. La oficina de HCD está en 310 N. Commerce Park Loop y abre de 8 a.m. a 5 p.m., de lunes a viernes."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ciudad de Tucson HCD - página principal: teléfono, horario (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Section 8 Quick Links: lista cerrada, Rehabilitación Moderada (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Application Status: sorteo mensual, más de 15,000 solicitudes, línea y correo de la lista (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Section-8/Application-Status"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Aviso legal: cierre de las listas el 1 de enero de 2026 (en inglés y español)",
+        "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/hcd-news/legal-notice-12.1.25.pdf"
+      },
+      {
+        "label": "Ciudad de Tucson - Anuncio del 23 de diciembre de 2025: la Ciudad cierra las listas de espera (en inglés)",
+        "url": "https://content.govdelivery.com/accounts/AZTUCSON/bulletins/40145c0"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Public Housing in Tucson: listas cerradas (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Public-Housing-in-Tucson"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Portal de solicitantes: ninguna lista abierta (en inglés)",
+        "url": "https://tucsonaz.myhousing.com/"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Specialty Programs: HUD-VASH, agencias de referencia de FUP, Rally Point (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Speciality-Programs"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - El Portal: no acepta solicitudes para la lista (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/El-Portal"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Resources for Housing Discrimination: protección de la fuente de ingresos (en inglés)",
+        "url": "https://www.tucsonaz.gov/Departments/Housing-and-Community-Development/Housing-Assistance/Resources-for-Housing-Discrimination"
+      },
+      {
+        "label": "Ciudad de Tucson - Ordenanza de fuente de ingresos: informe del Procurador General, 8 de marzo de 2023 (en inglés)",
+        "url": "https://sourceofincome.tucsonaz.gov/"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Plan Administrativo de vales FY27: preferencias locales, orden de selección (en inglés)",
+        "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/documents/plans/public-housing-authority/fy27-hcv-administrative-plan.pdf-updated.pdf"
+      },
+      {
+        "label": "Ciudad de Tucson HCD - Plan Anual de la PHA 2026, AZ004: 1,098 viviendas públicas, 4,278 vales (en inglés)",
+        "url": "https://www.tucsonaz.gov/files/sharedassets/public/v/1/hcd/documents/plans/az004-az033-2026-pha-annual-plan.pdf"
+      },
+      {
+        "label": "Condado de Pima - Rental Assistance & Housing Resources: la Sección 8 la administra la Ciudad de Tucson (en inglés)",
+        "url": "https://www.pima.gov/2777/Rental-Assistance-Housing-Resources"
+      },
+      {
+        "label": "South Tucson Housing Authority - página oficial: lista cerrada (en inglés)",
+        "url": "https://www.southtucsonaz.gov/stha"
+      },
+      {
+        "label": "HUD - Informe de contactos de PHA, Arizona: AZ004 Combined, AZ033 Section 8, AZ025 Combined (en inglés)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_AZ.pdf"
+      }
+    ]
+  }
+}
