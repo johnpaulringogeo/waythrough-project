@@ -680,10 +680,10 @@
   },
   {
     "title": "Mesa, AZ Section 8 & Rent Help 2026 | Waythrough",
-    "description": "Mesa AZ 2026: CMHA Section 8 waitlist closed (14-month avg wait). Mesa CAN rent help line (480) 750-9228 first Thursdays, House of Refuge, Catholic Charities.",
+    "description": "Mesa AZ 2026: Mesa Housing Authority's Section 8 list is closed. Mesa CAN rent help (480) 750-9228 first Thursdays, House of Refuge, Catholic Charities.",
     "url": "/resources/cities/mesa",
     "category": "City",
-    "body": "Mesa, AZ Section 8 & Rent Help 2026 | Waythrough Home / Resources / Mesa Housing City Resources Affordable Housing in Mesa, AZ Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Mesa and Maricopa County — not generic"
+    "body": "Mesa, AZ Section 8 & Rent Help 2026 | Waythrough Home / Resources / Mesa Housing City Resources Affordable Housing in Mesa, AZ Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Mesa and Maricopa County — not generic "
   },
   {
     "title": "Miami, FL Section 8 & Rent Help 2026 | Waythrough",
@@ -1149,7 +1149,7 @@
   },
   {
     "title": "What Does PHA Stand For? Find Your Public Housing Authority",
-    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 44 authorities or on HUD’s list.",
+    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 50 authorities or on HUD’s list.",
     "url": "/resources/guides/how-to-find-your-pha",
     "category": "Guide",
     "body": "What Does PHA Stand For? Find Your Public Housing Authority Home / Resources / Find Your PHA How-To Guide What Does PHA Stand For? Find Your Local Public Housing Authority Matt · 6 min read PHA stands for Public Housing Authority — the local government agency that runs Section 8 Housing Choice Vouch"
@@ -2703,7 +2703,7 @@
   },
   {
     "title": "Sección 8 y ayuda con la renta en Mesa, AZ | Waythrough",
-    "description": "Mesa AZ: estado de la lista de CMHA, programas Mesa CAN y A New Leaf, House of Refuge, Catholic Charities East Valley, y derechos de inquilinos de Arizona.",
+    "description": "Mesa AZ: la lista de Sección 8 de Mesa está cerrada; Mesa CAN, A New Leaf, House of Refuge, Catholic Charities East Valley y derechos de inquilinos.",
     "url": "/es/recursos/ciudades/mesa",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Mesa y el Condado Maricopa — no consejos genéricos sobre Sección 8. Si necesita refugio esta noche, quiere saber si la lista de espera está abierta, o busca una organización que pueda ayudar con el "
@@ -4263,6 +4263,48 @@
     "body": "Opportunity Home (SAHA) Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / Opportunity Home Housing Authority Opportunity Home San Antonio (formerly SAHA) Serves the City of San Antonio, Texas · Last checked November 3, 2026 Waythrough is an independent resource, not Opportun"
   },
   {
+    "title": "Colorado Springs Housing Authority Section 8 Waitlist",
+    "description": "Colorado Springs Housing Authority (CSHA): Section 8 lottery and public housing waitlist status (checked November 3, 2026), HUD voucher pause, (719) 387-6700.",
+    "url": "/resources/housing-authorities/colorado-springs-csha",
+    "category": "Guide",
+    "body": "Colorado Springs Housing Authority Section 8 Waitlist Home / Resources / Housing Authorities / CSHA Housing Authority Colorado Springs Housing Authority (CSHA) Serves Colorado Springs and El Paso County, Colorado · Last checked November 3, 2026 Waythrough is an independent resource, not CSHA. We sum"
+  },
+  {
+    "title": "Mesa Housing Authority Section 8 Waitlist & How to Apply",
+    "description": "Mesa Housing Authority in Mesa, AZ: Section 8 waitlist status, phone (480) 644-3536, programs offered and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/mesa-mha",
+    "category": "Guide",
+    "body": "Mesa Housing Authority Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / the Mesa Housing Authority Housing Authority Mesa Housing Authority (City of Mesa) Serves the City of Mesa, Arizona · Last checked November 3, 2026 Waythrough is an independent resource, not the Mesa Ho"
+  },
+  {
+    "title": "Miami-Dade HCD (PHCD) Section 8 Waitlist & How to Apply",
+    "description": "Miami-Dade HCD (PHCD) in Miami, FL: Section 8 waitlist status, phone (786) 469-4100, programs offered and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/miami-hcd",
+    "category": "Guide",
+    "body": "Miami-Dade HCD (PHCD) Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / Miami-Dade HCD Housing Authority Miami-Dade Housing and Community Development (HCD, formerly PHCD) Serves Miami-Dade County, Florida, including the City of Miami · Last checked November 3, 2026 Waythroug"
+  },
+  {
+    "title": "Home Forward Portland Section 8 Waitlist & How to Apply",
+    "description": "Home Forward, Portland's housing authority: Section 8 waitlist status (checked November 3, 2026), 2026 lottery notices, phone (503) 802-8300, how to apply.",
+    "url": "/resources/housing-authorities/portland-home-forward",
+    "category": "Guide",
+    "body": "Home Forward Portland Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / Home Forward Housing Authority Home Forward (formerly the Housing Authority of Portland) Serves Portland, Gresham and the rest of Multnomah County, Oregon · Last checked November 3, 2026 Waythrough is an"
+  },
+  {
+    "title": "Seattle Housing Authority Section 8 Waitlist: Apply Any Time",
+    "description": "Seattle Housing Authority: apply for a Section 8 voucher any time, random drawings, monthly Save My Spot check-in, phone (206) 239-1674. Checked Nov 3, 2026.",
+    "url": "/resources/housing-authorities/seattle-sha",
+    "category": "Guide",
+    "body": "Seattle Housing Authority Section 8 Waitlist: Apply Any Time Home / Resources / Housing Authorities / SHA Housing Authority Seattle Housing Authority (SHA) Serves the city of Seattle, Washington · Last checked November 3, 2026 Waythrough is an independent resource, not SHA. We summarize public infor"
+  },
+  {
+    "title": "Tucson HCD Section 8 Waitlist & How to Apply | Waythrough",
+    "description": "Tucson HCD in Tucson, AZ: Section 8 waitlist status (checked November 3, 2026), phone (520) 791-4171, programs offered and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/tucson-hcd",
+    "category": "Guide",
+    "body": "Tucson HCD Section 8 Waitlist & How to Apply | Waythrough Home / Resources / Housing Authorities / HCD Housing Authority City of Tucson Housing and Community Development (HCD) Serves the City of Tucson and Pima County, Arizona · Last checked November 3, 2026 Waythrough is an independent resource, no"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4821,5 +4863,47 @@
     "url": "/es/recursos/autoridades-de-vivienda/san-antonio-saha",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / Opportunity Home Autoridad de Vivienda Opportunity Home San Antonio (formerly SAHA) Sirve a la Ciudad de San Antonio, Texas · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es Opportunity Home. Resumimos informació"
+  },
+  {
+    "title": "Colorado Springs Housing Authority: lista de Sección 8",
+    "description": "Colorado Springs Housing Authority (CSHA): sorteo de Sección 8 y vivienda pública (verificado el 3 de noviembre de 2026), pausa de HUD, tel. (719) 387-6700.",
+    "url": "/es/recursos/autoridades-de-vivienda/colorado-springs-csha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / CSHA Autoridad de Vivienda Colorado Springs Housing Authority (CSHA) Sirve a Colorado Springs y el condado de El Paso, Colorado · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es CSHA. Resumimos información públic"
+  },
+  {
+    "title": "Mesa Housing Authority: lista de espera Sección 8",
+    "description": "Mesa Housing Authority en Mesa, AZ: lista de espera de Sección 8 (verificada el 3 de noviembre de 2026), teléfono (480) 644-3536, programas y cómo solicitar.",
+    "url": "/es/recursos/autoridades-de-vivienda/mesa-mha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / la Mesa Housing Authority Autoridad de Vivienda Mesa Housing Authority (Ciudad de Mesa) Sirve a la ciudad de Mesa, Arizona · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es la Mesa Housing Authority. Resumimos in"
+  },
+  {
+    "title": "Miami-Dade HCD (PHCD): lista de espera Sección 8 y solicitud",
+    "description": "Miami-Dade HCD (PHCD) en Miami, FL: lista de espera de Sección 8 (verificada el 3 de noviembre de 2026), teléfono (786) 469-4100, programas y cómo solicitar.",
+    "url": "/es/recursos/autoridades-de-vivienda/miami-hcd",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / Miami-Dade HCD Autoridad de Vivienda Vivienda y Desarrollo Comunitario de Miami-Dade (HCD, antes PHCD) Sirve a el condado de Miami-Dade, Florida, incluida la ciudad de Miami · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independi"
+  },
+  {
+    "title": "Home Forward Portland: lista de espera Sección 8 y solicitud",
+    "description": "Home Forward, autoridad de vivienda de Portland: lista de Sección 8 (verificada el 3 de noviembre de 2026), sorteo de 2026, teléfono (503) 802-8300.",
+    "url": "/es/recursos/autoridades-de-vivienda/portland-home-forward",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / Home Forward Autoridad de Vivienda Home Forward (formerly the Housing Authority of Portland) Sirve a Portland, Gresham y el resto del condado de Multnomah, Oregón · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es"
+  },
+  {
+    "title": "Seattle Housing Authority: Sección 8, solicite cuando quiera",
+    "description": "Seattle Housing Authority (SHA): solicite el vale de Sección 8 en cualquier momento, sorteos al azar, reporte mensual Save My Spot, teléfono (206) 239-1674.",
+    "url": "/es/recursos/autoridades-de-vivienda/seattle-sha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / SHA Autoridad de Vivienda Seattle Housing Authority (SHA) Sirve a la ciudad de Seattle, Washington · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es SHA. Resumimos información pública para ayudarle a orientarse. "
+  },
+  {
+    "title": "Lista de espera Sección 8 de Tucson HCD y cómo solicitar",
+    "description": "Tucson HCD en Tucson, AZ: lista de espera de Sección 8 (verificada el 3 de noviembre de 2026), teléfono (520) 791-4171, programas y cómo solicitar.",
+    "url": "/es/recursos/autoridades-de-vivienda/tucson-hcd",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / HCD Autoridad de Vivienda Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (HCD) Sirve a la ciudad de Tucson y el condado de Pima, Arizona · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es"
   }
 ]
