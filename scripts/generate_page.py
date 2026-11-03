@@ -493,22 +493,23 @@ def build_faq_items(faqs, lang="en"):
     return items
 
 
-STATE_TITLE_MAX = 60
+TITLE_MAX = 60
 
 
 def render_one(env, kind, lang, slug, data, layout):
     """Render one language's page for one location."""
-    # State pages: Google truncates titles past ~60 characters and Bing flags
-    # anything over 70, so the searcher's words fall off the end. og:title and
-    # twitter:title fall back to meta.title in the template; any explicit
-    # override has to fit too. (City pages are not checked here yet.)
-    if kind == "state":
+    # State and city pages: Google truncates titles past ~60 characters and
+    # Bing flags anything over 70, so the searcher's words (the city, "Section
+    # 8", "rent help") fall off the end. The limit counts the " | Waythrough"
+    # suffix. og:title and twitter:title fall back to meta.title in the
+    # template; any explicit override has to fit too.
+    if kind in ("state", "city"):
         meta = data.get("meta") or {}
         for key in ("title", "og_title", "twitter_title"):
-            if meta.get(key) and len(meta[key]) > STATE_TITLE_MAX:
+            if meta.get(key) and len(meta[key]) > TITLE_MAX:
                 raise ValueError(
                     f"{slug} ({lang}): meta.{key} is {len(meta[key])} characters; "
-                    f"state titles must be <= {STATE_TITLE_MAX}: {meta[key]!r}"
+                    f"{kind} titles must be <= {TITLE_MAX}: {meta[key]!r}"
                 )
     canonical_path = layout["canonical_path"].format(slug=slug)
     alt_lang_path = layout["alt_lang_path"].format(slug=slug)
