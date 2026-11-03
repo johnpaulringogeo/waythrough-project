@@ -99,6 +99,71 @@
 /es/credito-vivienda/                         /es/recursos/credito-vivienda                   301
 /es/estados/                                  /es/recursos/estados                            301
 
+# --- Legacy top-level English paths -> /resources/<page> or /for-landlords/<page> (Bing Site Explorer 404s, 2026-11-03) ---
+/accessibility                    /resources/accessibility                    301
+/accessibility.html               /resources/accessibility                    301
+/ask                              /resources/ask                              301
+/ask.html                         /resources/ask                              301
+/benefits                         /resources/benefits                         301
+/benefits.html                    /resources/benefits                         301
+/cities                           /resources/cities/                          301
+/cities.html                      /resources/cities/                          301
+/community-answers                /resources/community-answers                301
+/community-answers.html           /resources/community-answers                301
+/credit-housing                   /resources/credit-housing                   301
+/credit-housing.html              /resources/credit-housing                   301
+/downloads                        /resources/downloads/                       301
+/downloads.html                   /resources/downloads/                       301
+/emergency-housing                /resources/emergency-housing                301
+/emergency-housing.html           /resources/emergency-housing                301
+/employment                       /resources/employment                       301
+/employment.html                  /resources/employment                       301
+/eviction-prevention              /resources/eviction-prevention              301
+/eviction-prevention.html         /resources/eviction-prevention              301
+/families                         /resources/families                         301
+/families.html                    /resources/families                         301
+/faq                              /resources/faq                              301
+/faq.html                         /resources/faq                              301
+/for-professionals                /resources/for-professionals                301
+/for-professionals.html           /resources/for-professionals                301
+/glossary                         /resources/glossary                         301
+/glossary.html                    /resources/glossary                         301
+/guides                           /resources/guides/                          301
+/guides.html                      /resources/guides/                          301
+/housing-authorities              /resources/housing-authorities/             301
+/housing-authorities.html         /resources/housing-authorities/             301
+/immigration-housing              /resources/immigration-housing              301
+/immigration-housing.html         /resources/immigration-housing              301
+/lgbtq-housing                    /resources/lgbtq-housing                    301
+/lgbtq-housing.html               /resources/lgbtq-housing                    301
+/mental-health                    /resources/mental-health                    301
+/mental-health.html               /resources/mental-health                    301
+/printable                        /resources/printable                        301
+/printable.html                   /resources/printable                        301
+/quick-start-guides               /resources/quick-start-guides               301
+/quick-start-guides.html          /resources/quick-start-guides               301
+/states                           /resources/states/                          301
+/states.html                      /resources/states/                          301
+/substance-use                    /resources/substance-use                    301
+/substance-use.html               /resources/substance-use                    301
+/tenant-rights                    /resources/tenant-rights                    301
+/tenant-rights.html               /resources/tenant-rights                    301
+/tools                            /resources/tools/                           301
+/tools.html                       /resources/tools/                           301
+/where-to-start                   /resources/where-to-start                   301
+/where-to-start.html              /resources/where-to-start                   301
+/youth-housing                    /resources/youth-housing                    301
+/youth-housing.html               /resources/youth-housing                    301
+/how-inspections-work             /for-landlords/how-inspections-work         301
+/how-inspections-work.html        /for-landlords/how-inspections-work         301
+/landlord-faq                     /for-landlords/landlord-faq                 301
+/landlord-faq.html                /for-landlords/landlord-faq                 301
+/payment-and-claims               /for-landlords/payment-and-claims           301
+/payment-and-claims.html          /for-landlords/payment-and-claims           301
+/why-accept-vouchers              /for-landlords/why-accept-vouchers          301
+/why-accept-vouchers.html         /for-landlords/why-accept-vouchers          301
+/templates                        /resources/templates/                       301
+
 # --- 404 class fix 2026-07-28: legacy top-level /es/<slug> paths -> /es/recursos/<slug> ---
 # GSC 'Not found (404)' was dominated by these. Nothing real lives at /es/<slug>
 # (only 404, index, privacidad, terminos), so these are safe blanket 301s.
