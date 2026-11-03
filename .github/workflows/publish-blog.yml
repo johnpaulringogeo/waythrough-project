@@ -47,3 +47,12 @@ jobs:
           git add -A
           git commit -m "Auto-publish weekly blog post"
           git push
+
+      # A GITHUB_TOKEN push doesn't trigger indexnow.yml, so submit the new post here,
+      # once Cloudflare Pages has had time to deploy it.
+      - name: Tell IndexNow about the new post
+        if: steps.check.outputs.has_drafts == 'true'
+        continue-on-error: true
+        run: |
+          sleep 150
+          python scripts/indexnow.py HEAD~1 HEAD

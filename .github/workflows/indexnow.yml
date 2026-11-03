@@ -1,0 +1,39 @@
+name: IndexNow
+
+# After each push to main deploys, tell IndexNow (Bing, Yandex, ...) which pages changed.
+# Pushes made by the weekly blog publisher use GITHUB_TOKEN and don't trigger this workflow,
+# so publish-blog.yml calls scripts/indexnow.py itself.
+
+on:
+  push:
+    branches: [main]
+    paths: ['**.html']
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Submit every sitemap URL'
+        type: boolean
+        default: false
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Wait for Cloudflare Pages to deploy
+        run: sleep 150
+
+      - name: Submit changed pages
+        if: github.event_name == 'push'
+        run: python scripts/indexnow.py ${{ github.event.before }} ${{ github.sha }}
+
+      - name: Submit all sitemap URLs
+        if: github.event_name == 'workflow_dispatch' && inputs.all
+        run: python scripts/indexnow.py --all
