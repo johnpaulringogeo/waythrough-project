@@ -24,6 +24,10 @@ intent the pattern can't carry (Denver's lottery, CHA's phone number); when set
 at the top level they must also be set in "es". Generation raises if any title
 is over 60 characters or any description is over 158.
 
+Optional "status_check_html" replaces the How to Apply sentence "If you have already applied,
+call <phone> to verify your position ..." for authorities where that advice is wrong (status
+by email only, an unranked lottery list). Like meta_title, a top-level one needs an es twin.
+
 Safeguard: Spanish pages are validated for missing diacritics before writing. If an
 es page's visible text contains a red-flag un-accented Spanish word, generation raises
 an error so plain-ASCII Spanish can never ship (mirrors scripts/generate_page.py,
@@ -273,8 +277,9 @@ def build_strings(m, lang, p):
             "how_to_apply": "How to Apply",
             "apply_body_html": (
                 f'Apply directly through the authority\'s official application page: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
-                f'If you have already applied, call <a href="tel:{tel(phone)}">{phone}</a> to verify your position and keep your contact '
-                "information current — if the authority cannot reach you when your name comes up, you can be dropped from the list."),
+                + (m.get("status_check_html") or
+                   f'If you have already applied, call <a href="tel:{tel(phone)}">{phone}</a> to verify your position and keep your contact '
+                   "information current — if the authority cannot reach you when your name comes up, you can be dropped from the list.")),
             "new_to_process_html": (
                 f'New to the process? Our <a href="{apply_guide}">step-by-step guide to applying for Section 8</a> walks through the whole thing, '
                 f'and <a href="{find_pha}">how to find your PHA</a> helps you locate the right authority.'),
@@ -320,8 +325,9 @@ def build_strings(m, lang, p):
         "how_to_apply": "Cómo solicitar",
         "apply_body_html": (
             f'Solicite directamente a través de la página de solicitud oficial de la autoridad: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
-            f'Si ya presentó su solicitud, llame al <a href="tel:{tel(phone)}">{phone}</a> para verificar su posición y mantenga su información '
-            "de contacto al día — si la autoridad no puede localizarle cuando le toque su turno, pueden retirarle de la lista."),
+            + (m.get("status_check_html") or
+               f'Si ya presentó su solicitud, llame al <a href="tel:{tel(phone)}">{phone}</a> para verificar su posición y mantenga su información '
+               "de contacto al día — si la autoridad no puede localizarle cuando le toque su turno, pueden retirarle de la lista.")),
         "new_to_process_html": (
             f'¿Nuevo en el proceso? Nuestra <a href="{apply_guide}">guía paso a paso para solicitar la Sección 8</a> le explica todo el trámite, '
             f'y <a href="{find_pha}">cómo encontrar su PHA</a> le ayuda a ubicar la autoridad correcta.'),
@@ -406,7 +412,7 @@ def faq_json(m):
 def render(env, data, lang, stage_dir=None):
     slug = data["slug"]
     if lang == "es":
-        for k in ("meta_title", "meta_description"):
+        for k in ("meta_title", "meta_description", "status_check_html"):
             if data.get(k) and not data["es"].get(k):
                 raise ValueError(f"{slug}: top-level {k} needs an es.{k} too")
     m = merged_for(data, lang)
