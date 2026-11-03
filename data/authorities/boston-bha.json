@@ -8,6 +8,7 @@
   "state": "MA",
   "serves": "the City of Boston, Massachusetts",
   "phone": "(617) 988-4000",
+  "status_check_html": "If you have already applied, call BHA's Status Information Line, <a href=\"tel:6179883400\">(617) 988-3400</a>, Monday through Wednesday from 11am to 2pm, and keep your contact information current — if BHA cannot reach you when your name comes up, you can be dropped from the list.",
   "official_url": "https://www.bostonhousing.org/",
   "apply_url": "https://boston.myhousing.com/",
   "city_slug": "boston",
@@ -130,6 +131,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, llame a la línea de información sobre el estado de las solicitudes de BHA (Status Information Line), el <a href=\"tel:6179883400\">(617) 988-3400</a>, de lunes a miércoles de 11 a. m. a 2 p. m., y mantenga al día sus datos de contacto — si BHA no puede localizarle cuando le toque su turno, pueden retirarle de la lista.",
     "serves": "la ciudad de Boston, Massachusetts",
     "updated": "30 de julio de 2026",
     "intro": "La Autoridad de Vivienda de Boston (BHA) es la autoridad pública de vivienda de la ciudad de Boston. Este es el punto que casi todo el mundo pasa por alto: la lista de espera del vale de la Sección 8 basado en el inquilino está cerrada, pero las listas de espera de vivienda pública sí siguen aceptando solicitudes. Son dos cosas distintas, con dos solicitudes distintas, y que le rechacen una no significa que quede fuera de la otra. Esta página resume lo que la propia BHA publica sobre cada lista, junto con los programas estatales de Massachusetts que funcionan en paralelo, y enlaza a las páginas oficiales para cualquier asunto urgente.",

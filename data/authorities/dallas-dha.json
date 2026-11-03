@@ -9,6 +9,7 @@
   "state": "TX",
   "serves": "Dallas and seven North Texas counties: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall and Tarrant",
   "phone": "(214) 951-8300",
+  "status_check_html": "If you have already applied, there is no place in line to check, because DHA picks by lottery; DHA says you can check your status at any time by logging into its RentCafe Applicant Portal, and because an application that is not picked expires after 18 months, note the date you applied and reapply when it runs out.",
   "official_url": "https://dhantx.com/",
   "apply_url": "https://dhantx.com/applicants/housing-choice-voucher-program/how-to-apply/",
   "city_slug": "dallas",
@@ -137,6 +138,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, no hay un lugar en la fila que verificar, porque DHA elige por lotería; DHA dice que puede consultar su estado en cualquier momento entrando a su portal de solicitantes RentCafe, y como una solicitud que no sale elegida vence a los 18 meses, anote la fecha en que solicitó y vuelva a solicitar cuando venza.",
     "serves": "Dallas y siete condados del norte de Texas: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall y Tarrant",
     "updated": "15 de octubre de 2026",
     "intro": "La Dallas Housing Authority, cuyo nombre legal es Housing Authority of the City of Dallas, Texas, ahora se presenta como DHA, Housing Solutions for North Texas. HUD la registra como la PHA TX009 con un tipo de programa \"Combined\", y DHA dice que ofrece vivienda en siete condados del norte de Texas: Collin, Dallas, Denton, Ellis, Kaufman, Rockwall y Tarrant. Dallas funciona distinto de la mayoría de las ciudades grandes. No hay una lista cerrada que esperar: DHA recibe presolicitudes para la Sección 8 y para vivienda pública en cualquier momento, luego elige por sorteo cuando se liberan vales o unidades, y una solicitud que no sale elegida vence a los 18 meses. Desde el 13 de julio de 2026 hace sorteos de vivienda pública cada semana con un calendario publicado. Esta página explica las palabras exactas de DHA, cómo funcionan el sorteo y el plazo de 18 meses, el calendario de sorteos de octubre de 2026 y por qué el número de teléfono es más difícil de encontrar de lo que debería.",

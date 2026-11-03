@@ -10,6 +10,7 @@
   "state": "MD",
   "serves": "Baltimore City, Maryland (not Baltimore County)",
   "phone": "(410) 396-3232",
+  "status_check_html": "If you have already applied, check or update your application in <a href=\"https://habc-onthelist.myhousing.com/\" target=\"_blank\" rel=\"noopener\">HABC's MyHousing applicant portal</a> and keep your contact information current there, because HABC uses it to reach you; HABC does not publish list positions.",
   "official_url": "https://www.habc.org/",
   "apply_url": "https://habc-onthelist.myhousing.com/",
   "city_slug": "baltimore",
@@ -35,8 +36,8 @@
     },
     {
       "program": "Project-Based Voucher (PBV)",
-      "status": "No dates posted",
-      "note": "HABC's 2026 Project-Based Voucher page (checked November 3, 2026) posts no opening or closing date. It says to read the FAQ \"before the waiting list opens\" and points to the MyHousing portal to check or update an application. The page's link to its public notice is empty, so treat any PBV date you see elsewhere as unconfirmed until HABC's own page shows it."
+      "status": "Closed; last window January 14–23, 2026",
+      "note": "HABC's 2026 Project-Based Voucher page (checked November 3, 2026) now posts no opening or closing date, but the same page as archived on January 17, 2026 said the list \"is open from 9:00 a.m. on January 14th, 2026 through 11:59 p.m. January 23rd, 2026.\" That window is over. The page says to read the FAQ \"before the waiting list opens\" and points to the MyHousing portal to check or update an application; its link to the public notice is empty."
     }
   ],
   "also_serving": [
@@ -92,6 +93,10 @@
       "url": "https://www.habc.org/habc-information/programs-departments/hcvp/pbv-waiting-list/"
     },
     {
+      "label": "HABC - 2026 Project-Based Voucher page, archived January 17, 2026 (list open January 14-23, 2026)",
+      "url": "https://web.archive.org/web/20260117104724/https://www.habc.org/habc-information/programs-departments/hcvp/pbv-waiting-list/"
+    },
+    {
       "label": "HABC - HCVP November 2026 renovations notice",
       "url": "https://www.habc.org/habc-information/programs-departments/hcvp/hcvp-november-2026-renovations/"
     },
@@ -117,6 +122,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, consulte o actualice su solicitud en el <a href=\"https://habc-onthelist.myhousing.com/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes MyHousing de HABC</a> y mantenga al día ahí sus datos de contacto, porque HABC los usa para localizarle; HABC no publica las posiciones en la lista.",
     "meta_description": "HABC (Housing Authority of Baltimore City): listas de Sección 8 y vivienda pública (verificadas el 3 de noviembre de 2026), teléfono (410) 396-3232.",
     "serves": "la ciudad de Baltimore, Maryland (no el condado de Baltimore)",
     "updated": "3 de noviembre de 2026",
@@ -140,8 +146,8 @@
       },
       {
         "program": "Vales basados en proyectos (PBV)",
-        "status": "Sin fechas publicadas",
-        "note": "La página de vales basados en proyectos de 2026 de HABC (verificada el 3 de noviembre de 2026) no publica fecha de apertura ni de cierre. Dice que lea las preguntas frecuentes \"before the waiting list opens\" (antes de que abra la lista) y remite al portal MyHousing para revisar o actualizar una solicitud. El enlace de la página a su aviso público está vacío, así que tome cualquier fecha de PBV que vea en otro sitio como no confirmada hasta que aparezca en la propia página de HABC."
+        "status": "Cerrada; la última ventana fue del 14 al 23 de enero de 2026",
+        "note": "La página de vales basados en proyectos de 2026 de HABC (verificada el 3 de noviembre de 2026) ya no publica fecha de apertura ni de cierre, pero la misma página, archivada el 17 de enero de 2026, decía que la lista \"is open from 9:00 a.m. on January 14th, 2026 through 11:59 p.m. January 23rd, 2026\" (está abierta desde las 9:00 a. m. del 14 de enero de 2026 hasta las 11:59 p. m. del 23 de enero de 2026). Esa ventana ya terminó. La página dice que lea las preguntas frecuentes \"before the waiting list opens\" (antes de que abra la lista) y remite al portal MyHousing para revisar o actualizar una solicitud; su enlace al aviso público está vacío."
       }
     ],
     "also_serving": [
@@ -195,6 +201,10 @@
       {
         "label": "HABC - Página de la lista de vales basados en proyectos de 2026 (en inglés)",
         "url": "https://www.habc.org/habc-information/programs-departments/hcvp/pbv-waiting-list/"
+      },
+      {
+        "label": "HABC - Página de vales basados en proyectos de 2026, archivada el 17 de enero de 2026: lista abierta del 14 al 23 de enero de 2026 (en inglés)",
+        "url": "https://web.archive.org/web/20260117104724/https://www.habc.org/habc-information/programs-departments/hcvp/pbv-waiting-list/"
       },
       {
         "label": "HABC - Aviso de renovaciones de HCVP, noviembre de 2026 (en inglés)",

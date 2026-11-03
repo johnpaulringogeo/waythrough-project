@@ -7,7 +7,7 @@
   "city": "Milwaukee",
   "state": "WI",
   "serves": "the City of Milwaukee, Wisconsin",
-  "phone": "(414) 286-5677",
+  "phone": "(414) 286-5650",
   "official_url": "https://www.hacm.org/",
   "apply_url": "https://www.hacm.org/programs/housing/apply-for-housing",
   "city_slug": "milwaukee",
@@ -49,7 +49,7 @@
     },
     {
       "q": "How do I check my place on the HACM waiting list?",
-      "a": "Call HACM at (414) 286-5677 to verify your position if you have already applied. Keep your contact information current with HACM — if they cannot reach you when your name comes up, you can be removed from the list."
+      "a": "Call HACM's Housing Choice Voucher (Section 8) line at (414) 286-5650 to verify your position if you have already applied. Keep your contact information current with HACM — if they cannot reach you when your name comes up, you can be removed from the list."
     },
     {
       "q": "Who do I contact if I live outside the City of Milwaukee?",
@@ -64,6 +64,14 @@
     {
       "label": "HACM — apply for housing",
       "url": "https://www.hacm.org/programs/housing/apply-for-housing"
+    },
+    {
+      "label": "HACM — Office and Staff Directory (Housing Choice Voucher general inquiries (414) 286-5650)",
+      "url": "https://www.hacm.org/contact-us/office-staff-directory"
+    },
+    {
+      "label": "HACM — Housing Choice Voucher (Section 8 Rent Assistance) Program (tenant-based list closed)",
+      "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
     }
   ],
   "es": {
@@ -105,7 +113,7 @@
       },
       {
         "q": "¿Cómo verifico mi lugar en la lista de espera de HACM?",
-        "a": "Llame a HACM al (414) 286-5677 para verificar su posición si ya presentó su solicitud. Mantenga su información de contacto al día con HACM — si no pueden localizarle cuando le toque su turno, pueden retirarle de la lista."
+        "a": "Llame a la línea del programa de vales (Sección 8) de HACM al (414) 286-5650 para verificar su posición si ya presentó su solicitud. Mantenga su información de contacto al día con HACM — si no pueden localizarle cuando le toque su turno, pueden retirarle de la lista."
       },
       {
         "q": "¿A quién contacto si vivo fuera de la ciudad de Milwaukee?",
@@ -120,6 +128,14 @@
       {
         "label": "HACM — solicitar vivienda",
         "url": "https://www.hacm.org/programs/housing/apply-for-housing"
+      },
+      {
+        "label": "HACM — directorio de oficinas y personal (consultas generales del programa de vales: (414) 286-5650)",
+        "url": "https://www.hacm.org/contact-us/office-staff-directory"
+      },
+      {
+        "label": "HACM — programa de vales de vivienda (Sección 8; lista de vales para inquilinos cerrada)",
+        "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
       }
     ]
   }

@@ -9,6 +9,7 @@
   "state": "OH",
   "serves": "Franklin County and central Ohio",
   "phone": "(614) 421-6000",
+  "status_check_html": "If you have already applied, there is no place in line to check, because CMHA draws from a lottery pool in which every application has the same chance; keep your address and email current in the <a href=\"https://portal.cmhanet.com/\" target=\"_blank\" rel=\"noopener\">RentCafe portal</a>, since CMHA keeps a preliminary application in the pool for two years and then notifies you that it has expired.",
   "official_url": "https://www.cmhanet.com/",
   "apply_url": "https://www.cmhanet.com/apply-housing-waitlist",
   "city_slug": "columbus",
@@ -147,6 +148,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, no hay un lugar en la fila que verificar, porque CMHA elige de un grupo por lotería en el que todas las solicitudes tienen la misma probabilidad; mantenga al día su dirección y su correo electrónico en el <a href=\"https://portal.cmhanet.com/\" target=\"_blank\" rel=\"noopener\">portal RentCafe</a>, ya que CMHA conserva cada solicitud preliminar en el grupo durante dos años y después le avisa que venció.",
     "serves": "el condado de Franklin y el centro de Ohio",
     "updated": "9 de septiembre de 2026",
     "intro": "La Columbus Metropolitan Housing Authority es la agencia de vivienda pública de Columbus, Ohio, registrada por HUD como la PHA OH001 con un tipo de programa \"Combined\". Dos cosas hacen que esta página sea distinta de la mayoría. Primero, CMHA nunca dice si su lista de espera de vales está abierta o cerrada, y no es un descuido: funciona con un fondo de sorteo continuo en el que todos los sorteados tienen la misma probabilidad sin importar cuándo solicitaron, y las solicitudes vencen a los dos años. Preguntar si la lista está abierta es la pregunta equivocada aquí. Segundo, el nombre se repite en otras partes del país. Existe una Housing Authority of Columbus en GEORGIA y una Cuyahoga Metropolitan Housing Authority en Cleveland que también se llama CMHA. Todo lo que aparece en esta página es de Columbus, Ohio, en el 880 E. 11th Ave. y en el dominio cmhanet.com.",

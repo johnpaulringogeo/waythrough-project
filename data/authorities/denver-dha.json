@@ -10,6 +10,7 @@
   "state": "CO",
   "serves": "the City and County of Denver, Colorado",
   "phone": "(720) 932-3023",
+  "status_check_html": "If you registered for a lottery, check your status on <a href=\"https://sites.denverhousing.org/Templates/S8LotteryResults.aspx\" target=\"_blank\" rel=\"noopener\">DHA's lottery results page</a> with the Social Security number you entered, and if you move, send your new address in a letter to Denver Housing Authority, Attn: Housing Choice Voucher Lottery, 1401 Mariposa St., Denver, CO 80204, because DHA notifies the households it draws by mail.",
   "official_url": "https://www.denverhousing.org/",
   "apply_url": "https://www.denverhousing.org/housing-choice-vouchers-section8/",
   "city_slug": "denver",
@@ -134,6 +135,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si se inscribió en una lotería, consulte su estado en la <a href=\"https://sites.denverhousing.org/Templates/S8LotteryResults.aspx\" target=\"_blank\" rel=\"noopener\">página de resultados de la lotería de DHA</a> con el número de Seguro Social que usó, y si se muda, envíe su nueva dirección por carta a Denver Housing Authority, Attn: Housing Choice Voucher Lottery, 1401 Mariposa St., Denver, CO 80204, porque DHA avisa por correo a los hogares que salen sorteados.",
     "meta_title": "Denver Housing Authority: lotería y lista de Sección 8",
     "serves": "la ciudad y el condado de Denver, Colorado",
     "updated": "15 de octubre de 2026",

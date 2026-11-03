@@ -11,6 +11,7 @@
   "state": "WA",
   "serves": "the city of Seattle, Washington",
   "phone": "(206) 239-1674",
+  "status_check_html": "If you have already applied, there is no place in line to check, because SHA says \"There is no ranking on the SHA voucher list\"; to stay on it you must check in once every month with Save My Spot and keep your contact information current in the SHA Portal, or SHA will remove you from the list.",
   "official_url": "https://www.seattlehousing.org/",
   "apply_url": "https://www.seattlehousing.org/housing/housing-choice-vouchers/how-apply-housing-choice-voucher",
   "city_slug": "seattle",
@@ -138,6 +139,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, no hay un lugar en la fila que verificar, porque la SHA dice que su lista de vales no tiene clasificación (\"There is no ranking on the SHA voucher list\"); para seguir en ella tiene que reportarse una vez al mes con Save My Spot y mantener sus datos de contacto al día en el SHA Portal, o la SHA le retirará de la lista.",
     "meta_title": "Seattle Housing Authority: Sección 8, solicite cuando quiera",
     "meta_description": "Seattle Housing Authority (SHA): solicite el vale de Sección 8 en cualquier momento, sorteos al azar, reporte mensual Save My Spot, teléfono (206) 239-1674.",
     "serves": "la ciudad de Seattle, Washington",

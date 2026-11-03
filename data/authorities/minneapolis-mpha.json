@@ -10,6 +10,7 @@
   "state": "MN",
   "serves": "the City of Minneapolis, Minnesota",
   "phone": "(612) 342-1400",
+  "status_check_html": "If you have already applied, call <a href=\"tel:6123354404\">612-335-4404</a>, the number MPHA's Tenant-Based Vouchers page gives for checking your place on the Section 8 waitlist (MPHA's main line is a voicemail box), and email hcvwaitinglist@mplspha.org to update your information.",
   "official_url": "https://mphaonline.org/",
   "apply_url": "https://portal.mphaonline.org/",
   "city_slug": "minneapolis",
@@ -136,6 +137,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, llame al <a href=\"tel:6123354404\">612-335-4404</a>, el número que la página de vales de MPHA (Tenant-Based Vouchers) da para consultar su lugar en la lista de espera de la Sección 8 (la línea principal de MPHA es un buzón de voz), y escriba a hcvwaitinglist@mplspha.org para actualizar sus datos.",
     "meta_description": "MPHA, Minneapolis: Sección 8 cerrada, listas de vivienda pública en torres abiertas, teléfonos y cómo solicitar. Guía independiente. Verificado 3 nov 2026.",
     "serves": "la ciudad de Minneapolis, Minnesota",
     "updated": "3 de noviembre de 2026",

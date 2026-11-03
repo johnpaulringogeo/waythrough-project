@@ -10,6 +10,7 @@
   "state": "OH",
   "serves": "Cleveland and Cuyahoga County, Ohio",
   "phone": "(216) 348-5000",
+  "status_check_html": "If you have already applied, there is no place in line to check, because CMHA draws from its preliminary applications by lottery; keep your email, phone, address and income current in the <a href=\"https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">CMHA applicant portal</a>, and if your application expires after 18 months without being picked, CMHA says you can submit a new one right away.",
   "official_url": "https://www.cmha.net/",
   "apply_url": "https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx",
   "city_slug": "cleveland",
@@ -42,7 +43,7 @@
   ],
   "also_serving": [
     "<strong>Columbus Metropolitan Housing Authority</strong>, HUD code OH001, is the other Ohio \"CMHA.\" It serves Franklin County and central Ohio, not Cleveland, and has its own waiting lists and portal; applying to one does nothing at the other. See our <a href=\"columbus-cmha\">CMHA Columbus page</a>.",
-    "<strong>Parma Public Housing Agency</strong>, HUD code OH073, program type Section 8, is a separate voucher agency inside Cuyahoga County, at 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (HUD's Ohio list). We could not check its waiting-list status on a site of its own.",
+    "<strong>Parma Public Housing Agency</strong>, HUD code OH073, program type Section 8, is a separate voucher agency inside Cuyahoga County, at 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (HUD's Ohio list). It now goes by North Coast Housing Connections (NCHC), and its page on the City of Parma's website says it administers 802 Housing Choice Vouchers throughout Cuyahoga County and that its voucher waiting list \"is currently closed and not open for applications\" (checked November 3, 2026).",
     "<strong>Lake Metropolitan Housing Authority</strong>, HUD code OH025, program type Combined, serves Lake County to the east from 189 First Street, Painesville, (440) 354-3347. <strong>Lorain Metropolitan Housing Authority</strong>, HUD code OH012, serves Lorain County to the west from 1600 Kansas Avenue, Lorain, (440) 288-1600. Both numbers are from HUD's Ohio list.",
     "<strong>CMHA is not an emergency rent fund.</strong> A voucher picked by lottery will not arrive in time to stop an eviction. If you are behind on rent, dial 211 and see our <a href=\"../cities/cleveland\">Cleveland housing resources page</a> for Cuyahoga County's Prevention, Retention and Contingency program, CHN Housing Partners and Cleveland's free Right to Counsel eviction lawyers."
   ],
@@ -108,9 +109,14 @@
     {
       "label": "HUD - PHA Contact Report, Ohio (OH003 Combined; OH001; OH073; OH025; OH012)",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+    },
+    {
+      "label": "City of Parma - North Coast Housing Connections, formerly Parma Public Housing Agency (802 vouchers; waiting list closed)",
+      "url": "https://www.cityofparma-oh.gov/193/North-Coast-Housing-Connections"
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, no hay un lugar en la fila que verificar, porque CMHA elige por lotería entre las solicitudes preliminares; mantenga al día su correo electrónico, teléfono, dirección e ingresos en el <a href=\"https://applications-cmha.securecafe.com/onlineleasing/cuyahoga-metropolitan-housing-authority/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">portal de solicitantes de CMHA</a>, y si su solicitud vence a los 18 meses sin salir elegida, CMHA dice que puede enviar otra de inmediato.",
     "meta_description": "CMHA Cleveland (Cuyahoga Metropolitan Housing Authority): lista de Sección 8 abierta todo el año, sorteos, teléfonos y cómo solicitar. Verificado 3 nov 2026.",
     "serves": "Cleveland y el condado de Cuyahoga, Ohio",
     "updated": "3 de noviembre de 2026",
@@ -141,7 +147,7 @@
     ],
     "also_serving": [
       "La <strong>Columbus Metropolitan Housing Authority</strong>, código OH001 de HUD, es la otra \"CMHA\" de Ohio. Sirve al condado de Franklin y al centro de Ohio, no a Cleveland, y tiene sus propias listas de espera y su propio portal; solicitar en una no cuenta en la otra. Vea nuestra <a href=\"columbus-cmha\">página de CMHA Columbus</a>.",
-      "La <strong>Parma Public Housing Agency</strong>, código OH073 de HUD, con tipo de programa \"Section 8\", es una agencia de vales aparte dentro del condado de Cuyahoga, en 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (lista de HUD para Ohio). No pudimos verificar el estado de su lista en un sitio propio.",
+      "La <strong>Parma Public Housing Agency</strong>, código OH073 de HUD, con tipo de programa \"Section 8\", es una agencia de vales aparte dentro del condado de Cuyahoga, en 1440 Rockside Rd., Parma, OH 44134, (216) 661-2015 (lista de HUD para Ohio). Ahora se llama North Coast Housing Connections (NCHC), y su página en el sitio web de la Ciudad de Parma dice que administra 802 vales de vivienda en todo el condado de Cuyahoga y que su lista de espera de vales \"is currently closed and not open for applications\" (está cerrada y no acepta solicitudes), verificado el 3 de noviembre de 2026.",
       "La <strong>Lake Metropolitan Housing Authority</strong>, código OH025 de HUD, con tipo de programa \"Combined\", sirve al condado de Lake, al este, desde 189 First Street, Painesville, (440) 354-3347. La <strong>Lorain Metropolitan Housing Authority</strong>, código OH012 de HUD, sirve al condado de Lorain, al oeste, desde 1600 Kansas Avenue, Lorain, (440) 288-1600. Ambos números son de la lista de HUD para Ohio.",
       "<strong>CMHA no es un fondo de emergencia para la renta.</strong> Un vale elegido por sorteo no llegará a tiempo para detener un desalojo. Si está atrasado con la renta, marque el 211 y vea nuestra <a href=\"../ciudades/cleveland\">página de recursos de vivienda de Cleveland</a>: el programa Prevention, Retention and Contingency del condado de Cuyahoga, CHN Housing Partners y los abogados gratuitos contra desalojos del programa Right to Counsel de Cleveland."
     ],
@@ -207,6 +213,10 @@
       {
         "label": "HUD - Informe de contactos de PHA, Ohio: OH003 Combined, OH001, OH073, OH025, OH012 (en inglés)",
         "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+      },
+      {
+        "label": "Ciudad de Parma - North Coast Housing Connections, antes Parma Public Housing Agency: 802 vales; lista de espera cerrada (en inglés)",
+        "url": "https://www.cityofparma-oh.gov/193/North-Coast-Housing-Connections"
       }
     ]
   }

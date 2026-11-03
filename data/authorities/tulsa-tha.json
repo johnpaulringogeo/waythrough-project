@@ -9,6 +9,7 @@
   "state": "OK",
   "serves": "the City of Tulsa, Oklahoma",
   "phone": "(918) 582-0021",
+  "status_check_html": "If you have already applied, THA says \"Please do not call THA to check your status\"; check it at <a href=\"https://www.waitlistcheck.com/OK1180-1811\" target=\"_blank\" rel=\"noopener\">waitlistcheck.com</a> instead, and keep your mailing address current, because THA notifies applicants it selects by first-class mail.",
   "official_url": "https://www.tulsahousing.org/",
   "apply_url": "https://www.tulsahousing.org/applyforhousing/",
   "city_slug": "tulsa",
@@ -144,6 +145,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, THA pide que no llame para consultar su estado (\"Please do not call THA to check your status\"); consúltelo en <a href=\"https://www.waitlistcheck.com/OK1180-1811\" target=\"_blank\" rel=\"noopener\">waitlistcheck.com</a> y mantenga al día su dirección postal, porque THA avisa por correo de primera clase a quienes selecciona.",
     "serves": "la ciudad de Tulsa, Oklahoma",
     "updated": "9 de septiembre de 2026",
     "intro": "La Housing Authority of the City of Tulsa, que se presenta como Tulsa Housing Authority, es la agencia de vivienda pública de Tulsa y HUD la registra como la PHA OK073. Antes que nada, una advertencia sobre el propio sitio de THA. Allí hay una página titulada \"River West and Section 8 Housing Choice Voucher Waitlist Closure Information\" que anuncia el cierre de esas listas \"on September 18 at 4 p.m.\" y que no imprime ningún año en el cuerpo del texto. Ese aviso es de 2024. Leída hoy parece una fecha límite a pocos días, pero no lo es: los metadatos de modificación de la propia página la fechan en septiembre de 2024, el archivo de noticias de THA no contiene ningún aviso sobre listas de espera, y la página dice \"Wednesday, September 18\", que fue miércoles en 2024 y en 2026 cae viernes. THA cerró esas listas el 18 de septiembre de 2024. Lo que sí es cierto hoy está más abajo en esta página, y viene del sistema de estado que la propia THA indica a los solicitantes.",

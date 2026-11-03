@@ -9,6 +9,7 @@
   "state": "CA",
   "serves": "the City of Oakland, California",
   "phone": "(510) 874-1500",
+  "status_check_html": "If you have already applied, do not call to check: OHA says \"Status is not provided by telephone\" and that it will email you about your pre-application status, so keep your email address current and report a new address through the <a href=\"https://myohaportal.oakha.org/\" target=\"_blank\" rel=\"noopener\">OHA Applicant Portal</a>.",
   "official_url": "https://www.oakha.org/",
   "apply_url": "https://myohaportal.oakha.org/",
   "city_slug": "oakland",
@@ -114,6 +115,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, no llame para preguntar por ella: OHA dice que no da el estado por teléfono (\"Status is not provided by telephone\") y que le escribirá por correo electrónico sobre su presolicitud, así que mantenga al día su correo electrónico y reporte cualquier cambio de dirección en el <a href=\"https://myohaportal.oakha.org/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes de OHA</a>.",
     "serves": "la ciudad de Oakland, California",
     "updated": "3 de noviembre de 2026",
     "intro": "La Autoridad de Vivienda de Oakland (Oakland Housing Authority, OHA) es la agencia de vivienda pública de la ciudad de Oakland. HUD la registra como la PHA CA003 con el tipo de programa Combined, es decir, administra tanto los vales Housing Choice Voucher (Sección 8) como la vivienda pública, que OHA ahora llama Affordable (Public) Housing. OHA es una agencia Moving to Work. Su oficina principal está en 1619 Harrison Street, y su Departamento de Elegibilidad, que atiende a los solicitantes, está en 1540 Webster Street. En resumen: hoy todas las listas de espera de OHA están cerradas, OHA no publica una fecha de reapertura y, si usted ya envió una presolicitud, OHA le contactará por correo electrónico, no por teléfono. Esta página reúne las palabras exactas de OHA, cómo funciona su lotería, las preferencias de su Plan Administrativo de 2026 y las otras autoridades de vivienda del condado de Alameda, sobre todo la Autoridad de Vivienda del Condado de Alameda (HACA), que muchas personas confunden con OHA.",

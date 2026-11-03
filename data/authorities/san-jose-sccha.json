@@ -9,6 +9,7 @@
   "state": "CA",
   "serves": "San José and all of Santa Clara County, California",
   "phone": "(408) 275-8770",
+  "status_check_html": "If you have already signed up, there is no place in line to check, because SCCHA chooses at random from its interest lists; log in to the <a href=\"https://portal.scchousingauthority.org/\" target=\"_blank\" rel=\"noopener\">SCCHA portal</a> at least once a year to show you are still interested, and keep your email address and phone current, because SCCHA sends status updates by email or text.",
   "official_url": "https://www.scchousingauthority.org/",
   "apply_url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/applicant-portal/",
   "city_slug": "san-jose",
@@ -97,6 +98,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya se inscribió, no hay un lugar en la fila que verificar, porque SCCHA elige al azar de sus listas de interés; entre al <a href=\"https://portal.scchousingauthority.org/\" target=\"_blank\" rel=\"noopener\">portal de SCCHA</a> al menos una vez al año para indicar que sigue interesado, y mantenga al día su correo electrónico y su teléfono, porque SCCHA envía las novedades por correo electrónico o mensaje de texto.",
     "title_name": "SCCHA Santa Clara",
     "serves": "San José y todo el condado de Santa Clara, California",
     "updated": "3 de noviembre de 2026",

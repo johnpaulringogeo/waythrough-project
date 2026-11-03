@@ -9,6 +9,7 @@
   "state": "CA",
   "serves": "The City and County of Sacramento, California, including all incorporated cities in the County",
   "phone": "(916) 440-1390",
+  "status_check_html": "If you have already applied, SHRA says it cannot give you your exact position on a list; tell SHRA in writing within 30 days about any change of address, phone, email, household or income (you can update your information on <a href=\"https://www.sacwaitlist.com/waitingList\" target=\"_blank\" rel=\"noopener\">sacwaitlist.com</a>), because you can be removed for not responding.",
   "official_url": "https://www.shra.org/",
   "apply_url": "https://www.sacwaitlist.com/waitingList",
   "city_slug": "sacramento",
@@ -122,6 +123,7 @@
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, SHRA dice que no puede darle su posición exacta en una lista; avise a SHRA por escrito dentro de 30 días de cualquier cambio de dirección, teléfono, correo electrónico, hogar o ingresos (puede actualizar sus datos en <a href=\"https://www.sacwaitlist.com/waitingList\" target=\"_blank\" rel=\"noopener\">sacwaitlist.com</a>), porque pueden retirarle si no responde.",
     "serves": "La ciudad y el condado de Sacramento, California, incluidas todas las ciudades incorporadas del condado",
     "updated": "28 de octubre de 2026",
     "intro": "La Sacramento Housing and Redevelopment Agency (SHRA) es la autoridad de vivienda de la ciudad y del condado de Sacramento. Su misión dice que sirve \"as the Housing Authority for the City and County of Sacramento\" (como la autoridad de vivienda de la ciudad y el condado de Sacramento), y HUD registra dos autoridades de vivienda a su cargo: la City of Sacramento Housing Authority (CA005) y la County of Sacramento Housing Authority (CA007), ambas con tipo de programa \"Combined\". SHRA dice que administra el programa de vales \"acting as the Housing Authority of the County of Sacramento\" (como la autoridad de vivienda del condado de Sacramento) para la ciudad y el condado, \"including all incorporated cities in the County\" (incluidas todas las ciudades incorporadas del condado), y también administra la vivienda pública. En resumen, hoy: la lista de la Sección 8 basada en el inquilino está cerrada, pero en sacwaitlist.com, el único lugar donde SHRA publica sus listas de espera, varias listas de vales basados en el proyecto y de vivienda pública muestran \"Bedroom(s) Open\" (recámaras abiertas), casi todas para 3, 4 o 5 recámaras. Esta página detalla cada una al 28 de octubre de 2026, cómo funcionan los puntos de preferencia de SHRA, el aviso de estafa que SHRA ha publicado y cómo comunicarse con SHRA, que atiende solo con cita.",
