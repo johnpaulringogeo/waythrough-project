@@ -3,6 +3,9 @@
 # www -> apex is handled in functions/_middleware.js (Pages cannot
 # match hostnames here). Specific rules win over the /es/guias/* splat.
 # ============================================================
+# NOTE (2026-11-03): all static rules come first, dynamic (splat/placeholder) rules last.
+# Cloudflare Pages counts every rule after the first dynamic one toward its 100-dynamic
+# cap, so a splat near the top silently disabled everything past rule ~108.
 
 # --- Spanish: old top-level /es/<page> -> /es/recursos/<page> ---
 /es/empleo                  /es/recursos/empleo                 301
@@ -18,9 +21,6 @@
 /es/uso-de-sustancias       /es/recursos/uso-de-sustancias      301
 /es/uso-de-sustancias.html  /es/recursos/uso-de-sustancias      301
 /es/recursos/donde-comenzar /es/recursos/donde-empezar          301
-
-# --- a-quien-ayudamos (singular) -> a-quienes-ayudamos (plural) ---
-/es/a-quien-ayudamos/*      /es/a-quienes-ayudamos/:splat       301
 
 # --- Spanish guide RENAMES (old slug -> current slug, one hop) ---
 /es/guias/como-encontrar-su-pha               /es/recursos/guias/como-encontrar-tu-pha        301
@@ -78,19 +78,8 @@
 /blog/posts/how-annual-recertification-works       /resources/guides/how-to-handle-recertification 301
 /blog/posts/how-annual-recertification-works.html  /resources/guides/how-to-handle-recertification 301
 
-# --- Path-bug catch-alls (double /es/es/ and /es/resources/ leakage from bad relative links) ---
-/es/es/*         /es/:splat         301
-/es/resources/*  /resources/:splat  301
-
-# --- Spanish guides: old /es/guias/<slug> -> /es/recursos/guias/<slug> (same-slug moves; catch-all) ---
-/es/guias/*  /es/recursos/guias/:splat  301
-
 # --- English path with stray Spanish slug (old bad internal link) ---
 /resources/guides/programa-autosuficiencia-familiar /es/recursos/guias/programa-autosuficiencia-familiar 301
-
-# --- Old HUD data endpoints (pre-/api/hud/ prefix) -> current proxy (fixes ghost 404s like /fmr/listStates) ---
-/fmr/*  /api/hud/fmr/:splat  301
-/il/*   /api/hud/il/:splat   301
 
 # --- 404 cleanup 2026-07-10: stale / mistyped URLs from GSC Not-Found report -> closest topical page ---
 # (apex paths; www is normalized to apex by functions/_middleware.js before these run)
@@ -167,6 +156,8 @@
 # --- 404 class fix 2026-07-28: legacy top-level /es/<slug> paths -> /es/recursos/<slug> ---
 # GSC 'Not found (404)' was dominated by these. Nothing real lives at /es/<slug>
 # (only 404, index, privacidad, terminos), so these are safe blanket 301s.
+# Legacy top-level /es/<dir>/... -> /es/recursos/<dir>/...
+# Stale slug variants seen in GSC
 /es/accesibilidad                                /es/recursos/accesibilidad                          301
 /es/accesibilidad.html                           /es/recursos/accesibilidad                          301
 /es/accesibilidad/                               /es/recursos/accesibilidad                          301
@@ -218,15 +209,29 @@
 /es/vivienda-para-jovenes                        /es/recursos/vivienda-para-jovenes                  301
 /es/vivienda-para-jovenes.html                   /es/recursos/vivienda-para-jovenes                  301
 /es/vivienda-para-jovenes/                       /es/recursos/vivienda-para-jovenes                  301
+/es/derechos-inquilinos                          /es/recursos/derechos-del-inquilino                301
+/es/recursos/guias/entendiendo-calculo-renta     /es/recursos/guias/como-se-calcula-la-renta        301
 
-# Legacy top-level /es/<dir>/... -> /es/recursos/<dir>/...
+# ===================== dynamic rules (splats / placeholders) =====================
+
+# --- a-quien-ayudamos (singular) -> a-quienes-ayudamos (plural) --- (dynamic)
+/es/a-quien-ayudamos/*      /es/a-quienes-ayudamos/:splat       301
+
+# --- Path-bug catch-alls (double /es/es/ and /es/resources/ leakage from bad relative links) --- (dynamic)
+/es/es/*         /es/:splat         301
+/es/resources/*  /resources/:splat  301
+
+# --- Spanish guides: old /es/guias/<slug> -> /es/recursos/guias/<slug> (same-slug moves; catch-all) --- (dynamic)
+/es/guias/*  /es/recursos/guias/:splat  301
+
+# --- Old HUD data endpoints (pre-/api/hud/ prefix) -> current proxy (fixes ghost 404s like /fmr/listStates) --- (dynamic)
+/fmr/*  /api/hud/fmr/:splat  301
+/il/*   /api/hud/il/:splat   301
+
+# --- 404 class fix 2026-07-28: legacy top-level /es/<slug> paths -> /es/recursos/<slug> --- (dynamic)
 /es/autoridades-de-vivienda/*                    /es/recursos/autoridades-de-vivienda/:splat 301
 /es/ciudades/*                                   /es/recursos/ciudades/:splat            301
 /es/estados/*                                    /es/recursos/estados/:splat             301
 /es/herramientas/*                               /es/recursos/herramientas/:splat        301
 /es/plantillas/*                                 /es/recursos/plantillas/:splat          301
-
-# Stale slug variants seen in GSC
-/es/derechos-inquilinos                          /es/recursos/derechos-del-inquilino                301
 /es/derechos-inquilinos/*                        /es/recursos/derechos-del-inquilino                301
-/es/recursos/guias/entendiendo-calculo-renta     /es/recursos/guias/como-se-calcula-la-renta        301
