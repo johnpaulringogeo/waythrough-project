@@ -12,6 +12,7 @@ TSV, no header, tab-separated, one row per authority:
   the card is appended to the end of the directory list.
 - Find-your-PHA guides: the entry goes under its state heading, sorted by city; a missing state
   heading is created in alphabetical order (before the "Not listed here?" section).
+- Section 8 trackers (EN + ES): a card is appended to the "authority guides" list.
 - The "directory of N authorities" count in the EN guide's descriptions is set to the number of
   authority pages on disk.
 Rows whose slug is already present are skipped, so re-running is safe. Line endings are kept.
@@ -28,6 +29,8 @@ HUB_EN = 'resources/housing-authorities/index.html'
 HUB_ES = 'es/recursos/autoridades-de-vivienda/index.html'
 PHA_EN = 'resources/guides/how-to-find-your-pha.html'
 PHA_ES = 'es/recursos/guias/como-encontrar-tu-pha.html'
+TRK_EN = 'resources/tools/section-8-tracker.html'
+TRK_ES = 'es/recursos/herramientas/rastreador-section-8.html'
 COLS = ['slug', 'en_title', 'en_desc', 'es_title', 'es_desc', 'state_en', 'state_es', 'city', 'phone', 'url']
 
 
@@ -103,6 +106,32 @@ def add_pha(p, rows, lang):
     write(p, s, nl)
 
 
+def add_tracker(p, rows, lang):
+    # The trackers' "Authority guides" card list, closed by the "Browse the full ... directory" link.
+    s, nl = read(p)
+    end = '                </div>\n                <p style="margin-top:1rem;"><a href="../%s/">' % (
+        'housing-authorities' if lang == 'en' else 'autoridades-de-vivienda')
+    assert s.count(end) == 1, p + ': authority card list end not found'
+    prefix = '../housing-authorities/' if lang == 'en' else '../autoridades-de-vivienda/'
+    cards = ''
+    for r in rows:
+        if prefix + r['slug'] + '"' in s:
+            print('  skip (present)', p, r['slug']); continue
+        if lang == 'en':
+            m = re.search(r'\(([A-Z]{2,})\)\s*$', r['en_title'])
+            desc = esc(r['city']) + (' — ' + m.group(1) if m else '') + ' &mdash; waiting-list status, contact, and how to apply.'
+        else:
+            desc = esc(r['city']) + ' &mdash; estado de la lista de espera, contacto y cómo aplicar.'
+        cards += ('                    <a href="%s%s" class="related-item">\n'
+                  '                        <h3>%s</h3>\n'
+                  '                        <p>%s</p>\n'
+                  '                    </a>\n') % (prefix, r['slug'], esc(r[lang + '_title']), desc)
+    s = s.replace(end, cards + end)
+    n = s.count('<a href="' + prefix) - s.count('<a href="' + prefix + '"')
+    s = re.sub(r'<span class="summary-count">\d+ (guides|guías)</span>', lambda m: '<span class="summary-count">%d %s</span>' % (n, m.group(1)), s)
+    write(p, s, nl)
+
+
 def set_count(p):
     n = len(glob.glob(os.path.join(ROOT, 'resources/housing-authorities/*.html'))) - 1  # minus index
     s, nl = read(p)
@@ -128,6 +157,8 @@ def main():
     add_hub(HUB_ES, rows, 'es')
     add_pha(PHA_EN, rows, 'en')
     add_pha(PHA_ES, rows, 'es')
+    add_tracker(TRK_EN, rows, 'en')
+    add_tracker(TRK_ES, rows, 'es')
     set_count(PHA_EN)
     print('added', len(rows), 'authorities')
 
