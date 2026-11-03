@@ -168,6 +168,51 @@
         /* Loading */
         @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
         .loading-card { height: 120px; background: linear-gradient(90deg, var(--color-bg-card) 25%, var(--color-border) 50%, var(--color-bg-card) 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius); }
+
+        /* ── Mobile-first tool layout (UXB, Nov 2026) ── */
+        .tracker-lead { font-size: 1.05rem; line-height: 1.55; margin: 0 0 1rem; color: var(--color-text); }
+        .tracker-controls { padding: 1rem; margin-bottom: 1rem; scroll-margin-top: 80px; }
+        .controls-row { gap: 0.75rem; }
+        .control-group select, .control-group input { min-height: 48px; font-size: 16px; }
+        .control-group label { font-size: 0.95rem; font-weight: 600; }
+        .filter-chips { margin-top: 0.75rem; }
+        .filter-chip { min-height: 44px; padding: 0.5rem 1rem; font-size: 0.95rem; }
+        [data-theme="dark"] .filter-chip.active { color: #0f172a; }
+        .tracker-shortcut { margin: 0.75rem 0 0; font-size: 0.95rem; color: var(--color-text-light); line-height: 1.5; }
+        .tracker-shortcut a { display: inline-block; padding: 0.6rem 0; }
+        .results-count { font-size: 0.95rem; scroll-margin-top: 80px; }
+        .tracker-prompt { background: var(--color-bg-card); border: 1px dashed var(--color-border); border-radius: var(--radius); padding: 1.25rem; text-align: center; color: var(--color-text); line-height: 1.6; }
+        .tracker-prompt p { margin: 0 0 0.5rem; }
+        .tracker-prompt p:last-child { margin-bottom: 0; }
+        .link-btn { background: none; border: none; padding: 0.6rem 0.25rem; min-height: 44px; color: var(--color-primary); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; }
+        .pha-card { padding: 1rem 1.1rem; }
+        .pha-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; }
+        .pha-card-header h3 { font-size: 1.1rem; line-height: 1.35; margin: 0; color: var(--color-text); }
+        .pha-card-location { font-size: 0.95rem; color: var(--color-text-light); margin: 0.2rem 0 0.5rem; }
+        .pha-card-details .pha-detail { font-size: 1rem; margin-top: 0.25rem; }
+        .pha-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+        .pha-action { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0.5rem 1rem; border: 1px solid var(--color-primary); border-radius: 8px; color: var(--color-primary); font-weight: 600; font-size: 1rem; text-decoration: none; flex: 1 1 auto; text-align: center; }
+        .pha-action:hover, .pha-action:focus-visible { background: var(--color-primary-light); }
+        .pha-note { font-size: 0.95rem; }
+        .authority-guides { margin: 2rem 0 0; border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-bg-card); scroll-margin-top: 80px; }
+        .authority-guides > summary { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; min-height: 56px; padding: 0.75rem 1rem; cursor: pointer; list-style: none; }
+        .authority-guides > summary::-webkit-details-marker { display: none; }
+        .authority-guides > summary h2 { font-size: 1.1rem; margin: 0; }
+        .authority-guides > summary::after { content: '+'; font-size: 1.4rem; line-height: 1; color: var(--color-primary); flex-shrink: 0; }
+        .authority-guides[open] > summary::after { content: '\2212'; }
+        .summary-count { font-size: 0.9rem; color: var(--color-text-light); white-space: nowrap; margin-left: auto; }
+        .authority-guides-body { padding: 0 1rem 1rem; }
+        .tracker-about { margin-top: 2rem; line-height: 1.7; }
+        .tracker-about p { margin-bottom: 1rem; }
+        .tracker-stats { margin-top: 1.5rem; }
+        @media (max-width: 600px) {
+            .tracker-stats { grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+            .stat-card { padding: 0.75rem 0.25rem; }
+            .stat-number { font-size: 1.4rem; }
+            .stat-label { font-size: 0.8rem; }
+        }
+        .faq-item.open .faq-answer { max-height: none; }
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
     </style>
 </head>
 <body>
@@ -192,14 +237,60 @@
 
     <main id="main-content" class="container">
         <div class="tracker-container fade-in">
-            <div class="tracker-intro">
-                <p class="featured-snippet">There are over 3,300 Public Housing Authorities across the United States, and each one manages its own Section 8 waiting list independently. Some lists are open, some are closed, and some use a lottery. This tracker helps you find PHAs by state, see their current status, and get the contact information you need to apply. The best strategy is to apply to every open list you can — there's no limit on how many you can join.</p>
-                <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Just pick your state to browse — no sign-up required. Wondering how a lottery list works? Read our guide to <a href="../guides/section-8-lottery">Section 8 lotteries in 2026&ndash;2027</a>.</p>
+            <p class="tracker-lead">Pick your state to see its Section 8 waiting lists &mdash; open lists first, with phone numbers and websites. No sign-up.</p>
+            <!-- Controls: first thing on the page so phones see the picker on screen 1 -->
+            <div class="tracker-controls" id="trackerControls">
+                <div class="controls-row">
+                    <div class="control-group">
+                        <label for="stateSelect">Your state</label>
+                        <select id="stateSelect">
+                            <option value="">Choose your state&hellip;</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="phaSearch">Or search by name or city</label>
+                        <input type="text" id="phaSearch" placeholder="e.g. Milwaukee" autocomplete="off">
+                    </div>
+                </div>
+                <div class="filter-chips" role="group" aria-label="Filter by status">
+                    <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">All</button>
+                    <button type="button" class="filter-chip" data-filter="open" aria-pressed="false">Open</button>
+                    <button type="button" class="filter-chip" data-filter="lottery" aria-pressed="false">Lottery / Periodic</button>
+                    <button type="button" class="filter-chip" data-filter="closed" aria-pressed="false">Closed</button>
+                </div>
+                <p class="tracker-shortcut">Looking for one housing authority? <a href="../housing-authorities/">Browse the directory &rarr;</a> or <a href="#authorityGuides" id="authorityJump">see our authority guides</a>.</p>
             </div>
+
+            <!-- Results -->
+            <div class="results-count" id="resultsCount"></div>
+            <div class="pha-list" id="phaList"></div>
+
+            <div class="tracker-about">
+                <p class="featured-snippet">There are over 3,300 Public Housing Authorities across the United States, and each one manages its own Section 8 waiting list independently. Some lists are open, some are closed, and some use a lottery. This tracker helps you find PHAs by state, see their current status, and get the contact information you need to apply. The best strategy is to apply to every open list you can — there's no limit on how many you can join.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Wondering how a lottery list works? Read our guide to <a href="../guides/section-8-lottery">Section 8 lotteries in 2026&ndash;2027</a>.</p>
+            </div>
+            <!-- Stats -->
+            <div class="tracker-stats" id="trackerStats">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalPHAs">0</div>
+                    <div class="stat-label">PHAs Tracked</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="openCount">0</div>
+                    <div class="stat-label">Lists Currently Open</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stateCount">0</div>
+                    <div class="stat-label">States + DC Covered</div>
+                </div>
+            </div>
+
             <!-- Authority guides: converts branded PHA searches into the right page -->
-            <section class="related-resources" style="margin:0 0 2rem; padding-top:0; border-top:none;">
-                <h2 style="margin-bottom:0.75rem;">Looking for a specific housing authority?</h2>
-                <p style="margin-bottom:1rem; color: var(--color-text-secondary);">These guides cover one authority each &mdash; current waiting-list status, phone number, application portal, and how to apply. If yours isn&rsquo;t here yet, use the state search below or our <a href="../guides/how-to-find-your-pha">guide to finding your local PHA</a>.</p>
+            <section class="related-resources" style="margin:0; padding-top:0; border-top:none;">
+                <details class="authority-guides" id="authorityGuides">
+                <summary><h2>Looking for a specific housing authority?</h2><span class="summary-count">32 guides</span></summary>
+                <div class="authority-guides-body">
+                <p style="margin-bottom:1rem; color: var(--color-text-secondary);">These guides cover one authority each &mdash; current waiting-list status, phone number, application portal, and how to apply. If yours isn&rsquo;t here yet, use the state search above or our <a href="../guides/how-to-find-your-pha">guide to finding your local PHA</a>.</p>
                 <div class="related-list">
                     <a href="../housing-authorities/houston-hha" class="related-item">
                         <h3>Houston Housing Authority (HHA)</h3>
@@ -331,49 +422,10 @@
                     </a>
                 </div>
                 <p style="margin-top:1rem;"><a href="../housing-authorities/"><strong>Browse the full housing authority directory &rarr;</strong></a></p>
+                </div>
+                </details>
             </section>
 
-            <!-- Stats -->
-            <div class="tracker-stats" id="trackerStats">
-                <div class="stat-card">
-                    <div class="stat-number" id="totalPHAs">0</div>
-                    <div class="stat-label">PHAs Tracked</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" id="openCount">0</div>
-                    <div class="stat-label">Lists Currently Open</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" id="stateCount">0</div>
-                    <div class="stat-label">States + DC Covered</div>
-                </div>
-            </div>
-
-            <!-- Controls -->
-            <div class="tracker-controls">
-                <div class="controls-row">
-                    <div class="control-group">
-                        <label for="stateSelect">Select a State</label>
-                        <select id="stateSelect">
-                            <option value="">All States</option>
-                        </select>
-                    </div>
-                    <div class="control-group">
-                        <label for="phaSearch">Search PHAs</label>
-                        <input type="text" id="phaSearch" placeholder="Search by name or city...">
-                    </div>
-                </div>
-                <div class="filter-chips">
-                    <button class="filter-chip active" data-filter="all">All</button>
-                    <button class="filter-chip" data-filter="open">Open</button>
-                    <button class="filter-chip" data-filter="lottery">Lottery / Periodic</button>
-                    <button class="filter-chip" data-filter="closed">Closed</button>
-                </div>
-            </div>
-
-            <!-- Results -->
-            <div class="results-count" id="resultsCount"></div>
-            <div class="pha-list" id="phaList"></div>
 
             <!-- Tips -->
             <div class="tips-section">
@@ -394,7 +446,7 @@
                         How do I find open Section 8 waiting lists near me?
                         <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </div>
-                    <div class="faq-answer"><div class="faq-answer-inner">Use the tracker above to search by state. You can also call your local Public Housing Authority (PHA) directly, check their website, or call <strong>211</strong> for local housing assistance information. Many PHAs open their waiting lists only periodically, so check back frequently. You can apply to PHAs anywhere in the country — not just where you live.</div></div>
+                    <div class="faq-answer"><div class="faq-answer-inner">Use the tracker above to search by state. You can also call your local Public Housing Authority (PHA) directly, check their website, or call <a href="tel:211"><strong>211</strong></a> for local housing assistance information. Many PHAs open their waiting lists only periodically, so check back frequently. You can apply to PHAs anywhere in the country — not just where you live.</div></div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
@@ -1231,17 +1283,47 @@
         });
     }
 
+    // Open lists first: open -> lottery -> unknown -> closed (stable within each group)
+    var STATUS_ORDER = { open: 0, lottery: 1, unknown: 2, closed: 3 };
+    function statusRank(s) { return Object.prototype.hasOwnProperty.call(STATUS_ORDER, s) ? STATUS_ORDER[s] : 2; }
+    function byStatus(a, b) { return statusRank(a[3]) - statusRank(b[3]); }
+
     function statusBadge(s) {
-        const cls = s === 'open' ? 'status-open' : s === 'lottery' ? 'status-lottery' : 'status-closed';
+        const cls = s === 'open' ? 'status-open' : s === 'lottery' ? 'status-lottery' : s === 'closed' ? 'status-closed' : 'status-unknown';
         const label = s === 'open' ? 'Open' : s === 'lottery' ? 'Lottery' : s === 'closed' ? 'Closed' : 'Unknown';
-        return '<span class="pha-status ' + cls + '">' + label + '</span>';
+        return '<span class="pha-status status-badge ' + cls + '"><span class="status-dot" aria-hidden="true"></span>' + label + '</span>';
+    }
+
+    function siteLabel(url) {
+        try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url.replace('https://','').replace('http://',''); }
+    }
+
+    function setFilter(f) {
+        document.querySelectorAll('.filter-chip').forEach(function(c) {
+            var on = c.dataset.filter === f;
+            c.classList.toggle('active', on);
+            c.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        activeFilter = f;
+        renderList();
     }
 
     function renderList() {
         const list = document.getElementById('phaList');
         const countEl = document.getElementById('resultsCount');
-        const filtered = getFiltered();
-        countEl.textContent = 'Showing ' + filtered.length + ' of ' + PHA_DATA.length + ' PHAs';
+        const state = document.getElementById('stateSelect').value;
+        const query = document.getElementById('phaSearch').value.trim();
+        // No full list by default: ask for a state first (441 cards = a 167-screen page on a phone)
+        if (!state && !query && activeFilter === 'all') {
+            const openN = PHA_DATA.filter(function(p) { return p[3] === 'open'; }).length;
+            countEl.textContent = '';
+            list.innerHTML = '<div class="tracker-prompt"><p><strong>Choose your state above</strong> to see its waiting lists, open lists first.</p><p>Or <button type="button" class="link-btn" id="showOpenNationwide">see all ' + openN + ' open lists nationwide</button></p></div>';
+            document.getElementById('showOpenNationwide').addEventListener('click', function() { setFilter('open'); });
+            return;
+        }
+        const filtered = getFiltered().slice().sort(byStatus);
+        const openN = filtered.filter(function(p) { return p[3] === 'open' || p[3] === 'lottery'; }).length;
+        countEl.textContent = 'Showing ' + filtered.length + ' of ' + PHA_DATA.length + ' PHAs' + (state ? ' in ' + (STATE_NAMES[state] || state) : '') + ' \u00b7 ' + openN + ' open or lottery';
         if (filtered.length === 0) {
             list.innerHTML = '<div class="no-results">No PHAs match your current filters. Try adjusting the state or status filter.</div>';
             return;
@@ -1253,10 +1335,11 @@
                 '<div class="pha-card-location">' + city + ', ' + state + '</div>' +
                 '<div class="pha-card-details">' +
                 '<div class="pha-detail"><strong>Wait:</strong> ' + wait + '</div>' +
-                '<div class="pha-detail"><strong>Phone:</strong> <a href="tel:' + phone.replace(/[^\d+]/g,'') + '">' + phone + '</a></div>' +
-                (website ? '<div class="pha-detail"><strong>Website:</strong> <a href="' + website + '" target="_blank" rel="noopener">' + website.replace('https://','').replace('http://','') + '</a></div>' : '') +
                 (notes ? '<div class="pha-note">' + notes + '</div>' : '') +
-                '</div></div>';
+                '<div class="pha-actions">' +
+                (phone ? '<a class="pha-action" href="tel:' + phone.replace(/[^\d+]/g,'') + '">Call ' + phone + '</a>' : '') +
+                (website ? '<a class="pha-action" href="' + website + '" target="_blank" rel="noopener">' + siteLabel(website) + ' &#8599;</a>' : '') +
+                '</div></div></div>';
         }).join('');
     }
 
@@ -1264,21 +1347,31 @@
         el.parentElement.classList.toggle('open');
     }
 
-    document.getElementById('stateSelect').addEventListener('change', renderList);
+    document.getElementById('stateSelect').addEventListener('change', function() {
+        renderList();
+        // On phones, bring the first (open) result into view after a state is picked
+        if (this.value && window.innerWidth < 769) {
+            var rc = document.getElementById('resultsCount');
+            if (rc.getBoundingClientRect().top > window.innerHeight * 0.55) {
+                rc.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        try {
+            var u = new URL(window.location.href);
+            if (this.value) u.searchParams.set('state', this.value); else u.searchParams.delete('state');
+            history.replaceState(null, '', u.pathname + u.search + u.hash);
+        } catch (e) {}
+    });
     document.getElementById('phaSearch').addEventListener('input', renderList);
     document.querySelectorAll('.filter-chip').forEach(function(chip) {
-        chip.addEventListener('click', function() {
-            document.querySelectorAll('.filter-chip').forEach(function(c) { c.classList.remove('active'); });
-            this.classList.add('active');
-            activeFilter = this.dataset.filter;
-            renderList();
-        });
+        chip.addEventListener('click', function() { setFilter(this.dataset.filter); });
     });
+    var authJump = document.getElementById('authorityJump');
+    if (authJump) authJump.addEventListener('click', function() { document.getElementById('authorityGuides').open = true; });
+    if (window.location.hash === '#authorityGuides') document.getElementById('authorityGuides').open = true;
 
     renderStats();
     populateStates();
-    renderList();
-    document.getElementById('lastUpdated').textContent = 'Last updated: September 2026';
 
     // Check URL params for state pre-selection
     var params = new URLSearchParams(window.location.search);
@@ -1287,9 +1380,10 @@
         var upper = stateParam.toUpperCase();
         if (STATE_NAMES[upper]) {
             document.getElementById('stateSelect').value = upper;
-            renderList();
         }
     }
+    renderList();
+    document.getElementById('lastUpdated').textContent = 'Last updated: September 2026';
     </script>
 </body>
 </html>

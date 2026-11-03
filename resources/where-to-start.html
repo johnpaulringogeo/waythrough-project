@@ -500,6 +500,45 @@
             .answer-button:hover:not(:disabled) { background: var(--color-primary-light); }
             .answer-button.selected { background: var(--color-primary-light); }
         }
+
+        /* ── Mobile pass (UXB, Nov 2026): Start on screen 1, sticky nav, door cards ── */
+        .wizard-intro { margin-bottom: 1.5rem; }
+        .wizard-intro h2 { margin-bottom: 0.5rem; }
+        .wizard-intro .wizard-lead { color: var(--color-text); font-size: 1.05rem; margin-bottom: 1rem; }
+        .wizard-intro .wizard-privacy { font-size: 0.85rem; margin: 0.75rem 0 1.25rem; }
+        .wizard-more { text-align: left; border-top: 1px solid var(--color-border); padding-top: 1.25rem; }
+        .btn-start { min-height: 52px; min-width: 240px; font-size: 1.05rem; }
+        [data-theme="dark"] .btn-start, [data-theme="dark"] .btn-restart, [data-theme="dark"] .door-btn-primary { color: #0f172a; }
+        #questionsContainer, #resultsContainer { scroll-margin-top: 80px; }
+        .wizard-progress { margin-bottom: 1.25rem; }
+        .wizard-question { margin-bottom: 0.5rem; }
+        .question-meta { margin-bottom: 1rem; }
+        .answer-options { gap: 0.6rem; margin-bottom: 1rem; }
+        .wizard-nav { position: sticky; bottom: 0; z-index: 5; margin: 0.5rem 0 1rem; padding: 0.75rem 0; background: var(--color-bg); border-top: 1px solid var(--color-border); }
+        .wizard-nav button { min-height: 48px; }
+        .place-select { width: 100%; min-height: 52px; padding: 0.6rem 0.8rem; font-size: 16px; font-family: inherit; border: 2px solid var(--color-border); border-radius: var(--radius); background: var(--color-bg-card); color: var(--color-text); }
+        .place-select:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px var(--color-primary-light); }
+        .place-help { color: var(--color-text-light); font-size: 0.95rem; margin: 0 0 0.75rem; }
+        .door-card { border: 2px solid var(--color-primary); }
+        .door-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+        .door-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.6rem 1.1rem; border: 2px solid var(--color-primary); border-radius: var(--radius); color: var(--color-primary); background: var(--color-bg-card); font-weight: 600; text-decoration: none; text-align: center; flex: 1 1 auto; }
+        .door-btn:hover, .door-btn:focus-visible { background: var(--color-primary-light); }
+        .door-btn-primary, .door-btn-primary:hover { background: var(--color-primary); color: #fff; }
+        .post-content a.resource-card, .post-content a.door-btn { text-decoration: none; }
+        .results-more { margin-bottom: 2rem; }
+        .results-more > summary { display: flex; align-items: center; min-height: 48px; cursor: pointer; font-weight: 600; color: var(--color-primary); }
+        .results-more[open] > summary { margin-bottom: 1rem; }
+        @media (max-width: 640px) {
+            .wizard-container { padding: 0; }
+            .page-header .subtitle { font-size: 1rem; }
+            .wizard-nav { flex-direction: row; gap: 0.5rem; }
+            .wizard-nav button { width: auto; flex: 0 0 auto; padding: 0.75rem 0.6rem; font-size: 0.95rem; white-space: nowrap; }
+            .wizard-nav #nextBtn { flex: 1 1 auto; }
+            .results-intro { padding: 1rem; margin-bottom: 1.25rem; }
+            .results-section { margin-bottom: 1.5rem; }
+            .results-section h3 { margin-bottom: 1rem; }
+            .resource-card { padding: 1.1rem; }
+        }
     </style>
 </head>
 <body>
@@ -522,11 +561,14 @@
                     <!-- Intro Screen -->
                     <div id="wizardIntro" class="wizard-intro">
                         <h2>Let's Find Your Resources</h2>
-                        <p>Navigating the affordable housing system can feel overwhelming — there are dozens of programs, each with their own rules, eligibility requirements, and application processes. You shouldn't have to figure it all out on your own.</p>
-                        <p>We'll ask a few quick questions about your situation — usually just 3 or 4 — and then point you toward the specific guides, programs, and next steps that are most relevant to you. Whether you're looking for help for the first time, dealing with a denial, or trying to understand your rights, we'll help you find a starting point.</p>
-                        <p>You can skip any optional question, and you can always start over if your situation changes.</p>
-                        <p style="font-size: 0.85rem; color: var(--color-text-light); margin-top: 0.5rem;">Your answers stay in your browser and are never stored, collected, or sent anywhere. See our <a href="../privacy" style="color: var(--color-primary);">Privacy Policy</a>.</p>
+                        <p class="wizard-lead">A few quick questions &mdash; most take one tap. Then we&rsquo;ll show you who to call and what to read first.</p>
                         <button class="btn-start" id="startBtn" aria-label="Find my resources">Find My Resources</button>
+                        <p class="wizard-privacy">Your answers stay in your browser and are never stored, collected, or sent anywhere. See our <a href="../privacy" style="color: var(--color-primary);">Privacy Policy</a>.</p>
+                        <div class="wizard-more">
+                        <p>Navigating the affordable housing system can feel overwhelming — there are dozens of programs, each with their own rules, eligibility requirements, and application processes. You shouldn't have to figure it all out on your own.</p>
+                        <p>We'll ask a few quick questions about your situation and then point you toward the specific guides, programs, and next steps that are most relevant to you. Whether you're looking for help for the first time, dealing with a denial, or trying to understand your rights, we'll help you find a starting point.</p>
+                        <p>You can skip any optional question, and you can always start over if your situation changes.</p>
+                        </div>
                     </div>
 
                     <!-- Dynamic Question Container -->
@@ -572,8 +614,8 @@
                             <h3>Not covered yet? HUD's PHA directory</h3>
                             <p>Every housing authority in your state, straight from HUD, with address and phone.</p>
                         </a>
-                        <a href="https://www.211.org" target="_blank" rel="noopener" class="related-item">
-                            <h3>Need help today? Call or text 211</h3>
+                        <a href="tel:211" class="related-item">
+                            <h3>Need help today? Call 211</h3>
                             <p>Free, 24/7, and local — emergency shelter, rental assistance and utility help in your county.</p>
                         </a>
                     </div>
@@ -590,7 +632,7 @@
                         <h3>I need a place to stay tonight or very soon</h3>
                         <p>This is urgent, and help is available.</p>
                         <ul>
-                            <li>Call <strong><a href="https://www.211.org" target="_blank" rel="noopener">211</a></strong> from any phone (toll-free). They'll connect you with local emergency shelters, temporary housing, and immediate aid.</li>
+                            <li>Call <strong><a href="tel:211">211</a></strong> from any phone (toll-free). They'll connect you with local emergency shelters, temporary housing, and immediate aid.</li>
                             <li>If you're a <strong>veteran</strong>, ask about <a href="guides/how-to-apply-hud-vash">HUD-VASH (housing and case management support)</a>.</li>
                             <li>If you're experiencing <strong>domestic violence</strong>, visit our <a href="../who-we-help/dv-survivors">support page for DV survivors</a> for confidential help.</li>
                         </ul>
@@ -611,7 +653,7 @@
                         <p>Foreclosure isn't inevitable — there are programs and options specifically designed to help.</p>
                         <ul>
                             <li><a href="guides/how-to-prevent-foreclosure">How to prevent foreclosure</a> — loan modification, forbearance, and what to do at every stage.</li>
-                            <li><strong>Call a <a href="https://www.hud.gov/counseling" target="_blank" rel="noopener">U.S. Department of Housing and Urban Development (HUD)-approved housing counselor</a></strong> (800-569-4287) — free, confidential help negotiating with your lender.</li>
+                            <li><strong>Call a <a href="https://www.hud.gov/counseling" target="_blank" rel="noopener">U.S. Department of Housing and Urban Development (HUD)-approved housing counselor</a></strong> (<a href="tel:18005694287">800-569-4287</a>) — free, confidential help negotiating with your lender.</li>
                             <li><a href="guides/budgeting-when-money-is-tight">Budgeting when money is tight</a> — managing expenses during a financial crunch.</li>
                         </ul>
                     </div>
@@ -671,7 +713,7 @@
 
                     <h3>General Starting Points</h3>
                     <ul>
-                        <li><strong>Call 211</strong> — available 24/7. They know your local resources and can match you with programs.</li>
+                        <li><strong><a href="tel:211">Call 211</a></strong> — available 24/7. They know your local resources and can match you with programs.</li>
                         <li><a href="guides/how-to-find-your-pha">Find your local Public Housing Authority (PHA)</a> — they manage Section 8 and can point you to other programs. Not sure which one covers you? <a href="https://www.hud.gov/contactus/public-housing-contacts" target="_blank" rel="noopener">HUD's PHA contact directory</a> lists every authority in your state.</li>
                         <li><a href="faq">Browse the FAQ</a> — common questions with simple answers.</li>
                         <li><a href="glossary">Check the glossary</a> — definitions of terms you might encounter.</li>
@@ -1086,17 +1128,75 @@
             ]
         };
 
-        // The final question everyone gets
-        const SCOPE_QUESTION = {
-            id: 'scope',
-            title: 'How would you like your results?',
-            required: true,
-            multi: false,
-            options: [
-                { value: 'focused', label: 'Just the most important next steps', desc: 'A short, focused list of what to do right now' },
-                { value: 'comprehensive', label: 'Everything that might apply to me', desc: 'A fuller picture including additional programs and resources' }
-            ]
+        var T = {
+            "required": "Required question",
+            "optional": "Optional — skip if it doesn't apply",
+            "tapHint": "Tap an answer to continue",
+            "multiNote": "Select all that apply",
+            "step": "Step ",
+            "cont": "Continue →",
+            "showResults": "Show my results →",
+            "contAria": "Continue to next question",
+            "showAria": "Show my results",
+            "placeTitle": "Where do you live?",
+            "placeHelp": "Optional. We'll put your city or state page at the top of your results.",
+            "placeLabel": "Your city or state",
+            "placeDefault": "Choose your city or state…",
+            "cities": "Cities",
+            "states": "States",
+            "resultsTitle": "Your Personalized Resources",
+            "resultsIntro": "Based on your answers, here are the resources most relevant to your situation.",
+            "nextSteps": "Your Next Steps",
+            "more": "More that might help",
+            "additional": "Additional Resources",
+            "noResults": "<p>We couldn't determine specific resources from your answers. Try starting over, or explore our <a href=\"./\">full resource library</a>.</p>",
+            "urgentEvictTitle": "Get help today — it's free",
+            "urgentCourtDesc": "You have a court date: get legal help before it. 211 is free and answers 24/7, and our legal help guide shows where to find a free tenant lawyer.",
+            "urgentEvictDesc": "Call 211 for local rent help and legal aid, any time. Our legal help guide shows where to find a free tenant lawyer.",
+            "urgentStayTitle": "A safe place tonight",
+            "urgentStayDesc": "Call 211 — free, 24/7. They'll connect you with the nearest emergency shelters and immediate aid in your area.",
+            "call211": "Call 211",
+            "legalHelp": "Free legal help for tenants",
+            "legalShort": "Free legal help",
+            "shelterGuide": "Emergency housing guide",
+            "dvHotline": "DV Hotline: 1-800-799-7233",
+            "legalLink": "guides/free-legal-help-for-tenants",
+            "shelterLink": "emergency-housing",
+            "cityTitle": "Your city's page: ",
+            "cityDesc": "Local housing authority, rent help, legal aid and phone numbers for ",
+            "rentTitle": "Emergency rent help in ",
+            "rentDesc": "Who can pay back rent where you live, how to apply, and the numbers to call.",
+            "stateTitle": "Your state's page: ",
+            "stateDesc": "Housing authorities, rental assistance and legal aid across ",
+            "localMeta": "Local • Start here",
+            "rentMeta": "Local • Rent help"
         };
+
+        // The final question everyone gets (optional): where do you live?
+        // It routes the top result to the person's own city or state page.
+        const PLACE_QUESTION = {
+            id: 'place',
+            title: T.placeTitle,
+            required: false,
+            multi: false,
+            type: 'select'
+        };
+
+        // [slug, label] — same city/state list as the homepage picker
+        var CITIES = [["albuquerque", "Albuquerque, NM"], ["atlanta", "Atlanta, GA"], ["austin", "Austin, TX"], ["baltimore", "Baltimore, MD"], ["boston", "Boston, MA"], ["charlotte", "Charlotte, NC"], ["chicago", "Chicago, IL"], ["cleveland", "Cleveland, OH"], ["colorado-springs", "Colorado Springs, CO"], ["columbus", "Columbus, OH"], ["dallas", "Dallas, TX"], ["denver", "Denver, CO"], ["detroit", "Detroit, MI"], ["el-paso", "El Paso, TX"], ["fort-worth", "Fort Worth, TX"], ["fresno", "Fresno, CA"], ["houston", "Houston, TX"], ["indianapolis", "Indianapolis, IN"], ["jacksonville", "Jacksonville, FL"], ["kansas-city", "Kansas City, MO"], ["las-vegas", "Las Vegas, NV"], ["long-beach", "Long Beach, CA"], ["los-angeles", "Los Angeles, CA"], ["louisville", "Louisville, KY"], ["memphis", "Memphis, TN"], ["mesa", "Mesa, AZ"], ["miami", "Miami, FL"], ["milwaukee", "Milwaukee, WI"], ["minneapolis", "Minneapolis, MN"], ["nashville", "Nashville, TN"], ["new-york", "New York City"], ["oakland", "Oakland, CA"], ["oklahoma-city", "Oklahoma City, OK"], ["omaha", "Omaha, NE"], ["philadelphia", "Philadelphia, PA"], ["phoenix", "Phoenix, AZ"], ["portland", "Portland, OR"], ["raleigh", "Raleigh, NC"], ["sacramento", "Sacramento, CA"], ["san-antonio", "San Antonio, TX"], ["san-diego", "San Diego, CA"], ["san-francisco", "San Francisco, CA"], ["san-jose", "San Jose, CA"], ["seattle", "Seattle, WA"], ["st-louis", "St. Louis, MO"], ["tampa", "Tampa, FL"], ["tucson", "Tucson, AZ"], ["tulsa", "Tulsa, OK"], ["virginia-beach", "Virginia Beach, VA"], ["washington-dc", "Washington, DC"]];
+        var STATES = [["alabama", "Alabama"], ["alaska", "Alaska"], ["arizona", "Arizona"], ["arkansas", "Arkansas"], ["california", "California"], ["colorado", "Colorado"], ["connecticut", "Connecticut"], ["delaware", "Delaware"], ["florida", "Florida"], ["georgia", "Georgia"], ["hawaii", "Hawaii"], ["idaho", "Idaho"], ["illinois", "Illinois"], ["indiana", "Indiana"], ["iowa", "Iowa"], ["kansas", "Kansas"], ["kentucky", "Kentucky"], ["louisiana", "Louisiana"], ["maine", "Maine"], ["maryland", "Maryland"], ["massachusetts", "Massachusetts"], ["michigan", "Michigan"], ["minnesota", "Minnesota"], ["mississippi", "Mississippi"], ["missouri", "Missouri"], ["montana", "Montana"], ["nebraska", "Nebraska"], ["nevada", "Nevada"], ["new-hampshire", "New Hampshire"], ["new-jersey", "New Jersey"], ["new-mexico", "New Mexico"], ["new-york", "New York"], ["north-carolina", "North Carolina"], ["north-dakota", "North Dakota"], ["ohio", "Ohio"], ["oklahoma", "Oklahoma"], ["oregon", "Oregon"], ["pennsylvania", "Pennsylvania"], ["rhode-island", "Rhode Island"], ["south-carolina", "South Carolina"], ["south-dakota", "South Dakota"], ["tennessee", "Tennessee"], ["texas", "Texas"], ["utah", "Utah"], ["vermont", "Vermont"], ["virginia", "Virginia"], ["washington", "Washington"], ["district-of-columbia", "Washington, D.C."], ["west-virginia", "West Virginia"], ["wisconsin", "Wisconsin"], ["wyoming", "Wyoming"]];
+        // City page slug -> emergency rent guide slug (only guides that exist)
+        var RENT_GUIDES = {"albuquerque": "emergency-rent-help-albuquerque", "austin": "emergency-rent-help-austin", "boston": "emergency-rent-help-boston", "charlotte": "emergency-rent-help-charlotte", "colorado-springs": "emergency-rent-help-colorado-springs", "dallas": "emergency-rent-help-dallas", "el-paso": "emergency-rent-help-el-paso", "jacksonville": "emergency-rent-help-jacksonville", "las-vegas": "emergency-rent-help-las-vegas", "nashville": "emergency-rent-help-nashville", "new-york": "emergency-rent-help-new-york-city", "oklahoma-city": "emergency-rent-help-oklahoma-city", "omaha": "emergency-rent-help-omaha", "philadelphia": "emergency-rent-help-philadelphia", "sacramento": "emergency-rent-help-sacramento", "st-louis": "emergency-rent-help-st-louis"};
+        var BASE = {"city": "cities/", "state": "states/", "guide": "guides/"};
+
+        function placeInfo(value) {
+            if (!value) return null;
+            var parts = value.split(':'), list = parts[0] === 'city' ? CITIES : STATES;
+            for (var i = 0; i < list.length; i++) {
+                if (list[i][0] === parts[1]) return { kind: parts[0], slug: parts[1], label: list[i][1] };
+            }
+            return null;
+        }
 
 
         // =====================================================
@@ -1105,49 +1205,37 @@
 
         var state = {
             branch: null,         // Q1 answer value
-            questionIndex: -1,    // -1 = Q1, 0+ = branch questions, final = scope
+            questionIndex: -1,    // -1 = Q1, 0+ = branch questions, 'place' = final location step
             answers: {},          // keyed by question id
             history: []           // stack of previous questionIndex values for back button
         };
+        var advanceTimer = null;
 
         function getCurrentFlow() {
             if (!state.branch) return [];
             var branchQs = BRANCHES[state.branch] || [];
             // Filter out conditional questions whose condition isn't met
-            var filtered = branchQs.filter(function(q) {
-                if (q.showIf && !q.showIf(state.answers)) return false;
-                return true;
+            return branchQs.filter(function(q) {
+                return !(q.showIf && !q.showIf(state.answers));
             });
-            return filtered;
         }
 
         function getTotalSteps() {
-            var scopeStep = state.branch === 'stay-tonight' ? 0 : 1;
-            return 1 + getCurrentFlow().length + scopeStep; // Q1 + branch + scope (if applicable)
+            return 1 + getCurrentFlow().length + 1; // Q1 + branch + location
         }
 
         function getCurrentStepNumber() {
             if (state.questionIndex === -1) return 1;
-            // Count how many branch questions are visible up to current index
-            var branchQs = BRANCHES[state.branch] || [];
-            var visibleCount = 0;
-            var currentBranchQ = getCurrentQuestionDef();
-            for (var i = 0; i < branchQs.length; i++) {
-                var q = branchQs[i];
-                if (q.showIf && !q.showIf(state.answers)) continue;
-                visibleCount++;
-                if (q === currentBranchQ) break;
-            }
-            if (state.questionIndex === 'scope') return 1 + getCurrentFlow().length + 1;
-            return 1 + visibleCount;
+            if (state.questionIndex === 'place') return 1 + getCurrentFlow().length + 1;
+            return 2 + state.questionIndex;
         }
 
         function getCurrentQuestionDef() {
             if (state.questionIndex === -1) return Q1;
-            if (state.questionIndex === 'scope') return SCOPE_QUESTION;
+            if (state.questionIndex === 'place') return PLACE_QUESTION;
             var flow = getCurrentFlow();
             if (state.questionIndex < flow.length) return flow[state.questionIndex];
-            return SCOPE_QUESTION;
+            return PLACE_QUESTION;
         }
 
 
@@ -1173,89 +1261,106 @@
         // RENDERING
         // =====================================================
 
+        function placeSelectHtml() {
+            function opts(list, kind) {
+                return list.map(function(p) { return '<option value="' + kind + ':' + p[0] + '">' + p[1] + '</option>'; }).join('');
+            }
+            return '<p class="place-help">' + T.placeHelp + '</p>'
+                + '<label for="placeSelect" class="sr-only">' + T.placeLabel + '</label>'
+                + '<select id="placeSelect" class="place-select">'
+                + '<option value="">' + T.placeDefault + '</option>'
+                + '<optgroup label="' + T.cities + '">' + opts(CITIES, 'city') + '</optgroup>'
+                + '<optgroup label="' + T.states + '">' + opts(STATES, 'state') + '</optgroup>'
+                + '</select>';
+        }
+
         function renderQuestion(qDef) {
+            clearTimeout(advanceTimer);
+            var isSelect = qDef.type === 'select';
+            var isSingle = !qDef.multi && !isSelect;
             var html = '<h2 class="question-title" tabindex="-1">' + qDef.title + '</h2>';
 
             html += '<div class="question-meta">';
-            if (qDef.required) {
-                html += '<span>Required question</span>';
-            } else {
-                html += '<span>Optional — skip if it doesn\'t apply</span>';
-            }
+            html += '<span>' + (qDef.required ? T.required : T.optional) + '</span>';
+            if (isSingle) html += '<span>' + T.tapHint + '</span>';
             html += '</div>';
 
             if (qDef.multi) {
-                html += '<div class="multi-select-note">Select all that apply</div>';
+                html += '<div class="multi-select-note">' + T.multiNote + '</div>';
             }
 
-            html += '<div class="answer-options">';
-            qDef.options.forEach(function(opt) {
-                var indicator = qDef.multi
-                    ? '<div class="answer-checkbox"></div>'
-                    : '<div class="answer-radio"></div>';
+            if (isSelect) {
+                html += placeSelectHtml();
+            } else {
+                html += '<div class="answer-options">';
+                qDef.options.forEach(function(opt) {
+                    var indicator = qDef.multi
+                        ? '<div class="answer-checkbox"></div>'
+                        : '<div class="answer-radio"></div>';
 
-                var descHtml = opt.desc
-                    ? '<span class="answer-description">' + opt.desc + '</span>'
-                    : '';
+                    var descHtml = opt.desc
+                        ? '<span class="answer-description">' + opt.desc + '</span>'
+                        : '';
 
-                html += '<button class="answer-button" data-value="' + opt.value + '" aria-pressed="false">'
-                    + indicator
-                    + '<div class="answer-text">'
-                    + '<span class="answer-label">' + opt.label + '</span>'
-                    + descHtml
-                    + '</div></button>';
-            });
-            html += '</div>';
+                    html += '<button type="button" class="answer-button" data-value="' + opt.value + '" aria-pressed="false">'
+                        + indicator
+                        + '<div class="answer-text">'
+                        + '<span class="answer-label">' + opt.label + '</span>'
+                        + descHtml
+                        + '</div></button>';
+                });
+                html += '</div>';
+            }
 
             questionSlot.innerHTML = html;
 
             // Restore previous answers
             var currentAnswer = state.answers[qDef.id];
-            if (currentAnswer) {
+            if (isSelect) {
+                var sel = document.getElementById('placeSelect');
+                if (currentAnswer) sel.value = currentAnswer;
+                sel.addEventListener('change', function() {
+                    if (sel.value) state.answers[qDef.id] = sel.value; else delete state.answers[qDef.id];
+                });
+            } else {
                 var buttons = questionSlot.querySelectorAll('.answer-button');
                 buttons.forEach(function(btn) {
                     var val = btn.dataset.value;
-                    if (qDef.multi && Array.isArray(currentAnswer) && currentAnswer.indexOf(val) !== -1) {
-                        btn.classList.add('selected');
-                        btn.setAttribute('aria-pressed', 'true');
-                    } else if (!qDef.multi && currentAnswer === val) {
+                    if (currentAnswer && ((qDef.multi && Array.isArray(currentAnswer) && currentAnswer.indexOf(val) !== -1) || (!qDef.multi && currentAnswer === val))) {
                         btn.classList.add('selected');
                         btn.setAttribute('aria-pressed', 'true');
                     }
+                    btn.addEventListener('click', function() {
+                        handleAnswer(qDef, btn, buttons);
+                    });
                 });
             }
 
-            // Attach click handlers
-            var buttons = questionSlot.querySelectorAll('.answer-button');
-            buttons.forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    handleAnswer(qDef, btn, buttons);
-                });
-            });
-
-            // Update nav — every question shows the same "Continue" button so the flow
-            // is consistent (no question silently auto-advances). Skip is available on
-            // any optional question.
+            // Nav: single-choice questions advance on tap, so Continue only shows when
+            // there is already an answer (e.g. after Back). Multi-select and the
+            // location step keep Continue. Skip shows on any optional question.
+            var hasAnswer = currentAnswer && !(Array.isArray(currentAnswer) && currentAnswer.length === 0);
             backBtn.disabled = state.history.length === 0;
-            nextBtn.style.display = '';
+            nextBtn.style.display = (isSingle && !hasAnswer) ? 'none' : '';
+            nextBtn.textContent = isSelect ? T.showResults : T.cont;
+            nextBtn.setAttribute('aria-label', isSelect ? T.showAria : T.contAria);
             skipBtn.style.display = qDef.required ? 'none' : '';
             skipBtn.disabled = qDef.required;
+            // Hide Back on the first question, and the whole bar when it has nothing to offer
+            backBtn.style.display = state.history.length === 0 ? 'none' : '';
+            backBtn.parentNode.style.display = (backBtn.style.display === 'none' && nextBtn.style.display === 'none' && skipBtn.style.display === 'none') ? 'none' : '';
 
-            // Update progress — show the step number only. The total can shift as
-            // optional/branching questions appear or hide, which made an "of N"
-            // denominator jump around. The bar conveys overall progress and is clamped
-            // so it never moves backward.
-            var total = getTotalSteps();
-            var current = getCurrentStepNumber();
-            var pct = Math.min(100, (current / total) * 100);
+            // Progress: step number only (the total shifts as branching questions
+            // appear or hide). The bar is clamped so it never moves backward.
+            var pct = Math.min(100, (getCurrentStepNumber() / getTotalSteps()) * 100);
             state.maxPct = Math.max(state.maxPct || 0, pct);
             progressFill.style.width = state.maxPct + '%';
-            progressText.textContent = 'Step ' + current;
+            progressText.textContent = T.step + getCurrentStepNumber();
 
             // Focus
             questionsContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
             var titleEl = questionSlot.querySelector('.question-title');
-            if (titleEl) titleEl.focus();
+            if (titleEl) titleEl.focus({ preventScroll: true });
         }
 
         function handleAnswer(qDef, clickedBtn, allButtons) {
@@ -1300,6 +1405,9 @@
                 clickedBtn.classList.add('selected');
                 clickedBtn.setAttribute('aria-pressed', 'true');
                 state.answers[qDef.id] = value;
+                // Single choice: advance on tap (short pause so the selection is visible)
+                clearTimeout(advanceTimer);
+                advanceTimer = setTimeout(advance, 250);
             }
         }
 
@@ -1320,6 +1428,7 @@
         }
 
         function advance() {
+            clearTimeout(advanceTimer);
             var qDef = getCurrentQuestionDef();
 
             // Validate required
@@ -1347,14 +1456,15 @@
                 // Just answered Q1 — set branch
                 var newBranch = state.answers[Q1.id];
                 if (newBranch !== state.branch) {
-                    // Branch changed — clear all previous branch answers, keep only Q1
-                    var q1Answer = state.answers[Q1.id];
+                    // Branch changed — clear previous branch answers, keep Q1 (and the location)
+                    var q1Answer = state.answers[Q1.id], place = state.answers.place;
                     state.answers = {};
                     state.answers[Q1.id] = q1Answer;
+                    if (place) state.answers.place = place;
                 }
                 state.branch = newBranch;
                 state.questionIndex = 0;
-            } else if (state.questionIndex === 'scope') {
+            } else if (state.questionIndex === 'place') {
                 // Done — show results
                 showResults();
                 return;
@@ -1362,22 +1472,16 @@
                 state.questionIndex++;
             }
 
-            // Check if we've exhausted branch questions
-            var flow = getCurrentFlow();
-            if (state.questionIndex !== 'scope' && state.questionIndex >= flow.length) {
-                // Crisis branch: skip the scope question and show everything
-                if (state.branch === 'stay-tonight') {
-                    state.answers.scope = 'comprehensive';
-                    showResults();
-                    return;
-                }
-                state.questionIndex = 'scope';
+            // Branch questions exhausted: ask the (optional) location
+            if (state.questionIndex >= getCurrentFlow().length) {
+                state.questionIndex = 'place';
             }
 
             renderQuestion(getCurrentQuestionDef());
         }
 
         function goBack() {
+            clearTimeout(advanceTimer);
             if (state.history.length === 0) return;
             state.questionIndex = state.history.pop();
 
@@ -1392,10 +1496,16 @@
         function showResults() {
             questionsContainer.classList.add('wizard-hidden');
             resultsContainer.classList.remove('wizard-hidden');
+            try {
+                if (state.answers.place && typeof gtag === 'function') {
+                    gtag('event', 'find_location', { place: state.answers.place, source: 'where_to_start', branch: state.branch });
+                }
+            } catch (e) {}
             generateResults();
         }
 
         function restartWizard() {
+            clearTimeout(advanceTimer);
             resultsContainer.classList.add('wizard-hidden');
             wizardIntro.classList.remove('wizard-hidden');
             state = { branch: null, questionIndex: -1, answers: {}, history: [], maxPct: 0 };
@@ -1416,6 +1526,7 @@
         document.addEventListener('keydown', function(e) {
             if (!questionsContainer.classList.contains('wizard-hidden')) {
                 if (e.key === 'Enter' && e.target.classList.contains('answer-button')) {
+                    e.preventDefault();
                     e.target.click();
                 }
             }
@@ -1428,24 +1539,27 @@
 
         function generateResults() {
             var resources = determineResources();
-            var scope = state.answers.scope || 'focused';
             var html = '';
 
             html += '<div class="results-intro">';
-            html += '<h2>Your Personalized Resources</h2>';
-            html += '<p>Based on your answers, here are the resources most relevant to your situation.</p>';
+            html += '<h2>' + T.resultsTitle + '</h2>';
+            html += '<p>' + T.resultsIntro + '</p>';
             html += '</div>';
 
             if (resources.focused.length > 0) {
-                html += generateSection(scope === 'focused' ? 'Your Next Steps' : 'Start Here', resources.focused);
+                html += generateSection(T.nextSteps, resources.focused);
             }
 
-            if (scope === 'comprehensive' && resources.additional.length > 0) {
-                html += generateSection('Additional Resources', resources.additional);
+            // Everything else stays one tap away instead of a separate "how many results" question
+            if (resources.additional.length > 0) {
+                html += '<details class="results-more"' + (state.branch === 'stay-tonight' ? ' open' : '') + '>'
+                    + '<summary>' + T.more + ' (' + resources.additional.length + ')</summary>'
+                    + generateSection(T.additional, resources.additional)
+                    + '</details>';
             }
 
             if (resources.focused.length === 0 && resources.additional.length === 0) {
-                html += '<div class="no-results-message"><p>We couldn\'t determine specific resources from your answers. Try starting over, or explore our <a href="./">full resource library</a>.</p></div>';
+                html += '<div class="no-results-message">' + T.noResults + '</div>';
             }
 
             resultsContent.innerHTML = html;
@@ -1455,6 +1569,18 @@
         function generateSection(title, items) {
             var html = '<div class="results-section"><h3>' + title + '</h3><div class="resource-list">';
             items.forEach(function(item) {
+                // Door card: several real actions (tel:, guide links) in one card
+                if (item.doors) {
+                    html += '<div class="resource-card door-card">';
+                    html += '<h4>' + item.title + '</h4>';
+                    if (item.description) html += '<p class="resource-description">' + item.description + '</p>';
+                    html += '<div class="door-row">';
+                    item.doors.forEach(function(d) {
+                        html += '<a href="' + d.href + '" class="door-btn' + (d.primary ? ' door-btn-primary' : '') + '"' + (d.external ? ' target="_blank" rel="noopener"' : '') + '>' + d.label + '</a>';
+                    });
+                    html += '</div></div>';
+                    return;
+                }
                 if (item.link) {
                     html += '<a href="' + item.link + '" class="resource-card"' + (item.external ? ' target="_blank" rel="noopener"' : '') + '>';
                 } else {
@@ -1471,6 +1597,40 @@
             return html;
         }
 
+        // Real doors first: on urgent paths a tel:211 card, then the person's own city/state page
+        function leadCards(branch, a) {
+            var cards = [];
+            if (branch === 'facing-eviction') {
+                cards.push({
+                    title: T.urgentEvictTitle,
+                    description: a.stage === 'court' ? T.urgentCourtDesc : T.urgentEvictDesc,
+                    doors: [
+                        { label: T.call211, href: 'tel:211', primary: true },
+                        { label: T.legalHelp, href: T.legalLink }
+                    ]
+                });
+            }
+            if (branch === 'stay-tonight') {
+                var doors = [{ label: T.call211, href: 'tel:211', primary: true }];
+                if (a.danger === 'dv') doors.push({ label: T.dvHotline, href: 'tel:18007997233', primary: true });
+                doors.push({ label: T.shelterGuide, href: T.shelterLink });
+                doors.push({ label: T.legalShort, href: T.legalLink });
+                cards.push({ title: T.urgentStayTitle, description: T.urgentStayDesc, doors: doors });
+            }
+            var place = placeInfo(a.place);
+            if (place && place.kind === 'city') {
+                cards.push({ title: T.cityTitle + place.label, link: BASE.city + place.slug, description: T.cityDesc + place.label + '.', meta: T.localMeta });
+                var rentPath = branch === 'facing-eviction' || branch === 'lost-job' ||
+                    (branch === 'pay-rent' && a['housing-type'] !== 'homeowner' && a['housing-type'] !== 'homeowner-repair');
+                if (rentPath && RENT_GUIDES[place.slug]) {
+                    cards.push({ title: T.rentTitle + place.label, link: BASE.guide + RENT_GUIDES[place.slug], description: T.rentDesc, meta: T.rentMeta });
+                }
+            } else if (place) {
+                cards.push({ title: T.stateTitle + place.label, link: BASE.state + place.slug, description: T.stateDesc + place.label + '.', meta: T.localMeta });
+            }
+            return cards;
+        }
+
         function determineResources() {
             var focused = [];
             var additional = [];
@@ -1479,16 +1639,10 @@
 
             // ---- STAY TONIGHT ----
             if (branch === 'stay-tonight') {
-                focused.push({
-                    title: 'Call 211 for Emergency Housing',
-                    link: 'emergency-housing.html',
-                    description: 'Available 24/7, toll-free. They\'ll connect you with the nearest emergency shelters and immediate aid in your area.',
-                    meta: 'Emergency \u2022 Immediate'
-                });
 
                 focused.push({
                     title: 'Emergency Housing Resources',
-                    link: 'emergency-housing.html',
+                    link: 'emergency-housing',
                     description: 'Emergency shelters, what to expect, crisis hotlines, and immediate next steps.',
                     meta: 'Emergency \u2022 Start Here'
                 });
@@ -1496,7 +1650,7 @@
                 if (a.danger === 'dv') {
                     focused.push({
                         title: 'Support for Domestic Violence Survivors',
-                        link: '../who-we-help/dv-survivors.html',
+                        link: '../who-we-help/dv-survivors',
                         description: 'Confidential emergency shelter, safety planning, and legal advocacy. You don\'t have to go back.',
                         meta: 'Safety \u2022 Confidential'
                     });
@@ -1513,7 +1667,7 @@
                     });
                     focused.push({
                         title: 'HUD-VASH for Veterans',
-                        link: 'guides/how-to-apply-hud-vash.html',
+                        link: 'guides/how-to-apply-hud-vash',
                         description: 'Rapid rehousing with VA case management specifically for veterans experiencing homelessness.',
                         meta: 'Veterans \u2022 Housing'
                     });
@@ -1529,7 +1683,7 @@
                 if (who.indexOf('children') !== -1) {
                     additional.push({
                         title: 'Family Housing Resources',
-                        link: 'families.html',
+                        link: 'families',
                         description: 'Shelter and housing programs that keep families together.',
                         meta: 'Families'
                     });
@@ -1538,7 +1692,7 @@
                 if (who.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Resources for People with Disabilities',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Accessible housing options and your rights.',
                         meta: 'Disabilities'
                     });
@@ -1546,14 +1700,14 @@
 
                 additional.push({
                     title: 'Section 8 Housing Choice Vouchers',
-                    link: 'guides/how-to-apply-section-8.html',
+                    link: 'guides/how-to-apply-section-8',
                     description: 'Long-term rental assistance — start the application even while in shelter.',
                     meta: 'Long-term'
                 });
 
                 additional.push({
                     title: 'Benefits & Income Support',
-                    link: 'benefits.html',
+                    link: 'benefits',
                     description: 'SNAP, SSI, Medicaid, and other programs you may qualify for.',
                     meta: 'Benefits'
                 });
@@ -1568,7 +1722,7 @@
                 if (isRepair) {
                     focused.push({
                         title: 'Home Repair Assistance',
-                        link: 'guides/home-repair-assistance.html',
+                        link: 'guides/home-repair-assistance',
                         description: 'Federal, state, and nonprofit programs that help low-income homeowners pay for repairs — many are free grants.',
                         meta: 'Guide \u2022 Start Here'
                     });
@@ -1576,13 +1730,13 @@
                     if (a['repair-stage'] === 'condemned') {
                         focused.push({
                             title: 'Emergency Housing Resources',
-                            link: 'emergency-housing.html',
+                            link: 'emergency-housing',
                             description: 'If your home is unlivable and you need somewhere to stay while repairs are made.',
                             meta: 'Emergency'
                         });
                         additional.push({
                             title: 'Section 8 Housing Choice Vouchers',
-                            link: 'guides/how-to-apply-section-8.html',
+                            link: 'guides/how-to-apply-section-8',
                             description: 'If you need to transition to renting while your home situation is resolved.',
                             meta: 'Housing'
                         });
@@ -1591,7 +1745,7 @@
                     if (a['repair-stage'] === 'code-violations') {
                         focused.push({
                             title: 'Act Before Condemnation',
-                            link: 'guides/home-repair-assistance.html',
+                            link: 'guides/home-repair-assistance',
                             description: 'Contact 211 and your Community Action Agency immediately — they can fast-track emergency repair assistance when code violations are involved.',
                             meta: 'Urgent'
                         });
@@ -1608,7 +1762,7 @@
                     if (a['repair-stage'] === 'condemned' || a['repair-stage'] === 'code-violations') {
                         additional.push({
                             title: 'How to Prevent Foreclosure',
-                            link: 'guides/how-to-prevent-foreclosure.html',
+                            link: 'guides/how-to-prevent-foreclosure',
                             description: 'If repair costs are threatening your mortgage, explore your options early.',
                             meta: 'Mortgage'
                         });
@@ -1616,13 +1770,13 @@
 
                     additional.push({
                         title: 'Apply for SNAP (Food Stamps)',
-                        link: 'guides/how-to-apply-for-snap.html',
+                        link: 'guides/how-to-apply-for-snap',
                         description: 'Reduce your grocery bill so more of your money can go toward repairs.',
                         meta: 'Benefits'
                     });
                     additional.push({
                         title: 'Apply for Medicaid',
-                        link: 'guides/how-to-apply-for-medicaid.html',
+                        link: 'guides/how-to-apply-for-medicaid',
                         description: 'Free health coverage can free up money for home repairs.',
                         meta: 'Benefits'
                     });
@@ -1632,7 +1786,7 @@
                 if (isHomeowner) {
                     focused.push({
                         title: 'How to Prevent Foreclosure',
-                        link: 'guides/how-to-prevent-foreclosure.html',
+                        link: 'guides/how-to-prevent-foreclosure',
                         description: 'Step-by-step guide \u2014 HUD counselors, loan modification, forbearance, and what to do at every stage.',
                         meta: 'Foreclosure \u2022 Guide'
                     });
@@ -1640,7 +1794,7 @@
                     if (a.urgency === 'behind' || a['foreclosure-stage'] === 'missed-notice' || a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Contact a HUD-Approved Housing Counselor',
-                            link: 'guides/finding-housing-counselor.html',
+                            link: 'guides/finding-housing-counselor',
                             description: 'Free, confidential help from a certified counselor who can negotiate with your lender on your behalf. Call 800-569-4287 or visit hud.gov/counseling.',
                             meta: 'Free \u2022 Immediate'
                         });
@@ -1649,7 +1803,7 @@
                     if (a['foreclosure-stage'] === 'foreclosure-notice') {
                         focused.push({
                             title: 'Know Your Legal Rights',
-                            link: 'guides/free-legal-help-for-tenants.html',
+                            link: 'guides/free-legal-help-for-tenants',
                             description: 'Foreclosure has strict legal requirements. Your lender must follow them. A housing counselor or legal aid attorney can tell you if they have.',
                             meta: 'Legal \u2022 Urgent'
                         });
@@ -1658,7 +1812,7 @@
                     if (a.urgency === 'next-month' || a.urgency === 'planning') {
                         focused.push({
                             title: 'Talk to Your Lender Early',
-                            link: 'guides/how-to-prevent-foreclosure.html',
+                            link: 'guides/how-to-prevent-foreclosure',
                             description: 'Lenders have loss mitigation departments specifically for this. Contact them before you miss a payment \u2014 your options are much better.',
                             meta: 'Prevention'
                         });
@@ -1670,13 +1824,13 @@
                     if (a.urgency === 'behind') {
                         focused.push({
                             title: 'Emergency Rental Assistance',
-                            link: 'guides/emergency-rental-assistance.html',
+                            link: 'guides/emergency-rental-assistance',
                             description: 'Programs that can pay your landlord directly for back rent and utilities. Apply as soon as possible.',
                             meta: 'Urgent \u2022 Financial'
                         });
                         focused.push({
                             title: 'How to Avoid Eviction',
-                            link: 'guides/how-to-avoid-eviction.html',
+                            link: 'guides/how-to-avoid-eviction',
                             description: 'If you\'re behind on rent, here\'s how to protect yourself before your landlord takes action.',
                             meta: 'Prevention'
                         });
@@ -1685,7 +1839,7 @@
                     if (a.urgency === 'next-month' || a.urgency === 'planning') {
                         focused.push({
                             title: 'Section 8 Housing Choice Vouchers',
-                            link: 'guides/how-to-apply-section-8.html',
+                            link: 'guides/how-to-apply-section-8',
                             description: 'Caps your rent at 30% of your income. Waiting lists vary, so apply early.',
                             meta: 'Long-term \u2022 Affordability'
                         });
@@ -1694,14 +1848,14 @@
                     if (a.assistance === 'section-8') {
                         focused.push({
                             title: 'Handle Recertification',
-                            link: 'guides/how-to-handle-recertification.html',
+                            link: 'guides/how-to-handle-recertification',
                             description: 'If your income changed, request an interim recertification to lower your rent portion.',
                             meta: 'Voucher \u2022 Important'
                         });
                     } else if (a.assistance === 'none' || a.assistance === 'not-sure') {
                         focused.push({
                             title: 'Find Your Public Housing Authority',
-                            link: 'guides/how-to-find-your-pha.html',
+                            link: 'guides/how-to-find-your-pha',
                             description: 'Your PHA manages Section 8 and can connect you with local programs.',
                             meta: 'First Step'
                         });
@@ -1714,7 +1868,7 @@
                     if (!isHomeowner && !isRepair) {
                         additional.push({
                             title: 'Emergency Rental Assistance',
-                            link: 'guides/emergency-rental-assistance.html',
+                            link: 'guides/emergency-rental-assistance',
                             description: 'Programs that help cover rent and utilities.',
                             meta: 'Financial'
                         });
@@ -1724,13 +1878,13 @@
                 if (helpType.indexOf('reduce-bills') !== -1) {
                     additional.push({
                         title: 'Apply for SNAP (Food Stamps)',
-                        link: 'guides/how-to-apply-for-snap.html',
+                        link: 'guides/how-to-apply-for-snap',
                         description: 'Reduce your grocery bill so more money goes to housing.',
                         meta: 'Benefits'
                     });
                     additional.push({
                         title: 'Apply for Medicaid',
-                        link: 'guides/how-to-apply-for-medicaid.html',
+                        link: 'guides/how-to-apply-for-medicaid',
                         description: 'Free health coverage can eliminate a major expense.',
                         meta: 'Benefits'
                     });
@@ -1739,13 +1893,13 @@
                 if (helpType.indexOf('budgeting') !== -1) {
                     additional.push({
                         title: 'Budgeting When Money Is Tight',
-                        link: 'guides/budgeting-when-money-is-tight.html',
+                        link: 'guides/budgeting-when-money-is-tight',
                         description: 'Practical strategies for managing housing costs and living expenses.',
                         meta: 'Finances'
                     });
                     additional.push({
                         title: 'Getting Out of Debt',
-                        link: 'guides/getting-out-of-debt.html',
+                        link: 'guides/getting-out-of-debt',
                         description: 'Managing medical bills, collections, and debt when income is low.',
                         meta: 'Finances'
                     });
@@ -1755,14 +1909,14 @@
                     if (isHomeowner || isRepair) {
                         additional.push({
                             title: 'How to Prevent Foreclosure',
-                            link: 'guides/how-to-prevent-foreclosure.html',
+                            link: 'guides/how-to-prevent-foreclosure',
                             description: 'Loan modification, refinancing, and other long-term options.',
                             meta: 'Mortgage'
                         });
                     } else {
                         additional.push({
                             title: 'Find LIHTC Affordable Housing',
-                            link: 'guides/how-to-find-lihtc-housing.html',
+                            link: 'guides/how-to-find-lihtc-housing',
                             description: 'Below-market apartments that don\'t require a voucher.',
                             meta: 'Housing'
                         });
@@ -1774,7 +1928,7 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'VA Benefits for Veterans',
-                        link: 'guides/va-benefits.html',
+                        link: 'guides/va-benefits',
                         description: 'VA disability compensation, VA pension, healthcare, and Aid & Attendance — benefits you may not know you qualify for.',
                         meta: 'Veterans \u2022 Benefits'
                     });
@@ -1789,7 +1943,7 @@
                     }
                     additional.push({
                         title: 'HUD-VASH for Veterans',
-                        link: 'guides/how-to-apply-hud-vash.html',
+                        link: 'guides/how-to-apply-hud-vash',
                         description: 'Housing voucher with VA case management for veterans at risk of homelessness.',
                         meta: 'Veterans \u2022 Housing'
                     });
@@ -1797,7 +1951,7 @@
                 if (aboutYou.indexOf('senior') !== -1) {
                     focused.push({
                         title: 'Housing Resources for Seniors',
-                        link: '../who-we-help/seniors.html',
+                        link: '../who-we-help/seniors',
                         description: 'Section 202, elderly preferences, aging-in-place modifications, property tax relief, and Area Agencies on Aging.',
                         meta: 'Seniors \u2022 Programs'
                     });
@@ -1805,7 +1959,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Housing Resources for People with Disabilities',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Section 811, reasonable accommodations, accessible housing options, and your legal rights.',
                         meta: 'Disabilities \u2022 Rights'
                     });
@@ -1813,7 +1967,7 @@
 
                 additional.push({
                     title: 'Benefits & Income Support',
-                    link: 'benefits.html',
+                    link: 'benefits',
                     description: 'See all the assistance programs you might qualify for.',
                     meta: 'Benefits'
                 });
@@ -1824,7 +1978,7 @@
                 if (a.stage === 'got-notice') {
                     focused.push({
                         title: 'Understanding Landlord Notices',
-                        link: 'guides/understanding-landlord-notices.html',
+                        link: 'guides/understanding-landlord-notices',
                         description: 'What your notice means, how to respond, and what your deadlines are \u2014 explained in plain language.',
                         meta: 'Notices \u2022 Urgent'
                     });
@@ -1832,7 +1986,7 @@
                     if (a['notice-type'] === 'pay-or-vacate') {
                         focused.push({
                             title: 'Emergency Rental Assistance',
-                            link: 'guides/emergency-rental-assistance.html',
+                            link: 'guides/emergency-rental-assistance',
                             description: 'Programs that can pay your landlord directly \u2014 some can stop an eviction if payment is pending.',
                             meta: 'Financial \u2022 Urgent'
                         });
@@ -1842,7 +1996,7 @@
                 if (a.stage === 'court') {
                     focused.push({
                         title: 'Eviction Prevention & Defense',
-                        link: 'eviction-prevention.html',
+                        link: 'eviction-prevention',
                         description: 'Legal aid, court preparation, and eviction prevention programs.',
                         meta: 'Legal \u2022 Court'
                     });
@@ -1851,13 +2005,13 @@
                 if (a.stage === 'worried') {
                     focused.push({
                         title: 'Talk to Your Landlord Now',
-                        link: 'eviction-prevention.html',
+                        link: 'eviction-prevention',
                         description: 'If you\'re behind or expect to be, contact your landlord before they take action. Many landlords prefer a payment plan over the eviction process. Put any agreement in writing.',
                         meta: 'Prevention \u2022 First Step'
                     });
                     focused.push({
                         title: 'Emergency Rental Assistance',
-                        link: 'guides/emergency-rental-assistance.html',
+                        link: 'guides/emergency-rental-assistance',
                         description: 'Apply now, before you get a notice. Many programs process faster when there\'s no eviction filing involved.',
                         meta: 'Financial \u2022 Prevention'
                     });
@@ -1865,14 +2019,14 @@
 
                 focused.push({
                     title: 'How to Avoid Eviction',
-                    link: 'guides/how-to-avoid-eviction.html',
+                    link: 'guides/how-to-avoid-eviction',
                     description: 'Step-by-step guide covering every stage \u2014 from first warning to court.',
                     meta: 'Guide'
                 });
 
                 focused.push({
                     title: 'Know Your Tenant Rights',
-                    link: 'tenant-rights.html',
+                    link: 'tenant-rights',
                     description: 'What your landlord can and can\'t do, and how to protect yourself.',
                     meta: 'Rights'
                 });
@@ -1880,7 +2034,7 @@
                 if ((a['about-you'] || []).indexOf('family') === -1 && (a['about-you'] || []).indexOf('immigrant') === -1) {
                     focused.push({
                         title: 'Was the Notice Unfair? Know Your Fair Housing Rights',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        link: 'guides/how-to-file-housing-discrimination-complaint',
                         description: 'If the real reason may be your race, family, national origin, or disability — not what the notice claims — that can be illegal discrimination. Here’s how to document it and file a free complaint.',
                         meta: 'Fair Housing • Rights'
                     });
@@ -1889,7 +2043,7 @@
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
                         title: 'Find Free Legal Help',
-                        link: 'guides/free-legal-help-for-tenants.html',
+                        link: 'guides/free-legal-help-for-tenants',
                         description: 'Call 211, visit lawhelp.org, or contact your local legal aid office. Some cities and states give tenants facing eviction a free lawyer by law.',
                         meta: 'Legal Aid'
                     });
@@ -1898,7 +2052,7 @@
                 if (a.stage !== 'got-notice' || a['notice-type'] !== 'pay-or-vacate') {
                     additional.push({
                         title: 'Emergency Rental Assistance',
-                        link: 'guides/emergency-rental-assistance.html',
+                        link: 'guides/emergency-rental-assistance',
                         description: 'Programs that help cover rent and utilities.',
                         meta: 'Financial'
                     });
@@ -1906,7 +2060,7 @@
 
                 additional.push({
                     title: 'Understanding Your Lease',
-                    link: 'guides/understanding-your-lease.html',
+                    link: 'guides/understanding-your-lease',
                     description: 'Know what your lease actually says and what terms are enforceable.',
                     meta: 'Tenant Rights'
                 });
@@ -1923,7 +2077,7 @@
                     });
                     additional.push({
                         title: 'HUD-VASH for Veterans',
-                        link: 'guides/how-to-apply-hud-vash.html',
+                        link: 'guides/how-to-apply-hud-vash',
                         description: 'Housing voucher with VA case management — an option if you lose your current housing.',
                         meta: 'Veterans \u2022 Housing'
                     });
@@ -1931,7 +2085,7 @@
                 if (aboutYou.indexOf('dv-survivor') !== -1) {
                     focused.push({
                         title: 'VAWA Protections for DV Survivors',
-                        link: '../who-we-help/dv-survivors.html',
+                        link: '../who-we-help/dv-survivors',
                         description: 'You cannot be evicted because of domestic violence. VAWA protects your housing — learn how.',
                         meta: 'Safety \u2022 Rights'
                     });
@@ -1939,7 +2093,7 @@
                 if (aboutYou.indexOf('senior') !== -1) {
                     additional.push({
                         title: 'Housing Resources for Seniors',
-                        link: '../who-we-help/seniors.html',
+                        link: '../who-we-help/seniors',
                         description: 'Senior housing programs and Area Agencies on Aging that can help with eviction prevention.',
                         meta: 'Seniors'
                     });
@@ -1947,7 +2101,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Disability Housing Rights',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Reasonable accommodations and legal protections that may apply to your eviction situation.',
                         meta: 'Disabilities \u2022 Rights'
                     });
@@ -1955,13 +2109,13 @@
                 if (aboutYou.indexOf('family') !== -1) {
                     focused.push({
                         title: 'Families Can’t Be Pushed Out Unfairly',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html#familial-status',
+                        link: 'guides/how-to-file-housing-discrimination-complaint#familial-status',
                         description: 'Refusing or evicting families because they have children — or enforcing rules only against them — is familial-status discrimination under the Fair Housing Act. Document it and file a free complaint.',
                         meta: 'Families • Fair Housing'
                     });
                     additional.push({
                         title: 'Family Housing Resources',
-                        link: 'families.html',
+                        link: 'families',
                         description: 'Housing programs and protections that help keep families together.',
                         meta: 'Families'
                     });
@@ -1969,7 +2123,7 @@
                 if (aboutYou.indexOf('immigrant') !== -1) {
                     focused.push({
                         title: 'Your Rights Apply Regardless of Immigration Status',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html#immigrants',
+                        link: 'guides/how-to-file-housing-discrimination-complaint#immigrants',
                         description: 'Tenant and fair-housing protections cover you whatever your immigration status, and national-origin discrimination is illegal. You can also ask for a free interpreter when you seek help.',
                         meta: 'Immigrants • Rights'
                     });
@@ -1980,7 +2134,7 @@
             if (branch === 'lost-job') {
                 focused.push({
                     title: 'What to Do When You Lose Your Job',
-                    link: 'guides/what-to-do-when-you-lose-your-job.html',
+                    link: 'guides/what-to-do-when-you-lose-your-job',
                     description: 'Immediate steps \u2014 unemployment benefits, health coverage, rent help, and getting back on your feet.',
                     meta: 'Guide \u2022 Start Here'
                 });
@@ -2011,7 +2165,7 @@
                 if (a.concern === 'rent' || a.concern === 'all') {
                     focused.push({
                         title: 'Emergency Rental Assistance',
-                        link: 'guides/emergency-rental-assistance.html',
+                        link: 'guides/emergency-rental-assistance',
                         description: 'Programs that can cover rent while you\u2019re between jobs.',
                         meta: 'Housing \u2022 Urgent'
                     });
@@ -2020,7 +2174,7 @@
                 if (a.concern === 'insurance' || a.concern === 'all') {
                     focused.push({
                         title: 'Apply for Medicaid',
-                        link: 'guides/how-to-apply-for-medicaid.html',
+                        link: 'guides/how-to-apply-for-medicaid',
                         description: 'Free or low-cost health coverage now that your income has changed.',
                         meta: 'Healthcare'
                     });
@@ -2029,7 +2183,7 @@
                 if (a.concern === 'new-job' || a.concern === 'all') {
                     focused.push({
                         title: 'Employment & Job Training',
-                        link: 'employment.html',
+                        link: 'employment',
                         description: 'American Job Centers, training programs, and career resources \u2014 all free.',
                         meta: 'Employment'
                     });
@@ -2037,21 +2191,21 @@
 
                 additional.push({
                     title: 'Apply for SNAP (Food Stamps)',
-                    link: 'guides/how-to-apply-for-snap.html',
+                    link: 'guides/how-to-apply-for-snap',
                     description: 'Food assistance you may qualify for immediately.',
                     meta: 'Benefits'
                 });
 
                 additional.push({
                     title: 'Budgeting When Money Is Tight',
-                    link: 'guides/budgeting-when-money-is-tight.html',
+                    link: 'guides/budgeting-when-money-is-tight',
                     description: 'Survival budgeting strategies for when income drops suddenly.',
                     meta: 'Finances'
                 });
 
                 additional.push({
                     title: 'Getting Out of Debt',
-                    link: 'guides/getting-out-of-debt.html',
+                    link: 'guides/getting-out-of-debt',
                     description: 'Hardship programs, forbearance, and managing debt during job loss.',
                     meta: 'Finances'
                 });
@@ -2061,13 +2215,13 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'VA Benefits for Veterans',
-                        link: 'guides/va-benefits.html',
+                        link: 'guides/va-benefits',
                         description: 'VA disability compensation, pension, healthcare, and vocational rehabilitation — you may qualify for income and job training support.',
                         meta: 'Veterans \u2022 Benefits'
                     });
                     additional.push({
                         title: 'HUD-VASH for Veterans',
-                        link: 'guides/how-to-apply-hud-vash.html',
+                        link: 'guides/how-to-apply-hud-vash',
                         description: 'Housing voucher with VA case management if you\u2019re at risk of losing your home.',
                         meta: 'Veterans \u2022 Housing'
                     });
@@ -2075,7 +2229,7 @@
                 if (aboutYou.indexOf('senior') !== -1) {
                     additional.push({
                         title: 'Housing Resources for Seniors',
-                        link: '../who-we-help/seniors.html',
+                        link: '../who-we-help/seniors',
                         description: 'Senior housing programs that can help if job loss threatens your housing stability.',
                         meta: 'Seniors'
                     });
@@ -2083,7 +2237,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Apply for SSI/SSDI',
-                        link: 'guides/how-to-apply-ssi-ssdi.html',
+                        link: 'guides/how-to-apply-ssi-ssdi',
                         description: 'If you have a disability, you may qualify for disability income even without employment.',
                         meta: 'Disability \u2022 Income'
                     });
@@ -2091,7 +2245,7 @@
 
                 additional.push({
                     title: 'Benefits & Income Support',
-                    link: 'benefits.html',
+                    link: 'benefits',
                     description: 'Full list of assistance programs you may now qualify for.',
                     meta: 'Benefits'
                 });
@@ -2102,27 +2256,27 @@
                 if (a['applied-before'] === 'have-voucher') {
                     focused.push({
                         title: 'Using Your Voucher',
-                        link: 'guides/how-to-transfer-voucher.html',
+                        link: 'guides/how-to-transfer-voucher',
                         description: 'How to search for apartments, portability, and what landlords need from you.',
                         meta: 'Voucher'
                     });
                 } else if (a['applied-before'] === 'denied') {
                     focused.push({
                         title: 'Appeal a Housing Denial',
-                        link: 'guides/how-to-appeal-housing-denial.html',
+                        link: 'guides/how-to-appeal-housing-denial',
                         description: 'Steps to contest a denial and tips for reapplying.',
                         meta: 'Appeals'
                     });
                     focused.push({
                         title: 'Section 8 Application Guide',
-                        link: 'guides/how-to-apply-section-8.html',
+                        link: 'guides/how-to-apply-section-8',
                         description: 'A fresh walkthrough of the application process.',
                         meta: 'Application'
                     });
                 } else {
                     focused.push({
                         title: 'Section 8 Housing Choice Vouchers',
-                        link: 'guides/how-to-apply-section-8.html',
+                        link: 'guides/how-to-apply-section-8',
                         description: 'Rent assistance that caps your payment at 30% of income. This is the most common program.',
                         meta: 'Application'
                     });
@@ -2130,14 +2284,14 @@
 
                 focused.push({
                     title: 'Find LIHTC Affordable Housing',
-                    link: 'guides/how-to-find-lihtc-housing.html',
+                    link: 'guides/how-to-find-lihtc-housing',
                     description: 'Below-market apartments that don\'t require a voucher. Available in most areas.',
                     meta: 'Housing Search'
                 });
 
                 focused.push({
                     title: 'Find Your Public Housing Authority',
-                    link: 'guides/how-to-find-your-pha.html',
+                    link: 'guides/how-to-find-your-pha',
                     description: 'Your PHA is the starting point for public housing and Section 8 in your area.',
                     meta: 'First Step'
                 });
@@ -2146,13 +2300,13 @@
                 if (barriers.indexOf('bad-credit') !== -1) {
                     focused.push({
                         title: 'Renting with Poor Rental History',
-                        link: 'guides/renting-with-poor-rental-history.html',
+                        link: 'guides/renting-with-poor-rental-history',
                         description: 'Past evictions or bad credit don\'t have to keep you from housing. Here\'s how to move forward.',
                         meta: 'Credit \u2022 History'
                     });
                     additional.push({
                         title: 'Rebuilding Credit for Housing',
-                        link: 'guides/rebuilding-credit-for-housing.html',
+                        link: 'guides/rebuilding-credit-for-housing',
                         description: 'Practical steps to improve your credit and rental references.',
                         meta: 'Credit'
                     });
@@ -2161,7 +2315,7 @@
                 if (barriers.indexOf('criminal-record') !== -1) {
                     focused.push({
                         title: 'Housing with a Criminal Record',
-                        link: 'guides/criminal-records-and-housing.html',
+                        link: 'guides/criminal-records-and-housing',
                         description: 'Your rights, landlord policies, and programs that work with people who have records.',
                         meta: 'Legal \u2022 Rights'
                     });
@@ -2170,7 +2324,7 @@
                 if (barriers.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Request Reasonable Accommodation',
-                        link: 'guides/how-to-request-reasonable-accommodation.html',
+                        link: 'guides/how-to-request-reasonable-accommodation',
                         description: 'Your right to modifications for disability needs.',
                         meta: 'Disabilities'
                     });
@@ -2179,7 +2333,7 @@
                 if (a['current-housing'] === 'unhoused' || a['current-housing'] === 'shelter') {
                     additional.push({
                         title: 'Emergency Housing Resources',
-                        link: 'emergency-housing.html',
+                        link: 'emergency-housing',
                         description: 'Immediate shelter options while you search for permanent housing.',
                         meta: 'Emergency'
                     });
@@ -2187,7 +2341,7 @@
 
                 additional.push({
                     title: 'Document Checklist',
-                    link: 'guides/document-checklist.html',
+                    link: 'guides/document-checklist',
                     description: 'Paperwork you\'ll need for any housing application.',
                     meta: 'Preparation'
                 });
@@ -2195,13 +2349,13 @@
                 if (a['applied-before'] === 'waiting') {
                     additional.push({
                         title: 'Waiting List Strategies',
-                        link: 'guides/waiting-list-strategies.html',
+                        link: 'guides/waiting-list-strategies',
                         description: 'How to stay active on the list, apply to multiple PHAs, and find faster alternatives.',
                         meta: 'Waitlist'
                     });
                     additional.push({
                         title: 'Section 8 Waiting List Tracker',
-                        link: 'tools/section-8-tracker.html',
+                        link: 'tools/section-8-tracker',
                         description: 'Find open waiting lists by state — search 183 PHAs with contact info and estimated wait times.',
                         meta: 'Tool'
                     });
@@ -2212,13 +2366,13 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     focused.push({
                         title: 'HUD-VASH for Veterans',
-                        link: 'guides/how-to-apply-hud-vash.html',
+                        link: 'guides/how-to-apply-hud-vash',
                         description: 'A housing voucher with VA case management — specifically for veterans. Shorter waiting lists than regular Section 8.',
                         meta: 'Veterans \u2022 Housing'
                     });
                     additional.push({
                         title: 'VA Benefits for Veterans',
-                        link: 'guides/va-benefits.html',
+                        link: 'guides/va-benefits',
                         description: 'Disability compensation, pension, and healthcare — extra income that makes housing more affordable.',
                         meta: 'Veterans \u2022 Benefits'
                     });
@@ -2226,7 +2380,7 @@
                 if (aboutYou.indexOf('senior') !== -1) {
                     focused.push({
                         title: 'Housing Resources for Seniors',
-                        link: '../who-we-help/seniors.html',
+                        link: '../who-we-help/seniors',
                         description: 'Section 202 senior housing, elderly preferences for Section 8, and Area Agencies on Aging.',
                         meta: 'Seniors \u2022 Programs'
                     });
@@ -2234,7 +2388,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     focused.push({
                         title: 'Housing Resources for People with Disabilities',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Section 811, accessible housing, reasonable accommodations, and disability-specific programs.',
                         meta: 'Disabilities \u2022 Programs'
                     });
@@ -2242,7 +2396,7 @@
                 if (aboutYou.indexOf('recovery') !== -1) {
                     additional.push({
                         title: 'Substance Use & Recovery Housing',
-                        link: 'substance-use.html',
+                        link: 'substance-use',
                         description: 'Oxford Houses, sober living, and housing programs that support recovery.',
                         meta: 'Recovery'
                     });
@@ -2254,13 +2408,13 @@
                 if (a.problem === 'wont-accept') {
                     focused.push({
                         title: 'Source-of-Income Protections',
-                        link: 'guides/source-of-income-protections.html',
+                        link: 'guides/source-of-income-protections',
                         description: 'Many states and cities make it illegal for landlords to reject vouchers. Check if you\'re protected.',
                         meta: 'Rights \u2022 Legal'
                     });
                     focused.push({
                         title: 'File a Housing Discrimination Complaint',
-                        link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                        link: 'guides/how-to-file-housing-discrimination-complaint',
                         description: 'If rejecting your voucher is illegal in your area, here\'s how to file a complaint.',
                         meta: 'Rights \u2022 Legal'
                     });
@@ -2269,7 +2423,7 @@
                 if (a.problem === 'cant-find') {
                     focused.push({
                         title: 'Fair Market Rent & Income Limits Lookup',
-                        link: 'tools/rent-estimator.html',
+                        link: 'tools/rent-estimator',
                         description: 'Check the FMR for your area to understand what your voucher will cover.',
                         meta: 'Tool'
                     });
@@ -2278,7 +2432,7 @@
                 if (a.problem === 'running-out') {
                     focused.push({
                         title: 'Contact Your PHA Immediately',
-                        link: 'guides/how-to-find-your-pha.html',
+                        link: 'guides/how-to-find-your-pha',
                         description: 'Your PHA can sometimes grant extensions on your voucher search deadline. Call them as soon as possible.',
                         meta: 'Urgent'
                     });
@@ -2287,7 +2441,7 @@
                 if (a.problem === 'moving') {
                     focused.push({
                         title: 'Transfer Your Voucher (Portability)',
-                        link: 'guides/how-to-transfer-voucher.html',
+                        link: 'guides/how-to-transfer-voucher',
                         description: 'How to use your voucher in a different city, county, or state.',
                         meta: 'Portability'
                     });
@@ -2296,7 +2450,7 @@
                 if (a['pha-contact'] === 'no' || a['pha-contact'] === 'what-is-pha') {
                     focused.push({
                         title: 'Find Your Public Housing Authority',
-                        link: 'guides/how-to-find-your-pha.html',
+                        link: 'guides/how-to-find-your-pha',
                         description: 'Your PHA manages your voucher and can help resolve issues. Find yours here.',
                         meta: 'Important'
                     });
@@ -2304,14 +2458,14 @@
 
                 focused.push({
                     title: 'Handle Recertification',
-                    link: 'guides/how-to-handle-recertification.html',
+                    link: 'guides/how-to-handle-recertification',
                     description: 'Keep your voucher active by staying current on annual reviews.',
                     meta: 'Voucher'
                 });
 
                 additional.push({
                     title: 'Find LIHTC Affordable Housing',
-                    link: 'guides/how-to-find-lihtc-housing.html',
+                    link: 'guides/how-to-find-lihtc-housing',
                     description: 'Affordable apartments that don\'t depend on a voucher \u2014 a good backup option.',
                     meta: 'Housing'
                 });
@@ -2321,7 +2475,7 @@
             if (branch === 'discrimination') {
                 focused.push({
                     title: 'File a Housing Discrimination Complaint',
-                    link: 'guides/how-to-file-housing-discrimination-complaint.html',
+                    link: 'guides/how-to-file-housing-discrimination-complaint',
                     description: 'Step-by-step guide to filing a complaint with HUD. The process is free and confidential.',
                     meta: 'Rights \u2022 Legal'
                 });
@@ -2329,7 +2483,7 @@
                 if (a['discrimination-type'] === 'voucher-rejected') {
                     focused.push({
                         title: 'Source-of-Income Protections',
-                        link: 'guides/source-of-income-protections.html',
+                        link: 'guides/source-of-income-protections',
                         description: 'Many states and cities make it illegal to reject vouchers. Find out if you\'re protected.',
                         meta: 'Voucher \u2022 Rights'
                     });
@@ -2338,14 +2492,14 @@
                 if (a['discrimination-type'] === 'denied-housing') {
                     focused.push({
                         title: 'Appeal a Housing Denial',
-                        link: 'guides/how-to-appeal-housing-denial.html',
+                        link: 'guides/how-to-appeal-housing-denial',
                         description: 'Steps to contest a denial and tips for reapplying successfully.',
                         meta: 'Appeals'
                     });
                     if (a['discrimination-basis'] && a['discrimination-basis'].indexOf('voucher') !== -1) {
                         focused.push({
                             title: 'Source-of-Income Protections',
-                            link: 'guides/source-of-income-protections.html',
+                            link: 'guides/source-of-income-protections',
                             description: 'Laws that protect you from being denied housing because of your income source.',
                             meta: 'Voucher \u2022 Rights'
                         });
@@ -2355,13 +2509,13 @@
                 if (a['discrimination-type'] === 'accommodation-denied') {
                     focused.push({
                         title: 'Request a Reasonable Accommodation',
-                        link: 'guides/how-to-request-reasonable-accommodation.html',
+                        link: 'guides/how-to-request-reasonable-accommodation',
                         description: 'Template letter and step-by-step process for requesting disability accommodations.',
                         meta: 'Disabilities \u2022 Rights'
                     });
                     focused.push({
                         title: 'Housing Resources for People with Disabilities',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Your legal rights, the appeals process when accommodation requests are denied, and Section 504 standards.',
                         meta: 'Disabilities \u2022 Comprehensive'
                     });
@@ -2369,21 +2523,21 @@
 
                 focused.push({
                     title: 'Know Your Tenant Rights',
-                    link: 'tenant-rights.html',
+                    link: 'tenant-rights',
                     description: 'What landlords can and can\'t do, and how to protect yourself.',
                     meta: 'Rights'
                 });
 
                 additional.push({
                     title: 'Renting with Poor Rental History',
-                    link: 'guides/renting-with-poor-rental-history.html',
+                    link: 'guides/renting-with-poor-rental-history',
                     description: 'If a denial is related to your history, here\'s how to move forward.',
                     meta: 'History'
                 });
 
                 additional.push({
                     title: 'Housing with a Criminal Record',
-                    link: 'guides/criminal-records-and-housing.html',
+                    link: 'guides/criminal-records-and-housing',
                     description: 'Your rights and landlord policies around criminal records.',
                     meta: 'Legal \u2022 Rights'
                 });
@@ -2393,7 +2547,7 @@
                 if (aboutYou.indexOf('veteran') !== -1) {
                     additional.push({
                         title: 'VA Benefits for Veterans',
-                        link: 'guides/va-benefits.html',
+                        link: 'guides/va-benefits',
                         description: 'VA legal assistance and housing programs for veterans.',
                         meta: 'Veterans'
                     });
@@ -2401,7 +2555,7 @@
                 if (aboutYou.indexOf('disability') !== -1) {
                     additional.push({
                         title: 'Housing Resources for People with Disabilities',
-                        link: '../who-we-help/disabilities.html',
+                        link: '../who-we-help/disabilities',
                         description: 'Fair Housing Act protections, Section 504, and disability rights organizations that provide free legal help.',
                         meta: 'Disabilities'
                     });
@@ -2417,7 +2571,7 @@
                     if (currentBenefits.indexOf('snap') === -1) {
                         focused.push({
                             title: 'Apply for SNAP (Food Stamps)',
-                            link: 'guides/how-to-apply-for-snap.html',
+                            link: 'guides/how-to-apply-for-snap',
                             description: 'Food assistance to help with groceries. Many people qualify and don\'t realize it.',
                             meta: 'Food \u2022 Benefits'
                         });
@@ -2437,7 +2591,7 @@
                     if (currentBenefits.indexOf('medicaid') === -1) {
                         focused.push({
                             title: 'Apply for Medicaid',
-                            link: 'guides/how-to-apply-for-medicaid.html',
+                            link: 'guides/how-to-apply-for-medicaid',
                             description: 'Free or low-cost health coverage based on your income.',
                             meta: 'Healthcare'
                         });
@@ -2445,14 +2599,14 @@
                     if (aboutYou.indexOf('veteran') !== -1) {
                         focused.push({
                             title: 'VA Healthcare for Veterans',
-                            link: 'guides/va-benefits.html',
+                            link: 'guides/va-benefits',
                             description: 'Free or low-cost medical care, mental health services, prescriptions, and more through the VA — no disability rating required for many services.',
                             meta: 'Veterans \u2022 Healthcare'
                         });
                     }
                     focused.push({
                         title: 'Mental Health Resources',
-                        link: 'mental-health.html',
+                        link: 'mental-health',
                         description: 'Finding therapy, medication support, and crisis lines.',
                         meta: 'Mental Health'
                     });
@@ -2461,13 +2615,13 @@
                 if (needs.indexOf('employment') !== -1) {
                     focused.push({
                         title: 'Employment & Job Training',
-                        link: 'employment.html',
+                        link: 'employment',
                         description: 'Job search help, free training programs, and career resources.',
                         meta: 'Employment'
                     });
                     additional.push({
                         title: 'Family Self-Sufficiency Program',
-                        link: 'guides/family-self-sufficiency.html',
+                        link: 'guides/family-self-sufficiency',
                         description: 'If you have a voucher, this program helps you build income and savings.',
                         meta: 'Income Growth'
                     });
@@ -2476,13 +2630,13 @@
                 if (needs.indexOf('debt') !== -1) {
                     focused.push({
                         title: 'Getting Out of Debt',
-                        link: 'guides/getting-out-of-debt.html',
+                        link: 'guides/getting-out-of-debt',
                         description: 'Managing medical bills, collections, student loans, and other debt on low income.',
                         meta: 'Finances'
                     });
                     focused.push({
                         title: 'Budgeting When Money Is Tight',
-                        link: 'guides/budgeting-when-money-is-tight.html',
+                        link: 'guides/budgeting-when-money-is-tight',
                         description: 'Practical strategies for stretching limited income.',
                         meta: 'Finances'
                     });
@@ -2492,7 +2646,7 @@
                 if (currentBenefits.indexOf('ssi') === -1) {
                     additional.push({
                         title: 'Apply for SSI/SSDI',
-                        link: 'guides/how-to-apply-ssi-ssdi.html',
+                        link: 'guides/how-to-apply-ssi-ssdi',
                         description: 'Disability income benefits if you have a qualifying condition.',
                         meta: 'Benefits'
                     });
@@ -2503,7 +2657,7 @@
                     if (needs.indexOf('healthcare') === -1) {
                         additional.push({
                             title: 'VA Benefits for Veterans',
-                            link: 'guides/va-benefits.html',
+                            link: 'guides/va-benefits',
                             description: 'Disability compensation, pension, healthcare, and more — benefits you may qualify for.',
                             meta: 'Veterans'
                         });
@@ -2521,7 +2675,7 @@
                 if (aboutYou.indexOf('senior') !== -1) {
                     additional.push({
                         title: 'Housing Resources for Seniors',
-                        link: '../who-we-help/seniors.html',
+                        link: '../who-we-help/seniors',
                         description: 'Senior-specific programs, benefits, and Area Agencies on Aging.',
                         meta: 'Seniors'
                     });
@@ -2529,7 +2683,7 @@
                 if (aboutYou.indexOf('disability') !== -1 && currentBenefits.indexOf('ssi') === -1) {
                     focused.push({
                         title: 'Apply for SSI/SSDI',
-                        link: 'guides/how-to-apply-ssi-ssdi.html',
+                        link: 'guides/how-to-apply-ssi-ssdi',
                         description: 'Disability income benefits if you have a qualifying condition.',
                         meta: 'Disability \u2022 Income'
                     });
@@ -2537,7 +2691,7 @@
 
                 additional.push({
                     title: 'Benefits & Income Support',
-                    link: 'benefits.html',
+                    link: 'benefits',
                     description: 'Full overview of all assistance programs.',
                     meta: 'Benefits'
                 });
@@ -2554,7 +2708,12 @@
                 });
             }
 
-            focused = dedup(focused);
+            // Lead cards go first; a guide already offered as a door is not repeated below
+            var lead = leadCards(branch, a);
+            lead.forEach(function(item) {
+                (item.doors || []).forEach(function(d) { if (!/^tel:/.test(d.href)) seen[d.href] = true; });
+            });
+            focused = dedup(lead.concat(focused));
             additional = dedup(additional);
 
             return { focused: focused, additional: additional };

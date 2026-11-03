@@ -188,6 +188,51 @@
         /* Loading */
         @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
         .loading-card { height: 120px; background: linear-gradient(90deg, var(--color-bg-card) 25%, var(--color-border) 50%, var(--color-bg-card) 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: var(--radius); }
+
+        /* ── Mobile-first tool layout (UXB, Nov 2026) ── */
+        .tracker-lead { font-size: 1.05rem; line-height: 1.55; margin: 0 0 1rem; color: var(--color-text); }
+        .tracker-controls { padding: 1rem; margin-bottom: 1rem; scroll-margin-top: 80px; }
+        .controls-row { gap: 0.75rem; }
+        .control-group select, .control-group input { min-height: 48px; font-size: 16px; }
+        .control-group label { font-size: 0.95rem; font-weight: 600; }
+        .filter-chips { margin-top: 0.75rem; }
+        .filter-chip { min-height: 44px; padding: 0.5rem 1rem; font-size: 0.95rem; }
+        [data-theme="dark"] .filter-chip.active { color: #0f172a; }
+        .tracker-shortcut { margin: 0.75rem 0 0; font-size: 0.95rem; color: var(--color-text-light); line-height: 1.5; }
+        .tracker-shortcut a { display: inline-block; padding: 0.6rem 0; }
+        .results-count { font-size: 0.95rem; scroll-margin-top: 80px; }
+        .tracker-prompt { background: var(--color-bg-card); border: 1px dashed var(--color-border); border-radius: var(--radius); padding: 1.25rem; text-align: center; color: var(--color-text); line-height: 1.6; }
+        .tracker-prompt p { margin: 0 0 0.5rem; }
+        .tracker-prompt p:last-child { margin-bottom: 0; }
+        .link-btn { background: none; border: none; padding: 0.6rem 0.25rem; min-height: 44px; color: var(--color-primary); font: inherit; font-weight: 600; text-decoration: underline; cursor: pointer; }
+        .pha-card { padding: 1rem 1.1rem; }
+        .pha-card-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; }
+        .pha-card-header h3 { font-size: 1.1rem; line-height: 1.35; margin: 0; color: var(--color-text); }
+        .pha-card-location { font-size: 0.95rem; color: var(--color-text-light); margin: 0.2rem 0 0.5rem; }
+        .pha-card-details .pha-detail { font-size: 1rem; margin-top: 0.25rem; }
+        .pha-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+        .pha-action { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0.5rem 1rem; border: 1px solid var(--color-primary); border-radius: 8px; color: var(--color-primary); font-weight: 600; font-size: 1rem; text-decoration: none; flex: 1 1 auto; text-align: center; }
+        .pha-action:hover, .pha-action:focus-visible { background: var(--color-primary-light); }
+        .pha-note { font-size: 0.95rem; }
+        .authority-guides { margin: 2rem 0 0; border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-bg-card); scroll-margin-top: 80px; }
+        .authority-guides > summary { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; min-height: 56px; padding: 0.75rem 1rem; cursor: pointer; list-style: none; }
+        .authority-guides > summary::-webkit-details-marker { display: none; }
+        .authority-guides > summary h2 { font-size: 1.1rem; margin: 0; }
+        .authority-guides > summary::after { content: '+'; font-size: 1.4rem; line-height: 1; color: var(--color-primary); flex-shrink: 0; }
+        .authority-guides[open] > summary::after { content: '\2212'; }
+        .summary-count { font-size: 0.9rem; color: var(--color-text-light); white-space: nowrap; margin-left: auto; }
+        .authority-guides-body { padding: 0 1rem 1rem; }
+        .tracker-about { margin-top: 2rem; line-height: 1.7; }
+        .tracker-about p { margin-bottom: 1rem; }
+        .tracker-stats { margin-top: 1.5rem; }
+        @media (max-width: 600px) {
+            .tracker-stats { grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+            .stat-card { padding: 0.75rem 0.25rem; }
+            .stat-number { font-size: 1.4rem; }
+            .stat-label { font-size: 0.8rem; }
+        }
+        .faq-item.open .faq-answer { max-height: none; }
+        .faq-item.open .faq-arrow { transform: rotate(180deg); }
     </style>
 </head>
 <body>
@@ -212,15 +257,59 @@
 
     <main id="main-content" class="container">
         <div class="tracker-container fade-in">
-            <div class="tracker-intro">
+            <p class="tracker-lead">Elija su estado para ver sus listas de espera de la Sección 8 &mdash; primero las abiertas, con teléfonos y sitios web. No requiere registro.</p>
+            <!-- Controls: first thing on the page so phones see the picker on screen 1 -->
+            <div class="tracker-controls" id="trackerControls">
+                <div class="controls-row">
+                    <div class="control-group">
+                        <label for="stateSelect">Su estado</label>
+                        <select id="stateSelect">
+                            <option value="">Elija su estado&hellip;</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="phaSearch">O busque por nombre o ciudad</label>
+                        <input type="text" id="phaSearch" placeholder="p. ej. Milwaukee" autocomplete="off">
+                    </div>
+                </div>
+                <div class="filter-chips" role="group" aria-label="Filtrar por estado de la lista">
+                    <button type="button" class="filter-chip active" data-filter="all" aria-pressed="true">Todos</button>
+                    <button type="button" class="filter-chip" data-filter="open" aria-pressed="false">Abierta</button>
+                    <button type="button" class="filter-chip" data-filter="lottery" aria-pressed="false">Lotería / Periódica</button>
+                    <button type="button" class="filter-chip" data-filter="closed" aria-pressed="false">Cerrada</button>
+                </div>
+                <p class="tracker-shortcut">¿Busca una sola autoridad de vivienda? <a href="../autoridades-de-vivienda/">Vea el directorio &rarr;</a> o <a href="#authorityGuides" id="authorityJump">nuestras guías por autoridad</a>.</p>
+            </div>
+
+            <div class="results-count" id="resultsCount"></div>
+            <div class="pha-list" id="phaList"></div>
+
+            <div class="tracker-about">
                 <p class="featured-snippet">Hay más de 3,300 Autoridades de Vivienda Pública en los Estados Unidos, y cada una administra su propia lista de espera de Sección 8 de forma independiente. Algunas listas están abiertas, algunas están cerradas y algunas usan lotería. Este rastreador le ayuda a encontrar PHAs por estado, ver su estado actual y obtener la información de contacto que necesita para aplicar. La mejor estrategia es aplicar a cada lista abierta que pueda — no hay límite en cuántas puede unirse.</p>
-                <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Solo elija su estado para explorar — no requiere registro. ¿Quiere saber cómo funciona una lista por lotería? Lea nuestra guía sobre las <a href="../guias/loteria-seccion-8">loterías de la Sección 8 en 2026&ndash;2027</a>.</p>
+                <p style="font-size: 0.9rem; color: var(--color-text-secondary);">¿Quiere saber cómo funciona una lista por lotería? Lea nuestra guía sobre las <a href="../guias/loteria-seccion-8">loterías de la Sección 8 en 2026&ndash;2027</a>.</p>
+            </div>
+
+            <div class="tracker-stats" id="trackerStats">
+                <div class="stat-card">
+                    <div class="stat-number" id="totalPHAs">0</div>
+                    <div class="stat-label">PHAs Rastreadas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="openCount">0</div>
+                    <div class="stat-label">Listas Actualmente Abiertas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stateCount">0</div>
+                    <div class="stat-label">Estados + DC Cubiertos</div>
+                </div>
             </div>
 
             <!-- Guías por autoridad: convierte búsquedas de marca en la página correcta -->
-            <section class="related-resources" style="margin:0 0 2rem; padding-top:0; border-top:none;">
-                <h2 style="margin-bottom:0.75rem;">¿Busca una autoridad de vivienda específica?</h2>
-                <p style="margin-bottom:1rem; color: var(--color-text-secondary);">Estas guías cubren una autoridad cada una &mdash; el estado actual de la lista de espera, el número de teléfono, el portal de solicitud y cómo aplicar. Si la suya todavía no está aquí, use la búsqueda por estado más abajo o nuestra <a href="../guias/como-encontrar-tu-pha">guía para encontrar su PHA local</a>.</p>
+            <section class="related-resources" style="margin:0; padding-top:0; border-top:none;">
+                <details class="authority-guides" id="authorityGuides">
+                <summary><h2>¿Busca una autoridad de vivienda específica?</h2><span class="summary-count">32 guías</span></summary>
+                <div class="authority-guides-body">
+                <p style="margin-bottom:1rem; color: var(--color-text-secondary);">Estas guías cubren una autoridad cada una &mdash; el estado actual de la lista de espera, el número de teléfono, el portal de solicitud y cómo aplicar. Si la suya todavía no está aquí, use la búsqueda por estado más arriba o nuestra <a href="../guias/como-encontrar-tu-pha">guía para encontrar su PHA local</a>.</p>
                 <div class="related-list">
                     <a href="../autoridades-de-vivienda/houston-hha" class="related-item">
                         <h3>Houston Housing Authority (HHA)</h3>
@@ -352,46 +441,10 @@
                     </a>
                 </div>
                 <p style="margin-top:1rem;"><a href="../autoridades-de-vivienda/"><strong>Ver el directorio completo de autoridades de vivienda &rarr;</strong></a></p>
+                </div>
+                </details>
             </section>
 
-            <div class="tracker-stats" id="trackerStats">
-                <div class="stat-card">
-                    <div class="stat-number" id="totalPHAs">0</div>
-                    <div class="stat-label">PHAs Rastreadas</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" id="openCount">0</div>
-                    <div class="stat-label">Listas Actualmente Abiertas</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number" id="stateCount">0</div>
-                    <div class="stat-label">Estados + DC Cubiertos</div>
-                </div>
-            </div>
-
-            <div class="tracker-controls">
-                <div class="controls-row">
-                    <div class="control-group">
-                        <label for="stateSelect">Seleccione un Estado</label>
-                        <select id="stateSelect">
-                            <option value="">Todos los Estados</option>
-                        </select>
-                    </div>
-                    <div class="control-group">
-                        <label for="phaSearch">Buscar PHAs</label>
-                        <input type="text" id="phaSearch" placeholder="Buscar por nombre o ciudad...">
-                    </div>
-                </div>
-                <div class="filter-chips">
-                    <button class="filter-chip active" data-filter="all">Todos</button>
-                    <button class="filter-chip" data-filter="open">Abierta</button>
-                    <button class="filter-chip" data-filter="lottery">Lotería / Periódica</button>
-                    <button class="filter-chip" data-filter="closed">Cerrada</button>
-                </div>
-            </div>
-
-            <div class="results-count" id="resultsCount"></div>
-            <div class="pha-list" id="phaList"></div>
 
             <div class="tips-section">
                 <h2>Cómo Maximizar Sus Oportunidades</h2>
@@ -410,7 +463,7 @@
                         ¿Cómo encuentro listas de espera abiertas de Sección 8 cerca de mí?
                         <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                     </div>
-                    <div class="faq-answer"><div class="faq-answer-inner">Use el rastreador de arriba para buscar por estado. También puede llamar directamente a su Autoridad de Vivienda Pública (PHA) local, visitar su sitio web o llamar al <strong>211</strong> para información sobre asistencia de vivienda. Muchas PHAs abren sus listas de espera solo periódicamente, así que revise con frecuencia. Puede aplicar a PHAs en cualquier parte del país — no solo donde vive.</div></div>
+                    <div class="faq-answer"><div class="faq-answer-inner">Use el rastreador de arriba para buscar por estado. También puede llamar directamente a su Autoridad de Vivienda Pública (PHA) local, visitar su sitio web o llamar al <a href="tel:211"><strong>211</strong></a> para información sobre asistencia de vivienda. Muchas PHAs abren sus listas de espera solo periódicamente, así que revise con frecuencia. Puede aplicar a PHAs en cualquier parte del país — no solo donde vive.</div></div>
                 </div>
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
@@ -901,17 +954,47 @@
         });
     }
 
+    // Open lists first: open -> lottery -> unknown -> closed (stable within each group)
+    var STATUS_ORDER = { open: 0, lottery: 1, unknown: 2, closed: 3 };
+    function statusRank(s) { return Object.prototype.hasOwnProperty.call(STATUS_ORDER, s) ? STATUS_ORDER[s] : 2; }
+    function byStatus(a, b) { return statusRank(a[3]) - statusRank(b[3]); }
+
     function statusBadge(s) {
-        const cls = s === 'open' ? 'status-open' : s === 'lottery' ? 'status-lottery' : 'status-closed';
+        const cls = s === 'open' ? 'status-open' : s === 'lottery' ? 'status-lottery' : s === 'closed' ? 'status-closed' : 'status-unknown';
         const label = s === 'open' ? 'Abierta' : s === 'lottery' ? 'Loter\u00eda' : s === 'closed' ? 'Cerrada' : 'Desconocido';
-        return '<span class="pha-status ' + cls + '">' + label + '</span>';
+        return '<span class="pha-status status-badge ' + cls + '"><span class="status-dot" aria-hidden="true"></span>' + label + '</span>';
+    }
+
+    function siteLabel(url) {
+        try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url.replace('https://','').replace('http://',''); }
+    }
+
+    function setFilter(f) {
+        document.querySelectorAll('.filter-chip').forEach(function(c) {
+            var on = c.dataset.filter === f;
+            c.classList.toggle('active', on);
+            c.setAttribute('aria-pressed', on ? 'true' : 'false');
+        });
+        activeFilter = f;
+        renderList();
     }
 
     function renderList() {
         const list = document.getElementById('phaList');
         const countEl = document.getElementById('resultsCount');
-        const filtered = getFiltered();
-        countEl.textContent = 'Mostrando ' + filtered.length + ' de ' + PHA_DATA.length + ' PHAs';
+        const state = document.getElementById('stateSelect').value;
+        const query = document.getElementById('phaSearch').value.trim();
+        // No full list by default: ask for a state first (441 cards = a 167-screen page on a phone)
+        if (!state && !query && activeFilter === 'all') {
+            const openN = PHA_DATA.filter(function(p) { return p[3] === 'open'; }).length;
+            countEl.textContent = '';
+            list.innerHTML = '<div class="tracker-prompt"><p><strong>Elija su estado arriba</strong> para ver sus listas de espera, primero las abiertas.</p><p>O <button type="button" class="link-btn" id="showOpenNationwide">vea las ' + openN + ' listas abiertas en todo el pa\u00eds</button></p></div>';
+            document.getElementById('showOpenNationwide').addEventListener('click', function() { setFilter('open'); });
+            return;
+        }
+        const filtered = getFiltered().slice().sort(byStatus);
+        const openN = filtered.filter(function(p) { return p[3] === 'open' || p[3] === 'lottery'; }).length;
+        countEl.textContent = 'Mostrando ' + filtered.length + ' de ' + PHA_DATA.length + ' PHAs' + (state ? ' en ' + (STATE_NAMES[state] || state) : '') + ' \u00b7 ' + openN + ' abiertas o por loter\u00eda';
         if (filtered.length === 0) {
             list.innerHTML = '<div class="no-results">Ninguna PHA coincide con sus filtros actuales. Intente ajustar el estado o el filtro de estado.</div>';
             return;
@@ -923,10 +1006,11 @@
                 '<div class="pha-card-location">' + city + ', ' + state + '</div>' +
                 '<div class="pha-card-details">' +
                 '<div class="pha-detail"><strong>Espera:</strong> ' + wait + '</div>' +
-                '<div class="pha-detail"><strong>Tel\u00e9fono:</strong> <a href="tel:' + phone.replace(/[^\d+]/g,'') + '">' + phone + '</a></div>' +
-                (website ? '<div class="pha-detail"><strong>Sitio web:</strong> <a href="' + website + '" target="_blank" rel="noopener">' + website.replace('https://','').replace('http://','') + '</a></div>' : '') +
                 (notes ? '<div class="pha-note">' + notes + '</div>' : '') +
-                '</div></div>';
+                '<div class="pha-actions">' +
+                (phone ? '<a class="pha-action" href="tel:' + phone.replace(/[^\d+]/g,'') + '">Llamar al ' + phone + '</a>' : '') +
+                (website ? '<a class="pha-action" href="' + website + '" target="_blank" rel="noopener">' + siteLabel(website) + ' &#8599;</a>' : '') +
+                '</div></div></div>';
         }).join('');
     }
 
@@ -934,19 +1018,41 @@
         el.parentElement.classList.toggle('open');
     }
 
-    document.getElementById('stateSelect').addEventListener('change', renderList);
+    document.getElementById('stateSelect').addEventListener('change', function() {
+        renderList();
+        // On phones, bring the first (open) result into view after a state is picked
+        if (this.value && window.innerWidth < 769) {
+            var rc = document.getElementById('resultsCount');
+            if (rc.getBoundingClientRect().top > window.innerHeight * 0.55) {
+                rc.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        try {
+            var u = new URL(window.location.href);
+            if (this.value) u.searchParams.set('state', this.value); else u.searchParams.delete('state');
+            history.replaceState(null, '', u.pathname + u.search + u.hash);
+        } catch (e) {}
+    });
     document.getElementById('phaSearch').addEventListener('input', renderList);
     document.querySelectorAll('.filter-chip').forEach(function(chip) {
-        chip.addEventListener('click', function() {
-            document.querySelectorAll('.filter-chip').forEach(function(c) { c.classList.remove('active'); });
-            this.classList.add('active');
-            activeFilter = this.dataset.filter;
-            renderList();
-        });
+        chip.addEventListener('click', function() { setFilter(this.dataset.filter); });
     });
+    var authJump = document.getElementById('authorityJump');
+    if (authJump) authJump.addEventListener('click', function() { document.getElementById('authorityGuides').open = true; });
+    if (window.location.hash === '#authorityGuides') document.getElementById('authorityGuides').open = true;
 
     renderStats();
     populateStates();
+
+    // Check URL params for state pre-selection
+    var params = new URLSearchParams(window.location.search);
+    var stateParam = params.get('state');
+    if (stateParam) {
+        var upper = stateParam.toUpperCase();
+        if (STATE_NAMES[upper]) {
+            document.getElementById('stateSelect').value = upper;
+        }
+    }
     renderList();
     document.getElementById('lastUpdated').textContent = '\u00daltima actualizaci\u00f3n: septiembre 2026';
     </script>
