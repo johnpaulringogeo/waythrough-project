@@ -1149,7 +1149,7 @@
   },
   {
     "title": "What Does PHA Stand For? Find Your Public Housing Authority",
-    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 32 authorities or on HUD’s list.",
+    "description": "PHA stands for Public Housing Authority, the local agency that runs Section 8 where you live. Find yours in our directory of 35 authorities or on HUD’s list.",
     "url": "/resources/guides/how-to-find-your-pha",
     "category": "Guide",
     "body": "What Does PHA Stand For? Find Your Public Housing Authority Home / Resources / Find Your PHA How-To Guide What Does PHA Stand For? Find Your Local Public Housing Authority Matt · 6 min read PHA stands for Public Housing Authority — the local government agency that runs Section 8 Housing Choice Vouch"
@@ -4179,6 +4179,27 @@
     "body": "Emergency Rent & Eviction Help in San Antonio | Waythrough Home / Resources / Emergency Rent Help in San Antonio How-To Guide Emergency Rent Help in San Antonio: The City's Monthly Window, Free Eviction Lawyers, and Texas's 2026 Eviction Clock Matt · Updated November 2026 If you rent in San Antonio "
   },
   {
+    "title": "Oakland Housing Authority Section 8 Waitlist & How to Apply",
+    "description": "Oakland Housing Authority in Oakland, CA: Section 8 waitlist status (checked November 3, 2026), phone (510) 874-1500, programs and how to apply.",
+    "url": "/resources/housing-authorities/oakland-oha",
+    "category": "Guide",
+    "body": "Oakland Housing Authority Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / OHA Housing Authority Oakland Housing Authority (OHA) Serves the City of Oakland, California · Last checked November 3, 2026 Waythrough is an independent resource, not OHA. We summarize public inform"
+  },
+  {
+    "title": "SDHC San Diego Section 8 Waitlist & How to Apply",
+    "description": "SDHC San Diego in San Diego, CA: Section 8 waitlist status (checked November 3, 2026), phone (619) 231-9400, programs and how to apply. An independent guide.",
+    "url": "/resources/housing-authorities/san-diego-sdhc",
+    "category": "Guide",
+    "body": "SDHC San Diego Section 8 Waitlist & How to Apply Home / Resources / Housing Authorities / SDHC Housing Authority San Diego Housing Commission (SDHC) Serves the City of San Diego, California · Last checked November 3, 2026 Waythrough is an independent resource, not SDHC. We summarize public informati"
+  },
+  {
+    "title": "Santa Clara County Housing Authority Section 8 Waitlist",
+    "description": "Santa Clara County Housing Authority in San Jose, CA: Section 8 waitlist status (checked November 3, 2026), phone (408) 275-8770, programs and how to apply.",
+    "url": "/resources/housing-authorities/san-jose-sccha",
+    "category": "Guide",
+    "body": "Santa Clara County Housing Authority Section 8 Waitlist Home / Resources / Housing Authorities / SCCHA Housing Authority Santa Clara County Housing Authority (SCCHA) Serves San José and all of Santa Clara County, California · Last checked November 3, 2026 Waythrough is an independent resource, not S"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4653,5 +4674,26 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-san-antonio",
     "category": "Guías",
     "body": "Si usted alquila en San Antonio y se atrasó con la renta, la puerta principal es el Programa de Ayuda con la Renta (Rental Assistance Program) de la Ciudad de San Antonio. Puede pagar hasta $3,500 de renta y $1,500 de servicios, por hasta tres meses seguidos. Pero recibe solicitudes solo una hora al"
+  },
+  {
+    "title": "Oakland Housing Authority: lista de espera Sección 8",
+    "description": "Oakland Housing Authority en Oakland, CA: estado de la lista de espera de Sección 8, teléfono (510) 874-1500, programas y cómo solicitar. Guía independiente.",
+    "url": "/es/recursos/autoridades-de-vivienda/oakland-oha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / OHA Autoridad de Vivienda Oakland Housing Authority (OHA) Sirve a la ciudad de Oakland, California · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es OHA. Resumimos información pública para ayudarle a orientarse. "
+  },
+  {
+    "title": "Lista de espera Sección 8 de SDHC San Diego y cómo solicitar",
+    "description": "SDHC San Diego en San Diego, CA: lista de espera de Sección 8 (verificada el 3 de noviembre de 2026), teléfono (619) 231-9400, programas y cómo solicitar.",
+    "url": "/es/recursos/autoridades-de-vivienda/san-diego-sdhc",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / SDHC Autoridad de Vivienda San Diego Housing Commission (SDHC) Sirve a la ciudad de San Diego, California · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es SDHC. Resumimos información pública para ayudarle a orie"
+  },
+  {
+    "title": "SCCHA Santa Clara: lista de espera Sección 8 y solicitud",
+    "description": "SCCHA Santa Clara en San Jose, CA: lista de espera de Sección 8 (verificada el 3 de noviembre de 2026), teléfono (408) 275-8770, programas y cómo solicitar.",
+    "url": "/es/recursos/autoridades-de-vivienda/san-jose-sccha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / SCCHA Autoridad de Vivienda Santa Clara County Housing Authority (SCCHA) Sirve a San José y todo el condado de Santa Clara, California · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es SCCHA. Resumimos informació"
   }
 ]
