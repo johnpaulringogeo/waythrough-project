@@ -1,0 +1,219 @@
+{
+  "slug": "oakland-oha",
+  "kind": "authority",
+  "name": "Oakland Housing Authority (OHA)",
+  "schema_name": "Oakland Housing Authority",
+  "short_name": "OHA",
+  "title_name": "Oakland Housing Authority",
+  "city": "Oakland",
+  "state": "CA",
+  "serves": "the City of Oakland, California",
+  "phone": "(510) 874-1500",
+  "official_url": "https://www.oakha.org/",
+  "apply_url": "https://myohaportal.oakha.org/",
+  "city_slug": "oakland",
+  "state_slug": "california",
+  "updated": "November 3, 2026",
+  "intro": "The Oakland Housing Authority (OHA) is the public housing agency for the City of Oakland. HUD lists it as PHA CA003 with a program type of Combined, so it runs both Housing Choice Vouchers (Section 8) and public housing, which OHA now calls Affordable (Public) Housing. OHA is a Moving to Work agency. Its main office is at 1619 Harrison Street, and its Eligibility Department, which handles applicants, is at 1540 Webster Street. The short version today: every waiting list OHA runs is closed, OHA publishes no reopening date, and if you already sent a pre-application, OHA will contact you by email, not by phone. This page covers OHA's exact words, how its lottery works, the preferences in its 2026 Administrative Plan, and the other housing authorities in Alameda County, especially the Housing Authority of the County of Alameda (HACA), which people often mistake for OHA.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), including Moving to Work vouchers, VASH vouchers for veterans, Mainstream vouchers for non-elderly people with disabilities, and Foster Youth to Independence vouchers",
+    "Project-Based Vouchers, where the subsidy stays with the apartment (OHA lists its PBV waiting list as OAHPI Project-Based Voucher)",
+    "Affordable (Public) Housing in apartment buildings OHA owns and operates in Oakland",
+    "Shelter Plus Care for unhoused people with disabilities, run by Alameda County Housing and Community Development with OHA and the other county housing authorities",
+    "Family Unification and the Section 8 Homeownership Program"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked November 3, 2026). OHA's Waitlists page lists \"Housing Choice Voucher (Section 8)\" with the status \"Closed\". OHA gives no closing date and no reopening date. OHA says that when the list is open, \"OHA announces publicly that it will accept Pre-Applications\" and then uses a lottery to put them in order, so applying early in an opening does not put you ahead."
+    },
+    {
+      "program": "Affordable (Public) Housing",
+      "status": "Closed",
+      "note": "The same table lists \"OHA Affordable (Public) Housing\" as \"Closed\" (checked November 3, 2026). These are site-based lists for OHA's own buildings: when one opens, OHA gives each pre-application a random lottery number, and names are drawn from that site's list as apartments come open."
+    },
+    {
+      "program": "Project-Based Voucher (OAHPI PBV)",
+      "status": "Closed",
+      "note": "Listed as \"OAHPI Project-Based Voucher (PBV)\": \"Closed\" (checked November 3, 2026)."
+    },
+    {
+      "program": "Mainstream Voucher Program",
+      "status": "Closed",
+      "note": "Listed as \"OHA Mainstream Voucher Program\": \"Closed\" (checked November 3, 2026). OHA also posts openings at other agencies as a courtesy; that row, \"Other (Non-OHA) Agencies\", showed \"Closed\" too."
+    }
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of the County of Alameda (HACA)</strong> is a separate agency, HUD code CA067, at 22941 Atherton Street, Hayward, CA 94541, (510) 538-8876. HACA says that because the cities of Alameda, Berkeley, Livermore and Oakland \"each have their own Housing Authorities,\" it \"does not provide rental assistance to those cities.\" It serves Albany, Dublin, Emeryville, Fremont, Hayward, Newark, Pleasanton, San Leandro, Union City and unincorporated areas such as Castro Valley, San Lorenzo, Ashland and Cherryland. Its Applying for Housing page reads \"HACA WAITLIST IS NOW CLOSED\" (checked November 3, 2026); it stopped taking pre-applications on May 6, 2024, and says it will advertise any opening at haca.net and at (510) 538-8876, extension 1.",
+    "<strong>Other city housing authorities in Alameda County</strong>, per HUD's California PHA list: Berkeley Housing Authority (CA058), (510) 488-5470; City of Alameda Housing Authority (CA062), (510) 747-4300; and Housing Authority of the City of Livermore (CA074), (925) 447-3600. We did not check their waiting lists for this page, so call or check their sites. OHA's own How to Apply page also links Bay Area authorities in San Francisco, Marin and Contra Costa County.",
+    "<strong>OHA is not an emergency housing agency.</strong> OHA says it \"does not offer emergency housing or operate homeless shelters.\" For shelter and urgent help, dial 2-1-1 (Eden I&amp;R) or the shelter hotline OHA lists, 1 (800) 774-3583. For rent help and eviction defense in Oakland, such as Keep Oakland Housed and the Eviction Defense Center, see our <a href=\"../cities/oakland\">Oakland housing resources</a> page."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Oakland Section 8 waiting list open?",
+      "a": "No. As of November 3, 2026, OHA's Waitlists page shows \"Closed\" for the Housing Choice Voucher (Section 8) list, and also for OHA Affordable (Public) Housing, the OAHPI Project-Based Voucher list and the OHA Mainstream Voucher Program. OHA does not publish a reopening date. When a list opens, OHA announces it publicly and takes pre-applications, so check oakha.org and treat any date you see elsewhere as unconfirmed unless OHA's own site shows it."
+    },
+    {
+      "q": "I already applied to OHA. How do I check my status?",
+      "a": "By email, not by phone. OHA's Waitlists page says: \"Status is not provided by telephone. OHA will communicate with Applicants via email about their pre-application status.\" It says your pre-application goes through a lottery for a place on one or more lists. Keep your email address current. To report a new address, use OHA's Applicant Portal at myohaportal.oakha.org, or mail a written request to the Oakland Housing Authority, Eligibility Department, 1540 Webster Street, Oakland, CA 94612."
+    },
+    {
+      "q": "How does OHA pick people from the waiting list?",
+      "a": "By lottery, then by preference. OHA says it \"accepts pre-applications when we anticipate housing becoming available within a few months,\" gives each pre-application a random lottery number, and builds the waiting list from the lottery. Its 2026 Administrative Plan says voucher families \"will be selected from the waiting list in the order of their assigned lottery number and according to OHA preferences.\" Before an offer, OHA verifies income, assets and household members and runs a criminal background check on adults."
+    },
+    {
+      "q": "What preferences does OHA use for Section 8?",
+      "a": "OHA's 2026 Administrative Plan lists local preferences for the voucher list, including a residency preference for applicants who live or work in Oakland, or have household members enrolled in school there; a family preference for households of two or more people and for single applicants who are elderly or have a disability; a veteran and active military preference; a homeless preference; and referrals from the Alameda County Continuum of Care Coordinated Entry system. Bring proof of residency, work or school to your interview, because OHA checks it then."
+    },
+    {
+      "q": "Is OHA the same as the Alameda County Housing Authority?",
+      "a": "No. The Housing Authority of the County of Alameda (HACA) is a separate agency in Hayward, and it does not serve Oakland. HACA covers cities such as Hayward, Fremont, San Leandro, Union City, Dublin and Pleasanton, plus unincorporated areas like Castro Valley and San Lorenzo. Its list is closed too: HACA stopped taking pre-applications on May 6, 2024. The cities of Berkeley, Alameda and Livermore each have their own housing authority as well."
+    },
+    {
+      "q": "What number should I call at OHA?",
+      "a": "(510) 874-1500 is OHA's main number. It is in the footer of every OHA page and on its Waitlists page, and HUD's directory lists the same number for CA003. For voucher (Leased Housing) questions, OHA lists (510) 587-2100 and lhcustomerservice@oakha.org on its Contact and Voucher Based Housing pages and its portal. OHA's Customer Service Line, on its Contact page, is (510) 874-1653. TTY: (510) 587-7119. Remember that OHA does not give waiting-list status by phone."
+    }
+  ],
+  "sources": [
+    {
+      "label": "OHA - Waitlists (status table: all five lists closed; email-only status)",
+      "url": "https://www.oakha.org/housing/qualifyandapply/waitlists/"
+    },
+    {
+      "label": "OHA - How to Apply for Housing (programs, lottery, eligibility, income limits, emergency housing)",
+      "url": "https://www.oakha.org/housing/"
+    },
+    {
+      "label": "OHA - Contact Us (Customer Service Line, Leased Housing, directory)",
+      "url": "https://www.oakha.org/contact/"
+    },
+    {
+      "label": "OHA - Voucher Based Housing (voucher programs, Leased Housing customer service)",
+      "url": "https://www.oakha.org/about/section8/"
+    },
+    {
+      "label": "OHA - Administrative Plan 2026 (local preferences, order of selection)",
+      "url": "https://www.oakha.org/wp-content/uploads/2026/04/Admin-Plan-2026.1.pdf"
+    },
+    {
+      "label": "OHA - Applicant Portal",
+      "url": "https://myohaportal.oakha.org/"
+    },
+    {
+      "label": "HACA - Applying for Housing (waitlist closed since May 6, 2024)",
+      "url": "https://www.haca.net/applicants/applyingforhousing/"
+    },
+    {
+      "label": "HACA - Jurisdiction (does not serve Oakland, Alameda, Berkeley or Livermore)",
+      "url": "https://www.haca.net/jurisdiction/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, California (CA003 Oakland; CA067 HACA; CA058, CA062, CA074)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Oakland, California",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Autoridad de Vivienda de Oakland (Oakland Housing Authority, OHA) es la agencia de vivienda pública de la ciudad de Oakland. HUD la registra como la PHA CA003 con el tipo de programa Combined, es decir, administra tanto los vales Housing Choice Voucher (Sección 8) como la vivienda pública, que OHA ahora llama Affordable (Public) Housing. OHA es una agencia Moving to Work. Su oficina principal está en 1619 Harrison Street, y su Departamento de Elegibilidad, que atiende a los solicitantes, está en 1540 Webster Street. En resumen: hoy todas las listas de espera de OHA están cerradas, OHA no publica una fecha de reapertura y, si usted ya envió una presolicitud, OHA le contactará por correo electrónico, no por teléfono. Esta página reúne las palabras exactas de OHA, cómo funciona su lotería, las preferencias de su Plan Administrativo de 2026 y las otras autoridades de vivienda del condado de Alameda, sobre todo la Autoridad de Vivienda del Condado de Alameda (HACA), que muchas personas confunden con OHA.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), que incluye vales Moving to Work, vales VASH para veteranos, vales Mainstream para personas con discapacidad menores de 62 años y vales Foster Youth to Independence",
+      "Vales basados en proyectos, en los que el subsidio se queda con el apartamento (OHA llama a esta lista OAHPI Project-Based Voucher)",
+      "Affordable (Public) Housing en edificios que OHA posee y administra en Oakland",
+      "Shelter Plus Care para personas sin hogar con discapacidad, a cargo del Departamento de Vivienda y Desarrollo Comunitario del condado de Alameda junto con OHA y las demás autoridades del condado",
+      "Reunificación Familiar (Family Unification) y el Programa de Compra de Vivienda con Sección 8"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 3 de noviembre de 2026). La página Waitlists de OHA muestra \"Housing Choice Voucher (Section 8)\" con el estado \"Closed\" (cerrada). OHA no da fecha de cierre ni de reapertura. OHA dice que, cuando la lista abre, \"OHA announces publicly that it will accept Pre-Applications\" (anuncia públicamente que aceptará presolicitudes) y luego usa una lotería para ordenarlas, así que solicitar temprano no le da ventaja."
+      },
+      {
+        "program": "Affordable (Public) Housing",
+        "status": "Cerrada",
+        "note": "La misma tabla muestra \"OHA Affordable (Public) Housing\" como \"Closed\" (verificado el 3 de noviembre de 2026). Son listas por edificio para las propiedades de OHA: cuando una abre, OHA asigna a cada presolicitud un número de lotería al azar, y los nombres salen de la lista de ese edificio a medida que se desocupan apartamentos."
+      },
+      {
+        "program": "Vales basados en proyectos (OAHPI PBV)",
+        "status": "Cerrada",
+        "note": "Aparece como \"OAHPI Project-Based Voucher (PBV)\": \"Closed\" (verificado el 3 de noviembre de 2026)."
+      },
+      {
+        "program": "Programa de vales Mainstream",
+        "status": "Cerrada",
+        "note": "Aparece como \"OHA Mainstream Voucher Program\": \"Closed\" (verificado el 3 de noviembre de 2026). OHA también publica, como cortesía, aperturas de otras agencias; esa fila, \"Other (Non-OHA) Agencies\", también mostraba \"Closed\"."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de Alameda (HACA)</strong> es una agencia distinta, código de HUD CA067, en 22941 Atherton Street, Hayward, CA 94541, (510) 538-8876. HACA dice que, como las ciudades de Alameda, Berkeley, Livermore y Oakland \"each have their own Housing Authorities\" (tienen cada una su propia autoridad de vivienda), \"does not provide rental assistance to those cities\" (no da asistencia de alquiler en esas ciudades). Atiende a Albany, Dublin, Emeryville, Fremont, Hayward, Newark, Pleasanton, San Leandro, Union City y zonas no incorporadas como Castro Valley, San Lorenzo, Ashland y Cherryland. Su página Applying for Housing dice \"HACA WAITLIST IS NOW CLOSED\" (la lista de HACA está cerrada; verificado el 3 de noviembre de 2026): dejó de recibir presolicitudes el 6 de mayo de 2024 y dice que anunciará cualquier apertura en haca.net y en el (510) 538-8876, extensión 1.",
+      "<strong>Otras autoridades de vivienda de ciudades del condado de Alameda</strong>, según la lista de PHAs de California de HUD: Berkeley Housing Authority (CA058), (510) 488-5470; City of Alameda Housing Authority (CA062), (510) 747-4300; y Housing Authority of the City of Livermore (CA074), (925) 447-3600. No revisamos sus listas de espera para esta página, así que llame o consulte sus sitios. La página How to Apply de OHA también enlaza autoridades del Área de la Bahía en San Francisco, Marin y el condado de Contra Costa.",
+      "<strong>OHA no es una agencia de vivienda de emergencia.</strong> OHA dice que \"does not offer emergency housing or operate homeless shelters\" (no ofrece vivienda de emergencia ni administra refugios). Para refugio y ayuda urgente, marque 2-1-1 (Eden I&amp;R) o la línea de refugios que indica OHA, 1 (800) 774-3583. Para ayuda con la renta y defensa contra desalojos en Oakland, como Keep Oakland Housed y el Eviction Defense Center, vea nuestra página de <a href=\"../ciudades/oakland\">recursos de vivienda de Oakland</a>."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de Oakland?",
+        "a": "No. Al 3 de noviembre de 2026, la página Waitlists de OHA muestra \"Closed\" (cerrada) para la lista del Housing Choice Voucher (Sección 8), y también para OHA Affordable (Public) Housing, la lista OAHPI Project-Based Voucher y el programa de vales Mainstream de OHA. OHA no publica una fecha de reapertura. Cuando una lista abre, OHA lo anuncia públicamente y recibe presolicitudes, así que revise oakha.org y no confíe en una fecha que vea en otro lugar si el sitio de OHA no la muestra."
+      },
+      {
+        "q": "Ya presenté mi solicitud a OHA. ¿Cómo reviso mi estado?",
+        "a": "Por correo electrónico, no por teléfono. La página Waitlists de OHA dice: \"Status is not provided by telephone. OHA will communicate with Applicants via email about their pre-application status.\" (El estado no se da por teléfono; OHA se comunicará con los solicitantes por correo electrónico sobre su presolicitud). Explica que su presolicitud pasa por una lotería para entrar en una o más listas. Mantenga su correo electrónico al día. Para reportar un cambio de dirección, use el portal de solicitantes de OHA en myohaportal.oakha.org o envíe una carta a Oakland Housing Authority, Eligibility Department, 1540 Webster Street, Oakland, CA 94612."
+      },
+      {
+        "q": "¿Cómo elige OHA a las personas de la lista de espera?",
+        "a": "Por lotería y luego por preferencias. OHA dice que \"accepts pre-applications when we anticipate housing becoming available within a few months\" (acepta presolicitudes cuando prevé tener vivienda disponible en unos meses), asigna a cada presolicitud un número de lotería al azar y arma la lista con la lotería. Su Plan Administrativo de 2026 dice que las familias de vales se eligen en el orden de su número de lotería y según las preferencias de OHA. Antes de hacer una oferta, OHA verifica ingresos, bienes y miembros del hogar, y revisa los antecedentes penales de los adultos."
+      },
+      {
+        "q": "¿Qué preferencias usa OHA para la Sección 8?",
+        "a": "El Plan Administrativo de 2026 de OHA enumera preferencias locales para la lista de vales, entre ellas: residencia, para quienes viven o trabajan en Oakland o tienen miembros del hogar inscritos en una escuela de la ciudad; familia, para hogares de dos o más personas y para solicitantes solos que son personas mayores o tienen una discapacidad; veteranos y militares en servicio activo; personas sin hogar; y referencias del sistema de Entrada Coordinada (Coordinated Entry) del Continuum of Care del condado de Alameda. Lleve prueba de residencia, trabajo o escuela a su entrevista, porque OHA la verifica en ese momento."
+      },
+      {
+        "q": "¿OHA es lo mismo que la Autoridad de Vivienda del Condado de Alameda?",
+        "a": "No. La Autoridad de Vivienda del Condado de Alameda (HACA) es una agencia distinta con sede en Hayward, y no atiende a Oakland. HACA cubre ciudades como Hayward, Fremont, San Leandro, Union City, Dublin y Pleasanton, además de zonas no incorporadas como Castro Valley y San Lorenzo. Su lista también está cerrada: HACA dejó de recibir presolicitudes el 6 de mayo de 2024. Las ciudades de Berkeley, Alameda y Livermore también tienen cada una su propia autoridad de vivienda."
+      },
+      {
+        "q": "¿A qué número llamo en OHA?",
+        "a": "El (510) 874-1500 es el número principal de OHA. Aparece al pie de todas las páginas de OHA y en su página Waitlists, y el directorio de HUD da el mismo número para CA003. Para preguntas sobre vales (Leased Housing), OHA indica el (510) 587-2100 y lhcustomerservice@oakha.org en sus páginas Contact y Voucher Based Housing y en su portal. La línea de servicio al cliente de OHA, en su página Contact, es el (510) 874-1653. TTY: (510) 587-7119. Recuerde que OHA no da el estado de la lista de espera por teléfono."
+      }
+    ],
+    "sources": [
+      {
+        "label": "OHA - Waitlists (tabla de estado: las cinco listas cerradas; estado solo por correo electrónico)",
+        "url": "https://www.oakha.org/housing/qualifyandapply/waitlists/"
+      },
+      {
+        "label": "OHA - How to Apply for Housing (programas, lotería, elegibilidad, límites de ingresos, vivienda de emergencia)",
+        "url": "https://www.oakha.org/housing/"
+      },
+      {
+        "label": "OHA - Contact Us (línea de servicio al cliente, Leased Housing, directorio)",
+        "url": "https://www.oakha.org/contact/"
+      },
+      {
+        "label": "OHA - Voucher Based Housing (programas de vales, servicio al cliente de Leased Housing)",
+        "url": "https://www.oakha.org/about/section8/"
+      },
+      {
+        "label": "OHA - Plan Administrativo 2026 (preferencias locales, orden de selección)",
+        "url": "https://www.oakha.org/wp-content/uploads/2026/04/Admin-Plan-2026.1.pdf"
+      },
+      {
+        "label": "OHA - Portal de solicitantes",
+        "url": "https://myohaportal.oakha.org/"
+      },
+      {
+        "label": "HACA - Applying for Housing (lista cerrada desde el 6 de mayo de 2024)",
+        "url": "https://www.haca.net/applicants/applyingforhousing/"
+      },
+      {
+        "label": "HACA - Jurisdiction (no atiende a Oakland, Alameda, Berkeley ni Livermore)",
+        "url": "https://www.haca.net/jurisdiction/"
+      },
+      {
+        "label": "HUD - Lista de contactos de PHAs de California (CA003 Oakland; CA067 HACA; CA058, CA062, CA074)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+      }
+    ]
+  }
+}

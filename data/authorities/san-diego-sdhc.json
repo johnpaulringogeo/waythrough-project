@@ -1,0 +1,229 @@
+{
+  "slug": "san-diego-sdhc",
+  "kind": "authority",
+  "name": "San Diego Housing Commission (SDHC)",
+  "schema_name": "San Diego Housing Commission",
+  "short_name": "SDHC",
+  "title_name": "SDHC San Diego",
+  "city": "San Diego",
+  "state": "CA",
+  "serves": "the City of San Diego, California",
+  "phone": "(619) 231-9400",
+  "official_url": "https://sdhc.org/",
+  "apply_url": "https://sdhc.org/housing-opportunities/help-with-your-rent/wait-list-portal/",
+  "city_slug": "san-diego",
+  "state_slug": "california",
+  "updated": "November 3, 2026",
+  "intro": "The San Diego Housing Commission (SDHC) is the public housing agency for the City of San Diego. HUD lists it as PHA CA063 with a program type of Combined, at 1122 Broadway, Suite 300. SDHC says its Section 8 program serves more than 16,000 households, and that with its nonprofit affiliate, Housing Development Partners, it owns or manages more than 4,100 affordable rental homes. The short version today: SDHC closed its Section 8, public housing and project-based voucher waiting lists on February 1, 2026, is not taking new applications, and is not selecting new families from the Section 8 list. If you need help with rent now, SDHC's Housing Instability Prevention Program (HIPP) is a separate program that works by referral. This page covers SDHC's exact words, what to do if you are already on the list, HIPP, and the County of San Diego's separate housing authority, which serves most of the rest of the county.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), for more than 16,000 City of San Diego households",
+    "Public Housing and Project-Based Vouchers",
+    "More than 4,100 affordable rental homes owned or managed by SDHC and Housing Development Partners, each with its own application",
+    "Housing Instability Prevention Program (HIPP): $250 to $1,000 a month toward rent for up to 24 months, by referral",
+    "City of San Diego Eviction Prevention Program, run by the Legal Aid Society of San Diego under contract with SDHC"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Closed (checked November 3, 2026). SDHC's Wait List Portal page says SDHC \"closed its Section 8 Housing Choice Voucher and Public Housing waiting lists February 1, 2026, at 11:59 p.m.\" and \"SDHC is not accepting new waiting list applications at this time.\" It adds: \"SDHC is not selecting new families from the HCV waiting list to begin receiving rental assistance at this time. We do not expect to be able to pull families from the HCV waiting list for several more years.\" No reopening date is given."
+    },
+    {
+      "program": "Public Housing",
+      "status": "Closed",
+      "note": "Closed since the same date, February 1, 2026, at 11:59 p.m. (checked November 3, 2026)."
+    },
+    {
+      "program": "Project-Based Vouchers",
+      "status": "Closed",
+      "note": "SDHC says the February 1, 2026 closure \"includes the waiting list for Project-Based Vouchers\" (checked November 3, 2026)."
+    },
+    {
+      "program": "HUD referral programs",
+      "status": "Open only to agency referrals",
+      "note": "SDHC keeps an open list only for referral programs HUD requires, and says these lists \"are not open to the general public and are only accessible by Community-Based Organization (CBO) referral.\""
+    },
+    {
+      "program": "Housing Instability Prevention Program (HIPP, rent help, not Section 8)",
+      "status": "By referral; funding limited",
+      "note": "HIPP takes referrals from 2-1-1 San Diego and SDHC's Homelessness Initiatives hotline, 619-578-7768. SDHC says \"Funding is limited. HIPP currently can assist up to 300 households at any given time\" (checked November 3, 2026), and it does not say whether a slot is free right now, so ask when you call."
+    }
+  ],
+  "also_serving": [
+    "<strong>Housing Authority of the County of San Diego (HACSD)</strong>, run by the County's Housing and Community Development Services (HCDS), is a separate agency: HUD code CA108, program type Combined, 3989 Ruffin Road, San Diego, CA 92123, (858) 694-4801 (toll free (877) 478-5478). For Section 8 it serves the unincorporated county and 13 cities: Chula Vista, Coronado, Del Mar, El Cajon, Escondido, Imperial Beach, La Mesa, Lemon Grove, Poway, San Marcos, Santee, Solana Beach and Vista. Its Section 8 page says \"the Section 8 Housing Choice Voucher waitlist closed on February 20, 2026, at 11:59 p.m.\" (checked November 3, 2026), and that names are picked by date and time of application, with a possible wait of \"10 or more years.\"",
+    "<strong>Four more cities run their own programs</strong>, per HUD's California PHA list: Carlsbad Housing and Homeless Services (CA077), (442) 339-2810; Housing Authority of the City of Encinitas (CA155), (760) 633-2723; City of Oceanside (CA132), (760) 435-3360; and the CDC of National City (CA116), (619) 336-4254. We did not check their waiting lists for this page, so call or check their sites.",
+    "<strong>Behind on rent in the City of San Diego?</strong> Section 8 is not emergency help. Call 2-1-1 or SDHC's hotline at 619-578-7768 to be referred to HIPP, and see our <a href=\"../guides/emergency-rent-help-san-diego\">San Diego emergency rent help guide</a> for CalWORKs back-rent help, the City's free Eviction Prevention Program, and the City's Tenant Protection Ordinance."
+  ],
+  "faqs": [
+    {
+      "q": "Is the San Diego Section 8 waiting list open?",
+      "a": "No. SDHC closed its Section 8 Housing Choice Voucher and Public Housing waiting lists on February 1, 2026, at 11:59 p.m., including the Project-Based Voucher list, and says \"SDHC is not accepting new waiting list applications at this time\" (checked November 3, 2026). SDHC gives no reopening date. The County of San Diego's Section 8 list, which covers most of the rest of the county, closed on February 20, 2026."
+    },
+    {
+      "q": "I am already on the SDHC list. What happens now?",
+      "a": "Your application stays active. SDHC says: \"If you have already submitted an application, this change does not affect you.\" You do not need to do anything, but you can update your information through the SDHC Wait List Portal. If you registered before December 5, 2022, you must create a new portal account, which SDHC says will not affect your position. For questions, call SDHC's Wait List Call Center at 619-578-7640."
+    },
+    {
+      "q": "How long is the wait for Section 8 in San Diego?",
+      "a": "SDHC will not estimate it. SDHC says \"We do not expect to be able to pull families from the HCV waiting list for several more years,\" and that until more federal funding arrives, \"we regret that we cannot assist new families from the waiting list nor provide an estimated waiting period.\" SDHC publishes no waiting-list size, so treat any number of applicants you see online as unconfirmed."
+    },
+    {
+      "q": "What is the difference between SDHC and the County of San Diego housing authority?",
+      "a": "SDHC serves the City of San Diego. The Housing Authority of the County of San Diego, run by the County's Housing and Community Development Services, serves the unincorporated county and 13 cities, including Chula Vista, El Cajon, Escondido, La Mesa, Santee and Vista. Carlsbad, Encinitas, Oceanside and National City run their own programs. Each keeps its own list, and both SDHC's and the County's Section 8 lists are closed."
+    },
+    {
+      "q": "Can SDHC help me pay rent right now?",
+      "a": "Possibly, through HIPP, not Section 8. SDHC's Housing Instability Prevention Program pays $250, $500, $750 or $1,000 a month toward rent for up to 24 months, plus past-due rent and utilities, for City of San Diego households at or below 80% of the area median who spend more than 40% of their income on housing and face a crisis such as an eviction. Immigration status does not affect eligibility. Call 2-1-1 or 619-578-7768 to be referred. SDHC says HIPP can assist up to 300 households at a time."
+    },
+    {
+      "q": "Can a San Diego landlord refuse my Section 8 voucher?",
+      "a": "No. SDHC says the San Diego City Council added Section 8 Housing Choice Voucher rental assistance as a protected source of income, enforceable since August 1, 2019, and California law protects voucher holders statewide. Landlords can still screen tenants on valid rental criteria. The source-of-income hotline SDHC lists, run by the Legal Aid Society of San Diego, is (833) 801-4420."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SDHC - Rental Assistance Wait List Portal (lists closed February 1, 2026; not selecting; Wait List Call Center)",
+      "url": "https://sdhc.org/housing-opportunities/help-with-your-rent/wait-list-portal/"
+    },
+    {
+      "label": "SDHC - Help With Your Rent (16,000+ households, eligibility, HIPP capacity, source-of-income ordinance)",
+      "url": "https://sdhc.org/housing-opportunities/help-with-your-rent/"
+    },
+    {
+      "label": "SDHC - Housing Instability Prevention Program and Seniors Safe at Home",
+      "url": "https://sdhc.org/homelessness-solutions/hipp/"
+    },
+    {
+      "label": "SDHC - Rent from SDHC (4,100+ affordable rental homes)",
+      "url": "https://sdhc.org/housing-opportunities/affordable-rentals/rent-from-sdhc/"
+    },
+    {
+      "label": "SDHC - Contact Us (main number, address, office hours)",
+      "url": "https://sdhc.org/about-us/contact-us/"
+    },
+    {
+      "label": "County of San Diego HCDS - Section 8 HCV Overview (waitlist closed February 20, 2026)",
+      "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/rental-assistance/section-8-hcv-overview.html"
+    },
+    {
+      "label": "County of San Diego HCDS - Areas Served (HACSD's 13 cities and unincorporated areas)",
+      "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/areas-served.html"
+    },
+    {
+      "label": "County of San Diego HCDS - Contact Us",
+      "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/about-us/contact.html"
+    },
+    {
+      "label": "HUD - PHA Contact Report, California (CA063 SDHC; CA108 County; CA077, CA155, CA132, CA116)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de San Diego, California",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Comisión de Vivienda de San Diego (San Diego Housing Commission, SDHC) es la agencia de vivienda pública de la ciudad de San Diego. HUD la registra como la PHA CA063 con el tipo de programa Combined, en 1122 Broadway, Suite 300. SDHC dice que su programa de Sección 8 atiende a más de 16,000 hogares y que, junto con su filial sin fines de lucro Housing Development Partners, posee o administra más de 4,100 viviendas de alquiler asequibles. En resumen: SDHC cerró sus listas de espera de Sección 8, vivienda pública y vales basados en proyectos el 1 de febrero de 2026, no recibe solicitudes nuevas y no está seleccionando familias nuevas de la lista de Sección 8. Si necesita ayuda con la renta ahora, el Programa de Prevención de Inestabilidad de Vivienda (HIPP) de SDHC es un programa aparte que funciona por referencia. Esta página reúne las palabras exactas de SDHC, qué hacer si ya está en la lista, el HIPP y la autoridad de vivienda del condado de San Diego, que es distinta y atiende a casi todo el resto del condado.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), para más de 16,000 hogares de la ciudad de San Diego",
+      "Vivienda pública y vales basados en proyectos",
+      "Más de 4,100 viviendas de alquiler asequibles que poseen o administran SDHC y Housing Development Partners, cada una con su propia solicitud",
+      "Programa de Prevención de Inestabilidad de Vivienda (HIPP): de $250 a $1,000 al mes para la renta durante hasta 24 meses, por referencia",
+      "Programa de Prevención de Desalojos de la ciudad de San Diego, que opera la Legal Aid Society of San Diego por contrato con SDHC"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 3 de noviembre de 2026). La página Wait List Portal de SDHC dice que SDHC \"closed its Section 8 Housing Choice Voucher and Public Housing waiting lists February 1, 2026, at 11:59 p.m.\" (cerró sus listas de Sección 8 y de vivienda pública el 1 de febrero de 2026 a las 11:59 p.m.) y que \"SDHC is not accepting new waiting list applications at this time\" (no acepta solicitudes nuevas por ahora). Agrega que no está seleccionando familias nuevas de la lista y que \"We do not expect to be able to pull families from the HCV waiting list for several more years\" (no espera poder sacar familias de la lista por varios años más). No da fecha de reapertura."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Cerrada",
+        "note": "Cerrada desde la misma fecha, el 1 de febrero de 2026 a las 11:59 p.m. (verificado el 3 de noviembre de 2026)."
+      },
+      {
+        "program": "Vales basados en proyectos",
+        "status": "Cerrada",
+        "note": "SDHC dice que el cierre del 1 de febrero de 2026 \"includes the waiting list for Project-Based Vouchers\" (incluye la lista de vales basados en proyectos; verificado el 3 de noviembre de 2026)."
+      },
+      {
+        "program": "Programas de referencia de HUD",
+        "status": "Abierta solo por referencia de una agencia",
+        "note": "SDHC mantiene una lista abierta solo para los programas de referencia que exige HUD, y dice que \"are not open to the general public and are only accessible by Community-Based Organization (CBO) referral\" (no están abiertas al público y solo se accede por referencia de una organización comunitaria)."
+      },
+      {
+        "program": "Programa de Prevención de Inestabilidad de Vivienda (HIPP, ayuda con la renta, no es Sección 8)",
+        "status": "Por referencia; fondos limitados",
+        "note": "El HIPP recibe referencias de 2-1-1 San Diego y de la línea de Homelessness Initiatives de SDHC, 619-578-7768. SDHC dice \"Funding is limited. HIPP currently can assist up to 300 households at any given time\" (los fondos son limitados; el HIPP puede atender hasta 300 hogares a la vez; verificado el 3 de noviembre de 2026), y no dice si hay un cupo libre ahora, así que pregunte cuando llame."
+      }
+    ],
+    "also_serving": [
+      "La <strong>Autoridad de Vivienda del Condado de San Diego (HACSD)</strong>, a cargo de Housing and Community Development Services (HCDS) del Condado, es una agencia distinta: código de HUD CA108, tipo de programa Combined, 3989 Ruffin Road, San Diego, CA 92123, (858) 694-4801 (sin costo: (877) 478-5478). Para la Sección 8 atiende a las zonas no incorporadas del condado y a 13 ciudades: Chula Vista, Coronado, Del Mar, El Cajon, Escondido, Imperial Beach, La Mesa, Lemon Grove, Poway, San Marcos, Santee, Solana Beach y Vista. Su página de Sección 8 dice que \"the Section 8 Housing Choice Voucher waitlist closed on February 20, 2026, at 11:59 p.m.\" (la lista cerró el 20 de febrero de 2026 a las 11:59 p.m.; verificado el 3 de noviembre de 2026) y que los nombres se eligen por fecha y hora de solicitud, con una espera posible de \"10 or more years\" (10 años o más).",
+      "<strong>Otras cuatro ciudades tienen sus propios programas</strong>, según la lista de PHAs de California de HUD: Carlsbad Housing and Homeless Services (CA077), (442) 339-2810; Housing Authority of the City of Encinitas (CA155), (760) 633-2723; City of Oceanside (CA132), (760) 435-3360; y la CDC of National City (CA116), (619) 336-4254. No revisamos sus listas de espera para esta página, así que llame o consulte sus sitios.",
+      "<strong>¿Está atrasado con la renta en la ciudad de San Diego?</strong> La Sección 8 no es ayuda de emergencia. Llame al 2-1-1 o a la línea de SDHC, 619-578-7768, para que le refieran al HIPP, y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-san-diego\">guía de ayuda de emergencia con la renta en San Diego</a> para la ayuda de CalWORKs con renta atrasada, el Programa de Prevención de Desalojos gratuito de la ciudad y la Ordenanza de Protección al Inquilino."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de San Diego?",
+        "a": "No. SDHC cerró sus listas de espera de Sección 8 (Housing Choice Voucher) y de vivienda pública el 1 de febrero de 2026 a las 11:59 p.m., incluida la de vales basados en proyectos, y dice que \"SDHC is not accepting new waiting list applications at this time\" (no acepta solicitudes nuevas por ahora; verificado el 3 de noviembre de 2026). SDHC no da fecha de reapertura. La lista de Sección 8 del condado de San Diego, que cubre casi todo el resto del condado, cerró el 20 de febrero de 2026."
+      },
+      {
+        "q": "Ya estoy en la lista de SDHC. ¿Qué pasa ahora?",
+        "a": "Su solicitud sigue activa. SDHC dice: \"If you have already submitted an application, this change does not affect you.\" (Si ya presentó una solicitud, este cambio no le afecta). No tiene que hacer nada, pero puede actualizar sus datos en el SDHC Wait List Portal. Si se registró antes del 5 de diciembre de 2022, debe crear una cuenta nueva en el portal, y SDHC dice que eso no afecta su lugar en la lista. Para preguntas, llame al centro de llamadas de la lista de espera de SDHC, 619-578-7640."
+      },
+      {
+        "q": "¿Cuánto dura la espera de la Sección 8 en San Diego?",
+        "a": "SDHC no da un cálculo. Dice: \"We do not expect to be able to pull families from the HCV waiting list for several more years\" (no esperamos poder sacar familias de la lista por varios años más), y que, hasta que llegue más dinero federal, no puede atender a familias nuevas de la lista ni dar un tiempo de espera estimado. SDHC no publica el tamaño de la lista, así que no confíe en cifras de solicitantes que vea en internet."
+      },
+      {
+        "q": "¿Cuál es la diferencia entre SDHC y la autoridad de vivienda del condado de San Diego?",
+        "a": "SDHC atiende a la ciudad de San Diego. La Autoridad de Vivienda del Condado de San Diego, a cargo de Housing and Community Development Services del Condado, atiende a las zonas no incorporadas del condado y a 13 ciudades, entre ellas Chula Vista, El Cajon, Escondido, La Mesa, Santee y Vista. Carlsbad, Encinitas, Oceanside y National City tienen sus propios programas. Cada una lleva su propia lista, y las listas de Sección 8 de SDHC y del Condado están cerradas."
+      },
+      {
+        "q": "¿SDHC puede ayudarme a pagar la renta ahora?",
+        "a": "Posiblemente, con el HIPP, no con la Sección 8. El Programa de Prevención de Inestabilidad de Vivienda de SDHC paga $250, $500, $750 o $1,000 al mes para la renta durante hasta 24 meses, además de renta y servicios atrasados, a hogares de la ciudad de San Diego con ingresos de hasta el 80% de la mediana del área, que gastan más del 40% de sus ingresos en vivienda y enfrentan una crisis como un desalojo. El estatus migratorio no afecta la elegibilidad. Llame al 2-1-1 o al 619-578-7768 para que le refieran. SDHC dice que el HIPP puede atender hasta 300 hogares a la vez."
+      },
+      {
+        "q": "¿Un arrendador de San Diego puede rechazar mi vale de Sección 8?",
+        "a": "No. SDHC explica que el Concejo Municipal de San Diego agregó la asistencia de alquiler de Sección 8 como fuente de ingresos protegida, con vigencia desde el 1 de agosto de 2019, y la ley de California protege a quienes tienen vales en todo el estado. Los arrendadores aún pueden evaluar a los inquilinos con criterios de alquiler válidos. La línea sobre fuente de ingresos que indica SDHC, a cargo de la Legal Aid Society of San Diego, es el (833) 801-4420."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SDHC - Rental Assistance Wait List Portal (listas cerradas el 1 de febrero de 2026; no selecciona familias; centro de llamadas)",
+        "url": "https://sdhc.org/housing-opportunities/help-with-your-rent/wait-list-portal/"
+      },
+      {
+        "label": "SDHC - Help With Your Rent (más de 16,000 hogares, elegibilidad, capacidad del HIPP, ordenanza de fuente de ingresos)",
+        "url": "https://sdhc.org/housing-opportunities/help-with-your-rent/"
+      },
+      {
+        "label": "SDHC - Housing Instability Prevention Program y Seniors Safe at Home",
+        "url": "https://sdhc.org/homelessness-solutions/hipp/"
+      },
+      {
+        "label": "SDHC - Rent from SDHC (más de 4,100 viviendas de alquiler asequibles)",
+        "url": "https://sdhc.org/housing-opportunities/affordable-rentals/rent-from-sdhc/"
+      },
+      {
+        "label": "SDHC - Contact Us (número principal, dirección, horario)",
+        "url": "https://sdhc.org/about-us/contact-us/"
+      },
+      {
+        "label": "Condado de San Diego, HCDS - Section 8 HCV Overview (lista cerrada el 20 de febrero de 2026)",
+        "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/rental-assistance/section-8-hcv-overview.html"
+      },
+      {
+        "label": "Condado de San Diego, HCDS - Areas Served (13 ciudades y zonas no incorporadas de HACSD)",
+        "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/areas-served.html"
+      },
+      {
+        "label": "Condado de San Diego, HCDS - Contact Us",
+        "url": "https://www.sandiegocounty.gov/content/sdc/sdhcd/about-us/contact.html"
+      },
+      {
+        "label": "HUD - Lista de contactos de PHAs de California (CA063 SDHC; CA108 Condado; CA077, CA155, CA132, CA116)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+      }
+    ]
+  }
+}

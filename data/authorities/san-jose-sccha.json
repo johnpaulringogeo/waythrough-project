@@ -1,0 +1,186 @@
+{
+  "slug": "san-jose-sccha",
+  "kind": "authority",
+  "name": "Santa Clara County Housing Authority (SCCHA)",
+  "schema_name": "Santa Clara County Housing Authority",
+  "short_name": "SCCHA",
+  "title_name": "Santa Clara County Housing Authority",
+  "city": "San Jose",
+  "state": "CA",
+  "serves": "San José and all of Santa Clara County, California",
+  "phone": "(408) 275-8770",
+  "official_url": "https://www.scchousingauthority.org/",
+  "apply_url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/applicant-portal/",
+  "city_slug": "san-jose",
+  "state_slug": "california",
+  "updated": "November 3, 2026",
+  "intro": "The Santa Clara County Housing Authority (SCCHA) runs Section 8 for San José and the rest of Santa Clara County. The County Board of Supervisors created it in 1967 as the Housing Authority of the County of Santa Clara. HUD lists it as PHA CA059 with a program type of Combined, at 505 West Julian Street in San José. San José has no housing authority office of its own. HUD still lists a separate legal agency, the Housing Authority of the City of San Jose (CA056, Section 8 only), but at SCCHA's address and phone number, because SCCHA says it \"has an agreement with the City of San José to administer and manage the Housing Authority of the City of San José (HACSJ)'s Housing Choice Voucher program.\" The two share one set of waiting lists, so you apply once, to SCCHA. SCCHA says more than 19,179 households have a voucher. The short version today: SCCHA does not open and close a list like most authorities. Its online interest lists are open all the time, and when vouchers become available it draws names at random. This page covers SCCHA's exact words, how to stay active, the residency preference, and SCCHA's own apartment buildings, which have separate applications.",
+  "programs": [
+    "Housing Choice Voucher (Section 8) for the County and for the City of San José, under one Moving to Work program since 2008",
+    "Project-Based Vouchers, including units for people referred through the County's Coordinated Entry System",
+    "More than 2,900 affordable apartments SCCHA owns or controls, run by third-party property managers with their own applications",
+    "A handful of remaining public housing units (four, per SCCHA's FY2026 Moving to Work report)",
+    "Family Self-Sufficiency program for voucher households"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8) interest lists",
+      "status": "Open to sign-ups at any time",
+      "note": "Open (checked November 3, 2026). SCCHA's Applicant Portal page says: \"our new online interest lists are open 24 hours a day, 7 days a week.\" Signing up is not the same as being on the waiting list: \"If rental assistance is available, applicants will be chosen randomly and added to the waiting list. Not everyone is guaranteed housing.\" SCCHA's New Applicants page says there are two interest lists you may sign up to and that more than 37,000 people are on them. To stay active, log in to the portal at least once a year."
+    },
+    {
+      "program": "SCCHA-owned apartments",
+      "status": "Varies by property",
+      "note": "These buildings are not part of the voucher program. SCCHA says they are managed by The John Stewart Company and FPI Management, and to contact each property manager directly. On November 3, 2026, SCCHA's site listed two new San José buildings as now leasing, Meridian Family Apartments and Hawthorn Senior (55 and older), with no closing date posted; apply through the property links on SCCHA's Properties page."
+    },
+    {
+      "program": "Public housing",
+      "status": "Closed, per SCCHA's FY2026 report",
+      "note": "SCCHA has only four public housing units left. Its FY2026 Moving to Work report, covering the year that ended June 30, 2026, lists the public housing site-based list as \"Closed\" and not opened during the year. SCCHA's website posts no public housing opening."
+    }
+  ],
+  "also_serving": [
+    "<strong>There is no separate San José housing authority to apply to.</strong> HUD's California list shows the Housing Authority of the City of San Jose (CA056) at 505 West Julian Street with SCCHA's phone, (408) 275-8770, and SCCHA's FY2026 report describes a Moving to Work activity called \"Combined Waiting Lists for the County of Santa Clara and the City of San José.\" One sign-up with SCCHA covers both.",
+    "<strong>City of San José Housing Department:</strong> SCCHA's New Applicants page points to housing.sanjoseca.gov for other affordable apartments, and the Meridian lease-up takes applications through the City's listing. These are income-restricted apartments, not Section 8.",
+    "<strong>If you are homeless</strong>, SCCHA says it receives referrals for its special voucher programs through the County's Coordinated Entry System. SCCHA lists access points including HomeFirst's Homeless Helpline, (408) 510-7600, and the Bill Wilson Center, (408) 243-0222. For rent help and eviction help in the city, see our <a href=\"../cities/san-jose\">San José housing resources</a> page."
+  ],
+  "faqs": [
+    {
+      "q": "Is the San José Section 8 waiting list open?",
+      "a": "You can sign up any time, but it is a random draw, not a line. SCCHA, which runs Section 8 for San José, says \"our new online interest lists are open 24 hours a day, 7 days a week\" (checked November 3, 2026). When rental assistance is available, SCCHA chooses applicants at random from the interest lists and adds them to the waiting list, and it says \"Not everyone is guaranteed housing.\" Sign up at portal.scchousingauthority.org; SCCHA says it takes about three minutes."
+    },
+    {
+      "q": "Does San José have its own housing authority?",
+      "a": "Not one you apply to separately. HUD still lists a Housing Authority of the City of San Jose (CA056), but at SCCHA's address and phone number. SCCHA says it has an agreement with the City of San José to administer and manage that agency's Housing Choice Voucher program, and the County and City share one set of waiting lists. If you live in San José, you apply to SCCHA."
+    },
+    {
+      "q": "Does signing up early help my chances?",
+      "a": "No. SCCHA picks people at random from its interest lists when vouchers become available, so the date you signed up does not move you ahead. What matters is staying active: SCCHA says \"Logging in at least once a year tells us you are still interested in receiving a Housing Choice Voucher.\" Keep your email address and phone current in the portal, because SCCHA sends status updates by email or text."
+    },
+    {
+      "q": "Do I have to live in Santa Clara County to apply?",
+      "a": "No, but locals get a preference. SCCHA says \"You do not have to be a resident of Santa Clara County to apply, although preference will be given to those who have lived or worked in the county within the last five years.\" You must be 18 or older, be legally documented in the U.S., and be under SCCHA's income limits, which as of May 1, 2026 are $71,950 for one person and $102,750 for a household of four."
+    },
+    {
+      "q": "What are SCCHA's office hours and phone number?",
+      "a": "SCCHA's main number is (408) 275-8770, and its TDD line is (408) 993-3041. Both are on every page of its website, and HUD lists the same main number. The lobby at 505 West Julian Street, San José, is open Monday through Thursday from 7:30 a.m. to 4:30 p.m., and every other Friday from 7:30 a.m. to 4 p.m. SCCHA posts its closure dates on its site; the next ones it listed were November 6 and November 11, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "label": "SCCHA - Applicant Portal (online interest lists open 24/7, random selection, preference, income limits, office hours)",
+      "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/applicant-portal/"
+    },
+    {
+      "label": "SCCHA - For New Applicants (two interest lists, 19,179+ voucher households, 37,000+ on the lists, Coordinated Entry)",
+      "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/"
+    },
+    {
+      "label": "SCCHA - Managed Affordable Housing Properties (not part of the voucher program)",
+      "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/properties-list/"
+    },
+    {
+      "label": "SCCHA - Leadership and Mission (Moving to Work, 2,900+ units owned or controlled)",
+      "url": "https://www.scchousingauthority.org/leadership-mission/"
+    },
+    {
+      "label": "SCCHA - Moving to Work FY2026 Annual Report (HACSJ agreement, combined waiting lists, public housing list closed)",
+      "url": "https://www.scchousingauthority.org/wp-content/uploads/2026/10/Moving-to-Work-FY2026-Annual-Report.pdf"
+    },
+    {
+      "label": "SCCHA - Applicant Portal (RentCafe)",
+      "url": "https://portal.scchousingauthority.org/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, California (CA059 SCCHA; CA056 Housing Authority of the City of San Jose)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+    }
+  ],
+  "es": {
+    "title_name": "SCCHA Santa Clara",
+    "serves": "San José y todo el condado de Santa Clara, California",
+    "updated": "3 de noviembre de 2026",
+    "intro": "La Autoridad de Vivienda del Condado de Santa Clara (Santa Clara County Housing Authority, SCCHA) administra la Sección 8 en San José y en el resto del condado de Santa Clara. La Junta de Supervisores del condado la creó en 1967 como Housing Authority of the County of Santa Clara. HUD la registra como la PHA CA059 con el tipo de programa Combined, en 505 West Julian Street, San José. San José no tiene una oficina de autoridad de vivienda propia. HUD todavía registra una agencia legal aparte, la Housing Authority of the City of San Jose (CA056, solo Sección 8), pero con la dirección y el teléfono de SCCHA, porque SCCHA dice que \"has an agreement with the City of San José to administer and manage the Housing Authority of the City of San José (HACSJ)'s Housing Choice Voucher program\" (tiene un acuerdo con la ciudad para administrar el programa de vales de HACSJ). Las dos comparten un solo juego de listas de espera, así que usted se inscribe una sola vez, con SCCHA. SCCHA dice que más de 19,179 hogares tienen un vale. En resumen: SCCHA no abre y cierra una lista como la mayoría de las autoridades. Sus listas de interés en línea están abiertas todo el tiempo y, cuando hay vales disponibles, elige nombres al azar. Esta página reúne las palabras exactas de SCCHA, cómo mantenerse activo, la preferencia por residencia y los edificios propios de SCCHA, que tienen solicitudes aparte.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8) para el condado y para la ciudad de San José, bajo un solo programa Moving to Work desde 2008",
+      "Vales basados en proyectos, que incluyen unidades para personas referidas por el Sistema de Entrada Coordinada (Coordinated Entry System) del condado",
+      "Más de 2,900 apartamentos asequibles que SCCHA posee o controla, administrados por compañías externas con sus propias solicitudes",
+      "Unas pocas unidades de vivienda pública que quedan (cuatro, según el informe Moving to Work del año fiscal 2026 de SCCHA)",
+      "Programa de Autosuficiencia Familiar (Family Self-Sufficiency) para hogares con vale"
+    ],
+    "waitlists": [
+      {
+        "program": "Listas de interés del Housing Choice Voucher (Sección 8)",
+        "status": "Abiertas a inscripciones en todo momento",
+        "note": "Abiertas (verificado el 3 de noviembre de 2026). La página Applicant Portal de SCCHA dice: \"our new online interest lists are open 24 hours a day, 7 days a week\" (nuestras listas de interés en línea están abiertas las 24 horas, los 7 días de la semana). Inscribirse no es lo mismo que estar en la lista de espera: \"If rental assistance is available, applicants will be chosen randomly and added to the waiting list. Not everyone is guaranteed housing.\" (Si hay asistencia disponible, los solicitantes se eligen al azar y se agregan a la lista de espera; no todos tienen la vivienda garantizada). La página New Applicants de SCCHA dice que hay dos listas de interés en las que puede inscribirse y que más de 37,000 personas están en ellas. Para seguir activo, entre al portal al menos una vez al año."
+      },
+      {
+        "program": "Apartamentos propios de SCCHA",
+        "status": "Depende de la propiedad",
+        "note": "Estos edificios no forman parte del programa de vales. SCCHA dice que los administran The John Stewart Company y FPI Management, y que hay que contactar directamente al administrador de cada propiedad. El 3 de noviembre de 2026, el sitio de SCCHA mostraba dos edificios nuevos de San José en alquiler, Meridian Family Apartments y Hawthorn Senior (para personas de 55 años o más), sin fecha de cierre publicada; solicite por los enlaces de cada propiedad en la página Properties de SCCHA."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Cerrada, según el informe del año fiscal 2026 de SCCHA",
+        "note": "A SCCHA solo le quedan cuatro unidades de vivienda pública. Su informe Moving to Work del año fiscal 2026, que cubre el año que terminó el 30 de junio de 2026, muestra la lista de vivienda pública por edificio como \"Closed\" (cerrada) y sin abrir durante el año. El sitio web de SCCHA no publica ninguna apertura de vivienda pública."
+      }
+    ],
+    "also_serving": [
+      "<strong>No hay una autoridad de vivienda de San José aparte a la cual solicitar.</strong> La lista de California de HUD muestra la Housing Authority of the City of San Jose (CA056) en 505 West Julian Street con el teléfono de SCCHA, (408) 275-8770, y el informe del año fiscal 2026 de SCCHA describe una actividad Moving to Work llamada \"Combined Waiting Lists for the County of Santa Clara and the City of San José\" (listas de espera combinadas del condado y de la ciudad). Una sola inscripción con SCCHA cubre ambas.",
+      "<strong>Departamento de Vivienda de la ciudad de San José:</strong> la página New Applicants de SCCHA remite a housing.sanjoseca.gov para otros apartamentos asequibles, y Meridian recibe solicitudes por el anuncio de la ciudad. Son apartamentos con ingresos limitados, no Sección 8.",
+      "<strong>Si no tiene hogar</strong>, SCCHA dice que recibe las referencias para sus programas especiales de vales por medio del Sistema de Entrada Coordinada del condado. SCCHA indica puntos de acceso como la Homeless Helpline de HomeFirst, (408) 510-7600, y el Bill Wilson Center, (408) 243-0222. Para ayuda con la renta y con desalojos en la ciudad, vea nuestra página de <a href=\"../ciudades/san-jose\">recursos de vivienda de San José</a>."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 de San José?",
+        "a": "Puede inscribirse en cualquier momento, pero es un sorteo, no una fila. SCCHA, que administra la Sección 8 en San José, dice que \"our new online interest lists are open 24 hours a day, 7 days a week\" (sus listas de interés en línea están abiertas las 24 horas, los 7 días de la semana; verificado el 3 de noviembre de 2026). Cuando hay asistencia disponible, SCCHA elige solicitantes al azar de las listas de interés y los agrega a la lista de espera, y dice que no todos tienen la vivienda garantizada. Inscríbase en portal.scchousingauthority.org; SCCHA dice que toma unos tres minutos."
+      },
+      {
+        "q": "¿San José tiene su propia autoridad de vivienda?",
+        "a": "No una a la que se solicite por separado. HUD todavía registra una Housing Authority of the City of San Jose (CA056), pero con la dirección y el teléfono de SCCHA. SCCHA dice que tiene un acuerdo con la ciudad de San José para administrar el programa de vales de esa agencia, y el condado y la ciudad comparten un solo juego de listas de espera. Si vive en San José, solicite a SCCHA."
+      },
+      {
+        "q": "¿Inscribirme temprano mejora mis posibilidades?",
+        "a": "No. SCCHA elige al azar de sus listas de interés cuando hay vales disponibles, así que la fecha en que se inscribió no le adelanta. Lo importante es mantenerse activo: SCCHA dice \"Logging in at least once a year tells us you are still interested in receiving a Housing Choice Voucher.\" (Entrar al menos una vez al año nos dice que usted sigue interesado en recibir un vale). Mantenga al día su correo electrónico y su teléfono en el portal, porque SCCHA envía avisos por correo electrónico o mensaje de texto."
+      },
+      {
+        "q": "¿Tengo que vivir en el condado de Santa Clara para solicitar?",
+        "a": "No, pero los residentes tienen preferencia. SCCHA dice: \"You do not have to be a resident of Santa Clara County to apply, although preference will be given to those who have lived or worked in the county within the last five years.\" (No tiene que vivir en el condado para solicitar, aunque se da preferencia a quienes vivieron o trabajaron en el condado en los últimos cinco años). Debe tener 18 años o más, tener documentos legales en EE. UU. y estar por debajo de los límites de ingresos de SCCHA, que desde el 1 de mayo de 2026 son $71,950 para una persona y $102,750 para un hogar de cuatro."
+      },
+      {
+        "q": "¿Cuál es el horario y el teléfono de SCCHA?",
+        "a": "El número principal de SCCHA es el (408) 275-8770, y su línea TDD es el (408) 993-3041. Ambos aparecen en todas las páginas de su sitio web, y HUD da el mismo número principal. El vestíbulo en 505 West Julian Street, San José, abre de lunes a jueves de 7:30 a.m. a 4:30 p.m. y un viernes sí y otro no de 7:30 a.m. a 4 p.m. SCCHA publica sus días de cierre en su sitio; los próximos que mostraba eran el 6 y el 11 de noviembre de 2026."
+      }
+    ],
+    "sources": [
+      {
+        "label": "SCCHA - Applicant Portal (listas de interés abiertas 24/7, selección al azar, preferencia, límites de ingresos, horario)",
+        "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/applicant-portal/"
+      },
+      {
+        "label": "SCCHA - For New Applicants (dos listas de interés, más de 19,179 hogares con vale, más de 37,000 inscritos, Entrada Coordinada)",
+        "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/"
+      },
+      {
+        "label": "SCCHA - Managed Affordable Housing Properties (no forman parte del programa de vales)",
+        "url": "https://www.scchousingauthority.org/section-8/for-participants/for-new-applicants/properties-list/"
+      },
+      {
+        "label": "SCCHA - Leadership and Mission (Moving to Work, más de 2,900 unidades propias o controladas)",
+        "url": "https://www.scchousingauthority.org/leadership-mission/"
+      },
+      {
+        "label": "SCCHA - Informe anual Moving to Work del año fiscal 2026 (acuerdo con HACSJ, listas combinadas, lista de vivienda pública cerrada)",
+        "url": "https://www.scchousingauthority.org/wp-content/uploads/2026/10/Moving-to-Work-FY2026-Annual-Report.pdf"
+      },
+      {
+        "label": "SCCHA - Portal de solicitantes (RentCafe)",
+        "url": "https://portal.scchousingauthority.org/"
+      },
+      {
+        "label": "HUD - Lista de contactos de PHAs de California (CA059 SCCHA; CA056 Housing Authority of the City of San Jose)",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_CA.pdf"
+      }
+    ]
+  }
+}
