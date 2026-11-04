@@ -939,7 +939,7 @@
   },
   {
     "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
-    "description": "Browse all 92 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 94 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
@@ -3473,7 +3473,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 92 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 94 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4347,6 +4347,20 @@
     "body": "Emergency Rent & Eviction Help in Columbus | Waythrough Home / Resources / Emergency Rent Help in Columbus How-To Guide Emergency Rent Help in Columbus: Free Eviction Lawyers, PRC, 211, and Ohio's 3-Day Notice Matt · Updated November 2026 If you rent in Columbus or anywhere in Franklin County and yo"
   },
   {
+    "title": "Lump Sums, Trusts and Back Pay in HUD Housing | Waythrough",
+    "description": "How inheritances, settlements, SSI back pay, and trust payments count for Section 8 and public housing under HUD's HOTMA rules, plus the 2027 asset limit.",
+    "url": "/resources/guides/lump-sums-trusts-and-housing-income",
+    "category": "Guide",
+    "body": "Lump Sums, Trusts and Back Pay in HUD Housing | Waythrough Home / Resources / Lump Sums, Trusts, and Housing Income How-To Guide Lump Sums, Trusts, and One-Time Payments: How They Count for Section 8 and Public Housing Matt · Updated November 2026 If you have Section 8 or live in public housing and "
+  },
+  {
+    "title": "TBRA Rental Assistance: What to Do When It Ends | Waythrough",
+    "description": "TBRA is short-term rent help paid with HUD HOME funds. See how it works, how it differs from Section 8, and what to do if your TBRA ends early or soon.",
+    "url": "/resources/guides/tenant-based-rental-assistance-tbra",
+    "category": "Guide",
+    "body": "TBRA Rental Assistance: What to Do When It Ends | Waythrough Home / Resources / Tenant-Based Rental Assistance (TBRA) How-To Guide TBRA (Tenant-Based Rental Assistance): What It Is and What to Do When It Ends Matt · Updated November 2026 TBRA stands for tenant-based rental assistance . It is rent he"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4975,5 +4989,19 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-columbus",
     "category": "Guías",
     "body": "Si usted alquila en Columbus o en cualquier parte del Condado de Franklin y se atrasó con la renta, esta es la situación real. No hay un fondo de renta abierto para todos de la Ciudad ni del Condado en este momento. El dinero de la pandemia se acabó; la Columbus Urban League dice que \"emergency hous"
+  },
+  {
+    "title": "TBRA: qué hacer si termina su ayuda de renta | Waythrough",
+    "description": "La TBRA es ayuda de renta a corto plazo pagada con fondos HOME de HUD. Vea cómo funciona, en qué se diferencia de la Sección 8 y qué hacer si termina.",
+    "url": "/es/recursos/guias/asistencia-renta-basada-inquilino-tbra",
+    "category": "Guías",
+    "body": "TBRA son las siglas en inglés de asistencia de renta basada en el inquilino (tenant-based rental assistance). Es una ayuda para pagar la renta que se paga con dinero federal del programa HOME de HUD. La administra una ciudad, un condado o un estado, muchas veces a través de una organización sin fine"
+  },
+  {
+    "title": "Herencias, fideicomisos y pagos únicos en HUD | Waythrough",
+    "description": "Cómo cuentan las herencias, los acuerdos, los pagos atrasados de SSI y los fideicomisos en la Sección 8 y la vivienda pública con HOTMA, y el límite de 2027.",
+    "url": "/es/recursos/guias/sumas-globales-fideicomisos-ingresos-vivienda",
+    "category": "Guías",
+    "body": "Si tiene la Sección 8 o vive en vivienda pública y recibe una herencia, un acuerdo de indemnización, pagos atrasados del Seguro Social o dinero de un fideicomiso familiar, es normal que le preocupe su renta o su vivienda. La mayor parte del dinero que se recibe una sola vez no cuenta como ingreso. P"
   }
 ]
