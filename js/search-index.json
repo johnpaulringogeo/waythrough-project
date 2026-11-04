@@ -638,7 +638,7 @@
   },
   {
     "title": "Kansas City, MO Section 8 & Rent Help 2026 | Waythrough",
-    "description": "Kansas City MO 2026: HAKC posts no waitlist status; 3822 Summit St, (816) 968-4100. KC Tenants Bill of Rights, KC Eviction Defense Project, reStart shelter.",
+    "description": "Kansas City MO 2026: HAKC posts no waitlist status; 3822 Summit St, (816) 968-4100. KC Tenants Bill of Rights, free Right to Counsel lawyers, reStart.",
     "url": "/resources/cities/kansas-city",
     "category": "City",
     "body": "Kansas City, MO Section 8 & Rent Help 2026 | Waythrough Home / Resources / Kansas City Housing City Resources Affordable Housing in Kansas City, MO Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Kansas City, Misso"
@@ -931,11 +931,11 @@
     "body": "Housing Terms & Acronyms — Waythrough Project Home / Resources / Housing Terms & Acronyms Reference Housing Terms & Acronyms The housing system uses a lot of specialized terms and acronyms. This glossary is here to help you understand what they mean in plain language. Use it whenever you encounter u"
   },
   {
-    "title": "Housing Guides: Section 8, Vouchers & Tenant Rights | Waythrough",
-    "description": "Browse all 88 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
+    "description": "Browse all 90 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
-    "body": "Housing Guides: Section 8, Vouchers & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling e"
+    "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
   },
   {
     "title": "Budgeting When Money Is Tight — Waythrough Project",
@@ -2668,7 +2668,7 @@
   },
   {
     "title": "Sección 8 y ayuda con renta en Kansas City, MO | Waythrough",
-    "description": "Kansas City MO 2026: HAKC no publica el estado de sus listas; 3822 Summit St, (816) 968-4100. Derechos de Inquilinos de KC, KC Eviction Defense Project.",
+    "description": "Kansas City MO 2026: HAKC no publica el estado de sus listas; 3822 Summit St, (816) 968-4100. Derechos de Inquilinos de KC, Right to Counsel gratis.",
     "url": "/es/recursos/ciudades/kansas-city",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Kansas City, Missouri y el Condado de Jackson — no consejos genéricos sobre Sección 8. Dos cosas para saber: HAKC no publica si alguna de sus listas de espera está abierta o cerrada (recibe una sola"
@@ -2699,7 +2699,7 @@
     "description": "Louisville KY 2026: LMHA cerrada, (502) 584-1704. Right to Counsel desde 2021, ayuda con la renta vía Stop My Eviction, refugio Wayside, aviso de 7 días.",
     "url": "/es/recursos/ciudades/louisville",
     "category": "Recursos de Ciudades",
-    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Louisville y el Condado de Jefferson — no consejos genéricos sobre Sección 8. La mayor ventaja local de Louisville: en abril de 2021, Louisville se convirtió en la primera ciudad del Sur y la novena"
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Louisville y el Condado de Jefferson — no consejos genéricos sobre Sección 8. La mayor ventaja local de Louisville: en abril de 2021, Louisville Metro aprobó una ley de Right to Counsel (sección 151"
   },
   {
     "title": "Ayuda con la renta y Sección 8 en Memphis, TN | Waythrough",
@@ -3466,7 +3466,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 88 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 90 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4312,6 +4312,20 @@
     "body": "Tucson HCD Section 8 Waitlist & How to Apply | Waythrough Home / Resources / Housing Authorities / HCD Housing Authority City of Tucson Housing and Community Development (HCD) Serves the City of Tucson and Pima County, Arizona · Last checked November 3, 2026 Waythrough is an independent resource, no"
   },
   {
+    "title": "Emergency Rent & Eviction Help in Kansas City | Waythrough",
+    "description": "Kansas City, MO rent and eviction help, door by door: free Right to Counsel lawyers, United Way 211, Metro Lutheran's monthly form, and Missouri's fast clock.",
+    "url": "/resources/guides/emergency-rent-help-kansas-city",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Kansas City | Waythrough Home / Resources / Emergency Rent Help in Kansas City How-To Guide Emergency Rent Help in Kansas City, Missouri: Free Eviction Lawyers, 211, and Missouri's Rent-and-Possession Clock Matt · Updated November 2026 If you rent in Kansas City, Mi"
+  },
+  {
+    "title": "Emergency Rent & Eviction Help in Louisville | Waythrough",
+    "description": "Louisville rent and eviction help, door by door: Metro's Housing Stabilization Program, Legal Aid's free eviction lawyers, 211, and Kentucky's 7-day clock.",
+    "url": "/resources/guides/emergency-rent-help-louisville",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Louisville | Waythrough Home / Resources / Emergency Rent Help in Louisville How-To Guide Emergency Rent Help in Louisville: Metro Rent Programs, Free Eviction Lawyers, and Kentucky's 7-Day Clock Matt · Updated November 2026 If you rent in Louisville or anywhere in "
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4912,5 +4926,19 @@
     "url": "/es/recursos/autoridades-de-vivienda/tucson-hcd",
     "category": "Guías",
     "body": "Inicio / Recursos / Autoridades de Vivienda / HCD Autoridad de Vivienda Departamento de Vivienda y Desarrollo Comunitario de la Ciudad de Tucson (HCD) Sirve a la ciudad de Tucson y el condado de Pima, Arizona · Última verificación: 3 de noviembre de 2026 Waythrough es un recurso independiente, no es"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Kansas City | Waythrough",
+    "description": "Renta y desalojo en Kansas City, Misuri: abogados gratis de Right to Counsel, el 211, la solicitud mensual de Metro Lutheran y los plazos rápidos de Misuri.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-kansas-city",
+    "category": "Guías",
+    "body": "Si usted alquila en Kansas City, Misuri, y se atrasó con la renta, esta es la situación real. En kcmo.gov no encontramos ningún fondo de renta abierto de la Ciudad de Kansas City . Lo que sí tiene la Ciudad es un programa de Right to Counsel (derecho a un abogado): desde el 1 de junio de 2022, los i"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Louisville | Waythrough",
+    "description": "Renta y desalojo en Louisville: el programa Housing Stabilization de Metro, abogados gratis de Legal Aid, el 211 y el plazo de 7 días de Kentucky, explicados.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-louisville",
+    "category": "Guías",
+    "body": "Si usted alquila en Louisville o en cualquier parte del Condado de Jefferson y se atrasó con la renta, esta es la situación real. Los fondos de renta de la pandemia terminaron, pero Louisville Metro todavía tiene dos programas pequeños de ayuda con la renta por medio de su Oficina de Servicios Socia"
   }
 ]
