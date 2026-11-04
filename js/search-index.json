@@ -568,10 +568,10 @@
   },
   {
     "title": "Columbus, OH Section 8 Waiting List & Rent Help | Waythrough",
-    "description": "Columbus OH 2026: CMHA runs a continuous Section 8 lottery pool (register at cmhanet.com). IMPACT eviction prevention, Franklin County PRC, YWCA shelter.",
+    "description": "Columbus OH 2026: CMHA runs a continuous Section 8 lottery pool (register at cmhanet.com). Franklin County PRC, free eviction lawyers, Pay to Stay, YWCA.",
     "url": "/resources/cities/columbus",
     "category": "City",
-    "body": "Columbus, OH Section 8 Waiting List & Rent Help | Waythrough Home / Resources / Columbus Housing City Resources Affordable Housing in Columbus, OH Waythrough Project · Updated September 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Columbus and Frank"
+    "body": "Columbus, OH Section 8 Waiting List & Rent Help | Waythrough Home / Resources / Columbus Housing City Resources Affordable Housing in Columbus, OH Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Columbus and Frankl"
   },
   {
     "title": "Dallas, TX Section 8 & Rent Help 2026 | Waythrough",
@@ -932,7 +932,7 @@
   },
   {
     "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
-    "description": "Browse all 90 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 92 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
@@ -2598,7 +2598,7 @@
   },
   {
     "title": "Lista de espera de Sección 8 en Columbus, OH | Waythrough",
-    "description": "Columbus OH 2026: CMHA tiene un grupo de lotería continuo de Sección 8 (cmhanet.com). IMPACT contra desalojos, PRC del Condado de Franklin, YWCA.",
+    "description": "Columbus OH 2026: CMHA tiene un grupo de lotería continuo de Sección 8 (cmhanet.com). PRC del Condado de Franklin, abogados gratis, Pay to Stay, YWCA.",
     "url": "/es/recursos/ciudades/columbus",
     "category": "Recursos de Ciudades",
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Columbus y el Condado de Franklin — no consejos genéricos sobre Sección 8. Dos cosas se destacan en Columbus ahora mismo: CMHA maneja un grupo de lotería continuo en lugar de una lista de espera que"
@@ -3466,7 +3466,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 90 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 92 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4326,6 +4326,20 @@
     "body": "Emergency Rent & Eviction Help in Louisville | Waythrough Home / Resources / Emergency Rent Help in Louisville How-To Guide Emergency Rent Help in Louisville: Metro Rent Programs, Free Eviction Lawyers, and Kentucky's 7-Day Clock Matt · Updated November 2026 If you rent in Louisville or anywhere in "
   },
   {
+    "title": "Emergency Rent & Eviction Help in Cleveland | Waythrough",
+    "description": "Cleveland rent and eviction help, door by door: Cuyahoga PRC, CHN, 211, free Right to Counsel lawyers, Pay to Stay, Step Forward HEAP and Ohio's 3-day notice.",
+    "url": "/resources/guides/emergency-rent-help-cleveland",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Cleveland | Waythrough Home / Resources / Emergency Rent Help in Cleveland How-To Guide Emergency Rent Help in Cleveland: Free Eviction Lawyers, PRC, 211, and Ohio's 3-Day Notice Matt · Updated November 2026 If you rent in Cleveland or anywhere in Cuyahoga County an"
+  },
+  {
+    "title": "Emergency Rent & Eviction Help in Columbus | Waythrough",
+    "description": "Columbus rent and eviction help, door by door: Franklin County PRC, 211, free lawyers at eviction court, Pay to Stay, IMPACT HEAP and Ohio's 3-day notice.",
+    "url": "/resources/guides/emergency-rent-help-columbus",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Columbus | Waythrough Home / Resources / Emergency Rent Help in Columbus How-To Guide Emergency Rent Help in Columbus: Free Eviction Lawyers, PRC, 211, and Ohio's 3-Day Notice Matt · Updated November 2026 If you rent in Columbus or anywhere in Franklin County and yo"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -4940,5 +4954,19 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-louisville",
     "category": "Guías",
     "body": "Si usted alquila en Louisville o en cualquier parte del Condado de Jefferson y se atrasó con la renta, esta es la situación real. Los fondos de renta de la pandemia terminaron, pero Louisville Metro todavía tiene dos programas pequeños de ayuda con la renta por medio de su Oficina de Servicios Socia"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Cleveland | Waythrough",
+    "description": "Ayuda con la renta y el desalojo en Cleveland: PRC del condado, CHN, el 211, abogados gratis de Right to Counsel, Pay to Stay y el aviso de 3 días de Ohio.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-cleveland",
+    "category": "Guías",
+    "body": "Si usted alquila en Cleveland o en cualquier parte del Condado de Cuyahoga y se atrasó con la renta, esta es la situación real. No hay un fondo de renta abierto para todos de la Ciudad de Cleveland ni del Condado de Cuyahoga en este momento: los programas de renta de la pandemia terminaron, y el 4 d"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Columbus | Waythrough",
+    "description": "Ayuda con la renta y el desalojo en Columbus: PRC del Condado de Franklin, el 211, abogados gratis en la corte de desalojos, Pay to Stay y el aviso de 3 días.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-columbus",
+    "category": "Guías",
+    "body": "Si usted alquila en Columbus o en cualquier parte del Condado de Franklin y se atrasó con la renta, esta es la situación real. No hay un fondo de renta abierto para todos de la Ciudad ni del Condado en este momento. El dinero de la pandemia se acabó; la Columbus Urban League dice que \"emergency hous"
   }
 ]
