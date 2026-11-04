@@ -477,7 +477,7 @@
 
                     <p>Fair Market Rents (FMRs) are set by HUD every year for every metropolitan area and county in the U.S. They represent the 40th percentile of gross rents for typical, non-substandard rental units — meaning 40% of the area's standard rentals are at or below this price.</p>
 
-                    <p>FMRs matter because they're used to determine payment standards for the Housing Choice Voucher (Section 8) program. Your local Public Housing Authority (PHA) typically sets its voucher payment between 90% and 110% of the FMR. If you find an apartment at or below the payment standard, your voucher covers the difference between 30% of your income and the rent.</p>
+                    <p>FMRs matter because they're used to determine payment standards for the Housing Choice Voucher (Section 8) program. Your local Public Housing Authority (PHA) typically sets its voucher payment between 90% and 110% of the FMR. If the gross rent (rent plus your PHA's utility allowance) is at or below the payment standard, your voucher generally covers the difference between your share and the gross rent. Your share, called the Total Tenant Payment, is usually 30% of your adjusted income (your income after HUD's deductions), but it is the highest of that, 10% of your gross income, or your PHA's minimum rent. <a href="../guides/understanding-rent-calculation">See how voucher rent is calculated</a>.</p>
 
                     <h2>What Are Income Limits?</h2>
 
@@ -782,7 +782,7 @@
             html += '<div class="results-section">';
             html += '<div class="results-section-header">';
             html += '<h3>Fair Market Rents (Monthly)</h3>';
-            html += '<p>These are the maximum rents HUD uses for voucher payment standards in your area. The third column shows the annual income you\'d need to afford that rent without spending more than 30% of your income on housing.</p>';
+            html += '<p>These are the rents HUD uses as the basis for voucher payment standards in your area. The third column shows the yearly gross income you\'d need to afford that rent without spending more than 30% of your income on housing. That is a common budgeting rule, not your voucher rent: with a voucher, your share is based on your adjusted income and the payment standard.</p>';
             html += '</div>';
             html += '<table class="results-table" role="table">';
             html += '<thead><tr><th scope="col">Unit Size</th><th scope="col">Fair Market Rent</th><th scope="col">Income to Afford This Rent</th></tr></thead>';
@@ -874,7 +874,7 @@
             html += '<div class="context-cards">';
             html += '<div class="context-card"><h4>What does this mean for me?</h4><p>If your income falls below the "Very Low" limit for your household size, you likely qualify for Section 8 and public housing. Below "Extremely Low" means you\'re prioritized for assistance. <a href="../guides/how-to-apply-section-8">Learn how to apply</a>.</p></div>';
             html += '<div class="context-card"><h4>About Fair Market Rents</h4><p>FMRs are the basis for voucher payment amounts. Your PHA may set its payment standard between 90–110% of the FMR. <a href="../guides/how-to-find-your-pha">Find your local PHA</a> for exact amounts.</p></div>';
-            html += '<div class="context-card"><h4>30% of Income Rule</h4><p>With a housing voucher, you pay about 30% of your adjusted gross income toward rent. The voucher covers the rest, up to the payment standard. <a href="../guides/budgeting-when-money-is-tight">Budgeting help</a>.</p></div>';
+            html += '<div class="context-card"><h4>30% of Income Rule</h4><p>With a housing voucher, your share is usually about 30% of your adjusted income: your income after HUD\'s deductions for dependents, elderly or disabled families, and some medical and childcare costs. It can\'t be less than 10% of your gross income or your PHA\'s minimum rent (up to $50; you can ask for a hardship exemption). The voucher covers the rest, up to the payment standard. <a href="../guides/understanding-rent-calculation">How your rent is calculated</a> &middot; <a href="../guides/budgeting-when-money-is-tight">Budgeting help</a>.</p></div>';
             html += '</div>';
 
             html += '<p style="margin-top: 2rem; font-size: 0.85rem; color: var(--color-text-muted);"><em>Data from the <a href="https://www.huduser.gov/portal/dataset/fmr-api.html" style="color: inherit; text-decoration: underline;">HUD Datasets API</a>. Updated annually by the U.S. Department of Housing and Urban Development. Actual eligibility is determined by your local PHA and may differ.</em></p>';
