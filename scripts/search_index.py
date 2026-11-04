@@ -66,6 +66,8 @@ SECTIONS = (
     ("/resources/housing-authorities/", "Guide", "document", True),
     ("/es/recursos/guias/", "Guías", "main", True),
     ("/es/recursos/autoridades-de-vivienda/", "Guías", "main", True),
+    ("/resources/questions/", "Guide", "document", True),         # 2026-11-04: generated like authority pages
+    ("/es/recursos/preguntas/", "Guías", "main", True),
     ("/resources/cities/", "City", "document", False),
     ("/es/recursos/ciudades/", "Recursos de Ciudades", "main", True),
 )
