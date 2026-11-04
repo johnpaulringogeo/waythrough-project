@@ -5,9 +5,11 @@ Usage (repo root):
     python scripts/add_hub_cards.py cards.tsv
 
 cards.tsv: one card per line, tab-separated:
-    en_slug  en_title  en_desc  es_slug  es_title  es_desc
-Cards go at the end of the "Emergency & Crisis" / "Emergencia" section of each hub (after the
-last card before the next <h2>), skipping any slug already on the hub. The count in the three
+    en_slug  en_title  en_desc  es_slug  es_title  es_desc  [en_hub_section]
+Cards go at the end of a hub section (after the last card before the next <h2>), skipping any
+slug already on the hub. The optional 7th column names the EN section heading (e.g. "Section 8 &
+Vouchers"); the ES card goes in the matching ES section (SECTIONS below). Without it, cards go
+in "Emergency & Crisis" / the ES section holding the rent-help cards, as before. The count in the three
 meta lines is then set to the number of cards on the page. Content sessions no longer edit the
 hubs; parallel edits there kept colliding, so the PM adds cards after merging.
 """
@@ -16,6 +18,15 @@ import html, re, sys
 HUBS = {
     'en': ('resources/guides/index.html', 'Emergency & Crisis', r'(\d+) free housing guides'),
     'es': ('es/recursos/guias/index.html', None, r'(\d+) guías gratuitas'),
+}
+
+# EN hub heading -> ES hub heading (both hubs list the same sections in the same order)
+SECTIONS = {
+    'Section 8 & Vouchers': 'Sección 8 y Cupones de Vivienda',
+    'Other Housing Programs': 'Otros Programas de Vivienda',
+    'Emergency & Crisis': 'Emergencia y Crisis',
+    'Tenant Rights & Legal': 'Derechos del Inquilino y Legal',
+    'Benefits & Financial': 'Beneficios y Finanzas',
 }
 
 def card(slug, title, desc):
@@ -53,15 +64,20 @@ def insert(path, section_h2, count_re, cards):
     open(path, 'wb').write((s.replace('\n', '\r\n') if crlf else s).encode('utf-8'))
 
 def main():
-    en, es = [], []
-    for line in open(sys.argv[1], encoding='utf-8'):
-        if not line.strip():
-            continue
-        f = line.rstrip('\n').split('\t')
-        assert len(f) == 6, line
-        en.append(tuple(f[0:3])); es.append(tuple(f[3:6]))
-    insert(*HUBS['en'], en)
-    insert(*HUBS['es'], es)
+    groups = {}  # EN section heading (None = default) -> (en cards, es cards)
+    for path in sys.argv[1:]:
+        for line in open(path, encoding='utf-8'):
+            if not line.strip():
+                continue
+            f = line.rstrip('\r\n').split('\t')
+            assert len(f) in (6, 7), line
+            sec = f[6].strip() if len(f) == 7 else None
+            assert sec is None or sec in SECTIONS, 'unknown hub section: %r' % sec
+            en, es = groups.setdefault(sec, ([], []))
+            en.append(tuple(f[0:3])); es.append(tuple(f[3:6]))
+    for sec, (en, es) in groups.items():
+        insert(HUBS['en'][0], sec or HUBS['en'][1], HUBS['en'][2], en)
+        insert(HUBS['es'][0], SECTIONS[sec] if sec else None, HUBS['es'][2], es)
 
 if __name__ == '__main__':
     main()
