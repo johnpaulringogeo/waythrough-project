@@ -37,3 +37,4 @@ __pycache__/
 .claude/
 _auth_cards.tsv
 questions/
+_hub_cards.tsv
