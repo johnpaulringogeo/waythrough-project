@@ -939,7 +939,7 @@
   },
   {
     "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
-    "description": "Browse all 94 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 96 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
@@ -1222,7 +1222,7 @@
     "description": "Understand what counts as poor rental history, what landlords check, your rights, and practical strategies for getting approved despite past housing issues.",
     "url": "/resources/guides/renting-with-poor-rental-history",
     "category": "Guide",
-    "body": "Renting with Poor Rental History — Waythrough Project Home / Resources / Renting with Poor Rental History GUIDE Renting with Poor Rental History Matt · 11 min read Your rental history is one of the first things a landlord checks. But \"poor rental history\" means different things to different landlord"
+    "body": "Renting with Poor Rental History — Waythrough Project Home / Resources / Renting with Poor Rental History GUIDE Renting with Poor Rental History Matt · Updated November 2026 · 12 min read Your rental history is one of the first things a landlord checks. But \"poor rental history\" means different thin"
   },
   {
     "title": "Section 8 Income Limits 2026: The 50% Rule by Household Size",
@@ -3266,7 +3266,7 @@
     "description": "Entiende qué cuenta como mal historial de alquiler, qué verifican los propietarios, tus derechos y estrategias prácticas para ser aprobado a pesar de problemas pasados.",
     "url": "/es/recursos/guias/alquilar-con-mal-historial",
     "category": "Guías",
-    "body": "Inicio / Recursos / Alquilar con Mal Historial de Alquiler Guía Alquilar con Mal Historial de Alquiler 11 min de lectura Tu historial de alquiler es una de las primeras cosas que un propietario verifica. Pero \"mal historial de alquiler\" significa cosas diferentes para diferentes propietarios, y lo q"
+    "body": "Inicio / Recursos / Alquilar con Mal Historial de Alquiler Guía Alquilar con Mal Historial de Alquiler Actualizado noviembre 2026 · 12 min de lectura Tu historial de alquiler es una de las primeras cosas que un propietario verifica. Pero \"mal historial de alquiler\" significa cosas diferentes para di"
   },
   {
     "title": "Antecedentes Penales y Vivienda: Lo Que Necesitas Saber",
@@ -3473,7 +3473,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 94 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 96 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4494,6 +4494,83 @@
     "body": "Section 8 Extension Denied With a Disability? | Waythrough Home / Resources / Reader Questions / Extension denied Reader Question My housing authority won't extend my voucher, even as a disability accommodation. What can I do? Asked June 2026 · Answered by Matt · Updated November 4, 2026 The questio"
   },
   {
+    "title": "Help With Move-In Costs and Security Deposits | Waythrough",
+    "description": "Where to get help with a security deposit, first month's rent, and application fees: 211, rapid rehousing, ESG, HOME, SSVF, TANF, and housing authorities.",
+    "url": "/resources/guides/help-with-move-in-costs",
+    "category": "Guide",
+    "body": "Help With Move-In Costs and Security Deposits | Waythrough Home / Resources / Help With Move-In Costs How-To Guide Help With Move-In Costs: Security Deposits, First Month's Rent, and Application Fees Matt · Updated November 2026 Getting into a new place often costs more than staying in an old one. A"
+  },
+  {
+    "title": "Rental Scams: How to Spot a Fake Landlord | Waythrough",
+    "description": "Spot rental scams before you pay: red flags, how to check who owns a property, fake Section 8 waitlists, and what to do if you lost money to a fake landlord.",
+    "url": "/resources/guides/rental-scams",
+    "category": "Guide",
+    "body": "Rental Scams: How to Spot a Fake Landlord | Waythrough Home / Resources / Rental Scams and Fake Landlords How-To Guide Rental Scams and Fake Landlords: How to Spot Them and What to Do If You Paid Matt · Updated November 2026 Rental scams cost people their savings at the worst possible time: when the"
+  },
+  {
+    "title": "Landlord Won't Fix a Broken Fridge or Oven? | Waythrough",
+    "description": "If your landlord supplied the fridge and stove, they must work. What a Section 8 inspection requires, what about the dishwasher, and how to get repairs made.",
+    "url": "/resources/questions/broken-appliances-not-repaired",
+    "category": "Guide",
+    "body": "Landlord Won't Fix a Broken Fridge or Oven? | Waythrough Home / Resources / Reader Questions / Broken appliances Reader Question My landlord won't fix my broken fridge, oven and dishwasher. What can I do? Asked September 2026 · Answered by Matt · Updated November 4, 2026 The question “I have three r"
+  },
+  {
+    "title": "Eviction on Your Record After Moving Out? | Waythrough",
+    "description": "Moved out by the date you agreed and still have an eviction on your record? How to get the case dismissed or sealed and dispute tenant screening reports.",
+    "url": "/resources/questions/eviction-on-record-after-moving-out",
+    "category": "Guide",
+    "body": "Eviction on Your Record After Moving Out? | Waythrough Home / Resources / Reader Questions / Eviction on record Reader Question We moved out by the agreed date, but the eviction is still on our record. What can I do? Asked June 2026 · Answered by Matt · Updated November 4, 2026 The question “During "
+  },
+  {
+    "title": "Section 8 Late Fees When Rent Isn't Late? | Waythrough",
+    "description": "A landlord can charge a late fee only if your lease allows it and your share was actually late. How to check the ledger and stop wrong Section 8 late fees.",
+    "url": "/resources/questions/late-fees-when-rent-is-not-late",
+    "category": "Guide",
+    "body": "Section 8 Late Fees When Rent Isn't Late? | Waythrough Home / Resources / Reader Questions / Late fees Reader Question My Section 8 landlord charges a late fee every month, but I pay on time. Is that allowed? Asked August 2026 · Answered by Matt · Updated November 4, 2026 The question “My Section 8 "
+  },
+  {
+    "title": "Leaky Roof and Mold Your Landlord Won't Fix? | Waythrough",
+    "description": "A leaking roof and mold make a home unsafe. How to use code enforcement and a Section 8 inspection to get repairs, and why not to withhold rent alone.",
+    "url": "/resources/questions/leaky-roof-mold-repairs-ignored",
+    "category": "Guide",
+    "body": "Leaky Roof and Mold Your Landlord Won't Fix? | Waythrough Home / Resources / Reader Questions / Leaky roof and mold Reader Question My roof has leaked for years and now there's mold. What can I do? Asked August 2026 · Answered by Matt · Updated November 4, 2026 The question “My roof has leaked for m"
+  },
+  {
+    "title": "Locked Out After Reporting Mold or Mice? | Waythrough",
+    "description": "Locking you out for reporting repairs is illegal in most states. How to protect your Section 8 voucher, ask for a hearing, and report fraud to HUD.",
+    "url": "/resources/questions/locked-out-after-reporting-mold",
+    "category": "Guide",
+    "body": "Locked Out After Reporting Mold or Mice? | Waythrough Home / Resources / Reader Questions / Lockout after reporting Reader Question I was locked out after reporting mold and mice, and now my voucher is threatened. What can I do? Asked October 2026 · Answered by Matt · Updated November 4, 2026 The qu"
+  },
+  {
+    "title": "Locked Out but Landlord Kept Section 8 Pay? | Waythrough",
+    "description": "A Section 8 landlord can't lock you out or keep housing payments after you leave. How to get payments stopped, report fraud and keep your voucher.",
+    "url": "/resources/questions/locked-out-landlord-kept-voucher-payments",
+    "category": "Guide",
+    "body": "Locked Out but Landlord Kept Section 8 Pay? | Waythrough Home / Resources / Reader Questions / Locked out, still paid Reader Question My landlord locked me out but kept collecting Section 8 payments. What can I do? Asked October 2026 · Answered by Matt · Updated November 4, 2026 The question “My lan"
+  },
+  {
+    "title": "Locked Out Because You're Not on the Lease? | Waythrough",
+    "description": "In almost every state, no one can lock you out without a court order, even if you're not on the lease. What to do today and how to get your things back.",
+    "url": "/resources/questions/locked-out-not-on-lease",
+    "category": "Guide",
+    "body": "Locked Out Because You're Not on the Lease? | Waythrough Home / Resources / Reader Questions / Not on the lease Reader Question I was locked out with my child because I'm not on the lease. Is that legal? Asked August 2026 · Answered by Matt · Updated November 4, 2026 The question “They put me and my"
+  },
+  {
+    "title": "Lost Your Apartment and Things While in Jail? | Waythrough",
+    "description": "A landlord usually can't end your lease or throw out your things without following state law. What to do now, abandoned-property rules, and deadlines.",
+    "url": "/resources/questions/lost-home-and-belongings-while-in-jail",
+    "category": "Guide",
+    "body": "Lost Your Apartment and Things While in Jail? | Waythrough Home / Resources / Reader Questions / Lost home in jail Reader Question I lost my apartment and my belongings while I was in jail. What can I do? Asked September 2026 · Answered by Matt · Updated November 4, 2026 The question “While I was in"
+  },
+  {
+    "title": "No Heat in Your Apartment? Who to Call | Waythrough",
+    "description": "No heat is an emergency repair. How HUD inspection rules rate broken heat and outdoor lights, who to call today, and how neighbors can report it together.",
+    "url": "/resources/questions/no-heat-no-outdoor-lighting",
+    "category": "Guide",
+    "body": "No Heat in Your Apartment? Who to Call | Waythrough Home / Resources / Reader Questions / No heat or lighting Reader Question Our landlord won't turn on the heat or fix the outdoor lights. What can we do? Asked November 2026 · Answered by Matt · Updated November 4, 2026 The question “Our landlord an"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -5269,5 +5346,82 @@
     "url": "/es/recursos/preguntas/violencia-domestica-fuera-de-lista-de-espera",
     "category": "Guías",
     "body": "Inicio / Recursos / Preguntas de lectores / Abuso y fuera de la lista Pregunta de un lector Estoy huyendo de la violencia doméstica y me sacaron de la lista de Sección 8. ¿Qué puedo hacer? Pregunta de octubre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Estoy en"
+  },
+  {
+    "title": "Ayuda con el depósito y los costos de mudanza | Waythrough",
+    "description": "Dónde pedir ayuda con el depósito, el primer mes de renta y la cuota de solicitud: el 211, realojamiento rápido, ESG, HOME, SSVF, TANF y su PHA.",
+    "url": "/es/recursos/guias/ayuda-con-costos-de-mudanza",
+    "category": "Guías",
+    "body": "Mudarse a un lugar nuevo suele costar más que quedarse donde está. El arrendador puede pedir un depósito de seguridad , el primer mes de renta , a veces el último mes y una cuota de solicitud , todo antes de entregarle las llaves. Es más difícil encontrar ayuda para mudarse que para pagar renta atra"
+  },
+  {
+    "title": "Estafas de alquiler y arrendadores falsos | Waythrough",
+    "description": "Detecte una estafa de alquiler antes de pagar: señales de alerta, cómo ver quién es el dueño, listas falsas de Sección 8 y qué hacer si perdió dinero.",
+    "url": "/es/recursos/guias/estafas-de-alquiler",
+    "category": "Guías",
+    "body": "Las estafas de alquiler le quitan sus ahorros a la gente en el peor momento: cuando necesita un lugar donde vivir. El estafador copia las fotos de un anuncio real, lo publica con una renta baja y pide un depósito o una \"cuota de reserva\" antes de que usted pueda ver la vivienda por dentro. Algunos e"
+  },
+  {
+    "title": "Cargos por atraso en Sección 8 sin pagar tarde | Waythrough",
+    "description": "El dueño solo puede cobrar un cargo por atraso si su contrato lo permite y su parte llegó tarde. Cómo revisar el estado de cuenta y frenar cobros indebidos.",
+    "url": "/es/recursos/preguntas/cargos-por-atraso-sin-pagar-tarde",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Cargos por atraso Pregunta de un lector El dueño me cobra un cargo por atraso cada mes, pero pago a tiempo. ¿Está permitido? Pregunta de agosto de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “El dueño de mi vivienda de Se"
+  },
+  {
+    "title": "Me dejaron fuera por reportar moho o ratones | Waythrough",
+    "description": "Sacarlo por reportar reparaciones es ilegal en la mayoría de los estados. Cómo proteger su cupón de Sección 8, pedir una audiencia y reportar fraude a HUD.",
+    "url": "/es/recursos/preguntas/cierre-ilegal-despues-de-reportar-moho",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Cierre por reportar Pregunta de un lector Me dejaron fuera después de reportar moho y ratones, y ahora peligra mi cupón. ¿Qué hago? Pregunta de octubre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Me dejaron fuera de m"
+  },
+  {
+    "title": "Desalojo en su historial después de mudarse | Waythrough",
+    "description": "¿Se mudó en la fecha acordada y el desalojo sigue en su historial? Cómo pedir que se desestime o se selle el caso y cómo disputar los informes de inquilinos.",
+    "url": "/es/recursos/preguntas/desalojo-en-historial-despues-de-mudarse",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Desalojo en el historial Pregunta de un lector Nos mudamos en la fecha acordada, pero el desalojo sigue en nuestro historial. ¿Qué hago? Pregunta de junio de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Durante mi caso de"
+  },
+  {
+    "title": "¿El dueño no repara el refrigerador o el horno? | Waythrough",
+    "description": "Si el dueño puso el refrigerador y la estufa, deben funcionar. Qué exige la inspección de Sección 8, qué pasa con el lavaplatos y cómo lograr la reparación.",
+    "url": "/es/recursos/preguntas/electrodomesticos-rotos-sin-reparar",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Electrodomésticos rotos Pregunta de un lector El dueño no arregla mi refrigerador, mi horno ni mi lavaplatos. ¿Qué puedo hacer? Pregunta de septiembre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Tengo tres reparacione"
+  },
+  {
+    "title": "¿Me pueden sacar si no estoy en el contrato? | Waythrough",
+    "description": "En casi todos los estados no pueden cambiar la cerradura y sacarlo sin orden de la corte, aunque no esté en el contrato. Qué hacer hoy y cómo sacar sus cosas.",
+    "url": "/es/recursos/preguntas/me-sacaron-sin-estar-en-el-contrato",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Sacado sin contrato Pregunta de un lector Me sacaron con mi hijo y cambiaron la cerradura porque no estoy en el contrato. ¿Es legal? Pregunta de agosto de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Me sacaron del aparta"
+  },
+  {
+    "title": "Me dejaron fuera y el dueño siguió cobrando | Waythrough",
+    "description": "Un dueño de Sección 8 no puede dejarlo fuera ni quedarse con los pagos después de que usted se va. Cómo parar los pagos, reportar fraude y usar su cupón.",
+    "url": "/es/recursos/preguntas/me-sacaron-y-el-dueno-siguio-cobrando-el-cupon",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Fuera, y siguió cobrando Pregunta de un lector El dueño me dejó fuera pero siguió cobrando los pagos de Sección 8. ¿Qué puedo hacer? Pregunta de octubre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “El dueño me dio dos "
+  },
+  {
+    "title": "¿Perdió su vivienda y sus cosas en la cárcel? | Waythrough",
+    "description": "Por lo general, el dueño no puede terminar su contrato ni tirar sus cosas sin seguir la ley estatal. Qué hacer ahora, reglas de bienes abandonados y plazos.",
+    "url": "/es/recursos/preguntas/perdi-vivienda-y-pertenencias-en-la-carcel",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Pérdida en la cárcel Pregunta de un lector Perdí mi apartamento y mis cosas mientras estaba en la cárcel. ¿Qué puedo hacer? Pregunta de septiembre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Mientras estuve en la cárc"
+  },
+  {
+    "title": "Sin calefacción en su apartamento: qué hacer | Waythrough",
+    "description": "No tener calefacción es una reparación de emergencia. Cómo califica HUD la calefacción y las luces exteriores rotas, a quién llamar y cómo quejarse en grupo.",
+    "url": "/es/recursos/preguntas/sin-calefaccion-ni-luces-exteriores",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Sin calefacción ni luces Pregunta de un lector El dueño no prende la calefacción ni arregla las luces de afuera. ¿Qué podemos hacer? Pregunta de noviembre de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “El dueño y el gere"
+  },
+  {
+    "title": "Goteras y moho que el dueño no repara | Waythrough",
+    "description": "Un techo con goteras y el moho hacen insegura una vivienda. Cómo usar la inspección de códigos y la de Sección 8 para lograr reparaciones, sin dejar de pagar.",
+    "url": "/es/recursos/preguntas/techo-con-goteras-y-moho-sin-reparar",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Goteras y moho Pregunta de un lector Mi techo tiene goteras desde hace años y ahora hay moho. ¿Qué puedo hacer? Pregunta de agosto de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Mi techo tiene goteras desde hace más de t"
   }
 ]
