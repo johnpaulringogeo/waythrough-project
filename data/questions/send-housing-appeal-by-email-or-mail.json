@@ -1,0 +1,86 @@
+{
+  "slug": "send-housing-appeal-by-email-or-mail",
+  "es_slug": "enviar-apelacion-por-correo-electronico-o-postal",
+  "topic": "applying",
+  "order": 10,
+  "related": [
+    "housing-application-denied-no-reason",
+    "missed-housing-letter-while-sick"
+  ],
+  "en": {
+    "question": "Can I send my appeal by email, or does it have to go by mail?",
+    "title": "Can I Send a Housing Appeal by Email?",
+    "description": "Whether email counts depends on your housing authority. How to find the rule, beat the deadline, and prove you sent your Section 8 appeal on time.",
+    "h1": "Can I send my housing appeal by email, or does it have to be mailed?",
+    "crumb": "Appeal by email or mail",
+    "asked": "June 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "It depends on your housing authority. Your denial or termination letter should say how and by when to ask for a review or hearing. If email is allowed, use it, and also send a copy by certified mail or hand-deliver one so you can prove the date.",
+    "body_html": "<h2>What the rule says</h2>\n<p>Federal rules require the housing authority to tell you, in writing, why it made its decision and how to ask for a review. If you applied for a Housing Choice Voucher (Section 8) and were denied, the notice must say you can request an informal review and explain how to get one (24 CFR 982.554). If you already have a voucher and the housing authority wants to end it, the notice must give the reasons and the deadline to ask for an informal hearing (24 CFR 982.555).</p>\n<p>The federal rules don't say whether your request must be mailed, emailed or handed in. Each housing authority sets its own steps in a written policy called the Administrative Plan (for public housing, it's usually called the Admissions and Continued Occupancy Policy). So the answer is in your letter or in that policy.</p>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Find the deadline.</strong> Look at your letter for the due date and how to send your request. Deadlines are often short, sometimes only 10 to 14 days.</li>\n<li><strong>If the letter doesn't say how,</strong> call the housing authority and ask, \"Can I send my request by email? To which address?\" Write down the person's name, the date and what they said.</li>\n<li><strong>Send it the way the letter says.</strong> If email is allowed, send it and ask for a reply confirming they got it.</li>\n<li><strong>Back it up.</strong> Also send a copy by certified mail with a return receipt, or hand-deliver it and ask for a date-stamped copy. That way you have proof even if an email gets lost.</li>\n<li><strong>Keep copies</strong> of everything: the letter, your request, the sent email and the mail receipt.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"I am requesting an informal review [or hearing] of the decision in your letter dated [date] about [my application / my voucher]. My application or client number is [number]. Please confirm you received this request and tell me the date of the review. I also ask to see my file before the review.\"</p></blockquote>\n<p>Keep it short. You don't have to argue your whole case in the request. You can explain at the review, bring papers, and bring someone to help you.</p>\n<h2>If they won't take email or the deadline passed</h2>\n<ul>\n<li>If they won't take email, mail or hand-deliver your request right away. Don't wait for them to answer your email.</li>\n<li>If the deadline already passed, send your request anyway. Explain why it's late (for example, the letter came late or you were in the hospital) and ask them to accept it. Some housing authorities accept late requests for good cause, so it's worth asking.</li>\n<li>If a disability made it hard to meet the deadline or to use the mail, you can ask for more time or another way to send it as a reasonable accommodation.</li>\n<li>If they still refuse, contact <a href=\"/resources/guides/free-legal-help-for-tenants\">free legal aid</a> quickly. Legal aid can sometimes get a review reopened.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/resources/guides/how-to-appeal-housing-denial",
+        "label": "How to Appeal a Housing Denial",
+        "note": "How informal reviews and hearings work, step by step."
+      },
+      {
+        "href": "/resources/templates/housing-denial-appeal",
+        "label": "Housing Denial Appeal Letter (template)",
+        "note": "A fill-in letter to request your review or hearing."
+      },
+      {
+        "href": "/resources/guides/how-to-request-reasonable-accommodation",
+        "label": "How to Request a Reasonable Accommodation",
+        "note": "Ask for more time or another way to send it if a disability gets in the way."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Informal review for applicants (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: Informal hearing for participants (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "¿Puedo enviar mi apelación por correo electrónico o tiene que ser por correo postal?",
+    "title": "¿Apelación por correo electrónico o postal?",
+    "description": "Si el correo electrónico vale depende de su autoridad de vivienda. Cómo saber la regla, cumplir el plazo y probar que envió su apelación a tiempo.",
+    "h1": "¿Puedo enviar mi apelación de vivienda por correo electrónico o tiene que ser por correo postal?",
+    "crumb": "Apelación por correo",
+    "asked": "junio de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Depende de su autoridad de vivienda. La carta de rechazo o de terminación debe decir cómo y hasta cuándo puede pedir una revisión o audiencia. Si aceptan correo electrónico, úselo, y además envíe una copia por correo certificado o entréguela en persona para poder probar la fecha.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Las reglas federales obligan a la autoridad de vivienda a explicarle por escrito por qué tomó su decisión y cómo pedir una revisión. Si usted solicitó un cupón de vivienda (Sección 8) y se lo negaron, el aviso debe decir que puede pedir una revisión informal y explicar cómo hacerlo (24 CFR 982.554). Si ya tiene un cupón y la autoridad de vivienda quiere quitárselo, el aviso debe dar las razones y la fecha límite para pedir una audiencia informal (24 CFR 982.555).</p>\n<p>Las reglas federales no dicen si su solicitud tiene que ir por correo postal, por correo electrónico o entregada en persona. Cada autoridad de vivienda fija sus propios pasos en una política escrita llamada Plan Administrativo (en vivienda pública suele llamarse Política de Admisión y Ocupación Continua). Así que la respuesta está en su carta o en esa política.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Busque la fecha límite.</strong> Revise en su carta hasta cuándo tiene y cómo debe enviar la solicitud. Los plazos suelen ser cortos, a veces de solo 10 a 14 días.</li>\n<li><strong>Si la carta no dice cómo,</strong> llame a la autoridad de vivienda y pregunte: \"¿Puedo enviar mi solicitud por correo electrónico? ¿A qué dirección?\". Anote el nombre de la persona, la fecha y lo que le dijo.</li>\n<li><strong>Envíela como dice la carta.</strong> Si aceptan correo electrónico, mándela y pida que le confirmen que la recibieron.</li>\n<li><strong>Tenga un respaldo.</strong> Envíe también una copia por correo certificado con acuse de recibo, o entréguela en persona y pida una copia sellada con la fecha. Así tendrá prueba aunque el correo electrónico se pierda.</li>\n<li><strong>Guarde copias</strong> de todo: la carta, su solicitud, el correo enviado y el recibo del correo.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Solicito una revisión informal [o audiencia informal] de la decisión de su carta con fecha [fecha] sobre [mi solicitud / mi cupón]. Mi número de solicitud o de cliente es [número]. Por favor confirmen que recibieron esta solicitud y díganme la fecha de la revisión. También pido ver mi expediente antes de la revisión.\"</p></blockquote>\n<p>Sea breve. No tiene que explicar todo su caso en la solicitud. Puede hacerlo en la revisión, llevar documentos y llevar a alguien que le ayude.</p>\n<h2>Si no aceptan correo electrónico o ya pasó el plazo</h2>\n<ul>\n<li>Si no aceptan correo electrónico, envíe su solicitud por correo postal o entréguela en persona de inmediato. No espere a que le contesten.</li>\n<li>Si la fecha límite ya pasó, envíe su solicitud de todos modos. Explique por qué llega tarde (por ejemplo, la carta le llegó tarde o estaba en el hospital) y pida que la acepten. Algunas autoridades de vivienda aceptan solicitudes tardías con causa justificada, así que vale la pena pedirlo.</li>\n<li>Si una discapacidad le hizo difícil cumplir el plazo o usar el correo, puede pedir más tiempo u otra forma de enviarla como acomodación razonable.</li>\n<li>Si aun así se niegan, busque <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> pronto. A veces la ayuda legal logra que se reabra una revisión.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-apelar-negacion-vivienda",
+        "label": "Cómo apelar una negación de vivienda",
+        "note": "Cómo funcionan las revisiones y audiencias informales, paso a paso."
+      },
+      {
+        "href": "/es/recursos/plantillas/apelacion-negacion-vivienda",
+        "label": "Carta de apelación por denegación de vivienda (plantilla)",
+        "note": "Una carta para llenar y pedir su revisión o audiencia."
+      },
+      {
+        "href": "/es/recursos/guias/como-solicitar-acomodacion-razonable",
+        "label": "Cómo solicitar una acomodación razonable",
+        "note": "Pida más tiempo u otra forma de enviarla si una discapacidad se lo impide."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: revisión informal para solicitantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: audiencia informal para participantes (eCFR, en inglés)"
+      }
+    ]
+  }
+}

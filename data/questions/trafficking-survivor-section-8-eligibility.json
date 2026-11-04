@@ -1,0 +1,102 @@
+{
+  "slug": "trafficking-survivor-section-8-eligibility",
+  "es_slug": "sobreviviente-de-trata-elegibilidad-seccion-8",
+  "topic": "applying",
+  "order": 40,
+  "related": [
+    "domestic-violence-dropped-from-waitlist",
+    "housing-application-denied-no-reason"
+  ],
+  "en": {
+    "question": "I'm a human trafficking survivor. I've been homeless, and now I'm in a safe house and going to school, but when I met with Section 8 they said I'm not eligible. How is that possible? Are there federal rules for who can get a Section 8 voucher?",
+    "title": "Trafficking Survivor Told No to Section 8?",
+    "description": "You don't need a job or income for Section 8, and being homeless doesn't disqualify you. Federal rules, VAWA, and help made for trafficking survivors.",
+    "h1": "I'm a trafficking survivor and was told I'm not eligible for Section 8. Why?",
+    "crumb": "Trafficking survivor",
+    "asked": "August 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "You don't need a job or any income for Section 8, and being homeless doesn't disqualify you. Ask the housing authority for the exact reason in writing and request an informal review. VAWA protections can apply if you also lived through sexual assault, stalking or domestic violence, and trafficking advocates can help you find housing.",
+    "body_html": "<h2>What the federal rules say</h2>\n<p>To get a Section 8 voucher, the federal rules mainly look at three things:</p>\n<ul>\n<li><strong>Income:</strong> generally at or below 50% of the area median income (24 CFR 982.201(b)). Having no income at all is fine. You don't need a job.</li>\n<li><strong>Citizenship or eligible immigration status.</strong> If you aren't a U.S. citizen, the federal Office on Trafficking in Persons can give adult foreign trafficking survivors a certification letter that makes them eligible for federal benefits the same way refugees are. A victim advocate or immigration lawyer can help you get one.</li>\n<li><strong>A few background rules.</strong> Some are required, like lifetime sex offender registration or a conviction for making meth in federally assisted housing (24 CFR 982.553). Others are up to each housing authority.</li>\n</ul>\n<p>Being homeless, living in a safe house, or going to school doesn't disqualify you. One student rule to know: if you're under 24, in college, unmarried, not a veteran, have no child and no disability, extra income rules can apply (24 CFR 5.612). Ask if that's the reason.</p>\n<p>Often \"not eligible\" means something else, like the waiting list is closed, you don't fit a local preference, or a program only serves certain people. That's why you need the reason in writing.</p>\n<h2>How VAWA fits</h2>\n<p>The Violence Against Women Act (VAWA) protects survivors of domestic violence, dating violence, sexual assault and stalking in Section 8, public housing and other HUD programs. A housing authority can't deny you because you are a survivor if you otherwise qualify (24 CFR 5.2005(b)). VAWA's housing rules don't name trafficking, but many trafficking survivors also lived through sexual assault or stalking, and those are covered. Being followed and watched at night can count as stalking. If a record or an eviction came from what was done to you, tell the housing authority and ask it to take that into account.</p>\n<h2>Help made for trafficking survivors</h2>\n<ul>\n<li><strong>National Human Trafficking Hotline:</strong> call 1-888-373-7888 (TTY 711) or text 233733. It's free, confidential and open 24/7, and it can connect you with local housing and legal help.</li>\n<li><strong>Your case manager or victim advocate</strong> can write a support letter, help you ask for a waitlist preference, and connect you to homeless programs.</li>\n<li><strong>Homeless programs:</strong> HUD's homeless rules include people fleeing violence or life-threatening danger (24 CFR 578.3). Call 211 to reach your area's homeless system.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Ask the housing authority in writing for the exact reason and how to request an informal review (24 CFR 982.554). Watch the deadline.</li>\n<li>Ask if it has a preference for survivors of violence, homeless people or people in transitional housing.</li>\n<li>Ask your advocate for a support letter.</li>\n<li>Apply to other open lists too, including public housing.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"I was told I am not eligible for a Housing Choice Voucher. Please tell me the specific reason in writing and how to request an informal review. I am a survivor of trafficking and stalking and live in transitional housing. Please also tell me about any preferences I may qualify for.\"</p></blockquote>\n<p>If they still say no, <a href=\"/resources/guides/free-legal-help-for-tenants\">free legal aid</a> can review the decision with you.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/section-8-eligibility-requirements",
+        "label": "Section 8 Eligibility Requirements",
+        "note": "The full federal eligibility rules: income, status and background."
+      },
+      {
+        "href": "/who-we-help/dv-survivors",
+        "label": "Housing Help for Domestic Violence Survivors",
+        "note": "VAWA rights, hotlines and housing options for survivors."
+      },
+      {
+        "href": "/resources/guides/section-8-waiting-list-preferences",
+        "label": "Section 8 Waiting List Preferences",
+        "note": "Ask whether you qualify for a survivor or homeless preference."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.201",
+        "label": "24 CFR 982.201: Section 8 eligibility (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: VAWA protections (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/vawa",
+        "label": "HUD: Violence Against Women Act (VAWA) housing protections"
+      },
+      {
+        "url": "https://humantraffickinghotline.org/en",
+        "label": "National Human Trafficking Hotline"
+      }
+    ]
+  },
+  "es": {
+    "question": "Soy sobreviviente de trata de personas. He estado sin hogar y ahora vivo en una casa segura y estudio, pero cuando me reuní con Sección 8 me dijeron que no soy elegible. ¿Cómo es posible? ¿Hay reglas federales sobre quién puede recibir un cupón de Sección 8?",
+    "title": "¿Sobreviviente de trata y sin Sección 8?",
+    "description": "No necesita trabajo ni ingresos para Sección 8, y estar sin hogar no lo descalifica. Reglas federales, VAWA y ayuda para sobrevivientes de trata.",
+    "h1": "Soy sobreviviente de trata y me dijeron que no soy elegible para Sección 8. ¿Por qué?",
+    "crumb": "Sobreviviente de trata",
+    "asked": "agosto de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "No necesita trabajo ni ingresos para Sección 8, y estar sin hogar no lo descalifica. Pida a la autoridad de vivienda la razón exacta por escrito y solicite una revisión informal. Las protecciones de VAWA pueden aplicar si también vivió agresión sexual, acecho o violencia doméstica, y los defensores de sobrevivientes de trata pueden ayudarle a encontrar vivienda.",
+    "body_html": "<h2>Lo que dicen las reglas federales</h2>\n<p>Para recibir un cupón de Sección 8, las reglas federales se fijan sobre todo en tres cosas:</p>\n<ul>\n<li><strong>Ingresos:</strong> por lo general, el 50% o menos del ingreso medio de la zona (24 CFR 982.201(b)). No tener ningún ingreso está bien. No necesita trabajo.</li>\n<li><strong>Ciudadanía o estatus migratorio elegible.</strong> Si usted no es ciudadano de EE. UU., la Oficina federal contra la Trata de Personas puede dar a los sobrevivientes adultos extranjeros una carta de certificación que los hace elegibles para beneficios federales igual que a los refugiados. Un defensor de víctimas o un abogado de inmigración puede ayudarle a obtenerla.</li>\n<li><strong>Algunas reglas de antecedentes.</strong> Unas son obligatorias, como estar en el registro de delincuentes sexuales de por vida o una condena por fabricar metanfetamina en vivienda con ayuda federal (24 CFR 982.553). Las demás dependen de cada autoridad de vivienda.</li>\n</ul>\n<p>Estar sin hogar, vivir en una casa segura o estudiar no lo descalifica. Hay una regla para estudiantes: si tiene menos de 24 años, está en la universidad, es soltero, no es veterano, no tiene hijos ni discapacidad, pueden aplicar reglas extra de ingresos (24 CFR 5.612). Pregunte si esa es la razón.</p>\n<p>Muchas veces \"no es elegible\" quiere decir otra cosa: que la lista de espera está cerrada, que no encaja en una preferencia local o que un programa solo atiende a ciertas personas. Por eso necesita la razón por escrito.</p>\n<h2>Cómo encaja VAWA</h2>\n<p>La Ley de Violencia contra la Mujer (VAWA) protege a sobrevivientes de violencia doméstica, violencia en el noviazgo, agresión sexual y acecho en Sección 8, vivienda pública y otros programas de HUD. Una autoridad de vivienda no puede rechazarlo por ser sobreviviente si usted cumple los demás requisitos (24 CFR 5.2005(b)). Las reglas de vivienda de VAWA no mencionan la trata por nombre, pero muchos sobrevivientes de trata también vivieron agresión sexual o acecho, y eso sí está cubierto. Que lo sigan y lo vigilen de noche puede contar como acecho. Si un antecedente o un desalojo vino de lo que le hicieron, dígaselo a la autoridad de vivienda y pida que lo tome en cuenta.</p>\n<h2>Ayuda para sobrevivientes de trata</h2>\n<ul>\n<li><strong>Línea Nacional contra la Trata de Personas:</strong> llame al 1-888-373-7888 (TTY 711) o envíe un mensaje de texto al 233733. Es gratis, confidencial y atiende las 24 horas, todos los días, y puede conectarle con ayuda local de vivienda y legal.</li>\n<li><strong>Su administrador de caso o defensor de víctimas</strong> puede escribir una carta de apoyo, ayudarle a pedir una preferencia en la lista de espera y conectarle con programas para personas sin hogar.</li>\n<li><strong>Programas para personas sin hogar:</strong> las reglas de HUD incluyen a quienes huyen de la violencia o de un peligro para su vida (24 CFR 578.3). Llame al 211 para comunicarse con el sistema de su zona.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Pida por escrito a la autoridad de vivienda la razón exacta y cómo solicitar una revisión informal (24 CFR 982.554). Fíjese en la fecha límite.</li>\n<li>Pregunte si tiene una preferencia para sobrevivientes de violencia, personas sin hogar o personas en vivienda de transición.</li>\n<li>Pida a su defensor una carta de apoyo.</li>\n<li>Solicite también en otras listas abiertas, incluida la vivienda pública.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Me dijeron que no soy elegible para un cupón de vivienda. Por favor díganme por escrito la razón específica y cómo solicitar una revisión informal. Soy sobreviviente de trata y de acecho y vivo en una vivienda de transición. Por favor infórmenme también de cualquier preferencia para la que pueda calificar.\"</p></blockquote>\n<p>Si aun así le dicen que no, la <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> puede revisar la decisión con usted.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/requisitos-elegibilidad-seccion-8",
+        "label": "Requisitos de elegibilidad de Sección 8",
+        "note": "Todas las reglas federales de elegibilidad: ingresos, estatus y antecedentes."
+      },
+      {
+        "href": "/es/a-quienes-ayudamos/sobrevivientes-violencia-domestica",
+        "label": "Ayuda de vivienda para sobrevivientes de violencia doméstica",
+        "note": "Derechos bajo VAWA, líneas de ayuda y opciones de vivienda para sobrevivientes."
+      },
+      {
+        "href": "/es/recursos/guias/preferencias-lista-espera-seccion-8",
+        "label": "Preferencias de la lista de espera de Sección 8",
+        "note": "Pregunte si califica para una preferencia por ser sobreviviente o estar sin hogar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.201",
+        "label": "24 CFR 982.201: elegibilidad para Sección 8 (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: protecciones de VAWA (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/vawa",
+        "label": "HUD: protecciones de vivienda de VAWA (en inglés)"
+      },
+      {
+        "url": "https://humantraffickinghotline.org/es",
+        "label": "Línea Nacional contra la Trata de Personas"
+      }
+    ]
+  }
+}

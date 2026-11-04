@@ -1,0 +1,102 @@
+{
+  "slug": "domestic-violence-dropped-from-waitlist",
+  "es_slug": "violencia-domestica-fuera-de-lista-de-espera",
+  "topic": "applying",
+  "order": 50,
+  "related": [
+    "trafficking-survivor-section-8-eligibility",
+    "missed-housing-letter-while-sick"
+  ],
+  "en": {
+    "question": "I'm in a domestic violence situation and trying to get out, and I need help right away. I've been on the Section 8 waitlist for a few years, but the housing authority dropped me because the list for my bedroom size closed. I have my child with me. Can you help us?",
+    "title": "Fleeing Abuse and Dropped From the Waitlist?",
+    "description": "Get safe first: call 1-800-799-7233 or text START to 88788. Then ask to be put back on the waitlist, request a review, and ask about survivor preferences.",
+    "h1": "I'm leaving domestic violence and was dropped from the Section 8 waitlist. What can I do?",
+    "crumb": "Abuse and dropped from list",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "If you are in danger now, call 911. For safety planning and shelter, call the National Domestic Violence Hotline at 1-800-799-7233 or text START to 88788. Then ask the housing authority in writing why you were removed, ask to be put back with your original date, and ask about preferences for survivors.",
+    "body_html": "<h2>Safety first</h2>\n<p>The National Domestic Violence Hotline is free, confidential and open 24/7: call 1-800-799-7233 or text START to 88788. An advocate can help you make a safety plan and find shelter, sometimes the same day. You can also call 211 for local shelter. If someone checks your phone or computer, use a safer device when you can.</p>\n<h2>What the rules say about the waitlist</h2>\n<ul>\n<li><strong>One list for vouchers.</strong> For Section 8 vouchers, a housing authority must use a single waiting list (24 CFR 982.204(f)), and it can only remove names under rules written in its policy (24 CFR 982.204(c)). Being dropped because \"your bedroom size closed\" is unusual for a voucher list. It's more common for public housing or a specific building, which can keep lists by bedroom size. Ask which list you were on.</li>\n<li><strong>You can ask for a review.</strong> Taking you off a Section 8 waiting list counts as denying assistance (24 CFR 982.552(a)(2)), so you can ask for an informal review (24 CFR 982.554). Public housing applicants can ask for an informal hearing (24 CFR 960.208).</li>\n<li><strong>Check your bedroom size.</strong> Your bedroom size comes from the housing authority's written standards for your household. If you were placed on the wrong size list, ask them to fix it and keep your original date.</li>\n<li><strong>VAWA.</strong> A housing authority can't deny you because you are a survivor of domestic violence if you otherwise qualify (24 CFR 5.2005(b)). If the abuse made you miss mail or move, tell them.</li>\n<li><strong>Preferences.</strong> Many housing authorities give a waiting list preference to people fleeing domestic violence or who are homeless (24 CFR 982.207). Ask whether yours does.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Get safe first. Call the hotline, 211 or 911.</li>\n<li>Write the housing authority. Ask why you were removed, ask to be reinstated with your original application date, and ask for an informal review.</li>\n<li>Ask about a domestic violence or homeless preference and what proof it needs. For VAWA protections, you can choose to give HUD's self-certification form (HUD-5382) when a housing provider asks for documentation (24 CFR 5.2007).</li>\n<li>Give them a safe mailing address and phone number.</li>\n<li>Apply to every other open list nearby, including other housing authorities and public housing.</li>\n<li>Ask the shelter or hotline about rapid rehousing or other rent help while you wait.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"I have been on your waiting list since [year]. I was told I was removed because the list for my bedroom size closed. Please tell me in writing why I was removed and reinstate me with my original application date. I am a survivor of domestic violence. Please tell me if you have a preference I qualify for, and send mail only to this safe address: [address].\"</p></blockquote>\n<h2>If they say no</h2>\n<p>Ask for the decision in writing and request the informal review before the deadline in the letter. If the deadline already passed, ask anyway and explain that the abuse made it hard to respond. Domestic violence advocates and <a href=\"/resources/guides/free-legal-help-for-tenants\">free legal aid</a> often help with these requests. If you believe you were turned away because of the abuse, you can file a complaint with HUD.</p>",
+    "links": [
+      {
+        "href": "/who-we-help/dv-survivors",
+        "label": "Housing Help for Domestic Violence Survivors",
+        "note": "Your VAWA rights, emergency transfers and housing options."
+      },
+      {
+        "href": "/resources/emergency-housing",
+        "label": "Emergency & Crisis Housing Resources",
+        "note": "Shelter and crisis housing you can reach today."
+      },
+      {
+        "href": "/resources/guides/section-8-waiting-list-preferences",
+        "label": "Section 8 Waiting List Preferences",
+        "note": "How domestic violence and homeless preferences work."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.thehotline.org/",
+        "label": "National Domestic Violence Hotline"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.204",
+        "label": "24 CFR 982.204: Waiting list rules (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: VAWA protections (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: Local preferences (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Estoy en una situación de violencia doméstica y trato de salir, y necesito ayuda ya. Llevo unos años en la lista de espera de Sección 8, pero la autoridad de vivienda me sacó porque se cerró la lista para mi número de habitaciones. Tengo a mi hijo conmigo. ¿Pueden ayudarnos?",
+    "title": "¿Huye del abuso y perdió su lugar en la lista?",
+    "description": "Primero, su seguridad: llame al 1-800-799-7233 o envíe START al 88788. Luego pida volver a la lista, una revisión y preferencias para sobrevivientes.",
+    "h1": "Estoy huyendo de la violencia doméstica y me sacaron de la lista de Sección 8. ¿Qué puedo hacer?",
+    "crumb": "Abuso y fuera de la lista",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Si está en peligro ahora, llame al 911. Para un plan de seguridad y refugio, llame a la Línea Nacional contra la Violencia Doméstica al 1-800-799-7233 o envíe START al 88788. Luego pida por escrito a la autoridad de vivienda por qué le quitaron su lugar, pida volver con su fecha original y pregunte por preferencias para sobrevivientes.",
+    "body_html": "<h2>Primero, su seguridad</h2>\n<p>La Línea Nacional contra la Violencia Doméstica es gratuita, confidencial y atiende las 24 horas, todos los días, también en español: llame al 1-800-799-7233 o envíe START al 88788. Una persona defensora puede ayudarle a hacer un plan de seguridad y encontrar refugio, a veces el mismo día. También puede llamar al 211 para encontrar refugio en su zona. Si alguien revisa su teléfono o computadora, use un aparato más seguro cuando pueda.</p>\n<h2>Lo que dicen las reglas sobre la lista de espera</h2>\n<ul>\n<li><strong>Una sola lista para cupones.</strong> Para los cupones de Sección 8, la autoridad de vivienda debe usar una sola lista de espera (24 CFR 982.204(f)) y solo puede sacar nombres según las reglas escritas en su política (24 CFR 982.204(c)). Que le quiten su lugar porque \"se cerró su número de habitaciones\" es raro en una lista de cupones. Es más común en vivienda pública o en un edificio específico, que pueden tener listas por número de habitaciones. Pregunte en qué lista estaba.</li>\n<li><strong>Puede pedir una revisión.</strong> Sacar a alguien de una lista de espera de Sección 8 cuenta como negarle asistencia (24 CFR 982.552(a)(2)), así que puede pedir una revisión informal (24 CFR 982.554). Quienes solicitan vivienda pública pueden pedir una audiencia informal (24 CFR 960.208).</li>\n<li><strong>Revise su número de habitaciones.</strong> El tamaño que le toca sale de las normas escritas de la autoridad de vivienda para su hogar. Si le asignaron la lista equivocada, pida que lo corrijan y que respeten su fecha original.</li>\n<li><strong>VAWA.</strong> La autoridad de vivienda no puede rechazarle por ser sobreviviente de violencia doméstica si cumple los demás requisitos (24 CFR 5.2005(b)). Si por el abuso no recibió cartas o tuvo que mudarse, dígaselo.</li>\n<li><strong>Preferencias.</strong> Muchas autoridades de vivienda dan preferencia en la lista a quienes huyen de la violencia doméstica o están sin hogar (24 CFR 982.207). Pregunte si la suya lo hace.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Primero, su seguridad. Llame a la línea de ayuda, al 211 o al 911.</li>\n<li>Escriba a la autoridad de vivienda. Pregunte por qué le quitaron su lugar, pida volver a la lista con su fecha de solicitud original y pida una revisión informal.</li>\n<li>Pregunte por una preferencia por violencia doméstica o por estar sin hogar y qué prueba piden. Para las protecciones de VAWA, usted puede elegir entregar el formulario de autocertificación de HUD (HUD-5382) cuando un proveedor de vivienda le pida documentación (24 CFR 5.2007).</li>\n<li>Deles una dirección postal y un teléfono seguros.</li>\n<li>Solicite en todas las demás listas abiertas cerca de usted, incluidas otras autoridades de vivienda y la vivienda pública.</li>\n<li>Pregunte en el refugio o en la línea de ayuda por programas de realojamiento rápido u otra ayuda con la renta mientras espera.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Estoy en su lista de espera desde [año]. Me dijeron que me sacaron porque se cerró la lista para mi número de habitaciones. Por favor díganme por escrito por qué me sacaron y reintégrenme con mi fecha de solicitud original. Soy sobreviviente de violencia doméstica. Por favor díganme si tienen una preferencia para la que califico, y envíen el correo solo a esta dirección segura: [dirección].\"</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Pida la decisión por escrito y solicite la revisión informal antes de la fecha límite que dé la carta. Si la fecha ya pasó, pídala de todos modos y explique que el abuso le hizo difícil responder. Las personas defensoras contra la violencia doméstica y la <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> suelen ayudar con estas solicitudes. Si cree que le negaron la vivienda por el abuso, puede presentar una queja ante HUD.</p>",
+    "links": [
+      {
+        "href": "/es/a-quienes-ayudamos/sobrevivientes-violencia-domestica",
+        "label": "Ayuda de vivienda para sobrevivientes de violencia doméstica",
+        "note": "Sus derechos bajo VAWA, traslados de emergencia y opciones de vivienda."
+      },
+      {
+        "href": "/es/recursos/vivienda-de-emergencia",
+        "label": "Vivienda de emergencia y crisis",
+        "note": "Refugio y vivienda de crisis a los que puede llegar hoy."
+      },
+      {
+        "href": "/es/recursos/guias/preferencias-lista-espera-seccion-8",
+        "label": "Preferencias de la lista de espera de Sección 8",
+        "note": "Cómo funcionan las preferencias por violencia doméstica y por estar sin hogar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://espanol.thehotline.org/",
+        "label": "Línea Nacional contra la Violencia Doméstica"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.204",
+        "label": "24 CFR 982.204: reglas de la lista de espera (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: protecciones de VAWA (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: preferencias locales (eCFR, en inglés)"
+      }
+    ]
+  }
+}

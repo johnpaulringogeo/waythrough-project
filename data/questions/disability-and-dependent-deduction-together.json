@@ -1,0 +1,84 @@
+{
+  "slug": "disability-and-dependent-deduction-together",
+  "es_slug": "deduccion-por-discapacidad-y-por-dependiente",
+  "topic": "rent",
+  "order": 10,
+  "related": [
+    "rent-overcharged-at-recertification",
+    "trust-distributions-subsidized-housing"
+  ],
+  "en": {
+    "question": "I'm on disability and get the $400 deduction. Do my family member and I also get the automatic standard $480 deduction? Does it matter what state I live in?",
+    "title": "Section 8 Disability and Dependent Deductions",
+    "description": "There's no automatic $480 deduction. How the disabled family deduction and the dependent deduction stack, the 2027 amounts, and why your state doesn't matter.",
+    "h1": "Do I get both the disability deduction and the $480 dependent deduction?",
+    "crumb": "Disability + dependent",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "There's no automatic standard deduction. Your household gets the elderly or disabled family deduction ($400 a year under the rules most housing authorities use now) once, plus a separate dependent deduction ($480 a year now) only for each member who counts as a dependent. These are federal amounts, so your state doesn't change them.",
+    "body_html": "<h2>What the rule says</h2>\n<p>Federal rules list the deductions a housing authority subtracts from your yearly income before it figures your rent (24 CFR 5.611). Two of them are set dollar amounts:</p>\n<ul>\n<li><strong>Elderly or disabled family deduction:</strong> one per household, if the head of household, spouse or co-head is 62 or older or has a disability. It's $400 a year under the rules most housing authorities use now. It doesn't matter how many people in the home have a disability.</li>\n<li><strong>Dependent deduction:</strong> $480 a year for each dependent. A dependent is a household member, other than the head, spouse or co-head, who is under 18, has a disability, or is a full-time student (24 CFR 5.603). Foster children and foster adults don't count.</li>\n</ul>\n<p>So the $480 isn't automatic. Your family member brings a $480 deduction only if they are a dependent. If they're your spouse or co-head, or an adult who has no disability and isn't a full-time student, there's no dependent deduction for them.</p>\n<h2>Examples</h2>\n<ul>\n<li>You have a disability and live with your child who is under 18: $400 + $480 = $880 a year.</li>\n<li>You have a disability and live with an adult relative who also has a disability: $400 + $480 = $880 a year.</li>\n<li>You and your spouse both have disabilities: $400 total, and no dependent deduction.</li>\n</ul>\n<p>Deductions lower your counted income, not your rent dollar for dollar. An $880 deduction lowers your rent by about $22 a month (30% of $880, divided by 12).</p>\n<h2>The amounts are changing</h2>\n<p>A federal law called HOTMA raises these amounts. Under Notice PIH 2026-15, HUD will make housing authorities use the new rules for rent calculations that take effect on or after January 1, 2027: $575 for an elderly or disabled family and $525 per dependent. A few housing authorities switched early and used $550 and $500 in 2026. HUD adjusts these numbers for inflation every year. Housing authorities in HUD's Moving to Work program get a later date, and some of them set their own rent rules.</p>\n<p>HOTMA also changes the medical expense deduction for elderly and disabled families. Today you can deduct unreimbursed medical costs above 3% of your income. Under HOTMA it's above 10%, with phased-in relief for families who already had this deduction. For many people with disabilities, the medical deduction is worth more than the $400.</p>\n<h2>Does your state matter?</h2>\n<p>No. These are federal amounts, the same in every state. What can differ is your housing authority: whether it has switched to the new rules yet, and, for Moving to Work agencies, its own rent policy.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Look at your rent calculation or rent notice. Check that it shows the disabled family deduction and a dependent deduction for each dependent.</li>\n<li>Report your medical costs, like insurance premiums, prescriptions and co-pays, with receipts.</li>\n<li>If a deduction is missing, ask in writing for a correction. If they won't fix it, you can ask for an informal hearing on how your income was figured (24 CFR 982.555(a)(1)(i)).</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"Please explain the deductions used in my rent calculation. I believe my household qualifies for the disabled family deduction and a dependent deduction for [name], who is [under 18 / a person with a disability / a full-time student]. Please correct my rent if either was left out.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/resources/guides/understanding-rent-calculation",
+        "label": "How Your Rent Is Calculated in Section 8",
+        "note": "Every deduction, with worked examples under today's rules and 2027's."
+      },
+      {
+        "href": "/resources/guides/how-recertification-works",
+        "label": "How Recertification Works and How to Prepare",
+        "note": "When your deductions get updated and what to bring."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.611",
+        "label": "24 CFR 5.611: Adjusted income and deductions (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.603",
+        "label": "24 CFR 5.603: Definitions, including dependent (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-15.pdf",
+        "label": "HUD Notice PIH 2026-15: HOTMA compliance date"
+      }
+    ]
+  },
+  "es": {
+    "question": "Tengo una discapacidad y recibo la deducción de $400. ¿Mi familiar y yo también recibimos la deducción estándar automática de $480? ¿Importa en qué estado vivo?",
+    "title": "Deducción por discapacidad y por dependiente",
+    "description": "No existe una deducción automática de $480. Cómo se suman la deducción por discapacidad y la de dependientes, los montos de 2027 y si importa el estado.",
+    "h1": "¿Recibo la deducción por discapacidad y también la de $480 por dependiente?",
+    "crumb": "Discapacidad y dependiente",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "No existe una deducción estándar automática. Su hogar recibe una sola vez la deducción por familia de edad avanzada o con discapacidad ($400 al año con las reglas que usan hoy la mayoría de las autoridades de vivienda), más una deducción aparte por dependiente ($480 al año hoy) solo por cada miembro que cuente como dependiente. Son montos federales, así que su estado no los cambia.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Las reglas federales enumeran las deducciones que la autoridad de vivienda resta de su ingreso anual antes de calcular su renta (24 CFR 5.611). Dos de ellas son montos fijos:</p>\n<ul>\n<li><strong>Deducción por familia de edad avanzada o con discapacidad:</strong> una por hogar, si el jefe del hogar, el cónyuge o el cojefe tiene 62 años o más o tiene una discapacidad. Es de $400 al año con las reglas que usan hoy la mayoría de las autoridades de vivienda. No importa cuántas personas del hogar tengan una discapacidad.</li>\n<li><strong>Deducción por dependiente:</strong> $480 al año por cada dependiente. Un dependiente es un miembro del hogar, que no sea el jefe, el cónyuge ni el cojefe, y que tiene menos de 18 años, tiene una discapacidad o es estudiante de tiempo completo (24 CFR 5.603). Los niños y adultos en crianza temporal no cuentan.</li>\n</ul>\n<p>Así que los $480 no son automáticos. Su familiar suma una deducción de $480 solo si es dependiente. Si es su cónyuge o cojefe, o un adulto sin discapacidad que no estudia a tiempo completo, no hay deducción por dependiente para esa persona.</p>\n<h2>Ejemplos</h2>\n<ul>\n<li>Usted tiene una discapacidad y vive con su hijo menor de 18 años: $400 + $480 = $880 al año.</li>\n<li>Usted tiene una discapacidad y vive con un familiar adulto que también tiene una discapacidad: $400 + $480 = $880 al año.</li>\n<li>Usted y su cónyuge tienen discapacidad: $400 en total, sin deducción por dependiente.</li>\n</ul>\n<p>Las deducciones bajan su ingreso contado, no su renta dólar por dólar. Una deducción de $880 baja su renta unos $22 al mes (el 30% de $880, dividido entre 12).</p>\n<h2>Los montos van a cambiar</h2>\n<p>Una ley federal llamada HOTMA sube estos montos. Según el Aviso PIH 2026-15, HUD exigirá a las autoridades de vivienda usar las nuevas reglas en los cálculos de renta que entren en vigor a partir del 1 de enero de 2027: $575 por familia de edad avanzada o con discapacidad y $525 por dependiente. Algunas autoridades de vivienda cambiaron antes y usaron $550 y $500 en 2026. HUD ajusta estos montos por inflación cada año. Las autoridades de vivienda del programa Moving to Work de HUD tienen una fecha posterior, y algunas fijan sus propias reglas de renta.</p>\n<p>HOTMA también cambia la deducción por gastos médicos de las familias de edad avanzada o con discapacidad. Hoy se pueden deducir los gastos médicos no reembolsados que pasen del 3% del ingreso. Con HOTMA será lo que pase del 10%, con un alivio gradual para las familias que ya tenían esta deducción. Para muchas personas con discapacidad, la deducción médica vale más que los $400.</p>\n<h2>¿Importa su estado?</h2>\n<p>No. Son montos federales, iguales en todos los estados. Lo que puede variar es su autoridad de vivienda: si ya cambió a las nuevas reglas y, en las agencias de Moving to Work, su propia política de renta.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Revise su cálculo de renta o su aviso de renta. Fíjese que muestre la deducción por familia con discapacidad y una deducción por cada dependiente.</li>\n<li>Reporte sus gastos médicos, como primas de seguro, recetas y copagos, con recibos.</li>\n<li>Si falta una deducción, pida por escrito que la corrijan. Si no lo hacen, puede pedir una audiencia informal sobre cómo calcularon su ingreso (24 CFR 982.555(a)(1)(i)).</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Por favor explíquenme las deducciones que usaron en mi cálculo de renta. Creo que mi hogar califica para la deducción por familia con discapacidad y para una deducción por dependiente por [nombre], que [es menor de 18 años / tiene una discapacidad / es estudiante de tiempo completo]. Por favor corrijan mi renta si faltó alguna.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-se-calcula-la-renta",
+        "label": "Cómo se calcula su renta en la Sección 8",
+        "note": "Todas las deducciones, con ejemplos con las reglas de hoy y las de 2027."
+      },
+      {
+        "href": "/es/recursos/guias/como-funciona-recertificacion",
+        "label": "Cómo funciona la recertificación de vivienda",
+        "note": "Cuándo se actualizan sus deducciones y qué llevar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.611",
+        "label": "24 CFR 5.611: ingreso ajustado y deducciones (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.603",
+        "label": "24 CFR 5.603: definiciones, incluido dependiente (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-15.pdf",
+        "label": "Aviso PIH 2026-15 de HUD: fecha de cumplimiento de HOTMA (en inglés)"
+      }
+    ]
+  }
+}

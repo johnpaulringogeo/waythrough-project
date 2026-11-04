@@ -1,0 +1,95 @@
+{
+  "slug": "missed-housing-letter-while-sick",
+  "es_slug": "no-respondio-a-vivienda-por-enfermedad",
+  "topic": "applying",
+  "order": 20,
+  "related": [
+    "send-housing-appeal-by-email-or-mail",
+    "housing-application-denied-no-reason",
+    "domestic-violence-dropped-from-waitlist"
+  ],
+  "en": {
+    "question": "I applied for housing a while ago and got a letter back, I think saying I was approved, but I was very sick at the time and couldn't respond. I don't remember exactly what it said or when. Where do I stand now?",
+    "title": "Missed a Section 8 Letter While Sick?",
+    "description": "Too sick to answer a housing letter? Find out your status and ask to be put back on the list as a reasonable accommodation. What the rule says, what to write.",
+    "h1": "I was too sick to answer a housing letter. Where do I stand now?",
+    "crumb": "Missed letter while sick",
+    "asked": "July 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "You may still have options. Write to the housing authority and ask for your current status. If you were removed from a waiting list because a disability or serious illness kept you from responding, you can ask to be put back as a reasonable accommodation, and for Section 8 waiting lists the rules say the housing authority must reinstate you.",
+    "body_html": "<h2>What the rule says</h2>\n<p>A housing authority can remove people from its waiting list who don't answer its letters, but only under rules written in its policy (24 CFR 982.204(c)(1)). There is an important exception. If someone in your family has a disability and that disability is why you didn't respond, the housing authority must put you back in your old place on the Section 8 waiting list (24 CFR 982.204(c)(2)).</p>\n<p>A serious illness can count as a disability under fair housing law when it greatly limits what you can do, like getting out of bed, reading mail or making calls. You don't have to share your diagnosis. A short note from a doctor or other provider saying you were not able to respond during that time is usually enough.</p>\n<p>If the letter was an approval and you were given a voucher, it may have expired. Ask anyway. When a person with a disability needs more time to use a voucher, the housing authority must extend it as a reasonable accommodation for as long as is reasonably needed (24 CFR 982.303(b)(2)). If it already expired, ask whether they can reissue it for the same reason. Public housing and privately owned subsidized buildings also have to make reasonable accommodations under Section 504 and the Fair Housing Act.</p>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Figure out who sent the letter.</strong> Was it a housing authority or a specific building? Check old mail, email and texts. If you applied online, log in to the applicant portal.</li>\n<li><strong>Write and ask for your status.</strong> Give your full name, date of birth, about when you applied, any application number, and your current address and phone.</li>\n<li><strong>Ask to be reinstated as a reasonable accommodation</strong> if you were removed or an offer expired while you were sick.</li>\n<li><strong>Get a provider's note</strong> saying you were seriously ill and unable to respond during those dates.</li>\n<li><strong>Send it in a way you can prove,</strong> such as email plus certified mail, and keep copies.</li>\n<li><strong>Follow up</strong> if you don't hear back in about two weeks. Ask for a supervisor or the reasonable accommodation coordinator if you need to.</li>\n<li><strong>Update your contact information</strong> so the next letter reaches you.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"I applied for housing around [month and year] (application number [number], if known). I received a letter around [month] but was seriously ill and could not respond. Please tell me my current status. If my application was closed or an offer expired, I ask that you reinstate me to my former place as a reasonable accommodation for my disability. A note from my provider is attached.\"</p></blockquote>\n<h2>If they say no</h2>\n<ul>\n<li>Ask for the decision and the reason in writing. Taking you off a Section 8 waiting list counts as denying assistance, so you can ask for an informal review (24 CFR 982.552(a)(2) and 982.554). Watch the deadline in that letter.</li>\n<li>If they deny your accommodation request, ask why in writing and whether a different accommodation would work.</li>\n<li>You can file a fair housing complaint with HUD within one year, or get help from <a href=\"/resources/guides/free-legal-help-for-tenants\">free legal aid</a>.</li>\n<li>In the meantime, apply to other open waiting lists so you aren't counting on just one.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/resources/guides/how-to-request-reasonable-accommodation",
+        "label": "How to Request a Reasonable Accommodation",
+        "note": "How to ask, what proof to give, and what to do if they say no."
+      },
+      {
+        "href": "/resources/templates/reasonable-accommodation-request",
+        "label": "Reasonable Accommodation Request Letter (template)",
+        "note": "A fill-in letter you can adapt to ask for reinstatement."
+      },
+      {
+        "href": "/blog/posts/pha-wont-call-back",
+        "label": "Your PHA Won't Call Back? Here's What to Do",
+        "note": "What to do when you can't get an answer from the housing authority."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.204",
+        "label": "24 CFR 982.204: Waiting list rules, including reinstatement (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Voucher term and extensions (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Informal review for applicants (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Hace un tiempo solicité vivienda y me llegó una carta, creo que diciendo que me aprobaron, pero estaba muy enfermo y no pude responder. No recuerdo bien qué decía ni cuándo llegó. ¿En qué situación estoy ahora?",
+    "title": "¿No respondió a Sección 8 por estar enfermo?",
+    "description": "¿Estaba muy enfermo para responder una carta de vivienda? Averigüe su estado y pida que lo reintegren a la lista como acomodación razonable. Qué escribir.",
+    "h1": "Estaba muy enfermo para responder una carta de vivienda. ¿En qué situación estoy ahora?",
+    "crumb": "Carta sin responder",
+    "asked": "julio de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Es posible que todavía tenga opciones. Escriba a la autoridad de vivienda y pregunte en qué estado está su solicitud. Si lo sacaron de una lista de espera porque una discapacidad o una enfermedad grave le impidió responder, puede pedir que lo reintegren como acomodación razonable, y en las listas de espera de Sección 8 la regla dice que la autoridad de vivienda debe reintegrarlo.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Una autoridad de vivienda puede sacar de su lista de espera a quienes no contestan sus cartas, pero solo según las reglas escritas en su política (24 CFR 982.204(c)(1)). Hay una excepción importante. Si alguien de su familia tiene una discapacidad y esa discapacidad es la razón por la que no respondió, la autoridad de vivienda debe devolverlo a su lugar anterior en la lista de espera de Sección 8 (24 CFR 982.204(c)(2)).</p>\n<p>Una enfermedad grave puede contar como discapacidad según la ley de vivienda justa cuando limita mucho lo que usted puede hacer, como levantarse de la cama, leer el correo o hacer llamadas. No tiene que revelar su diagnóstico. Por lo general basta con una nota breve de su médico u otro proveedor que diga que usted no podía responder durante ese tiempo.</p>\n<p>Si la carta era una aprobación y le dieron un cupón, es posible que ya haya vencido. Pregunte de todos modos. Cuando una persona con discapacidad necesita más tiempo para usar un cupón, la autoridad de vivienda debe extenderlo como acomodación razonable por el tiempo que razonablemente haga falta (24 CFR 982.303(b)(2)). Si ya venció, pregunte si pueden volver a emitirlo por la misma razón. La vivienda pública y los edificios subsidiados de dueños privados también deben hacer acomodaciones razonables según la Sección 504 y la Ley de Vivienda Justa.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Averigüe quién mandó la carta.</strong> ¿Fue una autoridad de vivienda o un edificio específico? Revise su correo viejo, sus correos electrónicos y mensajes. Si solicitó por internet, entre al portal de solicitantes.</li>\n<li><strong>Escriba y pregunte por su estado.</strong> Dé su nombre completo, fecha de nacimiento, más o menos cuándo hizo la solicitud, cualquier número de solicitud, y su dirección y teléfono actuales.</li>\n<li><strong>Pida que lo reintegren como acomodación razonable</strong> si lo sacaron de la lista o una oferta venció mientras estaba enfermo.</li>\n<li><strong>Consiga una nota de su proveedor</strong> que diga que estuvo gravemente enfermo y no podía responder en esas fechas.</li>\n<li><strong>Envíela de una forma que pueda probar,</strong> como correo electrónico más correo certificado, y guarde copias.</li>\n<li><strong>Dé seguimiento</strong> si no le contestan en unas dos semanas. Pida hablar con un supervisor o con la persona encargada de acomodaciones razonables si hace falta.</li>\n<li><strong>Actualice sus datos de contacto</strong> para que la próxima carta le llegue.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Solicité vivienda alrededor de [mes y año] (número de solicitud [número], si lo sabe). Recibí una carta alrededor de [mes], pero estaba gravemente enfermo y no pude responder. Por favor díganme en qué estado está mi solicitud. Si la cerraron o una oferta venció, pido que me reintegren a mi lugar anterior como acomodación razonable por mi discapacidad. Adjunto una nota de mi proveedor.\"</p></blockquote>\n<h2>Si le dicen que no</h2>\n<ul>\n<li>Pida la decisión y la razón por escrito. Sacarlo de una lista de espera de Sección 8 cuenta como negarle asistencia, así que puede pedir una revisión informal (24 CFR 982.552(a)(2) y 982.554). Fíjese en la fecha límite de esa carta.</li>\n<li>Si le niegan la acomodación, pregunte por escrito por qué y si otra acomodación podría funcionar.</li>\n<li>Puede presentar una queja de vivienda justa ante HUD dentro de un año, o pedir <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a>.</li>\n<li>Mientras tanto, solicite en otras listas de espera abiertas para no depender de una sola.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-solicitar-acomodacion-razonable",
+        "label": "Cómo solicitar una acomodación razonable",
+        "note": "Cómo pedirla, qué prueba dar y qué hacer si le dicen que no."
+      },
+      {
+        "href": "/es/recursos/plantillas/solicitud-adaptacion-razonable",
+        "label": "Carta de solicitud de acomodación razonable (plantilla)",
+        "note": "Una carta para llenar que puede adaptar para pedir que lo reintegren."
+      },
+      {
+        "href": "/es/blog/posts/pha-no-devuelve-llamada",
+        "label": "¿Su PHA no le devuelve la llamada? Qué hacer",
+        "note": "Qué hacer cuando la autoridad de vivienda no le contesta."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.204",
+        "label": "24 CFR 982.204: reglas de la lista de espera y reintegro (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: plazo y extensiones del cupón (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: revisión informal para solicitantes (eCFR, en inglés)"
+      }
+    ]
+  }
+}

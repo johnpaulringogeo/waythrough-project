@@ -1,0 +1,102 @@
+{
+  "slug": "rent-overcharged-at-recertification",
+  "es_slug": "renta-cobrada-de-mas-en-recertificacion",
+  "topic": "rent",
+  "order": 30,
+  "related": [
+    "disability-and-dependent-deduction-together",
+    "utility-bills-shared-meter-section-8"
+  ],
+  "en": {
+    "question": "At my recertification, my rent was calculated too high. I paid the higher amount for two months before it was corrected, and now my landlord won't credit my account for the overpayment. Is that legal?",
+    "title": "Overcharged Rent After Recertification?",
+    "description": "If your rent was set too high and later fixed, you're usually owed the difference. The Section 8 and HUD rules on refunds, and a letter you can send.",
+    "h1": "My rent was set too high at recertification. Does my landlord have to pay me back?",
+    "crumb": "Overcharged at recert",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Usually not. When a rent mistake is corrected back to when it started, you are generally owed what you overpaid, as a refund or a credit. In Section 8, a landlord must return any rent you paid above your share, and in HUD-assisted buildings the owner must reimburse overpayments caused by its own error. Ask in writing, and bring in the housing authority or HUD if the landlord won't.",
+    "body_html": "<h2>What the rules say</h2>\n<p>Who owes you depends on your program.</p>\n<ul>\n<li><strong>Section 8 voucher:</strong> The housing authority figures your share of the rent. The landlord may not accept more than that and \"must immediately return any excess rent payment to the tenant\" (24 CFR 982.451(b)(4)(ii)). Ask the housing authority whether it made the correction retroactive to the start date, and whether it paid the landlord its larger share for those months. If it did, the landlord was paid twice for the same rent.</li>\n<li><strong>Project-based Section 8 and other HUD Multifamily buildings</strong> (where the owner does your recertification): HUD's Occupancy Handbook says that when the owner finds it over-counted your income, it must correct the past certifications, tell you in writing how much you overpaid, and let you choose a full, immediate refund or a credit toward future rent (HUD Handbook 4350.3, paragraph 8-24). When a review finds the error, the owner must reimburse your overpayment (paragraph 8-25).</li>\n<li><strong>Public housing:</strong> The housing authority is your landlord. If it won't fix your balance, use its grievance procedure.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Gather proof:</strong> the old and corrected rent notices, receipts or bank records for the months you overpaid, and your rent ledger.</li>\n<li><strong>Do the math:</strong> (what you paid minus the corrected rent) times the number of months.</li>\n<li><strong>Write the landlord</strong> asking for a refund or a credit by a set date, like 14 days.</li>\n<li><strong>Send a copy</strong> to your housing authority caseworker (voucher) or ask the manager about HUD's correction process (HUD building).</li>\n<li><strong>Keep paying your corrected rent on time.</strong> Don't hold back rent to make up the difference without first talking to legal aid and checking your state's rules. Withholding rent can lead to an eviction case.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"My rent was corrected from $[old amount] to $[new amount], effective [date]. I paid the higher amount for [number] months, an overpayment of $[total]. Please refund this amount or credit it to my account within 14 days and send me an updated ledger. Under [24 CFR 982.451(b)(4) / HUD Handbook 4350.3, paragraph 8-24], overpaid rent must be returned to the tenant.\"</p></blockquote>\n<h2>If they say no</h2>\n<ul>\n<li><strong>Voucher:</strong> Ask the housing authority to enforce its contract with the owner. If the housing authority itself won't make the correction retroactive, you can ask for an informal hearing on how your rent was figured (24 CFR 982.555(a)(1)(i)).</li>\n<li><strong>HUD building:</strong> Call HUD's Multifamily Housing Complaint Line at 1-800-685-8470 (weekdays, 9 a.m. to 5 p.m. Eastern).</li>\n<li>You may also be able to go to small claims court for the money. <a href=\"/resources/guides/free-legal-help-for-tenants\">Free legal aid</a> can tell you whether that makes sense in your state.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/resources/guides/how-recertification-works",
+        "label": "How Recertification Works and How to Prepare",
+        "note": "How recertification works, so you can spot a wrong number early."
+      },
+      {
+        "href": "/resources/guides/understanding-rent-calculation",
+        "label": "How Your Rent Is Calculated in Section 8",
+        "note": "Check the math yourself: the full rent formula with examples."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get the housing authority to act."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.451",
+        "label": "24 CFR 982.451: Owner must return excess rent (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c8hsgh.pdf",
+        "label": "HUD Handbook 4350.3, Chapter 8 (paragraphs 8-24 and 8-25)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: Informal hearing for participants (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/contactus/multifamily-housing-complaint",
+        "label": "HUD Multifamily Housing Complaint Line"
+      }
+    ]
+  },
+  "es": {
+    "question": "En mi recertificación calcularon mi renta demasiado alta. Pagué la cantidad más alta durante dos meses antes de que la corrigieran, y ahora el dueño no quiere acreditar el pago de más a mi cuenta. ¿Es legal?",
+    "title": "¿Le cobraron renta de más al recertificar?",
+    "description": "Si su renta se fijó muy alta y luego se corrigió, por lo general le deben la diferencia. Reglas de Sección 8 y de HUD sobre reembolsos, y una carta modelo.",
+    "h1": "Me fijaron la renta muy alta en la recertificación. ¿El dueño tiene que devolverme el dinero?",
+    "crumb": "Renta cobrada de más",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Por lo general, no es legal. Cuando un error de renta se corrige desde la fecha en que empezó, normalmente le deben lo que pagó de más, como reembolso o como crédito. En Sección 8, el dueño debe devolver cualquier renta que usted pagó por encima de su parte, y en los edificios con ayuda de HUD el dueño debe reembolsar los pagos de más causados por su propio error. Pídalo por escrito y acuda a la autoridad de vivienda o a HUD si el dueño se niega.",
+    "body_html": "<h2>Lo que dicen las reglas</h2>\n<p>Quién le debe depende de su programa.</p>\n<ul>\n<li><strong>Cupón de Sección 8:</strong> La autoridad de vivienda calcula su parte de la renta. El dueño no puede aceptar más que eso y debe devolverle de inmediato cualquier pago de renta en exceso (24 CFR 982.451(b)(4)(ii)). Pregunte a la autoridad de vivienda si hizo la corrección retroactiva a la fecha de inicio y si le pagó al dueño su parte más alta por esos meses. Si fue así, al dueño le pagaron dos veces la misma renta.</li>\n<li><strong>Sección 8 basada en proyectos y otros edificios Multifamily de HUD</strong> (donde el dueño hace su recertificación): el Manual de Ocupación de HUD dice que cuando el dueño descubre que contó de más su ingreso, debe corregir las certificaciones anteriores, informarle por escrito cuánto pagó de más y dejarle elegir entre un reembolso completo e inmediato o un crédito para la renta futura (Manual de HUD 4350.3, párrafo 8-24). Cuando una revisión encuentra el error, el dueño debe reembolsarle lo que pagó de más (párrafo 8-25).</li>\n<li><strong>Vivienda pública:</strong> La autoridad de vivienda es su arrendador. Si no corrige su saldo, use su procedimiento de quejas.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Reúna pruebas:</strong> los avisos de renta anterior y corregido, recibos o estados de cuenta de los meses que pagó de más, y su historial de pagos de renta.</li>\n<li><strong>Haga la cuenta:</strong> (lo que pagó menos la renta corregida) por el número de meses.</li>\n<li><strong>Escriba al dueño</strong> pidiendo un reembolso o un crédito antes de una fecha fija, por ejemplo 14 días.</li>\n<li><strong>Envíe una copia</strong> a su trabajador de caso en la autoridad de vivienda (cupón) o pregunte a la administración por el proceso de corrección de HUD (edificio de HUD).</li>\n<li><strong>Siga pagando a tiempo su renta corregida.</strong> No retenga renta para compensar la diferencia sin antes hablar con ayuda legal y revisar las reglas de su estado. Retener la renta puede llevar a un caso de desalojo.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Mi renta se corrigió de $[cantidad anterior] a $[cantidad nueva], a partir del [fecha]. Pagué la cantidad más alta durante [número] meses, un pago de más de $[total]. Por favor reembolsen esta cantidad o acredítenla a mi cuenta dentro de 14 días y envíenme un historial de pagos actualizado. Según [24 CFR 982.451(b)(4) / el Manual de HUD 4350.3, párrafo 8-24], la renta pagada de más se le debe devolver al inquilino.\"</p></blockquote>\n<h2>Si le dicen que no</h2>\n<ul>\n<li><strong>Cupón:</strong> Pida a la autoridad de vivienda que haga cumplir su contrato con el dueño. Si la propia autoridad de vivienda no quiere hacer la corrección retroactiva, puede pedir una audiencia informal sobre cómo calcularon su renta (24 CFR 982.555(a)(1)(i)).</li>\n<li><strong>Edificio de HUD:</strong> Llame a la Línea de Quejas de Vivienda Multifamiliar de HUD al 1-800-685-8470 (días de semana, de 9 a.m. a 5 p.m., hora del Este).</li>\n<li>También puede acudir a la corte de reclamos menores para recuperar el dinero. La <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> puede decirle si eso conviene en su estado.</li>\n</ul>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-funciona-recertificacion",
+        "label": "Cómo funciona la recertificación de vivienda",
+        "note": "Cómo funciona la recertificación, para detectar un número equivocado a tiempo."
+      },
+      {
+        "href": "/es/recursos/guias/como-se-calcula-la-renta",
+        "label": "Cómo se calcula su renta en la Sección 8",
+        "note": "Revise el cálculo usted mismo: la fórmula completa de la renta con ejemplos."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su PHA",
+        "note": "Cómo hacer solicitudes por escrito y lograr que la autoridad de vivienda actúe."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.451",
+        "label": "24 CFR 982.451: el dueño debe devolver la renta en exceso (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c8hsgh.pdf",
+        "label": "Manual de HUD 4350.3, capítulo 8 (párrafos 8-24 y 8-25; en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: audiencia informal para participantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/contactus/multifamily-housing-complaint",
+        "label": "Línea de Quejas de Vivienda Multifamiliar de HUD (en inglés)"
+      }
+    ]
+  }
+}

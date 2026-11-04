@@ -1,0 +1,102 @@
+{
+  "slug": "trust-distributions-subsidized-housing",
+  "es_slug": "fideicomiso-y-vivienda-subsidiada",
+  "topic": "rent",
+  "order": 20,
+  "related": [
+    "disability-and-dependent-deduction-together",
+    "rent-overcharged-at-recertification"
+  ],
+  "en": {
+    "question": "I live in subsidized housing in Maine on a small fixed income plus part-time work. A family member set up an irrevocable trust, and I'm thinking of asking for monthly distributions for a couple of years. My rent would probably go up, but would I be able to stay eligible for my apartment?",
+    "title": "Will Trust Payments Affect Subsidized Housing?",
+    "description": "Under HUD's HOTMA rules, principal paid from an irrevocable trust you don't control isn't counted as income, but trust earnings are. Ask in writing first.",
+    "h1": "Will taking trust distributions affect my subsidized housing?",
+    "crumb": "Trust distributions",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Possibly, but it depends on how the payments count. Under HUD's updated (HOTMA) rules, payments of principal from an irrevocable trust you don't control aren't counted as income, while payments of what the trust earned are. Ask your housing provider in writing how it would count the distributions before you take them.",
+    "body_html": "<h2>What the rules say</h2>\n<p><strong>The trust itself.</strong> If a trust can't be revoked by, and isn't controlled by, anyone in your household, its value is not one of your family's assets (24 CFR 5.603, \"net family assets\"). That matters because HUD programs have an asset limit (24 CFR 5.618).</p>\n<p><strong>The payments.</strong> Under the HOTMA income rule (24 CFR 5.609(b)(2)), for an irrevocable trust outside your family's control:</p>\n<ul>\n<li>Payments from the <strong>principal</strong> (the money put into the trust) are <strong>not counted</strong> as income.</li>\n<li>Payments of <strong>income the trust earned</strong> (like interest or dividends) <strong>are counted</strong>, unless they pay for a minor's medical care.</li>\n</ul>\n<p>The trustee can tell you which part of each payment is principal and which is earnings. Get that in writing.</p>\n<p><strong>When these rules apply.</strong> For housing authority programs (vouchers and public housing), HUD enforces the HOTMA rules for rent calculations that take effect on or after January 1, 2027 (Notice PIH 2026-15). Some housing authorities and privately owned HUD buildings are on other timelines. Under the older rules, regular trust payments may be counted as income, so ask which rules your provider uses now.</p>\n<p><strong>Money you keep.</strong> Once a payment is in your bank account, what you haven't spent can count as an asset. If your savings grow large, the asset limit or income figured on your assets can come into play.</p>\n<h2>Will you stay eligible?</h2>\n<p>Income limits mostly apply when you move in. After that, more counted income usually means higher rent, not losing your home. But it depends on your program:</p>\n<ul>\n<li><strong>Section 8 voucher:</strong> your share of rent goes up. If your share covers the whole rent for 180 days, your assistance contract ends (24 CFR 982.455).</li>\n<li><strong>Public housing:</strong> if your income stays over 120% of the area median (2.4 times the very low-income limit) for 24 months in a row, the housing authority applies its over-income policy, which can mean a much higher rent or having to move (24 CFR 960.507).</li>\n<li><strong>Project-based Section 8 and other HUD buildings:</strong> your rent usually rises with income, up to the building's full rent.</li>\n<li><strong>Tax credit (LIHTC) and USDA Rural Development buildings:</strong> these have their own rules. Ask your manager.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Before taking any distribution, ask the trustee for a written statement that the trust is irrevocable, who controls it, and whether payments would come from principal or earnings.</li>\n<li>Write your housing authority or property manager and ask how it would count those payments, both now and after January 1, 2027.</li>\n<li>Report the payments the way your lease and program require, usually at recertification or within a set number of days. Not reporting can lead to repaying assistance.</li>\n<li>Talk to a tax professional about taxes on the distributions.</li>\n<li>For a second opinion, contact legal aid. Our <a href=\"/resources/states/maine\">Maine page</a> lists housing and legal help.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"I may receive monthly distributions from an irrevocable trust that no one in my household controls. The trustee says the payments would come from [principal / trust earnings]. Before I accept them, please tell me in writing how you would count these payments for my rent and eligibility, and whether you are using the current rules or the HOTMA rules.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/blog/posts/income-went-up-on-section-8",
+        "label": "My Income Went Up on Section 8. Will I Lose My Voucher?",
+        "note": "What happens to your rent and voucher when income rises."
+      },
+      {
+        "href": "/resources/guides/understanding-rent-calculation",
+        "label": "How Your Rent Is Calculated in Section 8",
+        "note": "How counted income turns into your rent, under today's rules and HOTMA."
+      },
+      {
+        "href": "/resources/states/maine",
+        "label": "Maine Tenant Rights and Section 8",
+        "note": "Maine tenant rights, housing help and legal aid."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.609",
+        "label": "24 CFR 5.609: Annual income, including trust distributions (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.603",
+        "label": "24 CFR 5.603: Net family assets and trusts (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-960.507",
+        "label": "24 CFR 960.507: Public housing over-income rule (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-15.pdf",
+        "label": "HUD Notice PIH 2026-15: HOTMA compliance date"
+      }
+    ]
+  },
+  "es": {
+    "question": "Vivo en vivienda subsidiada en Maine con un ingreso fijo pequeño y un trabajo de medio tiempo. Un familiar creó un fideicomiso irrevocable y estoy pensando en pedir pagos mensuales durante un par de años. Mi renta probablemente subiría, pero ¿podría seguir siendo elegible para mi apartamento?",
+    "title": "¿Un fideicomiso afecta su vivienda subsidiada?",
+    "description": "Con las reglas HOTMA de HUD, el capital de un fideicomiso irrevocable que usted no controla no cuenta como ingreso, pero las ganancias sí. Pregunte antes.",
+    "h1": "¿Recibir pagos de un fideicomiso afectará mi vivienda subsidiada?",
+    "crumb": "Pagos de fideicomiso",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Puede ser, pero depende de cómo se cuenten los pagos. Con las reglas actualizadas de HUD (HOTMA), los pagos del capital de un fideicomiso irrevocable que usted no controla no cuentan como ingreso, mientras que los pagos de lo que ganó el fideicomiso sí cuentan. Pregunte por escrito a su proveedor de vivienda cómo los contaría antes de recibirlos.",
+    "body_html": "<h2>Lo que dicen las reglas</h2>\n<p><strong>El fideicomiso en sí.</strong> Si nadie de su hogar puede revocar ni controla el fideicomiso, su valor no es uno de los bienes de su familia (24 CFR 5.603, \"bienes netos de la familia\"). Eso importa porque los programas de HUD tienen un límite de bienes (24 CFR 5.618).</p>\n<p><strong>Los pagos.</strong> Según la regla de ingresos de HOTMA (24 CFR 5.609(b)(2)), en un fideicomiso irrevocable fuera del control de su familia:</p>\n<ul>\n<li>Los pagos del <strong>capital</strong> (el dinero que se puso en el fideicomiso) <strong>no cuentan</strong> como ingreso.</li>\n<li>Los pagos de las <strong>ganancias del fideicomiso</strong> (como intereses o dividendos) <strong>sí cuentan</strong>, salvo que se usen para gastos médicos de un menor.</li>\n</ul>\n<p>El fideicomisario puede decirle qué parte de cada pago es capital y qué parte es ganancia. Pida eso por escrito.</p>\n<p><strong>Cuándo aplican estas reglas.</strong> En los programas de las autoridades de vivienda (cupones y vivienda pública), HUD exige las reglas de HOTMA en los cálculos de renta que entren en vigor a partir del 1 de enero de 2027 (Aviso PIH 2026-15). Algunas autoridades de vivienda y algunos edificios de HUD de dueños privados siguen otros calendarios. Con las reglas anteriores, los pagos regulares de un fideicomiso pueden contar como ingreso, así que pregunte qué reglas usa hoy su proveedor.</p>\n<p><strong>El dinero que guarde.</strong> Cuando un pago entra a su cuenta de banco, lo que no gaste puede contar como un bien. Si sus ahorros crecen mucho, pueden entrar en juego el límite de bienes o el ingreso que se calcula sobre sus bienes.</p>\n<h2>¿Seguirá siendo elegible?</h2>\n<p>Los límites de ingreso se aplican sobre todo cuando usted se muda. Después, más ingreso contado por lo general significa más renta, no perder su hogar. Pero depende de su programa:</p>\n<ul>\n<li><strong>Cupón de Sección 8:</strong> su parte de la renta sube. Si su parte cubre toda la renta durante 180 días, su contrato de asistencia termina (24 CFR 982.455).</li>\n<li><strong>Vivienda pública:</strong> si su ingreso pasa del 120% del ingreso medio de la zona (2.4 veces el límite de ingreso muy bajo) durante 24 meses seguidos, la autoridad de vivienda aplica su política para familias con ingresos altos, lo que puede significar una renta mucho más alta o tener que mudarse (24 CFR 960.507).</li>\n<li><strong>Sección 8 basada en proyectos y otros edificios de HUD:</strong> su renta por lo general sube con su ingreso, hasta la renta completa del edificio.</li>\n<li><strong>Edificios con crédito fiscal (LIHTC) o de Desarrollo Rural del USDA:</strong> tienen sus propias reglas. Pregunte a la administración.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Antes de recibir cualquier pago, pida al fideicomisario una declaración por escrito que diga que el fideicomiso es irrevocable, quién lo controla y si los pagos saldrían del capital o de las ganancias.</li>\n<li>Escriba a su autoridad de vivienda o a la administración del edificio y pregunte cómo contarían esos pagos, ahora y después del 1 de enero de 2027.</li>\n<li>Reporte los pagos como lo exijan su contrato y su programa, por lo general en la recertificación o dentro de cierto número de días. No reportarlos puede llevar a tener que devolver asistencia.</li>\n<li>Hable con un profesional de impuestos sobre los impuestos de los pagos.</li>\n<li>Para una segunda opinión, busque ayuda legal. Nuestra <a href=\"/es/recursos/estados/maine\">página de Maine</a> tiene recursos de vivienda y ayuda legal.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Es posible que reciba pagos mensuales de un fideicomiso irrevocable que nadie de mi hogar controla. El fideicomisario dice que los pagos saldrían de [el capital / las ganancias del fideicomiso]. Antes de aceptarlos, por favor díganme por escrito cómo contarían estos pagos para mi renta y mi elegibilidad, y si usan las reglas actuales o las de HOTMA.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/es/blog/posts/ingreso-subio-en-section-8",
+        "label": "Mi ingreso subió: ¿perderé mi Sección 8?",
+        "note": "Qué pasa con su renta y su cupón cuando sube su ingreso."
+      },
+      {
+        "href": "/es/recursos/guias/como-se-calcula-la-renta",
+        "label": "Cómo se calcula su renta en la Sección 8",
+        "note": "Cómo el ingreso contado se convierte en su renta, con las reglas de hoy y con HOTMA."
+      },
+      {
+        "href": "/es/recursos/estados/maine",
+        "label": "Derechos del inquilino en Maine y Sección 8",
+        "note": "Derechos del inquilino, ayuda de vivienda y ayuda legal en Maine."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.609",
+        "label": "24 CFR 5.609: ingreso anual, incluidos pagos de fideicomisos (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.603",
+        "label": "24 CFR 5.603: bienes netos de la familia y fideicomisos (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-960.507",
+        "label": "24 CFR 960.507: regla de ingresos altos en vivienda pública (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/default/files/hudclips/documents/PIH-2026-15.pdf",
+        "label": "Aviso PIH 2026-15 de HUD: fecha de cumplimiento de HOTMA (en inglés)"
+      }
+    ]
+  }
+}

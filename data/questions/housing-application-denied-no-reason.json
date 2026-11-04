@@ -1,0 +1,94 @@
+{
+  "slug": "housing-application-denied-no-reason",
+  "es_slug": "solicitud-de-vivienda-negada-sin-razon",
+  "topic": "applying",
+  "order": 30,
+  "related": [
+    "send-housing-appeal-by-email-or-mail",
+    "trafficking-survivor-section-8-eligibility"
+  ],
+  "en": {
+    "question": "My application said I didn't qualify for anything. What's the reason?",
+    "title": "Housing Application Denied With No Reason?",
+    "description": "A housing authority must tell you in writing why you were denied and how to ask for a review. Common reasons, what to ask for, and a sample letter.",
+    "h1": "My housing application was denied, but it didn't say why. What can I do?",
+    "crumb": "Denied, no reason given",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "You have a right to know. The housing authority must give you written notice with a brief reason for the denial and tell you how to ask for an informal review (Section 8) or an informal hearing (public housing). Ask for the reason and your file in writing, and request the review before the deadline.",
+    "body_html": "<h2>What the rule says</h2>\n<ul>\n<li><strong>Section 8 (Housing Choice Voucher):</strong> The housing authority must give you prompt notice of a denial, a brief statement of the reasons, and an explanation of how to ask for an informal review (24 CFR 982.554(a)). The review must be done by someone who didn't make or approve the original decision, and you can give your objections in writing or in person.</li>\n<li><strong>Public housing:</strong> The housing authority must promptly tell you the basis for finding you ineligible and, if you ask, give you a chance for an informal hearing (24 CFR 960.208(a)).</li>\n<li><strong>Privately owned HUD buildings</strong> (like project-based Section 8): HUD's handbook says the rejection notice must be in writing, state the specific reasons, and give you 14 days to respond in writing or ask for a meeting (HUD Handbook 4350.3, paragraph 4-9).</li>\n</ul>\n<p>A notice that only says \"you didn't qualify\" doesn't meet these rules.</p>\n<h2>Common reasons for a denial</h2>\n<ul>\n<li>Income over the limit for your household size</li>\n<li>Missing documents or an incomplete application</li>\n<li>Not answering a letter or missing an appointment</li>\n<li>Background screening, or money owed to a housing authority</li>\n<li>Citizenship or immigration status rules</li>\n<li>Not fitting any program that's open right now. Online systems that screen you for several programs at once sometimes say \"you don't qualify for any\" when, for example, the only open list is for seniors.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Find out who denied you: a housing authority's voucher list, public housing, or a specific building.</li>\n<li>Write and ask for the specific reason and a copy of your file, including any background or credit report they used.</li>\n<li>In the same letter, ask for an informal review or hearing. Don't wait for the reason to arrive first, because the deadline keeps running.</li>\n<li>Gather papers that answer the reason: pay stubs, benefit letters, ID, or proof that a record is wrong or not yours.</li>\n<li>Go to the review. You can bring a friend, an advocate or a lawyer.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"My application [number] was denied, but the notice did not give a reason. Please send me the specific reason in writing and a copy of my file, including any screening reports you used. I also request an informal review [or hearing] of this decision.\"</p></blockquote>\n<h2>If they say no</h2>\n<p>If the notice had no reason or no deadline, point that out in writing, because the rules require both. If the review goes against you, you should get a written final decision with reasons. If you think you were denied because of a disability, race, or another protected trait, you can file a fair housing complaint. <a href=\"/resources/guides/free-legal-help-for-tenants\">Free legal aid</a> can help you decide what to do. Keep applying to other open lists while you wait.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/how-to-appeal-housing-denial",
+        "label": "How to Appeal a Housing Denial",
+        "note": "How to prepare for the informal review and what to bring."
+      },
+      {
+        "href": "/resources/templates/housing-denial-appeal",
+        "label": "Housing Denial Appeal Letter (template)",
+        "note": "A fill-in letter to ask for the reason and a review."
+      },
+      {
+        "href": "/resources/guides/section-8-eligibility-requirements",
+        "label": "Section 8 Eligibility Requirements",
+        "note": "The income, status and background rules most denials come from."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Notice and informal review for Section 8 applicants (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-960.208",
+        "label": "24 CFR 960.208: Notice to public housing applicants (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c4hsgh.pdf",
+        "label": "HUD Handbook 4350.3, Chapter 4 (paragraph 4-9, rejection notices)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Mi solicitud dijo que no califico para nada. ¿Cuál es la razón?",
+    "title": "¿Le negaron la vivienda sin decirle por qué?",
+    "description": "La autoridad de vivienda debe decirle por escrito por qué le negaron la solicitud y cómo pedir una revisión. Razones comunes, qué pedir y una carta modelo.",
+    "h1": "Me negaron la solicitud de vivienda, pero no me dijeron por qué. ¿Qué puedo hacer?",
+    "crumb": "Negada sin razón",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Usted tiene derecho a saberlo. La autoridad de vivienda debe darle un aviso por escrito con una breve explicación del rechazo y decirle cómo pedir una revisión informal (Sección 8) o una audiencia informal (vivienda pública). Pida por escrito la razón y su expediente, y solicite la revisión antes de la fecha límite.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<ul>\n<li><strong>Sección 8 (cupón de vivienda):</strong> La autoridad de vivienda debe avisarle pronto del rechazo, darle una breve explicación de las razones y decirle cómo pedir una revisión informal (24 CFR 982.554(a)). La revisión la debe hacer alguien que no tomó ni aprobó la decisión original, y usted puede presentar sus objeciones por escrito o en persona.</li>\n<li><strong>Vivienda pública:</strong> La autoridad de vivienda debe decirle pronto por qué no es elegible y, si usted lo pide, darle la oportunidad de una audiencia informal (24 CFR 960.208(a)).</li>\n<li><strong>Edificios de HUD de dueños privados</strong> (como la Sección 8 basada en proyectos): el manual de HUD dice que el aviso de rechazo debe ser por escrito, dar las razones específicas y darle 14 días para responder por escrito o pedir una reunión (Manual de HUD 4350.3, párrafo 4-9).</li>\n</ul>\n<p>Un aviso que solo dice \"usted no califica\" no cumple con estas reglas.</p>\n<h2>Razones comunes de rechazo</h2>\n<ul>\n<li>Ingresos por encima del límite para el tamaño de su hogar</li>\n<li>Documentos que faltan o una solicitud incompleta</li>\n<li>No contestar una carta o faltar a una cita</li>\n<li>Revisión de antecedentes, o dinero que se le debe a una autoridad de vivienda</li>\n<li>Reglas de ciudadanía o estatus migratorio</li>\n<li>No encajar en ningún programa abierto en este momento. Los sistemas en línea que lo evalúan para varios programas a la vez a veces dicen \"no califica para ninguno\" cuando, por ejemplo, la única lista abierta es para personas mayores.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Averigüe quién le negó la solicitud: la lista de cupones de una autoridad de vivienda, la vivienda pública o un edificio específico.</li>\n<li>Escriba y pida la razón específica y una copia de su expediente, incluido cualquier informe de antecedentes o de crédito que hayan usado.</li>\n<li>En la misma carta, pida una revisión o audiencia informal. No espere a que llegue la razón, porque el plazo sigue corriendo.</li>\n<li>Reúna documentos que respondan a la razón: talones de pago, cartas de beneficios, identificación o pruebas de que un registro está equivocado o no es suyo.</li>\n<li>Vaya a la revisión. Puede llevar a un amigo, a un defensor o a un abogado.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Me negaron la solicitud [número], pero el aviso no dio ninguna razón. Por favor envíenme por escrito la razón específica y una copia de mi expediente, incluidos los informes de evaluación que usaron. También solicito una revisión informal [o audiencia informal] de esta decisión.\"</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si el aviso no tenía razón ni fecha límite, señálelo por escrito, porque las reglas exigen las dos cosas. Si la revisión sale en su contra, deben darle una decisión final por escrito con las razones. Si cree que lo rechazaron por una discapacidad, por su raza o por otra característica protegida, puede presentar una queja de vivienda justa. La <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> puede ayudarle a decidir qué hacer. Siga solicitando en otras listas abiertas mientras espera.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-apelar-negacion-vivienda",
+        "label": "Cómo apelar una negación de vivienda",
+        "note": "Cómo prepararse para la revisión informal y qué llevar."
+      },
+      {
+        "href": "/es/recursos/plantillas/apelacion-negacion-vivienda",
+        "label": "Carta de apelación por denegación de vivienda (plantilla)",
+        "note": "Una carta para llenar y pedir la razón y una revisión."
+      },
+      {
+        "href": "/es/recursos/guias/requisitos-elegibilidad-seccion-8",
+        "label": "Requisitos de elegibilidad de Sección 8",
+        "note": "Las reglas de ingresos, estatus y antecedentes de donde salen la mayoría de los rechazos."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: aviso y revisión informal para solicitantes de Sección 8 (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-960.208",
+        "label": "24 CFR 960.208: aviso a solicitantes de vivienda pública (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c4hsgh.pdf",
+        "label": "Manual de HUD 4350.3, capítulo 4 (párrafo 4-9, avisos de rechazo; en inglés)"
+      }
+    ]
+  }
+}

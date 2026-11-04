@@ -1,0 +1,94 @@
+{
+  "slug": "utility-bills-shared-meter-section-8",
+  "es_slug": "servicios-con-medidor-compartido-seccion-8",
+  "topic": "rent",
+  "order": 40,
+  "related": [
+    "rent-overcharged-at-recertification",
+    "disability-and-dependent-deduction-together"
+  ],
+  "en": {
+    "question": "My building runs on one meter, and since utilities stopped being included in my rent, my utility charges are higher than my share of the rent on Section 8. The landlord won't explain how they come up with the amounts, and I barely use anything because I'm on a tight fixed income. How can they bill me when everyone is on one meter?",
+    "title": "Section 8 Utility Bills on a Shared Meter?",
+    "description": "When a building has one meter, some states let landlords split the bill by formula. On Section 8, moving utilities onto you needs housing authority approval.",
+    "h1": "How can my landlord bill me for utilities when the whole building is on one meter?",
+    "crumb": "Shared-meter utilities",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "It depends on your state's law, your lease and Section 8 rules. Some states let landlords split one meter's bill among tenants by a formula (often called ratio billing), and some limit or ban it. On Section 8, a lease change that moves utilities onto you has to go through your housing authority, and you should get a utility allowance for utilities you pay.",
+    "body_html": "<h2>How shared-meter billing works</h2>\n<p>When a building has one meter, the landlord gets one bill. To charge each tenant, some landlords divide it using a formula based on things like apartment size or the number of people. This is often called ratio utility billing, or RUBS. It's an estimate, not your actual use, which is why your bill can be high even when you barely use anything.</p>\n<p>Whether this is allowed depends on your state, and sometimes your city. Some states require a lease term that explains the formula, copies of the bills, or limits on fees. Some restrict or ban it. Check your <a href=\"/resources/states/\">state page</a> and ask legal aid.</p>\n<h2>What Section 8 rules say</h2>\n<ul>\n<li><strong>Moving utilities onto you is a big change.</strong> If the lease changes who pays for utilities, your Section 8 assistance can't continue unless the housing authority approves the new tenancy and signs a new contract with the landlord (24 CFR 982.308(g)(2)(i)). Any lease change must be in writing, and the landlord must give the housing authority a copy (24 CFR 982.308(g)(1)).</li>\n<li><strong>You should get a utility allowance.</strong> Housing authorities must keep a utility allowance for tenant-paid utilities (24 CFR 982.517). It lowers your share of the rent to help cover those bills. If the landlord charges a flat utility fee, the housing authority can base your allowance on that fee only if the fee is no more than its allowance.</li>\n<li><strong>The rent gets checked.</strong> Before approving a lease, the housing authority must find that the rent is reasonable (24 CFR 982.507). Rent that used to include utilities may not be reasonable once they're taken out.</li>\n<li><strong>You can dispute the allowance.</strong> You can ask for an informal hearing on the utility allowance the housing authority used for you (24 CFR 982.555(a)(1)(ii)).</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Find your lease and anything the landlord asked you to sign about utilities. Did you sign a new lease or an addendum?</li>\n<li>Write the landlord and ask for the formula, the building's actual utility bills, and how your share was figured.</li>\n<li>Tell your caseworker in writing that utilities moved from the rent to you. Ask whether the housing authority approved the change and updated your utility allowance and rent share.</li>\n<li>If you're behind on the bills, ask about LIHEAP or other utility help, and keep a record of every payment.</li>\n<li>Don't stop paying rent over this without talking to legal aid first.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"Utilities used to be included in my rent and are now billed to me from a shared meter. Please send me the formula you use, the building's utility bills for the last six months, and how my charge was figured.\"</p></blockquote>\n<p>To your caseworker: \"My landlord started billing me for utilities that used to be included in my rent. Did you approve this change? Please review my utility allowance and my rent share.\"</p>\n<h2>If they say no</h2>\n<p>If the landlord won't explain the bills, or the housing authority never approved the change, ask the housing authority to step in. <a href=\"/resources/guides/free-legal-help-for-tenants\">Free legal aid</a> or your state attorney general's consumer protection office can tell you whether the billing is legal where you live.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/utility-allowances-explained",
+        "label": "What Is a Utility Allowance for Section 8?",
+        "note": "How the utility allowance lowers your rent share, with examples."
+      },
+      {
+        "href": "/resources/guides/utility-assistance-programs",
+        "label": "Utility Assistance Programs (LIHEAP and Beyond)",
+        "note": "LIHEAP and other help if you're behind on utility bills."
+      },
+      {
+        "href": "/resources/tenant-rights",
+        "label": "Understanding Your Rights as a Tenant",
+        "note": "Your basic rights as a tenant, and where state law fits in."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.517",
+        "label": "24 CFR 982.517: Utility allowance schedule (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.308",
+        "label": "24 CFR 982.308: Lease changes, including utilities (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: Informal hearing for participants (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Mi edificio funciona con un solo medidor, y desde que los servicios dejaron de estar incluidos en la renta, lo que pago de servicios es más que mi parte de la renta en Sección 8. El dueño no explica cómo calcula las cantidades, y casi no uso nada porque vivo con un ingreso fijo muy justo. ¿Cómo pueden cobrarme si todos estamos en un solo medidor?",
+    "title": "¿Servicios con un solo medidor en Sección 8?",
+    "description": "Si un edificio tiene un solo medidor, algunos estados dejan repartir la cuenta con una fórmula. En Sección 8, pasarle los servicios requiere aprobación.",
+    "h1": "¿Cómo puede el dueño cobrarme los servicios si todo el edificio tiene un solo medidor?",
+    "crumb": "Medidor compartido",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Depende de la ley de su estado, de su contrato y de las reglas de Sección 8. Algunos estados permiten que el dueño reparta la cuenta de un solo medidor entre los inquilinos con una fórmula (a menudo llamada facturación por proporción), y otros la limitan o la prohíben. En Sección 8, un cambio en el contrato que le pasa a usted los servicios tiene que pasar por su autoridad de vivienda, y usted debe recibir una asignación de servicios públicos por los servicios que paga.",
+    "body_html": "<h2>Cómo funciona el cobro con un medidor compartido</h2>\n<p>Cuando un edificio tiene un solo medidor, el dueño recibe una sola cuenta. Para cobrarle a cada inquilino, algunos dueños la dividen con una fórmula basada en cosas como el tamaño del apartamento o el número de personas. A esto se le suele llamar facturación por proporción (en inglés, RUBS). Es un cálculo aproximado, no lo que usted usa de verdad, y por eso su cuenta puede ser alta aunque casi no use nada.</p>\n<p>Si esto está permitido depende de su estado y a veces de su ciudad. Algunos estados exigen una cláusula en el contrato que explique la fórmula, copias de las cuentas o límites en los cargos. Otros lo restringen o lo prohíben. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a> y consulte con ayuda legal.</p>\n<h2>Lo que dicen las reglas de Sección 8</h2>\n<ul>\n<li><strong>Pasarle los servicios a usted es un cambio importante.</strong> Si el contrato cambia quién paga los servicios, su asistencia de Sección 8 no puede continuar a menos que la autoridad de vivienda apruebe el nuevo arrendamiento y firme un nuevo contrato con el dueño (24 CFR 982.308(g)(2)(i)). Todo cambio al contrato debe ser por escrito, y el dueño debe darle una copia a la autoridad de vivienda (24 CFR 982.308(g)(1)).</li>\n<li><strong>Debe recibir una asignación de servicios públicos.</strong> Las autoridades de vivienda deben tener una asignación para los servicios que paga el inquilino (24 CFR 982.517). Esa asignación baja su parte de la renta para ayudarle con esas cuentas. Si el dueño cobra una tarifa fija de servicios, la autoridad de vivienda puede basar su asignación en esa tarifa solo si no es mayor que su propia asignación.</li>\n<li><strong>Se revisa la renta.</strong> Antes de aprobar un contrato, la autoridad de vivienda debe confirmar que la renta es razonable (24 CFR 982.507). Una renta que antes incluía los servicios puede dejar de ser razonable cuando se los quitan.</li>\n<li><strong>Puede impugnar la asignación.</strong> Puede pedir una audiencia informal sobre la asignación de servicios públicos que la autoridad de vivienda usó para usted (24 CFR 982.555(a)(1)(ii)).</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Busque su contrato y cualquier papel sobre servicios que el dueño le pidió firmar. ¿Firmó un contrato nuevo o un anexo?</li>\n<li>Escriba al dueño y pida la fórmula, las cuentas reales de servicios del edificio y cómo calculó su parte.</li>\n<li>Avise por escrito a su trabajador de caso que los servicios pasaron de la renta a usted. Pregunte si la autoridad de vivienda aprobó el cambio y si actualizó su asignación de servicios y su parte de la renta.</li>\n<li>Si está atrasado con las cuentas, pregunte por LIHEAP u otra ayuda con servicios, y guarde un registro de cada pago.</li>\n<li>No deje de pagar la renta por esto sin hablar antes con ayuda legal.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Los servicios antes estaban incluidos en mi renta y ahora me los cobran de un medidor compartido. Por favor envíenme la fórmula que usan, las cuentas de servicios del edificio de los últimos seis meses y cómo calcularon mi cargo.\"</p></blockquote>\n<p>A su trabajador de caso: \"El dueño empezó a cobrarme servicios que antes estaban incluidos en mi renta. ¿Ustedes aprobaron este cambio? Por favor revisen mi asignación de servicios públicos y mi parte de la renta.\"</p>\n<h2>Si le dicen que no</h2>\n<p>Si el dueño no explica las cuentas, o si la autoridad de vivienda nunca aprobó el cambio, pida a la autoridad de vivienda que intervenga. La <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> o la oficina de protección al consumidor del fiscal general de su estado pueden decirle si el cobro es legal donde usted vive.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/asignaciones-de-servicios-publicos-explicadas",
+        "label": "Asignaciones de servicios públicos explicadas",
+        "note": "Cómo la asignación de servicios públicos baja su parte de la renta, con ejemplos."
+      },
+      {
+        "href": "/es/recursos/guias/programas-asistencia-servicios",
+        "label": "Programas de ayuda con servicios públicos (LIHEAP y más)",
+        "note": "LIHEAP y otra ayuda si está atrasado con las cuentas de servicios."
+      },
+      {
+        "href": "/es/recursos/derechos-del-inquilino",
+        "label": "Sus derechos como inquilino",
+        "note": "Sus derechos básicos como inquilino y dónde entra la ley estatal."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.517",
+        "label": "24 CFR 982.517: tabla de asignaciones de servicios públicos (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.308",
+        "label": "24 CFR 982.308: cambios al contrato, incluidos los servicios (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: audiencia informal para participantes (eCFR, en inglés)"
+      }
+    ]
+  }
+}
