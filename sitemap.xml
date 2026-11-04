@@ -4162,4 +4162,28 @@
   <url><loc>https://waythroughproject.com/blog/posts/what-happens-at-section-8-briefing</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/section-8-and-credit-scores</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/winter-utility-shutoff-protections</loc><lastmod>2026-11-04</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url>
+    <loc>https://waythroughproject.com/resources/questions/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/questions/voucher-expired-waiting-on-inspection</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/preguntas/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/preguntas/cupon-vencio-esperando-inspeccion</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
