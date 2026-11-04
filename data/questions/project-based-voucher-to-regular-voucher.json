@@ -1,0 +1,78 @@
+{
+  "slug": "project-based-voucher-to-regular-voucher",
+  "es_slug": "cupon-por-proyecto-a-cupon-regular",
+  "topic": "voucher",
+  "order": 60,
+  "related": [
+    "project-based-and-special-purpose-vouchers",
+    "port-voucher-when-pha-not-absorbing"
+  ],
+  "en": {
+    "question": "I live in an apartment with a project-based voucher. Can I switch it to a regular Section 8 voucher that I can take with me?",
+    "title": "Transfer a Project-Based Voucher to Section 8?",
+    "description": "After a year with a project-based voucher, you can usually ask for a regular voucher that moves with you. How it works, the wait, and what to write.",
+    "h1": "Can I switch my project-based voucher to a regular Section 8 voucher?",
+    "crumb": "Project-based to regular",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Usually yes, once you've had project-based assistance for one year. Ask the housing authority for a tenant-based voucher before you give your landlord notice; if none is available right away, it must put you first in line for the next one (24 CFR 983.261).",
+    "body_html": "<h2>What the rule says</h2>\n<p>A project-based voucher (PBV) stays with the apartment, not with you. But HUD gives PBV families a right to move with continued help (24 CFR 983.261):</p>\n<ul>\n<li>After <strong>one year</strong> of PBV assistance, you may end your lease and move.</li>\n<li>The housing authority (PHA) <strong>must</strong> offer you a tenant-based voucher, or other comparable help that moves with you.</li>\n<li>You must contact the PHA and ask for it <strong>before</strong> you give your landlord notice.</li>\n<li>If no voucher is available right then, the PHA must give you <strong>priority</strong> for the next one.</li>\n<li>If you move out before one year, you give up this right. There's an exception for moves needed because of domestic violence, dating violence, sexual assault or stalking.</li>\n</ul>\n<p>Priority doesn't always mean right away. At some PHAs few vouchers open up, so the wait can be months. You keep your PBV help in your current unit while you wait.</p>\n<h2>Check what kind of help you have</h2>\n<p>This rule covers project-based vouchers from a housing authority. Some buildings instead have &ldquo;project-based Section 8&rdquo; contracts directly between HUD and the owner, where you deal only with the property's management office. Families in those buildings don't have this right, except in buildings converted under HUD's Rental Assistance Demonstration (RAD), which has its own &ldquo;choice mobility&rdquo; rule. Ask the office: &ldquo;Is my help a PBV from a housing authority, a HUD project-based contract, or a RAD conversion?&rdquo;</p>\n<h2>What to do now</h2>\n<ol>\n<li>Check your move-in date. Make sure you've had PBV help for at least 12 months.</li>\n<li>Write to the PHA, not just the property manager, and ask for a tenant-based voucher under 24 CFR 983.261.</li>\n<li>Ask how the PHA tracks families waiting to move, where you are on that list, and about how long it may take. HUD requires the PHA to explain this in its Administrative Plan.</li>\n<li>Don't give your landlord notice until you have the voucher in hand.</li>\n<li>When the voucher comes, the normal search time applies, so have your documents ready and start a list of landlords who take vouchers.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;I have received project-based voucher assistance at [address] since [month and year], which is more than one year. Under 24 CFR 983.261, I request a tenant-based voucher so I can move with continued assistance. If none is available now, please give me priority for the next one and tell me in writing where I stand.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>Ask for the reason in writing, and ask for the part of the PHA's Administrative Plan that covers PBV families who want to move. If you've had a full year of PBV help and are told you can never move with a voucher, contact free legal aid, because that doesn't match the rule. If the PHA offers &ldquo;comparable&rdquo; tenant-based help instead of a voucher, ask how long it lasts and how it compares before you accept.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/project-based-vs-tenant-based-vouchers",
+        "label": "Project-Based vs. Tenant-Based Vouchers: What's the Difference?",
+        "note": "How the two kinds of vouchers differ, including the one-year right to move."
+      },
+      {
+        "href": "/blog/posts/moving-with-section-8-voucher",
+        "label": "Moving to a New Place With Your Section 8 Voucher",
+        "note": "Planning your search and move once you have the voucher."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Communicate Effectively With Your PHA",
+        "note": "How to get your place on the list in writing."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-983.261",
+        "label": "24 CFR 983.261: Family right to move (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Vivo en un apartamento con un cupón basado en proyecto. ¿Puedo cambiarlo por un cupón regular de la Sección 8 que pueda llevarme a otro lugar?",
+    "title": "¿Cambiar un cupón por proyecto a uno regular?",
+    "description": "Después de un año con un cupón basado en proyecto, por lo general puede pedir un cupón que se mude con usted. Cómo funciona ese derecho y qué escribir.",
+    "h1": "¿Puedo cambiar mi cupón basado en proyecto por un cupón regular de la Sección 8?",
+    "crumb": "De proyecto a regular",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Por lo general sí, después de un año con asistencia basada en proyecto. Pida a la autoridad de vivienda un cupón basado en el inquilino antes de avisarle a su propietario que se va; si no hay uno disponible enseguida, debe darle prioridad para el siguiente (24 CFR 983.261).",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Un cupón basado en proyecto (PBV) se queda con el apartamento, no con usted. Pero HUD les da a las familias con PBV el derecho a mudarse sin perder la ayuda (24 CFR 983.261):</p>\n<ul>\n<li>Después de <strong>un año</strong> con asistencia PBV, usted puede terminar su contrato de arrendamiento y mudarse.</li>\n<li>La autoridad de vivienda (PHA) <strong>debe</strong> ofrecerle un cupón basado en el inquilino, u otra ayuda comparable que se mude con usted.</li>\n<li>Usted debe comunicarse con la PHA y pedirlo <strong>antes</strong> de avisarle a su propietario que se va.</li>\n<li>Si en ese momento no hay un cupón disponible, la PHA debe darle <strong>prioridad</strong> para el siguiente.</li>\n<li>Si se muda antes de cumplir un año, pierde este derecho. Hay una excepción para las mudanzas necesarias por violencia doméstica, violencia en el noviazgo, agresión sexual o acecho.</li>\n</ul>\n<p>Tener prioridad no siempre quiere decir enseguida. En algunas PHA se liberan pocos cupones, así que la espera puede ser de meses. Mientras espera, sigue recibiendo su ayuda PBV en su unidad actual.</p>\n<h2>Confirme qué tipo de ayuda tiene</h2>\n<p>Esta regla cubre los cupones basados en proyecto de una autoridad de vivienda. Algunos edificios, en cambio, tienen contratos de &ldquo;Sección 8 basada en proyecto&rdquo; directamente entre HUD y el dueño, y usted solo trata con la oficina de administración. Las familias en esos edificios no tienen este derecho, salvo en edificios convertidos bajo el programa RAD de HUD (Demostración de Asistencia de Alquiler), que tiene su propia regla de &ldquo;movilidad por elección&rdquo;. Pregunte en la oficina: &ldquo;¿Mi ayuda es un PBV de una autoridad de vivienda, un contrato de HUD basado en proyecto o una conversión RAD?&rdquo;</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Revise su fecha de mudanza. Confirme que ya tiene por lo menos 12 meses con ayuda PBV.</li>\n<li>Escriba a la PHA, no solo a la administración del edificio, y pida un cupón basado en el inquilino según el 24 CFR 983.261.</li>\n<li>Pregunte cómo lleva la PHA la lista de familias que esperan para mudarse, en qué lugar está usted y cuánto podría tardar. HUD exige que la PHA lo explique en su Plan Administrativo.</li>\n<li>No le avise a su propietario que se va hasta que tenga el cupón en la mano.</li>\n<li>Cuando le den el cupón, corre el plazo normal de búsqueda, así que tenga listos sus documentos y empiece una lista de propietarios que aceptan cupones.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Recibo asistencia de cupón basado en proyecto en [dirección] desde [mes y año], es decir, más de un año. Según el 24 CFR 983.261, solicito un cupón basado en el inquilino para poder mudarme sin perder la asistencia. Si ahora no hay uno disponible, por favor denme prioridad para el siguiente y díganme por escrito en qué lugar estoy.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Pida la razón por escrito, y pida la parte del Plan Administrativo de la PHA que trata a las familias con PBV que quieren mudarse. Si ya cumplió un año completo con ayuda PBV y le dicen que nunca podrá mudarse con un cupón, comuníquese con una oficina de ayuda legal gratuita, porque eso no coincide con la regla. Si la PHA le ofrece otra ayuda &ldquo;comparable&rdquo; en lugar de un cupón, pregunte cuánto dura y cómo se compara antes de aceptarla.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/voucher-por-proyecto-vs-por-inquilino",
+        "label": "Vouchers por proyecto vs. por inquilino: ¿cuál es la diferencia?",
+        "note": "Cómo se diferencian los dos tipos, incluido el derecho a mudarse después de un año."
+      },
+      {
+        "href": "/es/blog/posts/mudarse-con-voucher-section-8",
+        "label": "Mudarse a un nuevo lugar con su voucher de la Sección 8",
+        "note": "Cómo planear la búsqueda y la mudanza cuando tenga el cupón."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo Comunicarte Efectivamente con Tu PHA",
+        "note": "Cómo obtener por escrito su lugar en la lista."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-983.261",
+        "label": "24 CFR 983.261: Derecho de la familia a mudarse (eCFR, en inglés)"
+      }
+    ]
+  }
+}

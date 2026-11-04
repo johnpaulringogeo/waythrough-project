@@ -1,0 +1,94 @@
+{
+  "slug": "roommate-not-on-section-8-voucher",
+  "es_slug": "companero-que-no-esta-en-el-cupon",
+  "topic": "voucher",
+  "order": 80,
+  "related": [
+    "project-based-and-special-purpose-vouchers",
+    "lost-documents-after-voucher-selection"
+  ],
+  "en": {
+    "question": "Someone lives with me, but they don't want to be added to my voucher. They just want to pay their share of the rent and utilities. Is that allowed?",
+    "title": "Roommate Who Won't Join Your Section 8 Voucher?",
+    "description": "Everyone living in a Section 8 unit must be approved by the housing authority. What that means for a roommate who won't be added, and for guests.",
+    "h1": "Can someone live with me and pay rent without being added to my voucher?",
+    "crumb": "Roommate not on voucher",
+    "asked": "July 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "No, usually not. Under Section 8 rules, everyone who lives in your unit has to be approved by the housing authority as part of your household (24 CFR 982.551(h)), and taking rent from someone who isn't approved can count as subletting. The person can be added, stay only as a short-term guest, or live somewhere else.",
+    "body_html": "<h2>What the rule says</h2>\n<p>When you get a voucher, you agree to certain family obligations (24 CFR 982.551(h)):</p>\n<ul>\n<li>The housing authority (PHA) must approve everyone who lives in your unit. You tell the PHA about a birth, adoption or court-awarded custody, and you must ask before adding anyone else.</li>\n<li>No one else may live there, except a foster child or a live-in aide the PHA approved.</li>\n<li>You may not sublease or rent out the unit. Taking rent from someone who lives there but isn't on the voucher can look exactly like that.</li>\n</ul>\n<p>Paying a share of rent and bills doesn't make it OK. If anything, it's the clearest sign that the person lives there. If the PHA finds someone living in your unit who wasn't approved, it can end your assistance, and it may say you owe back subsidy you got because that person's income wasn't counted.</p>\n<h2>What about guests?</h2>\n<p>A guest is someone staying temporarily with your permission (24 CFR 5.100). Guests are fine. HUD doesn't set one national limit on how long a guest can stay. Your PHA's Administrative Plan and your lease set it, often a few weeks a year. Someone who gets mail at your address, keeps their belongings there or helps pay rent is usually treated as living there, not visiting.</p>\n<h2>Your choices</h2>\n<ol>\n<li><strong>Add them.</strong> Ask the PHA in writing. The PHA will screen the person, often with a background check, and count their income. Your share of the rent may go up, but the PHA usually still pays part. Your landlord may also need to approve them under the lease, and a bigger household can sometimes mean a bigger voucher size.</li>\n<li><strong>Keep them a guest.</strong> Only if they really live somewhere else and stay within your PHA's guest limit.</li>\n<li><strong>They move out.</strong> If they won't be added, they need their own place.</li>\n<li><strong>A live-in aide.</strong> If they live there only to give care someone in your household needs because of a disability, ask the PHA to approve them as a live-in aide (24 CFR 982.316). An approved aide isn't part of the family on the voucher, and their income doesn't count toward your rent.</li>\n</ol>\n<p>People often don't want to be added because of privacy or worries about their record. If that's the worry, they can ask the PHA what it checks before deciding.</p>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;I would like to add [name] to my household. They have been staying with me since [date] [or: would like to move in on date]. Please send me the forms and tell me what you need from them.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>A PHA can refuse to add someone, for example because of certain criminal history. Ask for the reason in writing. If the PHA won't add the person, they can't live with you while you have the voucher. If you think the refusal is wrong, or it's about a person you need for disability care, contact free legal aid.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/section-8-and-roommates",
+        "label": "Can You Have a Roommate on Section 8?",
+        "note": "Roommates, partners, adult children and guest rules."
+      },
+      {
+        "href": "/resources/guides/shared-housing-roommates",
+        "label": "Shared Housing and Roommate Strategies",
+        "note": "Ways to share housing costs that follow the rules."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Communicate Effectively With Your PHA",
+        "note": "How to report a household change in writing."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.551",
+        "label": "24 CFR 982.551: Obligations of participant (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.100",
+        "label": "24 CFR 5.100: Definitions of guest and household (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.316",
+        "label": "24 CFR 982.316: Live-in aide (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Alguien vive conmigo, pero no quiere que lo agreguen a mi cupón. Solo quiere pagar su parte de la renta y de los servicios. ¿Eso está permitido?",
+    "title": "¿Un compañero que no quiere entrar al cupón?",
+    "description": "Todas las personas que viven en una unidad de la Sección 8 deben estar aprobadas por la autoridad de vivienda. Qué significa para compañeros e invitados.",
+    "h1": "¿Puede alguien vivir conmigo y pagar renta sin estar en mi cupón?",
+    "crumb": "Compañero fuera del cupón",
+    "asked": "julio de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Por lo general, no. Según las reglas de la Sección 8, todas las personas que viven en su unidad deben estar aprobadas por la autoridad de vivienda como parte de su hogar (24 CFR 982.551(h)), y cobrarle renta a alguien que no está aprobado puede considerarse subarrendar. Esa persona puede ser agregada, quedarse solo como invitado por poco tiempo o vivir en otro lugar.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Cuando recibe un cupón, usted acepta ciertas obligaciones de la familia (24 CFR 982.551(h)):</p>\n<ul>\n<li>La autoridad de vivienda (PHA) debe aprobar a todas las personas que viven en su unidad. Usted avisa a la PHA de un nacimiento, una adopción o una custodia otorgada por un tribunal, y debe pedir permiso antes de agregar a cualquier otra persona.</li>\n<li>Nadie más puede vivir allí, salvo un niño de crianza (foster) o un asistente que vive en casa aprobado por la PHA.</li>\n<li>No puede subarrendar ni alquilar la unidad a otros. Cobrarle renta a alguien que vive allí pero no está en el cupón puede verse exactamente así.</li>\n</ul>\n<p>Que la persona pague una parte de la renta y de las cuentas no lo hace aceptable. Al contrario, es la señal más clara de que vive allí. Si la PHA descubre que vive en su unidad alguien que no fue aprobado, puede terminar su asistencia, y puede decir que usted debe devolver el subsidio que recibió de más porque no se contaron los ingresos de esa persona.</p>\n<h2>¿Y los invitados?</h2>\n<p>Un invitado es alguien que se queda temporalmente con su permiso (24 CFR 5.100). Los invitados están permitidos. HUD no fija un límite nacional de cuánto tiempo puede quedarse un invitado. Lo fijan el Plan Administrativo de su PHA y su contrato de arrendamiento, muchas veces unas cuantas semanas al año. A alguien que recibe correo en su dirección, guarda allí sus cosas o ayuda a pagar la renta, por lo general se le considera residente, no visita.</p>\n<h2>Sus opciones</h2>\n<ol>\n<li><strong>Agregarlo.</strong> Pídalo a la PHA por escrito. La PHA evaluará a la persona, muchas veces con una revisión de antecedentes, y contará sus ingresos. Su parte de la renta puede subir, pero normalmente la PHA sigue pagando una parte. Puede que su propietario también tenga que aprobarlo según el contrato, y un hogar más grande a veces significa un cupón de más habitaciones.</li>\n<li><strong>Que siga como invitado.</strong> Solo si de verdad vive en otro lugar y respeta el límite de invitados de su PHA.</li>\n<li><strong>Que se mude.</strong> Si no quiere que lo agreguen, necesita su propia vivienda.</li>\n<li><strong>Un asistente que vive en casa.</strong> Si la persona vive allí solo para dar el cuidado que alguien de su hogar necesita por una discapacidad, pida a la PHA que la apruebe como asistente (24 CFR 982.316). Un asistente aprobado no forma parte de la familia en el cupón, y sus ingresos no cuentan para su renta.</li>\n</ol>\n<p>Muchas personas no quieren que las agreguen por privacidad o por preocupación por sus antecedentes. Si es así, pueden preguntarle a la PHA qué revisa antes de decidir.</p>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Quisiera agregar a [nombre] a mi hogar. Se está quedando conmigo desde el [fecha] [o: quisiera mudarse el tal fecha]. Por favor, envíenme los formularios y díganme qué necesitan de esa persona.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>La PHA puede negarse a agregar a alguien, por ejemplo por ciertos antecedentes penales. Pida la razón por escrito. Si la PHA no aprueba a la persona, esta no puede vivir con usted mientras usted tenga el cupón. Si cree que la negación es injusta, o si se trata de alguien que necesita para el cuidado de una discapacidad, comuníquese con una oficina de ayuda legal gratuita.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/section-8-y-companeros-de-cuarto",
+        "label": "¿Puede tener un compañero de cuarto con la Sección 8?",
+        "note": "Compañeros, parejas, hijos adultos y reglas sobre invitados."
+      },
+      {
+        "href": "/es/recursos/guias/vivienda-compartida-companeros",
+        "label": "Vivienda Compartida y Compañeros de Cuarto con Sección 8",
+        "note": "Formas de compartir gastos de vivienda que cumplen las reglas."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo Comunicarte Efectivamente con Tu PHA",
+        "note": "Cómo reportar por escrito un cambio en su hogar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.551",
+        "label": "24 CFR 982.551: Obligaciones del participante (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.100",
+        "label": "24 CFR 5.100: Definiciones de invitado y hogar (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.316",
+        "label": "24 CFR 982.316: Asistente que vive en casa (eCFR, en inglés)"
+      }
+    ]
+  }
+}

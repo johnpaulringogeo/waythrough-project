@@ -1,0 +1,96 @@
+{
+  "slug": "voucher-expired-waiting-on-inspection",
+  "es_slug": "cupon-vencio-esperando-inspeccion",
+  "topic": "voucher",
+  "order": 20,
+  "related": [
+    "voucher-extension-denied-disability",
+    "voucher-expired-waiting-on-id-documents"
+  ],
+  "en": {
+    "question": "I waited years on the list, found a unit, and it failed inspection, so I got an extension while the property manager made the repairs. The reinspection was scheduled but never happened, and now my caseworker says my voucher expired and I have to get back on the waiting list. How can I lose my voucher over something that was out of my hands?",
+    "title": "Section 8 Voucher Expired During Inspection?",
+    "description": "Your voucher clock must pause while the housing authority reviews your unit. How to get your expiration date recalculated after an inspection never happened.",
+    "h1": "My voucher expired while I was waiting on an inspection that never happened. Can I get it back?",
+    "crumb": "Expired during inspection",
+    "asked": "July 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "You may still have time left. HUD rules say the voucher clock must stop from the day you turn in the Request for Tenancy Approval until the housing authority tells you in writing whether the unit is approved or denied (24 CFR 982.303(c)). If that pause wasn't counted, ask in writing for your expiration date to be recalculated and your voucher reinstated.",
+    "body_html": "<h2>What the rule says</h2>\n<p>A voucher comes with a search term of at least 60 days (24 CFR 982.303(a)). But the clock doesn't run the whole time. The housing authority (PHA) <strong>must</strong> suspend, or pause, the term from the date you submit a Request for Tenancy Approval (the RFTA, the form you and the landlord fill out for a unit) until the date the PHA tells you <strong>in writing</strong> that the unit is approved or denied (24 CFR 982.303(c)).</p>\n<p>In a case like yours, the days after the RFTA went in, while the unit waited for repairs and a reinspection that never took place, usually should not count against you. The exception is if the PHA sent you a written denial of that unit. If it did, the clock started again on that date, so ask to see that letter.</p>\n<p>HUD also expects inspections to happen quickly. A smaller PHA (up to 1,250 vouchers) must inspect within 15 days of the RFTA. A larger one must inspect within a reasonable time, and within 15 days when it can (24 CFR 982.305(b)(2)). That 15-day clock pauses while the unit isn't ready to be inspected.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Write down your dates: when the voucher was issued, when the RFTA was turned in, the first inspection, any extension letter, and the reinspection that was missed.</li>\n<li>Ask the PHA for a copy of your file, including any written notice approving or denying the unit.</li>\n<li>Do the math. Count the days the voucher ran <em>before</em> the RFTA went in. If that is less than your full term (with any extension), you should still have time left.</li>\n<li>Send a written request to your caseworker and their supervisor. Ask them to recalculate the expiration date, reinstate the voucher, and reschedule the inspection or let you submit a new unit.</li>\n<li>At the same time, ask in writing for an informal review or hearing, and for the decision in writing. Deadlines to ask are short, often 10 to 14 days.</li>\n<li>Ask the property manager if the unit is still available, and get a short note confirming the reinspection date that was set and missed.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;My Request for Tenancy Approval was submitted on [date], and I never received a written approval or denial of the unit. Under 24 CFR 982.303(c), my voucher term was suspended during that time. Please recalculate my expiration date, reinstate my voucher, and reschedule the inspection. If you deny this, please give me the reason in writing and an informal review.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>Contact free legal aid. A short letter from a lawyer that points to 24 CFR 982.303(c) often gets results. If you or someone in your household has a disability that played a part in the delay, you can also ask for more time as a reasonable accommodation. If you can't get the voucher back, ask whether the PHA's Administrative Plan lets you return to the waiting list with your original date or a preference, instead of starting over. And stay on any other waiting lists you're on.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/voucher-expires-what-happens",
+        "label": "What Happens When Your Section 8 Voucher Expires",
+        "note": "Your options once a voucher runs out."
+      },
+      {
+        "href": "/blog/posts/how-section-8-inspections-work",
+        "label": "How Section 8 Inspections Work (And How to Pass Yours)",
+        "note": "What happens at an inspection and reinspection."
+      },
+      {
+        "href": "/resources/guides/how-to-appeal-housing-denial",
+        "label": "How to Appeal a Housing Denial",
+        "note": "How to ask for an informal review and prepare for it."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Communicate Effectively With Your PHA",
+        "note": "Tips for getting answers in writing."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Term of voucher, including suspension (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.305",
+        "label": "24 CFR 982.305: PHA approval of tenancy and inspection timing (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Esperé años en la lista, encontré una unidad y no pasó la inspección, así que me dieron una extensión mientras la administradora hacía las reparaciones. La nueva inspección se programó pero nunca se hizo, y ahora mi trabajadora social dice que mi cupón venció y que tengo que volver a la lista de espera. ¿Cómo puedo perder mi cupón por algo que no dependía de mí?",
+    "title": "¿Su cupón venció esperando la inspección?",
+    "description": "El plazo de su cupón debe detenerse mientras la autoridad de vivienda revisa la unidad. Cómo pedir que recalculen la fecha si la inspección nunca se hizo.",
+    "h1": "Mi cupón venció mientras esperaba una inspección que nunca se hizo. ¿Puedo recuperarlo?",
+    "crumb": "Venció en la inspección",
+    "asked": "julio de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Es posible que todavía le quede tiempo. Las reglas de HUD dicen que el plazo del cupón debe detenerse desde el día en que entrega la Solicitud de Aprobación de Arrendamiento hasta que la autoridad de vivienda le avisa por escrito si aprueba o niega la unidad (24 CFR 982.303(c)). Si no contaron esa pausa, pida por escrito que recalculen la fecha de vencimiento y que le devuelvan el cupón.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Un cupón trae un plazo de búsqueda de al menos 60 días (24 CFR 982.303(a)). Pero el reloj no corre todo el tiempo. La autoridad de vivienda (PHA) <strong>debe</strong> suspender, o pausar, el plazo desde la fecha en que usted entrega la Solicitud de Aprobación de Arrendamiento (la RFTA, el formulario que usted y el propietario llenan para una unidad) hasta la fecha en que la PHA le avisa <strong>por escrito</strong> si aprueba o niega la unidad (24 CFR 982.303(c)).</p>\n<p>En un caso como el suyo, los días después de entregar la RFTA, mientras la unidad esperaba reparaciones y una nueva inspección que nunca se hizo, por lo general no deberían contar en su contra. La excepción es si la PHA le envió una negación por escrito de esa unidad. Si fue así, el reloj volvió a correr desde esa fecha, así que pida ver esa carta.</p>\n<p>HUD también espera que las inspecciones se hagan pronto. Una PHA pequeña (hasta 1,250 cupones) debe inspeccionar dentro de 15 días después de la RFTA. Una más grande debe hacerlo en un tiempo razonable, y dentro de 15 días cuando sea posible (24 CFR 982.305(b)(2)). Ese plazo de 15 días se detiene mientras la unidad no esté lista para inspección.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Anote sus fechas: cuándo le dieron el cupón, cuándo se entregó la RFTA, la primera inspección, cualquier carta de extensión y la nueva inspección que no se hizo.</li>\n<li>Pida a la PHA una copia de su expediente, incluida cualquier notificación por escrito que apruebe o niegue la unidad.</li>\n<li>Haga la cuenta. Sume los días que corrió el cupón <em>antes</em> de entregar la RFTA. Si son menos que su plazo completo (con la extensión), todavía debería quedarle tiempo.</li>\n<li>Envíe una solicitud por escrito a su trabajadora social y a su supervisor. Pida que recalculen la fecha de vencimiento, que reactiven el cupón y que programen de nuevo la inspección o le permitan presentar otra unidad.</li>\n<li>Al mismo tiempo, pida por escrito una revisión o audiencia informal, y que le den la decisión por escrito. Los plazos para pedirla son cortos, a menudo de 10 a 14 días.</li>\n<li>Pregunte a la administradora si la unidad sigue disponible y pídale una nota breve que confirme la fecha de la inspección que se programó y no se hizo.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Mi Solicitud de Aprobación de Arrendamiento se entregó el [fecha] y nunca recibí por escrito la aprobación ni la negación de la unidad. Según el 24 CFR 982.303(c), el plazo de mi cupón quedó suspendido durante ese tiempo. Por favor, recalculen mi fecha de vencimiento, reactiven mi cupón y programen de nuevo la inspección. Si lo niegan, denme la razón por escrito y una revisión informal.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Comuníquese con una oficina de ayuda legal gratuita. Una carta breve de un abogado que cite el 24 CFR 982.303(c) muchas veces da resultado. Si usted o alguien de su hogar tiene una discapacidad que influyó en el retraso, también puede pedir más tiempo como adaptación razonable. Si no logra recuperar el cupón, pregunte si el Plan Administrativo de la PHA le permite volver a la lista de espera con su fecha original o con una preferencia, en lugar de empezar de cero. Y no salga de las demás listas de espera en las que esté.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/voucher-expira-que-pasa",
+        "label": "Qué Pasa Cuando Tu Voucher de Sección 8 Expira",
+        "note": "Sus opciones cuando el cupón se vence."
+      },
+      {
+        "href": "/es/blog/posts/como-funcionan-inspecciones-section-8",
+        "label": "Cómo Funcionan las Inspecciones de Sección 8 (Y Cómo Pasar la Tuya)",
+        "note": "Qué pasa en una inspección y en una nueva inspección."
+      },
+      {
+        "href": "/es/recursos/guias/como-apelar-negacion-vivienda",
+        "label": "Cómo Apelar una Negación de Vivienda",
+        "note": "Cómo pedir una revisión informal y prepararse."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo Comunicarte Efectivamente con Tu PHA",
+        "note": "Consejos para conseguir respuestas por escrito."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Plazo del cupón y su suspensión (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.305",
+        "label": "24 CFR 982.305: Aprobación del arrendamiento y plazos de inspección (eCFR, en inglés)"
+      }
+    ]
+  }
+}

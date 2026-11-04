@@ -1,0 +1,112 @@
+{
+  "slug": "lost-documents-after-voucher-selection",
+  "es_slug": "documentos-perdidos-despues-de-seleccion",
+  "topic": "voucher",
+  "order": 50,
+  "related": [
+    "voucher-expired-waiting-on-id-documents",
+    "port-voucher-when-pha-not-absorbing"
+  ],
+  "en": {
+    "question": "I was picked for a housing voucher this summer, then moved to another state with my kids and lost all of our documents in the move. Family members are trying to get our records for me. Can I ask for more time or appeal, and who should I even contact?",
+    "title": "Selected for Section 8 but Lost Your Documents?",
+    "description": "Picked for a voucher, then moved and lost your papers? Who to contact, how to ask for more time, how to replace documents, and what a move means.",
+    "h1": "I was selected for a voucher but lost my documents in a move. Who do I contact?",
+    "crumb": "Lost documents",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Contact the housing authority that selected you, in writing, as soon as you can. Explain the move and the lost documents, ask what they still need, and ask for more time to get it. Moving to another state can change where you're allowed to use the voucher, so ask about that before you sign a lease.",
+    "body_html": "<h2>Who to contact</h2>\n<p>Your contact is still the housing authority (PHA) that picked you from its list, not a PHA in your new state. It decides whether you're eligible and issues the voucher. Look at the letter, email or text that said you were selected; it usually names a caseworker or intake office. If you can't find it, call the PHA's main number and give your full name, date of birth and the last four digits of your Social Security number so they can find your file.</p>\n<h2>What the rules say</h2>\n<ul>\n<li><strong>Documents.</strong> You have to give the PHA the information it needs to decide eligibility (24 CFR 982.551(b)). Most PHAs give a deadline and can give more time when you're actively replacing papers. Ask how long.</li>\n<li><strong>Appeals.</strong> If the PHA denies you, it must tell you why in writing and offer an informal review (24 CFR 982.554). There's nothing to appeal until there's a denial. If you already got a denial letter, follow its deadline, often 10 to 14 days.</li>\n<li><strong>Moving states.</strong> If you lived in that PHA's area when you applied, you can usually take the voucher to another area by porting. If you didn't, the PHA can require you to rent in its own area for the first 12 months (24 CFR 982.353(c)). Ask which applies to you.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Write to the PHA today. Give your new address, phone and email so you don't miss a letter.</li>\n<li>Explain that your documents were lost and list what you've ordered and when.</li>\n<li>Ask for a list of what they still need, the deadline, and more time if you need it. Ask whether they'll accept copies or receipts for now, and whether your interview or briefing can be done by phone or video.</li>\n<li>Replace documents:\n<ul>\n<li><strong>Birth certificates:</strong> from the vital records office in the state where each person was born. Most take online or mail orders.</li>\n<li><strong>Social Security cards:</strong> free from the Social Security Administration, often online. The PHA may only need the numbers.</li>\n<li><strong>Income:</strong> a benefit letter from Social Security or your state benefits office, a child support printout, or pay stubs.</li>\n</ul></li>\n<li>Ask the PHA whether you can port to your new state, and what you'd need to do.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;I was selected from your waiting list in [month]. I have moved to [state] and lost my family's documents during the move. I have ordered replacements. My new address and phone number are below. Please tell me what you still need, give me more time to provide it, and tell me whether I can use my voucher in my new state.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>If they deny your application, ask for an informal review in writing by the deadline in the letter, and attach proof that you've ordered the documents. Free legal aid can help you get ready. If someone in your family has a disability that made replacing documents harder, ask for more time as a reasonable accommodation.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/document-checklist",
+        "label": "Your Complete Housing Application Document Checklist",
+        "note": "Every document to gather, and where to get each one."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Communicate Effectively With Your PHA",
+        "note": "How to reach the right person and get answers in writing."
+      },
+      {
+        "href": "/resources/guides/how-to-transfer-voucher",
+        "label": "How to Transfer Your Voucher to Another Area (Portability)",
+        "note": "How porting to another state works."
+      },
+      {
+        "href": "/resources/guides/how-to-appeal-housing-denial",
+        "label": "How to Appeal a Housing Denial",
+        "note": "If your application is denied."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.353",
+        "label": "24 CFR 982.353: Where a family can lease, including nonresident applicants (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Informal review for applicants (eCFR)"
+      },
+      {
+        "url": "https://www.cdc.gov/nchs/w2w/index.htm",
+        "label": "CDC: Where to Write for Vital Records"
+      },
+      {
+        "url": "https://www.ssa.gov/number-card/replace-card",
+        "label": "Social Security Administration: Replace your card"
+      }
+    ]
+  },
+  "es": {
+    "question": "Me seleccionaron para un cupón de vivienda este verano, pero luego me mudé a otro estado con mis hijos y en la mudanza perdimos todos nuestros documentos. Unos familiares están tratando de conseguirme los papeles. ¿Puedo pedir más tiempo o apelar, y con quién tengo que comunicarme?",
+    "title": "¿Le seleccionaron, pero perdió sus documentos?",
+    "description": "¿Le eligieron para un cupón y luego se mudó y perdió sus papeles? Con quién hablar, cómo pedir más tiempo y cómo reponer documentos después de una mudanza.",
+    "h1": "Me seleccionaron para un cupón, pero perdí mis documentos en una mudanza. ¿Con quién me comunico?",
+    "crumb": "Documentos perdidos",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Comuníquese por escrito, lo antes posible, con la autoridad de vivienda que le seleccionó. Explique la mudanza y la pérdida de documentos, pregunte qué les falta y pida más tiempo para entregarlo. Mudarse a otro estado puede cambiar dónde puede usar el cupón, así que pregunte eso antes de firmar un contrato.",
+    "body_html": "<h2>Con quién comunicarse</h2>\n<p>Su contacto sigue siendo la autoridad de vivienda (PHA) que le escogió de su lista, no una PHA de su nuevo estado. Esa PHA decide si usted califica y le entrega el cupón. Busque la carta, el correo o el mensaje que decía que le habían seleccionado; casi siempre trae el nombre de un trabajador social o de una oficina de admisión. Si no lo encuentra, llame al número principal de la PHA y dé su nombre completo, su fecha de nacimiento y los últimos cuatro dígitos de su número de Seguro Social para que encuentren su expediente.</p>\n<h2>Lo que dicen las reglas</h2>\n<ul>\n<li><strong>Documentos.</strong> Usted tiene que darle a la PHA la información que necesita para decidir si califica (24 CFR 982.551(b)). La mayoría de las PHA ponen una fecha límite y pueden dar más tiempo si usted está reponiendo papeles. Pregunte cuánto.</li>\n<li><strong>Apelaciones.</strong> Si la PHA le niega la asistencia, debe decirle por escrito la razón y ofrecerle una revisión informal (24 CFR 982.554). No hay nada que apelar hasta que haya una negación. Si ya recibió una carta de negación, respete el plazo que indica, que muchas veces es de 10 a 14 días.</li>\n<li><strong>Mudanza a otro estado.</strong> Si usted vivía en la zona de esa PHA cuando hizo la solicitud, por lo general puede llevar el cupón a otra zona por portabilidad. Si no vivía allí, la PHA puede exigirle que rente dentro de su propia zona durante los primeros 12 meses (24 CFR 982.353(c)). Pregunte cuál es su caso.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Escriba hoy a la PHA. Dé su nueva dirección, teléfono y correo electrónico para no perder ninguna carta.</li>\n<li>Explique que perdió sus documentos y diga cuáles ya pidió y cuándo.</li>\n<li>Pida una lista de lo que les falta, la fecha límite y más tiempo si lo necesita. Pregunte si por ahora aceptan copias o recibos, y si la entrevista o la sesión informativa se puede hacer por teléfono o por video.</li>\n<li>Reponga sus documentos:\n<ul>\n<li><strong>Actas de nacimiento:</strong> en la oficina de registros vitales del estado donde nació cada persona. La mayoría acepta pedidos en línea o por correo.</li>\n<li><strong>Tarjetas del Seguro Social:</strong> gratis con la Administración del Seguro Social, muchas veces en línea. Puede que la PHA solo necesite los números.</li>\n<li><strong>Ingresos:</strong> una carta de beneficios del Seguro Social o de la oficina de beneficios de su estado, un comprobante de manutención de menores o talones de pago.</li>\n</ul></li>\n<li>Pregunte a la PHA si puede portar el cupón a su nuevo estado y qué tendría que hacer.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Me seleccionaron de su lista de espera en [mes]. Me mudé a [estado] y en la mudanza perdí los documentos de mi familia. Ya pedí copias nuevas. Abajo están mi nueva dirección y mi teléfono. Por favor, díganme qué les falta, denme más tiempo para entregarlo y díganme si puedo usar mi cupón en mi nuevo estado.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si niegan su solicitud, pida por escrito una revisión informal dentro del plazo que dice la carta, y adjunte prueba de que ya pidió los documentos. Una oficina de ayuda legal gratuita puede ayudarle a prepararse. Si alguien de su familia tiene una discapacidad que le hizo más difícil reponer los documentos, pida más tiempo como adaptación razonable.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/lista-documentos",
+        "label": "Lista Completa de Documentos para Solicitudes de Vivienda",
+        "note": "Cada documento que necesita y dónde conseguirlo."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo Comunicarte Efectivamente con Tu PHA",
+        "note": "Cómo llegar a la persona correcta y obtener respuestas por escrito."
+      },
+      {
+        "href": "/es/recursos/guias/como-transferir-cupon",
+        "label": "Cómo Transferir Tu Cupón a Otra Área (Portabilidad)",
+        "note": "Cómo funciona portar el cupón a otro estado."
+      },
+      {
+        "href": "/es/recursos/guias/como-apelar-negacion-vivienda",
+        "label": "Cómo Apelar una Negación de Vivienda",
+        "note": "Si niegan su solicitud."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.353",
+        "label": "24 CFR 982.353: Dónde puede rentar una familia, incluidos solicitantes no residentes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Revisión informal para solicitantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.cdc.gov/nchs/w2w/index.htm",
+        "label": "CDC: Dónde pedir registros vitales (en inglés)"
+      },
+      {
+        "url": "https://www.ssa.gov/number-card/replace-card",
+        "label": "Administración del Seguro Social: Reemplazar su tarjeta (en inglés)"
+      }
+    ]
+  }
+}

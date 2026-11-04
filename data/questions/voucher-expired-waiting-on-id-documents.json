@@ -1,0 +1,113 @@
+{
+  "slug": "voucher-expired-waiting-on-id-documents",
+  "es_slug": "cupon-vencio-esperando-documentos",
+  "topic": "voucher",
+  "order": 30,
+  "related": [
+    "voucher-expired-waiting-on-inspection",
+    "voucher-extension-denied-disability",
+    "lost-documents-after-voucher-selection"
+  ],
+  "en": {
+    "question": "My voucher expired because I couldn't get a new ID card in time. Just getting my birth certificate from the state where I was born took a month. Is there any way to get my voucher back?",
+    "title": "Voucher Expired While Waiting on ID Documents?",
+    "description": "If your Section 8 voucher ran out while you waited on a birth certificate or ID, how to ask the housing authority to reinstate it, and what proof to send.",
+    "h1": "My voucher expired while I was waiting on ID documents. Can I get it back?",
+    "crumb": "Expired waiting on ID",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Maybe. No federal rule makes a housing authority reinstate an expired voucher, but many will reopen or reissue one when you can show the delay wasn't your fault. Ask in writing right away, include proof of the dates, and if a disability was part of the delay, ask for the extra time as a reasonable accommodation.",
+    "body_html": "<h2>What the rule says</h2>\n<p>Federal rules set a minimum search term of 60 days and let each housing authority (PHA) decide in its Administrative Plan whether to give extensions (24 CFR 982.303(a) and (b)(1)). Many plans allow extensions for &ldquo;good cause,&rdquo; and waiting on official documents is a common one. Some plans also allow a voucher to be reinstated after it expires, or let the family go back on the waiting list near the top. It depends on your PHA, so ask for the part of the plan that covers expired vouchers.</p>\n<p>Two federal rules may also help:</p>\n<ul>\n<li><strong>Disability.</strong> If anyone in your household has a disability that made it harder to get documents or to search, the PHA must extend the term as long as reasonably needed when you ask for it as a reasonable accommodation (24 CFR 982.303(b)(2)). Ask even if the date has passed. Sooner is better.</li>\n<li><strong>A unit was pending.</strong> If you had already turned in a Request for Tenancy Approval for a unit, the clock was paused until the PHA answered in writing (24 CFR 982.303(c)). Check whether that time was counted.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Write to the PHA this week. Ask them to reinstate or reissue the voucher because of the document delay.</li>\n<li>Attach proof of the dates: the birth certificate order receipt or the envelope it came in, the ID office receipt or appointment, and anything that shows when you started.</li>\n<li>Ask what document they really need. A PHA can often verify who you are with other papers, or accept a receipt showing your ID is on the way. Many states also give a temporary paper ID.</li>\n<li>If a disability played a part, say so and ask for the time as a reasonable accommodation. A short letter from a provider helps.</li>\n<li>Ask for the decision in writing, and ask for an informal review if they say no. HUD doesn't require a review when an extension is denied (24 CFR 982.554(c)(4)), but many PHAs give one, and asking costs nothing.</li>\n<li>If the answer is final, ask whether you can go back on the list with your original application date or a preference.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;My voucher expired on [date] because I could not get a replacement ID in time. My birth certificate from another state took a month to arrive; proof is attached. I now have my documents [or: will have them by date]. Please reinstate or reissue my voucher. If you cannot, please tell me why in writing and how to request an informal review.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>Contact free legal aid. They can check the PHA's Administrative Plan and whether it was followed. Then re-apply as soon as the list opens, and apply to other lists near you.</p>\n<h2>Next time, start early</h2>\n<p>Documents take time. A birth certificate comes from the vital records office in the state where you were born; the CDC keeps a list of every state's office, fees and how to order. A Social Security card can be replaced for free through the Social Security Administration, often online. Once you're on any waiting list, gather these for everyone in your household, so a letter from the PHA never catches you without them.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/voucher-expires-what-happens",
+        "label": "What Happens When Your Section 8 Voucher Expires",
+        "note": "Your options once a voucher runs out."
+      },
+      {
+        "href": "/resources/guides/document-checklist",
+        "label": "Your Complete Housing Application Document Checklist",
+        "note": "Every document to gather, and where to get each one."
+      },
+      {
+        "href": "/resources/guides/how-to-request-reasonable-accommodation",
+        "label": "How to Request a Reasonable Accommodation",
+        "note": "If a disability played a part in the delay."
+      },
+      {
+        "href": "/resources/guides/how-to-appeal-housing-denial",
+        "label": "How to Appeal a Housing Denial",
+        "note": "How to ask for an informal review."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Term of voucher (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Informal review for applicants (eCFR)"
+      },
+      {
+        "url": "https://www.cdc.gov/nchs/w2w/index.htm",
+        "label": "CDC: Where to Write for Vital Records"
+      },
+      {
+        "url": "https://www.ssa.gov/number-card/replace-card",
+        "label": "Social Security Administration: Replace your card"
+      }
+    ]
+  },
+  "es": {
+    "question": "Mi cupón venció porque no pude sacar una nueva identificación a tiempo. Solo conseguir mi acta de nacimiento del estado donde nací tardó un mes. ¿Hay alguna forma de recuperar mi cupón?",
+    "title": "¿Su cupón venció esperando documentos?",
+    "description": "Si su cupón de la Sección 8 venció mientras esperaba su acta de nacimiento o identificación, así puede pedir que lo reactiven y qué enviar con su solicitud.",
+    "h1": "Mi cupón venció mientras esperaba mis documentos de identidad. ¿Puedo recuperarlo?",
+    "crumb": "Venció por documentos",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Tal vez. Ninguna regla federal obliga a la autoridad de vivienda a reactivar un cupón vencido, pero muchas lo reabren o lo vuelven a emitir si usted demuestra que el retraso no fue su culpa. Pídalo por escrito cuanto antes, incluya pruebas de las fechas y, si una discapacidad influyó en el retraso, pida el tiempo extra como adaptación razonable.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Las reglas federales fijan un plazo mínimo de búsqueda de 60 días y dejan que cada autoridad de vivienda (PHA) decida en su Plan Administrativo si da extensiones (24 CFR 982.303(a) y (b)(1)). Muchos planes permiten extensiones por &ldquo;causa justificada&rdquo;, y esperar documentos oficiales es una de las más comunes. Algunos planes también permiten reactivar un cupón después de que vence, o que la familia regrese a la lista de espera en los primeros lugares. Depende de su PHA, así que pida la parte del plan que trata los cupones vencidos.</p>\n<p>Dos reglas federales también pueden ayudarle:</p>\n<ul>\n<li><strong>Discapacidad.</strong> Si alguien en su hogar tiene una discapacidad que le hizo más difícil conseguir documentos o buscar vivienda, la PHA debe extender el plazo el tiempo razonablemente necesario cuando usted lo pide como adaptación razonable (24 CFR 982.303(b)(2)). Pídalo aunque la fecha ya haya pasado. Mientras antes, mejor.</li>\n<li><strong>Había una unidad pendiente.</strong> Si ya había entregado una Solicitud de Aprobación de Arrendamiento para una unidad, el plazo quedó en pausa hasta que la PHA le respondió por escrito (24 CFR 982.303(c)). Revise si contaron ese tiempo.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Escriba a la PHA esta misma semana. Pida que reactiven o vuelvan a emitir el cupón por el retraso de los documentos.</li>\n<li>Adjunte pruebas de las fechas: el recibo del pedido del acta de nacimiento o el sobre en que llegó, el recibo o la cita de la oficina de identificaciones y cualquier cosa que muestre cuándo empezó el trámite.</li>\n<li>Pregunte qué documento necesitan de verdad. Muchas veces la PHA puede confirmar su identidad con otros papeles, o aceptar un recibo que muestre que su identificación viene en camino. Muchos estados también dan una identificación temporal de papel.</li>\n<li>Si una discapacidad influyó, dígalo y pida el tiempo como adaptación razonable. Ayuda una carta breve de un proveedor de salud.</li>\n<li>Pida la decisión por escrito, y pida una revisión informal si le dicen que no. HUD no exige una revisión cuando se niega una extensión (24 CFR 982.554(c)(4)), pero muchas PHA la dan, y pedirla no cuesta nada.</li>\n<li>Si la respuesta es definitiva, pregunte si puede volver a la lista con su fecha de solicitud original o con alguna preferencia.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Mi cupón venció el [fecha] porque no pude obtener a tiempo una nueva identificación. Mi acta de nacimiento de otro estado tardó un mes en llegar; adjunto la prueba. Ya tengo mis documentos [o: los tendré para tal fecha]. Por favor, reactiven o vuelvan a emitir mi cupón. Si no es posible, díganme por escrito la razón y cómo pedir una revisión informal.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Comuníquese con una oficina de ayuda legal gratuita. Pueden revisar el Plan Administrativo de la PHA y si lo cumplieron. Luego vuelva a solicitar en cuanto abra la lista, y solicite también en otras listas cercanas.</p>\n<h2>La próxima vez, empiece temprano</h2>\n<p>Los documentos tardan. El acta de nacimiento se pide a la oficina de registros vitales del estado donde nació; los CDC tienen una lista de la oficina de cada estado, sus costos y cómo hacer el pedido. La tarjeta del Seguro Social se reemplaza gratis con la Administración del Seguro Social, muchas veces en línea. En cuanto esté en cualquier lista de espera, reúna estos documentos para todas las personas de su hogar, para que una carta de la PHA nunca le tome sin ellos.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/voucher-expira-que-pasa",
+        "label": "Qué Pasa Cuando Tu Voucher de Sección 8 Expira",
+        "note": "Sus opciones cuando el cupón se vence."
+      },
+      {
+        "href": "/es/recursos/guias/lista-documentos",
+        "label": "Lista Completa de Documentos para Solicitudes de Vivienda",
+        "note": "Cada documento que necesita y dónde conseguirlo."
+      },
+      {
+        "href": "/es/recursos/guias/como-solicitar-acomodacion-razonable",
+        "label": "Cómo Solicitar una Acomodación Razonable",
+        "note": "Si una discapacidad influyó en el retraso."
+      },
+      {
+        "href": "/es/recursos/guias/como-apelar-negacion-vivienda",
+        "label": "Cómo Apelar una Negación de Vivienda",
+        "note": "Cómo pedir una revisión informal."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Plazo del cupón (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Revisión informal para solicitantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.cdc.gov/nchs/w2w/index.htm",
+        "label": "CDC: Dónde pedir registros vitales (en inglés)"
+      },
+      {
+        "url": "https://www.ssa.gov/number-card/replace-card",
+        "label": "Administración del Seguro Social: Reemplazar su tarjeta (en inglés)"
+      }
+    ]
+  }
+}

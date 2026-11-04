@@ -1,0 +1,86 @@
+{
+  "slug": "tbra-rental-assistance-ended-early",
+  "es_slug": "asistencia-tbra-termino-antes",
+  "topic": "rent",
+  "order": 90,
+  "related": [
+    "project-based-and-special-purpose-vouchers",
+    "voucher-expired-waiting-on-id-documents"
+  ],
+  "en": {
+    "question": "My tenant-based rental assistance (TBRA) ended earlier than I expected, and my case manager didn't try to help me get it back. I have a signed lease for the whole year and couldn't find a job in time, and now I'm about to lose my apartment. I don't want to be homeless again.",
+    "title": "TBRA Rental Assistance Ended Early?",
+    "description": "TBRA is short-term rent help, usually from HUD's HOME program. If yours ended early, how to ask for a review, talk to your landlord, and find rent help.",
+    "h1": "My TBRA rental assistance ended early and I'm about to lose my apartment. What can I do?",
+    "crumb": "TBRA ended early",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Ask the program in writing why it ended and how to request a review, and deal with the rent right away. TBRA is short-term help, usually paid for by HUD's HOME program and run by a city, county, state or partner agency (24 CFR 92.209), so the program's written policies and your rental assistance contract decide when it can end.",
+    "body_html": "<h2>What TBRA is</h2>\n<p>TBRA usually means HOME tenant-based rental assistance. A city, county or state gets HOME money from HUD and uses some of it to help people pay rent, often people leaving homelessness. It can run the program itself or hire a housing authority or nonprofit to run it (24 CFR 92.209(k)). It works like a small, short-term voucher:</p>\n<ul>\n<li>The program signs a rental assistance contract with your landlord and you. Each contract can last up to 24 months, and it can be renewed only if HOME money is available (24 CFR 92.209(e)).</li>\n<li>Each program must follow written selection policies (24 CFR 92.209(c)). Ask for them, along with any rules on ending assistance.</li>\n<li>Some programs require you to take part in a self-sufficiency program, such as job training. Stopping that program is <strong>not</strong> a reason to end your assistance, though the program can refuse to renew it (24 CFR 92.209(c)(2)(iii)).</li>\n</ul>\n<p>That last point may matter for you. If your help was cut before the contract's end date because you didn't find a job, ask whether that was allowed.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Find your papers: the TBRA rental assistance contract, any letter saying it ended, and your lease. Check the contract's end date.</li>\n<li>Write to the program, meaning the agency named on the contract, not only your case manager. Ask why the assistance ended, which policy they used, and how to request a review or appeal. Ask for a copy of the written TBRA policies.</li>\n<li>Ask if the assistance can be renewed or if you can reapply, and ask about other help they run, such as rapid rehousing.</li>\n<li>Talk to your landlord now. Your lease still makes you responsible for the rent. Explain what happened and ask for a payment plan while you sort it out. Get any agreement in writing.</li>\n<li>Apply for emergency rental assistance. Call 211 and your local community action agency. Many programs pay the landlord directly.</li>\n<li>If you get any eviction notice, call free legal aid that day. Don't ignore court papers, and don't move out before you get advice.</li>\n<li>If your income dropped, apply for benefits like SNAP and Medicaid, and get on Section 8 and public housing waiting lists.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;My TBRA assistance ended on [date], but my rental assistance contract runs until [date]. Please tell me in writing why it ended and which program policy you used, send me a copy of your TBRA policies, and tell me how to request a review. I am asking that my assistance continue while the review is pending.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>Ask for the decision in writing, and take it, your contract and the policies to legal aid. If you think the decision broke the program's own rules or a fair housing law, you can also contact the city or county office that runs its HOME program, or HUD's local field office. Review rules differ from program to program, so get the process in writing.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/emergency-rental-assistance",
+        "label": "How to Find and Apply for Emergency Rental Assistance",
+        "note": "Where to look for rent help right now."
+      },
+      {
+        "href": "/resources/eviction-prevention",
+        "label": "Eviction Prevention & Defense",
+        "note": "What to do if your landlord starts an eviction."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants: How to Find a Lawyer When You Face Eviction",
+        "note": "How to find free legal aid near you."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-92.209",
+        "label": "24 CFR 92.209: HOME tenant-based rental assistance (eCFR)"
+      },
+      {
+        "url": "https://www.hudexchange.info/programs/home/topics/tbra/",
+        "label": "HUD Exchange: HOME Tenant-Based Rental Assistance"
+      }
+    ]
+  },
+  "es": {
+    "question": "Mi asistencia de alquiler basada en el inquilino (TBRA) terminó antes de lo que esperaba, y mi administrador de casos no intentó ayudarme a recuperarla. Tengo un contrato firmado por todo el año, no pude conseguir trabajo a tiempo y ahora estoy a punto de perder mi apartamento. No quiero volver a quedarme sin hogar.",
+    "title": "¿Su asistencia TBRA terminó antes de tiempo?",
+    "description": "TBRA es ayuda de renta a corto plazo del programa HOME de HUD. Si la suya terminó antes, cómo pedir una revisión, hablar con el propietario y buscar ayuda.",
+    "h1": "Mi asistencia de renta TBRA terminó antes de tiempo y estoy por perder mi apartamento. ¿Qué puedo hacer?",
+    "crumb": "TBRA terminó antes",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Pida al programa por escrito la razón por la que terminó y cómo solicitar una revisión, y ocúpese de la renta de inmediato. TBRA es ayuda a corto plazo, casi siempre pagada por el programa HOME de HUD y administrada por una ciudad, condado, estado o agencia aliada (24 CFR 92.209), así que las políticas escritas del programa y su contrato de asistencia deciden cuándo puede terminar.",
+    "body_html": "<h2>Qué es TBRA</h2>\n<p>TBRA casi siempre se refiere a la asistencia de alquiler basada en el inquilino del programa HOME. Una ciudad, condado o estado recibe fondos HOME de HUD y usa parte de ellos para ayudar a pagar la renta, muchas veces a personas que salen de la falta de vivienda. Puede administrar el programa directamente o contratar a una autoridad de vivienda o a una organización sin fines de lucro (24 CFR 92.209(k)). Funciona como un cupón pequeño y de corto plazo:</p>\n<ul>\n<li>El programa firma un contrato de asistencia de alquiler con su propietario y con usted. Cada contrato puede durar hasta 24 meses, y solo se puede renovar si hay fondos HOME disponibles (24 CFR 92.209(e)).</li>\n<li>Cada programa debe seguir políticas de selección por escrito (24 CFR 92.209(c)). Pídalas, junto con cualquier regla sobre cómo se termina la asistencia.</li>\n<li>Algunos programas exigen participar en un programa de autosuficiencia, como capacitación laboral. Dejar ese programa <strong>no</strong> es razón para terminar su asistencia, aunque el programa puede negarse a renovarla (24 CFR 92.209(c)(2)(iii)).</li>\n</ul>\n<p>Ese último punto puede ser importante en su caso. Si le quitaron la ayuda antes de la fecha final del contrato porque no consiguió trabajo, pregunte si eso estaba permitido.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Busque sus papeles: el contrato de asistencia TBRA, cualquier carta que diga que terminó y su contrato de arrendamiento. Revise la fecha final del contrato de asistencia.</li>\n<li>Escriba al programa, es decir, a la agencia que aparece en el contrato, no solo a su administrador de casos. Pregunte por qué terminó la asistencia, qué política usaron y cómo pedir una revisión o apelación. Pida una copia de las políticas escritas de TBRA.</li>\n<li>Pregunte si la asistencia se puede renovar o si puede volver a solicitarla, y pregunte por otras ayudas que tengan, como el realojamiento rápido.</li>\n<li>Hable con su propietario ahora. Su contrato de arrendamiento le sigue haciendo responsable de la renta. Explique lo que pasó y pida un plan de pagos mientras resuelve la situación. Ponga por escrito cualquier acuerdo.</li>\n<li>Solicite asistencia de renta de emergencia. Llame al 211 y a su agencia local de acción comunitaria. Muchos programas le pagan directamente al propietario.</li>\n<li>Si recibe cualquier aviso de desalojo, llame ese mismo día a una oficina de ayuda legal gratuita. No ignore los papeles del tribunal, y no se mude antes de recibir asesoría.</li>\n<li>Si bajaron sus ingresos, solicite beneficios como SNAP y Medicaid, y anótese en las listas de espera de la Sección 8 y de vivienda pública.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Mi asistencia TBRA terminó el [fecha], pero mi contrato de asistencia de alquiler dura hasta el [fecha]. Por favor, díganme por escrito por qué terminó y qué política del programa usaron, envíenme una copia de sus políticas de TBRA y díganme cómo pedir una revisión. Solicito que mi asistencia continúe mientras se hace la revisión.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Pida la decisión por escrito y lleve esa carta, su contrato y las políticas a una oficina de ayuda legal. Si cree que la decisión violó las propias reglas del programa o una ley de vivienda justa, también puede comunicarse con la oficina de la ciudad o del condado que administra su programa HOME, o con la oficina local de HUD. Las reglas de revisión cambian de un programa a otro, así que pida el proceso por escrito.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/asistencia-renta-emergencia",
+        "label": "Cómo Encontrar y Solicitar Asistencia de Renta de Emergencia",
+        "note": "Dónde buscar ayuda con la renta ahora mismo."
+      },
+      {
+        "href": "/es/recursos/prevencion-desalojos",
+        "label": "Prevención y Defensa contra Desalojos",
+        "note": "Qué hacer si su propietario empieza un desalojo."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratuita para inquilinos: cómo conseguir un abogado si enfrenta un desalojo",
+        "note": "Cómo encontrar ayuda legal gratuita cerca de usted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-92.209",
+        "label": "24 CFR 92.209: Asistencia de alquiler basada en el inquilino del programa HOME (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hudexchange.info/programs/home/topics/tbra/",
+        "label": "HUD Exchange: Asistencia de alquiler basada en el inquilino de HOME (en inglés)"
+      }
+    ]
+  }
+}
