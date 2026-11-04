@@ -903,7 +903,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/how-to-transfer-voucher</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1227,6 +1227,12 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/rental-scams</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/special-purpose-vouchers</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -3178,7 +3184,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-transferir-cupon</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3543,6 +3549,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/cupones-de-proposito-especial</loc>
+    <lastmod>2026-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/es/recursos/herramientas/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -3799,7 +3811,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/blog/posts/voucher-por-proyecto-vs-por-inquilino</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4174,7 +4186,7 @@
   <url><loc>https://waythroughproject.com/blog/posts/applying-for-section-8-in-multiple-states</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/what-to-do-if-you-owe-a-pha-money</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/section-8-with-no-income</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://waythroughproject.com/blog/posts/project-based-vs-tenant-based-vouchers</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waythroughproject.com/blog/posts/project-based-vs-tenant-based-vouchers</loc><lastmod>2026-11-04</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/what-is-housing-quality-standards</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/appeal-section-8-denial</loc><lastmod>2026-08-26</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://waythroughproject.com/blog/posts/understanding-your-hud-50058</loc><lastmod>2026-11-03</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>

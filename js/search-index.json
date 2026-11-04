@@ -256,7 +256,7 @@
     "description": "A tenant-based voucher moves with you; a project-based voucher stays with the unit. Which has shorter waits, and how to switch to tenant-based after a year.",
     "url": "/blog/posts/project-based-vs-tenant-based-vouchers",
     "category": "Blog",
-    "body": "Tenant-Based vs. Project-Based Vouchers: What Each Means Home / Blog / PBV vs. HCV Blog Project-Based vs. Tenant-Based Vouchers: What's the Difference? Matt &middot; August 12, 2026 &middot; 7 min read Tenant-based vouchers (Housing Choice Vouchers) go with you wherever you move. Project-based vouch"
+    "body": "Tenant-Based vs. Project-Based Vouchers: What Each Means Home / Blog / PBV vs. HCV Blog Project-Based vs. Tenant-Based Vouchers: What's the Difference? Matt &middot; August 12, 2026 &middot; Updated November 4, 2026 &middot; 11 min read Tenant-based vouchers (Housing Choice Vouchers) go with you whe"
   },
   {
     "title": "What Is HQS? Section 8 Housing Quality Standards Inspection",
@@ -939,7 +939,7 @@
   },
   {
     "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
-    "description": "Browse all 96 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 97 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
@@ -1201,7 +1201,7 @@
     "description": "Complete guide to moving your Section 8 Housing Choice Voucher to a different city or region using portability. Free guide from Waythrough Project.",
     "url": "/resources/guides/how-to-transfer-voucher",
     "category": "Guide",
-    "body": "How to Transfer Your Voucher (Portability) | Waythrough Home / Resources / Transfer Voucher How-To Guide How to Transfer Your Voucher to Another Area (Portability) Matt · 6 min read What Is Voucher Portability? Portability is one of the best-kept secrets in housing assistance. It's your right to mov"
+    "body": "How to Transfer Your Voucher (Portability) | Waythrough Home / Resources / Transfer Voucher How-To Guide How to Transfer Your Voucher to Another Area (Portability) Matt · Updated November 4, 2026 · 10 min read What Is Voucher Portability? Portability is one of the best-kept secrets in housing assist"
   },
   {
     "title": "HUD Eviction Rules: Public Housing & Section 8 | Waythrough",
@@ -3473,7 +3473,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 96 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 97 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4571,6 +4571,13 @@
     "body": "No Heat in Your Apartment? Who to Call | Waythrough Home / Resources / Reader Questions / No heat or lighting Reader Question Our landlord won't turn on the heat or fix the outdoor lights. What can we do? Asked November 2026 · Answered by Matt · Updated November 4, 2026 The question “Our landlord an"
   },
   {
+    "title": "Special Purpose Vouchers: VASH, FUP, Mainstream | Waythrough",
+    "description": "Special purpose vouchers explained: HUD-VASH, FUP, FYI, Mainstream, NED, Emergency Housing and Stability Vouchers. Who qualifies and how to get referred.",
+    "url": "/resources/guides/special-purpose-vouchers",
+    "category": "Guide",
+    "body": "Special Purpose Vouchers: VASH, FUP, Mainstream | Waythrough Home / Resources / Special Purpose Vouchers How-To Guide Special Purpose Vouchers: HUD-VASH, FUP, FYI, Mainstream, and More Matt · Updated November 2026 Most people wait years for a regular Section 8 voucher. But Congress also pays for spe"
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -5423,5 +5430,12 @@
     "url": "/es/recursos/preguntas/techo-con-goteras-y-moho-sin-reparar",
     "category": "Guías",
     "body": "Inicio / Recursos / Preguntas de lectores / Goteras y moho Pregunta de un lector Mi techo tiene goteras desde hace años y ahora hay moho. ¿Qué puedo hacer? Pregunta de agosto de 2026 · Respondida por Matt · Actualizado el 4 de noviembre de 2026 La pregunta “Mi techo tiene goteras desde hace más de t"
+  },
+  {
+    "title": "Cupones de propósito especial (VASH, FUP) | Waythrough",
+    "description": "Cupones de propósito especial: HUD-VASH, FUP, FYI, Mainstream, NED, de emergencia y Stability. Quién califica, quién lo refiere y cómo preguntarle a su PHA.",
+    "url": "/es/recursos/guias/cupones-de-proposito-especial",
+    "category": "Guías",
+    "body": "La mayoría de la gente espera años por un cupón regular de Sección 8. Pero el Congreso también paga cupones de propósito especial (special purpose vouchers): cupones de elección de vivienda reservados para ciertos grupos, como veteranos sin hogar, familias que podrían perder a sus hijos al sistema d"
   }
 ]
