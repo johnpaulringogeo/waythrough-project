@@ -1,0 +1,103 @@
+{
+  "slug": "leaky-roof-mold-repairs-ignored",
+  "es_slug": "techo-con-goteras-y-moho-sin-reparar",
+  "topic": "repairs",
+  "order": 10,
+  "related": [
+    "no-heat-no-outdoor-lighting",
+    "broken-appliances-not-repaired",
+    "locked-out-after-reporting-mold"
+  ],
+  "en": {
+    "question": "My roof has leaked for more than three years. I've asked for repairs over and over, and now there's heavy mold and mildew and a strong musty smell, and it's making me sick. What can I do?",
+    "title": "Leaky Roof and Mold Your Landlord Won't Fix?",
+    "description": "A leaking roof and mold make a home unsafe. How to use code enforcement and a Section 8 inspection to get repairs, and why not to withhold rent alone.",
+    "h1": "My roof has leaked for years and now there's mold. What can I do?",
+    "crumb": "Leaky roof and mold",
+    "asked": "August 2026",
+    "short_answer": "Yes, you can push for repairs. A leaking roof and spreading mold make a home unsafe, so put your request in writing, ask your local code office for an inspection, and if you have Section 8, ask your housing authority for one too: it can stop paying the landlord until the work is done. Don't stop paying rent on your own; check with legal aid first.",
+    "body_html": "<h2>What the rule says</h2>\n<p>In almost every state, landlords must keep a rental safe and livable. Lawyers call this the \"warranty of habitability.\" A roof that lets water in, and mold that grows because of it, are classic problems a landlord has to fix. Your city or county housing code usually says the same, and a code inspector can order repairs.</p>\n<p>If you have a Housing Choice Voucher (Section 8), there is a second layer of protection. The owner must keep the unit up to HUD's quality standards (24 CFR 982.404):</p>\n<ul>\n<li>HUD's newer inspection standards, called NSPIRE, fail a unit for water coming in from outside and for a damaged roof. Those usually get a 30-day fix.</li>\n<li>NSPIRE treats mold seriously. More than 9 square feet of mold in one room of your unit is rated \"life-threatening,\" which means the owner must fix it within 24 hours of notice. Smaller patches over 1 square foot are rated \"severe.\"</li>\n<li>Voucher programs can keep using the older checklist (HQS) until February 1, 2027; after that date, all of them must use NSPIRE. HQS also requires a roof that is \"weathertight.\"</li>\n</ul>\n<p>If the owner doesn't fix failed items in time, the housing authority must stop (abate) its payments to the owner, and the owner can't evict you because payments stopped. If repairs still aren't made within 60 days, the housing authority ends its contract with the owner and must give you your voucher to move, plus at least 90 days to find a new place.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Take dated photos and videos of the leak, stains and mold. Keep a list of every time you asked for repairs.</li>\n<li>Send a written repair request to your landlord (letter, email or online portal) and keep a copy. Name the roof leak and the mold, and ask for a repair date.</li>\n<li>If you have Section 8, send the same letter to your housing authority and ask for a special (complaint) inspection. Ask for the results in writing.</li>\n<li>Call your city or county code enforcement office (it may be called housing inspection or the building department) and ask for an inspection. This works with or without a voucher.</li>\n<li>See a doctor about your breathing and sinus problems, and mention the mold. Keep those records.</li>\n<li>Call legal aid and ask what your state allows, such as \"repair and deduct,\" paying rent to the court, or a claim for money back.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote>\"The roof over my unit has leaked since [month and year], and there is now mold on the [walls/ceiling] in [rooms]. I asked for repairs on [dates]. Please fix the roof and safely remove the mold by [date]. I am sending a copy to my housing authority and asking for an inspection.\"</blockquote>\n<h2>Don't withhold rent on your own</h2>\n<p>Holding back rent can feel fair, but in many states it can get you evicted if you don't follow exact steps. Some states allow it only after written notice and a waiting period; some require you to pay the rent to the court instead. Check your <a href=\"/resources/states/\">state's page</a> and talk to legal aid before you hold back any rent.</p>\n<h2>If they say no</h2>\n<p>If the landlord ignores you, a code inspector's report and a failed housing authority inspection create a record that is hard to ignore. If the housing authority doesn't act, ask for a supervisor in writing. If the unit keeps failing, you can ask to move with your voucher. If the landlord threatens you for complaining, most states have laws against retaliation, so tell legal aid right away.</p>",
+    "links": [
+      {
+        "href": "/resources/templates/repair-request",
+        "label": "Repair Request Letter",
+        "note": "A fill-in letter that puts your repair request in writing."
+      },
+      {
+        "href": "/blog/posts/landlord-not-making-repairs",
+        "label": "Landlord Won't Fix Things? Who to Call",
+        "note": "Code enforcement, the housing authority and other offices that can push repairs."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid near you and what to bring."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.404",
+        "label": "24 CFR 982.404: Owner maintenance and PHA remedies (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Mold-like-Substance_20230811.pdf",
+        "label": "HUD NSPIRE Standard: Mold-Like Substance (v3.0)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Leak-Water_20230620.pdf",
+        "label": "HUD NSPIRE Standard: Leak, Water"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19070/economic-growth-regulatory-relief-and-consumer-protection-act-implementation-of-national-standards",
+        "label": "Federal Register, Sept. 30, 2025: NSPIRE compliance date for vouchers moved to Feb. 1, 2027"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "Mi techo tiene goteras desde hace más de tres años. He pedido las reparaciones una y otra vez, y ahora hay mucho moho, un olor fuerte a humedad, y me está enfermando. ¿Qué puedo hacer?",
+    "title": "Goteras y moho que el dueño no repara",
+    "description": "Un techo con goteras y el moho hacen insegura una vivienda. Cómo usar la inspección de códigos y la de Sección 8 para lograr reparaciones, sin dejar de pagar.",
+    "h1": "Mi techo tiene goteras desde hace años y ahora hay moho. ¿Qué puedo hacer?",
+    "crumb": "Goteras y moho",
+    "asked": "agosto de 2026",
+    "short_answer": "Sí, puede exigir las reparaciones. Las goteras y el moho hacen que la vivienda no sea segura. Pida la reparación por escrito, pida una inspección a la oficina de códigos de su ciudad y, si tiene Sección 8, pida otra a su autoridad de vivienda: puede dejar de pagarle al dueño hasta que haga el trabajo. No deje de pagar la renta por su cuenta; consulte antes con ayuda legal.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>En casi todos los estados, el dueño debe mantener la vivienda segura y habitable. Los abogados lo llaman \"garantía de habitabilidad\". Un techo por donde entra agua, y el moho que crece por eso, son problemas típicos que el dueño tiene que arreglar. El código de vivienda de su ciudad o condado normalmente dice lo mismo, y un inspector de códigos puede ordenar las reparaciones.</p>\n<p>Si tiene un cupón de vivienda (Sección 8), tiene una protección más. El dueño debe mantener la unidad según las normas de calidad de HUD (24 CFR 982.404):</p>\n<ul>\n<li>Las normas de inspección más nuevas de HUD, llamadas NSPIRE, reprueban una unidad cuando entra agua de afuera o el techo está dañado. Normalmente el dueño tiene 30 días para arreglarlo.</li>\n<li>NSPIRE toma el moho muy en serio. Más de 9 pies cuadrados de moho en un cuarto de su unidad se califica como \"peligro para la vida\": el dueño debe arreglarlo dentro de las 24 horas después del aviso. Las manchas de más de 1 pie cuadrado se califican como \"graves\".</li>\n<li>Los programas de cupones pueden seguir usando la lista anterior (HQS) hasta el 1 de febrero de 2027; desde esa fecha, todos deben usar NSPIRE. HQS también exige un techo que no deje pasar el agua.</li>\n</ul>\n<p>Si el dueño no corrige a tiempo, la autoridad de vivienda debe suspender sus pagos al dueño, y el dueño no puede desalojarlo porque se suspendieron los pagos. Si en 60 días todavía no repara, la autoridad de vivienda termina su contrato con el dueño y debe darle su cupón para mudarse, con al menos 90 días para encontrar otro lugar.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Tome fotos y videos con fecha de las goteras, las manchas y el moho. Anote cada vez que pidió reparaciones.</li>\n<li>Mande al dueño un pedido de reparación por escrito (carta, correo electrónico o portal en línea) y guarde una copia. Mencione las goteras y el moho, y pida una fecha de reparación.</li>\n<li>Si tiene Sección 8, mande la misma carta a su autoridad de vivienda y pida una inspección especial por queja. Pida los resultados por escrito.</li>\n<li>Llame a la oficina de cumplimiento de códigos de su ciudad o condado (a veces se llama inspección de vivienda o departamento de construcción) y pida una inspección. Esto sirve tenga o no tenga cupón.</li>\n<li>Vaya al médico por los problemas de respiración y de sinusitis, y mencione el moho. Guarde esos documentos.</li>\n<li>Llame a ayuda legal y pregunte qué permite su estado: por ejemplo, reparar y descontarlo de la renta, pagar la renta a la corte o reclamar dinero.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote>\"El techo de mi unidad tiene goteras desde [mes y año] y ahora hay moho en [las paredes/el techo] de [cuartos]. Pedí las reparaciones el [fechas]. Por favor arregle el techo y quite el moho de forma segura antes del [fecha]. Voy a mandar una copia a mi autoridad de vivienda y a pedir una inspección.\"</blockquote>\n<h2>No retenga la renta por su cuenta</h2>\n<p>Dejar de pagar la renta puede parecer justo, pero en muchos estados puede terminar en un desalojo si no sigue los pasos exactos. Algunos estados lo permiten solo después de un aviso por escrito y un tiempo de espera; otros exigen que pague la renta a la corte. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a> y hable con ayuda legal antes de retener cualquier pago.</p>\n<h2>Si le dicen que no</h2>\n<p>Si el dueño no le hace caso, el informe de un inspector de códigos y una inspección reprobada de la autoridad de vivienda dejan un registro difícil de ignorar. Si la autoridad de vivienda no actúa, pida por escrito hablar con un supervisor. Si la unidad sigue sin pasar, puede pedir mudarse con su cupón. Si el dueño lo amenaza por quejarse, la mayoría de los estados prohíben las represalias; avise de inmediato a ayuda legal.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/plantillas/solicitud-reparacion",
+        "label": "Carta de solicitud de reparación",
+        "note": "Una carta para llenar que deja su pedido de reparación por escrito."
+      },
+      {
+        "href": "/es/blog/posts/propietario-no-hace-reparaciones",
+        "label": "¿Su propietario no hace reparaciones?",
+        "note": "Inspección de códigos, la autoridad de vivienda y otras oficinas que pueden exigir reparaciones."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal cerca de usted y qué llevar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.404",
+        "label": "24 CFR 982.404: mantenimiento del dueño y medidas de la autoridad de vivienda (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Mold-like-Substance_20230811.pdf",
+        "label": "Norma NSPIRE de HUD: sustancia parecida al moho (v3.0, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Leak-Water_20230620.pdf",
+        "label": "Norma NSPIRE de HUD: filtraciones de agua (en inglés)"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19070/economic-growth-regulatory-relief-and-consumer-protection-act-implementation-of-national-standards",
+        "label": "Federal Register, 30 de septiembre de 2025: fecha de NSPIRE para cupones aplazada al 1 de febrero de 2027"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

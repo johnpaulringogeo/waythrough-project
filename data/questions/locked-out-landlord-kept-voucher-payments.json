@@ -1,0 +1,112 @@
+{
+  "slug": "locked-out-landlord-kept-voucher-payments",
+  "es_slug": "me-sacaron-y-el-dueno-siguio-cobrando-el-cupon",
+  "topic": "lockouts",
+  "order": 40,
+  "related": [
+    "locked-out-after-reporting-mold",
+    "locked-out-not-on-lease"
+  ],
+  "en": {
+    "question": "My landlord gave me two months to move out so they could sell, but then locked me out early. They kept taking the housing authority's payments, even though I'd already filled out my move packet. I've been homeless for months. What can I do?",
+    "title": "Locked Out but Landlord Kept Section 8 Pay?",
+    "description": "A Section 8 landlord can't lock you out or keep housing payments after you leave. How to get payments stopped, report fraud and keep your voucher.",
+    "h1": "My landlord locked me out but kept collecting Section 8 payments. What can I do?",
+    "crumb": "Locked out, still paid",
+    "asked": "October 2026",
+    "short_answer": "Tell your housing authority in writing the date you were locked out. Housing assistance can be paid only while you live in the unit, so the housing authority can stop payments and recover what the owner shouldn't have kept. Ask about using your voucher to move, contact legal aid about the lockout, and report suspected fraud to HUD's Inspector General.",
+    "body_html": "<h2>What the rule says</h2>\n<ul>\n<li><strong>The lockout.</strong> A voucher landlord may evict only by going to court (24 CFR 982.310(f)), and almost every state says the same. Even if you agreed to a move-out date, locking you out early without a court order is usually illegal. Wanting to sell doesn't change that.</li>\n<li><strong>The payments.</strong> Housing assistance may be paid only \"while the family is residing in the unit\" (24 CFR 982.311). The HAP contract says the housing authority may not pay the owner \"for any month after the month when the family moves out\" (form HUD-52641, Part B). Money kept after that is an overpayment the housing authority can recover, and it can also end its contract with the owner (24 CFR 982.453). Knowingly taking payments for a unit you no longer live in can be fraud.</li>\n<li><strong>Your voucher.</strong> A voucher issued for a move lasts at least 60 days, and the housing authority can extend it under its policy. The clock pauses while a request for tenancy approval is under review (24 CFR 982.303). If you or a family member has a disability, you can ask for an extension as a reasonable accommodation.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li>Write to your housing authority with the date of the lockout and the last day you lived there. Ask them to stop payments to the owner as of that month and recover any overpayment. Ask for written confirmation.</li>\n<li>In the same letter, ask about your voucher: is it active, when does it expire, and can it be extended because you were locked out and are homeless? If it already expired, ask in writing to have it reinstated and explain why.</li>\n<li>Ask for help finding a unit: landlord lists, a housing search worker, or a referral to homeless services.</li>\n<li>If the housing authority doesn't answer, call HUD's Public and Indian Housing customer service line at 800-955-2232.</li>\n<li>Report suspected fraud to the HUD OIG Hotline at 1-800-347-3735. Include dates, the address and copies of your move packet.</li>\n<li>Contact legal aid about the illegal lockout. In many states you can recover money damages, and possibly your belongings and deposit.</li>\n<li>For shelter tonight, call 211.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote>\"On [date] my landlord locked me out of [address], and I have not lived there since. Please stop housing assistance payments for that unit, recover any payments made after I left, and tell me in writing the status and expiration date of my voucher. I am asking for an extension because I was locked out and am now homeless.\"</blockquote>\n<h2>If they say no</h2>\n<p>If the housing authority says your voucher expired or your assistance ended, ask in writing for an informal hearing right away, and bring proof of the lockout and of your move packet. If you miss the deadline in the letter, ask anyway and explain why. Keep copies of everything you send.</p>",
+    "links": [
+      {
+        "href": "/resources/tenant-rights",
+        "label": "Understanding Your Rights as a Tenant",
+        "note": "Lockouts, retaliation and the basic rights renters have in every state."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a supervisor to respond."
+      },
+      {
+        "href": "/resources/guides/emergency-housing-tonight",
+        "label": "I Need Housing Tonight",
+        "note": "Shelter, 211 and family options for tonight."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid fast and what to bring."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.311",
+        "label": "24 CFR 982.311: When assistance is paid (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/52641.pdf",
+        "label": "HUD Form 52641: HAP Contract (Part B section 7: no payment after the family moves out)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.453",
+        "label": "24 CFR 982.453: Owner breach of contract and PHA remedies (eCFR)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "HUD Office of Inspector General Hotline (1-800-347-3735)"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "El dueño me dio dos meses para mudarme porque quería vender, pero me dejó fuera antes de tiempo. Siguió cobrando los pagos de la autoridad de vivienda, aunque yo ya había llenado mis papeles de mudanza. Llevo meses sin hogar. ¿Qué puedo hacer?",
+    "title": "Me dejaron fuera y el dueño siguió cobrando",
+    "description": "Un dueño de Sección 8 no puede dejarlo fuera ni quedarse con los pagos después de que usted se va. Cómo parar los pagos, reportar fraude y usar su cupón.",
+    "h1": "El dueño me dejó fuera pero siguió cobrando los pagos de Sección 8. ¿Qué puedo hacer?",
+    "crumb": "Fuera, y siguió cobrando",
+    "asked": "octubre de 2026",
+    "short_answer": "Avise por escrito a su autoridad de vivienda la fecha en que lo dejaron fuera. La ayuda de vivienda solo se puede pagar mientras usted vive en la unidad, así que la autoridad de vivienda puede parar los pagos y recuperar lo que el dueño no debió quedarse. Pregunte cómo usar su cupón para mudarse, busque ayuda legal por el cierre ilegal y reporte el posible fraude al Inspector General de HUD.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<ul>\n<li><strong>El cierre.</strong> Un dueño con cupón solo puede desalojar por medio de la corte (24 CFR 982.310(f)), y casi todos los estados dicen lo mismo. Aunque usted haya aceptado una fecha para irse, dejarlo fuera antes sin orden de la corte normalmente es ilegal. Querer vender no cambia eso.</li>\n<li><strong>Los pagos.</strong> La ayuda de vivienda solo se puede pagar mientras la familia vive en la unidad (24 CFR 982.311). El contrato HAP dice que la autoridad de vivienda no puede pagarle al dueño ningún mes después del mes en que la familia se muda (formulario HUD-52641, Parte B). El dinero que el dueño se queda después de eso es un pago en exceso que la autoridad de vivienda puede recuperar, y también puede terminar su contrato con el dueño (24 CFR 982.453). Cobrar a sabiendas por una unidad donde usted ya no vive puede ser fraude.</li>\n<li><strong>Su cupón.</strong> Un cupón para mudarse dura al menos 60 días, y la autoridad de vivienda puede extenderlo según su política. El plazo se detiene mientras revisan una solicitud de aprobación de arrendamiento (24 CFR 982.303). Si usted o alguien de su familia tiene una discapacidad, puede pedir una extensión como acomodo razonable.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Escriba a su autoridad de vivienda con la fecha del cierre y el último día que vivió allí. Pida que paren los pagos al dueño desde ese mes y que recuperen lo pagado de más. Pida confirmación por escrito.</li>\n<li>En la misma carta, pregunte por su cupón: si está activo, cuándo vence y si se puede extender porque lo dejaron fuera y está sin hogar. Si ya venció, pida por escrito que lo restablezcan y explique por qué.</li>\n<li>Pida ayuda para encontrar vivienda: listas de dueños, un trabajador de búsqueda de vivienda o una referencia a servicios para personas sin hogar.</li>\n<li>Si la autoridad de vivienda no responde, llame a la línea de servicio al cliente de Vivienda Pública e Indígena de HUD: 800-955-2232.</li>\n<li>Reporte el posible fraude a la línea directa de la OIG de HUD: 1-800-347-3735. Incluya fechas, la dirección y copias de sus papeles de mudanza.</li>\n<li>Busque ayuda legal por el cierre ilegal. En muchos estados puede cobrar daños y tal vez recuperar sus cosas y su depósito.</li>\n<li>Para un refugio esta noche, llame al 211.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote>\"El [fecha] el dueño me dejó fuera de [dirección] y no he vivido allí desde entonces. Por favor paren los pagos de ayuda de vivienda para esa unidad, recuperen lo pagado después de que me fui y díganme por escrito el estado y la fecha de vencimiento de mi cupón. Pido una extensión porque me dejaron fuera y ahora estoy sin hogar.\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si la autoridad de vivienda dice que su cupón venció o que su ayuda terminó, pida de inmediato por escrito una audiencia informal y lleve pruebas del cierre y de sus papeles de mudanza. Si ya pasó la fecha límite de la carta, pídala de todos modos y explique por qué. Guarde copias de todo lo que mande.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/derechos-del-inquilino",
+        "label": "Derechos del inquilino",
+        "note": "Cierres ilegales, represalias y los derechos básicos de los inquilinos en todos los estados."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer pedidos por escrito y lograr que un supervisor responda."
+      },
+      {
+        "href": "/es/recursos/guias/necesito-vivienda-esta-noche",
+        "label": "Necesito vivienda esta noche",
+        "note": "Refugios, el 211 y opciones para familias para esta noche."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.311",
+        "label": "24 CFR 982.311: cuándo se paga la ayuda (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/52641.pdf",
+        "label": "Formulario HUD-52641: contrato HAP (Parte B, sección 7: no hay pago después de que la familia se muda; en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.453",
+        "label": "24 CFR 982.453: incumplimiento del dueño y medidas de la autoridad de vivienda (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "Línea directa de la Oficina del Inspector General de HUD (1-800-347-3735; en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

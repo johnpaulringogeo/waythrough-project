@@ -1,0 +1,105 @@
+{
+  "slug": "lost-home-and-belongings-while-in-jail",
+  "es_slug": "perdi-vivienda-y-pertenencias-en-la-carcel",
+  "topic": "lockouts",
+  "order": 30,
+  "related": [
+    "locked-out-not-on-lease",
+    "locked-out-landlord-kept-voucher-payments",
+    "eviction-on-record-after-moving-out"
+  ],
+  "en": {
+    "question": "While I was in jail for about a month, I lost my apartment and everything in it. I never got an eviction notice, nobody knows where my things are, and someone else is already living there. What can I do?",
+    "title": "Lost Your Apartment and Things While in Jail?",
+    "description": "A landlord usually can't end your lease or throw out your things without following state law. What to do now, abandoned-property rules, and deadlines.",
+    "h1": "I lost my apartment and my belongings while I was in jail. What can I do?",
+    "crumb": "Lost home in jail",
+    "asked": "September 2026",
+    "short_answer": "You may have a claim. In most states a landlord can't end a tenancy, re-rent the unit or get rid of your belongings without following state law, which usually means notice and a court case, or set abandoned-property steps. Act fast: write down what you lost and contact legal aid, because claims have deadlines.",
+    "body_html": "<h2>What the rule says</h2>\n<p>Going to jail doesn't end your lease. To take back an apartment, a landlord usually has to give written notice and win an eviction case in court. Changing the locks and renting to someone else without that is often an illegal eviction.</p>\n<p>The big exception is <strong>abandonment</strong>. Many states let a landlord treat a unit as abandoned when rent goes unpaid and it looks like no one lives there. Even then, most states require steps first, such as posting or mailing a notice and waiting a set time.</p>\n<p><strong>Your belongings have their own rules.</strong> Many states require the landlord to give written notice and hold your things for a period before selling or throwing them away. In California, for example, the notice must give you at least 15 days to claim them, or 18 days if it was mailed (Civil Code 1983); after that date passes, the landlord may sell or dispose of what is left. Other states use different times, and a few have very few rules. Check your <a href=\"/resources/states/\">state's page</a>.</p>\n<p><strong>If you had Section 8 or public housing,</strong> program rules apply too. A voucher family can't be away from the unit for more than 180 days in a row, and each housing authority sets its own, often shorter, policy for absences, including jail (24 CFR 982.312). A voucher landlord may evict only through court (24 CFR 982.310(f)). If the housing authority ended your assistance, you can ask for an informal hearing.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Write down the dates: when you went in, when you got out, when you last paid rent, and when you found out.</li>\n<li>List everything you lost with rough values. Gather proof you owned it: photos, receipts, bank or card statements.</li>\n<li>Check the court's online records, or call the clerk, to see if an eviction case was filed in your name. If there was a judgment you didn't know about, legal aid can tell you if it can be reopened.</li>\n<li>Send the landlord a short letter or text asking where your belongings are and asking for them back, or for a list of what was done with them. Keep a copy.</li>\n<li>If you had a voucher, call your housing authority now. Ask whether your assistance is still active, and if it isn't, ask in writing for a hearing.</li>\n<li>Contact legal aid. Ask about \"wrongful eviction\" and \"conversion\" (taking someone's property). Many states also let you sue for smaller amounts in small claims court without a lawyer.</li>\n</ol>\n<h2>Deadlines matter</h2>\n<p>Claims for lost property or an illegal eviction must be filed within your state's time limit, often a few years but sometimes less. A housing authority hearing request can be due within days of the notice. Don't wait.</p>\n<h2>What to write</h2>\n<blockquote>\"I was a tenant at [address] until [date]. I did not receive an eviction notice or court papers. Please tell me in writing where my belongings are, return them, and send me any notice you say you gave me.\"</blockquote>\n<h2>If they say no</h2>\n<p>If the landlord won't answer or says everything is gone, keep their reply and take your list and proof to legal aid or small claims court. While you look for a new place, reentry programs and 211 can help with housing and replacing documents.</p>",
+    "links": [
+      {
+        "href": "/resources/tenant-rights",
+        "label": "Understanding Your Rights as a Tenant",
+        "note": "Lockouts, retaliation and the basic rights renters have in every state."
+      },
+      {
+        "href": "/resources/guides/hud-eviction-rules",
+        "label": "HUD Eviction Rules: Public Housing and Section 8",
+        "note": "The extra steps a subsidized landlord must follow before an eviction."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid fast and what to bring."
+      },
+      {
+        "href": "/resources/guides/criminal-records-and-housing",
+        "label": "Criminal Records and Housing",
+        "note": "Finding a new place after jail, and what landlords and housing authorities can consider."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1983",
+        "label": "California Civil Code § 1983: Notice for property left after a tenancy (one state's example)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.312",
+        "label": "24 CFR 982.312: Absence from unit (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.310",
+        "label": "24 CFR 982.310: Owner termination of tenancy; eviction only by court action (eCFR)"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "Mientras estuve en la cárcel cerca de un mes, perdí mi apartamento y todo lo que tenía adentro. Nunca recibí un aviso de desalojo, nadie sabe dónde están mis cosas y ya vive otra persona allí. ¿Qué puedo hacer?",
+    "title": "¿Perdió su vivienda y sus cosas en la cárcel?",
+    "description": "Por lo general, el dueño no puede terminar su contrato ni tirar sus cosas sin seguir la ley estatal. Qué hacer ahora, reglas de bienes abandonados y plazos.",
+    "h1": "Perdí mi apartamento y mis cosas mientras estaba en la cárcel. ¿Qué puedo hacer?",
+    "crumb": "Pérdida en la cárcel",
+    "asked": "septiembre de 2026",
+    "short_answer": "Puede que tenga un reclamo. En la mayoría de los estados, el dueño no puede terminar el arrendamiento, rentar la unidad a otra persona ni deshacerse de sus cosas sin seguir la ley estatal, lo que suele exigir un aviso y un caso en la corte, o ciertos pasos para bienes abandonados. Actúe rápido: anote lo que perdió y busque ayuda legal, porque los reclamos tienen plazos.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Estar en la cárcel no termina su contrato de arrendamiento. Para recuperar un apartamento, el dueño normalmente tiene que dar un aviso por escrito y ganar un caso de desalojo en la corte. Cambiar la cerradura y rentarlo a otra persona sin hacer eso suele ser un desalojo ilegal.</p>\n<p>La gran excepción es el <strong>abandono</strong>. Muchos estados permiten que el dueño considere abandonada una unidad cuando no se paga la renta y parece que nadie vive allí. Aun así, la mayoría exige pasos antes, como poner o mandar por correo un aviso y esperar cierto tiempo.</p>\n<p><strong>Sus pertenencias tienen sus propias reglas.</strong> Muchos estados obligan al dueño a dar un aviso por escrito y guardar sus cosas durante un tiempo antes de venderlas o tirarlas. En California, por ejemplo, el aviso debe darle al menos 15 días para reclamarlas, o 18 si se mandó por correo (Código Civil 1983); después de esa fecha, el dueño puede vender o desechar lo que quede. Otros estados usan plazos distintos y algunos casi no tienen reglas. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a>.</p>\n<p><strong>Si tenía Sección 8 o vivienda pública,</strong> también aplican las reglas del programa. Una familia con cupón no puede estar fuera de la unidad más de 180 días seguidos, y cada autoridad de vivienda fija su propia política para ausencias, a menudo más corta, incluida la cárcel (24 CFR 982.312). Un dueño con cupón solo puede desalojar por medio de la corte (24 CFR 982.310(f)). Si la autoridad de vivienda terminó su ayuda, puede pedir una audiencia informal.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Anote las fechas: cuándo entró, cuándo salió, cuándo pagó la renta por última vez y cuándo se enteró.</li>\n<li>Haga una lista de todo lo que perdió con su valor aproximado. Junte pruebas de que era suyo: fotos, recibos, estados de cuenta del banco o de la tarjeta.</li>\n<li>Revise los registros de la corte en línea, o llame a la oficina del secretario, para ver si hubo un caso de desalojo a su nombre. Si hubo una sentencia que usted no conocía, ayuda legal puede decirle si se puede reabrir.</li>\n<li>Mande al dueño una carta o un mensaje corto preguntando dónde están sus cosas y pidiendo que se las devuelva, o una lista de lo que hizo con ellas. Guarde una copia.</li>\n<li>Si tenía cupón, llame ya a su autoridad de vivienda. Pregunte si su ayuda sigue activa y, si no, pida por escrito una audiencia.</li>\n<li>Busque ayuda legal. Pregunte por \"desalojo ilegal\" (wrongful eviction) y por la apropiación de sus bienes (conversion). Muchos estados también permiten reclamar cantidades menores en la corte de reclamos menores sin abogado.</li>\n</ol>\n<h2>Los plazos importan</h2>\n<p>Los reclamos por bienes perdidos o por un desalojo ilegal deben presentarse dentro del plazo de su estado, que a menudo es de unos años pero a veces es menos. El pedido de audiencia ante la autoridad de vivienda puede vencer pocos días después del aviso. No espere.</p>\n<h2>Qué escribir</h2>\n<blockquote>\"Fui inquilino en [dirección] hasta el [fecha]. No recibí ningún aviso de desalojo ni papeles de la corte. Por favor dígame por escrito dónde están mis pertenencias, devuélvamelas y mándeme cualquier aviso que diga que me dio.\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si el dueño no responde o dice que ya no queda nada, guarde su respuesta y lleve su lista y sus pruebas a ayuda legal o a la corte de reclamos menores. Mientras busca otra vivienda, los programas de reintegración y el 211 pueden ayudarle con alojamiento y a reponer sus documentos.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/derechos-del-inquilino",
+        "label": "Derechos del inquilino",
+        "note": "Cierres ilegales, represalias y los derechos básicos de los inquilinos en todos los estados."
+      },
+      {
+        "href": "/es/recursos/guias/reglas-desalojo-hud",
+        "label": "Reglas de desalojo de HUD para inquilinos",
+        "note": "Los pasos extra que debe seguir un dueño con subsidio antes de un desalojo."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      },
+      {
+        "href": "/es/recursos/guias/antecedentes-penales-y-vivienda",
+        "label": "Antecedentes penales y vivienda",
+        "note": "Cómo encontrar otra vivienda después de la cárcel y qué pueden tomar en cuenta los dueños."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1983",
+        "label": "Código Civil de California § 1983: aviso por bienes que quedan después del arrendamiento (ejemplo de un estado; en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.312",
+        "label": "24 CFR 982.312: ausencia de la unidad (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.310",
+        "label": "24 CFR 982.310: terminación del arrendamiento por el dueño; desalojo solo por la corte (eCFR, en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

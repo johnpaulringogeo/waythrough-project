@@ -1,0 +1,94 @@
+{
+  "slug": "eviction-on-record-after-moving-out",
+  "es_slug": "desalojo-en-historial-despues-de-mudarse",
+  "topic": "lockouts",
+  "order": 50,
+  "related": [
+    "lost-home-and-belongings-while-in-jail",
+    "late-fees-when-rent-is-not-late"
+  ],
+  "en": {
+    "question": "During my eviction case, the landlord's attorney asked when we could be out. We moved out on the date we agreed to, but the eviction is still on our record. What do I do?",
+    "title": "Eviction on Your Record After Moving Out?",
+    "description": "Moved out by the date you agreed and still have an eviction on your record? How to get the case dismissed or sealed and dispute tenant screening reports.",
+    "h1": "We moved out by the agreed date, but the eviction is still on our record. What can I do?",
+    "crumb": "Eviction on record",
+    "asked": "June 2026",
+    "short_answer": "You may be able to fix it. Get the court file and your agreement: if it called for the case to be dismissed once you moved out, you can ask the court to dismiss it, and in many states to seal it. Tenant screening companies must report the case accurately, and you can dispute errors under the Fair Credit Reporting Act.",
+    "body_html": "<h2>Why it's still there</h2>\n<p>An eviction case shows up in court records as soon as it is filed, even if you settle and move out on time. What matters is how the case ended. To a landlord, a \"dismissal\" looks very different from a \"judgment for possession\" or a money judgment. Many move-out agreements say the case will be dismissed after you leave, but someone has to file the dismissal, and sometimes no one does.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Get a copy of your agreement and the court docket (the list of filings in the case). Ask the court clerk or check the court's website.</li>\n<li>Look at how the case ended: dismissed, judgment, or still open.</li>\n<li>If the agreement said the case would be dismissed and it wasn't, ask the landlord's attorney in writing to file the dismissal. If they don't, you can ask the court yourself, with a motion to dismiss or to enforce the agreement. Legal aid or the court's self-help center can help with the form.</li>\n<li>Ask about sealing. Some states let you ask a court to seal or hide an eviction record, especially when the case was dismissed or settled, and a few do it automatically. The rules vary a lot; check your <a href=\"/resources/states/\">state's page</a>.</li>\n<li>Get your tenant screening reports. If a landlord turns you down because of a report, they must tell you which company made it, and you can get a free copy if you ask within 60 days.</li>\n</ol>\n<h2>Dispute wrong information</h2>\n<p>Tenant screening companies are covered by the Fair Credit Reporting Act. If a report says you were evicted when the case was dismissed, leaves out that you settled, lists the wrong amount, or shows someone else's case, dispute it in writing. The company must investigate, usually within 30 days (up to 45 if you send more information during that time), and correct or delete anything it can't verify (15 U.S.C. 1681i). Civil cases, including evictions, generally can't be reported once they are more than seven years old (15 U.S.C. 1681c). If the company hasn't fixed it when the 30 days are up, you can file a complaint with the Consumer Financial Protection Bureau (CFPB).</p>\n<h2>What to write</h2>\n<blockquote>\"Your report lists an eviction case against me, [case number]. That case [was dismissed on (date) / ended in an agreement, and I moved out on the agreed date]. A copy of the court record is attached. Please correct or delete this entry and send me the updated report.\"</blockquote>\n<h2>When you apply for a new place</h2>\n<p>Bring the agreement, the dismissal if you have it, and proof that you moved out on time. A short note explaining that you left by agreement can help. If you have a voucher or are applying for subsidized housing, ask the housing authority or property to look at the court record itself, not just the screening score.</p>\n<h2>If they say no</h2>\n<p>If the court won't dismiss or seal the case, ask legal aid whether your state has another option. If a screening company won't fix a wrong entry, file a CFPB complaint and keep copies of everything you send.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/renting-with-eviction-record",
+        "label": "Renting With an Eviction on Your Record",
+        "note": "What works when you apply for a new place with an eviction on your history."
+      },
+      {
+        "href": "/resources/guides/renting-with-poor-rental-history",
+        "label": "Renting With Poor Rental History",
+        "note": "How to show landlords you are a good tenant now."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid fast and what to bring."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap41-subchapIII-sec1681i.htm",
+        "label": "15 U.S.C. 1681i: Disputes and reinvestigation (Fair Credit Reporting Act)"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap41-subchapIII-sec1681c.htm",
+        "label": "15 U.S.C. 1681c: Information too old to report (Fair Credit Reporting Act)"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-tenant-screening-report-en-2102/",
+        "label": "CFPB: What is a tenant screening report?"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "Durante mi caso de desalojo, el abogado del dueño nos preguntó cuándo podíamos irnos. Nos mudamos en la fecha que acordamos, pero el desalojo sigue en nuestro historial. ¿Qué hago?",
+    "title": "Desalojo en su historial después de mudarse",
+    "description": "¿Se mudó en la fecha acordada y el desalojo sigue en su historial? Cómo pedir que se desestime o se selle el caso y cómo disputar los informes de inquilinos.",
+    "h1": "Nos mudamos en la fecha acordada, pero el desalojo sigue en nuestro historial. ¿Qué hago?",
+    "crumb": "Desalojo en el historial",
+    "asked": "junio de 2026",
+    "short_answer": "Puede que se pueda arreglar. Consiga el expediente de la corte y su acuerdo: si el acuerdo decía que el caso se desestimaría cuando ustedes se mudaran, puede pedir a la corte que lo desestime y, en muchos estados, que lo selle. Las compañías de informes de inquilinos deben reportar el caso correctamente, y usted puede disputar los errores según la Ley de Informe Justo de Crédito (FCRA).",
+    "body_html": "<h2>Por qué sigue apareciendo</h2>\n<p>Un caso de desalojo aparece en los registros de la corte en cuanto se presenta, aunque usted llegue a un acuerdo y se mude a tiempo. Lo que importa es cómo terminó. Para un dueño, una \"desestimación\" (dismissal) se ve muy distinta de una sentencia de desalojo o de una sentencia por dinero. Muchos acuerdos de mudanza dicen que el caso se desestimará cuando usted se vaya, pero alguien tiene que presentar la desestimación, y a veces nadie lo hace.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Consiga una copia de su acuerdo y del expediente de la corte (la lista de documentos del caso). Pídala a la oficina del secretario o búsquela en la página web de la corte.</li>\n<li>Vea cómo terminó el caso: desestimado, con sentencia o todavía abierto.</li>\n<li>Si el acuerdo decía que el caso se desestimaría y no se hizo, pida por escrito al abogado del dueño que presente la desestimación. Si no lo hace, usted mismo puede pedirlo a la corte con una moción para desestimar o para hacer cumplir el acuerdo. Ayuda legal o el centro de autoayuda de la corte pueden ayudarle con el formulario.</li>\n<li>Pregunte si se puede sellar. Algunos estados permiten pedir a la corte que selle u oculte un caso de desalojo, sobre todo si se desestimó o terminó en un acuerdo, y unos pocos lo hacen automáticamente. Las reglas cambian mucho; revise la <a href=\"/es/recursos/estados/\">página de su estado</a>.</li>\n<li>Pida sus informes de selección de inquilinos. Si un dueño lo rechaza por un informe, debe decirle qué compañía lo hizo, y usted puede pedir una copia gratis dentro de los 60 días.</li>\n</ol>\n<h2>Dispute la información incorrecta</h2>\n<p>Las compañías de informes de inquilinos deben cumplir la Ley de Informe Justo de Crédito (FCRA). Si un informe dice que lo desalojaron cuando el caso se desestimó, no menciona que hubo un acuerdo, pone una cantidad equivocada o muestra el caso de otra persona, dispútelo por escrito. La compañía debe investigar, normalmente en 30 días (hasta 45 si usted manda más información en ese tiempo), y corregir o borrar lo que no pueda comprobar (15 U.S.C. 1681i). Por lo general, los casos civiles, incluidos los desalojos, no se pueden reportar cuando tienen más de siete años (15 U.S.C. 1681c). Si pasados los 30 días la compañía no lo ha corregido, puede presentar una queja ante la Oficina para la Protección Financiera del Consumidor (CFPB).</p>\n<h2>Qué escribir</h2>\n<blockquote>\"Su informe muestra un caso de desalojo en mi contra, [número de caso]. Ese caso [se desestimó el (fecha) / terminó en un acuerdo y me mudé en la fecha acordada]. Adjunto una copia del registro de la corte. Por favor corrijan o borren este dato y mándenme el informe actualizado.\"</blockquote>\n<h2>Cuando solicite una vivienda nueva</h2>\n<p>Lleve el acuerdo, la desestimación si la tiene y pruebas de que se mudó a tiempo. Una nota corta que explique que se fue por acuerdo puede ayudar. Si tiene un cupón o solicita vivienda con subsidio, pida a la autoridad de vivienda o a la administración que revisen el registro de la corte, no solo el puntaje del informe.</p>\n<h2>Si le dicen que no</h2>\n<p>Si la corte no desestima ni sella el caso, pregunte a ayuda legal si su estado tiene otra opción. Si una compañía de informes no corrige un dato equivocado, presente una queja ante la CFPB y guarde copias de todo lo que mande.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/alquilar-con-historial-de-desalojo",
+        "label": "Alquilar con un desalojo en su historial",
+        "note": "Qué funciona al solicitar una vivienda nueva con un desalojo en su historial."
+      },
+      {
+        "href": "/es/recursos/guias/alquilar-con-mal-historial",
+        "label": "Alquilar con mal historial de alquiler",
+        "note": "Cómo mostrar a los dueños que ahora es un buen inquilino."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap41-subchapIII-sec1681i.htm",
+        "label": "15 U.S.C. 1681i: disputas y nueva investigación (Ley de Informe Justo de Crédito; en inglés)"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap41-subchapIII-sec1681c.htm",
+        "label": "15 U.S.C. 1681c: información demasiado antigua para reportar (FCRA; en inglés)"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-tenant-screening-report-en-2102/",
+        "label": "CFPB: ¿Qué es un informe de selección de inquilinos? (en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

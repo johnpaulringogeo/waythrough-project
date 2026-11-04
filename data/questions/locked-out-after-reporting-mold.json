@@ -1,0 +1,113 @@
+{
+  "slug": "locked-out-after-reporting-mold",
+  "es_slug": "cierre-ilegal-despues-de-reportar-moho",
+  "topic": "lockouts",
+  "order": 10,
+  "related": [
+    "leaky-roof-mold-repairs-ignored",
+    "locked-out-landlord-kept-voucher-payments",
+    "locked-out-not-on-lease"
+  ],
+  "en": {
+    "question": "I was locked out of my home after I reported mice, mold and water damage. They moved me to a unit with no hot water, and I believe they're using my repair reports to get money. I've gotten sick, my caseworker is threatening my voucher, and legal aid, the health department and the building inspector haven't helped. Who can I contact?",
+    "title": "Locked Out After Reporting Mold or Mice?",
+    "description": "Locking you out for reporting repairs is illegal in most states. How to protect your Section 8 voucher, ask for a hearing, and report fraud to HUD.",
+    "h1": "I was locked out after reporting mold and mice, and now my voucher is threatened. What can I do?",
+    "crumb": "Lockout after reporting",
+    "asked": "October 2026",
+    "short_answer": "A landlord can't lock you out without a court order, and in most states can't punish you for reporting repairs. Put everything in writing to your housing authority, ask for an inspection of the unit you were moved to, and ask for a hearing before any decision on your voucher. You can report suspected fraud to HUD's Office of Inspector General at 1-800-347-3735.",
+    "body_html": "<h2>What the rule says</h2>\n<ul>\n<li><strong>No lockouts.</strong> With a Housing Choice Voucher, the owner \"may only evict the tenant from the unit by instituting a court action\" (24 CFR 982.310(f)). State law says the same in almost every state. Changing the locks or removing you without a court order is an illegal lockout.</li>\n<li><strong>No retaliation.</strong> Most states forbid landlords from evicting you, raising rent or cutting services because you complained about conditions or called an inspector. The rules and time limits vary; see your <a href=\"/resources/states/\">state's page</a>.</li>\n<li><strong>Your new unit must be livable.</strong> HUD's standards require hot and cold running water in the kitchen and bathroom (24 CFR 5.703(d)(1)). Mold and a mouse infestation are failing items too.</li>\n<li><strong>Your voucher has protections.</strong> Before a housing authority ends your assistance because of something you did or didn't do, it must offer you an informal hearing (24 CFR 982.555). An owner's failure to make repairs is not a reason to take your voucher. If the owner doesn't fix failed items, the housing authority stops paying the owner and must give you your voucher to move (24 CFR 982.404).</li>\n</ul>\n<h2>Why your caseworker may be worried</h2>\n<p>Voucher families must tell the housing authority and the owner before moving out (24 CFR 982.551(f)). Leaving a unit without notice can look like breaking the rules. So tell the housing authority in writing why you can't stay (no hot water, your health) and ask in writing for an inspection and for your voucher to move.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Write one timeline: when you reported the problems, the lockout, the move, the hot water problem, and every call you made.</li>\n<li>Email or hand-deliver a letter to your caseworker and their supervisor. Ask for an inspection of the unit, a written answer about your voucher, and an informal hearing before any termination.</li>\n<li>Keep copies of work orders, texts and photos. Don't sign anything you don't understand.</li>\n<li>If the housing authority won't respond, call HUD's Public and Indian Housing customer service line at 800-955-2232. HUD's Inspector General sends voucher, maintenance and eviction complaints there.</li>\n<li>If you believe someone is billing for work that wasn't done, or lying to get program money, report it to the HUD OIG Hotline at 1-800-347-3735 or online. The OIG investigates fraud, not everyday disputes, so give dates and documents.</li>\n<li>Call legal aid again and use the words \"illegal lockout\" and \"retaliation.\" If that office can't help, ask for a referral to a law school clinic, a tenant union or a fair housing group.</li>\n<li>See a doctor and keep the records.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote>\"On [date] I was locked out of [address] after I reported mice, mold and water damage. I was moved to [address], which has no hot water. I am asking for an inspection of that unit, a written explanation of any action on my voucher, and an informal hearing before any decision to end my assistance.\"</blockquote>\n<h2>If they say no</h2>\n<p>If you get a notice that your assistance will end, ask for the hearing in writing before the deadline in the letter. If the deadline has passed, ask anyway and explain why you missed it. Bring your timeline and proof. In many states, a lawyer can also ask a court to let you back in or to award money for an illegal lockout.</p>",
+    "links": [
+      {
+        "href": "/resources/tenant-rights",
+        "label": "Understanding Your Rights as a Tenant",
+        "note": "Lockouts, retaliation and the basic rights renters have in every state."
+      },
+      {
+        "href": "/resources/guides/section-8-voucher-termination",
+        "label": "Section 8 Voucher Termination: Causes and Appeals",
+        "note": "How to ask for a hearing and fight a notice that your voucher will end."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid fast and what to bring."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a supervisor to respond."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.310",
+        "label": "24 CFR 982.310: Owner termination of tenancy; eviction only by court action (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: Informal hearing for participants (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.703",
+        "label": "24 CFR 5.703: HUD housing standards, including hot water (eCFR)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "HUD Office of Inspector General Hotline (1-800-347-3735)"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "Me dejaron fuera de mi casa después de que reporté ratones, moho y daños por agua. Me mandaron a una unidad sin agua caliente, y creo que están usando mis reportes de reparación para sacar dinero. Me he enfermado, mi trabajadora de casos amenaza con quitarme el cupón, y ni ayuda legal, ni el departamento de salud, ni el inspector de construcción me han ayudado. ¿A quién puedo acudir?",
+    "title": "Me dejaron fuera por reportar moho o ratones",
+    "description": "Sacarlo por reportar reparaciones es ilegal en la mayoría de los estados. Cómo proteger su cupón de Sección 8, pedir una audiencia y reportar fraude a HUD.",
+    "h1": "Me dejaron fuera después de reportar moho y ratones, y ahora peligra mi cupón. ¿Qué hago?",
+    "crumb": "Cierre por reportar",
+    "asked": "octubre de 2026",
+    "short_answer": "El dueño no puede dejarlo fuera sin una orden de la corte, y en la mayoría de los estados no puede castigarlo por reportar reparaciones. Ponga todo por escrito a su autoridad de vivienda, pida una inspección de la unidad a la que lo mandaron y pida una audiencia antes de cualquier decisión sobre su cupón. Puede reportar un posible fraude a la Oficina del Inspector General de HUD al 1-800-347-3735.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<ul>\n<li><strong>No se permiten los cierres ilegales.</strong> Con un cupón de vivienda, el dueño solo puede desalojar al inquilino por medio de un caso en la corte (24 CFR 982.310(f)). La ley de casi todos los estados dice lo mismo. Cambiar la cerradura o sacarlo sin orden de la corte es un cierre ilegal.</li>\n<li><strong>No se permiten las represalias.</strong> La mayoría de los estados prohíben que el dueño lo desaloje, le suba la renta o le corte servicios porque usted se quejó de las condiciones o llamó a un inspector. Las reglas y los plazos cambian; vea la <a href=\"/es/recursos/estados/\">página de su estado</a>.</li>\n<li><strong>Su nueva unidad debe ser habitable.</strong> Las normas de HUD exigen agua caliente y fría en la cocina y el baño (24 CFR 5.703(d)(1)). El moho y una plaga de ratones también hacen que una unidad no pase.</li>\n<li><strong>Su cupón tiene protecciones.</strong> Antes de quitarle la ayuda por algo que usted hizo o dejó de hacer, la autoridad de vivienda debe ofrecerle una audiencia informal (24 CFR 982.555). Que el dueño no haga reparaciones no es razón para quitarle el cupón. Si el dueño no corrige los problemas, la autoridad de vivienda deja de pagarle y debe darle a usted su cupón para mudarse (24 CFR 982.404).</li>\n</ul>\n<h2>Por qué su trabajadora de casos puede estar preocupada</h2>\n<p>Las familias con cupón deben avisar a la autoridad de vivienda y al dueño antes de mudarse (24 CFR 982.551(f)). Irse de una unidad sin avisar puede parecer una violación de las reglas. Por eso, explique por escrito a la autoridad de vivienda por qué no puede quedarse (no hay agua caliente, su salud) y pida por escrito una inspección y su cupón para mudarse.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Escriba una cronología: cuándo reportó los problemas, el cierre, el traslado, el problema del agua caliente y cada llamada que hizo.</li>\n<li>Mande por correo electrónico o entregue en persona una carta a su trabajadora de casos y a su supervisor. Pida una inspección de la unidad, una respuesta por escrito sobre su cupón y una audiencia informal antes de cualquier terminación.</li>\n<li>Guarde copias de las órdenes de trabajo, los mensajes y las fotos. No firme nada que no entienda.</li>\n<li>Si la autoridad de vivienda no responde, llame a la línea de servicio al cliente de Vivienda Pública e Indígena de HUD: 800-955-2232. El Inspector General de HUD manda allí las quejas sobre cupones, mantenimiento y desalojos.</li>\n<li>Si cree que alguien cobra por trabajos que no se hicieron o miente para sacar dinero del programa, repórtelo a la línea directa de la OIG de HUD: 1-800-347-3735, o en línea. La OIG investiga fraudes, no problemas del día a día, así que dé fechas y documentos.</li>\n<li>Llame otra vez a ayuda legal y use las palabras \"cierre ilegal\" (illegal lockout) y \"represalia\" (retaliation). Si esa oficina no puede ayudarle, pida que lo refieran a una clínica legal de una universidad, a un sindicato de inquilinos o a un grupo de vivienda justa.</li>\n<li>Vaya al médico y guarde los documentos.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote>\"El [fecha] me dejaron fuera de [dirección] después de que reporté ratones, moho y daños por agua. Me mandaron a [dirección], que no tiene agua caliente. Pido una inspección de esa unidad, una explicación por escrito de cualquier medida sobre mi cupón y una audiencia informal antes de cualquier decisión de terminar mi ayuda.\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si recibe un aviso de que su ayuda va a terminar, pida la audiencia por escrito antes de la fecha límite que dice la carta. Si ya pasó la fecha, pídala de todos modos y explique por qué no pudo a tiempo. Lleve su cronología y sus pruebas. En muchos estados, un abogado también puede pedir a la corte que lo dejen volver a entrar o que le paguen daños por el cierre ilegal.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/derechos-del-inquilino",
+        "label": "Derechos del inquilino",
+        "note": "Cierres ilegales, represalias y los derechos básicos de los inquilinos en todos los estados."
+      },
+      {
+        "href": "/es/recursos/guias/terminacion-cupon-seccion-8",
+        "label": "Terminación del cupón de Sección 8: cómo apelar",
+        "note": "Cómo pedir una audiencia y defenderse de un aviso de que su cupón va a terminar."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer pedidos por escrito y lograr que un supervisor responda."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.310",
+        "label": "24 CFR 982.310: terminación del arrendamiento por el dueño; desalojo solo por la corte (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: audiencia informal para participantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.703",
+        "label": "24 CFR 5.703: normas de vivienda de HUD, incluida el agua caliente (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "Línea directa de la Oficina del Inspector General de HUD (1-800-347-3735; en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

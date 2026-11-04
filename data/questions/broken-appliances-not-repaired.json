@@ -1,0 +1,102 @@
+{
+  "slug": "broken-appliances-not-repaired",
+  "es_slug": "electrodomesticos-rotos-sin-reparar",
+  "topic": "repairs",
+  "order": 20,
+  "related": [
+    "leaky-roof-mold-repairs-ignored",
+    "no-heat-no-outdoor-lighting"
+  ],
+  "en": {
+    "question": "I have three repairs that keep getting worse. My dishwasher broke a year ago and the replacement doesn't work. The refrigerator broke, the replacement didn't work either, and they brought the old broken one back. The oven doesn't work, and nobody has come to look at it.",
+    "title": "Landlord Won't Fix a Broken Fridge or Oven?",
+    "description": "If your landlord supplied the fridge and stove, they must work. What a Section 8 inspection requires, what about the dishwasher, and how to get repairs made.",
+    "h1": "My landlord won't fix my broken fridge, oven and dishwasher. What can I do?",
+    "crumb": "Broken appliances",
+    "asked": "September 2026",
+    "short_answer": "Usually the landlord has to fix them if the landlord supplied them. A working refrigerator and a working stove or oven are required for a Section 8 unit to pass inspection, so report them in writing and ask your housing authority for an inspection. A dishwasher isn't on HUD's checklist, but your lease or state law may still require the landlord to repair it.",
+    "body_html": "<h2>What the rule says</h2>\n<p>For a home rented with a Housing Choice Voucher (Section 8), HUD requires a kitchen with a cooking appliance and a refrigerator that work:</p>\n<ul>\n<li>The older Housing Quality Standards (HQS) require \"an oven, and a stove or range, and a refrigerator of appropriate size for the family,\" all \"in proper operating condition.\"</li>\n<li>HUD's newer NSPIRE standards say the same. They rate a stove or oven that won't heat as \"severe,\" and a refrigerator that can't keep food safe as \"moderate.\" In a voucher unit, both are failing items, and the owner usually has 30 days from written notice to fix them (24 CFR 982.404).</li>\n<li>Voucher programs can use either checklist until February 1, 2027. After that date, all must use NSPIRE. Either way, a broken fridge or oven fails.</li>\n</ul>\n<p><strong>Who supplied it matters.</strong> Your lease, and Part A of the HAP contract between your landlord and the housing authority, list who provides the stove and refrigerator. If the owner provides them, the owner must keep them working. If you brought your own, they are your responsibility.</p>\n<p><strong>A broken replacement isn't a repair.</strong> Swapping one broken fridge for another, or bringing the old broken one back, still leaves the unit failing.</p>\n<p><strong>Dishwashers</strong> aren't on HUD's inspection list. But if your lease says the landlord provides one, or your state requires landlords to keep the appliances they supply working, you can still ask for the repair. Check your <a href=\"/resources/states/\">state's page</a>.</p>\n<p>If you don't have a voucher, most state and local housing codes still require landlords to repair the appliances they supply, especially the stove and refrigerator.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Make a simple list: each appliance, when it broke, each time you reported it, and what the landlord did.</li>\n<li>Take photos or short videos showing each one not working. A thermometer inside the fridge helps.</li>\n<li>Send one written repair request that covers all three, and keep a copy.</li>\n<li>Send a copy to your housing authority and ask for a special inspection. Say that you have no working oven and that food is spoiling.</li>\n<li>If the unit fails and the owner misses the deadline, the housing authority must stop its payments to the owner. Ask your caseworker what deadline the owner was given.</li>\n<li>Keep receipts for spoiled food, eating out, or a hot plate you had to buy. Legal aid can tell you whether you can get that money back.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote>\"Three appliances in my unit don't work: the refrigerator (since [date]), the oven (since [date]) and the dishwasher (since [date]). The replacements you brought also don't work. Please repair or replace them with working appliances by [date]. I am sending a copy to my housing authority.\"</blockquote>\n<h2>If they say no</h2>\n<p>If the landlord says the appliances are yours to fix, ask them to show where the lease or HAP contract says so. If the housing authority won't inspect, ask for a supervisor in writing, then call your city's code enforcement office. Don't stop paying rent to force the repairs without talking to legal aid first; the rules are strict and vary by state.</p>",
+    "links": [
+      {
+        "href": "/resources/templates/repair-request",
+        "label": "Repair Request Letter",
+        "note": "A fill-in letter that puts your repair request in writing."
+      },
+      {
+        "href": "/blog/posts/how-section-8-inspections-work",
+        "label": "How Section 8 Inspections Work",
+        "note": "What inspectors check and what happens when a unit fails."
+      },
+      {
+        "href": "/resources/guides/what-to-expect-at-inspection",
+        "label": "What to Expect at Your Housing Inspection",
+        "note": "The checklist room by room, including the kitchen."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.703",
+        "label": "24 CFR 5.703: National standards for the condition of HUD housing (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.404",
+        "label": "24 CFR 982.404: Owner maintenance and PHA remedies (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Cooking-Appliance_20230811.pdf",
+        "label": "HUD NSPIRE Standard: Cooking Appliance"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Refrigerator_20230620.pdf",
+        "label": "HUD NSPIRE Standard: Refrigerator"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "Tengo tres reparaciones pendientes que van empeorando. El lavaplatos se descompuso hace un año y el de reemplazo no funciona. El refrigerador se descompuso, el de reemplazo tampoco funcionó y me devolvieron el viejo, que sigue roto. El horno no funciona y nadie ha venido a revisarlo.",
+    "title": "¿El dueño no repara el refrigerador o el horno?",
+    "description": "Si el dueño puso el refrigerador y la estufa, deben funcionar. Qué exige la inspección de Sección 8, qué pasa con el lavaplatos y cómo lograr la reparación.",
+    "h1": "El dueño no arregla mi refrigerador, mi horno ni mi lavaplatos. ¿Qué puedo hacer?",
+    "crumb": "Electrodomésticos rotos",
+    "asked": "septiembre de 2026",
+    "short_answer": "Por lo general, el dueño tiene que arreglarlos si él los puso. Un refrigerador y una estufa u horno que funcionen son requisitos para que una vivienda de Sección 8 pase la inspección, así que repórtelos por escrito y pida una inspección a su autoridad de vivienda. El lavaplatos no está en la lista de HUD, pero su contrato o la ley de su estado pueden obligar al dueño a repararlo.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<p>Para una vivienda rentada con un cupón de vivienda (Sección 8), HUD exige una cocina con un aparato para cocinar y un refrigerador que funcionen:</p>\n<ul>\n<li>Las normas de calidad anteriores (HQS) exigen \"un horno, una estufa y un refrigerador del tamaño adecuado para la familia\", todos en buen estado de funcionamiento.</li>\n<li>Las normas más nuevas de HUD, llamadas NSPIRE, dicen lo mismo. Califican una estufa u horno que no calienta como problema \"grave\" y un refrigerador que no conserva bien la comida como problema \"moderado\". En una unidad con cupón, los dos hacen que la vivienda no pase, y el dueño normalmente tiene 30 días desde el aviso por escrito para arreglarlos (24 CFR 982.404).</li>\n<li>Los programas de cupones pueden usar cualquiera de las dos listas hasta el 1 de febrero de 2027. Desde esa fecha, todos deben usar NSPIRE. Con cualquiera de las dos, un refrigerador o un horno roto no pasa.</li>\n</ul>\n<p><strong>Importa quién lo puso.</strong> Su contrato de arrendamiento y la Parte A del contrato HAP entre el dueño y la autoridad de vivienda dicen quién pone la estufa y el refrigerador. Si los puso el dueño, él debe mantenerlos funcionando. Si usted trajo los suyos, le toca a usted.</p>\n<p><strong>Un reemplazo roto no es una reparación.</strong> Cambiar un refrigerador roto por otro roto, o devolver el viejo que no sirve, deja la unidad igual de reprobada.</p>\n<p><strong>El lavaplatos</strong> no está en la lista de inspección de HUD. Pero si su contrato dice que el dueño lo pone, o si su estado obliga a los dueños a mantener funcionando los aparatos que ponen, puede pedir la reparación. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a>.</p>\n<p>Si no tiene cupón, la mayoría de los códigos de vivienda estatales y locales también obligan al dueño a reparar los aparatos que él puso, sobre todo la estufa y el refrigerador.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Haga una lista sencilla: cada aparato, cuándo se descompuso, cada vez que lo reportó y qué hizo el dueño.</li>\n<li>Tome fotos o videos cortos que muestren que no funcionan. Un termómetro dentro del refrigerador ayuda.</li>\n<li>Mande un solo pedido de reparación por escrito que incluya los tres aparatos y guarde una copia.</li>\n<li>Mande una copia a su autoridad de vivienda y pida una inspección especial. Diga que no tiene horno y que la comida se le echa a perder.</li>\n<li>Si la unidad no pasa y el dueño no cumple el plazo, la autoridad de vivienda debe suspender sus pagos al dueño. Pregunte a su trabajador de casos qué plazo le dieron al dueño.</li>\n<li>Guarde los recibos de la comida que perdió, de comer fuera o de una parrilla eléctrica que tuvo que comprar. Ayuda legal puede decirle si puede recuperar ese dinero.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote>\"Tres aparatos de mi unidad no funcionan: el refrigerador (desde el [fecha]), el horno (desde el [fecha]) y el lavaplatos (desde el [fecha]). Los reemplazos que trajo tampoco funcionan. Por favor repárelos o cámbielos por aparatos que funcionen antes del [fecha]. Voy a mandar una copia a mi autoridad de vivienda.\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si el dueño dice que a usted le toca arreglarlos, pídale que le muestre dónde lo dice el contrato de arrendamiento o el contrato HAP. Si la autoridad de vivienda no hace la inspección, pida por escrito hablar con un supervisor y luego llame a la oficina de códigos de su ciudad. No deje de pagar la renta para presionar sin hablar antes con ayuda legal; las reglas son estrictas y cambian según el estado.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/plantillas/solicitud-reparacion",
+        "label": "Carta de solicitud de reparación",
+        "note": "Una carta para llenar que deja su pedido de reparación por escrito."
+      },
+      {
+        "href": "/es/blog/posts/como-funcionan-inspecciones-section-8",
+        "label": "Cómo funcionan las inspecciones de Sección 8",
+        "note": "Qué revisan los inspectores y qué pasa cuando una vivienda no pasa."
+      },
+      {
+        "href": "/es/recursos/guias/que-esperar-en-inspeccion",
+        "label": "Qué esperar en su inspección de vivienda",
+        "note": "La lista de revisión cuarto por cuarto, incluida la cocina."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.703",
+        "label": "24 CFR 5.703: normas nacionales sobre el estado de las viviendas de HUD (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.404",
+        "label": "24 CFR 982.404: mantenimiento del dueño y medidas de la autoridad de vivienda (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Cooking-Appliance_20230811.pdf",
+        "label": "Norma NSPIRE de HUD: aparato para cocinar (en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Refrigerator_20230620.pdf",
+        "label": "Norma NSPIRE de HUD: refrigerador (en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

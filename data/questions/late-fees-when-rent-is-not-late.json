@@ -1,0 +1,86 @@
+{
+  "slug": "late-fees-when-rent-is-not-late",
+  "es_slug": "cargos-por-atraso-sin-pagar-tarde",
+  "topic": "repairs",
+  "order": 40,
+  "related": [
+    "locked-out-landlord-kept-voucher-payments",
+    "eviction-on-record-after-moving-out"
+  ],
+  "en": {
+    "question": "My Section 8 landlord charges me a late fee every month, even though I don't pay late. Is that allowed?",
+    "title": "Section 8 Late Fees When Rent Isn't Late?",
+    "description": "A landlord can charge a late fee only if your lease allows it and your share was actually late. How to check the ledger and stop wrong Section 8 late fees.",
+    "h1": "My Section 8 landlord charges a late fee every month, but I pay on time. Is that allowed?",
+    "crumb": "Late fees",
+    "asked": "August 2026",
+    "short_answer": "No, not if your share is paid on time. A late fee is allowed only if your lease includes one, your own share of the rent was actually late, and the amount is reasonable under your state's law. You can't be charged a late fee because the housing authority paid its part late.",
+    "body_html": "<h2>What the rule says</h2>\n<ul>\n<li><strong>It has to be in the lease.</strong> A landlord can charge only the fees your lease lists. If the lease doesn't mention late fees, there shouldn't be any.</li>\n<li><strong>Your share has to be late.</strong> With a Housing Choice Voucher, you owe only your part of the rent. The tenancy addendum in the HAP contract (form HUD-52641, Part C) says you are not responsible for the part the housing authority pays, and that a late payment by the housing authority is not a lease violation. If the housing authority pays late, the contract lets the owner ask the housing authority for a late penalty instead (Part B). It shouldn't land on you.</li>\n<li><strong>It has to be reasonable.</strong> State law controls how big a late fee can be and when it can start. Some states cap late fees or require a grace period. Check your <a href=\"/resources/states/\">state's page</a>.</li>\n<li><strong>HUD apartment buildings have their own limits.</strong> If you live in a HUD project-based building rather than using a voucher, HUD's handbook (4350.3, paragraph 6-23) allows a late fee only after a grace period: the rent must be received by the 5th, the fee can be up to $5 on the 6th, then $1 a day. The owner can't evict you for unpaid late fees. Some senior and disability buildings (Section 202 and 811 PRAC) can't charge late fees at all.</li>\n</ul>\n<h2>Why this happens</h2>\n<p>Monthly late fees when you pay on time often come from a bookkeeping problem: your payment gets applied to an old charge, the landlord thinks your share went up after a recertification, or the housing authority's part arrives after the due date. Each one can make the ledger show you \"behind\" when you aren't.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Gather proof of each payment: money order stubs, bank records, receipts or app screenshots, with dates.</li>\n<li>Find your latest rent notice from the housing authority. It shows your share. Compare it with what the landlord bills you.</li>\n<li>Ask the landlord in writing for a full ledger that shows every charge and every payment, with dates.</li>\n<li>Write back about each wrong fee and ask for it to be removed.</li>\n<li>Send a copy to your caseworker. The housing authority checks that owners follow the HAP contract.</li>\n<li>Keep paying your share on time while you dispute the fees.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote>\"I have paid my share of the rent on time each month (proof attached), but I am being charged a late fee every month. Please send me a full ledger and remove the late fees from [months]. Under my HAP contract, I am not responsible for the housing authority's share. I am sending a copy to my caseworker.\"</blockquote>\n<h2>If they say no</h2>\n<p>If the fees continue, ask your caseworker to step in, and contact legal aid. Unpaid fees can pile up into a balance the landlord later says you owe, so don't ignore them. If the landlord threatens eviction over late fees, get legal help right away.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/understanding-your-lease",
+        "label": "Understanding Your Lease",
+        "note": "Where late fees and other charges appear in a lease, and what is reasonable."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a supervisor to respond."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid near you and what to bring."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/52641.pdf",
+        "label": "HUD Form 52641: HAP Contract and Tenancy Addendum (Part B section 7, Part C section 5)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c6hsgh.pdf",
+        "label": "HUD Handbook 4350.3, Chapter 6 (late charges, paragraph 6-23)"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "El dueño de mi vivienda de Sección 8 me cobra un cargo por atraso todos los meses, aunque yo no pago tarde. ¿Eso está permitido?",
+    "title": "Cargos por atraso en Sección 8 sin pagar tarde",
+    "description": "El dueño solo puede cobrar un cargo por atraso si su contrato lo permite y su parte llegó tarde. Cómo revisar el estado de cuenta y frenar cobros indebidos.",
+    "h1": "El dueño me cobra un cargo por atraso cada mes, pero pago a tiempo. ¿Está permitido?",
+    "crumb": "Cargos por atraso",
+    "asked": "agosto de 2026",
+    "short_answer": "No, si usted paga su parte a tiempo. Un cargo por atraso solo se permite si su contrato lo incluye, si su propia parte de la renta de verdad llegó tarde y si la cantidad es razonable según la ley de su estado. No le pueden cobrar un cargo por atraso porque la autoridad de vivienda pagó tarde su parte.",
+    "body_html": "<h2>Lo que dice la regla</h2>\n<ul>\n<li><strong>Tiene que estar en el contrato.</strong> El dueño solo puede cobrar los cargos que aparecen en su contrato de arrendamiento. Si el contrato no menciona cargos por atraso, no debería haber ninguno.</li>\n<li><strong>Su parte tiene que llegar tarde.</strong> Con un cupón de vivienda, usted solo debe su parte de la renta. El anexo de arrendamiento del contrato HAP (formulario HUD-52641, Parte C) dice que usted no es responsable de la parte que paga la autoridad de vivienda, y que un pago tardío de la autoridad de vivienda no es una violación del contrato. Si la autoridad de vivienda paga tarde, el contrato permite que el dueño le pida a ella un recargo (Parte B). No le toca a usted.</li>\n<li><strong>Tiene que ser razonable.</strong> La ley del estado decide cuánto puede ser el cargo y cuándo puede empezar. Algunos estados ponen un tope o exigen días de gracia. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a>.</li>\n<li><strong>Los edificios de HUD tienen sus propios límites.</strong> Si vive en un edificio con subsidio de HUD (Sección 8 basada en el proyecto) y no usa un cupón, el manual de HUD (4350.3, párrafo 6-23) solo permite un cargo después de un periodo de gracia: la renta debe recibirse a más tardar el día 5; el día 6 se pueden cobrar hasta $5 y luego $1 por día. El dueño no puede desalojarlo por cargos por atraso sin pagar. Algunos edificios para personas mayores o con discapacidad (Sección 202 y 811 PRAC) no pueden cobrar cargos por atraso.</li>\n</ul>\n<h2>Por qué pasa esto</h2>\n<p>Los cargos mensuales cuando usted paga a tiempo suelen venir de un error de cuentas: su pago se aplica a un cobro viejo, el dueño cree que su parte subió después de la recertificación, o la parte de la autoridad de vivienda llega después de la fecha de pago. Cualquiera de estas cosas puede hacer que el estado de cuenta diga que usted está \"atrasado\" sin estarlo.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Junte pruebas de cada pago: talones de giros postales, estados de cuenta del banco, recibos o capturas de pantalla, con fechas.</li>\n<li>Busque su aviso de renta más reciente de la autoridad de vivienda. Ahí aparece su parte. Compárela con lo que le cobra el dueño.</li>\n<li>Pida al dueño por escrito un estado de cuenta completo con cada cobro y cada pago, con fechas.</li>\n<li>Responda por escrito sobre cada cargo indebido y pida que lo quiten.</li>\n<li>Mande una copia a su trabajador de casos. La autoridad de vivienda revisa que los dueños cumplan el contrato HAP.</li>\n<li>Siga pagando su parte a tiempo mientras reclama.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote>\"He pagado mi parte de la renta a tiempo cada mes (adjunto las pruebas), pero me cobran un cargo por atraso todos los meses. Por favor mándeme un estado de cuenta completo y quite los cargos de [meses]. Según mi contrato HAP, no soy responsable de la parte de la autoridad de vivienda. Voy a mandar una copia a mi trabajador de casos.\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si los cargos siguen, pida a su trabajador de casos que intervenga y comuníquese con ayuda legal. Los cargos sin pagar pueden sumar una deuda que el dueño después dirá que usted debe, así que no los ignore. Si el dueño lo amenaza con desalojarlo por esos cargos, busque ayuda legal de inmediato.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/entendiendo-tu-contrato",
+        "label": "Cómo entender su contrato de arrendamiento",
+        "note": "Dónde aparecen los cargos por atraso y otros cobros en el contrato, y qué es razonable."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer pedidos por escrito y lograr que un supervisor responda."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal cerca de usted y qué llevar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.hud.gov/sites/dfiles/OCHCO/documents/52641.pdf",
+        "label": "Formulario HUD-52641: contrato HAP y anexo de arrendamiento (Parte B, sección 7; Parte C, sección 5; en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/documents/43503c6hsgh.pdf",
+        "label": "Manual 4350.3 de HUD, capítulo 6 (cargos por atraso, párrafo 6-23; en inglés)"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}

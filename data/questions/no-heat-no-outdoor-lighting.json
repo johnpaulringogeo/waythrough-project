@@ -1,0 +1,102 @@
+{
+  "slug": "no-heat-no-outdoor-lighting",
+  "es_slug": "sin-calefaccion-ni-luces-exteriores",
+  "topic": "repairs",
+  "order": 30,
+  "related": [
+    "leaky-roof-mold-repairs-ignored",
+    "broken-appliances-not-repaired"
+  ],
+  "en": {
+    "question": "Our landlord and the rental office manager won't give us heat inside our apartments, and they won't fix the outdoor lighting on the property either. What can we do?",
+    "title": "No Heat in Your Apartment? Who to Call",
+    "description": "No heat is an emergency repair. How HUD inspection rules rate broken heat and outdoor lights, who to call today, and how neighbors can report it together.",
+    "h1": "Our landlord won't turn on the heat or fix the outdoor lights. What can we do?",
+    "crumb": "No heat or lighting",
+    "asked": "November 2026",
+    "short_answer": "Report it today, in writing, to the landlord and to whoever oversees your housing, and call your local code office. Under HUD's newer NSPIRE inspection standards, heat that doesn't work between October 1 and March 31 is rated life-threatening, with a 24-hour fix. Broken outdoor lights are a safety problem with a 30-day fix.",
+    "body_html": "<h2>What the rule says about heat</h2>\n<p>Almost every city and state requires landlords to provide working heat, and many local codes set a minimum indoor temperature. If your home is subsidized by HUD, federal standards apply too:</p>\n<ul>\n<li><strong>NSPIRE (HUD's newer standards).</strong> From October 1 to March 31, if the permanently installed heat isn't working, or a room is below 64°F, it is rated \"life-threatening.\" The owner must fix it within 24 hours of notice. A room at 64 to 67.9°F also fails (a 24-hour fix in public housing and HUD apartment buildings, 30 days in voucher units). From April 1 to September 30, broken heat is a 30-day repair.</li>\n<li><strong>Vouchers on the older checklist.</strong> Housing Choice Voucher programs may keep using the older HQS checklist until February 1, 2027; after that, all must use NSPIRE. HQS requires a safe heating system \"in proper operating condition.\" Under HQS, the housing authority decides whether no heat counts as a 24-hour emergency, so ask them directly.</li>\n<li><strong>Public housing.</strong> If your state or city has no heat rule, HUD's guideline is at least 68°F inside (PIH Notice 2018-19).</li>\n</ul>\n<p>Space heaters and the kitchen oven don't count as heat. Don't use the oven to warm your home; it can cause a fire or carbon monoxide poisoning.</p>\n<h2>What the rule says about outdoor lights</h2>\n<p>NSPIRE rates a broken, missing or dead outdoor light fixture (walkways, parking lots, entries, outside stairs) as a \"moderate\" safety problem with a 30-day fix. For voucher units, HUD only inspects the path from your door to the street and the shared areas you use, so the lighting rule for the whole grounds mainly applies to public housing and HUD-funded apartment complexes. Local codes often cover outdoor lighting too.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Measure the temperature in each room with a cheap thermometer, 3 feet off the floor, and take dated photos. Write down when the heat stopped.</li>\n<li>Write to the landlord and the office manager today. Put \"No heat\" in the first line and ask for a repair time.</li>\n<li>Send the same letter to your housing authority if you have a voucher or live in public housing, and ask for an emergency inspection.</li>\n<li>If you live in a HUD-subsidized apartment building, call HUD's Multifamily Housing complaint line at 800-685-8470.</li>\n<li>Call your local code enforcement office for a heat inspection. Many cities have a no-heat hotline.</li>\n<li>Tell every office if someone in your home is elderly, a baby, or has a health condition. In freezing weather, call 211 to ask about warming centers.</li>\n</ol>\n<h2>Act as a group</h2>\n<p>If several apartments have no heat, ask neighbors to send their own letters on the same day, or one letter everyone signs. Group complaints are harder to ignore, and many states protect tenants who complain or organize from retaliation.</p>\n<h2>What to write</h2>\n<blockquote>\"There has been no heat in my apartment since [date]. The temperature inside is [__]°F. The outdoor lights at [location] are also out. Please restore the heat right away and repair the lights. I am sending a copy to [housing authority / HUD / code enforcement].\"</blockquote>\n<h2>If they say no</h2>\n<p>If the heat isn't back within 24 hours, follow up in writing with the housing authority or HUD and ask what they are doing about the owner. Don't stop paying rent without checking with legal aid; the rules vary by state.</p>",
+    "links": [
+      {
+        "href": "/resources/templates/repair-request",
+        "label": "Repair Request Letter",
+        "note": "A fill-in letter that puts your repair request in writing."
+      },
+      {
+        "href": "/blog/posts/landlord-not-making-repairs",
+        "label": "Landlord Won't Fix Things? Who to Call",
+        "note": "Code enforcement, the housing authority and other offices that can push repairs."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a supervisor to respond."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-HVAC_20230811.pdf",
+        "label": "HUD NSPIRE Standard: Heating, Ventilation, and Air Conditioning (v3.0)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Lighting-Exterior_20230811.pdf",
+        "label": "HUD NSPIRE Standard: Lighting, Exterior (v3.0)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PIH-2018-19HOTMA_HeatingStandardsNoticeFinal_rev.pdf",
+        "label": "HUD Notice PIH 2018-19: Minimum heating standards in public housing"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19070/economic-growth-regulatory-relief-and-consumer-protection-act-implementation-of-national-standards",
+        "label": "Federal Register, Sept. 30, 2025: NSPIRE compliance date for vouchers moved to Feb. 1, 2027"
+      }
+    ],
+    "updated": "November 4, 2026"
+  },
+  "es": {
+    "question": "El dueño y el gerente de la oficina de renta se niegan a darnos calefacción dentro de los apartamentos, y tampoco arreglan las luces de afuera de la propiedad. ¿Qué podemos hacer?",
+    "title": "Sin calefacción en su apartamento: qué hacer",
+    "description": "No tener calefacción es una reparación de emergencia. Cómo califica HUD la calefacción y las luces exteriores rotas, a quién llamar y cómo quejarse en grupo.",
+    "h1": "El dueño no prende la calefacción ni arregla las luces de afuera. ¿Qué podemos hacer?",
+    "crumb": "Sin calefacción ni luces",
+    "asked": "noviembre de 2026",
+    "short_answer": "Repórtelo hoy, por escrito, al dueño y a quien supervisa su vivienda, y llame a la oficina de códigos de su ciudad. Según las normas de inspección más nuevas de HUD (NSPIRE), una calefacción que no funciona entre el 1 de octubre y el 31 de marzo se califica como peligro para la vida y se debe arreglar en 24 horas. Las luces exteriores rotas son un problema de seguridad que se debe arreglar en 30 días.",
+    "body_html": "<h2>Lo que dice la regla sobre la calefacción</h2>\n<p>Casi todas las ciudades y estados obligan al dueño a dar calefacción que funcione, y muchos códigos locales fijan una temperatura mínima adentro. Si su vivienda tiene subsidio de HUD, también aplican normas federales:</p>\n<ul>\n<li><strong>NSPIRE (las normas más nuevas de HUD).</strong> Del 1 de octubre al 31 de marzo, si la calefacción instalada no funciona o un cuarto está a menos de 64 °F, se califica como \"peligro para la vida\". El dueño debe arreglarlo dentro de las 24 horas después del aviso. Un cuarto entre 64 y 67.9 °F tampoco pasa (24 horas en vivienda pública y en edificios de HUD, 30 días en unidades con cupón). Del 1 de abril al 30 de septiembre, una calefacción rota se debe arreglar en 30 días.</li>\n<li><strong>Cupones con la lista anterior.</strong> Los programas de cupones de vivienda pueden seguir usando la lista anterior (HQS) hasta el 1 de febrero de 2027; desde esa fecha, todos deben usar NSPIRE. HQS exige un sistema de calefacción seguro y en buen estado de funcionamiento. Con HQS, la autoridad de vivienda decide si la falta de calefacción es una emergencia de 24 horas, así que pregúntele directamente.</li>\n<li><strong>Vivienda pública.</strong> Si su estado o ciudad no tiene una regla de calefacción, la guía de HUD es de al menos 68 °F adentro (Aviso PIH 2018-19).</li>\n</ul>\n<p>Los calentadores portátiles y el horno de la cocina no cuentan como calefacción. No use el horno para calentar la casa: puede causar un incendio o envenenamiento por monóxido de carbono.</p>\n<h2>Lo que dice la regla sobre las luces de afuera</h2>\n<p>NSPIRE califica una lámpara exterior rota, que falta o que no prende (pasillos, estacionamientos, entradas, escaleras de afuera) como un problema de seguridad \"moderado\" que se debe arreglar en 30 días. En las unidades con cupón, HUD solo revisa el camino desde su puerta hasta la calle y las áreas comunes que usted usa; por eso, la regla de luces para todo el terreno aplica sobre todo a la vivienda pública y a los complejos de apartamentos con fondos de HUD. Los códigos locales también suelen cubrir las luces exteriores.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Mida la temperatura de cada cuarto con un termómetro barato, a 3 pies del piso, y tome fotos con fecha. Anote cuándo dejó de funcionar la calefacción.</li>\n<li>Escriba hoy al dueño y al gerente. Ponga \"Sin calefacción\" en la primera línea y pida una hora de reparación.</li>\n<li>Mande la misma carta a su autoridad de vivienda si tiene cupón o vive en vivienda pública, y pida una inspección de emergencia.</li>\n<li>Si vive en un edificio de apartamentos con subsidio de HUD, llame a la línea de quejas de Vivienda Multifamiliar de HUD: 800-685-8470.</li>\n<li>Llame a la oficina de cumplimiento de códigos de su ciudad para pedir una inspección de calefacción. Muchas ciudades tienen una línea especial para esto.</li>\n<li>Avise a cada oficina si en su casa vive una persona mayor, un bebé o alguien con un problema de salud. Si hace mucho frío, llame al 211 y pregunte por centros para calentarse.</li>\n</ol>\n<h2>Actúen en grupo</h2>\n<p>Si varios apartamentos no tienen calefacción, pida a sus vecinos que manden sus propias cartas el mismo día, o una sola carta firmada por todos. Las quejas en grupo son más difíciles de ignorar, y muchos estados protegen contra represalias a los inquilinos que se quejan o se organizan.</p>\n<h2>Qué escribir</h2>\n<blockquote>\"No hay calefacción en mi apartamento desde el [fecha]. La temperatura adentro es de [__] °F. Las luces de afuera en [lugar] tampoco funcionan. Por favor restablezca la calefacción de inmediato y repare las luces. Voy a mandar una copia a [la autoridad de vivienda / HUD / la oficina de códigos].\"</blockquote>\n<h2>Si le dicen que no</h2>\n<p>Si en 24 horas no vuelve la calefacción, escriba otra vez a la autoridad de vivienda o a HUD y pregunte qué están haciendo con el dueño. No deje de pagar la renta sin consultar antes con ayuda legal; las reglas cambian según el estado.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/plantillas/solicitud-reparacion",
+        "label": "Carta de solicitud de reparación",
+        "note": "Una carta para llenar que deja su pedido de reparación por escrito."
+      },
+      {
+        "href": "/es/blog/posts/propietario-no-hace-reparaciones",
+        "label": "¿Su propietario no hace reparaciones?",
+        "note": "Inspección de códigos, la autoridad de vivienda y otras oficinas que pueden exigir reparaciones."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer pedidos por escrito y lograr que un supervisor responda."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-HVAC_20230811.pdf",
+        "label": "Norma NSPIRE de HUD: calefacción, ventilación y aire acondicionado (v3.0, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Lighting-Exterior_20230811.pdf",
+        "label": "Norma NSPIRE de HUD: iluminación exterior (v3.0, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PIH-2018-19HOTMA_HeatingStandardsNoticeFinal_rev.pdf",
+        "label": "Aviso PIH 2018-19 de HUD: calefacción mínima en vivienda pública (en inglés)"
+      },
+      {
+        "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19070/economic-growth-regulatory-relief-and-consumer-protection-act-implementation-of-national-standards",
+        "label": "Federal Register, 30 de septiembre de 2025: fecha de NSPIRE para cupones aplazada al 1 de febrero de 2027"
+      }
+    ],
+    "updated": "4 de noviembre de 2026"
+  }
+}
