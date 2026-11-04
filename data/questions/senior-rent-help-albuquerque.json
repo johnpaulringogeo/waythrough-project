@@ -1,0 +1,112 @@
+{
+  "slug": "senior-rent-help-albuquerque",
+  "es_slug": "ayuda-renta-personas-mayores-albuquerque",
+  "topic": "crisis",
+  "order": 30,
+  "related": [
+    "senior-disability-transportation-riverton-wy",
+    "place-to-stay-while-waiting-for-section-8"
+  ],
+  "en": {
+    "question": "I'm a senior living on Social Security in Albuquerque, and health problems keep me from working. What programs can help me with rent, other than apartments in bad areas? I only need help with rent.",
+    "title": "Rent Help for Seniors in Albuquerque",
+    "description": "Senior on Social Security in Albuquerque? AHA takes Section 8 pre-applications online until Nov. 15, 2026. How a voucher works and other senior options.",
+    "h1": "What rent help is there for a senior on Social Security in Albuquerque?",
+    "crumb": "Senior rent help, Albuquerque",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Ongoing rent help usually comes from a Section 8 voucher, which you can use for a house, duplex or apartment in a neighborhood you choose, if the landlord accepts it. The Albuquerque Housing Authority is taking Section 8 pre-applications online only through November 15, 2026, so apply now.",
+    "body_html": "<h2>Act before November 15, 2026</h2>\n<p>The Albuquerque Housing Authority (AHA) is taking Section 8 Housing Choice Voucher pre-applications <strong>online only, October 16 through November 15, 2026</strong> (we checked AHA's How to Apply page on November 4, 2026). There are no paper applications or walk-ins, and AHA does not charge to apply. AHA picks applicants by lottery, so applying on the first day doesn't put you ahead, but you must apply before the window closes. See our <a href=\"/resources/housing-authorities/albuquerque-aha\">AHA page</a> for how the lottery works.</p>\n<p><strong>After November 15, 2026,</strong> the Section 8 window is closed. On the same AHA page, use \"Be Notified When You Can Apply\" to hear about the next window, and turn to the other options below.</p>\n<h2>Why a voucher fits what you asked</h2>\n<p>A voucher isn't tied to one apartment complex. You can rent a house, duplex, townhome or apartment anywhere the landlord accepts it, as long as the unit passes inspection and the rent fits AHA's limits. When you get a voucher, AHA must explain the advantages of lower-poverty areas and give you a list of landlords that includes those areas (24 CFR 982.301). You'd usually pay about 30% of your adjusted income. Households whose head or spouse is 62 or older, or has a disability, get an extra yearly deduction, plus a deduction for medical costs above 10% of income (24 CFR 5.611). That can lower your share.</p>\n<h2>Other ways to get rent help</h2>\n<ol>\n<li><strong>Project-based vouchers.</strong> AHA lists its Project Based Voucher program as open until further notice. The help comes with specific buildings, and some are for older adults.</li>\n<li><strong>Section 202 senior housing.</strong> HUD's Section 202 program funds rental housing for very low-income households with someone 62 or older, with rent based on income. Ask each property about its waitlist.</li>\n<li><strong>Tax credit (LIHTC) apartments.</strong> Albuquerque has several senior-only tax credit properties with lower rents.</li>\n<li><strong>The Area Agency on Aging.</strong> The City of Albuquerque's Senior Information Line, 505-764-6400, connects older adults in Bernalillo County to senior services.</li>\n<li><strong>Short-term crisis help.</strong> If you fall behind, the City's Emergency Rental &amp; Utility Assistance Program may help once. It isn't ongoing rent help. See our <a href=\"/resources/guides/emergency-rent-help-albuquerque\">Albuquerque rent help guide</a>.</li>\n</ol>\n<h2>What to write</h2>\n<p>If your health affects what you need in a home or how you apply, you can ask for a reasonable accommodation, such as a ground-floor unit or extra time, at any step:</p>\n<blockquote><p>\"Because of my medical condition, I'm asking for a reasonable accommodation: [what you need]. I can provide a letter from my doctor.\"</p></blockquote>\n<h2>If you miss the window</h2>\n<p>Apply to senior properties and project-based units now, sign up for AHA's notices, and call 211 New Mexico for other programs. Keep your phone number and email current with every list you join, so you don't miss a letter.</p>",
+    "links": [
+      {
+        "href": "/resources/cities/albuquerque",
+        "label": "Affordable Housing in Albuquerque, NM",
+        "note": "Local programs, shelters, legal aid and senior options in one place."
+      },
+      {
+        "href": "/resources/housing-authorities/albuquerque-aha",
+        "label": "Albuquerque Housing Authority (AHA)",
+        "note": "Waitlist status, the lottery, and how to apply."
+      },
+      {
+        "href": "/resources/guides/emergency-rent-help-albuquerque",
+        "label": "Emergency Rent Help in Albuquerque",
+        "note": "Who still pays back rent in Albuquerque, and free eviction lawyers."
+      },
+      {
+        "href": "/who-we-help/seniors",
+        "label": "Housing Resources for Seniors",
+        "note": "Senior housing programs and how to apply."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://abqha.org/how-to-apply/",
+        "label": "Albuquerque Housing Authority: How to Apply (checked November 4, 2026)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.301",
+        "label": "24 CFR 982.301: Information when family is selected (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.611",
+        "label": "24 CFR 5.611: Adjusted income (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/hud-partners/multifamily-housing-for-seniors-and-persons-with-disabilities",
+        "label": "HUD: Housing for Seniors and Persons with Disabilities (Section 202)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Soy una persona mayor que vive del Seguro Social en Albuquerque, y por problemas de salud no puedo trabajar. ¿Qué programas me pueden ayudar con la renta, que no sean apartamentos en zonas peligrosas? Solo necesito ayuda con la renta.",
+    "title": "Ayuda con la renta para mayores en Albuquerque",
+    "description": "¿Persona mayor con Seguro Social en Albuquerque? La AHA acepta presolicitudes de Sección 8 en línea hasta el 15 de noviembre de 2026. Opciones y pasos.",
+    "h1": "¿Qué ayuda con la renta hay para una persona mayor con Seguro Social en Albuquerque?",
+    "crumb": "Renta para mayores, Albuquerque",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "La ayuda continua con la renta suele venir de un cupón de Sección 8, que puede usar en una casa, un dúplex o un apartamento en el barrio que usted elija, si el propietario lo acepta. La Autoridad de Vivienda de Albuquerque acepta presolicitudes de Sección 8 solo en línea hasta el 15 de noviembre de 2026, así que solicite ya.",
+    "body_html": "<h2>Actúe antes del 15 de noviembre de 2026</h2>\n<p>La Autoridad de Vivienda de Albuquerque (AHA) acepta presolicitudes del cupón de Sección 8 (Housing Choice Voucher) <strong>solo en línea, del 16 de octubre al 15 de noviembre de 2026</strong> (revisamos la página \"How to Apply\" de la AHA el 4 de noviembre de 2026). No hay solicitudes en papel ni atención sin cita, y la AHA no cobra por solicitar. La AHA elige a los solicitantes por lotería, así que solicitar el primer día no lo pone adelante, pero sí debe solicitar antes de que cierre el plazo. Vea nuestra <a href=\"/es/recursos/autoridades-de-vivienda/albuquerque-aha\">página de la AHA</a> para saber cómo funciona la lotería.</p>\n<p><strong>Después del 15 de noviembre de 2026,</strong> el plazo de Sección 8 queda cerrado. En la misma página de la AHA, use la opción \"Be Notified When You Can Apply\" para enterarse del próximo plazo, y aproveche las otras opciones de abajo.</p>\n<h2>Por qué un cupón responde a lo que usted pide</h2>\n<p>Un cupón no está atado a un complejo de apartamentos. Puede rentar una casa, un dúplex, una casa adosada o un apartamento en cualquier lugar donde el propietario lo acepte, siempre que la unidad pase la inspección y la renta esté dentro de los límites de la AHA. Cuando reciba un cupón, la AHA debe explicarle las ventajas de vivir en zonas con menos pobreza y darle una lista de propietarios que incluya esas zonas (24 CFR 982.301). Por lo general pagaría cerca del 30% de su ingreso ajustado. Los hogares cuyo jefe o cónyuge tiene 62 años o más, o una discapacidad, reciben una deducción anual adicional, además de una deducción por gastos médicos que pasen del 10% del ingreso (24 CFR 5.611). Eso puede bajar su parte.</p>\n<h2>Otras formas de conseguir ayuda con la renta</h2>\n<ol>\n<li><strong>Cupones basados en proyectos.</strong> La AHA indica que su programa de cupones basados en proyectos (Project Based Voucher) está abierto hasta nuevo aviso. La ayuda va con edificios específicos, y algunos son para adultos mayores.</li>\n<li><strong>Vivienda para mayores de la Sección 202.</strong> El programa Sección 202 de HUD financia vivienda de renta para hogares de muy bajos ingresos con una persona de 62 años o más, con renta según el ingreso. Pregunte en cada propiedad por su lista de espera.</li>\n<li><strong>Apartamentos de crédito fiscal (LIHTC).</strong> Albuquerque tiene varias propiedades de crédito fiscal solo para mayores, con rentas más bajas.</li>\n<li><strong>La Agencia del Área para el Envejecimiento.</strong> La línea de información para personas mayores de la Ciudad de Albuquerque, 505-764-6400, conecta a los adultos mayores del condado de Bernalillo con servicios.</li>\n<li><strong>Ayuda de corto plazo en una crisis.</strong> Si se atrasa, el programa de asistencia de emergencia para renta y servicios de la Ciudad puede ayudarle una vez. No es ayuda continua. Vea nuestra <a href=\"/es/recursos/guias/asistencia-renta-emergencia-albuquerque\">guía de ayuda con la renta en Albuquerque</a>.</li>\n</ol>\n<h2>Qué escribir</h2>\n<p>Si su salud afecta lo que necesita en una vivienda o cómo solicita, puede pedir un ajuste razonable, como una unidad en planta baja o más tiempo, en cualquier paso:</p>\n<blockquote><p>\"Por mi condición médica, pido un ajuste razonable: [lo que necesita]. Puedo entregar una carta de mi médico.\"</p></blockquote>\n<h2>Si se le pasa el plazo</h2>\n<p>Solicite ya en propiedades para mayores y en unidades con cupones basados en proyectos, inscríbase en los avisos de la AHA y llame al 211 de Nuevo México para conocer otros programas. Mantenga al día su teléfono y su correo electrónico en cada lista, para no perder ninguna carta.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/ciudades/albuquerque",
+        "label": "Vivienda asequible en Albuquerque, NM",
+        "note": "Programas locales, refugios, ayuda legal y opciones para mayores en un solo lugar."
+      },
+      {
+        "href": "/es/recursos/autoridades-de-vivienda/albuquerque-aha",
+        "label": "Autoridad de Vivienda de Albuquerque (AHA)",
+        "note": "Estado de la lista de espera, la lotería y cómo solicitar."
+      },
+      {
+        "href": "/es/recursos/guias/asistencia-renta-emergencia-albuquerque",
+        "label": "Ayuda de emergencia con la renta en Albuquerque",
+        "note": "Quién todavía paga renta atrasada y abogados gratuitos para desalojos."
+      },
+      {
+        "href": "/es/a-quienes-ayudamos/personas-mayores",
+        "label": "Recursos de vivienda para personas mayores",
+        "note": "Programas de vivienda para mayores y cómo solicitar."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://abqha.org/how-to-apply/",
+        "label": "Autoridad de Vivienda de Albuquerque: How to Apply (revisado el 4 de noviembre de 2026, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.301",
+        "label": "24 CFR 982.301: información al seleccionar a la familia (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.611",
+        "label": "24 CFR 5.611: ingreso ajustado (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/hud-partners/multifamily-housing-for-seniors-and-persons-with-disabilities",
+        "label": "HUD: vivienda para personas mayores y con discapacidad, Sección 202 (en inglés)"
+      }
+    ]
+  }
+}

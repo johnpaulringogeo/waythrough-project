@@ -1,0 +1,95 @@
+{
+  "slug": "place-to-stay-while-waiting-for-section-8",
+  "es_slug": "donde-quedarse-mientras-espera-seccion-8",
+  "topic": "crisis",
+  "order": 10,
+  "related": [
+    "homeless-in-a-shelter-with-no-income",
+    "help-with-first-and-last-months-rent",
+    "senior-rent-help-albuquerque"
+  ],
+  "en": {
+    "question": "I need a place to stay until I find out whether I can get Section 8. Where can I go?",
+    "title": "Where to Stay While Waiting for Section 8",
+    "description": "Section 8 can take months or years. Where to stay now: 211 and shelters, coordinated entry for rapid rehousing, and other housing to apply for while you wait.",
+    "h1": "Where can I stay while I wait to find out about Section 8?",
+    "crumb": "Waiting for Section 8",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Section 8 waitlists often take months or years, so you'll need a plan for now. Call 211 for shelter, ask to be assessed through your area's coordinated entry system for rapid rehousing or transitional housing, and keep applying to other affordable housing while you wait.",
+    "body_html": "<h2>Why you need a plan for now</h2>\n<p>Section 8 almost never helps right away. Many lists are closed or use a lottery, and waits of a year or more are common. Housing authorities can set local preferences that move some applicants up the list (24 CFR 982.207), and many have one for people who are homeless. So tell every housing authority your situation, but plan as if the wait will be long.</p>\n<h2>What to do tonight and this week</h2>\n<ol>\n<li><strong>Call 211</strong> for shelters near you. Ask about family, women's, youth or veterans' shelters if one fits you. HUD also lists local help at hud.gov/findshelter.</li>\n<li><strong>Ask to be assessed through coordinated entry.</strong> Every area that gets HUD homeless funding must run a coordinated assessment system (24 CFR 578.7(a)(8)). It's the front door to rapid rehousing, transitional housing and supportive housing. Shelters and 211 can tell you how to get in.</li>\n<li><strong>If you're fleeing violence,</strong> call the National Domestic Violence Hotline at 1-800-799-7233 for help finding a safe place.</li>\n<li><strong>If you stay with friends or family,</strong> ask them to check their lease first. If they live in public housing or use a voucher, a long-term guest can put their housing at risk.</li>\n<li><strong>Keep your contact information current</strong> with every housing authority you've applied to. Use a phone number and email you'll keep, or a mailing address at a shelter or a trusted friend's home. A missed letter can get you dropped from a list.</li>\n</ol>\n<h2>Apply to more than Section 8</h2>\n<ul>\n<li><strong>Public housing</strong> through your housing authority. It's a separate list.</li>\n<li><strong>Project-based voucher buildings,</strong> where the help is tied to the apartment.</li>\n<li><strong>Tax credit (LIHTC) apartments,</strong> with lower rents and their own waitlists.</li>\n<li><strong>Other housing authorities nearby</strong> with open lists. You can be on more than one.</li>\n</ul>\n<h2>What to say when you call</h2>\n<blockquote><p>\"I don't have a stable place to stay, and I'm waiting to hear about Section 8. Can you help me find shelter, and how do I get assessed for rapid rehousing or other housing programs?\"</p></blockquote>\n<h2>If shelters are full</h2>\n<p>Ask to be put on any waitlist and call back each morning, since beds open up overnight. Ask about warming or cooling centers, motel voucher programs and day centers where you can shower, eat and get mail. Keep a simple record of where you stay each night; it can help you prove you're homeless when you apply for programs and preferences.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/emergency-housing-tonight",
+        "label": "I Need a Place to Stay Tonight",
+        "note": "Step-by-step help finding a safe place to sleep tonight."
+      },
+      {
+        "href": "/resources/emergency-housing",
+        "label": "Emergency & Crisis Housing Resources",
+        "note": "Shelters, rapid rehousing and coordinated entry explained."
+      },
+      {
+        "href": "/blog/posts/surviving-the-waiting-list",
+        "label": "How to Survive the Section 8 Waiting List",
+        "note": "How to stay on the list and what to do while you wait."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: Continuum of Care responsibilities, coordinated assessment (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: Waiting list local preferences (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/findshelter",
+        "label": "HUD: Find Shelter"
+      }
+    ]
+  },
+  "es": {
+    "question": "Necesito un lugar donde quedarme hasta saber si puedo recibir la Sección 8. ¿A dónde puedo ir?",
+    "title": "Dónde quedarse mientras espera la Sección 8",
+    "description": "La Sección 8 puede tardar meses o años. Dónde quedarse ahora: el 211 y refugios, la entrada coordinada para realojamiento rápido y otras viviendas.",
+    "h1": "¿Dónde puedo quedarme mientras espero la respuesta de la Sección 8?",
+    "crumb": "Esperando la Sección 8",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Las listas de espera de la Sección 8 suelen tardar meses o años, así que necesita un plan para ahora. Llame al 211 para buscar refugio, pida una evaluación en el sistema de entrada coordinada de su zona para realojamiento rápido o vivienda de transición, y siga solicitando otras viviendas asequibles mientras espera.",
+    "body_html": "<h2>Por qué necesita un plan para ahora</h2>\n<p>La Sección 8 casi nunca ayuda de inmediato. Muchas listas están cerradas o usan una lotería, y es común esperar un año o más. Las autoridades de vivienda pueden fijar preferencias locales que adelantan a algunas personas en la lista (24 CFR 982.207), y muchas tienen una para personas sin hogar. Así que explique su situación a cada autoridad de vivienda, pero haga planes pensando que la espera será larga.</p>\n<h2>Qué hacer esta noche y esta semana</h2>\n<ol>\n<li><strong>Llame al 211</strong> para encontrar refugios cerca de usted. Pregunte por refugios para familias, mujeres, jóvenes o veteranos si alguno le corresponde. HUD también tiene una lista de ayuda local en hud.gov/findshelter (en inglés).</li>\n<li><strong>Pida una evaluación de entrada coordinada.</strong> Cada zona que recibe fondos de HUD para personas sin hogar debe tener un sistema de evaluación coordinada (24 CFR 578.7(a)(8)). Es la puerta de entrada al realojamiento rápido, la vivienda de transición y la vivienda con apoyo. Los refugios y el 211 pueden decirle cómo entrar.</li>\n<li><strong>Si está huyendo de la violencia,</strong> llame a la Línea Nacional contra la Violencia Doméstica al 1-800-799-7233 para encontrar un lugar seguro.</li>\n<li><strong>Si se queda con amigos o familiares,</strong> pídales que revisen su contrato primero. Si viven en vivienda pública o usan un cupón, un invitado por mucho tiempo puede poner en riesgo su vivienda.</li>\n<li><strong>Mantenga al día sus datos de contacto</strong> con cada autoridad de vivienda donde solicitó. Use un teléfono y un correo electrónico que vaya a conservar, o una dirección postal en un refugio o en casa de alguien de confianza. Perder una carta puede sacarlo de la lista.</li>\n</ol>\n<h2>Solicite más que la Sección 8</h2>\n<ul>\n<li><strong>Vivienda pública</strong> en su autoridad de vivienda. Es una lista aparte.</li>\n<li><strong>Edificios con cupones basados en proyectos,</strong> donde la ayuda va con el apartamento.</li>\n<li><strong>Apartamentos de crédito fiscal (LIHTC),</strong> con rentas más bajas y sus propias listas de espera.</li>\n<li><strong>Otras autoridades de vivienda cercanas</strong> con listas abiertas. Puede estar en más de una.</li>\n</ul>\n<h2>Qué decir cuando llame</h2>\n<blockquote><p>\"No tengo un lugar estable donde quedarme y estoy esperando respuesta de la Sección 8. ¿Me pueden ayudar a encontrar refugio y cómo hago la evaluación para realojamiento rápido u otros programas de vivienda?\"</p></blockquote>\n<h2>Si los refugios están llenos</h2>\n<p>Pida que lo pongan en cualquier lista de espera y vuelva a llamar cada mañana, porque las camas se liberan durante la noche. Pregunte por centros de calor o de enfriamiento, programas de cupones para motel y centros de día donde pueda bañarse, comer y recibir correo. Lleve un registro sencillo de dónde se queda cada noche; puede servirle para probar que está sin hogar cuando solicite programas y preferencias.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/necesito-vivienda-esta-noche",
+        "label": "Necesito un lugar para quedarme esta noche",
+        "note": "Ayuda paso a paso para encontrar un lugar seguro donde dormir hoy."
+      },
+      {
+        "href": "/es/recursos/vivienda-de-emergencia",
+        "label": "Vivienda de emergencia y crisis",
+        "note": "Refugios, realojamiento rápido y entrada coordinada."
+      },
+      {
+        "href": "/es/blog/posts/sobrevivir-la-lista-de-espera",
+        "label": "Cómo sobrevivir la lista de espera de la Sección 8",
+        "note": "Cómo mantenerse en la lista y qué hacer mientras espera."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: responsabilidades del Continuum of Care, evaluación coordinada (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: preferencias locales en la lista de espera (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/findshelter",
+        "label": "HUD: encontrar refugio (en inglés)"
+      }
+    ]
+  }
+}

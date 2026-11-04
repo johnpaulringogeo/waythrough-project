@@ -1,0 +1,85 @@
+{
+  "slug": "help-with-first-and-last-months-rent",
+  "es_slug": "ayuda-con-primer-y-ultimo-mes-de-renta",
+  "topic": "finding",
+  "order": 40,
+  "related": [
+    "find-landlords-who-accept-section-8",
+    "place-to-stay-while-waiting-for-section-8",
+    "homeless-in-a-shelter-with-no-income"
+  ],
+  "en": {
+    "question": "I need help paying my first and last month's rent so I can move in. Where can I get it?",
+    "title": "Help Paying First and Last Month's Rent",
+    "description": "Where to get help with a security deposit and first and last month's rent: rapid rehousing, prevention programs, your housing authority, charities and 211.",
+    "h1": "Where can I get help with first and last month's rent to move in?",
+    "crumb": "Move-in rent help",
+    "asked": "August 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Help with move-in costs is harder to find than help with back rent, but it exists. If you're homeless or about to be, rapid rehousing and homelessness prevention programs can pay a security deposit and last month's rent. Otherwise, try 211, local charities, and your housing authority if you have a voucher.",
+    "body_html": "<h2>Who pays move-in costs</h2>\n<p>Most emergency rent programs pay rent you already owe, not the cost of moving into a new place. The biggest exception is for people who are homeless or at risk of becoming homeless. Programs paid for by HUD's Emergency Solutions Grants can cover a <strong>security deposit of up to two months' rent</strong>, the <strong>last month's rent</strong>, rental application fees, utility deposits and moving costs (24 CFR 576.105(a)). They can also help with rent for a while. These programs are usually called rapid rehousing or homelessness prevention, and you often reach them through your area's coordinated entry system.</p>\n<p>Each program sets its own rules about income and who qualifies, and money can run out. Apply to more than one.</p>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Call 211</strong> and say you need help with a deposit and first month's rent to move in. Ask about rapid rehousing, homelessness prevention and any local deposit help.</li>\n<li><strong>If you're homeless or about to lose your housing,</strong> ask 211 or a shelter how to get assessed through coordinated entry. That's the front door to most deposit help.</li>\n<li><strong>If you have a voucher,</strong> ask your housing authority whether it offers security deposit assistance or works with a group that does. Some do.</li>\n<li><strong>Contact local charities</strong> such as Catholic Charities, the Salvation Army, St. Vincent de Paul and nearby churches. Many give one-time help toward a deposit.</li>\n<li><strong>Ask your state's cash assistance (TANF) office</strong> about one-time emergency payments, especially if you have children.</li>\n<li><strong>Ask the landlord to split the deposit</strong> into a few monthly payments. Get any agreement in writing before you pay.</li>\n<li><strong>Know your state's limits.</strong> Some states cap how much a landlord can collect up front. Check your <a href=\"/resources/states/\">state page</a>.</li>\n</ol>\n<h2>What to say</h2>\n<blockquote><p>\"I've found a place I can afford, but I need help with the security deposit and the first and last month's rent to move in. Do you have a program for move-in costs, or can you refer me to one?\"</p></blockquote>\n<h2>If you can't find help</h2>\n<p>Ask each program when it expects new funding, and call back then. Look for places with lower move-in costs, such as tax credit apartments or landlords who ask only for the first month and a deposit. Get receipts for every payment. And be careful with anyone who wants a \"holding fee\" before you've seen the unit in person or signed a lease; that's a common scam.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/emergency-rental-assistance",
+        "label": "How to Find and Apply for Emergency Rental Assistance",
+        "note": "Where rent help comes from and how to apply."
+      },
+      {
+        "href": "/resources/emergency-housing",
+        "label": "Emergency & Crisis Housing Resources",
+        "note": "Shelter, rapid rehousing and coordinated entry explained."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-576.105",
+        "label": "24 CFR 576.105: Housing relocation and stabilization services (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: Continuum of Care responsibilities, coordinated assessment (eCFR)"
+      },
+      {
+        "url": "https://www.hudexchange.info/homelessness-assistance/coordinated-entry/",
+        "label": "HUD Exchange: Coordinated Entry"
+      }
+    ]
+  },
+  "es": {
+    "question": "Necesito ayuda para pagar el primer y el último mes de renta para poder mudarme. ¿Dónde la consigo?",
+    "title": "Ayuda con el primer y último mes de renta",
+    "description": "Dónde conseguir ayuda con el depósito y el primer y último mes de renta: realojamiento rápido, programas de prevención, su autoridad de vivienda y el 211.",
+    "h1": "¿Dónde consigo ayuda con el primer y último mes de renta para mudarme?",
+    "crumb": "Ayuda para mudarse",
+    "asked": "agosto de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "La ayuda para los gastos de mudanza es más difícil de encontrar que la ayuda con renta atrasada, pero existe. Si está sin hogar o a punto de estarlo, los programas de realojamiento rápido y de prevención pueden pagar el depósito y el último mes de renta. Si no, pruebe con el 211, organizaciones benéficas y su autoridad de vivienda si tiene cupón.",
+    "body_html": "<h2>Quién paga los gastos de mudanza</h2>\n<p>La mayoría de los programas de renta de emergencia pagan renta que usted ya debe, no lo que cuesta entrar a un lugar nuevo. La gran excepción es para personas sin hogar o en riesgo de quedarse sin hogar. Los programas financiados con las subvenciones de soluciones de emergencia de HUD (ESG) pueden pagar un <strong>depósito de garantía de hasta dos meses de renta</strong>, el <strong>último mes de renta</strong>, cuotas de solicitud, depósitos de servicios y gastos de mudanza (24 CFR 576.105(a)). También pueden ayudar con la renta por un tiempo. Estos programas se suelen llamar realojamiento rápido o prevención de la falta de vivienda, y por lo general se llega a ellos por el sistema de entrada coordinada de su zona.</p>\n<p>Cada programa pone sus propias reglas de ingresos y requisitos, y el dinero se puede acabar. Solicite en más de uno.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Llame al 211</strong> y diga que necesita ayuda con el depósito y el primer mes de renta para mudarse. Pregunte por realojamiento rápido, prevención y cualquier ayuda local para depósitos.</li>\n<li><strong>Si está sin hogar o a punto de perder su vivienda,</strong> pregunte al 211 o a un refugio cómo hacer la evaluación de entrada coordinada. Esa es la puerta principal para casi toda la ayuda con depósitos.</li>\n<li><strong>Si tiene un cupón,</strong> pregunte a su autoridad de vivienda si ofrece ayuda con el depósito o trabaja con alguna organización que lo haga. Algunas sí.</li>\n<li><strong>Contacte organizaciones benéficas</strong> como Caridades Católicas (Catholic Charities), el Ejército de Salvación, San Vicente de Paúl e iglesias cercanas. Muchas dan ayuda única para el depósito.</li>\n<li><strong>Pregunte en la oficina de asistencia en efectivo de su estado (TANF)</strong> por pagos únicos de emergencia, sobre todo si tiene hijos.</li>\n<li><strong>Pida al propietario dividir el depósito</strong> en algunos pagos mensuales. Consiga cualquier acuerdo por escrito antes de pagar.</li>\n<li><strong>Conozca los límites de su estado.</strong> Algunos estados limitan cuánto puede cobrar el propietario por adelantado. Revise la <a href=\"/es/recursos/estados/\">página de su estado</a>.</li>\n</ol>\n<h2>Qué decir</h2>\n<blockquote><p>\"Encontré un lugar que puedo pagar, pero necesito ayuda con el depósito y con el primer y último mes de renta para mudarme. ¿Tienen un programa para gastos de mudanza o me pueden referir a uno?\"</p></blockquote>\n<h2>Si no encuentra ayuda</h2>\n<p>Pregunte a cada programa cuándo espera recibir más fondos y vuelva a llamar en esa fecha. Busque lugares con gastos de entrada más bajos, como apartamentos de crédito fiscal o propietarios que solo piden el primer mes y un depósito. Pida recibo de cada pago. Y tenga cuidado con quien le pida una \"cuota para apartar\" antes de ver la unidad en persona o firmar un contrato; es una estafa común.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/asistencia-renta-emergencia",
+        "label": "Cómo encontrar y solicitar asistencia de renta de emergencia",
+        "note": "De dónde viene la ayuda con la renta y cómo solicitarla."
+      },
+      {
+        "href": "/es/recursos/vivienda-de-emergencia",
+        "label": "Vivienda de emergencia y crisis",
+        "note": "Refugios, realojamiento rápido y entrada coordinada."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-576.105",
+        "label": "24 CFR 576.105: servicios de reubicación y estabilización de vivienda (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: responsabilidades del Continuum of Care, evaluación coordinada (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hudexchange.info/homelessness-assistance/coordinated-entry/",
+        "label": "HUD Exchange: entrada coordinada (en inglés)"
+      }
+    ]
+  }
+}

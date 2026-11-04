@@ -1,0 +1,95 @@
+{
+  "slug": "find-landlords-who-accept-section-8",
+  "es_slug": "encontrar-propietarios-que-aceptan-seccion-8",
+  "topic": "finding",
+  "order": 10,
+  "related": [
+    "bad-credit-but-always-paid-rent-on-time",
+    "landlord-wont-sign-good-standing-letter",
+    "help-with-first-and-last-months-rent"
+  ],
+  "en": {
+    "question": "Where can I find private landlords who accept housing subsidies like Section 8?",
+    "title": "Where to Find Landlords Who Accept Section 8",
+    "description": "How to find private landlords who take Section 8 and other subsidies: your housing authority's landlord list, tax credit apartments and source-of-income laws.",
+    "h1": "Where can I find private landlords who accept housing subsidies?",
+    "crumb": "Finding voucher landlords",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Start with your housing authority: federal rules require it to give voucher holders a list of landlords or other resources that can help. Then look at tax credit (LIHTC) apartments, which can't turn you down just for having a voucher, and check whether your state or city bans source-of-income discrimination.",
+    "body_html": "<h2>What the rules say</h2>\n<p>When a housing authority gives you a voucher, it must also give you an information packet. Under <strong>24 CFR 982.301(b)(11)</strong>, that packet has to include a list of landlords who may be willing to rent to you, or other resources such as websites and groups that help with the search. The list must cover areas outside high-poverty neighborhoods. If someone in your household has a disability, the housing authority must also share the accessible units it knows about (24 CFR 982.301(b)(12)).</p>\n<p>No federal law makes every private landlord take vouchers. But two rules help:</p>\n<ul>\n<li><strong>Tax credit (LIHTC) apartments.</strong> Owners who get Low-Income Housing Tax Credits must agree not to refuse a tenant just because the tenant has a Section 8 voucher (26 U.S.C. 42(h)(6)(B)(iv)). They can still screen you in other ways, like rental history.</li>\n<li><strong>Source-of-income laws.</strong> Many states and cities make it illegal to turn someone down because they pay with a voucher. Where those laws apply, a \"no Section 8\" ad is not allowed. These laws vary a lot, so check <a href=\"/resources/guides/source-of-income-protections\">your state's rules</a>.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Ask your housing authority for its landlord list</strong> and any search website it uses. Ask if it has a housing search helper or a mobility program.</li>\n<li><strong>Search tax credit apartments.</strong> Our <a href=\"/resources/guides/how-to-find-lihtc-housing\">LIHTC guide</a> shows how to find them by city. Call each one and ask about openings and waitlists.</li>\n<li><strong>Use rental listing sites, then call.</strong> Many let you filter for \"accepts vouchers.\" Call before you visit and ask directly.</li>\n<li><strong>Try smaller landlords.</strong> Owners with a few units are often more flexible. Remind them the housing authority pays its share of the rent straight to them every month.</li>\n<li><strong>Ask 211 and local housing counselors</strong> for landlords who already rent to voucher holders.</li>\n<li><strong>Keep a search log:</strong> every place you contact, the date, and what they said. If your voucher is close to expiring, this log helps when you ask for an extension.</li>\n</ol>\n<h2>What to say when you call</h2>\n<blockquote><p>\"Hi, I have a Housing Choice Voucher for a [number]-bedroom unit. Do you accept vouchers, and do you have anything open? The housing authority pays its part of the rent directly to you each month.\"</p></blockquote>\n<h2>If a landlord says no because of the voucher</h2>\n<p>Write down the name, the date and exactly what they said, and save the ad. If your state or city has a source-of-income law, you can file a complaint with your state or local fair housing agency. If the refusal seemed tied to race, disability, having children or another protected trait, you can also file with HUD under the Fair Housing Act. See <a href=\"/resources/guides/how-to-file-housing-discrimination-complaint\">how to file a discrimination complaint</a>. And keep going: one landlord's no is not the end of your search.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/voucher-housing-search-tips",
+        "label": "15 Tips for Finding an Apartment with a Housing Voucher",
+        "note": "Practical search tips, from timing to what to say to landlords."
+      },
+      {
+        "href": "/resources/guides/source-of-income-protections",
+        "label": "Source of Income Discrimination: Know Your State's Laws",
+        "note": "Which states and cities ban turning down voucher holders."
+      },
+      {
+        "href": "/resources/guides/how-to-find-lihtc-housing",
+        "label": "How to Find Tax Credit (LIHTC) Apartments",
+        "note": "How to find tax credit apartments near you."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.301",
+        "label": "24 CFR 982.301: Information when family is selected (eCFR)"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleA-chap1-subchapA-partIV-subpartD-sec42.htm",
+        "label": "26 U.S.C. 42(h)(6)(B)(iv): LIHTC voucher-holder protection (GovInfo)"
+      },
+      {
+        "url": "https://www.hud.gov/helping-americans/housing-choice-vouchers-tenants",
+        "label": "HUD: Housing Choice Voucher Tenants"
+      }
+    ]
+  },
+  "es": {
+    "question": "¿Dónde puedo encontrar propietarios privados que acepten ayudas de vivienda como la Sección 8?",
+    "title": "Propietarios que aceptan la Sección 8",
+    "description": "Cómo encontrar propietarios que aceptan la Sección 8: la lista de su autoridad de vivienda, apartamentos de crédito fiscal y leyes de fuente de ingreso.",
+    "h1": "¿Dónde encuentro propietarios privados que acepten ayudas de vivienda?",
+    "crumb": "Propietarios que aceptan cupones",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Empiece por su autoridad de vivienda: las reglas federales la obligan a darle una lista de propietarios u otros recursos para buscar. Después busque apartamentos de crédito fiscal (LIHTC), que no pueden rechazarlo solo por tener un cupón, y averigüe si su estado o ciudad prohíbe la discriminación por fuente de ingreso.",
+    "body_html": "<h2>Lo que dicen las reglas</h2>\n<p>Cuando la autoridad de vivienda le entrega un cupón, también tiene que darle un paquete de información. Según la <strong>regla 24 CFR 982.301(b)(11)</strong>, ese paquete debe incluir una lista de propietarios que podrían rentarle, u otros recursos como páginas web y organizaciones que ayudan a buscar. La lista debe incluir zonas fuera de los barrios de mucha pobreza. Si alguien en su hogar tiene una discapacidad, la autoridad también debe darle la lista de unidades accesibles que conozca (24 CFR 982.301(b)(12)).</p>\n<p>Ninguna ley federal obliga a todos los propietarios privados a aceptar cupones. Pero hay dos reglas que ayudan:</p>\n<ul>\n<li><strong>Apartamentos de crédito fiscal (LIHTC).</strong> Los dueños que reciben créditos fiscales para vivienda de bajos ingresos se comprometen a no rechazar a nadie solo porque tiene un cupón de Sección 8 (26 U.S.C. 42(h)(6)(B)(iv)). Sí pueden evaluarlo de otras formas, como su historial de renta.</li>\n<li><strong>Leyes de fuente de ingreso.</strong> Muchos estados y ciudades prohíben rechazar a una persona porque paga con un cupón. Donde existen estas leyes, un anuncio que diga \"no Sección 8\" no está permitido. Cambian mucho de un lugar a otro, así que revise <a href=\"/es/recursos/guias/protecciones-fuente-ingreso\">las reglas de su estado</a>.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Pida a su autoridad de vivienda su lista de propietarios</strong> y la página web de búsqueda que use. Pregunte si tiene a alguien que ayude con la búsqueda o un programa de movilidad.</li>\n<li><strong>Busque apartamentos de crédito fiscal.</strong> Nuestra <a href=\"/es/recursos/guias/como-encontrar-vivienda-lihtc\">guía de LIHTC</a> explica cómo encontrarlos por ciudad. Llame a cada uno y pregunte por unidades libres y listas de espera.</li>\n<li><strong>Use páginas de anuncios y luego llame.</strong> Muchas permiten filtrar por \"acepta cupones\". Llame antes de ir y pregunte directamente.</li>\n<li><strong>Pruebe con propietarios pequeños.</strong> Los que tienen pocas unidades suelen ser más flexibles. Recuérdeles que la autoridad de vivienda les paga su parte de la renta directamente cada mes.</li>\n<li><strong>Pregunte al 211 y a consejeros de vivienda</strong> por propietarios que ya rentan a personas con cupón.</li>\n<li><strong>Lleve un registro de búsqueda:</strong> cada lugar que contacta, la fecha y lo que le dijeron. Si su cupón está por vencer, este registro le sirve para pedir una extensión.</li>\n</ol>\n<h2>Qué decir cuando llame</h2>\n<blockquote><p>\"Hola, tengo un cupón de vivienda (Housing Choice Voucher) para una unidad de [número] recámaras. ¿Aceptan cupones y tienen algo disponible? La autoridad de vivienda le paga su parte de la renta directamente cada mes.\"</p></blockquote>\n<h2>Si un propietario dice que no por el cupón</h2>\n<p>Anote el nombre, la fecha y exactamente lo que le dijeron, y guarde el anuncio. Si su estado o ciudad tiene una ley de fuente de ingreso, puede presentar una queja ante la agencia estatal o local de vivienda justa. Si el rechazo parece tener que ver con su raza, una discapacidad, tener hijos u otra característica protegida, también puede presentar una queja ante HUD bajo la Ley de Vivienda Justa. Vea <a href=\"/es/recursos/guias/como-presentar-queja-discriminacion\">cómo presentar una queja por discriminación</a>. Y siga buscando: el no de un propietario no es el final de su búsqueda.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/consejos-busqueda-vivienda-voucher",
+        "label": "15 consejos para encontrar apartamento con un cupón de vivienda",
+        "note": "Consejos prácticos, desde cuándo buscar hasta qué decirle al propietario."
+      },
+      {
+        "href": "/es/recursos/guias/protecciones-fuente-ingreso",
+        "label": "Discriminación por fuente de ingreso: las leyes de su estado",
+        "note": "Qué estados y ciudades prohíben rechazar a quien tiene cupón."
+      },
+      {
+        "href": "/es/recursos/guias/como-encontrar-vivienda-lihtc",
+        "label": "Cómo encontrar apartamentos de crédito fiscal (LIHTC)",
+        "note": "Cómo encontrar apartamentos de crédito fiscal cerca de usted."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.301",
+        "label": "24 CFR 982.301: información al seleccionar a la familia (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/html/USCODE-2024-title26-subtitleA-chap1-subchapA-partIV-subpartD-sec42.htm",
+        "label": "26 U.S.C. 42(h)(6)(B)(iv): protección para quien tiene cupón en LIHTC (GovInfo, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/helping-americans/housing-choice-vouchers-tenants",
+        "label": "HUD: inquilinos con cupón de vivienda (en inglés)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "senior-disability-transportation-riverton-wy",
+  "es_slug": "transporte-mayores-discapacidad-riverton-wy",
+  "topic": "crisis",
+  "order": 40,
+  "related": [
+    "senior-rent-help-albuquerque",
+    "place-to-stay-while-waiting-for-section-8"
+  ],
+  "en": {
+    "question": "Is there transportation for seniors and people with disabilities in Riverton, Wyoming?",
+    "title": "Rides for Seniors and Disabled in Riverton, WY",
+    "description": "Rides for seniors and people with disabilities in Riverton, Wyoming: WRTA buses and on-demand rides, the senior center, and Wyoming Medicaid travel help.",
+    "h1": "Is there transportation for seniors and people with disabilities in Riverton, Wyoming?",
+    "crumb": "Rides in Riverton, WY",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Yes. The Wind River Transportation Authority (WRTA) runs buses and curb-to-curb on-demand rides in Riverton, and it has said it will keep giving free rides to and from the Riverton Senior Center. If you have Wyoming Medicaid, it can also help with trips to medical appointments.",
+    "body_html": "<h2>Wind River Transportation Authority (WRTA)</h2>\n<p>WRTA is Fremont County's public transit, run by the Fremont County Association of Governments. It offers fixed bus routes, <strong>WRTA On-Demand</strong> rides and a SafeRide service. In 2025, WRTA, the Riverton Senior Citizens Center and the Wyoming Department of Transportation announced they were combining transit in Riverton. The senior center's rides had mainly served older adults and people with disabilities. WRTA said it would keep curb-to-curb demand-response service in Riverton and keep giving <strong>free rides to and from the Riverton Senior Center</strong>.</p>\n<ul>\n<li><strong>Phone:</strong> (307) 856-WRTA, which is (307) 856-9782. Monday to Friday, 6 a.m. to 7:30 p.m.; closed weekends.</li>\n<li><strong>Website:</strong> fcagwy.gov/wrta. On-Demand fares can be paid in the Token Transit app.</li>\n</ul>\n<p>WRTA warned in 2026 that funding cuts could reduce some routes and hours. Call to confirm what's running on the days you need, and ask about any senior, veteran or disability fares.</p>\n<h2>Riverton Senior Citizens Center</h2>\n<p>Wyoming's Aging Division lists the senior center at 303 East Lincoln, (307) 856-6332, as a provider of support services and meals for older adults. Ask about rides to its programs and help booking WRTA trips. For help finding senior services anywhere in Wyoming, call the Aging Division's Community Living Section at 1-800-442-2766.</p>\n<h2>Wyoming Medicaid travel help</h2>\n<p>If you have Wyoming Medicaid, its Travel Assistance benefit can help you get to medically necessary appointments with Medicaid providers. Under the state's member guide, trips in your own town or county may be covered with a public transit punch card. For appointments in another town, Medicaid may pay mileage or arrange a bus, taxi or shuttle. Call the Medicaid Customer Service Center at 1-855-294-2127, Monday to Friday, 7 a.m. to 6 p.m., and choose Travel Assistance. Ask before your appointment when you can, and keep proof that you went.</p>\n<h2>Help for people with disabilities</h2>\n<p>Wyoming Services for Independent Living, based in Lander, serves Fremont County. Ask whether it has a ride or travel help program you can use.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Call WRTA and ask what rides you can use, how to book and what they cost.</li>\n<li>Call the senior center about rides to meals and activities.</li>\n<li>If you have Medicaid, call 1-855-294-2127 before your next medical appointment.</li>\n<li>If you still can't find a ride, call 211 for other local options.</li>\n</ol>\n<h2>What to say</h2>\n<blockquote><p>\"I'm a senior in Riverton and I don't drive. What rides can I use for errands and doctor visits, how far ahead do I need to book, and is there a senior or disability fare?\"</p></blockquote>\n<p>Riverton doesn't have its own housing authority; Section 8 there is run by the Cheyenne Housing Authority's Lander/Riverton office. See our <a href=\"/resources/housing-authorities/riverton-wy\">Riverton housing page</a>.</p>",
+    "links": [
+      {
+        "href": "/resources/housing-authorities/riverton-wy",
+        "label": "Riverton Housing Authority",
+        "note": "Who runs Section 8 in Riverton and how to reach them."
+      },
+      {
+        "href": "/resources/states/wyoming",
+        "label": "Wyoming Housing Resources & Tenant Rights",
+        "note": "Statewide housing programs, rent help and legal aid in Wyoming."
+      },
+      {
+        "href": "/who-we-help/seniors",
+        "label": "Housing Resources for Seniors",
+        "note": "Senior housing programs and how to apply."
+      },
+      {
+        "href": "/who-we-help/disabilities",
+        "label": "Housing Resources for People with Disabilities",
+        "note": "Accessible housing, accommodations and disability programs."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://fcagwy.gov/wrta/",
+        "label": "Fremont County Association of Governments: Wind River Transportation Authority"
+      },
+      {
+        "url": "https://dot.state.wy.us/news/riverton-senior-citizens-center-wrta-and-wydot-to-consolidate-transit",
+        "label": "WYDOT: Riverton Senior Citizens Center, WRTA and WYDOT to consolidate transit services"
+      },
+      {
+        "url": "https://health.wyo.gov/wp-content/uploads/2022/03/WY_Medicaid_Member_Travel_Assistance_Guide-1.pdf",
+        "label": "Wyoming Department of Health: Medicaid Travel Assistance Member Reference Guide"
+      },
+      {
+        "url": "https://health.wyo.gov/aging/communityliving/public_resources/",
+        "label": "Wyoming Department of Health, Aging Division: Map of Wyoming Senior Service Providers"
+      }
+    ]
+  },
+  "es": {
+    "question": "¿Hay transporte para personas mayores y personas con discapacidad en Riverton, Wyoming?",
+    "title": "Transporte para mayores en Riverton, Wyoming",
+    "description": "Transporte para personas mayores y con discapacidad en Riverton, Wyoming: autobuses y viajes a pedido de WRTA, el centro para mayores y la ayuda de Medicaid.",
+    "h1": "¿Hay transporte para personas mayores y con discapacidad en Riverton, Wyoming?",
+    "crumb": "Transporte en Riverton, WY",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Sí. La Autoridad de Transporte de Wind River (WRTA) tiene autobuses y viajes a pedido de acera a acera en Riverton, y ha dicho que seguirá ofreciendo viajes gratis de ida y vuelta al Centro para Personas Mayores de Riverton. Si tiene Medicaid de Wyoming, también puede ayudarle con viajes a citas médicas.",
+    "body_html": "<h2>Autoridad de Transporte de Wind River (WRTA)</h2>\n<p>WRTA es el transporte público del condado de Fremont, administrado por la Asociación de Gobiernos del Condado de Fremont (FCAG). Ofrece rutas fijas de autobús, viajes a pedido (<strong>WRTA On-Demand</strong>) y un servicio llamado SafeRide. En 2025, WRTA, el Centro para Personas Mayores de Riverton (Riverton Senior Citizens Center) y el Departamento de Transporte de Wyoming anunciaron que unirían el transporte en Riverton. Los viajes del centro servían sobre todo a adultos mayores y personas con discapacidad. WRTA dijo que mantendría el servicio a pedido de acera a acera en Riverton y que seguiría dando <strong>viajes gratis de ida y vuelta al Centro para Personas Mayores de Riverton</strong>.</p>\n<ul>\n<li><strong>Teléfono:</strong> (307) 856-WRTA, es decir, (307) 856-9782. De lunes a viernes, de 6 a.m. a 7:30 p.m.; cerrado los fines de semana.</li>\n<li><strong>Página web:</strong> fcagwy.gov/wrta (en inglés). Los viajes a pedido se pueden pagar con la aplicación Token Transit.</li>\n</ul>\n<p>En 2026, WRTA advirtió que los recortes de fondos podrían reducir algunas rutas y horarios. Llame para confirmar qué funciona los días que lo necesita y pregunte por tarifas para mayores, veteranos o personas con discapacidad.</p>\n<h2>Centro para Personas Mayores de Riverton</h2>\n<p>La División de Envejecimiento de Wyoming registra al centro en 303 East Lincoln, (307) 856-6332, como proveedor de servicios de apoyo y comidas para adultos mayores. Pregunte por viajes a sus actividades y por ayuda para reservar viajes de WRTA. Para encontrar servicios para mayores en cualquier parte de Wyoming, llame a la Sección de Vida en la Comunidad de la División de Envejecimiento al 1-800-442-2766.</p>\n<h2>Ayuda de Medicaid de Wyoming para viajar</h2>\n<p>Si tiene Medicaid de Wyoming, su beneficio de asistencia para viajes (Travel Assistance) puede ayudarle a llegar a citas médicamente necesarias con proveedores de Medicaid. Según la guía del estado para miembros, los viajes dentro de su pueblo o condado pueden cubrirse con una tarjeta de pases para el transporte público. Para citas en otro pueblo, Medicaid puede pagar el millaje o arreglar un autobús, taxi o transporte compartido. Llame al Centro de Servicio al Cliente de Medicaid al 1-855-294-2127, de lunes a viernes, de 7 a.m. a 6 p.m., y elija la opción Travel Assistance. Pida la ayuda antes de la cita cuando pueda y guarde la prueba de que asistió.</p>\n<h2>Ayuda para personas con discapacidad</h2>\n<p>Wyoming Services for Independent Living, con sede en Lander, atiende al condado de Fremont. Pregunte si tiene un programa de transporte o ayuda para viajar que usted pueda usar.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Llame a WRTA y pregunte qué viajes puede usar, cómo reservar y cuánto cuestan.</li>\n<li>Llame al centro para mayores y pregunte por viajes a las comidas y actividades.</li>\n<li>Si tiene Medicaid, llame al 1-855-294-2127 antes de su próxima cita médica.</li>\n<li>Si aun así no encuentra transporte, llame al 211 para conocer otras opciones locales.</li>\n</ol>\n<h2>Qué decir</h2>\n<blockquote><p>\"Soy una persona mayor en Riverton y no manejo. ¿Qué viajes puedo usar para mandados y citas médicas, con cuánto tiempo tengo que reservar y hay una tarifa para mayores o personas con discapacidad?\"</p></blockquote>\n<p>Riverton no tiene su propia autoridad de vivienda; la Sección 8 ahí la maneja la oficina de Lander/Riverton de la Autoridad de Vivienda de Cheyenne. Vea nuestra <a href=\"/es/recursos/autoridades-de-vivienda/riverton-wy\">página de vivienda de Riverton</a>.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/autoridades-de-vivienda/riverton-wy",
+        "label": "Autoridad de Vivienda de Riverton",
+        "note": "Quién maneja la Sección 8 en Riverton y cómo contactarlos."
+      },
+      {
+        "href": "/es/recursos/estados/wyoming",
+        "label": "Recursos de vivienda y derechos del inquilino en Wyoming",
+        "note": "Programas estatales de vivienda, ayuda con la renta y ayuda legal en Wyoming."
+      },
+      {
+        "href": "/es/a-quienes-ayudamos/personas-mayores",
+        "label": "Recursos de vivienda para personas mayores",
+        "note": "Programas de vivienda para mayores y cómo solicitar."
+      },
+      {
+        "href": "/es/a-quienes-ayudamos/discapacidades",
+        "label": "Recursos de vivienda para personas con discapacidad",
+        "note": "Vivienda accesible, ajustes razonables y programas para personas con discapacidad."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://fcagwy.gov/wrta/",
+        "label": "Asociación de Gobiernos del Condado de Fremont: Wind River Transportation Authority (en inglés)"
+      },
+      {
+        "url": "https://dot.state.wy.us/news/riverton-senior-citizens-center-wrta-and-wydot-to-consolidate-transit",
+        "label": "WYDOT: el centro para mayores de Riverton, WRTA y WYDOT unen el transporte (en inglés)"
+      },
+      {
+        "url": "https://health.wyo.gov/wp-content/uploads/2022/03/WY_Medicaid_Member_Travel_Assistance_Guide-1.pdf",
+        "label": "Departamento de Salud de Wyoming: guía de asistencia para viajes de Medicaid (en inglés)"
+      },
+      {
+        "url": "https://health.wyo.gov/aging/communityliving/public_resources/",
+        "label": "Departamento de Salud de Wyoming, División de Envejecimiento: proveedores de servicios para mayores (en inglés)"
+      }
+    ]
+  }
+}

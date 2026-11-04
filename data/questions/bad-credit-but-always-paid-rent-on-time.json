@@ -1,0 +1,103 @@
+{
+  "slug": "bad-credit-but-always-paid-rent-on-time",
+  "es_slug": "mal-credito-pero-siempre-pague-la-renta",
+  "topic": "finding",
+  "order": 20,
+  "related": [
+    "find-landlords-who-accept-section-8",
+    "landlord-wont-sign-good-standing-letter",
+    "old-eviction-and-balance-owed"
+  ],
+  "en": {
+    "question": "What if I have bad credit, but I've paid my rent and utilities on time for years while on Section 8?",
+    "title": "Bad Credit but Always Paid Rent on Time?",
+    "description": "Bad credit but years of on-time rent on Section 8? Who checks credit, how to prove your payment record, and your rights if a report gets you turned down.",
+    "h1": "Can I rent with bad credit if I've always paid my rent on time?",
+    "crumb": "Bad credit, good rent record",
+    "asked": "September 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Often, yes. Your housing authority usually isn't the one checking your credit, but private landlords may. Years of on-time rent and utility payments are strong proof that you pay, so gather that record and ask the landlord to weigh it alongside your credit score.",
+    "body_html": "<h2>Who looks at your credit</h2>\n<p>With a Section 8 voucher, the <strong>landlord</strong>, not the housing authority, is in charge of screening tenants. Federal rules say so directly (24 CFR 982.307(a)). The same rule lists what a landlord may consider, and the first item is your history of paying rent and utility bills. That is exactly where you are strong.</p>\n<p>Many landlords run a credit check anyway. A low score doesn't have to end it. Plenty of landlords care more about rent history than old medical bills or credit cards. And with a voucher, the housing authority pays most of the rent straight to the landlord, which lowers their risk.</p>\n<p>A few places go further. In California, for example, a landlord that checks credit for someone with a rent subsidy must let you show other proof that you can pay your share, like bank statements or benefit letters, and must reasonably consider it (Cal. Gov. Code 12955(o)). Rules vary, so check your <a href=\"/resources/states/\">state page</a> or ask legal aid whether your state has something similar.</p>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Get your rent record.</strong> Ask your landlord for a rent ledger, or print your payment history from the online portal. Ask your housing authority for a letter saying how long you've been in the program and that you're in good standing.</li>\n<li><strong>Get your utility record.</strong> Utility companies can usually print a payment history or a letter of good standing.</li>\n<li><strong>Check your credit reports for free</strong> at AnnualCreditReport.com, from all three bureaus. Dispute anything that's wrong.</li>\n<li><strong>Write a short note</strong> explaining what hurt your credit and what has changed. A few sentences is enough.</li>\n<li><strong>Ask about rent reporting.</strong> Some landlords and rent payment apps report on-time rent to the credit bureaus, which can help your score over time. Watch for fees.</li>\n<li><strong>Offer something extra if you can:</strong> a reference from your current landlord, a co-signer, or a somewhat larger deposit if your housing authority allows it.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>\"My credit score doesn't show how I pay rent. I've paid my share of the rent and my utilities on time for [number] years, and I've attached my rent ledger and a letter from my housing authority. Please consider this record with my application.\"</p></blockquote>\n<h2>If they still say no</h2>\n<p>If a landlord turns you down, asks for a co-signer, or charges a bigger deposit because of a credit or tenant screening report, federal law says they must tell you. They have to give you the name and contact information of the company that made the report and tell you about your right to a free copy if you ask within 60 days, and your right to dispute errors. Ask for that notice, get the free report, and fix anything that's wrong. Then keep applying. Smaller landlords and tax credit apartments are often more flexible.</p>",
+    "links": [
+      {
+        "href": "/resources/credit-housing",
+        "label": "Credit & Housing",
+        "note": "How credit affects renting and what landlords look for."
+      },
+      {
+        "href": "/resources/guides/rebuilding-credit-for-housing",
+        "label": "Rebuilding Credit for Housing Applications",
+        "note": "Steps to raise your score before you apply."
+      },
+      {
+        "href": "/resources/guides/renting-with-poor-rental-history",
+        "label": "Renting with Poor Rental History",
+        "note": "How to make your application stronger with references and proof."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.307",
+        "label": "24 CFR 982.307: Tenant screening (eCFR)"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-what-landlords-need-know",
+        "label": "FTC: Using Consumer Reports: What Landlords Need to Know"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/does-late-rent-affect-my-credit-score-en-1815/",
+        "label": "CFPB: Does late rent affect my credit score?"
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12955.&lawCode=GOV",
+        "label": "California Government Code 12955"
+      }
+    ]
+  },
+  "es": {
+    "question": "¿Qué pasa si tengo mal crédito, pero llevo años pagando la renta y los servicios a tiempo con la Sección 8?",
+    "title": "Mal crédito, pero siempre pagó la renta",
+    "description": "¿Mal crédito pero años pagando la renta a tiempo con la Sección 8? Quién revisa el crédito, cómo probar sus pagos y qué hacer si lo rechazan por un reporte.",
+    "h1": "¿Puedo rentar con mal crédito si siempre he pagado la renta a tiempo?",
+    "crumb": "Mal crédito, buen historial",
+    "asked": "septiembre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Muchas veces, sí. Normalmente no es su autoridad de vivienda la que revisa su crédito, pero los propietarios privados sí pueden hacerlo. Años de pagos puntuales de renta y servicios son una prueba fuerte de que usted paga, así que reúna ese historial y pida al propietario que lo tome en cuenta junto con su puntaje.",
+    "body_html": "<h2>Quién revisa su crédito</h2>\n<p>Con un cupón de Sección 8, es el <strong>propietario</strong>, no la autoridad de vivienda, quien se encarga de evaluar a los inquilinos. Las reglas federales lo dicen claramente (24 CFR 982.307(a)). La misma regla enumera lo que el propietario puede tomar en cuenta, y lo primero es su historial de pago de renta y servicios. Justo ahí es donde usted es fuerte.</p>\n<p>Muchos propietarios revisan el crédito de todos modos. Un puntaje bajo no tiene por qué cerrarle la puerta. A muchos les importa más el historial de renta que viejas deudas médicas o de tarjetas. Además, con un cupón, la autoridad de vivienda le paga la mayor parte de la renta directamente al propietario, lo que reduce su riesgo.</p>\n<p>Algunos lugares van más allá. En California, por ejemplo, si un propietario revisa el crédito de alguien con ayuda para la renta, debe permitirle mostrar otras pruebas de que puede pagar su parte, como estados de cuenta o cartas de beneficios, y debe considerarlas de forma razonable (Código de Gobierno de California 12955(o)). Las reglas cambian según el lugar, así que revise la <a href=\"/es/recursos/estados/\">página de su estado</a> o pregunte a la ayuda legal si su estado tiene algo parecido.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Consiga su historial de renta.</strong> Pida al propietario un registro de pagos (rent ledger) o imprímalo desde el portal en línea. Pida a su autoridad de vivienda una carta que diga cuánto tiempo lleva en el programa y que está al corriente.</li>\n<li><strong>Consiga su historial de servicios.</strong> Las compañías de luz, gas o agua normalmente pueden imprimir su historial de pagos o una carta de buen historial.</li>\n<li><strong>Revise gratis sus reportes de crédito</strong> en AnnualCreditReport.com, de las tres agencias. Dispute cualquier error.</li>\n<li><strong>Escriba una nota breve</strong> que explique qué afectó su crédito y qué ha cambiado. Unas pocas frases bastan.</li>\n<li><strong>Pregunte por el reporte de renta.</strong> Algunos propietarios y aplicaciones de pago reportan la renta puntual a las agencias de crédito, lo que con el tiempo puede subir su puntaje. Fíjese en los cargos.</li>\n<li><strong>Ofrezca algo más si puede:</strong> una referencia de su propietario actual, un codeudor o un depósito un poco mayor, si su autoridad de vivienda lo permite.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>\"Mi puntaje de crédito no muestra cómo pago la renta. He pagado mi parte de la renta y mis servicios a tiempo durante [número] años, y adjunto mi registro de pagos y una carta de mi autoridad de vivienda. Le pido que tome en cuenta este historial junto con mi solicitud.\"</p></blockquote>\n<h2>Si aun así le dicen que no</h2>\n<p>Si un propietario lo rechaza, le pide un codeudor o le cobra un depósito mayor por un reporte de crédito o de evaluación de inquilinos, la ley federal lo obliga a avisarle. Debe darle el nombre y los datos de la compañía que hizo el reporte e informarle de su derecho a una copia gratis si la pide dentro de 60 días, y de su derecho a disputar errores. Pida ese aviso, consiga el reporte gratis y corrija lo que esté mal. Luego siga solicitando. Los propietarios pequeños y los apartamentos de crédito fiscal suelen ser más flexibles.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/credito-vivienda",
+        "label": "Crédito y vivienda",
+        "note": "Cómo afecta el crédito al rentar y qué revisan los propietarios."
+      },
+      {
+        "href": "/es/recursos/guias/reconstruir-credito-para-vivienda",
+        "label": "Cómo reconstruir su crédito para solicitar vivienda",
+        "note": "Pasos para subir su puntaje antes de solicitar."
+      },
+      {
+        "href": "/es/recursos/guias/alquilar-con-mal-historial",
+        "label": "Cómo alquilar con mal historial",
+        "note": "Cómo fortalecer su solicitud con referencias y pruebas."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.307",
+        "label": "24 CFR 982.307: evaluación de inquilinos (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/using-consumer-reports-what-landlords-need-know",
+        "label": "FTC: lo que los propietarios deben saber sobre los reportes de consumidores (en inglés)"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/does-late-rent-affect-my-credit-score-en-1815/",
+        "label": "CFPB: ¿la renta atrasada afecta mi puntaje de crédito? (en inglés)"
+      },
+      {
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12955.&lawCode=GOV",
+        "label": "Código de Gobierno de California 12955 (en inglés)"
+      }
+    ]
+  }
+}

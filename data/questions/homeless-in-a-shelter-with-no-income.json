@@ -1,0 +1,102 @@
+{
+  "slug": "homeless-in-a-shelter-with-no-income",
+  "es_slug": "sin-hogar-en-refugio-sin-ingresos",
+  "topic": "crisis",
+  "order": 20,
+  "related": [
+    "place-to-stay-while-waiting-for-section-8",
+    "help-with-first-and-last-months-rent"
+  ],
+  "en": {
+    "question": "I'm a parent with a young child, and we're staying in a shelter. I have no income, just a little savings. The shelter is only temporary, and I need a real home for us. What can I do?",
+    "title": "Homeless With No Income: How to Get Housing",
+    "description": "In a shelter with a child and no income? No income doesn't disqualify you. How coordinated entry, homeless preferences and benefits can help you get housed.",
+    "h1": "How can a parent in a shelter with no income get a home?",
+    "crumb": "Shelter, no income",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Having no income does not disqualify you from Section 8 or public housing. Ask your shelter's case manager to connect you to coordinated entry for rapid rehousing, apply to every housing authority with an open list and tell them you're homeless, and apply for benefits that can bring in some income.",
+    "body_html": "<h2>What the rules say</h2>\n<ul>\n<li><strong>No income is not a barrier.</strong> Section 8 and public housing have income limits, not income minimums. With no income, you'd usually pay the housing authority's minimum rent, which it sets anywhere from $0 to $50 a month. If you can't pay even that, you can ask for a hardship exemption (24 CFR 5.630). A small amount of savings won't keep you out.</li>\n<li><strong>Homeless families can move up the list.</strong> Housing authorities may set local preferences (24 CFR 982.207), and many give one to people who are homeless. Ask each one if it does.</li>\n<li><strong>Coordinated entry is the front door.</strong> Every area that gets HUD homeless funding must run a coordinated assessment system (24 CFR 578.7(a)(8)). It decides who gets rapid rehousing, transitional housing and supportive housing.</li>\n</ul>\n<h2>What to do now</h2>\n<ol>\n<li><strong>Talk to your shelter case manager.</strong> Ask: \"Have I been assessed through coordinated entry? What housing am I matched to, and what's my next step?\" Ask about rapid rehousing, which can pay a deposit and part of the rent for a while.</li>\n<li><strong>Apply for Section 8 and public housing</strong> at every housing authority near you with an open list. On each application, say you're homeless and living in a shelter. Ask the shelter for a letter that proves it.</li>\n<li><strong>Apply for benefits now:</strong> SNAP for food, WIC for children under 5, Medicaid, and TANF cash assistance. TANF can give you some income and may help with child care so you can work or train.</li>\n<li><strong>Ask about Early Head Start.</strong> Children who are homeless qualify for Head Start and Early Head Start (45 CFR 1302.12(c)). It gives your child care and learning while you look for work and housing.</li>\n<li><strong>Protect your savings.</strong> Keep them for a deposit, an application fee or moving costs when you find a place.</li>\n<li><strong>Keep your papers together:</strong> photo IDs, Social Security cards, birth certificates and the shelter letter. Housing applications move faster when you have them ready.</li>\n</ol>\n<h2>What to say</h2>\n<blockquote><p>\"I'm a parent living in a shelter with my child, and I have no income right now. I'd like to apply for housing. Do you have a preference for families who are homeless, and what documents do you need from me?\"</p></blockquote>\n<h2>If the lists are closed</h2>\n<p>Ask your case manager about every program in your area, not just Section 8: rapid rehousing, transitional housing for families, and family shelters that allow longer stays. Check for open lists often, since some open for only a few days. Ask to be told when your coordinated entry status changes, and keep your phone number current with every program.</p>",
+    "links": [
+      {
+        "href": "/resources/emergency-housing",
+        "label": "Emergency & Crisis Housing Resources",
+        "note": "Coordinated entry, rapid rehousing and family shelters explained."
+      },
+      {
+        "href": "/resources/families",
+        "label": "Housing Resources for Families with Children",
+        "note": "Programs and rights for parents looking for housing."
+      },
+      {
+        "href": "/resources/guides/section-8-waiting-list-preferences",
+        "label": "Section 8 Waiting List Preferences",
+        "note": "How homeless and other preferences move you up a list."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.630",
+        "label": "24 CFR 5.630: Minimum rent and hardship exemption (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: Waiting list local preferences (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: Continuum of Care responsibilities, coordinated assessment (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-45/section-1302.12",
+        "label": "45 CFR 1302.12: Head Start eligibility (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Tengo un hijo pequeño y estamos viviendo en un refugio. No tengo ingresos, solo unos pocos ahorros. El refugio es temporal y necesito un hogar de verdad para nosotros. ¿Qué puedo hacer?",
+    "title": "Sin hogar y sin ingresos: cómo tener vivienda",
+    "description": "¿Vive en un refugio con su hijo y sin ingresos? No tener ingresos no lo descalifica. Cómo le ayudan la entrada coordinada, las preferencias y los beneficios.",
+    "h1": "¿Cómo consigo un hogar si vivo en un refugio con mi hijo y no tengo ingresos?",
+    "crumb": "Refugio, sin ingresos",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "No tener ingresos no lo descalifica para la Sección 8 ni para la vivienda pública. Pida al administrador de casos del refugio que lo conecte con la entrada coordinada para realojamiento rápido, solicite en cada autoridad de vivienda con lista abierta diciendo que está sin hogar, y solicite beneficios que le den algún ingreso.",
+    "body_html": "<h2>Lo que dicen las reglas</h2>\n<ul>\n<li><strong>No tener ingresos no es un obstáculo.</strong> La Sección 8 y la vivienda pública tienen límites máximos de ingresos, no mínimos. Sin ingresos, por lo general pagaría la renta mínima de la autoridad de vivienda, que ella fija entre $0 y $50 al mes. Si no puede pagar ni eso, puede pedir una exención por dificultad económica (24 CFR 5.630). Tener unos pocos ahorros no lo deja fuera.</li>\n<li><strong>Las familias sin hogar pueden avanzar en la lista.</strong> Las autoridades de vivienda pueden fijar preferencias locales (24 CFR 982.207), y muchas dan una a personas sin hogar. Pregunte en cada una.</li>\n<li><strong>La entrada coordinada es la puerta principal.</strong> Cada zona que recibe fondos de HUD para personas sin hogar debe tener un sistema de evaluación coordinada (24 CFR 578.7(a)(8)). Ese sistema decide quién recibe realojamiento rápido, vivienda de transición y vivienda con apoyo.</li>\n</ul>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li><strong>Hable con el administrador de casos del refugio.</strong> Pregunte: \"¿Ya me evaluaron en la entrada coordinada? ¿A qué vivienda me asignaron y cuál es el siguiente paso?\" Pregunte por el realojamiento rápido, que puede pagar el depósito y parte de la renta por un tiempo.</li>\n<li><strong>Solicite la Sección 8 y la vivienda pública</strong> en cada autoridad de vivienda cercana con lista abierta. En cada solicitud, diga que está sin hogar y vive en un refugio. Pida al refugio una carta que lo compruebe.</li>\n<li><strong>Solicite beneficios ya:</strong> SNAP para comida, WIC para niños menores de 5 años, Medicaid y la asistencia en efectivo TANF. TANF le puede dar algún ingreso y quizás ayuda con el cuidado de niños para que pueda trabajar o estudiar.</li>\n<li><strong>Pregunte por Early Head Start.</strong> Los niños sin hogar califican para Head Start y Early Head Start (45 CFR 1302.12(c)). Su hijo recibe cuidado y aprendizaje mientras usted busca trabajo y vivienda.</li>\n<li><strong>Proteja sus ahorros.</strong> Guárdelos para el depósito, una cuota de solicitud o la mudanza cuando encuentre un lugar.</li>\n<li><strong>Tenga sus papeles juntos:</strong> identificaciones con foto, tarjetas de Seguro Social, actas de nacimiento y la carta del refugio. Las solicitudes avanzan más rápido si los tiene listos.</li>\n</ol>\n<h2>Qué decir</h2>\n<blockquote><p>\"Vivo en un refugio con mi hijo y ahora no tengo ingresos. Quiero solicitar vivienda. ¿Tienen una preferencia para familias sin hogar y qué documentos necesitan de mí?\"</p></blockquote>\n<h2>Si las listas están cerradas</h2>\n<p>Pregunte a su administrador de casos por todos los programas de su zona, no solo la Sección 8: realojamiento rápido, vivienda de transición para familias y refugios familiares que permiten estancias más largas. Revise seguido si hay listas abiertas, porque algunas abren solo unos días. Pida que le avisen cuando cambie su situación en la entrada coordinada y mantenga su teléfono al día con cada programa.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/vivienda-de-emergencia",
+        "label": "Vivienda de emergencia y crisis",
+        "note": "Entrada coordinada, realojamiento rápido y refugios familiares."
+      },
+      {
+        "href": "/es/recursos/familias",
+        "label": "Recursos de vivienda para familias con hijos",
+        "note": "Programas y derechos para padres que buscan vivienda."
+      },
+      {
+        "href": "/es/recursos/guias/preferencias-lista-espera-seccion-8",
+        "label": "Preferencias en la lista de espera de la Sección 8",
+        "note": "Cómo las preferencias por estar sin hogar y otras lo adelantan en la lista."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.630",
+        "label": "24 CFR 5.630: renta mínima y exención por dificultad económica (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.207",
+        "label": "24 CFR 982.207: preferencias locales en la lista de espera (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-578.7",
+        "label": "24 CFR 578.7: responsabilidades del Continuum of Care, evaluación coordinada (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-45/section-1302.12",
+        "label": "45 CFR 1302.12: requisitos de Head Start (eCFR, en inglés)"
+      }
+    ]
+  }
+}

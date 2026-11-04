@@ -1,0 +1,102 @@
+{
+  "slug": "old-eviction-and-balance-owed",
+  "es_slug": "desalojo-antiguo-y-deuda-pendiente",
+  "topic": "lockouts",
+  "order": 10,
+  "related": [
+    "bad-credit-but-always-paid-rent-on-time",
+    "landlord-wont-sign-good-standing-letter"
+  ],
+  "en": {
+    "question": "I have an eviction on my record from a few years ago. I lost my job and moved out on my own, and I just found out the old landlord says I owe thousands of dollars. Is there any help for this?",
+    "title": "Old Eviction and a Balance You Still Owe?",
+    "description": "An old eviction and a surprise balance: check the court record, dispute a collector within 30 days, learn your state's time limit and ask about sealing.",
+    "h1": "What can I do about an old eviction and a balance the landlord says I owe?",
+    "crumb": "Old eviction, old debt",
+    "asked": "October 2026",
+    "updated": "November 4, 2026",
+    "short_answer": "Yes, there are steps you can take. First find out whether the balance is a court judgment or a collection account. If a debt collector is involved, you can dispute the debt in writing, your state's time limit may apply, and some states let you seal old eviction records. Free legal aid can help with all of it.",
+    "body_html": "<h2>First, find out what you're dealing with</h2>\n<ul>\n<li><strong>The court case.</strong> Search your county court's online records, or call the clerk, and see how the case ended: a <strong>money judgment</strong>, a dismissal, or a move-out agreement.</li>\n<li><strong>The balance.</strong> The landlord may have sent it to a debt collector, and it may show on your credit report or a tenant screening report. Get your free credit reports at AnnualCreditReport.com and look for it. Ask for an itemized list of charges, including what came out of your security deposit.</li>\n</ul>\n<h2>If a debt collector contacts you</h2>\n<p>Under the Fair Debt Collection Practices Act, a collector must send you a notice about the debt. If you dispute it <strong>in writing within 30 days</strong> of receiving that notice, the collector must stop collecting until it mails you verification of the debt (15 U.S.C. 1692g(b)). <strong>After the 30 days pass,</strong> you can still dispute, but the collector doesn't have to pause, so act fast. These rules cover collection agencies; a landlord collecting its own debt usually isn't covered.</p>\n<h2>Time limits</h2>\n<p>Every state has a <strong>statute of limitations</strong>, a deadline to sue over a debt. It's often three to six years but varies by state and type of debt. A collector can't sue or threaten to sue on a debt past that deadline (12 CFR 1006.26(b)). But in some states, <strong>a payment or admitting you owe it can restart the clock</strong>. Talk to legal aid before you pay anything on an old debt. If the court already entered a judgment, different, usually longer, limits apply.</p>\n<p>Reports have limits too. Most negative items, including old lawsuits, judgments and collection accounts, can generally be reported for seven years; a judgment can stay longer if your state's time limit is longer (15 U.S.C. 1681c(a)). A record from a few years ago may still show for a while, so plan to explain it.</p>\n<h2>Sealing</h2>\n<p>Some states let courts seal or hide eviction records, especially cases that were dismissed, settled or are old. Others don't. Ask legal aid what your state allows.</p>\n<h2>What to do now</h2>\n<ol>\n<li>Pull the court record and your credit reports.</li>\n<li>If a collector wrote to you in the last 30 days, mail a written dispute now and keep a copy.</li>\n<li>Call <a href=\"/resources/guides/free-legal-help-for-tenants\">free legal aid</a> about the time limit and sealing before you pay.</li>\n<li>If you settle, get the deal in writing first, then a letter saying the debt is paid or settled.</li>\n<li>On applications, explain briefly: you lost your job, moved out on your own, and have rented responsibly since.</li>\n</ol>\n<h2>What to write to a collector</h2>\n<blockquote><p>\"I dispute this debt. Please send verification of the amount, an itemized list of charges, and the name and address of the original creditor. Please stop collection until you do.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/blog/posts/renting-with-eviction-record",
+        "label": "Renting With an Eviction on Your Record",
+        "note": "How to rent again, including sealing and how to explain an eviction."
+      },
+      {
+        "href": "/resources/guides/getting-out-of-debt",
+        "label": "Getting Out of Debt",
+        "note": "How to deal with collectors and old debts."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find a free lawyer for sealing or debt questions."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapV-sec1692g.htm",
+        "label": "15 U.S.C. 1692g: Validation of debts (GovInfo)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-12/section-1006.26",
+        "label": "12 CFR 1006.26: Collection of time-barred debts (eCFR)"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-statute-of-limitations-on-a-debt-en-1389/",
+        "label": "CFPB: What is a statute of limitations on a debt?"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+        "label": "15 U.S.C. 1681c: Information excluded from consumer reports (GovInfo)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Tengo un desalojo en mi historial de hace unos años. Perdí mi trabajo y me fui por mi cuenta, y acabo de enterarme de que el antiguo propietario dice que le debo miles de dólares. ¿Hay alguna ayuda para esto?",
+    "title": "Desalojo antiguo y una deuda pendiente",
+    "description": "Un desalojo antiguo y una deuda inesperada: revise el caso, dispute al cobrador dentro de 30 días, conozca el plazo de su estado y pregunte por sellarlo.",
+    "h1": "¿Qué hago con un desalojo antiguo y una deuda que el propietario dice que tengo?",
+    "crumb": "Desalojo y deuda antigua",
+    "asked": "octubre de 2026",
+    "updated": "4 de noviembre de 2026",
+    "short_answer": "Sí, hay pasos que puede dar. Primero averigüe si la deuda es una sentencia del tribunal o una cuenta en cobranza. Si hay una agencia de cobranza, puede disputar la deuda por escrito, puede aplicarse el plazo de prescripción de su estado y algunos estados permiten sellar desalojos antiguos. La ayuda legal gratuita puede orientarle en todo esto.",
+    "body_html": "<h2>Primero, averigüe qué tiene</h2>\n<ul>\n<li><strong>El caso en el tribunal.</strong> Busque en los registros en línea del tribunal de su condado, o llame al secretario del tribunal, y vea cómo terminó: con una <strong>sentencia por dinero</strong>, con el caso desestimado o con un acuerdo de salida.</li>\n<li><strong>La deuda.</strong> El propietario pudo haberla enviado a una agencia de cobranza, y puede aparecer en su reporte de crédito o en un reporte de evaluación de inquilinos. Consiga sus reportes gratis en AnnualCreditReport.com y búsquela. Pida una lista detallada de los cargos, incluido lo que se descontó de su depósito.</li>\n</ul>\n<h2>Si una agencia de cobranza lo contacta</h2>\n<p>Según la Ley de Prácticas Justas de Cobro de Deudas (FDCPA), el cobrador debe enviarle un aviso sobre la deuda. Si usted la disputa <strong>por escrito dentro de 30 días</strong> después de recibir ese aviso, el cobrador debe dejar de cobrar hasta enviarle una verificación de la deuda (15 U.S.C. 1692g(b)). <strong>Después de esos 30 días</strong> todavía puede disputarla, pero el cobrador no tiene que detenerse, así que actúe rápido. Estas reglas cubren a las agencias de cobranza; normalmente no cubren al propietario que cobra su propia deuda.</p>\n<h2>Plazos</h2>\n<p>Cada estado tiene un <strong>plazo de prescripción</strong>, un límite de tiempo para demandar por una deuda. Suele ser de tres a seis años, pero cambia según el estado y el tipo de deuda. Un cobrador no puede demandar ni amenazar con demandar por una deuda que ya pasó ese plazo (12 CFR 1006.26(b)). Pero en algunos estados, <strong>hacer un pago o reconocer la deuda puede reiniciar el plazo</strong>. Hable con la ayuda legal antes de pagar algo de una deuda antigua. Si el tribunal ya dictó una sentencia, se aplican otros plazos, por lo general más largos.</p>\n<p>Los reportes también tienen límites. La mayoría de los datos negativos, incluidas demandas, sentencias y cuentas en cobranza antiguas, por lo general se pueden reportar durante siete años; una sentencia puede quedar más tiempo si el plazo de su estado es más largo (15 U.S.C. 1681c(a)). Un caso de hace unos años todavía puede aparecer por un tiempo, así que prepárese para explicarlo.</p>\n<h2>Sellar el caso</h2>\n<p>Algunos estados permiten que el tribunal selle u oculte los casos de desalojo, sobre todo si fueron desestimados, se resolvieron con un acuerdo o son antiguos. Otros no. Pregunte a la ayuda legal qué permite su estado.</p>\n<h2>Qué hacer ahora</h2>\n<ol>\n<li>Consiga el expediente del tribunal y sus reportes de crédito.</li>\n<li>Si un cobrador le escribió en los últimos 30 días, envíe hoy una disputa por escrito y guarde una copia.</li>\n<li>Llame a la <a href=\"/es/recursos/guias/ayuda-legal-gratuita-inquilinos\">ayuda legal gratuita</a> sobre el plazo y la posibilidad de sellar el caso antes de pagar.</li>\n<li>Si llega a un acuerdo, consígalo por escrito primero y luego una carta que diga que la deuda está pagada o saldada.</li>\n<li>En sus solicitudes, explique en pocas palabras: perdió su trabajo, se fue por su cuenta y desde entonces ha rentado con responsabilidad.</li>\n</ol>\n<h2>Qué escribirle al cobrador</h2>\n<blockquote><p>\"Disputo esta deuda. Por favor envíeme la verificación del monto, una lista detallada de los cargos y el nombre y la dirección del acreedor original. Le pido que deje de cobrar hasta que lo haga.\"</p></blockquote>",
+    "links": [
+      {
+        "href": "/es/blog/posts/alquilar-con-historial-de-desalojo",
+        "label": "Cómo alquilar con un desalojo en su historial",
+        "note": "Cómo volver a rentar, incluido sellar el caso y cómo explicarlo."
+      },
+      {
+        "href": "/es/recursos/guias/como-salir-de-deudas",
+        "label": "Cómo salir de deudas",
+        "note": "Cómo tratar con cobradores y deudas antiguas."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratuita para inquilinos",
+        "note": "Cómo encontrar un abogado gratuito para sellar el caso o resolver la deuda."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapV-sec1692g.htm",
+        "label": "15 U.S.C. 1692g: validación de deudas (GovInfo, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-12/section-1006.26",
+        "label": "12 CFR 1006.26: cobro de deudas prescritas (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-statute-of-limitations-on-a-debt-en-1389/",
+        "label": "CFPB: ¿qué es el plazo de prescripción de una deuda? (en inglés)"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapIII-sec1681c.htm",
+        "label": "15 U.S.C. 1681c: información excluida de los reportes de consumidores (GovInfo, en inglés)"
+      }
+    ]
+  }
+}
