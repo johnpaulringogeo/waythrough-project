@@ -299,6 +299,7 @@ FAQ_LINK_TARGETS = {
     "erap.dhs.dc.gov": "https://erap.dhs.dc.gov",
     "freeevictionhelp.org": "https://freeevictionhelp.org",
     "fwhs.org": "https://fwhs.org",
+    "hano.myhousing.com": "https://hano.myhousing.com",  # fetched live 2026-11-05 (New Orleans set); HANO's applicant portal, says no lists are open
     "habc.org": "https://www.habc.org",
     "hacla.org": "https://www.hacla.org",  # fetched live 2026-10-15 (SEO2); Section 8 page says the list is closed
     "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
@@ -322,9 +323,11 @@ FAQ_LINK_TARGETS = {
     "keeppeoplehoused.org": "https://keeppeoplehoused.org",  # fetched live 2026-11-05 (Bay Area guides); BACS Keep People Housed portal, City of Oakland application
     "kshousingcorp.org": "https://kshousingcorp.org",
     "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
+    "lafairhousing.org": "https://lafairhousing.org",  # fetched live 2026-11-05 (New Orleans set); Louisiana Fair Housing Action Center, eviction defense in Orleans Parish
     "las.org": "https://las.org",
     "law.lis.virginia.gov": "https://law.lis.virginia.gov",
     "lawmo.org": "https://lawmo.org",
+    "legalaccessforall.org": "https://www.legalaccessforall.org",  # fetched live 2026-11-05 (Orlando set); Community Legal Services (clsmf.org now redirects here)
     "legalaiddc.org": "https://www.legalaiddc.org",
     "legalhelpmd.org": "https://legalhelpmd.org",  # fetched live 2026-11-03 (Baltimore guide); Maryland Access to Counsel in Evictions intake site
     "longbeach.gov/haclb/apply": "https://longbeach.gov/haclb/apply",
@@ -342,6 +345,7 @@ FAQ_LINK_TARGETS = {
     "nashville-mdha.org": "https://www.nashville-mdha.org",
     "needlink.org": "https://needlink.org",  # NeedLink Nashville's current site (needlinknashville.org is dead); fetched live 2026-09-11 (NASH)
     "oakha.org": "https://www.oakha.org",
+    "oha.myhousing.com": "https://oha.myhousing.com",  # fetched live 2026-11-05 (Orlando set); Orlando Housing Authority's MyHousing portal
     "ohauthority.org": "https://ohauthority.org",
     "phxhousing.myhousing.com": "https://phxhousing.myhousing.com",
     "planninghcd.cityofomaha.org/for-renters": "https://planninghcd.cityofomaha.org/for-renters",  # bot-blocked to scripts, live for people
@@ -360,6 +364,7 @@ FAQ_LINK_TARGETS = {
     "shelbycountycsa.org": "https://shelbycountycsa.org",
     "shra.org": "https://www.shra.org",
     "slha.org": "https://www.slha.org",
+    "slls.org": "https://slls.org",  # fetched live 2026-11-05 (New Orleans set); Southeast Louisiana Legal Services
     "snvrha.org": "https://www.snvrha.org",
     "stayhousedla.org": "https://www.stayhousedla.org",
     "stlouis-mo.gov/government/departments/human-services/help-stl/request-help-stl.cfm": "https://www.stlouis-mo.gov/government/departments/human-services/help-stl/request-help-stl.cfm",  # fetched live 2026-09-21 (W-2/3 + X2)

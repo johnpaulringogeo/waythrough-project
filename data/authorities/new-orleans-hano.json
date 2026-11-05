@@ -1,0 +1,205 @@
+{
+  "slug": "new-orleans-hano",
+  "kind": "authority",
+  "name": "Housing Authority of New Orleans (HANO)",
+  "schema_name": "Housing Authority of New Orleans",
+  "short_name": "HANO",
+  "title_name": "HANO New Orleans",
+  "meta_description": "Housing Authority of New Orleans (HANO): Section 8 list closed with no reopen date, no public housing lists open. Phone (504) 670-3300. Checked Nov 5, 2026.",
+  "status_check_html": "If you are already on HANO's voucher list, log in to your My Housing account at <a href=\"https://hano.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">hano.myhousing.com</a> to update your contact information or household; HANO says \"If you do not update your information, you may lose your place on the waiting list.\" For a public housing list, HANO says to call or visit the leasing office of the community where you applied.",
+  "city": "New Orleans",
+  "state": "LA",
+  "serves": "New Orleans (Orleans Parish)",
+  "phone": "(504) 670-3300",
+  "official_url": "https://www.hano.org/",
+  "apply_url": "https://hano.myhousing.com/",
+  "city_slug": "new-orleans",
+  "state_slug": "louisiana",
+  "updated": "November 5, 2026",
+  "intro": "The Housing Authority of New Orleans (HANO) is the public housing agency for the city of New Orleans. HUD lists it as PHA LA001 with a program type of Combined, so it runs both Housing Choice Vouchers and public housing. HANO's main phone is (504) 670-3300 (TTY (504) 670-3377), and its website lists an administrative office at 1555 Poydras St., Suite 1800, and a Client Services Center at 10001 Lake Forest Blvd., open Monday to Friday, 8 a.m. to 5 p.m. HANO says it serves \"more than 17,000 families\" with vouchers. The short version, checked November 5, 2026: HANO's voucher list is closed with \"no future reopen date,\" and its applicant portal says \"There are currently no waiting lists open.\" This page covers HANO's exact words, how its lists work, the minimum rent and hardship rules, and the other housing authorities around New Orleans.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): HANO says it serves \"more than 17,000 families\"; its draft plan for the fiscal year starting October 1, 2026 counts 18,305 vouchers",
+    "Public housing at 13 sites listed on HANO's website, including Bienville Basin, Harmony Oaks, Faubourg Lafitte, Marrero Commons, River Garden, Guste Homes and William J. Fischer, most with their own site-based waiting lists",
+    "Project-Based Vouchers: the draft plan says 2,457 units are under contract, with lists run by each property",
+    "Homeownership and Family Self-Sufficiency (FSS) programs for current HANO families",
+    "Special vouchers named in HANO's plans, including Mainstream vouchers for people with disabilities and Emergency Housing Vouchers"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed, no reopening date",
+      "note": "Checked November 5, 2026: HANO's voucher page says \"PLEASE NOTE: The HCVP waiting list is closed\" and \"Currently, the HANO HCV Waiting list is closed and no future reopen date has been determined. Public notice will be given when the list reopens.\" The last opening was in November 2022, when \"over 10,500 applications were received.\" HANO says it has \"a waiting list of approximately 20,000 additional families\" and will \"advertise in the major media outlets\" when it takes new applications."
+    },
+    {
+      "program": "Public Housing (site-based lists)",
+      "status": "No list shown as open",
+      "note": "HANO's My Housing applicant portal says \"No Lists are Open\" and \"There are currently no waiting lists open\" (checked November 5, 2026). HANO's Public Housing page says each list is announced when it opens: \"When a Site-Based Waiting List is opened, it will be announced through public notice, advertisement in local area newspapers, notification to community stakeholders and posted on HANO's web page.\" It also says \"There is no way to predict how long you may have to wait before you are called for a unit.\" Public housing applications line: (504) 670-3446."
+    },
+    {
+      "program": "Project-Based Vouchers (PBV)",
+      "status": "No list shown as open",
+      "note": "HANO's PBV page says \"A family may only apply to be placed on PBV waiting lists if the waiting list is open,\" and the My Housing portal showed no open lists on November 5, 2026. The most recent PBV notice on that page is for St. Bernard Circle Apartments, a lottery list that opened April 14, 2025 and closed April 15, 2025, so it is not open now."
+    }
+  ],
+  "also_serving": [
+    "<strong>Jefferson Parish</strong>: the Housing Authority of Jefferson Parish (HUD code LA013) says it \"is no longer handling Section 8/HCVP vouchers\" and sends voucher questions to Jefferson Parish's housing department (JPHSDD) at 504.342.4475, 121 Pailet Drive, Harvey (checked November 5, 2026). JPHSDD's online pre-application portal listed no open lists that day.",
+    "<strong>Housing Authority of the City of Kenner</strong> (HUD code LA012, (504) 467-9166): its site says \"The HCV and PBV Waiting List are closed\" (checked November 5, 2026).",
+    "<strong>Housing Authority of the City of Slidell</strong> (HUD code LA103, (985) 726-9000): its voucher page says \"Currently the waiting list is closed until further notice\" (checked November 5, 2026).",
+    "<strong>St. Bernard Parish Government</strong> (HUD code LA187) runs vouchers for St. Bernard Parish. Its last posted opening ran from September 1 to September 7, 2022, with 500 applicants picked at random; it posts no current status, so call (504) 278-4468.",
+    "<strong>HANO is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-new-orleans\">New Orleans emergency rent help guide</a>: the City's Right to Counsel lawyers through Southeast Louisiana Legal Services and the Louisiana Fair Housing Action Center, VIA LINK 211, utility help and Louisiana's eviction deadlines. If you already have HANO housing or a voucher and lose income, ask HANO about a rent change or a hardship exemption right away at (504) 670-3300."
+  ],
+  "faqs": [
+    {
+      "q": "Is the New Orleans Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, HANO's voucher page says \"The HCVP waiting list is closed\" and that \"no future reopen date has been determined.\" HANO last took applications in November 2022 and says it will give public notice and advertise in major media when the list reopens. Its applicant portal at hano.myhousing.com says \"There are currently no waiting lists open,\" which covers public housing and project-based lists too."
+    },
+    {
+      "q": "How do I apply for public housing in New Orleans?",
+      "a": "Only when a site's list is open. HANO says each site-based list is announced by public notice, local newspaper ads and its website when it opens. You can then apply on the My Housing website or at the public housing community, and you can apply at any community with an open list. People with disabilities can call the community to ask for a paper application. HANO's public housing applications line is (504) 670-3446. On November 5, 2026, the portal showed no open lists."
+    },
+    {
+      "q": "How do I update my information on HANO's waiting list?",
+      "a": "For the voucher list, log in to your My Housing account at hano.myhousing.com and update your address, phone and household. HANO says if you do not, you may lose your place, and if it passes your number because it cannot reach you, you will be withdrawn. You can also email changes to info@hano.org with your name, Social Security number, old address and new address. For a public housing list, call or visit the leasing office of the community where you applied."
+    },
+    {
+      "q": "What is HANO's minimum rent, and can I get a hardship exemption?",
+      "a": "HANO's Administrative Plan says \"The minimum rent for this locality is $50.\" Most families pay about 30% of their adjusted monthly income instead, so the minimum only matters when income is very low. The plan says HANO can suspend or exempt a family from the minimum rent when a financial hardship exists, such as losing a job or waiting on a benefits decision. A short-term hardship suspends it for 90 days, and that amount must be paid back. Ask HANO in writing as soon as your income drops."
+    },
+    {
+      "q": "Who gets preference on HANO's voucher list?",
+      "a": "HANO's Administrative Plan lists preferences for referrals through its partnerships with UNITY of Greater New Orleans and the New Orleans Family Justice Center (for people who are homeless, have disabilities or are survivors of domestic violence), for households moving on from supportive housing, for some non-elderly people with disabilities, and for a small number of homebuyer-ready public housing residents each year. These referral preferences do not open the list to the public."
+    },
+    {
+      "q": "I live in Jefferson Parish or Kenner. Where do I apply?",
+      "a": "Not at HANO, which serves New Orleans. In Jefferson Parish, the Housing Authority of Jefferson Parish says it no longer handles Section 8 and sends voucher questions to the parish housing department at 504.342.4475. The Kenner Housing Authority says its voucher and project-based lists are closed. In St. Tammany, the Slidell Housing Authority says its list is closed until further notice. All were checked November 5, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "label": "HANO - Housing Choice Voucher Program (list closed, no reopen date, November 2022 opening, updating contact information)",
+      "url": "https://www.hano.org/housing-choice-voucher-program/"
+    },
+    {
+      "label": "HANO - My Housing applicant portal (no waiting lists open)",
+      "url": "https://hano.myhousing.com/"
+    },
+    {
+      "label": "HANO - Public Housing (site-based lists, how to apply, applications line, communities)",
+      "url": "https://www.hano.org/public-housing/"
+    },
+    {
+      "label": "HANO - Project-Based Voucher Program (apply only when a list is open; St. Bernard Circle notice)",
+      "url": "https://www.hano.org/project-based-voucher-program/"
+    },
+    {
+      "label": "HANO - Contact Us (offices, phone, TTY, hours)",
+      "url": "https://www.hano.org/contact-us/"
+    },
+    {
+      "label": "HANO - Draft PHA Annual Plan, fiscal year beginning October 1, 2026 (voucher and unit counts, PBV contracts)",
+      "url": "https://www.hano.org/wp-content/uploads/LA-001-DRAFT-PHA-Annual-plan-FYB-10-01-26.pdf"
+    },
+    {
+      "label": "HANO - Administrative Plan 2026, draft (preferences, $50 minimum rent, hardship exemptions)",
+      "url": "https://www.hano.org/wp-content/uploads/LA-001-DRAFT-PHA-Annual-plan-FYB-10-01-26-1.pdf"
+    },
+    {
+      "label": "Housing Authority of Jefferson Parish (no longer handling Section 8; refers to JPHSDD)",
+      "url": "http://www.hajp.org/"
+    },
+    {
+      "label": "Housing Authority of the City of Kenner (HCV and PBV lists closed)",
+      "url": "http://www.kennerha.com/"
+    },
+    {
+      "label": "Housing Authority of the City of Slidell - HCVP (list closed)",
+      "url": "https://www.slidellhousingauthority.org/hcvp.aspx"
+    },
+    {
+      "label": "St. Bernard Parish Government - Housing and Redevelopment",
+      "url": "https://www.sbpg.net/167/Housing-Redevelopment"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Louisiana (LA001 Combined; LA012; LA013; LA103; LA187)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_LA.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "Autoridad de Vivienda de Nueva Orleans (HANO): Sección 8 cerrada sin fecha de reapertura, ninguna lista abierta. Tel. (504) 670-3300. Verificado nov. 2026.",
+    "status_check_html": "Si ya está en la lista de vales de HANO, entre a su cuenta de My Housing en <a href=\"https://hano.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">hano.myhousing.com</a> para actualizar su información de contacto o su hogar; HANO dice \"If you do not update your information, you may lose your place on the waiting list\" (si no actualiza su información, puede perder su lugar en la lista). Para una lista de vivienda pública, HANO dice que llame o visite la oficina de alquiler de la comunidad donde presentó su solicitud.",
+    "serves": "Nueva Orleans (Parroquia de Orleans)",
+    "updated": "5 de noviembre de 2026",
+    "intro": "La Housing Authority of New Orleans (HANO, Autoridad de Vivienda de Nueva Orleans) es la agencia de vivienda pública de la ciudad de Nueva Orleans. HUD la registra como la PHA LA001 con un tipo de programa Combined, así que maneja tanto los vales Housing Choice Voucher como la vivienda pública. El teléfono principal de HANO es el (504) 670-3300 (TTY (504) 670-3377), y su sitio web indica una oficina administrativa en 1555 Poydras St., Suite 1800, y un Centro de Servicios al Cliente en 10001 Lake Forest Blvd., abiertos de lunes a viernes, de 8 a.m. a 5 p.m. HANO dice que atiende a \"more than 17,000 families\" (más de 17,000 familias) con vales. La versión corta, verificada el 5 de noviembre de 2026: la lista de vales de HANO está cerrada y \"no future reopen date\" (no tiene fecha de reapertura), y su portal de solicitantes dice \"There are currently no waiting lists open\" (no hay listas de espera abiertas por ahora). Esta página cubre las palabras exactas de HANO, cómo funcionan sus listas, las reglas de renta mínima y de dificultad económica, y las otras autoridades de vivienda alrededor de Nueva Orleans.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8): HANO dice que atiende a más de 17,000 familias; su plan preliminar para el año fiscal que empieza el 1 de octubre de 2026 cuenta 18,305 vales",
+      "Vivienda pública en 13 sitios que aparecen en el sitio web de HANO, entre ellos Bienville Basin, Harmony Oaks, Faubourg Lafitte, Marrero Commons, River Garden, Guste Homes y William J. Fischer, casi todos con su propia lista de espera por sitio",
+      "Vales basados en proyectos: el plan preliminar dice que hay 2,457 unidades bajo contrato, con listas que maneja cada propiedad",
+      "Programas de compra de vivienda y de autosuficiencia familiar (FSS) para familias que ya tienen ayuda de HANO",
+      "Vales especiales que aparecen en los planes de HANO, como los vales Mainstream para personas con discapacidad y los Emergency Housing Vouchers"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Cerrada, sin fecha de reapertura",
+        "note": "Verificado el 5 de noviembre de 2026: la página de vales de HANO dice \"PLEASE NOTE: The HCVP waiting list is closed\" (la lista de espera está cerrada) y \"Currently, the HANO HCV Waiting list is closed and no future reopen date has been determined. Public notice will be given when the list reopens\" (la lista está cerrada, no se ha fijado fecha de reapertura y se dará aviso público cuando reabra). La última apertura fue en noviembre de 2022, cuando se recibieron más de 10,500 solicitudes. HANO dice que tiene una lista de espera de unas 20,000 familias más y que anunciará en los principales medios cuando acepte solicitudes nuevas."
+      },
+      {
+        "program": "Vivienda pública (listas por sitio)",
+        "status": "Ninguna lista aparece abierta",
+        "note": "El portal de solicitantes My Housing de HANO dice \"No Lists are Open\" y \"There are currently no waiting lists open\" (no hay listas abiertas por ahora) (verificado el 5 de noviembre de 2026). La página de vivienda pública de HANO dice que cada lista por sitio se anuncia cuando abre, por aviso público, anuncios en periódicos locales, avisos a grupos de la comunidad y en el sitio web de HANO. También dice \"There is no way to predict how long you may have to wait before you are called for a unit\" (no hay forma de predecir cuánto tendrá que esperar). Línea de solicitudes de vivienda pública: (504) 670-3446."
+      },
+      {
+        "program": "Vales basados en proyectos (PBV)",
+        "status": "Ninguna lista aparece abierta",
+        "note": "La página de PBV de HANO dice \"A family may only apply to be placed on PBV waiting lists if the waiting list is open\" (una familia solo puede solicitar si la lista está abierta), y el portal My Housing no mostraba listas abiertas el 5 de noviembre de 2026. El aviso de PBV más reciente en esa página es de St. Bernard Circle Apartments, una lista por sorteo que abrió el 14 de abril de 2025 y cerró el 15 de abril de 2025, así que no está abierta ahora."
+      }
+    ],
+    "also_serving": [
+      "<strong>Parroquia de Jefferson</strong>: la Housing Authority of Jefferson Parish (código de HUD LA013) dice que \"is no longer handling Section 8/HCVP vouchers\" (ya no maneja los vales de Sección 8) y envía las preguntas sobre vales al departamento de vivienda de la parroquia (JPHSDD) al 504.342.4475, 121 Pailet Drive, Harvey (verificado el 5 de noviembre de 2026). El portal de presolicitudes en línea de JPHSDD no mostraba listas abiertas ese día.",
+      "<strong>Housing Authority of the City of Kenner</strong> (código de HUD LA012, (504) 467-9166): su sitio dice \"The HCV and PBV Waiting List are closed\" (las listas de HCV y PBV están cerradas) (verificado el 5 de noviembre de 2026).",
+      "<strong>Housing Authority of the City of Slidell</strong> (código de HUD LA103, (985) 726-9000): su página de vales dice \"Currently the waiting list is closed until further notice\" (la lista está cerrada hasta nuevo aviso) (verificado el 5 de noviembre de 2026).",
+      "<strong>El Gobierno de la Parroquia de St. Bernard</strong> (código de HUD LA187) maneja los vales de esa parroquia. Su última apertura publicada fue del 1 al 7 de septiembre de 2022, con 500 solicitantes escogidos al azar; no publica un estado actual, así que llame al (504) 278-4468.",
+      "<strong>HANO no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-new-orleans\">guía de ayuda de emergencia con la renta en Nueva Orleans</a>: los abogados del programa Right to Counsel de la Ciudad por medio de Southeast Louisiana Legal Services y el Louisiana Fair Housing Action Center, VIA LINK 211, ayuda con los servicios públicos y los plazos de desalojo de Luisiana. Si ya tiene vivienda o un vale de HANO y bajan sus ingresos, pida a HANO de inmediato un cambio de renta o una exención por dificultad económica al (504) 670-3300."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 en Nueva Orleans?",
+        "a": "No. Al 5 de noviembre de 2026, la página de vales de HANO dice que la lista está cerrada (\"The HCVP waiting list is closed\") y que no se ha fijado fecha de reapertura. HANO aceptó solicitudes por última vez en noviembre de 2022 y dice que dará aviso público y anunciará en los principales medios cuando reabra. Su portal de solicitantes en hano.myhousing.com dice que no hay listas de espera abiertas, lo que incluye las listas de vivienda pública y de vales basados en proyectos."
+      },
+      {
+        "q": "¿Cómo solicito vivienda pública en Nueva Orleans?",
+        "a": "Solo cuando la lista de un sitio está abierta. HANO dice que cada lista por sitio se anuncia con aviso público, anuncios en periódicos locales y en su sitio web cuando abre. Entonces puede solicitar en el sitio web de My Housing o en la comunidad de vivienda pública, y puede solicitar en cualquier comunidad con una lista abierta. Las personas con discapacidad pueden llamar a la comunidad para pedir una solicitud en papel. La línea de solicitudes de vivienda pública de HANO es el (504) 670-3446. El 5 de noviembre de 2026, el portal no mostraba listas abiertas."
+      },
+      {
+        "q": "¿Cómo actualizo mi información en la lista de espera de HANO?",
+        "a": "Para la lista de vales, entre a su cuenta de My Housing en hano.myhousing.com y actualice su dirección, teléfono y hogar. HANO dice que si no lo hace, puede perder su lugar, y que si pasa su número porque no lo puede localizar, lo retirará de la lista. También puede enviar los cambios por correo electrónico a info@hano.org con su nombre, número de Seguro Social, dirección anterior y dirección nueva. Para una lista de vivienda pública, llame o visite la oficina de alquiler de la comunidad donde presentó su solicitud."
+      },
+      {
+        "q": "¿Cuál es la renta mínima de HANO y puedo pedir una exención por dificultad económica?",
+        "a": "El Plan Administrativo de HANO dice que la renta mínima en esta localidad es de $50. La mayoría de las familias pagan cerca del 30% de su ingreso mensual ajustado, así que el mínimo solo importa cuando los ingresos son muy bajos. El plan dice que HANO puede suspender o eximir a una familia de la renta mínima cuando hay una dificultad económica, como perder el trabajo o esperar la decisión sobre un beneficio. Una dificultad a corto plazo la suspende por 90 días, y ese monto se tiene que pagar después. Pídalo a HANO por escrito en cuanto bajen sus ingresos."
+      },
+      {
+        "q": "¿Quién tiene preferencia en la lista de vales de HANO?",
+        "a": "El Plan Administrativo de HANO menciona preferencias para personas referidas por sus acuerdos con UNITY of Greater New Orleans y el New Orleans Family Justice Center (personas sin hogar, con discapacidad o sobrevivientes de violencia doméstica), para hogares que salen de vivienda de apoyo, para algunas personas con discapacidad que no son de la tercera edad y para un pequeño número de residentes de vivienda pública listos para comprar casa cada año. Estas preferencias por referido no abren la lista al público."
+      },
+      {
+        "q": "Vivo en la Parroquia de Jefferson o en Kenner. ¿Dónde solicito?",
+        "a": "No en HANO, que sirve a Nueva Orleans. En la Parroquia de Jefferson, la Housing Authority of Jefferson Parish dice que ya no maneja la Sección 8 y envía las preguntas sobre vales al departamento de vivienda de la parroquia al 504.342.4475. La autoridad de vivienda de Kenner dice que sus listas de vales y de vales basados en proyectos están cerradas. En St. Tammany, la autoridad de vivienda de Slidell dice que su lista está cerrada hasta nuevo aviso. Todo se verificó el 5 de noviembre de 2026."
+      }
+    ],
+    "sources": [
+      {"label": "HANO - Housing Choice Voucher Program: lista cerrada, sin fecha de reapertura, apertura de noviembre de 2022, actualizar datos (en inglés)", "url": "https://www.hano.org/housing-choice-voucher-program/"},
+      {"label": "HANO - portal de solicitantes My Housing: no hay listas abiertas (en inglés)", "url": "https://hano.myhousing.com/"},
+      {"label": "HANO - Public Housing: listas por sitio, cómo solicitar, línea de solicitudes, comunidades (en inglés)", "url": "https://www.hano.org/public-housing/"},
+      {"label": "HANO - Project-Based Voucher Program: solo se solicita con la lista abierta; aviso de St. Bernard Circle (en inglés)", "url": "https://www.hano.org/project-based-voucher-program/"},
+      {"label": "HANO - Contact Us: oficinas, teléfono, TTY, horario (en inglés)", "url": "https://www.hano.org/contact-us/"},
+      {"label": "HANO - Plan Anual preliminar de la PHA, año fiscal desde el 1 de octubre de 2026: número de vales y unidades, contratos PBV (en inglés)", "url": "https://www.hano.org/wp-content/uploads/LA-001-DRAFT-PHA-Annual-plan-FYB-10-01-26.pdf"},
+      {"label": "HANO - Plan Administrativo 2026, preliminar: preferencias, renta mínima de $50, exenciones por dificultad (en inglés)", "url": "https://www.hano.org/wp-content/uploads/LA-001-DRAFT-PHA-Annual-plan-FYB-10-01-26-1.pdf"},
+      {"label": "Housing Authority of Jefferson Parish: ya no maneja la Sección 8; remite a JPHSDD (en inglés)", "url": "http://www.hajp.org/"},
+      {"label": "Housing Authority of the City of Kenner: listas de HCV y PBV cerradas (en inglés)", "url": "http://www.kennerha.com/"},
+      {"label": "Housing Authority of the City of Slidell - HCVP: lista cerrada (en inglés)", "url": "https://www.slidellhousingauthority.org/hcvp.aspx"},
+      {"label": "Gobierno de la Parroquia de St. Bernard - Housing and Redevelopment (en inglés)", "url": "https://www.sbpg.net/167/Housing-Redevelopment"},
+      {"label": "HUD - PHA Contact Report, Louisiana: LA001 Combined; LA012; LA013; LA103; LA187 (en inglés)", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_LA.pdf"}
+    ]
+  }
+}

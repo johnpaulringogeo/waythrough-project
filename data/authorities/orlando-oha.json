@@ -1,0 +1,240 @@
+{
+  "slug": "orlando-oha",
+  "kind": "authority",
+  "name": "Orlando Housing Authority (OHA)",
+  "schema_name": "Orlando Housing Authority",
+  "short_name": "OHA",
+  "title_name": "Orlando Housing Authority",
+  "meta_description": "Orlando Housing Authority (OHA) and Orange County Section 8: both voucher lists closed, Sanford PBV lists open. Phone 407.895.3300. Checked Nov 5, 2026.",
+  "status_check_html": "If you are already on an OHA list, check your status in OHA's MyHousing portal at <a href=\"https://oha.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">oha.myhousing.com</a>. OHA says any change of address, phone number, income or family size must be reported within 10 business days and that \"ALL CHANGES MUST BE IN WRITING. No changes will be taken over the phone.\" For portal help, call <a href=\"tel:4078941500\">407-894-1500</a> — if OHA cannot reach you when your name comes up, you can lose your place.",
+  "city": "Orlando",
+  "state": "FL",
+  "serves": "the City of Orlando and Orange County applicants, and (under a management agreement) the Sanford Housing Authority",
+  "phone": "(407) 895-3300",
+  "official_url": "https://www.orlandohousing.org/",
+  "apply_url": "https://oha.myhousing.com/",
+  "city_slug": "orlando",
+  "state_slug": "florida",
+  "updated": "November 5, 2026",
+  "intro": "The Orlando Housing Authority (OHA) is the public housing agency for the City of Orlando. HUD lists it as PHA FL004 at 390 North Bumby Avenue, Orlando, FL 32803. OHA's phone is 407.895.3300 (TDD 407.894.9891), and its office is open Monday to Friday, 8 a.m. to 5 p.m. OHA has been a Moving to Work (MTW) agency since 2011, and its homepage says it is \"Serving the Florida Cities of Orlando & Sanford,\" because it also manages the Sanford Housing Authority. Much of the rest of the metro is served by a different agency: Orange County's Housing and Community Development Division (HUD code FL093) runs its own Section 8 program, which we cover on this page too. The short version, checked November 5, 2026: OHA's public housing and Section 8 lists are closed, and so is Orange County's Section 8 list. The only lists open on OHA's portal are three Sanford Housing Authority project-based voucher lists. This page gives each program's status in the agency's own words, how to apply, the preferences, and the other housing authorities around Orlando.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): OHA says it administers \"approximately 4,600\" vouchers, about 3,900 tenant-based and about 600 project-based",
+    "Public housing: OHA says it \"owns and operates over 1,450 public housing units, located in fourteen (14) housing complexes,\" including the Landings and Villas at Carver Park, Reeves Terrace, Lake Mann, Murchison Terrace, Ivey Lane, Omega, Marden Meadows, Villas at Hampton Park, Johnson Manor, Meadow Lake and Lorna Doone",
+    "Day-to-day management of the Sanford Housing Authority, including its public housing and its project-based voucher properties",
+    "Special-purpose vouchers listed in OHA's MTW Annual Plan: HUD-VASH for veterans, Mainstream vouchers, Emergency Housing Vouchers and Stability Vouchers",
+    "A project-based homeownership program at Carver Park and self-sufficiency services through OHA's MTW Resource Center"
+  ],
+  "waitlists": [
+    {
+      "program": "OHA Section 8 / Housing Choice Voucher",
+      "status": "Closed",
+      "note": "Checked November 5, 2026: OHA's Apply for Housing page says \"OHA Section 8/Housing Choice Voucher (HCV) - CLOSED\" and \"OHA cannot predict when the waiting lists will reopen because it depends upon when current clients leave the programs.\" Its Public Housing FAQ says the voucher list \"closed in June 2021.\" OHA's MTW Annual Plan counts 14,585 households on the voucher list and says there are no plans to open it during the plan year."
+    },
+    {
+      "program": "OHA Public Housing",
+      "status": "Closed",
+      "note": "OHA's Apply for Housing page says \"OHA Public Housing Waiting Lists - CLOSED,\" and its Waiting List Information page says OHA's \"public housing and section 8 program waiting lists are CLOSED\" (checked November 5, 2026). OHA's MTW Annual Plan counts 12,420 households on the community-wide public housing list and 905 on the site-based lists for Carver Park, all closed."
+    },
+    {
+      "program": "Sanford Housing Authority (SHA) Project-Based Vouchers",
+      "status": "Open (no closing date posted)",
+      "note": "OHA's Apply for Housing page says \"SHA Project Based Voucher (PBV) - OPEN.\" On November 5, 2026, OHA's MyHousing portal listed open waiting lists for Somerset Landings, Georgetown Square and Monroe Landings, each with \"Start: 07/20/2026 12:00 AM\" and no end date shown. These are project-based units in Sanford: the help stays with the apartment, not with you. OHA posts no closing date, so these lists can close without notice. Apply at oha.myhousing.com; if the lists no longer appear there, they have closed, and the page will say when another list opens."
+    },
+    {
+      "program": "Sanford Housing Authority Public Housing",
+      "status": "Closed",
+      "note": "OHA's Sanford Housing Authority page says \"The Sanford Housing Authority Public Housing Waiting List is CLOSED\" (checked November 5, 2026). Sanford's office is at 407.323.3150, Monday to Friday, 8:30 a.m. to 5 p.m."
+    },
+    {
+      "program": "Orange County Housing and Community Development Section 8 (a separate agency)",
+      "status": "Not accepting applications",
+      "note": "Orange County's Section 8 page says \"The Housing Choice Voucher Program (Section 8) is not accepting applications at this time\" and \"Current Status: We are not accepting applications at this time\" (checked November 5, 2026). Its last opening ran May 9 to May 11, 2023, online only, and the County picked a final list of 1,000 applicants by random lottery. If you applied then and moved, the County says you must send your change of address in writing. Call (407) 836-5150 or email housing@ocfl.net."
+    }
+  ],
+  "also_serving": [
+    "<strong>Orange County Housing and Community Development Division</strong> (HUD code FL093) runs a separate Section 8 program from 525 East South Street, Orlando, FL 32801, (407) 836-5150, housing@ocfl.net. Its Section 8 page says it is \"not accepting applications at this time\" (checked November 5, 2026). The County's 2026-2027 Action Plan says it served about 1,226 households with rental subsidies in fiscal year 2024-2025, plus 641 vouchers from other places and 55 HUD-VASH veterans. Orange County's Fair Housing ordinance also bans refusing a renter because of a \"lawful source of income,\" which the County defines to include Section 8 and VASH vouchers; the County's tenant-rights notice applies it in unincorporated Orange County.",
+    "<strong>Seminole County Housing Authority</strong> (HUD code FL033): its site says \"At this time our waiting lists for Housing Choice Voucher (HCV) and Public Housing are closed\" and that \"It will be several years before we will be able to reopen the list\" (checked November 5, 2026).",
+    "<strong>Osceola County</strong> (HUD code FL201, Kissimmee, (407) 742-8400): its Section 8 page says \"The Section 8 waiting list is currently closed, Osceola County is not accepting applications at this time\" (checked November 5, 2026).",
+    "<strong>Housing Authority of the City of Winter Park</strong> (HUD code FL082, (407) 645-2869) runs public housing only; its site says \"WPHA does not administer a Section 8 program\" and lists the Meadows and Tranquil Terrace waiting lists as \"CLOSED\" (checked November 5, 2026).",
+    "<strong>OHA is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-orlando\">Orlando emergency rent help guide</a>: Orange County's Crisis Assistance and EPIC programs, Heart of Florida United Way 211, free legal aid and Florida's 3-day and 5-day deadlines. If you already have OHA housing or a voucher and fall behind, call OHA at (407) 895-3300."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Orlando Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, the Orlando Housing Authority's Apply for Housing page says \"OHA Section 8/Housing Choice Voucher (HCV) - CLOSED\" and \"OHA Public Housing Waiting Lists - CLOSED.\" OHA says it cannot predict when they will reopen. Orange County's separate Section 8 program is also \"not accepting applications at this time.\" The only lists open on OHA's portal are three Sanford Housing Authority project-based voucher lists, which opened July 20, 2026 with no closing date posted."
+    },
+    {
+      "q": "What are the open Sanford project-based voucher lists?",
+      "a": "On November 5, 2026, OHA's MyHousing portal at oha.myhousing.com showed open lists for Somerset Landings, Georgetown Square and Monroe Landings, Sanford Housing Authority properties, each starting July 20, 2026. With a project-based voucher, the rent help is tied to that apartment, so you live there to get it. Under standard HUD rules, your share of the rent is about 30% of your adjusted monthly income; ask the property how it figures your rent. No closing date is posted, so apply soon; if the lists are gone from the portal, they have closed."
+    },
+    {
+      "q": "Does the Orlando Housing Authority cover all of Orange County?",
+      "a": "Not by itself. OHA is the City of Orlando's housing authority and also manages Sanford's. Orange County runs its own Section 8 program through its Housing and Community Development Division at (407) 836-5150, and that list is not accepting applications. OHA gives a public housing preference to people who live, work, or have a verified job offer in Orange County. Seminole County, Osceola County and Winter Park have their own housing authorities, and all of their lists were closed on November 5, 2026."
+    },
+    {
+      "q": "Who gets preference on OHA's lists?",
+      "a": "OHA's Public Housing FAQ lists preferences for people with disabilities; people employed full-time for at least six continuous months, at least 28 hours a week; Orange County residents, workers or people with a verified job offer there; honorably discharged veterans; transitional housing graduates; former OHA homeownership participants; and a few others. OHA says wait time depends on your preferences and bedroom size and \"cannot be determined.\" OHA's Administrative Plan and public housing policy have been temporarily removed from its website."
+    },
+    {
+      "q": "How do I check my place on OHA's list or change my address?",
+      "a": "Use OHA's MyHousing portal at oha.myhousing.com. OHA says only people already on its waiting list can register an account, and an inactive pre-application means it was withdrawn. Report any change of address, phone number, income or family size within 10 business days, in writing; OHA says no changes are taken over the phone. For portal help, call 407-894-1500 or email partnerportal@orl-oha.org."
+    },
+    {
+      "q": "Can an Orlando landlord refuse my Section 8 voucher?",
+      "a": "It depends where you live, and it is not settled. Orange County's Fair Housing ordinance (Code section 22-52) bans refusing to rent because of a lawful source of income, including Section 8 and VASH vouchers, and the County's tenant-rights notice applies this in unincorporated Orange County. The City of Orlando's own code has no source-of-income rule. Florida's 2023 preemption law (section 83.425) does not mention source of income, and we found no court ruling on whether it overrides the County's rule. Refusals based on race, disability, family status or another protected trait are illegal everywhere."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Orlando Housing Authority - Apply for Housing (waiting-list status, MyHousing portal, reopening)",
+      "url": "https://www.orlandohousing.org/apply-for-housing"
+    },
+    {
+      "label": "Orlando Housing Authority - Waiting List Information (public housing and Section 8 lists closed)",
+      "url": "https://www.orlandohousing.org/waiting-list-information"
+    },
+    {
+      "label": "OHA MyHousing portal (open Sanford PBV lists, written change rule)",
+      "url": "https://oha.myhousing.com/"
+    },
+    {
+      "label": "Orlando Housing Authority - Public Housing and FAQ (1,450 units, preferences, voucher list closed June 2021)",
+      "url": "https://www.orlandohousing.org/public-housing"
+    },
+    {
+      "label": "Orlando Housing Authority - Housing Choice Voucher (about 4,600 vouchers)",
+      "url": "https://www.orlandohousing.org/housing-choice-voucher"
+    },
+    {
+      "label": "Orlando Housing Authority - Sanford Housing Authority (management agreement, Sanford public housing list closed)",
+      "url": "https://www.orlandohousing.org/sanford-housing-authority"
+    },
+    {
+      "label": "Orlando Housing Authority - MTW Annual Plan (waiting-list counts, special-purpose vouchers)",
+      "url": "https://www.orlandohousing.org/upages.php?id=219"
+    },
+    {
+      "label": "Orlando Housing Authority - Administrative Plan page (policies temporarily removed)",
+      "url": "https://www.orlandohousing.org/administrative-plan"
+    },
+    {
+      "label": "Orange County - Housing Choice Voucher (Section 8) rental assistance (not accepting applications)",
+      "url": "https://www.orangecountyfl.net/NeighborsHousing/RentalAssistance.aspx"
+    },
+    {
+      "label": "Orange County - Section 8 waiting list opening announcement, May 9-11, 2023 (lottery of 1,000)",
+      "url": "https://www.orangecountyfl.net/Portals/0/Library/Neighbors-Housing/docs/WaitingListOpeningAnnouncement-HousingChoiceVoucher(Section8).pdf"
+    },
+    {
+      "label": "Orange County - Notice of Tenant Rights (lawful source of income, unincorporated Orange County)",
+      "url": "https://www.orangecountyfl.net/FamiliesHealthSocialSvcs/NoticeofTenantRights.aspx"
+    },
+    {
+      "label": "Seminole County Housing Authority - Wait List (HCV and public housing closed)",
+      "url": "https://schafla.org/wait-list"
+    },
+    {
+      "label": "Osceola County - Section 8 (waiting list closed)",
+      "url": "https://www.osceola.org/Services/Housing-Programs/Section-8"
+    },
+    {
+      "label": "Winter Park Housing Authority - How to Apply (public housing lists closed)",
+      "url": "https://www.winterparkha.org/how-to-apply"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Florida (FL004, FL093, FL033, FL201, FL082)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "Orlando Housing Authority (OHA) y Sección 8 del Condado de Orange: listas cerradas, listas PBV de Sanford abiertas. Tel. 407.895.3300. Verificado nov. 2026.",
+    "status_check_html": "Si ya está en una lista de OHA, revise su estado en el portal MyHousing de OHA en <a href=\"https://oha.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">oha.myhousing.com</a>. OHA dice que cualquier cambio de dirección, teléfono, ingresos o tamaño de la familia se debe informar dentro de 10 días hábiles y que \"ALL CHANGES MUST BE IN WRITING. No changes will be taken over the phone\" (todos los cambios deben ser por escrito; no se aceptan cambios por teléfono). Para ayuda con el portal, llame al <a href=\"tel:4078941500\">407-894-1500</a> — si OHA no puede localizarle cuando le toque su turno, puede perder su lugar.",
+    "serves": "la Ciudad de Orlando y solicitantes del Condado de Orange, y (por un acuerdo de administración) la Autoridad de Vivienda de Sanford",
+    "updated": "5 de noviembre de 2026",
+    "intro": "La Orlando Housing Authority (OHA, Autoridad de Vivienda de Orlando) es la agencia de vivienda pública de la Ciudad de Orlando. HUD la registra como la PHA FL004, en 390 North Bumby Avenue, Orlando, FL 32803. El teléfono de OHA es 407.895.3300 (TDD 407.894.9891), y su oficina abre de lunes a viernes, de 8 a.m. a 5 p.m. OHA es una agencia Moving to Work (MTW) desde 2011, y su página principal dice que sirve a \"the Florida Cities of Orlando & Sanford\" (las ciudades de Orlando y Sanford), porque también administra la Autoridad de Vivienda de Sanford. Gran parte del resto del área la atiende otra agencia: la División de Vivienda y Desarrollo Comunitario del Condado de Orange (código de HUD FL093) tiene su propio programa de Sección 8, que también cubrimos en esta página. La versión corta, verificada el 5 de noviembre de 2026: las listas de vivienda pública y de Sección 8 de OHA están cerradas, y también la lista de Sección 8 del Condado de Orange. Las únicas listas abiertas en el portal de OHA son tres listas de vales basados en proyectos de la Autoridad de Vivienda de Sanford. Esta página da el estado de cada programa en las palabras de la agencia, cómo solicitar, las preferencias y las otras autoridades de vivienda alrededor de Orlando.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8): OHA dice que administra \"approximately 4,600\" (unos 4,600) vales, unos 3,900 para el inquilino y unos 600 basados en proyectos",
+      "Vivienda pública: OHA dice que es dueña y opera más de 1,450 unidades de vivienda pública en catorce complejos, entre ellos Landings y Villas at Carver Park, Reeves Terrace, Lake Mann, Murchison Terrace, Ivey Lane, Omega, Marden Meadows, Villas at Hampton Park, Johnson Manor, Meadow Lake y Lorna Doone",
+      "La administración diaria de la Autoridad de Vivienda de Sanford, incluida su vivienda pública y sus propiedades con vales basados en proyectos",
+      "Vales para fines especiales que aparecen en el Plan Anual MTW de OHA: HUD-VASH para veteranos, vales Mainstream, Emergency Housing Vouchers y Stability Vouchers",
+      "Un programa de compra de vivienda basado en proyectos en Carver Park y servicios de autosuficiencia en el MTW Resource Center de OHA"
+    ],
+    "waitlists": [
+      {
+        "program": "Sección 8 / Housing Choice Voucher de OHA",
+        "status": "Cerrada",
+        "note": "Verificado el 5 de noviembre de 2026: la página Apply for Housing de OHA dice \"OHA Section 8/Housing Choice Voucher (HCV) - CLOSED\" (cerrada) y \"OHA cannot predict when the waiting lists will reopen because it depends upon when current clients leave the programs\" (OHA no puede predecir cuándo reabrirán las listas porque depende de cuándo los clientes actuales dejen los programas). Sus preguntas frecuentes de vivienda pública dicen que la lista de vales \"closed in June 2021\" (cerró en junio de 2021). El Plan Anual MTW de OHA cuenta 14,585 hogares en la lista de vales y dice que no hay planes de abrirla durante el año del plan."
+      },
+      {
+        "program": "Vivienda pública de OHA",
+        "status": "Cerrada",
+        "note": "La página Apply for Housing de OHA dice \"OHA Public Housing Waiting Lists - CLOSED\" (cerradas), y su página Waiting List Information dice que las listas de vivienda pública y de Sección 8 de OHA \"are CLOSED\" (están cerradas) (verificado el 5 de noviembre de 2026). El Plan Anual MTW de OHA cuenta 12,420 hogares en la lista general de vivienda pública y 905 en las listas por sitio de Carver Park, todas cerradas."
+      },
+      {
+        "program": "Vales basados en proyectos de la Autoridad de Vivienda de Sanford (SHA)",
+        "status": "Abierta (sin fecha de cierre publicada)",
+        "note": "La página Apply for Housing de OHA dice \"SHA Project Based Voucher (PBV) - OPEN\" (abierta). El 5 de noviembre de 2026, el portal MyHousing de OHA mostraba listas abiertas para Somerset Landings, Georgetown Square y Monroe Landings, cada una con \"Start: 07/20/2026 12:00 AM\" (inicio: 20 de julio de 2026) y sin fecha de cierre. Son unidades basadas en proyectos en Sanford: la ayuda se queda con el apartamento, no con usted. OHA no publica fecha de cierre, así que estas listas pueden cerrar sin aviso. Solicite en oha.myhousing.com; si las listas ya no aparecen ahí, es que cerraron, y la página dirá cuándo abra otra."
+      },
+      {
+        "program": "Vivienda pública de la Autoridad de Vivienda de Sanford",
+        "status": "Cerrada",
+        "note": "La página de la Autoridad de Vivienda de Sanford en el sitio de OHA dice \"The Sanford Housing Authority Public Housing Waiting List is CLOSED\" (la lista de vivienda pública de Sanford está cerrada) (verificado el 5 de noviembre de 2026). La oficina de Sanford atiende en el 407.323.3150, de lunes a viernes, de 8:30 a.m. a 5 p.m."
+      },
+      {
+        "program": "Sección 8 de Vivienda y Desarrollo Comunitario del Condado de Orange (otra agencia)",
+        "status": "No acepta solicitudes",
+        "note": "La página de Sección 8 del Condado de Orange dice \"The Housing Choice Voucher Program (Section 8) is not accepting applications at this time\" y \"Current Status: We are not accepting applications at this time\" (no acepta solicitudes por ahora) (verificado el 5 de noviembre de 2026). Su última apertura fue del 9 al 11 de mayo de 2023, solo en línea, y el Condado escogió una lista final de 1,000 solicitantes por sorteo. Si solicitó entonces y se mudó, el Condado dice que debe enviar su cambio de dirección por escrito. Llame al (407) 836-5150 o escriba a housing@ocfl.net."
+      }
+    ],
+    "also_serving": [
+      "<strong>La División de Vivienda y Desarrollo Comunitario del Condado de Orange</strong> (código de HUD FL093) tiene un programa de Sección 8 aparte, en 525 East South Street, Orlando, FL 32801, (407) 836-5150, housing@ocfl.net. Su página de Sección 8 dice que \"not accepting applications at this time\" (no acepta solicitudes por ahora) (verificado el 5 de noviembre de 2026). El Plan de Acción 2026-2027 del Condado dice que en el año fiscal 2024-2025 ayudó a unos 1,226 hogares con subsidios de renta, además de 641 vales de otros lugares y 55 veteranos con HUD-VASH. La ordenanza de Vivienda Justa del Condado de Orange también prohíbe rechazar a un inquilino por su \"lawful source of income\" (fuente de ingresos legal), que el Condado define para incluir los vales de Sección 8 y VASH; el aviso de derechos del inquilino del Condado la aplica en las zonas no incorporadas del Condado de Orange.",
+      "<strong>Seminole County Housing Authority</strong> (código de HUD FL033): su sitio dice que sus listas de Housing Choice Voucher y de vivienda pública están cerradas y que \"It will be several years before we will be able to reopen the list\" (pasarán varios años antes de poder reabrir la lista) (verificado el 5 de noviembre de 2026).",
+      "<strong>Condado de Osceola</strong> (código de HUD FL201, Kissimmee, (407) 742-8400): su página de Sección 8 dice \"The Section 8 waiting list is currently closed, Osceola County is not accepting applications at this time\" (la lista está cerrada y no acepta solicitudes por ahora) (verificado el 5 de noviembre de 2026).",
+      "<strong>Housing Authority of the City of Winter Park</strong> (código de HUD FL082, (407) 645-2869) solo tiene vivienda pública; su sitio dice \"WPHA does not administer a Section 8 program\" (no administra un programa de Sección 8) y marca las listas de Meadows y Tranquil Terrace como \"CLOSED\" (cerradas) (verificado el 5 de noviembre de 2026).",
+      "<strong>OHA no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-orlando\">guía de ayuda de emergencia con la renta en Orlando</a>: los programas Crisis Assistance y EPIC del Condado de Orange, Heart of Florida United Way 211, ayuda legal gratis y los plazos de 3 y 5 días de Florida. Si ya tiene vivienda o un vale de OHA y se atrasa, llame a OHA al (407) 895-3300."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 en Orlando?",
+        "a": "No. Al 5 de noviembre de 2026, la página Apply for Housing de la Orlando Housing Authority dice que su lista de Sección 8 y sus listas de vivienda pública están cerradas (\"CLOSED\"). OHA dice que no puede predecir cuándo reabrirán. El programa de Sección 8 aparte del Condado de Orange tampoco acepta solicitudes por ahora. Las únicas listas abiertas en el portal de OHA son tres listas de vales basados en proyectos de la Autoridad de Vivienda de Sanford, que abrieron el 20 de julio de 2026 sin fecha de cierre publicada."
+      },
+      {
+        "q": "¿Cuáles son las listas abiertas de vales basados en proyectos de Sanford?",
+        "a": "El 5 de noviembre de 2026, el portal MyHousing de OHA en oha.myhousing.com mostraba listas abiertas para Somerset Landings, Georgetown Square y Monroe Landings, propiedades de la Autoridad de Vivienda de Sanford, cada una desde el 20 de julio de 2026. Con un vale basado en proyectos, la ayuda con la renta va con ese apartamento, así que tiene que vivir ahí para recibirla. Según las reglas normales de HUD, su parte de la renta es cerca del 30% de su ingreso mensual ajustado; pregunte en la propiedad cómo calcula su renta. No hay fecha de cierre publicada, así que solicite pronto; si las listas ya no están en el portal, es que cerraron."
+      },
+      {
+        "q": "¿La Orlando Housing Authority cubre todo el Condado de Orange?",
+        "a": "No por sí sola. OHA es la autoridad de vivienda de la Ciudad de Orlando y también administra la de Sanford. El Condado de Orange tiene su propio programa de Sección 8 en su División de Vivienda y Desarrollo Comunitario, al (407) 836-5150, y esa lista no acepta solicitudes. OHA da preferencia en vivienda pública a quienes viven, trabajan o tienen una oferta de trabajo verificada en el Condado de Orange. Seminole, Osceola y Winter Park tienen sus propias autoridades de vivienda, y todas sus listas estaban cerradas el 5 de noviembre de 2026."
+      },
+      {
+        "q": "¿Quién tiene preferencia en las listas de OHA?",
+        "a": "Las preguntas frecuentes de vivienda pública de OHA mencionan preferencias para personas con discapacidad; personas con empleo de tiempo completo por al menos seis meses seguidos, de 28 horas o más por semana; residentes del Condado de Orange, quienes trabajan ahí o tienen una oferta de trabajo verificada; veteranos con baja honorable; graduados de vivienda de transición; antiguos participantes del programa de compra de vivienda de OHA; y algunas más. OHA dice que el tiempo de espera depende de sus preferencias y del número de recámaras y que no se puede calcular. El Plan Administrativo y la política de vivienda pública de OHA fueron retirados de su sitio web de forma temporal."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en la lista de OHA o cambio mi dirección?",
+        "a": "Use el portal MyHousing de OHA en oha.myhousing.com. OHA dice que solo las personas que ya están en su lista de espera pueden registrar una cuenta, y que una presolicitud inactiva significa que fue retirada. Informe cualquier cambio de dirección, teléfono, ingresos o tamaño de la familia dentro de 10 días hábiles y por escrito; OHA dice que no acepta cambios por teléfono. Para ayuda con el portal, llame al 407-894-1500 o escriba a partnerportal@orl-oha.org."
+      },
+      {
+        "q": "¿Puede un arrendador en Orlando rechazar mi vale de Sección 8?",
+        "a": "Depende de dónde viva, y no está resuelto. La ordenanza de Vivienda Justa del Condado de Orange (sección 22-52 del Código) prohíbe negarse a rentar por una fuente de ingresos legal, incluidos los vales de Sección 8 y VASH, y el aviso de derechos del inquilino del Condado la aplica en las zonas no incorporadas del Condado de Orange. El código de la Ciudad de Orlando no tiene una regla sobre fuente de ingresos. La ley de preempción de Florida de 2023 (sección 83.425) no menciona la fuente de ingresos, y no encontramos ningún fallo judicial sobre si anula la regla del Condado. Rechazarlo por raza, discapacidad, situación familiar u otra característica protegida es ilegal en todas partes."
+      }
+    ],
+    "sources": [
+      {"label": "Orlando Housing Authority - Apply for Housing: estado de las listas, portal MyHousing, reapertura (en inglés)", "url": "https://www.orlandohousing.org/apply-for-housing"},
+      {"label": "Orlando Housing Authority - Waiting List Information: listas de vivienda pública y Sección 8 cerradas (en inglés)", "url": "https://www.orlandohousing.org/waiting-list-information"},
+      {"label": "Portal MyHousing de OHA: listas PBV de Sanford abiertas, cambios por escrito (en inglés)", "url": "https://oha.myhousing.com/"},
+      {"label": "Orlando Housing Authority - Public Housing y preguntas frecuentes: 1,450 unidades, preferencias, lista de vales cerrada en junio de 2021 (en inglés)", "url": "https://www.orlandohousing.org/public-housing"},
+      {"label": "Orlando Housing Authority - Housing Choice Voucher: unos 4,600 vales (en inglés)", "url": "https://www.orlandohousing.org/housing-choice-voucher"},
+      {"label": "Orlando Housing Authority - Sanford Housing Authority: acuerdo de administración, lista de vivienda pública de Sanford cerrada (en inglés)", "url": "https://www.orlandohousing.org/sanford-housing-authority"},
+      {"label": "Orlando Housing Authority - Plan Anual MTW: número de hogares en las listas, vales para fines especiales (en inglés)", "url": "https://www.orlandohousing.org/upages.php?id=219"},
+      {"label": "Orlando Housing Authority - página del Plan Administrativo: políticas retiradas temporalmente (en inglés)", "url": "https://www.orlandohousing.org/administrative-plan"},
+      {"label": "Condado de Orange - Housing Choice Voucher (Sección 8): no acepta solicitudes (en inglés)", "url": "https://www.orangecountyfl.net/NeighborsHousing/RentalAssistance.aspx"},
+      {"label": "Condado de Orange - anuncio de apertura de la lista de Sección 8, 9 al 11 de mayo de 2023, sorteo de 1,000 (en inglés)", "url": "https://www.orangecountyfl.net/Portals/0/Library/Neighbors-Housing/docs/WaitingListOpeningAnnouncement-HousingChoiceVoucher(Section8).pdf"},
+      {"label": "Condado de Orange - Notice of Tenant Rights: fuente de ingresos legal, zonas no incorporadas (en inglés)", "url": "https://www.orangecountyfl.net/FamiliesHealthSocialSvcs/NoticeofTenantRights.aspx"},
+      {"label": "Seminole County Housing Authority - Wait List: listas de HCV y vivienda pública cerradas (en inglés)", "url": "https://schafla.org/wait-list"},
+      {"label": "Condado de Osceola - Section 8: lista cerrada (en inglés)", "url": "https://www.osceola.org/Services/Housing-Programs/Section-8"},
+      {"label": "Winter Park Housing Authority - How to Apply: listas de vivienda pública cerradas (en inglés)", "url": "https://www.winterparkha.org/how-to-apply"},
+      {"label": "HUD - PHA Contact Report, Florida: FL004, FL093, FL033, FL201, FL082 (en inglés)", "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_FL.pdf"}
+    ]
+  }
+}
