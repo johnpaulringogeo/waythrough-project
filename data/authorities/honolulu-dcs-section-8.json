@@ -1,0 +1,227 @@
+{
+  "slug": "honolulu-dcs-section-8",
+  "kind": "authority",
+  "name": "City and County of Honolulu Department of Community Services, Section 8 Program (DCS)",
+  "schema_name": "City and County of Honolulu Department of Community Services, Section 8 Program",
+  "short_name": "DCS Section 8",
+  "title_name": "Honolulu DCS",
+  "city": "Honolulu",
+  "state": "HI",
+  "serves": "The island of O‘ahu (City and County of Honolulu), Hawai‘i",
+  "phone": "(808) 768-7077",
+  "status_check_html": "If you applied in July 2025, check your result at <a href=\"https://www.waitlistcheck.com\" target=\"_blank\" rel=\"noopener\">waitlistcheck.com</a> with your username and password: DCS says an ACTIVE status \"means that your application has been randomly selected for the wait list\" and an INACTIVE status means it was not. For help, call DCS at <a href=\"tel:8087687077\">(808) 768-7077</a>, or the Intake Clerk at <a href=\"tel:8087687098\">(808) 768-7098</a> if you cannot get into your account. DCS says \"All changes to your contact information or household information must be submitted to the office in writing\" (Section 8 Rental Assistance, Attn: Intake, 842 Bethel Street, 1st Floor, Honolulu, HI 96813), and that failing to update \"may result in missed correspondence or removal from the Waiting List.\"",
+  "official_url": "https://www.honolulu.gov/dcs/cad/",
+  "apply_url": "https://www.honolulu.gov/dcs/dcs-cad-section-8-housing-choice-voucher/",
+  "city_slug": "honolulu",
+  "state_slug": "hawaii",
+  "updated": "November 5, 2026",
+  "intro": "On O‘ahu, two public agencies run rental assistance, and they keep separate lists. The City and County of Honolulu's Department of Community Services (DCS), through its Community Assistance Division, runs the City's Section 8 Housing Choice Voucher program. HUD lists it as PHA HI003, program type Section 8, and DCS says the voucher program is \"the largest part of the Section 8 program, with about 4,100 units.\" The State's Hawai‘i Public Housing Authority (HPHA) runs public housing across the state and its own voucher program, which \"covers the island of Oahu only\" (HUD codes HI001 and HI901). The short answer: the City's list is closed. DCS took online pre-applications for one week in July 2025, placed 3,000 people on the list by random selection, and says it \"is not expected to reopen for approximately three years.\" HPHA's O‘ahu voucher and federal public housing lists are also closed. This page gives each agency's exact words, how to check a 2025 application, what the voucher pays, and the one HPHA list that is taking names now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8) on O‘ahu, about 4,100 vouchers (City and County of Honolulu, DCS)",
+    "Mainstream disability vouchers, Family Unification Program vouchers and Family Self-Sufficiency (DCS)",
+    "Moderate Rehabilitation Program units (DCS)",
+    "Separate State programs: HPHA federal and State public housing statewide, HPHA's own O‘ahu voucher program, and HPHA's Rent Supplement Program for Kūpuna"
+  ],
+  "waitlists": [
+    {
+      "program": "City and County of Honolulu Section 8 Housing Choice Voucher (DCS)",
+      "status": "Closed",
+      "note": "Closed (checked November 5, 2026). DCS's Section 8 page says the program \"accepted pre-applications to the Waitlist from Monday, July 14, 2025, 7:45 a.m. through Friday, July 18, 2025, 4:30 p.m (HST). The Waitlist is now closed.\" It adds that \"3,000 applicants have been placed on the wait list\" by randomization and that \"At this time, the wait list is not expected to reopen for approximately three years.\" Its FAQ answers \"Is the Waiting List currently open?\" with \"No. The Waiting List is currently closed.\" DCS no longer takes paper applications."
+    },
+    {
+      "program": "HPHA Housing Choice Voucher (Section 8) on O‘ahu",
+      "status": "Closed",
+      "note": "HPHA's How to Apply page, checked November 5, 2026, reads under \"HCV Program (Section 8) on Oahu\": \"Waiting List(s) are CLOSED. All waiting lists for this program are currently closed. Please check back later.\" No reopening date is given. HPHA uses an online pre-application form when a list opens."
+    },
+    {
+      "program": "HPHA federal public housing on O‘ahu",
+      "status": "Closed",
+      "note": "The same HPHA page reads under \"Federal Public Housing on Oahu\": \"Waiting List(s) are CLOSED. All waiting lists for this program are currently closed. Please check back later.\" (checked November 5, 2026). HPHA manages 5,406 federal public housing units statewide and 864 State-funded units. The How to Apply page gives no separate status for State public housing, so ask HPHA at (808) 204-9042."
+    },
+    {
+      "program": "HPHA Rent Supplement Program for Kūpuna (interest list)",
+      "status": "Interest list open",
+      "note": "HPHA's home page says \"Interest List is Open!\" and \"The HPHA is now accepting names for the program's interest list\" (checked November 5, 2026). The program helps \"elderly families and individuals experiencing homelessness or at imminent risk of homelessness\" pay part of their rent, up to $500 a month, for households at or below 50% of area median income. HPHA says joining the interest list gets you \"alerts about future waiting list openings\" and \"does not guarantee rental assistance.\""
+    }
+  ],
+  "also_serving": [
+    "<strong>Hawai‘i Public Housing Authority (HPHA)</strong>, the State agency, runs federal and State public housing statewide and its own voucher program on O‘ahu. HUD lists it as HI001 (public housing) and HI901 (Section 8) at 1002 N. School Street, Honolulu. HPHA's own site gives (808) 204-9042, HPHA@hawaii.gov for general and public housing questions, and DHS.HPHA.Section8@hawaii.gov for Section 8; its mailing address is PO Box 17907, Honolulu, HI 96817. You can be on HPHA's lists and the City's list at the same time.",
+    "<strong>Other islands have their own voucher agencies</strong>, as HUD lists them: County of Hawai‘i (HI002, Hilo), County of Maui (HI004, Wailuku) and Kaua‘i County Housing Agency (HI005, Līhu‘e). DCS says that if you apply from off O‘ahu, \"federal regulations require you to lease a unit within our jurisdiction\" for at least the first 12 months.",
+    "<strong>DCS Section 8 is not an emergency rent fund.</strong> DCS says \"Rental assistance is not available while you are on the Waiting List.\" If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-honolulu\">Honolulu emergency rent help guide</a>: the State's Hawai‘i Relief Program through Catholic Charities Hawai‘i, Aloha United Way 211, the Legal Aid Society of Hawai‘i, free mediation under Act 278, H-HEAP and Hawaiian Electric programs. If you already have a DCS voucher and fall behind, call DCS at (808) 768-7077 right away."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Honolulu Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, the City and County of Honolulu's Section 8 page says \"The Waitlist is now closed\" and its FAQ says \"No. The Waiting List is currently closed.\" The last pre-application window ran from July 14, 2025 at 7:45 a.m. to July 18, 2025 at 4:30 p.m. Hawai‘i time. DCS says the list \"is not expected to reopen for approximately three years.\" The State's HPHA voucher and federal public housing lists on O‘ahu are also closed."
+    },
+    {
+      "q": "I applied in July 2025. How do I check my status?",
+      "a": "Go to waitlistcheck.com and log in with the username and password you made when you applied. DCS says an ACTIVE status means your application was randomly selected for the wait list and an INACTIVE status means it was not. DCS placed 3,000 applicants on the list and says it will contact them as vouchers become available. For help, call (808) 768-7077 or email cchs8@honolulu.gov. Being on the list does not mean you are approved, and DCS says there is no guarantee how long the wait will be."
+    },
+    {
+      "q": "How much rent will I pay with a Honolulu voucher?",
+      "a": "DCS says families \"generally pay approximately 30% to 40% of their adjusted monthly income toward rent and utilities.\" Under HUD's rules, the base share is about 30% of adjusted monthly income, meaning gross income minus allowances such as those for dependents and, for elderly or disabled households, some medical costs. You pay more than 30% when the unit you choose rents above the DCS payment standard. DCS posts its 2026 payment standards and utility allowances on its Section 8 page."
+    },
+    {
+      "q": "What are the income limits for Section 8 in Honolulu?",
+      "a": "DCS lists these 2026 limits by household size: $53,900 for 1 person, $61,600 for 2, $69,300 for 3, $77,000 for 4, $83,200 for 5 and $89,350 for 6. HPHA uses the same HUD limits for its programs. Meeting the limit does not get you a voucher while the lists are closed."
+    },
+    {
+      "q": "Who runs public housing in Honolulu?",
+      "a": "The State's Hawai‘i Public Housing Authority, not the City. HPHA manages 5,406 federal public housing units and 864 State-funded units statewide. Its How to Apply page says the federal public housing lists on O‘ahu are closed. When a list opens, HPHA uses an online pre-application and gives you a confirmation number. Call HPHA at (808) 204-9042 with questions, or (808) 832-5961 if you need a reasonable accommodation to apply."
+    },
+    {
+      "q": "What is happening to Emergency Housing Vouchers in Honolulu?",
+      "a": "DCS says HUD estimates the Department \"will only have sufficient funds to cover all EHVs through most (but not all) of Calendar Year 2026.\" It also says \"the vouchers of EHV families will be transitioned into the regular HCV program automatically\" and \"No action is required by the family since the City and County of Honolulu has received authorization from HUD.\" If you hold an EHV, read the DCS letter to EHV participants on its Section 8 page and call (808) 768-7077 with questions."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City and County of Honolulu DCS - Section 8 Housing Choice Voucher (waitlist closed, 2025 window, 3,000 placed, income limits, FAQ, EHV)",
+      "url": "https://www.honolulu.gov/dcs/dcs-cad-section-8-housing-choice-voucher/"
+    },
+    {
+      "label": "City and County of Honolulu DCS - Community Assistance Division (programs, phone, address)",
+      "url": "https://www.honolulu.gov/dcs/cad/"
+    },
+    {
+      "label": "Waitlist Check - status of a 2025 DCS pre-application",
+      "url": "https://www.waitlistcheck.com/"
+    },
+    {
+      "label": "Hawai‘i Public Housing Authority - How to Apply (O‘ahu voucher and federal public housing lists closed)",
+      "url": "https://hpha.hawaii.gov/how-to-apply"
+    },
+    {
+      "label": "HPHA - Voucher Programs (O‘ahu only, subsidy based on 30% of adjusted income)",
+      "url": "https://hpha.hawaii.gov/programs-and-resources/voucher-programs"
+    },
+    {
+      "label": "HPHA - Public Housing (5,406 federal and 864 State units)",
+      "url": "https://hpha.hawaii.gov/programs-and-resources/public-housing"
+    },
+    {
+      "label": "HPHA - Rent Supplement Program for Kūpuna interest list",
+      "url": "https://hpha.hawaii.gov/rsp-interest-list"
+    },
+    {
+      "label": "HPHA - home page (interest list open, contact information)",
+      "url": "https://hpha.hawaii.gov/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Hawai‘i (HI001, HI002, HI003, HI004, HI005, HI901)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_HI.pdf"
+    },
+    {
+      "label": "eCFR - 24 CFR 5.628, total tenant payment (30 percent of adjusted monthly income)",
+      "url": "https://www.ecfr.gov/current/title-24/section-5.628"
+    }
+  ],
+  "es": {
+    "status_check_html": "Si presentó una solicitud en julio de 2025, revise su resultado en <a href=\"https://www.waitlistcheck.com\" target=\"_blank\" rel=\"noopener\">waitlistcheck.com</a> con su nombre de usuario y contraseña: DCS dice que el estado ACTIVE \"means that your application has been randomly selected for the wait list\" (significa que su solicitud fue escogida al azar para la lista de espera) y que el estado INACTIVE significa que no fue escogida. Si necesita ayuda, llame a DCS al <a href=\"tel:8087687077\">(808) 768-7077</a>, o a la secretaría de admisiones (Intake Clerk) al <a href=\"tel:8087687098\">(808) 768-7098</a> si no puede entrar a su cuenta. DCS dice que todo cambio de contacto o de los miembros del hogar debe enviarse por escrito a la oficina (Section 8 Rental Assistance, Attn: Intake, 842 Bethel Street, 1st Floor, Honolulu, HI 96813) y que no hacerlo \"may result in missed correspondence or removal from the Waiting List\" (puede hacer que no le lleguen avisos o que lo saquen de la lista).",
+    "serves": "La isla de O‘ahu (Ciudad y Condado de Honolulu), Hawái",
+    "updated": "5 de noviembre de 2026",
+    "intro": "En O‘ahu, dos agencias públicas manejan la ayuda con la renta y cada una lleva sus propias listas. El Departamento de Servicios Comunitarios (DCS) de la Ciudad y Condado de Honolulu, por medio de su División de Asistencia Comunitaria, maneja el programa de vales de elección de vivienda (Sección 8) de la Ciudad. HUD lo registra como PHA HI003, tipo de programa Section 8, y DCS dice que los vales son \"the largest part of the Section 8 program, with about 4,100 units\" (la parte más grande del programa de Sección 8, con unas 4,100 unidades). La Hawai‘i Public Housing Authority (HPHA), del Estado, maneja la vivienda pública en todo el estado y su propio programa de vales, que \"covers the island of Oahu only\" (cubre solo la isla de O‘ahu) (códigos de HUD HI001 y HI901). La respuesta corta: la lista de la Ciudad está cerrada. DCS aceptó presolicitudes en línea durante una semana en julio de 2025, puso a 3,000 personas en la lista por sorteo y dice que \"is not expected to reopen for approximately three years\" (no se espera que vuelva a abrir en unos tres años). Las listas de vales y de vivienda pública federal de HPHA en O‘ahu también están cerradas. Esta página da las palabras exactas de cada agencia, cómo revisar una solicitud de 2025, cuánto paga el vale y la única lista de HPHA que está recibiendo nombres ahora.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8) en O‘ahu, unos 4,100 vales (Ciudad y Condado de Honolulu, DCS)",
+      "Vales Mainstream para personas con discapacidad, vales del Family Unification Program y el programa Family Self-Sufficiency (DCS)",
+      "Unidades del Moderate Rehabilitation Program (DCS)",
+      "Programas estatales aparte: vivienda pública federal y estatal de HPHA en todo el estado, el programa de vales de HPHA en O‘ahu y el Rent Supplement Program for Kūpuna de HPHA"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8) de la Ciudad y Condado de Honolulu (DCS)",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 5 de noviembre de 2026). La página de Sección 8 de DCS dice que el programa \"accepted pre-applications to the Waitlist from Monday, July 14, 2025, 7:45 a.m. through Friday, July 18, 2025, 4:30 p.m (HST). The Waitlist is now closed\" (aceptó presolicitudes del lunes 14 de julio de 2025 a las 7:45 a.m. al viernes 18 de julio de 2025 a las 4:30 p.m., hora de Hawái; la lista ya está cerrada). Agrega que \"3,000 applicants have been placed on the wait list\" (3,000 solicitantes quedaron en la lista) por sorteo y que \"At this time, the wait list is not expected to reopen for approximately three years\" (por ahora no se espera que la lista vuelva a abrir en unos tres años). En sus preguntas frecuentes, a la pregunta de si la lista está abierta responde: \"No. The Waiting List is currently closed\" (no, la lista está cerrada). DCS ya no acepta solicitudes en papel."
+      },
+      {
+        "program": "Housing Choice Voucher (Sección 8) de HPHA en O‘ahu",
+        "status": "Cerrada",
+        "note": "La página How to Apply de HPHA, revisada el 5 de noviembre de 2026, dice bajo \"HCV Program (Section 8) on Oahu\": \"Waiting List(s) are CLOSED. All waiting lists for this program are currently closed. Please check back later\" (las listas están cerradas; todas las listas de este programa están cerradas por ahora; vuelva a revisar más adelante). No da fecha de reapertura. Cuando abre una lista, HPHA usa una presolicitud en línea."
+      },
+      {
+        "program": "Vivienda pública federal de HPHA en O‘ahu",
+        "status": "Cerrada",
+        "note": "La misma página de HPHA dice bajo \"Federal Public Housing on Oahu\": \"Waiting List(s) are CLOSED. All waiting lists for this program are currently closed. Please check back later\" (verificado el 5 de noviembre de 2026). HPHA administra 5,406 unidades de vivienda pública federal en el estado y 864 unidades con fondos estatales. La página How to Apply no da un estado aparte para la vivienda pública estatal, así que pregunte a HPHA al (808) 204-9042."
+      },
+      {
+        "program": "Rent Supplement Program for Kūpuna de HPHA (lista de interés)",
+        "status": "Lista de interés abierta",
+        "note": "La página principal de HPHA dice \"Interest List is Open!\" y \"The HPHA is now accepting names for the program's interest list\" (HPHA está recibiendo nombres para la lista de interés del programa) (verificado el 5 de noviembre de 2026). El programa ayuda a \"elderly families and individuals experiencing homelessness or at imminent risk of homelessness\" (personas mayores y sus familias sin hogar o en riesgo inmediato de quedarse sin hogar) a pagar parte de la renta, hasta $500 al mes, en hogares con ingresos de hasta el 50% del ingreso medio del área. HPHA dice que inscribirse le da avisos de futuras aperturas de la lista de espera y que \"does not guarantee rental assistance\" (no garantiza la ayuda con la renta)."
+      }
+    ],
+    "also_serving": [
+      "<strong>Hawai‘i Public Housing Authority (HPHA)</strong>, la agencia del Estado, maneja la vivienda pública federal y estatal en todo el estado y su propio programa de vales en O‘ahu. HUD la registra como HI001 (vivienda pública) y HI901 (Sección 8) en 1002 N. School Street, Honolulu. El sitio de HPHA da el (808) 204-9042, HPHA@hawaii.gov para preguntas generales y de vivienda pública, y DHS.HPHA.Section8@hawaii.gov para la Sección 8; su dirección postal es PO Box 17907, Honolulu, HI 96817. Puede estar en las listas de HPHA y en la de la Ciudad al mismo tiempo.",
+      "<strong>Las otras islas tienen sus propias agencias de vales</strong>, según HUD: el Condado de Hawái (HI002, Hilo), el Condado de Maui (HI004, Wailuku) y la Kaua‘i County Housing Agency (HI005, Līhu‘e). DCS dice que si solicita desde fuera de O‘ahu, \"federal regulations require you to lease a unit within our jurisdiction\" (las reglas federales le exigen rentar una unidad dentro de su jurisdicción) por lo menos durante los primeros 12 meses.",
+      "<strong>La Sección 8 de DCS no es un fondo de renta de emergencia.</strong> DCS dice: \"Rental assistance is not available while you are on the Waiting List\" (no hay ayuda con la renta mientras está en la lista de espera). Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-honolulu\">guía de ayuda de emergencia con la renta en Honolulu</a>: el Hawai‘i Relief Program del Estado por medio de Catholic Charities Hawai‘i, Aloha United Way 211, la Legal Aid Society of Hawai‘i, la mediación gratis de la Ley 278, H-HEAP y los programas de Hawaiian Electric. Si ya tiene un vale de DCS y se atrasa, llame de inmediato a DCS al (808) 768-7077."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 en Honolulu?",
+        "a": "No. Al 5 de noviembre de 2026, la página de Sección 8 de la Ciudad y Condado de Honolulu dice \"The Waitlist is now closed\" (la lista ya está cerrada) y sus preguntas frecuentes dicen \"No. The Waiting List is currently closed.\" El último periodo de presolicitudes fue del 14 de julio de 2025 a las 7:45 a.m. al 18 de julio de 2025 a las 4:30 p.m., hora de Hawái. DCS dice que no se espera que la lista vuelva a abrir en unos tres años. Las listas de vales y de vivienda pública federal de HPHA en O‘ahu también están cerradas."
+      },
+      {
+        "q": "Presenté una solicitud en julio de 2025. ¿Cómo reviso mi estado?",
+        "a": "Entre a waitlistcheck.com con el nombre de usuario y la contraseña que creó al solicitar. DCS dice que el estado ACTIVE significa que su solicitud fue escogida al azar para la lista y el estado INACTIVE significa que no fue escogida. DCS puso a 3,000 solicitantes en la lista y dice que los contactará cuando haya vales disponibles. Si necesita ayuda, llame al (808) 768-7077 o escriba a cchs8@honolulu.gov. Estar en la lista no significa que ya lo aprobaron, y DCS dice que no hay garantía de cuánto durará la espera."
+      },
+      {
+        "q": "¿Cuánta renta pagaré con un vale de Honolulu?",
+        "a": "DCS dice que las familias \"generally pay approximately 30% to 40% of their adjusted monthly income toward rent and utilities\" (por lo general pagan entre el 30% y el 40% de su ingreso mensual ajustado para la renta y los servicios). Según las reglas de HUD, la parte básica es alrededor del 30% del ingreso mensual ajustado, es decir, el ingreso bruto menos ciertas deducciones, como las de dependientes y, para hogares de personas mayores o con discapacidad, algunos gastos médicos. Usted paga más del 30% si escoge una unidad cuya renta pasa del estándar de pago de DCS. DCS publica sus estándares de pago y sus asignaciones para servicios de 2026 en su página de Sección 8."
+      },
+      {
+        "q": "¿Cuáles son los límites de ingresos para la Sección 8 en Honolulu?",
+        "a": "DCS publica estos límites de 2026 según el tamaño del hogar: $53,900 para 1 persona, $61,600 para 2, $69,300 para 3, $77,000 para 4, $83,200 para 5 y $89,350 para 6. HPHA usa los mismos límites de HUD en sus programas. Cumplir con el límite no le da un vale mientras las listas estén cerradas."
+      },
+      {
+        "q": "¿Quién maneja la vivienda pública en Honolulu?",
+        "a": "La Hawai‘i Public Housing Authority del Estado, no la Ciudad. HPHA administra 5,406 unidades de vivienda pública federal y 864 unidades con fondos estatales en todo el estado. Su página How to Apply dice que las listas de vivienda pública federal en O‘ahu están cerradas. Cuando abre una lista, HPHA usa una presolicitud en línea y le da un número de confirmación. Llame a HPHA al (808) 204-9042 si tiene preguntas, o al (808) 832-5961 si necesita una adaptación razonable para solicitar."
+      },
+      {
+        "q": "¿Qué está pasando con los Emergency Housing Vouchers en Honolulu?",
+        "a": "DCS dice que HUD calcula que el Departamento \"will only have sufficient funds to cover all EHVs through most (but not all) of Calendar Year 2026\" (solo tendrá fondos para cubrir todos los EHV durante la mayor parte, pero no todo, del año 2026). También dice que \"the vouchers of EHV families will be transitioned into the regular HCV program automatically\" (los vales de las familias con EHV pasarán de forma automática al programa regular de vales) y que la familia no tiene que hacer nada, porque la Ciudad y Condado de Honolulu ya recibió la autorización de HUD. Si tiene un EHV, lea la carta de DCS para participantes de EHV en su página de Sección 8 y llame al (808) 768-7077 si tiene preguntas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ciudad y Condado de Honolulu, DCS - Section 8 Housing Choice Voucher (lista cerrada, periodo de 2025, 3,000 en la lista, límites de ingresos, preguntas frecuentes, EHV), en inglés",
+        "url": "https://www.honolulu.gov/dcs/dcs-cad-section-8-housing-choice-voucher/"
+      },
+      {
+        "label": "Ciudad y Condado de Honolulu, DCS - Community Assistance Division (programas, teléfono, dirección), en inglés",
+        "url": "https://www.honolulu.gov/dcs/cad/"
+      },
+      {
+        "label": "Waitlist Check - estado de una presolicitud de DCS de 2025, en inglés",
+        "url": "https://www.waitlistcheck.com/"
+      },
+      {
+        "label": "Hawai‘i Public Housing Authority - How to Apply (listas de vales y de vivienda pública federal en O‘ahu cerradas), en inglés",
+        "url": "https://hpha.hawaii.gov/how-to-apply"
+      },
+      {
+        "label": "HPHA - Voucher Programs (solo O‘ahu, subsidio calculado con el 30% del ingreso ajustado), en inglés",
+        "url": "https://hpha.hawaii.gov/programs-and-resources/voucher-programs"
+      },
+      {
+        "label": "HPHA - Public Housing (5,406 unidades federales y 864 estatales), en inglés",
+        "url": "https://hpha.hawaii.gov/programs-and-resources/public-housing"
+      },
+      {
+        "label": "HPHA - Lista de interés del Rent Supplement Program for Kūpuna, en inglés",
+        "url": "https://hpha.hawaii.gov/rsp-interest-list"
+      },
+      {
+        "label": "HPHA - página principal (lista de interés abierta, contacto), en inglés",
+        "url": "https://hpha.hawaii.gov/"
+      },
+      {
+        "label": "HUD - PHA Contact Report, Hawái (HI001, HI002, HI003, HI004, HI005, HI901), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_HI.pdf"
+      },
+      {
+        "label": "eCFR - 24 CFR 5.628, pago total del inquilino (30 por ciento del ingreso mensual ajustado), en inglés",
+        "url": "https://www.ecfr.gov/current/title-24/section-5.628"
+      }
+    ]
+  }
+}

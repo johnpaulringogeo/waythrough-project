@@ -1,0 +1,209 @@
+{
+  "slug": "birmingham-habd",
+  "kind": "authority",
+  "name": "Housing Authority of the Birmingham District (HABD)",
+  "schema_name": "Housing Authority of the Birmingham District",
+  "short_name": "HABD",
+  "title_name": "HABD Birmingham",
+  "city": "Birmingham",
+  "state": "AL",
+  "serves": "Birmingham, with Housing Choice Vouchers usable in Birmingham and Jefferson County, Alabama",
+  "phone": "(205) 521-0774",
+  "status_check_html": "If you have already applied, call HABD's Housing Choice Voucher call center, <a href=\"tel:2059744440\">(205) 974-4440</a>, which HABD says handles \"questions or concerns on applications, waitlist, inspections, etc.\", and keep your mailing address, phone and email current, because a housing authority that cannot reach you when your name comes up can drop you from the list.",
+  "official_url": "https://www.habd.org/",
+  "apply_url": "https://www.habdportals.org/",
+  "city_slug": "birmingham",
+  "state_slug": "alabama",
+  "updated": "November 5, 2026",
+  "intro": "The Housing Authority of the Birmingham District is the public housing agency for the City of Birmingham. HUD lists it as PHA AL001 with a program type of Combined, so it runs both Housing Choice Vouchers (Section 8) and public housing. HABD says it \"owns and manages 14 developments consisting of more than 4,000 public housing units in the Birmingham Metropolitan Area,\" and its Department of Rental Assistance Programs runs the voucher program \"to eligible families within Jefferson County.\" The short answer to the question most people bring here is that HABD does not post whether its voucher list is open or closed. Its Section 8 page only says what to do \"When a Housing Choice Voucher program waiting list opens.\" This page covers HABD's exact words, the two different ways to apply (an online portal for vouchers, a paper form for public housing), the special programs that take referrals, and the other housing authorities in Jefferson County.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), usable with private landlords in Birmingham and Jefferson County",
+    "Public housing at 14 HABD developments in the Birmingham area",
+    "Project-Based Vouchers (PBV) at partner properties, including the MIMR program at Metropolitan Gardens/Park Place for referred applicants",
+    "HUD-VASH vouchers for homeless veterans, the Moderate Rehabilitation SRO program with Alabama Regional Medical Center, and HCV Homeownership"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "No status published",
+      "note": "HABD's Section 8 page gives no open or closed status (checked November 5, 2026). Its own words are: \"When a Housing Choice Voucher program waiting list opens, interested participants can get started by visiting HABD.org/portals to register and join the waiting list.\" Its FAQ says: \"Individuals interested in a Housing Choice voucher can apply online at habdportals.org.\" The portal's applicant login page asks you to register with an email address and does not say whether a list is open. For a straight answer, call the HCV call center at (205) 974-4440."
+    },
+    {
+      "program": "Public housing (HABD's 14 developments)",
+      "status": "Paper application; no status published",
+      "note": "HABD's public housing page says: \"Interested public housing residents can apply using this form,\" and links a downloadable HABD Public Housing Application (checked November 5, 2026). Its FAQ says to \"complete and drop off an application at our George W. McCoy Building (1301 25th Ave. N) or any of our Community Centers during normal business hours.\" HABD does not publish an open or closed status or a wait time for any development."
+    },
+    {
+      "program": "Site-based lists: Tuxedo Terrace tax credit units and Freedom Manor (PBRA)",
+      "status": "Apply through the site's portal; no status published",
+      "note": "The top of HABD's portal at habdportals.org carries two separate links labeled \"TAX CREDIT WAITING LIST - TUXEDO\" and \"PBRA WAITING LIST - FREEDOM MANOR\" (checked November 5, 2026). Each opens its own applicant login. Neither page says whether the list is open, so call the site before you count on it: Tuxedo Terrace, 2025 Avenue Q, 205-781-5356; Freedom Manor, 1617 5th Avenue North, 205-521-7707."
+    }
+  ],
+  "also_serving": [
+    "<strong>Jefferson County Housing Authority</strong> serves much of Jefferson County outside Birmingham. HUD lists it as AL086, program type Combined, at 3700 Industrial Parkway, Birmingham, AL 35217, (205) 849-0137. Confirm the number with the authority, because Jefferson County's own housing page gives (205) 849-0123.",
+    "<strong>Other authorities in Jefferson County</strong>, as HUD's PHA contact report lists them: the Housing Authority of Bessemer (AL125, Combined, (205) 481-4484), Fairfield Housing Authority (AL010, public housing only, (205) 923-5574), Tarrant Housing Authority (AL013, public housing only, (205) 841-2226) and the Housing Authority of Leeds (AL069, Combined, (205) 699-2208). Each keeps its own list, so you can apply to more than one.",
+    "<strong>HABD is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-birmingham\">Birmingham emergency rent help guide</a>: 211 Connects Alabama, Legal Services Alabama, LIHEAP through the Community Action Agency of Northeast Alabama, Alabama Power programs, and Alabama's 7-business-day notice. If you already have HABD housing or a voucher and fall behind, call HABD at (205) 521-0774 or the HCV call center at (205) 974-4440 right away."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Birmingham Section 8 waiting list open?",
+      "a": "HABD does not say. As of November 5, 2026, its Section 8 page gives no open or closed status and only explains what to do \"When a Housing Choice Voucher program waiting list opens\": register on its portal and join the list. Its FAQ points voucher applicants to habdportals.org. Call the HCV call center at (205) 974-4440 before you assume a list is open, and ignore websites that claim a status HABD itself does not post."
+    },
+    {
+      "q": "How do I apply for public housing in Birmingham?",
+      "a": "With a paper form. HABD's public housing page links a downloadable HABD Public Housing Application, and its FAQ says to complete it and drop it off at the George W. McCoy Building, 1301 25th Ave. N, or at any HABD community center during normal business hours. HABD does not publish whether any development's list is open or how long the wait is, so ask when you drop off the form. HABD has 14 developments with more than 4,000 units."
+    },
+    {
+      "q": "Which HABD phone number should I call?",
+      "a": "(205) 974-4440 is the Housing Choice Voucher call center, which HABD says is for \"questions or concerns on applications, waitlist, inspections, etc.\" (205) 521-0774 is the main office at 1826 3rd Ave. S, Birmingham, AL 35233. Landlords with Section 8 questions call the Department of Rental Assistance Programs at (205) 521-7460. Emergency maintenance for public housing residents is (205) 623-5449. HUD's directory lists a different main number, (205) 449-0070, so use the numbers on HABD's own site."
+    },
+    {
+      "q": "How much rent will I pay with a voucher?",
+      "a": "Under HUD's rules, a family with a voucher or in public housing generally pays about 30% of its adjusted monthly income toward rent and utilities. Adjusted income is your gross income minus allowances such as those for dependents, and for elderly or disabled households, some medical costs. With a voucher you may pay more than that if you pick a unit that rents above HABD's payment standard. HABD posts its payment standards and utility allowances on its Section 8 page."
+    },
+    {
+      "q": "Are there special programs for veterans or people with disabilities?",
+      "a": "Yes, by referral. For HUD-VASH, HABD says veterans must be registered for VA services and can then call Cortney Rankins at (205) 936-1365 for a screening. The Moderate Rehabilitation SRO program for homeless individuals is run with the Alabama Regional Medical Center, (205) 370-1422. The MIMR project-based program at Metropolitan Gardens/Park Place serves households whose head has a mental illness, and applicants must be referred by a mental health agency or doctor."
+    },
+    {
+      "q": "Can a Birmingham landlord refuse my voucher?",
+      "a": "Yes. Alabama has no law that stops a landlord from turning down a tenant because of a Housing Choice Voucher, and we found no Birmingham ordinance that does. Refusals based on race, color, religion, sex, national origin, disability or family status are still illegal under the federal Fair Housing Act, and you can report them to HUD at 1-800-669-9777. HABD says voucher holders find their own landlord using listings on AffordableHousing.com, a site it partners with."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Housing Authority of the Birmingham District - official site (main phone, address)",
+      "url": "https://www.habd.org/"
+    },
+    {
+      "label": "HABD - HCV (Section 8) (waiting-list steps, HCV call center, special programs, payment standards)",
+      "url": "https://www.habd.org/hcv-section-8"
+    },
+    {
+      "label": "HABD - Public Housing (14 developments, application form, community addresses and phones)",
+      "url": "https://www.habd.org/public-housing"
+    },
+    {
+      "label": "HABD - FAQs (where to drop off a public housing application, apply online for vouchers, landlord line)",
+      "url": "https://www.habd.org/faqs"
+    },
+    {
+      "label": "HABD - Contact Us (general inquiries)",
+      "url": "https://www.habd.org/contact-us"
+    },
+    {
+      "label": "HABD - Resident, applicant and landlord portal (Tuxedo and Freedom Manor waiting-list links)",
+      "url": "https://www.habdportals.org/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Alabama (AL001 Combined; AL086, AL125, AL010, AL013, AL069)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_AL.pdf"
+    },
+    {
+      "label": "Jefferson County, Alabama - Community Services (ERAP has ended)",
+      "url": "https://www.jccal.org/260/Community-Services"
+    },
+    {
+      "label": "eCFR - 24 CFR 5.628, total tenant payment (30 percent of adjusted monthly income)",
+      "url": "https://www.ecfr.gov/current/title-24/section-5.628"
+    }
+  ],
+  "es": {
+    "status_check_html": "Si ya presentó su solicitud, llame al centro de llamadas del programa de vales de HABD, el <a href=\"tel:2059744440\">(205) 974-4440</a>, que según HABD atiende \"questions or concerns on applications, waitlist, inspections, etc.\" (preguntas sobre solicitudes, la lista de espera, inspecciones, etc.), y mantenga al día su dirección postal, teléfono y correo electrónico, porque una autoridad de vivienda que no logra comunicarse con usted cuando le toca su turno puede sacarlo de la lista.",
+    "serves": "Birmingham, con vales de elección de vivienda que se pueden usar en Birmingham y el Condado de Jefferson, Alabama",
+    "updated": "5 de noviembre de 2026",
+    "intro": "La Housing Authority of the Birmingham District (Autoridad de Vivienda del Distrito de Birmingham) es la agencia de vivienda pública de la Ciudad de Birmingham. HUD la registra como PHA AL001 con el tipo de programa Combined, así que maneja tanto los vales de elección de vivienda (Sección 8) como la vivienda pública. HABD dice que \"owns and manages 14 developments consisting of more than 4,000 public housing units in the Birmingham Metropolitan Area\" (es dueña y administra 14 complejos con más de 4,000 unidades de vivienda pública en el área metropolitana de Birmingham), y su Departamento de Programas de Ayuda con la Renta maneja los vales \"to eligible families within Jefferson County\" (para familias elegibles dentro del Condado de Jefferson). La respuesta corta a la pregunta que trae aquí a la mayoría es que HABD no publica si su lista de vales está abierta o cerrada. Su página de Sección 8 solo explica qué hacer \"When a Housing Choice Voucher program waiting list opens\" (cuando se abre una lista de espera del programa de vales). Esta página reúne las palabras exactas de HABD, las dos maneras distintas de solicitar (un portal en línea para los vales y un formulario en papel para la vivienda pública), los programas especiales que reciben referidos y las otras autoridades de vivienda del Condado de Jefferson.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8), que se usa con arrendadores privados en Birmingham y el Condado de Jefferson",
+      "Vivienda pública en 14 complejos de HABD en el área de Birmingham",
+      "Vales basados en proyectos (PBV) en propiedades asociadas, incluido el programa MIMR en Metropolitan Gardens/Park Place para solicitantes referidos",
+      "Vales HUD-VASH para veteranos sin hogar, el programa Moderate Rehabilitation SRO con el Alabama Regional Medical Center y el programa HCV Homeownership"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8)",
+        "status": "Sin estado publicado",
+        "note": "La página de Sección 8 de HABD no dice si la lista está abierta o cerrada (verificado el 5 de noviembre de 2026). Sus palabras son: \"When a Housing Choice Voucher program waiting list opens, interested participants can get started by visiting HABD.org/portals to register and join the waiting list\" (cuando se abre una lista de espera del programa de vales, los interesados pueden empezar en HABD.org/portals para registrarse e inscribirse en la lista). Su sección de preguntas frecuentes dice: \"Individuals interested in a Housing Choice voucher can apply online at habdportals.org\" (quienes quieran un vale pueden solicitarlo en línea en habdportals.org). La página de acceso del portal pide registrarse con un correo electrónico y no dice si hay una lista abierta. Para una respuesta clara, llame al centro de llamadas del programa de vales al (205) 974-4440."
+      },
+      {
+        "program": "Vivienda pública (los 14 complejos de HABD)",
+        "status": "Solicitud en papel; sin estado publicado",
+        "note": "La página de vivienda pública de HABD dice: \"Interested public housing residents can apply using this form\" (los interesados en la vivienda pública pueden solicitar con este formulario) y enlaza una solicitud que se puede descargar, la HABD Public Housing Application (verificado el 5 de noviembre de 2026). Su sección de preguntas frecuentes dice que hay que \"complete and drop off an application at our George W. McCoy Building (1301 25th Ave. N) or any of our Community Centers during normal business hours\" (llenar y entregar la solicitud en el edificio George W. McCoy, 1301 25th Ave. N, o en cualquiera de sus centros comunitarios en horario normal). HABD no publica si la lista de algún complejo está abierta ni cuánto dura la espera."
+      },
+      {
+        "program": "Listas por sitio: unidades de crédito fiscal de Tuxedo Terrace y Freedom Manor (PBRA)",
+        "status": "Se solicita en el portal del sitio; sin estado publicado",
+        "note": "La parte de arriba del portal de HABD, habdportals.org, tiene dos enlaces aparte: \"TAX CREDIT WAITING LIST - TUXEDO\" y \"PBRA WAITING LIST - FREEDOM MANOR\" (verificado el 5 de noviembre de 2026). Cada uno abre su propia página de acceso. Ninguna dice si la lista está abierta, así que llame al sitio antes de contar con ella: Tuxedo Terrace, 2025 Avenue Q, 205-781-5356; Freedom Manor, 1617 5th Avenue North, 205-521-7707."
+      }
+    ],
+    "also_serving": [
+      "<strong>Jefferson County Housing Authority</strong> atiende gran parte del Condado de Jefferson fuera de Birmingham. HUD la registra como AL086, tipo de programa Combined, en 3700 Industrial Parkway, Birmingham, AL 35217, (205) 849-0137. Confirme el número con la autoridad, porque la página de vivienda del propio Condado de Jefferson da el (205) 849-0123.",
+      "<strong>Otras autoridades del Condado de Jefferson</strong>, según el directorio de PHA de HUD: la Housing Authority of Bessemer (AL125, Combined, (205) 481-4484), la Fairfield Housing Authority (AL010, solo vivienda pública, (205) 923-5574), la Tarrant Housing Authority (AL013, solo vivienda pública, (205) 841-2226) y la Housing Authority of Leeds (AL069, Combined, (205) 699-2208). Cada una lleva su propia lista, así que puede solicitar en más de una.",
+      "<strong>HABD no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-birmingham\">guía de ayuda de emergencia con la renta en Birmingham</a>: 211 Connects Alabama, Legal Services Alabama, LIHEAP por medio de la Community Action Agency of Northeast Alabama, los programas de Alabama Power y el aviso de 7 días hábiles de Alabama. Si ya tiene vivienda o un vale de HABD y se atrasa, llame de inmediato a HABD al (205) 521-0774 o al centro de llamadas de vales al (205) 974-4440."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 en Birmingham?",
+        "a": "HABD no lo dice. Al 5 de noviembre de 2026, su página de Sección 8 no indica si la lista está abierta o cerrada y solo explica qué hacer \"When a Housing Choice Voucher program waiting list opens\" (cuando se abre una lista de vales): registrarse en su portal e inscribirse. Su sección de preguntas frecuentes manda a los solicitantes de vales a habdportals.org. Llame al centro de llamadas de vales al (205) 974-4440 antes de suponer que hay una lista abierta, y no haga caso a sitios web que publican un estado que HABD no publica."
+      },
+      {
+        "q": "¿Cómo solicito vivienda pública en Birmingham?",
+        "a": "Con un formulario en papel. La página de vivienda pública de HABD enlaza una solicitud que se puede descargar, y su sección de preguntas frecuentes dice que hay que llenarla y entregarla en el edificio George W. McCoy, 1301 25th Ave. N, o en cualquier centro comunitario de HABD en horario normal. HABD no publica si la lista de algún complejo está abierta ni cuánto dura la espera, así que pregunte cuando entregue el formulario. HABD tiene 14 complejos con más de 4,000 unidades."
+      },
+      {
+        "q": "¿A qué número de HABD debo llamar?",
+        "a": "El (205) 974-4440 es el centro de llamadas del programa de vales, que según HABD atiende preguntas sobre solicitudes, la lista de espera e inspecciones. El (205) 521-0774 es la oficina principal en 1826 3rd Ave. S, Birmingham, AL 35233. Los arrendadores con preguntas sobre la Sección 8 llaman al Departamento de Programas de Ayuda con la Renta al (205) 521-7460. Para reparaciones de emergencia en vivienda pública, el número es (205) 623-5449. El directorio de HUD da otro número principal, el (205) 449-0070, así que use los números del propio sitio de HABD."
+      },
+      {
+        "q": "¿Cuánta renta pagaré con un vale?",
+        "a": "Según las reglas de HUD, una familia con vale o en vivienda pública por lo general paga alrededor del 30% de su ingreso mensual ajustado para la renta y los servicios. El ingreso ajustado es su ingreso bruto menos ciertas deducciones, como las de dependientes y, para hogares de personas mayores o con discapacidad, algunos gastos médicos. Con un vale puede pagar más si escoge una unidad cuya renta pasa del estándar de pago de HABD. HABD publica sus estándares de pago y sus asignaciones para servicios en su página de Sección 8."
+      },
+      {
+        "q": "¿Hay programas especiales para veteranos o personas con discapacidad?",
+        "a": "Sí, por referido. Para HUD-VASH, HABD dice que los veteranos deben estar registrados en los servicios del VA y luego pueden llamar a Cortney Rankins al (205) 936-1365 para una evaluación. El programa Moderate Rehabilitation SRO para personas sin hogar funciona con el Alabama Regional Medical Center, (205) 370-1422. El programa MIMR, basado en proyecto, en Metropolitan Gardens/Park Place atiende hogares cuyo jefe de familia tiene una enfermedad mental, y los solicitantes deben venir referidos por una agencia de salud mental o un médico."
+      },
+      {
+        "q": "¿Puede un arrendador de Birmingham rechazar mi vale?",
+        "a": "Sí. Alabama no tiene una ley que impida que un arrendador rechace a un inquilino por tener un vale de elección de vivienda, y no encontramos ninguna ordenanza de Birmingham que lo haga. Rechazarlo por raza, color, religión, sexo, origen nacional, discapacidad o situación familiar sigue siendo ilegal según la Ley Federal de Vivienda Justa, y puede reportarlo a HUD al 1-800-669-9777. HABD dice que las personas con vales buscan arrendador por su cuenta con los anuncios de AffordableHousing.com, un sitio con el que colabora."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Housing Authority of the Birmingham District - sitio oficial (teléfono principal, dirección), en inglés",
+        "url": "https://www.habd.org/"
+      },
+      {
+        "label": "HABD - HCV (Section 8) (pasos para la lista, centro de llamadas, programas especiales, estándares de pago), en inglés",
+        "url": "https://www.habd.org/hcv-section-8"
+      },
+      {
+        "label": "HABD - Public Housing (14 complejos, formulario de solicitud, direcciones y teléfonos), en inglés",
+        "url": "https://www.habd.org/public-housing"
+      },
+      {
+        "label": "HABD - FAQs (dónde entregar la solicitud de vivienda pública, solicitud de vales en línea, línea para arrendadores), en inglés",
+        "url": "https://www.habd.org/faqs"
+      },
+      {
+        "label": "HABD - Contact Us (consultas generales), en inglés",
+        "url": "https://www.habd.org/contact-us"
+      },
+      {
+        "label": "HABD - Portal de residentes, solicitantes y arrendadores (enlaces de listas de Tuxedo y Freedom Manor), en inglés",
+        "url": "https://www.habdportals.org/"
+      },
+      {
+        "label": "HUD - PHA Contact Report, Alabama (AL001 Combined; AL086, AL125, AL010, AL013, AL069), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_AL.pdf"
+      },
+      {
+        "label": "Condado de Jefferson, Alabama - Community Services (el ERAP terminó), en inglés",
+        "url": "https://www.jccal.org/260/Community-Services"
+      },
+      {
+        "label": "eCFR - 24 CFR 5.628, pago total del inquilino (30 por ciento del ingreso mensual ajustado), en inglés",
+        "url": "https://www.ecfr.gov/current/title-24/section-5.628"
+      }
+    ]
+  }
+}

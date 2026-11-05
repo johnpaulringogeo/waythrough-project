@@ -301,6 +301,7 @@ FAQ_LINK_TARGETS = {
     "fwhs.org": "https://fwhs.org",
     "hano.myhousing.com": "https://hano.myhousing.com",  # fetched live 2026-11-05 (New Orleans set); HANO's applicant portal, says no lists are open
     "habc.org": "https://www.habc.org",
+    "habdportals.org": "https://www.habdportals.org",  # fetched live 2026-11-05 (Birmingham set) in a browser: HABD's RentCafe resident/applicant portal; scripted fetches get 403
     "hacla.org": "https://www.hacla.org",  # fetched live 2026-10-15 (SEO2); Section 8 page says the list is closed
     "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
     "hacm.org/subsidized": "https://www.hacm.org/subsidized",  # fetched live 2026-10-15 (SEO2); HACM's short link to its open waiting lists page; bot-blocked to scripts, live for people
