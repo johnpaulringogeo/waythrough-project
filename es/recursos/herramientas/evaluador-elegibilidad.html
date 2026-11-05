@@ -414,8 +414,10 @@
             }
 
             // SSVF (Veteranos)
-            if (isVeteran && (isHomeless || annualIncome <= vli)) {
-                programs.push({ name: 'SSVF (Servicios de Apoyo para Familias de Veteranos)', status: 'green', text: 'SSVF proporciona realojamiento r\u00e1pido y prevenci\u00f3n de la falta de vivienda para familias de veteranos de muy bajos ingresos. Puede ayudar con dep\u00f3sitos, renta a corto plazo y manejo de casos.', link: '../guias/beneficios-va.html', linkText: 'Conozca los beneficios del VA' });
+            // El aviso de fondos de SSVF del VA para el año fiscal 2027 (FR, 6 de enero de 2026) permite atender ingresos de hasta el 80% del AMI;
+            // 38 CFR 62.2 fija el tope normal en el 50%. El 80% del AMI se aproxima aquí como 1.6 x el límite del 50%.
+            if (isVeteran && (isHomeless || annualIncome <= vli * 1.6)) {
+                programs.push({ name: 'SSVF (Servicios de Apoyo para Familias de Veteranos)', status: 'green', text: 'SSVF proporciona realojamiento r\u00e1pido y prevenci\u00f3n de la falta de vivienda para familias de veteranos de bajos ingresos que no tienen hogar o est\u00e1n en riesgo de perderlo. Para las subvenciones que empezaron el 1 de octubre de 2026, el VA permite atender ingresos de hasta el 80% del ingreso medio del \u00e1rea. Puede ayudar con dep\u00f3sitos, renta a corto plazo y manejo de casos.', link: '../guias/beneficios-va.html', linkText: 'Conozca los beneficios del VA' });
             }
 
             // Recursos de emergencia

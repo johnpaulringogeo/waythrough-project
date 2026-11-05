@@ -508,7 +508,7 @@
         .wizard-intro .wizard-privacy { font-size: 0.85rem; margin: 0.75rem 0 1.25rem; }
         .wizard-more { text-align: left; border-top: 1px solid var(--color-border); padding-top: 1.25rem; }
         .btn-start { min-height: 52px; min-width: 240px; font-size: 1.05rem; }
-        [data-theme="dark"] .btn-start, [data-theme="dark"] .btn-restart, [data-theme="dark"] .door-btn-primary { color: #0f172a; }
+        [data-theme="dark"] .btn-start, [data-theme="dark"] .btn-restart { color: #0f172a; }
         #questionsContainer, #resultsContainer { scroll-margin-top: 80px; }
         .wizard-progress { margin-bottom: 1.25rem; }
         .wizard-question { margin-bottom: 0.5rem; }
@@ -523,7 +523,9 @@
         .door-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
         .door-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0.6rem 1.1rem; border: 2px solid var(--color-primary); border-radius: var(--radius); color: var(--color-primary); background: var(--color-bg-card); font-weight: 600; text-decoration: none; text-align: center; flex: 1 1 auto; }
         .door-btn:hover, .door-btn:focus-visible { background: var(--color-primary-light); }
-        .door-btn-primary, .door-btn-primary:hover { background: var(--color-primary); color: #fff; }
+        /* Primary door: site button tokens (style.css), so text stays readable in light and dark mode, on hover, and after a visit */
+        .door-btn-primary, .post-content a.door-btn.door-btn-primary, .post-content a.door-btn.door-btn-primary:visited { background: var(--color-primary); color: var(--color-on-primary); }
+        .door-btn-primary:hover, .door-btn-primary:focus-visible, .post-content a.door-btn.door-btn-primary:hover, .post-content a.door-btn.door-btn-primary:focus-visible { background: var(--color-primary-dark); border-color: var(--color-primary-dark); color: var(--color-on-primary); }
         .post-content a.resource-card, .post-content a.door-btn { text-decoration: none; }
         .results-more { margin-bottom: 2rem; }
         .results-more > summary { display: flex; align-items: center; min-height: 48px; cursor: pointer; font-weight: 600; color: var(--color-primary); }

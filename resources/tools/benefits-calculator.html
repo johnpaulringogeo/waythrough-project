@@ -882,6 +882,11 @@
                                 <label for="benefit-va"><strong>VA Benefits</strong><br>Veterans Support</label>
                             </div>
                         </div>
+                        <div class="form-group" id="rent-paid-group" style="margin-top: 1.25rem;">
+                            <label for="rent-paid">Rent you pay each month</label>
+                            <input type="number" id="rent-paid" placeholder="$0" min="0" step="1" value="0" inputmode="decimal">
+                            <p class="form-hint">Without Section 8, SNAP counts your full rent in its shelter deduction, which can raise your SNAP amount. Enter the rent you pay (not utilities).</p>
+                        </div>
                     </section>
 
                 </form>
@@ -1003,6 +1008,10 @@
         const grossIncomeInput = document.getElementById('gross-income');
         const dependentsInput = document.getElementById('dependents');
         const elderlyDisabledInput = document.getElementById('elderly-disabled');
+        // Rent the household pays without Section 8 (shown only when Section 8 is unchecked);
+        // used as the SNAP shelter cost in that case.
+        const rentPaidInput = document.getElementById('rent-paid');
+        const rentPaidGroup = document.getElementById('rent-paid-group');
         const resultsSection = document.getElementById('results-section');
         const resultsGrid = document.getElementById('results-grid');
         const chartSection = document.getElementById('chart-section');
@@ -1056,13 +1065,15 @@
         }
 
         // Calculate SNAP benefit
-        function calcSNAP(income, householdSize, section8Rent) {
+        function calcSNAP(income, householdSize, shelterCost) {
             // Simplified FNS formula: income is treated as earnings (20% earned income deduction),
             // minus the standard deduction, minus the excess shelter deduction (shelter costs above
             // half of that income, capped). Benefit = maximum allotment - 30% of net income.
             const maxAllotment = SNAP_ALLOTMENTS[householdSize] || SNAP_ALLOTMENTS[8];
             const standardDeduction = SNAP_STANDARD_DEDUCTION[householdSize] || SNAP_STANDARD_DEDUCTION[8];
-            const shelterCost = section8Rent; // only the Section 8 rent share is known here
+            // shelterCost: the Section 8 rent share when Section 8 is checked, otherwise the rent
+            // the household entered (utilities are not counted here).
+            shelterCost = Math.max(0, shelterCost || 0);
 
             const incomeAfterDeductions = Math.max(0, income * 0.8 - standardDeduction);
             const shelterExcess = Math.min(SNAP_SHELTER_CAP, Math.max(0, shelterCost - (incomeAfterDeductions * 0.5)));
@@ -1144,7 +1155,7 @@
 
             // Calculate amounts
             const { rent: section8Rent, adjustedIncome: section8AdjustedIncome } = calcSection8Rent(income, householdSize);
-            const { snap, netIncome: snapNetIncome } = calcSNAP(income, householdSize, selected.section8 ? section8Rent : 0);
+            const { snap, netIncome: snapNetIncome } = calcSNAP(income, householdSize, selected.section8 ? section8Rent : (parseFloat(rentPaidInput.value) || 0));
             const snapFpl = FPL[householdSize] || FPL[8];
             const ssi = calcSSI(income);
             const medicaid = checkMedicaidEligibility(income, householdSize);
@@ -1417,6 +1428,14 @@
         });
 
         incomeSlider.addEventListener('input', renderChart);
+
+        function syncRentPaid() {
+            rentPaidGroup.style.display = benefitCheckboxes.section8.checked ? 'none' : '';
+        }
+        benefitCheckboxes.section8.addEventListener('change', syncRentPaid);
+        rentPaidInput.addEventListener('input', renderResults);
+        rentPaidInput.addEventListener('input', renderChart);
+        syncRentPaid();
 
         // Initial render
         renderResults();

@@ -395,8 +395,10 @@
             }
 
             // SSVF (Veterans)
-            if (isVeteran && (isHomeless || annualIncome <= vli)) {
-                programs.push({ name: 'SSVF (Supportive Services for Veteran Families)', status: 'green', text: 'SSVF provides rapid re-housing and homelessness prevention for very low-income veteran families. It can help with deposits, short-term rent, and case management.', link: '../guides/va-benefits.html', linkText: 'Learn about VA benefits' });
+            // VA's FY2027 SSVF funding notice (FR Jan. 6, 2026) lets grantees serve incomes up to 80% of AMI;
+            // 38 CFR 62.2 sets the default at 50%. 80% AMI is approximated here as 1.6 x the 50% limit.
+            if (isVeteran && (isHomeless || annualIncome <= vli * 1.6)) {
+                programs.push({ name: 'SSVF (Supportive Services for Veteran Families)', status: 'green', text: 'SSVF provides rapid re-housing and homelessness prevention for lower-income veteran families who are homeless or at risk of losing their home. For grants that began October 1, 2026, VA lets providers serve incomes up to 80% of the area median. It can help with deposits, short-term rent, and case management.', link: '../guides/va-benefits.html', linkText: 'Learn about VA benefits' });
             }
 
             // Emergency resources
