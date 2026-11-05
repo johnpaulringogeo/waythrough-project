@@ -1,0 +1,231 @@
+{
+  "slug": "pittsburgh-hacp",
+  "kind": "authority",
+  "name": "Housing Authority of the City of Pittsburgh (HACP)",
+  "schema_name": "Housing Authority of the City of Pittsburgh",
+  "short_name": "HACP",
+  "title_name": "HACP Pittsburgh",
+  "meta_description": "HACP Pittsburgh: Section 8 voucher list closed; some public housing and project-based lists open. Phone (412) 456-5000, how to apply. Checked Nov 5, 2026.",
+  "status_check_html": "If you have already applied, check your place on HACP's <a href=\"https://hacp.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">Applicant Portal</a> or its automated line, <a href=\"tel:+14125203848\">412-520-3848</a>. HACP says it \"will no longer check your applicant status over the phone.\" Keep your contact information current — if HACP cannot reach you when your name comes up, you can be dropped from the list.",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "serves": "The City of Pittsburgh",
+  "phone": "(412) 456-5000",
+  "official_url": "https://hacp.org/",
+  "apply_url": "https://hacp.org/housing/apply-for-housing/",
+  "city_slug": "pittsburgh",
+  "state_slug": "pennsylvania",
+  "updated": "November 5, 2026",
+  "intro": "The Housing Authority of the City of Pittsburgh (HACP) runs Section 8 Housing Choice Vouchers, public housing and project-based vouchers inside the City of Pittsburgh. HUD lists it as PHA PA001 with a program type of Combined. Its main office and One-Stop Shop are at 412 Boulevard of the Allies, Pittsburgh, PA 15219, and its main line is 412-456-5000. The short version today: HACP says its Housing Choice Voucher waiting list is closed, but it lists open public housing waiting lists at eleven sites and open project-based voucher lists at six properties. Public housing applications go to HACP by email, fax, mail or drop-off; project-based voucher lists use an online pre-application. If you live in Allegheny County outside the city, the Allegheny County Housing Authority runs separate lists, and its voucher list is closed too. This page covers HACP's exact words, how to apply to each kind of list, the phone numbers, and where to turn if you need help with rent now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8); the waiting list is closed",
+    "Public housing (HACP calls it LIPH) at family communities, high rises and scattered sites, each with its own site-based waiting list",
+    "Project-Based Vouchers at partner properties, applied for with an online pre-application at hacp.myhousing.com",
+    "Homeownership Program for public housing residents, voucher holders and some eligible families: up to $7,000 for closing costs and a soft second mortgage of up to $52,000, for a home within Pittsburgh city limits",
+    "Resident Self-Sufficiency, including Family Self-Sufficiency, at 2305 Bedford Avenue, 412-395-3950"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 5, 2026: HACP's waiting-list page says \"The Housing Authority of the City of Pittsburgh Housing Choice Voucher Program Waiting List is now CLOSED.\" and \"We cannot accept applications once the waiting list is closed.\" It adds: \"You will have to wait until the HCV waiting list is accepting applications again.\" No reopening date is posted. People already on the list can check their status on the HACP Applicant Portal or at 412-520-3848; HACP says it \"will no longer check your applicant status over the phone.\""
+    },
+    {
+      "program": "Public housing (site-based lists)",
+      "status": "Open at listed sites",
+      "note": "HACP's Apply for Housing page says \"WAITING LISTS FOR THE FOLLOWING SITES ARE NOW OPEN:\" Arlington Heights (2 bedrooms); Caliguiri High Rise, Carrick Regency, Finello Pavilion, Gualtieri Manor, Mazza Pavilion and Morse Gardens (1 bedroom); Northview Heights (2 to 5 bedrooms); PA Bidwell High Rise and Pressley Street High Rise (1 to 2 bedrooms); and Scattered Sites (2 to 5 bedrooms). Apply by email to occupancy@hacp.org, by fax to 412-456-5182, or by mail or drop-off at the One-Stop Shop, 412 Boulevard of the Allies. HACP's public notice dated October 2, 2026 closed the Christopher Smith Terrace list at 3 p.m. on October 16, 2026 (checked November 5, 2026)."
+    },
+    {
+      "program": "Project-Based Vouchers",
+      "status": "Some lists open \"until further notice\"",
+      "note": "HACP says \"The following PBV waiting lists are OPEN until further notice\": First and Market (1 bedroom, 62+), Larimer Pointe (3 bedrooms), Legacy Apartments (1 bedroom, 62+), Manchester Commons (1 and 4 bedrooms), Sandstone Quarry (3 bedrooms) and The Reed Senior Housing (2 bedrooms, 55+). Apply with an online pre-application at hacp.myhousing.com; your place depends on the date and time it is accepted. HACP closed the PBV lists at City's Edge, Elmer Williams Square, Hillcrest Senior Residences, Lemington Senior Housing, Skyline Terrace and The Reed Senior Housing (1 bedroom) at 3 p.m. on October 16, 2026, and said \"No pre-applications will be accepted for these waiting lists after the closing date and time\" (checked November 5, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>Allegheny County Housing Authority (ACHA)</strong>, HUD code PA006, 301 Chartiers Avenue, McKees Rocks, PA 15136, (412) 355-8940, TTY 800-833-5833 or 711, runs Section 8 and public housing for Allegheny County; ACHA says it \"owns and manages 3,300 units, administers over 5,000 vouchers\" in \"neighborhoods throughout Allegheny County.\" If you live in the suburbs, this is your agency. Its voucher page said on November 5, 2026: \"THE HCVP WAITING LIST IS NOW CLOSED.\" ACHA randomly sorted 6,791 voucher applications received February 4 to 9, 2026 and kept the top 2,000 on its list.",
+    "ACHA's public housing applications are taken online at achsng.myhousing.com, and ACHA says applicants are placed on the list \"according to the date and time of application.\" Its site does not say whether that list is open or closed today, so check the portal or call (412) 355-8940. ACHA notes: \"The ACHA does not have any emergency housing.\"",
+    "<strong>If you are homeless or about to be</strong>, call Allegheny County's <strong>Allegheny Link</strong> at 866-730-2368, Monday through Friday, 8:00 am to 5:00 pm, or go to One Smithfield Street, First Floor. The County says the Link manages openings for family shelters.",
+    "<strong>HACP is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-pittsburgh\">Pittsburgh emergency rent help guide</a>: ACTION-Housing's eviction program, Neighborhood Legal Services, 211, LIHEAP and Pennsylvania's eviction deadlines. If you already have HACP housing or a voucher and fall behind, call HACP at 412-456-5000."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Pittsburgh Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, HACP says its Housing Choice Voucher Program waiting list is closed and that it cannot accept applications while it is closed. No reopening date is posted. HACP does have open public housing lists at eleven sites and open project-based voucher lists at six properties, so you can still apply for those. If you live outside the city, the Allegheny County Housing Authority's voucher list is closed too."
+    },
+    {
+      "q": "Which HACP public housing lists are open?",
+      "a": "HACP lists Arlington Heights, Caliguiri High Rise, Carrick Regency, Finello Pavilion, Gualtieri Manor, Mazza Pavilion, Morse Gardens, Northview Heights, PA Bidwell High Rise, Pressley Street High Rise and Scattered Sites, each for certain bedroom sizes. Lists can close on short notice: HACP closed the Christopher Smith Terrace list on October 16, 2026. Check HACP's Apply for Housing page before you send your application."
+    },
+    {
+      "q": "How do I apply to HACP?",
+      "a": "For public housing, fill out HACP's application and email it to occupancy@hacp.org, fax it to 412-456-5182, or mail or drop it off at the One-Stop Shop, 412 Boulevard of the Allies. For a project-based voucher list, submit an online pre-application at hacp.myhousing.com. If you need a disability accommodation to apply, HACP lists 412-456-5282."
+    },
+    {
+      "q": "How do I check my place on an HACP list?",
+      "a": "Use the HACP Applicant Portal or call HACP's automated line at 412-520-3848. HACP says it will no longer check applicant status over the phone with staff, and that only applicants with a current application can see their number on the list. First-time users need to create an account."
+    },
+    {
+      "q": "I live outside Pittsburgh city limits. Where do I apply?",
+      "a": "Apply to the Allegheny County Housing Authority in McKees Rocks, (412) 355-8940. Its Housing Choice Voucher list is closed after a February 2026 lottery that kept the top 2,000 of 6,791 applications. Its public housing applications are taken online through its portal at achsng.myhousing.com; call to ask which lists are taking names."
+    },
+    {
+      "q": "What does a Section 8 tenant pay in Pittsburgh?",
+      "a": "Under HUD rules, a family with a voucher or in public housing usually pays about 30% of its adjusted monthly income toward rent and utilities, and the housing authority pays the rest of an approved rent. Adjusted income is your income after HUD's deductions, such as those for children, elderly or disabled family members, and some medical and child care costs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "HACP - Open Wait List (Housing Choice Voucher list closed, status line, applicant portal)",
+      "url": "https://hacp.org/housing/open-wait-list/"
+    },
+    {
+      "label": "HACP - Apply for Housing (open public housing site lists, open PBV lists, how to apply, accommodations)",
+      "url": "https://hacp.org/housing/apply-for-housing/"
+    },
+    {
+      "label": "HACP - Public notice: lists closing October 16, 2026 (Christopher Smith Terrace and six PBV lists)",
+      "url": "https://hacp.org/public_notices/hacp-to-close-one-community-several-project-based-voucher-waiting-lists-on-oct-16-2026/"
+    },
+    {
+      "label": "HACP - Contact (main line, TTY, hours, HCV and Occupancy departments, Resident Self-Sufficiency)",
+      "url": "https://hacp.org/about/contact/"
+    },
+    {
+      "label": "HACP - Housing Choice Voucher program (forms, change of address)",
+      "url": "https://hacp.org/housing/housing-choice-voucher/"
+    },
+    {
+      "label": "HACP - Homeownership Program",
+      "url": "https://hacp.org/housing/home-ownership/"
+    },
+    {
+      "label": "Allegheny County Housing Authority - Homepage (2026 voucher lottery, phone, TTY)",
+      "url": "https://www.achsng.com/"
+    },
+    {
+      "label": "Allegheny County Housing Authority - Housing Choice Voucher application (list closed)",
+      "url": "https://www.achsng.com/applicationHCVP.asp"
+    },
+    {
+      "label": "Allegheny County Housing Authority - Public housing application and About ACHA",
+      "url": "https://www.achsng.com/applicationLIPH.asp"
+    },
+    {
+      "label": "Allegheny County - Allegheny Link",
+      "url": "https://www.alleghenycounty.us/Services/Human-Services-DHS/Contact-DHS/Allegheny-Link"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Pennsylvania (PA001 Combined; PA006 Combined)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_PA.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "HACP Pittsburgh: Sección 8 cerrada; hay listas de vivienda pública y de vales por proyecto abiertas. Teléfono (412) 456-5000. Verificado el 5 de nov. de 2026.",
+    "status_check_html": "Si ya presentó su solicitud, revise su lugar en el <a href=\"https://hacp.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">portal de solicitantes</a> de HACP o en su línea automática, <a href=\"tel:+14125203848\">412-520-3848</a>. HACP dice que \"will no longer check your applicant status over the phone\" (ya no revisa por teléfono el estado de su solicitud). Mantenga su información de contacto al día — si HACP no puede localizarle cuando le toque su turno, pueden retirarle de la lista.",
+    "serves": "La ciudad de Pittsburgh",
+    "updated": "5 de noviembre de 2026",
+    "intro": "La Housing Authority of the City of Pittsburgh (HACP) maneja los vales de Sección 8 (Housing Choice Vouchers), la vivienda pública y los vales basados en proyectos dentro de la ciudad de Pittsburgh. HUD la registra como la PHA PA001, con tipo de programa Combined (combinado). Su oficina principal y su One-Stop Shop están en 412 Boulevard of the Allies, Pittsburgh, PA 15219, y su línea principal es el 412-456-5000. En resumen: HACP dice que su lista de espera de vales está cerrada, pero publica listas de vivienda pública abiertas en once sitios y listas de vales por proyecto abiertas en seis propiedades. Las solicitudes de vivienda pública se mandan a HACP por correo electrónico, fax, correo o en persona; las listas de vales por proyecto usan una presolicitud en línea. Si vive en el condado de Allegheny fuera de la ciudad, la Allegheny County Housing Authority maneja listas aparte, y su lista de vales también está cerrada. Esta página reúne las palabras exactas de HACP, cómo solicitar en cada tipo de lista, los teléfonos y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher); la lista de espera está cerrada",
+      "Vivienda pública (HACP la llama LIPH) en comunidades familiares, edificios altos y viviendas dispersas, cada una con su propia lista de espera",
+      "Vales basados en proyectos en propiedades asociadas, con una presolicitud en línea en hacp.myhousing.com",
+      "Programa de compra de vivienda para residentes de vivienda pública, personas con vale y algunas familias elegibles: hasta $7,000 para gastos de cierre y una segunda hipoteca flexible de hasta $52,000, para una casa dentro de los límites de Pittsburgh",
+      "Resident Self-Sufficiency, incluido el programa de Autosuficiencia Familiar (FSS), en 2305 Bedford Avenue, 412-395-3950"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 5 de noviembre de 2026: la página de la lista de espera de HACP dice \"The Housing Authority of the City of Pittsburgh Housing Choice Voucher Program Waiting List is now CLOSED\" (la lista de espera del programa de vales está CERRADA) y \"We cannot accept applications once the waiting list is closed\" (no podemos aceptar solicitudes cuando la lista está cerrada). Agrega que hay que esperar a que la lista vuelva a recibir solicitudes. No hay fecha de reapertura publicada. Quienes ya están en la lista pueden revisar su estado en el portal de solicitantes de HACP o al 412-520-3848; HACP dice que \"will no longer check your applicant status over the phone\" (ya no revisa por teléfono el estado de su solicitud)."
+      },
+      {
+        "program": "Vivienda pública (listas por sitio)",
+        "status": "Abierta en los sitios publicados",
+        "note": "La página Apply for Housing de HACP dice \"WAITING LISTS FOR THE FOLLOWING SITES ARE NOW OPEN:\" (las listas de estos sitios están abiertas): Arlington Heights (2 recámaras); Caliguiri High Rise, Carrick Regency, Finello Pavilion, Gualtieri Manor, Mazza Pavilion y Morse Gardens (1 recámara); Northview Heights (de 2 a 5 recámaras); PA Bidwell High Rise y Pressley Street High Rise (de 1 a 2 recámaras); y Scattered Sites (de 2 a 5 recámaras). Envíe su solicitud por correo electrónico a occupancy@hacp.org, por fax al 412-456-5182, o por correo o en persona en el One-Stop Shop, 412 Boulevard of the Allies. El aviso público de HACP del 2 de octubre de 2026 cerró la lista de Christopher Smith Terrace a las 3 p.m. del 16 de octubre de 2026 (verificado el 5 de noviembre de 2026)."
+      },
+      {
+        "program": "Vales basados en proyectos",
+        "status": "Algunas listas abiertas \"until further notice\" (hasta nuevo aviso)",
+        "note": "HACP dice \"The following PBV waiting lists are OPEN until further notice\" (estas listas están abiertas hasta nuevo aviso): First and Market (1 recámara, 62 años o más), Larimer Pointe (3 recámaras), Legacy Apartments (1 recámara, 62 años o más), Manchester Commons (1 y 4 recámaras), Sandstone Quarry (3 recámaras) y The Reed Senior Housing (2 recámaras, 55 años o más). Solicite con una presolicitud en línea en hacp.myhousing.com; su lugar depende de la fecha y hora en que se acepte. HACP cerró las listas de City's Edge, Elmer Williams Square, Hillcrest Senior Residences, Lemington Senior Housing, Skyline Terrace y The Reed Senior Housing (1 recámara) a las 3 p.m. del 16 de octubre de 2026, y dijo que no aceptará presolicitudes para esas listas después del cierre (verificado el 5 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "<strong>Allegheny County Housing Authority (ACHA)</strong>, código de HUD PA006, 301 Chartiers Avenue, McKees Rocks, PA 15136, (412) 355-8940, TTY 800-833-5833 o 711, maneja la Sección 8 y la vivienda pública del condado de Allegheny; ACHA dice que \"owns and manages 3,300 units, administers over 5,000 vouchers\" (es dueña y administra 3,300 unidades y más de 5,000 vales) en vecindarios de todo el condado. Si vive en los suburbios, esta es su agencia. Su página de vales decía el 5 de noviembre de 2026: \"THE HCVP WAITING LIST IS NOW CLOSED\" (la lista de vales está cerrada). ACHA ordenó al azar 6,791 solicitudes de vales recibidas del 4 al 9 de febrero de 2026 y dejó en su lista a las primeras 2,000.",
+      "ACHA recibe solicitudes de vivienda pública en línea en achsng.myhousing.com y dice que los solicitantes entran a la lista según la fecha y hora de su solicitud. Su sitio no dice si esa lista está abierta o cerrada hoy, así que revise el portal o llame al (412) 355-8940. ACHA aclara: \"The ACHA does not have any emergency housing\" (ACHA no tiene vivienda de emergencia).",
+      "<strong>Si está sin hogar o a punto de estarlo</strong>, llame al <strong>Allegheny Link</strong> del condado de Allegheny al 866-730-2368, de lunes a viernes de 8:00 am a 5:00 pm, o vaya a One Smithfield Street, primer piso. El condado dice que el Link maneja los cupos de los refugios para familias.",
+      "<strong>HACP no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-pittsburgh\">guía de ayuda de emergencia con la renta en Pittsburgh</a>: el programa de desalojos de ACTION-Housing, Neighborhood Legal Services, el 211, LIHEAP y los plazos de desalojo de Pensilvania. Si ya tiene vivienda o un vale de HACP y se atrasa, llame a HACP al 412-456-5000."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Pittsburgh?",
+        "a": "No. Al 5 de noviembre de 2026, HACP dice que la lista de espera de su programa de vales está cerrada y que no puede aceptar solicitudes mientras siga cerrada. No hay fecha de reapertura publicada. HACP sí tiene listas de vivienda pública abiertas en once sitios y listas de vales por proyecto abiertas en seis propiedades, así que todavía puede solicitar en esas. Si vive fuera de la ciudad, la lista de vales de la Allegheny County Housing Authority también está cerrada."
+      },
+      {
+        "q": "¿Qué listas de vivienda pública de HACP están abiertas?",
+        "a": "HACP nombra Arlington Heights, Caliguiri High Rise, Carrick Regency, Finello Pavilion, Gualtieri Manor, Mazza Pavilion, Morse Gardens, Northview Heights, PA Bidwell High Rise, Pressley Street High Rise y Scattered Sites, cada una para ciertos tamaños de vivienda. Las listas pueden cerrar con poco aviso: HACP cerró la de Christopher Smith Terrace el 16 de octubre de 2026. Revise la página Apply for Housing de HACP antes de mandar su solicitud."
+      },
+      {
+        "q": "¿Cómo solicito a HACP?",
+        "a": "Para vivienda pública, llene la solicitud de HACP y envíela por correo electrónico a occupancy@hacp.org, por fax al 412-456-5182, o por correo o en persona en el One-Stop Shop, 412 Boulevard of the Allies. Para una lista de vales por proyecto, envíe una presolicitud en línea en hacp.myhousing.com. Si necesita un ajuste por discapacidad para solicitar, HACP da el número 412-456-5282."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en una lista de HACP?",
+        "a": "Use el portal de solicitantes de HACP o llame a la línea automática de HACP al 412-520-3848. HACP dice que su personal ya no revisa por teléfono el estado de las solicitudes, y que solo quienes tienen una solicitud vigente pueden ver su número en la lista. La primera vez tiene que crear una cuenta."
+      },
+      {
+        "q": "Vivo fuera de los límites de Pittsburgh. ¿Dónde solicito?",
+        "a": "Solicite a la Allegheny County Housing Authority en McKees Rocks, (412) 355-8940. Su lista de vales está cerrada después de un sorteo de febrero de 2026 que dejó a las primeras 2,000 de 6,791 solicitudes. Sus solicitudes de vivienda pública se reciben en línea en su portal, achsng.myhousing.com; llame para preguntar qué listas están recibiendo nombres."
+      },
+      {
+        "q": "¿Cuánto paga un inquilino de Sección 8 en Pittsburgh?",
+        "a": "Según las reglas de HUD, una familia con vale o en vivienda pública por lo general paga alrededor del 30% de su ingreso mensual ajustado para la renta y los servicios, y la autoridad de vivienda paga el resto de una renta aprobada. El ingreso ajustado es su ingreso después de las deducciones de HUD, como las que hay por hijos, por familiares mayores o con discapacidad y por algunos gastos médicos y de cuidado de niños."
+      }
+    ],
+    "sources": [
+      {
+        "label": "HACP - Open Wait List (lista de vales cerrada, línea de estado, portal de solicitantes), en inglés",
+        "url": "https://hacp.org/housing/open-wait-list/"
+      },
+      {
+        "label": "HACP - Apply for Housing (listas de vivienda pública y de vales por proyecto abiertas, cómo solicitar), en inglés",
+        "url": "https://hacp.org/housing/apply-for-housing/"
+      },
+      {
+        "label": "HACP - Aviso público: listas que cerraron el 16 de octubre de 2026, en inglés",
+        "url": "https://hacp.org/public_notices/hacp-to-close-one-community-several-project-based-voucher-waiting-lists-on-oct-16-2026/"
+      },
+      {
+        "label": "HACP - Contact (línea principal, TTY, horario, departamentos), en inglés",
+        "url": "https://hacp.org/about/contact/"
+      },
+      {
+        "label": "HACP - Housing Choice Voucher (formularios, cambio de dirección), en inglés",
+        "url": "https://hacp.org/housing/housing-choice-voucher/"
+      },
+      {
+        "label": "HACP - Homeownership Program (compra de vivienda), en inglés",
+        "url": "https://hacp.org/housing/home-ownership/"
+      },
+      {
+        "label": "Allegheny County Housing Authority - Página principal (sorteo de vales de 2026, teléfono, TTY), en inglés",
+        "url": "https://www.achsng.com/"
+      },
+      {
+        "label": "Allegheny County Housing Authority - Solicitud de vales (lista cerrada), en inglés",
+        "url": "https://www.achsng.com/applicationHCVP.asp"
+      },
+      {
+        "label": "Allegheny County Housing Authority - Solicitud de vivienda pública, en inglés",
+        "url": "https://www.achsng.com/applicationLIPH.asp"
+      },
+      {
+        "label": "Condado de Allegheny - Allegheny Link, en inglés",
+        "url": "https://www.alleghenycounty.us/Services/Human-Services-DHS/Contact-DHS/Allegheny-Link"
+      },
+      {
+        "label": "HUD - PHA Contact Report, Pensilvania (PA001 y PA006), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_PA.pdf"
+      }
+    ]
+  }
+}

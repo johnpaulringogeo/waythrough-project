@@ -1,0 +1,221 @@
+{
+  "slug": "cincinnati-cmha",
+  "kind": "authority",
+  "name": "Cincinnati Metropolitan Housing Authority (CMHA)",
+  "schema_name": "Cincinnati Metropolitan Housing Authority",
+  "short_name": "CMHA",
+  "title_name": "CMHA Cincinnati",
+  "meta_description": "CMHA Cincinnati: Section 8 voucher list closed; public housing takes applications any time. Phone (513) 721-4580, how to apply. Checked Nov 5, 2026.",
+  "status_check_html": "If you are already on the voucher list, call <a href=\"tel:+15139775800\">513-977-5800</a>; CMHA says staff \"will not be able to provide you with a position number but will confirm if you're active on the list.\" For public housing, log in to the CMHA portal and click \"Wait List Status.\" Tell CMHA in writing if your address changes and keep the email you applied with, since CMHA contacts applicants by email.",
+  "city": "Cincinnati",
+  "state": "OH",
+  "serves": "Cincinnati and Hamilton County",
+  "phone": "(513) 721-4580",
+  "official_url": "https://cintimha.com/",
+  "apply_url": "https://cintimha.com/housing/asset_management/how_to_apply/apply_for_housing.php",
+  "city_slug": "cincinnati",
+  "state_slug": "ohio",
+  "updated": "November 5, 2026",
+  "intro": "The Cincinnati Metropolitan Housing Authority (CMHA) runs Section 8 Housing Choice Vouchers and public housing for Cincinnati and the rest of Hamilton County. HUD lists it as PHA OH004 with a program type of Combined. It is a different agency from the Cuyahoga Metropolitan Housing Authority in Cleveland and the Columbus Metropolitan Housing Authority, which also go by CMHA. Its main office is at 1627 Western Ave, Cincinnati, OH 45214, (513) 721-4580, and its voucher customer service office is next door at 1635 Western Ave, (513) 977-5800. The short version today: CMHA says its Housing Choice Voucher waiting list is closed, and people picked in its 2026 lottery wait behind the current list. Public housing is the open door: CMHA says you can submit a preliminary application at any time through its online portal. This page covers CMHA's exact words, how its lists work, the phone numbers, and the other housing authorities around Cincinnati.",
+  "programs": [
+    "Housing Choice Voucher (Section 8); the waiting list is closed",
+    "Public housing (CMHA calls it Asset Management): \"over 3,700 units varying between efficiency and six-bedroom, located within Hamilton County\"",
+    "Project-Based Vouchers at partner apartment communities, with lists joined through Rent Cafe",
+    "Family Self-Sufficiency: \"a voluntary, five-year employment incentive program\" for voucher holders and public housing residents",
+    "HCV Homeownership vouchers through the Family Self-Sufficiency department"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 5, 2026: CMHA's waiting-list page says \"The waiting list for CMHA's Housing Choice Voucher Program is currently closed.\" On its 2026 lottery it says: \"You will receive a notice indicating that you were selected to be placed on the 2026 HCV Wait List via email. CMHA will begin to pull from the 2026 HCV Wait List after the current wait list is exhausted.\" If you were not picked, CMHA says \"you may reapply when our wait list is open in the future.\" Its estimate: \"Our best estimate for the wait can be 6 months to 3 years.\" CMHA says \"A placement number is assigned by a random-draw system and preferences\" and that all contact with applicants is by email."
+    },
+    {
+      "program": "Public housing",
+      "status": "Taking preliminary applications at any time",
+      "note": "CMHA's Apply for Housing page says: \"You can submit a preliminary application at any time. Once you apply, your application will stay on the waiting list until you are selected.\" Register on CMHA's portal at myinfo.cintimha.com. CMHA says that after you log in and choose \"Apply to Waitlist,\" \"You will only be able to open the waitlists that are featured or highlighted.\" To check your status, CMHA says to click \"Wait List Status\"; you are active if the status says \"On List\" (checked November 5, 2026)."
+    }
+  ],
+  "also_serving": [
+    "Other Ohio housing authorities near Cincinnati run their own lists (HUD's Ohio contact list): <strong>Butler Metropolitan Housing Authority</strong>, 4110 Hamilton Middletown Rd, Hamilton, (513) 896-4411; <strong>Clermont Metropolitan Housing Authority</strong>, 65 S. Market St, Batavia, (513) 732-6010; and <strong>Warren Metropolitan Housing Authority</strong>, 990 E Ridge Dr, Lebanon, (513) 695-3380.",
+    "In Northern Kentucky (HUD's Kentucky contact list): the <strong>Housing Authority of Covington</strong>, 2300 Madison Ave, Covington, (859) 292-2145; the <strong>Housing Authority of Newport</strong>, 30 E 8th St, Newport, (859) 581-2533; and the <strong>Campbell County Department of Housing</strong>, Newport, (859) 261-5200. We did not check these agencies' list status; call before you apply.",
+    "<strong>If you need shelter tonight</strong>, call the Central Access Point at 513-381-SAFE (7233). Its operator notes that it does not provide rental assistance or services beyond shelter placement.",
+    "<strong>CMHA is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-cincinnati\">Cincinnati emergency rent help guide</a>: the City's Access to Counsel program, Legal Aid, 211, Cincinnati's Pay to Stay law and Ohio's eviction deadlines. If you already have CMHA housing or a voucher and fall behind, call CMHA right away and get legal help, because an eviction can cost you your assistance."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Cincinnati Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, CMHA says the waiting list for its Housing Choice Voucher Program is currently closed. People picked in its 2026 lottery were told by email, and CMHA says it will start pulling from the 2026 list after the current list is used up. If you were not picked, you can reapply the next time the list opens. Public housing is different: CMHA takes preliminary applications at any time."
+    },
+    {
+      "q": "How do I apply for CMHA public housing?",
+      "a": "Register on CMHA's applicant portal at myinfo.cintimha.com, choose Apply to Waitlist, and apply to the lists that are featured or highlighted. CMHA says your application stays on the waiting list until you are selected. Keep your email address working, answer CMHA's requests by the deadline, and tell CMHA in writing if your mailing address changes."
+    },
+    {
+      "q": "How long is the wait for CMHA?",
+      "a": "For vouchers, CMHA says its best estimate is 6 months to 3 years. It explains that it gets no new vouchers from HUD, so it can only offer help when someone leaves the program, and that your place is set by a random draw and preferences. None of these estimates is a promise, and Section 8 is not built for emergencies."
+    },
+    {
+      "q": "How do I check my status with CMHA?",
+      "a": "For the voucher list, call 513-977-5800; staff will tell you whether you are active but not your position number. For public housing, log in to the CMHA portal and click Wait List Status; you are active if it says On List. The voucher office is at 1635 Western Ave, open Monday to Friday, 8:00 am to 4:30 pm, and its email is hcvhelp@cintimha.com."
+    },
+    {
+      "q": "I live in Northern Kentucky or outside Hamilton County. Where do I apply?",
+      "a": "Apply to your own county's agency. In Ohio, the Butler, Clermont and Warren metropolitan housing authorities run separate lists. In Kentucky, the Housing Authority of Covington and the Housing Authority of Newport serve their cities. You can be on more than one list at a time, so apply to every agency where you would be willing to live."
+    },
+    {
+      "q": "What does a Section 8 tenant pay in Cincinnati?",
+      "a": "Under HUD rules, a family with a voucher or in public housing usually pays about 30% of its adjusted monthly income toward rent and utilities, and the housing authority pays the rest of an approved rent. Adjusted income is your income after HUD's deductions, such as those for children, elderly or disabled family members, and some medical and child care costs. CMHA lists the income limit for vouchers as 50% of the area median income."
+    }
+  ],
+  "sources": [
+    {
+      "label": "CMHA - HCV Waiting List (list closed, 2026 lottery, wait estimate, status line, address changes)",
+      "url": "https://cintimha.com/housing/housing_choice_voucher_program/how_to_apply/waiting_list.php"
+    },
+    {
+      "label": "CMHA - Apply for Housing (public housing preliminary applications at any time, 3,700 units, portal)",
+      "url": "https://cintimha.com/housing/asset_management/how_to_apply/apply_for_housing.php"
+    },
+    {
+      "label": "CMHA - How do I know what waitlists are open / if I am still on the waitlist",
+      "url": "https://cintimha.com/how_do_i/find_housing/how_do_i_know_what_waitlists_are_open.php"
+    },
+    {
+      "label": "CMHA - About the HCV program (customer service line, office, hours)",
+      "url": "https://cintimha.com/housing/housing_choice_voucher_program/about_hcv/index.php"
+    },
+    {
+      "label": "CMHA - HCV eligibility (50% of area median income)",
+      "url": "https://cintimha.com/housing/housing_choice_voucher_program/how_to_apply/eligibility.php"
+    },
+    {
+      "label": "CMHA - Project-Based Vouchers",
+      "url": "https://cintimha.com/housing/housing_choice_voucher_program/project_based_vouchers.php"
+    },
+    {
+      "label": "CMHA - Family Self-Sufficiency",
+      "url": "https://cintimha.com/departments/family_self_sufficiency_program/about_fss/index.php"
+    },
+    {
+      "label": "CMHA - Homepage (main office address and phone)",
+      "url": "https://cintimha.com/"
+    },
+    {
+      "label": "Strategies to End Homelessness - Find services (Central Access Point)",
+      "url": "https://strategiestoendhomelessness.org/find-services/"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Ohio (OH004 Combined; OH015; OH038; OH049)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Kentucky (KY002; KY015; KY136)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "CMHA Cincinnati: lista de Sección 8 cerrada; la vivienda pública recibe solicitudes siempre. Teléfono (513) 721-4580, cómo solicitar. Verificado nov. 2026.",
+    "status_check_html": "Si ya está en la lista de vales, llame al <a href=\"tel:+15139775800\">513-977-5800</a>; CMHA dice que el personal no le puede dar su número en la lista, pero sí le confirma si sigue activo. Para vivienda pública, entre al portal de CMHA y haga clic en \"Wait List Status\" (estado en la lista). Avise por escrito a CMHA si cambia de dirección y conserve el correo electrónico con el que solicitó, porque CMHA se comunica con los solicitantes por correo electrónico.",
+    "serves": "Cincinnati y el condado de Hamilton",
+    "updated": "5 de noviembre de 2026",
+    "intro": "La Cincinnati Metropolitan Housing Authority (CMHA) maneja los vales de Sección 8 (Housing Choice Vouchers) y la vivienda pública de Cincinnati y el resto del condado de Hamilton. HUD la registra como la PHA OH004, con tipo de programa Combined (combinado). Es una agencia distinta de la Cuyahoga Metropolitan Housing Authority de Cleveland y de la Columbus Metropolitan Housing Authority, que también se llaman CMHA. Su oficina principal está en 1627 Western Ave, Cincinnati, OH 45214, (513) 721-4580, y la oficina de servicio al cliente de vales está al lado, en 1635 Western Ave, (513) 977-5800. En resumen: CMHA dice que su lista de espera de vales está cerrada, y quienes salieron elegidos en su sorteo de 2026 esperan detrás de la lista actual. La vivienda pública es la puerta abierta: CMHA dice que puede enviar una solicitud preliminar en cualquier momento por su portal en línea. Esta página reúne las palabras exactas de CMHA, cómo funcionan sus listas, los teléfonos y las otras autoridades de vivienda alrededor de Cincinnati.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher); la lista de espera está cerrada",
+      "Vivienda pública (CMHA la llama Asset Management): \"over 3,700 units\" (más de 3,700 unidades), desde estudios hasta seis recámaras, en el condado de Hamilton",
+      "Vales basados en proyectos en complejos de apartamentos asociados, con listas a las que se entra por Rent Cafe",
+      "Autosuficiencia familiar (FSS): \"a voluntary, five-year employment incentive program\" (un programa voluntario de cinco años con incentivos de empleo) para personas con vale y residentes de vivienda pública",
+      "Vales para compra de vivienda (HCV Homeownership) por medio del departamento de FSS"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 5 de noviembre de 2026: la página de la lista de espera de CMHA dice \"The waiting list for CMHA's Housing Choice Voucher Program is currently closed\" (la lista de espera del programa de vales está cerrada por ahora). Sobre su sorteo de 2026 dice que quienes salieron elegidos reciben un aviso por correo electrónico y que \"CMHA will begin to pull from the 2026 HCV Wait List after the current wait list is exhausted\" (CMHA empezará a llamar de la lista de 2026 cuando se acabe la lista actual). Si no salió elegido, CMHA dice que puede volver a solicitar cuando la lista abra en el futuro. Su cálculo: \"Our best estimate for the wait can be 6 months to 3 years\" (la espera puede ser de 6 meses a 3 años). CMHA dice que el número en la lista se asigna por sorteo y por preferencias, y que todo contacto con los solicitantes es por correo electrónico."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "Recibe solicitudes preliminares en cualquier momento",
+        "note": "La página Apply for Housing de CMHA dice: \"You can submit a preliminary application at any time. Once you apply, your application will stay on the waiting list until you are selected\" (puede enviar una solicitud preliminar en cualquier momento; su solicitud se queda en la lista hasta que lo seleccionen). Regístrese en el portal de CMHA, myinfo.cintimha.com. CMHA dice que, al entrar y elegir \"Apply to Waitlist\", solo podrá abrir las listas que aparecen destacadas. Para revisar su estado, haga clic en \"Wait List Status\"; está activo si dice \"On List\" (verificado el 5 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "Otras autoridades de vivienda de Ohio cerca de Cincinnati manejan sus propias listas (lista de contactos de HUD para Ohio): la <strong>Butler Metropolitan Housing Authority</strong>, 4110 Hamilton Middletown Rd, Hamilton, (513) 896-4411; la <strong>Clermont Metropolitan Housing Authority</strong>, 65 S. Market St, Batavia, (513) 732-6010; y la <strong>Warren Metropolitan Housing Authority</strong>, 990 E Ridge Dr, Lebanon, (513) 695-3380.",
+      "En el norte de Kentucky (lista de contactos de HUD para Kentucky): la <strong>Housing Authority of Covington</strong>, 2300 Madison Ave, Covington, (859) 292-2145; la <strong>Housing Authority of Newport</strong>, 30 E 8th St, Newport, (859) 581-2533; y el <strong>Campbell County Department of Housing</strong>, Newport, (859) 261-5200. No revisamos el estado de las listas de estas agencias; llame antes de solicitar.",
+      "<strong>Si necesita refugio esta noche</strong>, llame al Central Access Point al 513-381-SAFE (7233). La organización que lo maneja aclara que no da ayuda con la renta ni servicios más allá de colocar a la persona en un refugio.",
+      "<strong>CMHA no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-cincinnati\">guía de ayuda de emergencia con la renta en Cincinnati</a>: el programa Access to Counsel de la Ciudad, Legal Aid, el 211, la ley Pay to Stay de Cincinnati y los plazos de desalojo de Ohio. Si ya tiene vivienda o un vale de CMHA y se atrasa, llame a CMHA de inmediato y busque ayuda legal, porque un desalojo le puede costar su ayuda."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Cincinnati?",
+        "a": "No. Al 5 de noviembre de 2026, CMHA dice que la lista de espera de su programa de vales está cerrada por ahora. A quienes salieron elegidos en su sorteo de 2026 se les avisó por correo electrónico, y CMHA dice que empezará a llamar de la lista de 2026 cuando se acabe la actual. Si no salió elegido, puede volver a solicitar la próxima vez que abra la lista. La vivienda pública es distinta: CMHA recibe solicitudes preliminares en cualquier momento."
+      },
+      {
+        "q": "¿Cómo solicito vivienda pública de CMHA?",
+        "a": "Regístrese en el portal de solicitantes de CMHA, myinfo.cintimha.com, elija Apply to Waitlist y solicite en las listas que aparecen destacadas. CMHA dice que su solicitud se queda en la lista hasta que lo seleccionen. Mantenga su correo electrónico activo, responda a CMHA antes de la fecha límite que le den y avise a CMHA por escrito si cambia su dirección postal."
+      },
+      {
+        "q": "¿Cuánto dura la espera con CMHA?",
+        "a": "Para los vales, CMHA dice que su mejor cálculo es de 6 meses a 3 años. Explica que no recibe vales nuevos de HUD, así que solo puede ofrecer ayuda cuando alguien deja el programa, y que su lugar se decide por sorteo y por preferencias. Ninguno de estos cálculos es una promesa, y la Sección 8 no está hecha para emergencias."
+      },
+      {
+        "q": "¿Cómo reviso mi estado con CMHA?",
+        "a": "Para la lista de vales, llame al 513-977-5800; el personal le dice si sigue activo, pero no su número en la lista. Para vivienda pública, entre al portal de CMHA y haga clic en Wait List Status; está activo si dice On List. La oficina de vales está en 1635 Western Ave, abierta de lunes a viernes de 8:00 am a 4:30 pm, y su correo electrónico es hcvhelp@cintimha.com."
+      },
+      {
+        "q": "Vivo en el norte de Kentucky o fuera del condado de Hamilton. ¿Dónde solicito?",
+        "a": "Solicite a la agencia de su propio condado. En Ohio, las autoridades metropolitanas de vivienda de Butler, Clermont y Warren manejan listas aparte. En Kentucky, la Housing Authority of Covington y la Housing Authority of Newport atienden sus ciudades. Puede estar en más de una lista a la vez, así que solicite en cada agencia donde estaría dispuesto a vivir."
+      },
+      {
+        "q": "¿Cuánto paga un inquilino de Sección 8 en Cincinnati?",
+        "a": "Según las reglas de HUD, una familia con vale o en vivienda pública por lo general paga alrededor del 30% de su ingreso mensual ajustado para la renta y los servicios, y la autoridad de vivienda paga el resto de una renta aprobada. El ingreso ajustado es su ingreso después de las deducciones de HUD, como las que hay por hijos, por familiares mayores o con discapacidad y por algunos gastos médicos y de cuidado de niños. CMHA pone el límite de ingresos para los vales en el 50% del ingreso medio del área."
+      }
+    ],
+    "sources": [
+      {
+        "label": "CMHA - HCV Waiting List (lista cerrada, sorteo de 2026, espera estimada, línea de estado), en inglés",
+        "url": "https://cintimha.com/housing/housing_choice_voucher_program/how_to_apply/waiting_list.php"
+      },
+      {
+        "label": "CMHA - Apply for Housing (solicitudes preliminares de vivienda pública en cualquier momento, portal), en inglés",
+        "url": "https://cintimha.com/housing/asset_management/how_to_apply/apply_for_housing.php"
+      },
+      {
+        "label": "CMHA - Qué listas están abiertas / si sigo en la lista, en inglés",
+        "url": "https://cintimha.com/how_do_i/find_housing/how_do_i_know_what_waitlists_are_open.php"
+      },
+      {
+        "label": "CMHA - Sobre el programa de vales (servicio al cliente, oficina, horario), en inglés",
+        "url": "https://cintimha.com/housing/housing_choice_voucher_program/about_hcv/index.php"
+      },
+      {
+        "label": "CMHA - Elegibilidad para vales (50% del ingreso medio del área), en inglés",
+        "url": "https://cintimha.com/housing/housing_choice_voucher_program/how_to_apply/eligibility.php"
+      },
+      {
+        "label": "CMHA - Vales basados en proyectos, en inglés",
+        "url": "https://cintimha.com/housing/housing_choice_voucher_program/project_based_vouchers.php"
+      },
+      {
+        "label": "CMHA - Autosuficiencia familiar (FSS), en inglés",
+        "url": "https://cintimha.com/departments/family_self_sufficiency_program/about_fss/index.php"
+      },
+      {
+        "label": "CMHA - Página principal (dirección y teléfono de la oficina principal), en inglés",
+        "url": "https://cintimha.com/"
+      },
+      {
+        "label": "Strategies to End Homelessness - Central Access Point, en inglés",
+        "url": "https://strategiestoendhomelessness.org/find-services/"
+      },
+      {
+        "label": "HUD - PHA Contact Report, Ohio (OH004, OH015, OH038, OH049), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OH.pdf"
+      },
+      {
+        "label": "HUD - PHA Contact Report, Kentucky (KY002, KY015, KY136), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+      }
+    ]
+  }
+}

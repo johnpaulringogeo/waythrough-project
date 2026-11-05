@@ -288,7 +288,9 @@ FAQ_LINK_TARGETS = {
     "cabq.gov/help/rental-assistance": "https://www.cabq.gov/help/rental-assistance",
     "ccrd.colorado.gov": "https://ccrd.colorado.gov",
     "chicago.gov": "https://chicago.gov",
+    "cintimha.com": "https://cintimha.com",  # fetched live 2026-11-05 (Cincinnati); Cincinnati Metropolitan Housing Authority
     "chnhousingpartners.org": "https://chnhousingpartners.org",
+    "cincyhelpcenter.org": "https://cincyhelpcenter.org",  # fetched live 2026-11-05 (Cincinnati); Hamilton County Court Help Center
     "cmha.net": "https://cmha.net",
     "cmhanet.com/apply-housing-waitlist": "https://www.cmhanet.com/apply-housing-waitlist",  # fetched live 2026-09-21 (W-2/3 + X2); replaces cmhanet.com/HCV/ProspectiveResidents
     "connect.homeforward.org": "https://connect.homeforward.org",
@@ -302,6 +304,8 @@ FAQ_LINK_TARGETS = {
     "hano.myhousing.com": "https://hano.myhousing.com",  # fetched live 2026-11-05 (New Orleans set); HANO's applicant portal, says no lists are open
     "habc.org": "https://www.habc.org",
     "habdportals.org": "https://www.habdportals.org",  # fetched live 2026-11-05 (Birmingham set) in a browser: HABD's RentCafe resident/applicant portal; scripted fetches get 403
+    "hacp.myhousing.com": "https://hacp.myhousing.com",  # fetched live 2026-11-05 (Pittsburgh); HACP's applicant portal for project-based voucher pre-applications
+    "hacp.org": "https://hacp.org",  # fetched live 2026-11-05 (Pittsburgh); Housing Authority of the City of Pittsburgh
     "hacla.org": "https://www.hacla.org",  # fetched live 2026-10-15 (SEO2); Section 8 page says the list is closed
     "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
     "hacm.org/subsidized": "https://www.hacm.org/subsidized",  # fetched live 2026-10-15 (SEO2); HACM's short link to its open waiting lists page; bot-blocked to scripts, live for people
@@ -326,6 +330,7 @@ FAQ_LINK_TARGETS = {
     "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
     "lafairhousing.org": "https://lafairhousing.org",  # fetched live 2026-11-05 (New Orleans set); Louisiana Fair Housing Action Center, eviction defense in Orleans Parish
     "las.org": "https://las.org",
+    "lascinti.org": "https://lascinti.org",  # fetched live 2026-11-05 (Cincinnati); Legal Aid Society of Southwest Ohio
     "law.lis.virginia.gov": "https://law.lis.virginia.gov",
     "lawmo.org": "https://lawmo.org",
     "legalaccessforall.org": "https://www.legalaccessforall.org",  # fetched live 2026-11-05 (Orlando set); Community Legal Services (clsmf.org now redirects here)
@@ -345,6 +350,7 @@ FAQ_LINK_TARGETS = {
     "myportal.hacm.org": "https://myportal.hacm.org",  # fetched live 2026-10-15 (SEO2); HACM's RentCafe applicant portal; bot-blocked to scripts, live for people
     "nashville-mdha.org": "https://www.nashville-mdha.org",
     "needlink.org": "https://needlink.org",  # NeedLink Nashville's current site (needlinknashville.org is dead); fetched live 2026-09-11 (NASH)
+    "nlsa.us": "https://nlsa.us",  # fetched live 2026-11-05 (Pittsburgh); Neighborhood Legal Services (Western PA)
     "oakha.org": "https://www.oakha.org",
     "oha.myhousing.com": "https://oha.myhousing.com",  # fetched live 2026-11-05 (Orlando set); Orlando Housing Authority's MyHousing portal
     "ohauthority.org": "https://ohauthority.org",
