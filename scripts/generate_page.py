@@ -314,6 +314,7 @@ FAQ_LINK_TARGETS = {
     "jacksonvilleevictiondiversion.org": "https://jacksonvilleevictiondiversion.org",
     "kcba.org": "https://www.kcba.org",
     "kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants": "https://kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants",
+    "keeppeoplehoused.org": "https://keeppeoplehoused.org",  # fetched live 2026-11-05 (Bay Area guides); BACS Keep People Housed portal, City of Oakland application
     "kshousingcorp.org": "https://kshousingcorp.org",
     "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
     "las.org": "https://las.org",
