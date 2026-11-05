@@ -927,8 +927,8 @@
                     <div class="tips-title">Key Things to Know</div>
                     <ul class="tips-list">
                         <li><strong>Section 8 rent:</strong> You typically pay 30% of your adjusted income, with deductions for dependents and elderly/disabled household members</li>
-                        <li><strong>SNAP and shelter:</strong> When Section 8 lowers your rent, your SNAP benefit may decrease because shelter costs are counted against you</li>
-                        <li><strong>SSI limits:</strong> SSI has strict income limits ($994/month federally) and counts many income sources, but SSDI is more generous</li>
+                        <li><strong>SNAP and shelter:</strong> When Section 8 lowers your rent, your SNAP benefit may decrease because SNAP's shelter deduction gets smaller when your housing costs go down</li>
+                        <li><strong>SSI limits:</strong> SSI pays up to $994/month federally in 2026. Most other income lowers it dollar for dollar after $20, but only half of your earnings above $85 counts. SSDI is more generous for work</li>
                         <li><strong>Medicaid varies:</strong> Each state is different. Most states cover you if income is below 100–138% of the federal poverty line</li>
                         <li><strong>Work incentives:</strong> Some programs have work incentives, student exclusions, or blind/disabled work expenses that can help you earn more</li>
                         <li><strong>Earning more is worth it:</strong> Use the income slider to see—you almost always come out ahead when you earn more, even if some benefits go down</li>
@@ -977,19 +977,22 @@
             8: 4643
         };
 
-        // SNAP maximum monthly allotments — FY2026 (48 States + DC), effective Oct 1, 2025.
-        // Source: USDA FNS FY2026 SNAP COLA memo,
-        // https://www.usda.gov/sites/default/files/guidance-documents/fns.snap-cola-fy26memo.pdf
+        // SNAP maximum monthly allotments — FY2027 (48 States + DC), effective Oct 1, 2026
+        // through Sept 30, 2027. Source: USDA FNS SNAP COLA page, https://www.fns.usda.gov/snap/allotment/cola
         const SNAP_ALLOTMENTS = {
-            1: 298,
-            2: 546,
-            3: 785,
-            4: 994,
-            5: 1183,
-            6: 1421,
-            7: 1571,
-            8: 1789
+            1: 306,
+            2: 562,
+            3: 808,
+            4: 1023,
+            5: 1217,
+            6: 1463,
+            7: 1616,
+            8: 1841
         };
+        // FY2027 standard deduction by household size and the excess shelter deduction cap
+        // (48 States + DC). Same FNS source.
+        const SNAP_STANDARD_DEDUCTION = { 1: 217, 2: 217, 3: 217, 4: 229, 5: 268, 6: 308, 7: 308, 8: 308 };
+        const SNAP_SHELTER_CAP = 769;
 
         // SSI federal benefit rate — 2026 individual rate (2.8% COLA effective Jan 2026).
         // Source: SSA, https://www.ssa.gov/oact/cola/SSI.html
@@ -1054,23 +1057,27 @@
 
         // Calculate SNAP benefit
         function calcSNAP(income, householdSize, section8Rent) {
+            // Simplified FNS formula: income is treated as earnings (20% earned income deduction),
+            // minus the standard deduction, minus the excess shelter deduction (shelter costs above
+            // half of that income, capped). Benefit = maximum allotment - 30% of net income.
             const maxAllotment = SNAP_ALLOTMENTS[householdSize] || SNAP_ALLOTMENTS[8];
-            const standardDeduction = Math.round(householdSize * 180);
-            const shelterDeduction = section8Rent; // SNAP uses actual shelter costs
+            const standardDeduction = SNAP_STANDARD_DEDUCTION[householdSize] || SNAP_STANDARD_DEDUCTION[8];
+            const shelterCost = section8Rent; // only the Section 8 rent share is known here
 
-            const netIncome = Math.max(0, income - standardDeduction);
-            const shelterExcess = Math.max(0, shelterDeduction - (netIncome * 0.5));
-            const countableIncome = netIncome + shelterExcess;
-            const benefitReduction = Math.round(countableIncome * 0.30);
+            const incomeAfterDeductions = Math.max(0, income * 0.8 - standardDeduction);
+            const shelterExcess = Math.min(SNAP_SHELTER_CAP, Math.max(0, shelterCost - (incomeAfterDeductions * 0.5)));
+            const netIncome = Math.max(0, incomeAfterDeductions - shelterExcess);
+            const benefitReduction = Math.ceil(netIncome * 0.30);
 
             const snap = Math.max(0, maxAllotment - benefitReduction);
-            return snap;
+            return { snap, netIncome };
         }
 
         // Calculate SSI benefit
         function calcSSI(income) {
-            // SSI counts earned income at $1 for $2 after $65 exclusion
-            const earnedExclusion = 65;
+            // SSI ignores the first $20 (general exclusion) and $65 of earnings, then counts half
+            // of the rest (POMS SI 00820.500).
+            const earnedExclusion = 20 + 65;
             const countedEarned = Math.max(0, income - earnedExclusion) / 2;
             const countableIncome = countedEarned;
 
@@ -1137,7 +1144,8 @@
 
             // Calculate amounts
             const { rent: section8Rent, adjustedIncome: section8AdjustedIncome } = calcSection8Rent(income, householdSize);
-            const snap = calcSNAP(income, householdSize, selected.section8 ? section8Rent : 0);
+            const { snap, netIncome: snapNetIncome } = calcSNAP(income, householdSize, selected.section8 ? section8Rent : 0);
+            const snapFpl = FPL[householdSize] || FPL[8];
             const ssi = calcSSI(income);
             const medicaid = checkMedicaidEligibility(income, householdSize);
             const tanf = checkTANFEligibility(householdSize);
@@ -1149,9 +1157,10 @@
                 section8Rent: selected.section8 ? section8Rent : 0,
                 section8Eligible: selected.section8,
                 snap: selected.snap ? snap : 0,
-                snapEligible: selected.snap && income < 3000, // Rough SNAP limit
-                ssi: selected.ssi && income < SSI_RATE ? ssi : 0,
-                ssiEligible: selected.ssi && income < SSI_RATE,
+                // Federal SNAP tests: gross income at or below 130% of poverty, net income at or below 100%
+                snapEligible: selected.snap && income <= snapFpl * 1.3 && snapNetIncome <= snapFpl,
+                ssi: selected.ssi ? ssi : 0,
+                ssiEligible: selected.ssi && ssi > 0,
                 ssdi: selected.ssdi ? 1500 : 0, // Placeholder - SSDI varies greatly
                 ssdiEligible: selected.ssdi,
                 medicaid,
@@ -1194,7 +1203,7 @@
                             <div class="warning-icon">⚠️</div>
                             <div class="warning-content">
                                 <div class="warning-title">Section 8 affects your SNAP</div>
-                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit decreases because shelter costs are counted against you. This is normal—but your total support usually increases overall.</p>
+                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit can go down because SNAP's shelter deduction gets smaller. This is normal—but your total support usually increases overall.</p>
                             </div>
                         </div>
                     `;
@@ -1222,8 +1231,8 @@
                     amount: results.ssi,
                     eligible: eligible,
                     note: eligible
-                        ? `SSI pays up to ${formatCurrency(SSI_RATE)}/month minus your earned income. You may qualify for work incentives.`
-                        : `SSI limit is ${formatCurrency(SSI_RATE)}/month. Your income is above the limit.`
+                        ? `SSI pays up to ${formatCurrency(SSI_RATE)}/month. Social Security skips the first $85 of earnings and counts half of the rest. You may qualify for work incentives.`
+                        : `With earnings only, federal SSI stops at about ${formatCurrency(SSI_RATE * 2 + 85)}/month. Your income is above that point.`
                 });
             }
 
