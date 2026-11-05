@@ -702,6 +702,8 @@ def process_data_file(env, json_path):
     with open(json_path, encoding="utf-8") as f:
         spec = json.load(f)
 
+    if Path(json_path).parent.name == "questions":   # reader Q&A: scripts/generate_questions.py
+        return None
     slug = spec["slug"]
     kind = spec.get("kind", "city")
     if kind not in KINDS:
