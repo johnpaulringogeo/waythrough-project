@@ -8,11 +8,12 @@
   "state": "WI",
   "serves": "the City of Milwaukee, Wisconsin",
   "phone": "(414) 286-5650",
+  "status_check_html": "If you have already applied, HACM says it \"is unable to provide individual status updates or position on the list beyond lottery selection results,\" and it emails applicants when they are selected, so keep your contact information current at myportal.hacm.org. Questions: <a href=\"tel:+14142865650\">(414) 286-5650</a> or hcvsupport@hacm.org.",
   "official_url": "https://www.hacm.org/",
-  "apply_url": "https://www.hacm.org/programs/housing/apply-for-housing",
+  "apply_url": "https://www.hacm.org/subsidized",
   "city_slug": "milwaukee",
   "state_slug": "wisconsin",
-  "updated": "May 2026",
+  "updated": "November 5, 2026",
   "intro": "The Housing Authority of the City of Milwaukee (HACM) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, Project-Based Vouchers, and public housing for the City of Milwaukee. This page summarizes HACM's current waiting-list status, contact information, and how to apply, and links to the official HACM site for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (tenant-based Section 8)",
@@ -25,31 +26,32 @@
     {
       "program": "Housing Choice Voucher (tenant-based Section 8)",
       "status": "Closed",
-      "note": "Watch HACM's apply page for reopenings, and apply to neighboring authorities in the meantime."
+      "note": "Closed (checked November 5, 2026). HACM's waiting lists page says the Section 8 Housing Choice Vouchers (Rent Assistance) list \"remains CLOSED.\" HACM ran a random lottery on June 17, 2026 that placed 5,000 applicants from its December 15, 2021 to August 1, 2024 pre-application period on the official list, and says \"At this time, HACM is not issuing vouchers.\" HACM says the next opening will be posted at waitlist.hacm.org at least 10 business days in advance. Apply to neighboring authorities in the meantime."
     },
     {
       "program": "Project-Based Vouchers (PBV)",
       "status": "Open until further notice",
-      "note": "Tied to specific HACM-affiliated properties. This is currently the most accessible path — worth acting on."
+      "note": "HACM says it is \"currently accepting pre-applications\" for Project-Based Voucher units at specific developments: buildings with a preference for seniors, near-elderly and people with disabilities, Scattered Sites and Town Homes at Carver Park for families, Victory Manor for veterans, and Westlawn Gardens. Apply online at hacm.org/subsidized (checked November 5, 2026)."
     },
     {
       "program": "Public Housing",
-      "status": "Site-specific waitlists",
-      "note": "Separate applications for HACM-owned communities, including senior and family properties."
+      "status": "Open",
+      "note": "HACM: \"The Public Housing waiting list is OPEN.\" Waiting-list applications are online only at hacm.org/subsidized, and HACM lists its public housing properties at hacm.org/phproperties. Public Housing Applications/Intake Office: (414) 286-5678 (checked November 5, 2026)."
     }
   ],
   "also_serving": [
     "<strong>Housing Authority of Milwaukee County</strong> is a separate authority that serves areas outside the City of Milwaukee limits.",
-    "Neighboring authorities that run their own separate waiting lists: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong>, and <strong>WHEDA</strong> (statewide)."
+    "Neighboring authorities that run their own separate waiting lists: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong>, and <strong>WHEDA</strong> (statewide).",
+    "<strong>HACM is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-milwaukee\">Milwaukee emergency rent help guide</a>: free Eviction Free MKE lawyers, the Rental Housing Resource Center, Wisconsin Emergency Assistance and Wisconsin's eviction deadlines. If you already have HACM housing or a voucher and fall behind, call HACM right away."
   ],
   "faqs": [
     {
       "q": "Is the Milwaukee (HACM) Section 8 waiting list open?",
-      "a": "As of May 2026, HACM's tenant-based Housing Choice Voucher (Section 8) waiting list is closed, but its Project-Based Voucher (PBV) waiting lists are open until further notice. PBV is tied to specific HACM-affiliated properties and is currently the most accessible path. Always confirm the current status on HACM's official apply page before relying on it."
+      "a": "No. As of November 5, 2026, HACM says its Section 8 Housing Choice Voucher list \"remains CLOSED.\" A lottery on June 17, 2026 placed 5,000 earlier applicants on the official list, and HACM says it is not issuing vouchers right now. HACM's public housing list and its Project-Based Voucher lists are open, and you apply online at hacm.org/subsidized. Always confirm the current status on HACM's site before relying on it."
     },
     {
       "q": "How do I check my place on the HACM waiting list?",
-      "a": "Call HACM's Housing Choice Voucher (Section 8) line at (414) 286-5650 to verify your position if you have already applied. Keep your contact information current with HACM — if they cannot reach you when your name comes up, you can be removed from the list."
+      "a": "You can't get a place number. HACM says it \"is unable to provide individual status updates or position on the list beyond lottery selection results,\" and it emails applicants when they are selected. Keep your address, phone and email current at myportal.hacm.org; if HACM cannot reach you, you can be removed from the list. For questions, the Housing Choice Voucher program is at (414) 286-5650 or hcvsupport@hacm.org."
     },
     {
       "q": "Who do I contact if I live outside the City of Milwaukee?",
@@ -72,11 +74,24 @@
     {
       "label": "HACM — Housing Choice Voucher (Section 8 Rent Assistance) Program (tenant-based list closed)",
       "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
+    },
+    {
+      "label": "HACM — Waiting Lists (public housing OPEN, Project-Based Vouchers OPEN, Section 8 CLOSED)",
+      "url": "https://www.hacm.org/programs/waiting-lists"
+    },
+    {
+      "label": "HACM — Open Waiting Lists (hacm.org/subsidized: online-only applications, Project-Based Voucher developments)",
+      "url": "https://www.hacm.org/subsidized"
+    },
+    {
+      "label": "HACM — HCV Waiting List Update & Lottery Results (June 17, 2026 lottery, not issuing vouchers)",
+      "url": "https://www.hacm.org/for-residents/section-8-housing-choice-voucher-waiting-list-update-lottery-results/-fsiteid-1"
     }
   ],
   "es": {
+    "status_check_html": "Si ya presentó su solicitud, HACM dice que no puede dar actualizaciones individuales ni el lugar en la lista, aparte del resultado de la lotería, y avisa por correo electrónico a los solicitantes seleccionados, así que mantenga su información de contacto al día en myportal.hacm.org. Preguntas: <a href=\"tel:+14142865650\">(414) 286-5650</a> o hcvsupport@hacm.org.",
     "serves": "la ciudad de Milwaukee, Wisconsin",
-    "updated": "mayo de 2026",
+    "updated": "5 de noviembre de 2026",
     "intro": "La Autoridad de Vivienda de la Ciudad de Milwaukee (HACM) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Milwaukee. Esta página resume el estado actual de la lista de espera de HACM, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HACM para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8 basado en el inquilino)",
@@ -89,31 +104,32 @@
       {
         "program": "Housing Choice Voucher (Sección 8 basado en el inquilino)",
         "status": "Cerrada",
-        "note": "Vigile la página de solicitud de HACM por si reabre, y solicite mientras tanto a las autoridades vecinas."
+        "note": "Cerrada (verificado el 5 de noviembre de 2026). La página de listas de espera de HACM dice que la lista de vales de la Sección 8 \"remains CLOSED\" (sigue cerrada). HACM hizo una lotería el 17 de junio de 2026 que puso en la lista oficial a 5,000 personas que habían presentado una presolicitud entre el 15 de diciembre de 2021 y el 1 de agosto de 2024, y dice \"At this time, HACM is not issuing vouchers\" (por ahora, HACM no está entregando vales). HACM dice que publicará la próxima apertura en waitlist.hacm.org por lo menos 10 días hábiles antes. Mientras tanto, solicite a las autoridades vecinas."
       },
       {
         "program": "Vales Basados en Proyectos (PBV)",
         "status": "Abierta hasta nuevo aviso",
-        "note": "Ligada a propiedades específicas afiliadas a HACM. Actualmente es la vía más accesible — vale la pena actuar."
+        "note": "HACM dice que está \"currently accepting pre-applications\" (aceptando presolicitudes) para unidades con vales basados en proyectos en propiedades específicas: edificios con preferencia para personas mayores, personas de 50 a 61 años y personas con discapacidades, Scattered Sites y Town Homes at Carver Park para familias, Victory Manor para veteranos y Westlawn Gardens. Solicite en línea en hacm.org/subsidized (verificado el 5 de noviembre de 2026)."
       },
       {
         "program": "Vivienda pública",
-        "status": "Listas de espera por propiedad",
-        "note": "Solicitudes separadas para las comunidades propiedad de HACM, incluidas propiedades para personas mayores y familias."
+        "status": "Abierta",
+        "note": "HACM: \"The Public Housing waiting list is OPEN\" (la lista de vivienda pública está abierta). Las solicitudes para las listas de espera son solo en línea en hacm.org/subsidized, y HACM publica sus propiedades de vivienda pública en hacm.org/phproperties. Oficina de solicitudes de vivienda pública: (414) 286-5678 (verificado el 5 de noviembre de 2026)."
       }
     ],
     "also_serving": [
       "La <strong>Autoridad de Vivienda del Condado de Milwaukee</strong> es una autoridad separada que sirve las zonas fuera de los límites de la ciudad de Milwaukee.",
-      "Autoridades vecinas que administran sus propias listas de espera: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong> y <strong>WHEDA</strong> (a nivel estatal)."
+      "Autoridades vecinas que administran sus propias listas de espera: <strong>West Allis</strong>, <strong>Waukesha County</strong>, <strong>Racine</strong>, <strong>Kenosha</strong> y <strong>WHEDA</strong> (a nivel estatal).",
+      "<strong>HACM no es un fondo de emergencia para la renta.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-milwaukee\">guía de ayuda de emergencia con la renta en Milwaukee</a>: abogados gratis de Eviction Free MKE, el Rental Housing Resource Center, la Asistencia de Emergencia de Wisconsin y los plazos de desalojo de Wisconsin. Si ya tiene vivienda o un vale de HACM y se atrasa, llame a HACM de inmediato."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Milwaukee (HACM)?",
-        "a": "A partir de mayo de 2026, la lista de espera del Housing Choice Voucher (Sección 8) basado en el inquilino de HACM está cerrada, pero sus listas de espera de Vales Basados en Proyectos (PBV) están abiertas hasta nuevo aviso. El PBV está ligado a propiedades específicas afiliadas a HACM y actualmente es la vía más accesible. Confirme siempre el estado actual en la página de solicitud oficial de HACM antes de confiar en él."
+        "a": "No. Al 5 de noviembre de 2026, HACM dice que su lista de vales de la Sección 8 \"remains CLOSED\" (sigue cerrada). Una lotería el 17 de junio de 2026 puso en la lista oficial a 5,000 personas que habían solicitado antes, y HACM dice que por ahora no está entregando vales. La lista de vivienda pública y las listas de vales basados en proyectos de HACM están abiertas, y se solicita en línea en hacm.org/subsidized. Confirme siempre el estado actual en el sitio de HACM antes de confiar en él."
       },
       {
         "q": "¿Cómo verifico mi lugar en la lista de espera de HACM?",
-        "a": "Llame a la línea del programa de vales (Sección 8) de HACM al (414) 286-5650 para verificar su posición si ya presentó su solicitud. Mantenga su información de contacto al día con HACM — si no pueden localizarle cuando le toque su turno, pueden retirarle de la lista."
+        "a": "No le pueden dar un número de lugar. HACM dice que \"is unable to provide individual status updates or position on the list beyond lottery selection results\" (no puede dar actualizaciones individuales ni el lugar en la lista, aparte del resultado de la lotería), y avisa por correo electrónico a los solicitantes seleccionados. Mantenga al día su dirección, teléfono y correo electrónico en myportal.hacm.org; si HACM no puede localizarle, pueden retirarle de la lista. Para preguntas, el programa de vales está en el (414) 286-5650 o hcvsupport@hacm.org."
       },
       {
         "q": "¿A quién contacto si vivo fuera de la ciudad de Milwaukee?",
@@ -136,6 +152,18 @@
       {
         "label": "HACM — programa de vales de vivienda (Sección 8; lista de vales para inquilinos cerrada)",
         "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
+      },
+      {
+        "label": "HACM — listas de espera (vivienda pública ABIERTA, vales basados en proyectos ABIERTOS, Sección 8 CERRADA)",
+        "url": "https://www.hacm.org/programs/waiting-lists"
+      },
+      {
+        "label": "HACM — listas de espera abiertas (hacm.org/subsidized: solicitudes solo en línea, propiedades con vales basados en proyectos)",
+        "url": "https://www.hacm.org/subsidized"
+      },
+      {
+        "label": "HACM — actualización y resultados de la lotería de la lista de vales (lotería del 17 de junio de 2026, no está entregando vales)",
+        "url": "https://www.hacm.org/for-residents/section-8-housing-choice-voucher-waiting-list-update-lottery-results/-fsiteid-1"
       }
     ]
   }
