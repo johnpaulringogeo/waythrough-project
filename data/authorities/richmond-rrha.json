@@ -1,0 +1,249 @@
+{
+  "slug": "richmond-rrha",
+  "kind": "authority",
+  "name": "Richmond Redevelopment and Housing Authority (RRHA)",
+  "schema_name": "Richmond Redevelopment and Housing Authority",
+  "short_name": "RRHA",
+  "title_name": "RRHA Richmond",
+  "city": "Richmond",
+  "state": "VA",
+  "serves": "the City of Richmond, Virginia",
+  "phone": "(804) 780-4200",
+  "official_url": "https://www.rrha.com/",
+  "apply_url": "https://myportal-rrha.securecafe.com/onlineleasing/richmond-live-0/guestlogin.aspx",
+  "city_slug": "richmond",
+  "state_slug": "virginia",
+  "updated": "November 5, 2026",
+  "status_check_html": "If you have already applied, log in to the same <a href=\"https://myportal-rrha.securecafe.com/onlineleasing/richmond-live-0/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">RRHA Applicant Portal</a> to check your status; RRHA asks applicants to make contact changes online there. Keep your address and phone current: in its March 2–31, 2026 purge, RRHA removed applicants who did not update their information.",
+  "intro": "The Richmond Redevelopment and Housing Authority (RRHA), HUD code VA007, runs Section 8 Housing Choice Vouchers and public housing for the City of Richmond. Its 2027 agency plan counts 4,060 vouchers and 3,245 public housing units. Two things matter most right now. First, the voucher waiting list is closed, and RRHA has not issued new tenant-based vouchers from it since it paused issuance on May 20, 2025 because of federal funding. Second, RRHA opens its public housing, senior and project-based lists in short windows, and the last one closed on May 8, 2026. This page gives each list's status in RRHA's own words, how to reach the right office, and where to turn if you need help this week.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): 4,060 vouchers, per the FY2027 agency plan",
+    "Public housing: 3,245 units in family and senior communities",
+    "Project-based vouchers at site-based communities, including Creighton Renaissance and Armstrong Renaissance",
+    "HUD-VASH vouchers for veterans, by referral from the VA",
+    "Redevelopment of Creighton Court, Gilpin Court and other older public housing communities, using a build-first approach"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8), tenant-based",
+      "status": "Closed; voucher issuance paused since May 20, 2025",
+      "note": "Closed (checked November 5, 2026). RRHA's FY2027 agency plan answers \"Is this waiting list closed?\" with \"Yes\" for its voucher list of 3,650 families and says it plans to reopen the list during the plan year, with no date given. Its April 17, 2026 notice about other lists said: \"This waitlist opening does NOT include RRHA's voucher waitlist.\" On May 20, 2025, RRHA said it \"has suspended the issuance of tenant-based vouchers from the Housing Choice Voucher (HCV) Program\" waiting list, and \"Once funding is available, RRHA will once again begin selecting from the waitlist.\" We found no RRHA notice lifting that pause."
+    },
+    {
+      "program": "Public housing family communities",
+      "status": "Closed; last window May 4–8, 2026",
+      "note": "RRHA's last opening for public housing family communities with 4-bedroom units ran \"Beginning Monday, May 4, 2026 at 8:30 a.m. through Friday, May 8, 2026 at 5 p.m.\" RRHA has announced no opening since (checked November 5, 2026). Watch rrha.com news for the next window."
+    },
+    {
+      "program": "RRHA senior communities (55 and older)",
+      "status": "Closed; last window May 4–8, 2026",
+      "note": "Senior sites were part of the same May 4 to May 8, 2026 opening. No newer opening has been announced (checked November 5, 2026)."
+    },
+    {
+      "program": "Project-based voucher (PBV) communities",
+      "status": "Site-based lists; check the Applicant Portal",
+      "note": "RRHA \"utilizes site-based waiting lists for all Project-based Voucher (\"PBV\") communities.\" Its PBV page says \"PBV applications are accepted year-round\" and \"RRHA is unable to determine or estimate wait time for housing assistance,\" but its news releases describe PBV lists opening in set windows, most recently May 4–8, 2026. Check the Applicant Portal, or call (804) 780-4200, before you count on a list being open (checked November 5, 2026)."
+    },
+    {
+      "program": "HUD-VASH (veterans)",
+      "status": "By referral",
+      "note": "RRHA said in May 2025 that \"Veterans Affairs Supportive Housing (VASH) vouchers are not impacted\" by the voucher pause. VASH vouchers come by referral from the VA, not from the waiting list."
+    }
+  ],
+  "also_serving": [
+    "<strong>RRHA's voucher office is not at headquarters.</strong> The Housing Choice Voucher Program and Tenant Selection office is at 918 Chamberlayne Parkway, Richmond, VA 23220, open Monday to Friday 8:30 a.m. to 5 p.m., with walk-in hours on Tuesday from 9 a.m. to noon and Thursday from 1 to 4 p.m. The main office is 600 E. Broad Street. For TDD, dial 711.",
+    "<strong>If you need a place to sleep, not a place on a list,</strong> call the Homeless Connection Line at 804-972-0813, for people who are homeless or within 3 days of losing their housing. If you are more than 3 days away, call the Housing Resource Line at 804-422-5061.",
+    "<strong>Neighboring counties are separate.</strong> Richmond is an independent city. Living in Henrico or Chesterfield County does not put you in RRHA's service area, and applying to RRHA does not put you on any other agency's list.",
+    "<strong>Behind on rent?</strong> The City's Eviction Diversion Program, run by Southside Community Development &amp; Housing Corp., is the main door, and Central Virginia Legal Aid Society (804-648-1012) gives free legal help. Our <a href=\"../guides/emergency-rent-help-richmond\">Richmond emergency rent help guide</a> explains Virginia's 14-day notice, the right to pay and stay, and every program that is open now."
+  ],
+  "faqs": [
+    {
+      "q": "Is the RRHA Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, RRHA lists its Housing Choice Voucher waiting list as closed. When it opened other lists in May 2026, it said: \"This waitlist opening does NOT include RRHA's voucher waitlist.\" Its FY2027 agency plan says it plans to reopen the voucher list during the plan year, but no date has been posted. Watch rrha.com and keep your contact information current if you are already on the list."
+    },
+    {
+      "q": "Is RRHA still giving out vouchers?",
+      "a": "Not from the regular waiting list, as far as RRHA has posted. On May 20, 2025, RRHA said it \"has suspended the issuance of tenant-based vouchers from the Housing Choice Voucher (HCV) Program\" waiting list because of federal funding, and \"Once funding is available, RRHA will once again begin selecting from the waitlist.\" We found no notice lifting the pause as of November 5, 2026. VASH vouchers for veterans were not affected."
+    },
+    {
+      "q": "When did RRHA last open its public housing list?",
+      "a": "From Monday, May 4, 2026 at 8:30 a.m. through Friday, May 8, 2026 at 5 p.m. That window covered public housing family communities with 4-bedroom units, RRHA senior communities and some project-based communities. RRHA's FY2027 plan also notes it may reopen lists during the year. Windows are short, so check rrha.com news often."
+    },
+    {
+      "q": "How do I check my application or update my address?",
+      "a": "Log in to the RRHA Applicant Portal. RRHA asks applicants to make contact changes online there. This matters: in March 2026 RRHA purged its waiting list, and applicants who did not update by March 31, 2026 were removed. You can also visit the voucher and tenant selection office at 918 Chamberlayne Parkway during walk-in hours, Tuesday 9 a.m. to noon or Thursday 1 to 4 p.m."
+    },
+    {
+      "q": "What is happening at Creighton Court and Gilpin Court?",
+      "a": "RRHA is redeveloping older public housing communities. Creighton Court is being rebuilt as Creighton Renaissance, and Gilpin Court has build-first projects in planning. RRHA says its build-first model \"builds new units before any demolition activity occurs to avoid displacement of residents.\" Its FY2027 plan says it is working with Southside Community Development to offer eviction diversion clinics for Creighton and Mosby South residents before relocation. If you live in one of these communities, ask your property manager about your relocation rights."
+    },
+    {
+      "q": "Can a Richmond landlord refuse my voucher?",
+      "a": "Usually not. The Virginia Fair Housing Law makes source of funds, including a Housing Choice Voucher, a protected class (Va. Code 36-96.3). There are exceptions for an owner of four or fewer rental units in Virginia, and for a case where the voucher agency does not approve the tenancy within 15 days (Va. Code 36-96.2). If you are refused, contact the Virginia Fair Housing Office or Central Virginia Legal Aid Society at 804-648-1012."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richmond Redevelopment and Housing Authority - official site (main office, phone)",
+      "url": "https://www.rrha.com/"
+    },
+    {
+      "label": "RRHA - Vouchers (Applicant Portal, contact changes, Central Intake)",
+      "url": "https://www.rrha.com/housing/vouchers/"
+    },
+    {
+      "label": "RRHA - Housing Choice Voucher Program (office address, hours, walk-in times)",
+      "url": "https://www.rrha.com/housing/vouchers/hcvp/"
+    },
+    {
+      "label": "RRHA - Project-Based Vouchers",
+      "url": "https://www.rrha.com/housing/vouchers/pbv/"
+    },
+    {
+      "label": "RRHA - Opens Project Based, Senior & Public Housing Waitlists (April 17, 2026)",
+      "url": "https://www.rrha.com/?p=24738"
+    },
+    {
+      "label": "RRHA - Impacts of proposed federal budget cuts on RRHA's HCV program (May 2025)",
+      "url": "https://www.rrha.com/news/impacts-of-proposed-federal-budget-cuts-on-rrhas-hcv-program/"
+    },
+    {
+      "label": "RRHA - Waitlist purge, March 2-31, 2026",
+      "url": "https://www.rrha.com/?p=24076"
+    },
+    {
+      "label": "RRHA - FY2027 Annual Agency Plan (draft)",
+      "url": "https://www.rrha.com/wp-content/uploads/2026/04/FY27-Annual-Agency-Plan_DRAFT.pdf"
+    },
+    {
+      "label": "RRHA - Redevelopment",
+      "url": "https://www.rrha.com/redevelopment/"
+    },
+    {
+      "label": "City of Richmond - Eviction Prevention and Homeless Services",
+      "url": "https://www.rva.gov/housing-and-community-development/eviction-prevention-and-homeless-services"
+    },
+    {
+      "label": "Va. Code 36-96.2 (exemptions, including source of funds)",
+      "url": "https://law.lis.virginia.gov/vacode/title36/chapter5.1/section36-96.2/"
+    }
+  ],
+  "es": {
+    "serves": "la ciudad de Richmond, Virginia",
+    "updated": "5 de noviembre de 2026",
+    "status_check_html": "Si ya presentó su solicitud, entre al mismo <a href=\"https://myportal-rrha.securecafe.com/onlineleasing/richmond-live-0/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">Portal de Solicitantes de RRHA</a> (en inglés) para revisar su estado; RRHA pide que los cambios de contacto se hagan allí en línea. Mantenga su dirección y su teléfono al día: en su depuración del 2 al 31 de marzo de 2026, RRHA retiró a quienes no actualizaron sus datos.",
+    "intro": "La Richmond Redevelopment and Housing Authority (RRHA), código VA007 de HUD, administra los vales de Sección 8 y la vivienda pública de la ciudad de Richmond. Su plan de agencia de 2027 cuenta 4,060 vales y 3,245 unidades de vivienda pública. Dos cosas importan más ahora. Primero, la lista de vales está cerrada, y RRHA no ha entregado vales nuevos de esa lista desde que pausó la entrega el 20 de mayo de 2025 por los fondos federales. Segundo, RRHA abre sus listas de vivienda pública, para personas mayores y basadas en proyecto en ventanas cortas, y la última cerró el 8 de mayo de 2026. Esta página da el estado de cada lista en palabras de RRHA, cómo comunicarse con la oficina correcta y a dónde acudir si necesita ayuda esta semana.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8): 4,060 vales, según el plan de agencia del año fiscal 2027",
+      "Vivienda pública: 3,245 unidades en comunidades para familias y para personas mayores",
+      "Vales basados en proyecto en comunidades con listas propias, como Creighton Renaissance y Armstrong Renaissance",
+      "Vales HUD-VASH para veteranos, por referencia de la VA",
+      "Reurbanización de Creighton Court, Gilpin Court y otras comunidades antiguas de vivienda pública, construyendo primero las unidades nuevas"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8) basado en el inquilino",
+        "status": "Cerrada; entrega de vales en pausa desde el 20 de mayo de 2025",
+        "note": "Cerrada (verificado el 5 de noviembre de 2026). El plan de agencia del año fiscal 2027 de RRHA responde \"Yes\" (sí) a la pregunta de si su lista de vales, con 3,650 familias, está cerrada, y dice que planea reabrirla durante el año del plan, sin dar fecha. Su aviso del 17 de abril de 2026 sobre otras listas dijo: \"This waitlist opening does NOT include RRHA's voucher waitlist\" (esta apertura NO incluye la lista de vales). El 20 de mayo de 2025, RRHA dijo que \"has suspended the issuance of tenant-based vouchers\" (suspendió la entrega de vales) desde la lista de espera, y que volverá a seleccionar de la lista cuando haya fondos. No encontramos ningún aviso de RRHA que levante esa pausa."
+      },
+      {
+        "program": "Comunidades familiares de vivienda pública",
+        "status": "Cerrada; última ventana del 4 al 8 de mayo de 2026",
+        "note": "La última apertura de RRHA para comunidades familiares de vivienda pública con unidades de 4 recámaras fue desde el lunes 4 de mayo de 2026 a las 8:30 a.m. hasta el viernes 8 de mayo de 2026 a las 5 p.m. RRHA no ha anunciado otra apertura desde entonces (verificado el 5 de noviembre de 2026). Revise las noticias de rrha.com para la próxima ventana."
+      },
+      {
+        "program": "Comunidades de RRHA para personas mayores (55 años o más)",
+        "status": "Cerrada; última ventana del 4 al 8 de mayo de 2026",
+        "note": "Las comunidades para personas mayores fueron parte de la misma apertura del 4 al 8 de mayo de 2026. No se ha anunciado otra (verificado el 5 de noviembre de 2026)."
+      },
+      {
+        "program": "Comunidades con vales basados en proyecto (PBV)",
+        "status": "Listas por comunidad; revise el Portal de Solicitantes",
+        "note": "RRHA usa listas de espera por comunidad para todas sus comunidades con vales basados en proyecto. Su página de PBV dice \"PBV applications are accepted year-round\" (se aceptan solicitudes todo el año) y que no puede calcular el tiempo de espera, pero sus comunicados describen aperturas en ventanas fijas, la más reciente del 4 al 8 de mayo de 2026. Revise el Portal de Solicitantes, o llame al (804) 780-4200, antes de contar con que una lista esté abierta (verificado el 5 de noviembre de 2026)."
+      },
+      {
+        "program": "HUD-VASH (veteranos)",
+        "status": "Por referencia",
+        "note": "RRHA dijo en mayo de 2025 que los vales VASH \"are not impacted\" (no se ven afectados) por la pausa. Los vales VASH llegan por referencia de la VA, no de la lista de espera."
+      }
+    ],
+    "also_serving": [
+      "<strong>La oficina de vales de RRHA no está en la sede principal.</strong> La oficina del Housing Choice Voucher Program y de Selección de Inquilinos está en 918 Chamberlayne Parkway, Richmond, VA 23220, de lunes a viernes de 8:30 a.m. a 5 p.m., con atención sin cita el martes de 9 a.m. al mediodía y el jueves de 1 a 4 p.m. La oficina principal está en 600 E. Broad Street. Para TDD, marque el 711.",
+      "<strong>Si necesita un lugar para dormir y no un lugar en una lista,</strong> llame a la Homeless Connection Line al 804-972-0813, para personas sin hogar o a 3 días o menos de perder su vivienda. Si le faltan más de 3 días, llame a la Housing Resource Line al 804-422-5061.",
+      "<strong>Los condados vecinos son aparte.</strong> Richmond es una ciudad independiente. Vivir en el Condado de Henrico o de Chesterfield no lo pone en el área de servicio de RRHA, y solicitar en RRHA no lo inscribe en la lista de ninguna otra agencia.",
+      "<strong>¿Atrasado con la renta?</strong> El Programa de Desvío de Desalojos de la Ciudad, operado por Southside Community Development &amp; Housing Corp., es la puerta principal, y la Central Virginia Legal Aid Society (804-648-1012) da ayuda legal gratis. Nuestra <a href=\"../guias/asistencia-renta-emergencia-richmond\">guía de ayuda de emergencia con la renta en Richmond</a> explica el aviso de 14 días de Virginia, el derecho a pagar y quedarse, y cada programa abierto ahora."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 de RRHA?",
+        "a": "No. Al 5 de noviembre de 2026, RRHA indica que su lista de vales está cerrada. Cuando abrió otras listas en mayo de 2026, dijo: \"This waitlist opening does NOT include RRHA's voucher waitlist\" (esta apertura NO incluye la lista de vales). Su plan de agencia del año fiscal 2027 dice que planea reabrir la lista de vales durante el año del plan, pero no ha publicado una fecha. Revise rrha.com y mantenga al día sus datos de contacto si ya está en la lista."
+      },
+      {
+        "q": "¿RRHA sigue entregando vales?",
+        "a": "No de la lista de espera regular, según lo que RRHA ha publicado. El 20 de mayo de 2025, RRHA dijo que \"has suspended the issuance of tenant-based vouchers\" (suspendió la entrega de vales) desde la lista de espera por los fondos federales, y que volverá a seleccionar de la lista cuando haya fondos. No encontramos ningún aviso que levante la pausa al 5 de noviembre de 2026. Los vales VASH para veteranos no se vieron afectados."
+      },
+      {
+        "q": "¿Cuándo abrió RRHA su lista de vivienda pública por última vez?",
+        "a": "Desde el lunes 4 de mayo de 2026 a las 8:30 a.m. hasta el viernes 8 de mayo de 2026 a las 5 p.m. Esa ventana incluyó comunidades familiares de vivienda pública con unidades de 4 recámaras, comunidades de RRHA para personas mayores y algunas comunidades basadas en proyecto. El plan del año fiscal 2027 de RRHA también indica que podría reabrir listas durante el año. Las ventanas son cortas, así que revise seguido las noticias de rrha.com."
+      },
+      {
+        "q": "¿Cómo reviso mi solicitud o actualizo mi dirección?",
+        "a": "Entre al Portal de Solicitantes de RRHA. RRHA pide que los cambios de contacto se hagan allí en línea. Esto importa: en marzo de 2026 RRHA depuró su lista de espera, y quienes no actualizaron sus datos a más tardar el 31 de marzo de 2026 fueron retirados. También puede ir a la oficina de vales y de selección de inquilinos en 918 Chamberlayne Parkway en el horario sin cita, el martes de 9 a.m. al mediodía o el jueves de 1 a 4 p.m."
+      },
+      {
+        "q": "¿Qué está pasando en Creighton Court y Gilpin Court?",
+        "a": "RRHA está reurbanizando comunidades antiguas de vivienda pública. Creighton Court se está reconstruyendo como Creighton Renaissance, y en Gilpin Court hay proyectos en planificación que construyen primero las unidades nuevas. RRHA dice que su modelo construye las unidades nuevas antes de demoler para evitar el desplazamiento de los residentes. Su plan del año fiscal 2027 dice que trabaja con Southside Community Development para ofrecer clínicas de desvío de desalojos a los residentes de Creighton y Mosby South antes de su reubicación. Si vive en una de estas comunidades, pregunte a la administración de su propiedad por sus derechos de reubicación."
+      },
+      {
+        "q": "¿Puede un arrendador de Richmond rechazar mi vale?",
+        "a": "Por lo general, no. La Ley de Vivienda Justa de Virginia protege la fuente de fondos, incluido un vale de Sección 8 (Va. Code 36-96.3). Hay excepciones para un dueño con cuatro o menos unidades de alquiler en Virginia, y para el caso en que la agencia de vales no aprueba el alquiler dentro de 15 días (Va. Code 36-96.2). Si lo rechazan, comuníquese con la Virginia Fair Housing Office o con la Central Virginia Legal Aid Society al 804-648-1012."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Richmond Redevelopment and Housing Authority - sitio oficial: oficina principal y teléfono (en inglés)",
+        "url": "https://www.rrha.com/"
+      },
+      {
+        "label": "RRHA - Vales: Portal de Solicitantes, cambios de contacto, Central Intake (en inglés)",
+        "url": "https://www.rrha.com/housing/vouchers/"
+      },
+      {
+        "label": "RRHA - Housing Choice Voucher Program: dirección, horario y atención sin cita (en inglés)",
+        "url": "https://www.rrha.com/housing/vouchers/hcvp/"
+      },
+      {
+        "label": "RRHA - Vales basados en proyecto (en inglés)",
+        "url": "https://www.rrha.com/housing/vouchers/pbv/"
+      },
+      {
+        "label": "RRHA - Apertura de listas basadas en proyecto, para personas mayores y de vivienda pública, 17 de abril de 2026 (en inglés)",
+        "url": "https://www.rrha.com/?p=24738"
+      },
+      {
+        "label": "RRHA - Efectos de los recortes federales en su programa de vales, mayo de 2025 (en inglés)",
+        "url": "https://www.rrha.com/news/impacts-of-proposed-federal-budget-cuts-on-rrhas-hcv-program/"
+      },
+      {
+        "label": "RRHA - Depuración de la lista, del 2 al 31 de marzo de 2026 (en inglés)",
+        "url": "https://www.rrha.com/?p=24076"
+      },
+      {
+        "label": "RRHA - Plan anual de agencia del año fiscal 2027, borrador (en inglés)",
+        "url": "https://www.rrha.com/wp-content/uploads/2026/04/FY27-Annual-Agency-Plan_DRAFT.pdf"
+      },
+      {
+        "label": "RRHA - Reurbanización (en inglés)",
+        "url": "https://www.rrha.com/redevelopment/"
+      },
+      {
+        "label": "Ciudad de Richmond - Prevención de desalojos y servicios para personas sin hogar (en inglés)",
+        "url": "https://www.rva.gov/housing-and-community-development/eviction-prevention-and-homeless-services"
+      },
+      {
+        "label": "Va. Code 36-96.2: excepciones, incluida la fuente de fondos (en inglés)",
+        "url": "https://law.lis.virginia.gov/vacode/title36/chapter5.1/section36-96.2/"
+      }
+    ]
+  }
+}

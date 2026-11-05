@@ -1,0 +1,257 @@
+{
+  "slug": "salt-lake-city-haslc",
+  "kind": "authority",
+  "name": "Housing Authority of Salt Lake City (HASLC)",
+  "schema_name": "Housing Authority of Salt Lake City",
+  "short_name": "HASLC",
+  "title_name": "HASLC Salt Lake City",
+  "meta_title": "Salt Lake City Section 8 Waitlist (HASLC) | Waythrough",
+  "meta_description": "Housing Authority of Salt Lake City (HASLC): shared Section 8 list with Housing Connect is closed. Phone (801) 487-2161, how to apply. Checked Nov 5, 2026.",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "serves": "Salt Lake City, Utah, with one tenant-based voucher waiting list shared with Housing Connect for all of Salt Lake County",
+  "phone": "(801) 487-2161",
+  "official_url": "https://haslcutah.org/",
+  "apply_url": "https://haslcutah.org/apply-for-housing/",
+  "city_slug": "salt-lake-city",
+  "state_slug": "utah",
+  "updated": "November 5, 2026",
+  "status_check_html": "If you are already on a tenant-based list, HASLC says to \"check your status and, if applicable, update your contact information on AffordableHousing.com\"; project-based and public housing applicants use the <a href=\"https://portal-haslcutah.securecafe.com/onlineleasing/salt-lake-city-live/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">HASLC Applicant Portal</a>. Keep your contact information current: HASLC warns that \"Failure to keep your information current may result in being removed from the waiting list.\"",
+  "intro": "If you are looking for Section 8 in Salt Lake City, there are two housing authorities to know, and they are separate agencies. The Housing Authority of Salt Lake City (HASLC), HUD code UT004, serves the city from 1776 S. West Temple. Housing Connect, HUD code UT003, was formerly the Housing Authority of the County of Salt Lake and serves the county. They have not merged, but they share one list for regular Section 8 vouchers: HASLC says \"HASLC and Housing Connect (Salt Lake County Housing Authority) have a combined tenant-based HCV program waitlist,\" so one application puts you on the list for both. One more thing: HASLC's website is now haslcutah.org. The old haslc.com address now sends you to a housing authority in Missouri, so do not use it. This page explains what HASLC runs, the status of each list in its own words, and where to turn while the voucher list is closed.",
+  "programs": [
+    "Housing Choice Voucher (Section 8), tenant-based, on a waiting list shared with Housing Connect",
+    "Mainstream and Non-Elderly Disabled vouchers, drawn from the same tenant-based list",
+    "Project-based vouchers: \"almost 650 PBVs in Salt Lake County,\" including permanent supportive housing, VASH, senior and family units",
+    "Public housing at two buildings, Phillips Plaza and Romney Plaza, for senior and/or disabled households only",
+    "HUD-VASH (by VA referral) and Family Unification Program vouchers (by DCFS referral)",
+    "TANF Family Housing Program (short-term rental help for families with children)",
+    "About 1,000 HASLC-owned apartments with no subsidy"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8), Salt Lake County Consolidated list, shared with Housing Connect",
+      "status": "Closed",
+      "note": "Closed (checked November 5, 2026). The list is called the \"Section 8 Waiting List – Salt Lake County Consolidated\" and is hosted on AffordableHousing.com. HASLC's waitlists page says: \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants.\" Its programs page adds that \"The waiting list for this program is often closed and only opens every several years because of funding limits.\" No reopening date is posted."
+    },
+    {
+      "program": "Mainstream and Non-Elderly Disabled vouchers",
+      "status": "Closed",
+      "note": "Both are on AffordableHousing.com, so the same statement applies: \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants\" (checked November 5, 2026). HASLC says these vouchers are drawn from the regular tenant-based list."
+    },
+    {
+      "program": "Project-based vouchers at Pamela's Place, The Magnolia, Palmer Court and Wendell Apartments",
+      "status": "Closed",
+      "note": "These four project-based lists are also on AffordableHousing.com, which HASLC says are \"currently closed to new applicants\" (checked November 5, 2026)."
+    },
+    {
+      "program": "Project-based vouchers on the HASLC Applicant Portal (The Aster, Atkinson Stacks/Sunrise Metro, Capitol Homes, Lake Street, Rendon Terrace, SPARK, Taylor Springs, Wasatch Manor)",
+      "status": "No open-or-closed status posted",
+      "note": "HASLC's Applicant Portal says \"Register here if you would like to be added to the project-based voucher waiting list for:\" these buildings, but neither the portal nor the waitlists page says whether these lists are open or closed (checked November 5, 2026). HASLC's apply page also says Capitol Homes and Pamela's Place \"require contacting the property directly.\" Call 801-487-2161 before you count on a list being open. Some permanent supportive housing units have \"a homeless or chronic homeless preference.\""
+    },
+    {
+      "program": "Public housing: Phillips Plaza and Romney Plaza",
+      "status": "No open-or-closed status posted",
+      "note": "Both buildings are listed under \"Public Housing Waiting Lists\" on the HASLC Applicant Portal, and HASLC says \"Both properties are for senior and/or disabled households only.\" No open-or-closed status is posted (checked November 5, 2026)."
+    },
+    {
+      "program": "Housing Connect lists (Salt Lake County)",
+      "status": "Closed",
+      "note": "Housing Connect lists its Housing Choice Voucher, Project-Based Voucher, RAD Project-Based Voucher and Public Housing programs and says: \"All of these programs' waiting lists are currently closed and are not accepting applications\" (checked November 5, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>Housing Connect</strong> (formerly the Housing Authority of the County of Salt Lake) serves Salt Lake County from 3595 South Main Street in South Salt Lake, (801) 284-4400, TDD (801) 284-4407, Monday to Friday 9 a.m. to 5 p.m. It owns and manages 184 public housing units across the county. All of its waiting lists are closed (checked November 5, 2026). It is a separate agency from HASLC; the two share only the tenant-based voucher list.",
+    "<strong>If you need a place to sleep, not a place on a list,</strong> Salt Lake City's Homeless Hotline is 801-990-9999. The City says to call it \"If you or someone you know is experiencing or is at risk of experiencing homelessness.\" You can also dial 211 (or 888-826-9790).",
+    "<strong>Behind on rent?</strong> No City, County or state rent fund is open, but Utah Community Action can help with rent or a deposit after a short-term crisis: (801) 359-2444. Our <a href=\"../guides/emergency-rent-help-salt-lake-city\">Salt Lake City emergency rent help guide</a> explains every door, free legal help, and Utah's 3-business-day eviction clock."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Housing Authority of Salt Lake City the same as Housing Connect?",
+      "a": "No. They are two separate housing authorities. HASLC (HUD code UT004) serves Salt Lake City; Housing Connect (UT003), formerly the Housing Authority of the County of Salt Lake, serves the county. What they share is one waiting list for tenant-based Section 8 vouchers: HASLC says \"HASLC and Housing Connect (Salt Lake County Housing Authority) have a combined tenant-based HCV program waitlist,\" and that applicants are \"automatically added to the waitlist for both Housing Authorities.\" Project-based and public housing lists are still separate."
+    },
+    {
+      "q": "Is the Salt Lake City Section 8 waiting list open?",
+      "a": "No. As of November 5, 2026, HASLC says \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants,\" and that includes the shared Salt Lake County Consolidated Section 8 list. HASLC also says the list \"is often closed and only opens every several years because of funding limits.\" Housing Connect says its own lists are \"currently closed and are not accepting applications.\" When the shared list reopens, one application covers both agencies."
+    },
+    {
+      "q": "Can I apply for HASLC's project-based or public housing buildings now?",
+      "a": "Maybe. HASLC's Applicant Portal invites you to \"Register here if you would like to be added to the project-based voucher waiting list\" for eight buildings, and it lists Phillips Plaza and Romney Plaza as public housing waiting lists. But HASLC does not post whether these lists are open or closed. Call 801-487-2161 to ask. Phillips Plaza and Romney Plaza are \"for senior and/or disabled households only.\""
+    },
+    {
+      "q": "What is the HASLC website? I found haslc.com.",
+      "a": "HASLC's website is haslcutah.org. The old haslc.com address now redirects to a different agency, a housing authority in St. Louis County, Missouri. Use haslcutah.org, call 801-487-2161, or visit 1776 S. West Temple, Salt Lake City, Monday to Friday from 8 a.m. to 5 p.m."
+    },
+    {
+      "q": "How do I check my place on the list?",
+      "a": "If you are on a tenant-based list, HASLC says to \"check your status and, if applicable, update your contact information on AffordableHousing.com.\" For project-based and public housing lists, log in to the HASLC Applicant Portal. Keep your address and phone current: HASLC warns that \"Failure to keep your information current may result in being removed from the waiting list.\" HASLC also notes that \"Placement on the waitlist does not mean that you are eligible for assistance.\""
+    },
+    {
+      "q": "Can a Salt Lake City landlord refuse my voucher?",
+      "a": "Usually not. Utah's Fair Housing Act lists source of income as a protected class (Utah Code 57-21-5) and defines it to include \"rental assistance or rent supplements\" (57-21-2). Some small owners are exempt, such as an owner who rents out a single-family home without a real estate agent and owns fewer than four (57-21-3). If you are refused, contact the Utah Antidiscrimination and Labor Division at 801-530-6800."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Housing Authority of Salt Lake City - official site",
+      "url": "https://haslcutah.org/"
+    },
+    {
+      "label": "HASLC - Waitlists (AffordableHousing.com lists closed; Applicant Portal lists)",
+      "url": "https://www.haslcutah.org/waitlists/"
+    },
+    {
+      "label": "HASLC - Apply for Housing (combined waitlist with Housing Connect)",
+      "url": "https://haslcutah.org/apply-for-housing/"
+    },
+    {
+      "label": "HASLC - Housing Options (programs, PBV count, public housing, VASH, Mainstream)",
+      "url": "https://haslcutah.org/housing-options/"
+    },
+    {
+      "label": "HASLC - Contact (address, hours, phone, TTY)",
+      "url": "https://haslcutah.org/contact/"
+    },
+    {
+      "label": "HASLC - Applicant Portal",
+      "url": "https://portal-haslcutah.securecafe.com/onlineleasing/salt-lake-city-live/guestlogin.aspx"
+    },
+    {
+      "label": "Housing Connect - Connect to Housing (all lists closed)",
+      "url": "https://housingconnect.org/connect-to-housing/"
+    },
+    {
+      "label": "Housing Connect - Public Housing",
+      "url": "https://housingconnect.org/programs/public-housing/"
+    },
+    {
+      "label": "Salt Lake City - Homelessness resources (Homeless Hotline)",
+      "url": "https://www.slc.gov/homelessness/resources/"
+    },
+    {
+      "label": "Utah Code 57-21-5 (source of income protected)",
+      "url": "https://le.utah.gov/xcode/Title57/Chapter21/57-21-S5.html"
+    }
+  ],
+  "es": {
+    "meta_title": "Lista de Sección 8 de Salt Lake City (HASLC) | Waythrough",
+    "meta_description": "HASLC de Salt Lake City: la lista de Sección 8 compartida con Housing Connect está cerrada. Tel. (801) 487-2161 y cómo solicitar. Verificado el 5 nov. 2026.",
+    "serves": "Salt Lake City, Utah, con una lista de vales compartida con Housing Connect para todo el Condado de Salt Lake",
+    "updated": "5 de noviembre de 2026",
+    "status_check_html": "Si ya está en una lista de vales, HASLC le pide revisar su estado y actualizar sus datos de contacto en AffordableHousing.com; quienes solicitaron vivienda basada en proyecto o vivienda pública usan el <a href=\"https://portal-haslcutah.securecafe.com/onlineleasing/salt-lake-city-live/guestlogin.aspx\" target=\"_blank\" rel=\"noopener\">Portal de Solicitantes de HASLC</a> (en inglés). Mantenga su información al día: HASLC advierte que si no lo hace, pueden retirarle de la lista de espera.",
+    "intro": "Si busca la Sección 8 en Salt Lake City, hay dos autoridades de vivienda que debe conocer, y son agencias distintas. La Housing Authority of Salt Lake City (HASLC), código UT004 de HUD, sirve a la ciudad desde 1776 S. West Temple. Housing Connect, código UT003 de HUD, antes se llamaba Housing Authority of the County of Salt Lake y sirve al condado. No se han fusionado, pero comparten una sola lista para los vales regulares de Sección 8: HASLC dice \"HASLC and Housing Connect (Salt Lake County Housing Authority) have a combined tenant-based HCV program waitlist\" (tienen una lista combinada de vales), así que una sola solicitud lo inscribe en la lista de las dos. Algo más: el sitio web de HASLC ahora es haslcutah.org. La dirección antigua haslc.com ahora lo lleva a una autoridad de vivienda de Missouri, así que no la use. Esta página explica qué programas tiene HASLC, el estado de cada lista en sus propias palabras y a dónde acudir mientras la lista de vales está cerrada.",
+    "programs": [
+      "Housing Choice Voucher (Sección 8) basado en el inquilino, con una lista de espera compartida con Housing Connect",
+      "Vales Mainstream y Non-Elderly Disabled, que salen de la misma lista",
+      "Vales basados en proyecto: casi 650 en el Condado de Salt Lake, incluidas unidades de vivienda de apoyo permanente, VASH, para personas mayores y para familias",
+      "Vivienda pública en dos edificios, Phillips Plaza y Romney Plaza, solo para hogares de personas mayores o con discapacidad",
+      "HUD-VASH (por referencia de la VA) y vales del Programa de Unificación Familiar (por referencia de DCFS)",
+      "TANF Family Housing Program (ayuda de alquiler a corto plazo para familias con hijos)",
+      "Unos 1,000 apartamentos de HASLC sin subsidio"
+    ],
+    "waitlists": [
+      {
+        "program": "Housing Choice Voucher (Sección 8), lista consolidada del Condado de Salt Lake, compartida con Housing Connect",
+        "status": "Cerrada",
+        "note": "Cerrada (verificado el 5 de noviembre de 2026). La lista se llama \"Section 8 Waiting List – Salt Lake County Consolidated\" y está en AffordableHousing.com. La página de listas de HASLC dice: \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants\" (todas las listas en AffordableHousing.com están cerradas a solicitantes nuevos). Su página de programas añade que la lista casi siempre está cerrada y solo abre cada varios años por falta de fondos. No hay fecha de reapertura."
+      },
+      {
+        "program": "Vales Mainstream y Non-Elderly Disabled",
+        "status": "Cerrada",
+        "note": "Las dos están en AffordableHousing.com, así que aplica lo mismo: \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants\" (verificado el 5 de noviembre de 2026). HASLC dice que estos vales salen de la lista regular."
+      },
+      {
+        "program": "Vales basados en proyecto en Pamela's Place, The Magnolia, Palmer Court y Wendell Apartments",
+        "status": "Cerrada",
+        "note": "Estas cuatro listas también están en AffordableHousing.com, que HASLC dice que están \"currently closed to new applicants\" (cerradas a solicitantes nuevos) (verificado el 5 de noviembre de 2026)."
+      },
+      {
+        "program": "Vales basados en proyecto en el Portal de Solicitantes de HASLC (The Aster, Atkinson Stacks/Sunrise Metro, Capitol Homes, Lake Street, Rendon Terrace, SPARK, Taylor Springs, Wasatch Manor)",
+        "status": "No publica si está abierta o cerrada",
+        "note": "El Portal de Solicitantes de HASLC dice \"Register here if you would like to be added to the project-based voucher waiting list for:\" (regístrese aquí si quiere entrar en la lista de) estos edificios, pero ni el portal ni la página de listas dicen si están abiertas o cerradas (verificado el 5 de noviembre de 2026). La página de solicitud de HASLC también dice que en Capitol Homes y Pamela's Place hay que comunicarse directamente con la propiedad. Llame al 801-487-2161 antes de contar con que una lista esté abierta. Algunas unidades de vivienda de apoyo permanente dan preferencia a personas sin hogar o sin hogar de forma crónica."
+      },
+      {
+        "program": "Vivienda pública: Phillips Plaza y Romney Plaza",
+        "status": "No publica si está abierta o cerrada",
+        "note": "Los dos edificios aparecen como listas de vivienda pública en el Portal de Solicitantes de HASLC, y HASLC dice que son solo para hogares de personas mayores o con discapacidad. No se publica si están abiertas o cerradas (verificado el 5 de noviembre de 2026)."
+      },
+      {
+        "program": "Listas de Housing Connect (Condado de Salt Lake)",
+        "status": "Cerrada",
+        "note": "Housing Connect enumera sus programas de vales, vales basados en proyecto, vales RAD y vivienda pública, y dice: \"All of these programs' waiting lists are currently closed and are not accepting applications\" (todas las listas están cerradas y no aceptan solicitudes) (verificado el 5 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "<strong>Housing Connect</strong> (antes Housing Authority of the County of Salt Lake) sirve al Condado de Salt Lake desde 3595 South Main Street en South Salt Lake, (801) 284-4400, TDD (801) 284-4407, de lunes a viernes de 9 a.m. a 5 p.m. Es dueña de 184 unidades de vivienda pública en el condado y las administra. Todas sus listas de espera están cerradas (verificado el 5 de noviembre de 2026). Es una agencia distinta de HASLC; las dos solo comparten la lista de vales.",
+      "<strong>Si necesita un lugar para dormir y no un lugar en una lista,</strong> la línea para personas sin hogar de Salt Lake City es el 801-990-9999. La Ciudad dice que la llame si usted o alguien que conoce está sin hogar o en riesgo de estarlo. También puede marcar el 211 (o el 888-826-9790).",
+      "<strong>¿Atrasado con la renta?</strong> No hay ningún fondo de renta abierto de la Ciudad, del Condado ni del estado, pero Utah Community Action puede ayudar con la renta o el depósito después de una crisis pasajera: (801) 359-2444. Nuestra <a href=\"../guias/asistencia-renta-emergencia-salt-lake-city\">guía de ayuda de emergencia con la renta en Salt Lake City</a> explica cada puerta, la ayuda legal gratis y el plazo de 3 días hábiles de Utah."
+    ],
+    "faqs": [
+      {
+        "q": "¿La Housing Authority of Salt Lake City es lo mismo que Housing Connect?",
+        "a": "No. Son dos autoridades de vivienda distintas. HASLC (código UT004 de HUD) sirve a Salt Lake City; Housing Connect (UT003), antes Housing Authority of the County of Salt Lake, sirve al condado. Lo que comparten es una sola lista de espera para los vales de Sección 8: HASLC dice \"HASLC and Housing Connect (Salt Lake County Housing Authority) have a combined tenant-based HCV program waitlist\" (tienen una lista combinada), y que quien solicita queda inscrito automáticamente en la lista de las dos. Las listas de vales basados en proyecto y de vivienda pública siguen siendo separadas."
+      },
+      {
+        "q": "¿Está abierta la lista de espera de Sección 8 de Salt Lake City?",
+        "a": "No. Al 5 de noviembre de 2026, HASLC dice \"All waiting lists managed on AffordableHousing.com are currently closed to new applicants\" (todas sus listas en ese sitio están cerradas a solicitantes nuevos), y eso incluye la lista consolidada de Sección 8 del Condado de Salt Lake. HASLC también dice que la lista casi siempre está cerrada y solo abre cada varios años por falta de fondos. Housing Connect dice que sus propias listas están cerradas y no aceptan solicitudes. Cuando la lista compartida vuelva a abrir, una sola solicitud cubre las dos agencias."
+      },
+      {
+        "q": "¿Puedo solicitar ahora los edificios de vivienda basada en proyecto o de vivienda pública de HASLC?",
+        "a": "Tal vez. El Portal de Solicitantes de HASLC lo invita a registrarse si quiere entrar en la lista de vales basados en proyecto de ocho edificios, y enumera Phillips Plaza y Romney Plaza como listas de vivienda pública. Pero HASLC no publica si estas listas están abiertas o cerradas. Llame al 801-487-2161 para preguntar. Phillips Plaza y Romney Plaza son solo para hogares de personas mayores o con discapacidad."
+      },
+      {
+        "q": "¿Cuál es el sitio web de HASLC? Encontré haslc.com.",
+        "a": "El sitio web de HASLC es haslcutah.org. La dirección antigua haslc.com ahora lleva a otra agencia, una autoridad de vivienda del Condado de St. Louis, Missouri. Use haslcutah.org, llame al 801-487-2161 o visite 1776 S. West Temple, Salt Lake City, de lunes a viernes de 8 a.m. a 5 p.m."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en la lista?",
+        "a": "Si está en una lista de vales, HASLC le pide revisar su estado y actualizar sus datos de contacto en AffordableHousing.com. Para las listas de vivienda basada en proyecto y de vivienda pública, entre al Portal de Solicitantes de HASLC. Mantenga al día su dirección y su teléfono: HASLC advierte que si no lo hace, pueden retirarle de la lista. HASLC también aclara que estar en la lista no significa que usted califique para la ayuda."
+      },
+      {
+        "q": "¿Puede un arrendador de Salt Lake City rechazar mi vale?",
+        "a": "Por lo general, no. La Ley de Vivienda Justa de Utah incluye la fuente de ingresos como clase protegida (Utah Code 57-21-5) y la define para incluir la asistencia de alquiler (57-21-2). Algunos dueños pequeños están exentos, por ejemplo un dueño que alquila una casa unifamiliar sin agente de bienes raíces y tiene menos de cuatro (57-21-3). Si lo rechazan, comuníquese con la Utah Antidiscrimination and Labor Division al 801-530-6800."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Housing Authority of Salt Lake City - sitio oficial (en inglés)",
+        "url": "https://haslcutah.org/"
+      },
+      {
+        "label": "HASLC - Listas de espera: listas cerradas en AffordableHousing.com y listas del Portal de Solicitantes (en inglés)",
+        "url": "https://www.haslcutah.org/waitlists/"
+      },
+      {
+        "label": "HASLC - Cómo solicitar: lista combinada con Housing Connect (en inglés)",
+        "url": "https://haslcutah.org/apply-for-housing/"
+      },
+      {
+        "label": "HASLC - Opciones de vivienda: programas, vales basados en proyecto, vivienda pública, VASH, Mainstream (en inglés)",
+        "url": "https://haslcutah.org/housing-options/"
+      },
+      {
+        "label": "HASLC - Contacto: dirección, horario, teléfono y TTY (en inglés)",
+        "url": "https://haslcutah.org/contact/"
+      },
+      {
+        "label": "HASLC - Portal de Solicitantes (en inglés)",
+        "url": "https://portal-haslcutah.securecafe.com/onlineleasing/salt-lake-city-live/guestlogin.aspx"
+      },
+      {
+        "label": "Housing Connect - Connect to Housing: todas las listas cerradas (en inglés)",
+        "url": "https://housingconnect.org/connect-to-housing/"
+      },
+      {
+        "label": "Housing Connect - Vivienda pública (en inglés)",
+        "url": "https://housingconnect.org/programs/public-housing/"
+      },
+      {
+        "label": "Salt Lake City - Recursos para personas sin hogar: línea 801-990-9999 (en inglés)",
+        "url": "https://www.slc.gov/homelessness/resources/"
+      },
+      {
+        "label": "Utah Code 57-21-5: la fuente de ingresos es una clase protegida (en inglés)",
+        "url": "https://le.utah.gov/xcode/Title57/Chapter21/57-21-S5.html"
+      }
+    ]
+  }
+}

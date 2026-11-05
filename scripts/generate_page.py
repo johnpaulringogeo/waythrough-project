@@ -304,6 +304,11 @@ FAQ_LINK_TARGETS = {
     "hacm.org/programs/housing/apply-for-housing": "https://hacm.org/programs/housing/apply-for-housing",
     "hacm.org/subsidized": "https://www.hacm.org/subsidized",  # fetched live 2026-10-15 (SEO2); HACM's short link to its open waiting lists page; bot-blocked to scripts, live for people
     "hakc.org": "https://www.hakc.org",
+    "cvlas.org": "https://cvlas.org/get-help/",  # fetched live 2026-11-05 (Richmond pages); Central Virginia Legal Aid Society intake page
+    "haslcutah.org": "https://haslcutah.org",  # fetched live 2026-11-05 (Salt Lake City pages); haslc.com now redirects to an unrelated St. Louis County site
+    "housingconnect.org": "https://housingconnect.org",  # fetched live 2026-11-05 (Salt Lake City pages); Housing Connect, Salt Lake County
+    "rrha.com": "https://www.rrha.com",  # fetched live 2026-11-05 (Richmond pages); Richmond Redevelopment and Housing Authority
+    "utahca.org": "https://utahca.org/case-management-housing/",  # fetched live 2026-11-05 (Salt Lake City pages); Utah Community Action rent and deposit help
     "hakc.org/apply-online": "https://www.hakc.org/apply-online",
     "hatctx.com": "https://hatctx.com",
     "homesa.org": "https://homesa.org",
