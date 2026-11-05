@@ -12,7 +12,7 @@
   "apply_url": "https://www.longbeach.gov/haclb/apply/",
   "city_slug": "long-beach",
   "state_slug": "california",
-  "updated": "September 21, 2026",
+  "updated": "November 5, 2026",
   "intro": "The Housing Authority of the City of Long Beach (HACLB) runs Section 8 Housing Choice Vouchers for the City of Long Beach, California. It is a voucher-only agency: HUD's PHA contact report lists Long Beach (CA068) with a program type of \"Section 8,\" and HACLB's own program pages list vouchers, Shelter Plus Care, VASH and project-based voucher apartments, but no public housing of its own. That distinction matters more than it sounds, because the largest public housing community inside Long Beach city limits is not HACLB's at all. Its waiting lists, run by Los Angeles County, were open from August 17 to September 16, 2026 and are closed now, like HACLB's. This page summarizes what HACLB itself publishes about its waiting-list status, contact information and how to apply, explains the Carmelitos exception, and links to the official pages for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
@@ -20,13 +20,13 @@
     "Veterans Affairs Supportive Housing (VASH)",
     "Project Based Voucher apartments",
     "Family Self-Sufficiency",
-    "Emergency Housing Voucher (HUD has notified HACLB that it is ending this program)"
+    "Emergency Housing Voucher (HUD is ending this program; HACLB estimates rental help ends around October 2026)"
   ],
   "waitlists": [
     {
       "program": "Housing Choice Voucher (Section 8)",
       "status": "Closed",
-      "note": "Closed with no reopening scheduled (checked September 21, 2026). HACLB's notice reads: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time.\" Its application page adds: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media.\" That page also offers a mailing list you can join so HACLB can tell you directly when the lists reopen."
+      "note": "Closed with no reopening scheduled (checked November 5, 2026). HACLB's notice reads: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time.\" Its application page adds: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media.\" That page also offers a mailing list you can join so HACLB can tell you directly when the lists reopen."
     },
     {
       "program": "Carmelitos public housing, in Long Beach but run by Los Angeles County",
@@ -36,7 +36,7 @@
     {
       "program": "Los Angeles County Development Authority Section 8",
       "status": "Closed",
-      "note": "LACDA's site-based waiting list page states: \"The County's Section 8 waiting list also remains closed.\" Its registration portal adds: \"MULTIFAMILY PROGRAM WAITING LISTS ARE NOW CLOSED!\" (checked September 21, 2026)."
+      "note": "LACDA's site-based waiting list page states: \"The County's Section 8 waiting list also remains closed.\" (checked November 5, 2026). Its registration portal said on September 21, 2026: \"MULTIFAMILY PROGRAM WAITING LISTS ARE NOW CLOSED!\""
     },
     {
       "program": "Privately owned affordable apartments in Long Beach",
@@ -47,13 +47,14 @@
   "also_serving": [
     "<strong>The Los Angeles County Development Authority (LACDA) is a separate agency, and Long Beach sits outside most of its territory on purpose.</strong> LACDA says it \"serves the unincorporated areas of Los Angeles County (areas that are not part of a city) and 62 incorporated cities,\" and it names Long Beach as one of 18 cities in the county that run their own public housing agency. Main line (626) 262-4511.",
     "<strong>The one exception is Carmelitos, and it is a large one.</strong> LACDA states that it \"has a Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only.\" Carmelitos is in Long Beach, and its two site-based lists cover 155 senior units and 558 family units. Those lists were open from August 17 to September 16, 2026 and are closed now. HACLB's home page did carry a news item about the county's opening, \"Los Angeles County Public Housing Waiting List is Open. Applications accepted 8/17/2026 - 9/16/2026,\" but it does not name Carmelitos, so watch lacda.org for the next opening.",
-    "<strong>HUD is ending the Emergency Housing Voucher program.</strong> HACLB's home page states: \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program.\" HACLB had been allocated 582 of these vouchers through the American Rescue Plan Act. If you hold one, call HACLB at (562) 570-6985 and ask what the wind-down means for your household rather than waiting for a letter.",
-    "<strong>HACLB is appointment-only.</strong> Its office at 1500 Hughes Way, Suite C-300 is open Monday, Tuesday, Wednesday and Friday from 7:30 a.m. to 4:00 p.m. and Thursday from 7:30 a.m. to 2:00 p.m., and it asks you to \"schedule an appointment in advance by calling (562) 570-6985.\" A drop box is available Monday through Friday, 4:30 a.m. to 7:00 p.m., and the waiting-list mailbox is HA-WaitingList@longbeach.gov."
+    "<strong>HUD is ending the Emergency Housing Voucher program.</strong> HACLB's Emergency Housing Voucher page says HUD has notified it \"that they are ending the Emergency Housing Voucher program,\" that \"EHV rental assistance is estimated to end around October 2026,\" and that after that \"HACLB will no longer provide rental payments to landlords.\" It says a household that stays in the unit \"will be responsible for the entire rent amount\" (checked November 5, 2026). If you hold an EHV, call HACLB at (562) 570-6985 now and talk to your landlord about the rent before the payments stop.",
+    "<strong>HACLB is appointment-only.</strong> Its office at 1500 Hughes Way, Suite C-300 is open Monday, Tuesday, Wednesday and Friday from 7:30 a.m. to 4:00 p.m. and Thursday from 7:30 a.m. to 2:00 p.m., and it asks you to \"schedule an appointment in advance by calling (562) 570-6985.\" A drop box is available Monday through Friday, 4:30 a.m. to 7:00 p.m., and the waiting-list mailbox is HA-WaitingList@longbeach.gov.",
+    "<strong>HACLB is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-long-beach\">Long Beach emergency rent help guide</a>: the City's Renter Aid Program and its status, free eviction lawyers through Stay Housed LA, LA County prevention money through PATH, CalWORKs back rent, and California and Long Beach eviction rules. If you already have an HACLB voucher and your income dropped, call HACLB at (562) 570-6985."
   ],
   "faqs": [
     {
       "q": "Is the Long Beach Section 8 waiting list open?",
-      "a": "No. As of September 21, 2026 the Housing Authority of the City of Long Beach states that its \"waiting list is currently closed, and no openings are scheduled at this time.\" There is no announced reopening date. HACLB says it will share the news on its website and social media when the lists reopen, and its application page offers a mailing list you can join. Confirm at longbeach.gov/haclb/apply or call (562) 570-6985 before you rely on this."
+      "a": "No. As of November 5, 2026 the Housing Authority of the City of Long Beach states that its \"waiting list is currently closed, and no openings are scheduled at this time.\" There is no announced reopening date. HACLB says it will share the news on its website and social media when the lists reopen, and its application page offers a mailing list you can join. Confirm at longbeach.gov/haclb/apply or call (562) 570-6985 before you rely on this."
     },
     {
       "q": "Does Long Beach have public housing?",
@@ -69,7 +70,7 @@
     },
     {
       "q": "I have an Emergency Housing Voucher. What happens now?",
-      "a": "HACLB has published that \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program,\" and points readers to longbeach.gov/ehv for details. HACLB received 582 EHVs under the American Rescue Plan Act. HACLB has not published a household-level timeline, so call (562) 570-6985 and ask specifically what the end of the program means for your assistance and your lease, and get the answer in writing."
+      "a": "HACLB's Emergency Housing Voucher page says HUD has notified it \"that they are ending the Emergency Housing Voucher program\" and that \"EHV rental assistance is estimated to end around October 2026.\" After that, \"HACLB will no longer provide rental payments to landlords,\" and if you stay in the unit you \"will be responsible for the entire rent amount.\" HACLB says to talk to your landlord as soon as possible. Call HACLB at (562) 570-6985, ask what the end of the program means for your household, and get the answer in writing (checked November 5, 2026)."
     },
     {
       "q": "How will I find out when HACLB reopens its list?",
@@ -94,8 +95,8 @@
       "url": "https://www.longbeach.gov/haclb/programs/"
     },
     {
-      "label": "HACLB - Emergency Housing Voucher program",
-      "url": "https://www.longbeach.gov/haclb/programs/emergency-housing-voucher/"
+      "label": "HACLB - Emergency Housing Voucher Program (HUD ending EHV; rental help estimated to end around October 2026)",
+      "url": "https://www.longbeach.gov/haclb/resources/EHV/"
     },
     {
       "label": "HACLB - Affordable Housing listing (independent waiting lists)",
@@ -124,7 +125,7 @@
   ],
   "es": {
     "serves": "la ciudad de Long Beach, California",
-    "updated": "21 de septiembre de 2026",
+    "updated": "5 de noviembre de 2026",
     "intro": "La Autoridad de Vivienda de la Ciudad de Long Beach (HACLB) administra los vales de la Sección 8 (Housing Choice Voucher) para la ciudad de Long Beach, California. Es una agencia que solo maneja vales: el informe de contactos de PHA de HUD clasifica a Long Beach (CA068) como programa de \"Section 8\", y las propias páginas de HACLB enumeran vales, Shelter Plus Care, VASH y apartamentos con vales basados en proyecto, pero ninguna vivienda pública propia. Esa distinción importa más de lo que parece, porque la comunidad de vivienda pública más grande dentro de los límites de Long Beach no es de HACLB. Sus listas de espera, del condado de Los Ángeles, estuvieron abiertas del 17 de agosto al 16 de septiembre de 2026 y ahora están cerradas, igual que las de HACLB. Esta página resume lo que HACLB publica sobre el estado de su lista de espera, su información de contacto y cómo solicitar, explica la excepción de Carmelitos y enlaza a las páginas oficiales para cualquier dato que cambie con el tiempo.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
@@ -132,13 +133,13 @@
       "Veterans Affairs Supportive Housing (VASH), para veteranos",
       "Apartamentos con vales basados en proyecto (Project Based Voucher)",
       "Autosuficiencia Familiar (Family Self-Sufficiency)",
-      "Emergency Housing Voucher (HUD notificó a HACLB que va a terminar este programa)"
+      "Emergency Housing Voucher (HUD va a terminar este programa; HACLB calcula que la ayuda con la renta termina alrededor de octubre de 2026)"
     ],
     "waitlists": [
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "Cerrada y sin fecha de reapertura (verificado el 21 de septiembre de 2026). El aviso de HACLB dice: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time\" (la lista de espera está cerrada y no hay aperturas programadas). Su página de solicitud añade: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media\" (cuando las listas reabran, lo anunciaremos en nuestro sitio web y redes sociales). Esa misma página ofrece una lista de correo a la que puede inscribirse para que HACLB le avise directamente."
+        "note": "Cerrada y sin fecha de reapertura (verificado el 5 de noviembre de 2026). El aviso de HACLB dice: \"The Housing Authority of the City of Long Beach's waiting list is currently closed, and no openings are scheduled at this time\" (la lista de espera está cerrada y no hay aperturas programadas). Su página de solicitud añade: \"At this time, our waiting lists are closed. When the lists reopen, we will share more information on our website and social media\" (cuando las listas reabran, lo anunciaremos en nuestro sitio web y redes sociales). Esa misma página ofrece una lista de correo a la que puede inscribirse para que HACLB le avise directamente."
       },
       {
         "program": "Vivienda pública de Carmelitos, en Long Beach pero administrada por el condado de Los Ángeles",
@@ -159,13 +160,14 @@
     "also_serving": [
       "<strong>La Los Angeles County Development Authority (LACDA) es una agencia aparte, y Long Beach queda fuera de casi todo su territorio a propósito.</strong> LACDA dice que sirve a \"the unincorporated areas of Los Angeles County (areas that are not part of a city) and 62 incorporated cities\" (las zonas no incorporadas del condado y 62 ciudades incorporadas), y nombra a Long Beach como una de las 18 ciudades del condado que tienen su propia agencia de vivienda. Línea principal (626) 262-4511.",
       "<strong>La única excepción es Carmelitos, y es una excepción grande.</strong> LACDA declara que tiene un \"Memorandum of Understanding (MOU) with the Long Beach Housing Authority to permit residents of the City of Long Beach to be classified as in-jurisdiction applicants for housing at the Carmelitos Public Housing development only\": un acuerdo que permite a los residentes de Long Beach contar como solicitantes locales, únicamente para Carmelitos. Carmelitos está en Long Beach, y sus dos listas por sitio cubren 155 unidades para personas mayores y 558 unidades familiares. Esas listas estuvieron abiertas del 17 de agosto al 16 de septiembre de 2026 y ahora están cerradas. La página principal de HACLB sí publicó un aviso sobre la apertura del condado, \"Los Angeles County Public Housing Waiting List is Open. Applications accepted 8/17/2026 - 9/16/2026\" (la lista de vivienda pública del condado está abierta; solicitudes del 17 de agosto al 16 de septiembre de 2026), pero no nombra a Carmelitos, así que consulte lacda.org para la próxima apertura.",
-      "<strong>HUD va a terminar el programa Emergency Housing Voucher.</strong> La página principal de HACLB dice: \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program\" (HUD nos notificó que va a terminar el programa). A HACLB le habían asignado 582 de estos vales bajo la Ley del Plan de Rescate Estadounidense. Si usted tiene uno, llame a HACLB al (562) 570-6985 y pregunte qué significa el cierre del programa para su hogar en lugar de esperar una carta.",
-      "<strong>HACLB atiende solo con cita.</strong> Su oficina en 1500 Hughes Way, Suite C-300 abre lunes, martes, miércoles y viernes de 7:30 a.m. a 4:00 p.m. y jueves de 7:30 a.m. a 2:00 p.m., y le pide que programe una cita por adelantado llamando al (562) 570-6985. Hay un buzón disponible de lunes a viernes de 4:30 a.m. a 7:00 p.m., y el correo para asuntos de la lista de espera es HA-WaitingList@longbeach.gov."
+      "<strong>HUD va a terminar el programa Emergency Housing Voucher.</strong> La página del programa en el sitio de HACLB dice que HUD le notificó \"that they are ending the Emergency Housing Voucher program\" (que va a terminar el programa), que \"EHV rental assistance is estimated to end around October 2026\" (se calcula que la ayuda con la renta termine alrededor de octubre de 2026) y que después \"HACLB will no longer provide rental payments to landlords\" (HACLB ya no pagará renta a los arrendadores). Dice que el hogar que se quede en la vivienda \"will be responsible for the entire rent amount\" (tendrá que pagar toda la renta) (verificado el 5 de noviembre de 2026). Si tiene uno de estos vales, llame ya a HACLB al (562) 570-6985 y hable con su arrendador sobre la renta antes de que se acaben los pagos.",
+      "<strong>HACLB atiende solo con cita.</strong> Su oficina en 1500 Hughes Way, Suite C-300 abre lunes, martes, miércoles y viernes de 7:30 a.m. a 4:00 p.m. y jueves de 7:30 a.m. a 2:00 p.m., y le pide que programe una cita por adelantado llamando al (562) 570-6985. Hay un buzón disponible de lunes a viernes de 4:30 a.m. a 7:00 p.m., y el correo para asuntos de la lista de espera es HA-WaitingList@longbeach.gov.",
+      "<strong>HACLB no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-long-beach\">guía de ayuda de emergencia con la renta en Long Beach</a>: el programa Renter Aid de la Ciudad y su estado, abogados gratis por medio de Stay Housed LA, dinero de prevención del Condado por medio de PATH, renta atrasada por CalWORKs y las reglas de desalojo de California y de Long Beach. Si ya tiene un vale de HACLB y bajaron sus ingresos, llame a HACLB al (562) 570-6985."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Long Beach?",
-        "a": "No. Al 21 de septiembre de 2026, la Autoridad de Vivienda de la Ciudad de Long Beach declara que su lista de espera \"is currently closed, and no openings are scheduled at this time\" (está cerrada y no hay aperturas programadas). No hay fecha anunciada de reapertura. HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una lista de correo para avisarle. Confirme en longbeach.gov/haclb/apply o llame al (562) 570-6985 antes de dar esto por seguro."
+        "a": "No. Al 5 de noviembre de 2026, la Autoridad de Vivienda de la Ciudad de Long Beach declara que su lista de espera \"is currently closed, and no openings are scheduled at this time\" (está cerrada y no hay aperturas programadas). No hay fecha anunciada de reapertura. HACLB dice que lo anunciará en su sitio web y en sus redes sociales, y su página de solicitud ofrece una lista de correo para avisarle. Confirme en longbeach.gov/haclb/apply o llame al (562) 570-6985 antes de dar esto por seguro."
       },
       {
         "q": "¿Hay vivienda pública en Long Beach?",
@@ -181,7 +183,7 @@
       },
       {
         "q": "Tengo un Emergency Housing Voucher. ¿Qué pasa ahora?",
-        "a": "HACLB publicó que \"The U.S. Department of Housing of Urban Development has notified us that they are ending the Emergency Housing Voucher program\" (HUD notificó que va a terminar el programa) y remite a longbeach.gov/ehv para más detalles. HACLB recibió 582 de estos vales bajo la Ley del Plan de Rescate Estadounidense. HACLB no ha publicado un calendario para cada hogar, así que llame al (562) 570-6985 y pregunte concretamente qué significa el fin del programa para su asistencia y su contrato de arrendamiento, y pida la respuesta por escrito."
+        "a": "La página del programa en el sitio de HACLB dice que HUD le notificó \"that they are ending the Emergency Housing Voucher program\" (que va a terminar el programa) y que \"EHV rental assistance is estimated to end around October 2026\" (se calcula que la ayuda con la renta termine alrededor de octubre de 2026). Después, \"HACLB will no longer provide rental payments to landlords\" (HACLB ya no pagará renta a los arrendadores), y si usted se queda en la vivienda \"will be responsible for the entire rent amount\" (tendrá que pagar toda la renta). HACLB dice que hable con su arrendador lo antes posible. Llame a HACLB al (562) 570-6985, pregunte qué significa el fin del programa para su hogar y pida la respuesta por escrito (verificado el 5 de noviembre de 2026)."
       },
       {
         "q": "¿Cómo me entero de cuándo reabre la lista de HACLB?",
@@ -206,8 +208,8 @@
         "url": "https://www.longbeach.gov/haclb/programs/"
       },
       {
-        "label": "HACLB - Programa Emergency Housing Voucher (en inglés)",
-        "url": "https://www.longbeach.gov/haclb/programs/emergency-housing-voucher/"
+        "label": "HACLB - Programa Emergency Housing Voucher: HUD termina el programa; la ayuda terminaría alrededor de octubre de 2026 (en inglés)",
+        "url": "https://www.longbeach.gov/haclb/resources/EHV/"
       },
       {
         "label": "HACLB - Listado de vivienda asequible privada (en inglés)",

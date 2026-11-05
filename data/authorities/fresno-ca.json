@@ -13,7 +13,7 @@
   "apply_url": "https://fresnohousing.org/residents/application-process/",
   "city_slug": "fresno",
   "state_slug": "california",
-  "updated": "August 25, 2026",
+  "updated": "November 5, 2026",
   "intro": "Fresno Housing is the name on the door, but there are legally two agencies behind it: the Housing Authority of the City of Fresno (HUD code CA006) and the Housing Authority of the County of Fresno (CA028). They share one staff, one office at 1331 Fulton Street and one website, and they file separate Annual Plans, separate occupancy policies and separate Housing Choice Voucher administrative plans, each approved by its own Board of Commissioners. For an applicant, the practical consequence is simple and easy to get wrong: the City and County keep separate Section 8 interest lists, and being on one does not put you on the other. This page covers the interest-list status for both, what is open at individual properties right now, and how to reach the right people.",
   "programs": [
     "Housing Choice Voucher (Section 8), with separate City and County interest lists",
@@ -28,24 +28,25 @@
     {
       "program": "Housing Choice Voucher (Section 8), City and County",
       "status": "Closed",
-      "note": "Closed (checked August 25, 2026). Fresno Housing's application page states that the Housing Choice Voucher interest list is currently closed, and explains why the wait is what it is: \"Due to housing shortages, there are rarely a sufficient number of housing units or vouchers available for the overwhelming number of individuals who apply.\" No reopening date is published. Note that the City and County lists are separate: Fresno Housing's own guidance is that \"if you are on both lists (City and County), you will need to save your spot on each list.\""
+      "note": "Closed (checked November 5, 2026). Fresno Housing's application page says of the Housing Choice Voucher: \"Interest list is currently closed\", and explains why the wait is what it is: \"Due to housing shortages, there are rarely a sufficient number of housing units or vouchers available for the overwhelming number of individuals who apply.\" No reopening date is published. Note that the City and County lists are separate: Fresno Housing's own guidance is that \"if you are on both lists (City and County), you will need to save your spot on each list.\""
     },
     {
       "program": "Individual properties accepting applications",
-      "status": "Open at six communities",
-      "note": "As of August 25, 2026, Fresno Housing's application page showed six properties accepting applications: Blossom Trail Commons in Sanger, Citrus Commons in Orange Cove, Corazon del Valle Commons in Huron, Cueva de Oso at William Shockley Plaza in Selma, Paseo 55 in Reedley, and Promesa Commons in Fresno. Property lists change, so treat this as a snapshot and check the portal before you plan around it. Fresno Housing confirms you are allowed to be on more than one list at a time."
+      "status": "Open at eight communities",
+      "note": "As of November 5, 2026, Fresno Housing's application page showed eight properties \"Accepting Applications\": Blossom Trail Commons in Sanger, Citrus Commons in Orange Cove, Corazon del Valle Commons in Huron, Cueva de Oso at William Shockley Plaza in Selma, Manzanilla Commons in Fresno, Pacific Gardens in Fresno, Paseo 55 in Reedley, and Promesa Commons in Fresno. Property lists change, so treat this as a snapshot and check the portal before you plan around it. Fresno Housing confirms you are allowed to be on more than one list at a time."
     }
   ],
   "also_serving": [
     "<strong>City and County are two agencies, and you may need to apply to both.</strong> HUD lists them separately as CA006 and CA028, both at 1331 Fulton Street, and both as \"Combined\" program types, meaning each runs vouchers and public housing. Fresno Housing publishes separate Annual Plans, Admissions and Continued Occupancy Policies and voucher administrative plans for each, \"approved by their respective Boards of Commissioners.\" If you live in the city of Fresno, the City list is your local one. If you live anywhere else in the county, the County list is.",
     "<strong>Clovis is covered by the County, not by a Clovis housing authority.</strong> The City of Clovis states on its own site that \"the Housing Choice Voucher program is administered by the Fresno County Housing Authority ('Fresno Housing')\" and gives the same (559) 443-8400 number. There is no separate Clovis agency to apply to.",
     "<strong>Applications go through one online portal, and you create the account first.</strong> Fresno Housing's process is to set up an account at its resident portal, then log in and click \"Apply Now\" when an interest list opens. Applications are then reviewed \"based on eligibility criteria, preference points, and lottery draws,\" so submitting early inside a window does not by itself put you ahead. For help with an application, the number Fresno Housing gives is (559) 441-2318.",
-    "<strong>The office keeps an unusual schedule.</strong> The administrative office at 1331 Fulton Street is open 8:00 a.m. to 5:00 p.m. Monday through Friday but is \"closed alternate Fridays,\" so call before you drive in. TTY for hearing-impaired callers is (800) 735-2929, and voucher questions by email go to HCV@fresnohousing.org."
+    "<strong>The office keeps an unusual schedule.</strong> The administrative office at 1331 Fulton Street is open 8:00 a.m. to 5:00 p.m. Monday through Friday but is \"closed alternate Fridays,\" so call before you drive in. TTY for hearing-impaired callers is (800) 735-2929, and voucher questions by email go to HCV@fresnohousing.org.",
+    "<strong>Fresno Housing is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-fresno\">Fresno emergency rent help guide</a>: the City of Fresno's free Eviction Protection Program, Fresno County CalWORKs Homeless Assistance, 211, Central California Legal Services, LIHEAP and PG&amp;E discounts, and California's eviction deadlines. If you already have a Fresno Housing voucher or public housing and your income dropped, call (559) 443-8400."
   ],
   "faqs": [
     {
       "q": "Is the Fresno Section 8 waiting list open?",
-      "a": "No. As of August 25, 2026 Fresno Housing's application page shows the Housing Choice Voucher interest list as currently closed, for both the City and the County, with no announced reopening date. Six of its individual properties were accepting applications on that date. Fresno Housing announces interest-list openings on its own site and through its portal, so check fresnohousing.org/residents/application-process or call (559) 443-8400 before relying on this."
+      "a": "No. As of November 5, 2026 Fresno Housing's application page shows the Housing Choice Voucher interest list as currently closed, for both the City and the County, with no announced reopening date. Eight of its individual properties were accepting applications on that date. Fresno Housing announces interest-list openings on its own site and through its portal, so check fresnohousing.org/residents/application-process or call (559) 443-8400 before relying on this."
     },
     {
       "q": "Is Fresno Housing one agency or two?",
@@ -57,7 +58,7 @@
     },
     {
       "q": "What can I apply for while the voucher list is closed?",
-      "a": "Individual properties. As of August 25, 2026 Fresno Housing listed six accepting applications: Blossom Trail Commons in Sanger, Citrus Commons in Orange Cove, Corazon del Valle Commons in Huron, Cueva de Oso at William Shockley Plaza in Selma, Paseo 55 in Reedley, and Promesa Commons in Fresno. These are separate applications from the voucher interest list, and Fresno Housing confirms you can be on more than one list at a time. Check the portal for the current set before you apply, because the list changes."
+      "a": "Individual properties. As of November 5, 2026 Fresno Housing listed eight accepting applications: Blossom Trail Commons in Sanger, Citrus Commons in Orange Cove, Corazon del Valle Commons in Huron, Cueva de Oso at William Shockley Plaza in Selma, Manzanilla Commons in Fresno, Pacific Gardens in Fresno, Paseo 55 in Reedley, and Promesa Commons in Fresno. These are separate applications from the voucher interest list, and Fresno Housing confirms you can be on more than one list at a time. Check the portal for the current set before you apply, because the list changes."
     },
     {
       "q": "How does Fresno Housing choose who gets in?",
@@ -104,7 +105,7 @@
   ],
   "es": {
     "serves": "la ciudad de Fresno y el condado de Fresno, California",
-    "updated": "25 de agosto de 2026",
+    "updated": "5 de noviembre de 2026",
     "intro": "Fresno Housing es el nombre que aparece en la puerta, pero detrás hay legalmente dos agencias: la Housing Authority of the City of Fresno (código CA006 de HUD) y la Housing Authority of the County of Fresno (CA028). Comparten un mismo personal, una misma oficina en 1331 Fulton Street y un mismo sitio web, y presentan planes anuales, políticas de ocupación y planes administrativos de vales por separado, cada uno aprobado por su propia junta de comisionados. Para quien solicita, la consecuencia práctica es sencilla y fácil de equivocar: la ciudad y el condado mantienen listas de interés de la Sección 8 separadas, y estar en una no le pone en la otra. Esta página cubre el estado de ambas listas, qué propiedades están aceptando solicitudes ahora mismo y cómo comunicarse con las personas indicadas.",
     "programs": [
       "Housing Choice Voucher (Sección 8), con listas de interés separadas para la ciudad y el condado",
@@ -119,24 +120,25 @@
       {
         "program": "Housing Choice Voucher (Sección 8), ciudad y condado",
         "status": "Cerrada",
-        "note": "Cerrada (verificado el 25 de agosto de 2026). La página de solicitudes de Fresno Housing indica que la lista de interés del Housing Choice Voucher está cerrada, y explica por qué la espera es tan larga: \"Due to housing shortages, there are rarely a sufficient number of housing units or vouchers available for the overwhelming number of individuals who apply\" (por la escasez de vivienda, casi nunca hay suficientes unidades o vales para todas las personas que solicitan). No hay fecha de reapertura publicada. Tenga en cuenta que las listas de la ciudad y del condado son distintas: la propia guía de Fresno Housing dice que \"if you are on both lists (City and County), you will need to save your spot on each list\" (si está en ambas listas, tiene que confirmar su lugar en cada una)."
+        "note": "Cerrada (verificado el 5 de noviembre de 2026). La página de solicitudes de Fresno Housing dice del Housing Choice Voucher: \"Interest list is currently closed\" (la lista de interés está cerrada por ahora), y explica por qué la espera es tan larga: \"Due to housing shortages, there are rarely a sufficient number of housing units or vouchers available for the overwhelming number of individuals who apply\" (por la escasez de vivienda, casi nunca hay suficientes unidades o vales para todas las personas que solicitan). No hay fecha de reapertura publicada. Tenga en cuenta que las listas de la ciudad y del condado son distintas: la propia guía de Fresno Housing dice que \"if you are on both lists (City and County), you will need to save your spot on each list\" (si está en ambas listas, tiene que confirmar su lugar en cada una)."
       },
       {
         "program": "Propiedades individuales que aceptan solicitudes",
-        "status": "Abiertas en seis comunidades",
-        "note": "Al 25 de agosto de 2026, la página de solicitudes de Fresno Housing mostraba seis propiedades aceptando solicitudes: Blossom Trail Commons en Sanger, Citrus Commons en Orange Cove, Corazón del Valle Commons en Huron, Cueva de Oso en William Shockley Plaza en Selma, Paseo 55 en Reedley y Promesa Commons en Fresno. Las listas de propiedades cambian, así que tome esto como una foto de ese día y revise el portal antes de hacer planes. Fresno Housing confirma que sí se permite estar en más de una lista a la vez."
+        "status": "Abiertas en ocho comunidades",
+        "note": "Al 5 de noviembre de 2026, la página de solicitudes de Fresno Housing mostraba ocho propiedades con la nota \"Accepting Applications\" (aceptando solicitudes): Blossom Trail Commons en Sanger, Citrus Commons en Orange Cove, Corazón del Valle Commons en Huron, Cueva de Oso en William Shockley Plaza en Selma, Manzanilla Commons en Fresno, Pacific Gardens en Fresno, Paseo 55 en Reedley y Promesa Commons en Fresno. Las listas de propiedades cambian, así que tome esto como una foto de ese día y revise el portal antes de hacer planes. Fresno Housing confirma que sí se permite estar en más de una lista a la vez."
       }
     ],
     "also_serving": [
       "<strong>La ciudad y el condado son dos agencias, y puede que le convenga solicitar a las dos.</strong> HUD las registra por separado como CA006 y CA028, ambas en 1331 Fulton Street, y ambas con tipo de programa \"Combined\", es decir que cada una administra vales y vivienda pública. Fresno Housing publica planes anuales, políticas de admisión y planes administrativos de vales distintos para cada una, aprobados por sus respectivas juntas de comisionados. Si usted vive en la ciudad de Fresno, la lista de la ciudad es la suya. Si vive en cualquier otro punto del condado, lo es la del condado.",
       "<strong>Clovis está cubierta por el condado, no por una autoridad de vivienda propia de Clovis.</strong> La ciudad de Clovis declara en su propio sitio que el programa de vales lo administra la autoridad de vivienda del condado de Fresno, es decir Fresno Housing, y da el mismo número (559) 443-8400. No hay una agencia aparte de Clovis a la cual solicitar.",
       "<strong>Las solicitudes pasan por un solo portal en línea, y la cuenta se crea antes.</strong> El proceso de Fresno Housing es abrir una cuenta en su portal para residentes y luego entrar y hacer clic en \"Apply Now\" cuando una lista de interés esté abierta. Después el personal revisa las solicitudes según los criterios de elegibilidad, los puntos de preferencia y sorteos, así que enviar la solicitud en la primera hora no le adelanta por sí solo. Para ayuda con una solicitud, el número que da Fresno Housing es el (559) 441-2318.",
-      "<strong>La oficina tiene un horario poco común.</strong> La oficina administrativa de 1331 Fulton Street abre de 8:00 a.m. a 5:00 p.m. de lunes a viernes, pero cierra viernes alternos, así que llame antes de ir. El TTY para personas con problemas de audición es (800) 735-2929, y las preguntas sobre vales por correo van a HCV@fresnohousing.org."
+      "<strong>La oficina tiene un horario poco común.</strong> La oficina administrativa de 1331 Fulton Street abre de 8:00 a.m. a 5:00 p.m. de lunes a viernes, pero cierra viernes alternos, así que llame antes de ir. El TTY para personas con problemas de audición es (800) 735-2929, y las preguntas sobre vales por correo van a HCV@fresnohousing.org.",
+      "<strong>Fresno Housing no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-fresno\">guía de ayuda de emergencia con la renta en Fresno</a>: el Eviction Protection Program gratis de la Ciudad de Fresno, la ayuda para personas sin hogar de CalWORKs del Condado de Fresno, el 211, Central California Legal Services, LIHEAP y los descuentos de PG&amp;E, y los plazos de desalojo de California. Si ya tiene un vale o vivienda pública de Fresno Housing y bajaron sus ingresos, llame al (559) 443-8400."
     ],
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Fresno?",
-        "a": "No. Al 25 de agosto de 2026, la página de solicitudes de Fresno Housing muestra la lista de interés del Housing Choice Voucher como cerrada, tanto para la ciudad como para el condado, y sin fecha anunciada de reapertura. En esa misma fecha, seis de sus propiedades sí aceptaban solicitudes. Fresno Housing anuncia las aperturas en su propio sitio y en su portal, así que revise fresnohousing.org/residents/application-process o llame al (559) 443-8400 antes de dar esto por seguro."
+        "a": "No. Al 5 de noviembre de 2026, la página de solicitudes de Fresno Housing muestra la lista de interés del Housing Choice Voucher como cerrada, tanto para la ciudad como para el condado, y sin fecha anunciada de reapertura. En esa misma fecha, ocho de sus propiedades sí aceptaban solicitudes. Fresno Housing anuncia las aperturas en su propio sitio y en su portal, así que revise fresnohousing.org/residents/application-process o llame al (559) 443-8400 antes de dar esto por seguro."
       },
       {
         "q": "¿Fresno Housing es una agencia o dos?",
@@ -148,7 +150,7 @@
       },
       {
         "q": "¿A qué puedo solicitar mientras la lista de vales está cerrada?",
-        "a": "A propiedades individuales. Al 25 de agosto de 2026, Fresno Housing enumeraba seis que aceptaban solicitudes: Blossom Trail Commons en Sanger, Citrus Commons en Orange Cove, Corazón del Valle Commons en Huron, Cueva de Oso en William Shockley Plaza en Selma, Paseo 55 en Reedley y Promesa Commons en Fresno. Son solicitudes distintas de la lista de interés de vales, y Fresno Housing confirma que puede estar en más de una lista a la vez. Revise el portal para ver cuáles están abiertas hoy, porque la lista cambia."
+        "a": "A propiedades individuales. Al 5 de noviembre de 2026, Fresno Housing enumeraba ocho que aceptaban solicitudes: Blossom Trail Commons en Sanger, Citrus Commons en Orange Cove, Corazón del Valle Commons en Huron, Cueva de Oso en William Shockley Plaza en Selma, Manzanilla Commons en Fresno, Pacific Gardens en Fresno, Paseo 55 en Reedley y Promesa Commons en Fresno. Son solicitudes distintas de la lista de interés de vales, y Fresno Housing confirma que puede estar en más de una lista a la vez. Revise el portal para ver cuáles están abiertas hoy, porque la lista cambia."
       },
       {
         "q": "¿Cómo decide Fresno Housing a quién le toca?",
