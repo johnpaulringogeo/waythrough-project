@@ -34,7 +34,7 @@ def page_file(url_path):
 
 
 def collect():
-    """{(lang, file): [(order, question_text, question_url)]}"""
+    """{(lang, file): [(order, question_h1, question_url)]}"""
     targets = {}
     for f in sorted(glob.glob('data/questions/*.json')):
         d = json.load(open(f, encoding='utf-8'))
@@ -50,7 +50,7 @@ def collect():
                     continue
                 lst = targets.setdefault((lang, fp), [])
                 if all(u != url for _, _, u in lst):
-                    lst.append((d.get('order', 999), q['question'], url))
+                    lst.append((d.get('order', 999), q.get('h1') or q['question'], url))
     return targets
 
 
@@ -80,7 +80,7 @@ def apply(fp, lang, items, dry):
     raw = open(fp, 'rb').read().decode('utf-8')
     nl = '\r\n' if '\r\n' in raw else '\n'
     s = raw.replace('\r\n', '\n')
-    s = re.sub(r'\n[ \t]*' + re.escape(START) + r'.*?' + re.escape(END) + r'[ \t]*', '', s, flags=re.S)
+    s = re.sub(r'^[ \t]*' + re.escape(START) + r'.*?' + re.escape(END) + r'\n\n?', '', s, flags=re.S | re.M)
     for pat in ANCHORS:
         m = re.search(pat, s, re.M)
         if m:
