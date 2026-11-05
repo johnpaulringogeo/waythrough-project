@@ -259,7 +259,8 @@ def build_faq_json(faqs):
 # visible <h3>/<p> copy from them: every text segment is HTML-escaped, and only
 # the official targets named inside an answer become links --
 #   * bare or www. domains, optional path  -> https link, new tab
-#   * US phone numbers, vanity letters too -> tel:+1XXXXXXXXXX (211/311/911 never)
+#   * US phone numbers, vanity letters too -> tel:+1XXXXXXXXXX (211/311/911 never
+#     here; link_phones() below adds tel:211 for "call 211" / "2-1-1" afterwards)
 #   * email addresses                      -> mailto:
 # so the visible copy and the schema copy cannot drift apart.
 #
@@ -415,6 +416,12 @@ assert not any(_faq_is_aggregator(_faq_host(k)) or (v and _faq_is_aggregator(_fa
                for k, v in FAQ_LINK_TARGETS.items())
 
 
+def phone_digits(area, exchange, line):
+    """The 10 dialable digits of a US number; keypad letters become digits
+    ('414', '895', 'RENT' -> '4148957368'). A longer vanity tail is cut at 10."""
+    return "".join(KEYPAD.get(ch, ch) for ch in area + exchange + line)[:10]
+
+
 def faq_tel(token):
     """'(216) 391-HELP' -> 'tel:+12163914357' (letters map to the phone keypad)."""
     body = token[2:] if token.startswith("1-") else token
@@ -494,6 +501,135 @@ def build_faq_items(faqs, lang="en"):
     return items
 
 
+# ---------------------------------------------------------------------------
+# Tap-to-call in the rendered page (mobile audit 2026-11, item 2).
+#
+# link_phones() runs on the finished HTML of city, state and authority pages
+# (scripts/generate_authority.py imports it) and wraps every plain-text US
+# phone number inside <main> in <a href="tel:+1XXXXXXXXXX" class="tel-auto">,
+# keeping the visible text. The rules are a port of linkifyPhones() in
+# js/components.js, so the static links and the JS fallback agree and the JS
+# finds nothing left to do on a generated page:
+#   * 10 digits with separators: (414) 286-5677, 414-286-5677, 414.286.5677,
+#     an optional leading 1 / +1 (1-800-669-9777, 1 (800) 855-7100), and keypad
+#     letters ((414) 895-RENT -> tel:+14148957368). Area code and exchange start
+#     with 2-9 and the area code is never N11; a dashed/dotted number uses the
+#     same separator twice; the number can't touch other letters or digits. So
+#     years, ZIPs, dates, dollar amounts, 7-digit fragments and statute or case
+#     numbers (RCW 59.18.057, 38-12-1301, 2024-CV-001234) never match.
+#   * A number labelled "fax" just before it is left alone.
+#   * 211 -> tel:211 when it is clearly a phone reference: "2-1-1" with hyphens,
+#     or "211" right after call/dial/text/contact/llame/marque/línea ... or right
+#     before at/line/hotline. Never "211 Texas" as a name on its own, "211.org",
+#     "211info", "§8-211", "898-211" (a text short code) or "$211".
+#   * Never inside <a>, <button>, <script>, <style>, <code>, <pre>, <textarea>,
+#     <select>, <option>, <label>, <summary>, <svg>, <noscript>, or any element
+#     with data-no-tel / contenteditable; never in attributes; never outside
+#     <main> (so never in <head>, <title>, meta tags or JSON-LD).
+# ---------------------------------------------------------------------------
+TEL_PHONE_RE = re.compile(
+    r"(?<![\w$#§@./-])"
+    r"((?:\+?1[-.\s ]?)?"
+    r"(?:\(([2-9]\d\d)\)(?:[  ]|&nbsp;|&#160;)?|([2-9]\d\d)([-.]))"
+    r"([2-9A-Z][0-9A-Z]{2})([-.])([0-9A-Z]{4,7}))"
+    r"(?![\w-]|\.\d)", re.ASCII)
+TEL_211_RE = re.compile(r"(?<![\w$#§@./-])(2-1-1|211)(?![\w-]|[.,]\d|\.[A-Za-z])", re.ASCII)
+TEL_211_BEFORE = re.compile(
+    r"\b(?:call|dial|text|calling|dialing|contact|llame|llama|llamar|llamando|marque|marca|"
+    r"marcar|marcando|contacte|textee|l[ií]nea)"
+    r"(?:\s+(?:or|o)\s+(?:text|textee|env[ií]e un (?:mensaje de )?texto))?\s+(?:(?:al|el|a|to)\s+)?$",
+    re.I)
+TEL_211_AFTER = re.compile(r"\s+(?:at|line|hotline|helpline)\b", re.I)
+TEL_FAX_BEFORE = re.compile(r"\bfax\b\D{0,12}$", re.I)
+TEL_SKIP_TAGS = frozenset("a button script style code pre textarea select option label summary "
+                          "svg noscript".split())
+TEL_RAW_TAGS = frozenset(("script", "style"))
+HTML_VOID_TAGS = frozenset("area base br col embed hr img input link meta param source track wbr".split())
+HTML_TAG_RE = re.compile(r"<!--.*?-->|<(/?)([A-Za-z][A-Za-z0-9:-]*)((?:\"[^\"]*\"|'[^']*'|[^'\">])*)>", re.S)
+TEL_SKIP_ATTR_RE = re.compile(r"(?:^|\s)(?:data-no-tel|contenteditable)(?![\w-])", re.I)
+
+
+def tel_matches(text, before=""):
+    """[(start, end, tel)] for the phone numbers in one raw-HTML text run.
+    `before` is the decoded text that precedes it on the page (for context)."""
+    found = []
+    for m in TEL_PHONE_RE.finditer(text):
+        start, end = m.start(1), m.end(1)
+        area = m.group(2) or m.group(3)
+        sep1, exchange, sep2, line = m.group(4), m.group(5), m.group(6), m.group(7)
+        if sep1 and sep1 != sep2:              # 555-555.5555 is not a phone number
+            continue
+        if area[1:] == "11":                   # N11 is never an area code
+            continue
+        if not (re.search("[A-Z]", line) or len(line) == 4):
+            continue                           # a digits-only last group is exactly 4
+        if TEL_FAX_BEFORE.search((before + html.unescape(text[:start]))[-20:]):
+            continue
+        found.append((start, end, "+1" + phone_digits(area, exchange, line)))
+    for m in TEL_211_RE.finditer(text):
+        start, end = m.start(1), m.end(1)
+        if any(start < e and end > s for s, e, _t in found):
+            continue
+        if m.group(1) == "211":
+            ctx = (before + html.unescape(text[:start]))[-60:]
+            if not TEL_211_BEFORE.search(ctx) and not TEL_211_AFTER.match(html.unescape(text[end:])):
+                continue
+        found.append((start, end, "211"))
+    return sorted(found)
+
+
+def _tel_link_run(text, before):
+    out, pos = [], 0
+    for start, end, tel in tel_matches(text, before):
+        out.append(text[pos:start])
+        out.append(f'<a href="tel:{tel}" class="tel-auto">{text[start:end]}</a>')
+        pos = end
+    out.append(text[pos:])
+    return "".join(out)
+
+
+def link_phones(page_html):
+    """Return page_html with plain-text phone numbers inside <main> as tel: links."""
+    start = page_html.find("<main")
+    stop = page_html.rfind("</main>")
+    if start < 0 or stop < start:
+        return page_html
+    region = page_html[start:stop]
+    out, pos, before = [], 0, ""
+    skip_tag, skip_depth = None, 0
+    while True:
+        m = HTML_TAG_RE.search(region, pos)
+        text = region[pos:m.start() if m else len(region)]
+        if text:
+            out.append(_tel_link_run(text, before) if skip_tag is None else text)
+            before = (before + html.unescape(text))[-60:]
+        if not m:
+            break
+        tag = m.group(0)
+        pos = m.end()
+        if tag.startswith("<!--"):
+            out.append(tag)
+            continue
+        closing, name, attrs = m.group(1), m.group(2).lower(), m.group(3)
+        self_closing = name in HTML_VOID_TAGS or attrs.rstrip().endswith("/")
+        if not closing and name in TEL_RAW_TAGS:
+            # <script>/<style> bodies are not markup: copy through to the close tag.
+            close = re.compile(rf"</{name}\s*>", re.I).search(region, pos)
+            body_end = close.end() if close else len(region)
+            out.append(tag + region[pos:body_end])
+            pos = body_end
+            continue
+        out.append(tag)
+        if skip_tag is not None:
+            if name == skip_tag and not self_closing:
+                skip_depth += -1 if closing else 1
+                if skip_depth == 0:
+                    skip_tag = None
+        elif not closing and not self_closing and (name in TEL_SKIP_TAGS or TEL_SKIP_ATTR_RE.search(attrs)):
+            skip_tag, skip_depth = name, 1
+    return page_html[:start] + "".join(out) + page_html[stop:]
+
+
 TITLE_MAX = 60
 
 
@@ -537,6 +673,8 @@ def render_one(env, kind, lang, slug, data, layout):
         faq_json=faq_json,
         faq_items=faq_items,
     )
+    # Tap-to-call: plain-text phone numbers in <main> become tel: links.
+    html = link_phones(html)
 
     # Safeguard: never write a Spanish page that is missing its accents.
     if lang == "es":

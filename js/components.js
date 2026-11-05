@@ -92,7 +92,7 @@ function renderSkipLink() {
     const skip = document.createElement('a');
     skip.href = '#main-content';
     skip.className = 'skip-link';
-    skip.textContent = 'Skip to main content';
+    skip.textContent = isSpanish ? 'Saltar al contenido principal' : 'Skip to main content';
     document.body.prepend(skip);
 }
 
@@ -416,7 +416,7 @@ function renderNav() {
                 <span class="search-input-icon" aria-hidden="true">${SEARCH_ICON}</span>
                 <label for="searchInput" class="sr-only">${searchLabel}</label>
                 <input type="text" id="searchInput" class="search-input" placeholder="${isSpanish ? 'Buscar recursos (ej. Sección 8, discapacidad, vivienda...)' : 'Search resources (e.g. Section 8, disability, voucher...)'}" autocomplete="off" role="combobox" aria-controls="searchResults" aria-expanded="false" aria-autocomplete="list">
-                <button class="search-close" id="searchClose" aria-label="Close search">${CLOSE_ICON}</button>
+                <button class="search-close" id="searchClose" aria-label="${isSpanish ? 'Cerrar búsqueda' : 'Close search'}">${CLOSE_ICON}</button>
             </div>
             <div class="search-results" id="searchResults" role="listbox" aria-label="Search results"></div>
             <div id="searchLive" class="sr-only" aria-live="polite" aria-atomic="true"></div>
@@ -680,7 +680,7 @@ function renderBackToTop() {
     const btn = document.createElement('button');
     btn.className = 'back-to-top';
     btn.id = 'backToTop';
-    btn.setAttribute('aria-label', 'Back to top');
+    btn.setAttribute('aria-label', isSpanish ? 'Volver arriba' : 'Back to top');
     btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>';
     document.body.append(btn);
 

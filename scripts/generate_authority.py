@@ -42,6 +42,9 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from generate_page import link_phones  # noqa: E402  (tap-to-call, same rules as js/components.js)
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "authorities"
 TEMPLATES = ROOT / "templates"
@@ -434,6 +437,8 @@ def render(env, data, lang, stage_dir=None):
         gov_json=gov_json(m),
         faq_json=faq_json(m),
     )
+    # Tap-to-call: plain-text phone numbers in <main> (Quick Facts, body, FAQ) become tel: links.
+    page = link_phones(page)
     if lang == "es":
         bad = es_accent_violations(page)
         if bad:

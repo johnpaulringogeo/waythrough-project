@@ -914,6 +914,8 @@
                         { value: 'veteran', label: 'Soy veterano/a', desc: 'Ayuda de vivienda específica para veteranos' },
                         { value: 'senior', label: 'Tengo 62 años o más', desc: 'Programas de vivienda para personas mayores' },
                         { value: 'disability', label: 'Tengo una discapacidad', desc: 'Vivienda accesible y adaptaciones' },
+                        { value: 'family', label: 'Tengo hijos o soy madre o padre soltero/a', desc: 'Vivienda para familias y protecciones por estado familiar' },
+                        { value: 'immigrant', label: 'Soy inmigrante o el inglés no es mi primer idioma', desc: 'Tus derechos aplican sin importar tu estatus migratorio, y puedes pedir ayuda con el idioma' },
                         { value: 'dv-survivor', label: 'Soy sobreviviente de violencia doméstica', desc: 'Protecciones de seguridad y derechos de vivienda' },
                         { value: 'none', label: 'Ninguna de estas', desc: '' }
                     ]
@@ -2023,6 +2025,15 @@
                     meta: 'Derechos'
                 });
 
+                if ((a['about-you'] || []).indexOf('family') === -1 && (a['about-you'] || []).indexOf('immigrant') === -1) {
+                    focused.push({
+                        title: '¿Fue Injusto el Aviso? Conoce Tus Derechos de Vivienda Justa',
+                        link: 'guias/como-presentar-queja-discriminacion',
+                        description: 'Si la verdadera razón puede ser tu raza, tu familia, tu origen nacional o una discapacidad (y no lo que dice el aviso), eso puede ser discriminación ilegal. Aquí te explicamos cómo documentarla y presentar una queja gratuita.',
+                        meta: 'Vivienda Justa • Derechos'
+                    });
+                }
+
                 if (a['legal-help'] === 'no-want' || a['legal-help'] === 'no-unsure') {
                     focused.push({
                         title: 'Encuentra Ayuda Legal Gratuita',
@@ -2086,6 +2097,28 @@
                         link: '../a-quienes-ayudamos/discapacidades',
                         description: 'Adaptaciones razonables y protecciones legales que pueden aplicar a tu situación de desalojo.',
                         meta: 'Discapacidades • Derechos'
+                    });
+                }
+                if (aboutYou.indexOf('family') !== -1) {
+                    focused.push({
+                        title: 'Las Familias con Hijos Están Protegidas',
+                        link: 'guias/como-presentar-queja-discriminacion',
+                        description: 'Negarse a alquilar a familias porque tienen hijos, desalojarlas por eso o aplicarles reglas solo a ellas es discriminación por estado familiar según la Ley de Vivienda Justa. Documéntalo y presenta una queja gratuita.',
+                        meta: 'Familias • Vivienda Justa'
+                    });
+                    additional.push({
+                        title: 'Recursos de Vivienda para Familias',
+                        link: 'familias',
+                        description: 'Programas de vivienda y protecciones que ayudan a mantener unidas a las familias.',
+                        meta: 'Familias'
+                    });
+                }
+                if (aboutYou.indexOf('immigrant') !== -1) {
+                    focused.push({
+                        title: 'Tus Derechos Aplican Sin Importar Tu Estatus Migratorio',
+                        link: 'inmigracion-vivienda',
+                        description: 'Las protecciones para inquilinos y de vivienda justa te cubren sea cual sea tu estatus migratorio, y la discriminación por origen nacional es ilegal. También puedes pedir un intérprete gratis cuando busques ayuda.',
+                        meta: 'Inmigrantes • Derechos'
                     });
                 }
             }

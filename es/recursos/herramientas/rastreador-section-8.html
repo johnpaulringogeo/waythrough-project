@@ -991,7 +991,11 @@
       ["Cheyenne Housing Authority", "Cheyenne", "WY", "open", "(307) 633-8333", "https://www.cheyennehousing.org", "6 months-1 year", "Capital del estado. Línea principal según la página de contacto de la autoridad, verificada el 4 de nov. de 2026."],
     ];
 
-    const STATE_NAMES = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
+    const STATE_NAMES_EN = {AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",DC:"District of Columbia",DE:"Delaware",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",WI:"Wisconsin",WY:"Wyoming"};
+    // Spanish names where they differ (same spellings as the Spanish state pages); the rest stay as in English.
+    const STATE_NAMES = Object.assign({}, STATE_NAMES_EN, {DC:"Distrito de Columbia",HI:"Hawái",LA:"Luisiana",NM:"Nuevo México",NY:"Nueva York",NC:"Carolina del Norte",ND:"Dakota del Norte",OR:"Oregón",PA:"Pensilvania",SC:"Carolina del Sur",SD:"Dakota del Sur"});
+    // Case- and accent-insensitive text for search ("nuevo mexico" finds Nuevo México)
+    function fold(s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
 
     let activeFilter = 'all';
 
@@ -1005,7 +1009,7 @@
 
     function populateStates() {
         const sel = document.getElementById('stateSelect');
-        const states = [...new Set(PHA_DATA.map(p => p[2]))].sort();
+        const states = [...new Set(PHA_DATA.map(p => p[2]))].sort((a, b) => (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b, 'es'));
         states.forEach(st => {
             const opt = document.createElement('option');
             opt.value = st;
@@ -1016,13 +1020,13 @@
 
     function getFiltered() {
         const state = document.getElementById('stateSelect').value;
-        const query = document.getElementById('phaSearch').value.toLowerCase().trim();
+        const query = fold(document.getElementById('phaSearch').value.trim());
         return PHA_DATA.filter(p => {
             if (state && p[2] !== state) return false;
             if (activeFilter === 'open' && p[3] !== 'open') return false;
             if (activeFilter === 'lottery' && p[3] !== 'lottery') return false;
             if (activeFilter === 'closed' && p[3] !== 'closed') return false;
-            if (query && !p[0].toLowerCase().includes(query) && !p[1].toLowerCase().includes(query) && !(STATE_NAMES[p[2]]||'').toLowerCase().includes(query)) return false;
+            if (query && !fold(p[0]).includes(query) && !fold(p[1]).includes(query) && !fold(STATE_NAMES[p[2]]).includes(query) && !fold(STATE_NAMES_EN[p[2]]).includes(query)) return false;
             return true;
         });
     }
