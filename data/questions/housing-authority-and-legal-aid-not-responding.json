@@ -1,0 +1,121 @@
+{
+  "slug": "housing-authority-and-legal-aid-not-responding",
+  "es_slug": "autoridad-de-vivienda-y-ayuda-legal-no-responden",
+  "topic": "lockouts",
+  "order": 45,
+  "related": [
+    "locked-out-landlord-kept-voucher-payments",
+    "place-to-stay-while-waiting-for-section-8",
+    "lost-home-and-belongings-while-in-jail"
+  ],
+  "en": {
+    "question": "After my landlord locked me out, I reported it to the housing authority and turned in my move paperwork, but I don't think it was ever processed. Now nobody there answers the phone or calls back, and I was told I'll lose my voucher if I don't find a place. Legal aid hasn't called me back, and a law clinic couldn't take my case. I've been living in my car for months and got very sick, and the landlord still has my belongings. What can I do?",
+    "title": "Housing Authority and Legal Aid Won't Respond?",
+    "description": "Locked out, voucher at risk, and nobody calls back? How to protect your voucher in writing, escalate, get your things back and find a lawyer who can be paid.",
+    "h1": "I was locked out, and now the housing authority and legal aid won't call me back. How do I keep my voucher?",
+    "crumb": "No one is responding",
+    "asked": "November 2026",
+    "updated": "November 6, 2026",
+    "short_answer": "Stop relying on phone calls. Send the housing authority a written request today for your voucher status, proof your move paperwork was processed, and an extension (as a reasonable accommodation if your health condition is a disability). If there's no answer in about a week, go in person and ask for a supervisor, then call HUD. In many states a landlord who illegally locks a tenant out must pay damages and attorney's fees, which can make a private lawyer willing to help.",
+    "body_html": "<h2>1. Protect your voucher: put it in writing today</h2>\n<p>Phone calls leave no record. A written request does, and the housing authority (PHA) has to deal with it. Email it, send it through the PHA's portal, or hand-deliver a printed copy and ask them to stamp the date on your copy. Ask for three things:</p>\n<ul>\n<li><strong>Written confirmation</strong> of your voucher's status and expiration date.</li>\n<li><strong>Proof your move paperwork was received and processed.</strong> If you turned in a request to approve a new unit, the voucher clock must pause until the PHA answers you in writing (24 CFR 982.303(c)).</li>\n<li><strong>An extension.</strong> If your health condition is a disability and it makes your search take longer, ask for the extension as a reasonable accommodation. The PHA &ldquo;must extend the voucher term up to the term reasonably required for that purpose&rdquo; (24 CFR 982.303(b)(2)).</li>\n</ul>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;My name is [name], client number [number]. On [date] I turned in my move paperwork after my landlord told me to leave. My landlord locked me out on [date], and I have been homeless since then. I have been seriously ill and have ongoing health problems. I am asking for: (1) written confirmation of my voucher's status and expiration date; (2) confirmation that my move paperwork was received and processed; and (3) an extension of my voucher. If my health condition is a disability, I am asking for the extension as a reasonable accommodation (24 CFR 982.303(b)(2)). Please reply in writing.&rdquo;</p></blockquote>\n<h2>2. If they don't answer within about a week</h2>\n<ul>\n<li><strong>Go in person</strong> with a printed copy of your letter. Ask to see a supervisor in the voucher (Section 8) department, and ask them to stamp the date on your copy.</li>\n<li><strong>Call HUD's Public and Indian Housing customer service line at 800-955-2232.</strong> Explain that the PHA isn't responding and your voucher is about to expire. Ask how to reach your local HUD field office.</li>\n<li><strong>If you get a letter saying your assistance is ending,</strong> ask in writing for an informal hearing right away. HUD requires the PHA to offer one before it ends a participant's assistance for something the family did or failed to do (24 CFR 982.555). If you miss the deadline in the letter, ask anyway and explain why.</li>\n</ul>\n<h2>3. The lockout: you may be owed money</h2>\n<ul>\n<li><strong>Many states let a tenant who was illegally locked out recover damages, and some make the landlord pay the tenant's attorney's fees too.</strong> For example, Nebraska's law says a tenant the landlord &ldquo;unlawfully removes or excludes&rdquo; can &ldquo;recover an amount equal to three months' periodic rent as liquidated damages, and a reasonable attorney's fee&rdquo; (Neb. Rev. Stat. 76-1430). When the law makes the landlord pay the lawyer, some private lawyers will take a case like this even when legal aid can't. Search for your state's lockout law, and mention it when you call.</li>\n<li><strong>Small claims court</strong> is another option. You can file yourself, without a lawyer, for money up to your state's limit. The court clerk can explain how to file.</li>\n<li><strong>If the landlord kept taking housing payments after you were locked out,</strong> report it to the HUD Office of Inspector General hotline at 1-800-347-3735.</li>\n</ul>\n<h2>4. Your belongings</h2>\n<p>Ask for your things back in writing. List what's there, ask for a date to pick them up, and keep a copy. Many states have rules a landlord must follow before selling, throwing out or keeping a former tenant's belongings, such as a written notice saying where and when you can claim them. Legal aid or the court clerk can tell you your state's rule.</p>\n<h2>5. Getting legal aid to answer</h2>\n<ul>\n<li><strong>Call during intake hours.</strong> Many legal aid offices answer their intake line only at set times. Check the hours on their website and call right when the line opens.</li>\n<li><strong>Apply online</strong> if your legal aid office offers it. Many do, through their own site or your state's LawHelp website.</li>\n<li><strong>Say the urgent parts first:</strong> you were illegally locked out, you are homeless, and your voucher is about to expire.</li>\n</ul>\n<h2>6. A safer place to sleep, and getting well</h2>\n<ul>\n<li><strong>Call or text 211</strong> for shelter. Ask to be connected to your area's Coordinated Entry, which is how most communities refer people to rapid re-housing and other housing programs. Many shelters are Coordinated Entry access points.</li>\n<li><strong>Get medical care</strong> if you're still sick. 211 can also tell you where to find a clinic that charges based on income.</li>\n</ul>\n<p>Keep copies of everything you send and get, and write down the date and name for every call.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a supervisor to respond."
+      },
+      {
+        "href": "/resources/guides/how-to-find-your-section-8-caseworker",
+        "label": "How to Find Your Section 8 Caseworker",
+        "note": "Who to contact when nobody answers, including HUD."
+      },
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to find legal aid fast and what to bring."
+      },
+      {
+        "href": "/resources/guides/emergency-housing-tonight",
+        "label": "I Need Housing Tonight",
+        "note": "Shelter, 211 and other options for tonight."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Term of voucher, extensions and suspension (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: Informal hearing for participants (eCFR)"
+      },
+      {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1430",
+        "label": "Neb. Rev. Stat. 76-1430: Landlord's unlawful ouster (Nebraska Legislature)"
+      },
+      {
+        "url": "https://www.hud.gov/contactus/css",
+        "label": "HUD PIH Customer Service Center (800-955-2232)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "HUD Office of Inspector General Hotline (1-800-347-3735)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Después de que el dueño me dejó fuera, lo reporté a la autoridad de vivienda y entregué mis papeles de mudanza, pero creo que nunca los procesaron. Ahora nadie contesta el teléfono ni me devuelve las llamadas, y me dijeron que voy a perder mi cupón si no encuentro un lugar. La ayuda legal no me ha llamado y una clínica legal no pudo tomar mi caso. Llevo meses viviendo en mi carro, me enfermé gravemente y el dueño todavía tiene mis cosas. ¿Qué puedo hacer?",
+    "title": "¿La autoridad de vivienda no le responde?",
+    "description": "¿Lo dejaron fuera, su cupón está en riesgo y nadie le contesta? Cómo proteger su cupón por escrito, insistir, recuperar sus cosas y encontrar un abogado.",
+    "h1": "Me dejaron fuera, y ahora la autoridad de vivienda y la ayuda legal no me contestan. ¿Cómo conservo mi cupón?",
+    "crumb": "Nadie me contesta",
+    "asked": "noviembre de 2026",
+    "updated": "6 de noviembre de 2026",
+    "short_answer": "No dependa de las llamadas. Envíe hoy a la autoridad de vivienda una solicitud por escrito para saber el estado de su cupón, confirmar que procesaron sus papeles de mudanza y pedir una extensión (como acomodación razonable si su condición de salud es una discapacidad). Si no le contestan en una semana, más o menos, vaya en persona, pida hablar con un supervisor y luego llame a HUD. En muchos estados, el dueño que deja fuera a un inquilino ilegalmente tiene que pagar daños y los honorarios del abogado, y eso puede hacer que un abogado privado acepte ayudarle.",
+    "body_html": "<h2>1. Proteja su cupón: póngalo por escrito hoy</h2>\n<p>Las llamadas no dejan constancia. Una solicitud por escrito sí, y la autoridad de vivienda (PHA) tiene que atenderla. Envíela por correo electrónico o por el portal de la PHA, o entregue una copia impresa en persona y pida que le pongan un sello con la fecha en su copia. Pida tres cosas:</p>\n<ul>\n<li><strong>Confirmación por escrito</strong> del estado de su cupón y de su fecha de vencimiento.</li>\n<li><strong>Prueba de que recibieron y procesaron sus papeles de mudanza.</strong> Si entregó una solicitud para aprobar una nueva unidad, el plazo del cupón debe detenerse hasta que la PHA le conteste por escrito (24 CFR 982.303(c)).</li>\n<li><strong>Una extensión.</strong> Si su condición de salud es una discapacidad y hace que su búsqueda tarde más, pida la extensión como acomodación razonable. La PHA debe extender el plazo del cupón por el tiempo que razonablemente haga falta (24 CFR 982.303(b)(2)).</li>\n</ul>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Me llamo [nombre], número de cliente [número]. El [fecha] entregué mis papeles de mudanza después de que el dueño me dijo que me fuera. El dueño me dejó fuera el [fecha] y desde entonces estoy sin hogar. He estado gravemente enfermo y tengo problemas de salud continuos. Pido: (1) que me confirmen por escrito el estado de mi cupón y su fecha de vencimiento; (2) que me confirmen que recibieron y procesaron mis papeles de mudanza; y (3) una extensión de mi cupón. Si mi condición de salud es una discapacidad, pido la extensión como acomodación razonable (24 CFR 982.303(b)(2)). Por favor, contésteme por escrito.&rdquo;</p></blockquote>\n<h2>2. Si no le contestan en una semana, más o menos</h2>\n<ul>\n<li><strong>Vaya en persona</strong> con una copia impresa de su carta. Pida hablar con un supervisor del departamento de cupones (Sección 8) y pida que le pongan un sello con la fecha en su copia.</li>\n<li><strong>Llame a la línea de servicio al cliente de Vivienda Pública e Indígena de HUD: 800-955-2232.</strong> Explique que la PHA no responde y que su cupón está por vencer. Pregunte cómo comunicarse con la oficina local de HUD.</li>\n<li><strong>Si recibe una carta que dice que su ayuda va a terminar,</strong> pida de inmediato por escrito una audiencia informal. HUD exige que la PHA la ofrezca antes de quitarle la ayuda a un participante por algo que la familia hizo o dejó de hacer (24 CFR 982.555). Si ya pasó la fecha límite de la carta, pídala de todos modos y explique por qué.</li>\n</ul>\n<h2>3. El cierre ilegal: puede que le deban dinero</h2>\n<ul>\n<li><strong>Muchos estados permiten que un inquilino al que dejaron fuera ilegalmente cobre daños, y algunos también obligan al dueño a pagar los honorarios del abogado del inquilino.</strong> Por ejemplo, la ley de Nebraska dice que si el dueño saca o excluye ilegalmente al inquilino, el inquilino puede cobrar una cantidad igual a tres meses de renta como daños fijos, más honorarios razonables de abogado (Neb. Rev. Stat. 76-1430). Cuando la ley obliga al dueño a pagar al abogado, algunos abogados privados aceptan casos como este aunque la ayuda legal no pueda. Busque la ley de su estado sobre cierres ilegales y menciónela cuando llame.</li>\n<li><strong>La corte de reclamos menores</strong> es otra opción. Usted mismo puede presentar la demanda, sin abogado, por una cantidad hasta el límite de su estado. El secretario de la corte puede explicarle cómo hacerlo.</li>\n<li><strong>Si el dueño siguió cobrando los pagos de vivienda después de dejarlo fuera,</strong> repórtelo a la línea directa de la Oficina del Inspector General de HUD: 1-800-347-3735.</li>\n</ul>\n<h2>4. Sus pertenencias</h2>\n<p>Pida sus cosas por escrito. Haga una lista de lo que hay, pida una fecha para recogerlas y guarde una copia. Muchos estados tienen reglas que el dueño debe seguir antes de vender, tirar o quedarse con las cosas de un inquilino anterior, como enviar un aviso por escrito que diga dónde y cuándo puede reclamarlas. La ayuda legal o el secretario de la corte pueden decirle cuál es la regla en su estado.</p>\n<h2>5. Cómo lograr que la ayuda legal le conteste</h2>\n<ul>\n<li><strong>Llame en el horario de admisión.</strong> Muchas oficinas de ayuda legal solo contestan su línea de admisión a ciertas horas. Revise el horario en su página web y llame justo cuando abra la línea.</li>\n<li><strong>Presente la solicitud en línea</strong> si su oficina de ayuda legal lo permite. Muchas lo permiten, en su propia página o en la página de LawHelp de su estado.</li>\n<li><strong>Diga primero lo urgente:</strong> lo dejaron fuera ilegalmente, está sin hogar y su cupón está por vencer.</li>\n</ul>\n<h2>6. Un lugar más seguro para dormir, y su salud</h2>\n<ul>\n<li><strong>Llame o envíe un mensaje de texto al 211</strong> para buscar refugio. Pida que lo conecten con la Entrada Coordinada (Coordinated Entry) de su zona, que es la forma en que la mayoría de las comunidades refieren a las personas a programas de realojamiento rápido y otros programas de vivienda. Muchos refugios son puntos de acceso a la Entrada Coordinada.</li>\n<li><strong>Busque atención médica</strong> si sigue enfermo. El 211 también puede decirle dónde hay una clínica que cobra según sus ingresos.</li>\n</ul>\n<p>Guarde copias de todo lo que envíe y reciba, y anote la fecha y el nombre de cada llamada.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer solicitudes por escrito y lograr que un supervisor responda."
+      },
+      {
+        "href": "/es/recursos/guias/como-encontrar-su-trabajador-de-caso-seccion-8",
+        "label": "Cómo encontrar a su trabajador de caso de Sección 8",
+        "note": "A quién acudir cuando nadie contesta, incluso HUD."
+      },
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      },
+      {
+        "href": "/es/recursos/guias/necesito-vivienda-esta-noche",
+        "label": "Necesito vivienda esta noche",
+        "note": "Refugios, el 211 y otras opciones para esta noche."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: plazo del cupón, extensiones y suspensión (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.555",
+        "label": "24 CFR 982.555: audiencia informal para participantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=76-1430",
+        "label": "Neb. Rev. Stat. 76-1430: desalojo ilegal por el dueño (Legislatura de Nebraska, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/contactus/css",
+        "label": "Centro de Servicio al Cliente de PIH de HUD (800-955-2232; en inglés)"
+      },
+      {
+        "url": "https://www.hudoig.gov/investigations/hotline",
+        "label": "Línea directa de la Oficina del Inspector General de HUD (1-800-347-3735; en inglés)"
+      }
+    ]
+  }
+}

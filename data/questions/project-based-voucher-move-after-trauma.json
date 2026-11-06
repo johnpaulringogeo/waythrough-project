@@ -1,0 +1,113 @@
+{
+  "slug": "project-based-voucher-move-after-trauma",
+  "es_slug": "cupon-por-proyecto-mudarse-despues-de-un-trauma",
+  "topic": "voucher",
+  "order": 65,
+  "related": [
+    "project-based-voucher-to-regular-voucher",
+    "project-based-and-special-purpose-vouchers",
+    "domestic-violence-dropped-from-waitlist"
+  ],
+  "en": {
+    "question": "I'm a case worker. My client has a project-based voucher, and their lease is coming up for renewal. Something traumatic happened in their unit, and they want to move to a different one. How do I help them?",
+    "title": "Project-Based Voucher: Moving After Trauma",
+    "description": "How a family with a project-based voucher can move after trauma: the one-year right to a voucher, VAWA emergency transfers, and transfers as an accommodation.",
+    "h1": "My client has a project-based voucher and wants to move after a trauma in their unit. How can I help?",
+    "crumb": "PBV move after trauma",
+    "asked": "November 2026",
+    "updated": "November 6, 2026",
+    "short_answer": "It depends on how long they've had project-based help and what happened. After one year, they can ask the housing authority for a voucher that moves with them, before giving notice (24 CFR 983.261). If the trauma involved domestic violence, dating violence, sexual assault or stalking, VAWA lets them move for safety without the usual notice and ask for an emergency transfer (24 CFR 5.2005(e)). Otherwise, ask for a transfer within the property, or ask for one as a reasonable accommodation if a disability is involved.",
+    "body_html": "<h2>First, two questions</h2>\n<ul>\n<li><strong>How long has your client had project-based voucher (PBV) help?</strong> One year is the line that matters most.</li>\n<li><strong>What kind of trauma was it?</strong> Domestic violence, dating violence, sexual assault and stalking bring federal VAWA protections. Other trauma uses the regular routes.</li>\n</ul>\n<h2>If your client has had PBV help for at least one year</h2>\n<p>HUD gives PBV families a right to move with continued help (24 CFR 983.261):</p>\n<ol>\n<li><strong>Contact the housing authority (PHA) first.</strong> Before giving the owner notice, your client must ask the PHA for a tenant-based voucher, or the comparable help its Administrative Plan offers. If none is available right away, the PHA &ldquo;must give the family priority to receive the next available opportunity&rdquo; (983.261(c)).</li>\n<li><strong>Then give the owner written notice</strong> to move out, with a copy to the PHA, following the notice terms in the lease (983.261(a)).</li>\n</ol>\n<p>The lease renewal is a natural time to do this, but the order matters: PHA first, then notice. Your client keeps their PBV help in the current unit while they wait.</p>\n<h2>If the trauma involved domestic violence, dating violence, sexual assault or stalking</h2>\n<ul>\n<li><strong>No advance notice is needed for a safety move.</strong> If the move is needed to protect the family's health or safety, your client doesn't have to give the owner advance notice or contact the PHA first. The same applies if a household member was sexually assaulted on the premises in the 90 days before the request to move (983.261(e)).</li>\n<li><strong>The PHA can't end their help because of that move.</strong> If they had at least one year of PBV help, the PHA must offer continued tenant-based help (983.261(e)).</li>\n<li><strong>They can ask for an emergency transfer.</strong> The PHA must have a VAWA emergency transfer plan, and it must cover PBV families. A transfer can be internal (another unit at the same property, with no new application) or external (a different property, which usually means applying). Your client qualifies if they expressly ask for the transfer and either reasonably believe there is a threat of imminent harm from further violence if they stay, or were sexually assaulted on the premises in the last 90 days (24 CFR 5.2005(e)). The plan must also say how it helps families who have had PBV help for less than a year (983.261(f)).</li>\n<li><strong>Paperwork stays simple and private.</strong> A written request in which the tenant certifies they meet those conditions is enough to show they qualify. The provider may ask for documentation of what happened, and your client can choose HUD's self-certification form (HUD-5382) instead of a police report. All of it must be kept strictly confidential (24 CFR 5.2007).</li>\n</ul>\n<h2>If it was another kind of trauma, or they've had PBV help for less than a year</h2>\n<ul>\n<li><strong>Ask the owner for an internal transfer</strong> to another unit at the same property. Many PBV properties have a written transfer policy. Ask for it.</li>\n<li><strong>Ask for the transfer as a reasonable accommodation</strong> if your client has a disability connected to the trauma, such as PTSD or depression. Include a short letter from a provider who knows them. The letter doesn't need to say what happened, only that the move is needed because of the disability. Owners and PHAs must consider these requests (24 CFR 100.204).</li>\n<li><strong>Be careful about moving out before one year.</strong> Ending the lease before one year of PBV help means the family &ldquo;relinquishes the opportunity for continued tenant-based assistance&rdquo; (983.261(d)), unless the VAWA protections above apply.</li>\n</ul>\n<h2>Practical steps for you</h2>\n<ol>\n<li>Get your client's written consent (a release of information) before you talk with the owner or the PHA for them.</li>\n<li>Put every request in writing and keep copies, with the date each was sent.</li>\n<li>Ask the PHA for the PBV section of its Administrative Plan and its VAWA emergency transfer plan. Ask the owner for its own transfer policy. These spell out local steps and timelines.</li>\n<li>Check the date PBV help started, so you know which side of the one-year line your client is on.</li>\n</ol>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;I have received project-based voucher assistance at [address] since [month and year]. I am asking to move to a different unit. [Choose what applies: Under 24 CFR 983.261, I request a tenant-based voucher so I can move with continued assistance. / I request an emergency transfer under your VAWA emergency transfer plan (24 CFR 5.2005(e)). / I request a transfer to another unit as a reasonable accommodation for my disability; a letter from my provider is attached.] Please reply in writing and tell me the next steps and timeline.&rdquo;</p></blockquote>\n<h2>If they say no</h2>\n<p>Ask for the reason in writing, and ask for an informal hearing or review. If a reasonable accommodation is denied, your client can file a complaint with HUD's Office of Fair Housing and Equal Opportunity at 1-800-669-9777. For help with a VAWA request, contact a local domestic violence program or the National Domestic Violence Hotline at 1-800-799-7233. Free legal aid can also step in.</p>",
+    "links": [
+      {
+        "href": "/blog/posts/project-based-vs-tenant-based-vouchers",
+        "label": "Project-Based vs. Tenant-Based Vouchers",
+        "note": "How the two kinds of vouchers differ, including the one-year right to move."
+      },
+      {
+        "href": "/who-we-help/dv-survivors",
+        "label": "Housing Help for Domestic Violence Survivors",
+        "note": "VAWA rights, emergency transfers and where to get support."
+      },
+      {
+        "href": "/resources/guides/how-to-request-reasonable-accommodation",
+        "label": "How to Request a Reasonable Accommodation",
+        "note": "How to ask for a transfer because of a disability, and what the provider letter should say."
+      },
+      {
+        "href": "/resources/guides/how-to-talk-to-your-pha",
+        "label": "How to Deal With Your Housing Authority",
+        "note": "How to put requests in writing and get a response."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-983.261",
+        "label": "24 CFR 983.261: Family right to move (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: VAWA protections and emergency transfer plans (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2007",
+        "label": "24 CFR 5.2007: Documentation and confidentiality under VAWA (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-100.204",
+        "label": "24 CFR 100.204: Reasonable accommodations (eCFR)"
+      }
+    ]
+  },
+  "es": {
+    "question": "Soy trabajador de caso. Mi cliente tiene un cupón basado en proyecto y su contrato de arrendamiento está por renovarse. Pasó algo traumático en su unidad y quiere cambiarse a otra. ¿Cómo le ayudo?",
+    "title": "Cupón por proyecto: mudarse tras un trauma",
+    "description": "Cómo una familia con cupón basado en proyecto puede mudarse tras un trauma: el derecho a un cupón tras un año, traslados de VAWA y traslados por acomodación.",
+    "h1": "Mi cliente tiene un cupón basado en proyecto y quiere mudarse después de un trauma en su unidad. ¿Cómo le ayudo?",
+    "crumb": "Mudarse tras un trauma",
+    "asked": "noviembre de 2026",
+    "updated": "6 de noviembre de 2026",
+    "short_answer": "Depende de cuánto tiempo lleva con la ayuda basada en proyecto y de lo que pasó. Después de un año, puede pedir a la autoridad de vivienda un cupón que se mude con la familia, antes de dar aviso (24 CFR 983.261). Si el trauma fue violencia doméstica, violencia en el noviazgo, agresión sexual o acecho, VAWA le permite mudarse por seguridad sin el aviso habitual y pedir un traslado de emergencia (24 CFR 5.2005(e)). Si no, pida un traslado dentro de la propiedad, o pídalo como acomodación razonable si hay una discapacidad.",
+    "body_html": "<h2>Primero, dos preguntas</h2>\n<ul>\n<li><strong>¿Cuánto tiempo lleva su cliente con ayuda de cupón basado en proyecto (PBV)?</strong> Un año es la línea que más importa.</li>\n<li><strong>¿Qué tipo de trauma fue?</strong> La violencia doméstica, la violencia en el noviazgo, la agresión sexual y el acecho traen protecciones federales de VAWA. Otros traumas siguen los caminos normales.</li>\n</ul>\n<h2>Si su cliente lleva por lo menos un año con ayuda PBV</h2>\n<p>HUD les da a las familias con PBV el derecho a mudarse sin perder la ayuda (24 CFR 983.261):</p>\n<ol>\n<li><strong>Comuníquese primero con la autoridad de vivienda (PHA).</strong> Antes de avisarle al dueño, su cliente debe pedir a la PHA un cupón basado en el inquilino, o la ayuda comparable que ofrezca su Plan Administrativo. Si no hay uno disponible enseguida, la PHA debe darle prioridad para la siguiente oportunidad disponible (983.261(c)).</li>\n<li><strong>Después, avise al dueño por escrito</strong> que se va a mudar, con copia a la PHA, según los plazos de aviso del contrato (983.261(a)).</li>\n</ol>\n<p>La renovación del contrato es un buen momento para hacerlo, pero el orden importa: primero la PHA y después el aviso. Mientras espera, su cliente sigue recibiendo la ayuda PBV en su unidad actual.</p>\n<h2>Si el trauma fue violencia doméstica, violencia en el noviazgo, agresión sexual o acecho</h2>\n<ul>\n<li><strong>No hace falta aviso previo para una mudanza por seguridad.</strong> Si la mudanza es necesaria para proteger la salud o la seguridad de la familia, su cliente no tiene que avisar antes al dueño ni comunicarse primero con la PHA. Lo mismo aplica si alguien del hogar sufrió una agresión sexual en la propiedad en los 90 días antes de pedir la mudanza (983.261(e)).</li>\n<li><strong>La PHA no puede quitarle la ayuda por esa mudanza.</strong> Si tenía por lo menos un año con ayuda PBV, la PHA debe ofrecerle ayuda continua basada en el inquilino (983.261(e)).</li>\n<li><strong>Puede pedir un traslado de emergencia.</strong> La PHA debe tener un plan de traslados de emergencia de VAWA que cubra a las familias con PBV. El traslado puede ser interno (otra unidad en la misma propiedad, sin una nueva solicitud) o externo (otra propiedad, lo que normalmente requiere presentar una solicitud). Su cliente califica si pide el traslado de forma expresa y además cree razonablemente que corre peligro inminente de más violencia si se queda, o sufrió una agresión sexual en la propiedad en los últimos 90 días (24 CFR 5.2005(e)). El plan también debe explicar cómo ayuda a las familias que llevan menos de un año con ayuda PBV (983.261(f)).</li>\n<li><strong>Los trámites son sencillos y privados.</strong> Una solicitud por escrito en la que la persona certifica que cumple esas condiciones basta para demostrar que califica. El proveedor puede pedir documentación de lo que pasó, y su cliente puede escoger el formulario de autocertificación de HUD (HUD-5382) en lugar de un reporte de la policía. Todo debe mantenerse estrictamente confidencial (24 CFR 5.2007).</li>\n</ul>\n<h2>Si fue otro tipo de trauma, o lleva menos de un año con ayuda PBV</h2>\n<ul>\n<li><strong>Pida al dueño un traslado interno</strong> a otra unidad en la misma propiedad. Muchas propiedades con PBV tienen una política de traslados por escrito. Pídala.</li>\n<li><strong>Pida el traslado como acomodación razonable</strong> si su cliente tiene una discapacidad relacionada con el trauma, como trastorno de estrés postraumático o depresión. Incluya una carta breve de un profesional que lo conozca. La carta no tiene que decir lo que pasó, solo que la mudanza es necesaria por la discapacidad. Los dueños y las PHA deben considerar estas solicitudes (24 CFR 100.204).</li>\n<li><strong>Tenga cuidado con mudarse antes de cumplir un año.</strong> Terminar el contrato antes de un año con ayuda PBV significa que la familia renuncia a la ayuda continua basada en el inquilino (983.261(d)), salvo que apliquen las protecciones de VAWA de arriba.</li>\n</ul>\n<h2>Pasos prácticos para usted</h2>\n<ol>\n<li>Obtenga el consentimiento por escrito de su cliente (una autorización para compartir información) antes de hablar con el dueño o con la PHA en su nombre.</li>\n<li>Haga cada solicitud por escrito y guarde copias, con la fecha en que envió cada una.</li>\n<li>Pida a la PHA la sección sobre PBV de su Plan Administrativo y su plan de traslados de emergencia de VAWA. Pida al dueño su propia política de traslados. Ahí se explican los pasos y los plazos locales.</li>\n<li>Confirme la fecha en que empezó la ayuda PBV, para saber de qué lado de la línea de un año está su cliente.</li>\n</ol>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Recibo asistencia de cupón basado en proyecto en [dirección] desde [mes y año]. Pido mudarme a otra unidad. [Escoja lo que aplique: Según el 24 CFR 983.261, solicito un cupón basado en el inquilino para mudarme sin perder la asistencia. / Solicito un traslado de emergencia según su plan de traslados de emergencia de VAWA (24 CFR 5.2005(e)). / Solicito un traslado a otra unidad como acomodación razonable por mi discapacidad; adjunto una carta de mi proveedor.] Por favor, contésteme por escrito y dígame los próximos pasos y los plazos.&rdquo;</p></blockquote>\n<h2>Si le dicen que no</h2>\n<p>Pida la razón por escrito y pida una audiencia o revisión informal. Si niegan una acomodación razonable, su cliente puede presentar una queja ante la Oficina de Equidad de Vivienda e Igualdad de Oportunidades de HUD al 1-800-669-9777. Para ayuda con una solicitud de VAWA, comuníquese con un programa local contra la violencia doméstica o con la Línea Nacional contra la Violencia Doméstica al 1-800-799-7233. Una oficina de ayuda legal gratuita también puede intervenir.</p>",
+    "links": [
+      {
+        "href": "/es/blog/posts/voucher-por-proyecto-vs-por-inquilino",
+        "label": "Cupones por proyecto vs. por inquilino",
+        "note": "Cómo se diferencian los dos tipos, incluido el derecho a mudarse después de un año."
+      },
+      {
+        "href": "/es/a-quienes-ayudamos/sobrevivientes-violencia-domestica",
+        "label": "Ayuda de vivienda para sobrevivientes de violencia doméstica",
+        "note": "Derechos bajo VAWA, traslados de emergencia y dónde encontrar apoyo."
+      },
+      {
+        "href": "/es/recursos/guias/como-solicitar-acomodacion-razonable",
+        "label": "Cómo solicitar una acomodación razonable",
+        "note": "Cómo pedir un traslado por una discapacidad y qué debe decir la carta del proveedor."
+      },
+      {
+        "href": "/es/recursos/guias/como-comunicarte-con-tu-pha",
+        "label": "Cómo comunicarse con su autoridad de vivienda",
+        "note": "Cómo hacer solicitudes por escrito y lograr una respuesta."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-983.261",
+        "label": "24 CFR 983.261: derecho de la familia a mudarse (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2005",
+        "label": "24 CFR 5.2005: protecciones de VAWA y planes de traslados de emergencia (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-5.2007",
+        "label": "24 CFR 5.2007: documentación y confidencialidad bajo VAWA (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-100.204",
+        "label": "24 CFR 100.204: acomodaciones razonables (eCFR, en inglés)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "voucher-pending-then-expired-find-caseworker",
+  "es_slug": "cupon-pendiente-y-luego-vencido-trabajador-de-caso",
+  "topic": "voucher",
+  "order": 15,
+  "related": [
+    "voucher-extension-denied-disability",
+    "voucher-expired-waiting-on-inspection",
+    "broken-appliances-not-repaired"
+  ],
+  "en": {
+    "question": "My housing authority's website said my voucher was pending, and about an hour later it said expired. Why? I have a disability, and I live on a high floor in a building where the elevators often stop working, and I can't get down the stairs. I also don't know who my caseworker is. How do I find out?",
+    "title": "Voucher Said Pending, Then Expired?",
+    "description": "Your voucher went from pending to expired? The clock may have been paused. How to ask for more time, find your caseworker, and get a broken elevator fixed.",
+    "h1": "My voucher said “pending,” then “expired.” How do I find my caseworker, and what about the broken elevator?",
+    "crumb": "Pending, then expired",
+    "asked": "November 2026",
+    "updated": "November 6, 2026",
+    "short_answer": "Ask the housing authority in writing for your voucher's real status. If a request to approve a unit was under review, the voucher clock must pause until you get a written answer (24 CFR 982.303(c)). Because of your disability, you can also ask for more time as a reasonable accommodation (24 CFR 982.303(b)(2)). Your caseworker's name is usually on your letters or in the online portal, or the main office can tell you.",
+    "body_html": "<h2>Why it may say &ldquo;pending,&rdquo; then &ldquo;expired&rdquo;</h2>\n<p>We can't see your file, so we can't say for sure. Usually &ldquo;pending&rdquo; means something was being reviewed. That might be a Request for Tenancy Approval (the RFTA, the form you and a landlord fill out for a unit), or a request for more time. &ldquo;Expired&rdquo; means the voucher's search time ran out. Websites can also show the wrong status for a while, so don't rely on the screen. Get the answer in writing.</p>\n<h2>What the rule says</h2>\n<ul>\n<li><strong>The clock should stop during a review.</strong> The housing authority (PHA) &ldquo;must provide for suspension&rdquo; of the voucher term from the day you turn in a request for tenancy approval until it tells you in writing whether the request is approved or denied (24 CFR 982.303(c)). If your voucher &ldquo;expired&rdquo; while a request was pending, ask them to add those days back.</li>\n<li><strong>A disability can get you more time.</strong> If you need more search time because of a disability and ask for it as a reasonable accommodation, the PHA &ldquo;must extend the voucher term up to the term reasonably required for that purpose&rdquo; (24 CFR 982.303(b)(2)). Ask right away, even if the voucher already shows as expired.</li>\n<li><strong>An ordinary extension is up to the PHA.</strong> PHAs don't have to offer an informal review when they turn down a regular extension (24 CFR 982.554(c)(4)). A denied reasonable accommodation is different: it is a civil rights issue, and you can push back.</li>\n</ul>\n<h2>How to find your caseworker</h2>\n<p>Many housing authorities call this person a housing specialist, case manager or advisor. Some don't assign one at all and use a call center instead.</p>\n<ol>\n<li>Look at the letters you've gotten from the PHA: your voucher, your briefing packet, and any appointment or recertification notice. The caseworker's name and phone number are often at the bottom.</li>\n<li>Log in to the PHA's online portal, if it has one. Some list your caseworker's direct phone and email there. You may need your client number or Social Security number.</li>\n<li>Call the PHA's main number and ask: &ldquo;Who is my caseworker, and what is the best way to reach them?&rdquo; Write down the name, the date and who you spoke with.</li>\n</ol>\n<p>Our guide on <a href=\"/resources/guides/how-to-find-your-section-8-caseworker\">how to find your Section 8 caseworker</a> has more ways to get through, including what to do if nobody answers.</p>\n<h2>The elevator</h2>\n<ul>\n<li><strong>Tell the landlord in writing</strong> each time the elevator is out, and ask for a repair date.</li>\n<li><strong>Ask for a reasonable accommodation.</strong> Because you have a disability, you can ask for faster repairs, a move to a lower-floor unit when one opens up, or help with things like mail while the elevator is down (24 CFR 100.204).</li>\n<li><strong>If you rent with a voucher,</strong> ask the PHA for a special inspection. Under HUD's inspection standard, an elevator that doesn't work fails inspection.</li>\n<li><strong>Report it to your city.</strong> Call 311 or the building or code department. An elevator that keeps breaking down can be a code problem.</li>\n<li><strong>If you're ever stuck and it's an emergency, call 911.</strong> Ask the building manager how residents who can't use stairs get out during a fire or power outage.</li>\n</ul>\n<p>Our guide on <a href=\"/resources/guides/broken-elevator-tenant-rights\">your rights when the elevator is broken</a> explains each step.</p>\n<h2>What to write</h2>\n<blockquote><p>&ldquo;My name is [name], client number [number]. On [date] my voucher showed as pending, and then as expired the same day. I have a disability. I am asking for: (1) written confirmation of my voucher's status and expiration date; (2) if a Request for Tenancy Approval was pending, the days it was under review added back to my voucher (24 CFR 982.303(c)); and (3) an extension of my voucher as a reasonable accommodation for my disability (24 CFR 982.303(b)(2)). Please also tell me the name and phone number of my caseworker.&rdquo;</p></blockquote>\n<p>Send it by email or through the portal, keep a copy, and write down the date you sent it.</p>\n<h2>If they say no</h2>\n<p>Ask for the answer and the reason in writing. Ask for the name of the PHA's reasonable accommodation or Section 504 coordinator, and ask for an informal hearing or review anyway. If they won't answer at all, call HUD's Public and Indian Housing customer service line at 800-955-2232. Free legal aid can help too; call 211 to find it.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/how-to-find-your-section-8-caseworker",
+        "label": "How to Find Your Section 8 Caseworker",
+        "note": "Where the name usually appears, and what to do if nobody answers."
+      },
+      {
+        "href": "/resources/guides/broken-elevator-tenant-rights",
+        "label": "Broken Elevator: Your Rights as a Tenant",
+        "note": "Repair requests, accommodations, inspections and safety."
+      },
+      {
+        "href": "/resources/guides/how-to-request-reasonable-accommodation",
+        "label": "How to Request a Reasonable Accommodation",
+        "note": "How to ask for more voucher time or a lower-floor unit because of a disability."
+      },
+      {
+        "href": "/blog/posts/voucher-expires-what-happens",
+        "label": "What Happens When Your Section 8 Voucher Expires",
+        "note": "Your options once a voucher runs out."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: Term of voucher, extensions and suspension (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: Informal review for applicants (eCFR)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-100.204",
+        "label": "24 CFR 100.204: Reasonable accommodations (eCFR)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Elevator_20230811.pdf",
+        "label": "HUD NSPIRE Standard: Elevator (an inoperable elevator fails HCV inspection)"
+      }
+    ]
+  },
+  "es": {
+    "question": "La página web de mi autoridad de vivienda decía que mi cupón estaba pendiente, y como una hora después decía vencido. ¿Por qué? Tengo una discapacidad y vivo en un piso alto de un edificio donde los elevadores muchas veces no funcionan, y no puedo bajar por las escaleras. Además, no sé quién es mi trabajador de caso. ¿Cómo lo averiguo?",
+    "title": "¿Su cupón pasó de pendiente a vencido?",
+    "description": "¿Su cupón pasó de pendiente a vencido? Puede que el plazo estuviera en pausa. Cómo pedir más tiempo, encontrar a su trabajador de caso y reportar el elevador.",
+    "h1": "Mi cupón decía “pendiente” y luego “vencido”. ¿Cómo encuentro a mi trabajador de caso, y qué hago con el elevador descompuesto?",
+    "crumb": "Pendiente y luego vencido",
+    "asked": "noviembre de 2026",
+    "updated": "6 de noviembre de 2026",
+    "short_answer": "Pida por escrito a la autoridad de vivienda el estado real de su cupón. Si estaban revisando una solicitud para aprobar una unidad, el plazo del cupón debe detenerse hasta que le den una respuesta por escrito (24 CFR 982.303(c)). Por su discapacidad, también puede pedir más tiempo como acomodación razonable (24 CFR 982.303(b)(2)). El nombre de su trabajador de caso suele aparecer en sus cartas o en el portal en línea, o se lo pueden dar en la oficina principal.",
+    "body_html": "<h2>Por qué puede decir &ldquo;pendiente&rdquo; y luego &ldquo;vencido&rdquo;</h2>\n<p>No podemos ver su expediente, así que no lo sabemos con certeza. Por lo general, &ldquo;pendiente&rdquo; quiere decir que estaban revisando algo. Puede ser una Solicitud de Aprobación de Arrendamiento (la RFTA, el formulario que usted y un propietario llenan para una unidad) o una solicitud de más tiempo. &ldquo;Vencido&rdquo; quiere decir que se acabó el tiempo de búsqueda del cupón. Las páginas web también pueden mostrar un estado equivocado por un tiempo, así que no confíe solo en la pantalla. Pida la respuesta por escrito.</p>\n<h2>Lo que dice la regla</h2>\n<ul>\n<li><strong>El plazo debe detenerse durante una revisión.</strong> La autoridad de vivienda (PHA) debe suspender el plazo del cupón desde el día en que usted entrega una solicitud de aprobación de arrendamiento hasta que le avisa por escrito si la aprueba o la niega (24 CFR 982.303(c)). Si su cupón &ldquo;venció&rdquo; mientras había una solicitud pendiente, pida que le devuelvan esos días.</li>\n<li><strong>Una discapacidad puede darle más tiempo.</strong> Si necesita más tiempo de búsqueda por una discapacidad y lo pide como acomodación razonable, la PHA debe extender el plazo del cupón por el tiempo que razonablemente haga falta (24 CFR 982.303(b)(2)). Pídalo enseguida, aunque el cupón ya aparezca como vencido.</li>\n<li><strong>Una extensión común depende de la PHA.</strong> La PHA no tiene que ofrecer una revisión informal cuando niega una extensión regular (24 CFR 982.554(c)(4)). Una acomodación razonable negada es distinta: es un asunto de derechos civiles, y usted puede reclamar.</li>\n</ul>\n<h2>Cómo encontrar a su trabajador de caso</h2>\n<p>Muchas autoridades de vivienda llaman a esta persona especialista de vivienda, administrador de caso o asesor. Algunas no asignan a nadie y usan un centro de llamadas.</p>\n<ol>\n<li>Revise las cartas que le ha enviado la PHA: su cupón, el paquete de orientación y cualquier aviso de cita o de recertificación. El nombre y el teléfono del trabajador de caso suelen aparecer al final.</li>\n<li>Entre al portal en línea de la PHA, si tiene uno. Algunos muestran el teléfono directo y el correo de su trabajador de caso. Puede necesitar su número de cliente o su número de Seguro Social.</li>\n<li>Llame al número principal de la PHA y pregunte: &ldquo;¿Quién es mi trabajador de caso y cuál es la mejor forma de comunicarme con esa persona?&rdquo; Anote el nombre, la fecha y con quién habló.</li>\n</ol>\n<p>Nuestra guía sobre <a href=\"/es/recursos/guias/como-encontrar-su-trabajador-de-caso-seccion-8\">cómo encontrar a su trabajador de caso de Sección 8</a> tiene más formas de lograr que le contesten, incluso qué hacer si nadie responde.</p>\n<h2>El elevador</h2>\n<ul>\n<li><strong>Avise al propietario por escrito</strong> cada vez que el elevador no funcione, y pida una fecha de reparación.</li>\n<li><strong>Pida una acomodación razonable.</strong> Como usted tiene una discapacidad, puede pedir reparaciones más rápidas, un cambio a una unidad en un piso más bajo cuando se desocupe una, o ayuda con cosas como el correo mientras el elevador no funciona (24 CFR 100.204).</li>\n<li><strong>Si renta con cupón,</strong> pida a la PHA una inspección especial. Según el estándar de inspección de HUD, un elevador que no funciona no pasa la inspección.</li>\n<li><strong>Repórtelo a su ciudad.</strong> Llame al 311 o al departamento de edificios o de códigos. Un elevador que se descompone una y otra vez puede ser una violación del código.</li>\n<li><strong>Si alguna vez queda atrapado y es una emergencia, llame al 911.</strong> Pregunte a la administración cómo salen los residentes que no pueden usar las escaleras durante un incendio o un apagón.</li>\n</ul>\n<p>Nuestra guía sobre <a href=\"/es/recursos/guias/elevador-descompuesto-derechos-inquilino\">sus derechos cuando el elevador está descompuesto</a> explica cada paso.</p>\n<h2>Qué escribir</h2>\n<blockquote><p>&ldquo;Me llamo [nombre], número de cliente [número]. El [fecha] mi cupón apareció como pendiente y luego como vencido el mismo día. Tengo una discapacidad. Pido: (1) que me confirmen por escrito el estado de mi cupón y su fecha de vencimiento; (2) si había una Solicitud de Aprobación de Arrendamiento pendiente, que se le sumen a mi cupón los días en que estuvo en revisión (24 CFR 982.303(c)); y (3) una extensión de mi cupón como acomodación razonable por mi discapacidad (24 CFR 982.303(b)(2)). Por favor, díganme también el nombre y el teléfono de mi trabajador de caso.&rdquo;</p></blockquote>\n<p>Envíelo por correo electrónico o por el portal, guarde una copia y anote la fecha en que lo mandó.</p>\n<h2>Si le dicen que no</h2>\n<p>Pida la respuesta y la razón por escrito. Pida el nombre del coordinador de acomodaciones razonables o de la Sección 504 de la PHA, y pida de todos modos una audiencia o revisión informal. Si no le contestan nada, llame a la línea de servicio al cliente de Vivienda Pública e Indígena de HUD: 800-955-2232. Una oficina de ayuda legal gratuita también puede ayudarle; llame al 211 para encontrarla.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/como-encontrar-su-trabajador-de-caso-seccion-8",
+        "label": "Cómo encontrar a su trabajador de caso de Sección 8",
+        "note": "Dónde suele aparecer el nombre y qué hacer si nadie contesta."
+      },
+      {
+        "href": "/es/recursos/guias/elevador-descompuesto-derechos-inquilino",
+        "label": "Elevador descompuesto: sus derechos como inquilino",
+        "note": "Solicitudes de reparación, acomodaciones, inspecciones y seguridad."
+      },
+      {
+        "href": "/es/recursos/guias/como-solicitar-acomodacion-razonable",
+        "label": "Cómo solicitar una acomodación razonable",
+        "note": "Cómo pedir más tiempo para el cupón o una unidad en un piso más bajo por una discapacidad."
+      },
+      {
+        "href": "/es/blog/posts/voucher-expira-que-pasa",
+        "label": "Qué pasa cuando su cupón de Sección 8 vence",
+        "note": "Sus opciones cuando el cupón se vence."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.303",
+        "label": "24 CFR 982.303: plazo del cupón, extensiones y suspensión (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.554",
+        "label": "24 CFR 982.554: revisión informal para solicitantes (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-100.204",
+        "label": "24 CFR 100.204: acomodaciones razonables (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/NSPIRE-Standard-Elevator_20230811.pdf",
+        "label": "Estándar NSPIRE de HUD: elevador (un elevador que no funciona no pasa la inspección del programa de cupones; en inglés)"
+      }
+    ]
+  }
+}
