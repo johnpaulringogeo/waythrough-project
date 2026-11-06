@@ -995,7 +995,7 @@
   },
   {
     "title": "Housing Guides: Section 8 & Tenant Rights | Waythrough",
-    "description": "Browse all 117 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
+    "description": "Browse all 119 free housing guides — Section 8 applications, tenant rights, benefits, emergency help, and more. Practical, step-by-step guidance.",
     "url": "/resources/guides/",
     "category": "Guide",
     "body": "Housing Guides: Section 8 & Tenant Rights | Waythrough Home / Resources / All Guides Guides & How-To All Housing Guides Every guide on Waythrough Project in one place. Step-by-step walkthroughs for applying to housing programs, understanding your rights, navigating benefits, and handling emergencies"
@@ -3585,7 +3585,7 @@
   },
   {
     "title": "Todas las Guías de Vivienda — Waythrough Project",
-    "description": "Explora las 117 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
+    "description": "Explora las 119 guías gratuitas de vivienda — solicitudes de Sección 8, derechos del inquilino, beneficios, ayuda de emergencia y más.",
     "url": "/es/recursos/guias/",
     "category": "Guías",
     "body": "Inicio / Recursos / Todas las Guías Guías y Cómo Hacerlo Todas las Guías de Vivienda Todas las guías de Waythrough Project en un solo lugar. Instrucciones paso a paso para solicitar programas de vivienda, entender tus derechos, navegar los beneficios y manejar emergencias. Todo gratis, sin necesidad"
@@ -4477,7 +4477,7 @@
     "description": "Real Section 8, voucher and tenant questions sent to Waythrough, with plain answers: expired vouchers, lockouts, repairs, rent errors and moving.",
     "url": "/resources/questions/",
     "category": "Guide",
-    "body": "Section 8 & Tenant Questions Readers Asked | Waythrough Home / Resources / Reader Questions Community Questions Readers Asked Us, Answered Updated November 4, 2026 These are real questions people sent us through our Ask a Question form. We rewrote each one so no one can be identified, then answered "
+    "body": "Section 8 & Tenant Questions Readers Asked | Waythrough Home / Resources / Reader Questions Community Questions Readers Asked Us, Answered Updated November 6, 2026 These are real questions people sent us through our Ask a Question form. We rewrote each one so no one can be identified, then answered "
   },
   {
     "title": "Section 8 Disability and Dependent Deductions | Waythrough",
@@ -4947,6 +4947,41 @@
     "url": "/resources/housing-authorities/salt-lake-city-haslc",
     "category": "Guide",
     "body": "Salt Lake City Section 8 Waitlist (HASLC) | Waythrough Home / Resources / Housing Authorities / HASLC Housing Authority Housing Authority of Salt Lake City (HASLC) Serves Salt Lake City, Utah, with one tenant-based voucher waiting list shared with Housing Connect for all of Salt Lake County · Last c"
+  },
+  {
+    "title": "Broken Elevator? Your Rights as a Tenant | Waythrough",
+    "description": "Elevator out and you can't use the stairs? How to get it fixed: written requests, disability accommodations, Section 8 inspections, 311 and safety plans.",
+    "url": "/resources/guides/broken-elevator-tenant-rights",
+    "category": "Guide",
+    "body": "Broken Elevator? Your Rights as a Tenant | Waythrough Home / Resources / Broken Elevator: Your Rights as a Tenant How-To Guide Broken Elevator: Your Rights as a Tenant, and How to Get It Fixed Matt · Updated November 2026 For many people, a broken elevator is a hassle. For seniors and people with di"
+  },
+  {
+    "title": "How to Find Your Section 8 Caseworker | Waythrough",
+    "description": "Don't know who your Section 8 caseworker is? Where the name usually appears, what to ask the call center, and who to contact when nobody calls you back.",
+    "url": "/resources/guides/how-to-find-your-section-8-caseworker",
+    "category": "Guide",
+    "body": "How to Find Your Section 8 Caseworker | Waythrough Home / Resources / How to Find Your Section 8 Caseworker How-To Guide How to Find Your Section 8 Caseworker (and What to Do When No One Answers) Matt · Updated November 2026 When something goes wrong with your voucher, you need to reach the person w"
+  },
+  {
+    "title": "Housing Authority and Legal Aid Won't Respond? | Waythrough",
+    "description": "Locked out, voucher at risk, and nobody calls back? How to protect your voucher in writing, escalate, get your things back and find a lawyer who can be paid.",
+    "url": "/resources/questions/housing-authority-and-legal-aid-not-responding",
+    "category": "Guide",
+    "body": "Housing Authority and Legal Aid Won't Respond? | Waythrough Home / Resources / Reader Questions / No one is responding Reader Question I was locked out, and now the housing authority and legal aid won't call me back. How do I keep my voucher? Asked November 2026 · Answered by Matt · Updated November"
+  },
+  {
+    "title": "Project-Based Voucher: Moving After Trauma | Waythrough",
+    "description": "How a family with a project-based voucher can move after trauma: the one-year right to a voucher, VAWA emergency transfers, and transfers as an accommodation.",
+    "url": "/resources/questions/project-based-voucher-move-after-trauma",
+    "category": "Guide",
+    "body": "Project-Based Voucher: Moving After Trauma | Waythrough Home / Resources / Reader Questions / PBV move after trauma Reader Question My client has a project-based voucher and wants to move after a trauma in their unit. How can I help? Asked November 2026 · Answered by Matt · Updated November 6, 2026 "
+  },
+  {
+    "title": "Voucher Said Pending, Then Expired? | Waythrough",
+    "description": "Your voucher went from pending to expired? The clock may have been paused. How to ask for more time, find your caseworker, and get a broken elevator fixed.",
+    "url": "/resources/questions/voucher-pending-then-expired-find-caseworker",
+    "category": "Guide",
+    "body": "Voucher Said Pending, Then Expired? | Waythrough Home / Resources / Reader Questions / Pending, then expired Reader Question My voucher said “pending,” then “expired.” How do I find my caseworker, and what about the broken elevator? Asked November 2026 · Answered by Matt · Updated November 6, 2026 T"
   },
   {
     "title": "Boston Housing Authority: lista de espera Sección 8",
@@ -5597,7 +5632,7 @@
     "description": "Preguntas reales sobre Sección 8, cupones y derechos del inquilino enviadas a Waythrough, con respuestas claras: cupones vencidos, desalojos y reparaciones.",
     "url": "/es/recursos/preguntas/",
     "category": "Guías",
-    "body": "Inicio / Recursos / Preguntas de lectores Comunidad Preguntas que nos hicieron los lectores, con respuesta Actualizado el 4 de noviembre de 2026 Estas son preguntas reales que la gente nos envió por nuestro formulario de preguntas . Reescribimos cada una para que nadie pueda ser identificado y la co"
+    "body": "Inicio / Recursos / Preguntas de lectores Comunidad Preguntas que nos hicieron los lectores, con respuesta Actualizado el 6 de noviembre de 2026 Estas son preguntas reales que la gente nos envió por nuestro formulario de preguntas . Reescribimos cada una para que nadie pueda ser identificado y la co"
   },
   {
     "title": "¿Su asistencia TBRA terminó antes de tiempo? | Waythrough",
@@ -6067,5 +6102,40 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-salt-lake-city",
     "category": "Guías",
     "body": "Si usted alquila en Salt Lake City y se atrasó con la renta, esta es la situación real. Ningún fondo de renta de la Ciudad, del Condado ni del estado está abierto ahora. El Condado de Salt Lake dice que no da servicios directos de vivienda asequible, y su programa de prevención de desalojos de 2024 "
+  },
+  {
+    "title": "Cómo encontrar a su trabajador de caso | Waythrough",
+    "description": "¿No sabe quién es su trabajador de caso de Sección 8? Dónde suele aparecer el nombre, qué preguntar por teléfono y a quién acudir cuando nadie le contesta.",
+    "url": "/es/recursos/guias/como-encontrar-su-trabajador-de-caso-seccion-8",
+    "category": "Guías",
+    "body": "Cuando algo sale mal con su cupón, necesita hablar con la persona que maneja su expediente. Pero mucha gente no sabe quién es. Los trabajadores de caso cambian, las oficinas están ocupadas y algunas autoridades de vivienda no asignan a una sola persona. Esta guía explica dónde buscar el nombre de su"
+  },
+  {
+    "title": "Elevador descompuesto: sus derechos | Waythrough",
+    "description": "¿El elevador no funciona y no puede usar las escaleras? Cómo pedir reparaciones por escrito, acomodaciones por discapacidad, inspecciones y un plan de salida.",
+    "url": "/es/recursos/guias/elevador-descompuesto-derechos-inquilino",
+    "category": "Guías",
+    "body": "Para mucha gente, un elevador descompuesto es una molestia. Para las personas mayores y las personas con discapacidad que viven en pisos altos, puede significar quedarse encerradas en casa, perder citas médicas y no poder salir en caso de incendio. Esta guía explica sus derechos cuando el elevador n"
+  },
+  {
+    "title": "¿La autoridad de vivienda no le responde? | Waythrough",
+    "description": "¿Lo dejaron fuera, su cupón está en riesgo y nadie le contesta? Cómo proteger su cupón por escrito, insistir, recuperar sus cosas y encontrar un abogado.",
+    "url": "/es/recursos/preguntas/autoridad-de-vivienda-y-ayuda-legal-no-responden",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Nadie me contesta Pregunta de un lector Me dejaron fuera, y ahora la autoridad de vivienda y la ayuda legal no me contestan. ¿Cómo conservo mi cupón? Pregunta de noviembre de 2026 · Respondida por Matt · Actualizado el 6 de noviembre de 2026 La pregunta “D"
+  },
+  {
+    "title": "¿Su cupón pasó de pendiente a vencido? | Waythrough",
+    "description": "¿Su cupón pasó de pendiente a vencido? Puede que el plazo estuviera en pausa. Cómo pedir más tiempo, encontrar a su trabajador de caso y reportar el elevador.",
+    "url": "/es/recursos/preguntas/cupon-pendiente-y-luego-vencido-trabajador-de-caso",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Pendiente y luego vencido Pregunta de un lector Mi cupón decía “pendiente” y luego “vencido”. ¿Cómo encuentro a mi trabajador de caso, y qué hago con el elevador descompuesto? Pregunta de noviembre de 2026 · Respondida por Matt · Actualizado el 6 de noviem"
+  },
+  {
+    "title": "Cupón por proyecto: mudarse tras un trauma | Waythrough",
+    "description": "Cómo una familia con cupón basado en proyecto puede mudarse tras un trauma: el derecho a un cupón tras un año, traslados de VAWA y traslados por acomodación.",
+    "url": "/es/recursos/preguntas/cupon-por-proyecto-mudarse-despues-de-un-trauma",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Preguntas de lectores / Mudarse tras un trauma Pregunta de un lector Mi cliente tiene un cupón basado en proyecto y quiere mudarse después de un trauma en su unidad. ¿Cómo le ayudo? Pregunta de noviembre de 2026 · Respondida por Matt · Actualizado el 6 de noviembre de 2026 La pre"
   }
 ]
