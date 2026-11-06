@@ -2710,6 +2710,21 @@
                 });
             }
 
+            // Veterans on any path: our free VA-benefits sister site
+            var isVeteran = Object.keys(a).some(function(k) {
+                var v = a[k];
+                return Array.isArray(v) ? v.indexOf('veteran') !== -1 : v === 'veteran';
+            });
+            if (isVeteran) {
+                additional.push({
+                    title: 'Vet Debrief: Find Your VA Benefits',
+                    link: 'https://vetdebrief.com/',
+                    external: true,
+                    description: 'Our free, ad-free sister site for veterans. Take a 3-minute briefing to see federal and state benefits you may qualify for, look up VA disability rating criteria, and find your state\'s veteran benefits.',
+                    meta: 'Veterans \u2022 VA Benefits'
+                });
+            }
+
             // Lead cards go first; a guide already offered as a door is not repeated below
             var lead = leadCards(branch, a);
             lead.forEach(function(item) {

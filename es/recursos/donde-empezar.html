@@ -2698,6 +2698,21 @@
                 });
             }
 
+            // Veterans on any path: our free VA-benefits sister site
+            var isVeteran = Object.keys(a).some(function(k) {
+                var v = a[k];
+                return Array.isArray(v) ? v.indexOf('veteran') !== -1 : v === 'veteran';
+            });
+            if (isVeteran) {
+                additional.push({
+                    title: 'Vet Debrief: encuentra tus beneficios del VA',
+                    link: 'https://vetdebrief.com/',
+                    external: true,
+                    description: 'Nuestro sitio hermano para veteranos, gratis y sin anuncios (en inglés). Haz una evaluación de 3 minutos para ver qué beneficios federales y estatales podrías recibir, consulta los criterios de calificación del VA y encuentra los beneficios para veteranos de tu estado.',
+                    meta: 'Veteranos \u2022 Beneficios del VA'
+                });
+            }
+
             // Lead cards go first; a guide already offered as a door is not repeated below
             var lead = leadCards(branch, a);
             lead.forEach(function(item) {
