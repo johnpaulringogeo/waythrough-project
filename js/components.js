@@ -564,7 +564,7 @@ function renderFooter() {
                         <li><a href="${langTwinHref}">English</a></li>
                         <li><a href="${root}es/blog/">Blog</a></li>
                         <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
-                        <li><span class="footer-link-placeholder">Instagram — próximamente</span></li>
+                        <li><span class="footer-link-placeholder">Instagram (próximamente)</span></li>
                     </ul>
                 </div>
             </div>
@@ -621,7 +621,7 @@ function renderFooter() {
                         <li><a href="${langTwinHref}">Español</a></li>
                         <li><a href="${root}blog/">Blog</a></li>
                         <li><a href="https://www.youtube.com/@WaythroughProject" target="_blank" rel="noopener">YouTube</a></li>
-                        <li><span class="footer-link-placeholder">Instagram — coming soon</span></li>
+                        <li><span class="footer-link-placeholder">Instagram (coming soon)</span></li>
                     </ul>
                 </div>
             </div>

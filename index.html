@@ -14,16 +14,16 @@
     <link rel="icon" type="image/png" href="./images/favicon.png">
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-    <title>Waythrough Project — Free Housing Help for Every State</title>
-    <meta name="description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state — no cost, no sign-up.">
-    <meta property="og:title" content="Waythrough Project — Free Housing Help for Every State">
-    <meta property="og:description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state — no cost, no sign-up.">
+    <title>Waythrough Project: Free Housing Help in Every State</title>
+    <meta name="description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state. No cost, no sign-up.">
+    <meta property="og:title" content="Waythrough Project: Free Housing Help in Every State">
+    <meta property="og:description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state. No cost, no sign-up.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://waythroughproject.com/">
     <meta property="og:site_name" content="Waythrough Project">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Waythrough Project — Free Housing Help for Every State">
-    <meta name="twitter:description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state — no cost, no sign-up.">
+    <meta name="twitter:title" content="Waythrough Project: Free Housing Help in Every State">
+    <meta name="twitter:description" content="Free step-by-step guides for Section 8, HUD-VASH, tenant rights, and eviction defense. Find housing help for your state. No cost, no sign-up.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="canonical" href="https://waythroughproject.com/">
@@ -36,7 +36,7 @@
     <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></noscript>
     <script>(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
     <link rel="stylesheet" href="css/style.css?v=34">
-    <script src="js/components.js?v=38" defer></script>
+    <script src="js/components.js?v=39" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -91,7 +91,7 @@
     <div class="container">
         <p class="welcome-eyebrow">Waythrough Project · free, no sign-up</p>
         <h1>Free help finding and keeping affordable housing</h1>
-        <p class="welcome-desc">Plain-language guides, real phone numbers, and open waiting lists for every state — from someone who spent years helping people through the system.</p>
+        <p class="welcome-desc">Plain-English guides, the real phone numbers, and which waiting lists are open right now, in every state. Built by someone who spent years getting veterans into housing.</p>
         <form class="hero-find" id="heroFind" action="resources/states/" method="get">
             <label for="heroPlace">Find help where you live</label>
             <div class="hero-find-row">
@@ -102,9 +102,11 @@
                         <option value="resources/cities/atlanta">Atlanta, GA</option>
                         <option value="resources/cities/austin">Austin, TX</option>
                         <option value="resources/cities/baltimore">Baltimore, MD</option>
+                        <option value="resources/cities/birmingham">Birmingham, AL</option>
                         <option value="resources/cities/boston">Boston, MA</option>
                         <option value="resources/cities/charlotte">Charlotte, NC</option>
                         <option value="resources/cities/chicago">Chicago, IL</option>
+                        <option value="resources/cities/cincinnati">Cincinnati, OH</option>
                         <option value="resources/cities/cleveland">Cleveland, OH</option>
                         <option value="resources/cities/colorado-springs">Colorado Springs, CO</option>
                         <option value="resources/cities/columbus">Columbus, OH</option>
@@ -114,6 +116,7 @@
                         <option value="resources/cities/el-paso">El Paso, TX</option>
                         <option value="resources/cities/fort-worth">Fort Worth, TX</option>
                         <option value="resources/cities/fresno">Fresno, CA</option>
+                        <option value="resources/cities/honolulu">Honolulu, HI</option>
                         <option value="resources/cities/houston">Houston, TX</option>
                         <option value="resources/cities/indianapolis">Indianapolis, IN</option>
                         <option value="resources/cities/jacksonville">Jacksonville, FL</option>
@@ -128,15 +131,20 @@
                         <option value="resources/cities/milwaukee">Milwaukee, WI</option>
                         <option value="resources/cities/minneapolis">Minneapolis, MN</option>
                         <option value="resources/cities/nashville">Nashville, TN</option>
+                        <option value="resources/cities/new-orleans">New Orleans, LA</option>
                         <option value="resources/cities/new-york">New York City</option>
                         <option value="resources/cities/oakland">Oakland, CA</option>
                         <option value="resources/cities/oklahoma-city">Oklahoma City, OK</option>
                         <option value="resources/cities/omaha">Omaha, NE</option>
+                        <option value="resources/cities/orlando">Orlando, FL</option>
                         <option value="resources/cities/philadelphia">Philadelphia, PA</option>
                         <option value="resources/cities/phoenix">Phoenix, AZ</option>
+                        <option value="resources/cities/pittsburgh">Pittsburgh, PA</option>
                         <option value="resources/cities/portland">Portland, OR</option>
                         <option value="resources/cities/raleigh">Raleigh, NC</option>
+                        <option value="resources/cities/richmond">Richmond, VA</option>
                         <option value="resources/cities/sacramento">Sacramento, CA</option>
+                        <option value="resources/cities/salt-lake-city">Salt Lake City, UT</option>
                         <option value="resources/cities/san-antonio">San Antonio, TX</option>
                         <option value="resources/cities/san-diego">San Diego, CA</option>
                         <option value="resources/cities/san-francisco">San Francisco, CA</option>
@@ -238,7 +246,7 @@
                     </svg>
                 </div>
                 <h3>Housing Programs</h3>
-                <p>Section 8, HUD-VASH, LIHTC, and other programs that help make housing affordable.</p>
+                <p>Section 8, HUD-VASH, tax-credit apartments, and the other programs that lower your rent.</p>
             </a>
 
             <a href="resources/benefits" class="topic-card">
@@ -249,7 +257,7 @@
                     </svg>
                 </div>
                 <h3>Benefits & Financial Support</h3>
-                <p>SSI, SSDI, SNAP, Medicaid, LIHEAP — understanding what you qualify for and how to apply.</p>
+                <p>SSI, SSDI, SNAP, Medicaid and LIHEAP: who qualifies and how to apply.</p>
             </a>
 
             <a href="resources/employment" class="topic-card">
@@ -260,7 +268,7 @@
                     </svg>
                 </div>
                 <h3>Employment & Job Training</h3>
-                <p>Job centers, training programs, and how earning income works with housing assistance.</p>
+                <p>Job centers, training programs, and what happens to your rent when you start earning more.</p>
             </a>
 
             <a href="resources/mental-health" class="topic-card">
@@ -270,7 +278,7 @@
                     </svg>
                 </div>
                 <h3>Mental Health</h3>
-                <p>Treatment resources, housing protections, and programs for people facing mental health challenges.</p>
+                <p>Treatment, housing protections, and programs for people living with a mental health condition.</p>
             </a>
 
             <a href="resources/substance-use" class="topic-card">
@@ -282,7 +290,7 @@
                     </svg>
                 </div>
                 <h3>Substance Use & Recovery</h3>
-                <p>Recovery housing, your legal protections, and treatment resources that support stability.</p>
+                <p>Recovery housing, treatment, and the legal protections you keep while in recovery.</p>
             </a>
 
             <a href="resources/tenant-rights" class="topic-card">
@@ -304,7 +312,7 @@
                     </svg>
                 </div>
                 <h3>Emergency & Crisis Housing</h3>
-                <p>Need help now? Shelters, rapid rehousing, emergency vouchers, and crisis hotlines.</p>
+                <p>Shelters, rapid rehousing, and crisis lines for when you need a place to stay now.</p>
             </a>
 
             <a href="resources/families" class="topic-card">
@@ -317,7 +325,7 @@
                     </svg>
                 </div>
                 <h3>Families with Children</h3>
-                <p>Family housing programs, your children's education rights, and support services for parents.</p>
+                <p>Housing programs for families, your kids' right to stay in their school, and help for parents.</p>
             </a>
         </div>
     </div>
@@ -326,7 +334,7 @@
 <!-- ===== SPECIFIC SITUATIONS ===== -->
 <section class="situations" id="situations">
     <div class="container">
-        <p class="situations-heading">Looking for resources tailored to your situation?</p>
+        <p class="situations-heading">Help written for:</p>
         <div class="situations-row">
             <a href="who-we-help/veterans" class="situation-link">Veterans</a>
             <a href="who-we-help/disabilities" class="situation-link">People with Disabilities</a>
@@ -340,12 +348,12 @@
 <section class="guides-section" id="guides">
     <div class="container">
         <h2>Guides &amp; How-Tos</h2>
-        <p class="section-desc">Step-by-step instructions for the most common affordable housing processes.</p>
+        <p class="section-desc">Step-by-step help with the paperwork people most often get stuck on.</p>
         <div class="guides-grid">
             <a href="resources/guides/how-to-apply-section-8" class="guide-item">
                 <span class="guide-tag tag-guide">Guide</span>
                 <h3>How to Apply for Section 8</h3>
-                <p>From finding open waiting lists to securing your voucher.</p>
+                <p>From finding an open waiting list to getting your voucher.</p>
             </a>
             <a href="resources/guides/how-to-find-your-pha" class="guide-item">
                 <span class="guide-tag tag-guide">Guide</span>
@@ -360,7 +368,7 @@
             <a href="resources/guides/how-to-apply-ssi-ssdi" class="guide-item">
                 <span class="guide-tag tag-program">Benefits</span>
                 <h3>How to Apply for SSI or SSDI</h3>
-                <p>Disability benefits explained — who qualifies and how to apply.</p>
+                <p>Who qualifies for disability benefits, and how to apply.</p>
             </a>
             <a href="resources/guides/family-self-sufficiency" class="guide-item">
                 <span class="guide-tag tag-program">Program</span>
@@ -383,7 +391,7 @@
 <section class="tools-section" id="tools">
     <div class="container">
         <h2>Free Tools</h2>
-        <p class="section-desc">Interactive tools to help you plan, compare, and take action.</p>
+        <p class="section-desc">Calculators, a program screener and a letter generator. Free, no account needed.</p>
         <div class="guides-grid">
             <a href="resources/tools/eligibility-screener" class="guide-item">
                 <span class="guide-tag tag-program">Tool</span>
@@ -403,17 +411,17 @@
             <a href="resources/tools/compare-programs" class="guide-item">
                 <span class="guide-tag tag-program">Tool</span>
                 <h3>Compare Programs</h3>
-                <p>Side-by-side comparison of major housing assistance programs.</p>
+                <p>Section 8, public housing and other programs, side by side.</p>
             </a>
             <a href="resources/tools/letter-generator" class="guide-item">
                 <span class="guide-tag tag-checklist">Template</span>
                 <h3>Letter Generator</h3>
-                <p>Create customized letters for appeals, complaints, and requests.</p>
+                <p>Fill in a few blanks and get a letter for an appeal, a complaint or a request.</p>
             </a>
             <a href="resources/tools/know-your-numbers" class="guide-item">
                 <span class="guide-tag tag-program">Tool</span>
                 <h3>Know Your Numbers</h3>
-                <p>Understand your income-to-rent ratio and what it means for housing.</p>
+                <p>See how much of your income goes to rent, and what that means for you.</p>
             </a>
             <a href="resources/tools/section-8-tracker" class="guide-item">
                 <span class="guide-tag tag-program">Tool</span>
@@ -428,7 +436,7 @@
 <section class="states-section" id="states">
     <div class="container">
         <h2>Find Help in Your State</h2>
-        <p class="section-desc">Every state has different tenant protections, eviction timelines, and housing resources. Find the specifics for where you live.</p>
+        <p class="section-desc">Eviction timelines, tenant protections and housing programs differ from state to state. Pick yours.</p>
         <div class="situations-row" style="flex-wrap: wrap; gap: 10px;">
             <a href="resources/states/california" class="situation-link">California</a>
             <a href="resources/states/texas" class="situation-link">Texas</a>
@@ -459,24 +467,24 @@
 <section class="blog-section" id="blog">
     <div class="container">
         <h2>From the Blog</h2>
-        <p class="section-desc">Personal insights and practical advice from someone who's worked inside the system.</p>
+        <p class="section-desc">Practical posts from someone who's worked inside the system.</p>
                 <!-- Auto-populated with the 3 newest posts from blog/posts.json by the script near </body>.
              The static items below are the no-JS fallback; update blog/posts.json when you publish. -->
         <div class="blog-list" id="blog-latest">
-            <a href="blog/posts/landlord-not-making-repairs" class="blog-item">
-                <div class="blog-item-meta">June 3, 2026 · 8 min read</div>
-                <h3>Your Landlord Won't Fix Things? Here's What to Do</h3>
-                <p>Broken heater, leaking pipes, mold — and your landlord ignores your requests. Here's how to escalate repairs legally, whether you're on Section 8 or not.</p>
+            <a href="blog/posts/winter-utility-shutoff-protections" class="blog-item">
+                <div class="blog-item-meta">November 4, 2026 · 11 min read</div>
+                <h3>Can They Shut Off Your Heat in Winter? 2026-27 Rules</h3>
+                <p>Can they shut off your heat in winter? See 2026-27 shutoff rules for 10 states, how to get LIHEAP crisis help fast, and what to do the day a notice comes.</p>
             </a>
-            <a href="blog/posts/moving-with-section-8-voucher" class="blog-item">
-                <div class="blog-item-meta">May 27, 2026 · 7 min read</div>
-                <h3>Moving to a New Place With Your Section 8 Voucher</h3>
-                <p>You can move with Section 8 — even to another state. Here's how portability works, what paperwork you need, and the timeline for transferring your voucher.</p>
+            <a href="blog/posts/section-8-and-credit-scores" class="blog-item">
+                <div class="blog-item-meta">October 28, 2026 · 6 min read</div>
+                <h3>Does Section 8 Check Your Credit? What PHAs and Landlords Look At</h3>
+                <p>Section 8 does not use your credit score to decide if you qualify, but landlords can. See what PHAs check, what landlords check, and how to get approved.</p>
             </a>
-            <a href="blog/posts/what-counts-as-income-section-8" class="blog-item">
-                <div class="blog-item-meta">May 20, 2026 · 7 min read</div>
-                <h3>What Counts as Income on Section 8? The Complete List</h3>
-                <p>Not all money counts as income for Section 8. Here's what your PHA includes, what's excluded, and the deductions that can lower your rent portion.</p>
+            <a href="blog/posts/what-happens-at-section-8-briefing" class="blog-item">
+                <div class="blog-item-meta">October 21, 2026 · 6 min read</div>
+                <h3>Your Section 8 Briefing: What to Expect and What to Bring</h3>
+                <p>Got a Section 8 briefing letter? Here is what happens at the voucher briefing, what to bring, what to ask, and the three numbers you must leave with.</p>
             </a>
         </div>
         <div class="section-more">
@@ -490,7 +498,7 @@
     <div class="container">
         <div class="ask-cta-inner">
             <h2>Have a question?</h2>
-            <p>Not finding what you need? Submit your question and we'll use it to create new guides, blog posts, and resources. Every question helps us make this site better for everyone.</p>
+            <p>Can't find what you need? Send us your question. We read every one, reply by email when we can, and turn common questions into new guides. You can also <a href="resources/questions/">read questions other readers have asked</a>.</p>
             <a href="resources/ask" class="btn btn-outline">Ask a Question &rarr;</a>
         </div>
     </div>
@@ -501,10 +509,10 @@
     <div class="container">
         <h2 id="about">About This Project</h2>
         <p>
-            Waythrough Project was started by Matt, who spent years working with the HUD-VASH program helping veterans access housing. After watching too many people struggle with a system that should be helping them — not because they weren't trying hard enough, but because the information was scattered, buried, and confusing — he built this site to put everything in one place.
+            Waythrough Project was started by Matt, who spent years with the VA's HUD-VASH program helping veterans find housing. He kept meeting people who were doing everything right and still getting stuck, because what they needed to know was spread across dozens of agency websites and hard to read. He built this site to put it in one place.
         </p>
         <p>
-            Everything here is free. There's nothing to buy. We're not selling courses, coaching, or premium access. This is a resource hub, plain and simple. If it helps you take your next step toward stable housing, it's doing its job.
+            Everything here is free. No ads, no courses, no paid version. If something here helps you take your next step, it did its job.
         </p>
     </div>
 </section>
