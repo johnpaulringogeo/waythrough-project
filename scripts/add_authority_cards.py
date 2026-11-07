@@ -119,9 +119,9 @@ def add_tracker(p, rows, lang):
             print('  skip (present)', p, r['slug']); continue
         if lang == 'en':
             m = re.search(r'\(([A-Z]{2,})\)\s*$', r['en_title'])
-            desc = esc(r['city']) + (' — ' + m.group(1) if m else '') + ' &mdash; waiting-list status, contact, and how to apply.'
+            desc = esc(r['city']) + (' (%s)' % m.group(1) if m else '') + ': waiting-list status, contact, and how to apply.'
         else:
-            desc = esc(r['city']) + ' &mdash; estado de la lista de espera, contacto y cómo aplicar.'
+            desc = esc(r['city']) + ': estado de la lista de espera, contacto y cómo aplicar.'
         cards += ('                    <a href="%s%s" class="related-item">\n'
                   '                        <h3>%s</h3>\n'
                   '                        <p>%s</p>\n'
