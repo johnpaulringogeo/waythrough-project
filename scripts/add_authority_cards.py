@@ -149,7 +149,12 @@ def main():
                 continue
             parts = ln.split('\t')
             assert len(parts) == len(COLS), '%s: expected %d columns, got %d: %s' % (f, len(COLS), len(parts), ln[:60])
-            rows.append(dict(zip(COLS, [x.strip() for x in parts])))
+            row = dict(zip(COLS, [x.strip() for x in parts]))
+            # Site style (Nov 2026): no em dashes. "City, ST — status" -> "City, ST: status".
+            for k in ('en_hub_desc', 'es_hub_desc'):
+                row[k] = re.sub(r'\s*(?:—|&mdash;)\s*', ': ', row[k], count=1)
+                assert '—' not in row[k] and '&mdash;' not in row[k], '%s: em dash left in %s' % (row['slug'], k)
+            rows.append(row)
     for r in rows:
         for lang, d in (('en', 'resources/housing-authorities/'), ('es', 'es/recursos/autoridades-de-vivienda/')):
             assert os.path.exists(os.path.join(ROOT, d + r['slug'] + '.html')), 'missing page ' + d + r['slug']
