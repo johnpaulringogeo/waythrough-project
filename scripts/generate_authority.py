@@ -264,8 +264,8 @@ def build_strings(m, lang, p):
             "page_meta": f"Serves {m['serves']} · Last checked {m['updated']}",
             "independent_html": (
                 f"<strong>Waythrough is an independent resource, not {short}.</strong> "
-                "We summarize public information to help you get oriented. For applications "
-                "and the most current waiting-list status, always use the official links below."),
+                "This is a summary of public information. To apply, or to check the current "
+                "waiting-list status, use the official links below."),
             "quick_facts": "Quick Facts",
             "quick_facts_html": (
                 f"<strong>Serves:</strong> {m['serves']}<br>\n"
@@ -274,26 +274,25 @@ def build_strings(m, lang, p):
                 f'                        <strong>Apply:</strong> <a href="{app}" target="_blank" rel="noopener">{short} application page</a><br>\n'
                 f"                        <strong>Status last checked:</strong> {m['updated']}"),
             "waitlist_status": "Waiting-List Status",
-            "waitlist_intro": ("Waiting lists open and close frequently, so treat the status below as a "
-                               "starting point and confirm on the official site before you rely on it."),
+            "waitlist_intro": ("Waiting lists open and close often. The status below is what we found the last "
+                               "time we checked; confirm it on the official site before you count on it."),
             "programs_heading": f"Programs {short} Runs",
             "how_to_apply": "How to Apply",
             "apply_body_html": (
-                f'Apply directly through the authority\'s official application page: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
+                f'Apply on the authority\'s own application page: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
                 + (m.get("status_check_html") or
-                   f'If you have already applied, call <a href="tel:{tel(phone)}">{phone}</a> to verify your position and keep your contact '
-                   "information current. If the authority cannot reach you when your name comes up, you can be dropped from the list.")),
+                   f'If you already applied, call <a href="tel:{tel(phone)}">{phone}</a> to check your place on the list, and give them '
+                   "your new phone number or address every time it changes. If they can't reach you when your name comes up, they can drop you from the list.")),
             "new_to_process_html": (
-                f'New to the process? Our <a href="{apply_guide}">step-by-step guide to applying for Section 8</a> walks through the whole thing, '
-                f'and <a href="{find_pha}">how to find your PHA</a> helps you locate the right authority.'),
+                f'If this is your first time applying, our <a href="{apply_guide}">step-by-step guide to applying for Section 8</a> covers each stage, '
+                f'and <a href="{find_pha}">how to find your PHA</a> shows which authority covers where you live.'),
             "other_authorities": "Other Authorities Serving This Area",
             "more_local_heading": "More Local Resources",
             "faq_heading": "Frequently Asked Questions",
             "sources": "Sources",
         }
         # More Local Resources sentence
-        lead = ("For the full picture of affordable housing in this area, including emergency shelter, "
-                "rental assistance, tenant rights, and legal aid, see ")
+        lead = "For emergency shelter, rental assistance, tenant rights, and legal aid in this area, see "
         if m.get("city_slug"):
             frag = f'our <a href="{p["cities_base"]}{m["city_slug"]}">{m["city"]} housing resources</a> page'
             if m.get("state_slug"):
@@ -312,8 +311,8 @@ def build_strings(m, lang, p):
         "page_meta": f"Sirve a {m['serves']} · Última verificación: {m['updated']}",
         "independent_html": (
             f"<strong>Waythrough es un recurso independiente, no es {short}.</strong> "
-            "Resumimos información pública para ayudarle a orientarse. Para solicitudes y el estado "
-            "más actualizado de la lista de espera, use siempre los enlaces oficiales de abajo."),
+            "Esto es un resumen de información pública. Para presentar una solicitud o consultar el estado "
+            "actual de la lista de espera, use los enlaces oficiales de abajo."),
         "quick_facts": "Datos rápidos",
         "quick_facts_html": (
             f"<strong>Sirve a:</strong> {m['serves']}<br>\n"
@@ -322,25 +321,24 @@ def build_strings(m, lang, p):
             f'                        <strong>Solicitar:</strong> <a href="{app}" target="_blank" rel="noopener">página de solicitud de {short}</a><br>\n'
             f"                        <strong>Estado verificado por última vez:</strong> {m['updated']}"),
         "waitlist_status": "Estado de la lista de espera",
-        "waitlist_intro": ("Las listas de espera abren y cierran con frecuencia, así que tome el estado de abajo "
-                           "como un punto de partida y confírmelo en el sitio oficial antes de confiar en él."),
+        "waitlist_intro": ("Las listas de espera abren y cierran a menudo. El estado de abajo es lo que encontramos "
+                           "la última vez que lo verificamos; confírmelo en el sitio oficial antes de contar con él."),
         "programs_heading": f"Programas que administra {short}",
         "how_to_apply": "Cómo solicitar",
         "apply_body_html": (
-            f'Solicite directamente a través de la página de solicitud oficial de la autoridad: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
+            f'Presente su solicitud en la página oficial de la autoridad: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
             + (m.get("status_check_html") or
-               f'Si ya presentó su solicitud, llame al <a href="tel:{tel(phone)}">{phone}</a> para verificar su posición y mantenga su información '
-               "de contacto al día. Si la autoridad no puede localizarle cuando le toque su turno, pueden retirarle de la lista.")),
+               f'Si ya presentó su solicitud, llame al <a href="tel:{tel(phone)}">{phone}</a> para saber en qué lugar de la lista está, y avíseles '
+               "cada vez que cambie de teléfono o de dirección. Si no logran localizarle cuando le toque su turno, pueden sacarle de la lista.")),
         "new_to_process_html": (
-            f'¿Nuevo en el proceso? Nuestra <a href="{apply_guide}">guía paso a paso para solicitar la Sección 8</a> le explica todo el trámite, '
-            f'y <a href="{find_pha}">cómo encontrar su PHA</a> le ayuda a ubicar la autoridad correcta.'),
+            f'Si es la primera vez que solicita, nuestra <a href="{apply_guide}">guía paso a paso para solicitar la Sección 8</a> explica cada etapa, '
+            f'y <a href="{find_pha}">cómo encontrar su PHA</a> le muestra qué autoridad cubre la zona donde vive.'),
         "other_authorities": "Otras autoridades que sirven esta zona",
         "more_local_heading": "Más recursos locales",
         "faq_heading": "Preguntas frecuentes",
         "sources": "Fuentes",
     }
-    lead = ("Para el panorama completo de la vivienda asequible en esta zona, incluidos el refugio de emergencia, "
-            "la asistencia de alquiler, los derechos del inquilino y la ayuda legal, vea ")
+    lead = "Para refugio de emergencia, asistencia de alquiler, derechos del inquilino y ayuda legal en esta zona, vea "
     if m.get("city_slug"):
         frag = f'nuestra página de <a href="{p["cities_base"]}{m["city_slug"]}">recursos de vivienda de {m["city"]}</a>'
         if m.get("state_slug"):
