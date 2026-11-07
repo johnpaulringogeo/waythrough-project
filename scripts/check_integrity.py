@@ -14,6 +14,9 @@ fail:
     (0x00) bytes, and end with </html> (trailing whitespace allowed).
   * sitemap.xml   must end with </urlset> (trailing whitespace allowed).
   * blog/feed.xml must end with </rss>    (trailing whitespace allowed).
+  * No em dashes (—, &mdash;, &#8212;, \u2014) outside HTML comments in any .html
+    (drafts included), data/**/*.json, templates/*.j2, blog/feed.xml, blog/posts.json
+    or js/search-index.json. Owner's style rule since Nov 2026.
 
 blog/drafts/ is exempt (work-in-progress posts). The empty / NUL checks are
 scoped to these text files on purpose, so tracked binary assets (images,
@@ -57,6 +60,29 @@ XML_RULES = {
     "sitemap.xml": b"</urlset>",
     "blog/feed.xml": b"</rss>",
 }
+
+
+# Style rule (owner request, Nov 2026): no em dashes in anything readers see.
+# Applies to every .html (drafts included, so a dashed draft fails on push, not at
+# auto-publish), the data/templates that generate pages, the feed and search index.
+# HTML comments are ignored.
+STYLE_SUFFIXES = (".html", ".j2")
+STYLE_FILES = ("blog/feed.xml", "blog/posts.json", "js/search-index.json")
+EM_DASHES = (b"\xe2\x80\x94", b"&mdash;", b"&#8212;", b"\\u2014")
+
+
+def style_applicable(relpath):
+    rel = relpath.replace(os.sep, "/")
+    return (rel.endswith(STYLE_SUFFIXES) or rel in STYLE_FILES
+            or (rel.startswith("data/") and rel.endswith(".json")))
+
+
+def style_problems(data):
+    import re
+    text = re.sub(rb"<!--.*?-->", b"", data, flags=re.S)
+    n = sum(text.count(d) for d in EM_DASHES)
+    return ["contains %d em dash(es); rewrite the sentence (comma, colon, period "
+            "or parentheses), see _audit/pm_backlog.md" % n] if n else []
 
 
 def is_applicable(relpath):
@@ -128,7 +154,8 @@ def main(argv):
     offenders = []
     checked = 0
     for rel in relpaths:
-        if not is_applicable(rel):
+        integrity, style = is_applicable(rel), style_applicable(rel)
+        if not (integrity or style):
             continue
         abspath = os.path.join(root, rel)
         if not os.path.isfile(abspath):
@@ -136,7 +163,8 @@ def main(argv):
         checked += 1
         with open(abspath, "rb") as handle:
             data = handle.read()
-        problems = problems_for(rel, data)
+        problems = (problems_for(rel, data) if integrity else []) + \
+                   (style_problems(data) if style else [])
         if problems:
             offenders.append((rel.replace(os.sep, "/"), problems))
 
