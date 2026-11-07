@@ -50,7 +50,7 @@
     },
     {
       "title": "Can You Buy a House With a Section 8 Voucher?",
-      "description": "Yes \u2014 the Section 8 Homeownership Program lets you use your voucher toward a mortgage instead of rent. Here's how it works and whether it's right for you.",
+      "description": "Yes. The Section 8 Homeownership Program lets you use your voucher toward a mortgage instead of rent. Here's how it works and whether it's right for you.",
       "url": "blog/posts/section-8-and-homeownership.html",
       "date": "2026-09-16",
       "readTime": "7 min read",
@@ -90,7 +90,7 @@
     },
     {
       "title": "Project-Based vs. Tenant-Based Vouchers: What's the Difference?",
-      "description": "Section 8 comes in two forms \u2014 one stays with you, one stays with the building. Here's how each works and which is better for your situation.",
+      "description": "A tenant-based voucher moves with you; a project-based voucher stays with the unit. Which has shorter waits, and how to switch to tenant-based after a year.",
       "url": "blog/posts/project-based-vs-tenant-based-vouchers.html",
       "date": "2026-08-12",
       "readTime": "7 min read",
@@ -98,14 +98,14 @@
     },
     {
       "title": "Can You Get Section 8 With Zero Income?",
-      "description": "Yes \u2014 having no income doesn't disqualify you from Section 8. Here's how it works, what your rent portion would be, and what documentation you need.",
+      "description": "Yes. No income doesn't disqualify you from Section 8; your rent would be your PHA's minimum, $0 to $50 a month. How to apply and how to prove zero income.",
       "url": "blog/posts/section-8-with-no-income.html",
       "date": "2026-08-05",
       "readTime": "6 min read",
       "tag": "Guide"
     },
     {
-      "title": "You Owe a Housing Authority Money \u2014 Now What?",
+      "title": "You Owe a Housing Authority Money. Now What?",
       "description": "Owing money to a PHA can block you from getting a new voucher. Here's how repayment agreements work, how to dispute a debt, and how to get back on track.",
       "url": "blog/posts/what-to-do-if-you-owe-a-pha-money.html",
       "date": "2026-07-29",
@@ -114,7 +114,7 @@
     },
     {
       "title": "Can You Apply for Section 8 in Multiple States?",
-      "description": "Yes \u2014 and you should. Here's how to apply to multiple PHAs at once, how the waiting lists work, and what happens when you get called from a list in a different state.",
+      "description": "Yes, and you should. Here's how to apply to multiple PHAs at once, how the waiting lists work, and what happens when you get called from another state's list.",
       "url": "blog/posts/applying-for-section-8-in-multiple-states.html",
       "date": "2026-07-22",
       "readTime": "6 min read",
@@ -154,7 +154,7 @@
     },
     {
       "title": "How to Read Your Lease (Without a Law Degree)",
-      "description": "Leases are confusing on purpose. Here's a plain-English guide to the clauses that actually matter \u2014 late fees, maintenance, lease breaks, and what's enforceable.",
+      "description": "Leases are confusing on purpose. Here's a plain-English guide to the clauses that actually matter: late fees, maintenance, lease breaks, and what's enforceable.",
       "url": "blog/posts/how-to-read-your-lease.html",
       "date": "2026-06-17",
       "readTime": "9 min read",
@@ -170,7 +170,7 @@
     },
     {
       "title": "Your Landlord Won't Fix Things? Here's What to Do",
-      "description": "Broken heater, leaking pipes, mold \u2014 and your landlord ignores your requests. Here's how to escalate repairs legally, whether you're on Section 8 or not.",
+      "description": "Who to call when your landlord won't fix things: code enforcement, the health department, legal aid, or your PHA on Section 8. And how to put it in writing.",
       "url": "blog/posts/landlord-not-making-repairs.html",
       "date": "2026-06-03",
       "readTime": "8 min read",
@@ -178,7 +178,7 @@
     },
     {
       "title": "Moving to a New Place With Your Section 8 Voucher",
-      "description": "You can move with Section 8 \u2014 even to another state. Here's how portability works, what paperwork you need, and the timeline for transferring your voucher.",
+      "description": "Yes, you can move your Section 8 voucher to another state or city. How portability works, the paperwork, how long the transfer takes, and the 12-month rule.",
       "url": "blog/posts/moving-with-section-8-voucher.html",
       "date": "2026-05-27",
       "readTime": "7 min read",
@@ -209,7 +209,7 @@
       "tag": "Practical"
     },
     {
-      "title": "My Income Went Up on Section 8 \u2014 Will I Lose My Voucher?",
+      "title": "My Income Went Up on Section 8: Will I Lose My Voucher?",
       "description": "Getting a raise on Section 8 doesn't mean losing your voucher. Here's exactly what happens to your rent, when to report changes, and how to plan for the benefits cliff.",
       "url": "blog/posts/income-went-up-on-section-8",
       "date": "2026-04-30",
@@ -217,7 +217,7 @@
       "tag": "Explainer"
     },
     {
-      "title": "I Need a Place to Stay Tonight \u2014 Here's What to Do",
+      "title": "I Need a Place to Stay Tonight: Here's What to Do",
       "description": "If you need emergency housing right now, here are the phone numbers to call, what to expect at a shelter, and what to do if shelters are full.",
       "url": "blog/posts/emergency-housing-tonight",
       "date": "2026-04-26",
@@ -266,7 +266,7 @@
     },
     {
       "title": "What Housing First Actually Means (And Why It Works)",
-      "description": "Understanding the Housing First model \u2014 why it works better than treatment-first approaches, how HUD-VASH uses it, and what it means for people experiencing homelessness.",
+      "description": "The Housing First model: why it works better than treatment-first approaches, how HUD-VASH uses it, and what it means for people experiencing homelessness.",
       "url": "blog/posts/housing-first-explained",
       "date": "2026-04-06",
       "readTime": "6 min read",
@@ -282,7 +282,7 @@
     },
     {
       "title": "The Benefits Cliff: What It Is and How to Plan for It",
-      "description": "Understanding the benefits cliff \u2014 how a raise or new job can suddenly reduce your assistance. We explain which programs have cliffs, and strategies to manage them.",
+      "description": "Understanding the benefits cliff: how a raise or new job can suddenly reduce your assistance. We explain which programs have cliffs.",
       "url": "blog/posts/benefits-cliff-explained",
       "date": "2026-03-31",
       "readTime": "6 min read",
@@ -321,7 +321,7 @@
       "tag": "Your Rights"
     },
     {
-      "title": "Utility Allowances Explained \u2014 How They Affect Your Rent",
+      "title": "What Is a Utility Allowance for Section 8? How It Works",
       "description": "What are utility allowances in Section 8 and public housing? Learn how they work, how they lower your rent, and what to do if your real bills are higher.",
       "url": "blog/posts/utility-allowances-explained",
       "date": "2026-03-16",
@@ -330,7 +330,7 @@
     },
     {
       "title": "What to Do When a Landlord Rejects Your Voucher",
-      "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it \u2014 your rights, your options, and how to keep moving forward.",
+      "description": "Landlord won't accept your Section 8 voucher? Here's what you can do about it: your rights, your options, and how to keep moving forward.",
       "url": "blog/posts/landlord-rejects-voucher",
       "date": "2026-03-13",
       "readTime": "8 min read",
@@ -338,15 +338,15 @@
     },
     {
       "title": "5 Lesser-Known Affordable Housing Programs",
-      "description": "Section 8 isn't your only option. Here are five federal housing programs that could help you \u2014 and that most people have never heard of.",
+      "description": "Section 8 isn't your only option. These five lesser-known federal programs could get you housed faster, and they have shorter waiting lists.",
       "url": "blog/posts/five-programs-you-dont-know",
       "date": "2026-03-10",
       "readTime": "9 min read",
       "tag": "Guide"
     },
     {
-      "title": "Section 8 Explained \u2014 What It Is & How It Works",
-      "description": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program \u2014 what it is, who qualifies, and how the process actually works from someone who's seen it firsthand.",
+      "title": "Section 8 Explained: What It Actually Is and How It Works",
+      "description": "A clear, no-nonsense breakdown of the Section 8 Housing Choice Voucher program: what it is, who qualifies, and how the process actually works.",
       "url": "blog/posts/section-8-explained",
       "date": "2026-03-07",
       "readTime": "10 min read",
@@ -354,7 +354,7 @@
     },
     {
       "title": "Welcome to Waythrough Project",
-      "description": "Why I built Waythrough Project, how the resource finder works, and what you'll find here \u2014 free guides, tools, templates, and state-by-state resources for navigating affordable housing.",
+      "description": "Why I built Waythrough Project, how the resource finder works, and what you'll find here: free guides, tools, templates, and state-by-state resources.",
       "url": "blog/posts/welcome",
       "date": "2026-03-04",
       "readTime": "6 min read",
