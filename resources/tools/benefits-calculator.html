@@ -781,7 +781,7 @@
             <div class="container">
                 <span class="section-label">Tool</span>
                 <h1>Benefits Interaction Calculator</h1>
-                <p class="subtitle">Understand how different benefits programs work together—and how getting one benefit affects your eligibility and amounts for others. See the real story of how your income affects your total support.</p>
+                <p class="subtitle">Understand how different benefits programs work together, and how getting one benefit affects your eligibility and amounts for others. See the real story of how your income affects your total support.</p>
                 <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-top: 1rem; font-size: 0.9rem; color: #5d4037;"><strong>Note:</strong> This tool uses estimated figures. Actual benefit amounts may vary based on your state, household circumstances, and current program rules. Check official program websites for current rates.</div>
             </div>
         </header>
@@ -936,13 +936,13 @@
                         <li><strong>SSI limits:</strong> SSI pays up to $994/month federally in 2026. Most other income lowers it dollar for dollar after $20, but only half of your earnings above $85 counts. SSDI is more generous for work</li>
                         <li><strong>Medicaid varies:</strong> Each state is different. Most states cover you if income is below 100–138% of the federal poverty line</li>
                         <li><strong>Work incentives:</strong> Some programs have work incentives, student exclusions, or blind/disabled work expenses that can help you earn more</li>
-                        <li><strong>Earning more is worth it:</strong> Use the income slider to see—you almost always come out ahead when you earn more, even if some benefits go down</li>
+                        <li><strong>Earning more is worth it:</strong> Use the income slider to see it: you almost always come out ahead when you earn more, even if some benefits go down</li>
                     </ul>
                 </div>
 
                 <!-- Disclaimer -->
                 <div class="disclaimer">
-                    <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">2026 data — updated July 2026</p>
+                    <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">2026 data, updated July 2026</p>
                     <p><strong>Important:</strong> These are estimates based on 2026 federal guidelines. Actual benefit amounts vary widely by:</p>
                     <ul style="margin: 0.5rem 0; padding-left: 1.5rem;">
                         <li>Your state or local area (rules differ significantly)</li>
@@ -968,7 +968,7 @@
     </main>
 
     <script>
-        // ===== Federal Poverty Level — 2026 HHS Poverty Guidelines (monthly, 48 states + DC) =====
+        // ===== Federal Poverty Level: 2026 HHS Poverty Guidelines (monthly, 48 states + DC) =====
         // Annual guideline ÷ 12, effective Jan 13, 2026. Source: HHS/ASPE,
         // https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines
         const FPL = {
@@ -982,7 +982,7 @@
             8: 4643
         };
 
-        // SNAP maximum monthly allotments — FY2027 (48 States + DC), effective Oct 1, 2026
+        // SNAP maximum monthly allotments: FY2027 (48 States + DC), effective Oct 1, 2026
         // through Sept 30, 2027. Source: USDA FNS SNAP COLA page, https://www.fns.usda.gov/snap/allotment/cola
         const SNAP_ALLOTMENTS = {
             1: 306,
@@ -999,7 +999,7 @@
         const SNAP_STANDARD_DEDUCTION = { 1: 217, 2: 217, 3: 217, 4: 229, 5: 268, 6: 308, 7: 308, 8: 308 };
         const SNAP_SHELTER_CAP = 769;
 
-        // SSI federal benefit rate — 2026 individual rate (2.8% COLA effective Jan 2026).
+        // SSI federal benefit rate: 2026 individual rate (2.8% COLA effective Jan 2026).
         // Source: SSA, https://www.ssa.gov/oact/cola/SSI.html
         const SSI_RATE = 994;
 
@@ -1214,7 +1214,7 @@
                             <div class="warning-icon">⚠️</div>
                             <div class="warning-content">
                                 <div class="warning-title">Section 8 affects your SNAP</div>
-                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit can go down because SNAP's shelter deduction gets smaller. This is normal—but your total support usually increases overall.</p>
+                                <p class="warning-text">When Section 8 lowers your rent, your SNAP benefit can go down because SNAP's shelter deduction gets smaller. This is normal, but your total support usually increases overall.</p>
                             </div>
                         </div>
                     `;
@@ -1312,7 +1312,7 @@
 
                 let amountHTML = '';
                 if (!card.noCurrency) {
-                    amountHTML = `<div class="benefit-amount">${card.amount === 0 ? '—' : formatCurrency(card.amount)}</div>`;
+                    amountHTML = `<div class="benefit-amount">${card.amount === 0 ? '$0' : formatCurrency(card.amount)}</div>`;
                 } else {
                     amountHTML = `<div class="benefit-amount">${card.amount}</div>`;
                 }

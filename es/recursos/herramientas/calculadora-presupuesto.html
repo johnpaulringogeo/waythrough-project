@@ -14,15 +14,15 @@
     <link rel="icon" type="image/png" href="../../../images/favicon.png">
     <link rel="icon" type="image/x-icon" href="../../../images/favicon.ico">
     <link rel="apple-touch-icon" href="../../../images/apple-touch-icon.png">
-    <title>Calculadora de Presupuesto Mensual — Waythrough Project</title>
+    <title>Calculadora de Presupuesto Mensual | Waythrough Project</title>
     <meta name="description" content="Calcule su presupuesto mensual y vea a dónde va su dinero. Registre ingresos, gastos y costos de vivienda para planificar sus finanzas y encontrar formas de equilibrar su presupuesto.">
-    <meta property="og:title" content="Calculadora de Presupuesto Mensual — Waythrough Project">
+    <meta property="og:title" content="Calculadora de Presupuesto Mensual | Waythrough Project">
     <meta property="og:description" content="Calcule su presupuesto mensual y vea a dónde va su dinero. Registre ingresos, gastos y costos de vivienda para planificar sus finanzas.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://waythroughproject.com/es/recursos/herramientas/calculadora-presupuesto">
     <meta property="og:site_name" content="Waythrough Project">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Calculadora de Presupuesto Mensual — Waythrough Project">
+    <meta name="twitter:title" content="Calculadora de Presupuesto Mensual | Waythrough Project">
     <meta name="twitter:description" content="Calcule su presupuesto mensual y vea a dónde va su dinero.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -62,7 +62,7 @@
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "Calculadora de Presupuesto Mensual — Waythrough Project"
+      "name": "Calculadora de Presupuesto Mensual | Waythrough Project"
     }
   ]
 }
@@ -661,7 +661,7 @@
             <div class="post-content tool-container">
 
                 <div class="tool-intro">
-                    <p>Un presupuesto no se trata de ser perfecto — se trata de conocer la realidad de su situación. Esta calculadora le ayuda a ver exactamente a dónde va su dinero e identificar áreas donde podría ajustar gastos o encontrar apoyo adicional.</p>
+                    <p>Un presupuesto no se trata de ser perfecto. Se trata de conocer la realidad de su situación. Esta calculadora le ayuda a ver exactamente a dónde va su dinero e identificar áreas donde podría ajustar gastos o encontrar apoyo adicional.</p>
                     <p>Comience con los números que conoce, ponga sus mejores estimaciones para el resto, y vea cómo se ve el panorama. Todo es privado; nada se guarda ni se comparte.</p>
                 </div>
 
@@ -780,7 +780,7 @@
                         <div class="form-group">
                             <label for="expense-food">Alimentación (más allá de SNAP)</label>
                             <input type="number" id="expense-food" class="essential-input" placeholder="$0" min="0" step="0.01">
-                            <p class="form-hint">Supermercado, café, comidas fuera — lo que SNAP no cubre</p>
+                            <p class="form-hint">Supermercado, café, comidas fuera: lo que SNAP no cubre</p>
                         </div>
 
                         <div class="form-group-row">
@@ -948,7 +948,7 @@
                         <h3>¿Cuánto debería destinar a la renta?</h3>
                         <p>Una regla general es no gastar más del 30% de sus ingresos en vivienda. Programas como la Sección 8 fijan su parte de la renta en cerca del 30% de su ingreso ajustado. Para una estimación más precisa, use nuestro <a href="estimador-renta">estimador de renta</a>.</p>
                         <h3>¿Guarda o comparte mi información?</h3>
-                        <p>No. El cálculo se hace en su navegador &mdash; su información no se envía a ningún servidor, no se guarda ni se comparte. Cuando cierra la página, no queda nada.</p>
+                        <p>No. El cálculo se hace en su navegador; su información no se envía a ningún servidor, no se guarda ni se comparte. Cuando cierra la página, no queda nada.</p>
                         <h3>¿Es gratis y necesito una cuenta?</h3>
                         <p>Sí, es completamente gratis y no necesita cuenta ni registro. Como todo en Waythrough, no hay tarifas, anuncios ni ventas adicionales.</p>
                     </section>
@@ -1064,7 +1064,7 @@
                 }
             } else {
                 housingPercentEl.classList.remove('warning');
-                affordabilityNoteEl.innerHTML = '<div class="affordability-ok">Sus costos de vivienda están dentro del 30% recomendado de sus ingresos. Eso es bueno — significa que tiene espacio para otros gastos esenciales.</div>';
+                affordabilityNoteEl.innerHTML = '<div class="affordability-ok">Sus costos de vivienda están dentro del 30% recomendado de sus ingresos. Eso es bueno. Significa que tiene espacio para otros gastos esenciales.</div>';
             }
 
             const totalExpenses = totalHousing + totalEssential + totalDebt;
@@ -1093,7 +1093,7 @@
             const tips = [];
 
             if (balance < 0) {
-                tips.push('Está gastando más de lo que gana. Busque formas de reducir gastos — comience con las categorías más pequeñas y vaya ganando impulso.');
+                tips.push('Está gastando más de lo que gana. Busque formas de reducir gastos. Comience con las categorías más pequeñas y vaya ganando impulso.');
                 if (totalHousing > 0) {
                     tips.push('La vivienda suele ser el gasto más grande. Si el alquiler lo está endeudando, verifique si califica para asistencia de alquiler o si mudarse es una opción.');
                 }
@@ -1101,7 +1101,7 @@
                     tips.push('Los pagos de deuda son parte del problema. Vea si puede negociar pagos más bajos, obtener una prórroga o buscar asesoría de deudas.');
                 }
             } else if (balance < 200) {
-                tips.push('Su margen es ajustado. Intente crear aunque sea un pequeño fondo de emergencia — incluso $25/mes ayuda cuando algo inesperado sucede.');
+                tips.push('Su margen es ajustado. Intente crear aunque sea un pequeño fondo de emergencia. Incluso $25/mes ayuda cuando algo inesperado sucede.');
             } else {
                 tips.push('Tiene un poco de respiro. ¡Buen trabajo! Considere ahorrar algo para emergencias o pagar deudas más rápido.');
             }
@@ -1113,7 +1113,7 @@
             }
 
             if (totalDebt > 0) {
-                tips.push('Las deudas hacen todo más difícil. Si tiene dificultades, contacte a un consejero de crédito sin fines de lucro — muchos ofrecen asesoría gratuita (encuentre uno en NFCC.org).');
+                tips.push('Las deudas hacen todo más difícil. Si tiene dificultades, contacte a un consejero de crédito sin fines de lucro. Muchos ofrecen asesoría gratuita (encuentre uno en NFCC.org).');
             }
 
             if (totalIncome === 0) {

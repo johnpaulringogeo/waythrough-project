@@ -216,8 +216,8 @@
                             <div class="results-grid" id="results-grid"></div>
                         </div>
                         <div class="disclaimer-box">
-                            <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">2026 data — updated July 2026</p>
-                            <strong>Important:</strong> These are rough national estimates. Actual income limits vary significantly by location — your local Public Housing Authority (PHA) sets the exact thresholds for your area based on Area Median Income (AMI). Use <a href="rent-estimator">our rent lookup tool</a> or contact your <a href="../guides/how-to-find-your-pha">local PHA</a> for exact numbers.
+                            <p style="font-weight:600;color:var(--color-primary,#2a644b);margin:0 0 0.5rem;">2026 data, updated July 2026</p>
+                            <strong>Important:</strong> These are rough national estimates. Actual income limits vary significantly by location. Your local Public Housing Authority (PHA) sets the exact thresholds for your area based on Area Median Income (AMI). Use <a href="rent-estimator">our rent lookup tool</a> or contact your <a href="../guides/how-to-find-your-pha">local PHA</a> for exact numbers.
                         </div>
                         <div class="step-nav" style="margin-top: 1.5rem;">
                             <button class="btn btn-outline" onclick="startOver()">Start Over</button>
@@ -257,7 +257,7 @@
         const totalSteps = 3;
         const answers = { veteran: null, disability: null, homeless: null, dv: null, children: null };
 
-        // Rough national income limits (annual) by household size — ~50% of the FY2026 HUD
+        // Rough national income limits (annual) by household size: ~50% of the FY2026 HUD
         // national median family income ($106,800), scaled by HUD household-size factors.
         // Actual limits vary widely by area. Source: HUD FY2026 median family incomes,
         // https://www.huduser.gov/portal/datasets/il/il26/Medians-FY26-Notice.pdf
@@ -356,7 +356,7 @@
 
             // LIHTC
             if (annualIncome <= li60) {
-                programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'green', text: 'Your income is within the 60% AMI limit for LIHTC properties. These apartments don\'t require a voucher — you apply directly.', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
+                programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'green', text: 'Your income is within the 60% AMI limit for LIHTC properties. These apartments don\'t require a voucher. You apply directly.', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
             } else if (annualIncome <= li60 * 1.1) {
                 programs.push({ name: 'LIHTC (Tax Credit) Housing', status: 'yellow', text: 'Your income is near the LIHTC limit. Some properties use lower income thresholds (30% or 50% AMI).', link: '../guides/how-to-find-lihtc-housing.html', linkText: 'Find LIHTC housing' });
             } else {
@@ -390,7 +390,7 @@
                 if (annualIncome <= vli) {
                     programs.push({ name: 'Section 202 (Senior Housing)', status: 'green', text: 'As someone 62 or older with very low income, you likely qualify for Section 202 senior housing. These properties are designed specifically for independent seniors.', link: '../where-to-start.html', linkText: 'Get started' });
                 } else {
-                    programs.push({ name: 'Section 202 (Senior Housing)', status: 'yellow', text: 'Section 202 serves very low-income seniors (62+). Your income may be close to the limit — check with your local housing authority.', link: '../where-to-start.html', linkText: 'Get started' });
+                    programs.push({ name: 'Section 202 (Senior Housing)', status: 'yellow', text: 'Section 202 serves very low-income seniors (62+). Your income may be close to the limit, so check with your local housing authority.', link: '../where-to-start.html', linkText: 'Get started' });
                 }
             }
 
