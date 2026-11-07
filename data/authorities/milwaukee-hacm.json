@@ -60,31 +60,31 @@
   ],
   "sources": [
     {
-      "label": "HACM — official website",
+      "label": "HACM: official website",
       "url": "https://www.hacm.org/"
     },
     {
-      "label": "HACM — apply for housing",
+      "label": "HACM: apply for housing",
       "url": "https://www.hacm.org/programs/housing/apply-for-housing"
     },
     {
-      "label": "HACM — Office and Staff Directory (Housing Choice Voucher general inquiries (414) 286-5650)",
+      "label": "HACM: Office and Staff Directory (Housing Choice Voucher general inquiries (414) 286-5650)",
       "url": "https://www.hacm.org/contact-us/office-staff-directory"
     },
     {
-      "label": "HACM — Housing Choice Voucher (Section 8 Rent Assistance) Program (tenant-based list closed)",
+      "label": "HACM: Housing Choice Voucher (Section 8 Rent Assistance) Program (tenant-based list closed)",
       "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
     },
     {
-      "label": "HACM — Waiting Lists (public housing OPEN, Project-Based Vouchers OPEN, Section 8 CLOSED)",
+      "label": "HACM: Waiting Lists (public housing OPEN, Project-Based Vouchers OPEN, Section 8 CLOSED)",
       "url": "https://www.hacm.org/programs/waiting-lists"
     },
     {
-      "label": "HACM — Open Waiting Lists (hacm.org/subsidized: online-only applications, Project-Based Voucher developments)",
+      "label": "HACM: Open Waiting Lists (hacm.org/subsidized: online-only applications, Project-Based Voucher developments)",
       "url": "https://www.hacm.org/subsidized"
     },
     {
-      "label": "HACM — HCV Waiting List Update & Lottery Results (June 17, 2026 lottery, not issuing vouchers)",
+      "label": "HACM: HCV Waiting List Update & Lottery Results (June 17, 2026 lottery, not issuing vouchers)",
       "url": "https://www.hacm.org/for-residents/section-8-housing-choice-voucher-waiting-list-update-lottery-results/-fsiteid-1"
     }
   ],
@@ -138,31 +138,31 @@
     ],
     "sources": [
       {
-        "label": "HACM — sitio web oficial",
+        "label": "HACM: sitio web oficial",
         "url": "https://www.hacm.org/"
       },
       {
-        "label": "HACM — solicitar vivienda",
+        "label": "HACM: solicitar vivienda",
         "url": "https://www.hacm.org/programs/housing/apply-for-housing"
       },
       {
-        "label": "HACM — directorio de oficinas y personal (consultas generales del programa de vales: (414) 286-5650)",
+        "label": "HACM: directorio de oficinas y personal (consultas generales del programa de vales: (414) 286-5650)",
         "url": "https://www.hacm.org/contact-us/office-staff-directory"
       },
       {
-        "label": "HACM — programa de vales de vivienda (Sección 8; lista de vales para inquilinos cerrada)",
+        "label": "HACM: programa de vales de vivienda (Sección 8; lista de vales para inquilinos cerrada)",
         "url": "https://www.hacm.org/programs/housing/housing-choice-voucher-program-section-8-rent-assistance"
       },
       {
-        "label": "HACM — listas de espera (vivienda pública ABIERTA, vales basados en proyectos ABIERTOS, Sección 8 CERRADA)",
+        "label": "HACM: listas de espera (vivienda pública ABIERTA, vales basados en proyectos ABIERTOS, Sección 8 CERRADA)",
         "url": "https://www.hacm.org/programs/waiting-lists"
       },
       {
-        "label": "HACM — listas de espera abiertas (hacm.org/subsidized: solicitudes solo en línea, propiedades con vales basados en proyectos)",
+        "label": "HACM: listas de espera abiertas (hacm.org/subsidized: solicitudes solo en línea, propiedades con vales basados en proyectos)",
         "url": "https://www.hacm.org/subsidized"
       },
       {
-        "label": "HACM — actualización y resultados de la lotería de la lista de vales (lotería del 17 de junio de 2026, no está entregando vales)",
+        "label": "HACM: actualización y resultados de la lotería de la lista de vales (lotería del 17 de junio de 2026, no está entregando vales)",
         "url": "https://www.hacm.org/for-residents/section-8-housing-choice-voucher-waiting-list-update-lottery-results/-fsiteid-1"
       }
     ]

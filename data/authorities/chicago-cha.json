@@ -14,7 +14,7 @@
   "city_slug": "chicago",
   "state_slug": "illinois",
   "updated": "November 2026",
-  "intro": "The Chicago Housing Authority (CHA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, Project-Based Vouchers, and public housing for the City of Chicago — the second-largest housing authority in the country. This page summarizes CHA's current waiting-list status, contact information, and how to apply, and links to the official CHA site for anything time-sensitive.",
+  "intro": "The Chicago Housing Authority (CHA) is the public housing authority (PHA) that administers Section 8 Housing Choice Vouchers, Project-Based Vouchers, and public housing for the City of Chicago. It is the second-largest housing authority in the country. This page summarizes CHA's current waiting-list status, contact information, and how to apply, and links to the official CHA site for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
     "Project-Based Vouchers (PBV)",
@@ -32,7 +32,7 @@
     {
       "program": "Project-Based Vouchers (PBV)",
       "status": "Open, property-by-property",
-      "note": "CHA operates separate PBV waiting lists for specific developments — apply through the online portal below."
+      "note": "CHA operates separate PBV waiting lists for specific developments. Apply through the online portal below."
     },
     {
       "program": "Public Housing",
@@ -52,7 +52,7 @@
   "faqs": [
     {
       "q": "Is the Chicago (CHA) Section 8 waiting list open?",
-      "a": "No. The Chicago Housing Authority says its Housing Choice Voucher (Section 8) waiting list is closed at this time, and that when it opens, CHA will make public announcements and hold a waitlist lottery. CHA's January 2023 presentation to the City Council says the list last opened in 2014. CHA says its Public Housing, Project-Based Voucher, and PBRA waitlists are open — apply at applyonline.thecha.org and confirm before relying on any status."
+      "a": "No. The Chicago Housing Authority says its Housing Choice Voucher (Section 8) waiting list is closed at this time, and that when it opens, CHA will make public announcements and hold a waitlist lottery. CHA's January 2023 presentation to the City Council says the list last opened in 2014. CHA says its Public Housing, Project-Based Voucher, and PBRA waitlists are open. Apply at applyonline.thecha.org and confirm before relying on any status."
     },
     {
       "q": "How do I apply for CHA housing right now?",
@@ -65,11 +65,11 @@
   ],
   "sources": [
     {
-      "label": "CHA — official website",
+      "label": "CHA: official website",
       "url": "https://www.thecha.org/"
     },
     {
-      "label": "CHA — apply online portal",
+      "label": "CHA: apply online portal",
       "url": "https://applyonline.thecha.org/"
     }
   ],
@@ -77,7 +77,7 @@
     "meta_title": "Chicago Housing Authority: teléfono y lista de Sección 8",
     "serves": "la ciudad de Chicago, Illinois",
     "updated": "noviembre de 2026",
-    "intro": "La Autoridad de Vivienda de Chicago (CHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Chicago — la segunda autoridad de vivienda más grande del país. Esta página resume el estado actual de la lista de espera de CHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de CHA para cualquier asunto urgente.",
+    "intro": "La Autoridad de Vivienda de Chicago (CHA) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, los Vales Basados en Proyectos y la vivienda pública para la ciudad de Chicago. Es la segunda autoridad de vivienda más grande del país. Esta página resume el estado actual de la lista de espera de CHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de CHA para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
       "Vales Basados en Proyectos (PBV)",
@@ -95,7 +95,7 @@
       {
         "program": "Vales Basados en Proyectos (PBV)",
         "status": "Abierta, propiedad por propiedad",
-        "note": "CHA administra listas de espera de PBV separadas para desarrollos específicos — solicite a través del portal en línea de abajo."
+        "note": "CHA administra listas de espera de PBV separadas para desarrollos específicos. Solicite a través del portal en línea de abajo."
       },
       {
         "program": "Vivienda pública",
@@ -115,7 +115,7 @@
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Chicago (CHA)?",
-        "a": "No. La Autoridad de Vivienda de Chicago dice que su lista de espera del Housing Choice Voucher (Sección 8) está cerrada por ahora, y que cuando abra hará anuncios públicos y un sorteo. Una presentación de CHA de enero de 2023 ante el Concejo Municipal dice que la lista abrió por última vez en 2014. CHA dice que sus listas de vivienda pública, de Vales Basados en Proyectos y de PBRA están abiertas — solicite en applyonline.thecha.org y confirme antes de confiar en cualquier estado."
+        "a": "No. La Autoridad de Vivienda de Chicago dice que su lista de espera del Housing Choice Voucher (Sección 8) está cerrada por ahora, y que cuando abra hará anuncios públicos y un sorteo. Una presentación de CHA de enero de 2023 ante el Concejo Municipal dice que la lista abrió por última vez en 2014. CHA dice que sus listas de vivienda pública, de Vales Basados en Proyectos y de PBRA están abiertas. Solicite en applyonline.thecha.org y confirme antes de confiar en cualquier estado."
       },
       {
         "q": "¿Cómo solicito vivienda de CHA ahora mismo?",
@@ -128,11 +128,11 @@
     ],
     "sources": [
       {
-        "label": "CHA — sitio web oficial",
+        "label": "CHA: sitio web oficial",
         "url": "https://www.thecha.org/"
       },
       {
-        "label": "CHA — portal de solicitud en línea",
+        "label": "CHA: portal de solicitud en línea",
         "url": "https://applyonline.thecha.org/"
       }
     ]

@@ -282,7 +282,7 @@ def build_strings(m, lang, p):
                 f'Apply directly through the authority\'s official application page: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
                 + (m.get("status_check_html") or
                    f'If you have already applied, call <a href="tel:{tel(phone)}">{phone}</a> to verify your position and keep your contact '
-                   "information current — if the authority cannot reach you when your name comes up, you can be dropped from the list.")),
+                   "information current. If the authority cannot reach you when your name comes up, you can be dropped from the list.")),
             "new_to_process_html": (
                 f'New to the process? Our <a href="{apply_guide}">step-by-step guide to applying for Section 8</a> walks through the whole thing, '
                 f'and <a href="{find_pha}">how to find your PHA</a> helps you locate the right authority.'),
@@ -292,8 +292,8 @@ def build_strings(m, lang, p):
             "sources": "Sources",
         }
         # More Local Resources sentence
-        lead = ("For the full picture of affordable housing in this area — emergency shelter, "
-                "rental assistance, tenant rights, and legal aid — see ")
+        lead = ("For the full picture of affordable housing in this area, including emergency shelter, "
+                "rental assistance, tenant rights, and legal aid, see ")
         if m.get("city_slug"):
             frag = f'our <a href="{p["cities_base"]}{m["city_slug"]}">{m["city"]} housing resources</a> page'
             if m.get("state_slug"):
@@ -330,7 +330,7 @@ def build_strings(m, lang, p):
             f'Solicite directamente a través de la página de solicitud oficial de la autoridad: <a href="{app}" target="_blank" rel="noopener">{strip_scheme(app)}</a>. '
             + (m.get("status_check_html") or
                f'Si ya presentó su solicitud, llame al <a href="tel:{tel(phone)}">{phone}</a> para verificar su posición y mantenga su información '
-               "de contacto al día — si la autoridad no puede localizarle cuando le toque su turno, pueden retirarle de la lista.")),
+               "de contacto al día. Si la autoridad no puede localizarle cuando le toque su turno, pueden retirarle de la lista.")),
         "new_to_process_html": (
             f'¿Nuevo en el proceso? Nuestra <a href="{apply_guide}">guía paso a paso para solicitar la Sección 8</a> le explica todo el trámite, '
             f'y <a href="{find_pha}">cómo encontrar su PHA</a> le ayuda a ubicar la autoridad correcta.'),
@@ -339,8 +339,8 @@ def build_strings(m, lang, p):
         "faq_heading": "Preguntas frecuentes",
         "sources": "Fuentes",
     }
-    lead = ("Para el panorama completo de la vivienda asequible en esta zona — refugio de emergencia, "
-            "asistencia de alquiler, derechos del inquilino y ayuda legal — vea ")
+    lead = ("Para el panorama completo de la vivienda asequible en esta zona, incluidos el refugio de emergencia, "
+            "la asistencia de alquiler, los derechos del inquilino y la ayuda legal, vea ")
     if m.get("city_slug"):
         frag = f'nuestra página de <a href="{p["cities_base"]}{m["city_slug"]}">recursos de vivienda de {m["city"]}</a>'
         if m.get("state_slug"):

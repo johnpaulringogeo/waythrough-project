@@ -80,7 +80,7 @@
                 <p>{{ t.waitlist_intro }}</p>
                 <ul>
                     {%- for w in data.waitlists %}
-                    <li><strong>{{ w.program }}:</strong> {{ w.status }}{% if w.note %} — {{ w.note }}{% endif %}</li>
+                    <li><strong>{{ w.program }}:</strong> {{ w.status }}{% if w.note %}. {{ w.note }}{% endif %}</li>
                     {%- endfor %}
                 </ul>
 

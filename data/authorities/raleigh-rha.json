@@ -13,7 +13,7 @@
   "city_slug": "raleigh",
   "state_slug": "north-carolina",
   "updated": "July 30, 2026",
-  "intro": "The Raleigh Housing Authority (RHA) is the public housing authority that runs Section 8 Housing Choice Vouchers and public housing for the City of Raleigh, North Carolina. It is a separate agency from the Housing Authority of the County of Wake, which runs its own programs and its own waiting lists across Wake County — so if you are not sure which one you need, check both. This page summarizes what RHA itself publishes about its waiting-list status, contact information, and how to apply, and links to RHA's own pages for anything time-sensitive.",
+  "intro": "The Raleigh Housing Authority (RHA) is the public housing authority that runs Section 8 Housing Choice Vouchers and public housing for the City of Raleigh, North Carolina. It is a separate agency from the Housing Authority of the County of Wake, which runs its own programs and its own waiting lists across Wake County, so if you are not sure which one you need, check both. This page summarizes what RHA itself publishes about its waiting-list status, contact information, and how to apply, and links to RHA's own pages for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
     "Public Housing",
@@ -38,10 +38,10 @@
     }
   ],
   "also_serving": [
-    "<strong>Housing Authority of the County of Wake (HACW)</strong> is a separate authority, based at 100 Shannon Drive in Zebulon, that serves Wake County. Its own site lists Apex, Cary, Fuquay-Varina, Garner, Holly Springs, Knightdale, Morrisville, Raleigh, Rolesville, Wake Forest, Wendell and Zebulon — so it can be worth applying to both agencies. Its lists are closed too: \"The Waiting Lists for Public Housing and Housing Choice Vouchers are currently closed. Applications are not being accepted at this time.\" Phone (919) 269-6404 (checked July 30, 2026).",
+    "<strong>Housing Authority of the County of Wake (HACW)</strong> is a separate authority, based at 100 Shannon Drive in Zebulon, that serves Wake County. Its own site lists Apex, Cary, Fuquay-Varina, Garner, Holly Springs, Knightdale, Morrisville, Raleigh, Rolesville, Wake Forest, Wendell and Zebulon, so it can be worth applying to both agencies. Its lists are closed too: \"The Waiting Lists for Public Housing and Housing Choice Vouchers are currently closed. Applications are not being accepted at this time.\" Phone (919) 269-6404 (checked July 30, 2026).",
     "<strong>Moving a voucher into Wake County?</strong> HACW announced on April 24, 2026 that \"Wake County Housing Authority (WCHA) is not accepting incoming Portability Participants into the Portability Program,\" and says the moratorium was approved by HUD. Call before you plan a move.",
     "<strong>HACW now requires an online account.</strong> Its June 2026 notice states: \"Effective July 1, 2026, all Applicants, Residents, and Landlords are required to use RENT Café,\" and that using it \"is required to remain eligible for the Housing Choice Voucher Program and the Public Housing Program.\" There is no cost to create an account.",
-    "<strong>Neither agency runs emergency housing.</strong> HACW says plainly: \"Wake County Housing Authority does not offer any type of Emergency Housing.\" If you need shelter tonight, that runs through separate providers — see the Raleigh resources page linked below."
+    "<strong>Neither agency runs emergency housing.</strong> HACW says plainly: \"Wake County Housing Authority does not offer any type of Emergency Housing.\" If you need shelter tonight, that runs through separate providers. See the Raleigh resources page linked below."
   ],
   "faqs": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "q": "Is Raleigh public housing open?",
-      "a": "Not right now. RHA reopened its public housing waiting lists on Monday, June 2, 2025, and closed them again on Friday, June 6, 2025 — its page says the lists \"have reached capacity and are now CLOSED.\" That four-day window is a good illustration of why it is worth checking rhanc.gov directly and often: when RHA opens a list, it may not stay open for long."
+      "a": "Not right now. RHA reopened its public housing waiting lists on Monday, June 2, 2025, and closed them again on Friday, June 6, 2025. Its page says the lists \"have reached capacity and are now CLOSED.\" That four-day window is a good illustration of why it is worth checking rhanc.gov directly and often: when RHA opens a list, it may not stay open for long."
     },
     {
       "q": "How long is the wait for housing in Raleigh?",
@@ -121,12 +121,12 @@
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "Cerrada y sin aceptar solicitudes (verificado el 30 de julio de 2026). El aviso oficial de RHA dice, en inglés: \"As of 5pm on October 31, 2023, all Raleigh Housing Authority (RHA) Section 8 Voucher and Public Housing waiting lists are temporarily closed and are not accepting new applications\" — es decir, desde las 5:00 p. m. del 31 de octubre de 2023 todas las listas de espera de vales de la Sección 8 y de vivienda pública están cerradas temporalmente. RHA no ha anunciado una fecha de reapertura. Cuando la lista cerró, RHA indicó que tenía más de 9,000 familias, y sus preguntas frecuentes señalan que la espera de un vale de la Sección 8 es de 4 a 7 años."
+        "note": "Cerrada y sin aceptar solicitudes (verificado el 30 de julio de 2026). El aviso oficial de RHA dice, en inglés: \"As of 5pm on October 31, 2023, all Raleigh Housing Authority (RHA) Section 8 Voucher and Public Housing waiting lists are temporarily closed and are not accepting new applications\"; es decir, desde las 5:00 p. m. del 31 de octubre de 2023 todas las listas de espera de vales de la Sección 8 y de vivienda pública están cerradas temporalmente. RHA no ha anunciado una fecha de reapertura. Cuando la lista cerró, RHA indicó que tenía más de 9,000 familias, y sus preguntas frecuentes señalan que la espera de un vale de la Sección 8 es de 4 a 7 años."
       },
       {
         "program": "Vivienda pública",
         "status": "Cerrada",
-        "note": "Cerrada (verificado el 30 de julio de 2026). RHA reabrió brevemente sus listas de vivienda pública a las 10:00 a. m. del lunes 2 de junio de 2025 y las volvió a cerrar cuatro días después. Su página oficial dice ahora, en inglés: \"All public housing lists have reached capacity and are now CLOSED\" y \"As of 1pm on Friday, June 6, 2025, all waiting lists have been closed\" — las listas alcanzaron su capacidad y están cerradas desde la 1:00 p. m. del viernes 6 de junio de 2025. El aviso de cierre de RHA calculaba una espera de 2 a 5 años para la vivienda pública."
+        "note": "Cerrada (verificado el 30 de julio de 2026). RHA reabrió brevemente sus listas de vivienda pública a las 10:00 a. m. del lunes 2 de junio de 2025 y las volvió a cerrar cuatro días después. Su página oficial dice ahora, en inglés: \"All public housing lists have reached capacity and are now CLOSED\" y \"As of 1pm on Friday, June 6, 2025, all waiting lists have been closed\" (las listas alcanzaron su capacidad y están cerradas desde la 1:00 p. m. del viernes 6 de junio de 2025). El aviso de cierre de RHA calculaba una espera de 2 a 5 años para la vivienda pública."
       },
       {
         "program": "Listas de vales basados en proyectos (PBV) por sitio",
@@ -135,9 +135,9 @@
       }
     ],
     "also_serving": [
-      "La <strong>Autoridad de Vivienda del Condado de Wake (HACW)</strong> es una autoridad separada, ubicada en 100 Shannon Drive en Zebulon, que sirve al condado de Wake. Su propio sitio menciona a Apex, Cary, Fuquay-Varina, Garner, Holly Springs, Knightdale, Morrisville, Raleigh, Rolesville, Wake Forest, Wendell y Zebulon, así que puede valer la pena solicitar a ambas agencias. Sus listas también están cerradas: \"The Waiting Lists for Public Housing and Housing Choice Vouchers are currently closed. Applications are not being accepted at this time\" — las listas de vivienda pública y de Housing Choice Vouchers están cerradas y no se aceptan solicitudes. Teléfono: (919) 269-6404 (verificado el 30 de julio de 2026).",
+      "La <strong>Autoridad de Vivienda del Condado de Wake (HACW)</strong> es una autoridad separada, ubicada en 100 Shannon Drive en Zebulon, que sirve al condado de Wake. Su propio sitio menciona a Apex, Cary, Fuquay-Varina, Garner, Holly Springs, Knightdale, Morrisville, Raleigh, Rolesville, Wake Forest, Wendell y Zebulon, así que puede valer la pena solicitar a ambas agencias. Sus listas también están cerradas: \"The Waiting Lists for Public Housing and Housing Choice Vouchers are currently closed. Applications are not being accepted at this time\" (las listas de vivienda pública y de Housing Choice Vouchers están cerradas y no se aceptan solicitudes). Teléfono: (919) 269-6404 (verificado el 30 de julio de 2026).",
       "<strong>¿Va a trasladar un vale al condado de Wake?</strong> HACW anunció el 24 de abril de 2026 que no está aceptando participantes entrantes por portabilidad (\"is not accepting incoming Portability Participants into the Portability Program\") y señala que HUD aprobó esa moratoria. Llame antes de planear una mudanza.",
-      "<strong>HACW ahora exige una cuenta en línea.</strong> Su aviso de junio de 2026 dice: \"Effective July 1, 2026, all Applicants, Residents, and Landlords are required to use RENT Café\" — desde el 1 de julio de 2026 todos los solicitantes, residentes y propietarios deben usar RENT Café, y usarlo es obligatorio para mantener la elegibilidad en sus programas de vales y de vivienda pública. Crear la cuenta no tiene costo.",
+      "<strong>HACW ahora exige una cuenta en línea.</strong> Su aviso de junio de 2026 dice: \"Effective July 1, 2026, all Applicants, Residents, and Landlords are required to use RENT Café\". Es decir, desde el 1 de julio de 2026 todos los solicitantes, residentes y propietarios deben usar RENT Café, y usarlo es obligatorio para mantener la elegibilidad en sus programas de vales y de vivienda pública. Crear la cuenta no tiene costo.",
       "<strong>Ninguna de las dos agencias ofrece vivienda de emergencia.</strong> HACW lo dice sin rodeos: \"Wake County Housing Authority does not offer any type of Emergency Housing\". Si necesita refugio esta noche, eso se gestiona a través de otros proveedores; vea la página de recursos de Raleigh que aparece más abajo."
     ],
     "faqs": [

@@ -13,7 +13,7 @@
   "city_slug": "philadelphia",
   "state_slug": "pennsylvania",
   "updated": "July 2026",
-  "intro": "The Philadelphia Housing Authority (PHA) is the public housing authority that administers Section 8 Housing Choice Vouchers and public housing for the City of Philadelphia — the fourth-largest housing authority in the United States, housing about 80,000 people. This page summarizes PHA's current waiting-list status, contact information, and how to apply, and links to the official PHA site for anything time-sensitive.",
+  "intro": "The Philadelphia Housing Authority (PHA) is the public housing authority that administers Section 8 Housing Choice Vouchers and public housing for the City of Philadelphia. It is the fourth-largest housing authority in the United States, housing about 80,000 people. This page summarizes PHA's current waiting-list status, contact information, and how to apply, and links to the official PHA site for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
     "Public Housing (about 13,000 PHA-owned units)",
@@ -57,26 +57,26 @@
   ],
   "sources": [
     {
-      "label": "Philadelphia Housing Authority — official site",
+      "label": "Philadelphia Housing Authority: official site",
       "url": "https://www.pha.phila.gov/"
     },
     {
-      "label": "PHA — Admissions / how to apply",
+      "label": "PHA: Admissions / how to apply",
       "url": "https://www.pha.phila.gov/housing/admissions/"
     },
     {
-      "label": "PHA — Housing Choice Voucher (waitlist status)",
+      "label": "PHA: Housing Choice Voucher (waitlist status)",
       "url": "https://www.pha.phila.gov/housing/housing-choice-voucher/"
     },
     {
-      "label": "HUD — Pennsylvania PHA contact list",
+      "label": "HUD: Pennsylvania PHA contact list",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_PA.pdf"
     }
   ],
   "es": {
     "serves": "la ciudad de Filadelfia, Pensilvania",
     "updated": "julio de 2026",
-    "intro": "La Autoridad de Vivienda de Filadelfia (PHA) es la autoridad pública de vivienda que administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Filadelfia — la cuarta autoridad de vivienda más grande de los Estados Unidos, que aloja a unas 80,000 personas. Esta página resume el estado actual de la lista de espera de PHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de PHA para cualquier asunto urgente.",
+    "intro": "La Autoridad de Vivienda de Filadelfia (PHA) es la autoridad pública de vivienda que administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Filadelfia. Es la cuarta autoridad de vivienda más grande de los Estados Unidos, que aloja a unas 80,000 personas. Esta página resume el estado actual de la lista de espera de PHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de PHA para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
       "Vivienda pública (unas 13,000 unidades propiedad de PHA)",
@@ -120,19 +120,19 @@
     ],
     "sources": [
       {
-        "label": "Autoridad de Vivienda de Filadelfia — sitio oficial",
+        "label": "Autoridad de Vivienda de Filadelfia: sitio oficial",
         "url": "https://www.pha.phila.gov/"
       },
       {
-        "label": "PHA — Admisiones / cómo solicitar",
+        "label": "PHA: Admisiones / cómo solicitar",
         "url": "https://www.pha.phila.gov/housing/admissions/"
       },
       {
-        "label": "PHA — Housing Choice Voucher (estado de la lista de espera)",
+        "label": "PHA: Housing Choice Voucher (estado de la lista de espera)",
         "url": "https://www.pha.phila.gov/housing/housing-choice-voucher/"
       },
       {
-        "label": "HUD — lista de contactos de agencias de vivienda pública de Pensilvania",
+        "label": "HUD: lista de contactos de agencias de vivienda pública de Pensilvania",
         "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_PA.pdf"
       }
     ]

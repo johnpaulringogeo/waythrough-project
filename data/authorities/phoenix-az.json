@@ -37,7 +37,7 @@
     {
       "program": "HUD-VASH / FUP / Mainstream",
       "status": "By referral",
-      "note": "These are accessed through partner agencies — VASH through the VA Medical Center — rather than an open public waiting list."
+      "note": "These are accessed through partner agencies (VASH through the VA Medical Center) rather than an open public waiting list."
     }
   ],
   "also_serving": [
@@ -61,15 +61,15 @@
   ],
   "sources": [
     {
-      "label": "City of Phoenix Housing Department — official site",
+      "label": "City of Phoenix Housing Department: official site",
       "url": "https://www.phoenix.gov/housing"
     },
     {
-      "label": "City of Phoenix — Section 8 Housing Choice Voucher (waitlist status)",
+      "label": "City of Phoenix: Section 8 Housing Choice Voucher (waitlist status)",
       "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"
     },
     {
-      "label": "City of Phoenix — apply (MyHousing portal)",
+      "label": "City of Phoenix: apply (MyHousing portal)",
       "url": "https://phxhousing.myhousing.com/"
     },
     {
@@ -104,7 +104,7 @@
       {
         "program": "HUD-VASH / FUP / Mainstream",
         "status": "Por referencia",
-        "note": "Se accede a estos a través de agencias asociadas — VASH a través del Centro Médico del VA — en lugar de una lista de espera pública abierta."
+        "note": "Se accede a estos a través de agencias asociadas (VASH a través del Centro Médico del VA) en lugar de una lista de espera pública abierta."
       }
     ],
     "also_serving": [
@@ -128,15 +128,15 @@
     ],
     "sources": [
       {
-        "label": "Departamento de Vivienda de la Ciudad de Phoenix — sitio oficial",
+        "label": "Departamento de Vivienda de la Ciudad de Phoenix: sitio oficial",
         "url": "https://www.phoenix.gov/housing"
       },
       {
-        "label": "Ciudad de Phoenix — Housing Choice Voucher de la Sección 8 (estado de la lista de espera)",
+        "label": "Ciudad de Phoenix: Housing Choice Voucher de la Sección 8 (estado de la lista de espera)",
         "url": "https://www.phoenix.gov/administration/departments/housing/section-8-housing.html"
       },
       {
-        "label": "Ciudad de Phoenix — solicitar (portal MyHousing)",
+        "label": "Ciudad de Phoenix: solicitar (portal MyHousing)",
         "url": "https://phxhousing.myhousing.com/"
       },
       {

@@ -13,7 +13,7 @@
   "city_slug": "oklahoma-city",
   "state_slug": "oklahoma",
   "updated": "July 2026",
-  "intro": "The Oklahoma City Housing Authority (OCHA) — legally the Housing Authority of the City of Oklahoma City — administers Section 8 Housing Choice Vouchers and public housing for the City of Oklahoma City. This page summarizes OCHA's current waiting-list status, contact information, and how to apply, and links to the official OCHA site for anything time-sensitive.",
+  "intro": "The Oklahoma City Housing Authority (OCHA), legally the Housing Authority of the City of Oklahoma City, administers Section 8 Housing Choice Vouchers and public housing for the City of Oklahoma City. This page summarizes OCHA's current waiting-list status, contact information, and how to apply, and links to the official OCHA site for anything time-sensitive.",
   "programs": [
     "Housing Choice Voucher (Section 8 / “Housing Voucher Program”)",
     "Public Housing (family and senior properties)",
@@ -53,26 +53,26 @@
   ],
   "sources": [
     {
-      "label": "Oklahoma City Housing Authority — official site",
+      "label": "Oklahoma City Housing Authority: official site",
       "url": "https://www.ochanet.org"
     },
     {
-      "label": "OCHA — apply for Section 8 (waitlist status)",
+      "label": "OCHA: apply for Section 8 (waitlist status)",
       "url": "https://www.ochanet.org/applicants/housing_voucher/index.php"
     },
     {
-      "label": "OCHA — applicant portal",
+      "label": "OCHA: applicant portal",
       "url": "https://portal.ochanet.org"
     },
     {
-      "label": "HUD — Oklahoma PHA contact list",
+      "label": "HUD: Oklahoma PHA contact list",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
     }
   ],
   "es": {
     "serves": "la ciudad de Oklahoma City, Oklahoma",
     "updated": "julio de 2026",
-    "intro": "La Autoridad de Vivienda de Oklahoma City (OCHA) — legalmente la Autoridad de Vivienda de la Ciudad de Oklahoma City — administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Oklahoma City. Esta página resume el estado actual de la lista de espera de OCHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de OCHA para cualquier asunto urgente.",
+    "intro": "La Autoridad de Vivienda de Oklahoma City (OCHA), legalmente la Autoridad de Vivienda de la Ciudad de Oklahoma City, administra los Housing Choice Vouchers de la Sección 8 y la vivienda pública para la ciudad de Oklahoma City. Esta página resume el estado actual de la lista de espera de OCHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de OCHA para cualquier asunto urgente.",
     "programs": [
       "Housing Choice Voucher (Sección 8 / “Programa de Vales de Vivienda”)",
       "Vivienda pública (propiedades para familias y personas mayores)",
@@ -112,19 +112,19 @@
     ],
     "sources": [
       {
-        "label": "Autoridad de Vivienda de Oklahoma City — sitio oficial",
+        "label": "Autoridad de Vivienda de Oklahoma City: sitio oficial",
         "url": "https://www.ochanet.org"
       },
       {
-        "label": "OCHA — solicitar la Sección 8 (estado de la lista de espera)",
+        "label": "OCHA: solicitar la Sección 8 (estado de la lista de espera)",
         "url": "https://www.ochanet.org/applicants/housing_voucher/index.php"
       },
       {
-        "label": "OCHA — portal para solicitantes",
+        "label": "OCHA: portal para solicitantes",
         "url": "https://portal.ochanet.org"
       },
       {
-        "label": "HUD — lista de contactos de agencias de vivienda pública de Oklahoma",
+        "label": "HUD: lista de contactos de agencias de vivienda pública de Oklahoma",
         "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
       }
     ]
