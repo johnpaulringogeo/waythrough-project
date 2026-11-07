@@ -17,6 +17,8 @@ fail:
   * No em dashes (—, &mdash;, &#8212;, \u2014) outside HTML comments in any .html
     (drafts included), data/**/*.json, templates/*.j2, blog/feed.xml, blog/posts.json
     or js/search-index.json. Owner's style rule since Nov 2026.
+  * Every .html (drafts included): <meta name="description"> at most 160
+    characters, so Google shows it whole.
 
 blog/drafts/ is exempt (work-in-progress posts). The empty / NUL checks are
 scoped to these text files on purpose, so tracked binary assets (images,
@@ -77,12 +79,23 @@ def style_applicable(relpath):
             or (rel.startswith("data/") and rel.endswith(".json")))
 
 
-def style_problems(data):
+META_DESC_MAX = 160  # Google cuts longer ones off; aim for 120-155
+
+
+def style_problems(data, rel=""):
+    import html
     import re
     text = re.sub(rb"<!--.*?-->", b"", data, flags=re.S)
     n = sum(text.count(d) for d in EM_DASHES)
-    return ["contains %d em dash(es); rewrite the sentence (comma, colon, period "
-            "or parentheses), see _audit/pm_backlog.md" % n] if n else []
+    out = ["contains %d em dash(es); rewrite the sentence (comma, colon, period "
+           "or parentheses), see _audit/pm_backlog.md" % n] if n else []
+    if rel.endswith(".html"):
+        m = re.search(rb'<meta name="description" content="([^"]*)"', text)
+        if m:
+            length = len(html.unescape(m.group(1).decode("utf-8", "replace")))
+            if length > META_DESC_MAX:
+                out.append("meta description is %d characters (max %d)" % (length, META_DESC_MAX))
+    return out
 
 
 def is_applicable(relpath):
@@ -164,7 +177,7 @@ def main(argv):
         with open(abspath, "rb") as handle:
             data = handle.read()
         problems = (problems_for(rel, data) if integrity else []) + \
-                   (style_problems(data) if style else [])
+                   (style_problems(data, rel.replace(os.sep, "/")) if style else [])
         if problems:
             offenders.append((rel.replace(os.sep, "/"), problems))
 
