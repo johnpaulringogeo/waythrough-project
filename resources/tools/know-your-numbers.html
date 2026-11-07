@@ -15,7 +15,7 @@
     <link rel="icon" type="image/x-icon" href="../../images/favicon.ico">
     <link rel="apple-touch-icon" href="../../images/apple-touch-icon.png">
     <title>Housing Affordability Calculator: Know Your Numbers</title>
-    <meta name="description" content="Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility — all in one place.">
+    <meta name="description" content="Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility, all in one place.">
     <meta property="og:title" content="Housing Affordability Calculator: Know Your Numbers">
     <meta property="og:description" content="See your estimated rent, income limits, and housing program eligibility in one place.">
     <meta property="og:type" content="website">
@@ -37,8 +37,8 @@
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "Know Your Numbers — Housing Affordability Dashboard",
-  "description": "Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility — all in one place.",
+  "name": "Know Your Numbers: Housing Affordability Dashboard",
+  "description": "Enter your income and household size to see your estimated rent under Section 8, income limit status, and program eligibility, all in one place.",
   "url": "https://waythroughproject.com/resources/tools/know-your-numbers",
   "applicationCategory": "Utilities",
   "offers": {
@@ -109,14 +109,14 @@
         <div class="container">
             <span class="section-label">Interactive Tool</span>
             <h1>Know Your Numbers</h1>
-            <p class="page-meta">See your estimated rent, income category, and program eligibility — all in one place.</p>
+            <p class="page-meta">See your estimated rent, income category, and program eligibility, all in one place.</p>
         </div>
     </div>
     <main id="main-content" class="container fade-in">
         <div class="post-content">
             <div style="background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px; padding: 16px; margin-bottom: 1.5rem; font-size: 0.9rem; color: #5d4037;"><strong>Note:</strong> This tool uses estimated figures. Actual amounts may vary based on your state, household circumstances, and current program rules. Check official program websites for current rates.</div>
             <p>This dashboard gives you a complete picture of your housing affordability. Enter your information below and we'll estimate your rent under Section 8, show where you fall on the income scale, and identify programs you may qualify for.</p>
-            <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Takes about 2 minutes — just your income and household size.</p>
+            <p style="font-size: 0.9rem; color: var(--color-text-secondary);">Takes about 2 minutes. Just your income and household size.</p>
         </div>
 
         <div class="kyn-form" id="kynForm">
@@ -151,7 +151,7 @@
             <label for="childcare">Monthly Childcare Expenses (work-related)</label>
             <input type="number" id="childcare" value="0" min="0" placeholder="e.g. 400">
 
-            <label for="utilities">Estimated Monthly Utilities (optional — default $150)</label>
+            <label for="utilities">Estimated Monthly Utilities (optional; default $150)</label>
             <input type="number" id="utilities" value="150" min="0" placeholder="150">
 
             <label for="rules">Which rules does your housing authority use?</label>
@@ -165,7 +165,7 @@
         </div>
 
         <div class="kyn-results" id="results" aria-live="polite" aria-atomic="false">
-            <p style="text-align:center;font-size:0.85rem;color:var(--color-text-light);margin:0 0 16px;"><strong>2026 data</strong> — updated July 2026</p>
+            <p style="text-align:center;font-size:0.85rem;color:var(--color-text-light);margin:0 0 16px;"><strong>2026 data</strong>, updated July 2026</p>
             <div class="kyn-panel" id="panelRent">
                 <h2>Your Estimated Rent Under Section 8</h2>
                 <div id="rentCalc"></div>
@@ -187,17 +187,17 @@
             </div>
 
             <div class="kyn-disclaimer">
-                <strong>Important:</strong> These are estimates based on national averages and the standard Section 8 rent formula. Your actual amounts depend on your local Public Housing Authority, county-specific income limits, and individual circumstances. Use these numbers as a starting point — contact your PHA for exact figures.
+                <strong>Important:</strong> These are estimates based on national averages and the standard Section 8 rent formula. Your actual amounts depend on your local Public Housing Authority, county-specific income limits, and individual circumstances. Use these numbers as a starting point, and contact your PHA for exact figures.
             </div>
         </div>
 
         <div class="post-content" style="margin-top: 48px;">
             <h2>Related Resources</h2>
             <ul>
-                <li><a href="../../resources/guides/understanding-rent-calculation">How Your Rent Is Calculated in Section 8</a> — Full explanation of the formula</li>
-                <li><a href="budget-calculator">Monthly Budget Calculator</a> — Detailed budget planning tool</li>
-                <li><a href="eligibility-screener">Eligibility Screener</a> — Check which programs fit your situation</li>
-                <li><a href="../../resources/guides/how-to-apply-section-8">How to Apply for Section 8</a> — Step-by-step guide</li>
+                <li><a href="../../resources/guides/understanding-rent-calculation">How Your Rent Is Calculated in Section 8</a>: Full explanation of the formula</li>
+                <li><a href="budget-calculator">Monthly Budget Calculator</a>: Detailed budget planning tool</li>
+                <li><a href="eligibility-screener">Eligibility Screener</a>: Check which programs fit your situation</li>
+                <li><a href="../../resources/guides/how-to-apply-section-8">How to Apply for Section 8</a>: Step-by-step guide</li>
             </ul>
         </div>
     </main>
@@ -213,7 +213,7 @@
         if (new Date() >= new Date('2027-01-01T00:00:00')) document.getElementById('rules').value = '2027';
         document.getElementById('calcBtn').addEventListener('click', calculate);
 
-        // National median family income basis for a 4-person household — FY2026 HUD estimate.
+        // National median family income basis for a 4-person household: FY2026 HUD estimate.
         // Source: HUD FY2026 Estimated Median Family Incomes (issued May 1, 2026),
         // https://www.huduser.gov/portal/datasets/il/il26/Medians-FY26-Notice.pdf
         const baseAMI = 106800; // FY2026 U.S. national median family income
@@ -280,7 +280,7 @@
             const housingPct = monthlyIncome > 0 ? Math.min(100, (monthlyTTP / monthlyIncome) * 100) : 0;
             html += '<p style="margin-top:16px;font-size:0.95rem;">That\'s about <strong>' + Math.round(housingPct) + '%</strong> of your gross income going to rent.</p>';
             html += '<div class="kyn-bar-wrap"><div class="kyn-bar" style="width:' + housingPct + '%;background:' + (housingPct <= 30 ? '#4caf50' : housingPct <= 40 ? '#ff9800' : '#f44336') + ';"></div></div>';
-            html += '<div class="kyn-bar-label">0% — ' + Math.round(housingPct) + '% of income → housing — 100%</div>';
+            html += '<div class="kyn-bar-label">' + Math.round(housingPct) + '% of income → housing (scale: 0% to 100%)</div>';
 
             document.getElementById('rentCalc').innerHTML = html;
 
@@ -326,7 +326,7 @@
             progHtml += progRow('LIHTC (Tax Credit Housing)', isBelowLI ? 'likely' : 'unlikely', 'Typically 60% AMI or below, no voucher needed');
             progHtml += progRow('Section 811', isElderlyDisabled && isBelowELI ? 'likely' : isElderlyDisabled && isBelowVLI ? 'possible' : 'check', 'For non-elderly adults with disabilities');
             progHtml += progRow('Section 202', isElderlyDisabled && isBelowVLI ? 'likely' : 'check', 'For seniors age 62+');
-            progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requires veteran status — referred through VA');
+            progHtml += progRow('HUD-VASH', isBelowVLI ? 'check' : 'check', 'Requires veteran status; referred through VA');
             progHtml += progRow('SNAP (Food Stamps)', isBelowFPL130 ? 'likely' : 'possible', 'Generally below 130% of Federal Poverty Level');
             progHtml += progRow('Medicaid', isBelowFPL138 ? 'likely' : 'possible', 'Generally below 138% FPL in expansion states');
 
