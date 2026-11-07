@@ -19,3 +19,7 @@ jobs:
 
       - name: Run integrity check
         run: python scripts/check_integrity.py
+
+      - name: FAQ structured data matches the visible FAQ
+        if: always()
+        run: python scripts/check_faq_schema.py
