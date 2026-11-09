@@ -1,0 +1,103 @@
+{
+  "slug": "sheriff-lockout-without-court-notice",
+  "es_slug": "cierre-del-sheriff-sin-aviso-de-la-corte",
+  "topic": "lockouts",
+  "order": 25,
+  "related": [
+    "locked-out-not-on-lease",
+    "locked-out-landlord-kept-voucher-payments",
+    "eviction-on-record-after-moving-out"
+  ],
+  "en": {
+    "question": "How can the sheriff come and lock me out of my home when I never got anything from the court saying I was being evicted?",
+    "title": "Sheriff Lockout With No Court Notice?",
+    "description": "A sheriff lockout almost always means there's an eviction case and a court order. How to find the case, undo a default judgment and stop the writ, fast.",
+    "h1": "How can the sheriff lock me out when I never got notice from the court?",
+    "crumb": "Sheriff, no notice",
+    "asked": "November 2026",
+    "updated": "November 8, 2026",
+    "short_answer": "In almost every state, a sheriff can only lock you out with a court order, and that order comes after a landlord wins an eviction case. So there is most likely a case on file. Court papers are often posted on the door or mailed, and people miss them. Today, get copies from the court clerk and ask legal aid about setting aside the judgment and stopping the writ.",
+    "body_html": "<h2>Why the sheriff is involved</h2>\n<p>In almost every state, a sheriff, marshal or constable can only carry out a lockout with a court order. That order usually comes after the landlord wins an eviction case, and it goes by different names: writ of possession, writ of restitution, writ of execution. So if the sheriff is coming, there is most likely a case on file with your name on it, even if you never saw a single paper.</p>\n<p>This happens more than people think. Many states let the court papers be posted on your door, mailed, or both, instead of handed to you. Papers blow away, get thrown out with the junk mail, or go to an old address. If you don't answer or show up by the deadline, the landlord usually gets a default judgment, which means they win because you weren't there. Then they ask the court for the writ and hand it to the sheriff.</p>\n<p>In California, for example, the sheriff posts a Notice to Vacate that gives you 5 days to move before the lockout. Other states give more time or less. Wherever you live, the window is short, so start today.</p>\n<h2>What to do today</h2>\n<ol>\n<li><strong>Call or go to the court clerk.</strong> Find the court that handles evictions in your county (it may be called landlord-tenant, housing, district or civil court). Give your name and address and ask whether there is an eviction case. Ask for copies of the summons and complaint, the proof of service (the form that says how and when you were \"served\"), the judgment and the writ. Read the proof of service closely. If it says someone handed you papers on a day you weren't home, or it lists the wrong address, write that down.</li>\n<li><strong>Call legal aid and say: \"I never got notice of the eviction case.\"</strong> If you weren't served the way your state requires, a lawyer can ask the judge to set aside (cancel) the default judgment and to stay the writ, which means stop or delay it while the judge looks at the case. Many courts have self-help centers with forms for this, usually called a motion to set aside default judgment and a motion to stay the writ. The names differ by state. Asking to set aside the judgment doesn't stop the lockout by itself, so ask for both. In California you only get one chance at a set aside, so get help with it if you possibly can.</li>\n<li><strong>If the lockout hasn't happened yet,</strong> bring the notice the sheriff posted when you go to the clerk or to legal aid. It shows the lockout date and usually the case number, so everyone can see how much time is left.</li>\n<li><strong>If you're already locked out,</strong> call the sheriff's office or the landlord and ask how long you have to get your belongings and how to set up a time. Each state sets its own rule, and in some it's only a few days. Ask in writing too (a text or email works) so you have a record.</li>\n<li><strong>If you have Section 8, tell the housing authority in writing today.</strong> Federal rules require you to give the housing authority a copy of any eviction notice from the owner (24 CFR 982.551(g)), and to tell it before you move out of the unit. An eviction can put your voucher at risk. Let your caseworker hear it from you first, and say that you're asking the court to reopen the case.</li>\n</ol>\n<h2>If there was no sheriff and no court order</h2>\n<p>If the landlord changed the locks, took the door off or put your things out on their own, with no sheriff and no court paper, that's a different problem. It's called an illegal or \"self-help\" lockout, and it's against the law in nearly every state. Call the police non-emergency line, say you were locked out without a court order, then call legal aid. Two other readers went through this: one was <a href=\"/resources/questions/locked-out-not-on-lease\">locked out for not being on the lease</a>, the other <a href=\"/resources/questions/locked-out-after-reporting-mold\">after reporting mold</a>.</p>\n<h2>What to say to the clerk</h2>\n<blockquote><p>\"The sheriff says I'm being locked out of [address], but I never got any court papers. Is there an eviction case under my name or this address? I need copies of the summons, the proof of service, the judgment and the writ.\"</p></blockquote>\n<h2>If you need a place to stay tonight</h2>\n<p>Call or text 211, say you're being evicted or were just locked out, and ask for a place to stay. Then call the clerk as soon as the court opens. The papers you get there are what legal aid will ask to see first.</p>",
+    "links": [
+      {
+        "href": "/resources/guides/free-legal-help-for-tenants",
+        "label": "Free Legal Help for Tenants",
+        "note": "How to reach legal aid fast and what to bring."
+      },
+      {
+        "href": "/resources/guides/how-to-avoid-eviction",
+        "label": "How to Avoid Eviction",
+        "note": "What happens at each step of an eviction case and where you can still push back."
+      },
+      {
+        "href": "/resources/guides/emergency-housing-tonight",
+        "label": "I Need Housing Tonight",
+        "note": "Shelter, 211 and family options for tonight."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://selfhelp.courts.ca.gov/eviction-tenant/lose-case",
+        "label": "California Courts Self-Help: What happens if you lose your eviction case (one state's example)"
+      },
+      {
+        "url": "https://selfhelp.courts.ca.gov/eviction-tenant/lose-case/ask-set-aside",
+        "label": "California Courts Self-Help: Ask for a set aside after an eviction judgment"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.551",
+        "label": "24 CFR 982.551: Obligations of a voucher family, including giving the PHA eviction notices (eCFR)"
+      },
+      {
+        "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
+        "label": "Legal Services Corporation: Find free legal aid"
+      }
+    ]
+  },
+  "es": {
+    "question": "¿Cómo puede venir el sheriff a sacarme de mi casa si nunca recibí nada de la corte que dijera que me estaban desalojando?",
+    "title": "¿Desalojo del sheriff sin aviso de la corte?",
+    "description": "Si viene el sheriff, casi seguro hay un caso de desalojo y una orden de la corte. Cómo encontrar el caso, pedir que anulen la sentencia y frenar la orden.",
+    "h1": "¿Cómo me puede sacar el sheriff si nunca recibí aviso de la corte?",
+    "crumb": "Sheriff sin aviso",
+    "asked": "noviembre de 2026",
+    "updated": "8 de noviembre de 2026",
+    "short_answer": "En casi todos los estados, el sheriff solo puede sacarlo con una orden de la corte, y esa orden llega después de que el dueño gana un caso de desalojo. Así que lo más probable es que haya un caso. Muchas veces los papeles se pegan en la puerta o se mandan por correo, y la gente no los ve. Hoy mismo pida copias en la corte y pregunte a ayuda legal cómo anular la sentencia y detener la orden.",
+    "body_html": "<h2>Por qué viene el sheriff</h2>\n<p>En casi todos los estados, el sheriff (o el alguacil, marshal o constable, según el lugar) solo puede sacar a alguien de su vivienda con una orden de la corte. Esa orden casi siempre llega después de que el dueño gana un caso de desalojo, y en inglés tiene varios nombres: <em>writ of possession</em>, <em>writ of restitution</em> o <em>writ of execution</em>. Así que si viene el sheriff, lo más probable es que haya un caso a su nombre en la corte, aunque usted nunca haya visto un solo papel.</p>\n<p>Esto pasa más de lo que uno cree. Muchos estados permiten pegar los papeles de la corte en la puerta, mandarlos por correo, o las dos cosas, en lugar de entregárselos en la mano. Los papeles se caen, alguien los tira con la propaganda o llegan a una dirección vieja. Si usted no responde ni se presenta a tiempo, el dueño casi siempre gana por incomparecencia (en inglés, <em>default judgment</em>): gana porque usted no estuvo. Después le pide a la corte la orden y se la entrega al sheriff.</p>\n<p>En California, por ejemplo, el sheriff deja una notificación de desalojo (<em>Notice to Vacate</em>) que le da 5 días para salir antes del cierre. En otros estados el plazo es más largo o más corto. Donde sea que viva, el tiempo es poco, así que empiece hoy.</p>\n<h2>Qué hacer hoy</h2>\n<ol>\n<li><strong>Llame o vaya a la oficina del secretario de la corte</strong> (en inglés, <em>court clerk</em>). Busque la corte que ve los desalojos en su condado. Dé su nombre y su dirección y pregunte si hay un caso de desalojo. Pida copias de la citación y la demanda (<em>summons and complaint</em>), del comprobante de entrega (<em>proof of service</em>, el formulario que dice cómo y cuándo le \"entregaron\" los papeles), de la sentencia y de la orden. Lea con calma el comprobante de entrega. Si dice que alguien le dio los papeles en la mano un día que usted no estaba, o si tiene la dirección equivocada, anótelo.</li>\n<li><strong>Llame a ayuda legal y diga: \"Nunca recibí aviso del caso de desalojo\".</strong> Si no le entregaron los papeles como lo exige su estado, un abogado puede pedirle al juez que anule la sentencia por incomparecencia y que suspenda la orden, es decir, que la detenga o la retrase mientras revisa el caso. Muchas cortes tienen centros de ayuda con formularios para esto, que por lo general se llaman <em>motion to set aside default judgment</em> (moción para anular la sentencia) y <em>motion to stay the writ</em> (moción para suspender la orden). Los nombres cambian de un estado a otro. Pedir la anulación no detiene el cierre por sí sola, así que pida las dos cosas. En California solo hay una oportunidad de pedir la anulación, así que busque ayuda para hacerlo si de alguna manera puede.</li>\n<li><strong>Si todavía no lo han sacado,</strong> lleve la notificación que dejó el sheriff cuando vaya a la corte o a ayuda legal. Ahí aparece la fecha del cierre y casi siempre el número de caso, y así todos ven cuánto tiempo queda.</li>\n<li><strong>Si ya lo sacaron,</strong> llame a la oficina del sheriff o al dueño y pregunte cuánto tiempo tiene para recoger sus cosas y cómo hacer una cita. Cada estado tiene su propia regla, y en algunos son solo unos pocos días. Pídalo también por escrito (sirve un mensaje de texto o un correo electrónico) para que quede constancia.</li>\n<li><strong>Si tiene Sección 8, avise hoy mismo por escrito a la autoridad de vivienda.</strong> Las reglas federales le exigen entregar a la autoridad de vivienda una copia de cualquier aviso de desalojo del dueño (24 CFR 982.551(g)) y avisarle antes de mudarse de la unidad. Un desalojo puede poner en riesgo su cupón. Es mejor que su trabajador de caso se entere por usted, y dígale también que está pidiendo a la corte que reabra el caso.</li>\n</ol>\n<h2>Si no hubo sheriff ni orden de la corte</h2>\n<p>Si fue el dueño quien cambió la cerradura, quitó la puerta o sacó sus cosas por su cuenta, sin sheriff y sin ningún papel de la corte, el problema es otro. Eso es un cierre ilegal (en inglés, <em>illegal lockout</em> o <em>self-help eviction</em>) y está prohibido en casi todos los estados. Llame a la policía a la línea que no es de emergencia, diga que lo dejaron fuera sin orden de la corte y luego llame a ayuda legal. Otros dos lectores pasaron por esto: a uno <a href=\"/es/recursos/preguntas/me-sacaron-sin-estar-en-el-contrato\">lo sacaron por no estar en el contrato</a> y a otro <a href=\"/es/recursos/preguntas/cierre-ilegal-despues-de-reportar-moho\">después de reportar moho</a>.</p>\n<h2>Qué decirle al secretario de la corte</h2>\n<blockquote><p>\"El sheriff dice que me van a sacar de [dirección], pero nunca recibí papeles de la corte. ¿Hay un caso de desalojo a mi nombre o con esta dirección? Necesito copias de la citación, del comprobante de entrega, de la sentencia y de la orden.\"</p></blockquote>\n<h2>Si necesita dónde quedarse esta noche</h2>\n<p>Llame o mande un mensaje de texto al 211, diga que lo están desalojando o que lo acaban de sacar, y pida un lugar donde quedarse. Después llame a la corte en cuanto abra. Los papeles que le den ahí son lo primero que ayuda legal le va a pedir.</p>",
+    "links": [
+      {
+        "href": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos",
+        "label": "Ayuda legal gratis para inquilinos",
+        "note": "Cómo encontrar ayuda legal rápido y qué llevar."
+      },
+      {
+        "href": "/es/recursos/guias/como-evitar-desalojo",
+        "label": "Cómo evitar el desalojo",
+        "note": "Qué pasa en cada paso de un caso de desalojo y dónde todavía puede defenderse."
+      },
+      {
+        "href": "/es/recursos/guias/necesito-vivienda-esta-noche",
+        "label": "Necesito vivienda esta noche",
+        "note": "Refugios, el 211 y opciones para familias para esta noche."
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://selfhelp.courts.ca.gov/es/es/desalojo-inquilino/perder-caso",
+        "label": "Cortes de California, Ayuda en línea: ¿Qué sucede si pierde su caso de desalojo? (ejemplo de un estado)"
+      },
+      {
+        "url": "https://selfhelp.courts.ca.gov/eviction-tenant/lose-case/ask-set-aside",
+        "label": "Cortes de California: cómo pedir la anulación de un fallo de desalojo (en inglés)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-24/section-982.551",
+        "label": "24 CFR 982.551: obligaciones de la familia con cupón, incluido entregar avisos de desalojo (eCFR, en inglés)"
+      },
+      {
+        "url": "https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help",
+        "label": "Legal Services Corporation: cómo encontrar ayuda legal gratuita (en inglés)"
+      }
+    ]
+  }
+}
