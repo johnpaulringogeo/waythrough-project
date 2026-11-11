@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>How to Report Unsafe Housing Conditions (and When HUD Can Help)</title>
+      <link>https://waythroughproject.com/blog/posts/how-to-report-unsafe-housing-conditions</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/how-to-report-unsafe-housing-conditions</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Mold, no heat, or a landlord who will not fix it? Learn who to call: code enforcement, your housing authority, or HUD, and what each one can make happen.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Can They Shut Off Your Heat in Winter? 2026-27 Rules</title>
