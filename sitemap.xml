@@ -2362,7 +2362,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/blog/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4280,6 +4280,12 @@
   <url>
     <loc>https://waythroughproject.com/es/blog/posts/protecciones-corte-servicios-invierno</loc>
     <lastmod>2026-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/como-reportar-condiciones-de-vivienda-inseguras</loc>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
