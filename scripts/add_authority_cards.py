@@ -151,7 +151,7 @@ def main():
             assert len(parts) == len(COLS), '%s: expected %d columns, got %d: %s' % (f, len(COLS), len(parts), ln[:60])
             row = dict(zip(COLS, [x.strip() for x in parts]))
             # Site style (Nov 2026): no em dashes. "City, ST — status" -> "City, ST: status".
-            for k in ('en_hub_desc', 'es_hub_desc'):
+            for k in ('en_desc', 'es_desc'):
                 row[k] = re.sub(r'\s*(?:—|&mdash;)\s*', ': ', row[k], count=1)
                 assert '—' not in row[k] and '&mdash;' not in row[k], '%s: em dash left in %s' % (row['slug'], k)
             rows.append(row)
