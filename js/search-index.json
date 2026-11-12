@@ -945,6 +945,20 @@
     "body": "Lexington, KY Section 8 & Rent Help 2026 | Waythrough Home / Resources / Lexington Housing City Resources Affordable Housing in Lexington, KY Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Lexington and Fayette Co"
   },
   {
+    "title": "Buffalo, NY Section 8 & Rent Help 2026 | Waythrough",
+    "description": "Buffalo 2026: BMHA and Belmont voucher lists are closed, BMHA public housing takes applications. Free eviction lawyers, DSS rent help, HEAP dates.",
+    "url": "/resources/cities/buffalo",
+    "category": "City",
+    "body": "Buffalo, NY Section 8 & Rent Help 2026 | Waythrough Home / Resources / Buffalo Housing City Resources Affordable Housing in Buffalo, NY Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Buffalo and Erie County, not g"
+  },
+  {
+    "title": "Newark, NJ Section 8 & Rent Help 2026 | Waythrough",
+    "description": "Newark 2026: NHA's Section 8 list is closed, but most public housing lists are open. Free eviction lawyers through OTLS, rent help, LIHEAP and USF.",
+    "url": "/resources/cities/newark",
+    "category": "City",
+    "body": "Newark, NJ Section 8 & Rent Help 2026 | Waythrough Home / Resources / Newark Housing City Resources Affordable Housing in Newark, NJ Waythrough Project · Updated November 2026 This page collects the specific programs, agencies, phone numbers, and rules that apply in Newark and Essex County, not gene"
+  },
+  {
     "title": "Housing Questions, Real Answers: Community Q&A | Waythrough",
     "description": "Real questions from readers about affordable housing, answered with practical experience-based advice. Learn what people are actually asking about Section 8.",
     "url": "/resources/community-answers",
@@ -3052,6 +3066,20 @@
     "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Lexington y el condado de Fayette, no consejos genéricos sobre Sección 8. Tres cosas para saber: la Lexington Housing Authority (LHA) dice que su lista de vales de Sección 8 está cerrada , pero sus "
   },
   {
+    "title": "Sección 8 y ayuda con renta en Buffalo, NY | Waythrough",
+    "description": "Buffalo 2026: las listas de vales de BMHA y Belmont están cerradas; BMHA recibe solicitudes de vivienda pública. Abogados gratis, ayuda del DSS y HEAP.",
+    "url": "/es/recursos/ciudades/buffalo",
+    "category": "Recursos de Ciudades",
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Buffalo y el condado de Erie, no consejos genéricos sobre Sección 8. Tres cosas para saber: en Buffalo tres agencias reparten vales, y las listas de vales de BMHA y de Belmont están cerradas , mient"
+  },
+  {
+    "title": "Sección 8 y ayuda con renta en Newark, NJ | Waythrough",
+    "description": "Newark 2026: la lista de Sección 8 de NHA está cerrada, pero la mayoría de las listas de vivienda pública están abiertas. Abogados gratis y LIHEAP.",
+    "url": "/es/recursos/ciudades/newark",
+    "category": "Recursos de Ciudades",
+    "body": "Esta página reúne los programas, agencias, números de teléfono y reglas específicas que se aplican en Newark y el condado de Essex, no consejos genéricos sobre Sección 8. Tres cosas para saber: la Newark Housing Authority (NHA) dice que su lista de vales de Sección 8 está cerrada , pero la mayoría d"
+  },
+  {
     "title": "Derechos de inquilinos y ayuda de vivienda en Alabama | Waythrough",
     "description": "Guía gratuita de derechos de inquilinos en Alabama, reglas de desalojo, asistencia legal y programas de vivienda.",
     "url": "/es/recursos/estados/alabama",
@@ -5068,6 +5096,34 @@
     "body": "Lexington Housing Authority Section 8 Waitlist Home / Resources / Housing Authorities / LHA Housing Authority Lexington-Fayette Urban County Housing Authority (LHA) Serves Lexington and Fayette County · Last checked November 12, 2026 Waythrough is an independent resource, not LHA. This is a summary "
   },
   {
+    "title": "Emergency Rent & Eviction Help in Buffalo | Waythrough",
+    "description": "Buffalo rent and eviction help, door by door: Erie County DSS, Gerard Place, free eviction lawyers, 211 WNY, HEAP dates, and New York's 14-day rent demand.",
+    "url": "/resources/guides/emergency-rent-help-buffalo",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Buffalo | Waythrough Home / Resources / Emergency Rent Help in Buffalo How-To Guide Emergency Rent Help in Buffalo: Back-Rent Help, Free Eviction Lawyers, and New York's 14-Day Rent Demand Matt · Updated November 2026 If you rent in Buffalo and you are behind, here "
+  },
+  {
+    "title": "Emergency Rent & Eviction Help in Newark | Waythrough",
+    "description": "Newark rent and eviction help, door by door: free lawyers through OTLS, Essex County partners, NJ 211, LIHEAP, USF, and paying by 4:30 p.m. on trial day.",
+    "url": "/resources/guides/emergency-rent-help-newark",
+    "category": "Guide",
+    "body": "Emergency Rent & Eviction Help in Newark | Waythrough Home / Resources / Emergency Rent Help in Newark How-To Guide Emergency Rent Help in Newark: Free Eviction Lawyers, Essex County Rent Help, and New Jersey's Pay-to-Stay Rules Matt · Updated November 2026 If you rent in Newark and you are behind, "
+  },
+  {
+    "title": "BMHA Buffalo Section 8 Waitlist & How to Apply | Waythrough",
+    "description": "BMHA Buffalo: voucher waitlist closed, public housing taking applications by email or drop-off. Phone 716-855-6711, how to apply. Checked Nov 12, 2026.",
+    "url": "/resources/housing-authorities/buffalo-bmha",
+    "category": "Guide",
+    "body": "BMHA Buffalo Section 8 Waitlist & How to Apply | Waythrough Home / Resources / Housing Authorities / BMHA Housing Authority Buffalo Municipal Housing Authority (BMHA) Serves The City of Buffalo (public housing); vouchers can be used in Buffalo and throughout Erie County · Last checked November 12, 2"
+  },
+  {
+    "title": "NHA Newark Section 8 Waitlist & How to Apply | Waythrough",
+    "description": "Newark Housing Authority: Section 8 list closed; most public housing lists open online. Phone 973-273-6000, how to apply. Checked November 12, 2026.",
+    "url": "/resources/housing-authorities/newark-nha",
+    "category": "Guide",
+    "body": "NHA Newark Section 8 Waitlist & How to Apply | Waythrough Home / Resources / Housing Authorities / NHA Housing Authority Newark Housing Authority (NHA) Serves The City of Newark · Last checked November 12, 2026 Waythrough is an independent resource, not NHA. This is a summary of public information. "
+  },
+  {
     "title": "Boston Housing Authority: lista de espera Sección 8",
     "description": "Boston Housing Authority en Boston, MA: lista de espera de Sección 8 (verificada el 30 de julio de 2026), teléfono (617) 988-4000, programas y cómo solicitar.",
     "url": "/es/recursos/autoridades-de-vivienda/boston-bha",
@@ -6263,5 +6319,33 @@
     "url": "/es/recursos/guias/asistencia-renta-emergencia-lexington",
     "category": "Guías",
     "body": "Si usted alquila en Lexington y se atrasó con la renta, esta es la situación real. El dinero de la pandemia para la renta se acabó, pero a diferencia de muchas ciudades, el gobierno de Lexington todavía tiene su propia puerta para la renta: la asistencia financiera de emergencia de Community & Resid"
+  },
+  {
+    "title": "Lista de espera Sección 8 de BMHA Buffalo y cómo solicitar",
+    "description": "BMHA Buffalo: lista de vales cerrada; la vivienda pública recibe solicitudes por correo o en persona. Teléfono 716-855-6711. Verificado nov. 2026.",
+    "url": "/es/recursos/autoridades-de-vivienda/buffalo-bmha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / BMHA Autoridad de Vivienda Buffalo Municipal Housing Authority (BMHA) Sirve a La ciudad de Buffalo (vivienda pública); los vales se pueden usar en Buffalo y en todo el condado de Erie · Última verificación: 12 de noviembre de 2026 Waythrough es un recurs"
+  },
+  {
+    "title": "Lista de espera Sección 8 de NHA Newark y cómo solicitar",
+    "description": "Newark Housing Authority: Sección 8 cerrada; casi todas las listas de vivienda pública abiertas en línea. Teléfono 973-273-6000. Verificado nov. 2026.",
+    "url": "/es/recursos/autoridades-de-vivienda/newark-nha",
+    "category": "Guías",
+    "body": "Inicio / Recursos / Autoridades de Vivienda / NHA Autoridad de Vivienda Newark Housing Authority (NHA) Sirve a La ciudad de Newark · Última verificación: 12 de noviembre de 2026 Waythrough es un recurso independiente, no es NHA. Esto es un resumen de información pública. Para presentar una solicitud"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Buffalo | Waythrough",
+    "description": "Renta y desalojo en Buffalo, puerta por puerta: el DSS del condado de Erie, Gerard Place, abogados gratis, 211 WNY, HEAP y la demanda de renta de 14 días.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-buffalo",
+    "category": "Guías",
+    "body": "Si usted alquila en Buffalo y se atrasó con la renta, así están las cosas. El programa de renta de la pandemia de Nueva York (ERAP) está cerrado . Lo que queda son los Servicios de Emergencia del DSS del condado de Erie , que pueden pagar renta atrasada si usted califica, un par de programas de orga"
+  },
+  {
+    "title": "Ayuda con renta y desalojo en Newark | Waythrough",
+    "description": "Renta y desalojo en Newark, puerta por puerta: abogados gratis de la OTLS, socios del condado de Essex, NJ 211, LIHEAP, USF y pagar antes de las 4:30 p.m.",
+    "url": "/es/recursos/guias/asistencia-renta-emergencia-newark",
+    "category": "Guías",
+    "body": "Si usted alquila en Newark y se atrasó con la renta, empiece por esto: Newark es una de las pocas ciudades donde los inquilinos de bajos ingresos tienen sus propios abogados gratis para desalojos , por medio de la Oficina de Servicios Legales para Inquilinos de la Ciudad (OTLS). El programa de renta"
   }
 ]

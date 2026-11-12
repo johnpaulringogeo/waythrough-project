@@ -650,6 +650,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/cities/buffalo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/cities/newark</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/community-answers</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -1442,6 +1454,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-buffalo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-newark</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/immigration-housing</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -1838,6 +1862,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/buffalo-bmha</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/newark-nha</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/cities/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -2031,7 +2067,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/new-jersey</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2043,7 +2079,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/new-york</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2985,6 +3021,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/es/recursos/ciudades/buffalo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/ciudades/newark</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/es/recursos/credito-vivienda</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -3190,7 +3238,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/new-jersey</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3202,7 +3250,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/new-york</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4023,6 +4071,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-buffalo</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-newark</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/es/recursos/herramientas/</loc>
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
@@ -4712,6 +4772,18 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/lexington-lha</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/buffalo-bmha</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/newark-nha</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
