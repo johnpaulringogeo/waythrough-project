@@ -53,8 +53,11 @@ def visible_faq(page):
             ans = text(page[m.end():end]) if end > 0 else ''
         else:  # heading: everything up to the next heading or the end of its container
             rest = page[m.end():]
-            stop = re.search(r'(?i)<h[1-4]\b|</(section|article|main|details)>|<div class="(cta-box|related|callout)', rest)
+            stop = re.search(r'(?i)<h[1-4]\b|<nav\b|</(section|article|main|details)>|<div class="(cta-box|related|callout)', rest)
             ans = text(rest[:stop.start() if stop else len(rest)])
+        # pages that print "Q: "/"A: " (ES "P: "/"R: ") keep the markup without the prefix
+        q = re.sub(r'^(Q|P):\s*', '', q)
+        ans = re.sub(r'^(A|R):\s*', '', ans)
         out.append((q, ans))
     return out
 
