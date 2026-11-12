@@ -282,6 +282,7 @@ FAQ_LINK_TARGETS = {
     "abqha.org/wait-list": "https://abqha.org/wait-list",
     "applicant.atlantahousing.org": "https://applicant.atlantahousing.org",
     "applyonline.thecha.org": "https://applyonline.thecha.org",
+    "bmhahousing.com": "https://www.bmhahousing.com",  # fetched live 2026-11-12 (Buffalo) in a browser; Buffalo Municipal Housing Authority, scripted fetches get 403
     "boston.myhousing.com": "https://boston.myhousing.com",
     "bostonhousing.org": "https://bostonhousing.org",
     "caaofokc.org": "https://www.caaofokc.org",
@@ -353,6 +354,7 @@ FAQ_LINK_TARGETS = {
     "myportal.hacm.org": "https://myportal.hacm.org",  # fetched live 2026-10-15 (SEO2); HACM's RentCafe applicant portal; bot-blocked to scripts, live for people
     "nashville-mdha.org": "https://www.nashville-mdha.org",
     "needlink.org": "https://needlink.org",  # NeedLink Nashville's current site (needlinknashville.org is dead); fetched live 2026-09-11 (NASH)
+    "newarkha.org": "https://www.newarkha.org",  # fetched live 2026-11-12 (Newark); Newark Housing Authority
     "nlsa.us": "https://nlsa.us",  # fetched live 2026-11-05 (Pittsburgh); Neighborhood Legal Services (Western PA)
     "oakha.org": "https://www.oakha.org",
     "oha.myhousing.com": "https://oha.myhousing.com",  # fetched live 2026-11-05 (Orlando set); Orlando Housing Authority's MyHousing portal

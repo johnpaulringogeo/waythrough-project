@@ -1,0 +1,195 @@
+{
+  "slug": "newark-nha",
+  "kind": "authority",
+  "name": "Newark Housing Authority (NHA)",
+  "schema_name": "Newark Housing Authority",
+  "short_name": "NHA",
+  "title_name": "NHA Newark",
+  "meta_description": "Newark Housing Authority: Section 8 list closed; most public housing lists open online. Phone 973-273-6000, how to apply. Checked November 12, 2026.",
+  "status_check_html": "If you have already applied, check your status and update your contact information through NHA's <a href=\"https://www.newarkha.org/Status-Check\" target=\"_blank\" rel=\"noopener\">waitlist status check</a> (you register once), at the computer terminals in the lobby at 500 Broad Street (8:30 am to 4:30 pm, Monday to Friday), or by calling <a href=\"tel:+19732736127\">(973) 273-6127</a> (9 am to noon Monday, Wednesday, Thursday and Friday; 1 pm to 4 pm Tuesday). Keep your address and phone current. If NHA cannot reach you when your name comes up, you can lose your place.",
+  "city": "Newark",
+  "state": "NJ",
+  "serves": "The City of Newark",
+  "phone": "(973) 273-6000",
+  "official_url": "https://www.newarkha.org/",
+  "apply_url": "https://www.newarkha.org/Programs-Services/Public-Housing-Program",
+  "city_slug": "newark",
+  "state_slug": "new-jersey",
+  "updated": "November 12, 2026",
+  "intro": "The Newark Housing Authority (NHA) runs public housing and the Section 8 Housing Choice Voucher program in the City of Newark, along with Emergency Housing Vouchers and project-based vouchers. Its central office is at 500 Broad Street, Newark, NJ 07102, and its Customer Service Center number is 973-273-6000. The short version today: NHA says its Housing Choice Voucher waiting list is closed and it is not taking new applications, but it is accepting applications for its open public housing lists, which are most of its sites. Public housing applications are online only, through NHA's Rent Café portal. New Jersey's Department of Community Affairs also runs a statewide voucher program open to Newark residents, and its list is closed too. This page covers NHA's exact words, the open and closed sites, how to apply and check your status, the phone numbers, and where to turn if you need help with rent now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8); the waiting list is closed. HCV customer service: 973-273-6206, hcvcustomerservice@newarkha.org",
+    "Public housing at family sites, senior and disabled buildings, townhomes and scattered sites, each with its own waiting list, applied for online through NHA's Rent Café portal",
+    "Emergency Housing Vouchers",
+    "Project-based vouchers; NHA's HCV/PBV online services and forms are at newark.nanmckay.com"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 12, 2026: NHA's Housing Choice Voucher page says \"The Housing Choice Voucher Program waiting list is currently closed.\" and \"No new applications are being accepted at this time.\" No reopening date is posted. A waitlist table on NHA's public housing page shows \"Yes\" in the open column for the HCVP row, which conflicts with the voucher page; we go by the voucher page. Call HCV customer service at 973-273-6206 to confirm."
+    },
+    {
+      "program": "Public housing (site-based lists)",
+      "status": "Open at most sites",
+      "note": "NHA's Public Housing page says \"Applications are currently being accepted for all open low-income public housing waiting lists.\" Its table shows \"Yes\" for Pennington Court, John W. Hyatt Court, Stephen Crane Elderly, Kretchmer Elderly, Seth Boyden Elderly, James Baxter Elderly, Kretchmer Townhomes, and the Janice Cromer, Kemso, Claremont, Betty Shabazz, Clinton Ave Townhomes, Park Place and Redevelopment scattered sites. Bradley Court shows \"No.\" Stephen Crane Village, James C. White Manor, Riverside Villa and Wynona Lipman Gardens (RAD sites) show the date 2/10/2025 instead of yes or no. Apply online at portals.newarkha.org; \"The pre-application will be active for up to 18 months.\" (Checked November 12, 2026.)"
+    }
+  ],
+  "also_serving": [
+    "<strong>New Jersey Department of Community Affairs (DCA)</strong> runs a statewide Housing Choice Voucher program that \"is available to residents of all New Jersey counties.\" On November 12, 2026 its page said \"THE WAITLIST IS NOW CLOSED.\" The last window ran January 17 to February 3, 2023, through WaitlistCheck.com. People who got on that list through the lottery show an ACTIVE status. DCA: 609-292-4080, option 9.",
+    "<strong>DCA's State Rental Assistance Program (SRAP)</strong>, New Jersey's state-funded voucher, is closed: \"The SRAP waiting list opening for pre-applications has closed.\" That window ran January 13 to 31, 2025, and DCA says to \"continue to check DCA's website to see when new waiting lists will be opened in the future.\"",
+    "<strong>Facing eviction?</strong> Newark's Office of Tenant Legal Services gives free legal help to Newark tenant households facing eviction with gross income at or below 200% of the federal poverty level. 920 Mayor Kenneth A. Gibson Blvd., Room 110, 973-877-9424. If you live in NHA housing or have an NHA voucher, an eviction can cost you your assistance, so call right away.",
+    "<strong>NHA is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-newark\">Newark emergency rent help guide</a>: the State's eviction-prevention partners in Essex County, County Emergency Assistance, NJ 211, LIHEAP and USF, and New Jersey's eviction rules. If you already have NHA housing or a voucher and fall behind, call NHA at 973-273-6000."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Newark Section 8 waiting list open?",
+      "a": "No. As of November 12, 2026, NHA says its Housing Choice Voucher waiting list is closed and that no new applications are being accepted. No reopening date is posted. New Jersey DCA's statewide voucher list is closed too. NHA's public housing lists are open at most sites, so you can still apply for those."
+    },
+    {
+      "q": "Which NHA public housing lists are open?",
+      "a": "NHA's table shows open lists at Pennington Court, John W. Hyatt Court, its senior buildings (Stephen Crane, Kretchmer, Seth Boyden and James Baxter), Kretchmer Townhomes and its scattered sites. Bradley Court is closed. Four RAD sites show a date instead of yes or no, so ask NHA about those. Check NHA's Public Housing page before you apply."
+    },
+    {
+      "q": "How do I apply to NHA?",
+      "a": "Public housing applications must be submitted online through NHA's Rent Café portal at portals.newarkha.org, unless you have an approved reasonable accommodation. The pre-application stays active for up to 18 months. The voucher list is closed, so there is no voucher application right now."
+    },
+    {
+      "q": "How do I check my place on an NHA list?",
+      "a": "Use NHA's online waitlist status check (you register once), the computer terminals in the lobby at 500 Broad Street from 8:30 am to 4:30 pm on weekdays, or call (973) 273-6127. NHA's status page notes there are over 12,000 applicants on its waiting list."
+    },
+    {
+      "q": "Does New Jersey have its own Section 8 program for Newark residents?",
+      "a": "Yes. New Jersey's Department of Community Affairs runs a statewide voucher program open to residents of every county, plus the state-funded SRAP. Both lists are closed as of November 12, 2026. DCA's last voucher window ran January 17 to February 3, 2023. Call 609-292-4080, option 9, with questions."
+    },
+    {
+      "q": "What does a Section 8 tenant pay in Newark?",
+      "a": "Under HUD rules, a family with a voucher or in public housing usually pays about 30% of its adjusted monthly income toward rent and utilities, and the housing authority pays the rest of an approved rent. Adjusted income is your income after HUD's deductions, such as those for children, elderly or disabled family members, and some medical and child care costs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "NHA - Housing Choice Voucher Program (waiting list closed, HCV customer service)",
+      "url": "https://www.newarkha.org/Programs-Services/Housing-Choice-Voucher-Program-Section-8"
+    },
+    {
+      "label": "NHA - Public Housing Program (open and closed site lists, how to apply, status check)",
+      "url": "https://www.newarkha.org/Programs-Services/Public-Housing-Program"
+    },
+    {
+      "label": "NHA - Waitlist status check (registration, applicant count)",
+      "url": "https://www.newarkha.org/Status-Check"
+    },
+    {
+      "label": "NHA - Help (address, Customer Service Center, TTY, Occupancy)",
+      "url": "https://www.newarkha.org/Help"
+    },
+    {
+      "label": "NJ DCA - Housing Choice Voucher waiting list (closed; 2023 window)",
+      "url": "https://www.nj.gov/dca/vouchers.html"
+    },
+    {
+      "label": "NJ DCA - Statewide Housing Choice Voucher program (all counties)",
+      "url": "https://www.nj.gov/dca/dhcr/offices/section8hcv.shtml"
+    },
+    {
+      "label": "NJ DCA - State Rental Assistance Program (SRAP list closed)",
+      "url": "https://www.nj.gov/dca/dhcr/offices/srap.shtml"
+    },
+    {
+      "label": "City of Newark - Office of Tenant Legal Services (eligibility, contact)",
+      "url": "https://www.newarknj.gov/617/Office-of-Tenant-Legal-Services"
+    }
+  ],
+  "es": {
+    "meta_description": "Newark Housing Authority: Sección 8 cerrada; casi todas las listas de vivienda pública abiertas en línea. Teléfono 973-273-6000. Verificado nov. 2026.",
+    "status_check_html": "Si ya presentó su solicitud, revise su estado y actualice sus datos de contacto en la <a href=\"https://www.newarkha.org/Status-Check\" target=\"_blank\" rel=\"noopener\">consulta de estado de la lista</a> de NHA (se registra una sola vez), en las computadoras del vestíbulo en 500 Broad Street (de 8:30 am a 4:30 pm, de lunes a viernes), o llamando al <a href=\"tel:+19732736127\">(973) 273-6127</a> (de 9 am a mediodía lunes, miércoles, jueves y viernes; de 1 pm a 4 pm los martes). Mantenga al día su dirección y su teléfono. Si NHA no puede localizarle cuando le toque su turno, puede perder su lugar.",
+    "serves": "La ciudad de Newark",
+    "updated": "12 de noviembre de 2026",
+    "intro": "La Newark Housing Authority (NHA) maneja la vivienda pública y el programa de vales de Sección 8 (Housing Choice Voucher) en la ciudad de Newark, además de vales de vivienda de emergencia y vales basados en proyectos. Su oficina central está en 500 Broad Street, Newark, NJ 07102, y el número de su centro de servicio al cliente es el 973-273-6000. Hoy NHA dice que su lista de vales está cerrada y que no acepta solicitudes nuevas, pero sí recibe solicitudes para sus listas de vivienda pública abiertas, que son la mayoría de sus sitios. Las solicitudes de vivienda pública son solo en línea, por el portal Rent Café de NHA. El Departamento de Asuntos Comunitarios de New Jersey también tiene un programa estatal de vales abierto a residentes de Newark, y su lista también está cerrada. Esta página reúne las palabras exactas de NHA, los sitios abiertos y cerrados, cómo solicitar y revisar su estado, los teléfonos y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher); la lista de espera está cerrada. Servicio al cliente de vales: 973-273-6206, hcvcustomerservice@newarkha.org",
+      "Vivienda pública en sitios familiares, edificios para personas mayores y con discapacidad, casas en hilera y viviendas dispersas, cada uno con su propia lista, con solicitud en línea por el portal Rent Café de NHA",
+      "Vales de vivienda de emergencia (Emergency Housing Vouchers)",
+      "Vales basados en proyectos; los servicios en línea y formularios de vales de NHA están en newark.nanmckay.com"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 12 de noviembre de 2026: la página de vales de NHA dice \"The Housing Choice Voucher Program waiting list is currently closed\" (la lista de espera está cerrada) y \"No new applications are being accepted at this time\" (no se aceptan solicitudes nuevas por ahora). No hay fecha de reapertura publicada. Una tabla en la página de vivienda pública de NHA muestra \"Yes\" en la columna de listas abiertas para el programa de vales, lo que no coincide con la página de vales; nos guiamos por la página de vales. Llame a servicio al cliente de vales al 973-273-6206 para confirmarlo."
+      },
+      {
+        "program": "Vivienda pública (listas por sitio)",
+        "status": "Abierta en la mayoría de los sitios",
+        "note": "La página de vivienda pública de NHA dice \"Applications are currently being accepted for all open low-income public housing waiting lists\" (se aceptan solicitudes para todas las listas abiertas). Su tabla muestra \"Yes\" para Pennington Court, John W. Hyatt Court, Stephen Crane Elderly, Kretchmer Elderly, Seth Boyden Elderly, James Baxter Elderly, Kretchmer Townhomes y las viviendas dispersas Janice Cromer, Kemso, Claremont, Betty Shabazz, Clinton Ave Townhomes, Park Place y Redevelopment. Bradley Court muestra \"No.\" Stephen Crane Village, James C. White Manor, Riverside Villa y Wynona Lipman Gardens (sitios RAD) muestran la fecha 2/10/2025 en vez de sí o no. Solicite en línea en portals.newarkha.org; la presolicitud está activa hasta por 18 meses. (Verificado el 12 de noviembre de 2026.)"
+      }
+    ],
+    "also_serving": [
+      "<strong>El Departamento de Asuntos Comunitarios de New Jersey (DCA)</strong> tiene un programa estatal de vales que \"is available to residents of all New Jersey counties\" (está disponible para residentes de todos los condados). El 12 de noviembre de 2026 su página decía \"THE WAITLIST IS NOW CLOSED\" (la lista está cerrada). La última ventana fue del 17 de enero al 3 de febrero de 2023, por WaitlistCheck.com. Quienes entraron a esa lista por sorteo aparecen con estado ACTIVE (activo). DCA: 609-292-4080, opción 9.",
+      "<strong>El Programa Estatal de Asistencia de Alquiler (SRAP) del DCA</strong>, el vale pagado por el estado de New Jersey, está cerrado: \"The SRAP waiting list opening for pre-applications has closed\" (la apertura para presolicitudes ya cerró). Esa ventana fue del 13 al 31 de enero de 2025, y el DCA pide seguir revisando su sitio para saber cuándo abrirá nuevas listas.",
+      "<strong>¿Enfrenta un desalojo?</strong> La Oficina de Servicios Legales para Inquilinos de Newark da ayuda legal gratis a hogares inquilinos de Newark que enfrentan un desalojo y tienen ingresos brutos de hasta el 200% del nivel federal de pobreza. 920 Mayor Kenneth A. Gibson Blvd., sala 110, 973-877-9424. Si vive en vivienda de NHA o tiene un vale de NHA, un desalojo le puede costar su ayuda, así que llame de inmediato.",
+      "<strong>NHA no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-newark\">guía de ayuda de emergencia con la renta en Newark</a>: los socios del estado contra desalojos en el condado de Essex, la Asistencia de Emergencia del condado, NJ 211, LIHEAP y USF, y las reglas de desalojo de New Jersey. Si ya tiene vivienda o un vale de NHA y se atrasa, llame a NHA al 973-273-6000."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de espera de la Sección 8 en Newark?",
+        "a": "No. Al 12 de noviembre de 2026, NHA dice que su lista de vales está cerrada y que no acepta solicitudes nuevas. No hay fecha de reapertura publicada. La lista estatal de vales del DCA de New Jersey también está cerrada. Las listas de vivienda pública de NHA están abiertas en la mayoría de los sitios, así que todavía puede solicitar en esas."
+      },
+      {
+        "q": "¿Qué listas de vivienda pública de NHA están abiertas?",
+        "a": "La tabla de NHA muestra listas abiertas en Pennington Court, John W. Hyatt Court, sus edificios para personas mayores (Stephen Crane, Kretchmer, Seth Boyden y James Baxter), Kretchmer Townhomes y sus viviendas dispersas. Bradley Court está cerrada. Cuatro sitios RAD muestran una fecha en vez de sí o no, así que pregunte a NHA por esos. Revise la página de vivienda pública de NHA antes de solicitar."
+      },
+      {
+        "q": "¿Cómo solicito a NHA?",
+        "a": "Las solicitudes de vivienda pública se tienen que presentar en línea por el portal Rent Café de NHA, portals.newarkha.org, salvo que tenga un ajuste razonable aprobado. La presolicitud está activa hasta por 18 meses. La lista de vales está cerrada, así que por ahora no hay solicitud de vales."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en una lista de NHA?",
+        "a": "Use la consulta de estado en línea de NHA (se registra una sola vez), las computadoras del vestíbulo en 500 Broad Street de 8:30 am a 4:30 pm entre semana, o llame al (973) 273-6127. La página de estado de NHA dice que hay más de 12,000 solicitantes en su lista de espera."
+      },
+      {
+        "q": "¿New Jersey tiene su propio programa de Sección 8 para residentes de Newark?",
+        "a": "Sí. El Departamento de Asuntos Comunitarios de New Jersey tiene un programa estatal de vales abierto a residentes de todos los condados, además del SRAP pagado por el estado. Las dos listas están cerradas al 12 de noviembre de 2026. La última ventana de vales del DCA fue del 17 de enero al 3 de febrero de 2023. Llame al 609-292-4080, opción 9, si tiene preguntas."
+      },
+      {
+        "q": "¿Cuánto paga un inquilino de Sección 8 en Newark?",
+        "a": "Según las reglas de HUD, una familia con vale o en vivienda pública por lo general paga alrededor del 30% de su ingreso mensual ajustado para la renta y los servicios, y la autoridad de vivienda paga el resto de una renta aprobada. El ingreso ajustado es su ingreso después de las deducciones de HUD, como las que hay por hijos, por familiares mayores o con discapacidad y por algunos gastos médicos y de cuidado de niños."
+      }
+    ],
+    "sources": [
+      {
+        "label": "NHA - Housing Choice Voucher Program (lista cerrada, servicio al cliente de vales), en inglés",
+        "url": "https://www.newarkha.org/Programs-Services/Housing-Choice-Voucher-Program-Section-8"
+      },
+      {
+        "label": "NHA - Public Housing Program (listas abiertas y cerradas, cómo solicitar, estado), en inglés",
+        "url": "https://www.newarkha.org/Programs-Services/Public-Housing-Program"
+      },
+      {
+        "label": "NHA - Consulta de estado de la lista (registro, número de solicitantes), en inglés",
+        "url": "https://www.newarkha.org/Status-Check"
+      },
+      {
+        "label": "NHA - Help (dirección, centro de servicio al cliente, TTY, Occupancy), en inglés",
+        "url": "https://www.newarkha.org/Help"
+      },
+      {
+        "label": "NJ DCA - Lista de espera de vales (cerrada; ventana de 2023), en inglés",
+        "url": "https://www.nj.gov/dca/vouchers.html"
+      },
+      {
+        "label": "NJ DCA - Programa estatal de vales (todos los condados), en inglés",
+        "url": "https://www.nj.gov/dca/dhcr/offices/section8hcv.shtml"
+      },
+      {
+        "label": "NJ DCA - Programa Estatal de Asistencia de Alquiler (SRAP, lista cerrada), en inglés",
+        "url": "https://www.nj.gov/dca/dhcr/offices/srap.shtml"
+      },
+      {
+        "label": "Ciudad de Newark - Office of Tenant Legal Services (requisitos, contacto), en inglés",
+        "url": "https://www.newarknj.gov/617/Office-of-Tenant-Legal-Services"
+      }
+    ]
+  }
+}
