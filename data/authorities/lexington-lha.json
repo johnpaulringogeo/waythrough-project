@@ -1,0 +1,237 @@
+{
+  "slug": "lexington-lha",
+  "kind": "authority",
+  "name": "Lexington-Fayette Urban County Housing Authority (LHA)",
+  "schema_name": "Lexington-Fayette Urban County Housing Authority",
+  "short_name": "LHA",
+  "title_name": "Lexington Housing Authority",
+  "meta_description": "Lexington Housing Authority: Section 8 list closed; senior and Centre Meadows lists open. Phone (859) 281-5060, how to apply. Checked Nov 12, 2026.",
+  "status_check_html": "If you have already applied, LHA says it will notify you <strong>by mail</strong> when your name comes to the top of the list, and that if you do not respond or your letter comes back undeliverable, \"your name will be removed from the waiting list.\" Report any change of address, phone, income or family size within 10 business days, in writing: LHA says \"No changes will be taken over the phone.\" You can update your application on LHA's <a href=\"https://lexha.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">online portal</a>; for help, call <a href=\"tel:+18592815060\">(859) 281-5060</a>.",
+  "city": "Lexington",
+  "state": "KY",
+  "serves": "Lexington and Fayette County",
+  "phone": "(859) 281-5060",
+  "official_url": "https://www.lexha.org/",
+  "apply_url": "https://lexha.myhousing.com/",
+  "city_slug": "lexington",
+  "state_slug": "kentucky",
+  "updated": "November 12, 2026",
+  "intro": "The Lexington-Fayette Urban County Housing Authority, which calls itself LHA or the Lexington Housing Authority, runs Section 8 Housing Choice Vouchers, public housing and project-based vouchers in Lexington. HUD lists it as PHA KY004, under the name Housing Authority of Lexington, with a program type of Combined, at 300 West New Circle Road, Lexington, KY 40505. Its main line is (859) 281-5060, Monday through Friday, 8:00 am to 4:30 pm, and its offices see people by appointment. LHA says it manages 880 public housing units, 600 mixed-finance units and over 3,600 Section 8 vouchers, and it is a Moving to Work agency. The short version today: the Section 8 voucher list is closed, but LHA has open lists for one-bedroom senior apartments at Ballard and Connie Griffith and for two- and three-bedroom units at Centre Meadows, a project-based voucher site with a work requirement. All applications are online. This page covers LHA's exact words, each open list, the phone numbers, and where to turn if you need rent help now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8); the waiting list is closed. LHA says voucher holders pay the greater of $50, 30% of adjusted income or 10% of gross income",
+    "Public housing: LHA says rent is the greater of $150, 30% of adjusted income or 10% of gross income, or a flat rent set for each property. About 850 units are self-sufficiency units, where a household member must work at least 20 or 37.5 hours a week, depending on the site",
+    "Ballard and Connie Griffith Apartments, 650 Tower Plaza: one-bedroom independent living for people 62 and older, all utilities included; call (859) 281-5053",
+    "Centre Meadows, 1301, 1317 and 1333 Centre Parkway: project-based voucher (RAD-PBV) apartments with a 20-hour-a-week work requirement; management office (859) 281-5087",
+    "Special partner programs that pair vouchers with services, including HUD-VASH with the Lexington VA Medical Center and Greenhouse17 for survivors of domestic violence",
+    "Homeownership through the voucher program, for current voucher or public housing participants"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 12, 2026: LHA's Housing Choice Voucher page says \"The LHA's HCV waiting list is currently closed.\" Its homepage says the same: \"The LHA Section 8 waiting list is currently closed.\" No reopening date is posted."
+    },
+    {
+      "program": "Ballard and Connie Griffith Apartments (seniors 62+, 1 bedroom)",
+      "status": "Open",
+      "note": "LHA's homepage says \"The Lexington Housing Authority wait list is open for ONE (1) bedroom units at the Ballard and Connie Griffith Apartments for elderly persons (62 years of age or older) households, located at 650 Tower Plaza.\" LHA's applicant portal lists Connie Griffith Manor and Ballard Place as open from June 26, 2023 to June 30, 2029. Apply online at lexha.myhousing.com or call (859) 281-5053 (checked November 12, 2026)."
+    },
+    {
+      "program": "Centre Meadows, 2 bedrooms (project-based voucher)",
+      "status": "Open",
+      "note": "LHA says \"The Centre Meadows waiting list is open for TWO (2) bedroom units at the Centre Meadows located at 1301, 1317, & 1333 Centre Parkway.\" No closing date is posted. Centre Meadows is a self-sufficiency site: the head of household or spouse or co-head must show work of at least 20 hours a week, with exceptions for elderly and disabled applicants who meet the other rules. LHA says \"Interested persons MUST apply online ONLY\"; if you have no internet, call the Centre Meadows office at 859-281-5087 for help (checked November 12, 2026)."
+    },
+    {
+      "program": "Centre Meadows, 3 bedrooms (project-based voucher)",
+      "status": "Dated window",
+      "note": "LHA's notice says it \"will accept applications\" for Centre Meadows three-bedroom units \"starting 12:00 a.m., Monday, October 12, 2026 through 11:59 p.m. Friday, November 13, 2026.\" LHA's applicant portal shows a later end date for Centre Meadows, December 13, 2026, so the two LHA pages do not match. Apply as early as you can and do not count on the later date. If the window has passed when you read this, check lexha.org for the next opening. Same work requirement and online-only rule as the two-bedroom list (checked November 12, 2026)."
+    },
+    {
+      "program": "Other public housing lists",
+      "status": "Not posted",
+      "note": "LHA's Public Housing page still says \"LHA to open Northeast Public Housing Waitlist June 21, 2026,\" but posts no current details, and its applicant portal does not list that list among its open waiting lists. When a list opens, LHA says applications are taken online. Call (859) 281-5060 to ask which public housing lists are taking names (checked November 12, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>LHA is not an emergency rent fund.</strong> If you are behind on rent in Fayette County, call the City of Lexington's Community &amp; Resident Services at (859) 300-5300 to book an emergency financial assistance appointment, and see our <a href=\"../guides/emergency-rent-help-lexington\">Lexington emergency rent help guide</a> for Legal Aid of the Bluegrass, 211, LIHEAP and Kentucky's eviction deadlines.",
+    "<strong>Already have LHA housing or a voucher and fell behind?</strong> Call LHA at (859) 281-5060 right away and call Legal Aid of the Bluegrass at 859-431-8200. Legal Aid of the Bluegrass says it helps people facing termination of public housing or Section 8, and an eviction can cost you your assistance.",
+    "<strong>Disability accommodations:</strong> LHA says accessible apartments are available at ten locations and that questions go to its 504 Coordinator at (859) 281-5060. People with hearing or speech impairments can reach LHA through Kentucky Relay at 711.",
+    "<strong>If you live outside Fayette County,</strong> a different housing authority serves you. Use HUD's <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> to find it."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Lexington Section 8 waiting list open?",
+      "a": "No. As of November 12, 2026, LHA says its Housing Choice Voucher waiting list is currently closed, and no reopening date is posted. Some LHA lists are open, though: one-bedroom senior apartments at Ballard and Connie Griffith for people 62 and older, and two-bedroom units at Centre Meadows, a project-based voucher site with a work requirement."
+    },
+    {
+      "q": "Is the Centre Meadows three-bedroom list open?",
+      "a": "LHA's notice says it is taking applications from October 12 through 11:59 p.m. on Friday, November 13, 2026. LHA's applicant portal shows a later end date of December 13, 2026. Apply online at lexha.myhousing.com as early as you can and do not count on the later date. If the window has closed, check lexha.org for the next one."
+    },
+    {
+      "q": "How do I apply to the Lexington Housing Authority?",
+      "a": "Online at lexha.myhousing.com, during the period a list is open. LHA asks for the name, date of birth and Social Security number of everyone in your household, your mailing address and your total household income. Submit only one application. If you need help with the online form, call (859) 281-5060, or 859-281-5087 for Centre Meadows."
+    },
+    {
+      "q": "How do I keep my place on an LHA list?",
+      "a": "LHA notifies applicants by mail when their name comes to the top. If you do not respond, or the letter comes back undeliverable, LHA removes your name. Report a change of address, phone, income or family size within 10 business days, in writing. LHA says it takes no changes over the phone."
+    },
+    {
+      "q": "What does an LHA tenant pay?",
+      "a": "LHA says Section 8 voucher holders pay the greater of $50, 30% of adjusted income or 10% of gross income. In public housing, rent is the greater of $150, 30% of adjusted income or 10% of gross income, or the flat rent set for the property. New public housing tenants also pay a security deposit, and at some sites the utility deposits and bills."
+    },
+    {
+      "q": "Can a Lexington landlord refuse my voucher?",
+      "a": "Yes. Since March 6, 2024, Kentucky law (House Bill 18) bars any city or urban-county government from adopting or enforcing a rule that stops a landlord from refusing a tenant whose rent includes federal housing assistance. A landlord still cannot refuse you because of race, disability, family status or another protected trait under federal fair housing law; report that to HUD."
+    }
+  ],
+  "sources": [
+    {
+      "label": "LHA - Homepage (Section 8 list closed, open senior and Centre Meadows lists, office hours, main line, office access)",
+      "url": "https://www.lexha.org/"
+    },
+    {
+      "label": "LHA - Housing Choice Voucher Program (list closed, tenant rent share)",
+      "url": "https://www.lexha.org/housing-choice-voucher"
+    },
+    {
+      "label": "LHA - Centre Meadows waiting lists (2-bedroom open; 3-bedroom window Oct 12 to Nov 13, 2026; work requirement)",
+      "url": "https://www.lexha.org/centre-meadows-3-br-waiting-list-opens-101226"
+    },
+    {
+      "label": "LHA - Applicant portal (open waiting lists and dates, how the list works, changes in writing)",
+      "url": "https://lexha.myhousing.com/"
+    },
+    {
+      "label": "LHA - Public Housing (rent rules, self-sufficiency units, Northeast list notice)",
+      "url": "https://www.lexha.org/public-housing"
+    },
+    {
+      "label": "LHA - Affordable Housing for Seniors (Ballard and Connie Griffith)",
+      "url": "https://www.lexha.org/affordable-housing-for-seniors"
+    },
+    {
+      "label": "LHA - Special Programs and Accessible Accommodations",
+      "url": "https://www.lexha.org/housing-choice-voucher/special-programs"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Kentucky (KY004 Combined)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+    },
+    {
+      "label": "Kentucky General Assembly - 2024 Ky. Acts ch. 3 (HB 18)",
+      "url": "https://apps.legislature.ky.gov/law/acts/24RS/documents/0003.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "Lexington Housing Authority: Sección 8 cerrada; hay listas abiertas para mayores y en Centre Meadows. Tel. (859) 281-5060. Verificado el 12/11/2026.",
+    "status_check_html": "Si ya presentó su solicitud, LHA dice que le avisará <strong>por correo</strong> cuando su nombre llegue al primer lugar de la lista, y que si usted no responde o la carta regresa sin entregarse, \"your name will be removed from the waiting list\" (su nombre se quitará de la lista). Informe cualquier cambio de dirección, teléfono, ingresos o tamaño de familia en un plazo de 10 días hábiles, por escrito: LHA dice \"No changes will be taken over the phone\" (no se aceptan cambios por teléfono). Puede actualizar su solicitud en el <a href=\"https://lexha.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">portal en línea</a> de LHA; para ayuda, llame al <a href=\"tel:+18592815060\">(859) 281-5060</a>.",
+    "serves": "Lexington y el condado de Fayette",
+    "updated": "12 de noviembre de 2026",
+    "intro": "La Lexington-Fayette Urban County Housing Authority, que se presenta como LHA o Lexington Housing Authority, administra los vales de Sección 8 (Housing Choice Voucher), la vivienda pública y los vales basados en proyectos en Lexington. HUD la registra como la PHA KY004, con el nombre Housing Authority of Lexington y el tipo de programa Combined, en 300 West New Circle Road, Lexington, KY 40505. Su línea principal es el (859) 281-5060, de lunes a viernes, de 8:00 am a 4:30 pm, y sus oficinas atienden con cita. LHA dice que administra 880 unidades de vivienda pública, 600 unidades de financiamiento mixto y más de 3,600 vales de Sección 8, y es una agencia Moving to Work. La versión corta de hoy: la lista de vales de Sección 8 está cerrada, pero LHA tiene listas abiertas para apartamentos de una recámara para personas mayores en Ballard y Connie Griffith, y para unidades de dos y tres recámaras en Centre Meadows, un sitio de vales por proyecto con requisito de trabajo. Todas las solicitudes son en línea. Esta página reúne las palabras exactas de LHA, cada lista abierta, los teléfonos y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher); la lista de espera está cerrada. LHA dice que quienes tienen vale pagan la cantidad mayor entre $50, el 30% del ingreso ajustado o el 10% del ingreso bruto",
+      "Vivienda pública: LHA dice que la renta es la cantidad mayor entre $150, el 30% del ingreso ajustado o el 10% del ingreso bruto, o una renta fija establecida para cada propiedad. Cerca de 850 unidades son de autosuficiencia, donde un miembro del hogar debe trabajar al menos 20 o 37.5 horas por semana, según el sitio",
+      "Ballard and Connie Griffith Apartments, 650 Tower Plaza: vida independiente en apartamentos de una recámara para personas de 62 años o más, con todos los servicios incluidos; llame al (859) 281-5053",
+      "Centre Meadows, 1301, 1317 y 1333 Centre Parkway: apartamentos con vales basados en proyectos (RAD-PBV) y un requisito de trabajo de 20 horas por semana; oficina de administración (859) 281-5087",
+      "Programas especiales con organizaciones aliadas que combinan vales con servicios, entre ellos HUD-VASH con el Lexington VA Medical Center y Greenhouse17 para sobrevivientes de violencia doméstica",
+      "Compra de vivienda por medio del programa de vales, para participantes actuales de vales o de vivienda pública"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 12 de noviembre de 2026: la página de vales de LHA dice \"The LHA's HCV waiting list is currently closed\" (la lista de espera de vales de LHA está cerrada). Su página principal dice lo mismo: \"The LHA Section 8 waiting list is currently closed.\" No hay fecha de reapertura publicada."
+      },
+      {
+        "program": "Ballard and Connie Griffith Apartments (62 años o más, 1 recámara)",
+        "status": "Abierta",
+        "note": "La página principal de LHA dice que la lista de espera está abierta para unidades de una recámara en Ballard y Connie Griffith Apartments, para hogares de personas de 62 años o más, en 650 Tower Plaza. El portal de solicitantes de LHA muestra Connie Griffith Manor y Ballard Place abiertas del 26 de junio de 2023 al 30 de junio de 2029. Solicite en línea en lexha.myhousing.com o llame al (859) 281-5053 (verificado el 12 de noviembre de 2026)."
+      },
+      {
+        "program": "Centre Meadows, 2 recámaras (vales basados en proyectos)",
+        "status": "Abierta",
+        "note": "LHA dice \"The Centre Meadows waiting list is open for TWO (2) bedroom units\" (la lista de Centre Meadows está abierta para unidades de dos recámaras), en 1301, 1317 y 1333 Centre Parkway. No hay fecha de cierre publicada. Centre Meadows es un sitio de autosuficiencia: el jefe de hogar, su cónyuge o cojefe debe demostrar que trabaja al menos 20 horas por semana, con excepciones para solicitantes mayores o con discapacidad que cumplan las demás reglas. LHA dice que solo se puede solicitar en línea; si no tiene internet, llame a la oficina de Centre Meadows al 859-281-5087 para recibir ayuda (verificado el 12 de noviembre de 2026)."
+      },
+      {
+        "program": "Centre Meadows, 3 recámaras (vales basados en proyectos)",
+        "status": "Periodo con fechas",
+        "note": "El aviso de LHA dice que aceptará solicitudes para unidades de tres recámaras en Centre Meadows \"starting 12:00 a.m., Monday, October 12, 2026 through 11:59 p.m. Friday, November 13, 2026\" (desde las 12:00 a.m. del lunes 12 de octubre hasta las 11:59 p.m. del viernes 13 de noviembre de 2026). El portal de solicitantes de LHA muestra una fecha de cierre posterior para Centre Meadows, el 13 de diciembre de 2026, así que las dos páginas de LHA no coinciden. Solicite lo antes posible y no cuente con la fecha posterior. Si el periodo ya pasó cuando lea esto, revise lexha.org para la próxima apertura. Aplican el mismo requisito de trabajo y la misma regla de solicitud solo en línea que en la lista de dos recámaras (verificado el 12 de noviembre de 2026)."
+      },
+      {
+        "program": "Otras listas de vivienda pública",
+        "status": "Sin información publicada",
+        "note": "La página de vivienda pública de LHA todavía dice \"LHA to open Northeast Public Housing Waitlist June 21, 2026\" (LHA abrirá la lista de vivienda pública del noreste el 21 de junio de 2026), pero no publica detalles actuales, y su portal de solicitantes no incluye esa lista entre las abiertas. Cuando una lista se abre, LHA dice que las solicitudes se reciben en línea. Llame al (859) 281-5060 para preguntar qué listas de vivienda pública están recibiendo nombres (verificado el 12 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "<strong>LHA no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta en el condado de Fayette, llame a Community &amp; Resident Services de la Ciudad de Lexington al (859) 300-5300 para pedir una cita de asistencia financiera de emergencia, y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-lexington\">guía de ayuda con la renta en Lexington</a> para Legal Aid of the Bluegrass, el 211, LIHEAP y los plazos de desalojo de Kentucky.",
+      "<strong>¿Ya tiene vivienda o un vale de LHA y se atrasó?</strong> Llame enseguida a LHA al (859) 281-5060 y a Legal Aid of the Bluegrass al 859-431-8200. Legal Aid of the Bluegrass dice que ayuda a personas que enfrentan la terminación de su vivienda pública o de Sección 8, y un desalojo puede costarle su asistencia.",
+      "<strong>Adaptaciones por discapacidad:</strong> LHA dice que hay apartamentos accesibles en diez lugares y que las preguntas van a su coordinador de la Sección 504 al (859) 281-5060. Las personas con discapacidad auditiva o del habla pueden comunicarse con LHA por el servicio de relevo de Kentucky, marcando 711.",
+      "<strong>Si vive fuera del condado de Fayette,</strong> le atiende otra autoridad de vivienda. Use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> para encontrarla."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de Sección 8 en Lexington?",
+        "a": "No. Al 12 de noviembre de 2026, LHA dice que su lista de espera de vales está cerrada, y no hay fecha de reapertura publicada. Pero algunas listas de LHA sí están abiertas: apartamentos de una recámara para personas de 62 años o más en Ballard y Connie Griffith, y unidades de dos recámaras en Centre Meadows, un sitio de vales por proyecto con requisito de trabajo."
+      },
+      {
+        "q": "¿Está abierta la lista de tres recámaras de Centre Meadows?",
+        "a": "El aviso de LHA dice que recibe solicitudes del 12 de octubre hasta las 11:59 p.m. del viernes 13 de noviembre de 2026. El portal de solicitantes de LHA muestra una fecha de cierre posterior, el 13 de diciembre de 2026. Solicite en línea en lexha.myhousing.com lo antes posible y no cuente con la fecha posterior. Si el periodo ya cerró, revise lexha.org para la próxima apertura."
+      },
+      {
+        "q": "¿Cómo solicito en la Lexington Housing Authority?",
+        "a": "En línea en lexha.myhousing.com, mientras la lista esté abierta. LHA pide el nombre, la fecha de nacimiento y el número de Seguro Social de cada persona del hogar, su dirección postal y el ingreso total del hogar. Presente una sola solicitud. Si necesita ayuda con el formulario en línea, llame al (859) 281-5060, o al 859-281-5087 para Centre Meadows."
+      },
+      {
+        "q": "¿Cómo mantengo mi lugar en una lista de LHA?",
+        "a": "LHA avisa por correo cuando su nombre llega al primer lugar. Si usted no responde, o la carta regresa sin entregarse, LHA quita su nombre. Informe un cambio de dirección, teléfono, ingresos o tamaño de familia en un plazo de 10 días hábiles, por escrito. LHA dice que no acepta cambios por teléfono."
+      },
+      {
+        "q": "¿Cuánto paga un inquilino de LHA?",
+        "a": "LHA dice que quienes tienen vale de Sección 8 pagan la cantidad mayor entre $50, el 30% del ingreso ajustado o el 10% del ingreso bruto. En vivienda pública, la renta es la cantidad mayor entre $150, el 30% del ingreso ajustado o el 10% del ingreso bruto, o la renta fija de la propiedad. Los nuevos inquilinos de vivienda pública también pagan un depósito de seguridad y, en algunos sitios, los depósitos y las facturas de servicios."
+      },
+      {
+        "q": "¿Puede un arrendador de Lexington rechazar mi vale?",
+        "a": "Sí. Desde el 6 de marzo de 2024, una ley de Kentucky (House Bill 18) prohíbe que una ciudad o gobierno de condado urbano adopte o aplique una regla que impida a un arrendador rechazar a un inquilino cuya renta incluye asistencia federal para vivienda. Un arrendador todavía no puede rechazarle por su raza, discapacidad, situación familiar u otra característica protegida por la ley federal de vivienda justa; denuncie eso ante HUD."
+      }
+    ],
+    "sources": [
+      {
+        "label": "LHA - Página principal (lista de Sección 8 cerrada, listas abiertas para mayores y Centre Meadows, horario, línea principal), en inglés",
+        "url": "https://www.lexha.org/"
+      },
+      {
+        "label": "LHA - Housing Choice Voucher Program (lista cerrada, parte de la renta del inquilino), en inglés",
+        "url": "https://www.lexha.org/housing-choice-voucher"
+      },
+      {
+        "label": "LHA - Listas de Centre Meadows (2 recámaras abierta; 3 recámaras del 12 de octubre al 13 de noviembre de 2026; requisito de trabajo), en inglés",
+        "url": "https://www.lexha.org/centre-meadows-3-br-waiting-list-opens-101226"
+      },
+      {
+        "label": "LHA - Portal de solicitantes (listas abiertas y fechas, cómo funciona la lista, cambios por escrito)",
+        "url": "https://lexha.myhousing.com/"
+      },
+      {
+        "label": "LHA - Public Housing (reglas de renta, unidades de autosuficiencia, aviso de la lista del noreste), en inglés",
+        "url": "https://www.lexha.org/public-housing"
+      },
+      {
+        "label": "LHA - Affordable Housing for Seniors (Ballard y Connie Griffith), en inglés",
+        "url": "https://www.lexha.org/affordable-housing-for-seniors"
+      },
+      {
+        "label": "LHA - Special Programs y Accessible Accommodations, en inglés",
+        "url": "https://www.lexha.org/housing-choice-voucher/special-programs"
+      },
+      {
+        "label": "HUD - Directorio de PHAs de Kentucky (KY004 Combined), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_KY.pdf"
+      },
+      {
+        "label": "Asamblea General de Kentucky - 2024 Ky. Acts ch. 3 (HB 18), en inglés",
+        "url": "https://apps.legislature.ky.gov/law/acts/24RS/documents/0003.pdf"
+      }
+    ]
+  }
+}

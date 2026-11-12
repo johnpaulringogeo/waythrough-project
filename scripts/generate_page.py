@@ -297,6 +297,7 @@ FAQ_LINK_TARGETS = {
     "denverhousing.org": "https://denverhousing.org",
     "dhantx.com/applicants": "https://dhantx.com/applicants",
     "doh.colorado.gov/emergency-rental-assistance": "https://doh.colorado.gov/emergency-rental-assistance",
+    "ebrpha.org": "https://www.ebrpha.org",  # fetched live 2026-11-12 (Baton Rouge); East Baton Rouge Parish Housing Authority, both lists closed
     "encapnebraska.org": "https://www.encapnebraska.org",
     "erap.dhs.dc.gov": "https://erap.dhs.dc.gov",
     "freeevictionhelp.org": "https://freeevictionhelp.org",
@@ -327,6 +328,7 @@ FAQ_LINK_TARGETS = {
     "kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants": "https://kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants",
     "keeppeoplehoused.org": "https://keeppeoplehoused.org",  # fetched live 2026-11-05 (Bay Area guides); BACS Keep People Housed portal, City of Oakland application
     "kshousingcorp.org": "https://kshousingcorp.org",
+    "lablaw.org": "https://lablaw.org",  # fetched live 2026-11-12 (Lexington); Legal Aid of the Bluegrass, intake and online application
     "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
     "lafairhousing.org": "https://lafairhousing.org",  # fetched live 2026-11-05 (New Orleans set); Louisiana Fair Housing Action Center, eviction defense in Orleans Parish
     "las.org": "https://las.org",
@@ -336,6 +338,7 @@ FAQ_LINK_TARGETS = {
     "legalaccessforall.org": "https://www.legalaccessforall.org",  # fetched live 2026-11-05 (Orlando set); Community Legal Services (clsmf.org now redirects here)
     "legalaiddc.org": "https://www.legalaiddc.org",
     "legalhelpmd.org": "https://legalhelpmd.org",  # fetched live 2026-11-03 (Baltimore guide); Maryland Access to Counsel in Evictions intake site
+    "lexha.org": "https://www.lexha.org",  # fetched live 2026-11-12 (Lexington); Lexington-Fayette Urban County Housing Authority, voucher list closed
     "longbeach.gov/haclb/apply": "https://longbeach.gov/haclb/apply",
     "longbeach.gov/renteraid": "https://www.longbeach.gov/homelessness/homeless-services/RenterAid/",  # fetched live 2026-09-21 (W-2/3 + X2); the City's own short link, redirects here
     "mainehousing.org": "https://mainehousing.org",

@@ -1,0 +1,175 @@
+{
+  "slug": "baton-rouge-ebrpha",
+  "kind": "authority",
+  "name": "East Baton Rouge Parish Housing Authority (EBRPHA)",
+  "schema_name": "East Baton Rouge Parish Housing Authority",
+  "short_name": "EBRPHA",
+  "title_name": "EBRPHA Baton Rouge",
+  "meta_description": "EBRPHA Baton Rouge: the Section 8 and public housing waitlists are both closed. Phone (225) 923-8100, how to check your status. Checked Nov 12, 2026.",
+  "status_check_html": "If you have already applied, check your place on EBRPHA's <a href=\"https://portals.ebrpha.org/\" target=\"_blank\" rel=\"noopener\">applicant portal</a>, which EBRPHA says shows \"your current position and any updates,\" or call <a href=\"tel:+12259238100\">(225) 923-8100</a>. Keep your mailing address, phone and email current. If EBRPHA cannot reach you when your name comes up, you can lose your place.",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "serves": "East Baton Rouge Parish",
+  "phone": "(225) 923-8100",
+  "official_url": "https://www.ebrpha.org/",
+  "apply_url": "https://www.ebrpha.org/applicants",
+  "city_slug": "baton-rouge",
+  "state_slug": "louisiana",
+  "updated": "November 12, 2026",
+  "intro": "The East Baton Rouge Parish Housing Authority (EBRPHA) runs the Section 8 Housing Choice Voucher program and the public housing communities it owns in East Baton Rouge Parish. HUD lists it as PHA LA003, under the name Housing Authority of East Baton Rouge, with a program type of Combined. Its office is at 4731 North Blvd., Baton Rouge, LA 70806, and its main line is (225) 923-8100, Monday through Friday, 7:30 am to 4:30 pm. The short version today: EBRPHA says both of its lists are closed, the Housing Choice Voucher list and the list for its own apartment communities, which it calls affordable housing. It takes applications only during open enrollment, and it announces those with a newspaper notice and a post on ebrpha.org. This page covers EBRPHA's exact words, how an opening works, how to check a pending application, and where to go if you need help with rent now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): rent a private home and EBRPHA pays part of the rent to the landlord; the waiting list is closed",
+    "Affordable housing communities (public housing) that EBRPHA owns and manages, including Ardenwood Village, Capital Square, Clarksdale, Duane Street, Kelly Terrace, Monte Sano Village, Scotland Villa, Sharlo Terrace, Turner Plaza, Wood Plaza and Zion Terrace; this list is closed too",
+    "Portability: EBRPHA says a voucher can move with you to another area under program rules; talk with your caseworker before you move"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 12, 2026: EBRPHA's Applicants page says \"The Housing Choice Voucher and Affordable Housing waitlists are currently closed.\" It adds: \"EBRPHA only accepts HCV applications when the waitlist is open. Check the EBRPHA website, EBRPHA social media, and your local paper to know when the waitlist is open.\" EBRPHA's FAQ says an opening is announced with \"a public notice in the local newspaper, and a posting on our website,\" and that the notice gives the exact dates and how to apply. No reopening date is posted. EBRPHA says vouchers are for households at or below 50% of the area median income and that it gives priority to extremely low-income families, about 30% of the area median income."
+    },
+    {
+      "program": "Affordable housing communities (public housing)",
+      "status": "Closed",
+      "note": "EBRPHA's homepage says \"Our Affordable Housing and Housing Choice Voucher waitlists are currently closed. Please check back for updates on future waitlist openings\" (checked November 12, 2026). When applications open, EBRPHA says you can apply online or in person, and that you may apply to more than one community at a time. Each community keeps its own list, separate from the voucher list."
+    }
+  ],
+  "also_serving": [
+    "<strong>EBRPHA is not an emergency rent fund.</strong> Its own advice: \"If you need housing today, call 211 or contact a local partner like Catholic Charities of Baton Rouge or the Capital Area United Way.\" If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-baton-rouge\">Baton Rouge emergency rent help guide</a>: the City-Parish Office of Social Services, Southeast Louisiana Legal Services' eviction desk at City Court, 211, LIHEAP and Louisiana's eviction deadlines.",
+    "<strong>Already have EBRPHA housing or a voucher and fell behind?</strong> Call (225) 923-8100 right away, and call Southeast Louisiana Legal Services at (225) 448-0080. An eviction can cost you your assistance, and in Louisiana the court date can come within days.",
+    "<strong>If you live outside East Baton Rouge Parish,</strong> a different housing authority serves you. Use HUD's <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> to find it. HUD also lists the Louisiana Housing Authority (PHA LA903, Section 8 only) at 2415 Quail Dr., Baton Rouge, (225) 763-8800."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Baton Rouge Section 8 waiting list open?",
+      "a": "No. As of November 12, 2026, EBRPHA says its Housing Choice Voucher and affordable housing waitlists are both closed. No reopening date is posted. EBRPHA takes applications only during open enrollment and announces it with a public notice in the local newspaper and a post on ebrpha.org, so check there and watch the paper."
+    },
+    {
+      "q": "How will I know when EBRPHA opens its list?",
+      "a": "EBRPHA says it announces an opening two ways: a public notice in the local newspaper and a posting on ebrpha.org. The notice gives the exact dates, locations and what you need to apply. EBRPHA also says to follow its social media. Applications are date and time stamped, so apply early in the window."
+    },
+    {
+      "q": "How do I check my place on an EBRPHA list?",
+      "a": "Use the applicant portal at portals.ebrpha.org, which EBRPHA links from its Check my status button, or call (225) 923-8100. Keep your address, phone and email up to date, because EBRPHA has to be able to reach you when your name comes up."
+    },
+    {
+      "q": "Can I apply for Section 8 and public housing at the same time?",
+      "a": "Yes, when the lists are open. EBRPHA says each program has its own application and waitlist and that being on one list does not affect the other. For its apartment communities, you may apply to more than one community at a time."
+    },
+    {
+      "q": "Who qualifies for an EBRPHA voucher?",
+      "a": "EBRPHA says most households at or below 50% of the area median income may qualify, and that it gives priority to extremely low-income families, about 30% of the area median income. Eligibility also depends on family size and citizenship or eligible immigration status. With a voucher you usually pay about 30% of your income toward rent."
+    },
+    {
+      "q": "What should I do if I need housing help now?",
+      "a": "EBRPHA's lists are closed, so it cannot help with emergency rent. Call 211 for shelter and rent referrals. For rent or utility help, call the City-Parish Office of Social Services at 225-358-4561. If you have an eviction notice, call Southeast Louisiana Legal Services at (225) 448-0080 the same day."
+    }
+  ],
+  "sources": [
+    {
+      "label": "EBRPHA - Homepage (both waitlists closed, phone, TDD, hours, FAQ on how openings are announced)",
+      "url": "https://www.ebrpha.org/"
+    },
+    {
+      "label": "EBRPHA - Applicants (waitlist status, check my status, apply to both programs)",
+      "url": "https://www.ebrpha.org/applicants"
+    },
+    {
+      "label": "EBRPHA - Housing Choice Voucher (eligibility, how it works, portability)",
+      "url": "https://www.ebrpha.org/housing-choice-voucher"
+    },
+    {
+      "label": "EBRPHA - Affordable Housing (communities, how to apply, separate lists)",
+      "url": "https://www.ebrpha.org/affordable-housing"
+    },
+    {
+      "label": "EBRPHA - Contact (address, phone, toll free, TDD, hours)",
+      "url": "https://www.ebrpha.org/contact"
+    },
+    {
+      "label": "HUD - PHA Contact Report, Louisiana (LA003 Combined; LA903 Section 8)",
+      "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_LA.pdf"
+    }
+  ],
+  "es": {
+    "meta_description": "EBRPHA Baton Rouge: las listas de Sección 8 y de vivienda pública están cerradas. Teléfono (225) 923-8100 y cómo ver su estado. Verificado el 12 de nov.",
+    "status_check_html": "Si ya presentó su solicitud, revise su lugar en el <a href=\"https://portals.ebrpha.org/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes</a> de EBRPHA, que según la agencia muestra \"your current position and any updates\" (su lugar actual y cualquier novedad), o llame al <a href=\"tel:+12259238100\">(225) 923-8100</a>. Mantenga al día su dirección, teléfono y correo electrónico. Si EBRPHA no puede localizarle cuando le toque su turno, puede perder su lugar.",
+    "serves": "La parroquia de East Baton Rouge",
+    "updated": "12 de noviembre de 2026",
+    "intro": "La East Baton Rouge Parish Housing Authority (EBRPHA) administra el programa de vales de Sección 8 (Housing Choice Voucher) y las comunidades de vivienda pública que son de su propiedad en la parroquia de East Baton Rouge. HUD la registra como la PHA LA003, con el nombre Housing Authority of East Baton Rouge y el tipo de programa Combined. Su oficina está en 4731 North Blvd., Baton Rouge, LA 70806, y su línea principal es el (225) 923-8100, de lunes a viernes, de 7:30 am a 4:30 pm. La versión corta de hoy: EBRPHA dice que sus dos listas están cerradas, la de vales y la de sus propias comunidades de apartamentos, que llama affordable housing (vivienda asequible). Solo acepta solicitudes durante periodos de inscripción abierta, y los anuncia con un aviso en el periódico y una publicación en ebrpha.org. Esta página reúne las palabras exactas de EBRPHA, cómo funciona una apertura, cómo revisar una solicitud pendiente y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher): usted alquila una vivienda privada y EBRPHA le paga parte de la renta al arrendador; la lista de espera está cerrada",
+      "Comunidades de vivienda asequible (vivienda pública) que EBRPHA posee y administra, entre ellas Ardenwood Village, Capital Square, Clarksdale, Duane Street, Kelly Terrace, Monte Sano Village, Scotland Villa, Sharlo Terrace, Turner Plaza, Wood Plaza y Zion Terrace; esta lista también está cerrada",
+      "Portabilidad: EBRPHA dice que un vale puede mudarse con usted a otra zona según las reglas del programa; hable con su encargado de caso antes de mudarse"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 12 de noviembre de 2026: la página Applicants de EBRPHA dice \"The Housing Choice Voucher and Affordable Housing waitlists are currently closed\" (las listas de vales y de vivienda asequible están cerradas). Agrega que EBRPHA solo acepta solicitudes de vales cuando la lista está abierta, y que hay que revisar su sitio web, sus redes sociales y el periódico local para saber cuándo abre. Según sus preguntas frecuentes, una apertura se anuncia con \"a public notice in the local newspaper, and a posting on our website\" (un aviso público en el periódico local y una publicación en su sitio web), y el aviso indica las fechas exactas y cómo solicitar. No hay fecha de reapertura publicada. EBRPHA dice que los vales son para hogares con ingresos de hasta el 50% del ingreso medio del área y que da prioridad a las familias de ingresos extremadamente bajos, alrededor del 30% del ingreso medio del área."
+      },
+      {
+        "program": "Comunidades de vivienda asequible (vivienda pública)",
+        "status": "Cerrada",
+        "note": "La página principal de EBRPHA dice \"Our Affordable Housing and Housing Choice Voucher waitlists are currently closed. Please check back for updates on future waitlist openings\" (nuestras listas de vivienda asequible y de vales están cerradas; vuelva a revisar para saber de futuras aperturas) (verificado el 12 de noviembre de 2026). Cuando se abran las solicitudes, EBRPHA dice que puede solicitar en línea o en persona, y que puede solicitar en más de una comunidad a la vez. Cada comunidad tiene su propia lista, separada de la lista de vales."
+      }
+    ],
+    "also_serving": [
+      "<strong>EBRPHA no es un fondo de renta de emergencia.</strong> Su propio consejo: \"If you need housing today, call 211 or contact a local partner like Catholic Charities of Baton Rouge or the Capital Area United Way\" (si necesita vivienda hoy, llame al 211 o a un aliado local como Catholic Charities of Baton Rouge o Capital Area United Way). Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-baton-rouge\">guía de ayuda con la renta en Baton Rouge</a>: la Oficina de Servicios Sociales de la Ciudad-Parroquia, el puesto de ayuda para desalojos de Southeast Louisiana Legal Services en la Corte de la Ciudad, el 211, LIHEAP y los plazos de desalojo de Luisiana.",
+      "<strong>¿Ya tiene vivienda o un vale de EBRPHA y se atrasó?</strong> Llame enseguida al (225) 923-8100 y llame a Southeast Louisiana Legal Services al (225) 448-0080. Un desalojo puede costarle su asistencia, y en Luisiana la fecha en la corte puede llegar en cuestión de días.",
+      "<strong>Si vive fuera de la parroquia de East Baton Rouge,</strong> le atiende otra autoridad de vivienda. Use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHAs de HUD</a> para encontrarla. HUD también registra la Louisiana Housing Authority (PHA LA903, solo Sección 8) en 2415 Quail Dr., Baton Rouge, (225) 763-8800."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de Sección 8 en Baton Rouge?",
+        "a": "No. Al 12 de noviembre de 2026, EBRPHA dice que sus listas de vales y de vivienda asequible están cerradas. No hay fecha de reapertura publicada. EBRPHA solo acepta solicitudes durante periodos de inscripción abierta y los anuncia con un aviso público en el periódico local y una publicación en ebrpha.org, así que revise allí y esté atento al periódico."
+      },
+      {
+        "q": "¿Cómo sabré cuándo abre EBRPHA su lista?",
+        "a": "EBRPHA dice que anuncia una apertura de dos maneras: un aviso público en el periódico local y una publicación en ebrpha.org. El aviso indica las fechas exactas, los lugares y lo que necesita para solicitar. EBRPHA también recomienda seguir sus redes sociales. Las solicitudes quedan registradas con fecha y hora, así que solicite al principio del periodo."
+      },
+      {
+        "q": "¿Cómo reviso mi lugar en una lista de EBRPHA?",
+        "a": "Use el portal de solicitantes en portals.ebrpha.org, que EBRPHA enlaza desde su botón Check my status, o llame al (225) 923-8100. Mantenga al día su dirección, teléfono y correo electrónico, porque EBRPHA tiene que poder localizarle cuando le toque su turno."
+      },
+      {
+        "q": "¿Puedo solicitar Sección 8 y vivienda pública al mismo tiempo?",
+        "a": "Sí, cuando las listas estén abiertas. EBRPHA dice que cada programa tiene su propia solicitud y su propia lista, y que estar en una lista no afecta la otra. Para sus comunidades de apartamentos, puede solicitar en más de una a la vez."
+      },
+      {
+        "q": "¿Quién califica para un vale de EBRPHA?",
+        "a": "EBRPHA dice que la mayoría de los hogares con ingresos de hasta el 50% del ingreso medio del área pueden calificar, y que da prioridad a las familias de ingresos extremadamente bajos, alrededor del 30% del ingreso medio del área. También cuentan el tamaño de la familia y la ciudadanía o un estatus migratorio elegible. Con un vale, normalmente usted paga cerca del 30% de sus ingresos para la renta."
+      },
+      {
+        "q": "¿Qué hago si necesito ayuda con la vivienda ahora?",
+        "a": "Las listas de EBRPHA están cerradas, así que no puede ayudar con renta de emergencia. Llame al 211 para referencias de refugio y de ayuda con la renta. Para ayuda con la renta o los servicios, llame a la Oficina de Servicios Sociales de la Ciudad-Parroquia al 225-358-4561. Si tiene un aviso de desalojo, llame a Southeast Louisiana Legal Services al (225) 448-0080 ese mismo día."
+      }
+    ],
+    "sources": [
+      {
+        "label": "EBRPHA - Página principal (ambas listas cerradas, teléfono, TDD, horario, cómo se anuncian las aperturas), en inglés",
+        "url": "https://www.ebrpha.org/"
+      },
+      {
+        "label": "EBRPHA - Applicants (estado de las listas, revisar su estado, solicitar a ambos programas), en inglés",
+        "url": "https://www.ebrpha.org/applicants"
+      },
+      {
+        "label": "EBRPHA - Housing Choice Voucher (requisitos, cómo funciona, portabilidad), en inglés",
+        "url": "https://www.ebrpha.org/housing-choice-voucher"
+      },
+      {
+        "label": "EBRPHA - Affordable Housing (comunidades, cómo solicitar, listas separadas), en inglés",
+        "url": "https://www.ebrpha.org/affordable-housing"
+      },
+      {
+        "label": "EBRPHA - Contact (dirección, teléfonos, TDD, horario), en inglés",
+        "url": "https://www.ebrpha.org/contact"
+      },
+      {
+        "label": "HUD - Directorio de PHAs de Luisiana (LA003 Combined; LA903 Section 8), en inglés",
+        "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_LA.pdf"
+      }
+    ]
+  }
+}
