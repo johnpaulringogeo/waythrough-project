@@ -36,7 +36,7 @@
     }
   ],
   "also_serving": [
-    "<strong>Rental Assistance Corporation of Buffalo (RACB)</strong>: HUD's PHA contact report lists RACB as NY409, \"Section 8 City of Buffalo,\" 470 Franklin Street, Buffalo, NY 14202, (716) 882-0063. RACB's own website, racbny.org, refused our checks on November 12, 2026, so we could not confirm whether its waiting list is open. Check racbny.org in your browser or call RACB before you assume either way.",
+    "<strong>Rental Assistance Corporation of Buffalo (RACB)</strong>: HUD's PHA contact report lists RACB as NY409, \"Section 8 City of Buffalo,\" 470 Franklin Street, Buffalo, NY 14202, (716) 882-0063. RACB says its list takes online applications from 8:00 am Monday, November 30, 2026 until 4:00 pm Friday, December 18, 2026, with spots assigned by lottery after it closes (checked November 12, 2026 at racbny.org/waiting-list). If that window has passed, check racbny.org for the next one.",
     "<strong>Belmont Housing Resources for WNY</strong>, 2393 Main Street, Buffalo, NY 14214, (716) 884-7791, runs New York State's (HCR) Housing Choice Vouchers for the Erie County Consortium. On November 12, 2026 its page said: \"Currently the waitlist for Erie County Consortium and the Niagara County program are closed and not accepting application.\" A September 16 to 18, 2026 opening took Family Unification Program referrals only. Its City of North Tonawanda program is taking applications, with a preference for people who live or work in North Tonawanda. Status line: 716-884-2358, ext. 307.",
     "<strong>BMHA does not run shelter.</strong> Its FAQ answers \"Does the BMHA provide emergency housing?\" with \"No.\" If you are homeless or about to be, call Erie County DSS at (716) 858-8000 during business hours, or 211 WNY at 1-888-696-9211 after 5 pm.",
     "<strong>BMHA is not an emergency rent fund.</strong> If you are behind on rent, see our <a href=\"../guides/emergency-rent-help-buffalo\">Buffalo emergency rent help guide</a>: Erie County DSS Emergency Services, Gerard Place, the WNY Eviction Prevention Project, 211 WNY, HEAP and New York's eviction deadlines. If you already live in BMHA housing or have a BMHA voucher and fall behind, call BMHA at 716-855-6711 right away."
@@ -44,7 +44,7 @@
   "faqs": [
     {
       "q": "Is the Buffalo Section 8 waiting list open?",
-      "a": "BMHA's is not. As of November 12, 2026, BMHA says its Housing Choice Voucher waitlist is closed and that it expects to reopen applications sometime in 2026; openings will be advertised in local media and on its social media. Belmont's Erie County Consortium list is closed too. We could not check the Rental Assistance Corporation of Buffalo's list, so call it at (716) 882-0063."
+      "a": "BMHA's is not. As of November 12, 2026, BMHA says its Housing Choice Voucher waitlist is closed and that it expects to reopen applications sometime in 2026; openings will be advertised in local media and on its social media. Belmont's Erie County Consortium list is closed too. The Rental Assistance Corporation of Buffalo's list takes online applications from November 30 to December 18, 2026 (8:00 am to 4:00 pm); if that window has passed, check racbny.org or call (716) 882-0063."
     },
     {
       "q": "How do I apply for BMHA public housing?",
@@ -126,7 +126,7 @@
       }
     ],
     "also_serving": [
-      "<strong>Rental Assistance Corporation of Buffalo (RACB)</strong>: el reporte de contactos de HUD registra a RACB como NY409, \"Section 8 City of Buffalo\" (Sección 8 de la ciudad de Buffalo), 470 Franklin Street, Buffalo, NY 14202, (716) 882-0063. El sitio de RACB, racbny.org, rechazó nuestras consultas el 12 de noviembre de 2026, así que no pudimos confirmar si su lista está abierta. Revise racbny.org desde su navegador o llame a RACB antes de suponer cualquier cosa.",
+      "<strong>Rental Assistance Corporation of Buffalo (RACB)</strong>: el reporte de contactos de HUD registra a RACB como NY409, \"Section 8 City of Buffalo\" (Sección 8 de la ciudad de Buffalo), 470 Franklin Street, Buffalo, NY 14202, (716) 882-0063. RACB dice que su lista recibe solicitudes en línea desde las 8:00 am del lunes 30 de noviembre de 2026 hasta las 4:00 pm del viernes 18 de diciembre de 2026, y que después asigna los lugares por sorteo (verificado el 12 de noviembre de 2026 en racbny.org/waiting-list). Si esa fecha ya pasó, revise racbny.org para la próxima apertura.",
       "<strong>Belmont Housing Resources for WNY</strong>, 2393 Main Street, Buffalo, NY 14214, (716) 884-7791, maneja los vales del estado de Nueva York (HCR) para el consorcio del condado de Erie. El 12 de noviembre de 2026 su página decía: \"Currently the waitlist for Erie County Consortium and the Niagara County program are closed and not accepting application\" (las listas del consorcio del condado de Erie y del condado de Niagara están cerradas). Una apertura del 16 al 18 de septiembre de 2026 fue solo para referidos del programa de Reunificación Familiar. Su programa de la ciudad de North Tonawanda recibe solicitudes, con preferencia para quienes viven o trabajan en North Tonawanda. Línea de estado: 716-884-2358, ext. 307.",
       "<strong>BMHA no tiene refugios.</strong> Sus preguntas frecuentes responden \"No\" a la pregunta de si ofrece vivienda de emergencia. Si está sin hogar o a punto de estarlo, llame al DSS del condado de Erie al (716) 858-8000 en horario de oficina, o a 211 WNY al 1-888-696-9211 después de las 5 pm.",
       "<strong>BMHA no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta, vea nuestra <a href=\"../guias/asistencia-renta-emergencia-buffalo\">guía de ayuda de emergencia con la renta en Buffalo</a>: los Servicios de Emergencia del DSS del condado de Erie, Gerard Place, el WNY Eviction Prevention Project, 211 WNY, HEAP y los plazos de desalojo de Nueva York. Si ya vive en vivienda de BMHA o tiene un vale de BMHA y se atrasa, llame a BMHA al 716-855-6711 de inmediato."
@@ -134,7 +134,7 @@
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 en Buffalo?",
-        "a": "La de BMHA no. Al 12 de noviembre de 2026, BMHA dice que su lista de vales está cerrada y que espera reabrir las solicitudes en algún momento de 2026; las aperturas se anunciarán en los medios locales y en sus redes sociales. La lista del consorcio del condado de Erie de Belmont también está cerrada. No pudimos revisar la lista de la Rental Assistance Corporation of Buffalo, así que llame al (716) 882-0063."
+        "a": "La de BMHA no. Al 12 de noviembre de 2026, BMHA dice que su lista de vales está cerrada y que espera reabrir las solicitudes en algún momento de 2026; las aperturas se anunciarán en los medios locales y en sus redes sociales. La lista del consorcio del condado de Erie de Belmont también está cerrada. La lista de la Rental Assistance Corporation of Buffalo recibe solicitudes en línea del 30 de noviembre al 18 de diciembre de 2026 (de 8:00 am a 4:00 pm); si esa fecha ya pasó, revise racbny.org o llame al (716) 882-0063."
       },
       {
         "q": "¿Cómo solicito vivienda pública de BMHA?",

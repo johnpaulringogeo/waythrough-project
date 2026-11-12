@@ -283,6 +283,7 @@ FAQ_LINK_TARGETS = {
     "applicant.atlantahousing.org": "https://applicant.atlantahousing.org",
     "applyonline.thecha.org": "https://applyonline.thecha.org",
     "bmhahousing.com": "https://www.bmhahousing.com",  # fetched live 2026-11-12 (Buffalo) in a browser; Buffalo Municipal Housing Authority, scripted fetches get 403
+    "racbny.org": "https://www.racbny.org/waiting-list",  # fetched live 2026-11-12 in Chrome; Rental Assistance Corp of Buffalo, window Nov 30-Dec 18 2026, scripted fetches get 403
     "boston.myhousing.com": "https://boston.myhousing.com",
     "bostonhousing.org": "https://bostonhousing.org",
     "caaofokc.org": "https://www.caaofokc.org",
