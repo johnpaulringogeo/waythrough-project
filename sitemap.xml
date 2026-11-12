@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://waythroughproject.com/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -141,7 +141,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -165,7 +165,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/donde-empezar</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -267,7 +267,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -723,7 +723,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1113,7 +1113,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/free-legal-help-for-tenants</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/housing-authorities/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1875,7 +1875,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/cities/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2301,7 +2301,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/where-to-start</loc>
-    <lastmod>2026-11-07</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3046,7 +3046,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3382,7 +3382,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3730,7 +3730,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/ayuda-legal-gratuita-inquilinos</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4412,7 +4412,7 @@
   <!-- Spanish housing-authority directory (ES parity batch) -->
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
