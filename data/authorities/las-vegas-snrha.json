@@ -5,6 +5,8 @@
   "schema_name": "Southern Nevada Regional Housing Authority",
   "short_name": "SNRHA",
   "title_name": "SNRHA Las Vegas",
+  "meta_title": "SNRHA Las Vegas Waiting List: Open or Closed? (Nov 2026)",
+  "meta_description": "SNRHA waitlists: Section 8 closed, public housing and RAD/PBV open (checked Oct 28, 2026); the 2026 PBV list closed Nov 16, 2026. How to apply.",
   "city": "Las Vegas",
   "state": "NV",
   "serves": "Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin and the rest of Clark County, Nevada",
@@ -131,6 +133,8 @@
   ],
   "es": {
     "serves": "Las Vegas, North Las Vegas, Henderson, Mesquite, Laughlin y el resto del condado de Clark, Nevada",
+    "meta_title": "SNRHA Las Vegas: ¿lista de espera abierta? (nov. 2026)",
+    "meta_description": "Listas de SNRHA: Sección 8 cerrada; vivienda pública y RAD/PBV abiertas (verificado el 28 de octubre de 2026); la lista PBV de 2026 cerró el 16 de noviembre.",
     "updated": "28 de octubre de 2026",
     "intro": "La Southern Nevada Regional Housing Authority (SNRHA) es la agencia de vivienda pública de todo el condado de Clark. Su página Applicant Overview dice que ofrece vivienda \"throughout Clark County, including Las Vegas, North Las Vegas, Henderson, Mesquite, and Laughlin\" (en todo el condado de Clark, incluidos Las Vegas, North Las Vegas, Henderson, Mesquite y Laughlin). HUD la registra como la PHA NV018 con un tipo de programa \"Combined\", en 340 North 11th Street, Las Vegas, NV 89101. SNRHA administra cuatro programas, cada uno con su propia lista de espera: los vales de la Sección 8, la vivienda pública, las comunidades RAD/PBV y la vivienda asequible sin ayuda federal. En resumen, al 28 de octubre de 2026: la lista de vales de la Sección 8 está cerrada. La lista de Project Based Voucher (vales basados en el proyecto) de 2026 de SNRHA recibió inscripciones en línea solo del 26 de octubre al 16 de noviembre de 2026 a las 5 p.m., y ya terminó: la página principal de SNRHA ahora dice \"PBV Waitlist is Closed\" (la lista de PBV está cerrada) (revisado el 18 de noviembre de 2026). Revise snvrha.org para la próxima apertura. Sus páginas de vivienda pública y de RAD/PBV decían \"Waitlist is Open\" (la lista de espera está abierta). Esta página explica cada lista con las palabras de SNRHA, las seis propiedades de PBV y sus tamaños, los puntos de preferencia, cómo funciona el portal RentCafe y lo que los veteranos pueden hacer en cualquier momento.",
     "programs": [

@@ -5,6 +5,8 @@
   "schema_name": "Metropolitan Development and Housing Agency",
   "short_name": "MDHA",
   "title_name": "MDHA Nashville",
+  "meta_title": "MDHA Nashville Waiting List: Open or Closed? (Nov 2026)",
+  "meta_description": "MDHA Nashville waitlists (checked Aug 25, 2026): Section 8 and agency-wide affordable lists closed; single properties open for short windows. How to apply.",
   "city": "Nashville",
   "state": "TN",
   "serves": "Nashville and Davidson County, Tennessee",
@@ -124,6 +126,8 @@
   ],
   "es": {
     "serves": "Nashville y el condado de Davidson, Tennessee",
+    "meta_title": "MDHA Nashville: ¿lista de espera abierta? (nov. 2026)",
+    "meta_description": "Listas de MDHA (verificado el 25 de agosto de 2026): Sección 8 y vivienda asequible de toda la agencia cerradas; algunas propiedades abren por poco tiempo.",
     "updated": "25 de agosto de 2026",
     "intro": "La Metropolitan Development and Housing Agency (MDHA) es la autoridad de vivienda de Nashville y el condado de Davidson, Tennessee. Fue creada en 1938 como la Nashville Housing Authority y adoptó su nombre actual en 1973; hoy da vivienda a unas 30,000 personas mediante unos 8,000 vales de la Sección 8 y más de 6,700 apartamentos propios. Lo primero que encuentra la mayoría es que las listas principales de vales y de vivienda asequible de MDHA están cerradas. Eso es cierto, y también es solo la mitad de la historia: MDHA abre listas de espera de comunidades de apartamentos concretas varias veces al año, las anuncia con pocos días de anticipación y las cierra en aproximadamente una semana. Esta página cubre ambas cosas, además de cómo comunicarse con el departamento correcto y cómo mantener viva una solicitud ya presentada.",
     "programs": [

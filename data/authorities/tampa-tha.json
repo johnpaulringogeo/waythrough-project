@@ -5,6 +5,8 @@
   "schema_name": "Housing Authority of the City of Tampa",
   "short_name": "THA",
   "title_name": "Tampa Housing Authority",
+  "meta_title": "Tampa Housing Authority Waiting List Open? (Nov 2026)",
+  "meta_description": "Tampa Housing Authority waitlists (checked Sep 9, 2026): Section 8 closed until further notice; THA says other lists are closed except what its portal shows.",
   "city": "Tampa",
   "state": "FL",
   "serves": "the City of Tampa and Hillsborough County, Florida",
@@ -159,6 +161,8 @@
   ],
   "es": {
     "serves": "la ciudad de Tampa y el condado de Hillsborough, Florida",
+    "meta_title": "Tampa Housing Authority: ¿lista abierta? (nov. 2026)",
+    "meta_description": "Tampa Housing Authority (verificado el 9 de septiembre de 2026): Sección 8 cerrada hasta nuevo aviso; las demás, cerradas salvo lo que muestre su portal.",
     "updated": "9 de septiembre de 2026",
     "intro": "Si usted está buscando la \"Housing Authority of Hillsborough County\", lo más importante que debe saber es esto: la lista de HUD para Florida no incluye ninguna. Las únicas dos agencias de vivienda pública del condado son la Housing Authority of the City of Tampa, código FL003 de HUD, y la mucho más pequeña Plant City Housing Authority, FL034. Y la propia página About de Tampa Housing Authority dice que \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County\" (ofrece oportunidades de vivienda para residentes de la ciudad de Tampa y del condado de Hillsborough). Así que si usted vive en la zona no incorporada del condado de Hillsborough, es muy probable que Tampa Housing Authority sea su agencia, y esta página explica cómo funciona: qué dicen sus propias páginas que está cerrado, el único lugar donde indica buscar lo que esté abierto, y las tres reglas de visita que le harán perder el viaje si no las conoce.",
     "programs": [

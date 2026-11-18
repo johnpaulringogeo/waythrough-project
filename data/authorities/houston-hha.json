@@ -4,6 +4,8 @@
   "name": "Housing Alliance HTX (Houston Housing Authority)",
   "short_name": "Housing Alliance HTX",
   "title_name": "Houston Housing Authority",
+  "meta_title": "Houston Housing Authority Waiting List Open? (Nov 2026)",
+  "meta_description": "Houston Housing Authority waitlists: Section 8 (HCV) closed, no reopening announced as of Nov 3, 2026; the public housing lottery closed July 7, 2026.",
   "city": "Houston",
   "state": "TX",
   "serves": "the City of Houston, Texas",
@@ -90,6 +92,8 @@
   ],
   "es": {
     "serves": "la ciudad de Houston, Texas",
+    "meta_title": "Houston Housing Authority: ¿lista abierta? (nov. 2026)",
+    "meta_description": "Houston Housing Authority: Sección 8 (HCV) cerrada, sin reapertura anunciada al 3 de noviembre de 2026; la lotería de vivienda pública cerró el 7 de julio.",
     "updated": "noviembre de 2026",
     "intro": "Housing Alliance HTX (la Autoridad de Vivienda de Houston, o HHA, que comenzó a operar bajo el nombre Housing Alliance HTX en 2025) es la autoridad pública de vivienda (PHA) que administra los Housing Choice Vouchers de la Sección 8, la vivienda pública y los vales basados en proyectos para la ciudad de Houston. Esta página resume el estado actual de la lista de espera de HHA, su información de contacto y cómo solicitar, y enlaza al sitio oficial de HHA para cualquier asunto urgente.",
     "programs": [
