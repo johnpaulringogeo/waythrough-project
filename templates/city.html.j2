@@ -63,6 +63,12 @@
 
     <main id="main-content" class="container post-content fade-in">
         {{ data.intro_html | safe }}
+        {%- if guide_link_html %}
+
+        <div class="callout guide-callout">
+            <p style="margin: 0;">{{ guide_link_html | safe }}</p>
+        </div>
+        {%- endif %}
 
         {%- if data.quick_numbers %}
         <div class="callout">

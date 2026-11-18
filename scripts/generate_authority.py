@@ -44,6 +44,7 @@ from jinja2 import Environment, FileSystemLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from generate_page import link_phones  # noqa: E402  (tap-to-call, same rules as js/components.js)
+from generate_page import local_guide  # noqa: E402  (the city's local guide link, from its city JSON)
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "authorities"
@@ -256,6 +257,9 @@ def build_strings(m, lang, p):
     phone = m.get("phone", "")
     apply_guide = f'{p["guides_base"]}{p["apply_guide"]}'
     find_pha = f'{p["guides_base"]}{p["find_pha"]}'
+    # Local emergency-rent guide for this authority's city, shown in the Quick
+    # Facts box (GSC review 2026-11, opportunity 1a). "" when the city has none.
+    guide_html = local_guide(m.get("city_slug"), lang, p["canonical_path"].lstrip("/").rsplit("/", 1)[0])
 
     if lang == "en":
         t = {
@@ -273,6 +277,7 @@ def build_strings(m, lang, p):
                 f'                        <strong>Official site:</strong> <a href="{off}" target="_blank" rel="noopener">{strip_scheme(off)}</a><br>\n'
                 f'                        <strong>Apply:</strong> <a href="{app}" target="_blank" rel="noopener">{short} application page</a><br>\n'
                 f"                        <strong>Status last checked:</strong> {m['updated']}"),
+            "guide_html": guide_html,
             "waitlist_status": "Waiting-List Status",
             "waitlist_intro": ("Waiting lists open and close often. The status below is what we found the last "
                                "time we checked; confirm it on the official site before you count on it."),
@@ -320,6 +325,7 @@ def build_strings(m, lang, p):
             f'                        <strong>Sitio oficial:</strong> <a href="{off}" target="_blank" rel="noopener">{strip_scheme(off)}</a><br>\n'
             f'                        <strong>Solicitar:</strong> <a href="{app}" target="_blank" rel="noopener">página de solicitud de {short}</a><br>\n'
             f"                        <strong>Estado verificado por última vez:</strong> {m['updated']}"),
+        "guide_html": guide_html,
         "waitlist_status": "Estado de la lista de espera",
         "waitlist_intro": ("Las listas de espera abren y cierran a menudo. El estado de abajo es lo que encontramos "
                            "la última vez que lo verificamos; confírmelo en el sitio oficial antes de contar con él."),

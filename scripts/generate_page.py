@@ -28,6 +28,7 @@ import glob
 import html
 import json
 import os
+import posixpath
 import re
 import sys
 from pathlib import Path
@@ -654,6 +655,77 @@ def link_phones(page_html):
     return page_html[:start] + "".join(out) + page_html[stop:]
 
 
+# ---------------------------------------------------------------------------
+# Local emergency-rent guide link at the top of the page (GSC review 2026-11,
+# opportunity 1a). Each city with a local guide already links it somewhere in
+# its JSON ("../guides/emergency-rent-help-<x>" in EN, ".../guias/
+# asistencia-renta-emergencia-<x>" in ES). city_guide() finds that link and
+# the template repeats it as one callout right after the intro, so the guide
+# gets a first-screen link from the city page. A city whose JSON links no guide
+# (or links one that is not on disk) gets no callout. generate_authority.py
+# uses local_guide() for the same link in each authority's Quick Facts box.
+# ---------------------------------------------------------------------------
+GUIDE_LINK_RE = {
+    "en": re.compile(r'href="([^"#?]*guides/emergency-rent-help-[a-z0-9-]+?)(?:\.html)?["#?]'),
+    "es": re.compile(r'href="([^"#?]*guias/asistencia-renta-emergencia-[a-z0-9-]+?)(?:\.html)?["#?]'),
+}
+CITY_PAGE_DIR = {"en": "resources/cities", "es": "es/recursos/ciudades"}
+
+
+def city_guide(lang, data):
+    """Repo-root path (no .html) of the city's local guide, from the guide link
+    its own JSON block already carries, or None if it links none."""
+    pat = GUIDE_LINK_RE[lang]
+    found = [(CITY_PAGE_DIR[lang], m.group(1))
+             for key in ("intro_html", "body_html", "next_steps_html")
+             for m in pat.finditer(data.get(key) or "")]
+    # related_resources hrefs are repo-root paths (the template adds rel_prefix).
+    found += [("", m.group(1)) for r in data.get("related_resources") or []
+              for m in pat.finditer(f'href="{r.get("href", "")}"')]
+    for base, href in found:
+        path = posixpath.normpath(posixpath.join(base, href))
+        if (REPO_ROOT / (path + ".html")).is_file():
+            return path
+    return None
+
+
+def guide_city_name(lang, data):
+    """The city as the guide callout names it: an explicit "guide_city_name" in
+    the lang block, else the breadcrumb label minus its "Housing" wording."""
+    if data.get("guide_city_name"):
+        return data["guide_city_name"]
+    label = data["breadcrumb_label"]
+    return label.removesuffix(" Housing") if lang == "en" else label.removeprefix("Vivienda en ")
+
+
+GUIDE_CALLOUT = {
+    "en": ('<strong>Behind on rent or facing eviction in {c}?</strong> '
+           'See our <a href="{h}">{c} emergency rent and eviction help guide</a>.'),
+    "es": ('<strong>¿Está atrasado con la renta o enfrenta un desalojo en {c}?</strong> '
+           'Vea nuestra <a href="{h}">guía de ayuda con la renta y el desalojo en {c}</a>.'),
+}
+
+
+def guide_callout_html(lang, data, from_dir):
+    """The one-sentence guide link for a city's lang block, with the href made
+    relative to from_dir (the page's own directory), or "" if there is no guide."""
+    path = city_guide(lang, data)
+    if not path:
+        return ""
+    href = posixpath.relpath(path, from_dir)
+    return GUIDE_CALLOUT[lang].format(c=html.escape(guide_city_name(lang, data)), h=href)
+
+
+def local_guide(city_slug, lang, from_dir):
+    """guide_callout_html() for data/cities/<city_slug>.json; "" if that city
+    has no page, no block in this language, or no guide."""
+    f = DATA_DIR / "cities" / f"{city_slug}.json"
+    if not city_slug or not f.is_file():
+        return ""
+    spec = json.loads(f.read_text(encoding="utf-8"))
+    return guide_callout_html(lang, spec[lang], from_dir) if lang in spec else ""
+
+
 TITLE_MAX = 60
 
 
@@ -696,6 +768,8 @@ def render_one(env, kind, lang, slug, data, layout):
         breadcrumb_json=breadcrumb_json,
         faq_json=faq_json,
         faq_items=faq_items,
+        guide_link_html=(guide_callout_html(lang, data, posixpath.dirname(layout["output_path"]))
+                         if kind == "city" else ""),
     )
     # Tap-to-call: plain-text phone numbers in <main> become tel: links.
     html = link_phones(html)

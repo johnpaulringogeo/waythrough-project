@@ -72,6 +72,9 @@
                 <div class="callout">
                     <h2 style="font-size:1.1rem;margin-top:0;">{{ t.quick_facts }}</h2>
                     <p>{{ t.quick_facts_html }}</p>
+                    {%- if t.guide_html %}
+                    <p style="margin-bottom:0;">{{ t.guide_html }}</p>
+                    {%- endif %}
                 </div>
 
                 <p>{{ data.intro }}</p>
