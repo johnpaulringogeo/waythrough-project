@@ -30,9 +30,15 @@ JSON shape (one file per question, named <slug>.json):
         "body_html":    the answer: <h2>/<h3>/<p>/<ul>/<ol>, 16-space indent not required
         "links":        [{"href": "/resources/guides/x", "label": "...", "note": "..."}]
         "sources":      [{"url": "https://...", "label": "..."}]   primary sources only
+        "official":     OPTIONAL {"url": "https://...", "label": "...", "note": "..."}: the one
+                        official page the reader should act on (a HUD form, an agency portal).
+                        Shown first in the "Your next step" block.
       },
       "es": { same keys, in Spanish }
     }
+
+Every question page also gets a standard "Your next step" block (template): the official
+link if set, the city hub, the emergency rent help guide, 211 and the free legal help guide.
 
 Links: write site paths starting with "/" ("/resources/guides/x", "/es/recursos/guias/y");
 they are rewritten to relative links for the page's depth, the way every other page links.
@@ -82,7 +88,19 @@ T = {
         "question_heading": "The question",
         "privacy_note": "Sent through our Ask a Question form. We removed names, places and other details so no one can be identified.",
         "short_answer": "The short answer",
-        "not_legal_advice_html": "<strong>This is general information, not legal advice.</strong> Rules differ by state and by housing authority. For your own situation, talk to your housing authority, a <a href=\"{legal}\">free legal aid office</a>, or call 211.",
+        "not_legal_advice_html": "<strong>This is general information, not legal advice.</strong> Rules differ by state and by housing authority. For your own situation, talk to your housing authority, a free legal aid office, or 211 (links below).",
+        "next_heading": "Your next step",
+        "next_official_label": "Go to the official source",
+        "next_city_label": "Find help in your city",
+        "next_city_h": "Pick your city",
+        "next_city_p": "Your city's housing authority, waitlists, emergency help and tenant rights on one page.",
+        "next_era_h": "Emergency rent help",
+        "next_era_p": "Behind on rent or facing eviction? Where rent help comes from and how to apply for it.",
+        "next_talk_label": "Talk to someone free",
+        "next_211_h": "Call 211",
+        "next_211_p": "Local help with shelter, rent and utility bills. Calls are free and confidential.",
+        "next_legal_h": "Free legal help",
+        "next_legal_p": "How to find a legal aid office or free tenant lawyer near you, and what to bring.",
         "guides_heading": "Our longer guides on this",
         "related_heading": "Other readers asked",
         "sources": "Sources",
@@ -102,7 +120,19 @@ T = {
         "question_heading": "La pregunta",
         "privacy_note": "Enviada por nuestro formulario de preguntas. Quitamos nombres, lugares y otros detalles para que nadie pueda ser identificado.",
         "short_answer": "La respuesta corta",
-        "not_legal_advice_html": "<strong>Esto es información general, no asesoría legal.</strong> Las reglas cambian según el estado y la autoridad de vivienda. Para su caso, hable con su autoridad de vivienda, con una <a href=\"{legal}\">oficina de ayuda legal gratuita</a> o llame al 211.",
+        "not_legal_advice_html": "<strong>Esto es información general, no asesoría legal.</strong> Las reglas cambian según el estado y la autoridad de vivienda. Para su caso, hable con su autoridad de vivienda, con una oficina de ayuda legal gratuita o con el 211 (enlaces abajo).",
+        "next_heading": "Su siguiente paso",
+        "next_official_label": "Vaya a la fuente oficial",
+        "next_city_label": "Encuentre ayuda en su ciudad",
+        "next_city_h": "Busque su ciudad",
+        "next_city_p": "La autoridad de vivienda de su ciudad, las listas de espera, la ayuda de emergencia y sus derechos como inquilino en una sola página.",
+        "next_era_h": "Ayuda de emergencia con la renta",
+        "next_era_p": "¿Está atrasado con la renta o enfrenta un desalojo? De dónde viene la ayuda y cómo solicitarla.",
+        "next_talk_label": "Hable con alguien gratis",
+        "next_211_h": "Llame al 211",
+        "next_211_p": "Ayuda local con refugio, renta y facturas de servicios. La llamada es gratis y confidencial.",
+        "next_legal_h": "Ayuda legal gratuita",
+        "next_legal_p": "Cómo encontrar una oficina de ayuda legal o un abogado gratis para inquilinos cerca de usted, y qué llevar.",
         "guides_heading": "Nuestras guías más completas sobre el tema",
         "related_heading": "Otros lectores preguntaron",
         "sources": "Fuentes",
@@ -122,11 +152,23 @@ PATHS = {
     # All four page kinds sit two (EN) or three (ES) levels below the site root.
     "en": {"rel": "../../", "home": "../../", "resources": "../", "ask": "../ask",
            "community": "../community-answers", "faq": "../faq",
-           "legal": "../guides/free-legal-help-for-tenants"},
+           "legal": "../guides/free-legal-help-for-tenants",
+           "cities": "../cities/", "era": "../guides/emergency-rental-assistance"},
     "es": {"rel": "../../../", "home": "../../", "resources": "../", "ask": "../preguntar",
            "community": "../respuestas-de-la-comunidad", "faq": "../preguntas-frecuentes",
-           "legal": "../guias/ayuda-legal-gratuita-inquilinos"},
+           "legal": "../guias/ayuda-legal-gratuita-inquilinos",
+           "cities": "../ciudades/", "era": "../guias/asistencia-renta-emergencia"},
 }
+# Site paths the standard next-step block always links. If a question's "links" list
+# points at one of them too, that entry is dropped from "Our longer guides" so the
+# page doesn't carry the same link twice.
+NEXT_STEP_PATHS = {
+    "en": {"cities": "/resources/cities/", "era": "/resources/guides/emergency-rental-assistance",
+           "legal": "/resources/guides/free-legal-help-for-tenants"},
+    "es": {"cities": "/es/recursos/ciudades/", "era": "/es/recursos/guias/asistencia-renta-emergencia",
+           "legal": "/es/recursos/guias/ayuda-legal-gratuita-inquilinos"},
+}
+HELP_211 = "https://www.211.org/"
 
 
 def site_links(s, rel):
@@ -149,6 +191,10 @@ def load():
             title = d[lang]["title"] + SUFFIX
             if len(title) > TITLE_MAX:
                 raise ValueError(f"{d['slug']} ({lang}): title is {len(title)} chars with the suffix, max {TITLE_MAX}")
+            off = d[lang].get("official")
+            if off is not None and (not str(off.get("url", "")).startswith("https://")
+                                    or not off.get("label") or not off.get("note")):
+                raise ValueError(f"{d['slug']} ({lang}): official needs an https url, a label and a note")
             n = len(d[lang]["description"])
             if not DESC_MIN <= n <= DESC_MAX:
                 raise ValueError(f"{d['slug']} ({lang}): description is {n} chars, want {DESC_MIN}-{DESC_MAX}")
@@ -224,7 +270,10 @@ def render_all():
             slug = page_slug(d, lang)
             url = SITE + URL_DIR[lang] + slug
             m["body_html"] = site_links(m["body_html"], p["rel"])
-            m["links"] = [dict(l, href=site_links('href="%s"' % l["href"], p["rel"])[6:-1]) for l in m["links"]]
+            block_paths = {v.rstrip("/") for v in NEXT_STEP_PATHS[lang].values()}
+            m["links"] = [dict(l, href=site_links('href="%s"' % l["href"], p["rel"])[6:-1])
+                          for l in m["links"] if l["href"].rstrip("/") not in block_paths]
+            m["official"] = m.get("official")
             m["related"] = [{"href": page_slug(qs[r], lang), "h1": qs[r][lang]["h1"]} for r in d.get("related", [])]
             page = tmpl.render(
                 page_kind="question", lang=lang, q=m,
@@ -235,6 +284,7 @@ def render_all():
                 alt_en_url=SITE + URL_DIR["en"] + d["slug"],
                 alt_es_url=SITE + URL_DIR["es"] + d["es_slug"],
                 rel_prefix=p["rel"], home_href=p["home"], resources_href=p["resources"], hub_href="./",
+                next_links={"cities": p["cities"], "era": p["era"], "legal": p["legal"], "help211": HELP_211},
                 breadcrumb_json=breadcrumb(lang, m["crumb"]), article_json=article(d, lang, url),
             )
             written.append(write(OUT[lang] / f"{slug}.html", page, lang, slug))

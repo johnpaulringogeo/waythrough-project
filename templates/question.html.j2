@@ -81,6 +81,42 @@
                     <p>{{ t.not_legal_advice_html }}</p>
                 </div>
 
+                <section class="related-resources">
+                    <h2 style="margin-bottom:0.75rem;">{{ t.next_heading }}</h2>
+                    {%- if q.official %}
+                    <p style="margin:0 0 0.75rem;"><strong>{{ t.next_official_label }}</strong></p>
+                    <div class="related-list">
+                        <a href="{{ q.official.url }}" target="_blank" rel="noopener" class="related-item">
+                            <h3>{{ q.official.label }}</h3>
+                            <p>{{ q.official.note }}</p>
+                        </a>
+                    </div>
+                    {%- endif %}
+                    <p style="margin:{{ '1.5rem' if q.official else '0' }} 0 0.75rem;"><strong>{{ t.next_city_label }}</strong></p>
+                    <div class="related-list">
+                        <a href="{{ next_links.cities }}" class="related-item">
+                            <h3>{{ t.next_city_h }}</h3>
+                            <p>{{ t.next_city_p }}</p>
+                        </a>
+                        <a href="{{ next_links.era }}" class="related-item">
+                            <h3>{{ t.next_era_h }}</h3>
+                            <p>{{ t.next_era_p }}</p>
+                        </a>
+                    </div>
+                    <p style="margin:1.5rem 0 0.75rem;"><strong>{{ t.next_talk_label }}</strong></p>
+                    <div class="related-list">
+                        <a href="{{ next_links.help211 }}" target="_blank" rel="noopener" class="related-item">
+                            <h3>{{ t.next_211_h }}</h3>
+                            <p>{{ t.next_211_p }}</p>
+                        </a>
+                        <a href="{{ next_links.legal }}" class="related-item">
+                            <h3>{{ t.next_legal_h }}</h3>
+                            <p>{{ t.next_legal_p }}</p>
+                        </a>
+                    </div>
+                </section>
+
+
                 {%- if q.links %}
                 <h2>{{ t.guides_heading }}</h2>
                 <div class="related-list">
