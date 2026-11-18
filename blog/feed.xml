@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Is Section 8 Taxable? What Voucher Holders Need to Know at Tax Time</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-and-taxes</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-and-taxes</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Section 8 rent help is not taxable income. Learn how tax refunds, the EITC, and side income affect your voucher, plus where to file your taxes for free.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>How to Report Unsafe Housing Conditions (and When HUD Can Help)</title>

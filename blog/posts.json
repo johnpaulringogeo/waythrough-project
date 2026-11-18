@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "title": "Is Section 8 Taxable? What Voucher Holders Need to Know at Tax Time",
+      "description": "Section 8 rent help is not taxable income. Learn how tax refunds, the EITC, and side income affect your voucher, plus where to file your taxes for free.",
+      "url": "blog/posts/section-8-and-taxes.html",
+      "date": "2026-11-18",
+      "readTime": "5 min read",
+      "tag": "Guide"
+    },
+    {
       "title": "How to Report Unsafe Housing Conditions (and When HUD Can Help)",
       "description": "Mold, no heat, or a landlord who will not fix it? Learn who to call: code enforcement, your housing authority, or HUD, and what each one can make happen.",
       "url": "blog/posts/how-to-report-unsafe-housing-conditions.html",
