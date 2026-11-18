@@ -759,7 +759,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rental-assistance</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -807,7 +807,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/family-self-sufficiency</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -963,7 +963,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/how-to-request-reasonable-accommodation</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2434,7 +2434,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/blog/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3400,7 +3400,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3508,7 +3508,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-presentar-queja-discriminacion</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3538,7 +3538,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-solicitar-acomodacion-razonable</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3622,7 +3622,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/programa-autosuficiencia-familiar</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3634,7 +3634,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/programas-reparacion-vivienda</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4406,6 +4406,12 @@
   <url>
     <loc>https://waythroughproject.com/es/blog/posts/como-reportar-condiciones-de-vivienda-inseguras</loc>
     <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/blog/posts/seccion-8-e-impuestos</loc>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
