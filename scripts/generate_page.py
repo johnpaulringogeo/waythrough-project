@@ -325,6 +325,7 @@ FAQ_LINK_TARGETS = {
     "housing.lacity.gov": "https://housing.lacity.gov",  # fetched live 2026-10-15 (SEO2); LAHD, the City of LA housing department
     "housing.sfgov.org": "https://housing.sfgov.org",
     "housinglink.org": "https://www.housinglink.org",
+    "huduser.gov/lihtc": "https://www.huduser.gov/lihtc/",  # fetched live 2026-11-18 in a browser; HUD's LIHTC Database Access page (lihtc.huduser.gov redirects here)
     "indyhousing.org": "https://www.indyhousing.org",
     "jacksonvilleevictiondiversion.org": "https://jacksonvilleevictiondiversion.org",
     "kcba.org": "https://www.kcba.org",
