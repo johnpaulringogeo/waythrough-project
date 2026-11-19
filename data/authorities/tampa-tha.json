@@ -6,7 +6,7 @@
   "short_name": "THA",
   "title_name": "Tampa Housing Authority",
   "meta_title": "Tampa Housing Authority Waiting List Open? (Nov 2026)",
-  "meta_description": "Tampa Housing Authority waitlists (checked Sep 9, 2026): Section 8 closed until further notice; THA says other lists are closed except what its portal shows.",
+  "meta_description": "Tampa Housing Authority waitlists (checked Nov 18, 2026): Section 8 closed until further notice; THA says other lists are closed except what its portal shows.",
   "city": "Tampa",
   "state": "FL",
   "serves": "the City of Tampa and Hillsborough County, Florida",
@@ -15,7 +15,7 @@
   "apply_url": "https://www.tampaha.org/apply-online",
   "city_slug": "tampa",
   "state_slug": "florida",
-  "updated": "September 9, 2026",
+  "updated": "November 18, 2026",
   "intro": "If you are searching for the \"Housing Authority of Hillsborough County,\" here is the key thing to know: HUD's Florida list does not contain one. The only two public housing agencies in the county are the Housing Authority of the City of Tampa, HUD code FL003, and the much smaller Plant City Housing Authority, FL034. And Tampa Housing Authority's own About page states that it \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County.\" So if you live in unincorporated Hillsborough County, Tampa Housing Authority is very likely your agency, and this page is about how it works: what its own pages say is closed, the one place it says to look for whatever is open, and the three visiting rules that will waste your trip if you do not know them.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
@@ -27,7 +27,7 @@
     {
       "program": "Housing Choice Voucher (Section 8)",
       "status": "Closed",
-      "note": "Closed with no reopening date. THA's dedicated page states, verbatim (checked September 9, 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice.\" The same page adds a warning worth repeating: \"Be extremely cautious of scams.\" Nobody legitimate charges a fee to put you on a THA list."
+      "note": "Closed with no reopening date. THA's dedicated page states, verbatim (checked November 18, 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice.\" The same page adds a warning worth repeating: \"Be extremely cautious of scams.\" Nobody legitimate charges a fee to put you on a THA list."
     },
     {
       "program": "All other THA waiting lists",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Is the Tampa Section 8 waiting list open?",
-      "a": "No. THA's dedicated page says: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (checked September 9, 2026). No reopening date is published. For everything else, THA's Apply Online page says \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed,\" which hints that something may be selectable inside the portal without naming it. We are not going to claim a list is open on that basis, and we are not going to claim none is. THA's FAQ tells you how to read the absence: \"if no waitlists are visible, it means none are currently available.\" Check for yourself and call 813.341.9101."
+      "a": "No. THA's dedicated page says: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (checked November 18, 2026). No reopening date is published. For everything else, THA's Apply Online page says \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed,\" which hints that something may be selectable inside the portal without naming it. We are not going to claim a list is open on that basis, and we are not going to claim none is. THA's FAQ tells you how to read the absence: \"if no waitlists are visible, it means none are currently available.\" Check for yourself and call 813.341.9101."
     },
     {
       "q": "Does applying the moment a list opens help?",
@@ -162,8 +162,8 @@
   "es": {
     "serves": "la ciudad de Tampa y el condado de Hillsborough, Florida",
     "meta_title": "Tampa Housing Authority: ¿lista abierta? (nov. 2026)",
-    "meta_description": "Tampa Housing Authority (verificado el 9 de septiembre de 2026): Sección 8 cerrada hasta nuevo aviso; las demás, cerradas salvo lo que muestre su portal.",
-    "updated": "9 de septiembre de 2026",
+    "meta_description": "Tampa Housing Authority (verificado el 18 de noviembre de 2026): Sección 8 cerrada hasta nuevo aviso; las demás, cerradas salvo lo que muestre su portal.",
+    "updated": "18 de noviembre de 2026",
     "intro": "Si usted está buscando la \"Housing Authority of Hillsborough County\", lo más importante que debe saber es esto: la lista de HUD para Florida no incluye ninguna. Las únicas dos agencias de vivienda pública del condado son la Housing Authority of the City of Tampa, código FL003 de HUD, y la mucho más pequeña Plant City Housing Authority, FL034. Y la propia página About de Tampa Housing Authority dice que \"offers housing opportunities to serve residents of the City of Tampa and Hillsborough County\" (ofrece oportunidades de vivienda para residentes de la ciudad de Tampa y del condado de Hillsborough). Así que si usted vive en la zona no incorporada del condado de Hillsborough, es muy probable que Tampa Housing Authority sea su agencia, y esta página explica cómo funciona: qué dicen sus propias páginas que está cerrado, el único lugar donde indica buscar lo que esté abierto, y las tres reglas de visita que le harán perder el viaje si no las conoce.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
@@ -175,7 +175,7 @@
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "Cerrada y sin fecha de reapertura. La página dedicada de THA dice, textualmente (verificado el 9 de septiembre de 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (la lista para recibir el vale de la Sección 8 está cerrada y no aceptará solicitudes hasta nuevo aviso). La misma página agrega una advertencia que vale la pena repetir: \"Be extremely cautious of scams\" (tenga mucho cuidado con las estafas). Nadie legítimo le va a cobrar por ponerlo en una lista de THA."
+        "note": "Cerrada y sin fecha de reapertura. La página dedicada de THA dice, textualmente (verificado el 18 de noviembre de 2026): \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (la lista para recibir el vale de la Sección 8 está cerrada y no aceptará solicitudes hasta nuevo aviso). La misma página agrega una advertencia que vale la pena repetir: \"Be extremely cautious of scams\" (tenga mucho cuidado con las estafas). Nadie legítimo le va a cobrar por ponerlo en una lista de THA."
       },
       {
         "program": "Todas las demás listas de espera de THA",
@@ -202,7 +202,7 @@
       },
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Tampa?",
-        "a": "No. La página dedicada de THA dice: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (verificado el 9 de septiembre de 2026). No hay fecha de reapertura publicada. Para todo lo demás, la página Apply Online de THA dice \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed\", lo que insinúa que puede haber algo seleccionable dentro del portal sin nombrarlo. No vamos a afirmar que haya una lista abierta con esa base, ni vamos a afirmar que no la haya. Las preguntas frecuentes de THA explican cómo leer la ausencia: \"if no waitlists are visible, it means none are currently available\" (si no se ve ninguna lista, es que no hay ninguna disponible). Compruébelo usted mismo y llame al 813.341.9101."
+        "a": "No. La página dedicada de THA dice: \"Currently the waitlist to receive Housing Choice Voucher (Section 8) is closed and will NOT be accepting applications until further notice\" (verificado el 18 de noviembre de 2026). No hay fecha de reapertura publicada. Para todo lo demás, la página Apply Online de THA dice \"Waitlists: Please go to this site and select the open application. At this time all other Tampa Housing Waitlists are closed\", lo que insinúa que puede haber algo seleccionable dentro del portal sin nombrarlo. No vamos a afirmar que haya una lista abierta con esa base, ni vamos a afirmar que no la haya. Las preguntas frecuentes de THA explican cómo leer la ausencia: \"if no waitlists are visible, it means none are currently available\" (si no se ve ninguna lista, es que no hay ninguna disponible). Compruébelo usted mismo y llame al 813.341.9101."
       },
       {
         "q": "¿Ayuda solicitar en el momento en que abre una lista?",

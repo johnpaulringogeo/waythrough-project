@@ -6,7 +6,7 @@
   "short_name": "MDHA",
   "title_name": "MDHA Nashville",
   "meta_title": "MDHA Nashville Waiting List: Open or Closed? (Nov 2026)",
-  "meta_description": "MDHA Nashville waitlists (checked Aug 25, 2026): Section 8 and agency-wide affordable lists closed; single properties open for short windows. How to apply.",
+  "meta_description": "MDHA Nashville waitlists (checked Nov 18, 2026): Section 8 and agency-wide affordable lists closed; single properties open for short windows. How to apply.",
   "city": "Nashville",
   "state": "TN",
   "serves": "Nashville and Davidson County, Tennessee",
@@ -15,7 +15,7 @@
   "apply_url": "https://www.nashville-mdha.org/apply-for-housing/",
   "city_slug": "nashville",
   "state_slug": "tennessee",
-  "updated": "August 25, 2026",
+  "updated": "November 18, 2026",
   "intro": "The Metropolitan Development and Housing Agency (MDHA) is the housing authority for Nashville and Davidson County, Tennessee. It was created in 1938 as the Nashville Housing Authority and took its current name in 1973, and it now houses roughly 30,000 people through about 8,000 Housing Choice Vouchers and more than 6,700 apartments it owns. The headline most people find is that MDHA's main voucher and affordable-housing waiting lists are closed. That is true, and it is also only half the story: MDHA opens waiting lists for individual apartment communities several times a year, they are announced only a few days ahead, and they close within about a week. This page covers both, plus how to reach the right department and how to keep an existing application alive.",
   "programs": [
     "Housing Choice Voucher (Section 8)",
@@ -32,12 +32,12 @@
     {
       "program": "Housing Choice Voucher (Section 8)",
       "status": "Closed",
-      "note": "Closed (checked August 25, 2026). MDHA's wording is: \"MDHA is not currently accepting applications for our voucher program waiting lists.\" No reopening date has been published. MDHA says it \"announces waiting list openings in advance here on our website and on our social media pages (@NashvilleMDHA), so we encourage you to check back regularly for the latest information.\" If you already applied, MDHA says you can \"check your position on the waiting list by logging into Rent Cafe with the username you used to submit your application.\""
+      "note": "Closed (checked November 18, 2026). MDHA's wording is: \"MDHA is not currently accepting applications for our voucher program waiting lists.\" No reopening date has been published. MDHA says it \"announces waiting list openings in advance here on our website and on our social media pages (@NashvilleMDHA), so we encourage you to check back regularly for the latest information.\" If you already applied, MDHA says you can \"check your position on the waiting list by logging into Rent Cafe with the username you used to submit your application.\""
     },
     {
       "program": "MDHA affordable-housing waiting lists, agency-wide",
       "status": "Closed",
-      "note": "Closed (checked August 25, 2026): \"MDHA is not currently accepting applications for our affordable housing waiting lists.\" This is the agency-wide list, and it is not the same thing as the individual property lists below."
+      "note": "Closed (checked November 18, 2026): \"MDHA is not accepting applications for our affordable housing waiting lists at this time.\" This is the agency-wide list, and it is not the same thing as the individual property lists below."
     },
     {
       "program": "Individual apartment communities, opened one at a time",
@@ -55,7 +55,7 @@
   "faqs": [
     {
       "q": "Is the Nashville Section 8 waiting list open?",
-      "a": "No. As of August 25, 2026 MDHA states that it \"is not currently accepting applications for our voucher program waiting lists,\" and it has not published a reopening date. MDHA says openings are announced in advance on its website and on its social media pages (@NashvilleMDHA). What it does open regularly are waiting lists for individual apartment communities, so check nashville-mdha.org/apply-for-housing rather than assuming there is nothing to apply for."
+      "a": "No. As of November 18, 2026 MDHA states that it \"is not currently accepting applications for our voucher program waiting lists,\" and it has not published a reopening date. MDHA says openings are announced in advance on its website and on its social media pages (@NashvilleMDHA). What it does open regularly are waiting lists for individual apartment communities, so check nashville-mdha.org/apply-for-housing rather than assuming there is nothing to apply for."
     },
     {
       "q": "MDHA says its lists are closed, so is there anything I can apply for?",
@@ -127,8 +127,8 @@
   "es": {
     "serves": "Nashville y el condado de Davidson, Tennessee",
     "meta_title": "MDHA Nashville: ¿lista de espera abierta? (nov. 2026)",
-    "meta_description": "Listas de MDHA (verificado el 25 de agosto de 2026): Sección 8 y vivienda asequible de toda la agencia cerradas; algunas propiedades abren por poco tiempo.",
-    "updated": "25 de agosto de 2026",
+    "meta_description": "Listas de MDHA (verificado el 18 de noviembre de 2026): Sección 8 y vivienda asequible de toda la agencia cerradas; algunas propiedades abren por poco tiempo.",
+    "updated": "18 de noviembre de 2026",
     "intro": "La Metropolitan Development and Housing Agency (MDHA) es la autoridad de vivienda de Nashville y el condado de Davidson, Tennessee. Fue creada en 1938 como la Nashville Housing Authority y adoptó su nombre actual en 1973; hoy da vivienda a unas 30,000 personas mediante unos 8,000 vales de la Sección 8 y más de 6,700 apartamentos propios. Lo primero que encuentra la mayoría es que las listas principales de vales y de vivienda asequible de MDHA están cerradas. Eso es cierto, y también es solo la mitad de la historia: MDHA abre listas de espera de comunidades de apartamentos concretas varias veces al año, las anuncia con pocos días de anticipación y las cierra en aproximadamente una semana. Esta página cubre ambas cosas, además de cómo comunicarse con el departamento correcto y cómo mantener viva una solicitud ya presentada.",
     "programs": [
       "Housing Choice Voucher (Sección 8)",
@@ -145,12 +145,12 @@
       {
         "program": "Housing Choice Voucher (Sección 8)",
         "status": "Cerrada",
-        "note": "Cerrada (verificado el 25 de agosto de 2026). MDHA lo dice así: \"MDHA is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales). No hay fecha de reapertura publicada. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Si usted ya solicitó, MDHA indica que puede revisar su posición entrando a Rent Cafe con el mismo usuario con el que presentó la solicitud."
+        "note": "Cerrada (verificado el 18 de noviembre de 2026). MDHA lo dice así: \"MDHA is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales). No hay fecha de reapertura publicada. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Si usted ya solicitó, MDHA indica que puede revisar su posición entrando a Rent Cafe con el mismo usuario con el que presentó la solicitud."
       },
       {
         "program": "Listas de vivienda asequible de MDHA, a nivel de toda la agencia",
         "status": "Cerrada",
-        "note": "Cerrada (verificado el 25 de agosto de 2026): \"MDHA is not currently accepting applications for our affordable housing waiting lists\" (no acepta solicitudes para las listas de vivienda asequible). Esta es la lista general de la agencia, y no es lo mismo que las listas de cada propiedad que aparecen abajo."
+        "note": "Cerrada (verificado el 18 de noviembre de 2026): \"MDHA is not accepting applications for our affordable housing waiting lists at this time\" (no acepta solicitudes para las listas de vivienda asequible). Esta es la lista general de la agencia, y no es lo mismo que las listas de cada propiedad que aparecen abajo."
       },
       {
         "program": "Comunidades de apartamentos individuales, que abren de una en una",
@@ -168,7 +168,7 @@
     "faqs": [
       {
         "q": "¿Está abierta la lista de espera de la Sección 8 de Nashville?",
-        "a": "No. Al 25 de agosto de 2026, MDHA declara que \"is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales) y no ha publicado una fecha de reapertura. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Lo que sí abre con regularidad son las listas de comunidades de apartamentos individuales, así que revise nashville-mdha.org/apply-for-housing en lugar de suponer que no hay nada a lo cual solicitar."
+        "a": "No. Al 18 de noviembre de 2026, MDHA declara que \"is not currently accepting applications for our voucher program waiting lists\" (no acepta solicitudes para las listas del programa de vales) y no ha publicado una fecha de reapertura. MDHA dice que anuncia las aperturas por adelantado en su sitio web y en sus redes sociales (@NashvilleMDHA). Lo que sí abre con regularidad son las listas de comunidades de apartamentos individuales, así que revise nashville-mdha.org/apply-for-housing en lugar de suponer que no hay nada a lo cual solicitar."
       },
       {
         "q": "MDHA dice que sus listas están cerradas. ¿Hay algo a lo que pueda solicitar?",
