@@ -1,0 +1,209 @@
+{
+  "slug": "bakersfield-kern-ha",
+  "kind": "authority",
+  "name": "Housing Authority of the County of Kern",
+  "schema_name": "Housing Authority of the County of Kern",
+  "short_name": "Housing Authority of the County of Kern",
+  "title_name": "Kern County Housing Authority",
+  "meta_description": "Kern County Housing Authority: Section 8 and public housing lists closed; project-based lists open since May 1, 2026. (661) 631-8500. Checked Nov 25, 2026.",
+  "status_check_html": "If you are already on the Section 8 list, the Housing Authority says applicants \"are randomly selected from the waiting list and therefore we are unable to determine how long you will have to wait,\" and that you \"will be contacted by email when their application reaches near the top of the waiting list.\" Keep your email address current. If your family size or address changes while you wait, update your Section 8 or public housing application by logging in at the <a href=\"https://www.kernhousing.com/\" target=\"_blank\" rel=\"noopener\">applicant portal</a>; for help, call <a href=\"tel:+16616318500\">(661) 631-8500</a>.",
+  "city": "Bakersfield",
+  "state": "CA",
+  "serves": "Bakersfield and all of Kern County",
+  "phone": "(661) 631-8500",
+  "official_url": "https://kernha.org/",
+  "apply_url": "https://www.kernhousing.com/",
+  "city_slug": "bakersfield",
+  "state_slug": "california",
+  "updated": "November 25, 2026",
+  "intro": "The Housing Authority of the County of Kern is an independent local government agency that runs Section 8 Housing Choice Vouchers, project-based vouchers, public housing (now converted to HUD's RAD program), farmworker housing and housing for people who are homeless across Kern County, including Bakersfield. It says it meets the housing needs of nearly 20,000 low-income Kern County residents and is a Moving to Work agency. Its central office is at 601 24th Street, Bakersfield, CA 93301, phone (661) 631-8500. The short version today: the Section 8 list is closed and the public housing list is closed, but the project-based voucher lists have been open since May 1, 2026, and you apply for each apartment complex separately at kernhousing.com. Some Housing Authority properties also list units ready to move in. This page covers the Housing Authority's exact words, each list, the phone numbers, and where to turn if you need rent help now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): the waiting list is closed. The subsidy is the difference between 30% of the tenant's income and the Kern County payment standard or the gross rent, whichever is lower. Payment standards effective July 1, 2026 run from $1,132 for a studio to $2,861 for five bedrooms",
+    "Project-Based Vouchers (PBV): income-based assistance tied to specific apartments in Bakersfield, Delano, Arvin and McFarland; you lose it if you move out. The lists are open, one complex at a time",
+    "Public housing: rent is 30% of monthly adjusted income or a ceiling rent, whichever is less, with a $50 minimum. The old list moved to site-based RAD waiting lists, and applicants kept their original date and time",
+    "Affordable and senior housing managed by the Housing Authority, such as Pinewood Glen Retirement Community (55+), Westchester Senior Village and Park Place Senior Apartments (62+), with move-in-ready units listed on its Available Housing page",
+    "Farmworker housing year round, and Migrant Farm Labor Centers open about six months a year for seasonal farm workers whose permanent home is at least 50 miles away",
+    "Housing for people who are homeless, such as 6th Street Apartments and 889 Oak Street, reached through 2-1-1, and Building Blocks transitional housing for former foster youth ages 18 to 21"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Closed",
+      "note": "Checked November 25, 2026: the Housing Authority's Housing Choice Voucher page says \"The Section 8 Waiting List is closed and applications are not available for this program.\" No reopening date is posted. Its Wait List Information page says applicants \"are randomly selected from the waiting list\" and are contacted by email."
+    },
+    {
+      "program": "Project-Based Voucher (PBV) lists",
+      "status": "Open",
+      "note": "The Housing Authority's PBV page says \"The waiting list for the Project-Based Voucher (PBV) Program is now open as of May 1, 2026, at 10:00 AM (PST). Applications are being accepted online.\" It says \"Applicants will need to apply for each location individually during the time frame that the waiting list is open,\" and posts no closing date. Listed sites include 4th Street Senior Apartments, 22nd Street Lofts, Adelante Vista, Benton Park Cottages, Park Place Senior Apartments, Park Real Apartments, Pioneer Cottages, Residences at Old Town Kern, Residences at West Columbus, Rio Vista, South Baker Apartments, Village Park Senior Apartments and Villa San Dimas in Bakersfield, and sites in Delano, Arvin and McFarland. You need Social Security numbers and dates of birth for everyone, a phone number and an email address (checked November 25, 2026)."
+    },
+    {
+      "program": "Low Income Public Housing (LIPH)",
+      "status": "Closed",
+      "note": "The Housing Authority's public housing page says \"The waiting list for the Low-Income Public Housing (LIPH) program is currently closed, and applications are not being accepted at this time.\" Its Wait List Information page says the public housing list \"transitioned to the RAD program waiting lists\" and that applicants \"did not lose their position\" (checked November 25, 2026)."
+    }
+  ],
+  "also_serving": [
+    "<strong>The Housing Authority is not an emergency rent fund.</strong> If you are behind on rent inside Bakersfield city limits, call The Open Door Network Housing Department at 661-716-1020 or dial 2-1-1 about the City's Rental Assistance Program, and see our <a href=\"../guides/emergency-rent-help-bakersfield\">Bakersfield emergency rent help guide</a> for CalWORKs help, Greater Bakersfield Legal Assistance, CAPK utility help and California's eviction deadlines.",
+    "<strong>Already have a voucher or Housing Authority housing and fell behind?</strong> Call the Housing Authority at (661) 631-8500 right away and call Greater Bakersfield Legal Assistance at (661) 325-5943. An eviction can cost you your assistance.",
+    "<strong>Disability accommodations and language help:</strong> the Housing Authority says you can request a reasonable accommodation for the online application at its office, 601 24th Street, or by calling 661-631-8500, during the whole application window. For free translation, call 661-631-8500 ext. 4101. Relay: TTY/Voice 1-800-855-7100, Spanish 1-800-855-7200.",
+    "<strong>Application kiosks:</strong> if you do not have a computer, the Housing Authority lists kiosks at its office (601 24th Street), the Kern County Child Support office (3701 N. Sillect Ave.) and the court building at 1215 Truxtun, Room 300."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Kern County Section 8 waiting list open?",
+      "a": "No. As of November 25, 2026, the Housing Authority of the County of Kern says its Section 8 waiting list is closed and applications are not available, and no reopening date is posted. Its project-based voucher lists are open, though: apply online for each apartment complex you want."
+    },
+    {
+      "q": "How do I apply for a project-based voucher in Bakersfield?",
+      "a": "Online at kernhousing.com. Choose Applicant Login, use the link to register, pick I want to Apply and I do not have a registration code, then fill in every page and submit. You get one email when the application is received and another when it is approved or rejected. Apply separately for each complex."
+    },
+    {
+      "q": "Is the Kern public housing list open?",
+      "a": "No. The Housing Authority says the Low-Income Public Housing waiting list is currently closed. The old public housing list moved to site-based lists under HUD's RAD program, and people already on it kept their original date and time."
+    },
+    {
+      "q": "How long is the wait for Section 8 in Kern County?",
+      "a": "The Housing Authority does not give an estimate. It says applicants are randomly selected from the waiting list, so it cannot say how long you will wait, and it contacts people by email when they near the top. Keep your email and address current in the applicant portal."
+    },
+    {
+      "q": "What does a Kern Section 8 voucher pay?",
+      "a": "The Housing Authority pays the difference between 30% of your income and the payment standard or the gross rent, whichever is lower. Payment standards effective July 1, 2026 are $1,132 for a studio, $1,140 for one bedroom, $1,483 for two, $2,062 for three, $2,488 for four and $2,861 for five."
+    },
+    {
+      "q": "Can a Bakersfield landlord refuse my voucher?",
+      "a": "Not because it is a voucher. California Government Code 12955 bans housing discrimination based on source of income, and it names Section 8 vouchers and HUD-VASH vouchers. If a landlord turns you away for that reason, file a complaint with the California Civil Rights Department."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Housing Authority of the County of Kern - Housing Choice Voucher (list closed, subsidy, payment standards effective July 1, 2026)",
+      "url": "https://kernha.org/housing-choice-voucher/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Project Based Voucher Program (lists open since May 1, 2026; how to apply; sites; kiosks; accommodations)",
+      "url": "https://kernha.org/project-based-voucher-pbv-program/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Low Income Public Housing (list closed)",
+      "url": "https://kernha.org/low-income-public-housing/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Wait List Information (random selection, email contact, RAD transition)",
+      "url": "https://kernha.org/waiting-list-information/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Available Housing and Senior Housing",
+      "url": "https://kernha.org/available-housing/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Agency Overview (nearly 20,000 residents served) and home page (address, phone)",
+      "url": "https://kernha.org/agency-overview/"
+    },
+    {
+      "label": "Housing Authority of the County of Kern - Applicant portal",
+      "url": "https://www.kernhousing.com/"
+    },
+    {
+      "label": "California Government Code 12955 (source of income includes Section 8 and HUD-VASH vouchers)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955"
+    }
+  ],
+  "es": {
+    "meta_description": "Autoridad de vivienda de Kern (Bakersfield): Sección 8 cerrada; vales por proyecto abiertos desde el 1/5/2026. (661) 631-8500. Revisado 25/11/2026.",
+    "status_check_html": "Si ya está en la lista de Sección 8, la autoridad dice que los solicitantes se eligen al azar de la lista, así que no puede saber cuánto tendrá que esperar, y que le escribirá por correo electrónico cuando su solicitud esté cerca del primer lugar. Mantenga su correo electrónico al día. Si cambia el tamaño de su familia o su dirección mientras espera, actualice su solicitud de Sección 8 o de vivienda pública entrando al <a href=\"https://www.kernhousing.com/\" target=\"_blank\" rel=\"noopener\">portal de solicitantes</a>; para ayuda, llame al <a href=\"tel:+16616318500\">(661) 631-8500</a>.",
+    "serves": "Bakersfield y todo el condado de Kern",
+    "updated": "25 de noviembre de 2026",
+    "intro": "La Housing Authority of the County of Kern es una agencia de gobierno local independiente que administra los vales de Sección 8 (Housing Choice Voucher), los vales por proyecto, la vivienda pública (ahora convertida al programa RAD de HUD), vivienda para trabajadores agrícolas y vivienda para personas sin hogar en todo el condado de Kern, incluida Bakersfield. Dice que atiende las necesidades de vivienda de casi 20,000 residentes de bajos ingresos del condado de Kern y es una agencia Moving to Work. Su oficina central está en 601 24th Street, Bakersfield, CA 93301, teléfono (661) 631-8500. Lo principal hoy: la lista de Sección 8 está cerrada y la de vivienda pública también, pero las listas de vales por proyecto están abiertas desde el 1 de mayo de 2026, y se solicita por separado para cada complejo de apartamentos en kernhousing.com. Algunas propiedades de la autoridad también anuncian unidades listas para mudarse. Esta página reúne las palabras exactas de la autoridad, cada lista, los teléfonos y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher): la lista de espera está cerrada. La ayuda es la diferencia entre el 30% del ingreso del inquilino y el estándar de pago del condado de Kern o la renta bruta, lo que sea menor. Los estándares de pago vigentes desde el 1 de julio de 2026 van de $1,132 por un estudio a $2,861 por cinco recámaras",
+      "Vales por proyecto (PBV): ayuda según ingresos ligada a apartamentos específicos en Bakersfield, Delano, Arvin y McFarland; se pierde si se muda. Las listas están abiertas, un complejo a la vez",
+      "Vivienda pública: la renta es el 30% del ingreso mensual ajustado o una renta máxima, lo que sea menor, con un mínimo de $50. La antigua lista pasó a listas por sitio del programa RAD, y los solicitantes conservaron su fecha y hora originales",
+      "Vivienda asequible y para mayores que administra la autoridad, como Pinewood Glen Retirement Community (55 años o más), Westchester Senior Village y Park Place Senior Apartments (62 años o más), con unidades listas para mudarse en su página de Available Housing",
+      "Vivienda para trabajadores agrícolas todo el año, y Migrant Farm Labor Centers abiertos unos seis meses al año para trabajadores agrícolas de temporada cuyo hogar permanente está al menos a 50 millas",
+      "Vivienda para personas sin hogar, como 6th Street Apartments y 889 Oak Street, a la que se llega por el 2-1-1, y Building Blocks, vivienda de transición para jóvenes que salieron del sistema de crianza temporal, de 18 a 21 años"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Cerrada",
+        "note": "Verificado el 25 de noviembre de 2026: la página de vales de la autoridad dice \"The Section 8 Waiting List is closed and applications are not available for this program\" (la lista de espera de Sección 8 está cerrada y no hay solicitudes disponibles para este programa). No hay fecha de reapertura publicada. Su página de información sobre listas dice que los solicitantes se eligen al azar y reciben aviso por correo electrónico."
+      },
+      {
+        "program": "Listas de vales por proyecto (PBV)",
+        "status": "Abierta",
+        "note": "La página de PBV de la autoridad dice \"The waiting list for the Project-Based Voucher (PBV) Program is now open as of May 1, 2026, at 10:00 AM (PST). Applications are being accepted online\" (la lista de espera del programa de vales por proyecto está abierta desde el 1 de mayo de 2026 a las 10:00 a.m. y se aceptan solicitudes en línea). Dice que hay que solicitar por separado para cada lugar mientras la lista esté abierta, y no publica fecha de cierre. Entre los sitios están 4th Street Senior Apartments, 22nd Street Lofts, Adelante Vista, Benton Park Cottages, Park Place Senior Apartments, Park Real Apartments, Pioneer Cottages, Residences at Old Town Kern, Residences at West Columbus, Rio Vista, South Baker Apartments, Village Park Senior Apartments y Villa San Dimas en Bakersfield, y sitios en Delano, Arvin y McFarland. Necesita los números de Seguro Social y las fechas de nacimiento de todos, un teléfono y un correo electrónico (verificado el 25 de noviembre de 2026)."
+      },
+      {
+        "program": "Vivienda pública (LIPH)",
+        "status": "Cerrada",
+        "note": "La página de vivienda pública de la autoridad dice \"The waiting list for the Low-Income Public Housing (LIPH) program is currently closed, and applications are not being accepted at this time\" (la lista de espera de vivienda pública está cerrada y no se aceptan solicitudes por ahora). Su página de información sobre listas dice que la lista de vivienda pública pasó a las listas del programa RAD y que los solicitantes no perdieron su lugar (verificado el 25 de noviembre de 2026)."
+      }
+    ],
+    "also_serving": [
+      "<strong>La autoridad no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta dentro de la ciudad de Bakersfield, llame al Departamento de Vivienda de The Open Door Network al 661-716-1020 o marque el 2-1-1 para el programa de ayuda con la renta de la Ciudad, y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-bakersfield\">guía de ayuda con la renta en Bakersfield</a> para la ayuda de CalWORKs, Greater Bakersfield Legal Assistance, la ayuda con los servicios de CAPK y los plazos de desalojo de California.",
+      "<strong>¿Ya tiene un vale o vivienda de la autoridad y se atrasó?</strong> Llame enseguida a la autoridad al (661) 631-8500 y a Greater Bakersfield Legal Assistance al (661) 325-5943. Un desalojo le puede costar su asistencia.",
+      "<strong>Acomodos por discapacidad y ayuda con el idioma:</strong> la autoridad dice que puede pedir un acomodo razonable para la solicitud en línea en su oficina, 601 24th Street, o llamando al 661-631-8500, durante todo el periodo de solicitud. Para traducción gratis, llame al 661-631-8500 ext. 4101. Servicio de relevo: TTY/voz 1-800-855-7100, en español 1-800-855-7200.",
+      "<strong>Quioscos para solicitar:</strong> si no tiene computadora, la autoridad anuncia quioscos en su oficina (601 24th Street), en la oficina de Child Support del condado de Kern (3701 N. Sillect Ave.) y en el edificio de la corte en 1215 Truxtun, sala 300."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de Sección 8 del condado de Kern?",
+        "a": "No. Al 25 de noviembre de 2026, la Housing Authority of the County of Kern dice que su lista de espera de Sección 8 está cerrada y no hay solicitudes disponibles, y no hay fecha de reapertura publicada. Pero sus listas de vales por proyecto sí están abiertas: solicite en línea para cada complejo de apartamentos que le interese."
+      },
+      {
+        "q": "¿Cómo solicito un vale por proyecto en Bakersfield?",
+        "a": "En línea en kernhousing.com. Elija Applicant Login, use el enlace para registrarse, escoja I want to Apply y I do not have a registration code, y luego llene todas las páginas y envíe. Recibirá un correo cuando llegue su solicitud y otro cuando la aprueben o la rechacen. Solicite por separado para cada complejo."
+      },
+      {
+        "q": "¿Está abierta la lista de vivienda pública de Kern?",
+        "a": "No. La autoridad dice que la lista de espera de vivienda pública está cerrada por ahora. La antigua lista pasó a listas por sitio del programa RAD de HUD, y quienes ya estaban en ella conservaron su fecha y hora originales."
+      },
+      {
+        "q": "¿Cuánto hay que esperar para Sección 8 en el condado de Kern?",
+        "a": "La autoridad no da un estimado. Dice que los solicitantes se eligen al azar de la lista, así que no puede decir cuánto esperará, y que avisa por correo electrónico cuando la persona se acerca al primer lugar. Mantenga su correo y su dirección al día en el portal de solicitantes."
+      },
+      {
+        "q": "¿Cuánto paga un vale de Sección 8 en Kern?",
+        "a": "La autoridad paga la diferencia entre el 30% de su ingreso y el estándar de pago o la renta bruta, lo que sea menor. Los estándares de pago vigentes desde el 1 de julio de 2026 son $1,132 por un estudio, $1,140 por una recámara, $1,483 por dos, $2,062 por tres, $2,488 por cuatro y $2,861 por cinco."
+      },
+      {
+        "q": "¿Puede un arrendador de Bakersfield rechazar mi vale?",
+        "a": "No por ser un vale. El Código de Gobierno de California, sección 12955, prohíbe la discriminación en la vivienda por la fuente de ingresos y menciona los vales de Sección 8 y de HUD-VASH. Si un arrendador le rechaza por esa razón, presente una queja ante el Departamento de Derechos Civiles de California."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Housing Authority of the County of Kern - Housing Choice Voucher (lista cerrada, ayuda, estándares de pago desde el 1 de julio de 2026), en inglés",
+        "url": "https://kernha.org/housing-choice-voucher/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Project Based Voucher Program (listas abiertas desde el 1 de mayo de 2026; cómo solicitar; sitios; quioscos; acomodos), en inglés",
+        "url": "https://kernha.org/project-based-voucher-pbv-program/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Low Income Public Housing (lista cerrada), en inglés",
+        "url": "https://kernha.org/low-income-public-housing/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Wait List Information (selección al azar, aviso por correo electrónico, cambio a RAD), en inglés",
+        "url": "https://kernha.org/waiting-list-information/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Available Housing y Senior Housing, en inglés",
+        "url": "https://kernha.org/available-housing/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Agency Overview (casi 20,000 residentes) y página principal (dirección, teléfono), en inglés",
+        "url": "https://kernha.org/agency-overview/"
+      },
+      {
+        "label": "Housing Authority of the County of Kern - Portal de solicitantes, en inglés",
+        "url": "https://www.kernhousing.com/"
+      },
+      {
+        "label": "Código de Gobierno de California 12955 (la fuente de ingresos incluye los vales de Sección 8 y HUD-VASH), en inglés",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955"
+      }
+    ]
+  }
+}
