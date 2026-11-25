@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://waythroughproject.com/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -141,7 +141,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -165,7 +165,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/donde-empezar</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -267,7 +267,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -662,6 +662,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/cities/bakersfield</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/cities/wichita</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/community-answers</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -939,7 +951,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/how-to-find-your-pha</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1113,7 +1125,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/guides/free-legal-help-for-tenants</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1462,6 +1474,18 @@
   <url>
     <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-newark</loc>
     <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-bakersfield</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/guides/emergency-rent-help-wichita</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1874,8 +1898,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/bakersfield-kern-ha</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/resources/housing-authorities/wichita-wha</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/resources/cities/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1911,7 +1947,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/california</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1983,7 +2019,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/states/kansas</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2301,7 +2337,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/resources/where-to-start</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3033,6 +3069,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://waythroughproject.com/es/recursos/ciudades/bakersfield</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/ciudades/wichita</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://waythroughproject.com/es/recursos/credito-vivienda</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -3046,7 +3094,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/ciudades/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3082,7 +3130,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/california</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3154,7 +3202,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/estados/kansas</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3466,7 +3514,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/como-encontrar-tu-pha</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3730,7 +3778,7 @@
   </url>
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/ayuda-legal-gratuita-inquilinos</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4079,6 +4127,18 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-newark</loc>
     <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-bakersfield</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/guias/asistencia-renta-emergencia-wichita</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4797,6 +4857,18 @@
   <url>
     <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/newark-nha</loc>
     <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/bakersfield-kern-ha</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://waythroughproject.com/es/recursos/autoridades-de-vivienda/wichita-wha</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
