@@ -5,13 +5,24 @@
     <link>https://waythroughproject.com/blog/</link>
     <description>Practical guidance for navigating affordable housing programs, tenant rights, and the barriers that stand in the way.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://waythroughproject.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://waythroughproject.com/images/og-default.png</url>
       <title>Waythrough Project Blog</title>
       <link>https://waythroughproject.com/blog/</link>
     </image>
+
+    <item>
+      <title>Can You Use Section 8 for Assisted Living or Senior Housing?</title>
+      <link>https://waythroughproject.com/blog/posts/section-8-and-assisted-living</link>
+      <guid isPermaLink="true">https://waythroughproject.com/blog/posts/section-8-and-assisted-living</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Section 8 can pay rent in senior apartments, but not in nursing homes, and only the rent part of assisted living. See what is allowed and other options.</description>
+      <author>matt@waythroughproject.com (Matt)</author>
+    </item>
+
+
 
     <item>
       <title>Is Section 8 Taxable? What Voucher Holders Need to Know at Tax Time</title>
