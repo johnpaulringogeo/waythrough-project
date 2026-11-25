@@ -1,0 +1,207 @@
+{
+  "slug": "wichita-wha",
+  "kind": "authority",
+  "name": "Wichita Housing Authority (WHA)",
+  "schema_name": "Wichita Housing Authority",
+  "short_name": "WHA",
+  "title_name": "Wichita Housing Authority",
+  "meta_description": "Wichita Housing Authority: Section 8 list open for online pre-applications; 5- and 6-bedroom PBV list open. Phone 316-462-3700. Checked Nov 25, 2026.",
+  "status_check_html": "If you have already applied, WHA says it will notify you <strong>by mail</strong> when your name comes to the top of the list or when it updates its files, and that if you do not respond or your letter comes back undeliverable, \"your name will be removed from the waiting list.\" Report any change of address, phone number, income or family size within 10 business days. WHA says \"ALL CHANGES MUST BE IN WRITING. No changes will be taken over the phone,\" and asks you to put your Social Security number on any letter. You can update your application on WHA's <a href=\"https://wichita.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">online portal</a>; for help, call <a href=\"tel:+13164623700\">316-462-3700</a>.",
+  "city": "Wichita",
+  "state": "KS",
+  "serves": "Sedgwick, Butler and Harvey Counties (except the City of Newton)",
+  "phone": "316-462-3700",
+  "official_url": "https://www.wichita.gov/428/Housing-Choice-Voucher-Formerly-Section-",
+  "apply_url": "https://wichita.myhousing.com/",
+  "city_slug": "wichita",
+  "state_slug": "kansas",
+  "updated": "November 25, 2026",
+  "intro": "The Wichita Housing Authority (WHA) is part of the City of Wichita's Housing & Community Services department. It runs Section 8 Housing Choice Vouchers, project-based vouchers and public housing, and it says it serves Sedgwick, Harvey (except the City of Newton) and Butler Counties. Its office is at 455 N. Main, 10th Floor, Wichita, KS 67202; the main line is 316-462-3700, Monday through Friday, 8 a.m. to 5 p.m., and the City says only people with appointments are seen by Housing staff. WHA says it administers over 3,000 vouchers and that participants pay about 30% of their adjusted income toward rent. The short version today: the Section 8 list is open, and the City says preliminary applications are being accepted online. The project-based voucher list for families who need 5 or 6 bedrooms is also open. WHA's portal shows no open public housing list. This page covers WHA's exact words, each list, the phone numbers, and where to turn if you need rent help now.",
+  "programs": [
+    "Housing Choice Voucher (Section 8): the waiting list is open for online pre-applications. WHA says participants pay about 30% of their adjusted income to the landlord and WHA pays the rest",
+    "Project-based vouchers: rental assistance tied to 18 single-family homes with 4 to 6 bedrooms in South City, Northeast and Southwest Wichita. The list for families who qualify for a 5- or 6-bedroom voucher is open",
+    "Public housing: WHA says it has 578 units (352 single-family houses and 226 apartments) and charges no more than 30% of adjusted income or a flat rent. The City is selling the single-family homes in groups approved by HUD",
+    "Family Self-Sufficiency (FSS) for voucher holders, and protections under the Violence Against Women Act (VAWA)",
+    "Small Area Fair Market Rents: WHA says changes are coming to its payment standards and to the Request for Tenancy Approval process, and posts an affordability calculator by ZIP code"
+  ],
+  "waitlists": [
+    {
+      "program": "Housing Choice Voucher (Section 8)",
+      "status": "Open",
+      "note": "Checked November 25, 2026: the City's How to Apply page says \"Preliminary applications are being accepted online.\" WHA's applicant portal lists \"Housing Choice Voucher (Section 8)\" under \"Open Waiting List(s)\" with \"Start: 07/22/2020 09:00 AM\" and no end date. The portal says applications \"can be received online anytime during the wait list period\" and that applying does not guarantee a place on any list. Submit only one application; WHA says duplicates will not be accepted. Apply at wichita.myhousing.com."
+    },
+    {
+      "program": "AHF Project-Based Voucher list (5 or 6 bedrooms)",
+      "status": "Open",
+      "note": "WHA's public notice says that on May 15, 2025 it opened the Project Based Voucher waiting list for Sedgwick, Butler and Harvey County (except the city of Newton), that \"This list is only available for families who will qualify for a 5 or 6-bedroom voucher,\" and that it \"will remain open indefinitely.\" The portal lists \"Affordable Housing Fund\" with \"Start: 05/15/2025 07:00 AM.\" Applications that are mailed, faxed, emailed or hand delivered are not processed. People already on the regular list who qualify can log in and update their application to add this list (checked November 25, 2026)."
+    },
+    {
+      "program": "Public housing",
+      "status": "Not posted",
+      "note": "WHA's applicant portal does not show a public housing list among its open waiting lists (checked November 25, 2026). The City's Public Housing page says WHA is \"beginning to reposition 352 single family units in its holdings\" and is selling homes approved for sale by HUD. Call 316-462-3700 to ask whether any public housing list is taking names."
+    }
+  ],
+  "also_serving": [
+    "<strong>WHA is not an emergency rent fund.</strong> If you are behind on rent in the Wichita area, call the Center of Hope at 316-267-0222 (9 a.m. to noon, weekdays), and see our <a href=\"../guides/emergency-rent-help-wichita\">Wichita emergency rent help guide</a> for Kansas Legal Services, the court's Eviction Resolution Program, 211, LIEAP and Kansas's eviction deadlines.",
+    "<strong>Already have a WHA voucher or public housing and fell behind?</strong> Call WHA at 316-462-3700 right away and call Kansas Legal Services at 316-267-3975. An eviction can cost you your assistance.",
+    "<strong>Help applying or an interpreter:</strong> WHA asks people who need help with an application to call Housing and Community Services at 316-462-3721 at least 5 business days ahead, and says the same number arranges oral interpretation (\"Si requiere una interpretacion oral... por favor llame al (316) 462-3721\"). Requests for a disability accommodation must be made in writing to the WHA office.",
+    "<strong>If you live outside Sedgwick, Butler or Harvey County, or in Newton,</strong> a different housing authority serves you. Use HUD's <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">PHA directory</a> to find it."
+  ],
+  "faqs": [
+    {
+      "q": "Is the Wichita Section 8 waiting list open?",
+      "a": "Yes. On November 25, 2026, the City of Wichita said preliminary applications are being accepted online, and WHA's portal listed the Housing Choice Voucher (Section 8) list as open, with a start date of July 22, 2020 and no end date. Apply once at wichita.myhousing.com."
+    },
+    {
+      "q": "Is the 5- and 6-bedroom project-based list open?",
+      "a": "Yes. WHA opened its project-based voucher list for families who qualify for a 5- or 6-bedroom voucher on May 15, 2025, and says it will remain open indefinitely. Apply online only; mailed, faxed, emailed or hand-delivered applications are not processed. If you are already on the regular list, log in and update your application to add it."
+    },
+    {
+      "q": "How do I apply to the Wichita Housing Authority?",
+      "a": "Online at wichita.myhousing.com, in English or Spanish. Have Social Security cards, names and dates of birth for everyone in the household, and everyone's income ready, and write down your confirmation number. Submit only one application. For help, call 316-462-3721 at least 5 business days ahead."
+    },
+    {
+      "q": "How do I keep my place on a WHA list?",
+      "a": "WHA notifies applicants by mail when their name comes to the top. If you do not respond, or the letter comes back undeliverable, WHA removes your name. Report a change of address, phone, income or family size within 10 business days, in writing; WHA takes no changes over the phone."
+    },
+    {
+      "q": "Who can WHA serve?",
+      "a": "WHA says it serves Sedgwick, Harvey (except the City of Newton) and Butler Counties. The head of household must be at least 18 or an emancipated minor, income must be under HUD's limits, and all adults must pass a criminal background check. Anyone who owes money to WHA or another housing authority must pay it in full before getting assistance."
+    },
+    {
+      "q": "Can a Wichita landlord refuse my voucher?",
+      "a": "Yes. Neither Kansas law nor Wichita's Non-Discrimination Ordinance lists source of income as protected, and Senate Bill 391 (2026) bars Kansas cities and counties from making landlords accept vouchers, so a landlord can turn down a voucher. A landlord still cannot refuse you because of race, disability, family status or another protected trait; Wichita's ordinance also covers sexual orientation, gender identity, age and veteran status."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Wichita - Housing Choice Voucher (counties served, rent share, over 3,000 vouchers, office hours, SAFMR changes)",
+      "url": "https://www.wichita.gov/428/Housing-Choice-Voucher-Formerly-Section-"
+    },
+    {
+      "label": "City of Wichita - How to Apply (preliminary applications accepted online)",
+      "url": "https://www.wichita.gov/1803/How-to-Apply"
+    },
+    {
+      "label": "WHA - Applicant portal (open waiting lists and start dates, eligibility, changes in writing)",
+      "url": "https://wichita.myhousing.com/"
+    },
+    {
+      "label": "City of Wichita - Project Based Voucher (5- and 6-bedroom list open since May 15, 2025; properties)",
+      "url": "https://www.wichita.gov/1760/Project-Based-Voucher"
+    },
+    {
+      "label": "City of Wichita - Public Housing (578 units, sale of single-family homes, 2026 income limits)",
+      "url": "https://www.wichita.gov/446/Public-Housing"
+    },
+    {
+      "label": "City of Wichita - Housing & Community Services (address, hours, appointments, drop box)",
+      "url": "https://www.wichita.gov/263/Housing-Community-Services"
+    },
+    {
+      "label": "City of Wichita - Renters (forms, email, FSS and VAWA)",
+      "url": "https://www.wichita.gov/425/Renters"
+    },
+    {
+      "label": "City of Wichita - Non-Discrimination Ordinance 51-654",
+      "url": "https://www.wichita.gov/899/Non-Discrimination-Ordinance"
+    }
+  ],
+  "es": {
+    "meta_description": "Wichita Housing Authority: lista de Sección 8 abierta en línea; lista PBV de 5 y 6 recámaras abierta. Tel. 316-462-3700. Revisado 25/11/2026.",
+    "status_check_html": "Si ya presentó su solicitud, WHA dice que le avisará <strong>por correo</strong> cuando su nombre llegue al primer lugar de la lista o cuando actualice sus archivos, y que si usted no responde o la carta regresa sin entregarse, \"your name will be removed from the waiting list\" (su nombre se quitará de la lista). Informe cualquier cambio de dirección, teléfono, ingresos o tamaño de familia en un plazo de 10 días hábiles. WHA dice que todos los cambios deben ser por escrito y que no se aceptan cambios por teléfono, y pide que ponga su número de Seguro Social en cualquier carta. Puede actualizar su solicitud en el <a href=\"https://wichita.myhousing.com/Account/Login\" target=\"_blank\" rel=\"noopener\">portal en línea</a> de WHA; para ayuda, llame al <a href=\"tel:+13164623700\">316-462-3700</a>.",
+    "serves": "Los condados de Sedgwick, Butler y Harvey (excepto la ciudad de Newton)",
+    "updated": "25 de noviembre de 2026",
+    "intro": "La Wichita Housing Authority (WHA) es parte del departamento de Housing & Community Services de la Ciudad de Wichita. Administra los vales de Sección 8 (Housing Choice Voucher), los vales basados en proyectos y la vivienda pública, y dice que sirve a los condados de Sedgwick, Harvey (excepto la ciudad de Newton) y Butler. Su oficina está en 455 N. Main, piso 10, Wichita, KS 67202; la línea principal es el 316-462-3700, de lunes a viernes, de 8 a.m. a 5 p.m., y la Ciudad dice que el personal de vivienda solo atiende con cita. WHA dice que administra más de 3,000 vales y que los participantes pagan cerca del 30% de su ingreso ajustado de renta. Lo principal hoy: la lista de Sección 8 está abierta, y la Ciudad dice que acepta presolicitudes en línea. La lista de vales por proyecto para familias que necesitan 5 o 6 recámaras también está abierta. El portal de WHA no muestra ninguna lista de vivienda pública abierta. Esta página reúne las palabras exactas de WHA, cada lista, los teléfonos y adónde acudir si necesita ayuda con la renta ahora.",
+    "programs": [
+      "Vales de Sección 8 (Housing Choice Voucher): la lista de espera está abierta para presolicitudes en línea. WHA dice que los participantes pagan cerca del 30% de su ingreso ajustado al arrendador y WHA paga el resto",
+      "Vales basados en proyectos: ayuda con la renta ligada a 18 casas unifamiliares de 4 a 6 recámaras en South City, el noreste y el suroeste de Wichita. La lista para familias que califican para un vale de 5 o 6 recámaras está abierta",
+      "Vivienda pública: WHA dice que tiene 578 unidades (352 casas unifamiliares y 226 apartamentos) y cobra no más del 30% del ingreso ajustado o una renta fija. La Ciudad está vendiendo las casas unifamiliares en grupos aprobados por HUD",
+      "Autosuficiencia familiar (Family Self-Sufficiency, FSS) para quienes tienen vale, y protecciones de la Ley de Violencia contra la Mujer (VAWA)",
+      "Rentas justas por área pequeña: WHA dice que vienen cambios en sus estándares de pago y en el proceso de Request for Tenancy Approval, y publica una calculadora por código postal"
+    ],
+    "waitlists": [
+      {
+        "program": "Vales de Sección 8 (Housing Choice Voucher)",
+        "status": "Abierta",
+        "note": "Verificado el 25 de noviembre de 2026: la página de cómo solicitar de la Ciudad dice \"Preliminary applications are being accepted online\" (se aceptan presolicitudes en línea). El portal de solicitantes de WHA muestra \"Housing Choice Voucher (Section 8)\" entre sus \"Open Waiting List(s)\" (listas abiertas), con \"Start: 07/22/2020 09:00 AM\" (inicio: 22 de julio de 2020) y sin fecha de cierre. El portal dice que las solicitudes se reciben en línea en cualquier momento mientras la lista esté abierta y que solicitar no garantiza un lugar en ninguna lista. Presente una sola solicitud; WHA dice que no acepta duplicados. Solicite en wichita.myhousing.com."
+      },
+      {
+        "program": "Lista de vales por proyecto AHF (5 o 6 recámaras)",
+        "status": "Abierta",
+        "note": "El aviso público de WHA dice que el 15 de mayo de 2025 abrió la lista de espera de vales por proyecto para los condados de Sedgwick, Butler y Harvey (excepto la ciudad de Newton), que \"This list is only available for families who will qualify for a 5 or 6-bedroom voucher\" (esta lista es solo para familias que califiquen para un vale de 5 o 6 recámaras) y que \"will remain open indefinitely\" (seguirá abierta indefinidamente). El portal muestra \"Affordable Housing Fund\" con inicio el 15 de mayo de 2025. Las solicitudes enviadas por correo, fax o email, o entregadas en mano, no se procesan. Quienes ya están en la lista regular y califican pueden entrar al portal y actualizar su solicitud para sumarse (verificado el 25 de noviembre de 2026)."
+      },
+      {
+        "program": "Vivienda pública",
+        "status": "No publicada",
+        "note": "El portal de solicitantes de WHA no muestra ninguna lista de vivienda pública entre sus listas abiertas (verificado el 25 de noviembre de 2026). La página de vivienda pública de la Ciudad dice que WHA está empezando a reestructurar 352 casas unifamiliares y está vendiendo casas aprobadas para la venta por HUD. Llame al 316-462-3700 para preguntar si alguna lista de vivienda pública está recibiendo nombres."
+      }
+    ],
+    "also_serving": [
+      "<strong>WHA no es un fondo de renta de emergencia.</strong> Si está atrasado con la renta en el área de Wichita, llame a Center of Hope al 316-267-0222 (de 9 a.m. a mediodía, días hábiles), y vea nuestra <a href=\"../guias/asistencia-renta-emergencia-wichita\">guía de ayuda con la renta en Wichita</a> para Kansas Legal Services, el Eviction Resolution Program de la corte, el 211, LIEAP y los plazos de desalojo de Kansas.",
+      "<strong>¿Ya tiene un vale o vivienda pública de WHA y se atrasó?</strong> Llame enseguida a WHA al 316-462-3700 y a Kansas Legal Services al 316-267-3975. Un desalojo le puede costar su asistencia.",
+      "<strong>Ayuda para solicitar o un intérprete:</strong> WHA pide a quienes necesitan ayuda con una solicitud que llamen a Housing and Community Services al 316-462-3721 con al menos 5 días hábiles de anticipación, y dice en español: \"Si requiere una interpretacion oral en un idioma que no sea ingles, por favor llame al (316) 462-3721.\" Las solicitudes de acomodo por discapacidad deben hacerse por escrito a la oficina de WHA.",
+      "<strong>Si vive fuera de los condados de Sedgwick, Butler o Harvey, o en Newton,</strong> le sirve otra autoridad de vivienda. Use el <a href=\"https://www.hud.gov/contactus/public-housing-contacts\" target=\"_blank\" rel=\"noopener\">directorio de PHA de HUD</a> para encontrarla."
+    ],
+    "faqs": [
+      {
+        "q": "¿Está abierta la lista de Sección 8 en Wichita?",
+        "a": "Sí. El 25 de noviembre de 2026, la Ciudad de Wichita decía que acepta presolicitudes en línea, y el portal de WHA mostraba abierta la lista de vales de Sección 8, con fecha de inicio del 22 de julio de 2020 y sin fecha de cierre. Solicite una sola vez en wichita.myhousing.com."
+      },
+      {
+        "q": "¿Está abierta la lista de vales por proyecto de 5 y 6 recámaras?",
+        "a": "Sí. WHA abrió su lista de vales por proyecto para familias que califican para un vale de 5 o 6 recámaras el 15 de mayo de 2025, y dice que seguirá abierta indefinidamente. Solo se solicita en línea; no se procesan solicitudes enviadas por correo, fax o email, ni entregadas en mano. Si ya está en la lista regular, entre al portal y actualice su solicitud para sumarse."
+      },
+      {
+        "q": "¿Cómo solicito con la Wichita Housing Authority?",
+        "a": "En línea en wichita.myhousing.com, en inglés o en español. Tenga a mano las tarjetas de Seguro Social, los nombres y fechas de nacimiento de todos en el hogar y los ingresos de todos, y anote su número de confirmación. Presente una sola solicitud. Para ayuda, llame al 316-462-3721 con al menos 5 días hábiles de anticipación."
+      },
+      {
+        "q": "¿Cómo conservo mi lugar en una lista de WHA?",
+        "a": "WHA avisa por correo cuando el nombre llega al primer lugar. Si no responde, o la carta regresa sin entregarse, WHA quita su nombre. Informe un cambio de dirección, teléfono, ingresos o tamaño de familia en un plazo de 10 días hábiles, por escrito; WHA no acepta cambios por teléfono."
+      },
+      {
+        "q": "¿A quién puede servir WHA?",
+        "a": "WHA dice que sirve a los condados de Sedgwick, Harvey (excepto la ciudad de Newton) y Butler. El jefe de hogar debe tener al menos 18 años o ser un menor emancipado, los ingresos deben estar debajo de los límites de HUD y todos los adultos deben pasar una revisión de antecedentes penales. Quien le deba dinero a WHA o a otra autoridad de vivienda debe pagarlo completo antes de recibir asistencia."
+      },
+      {
+        "q": "¿Puede un arrendador de Wichita rechazar mi vale?",
+        "a": "Sí. Ni la ley de Kansas ni la Ordenanza de No Discriminación de Wichita protegen la fuente de ingresos, y la Senate Bill 391 (2026) prohíbe que las ciudades y condados de Kansas obliguen a los arrendadores a aceptar vales, así que un arrendador puede rechazar un vale. Pero no puede rechazarle por raza, discapacidad, situación familiar u otra característica protegida; la ordenanza de Wichita también cubre orientación sexual, identidad de género, edad y condición de veterano."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Ciudad de Wichita - Housing Choice Voucher (condados que sirve, parte de la renta, más de 3,000 vales, horario, cambios de SAFMR), en inglés",
+        "url": "https://www.wichita.gov/428/Housing-Choice-Voucher-Formerly-Section-"
+      },
+      {
+        "label": "Ciudad de Wichita - How to Apply (se aceptan presolicitudes en línea), en inglés",
+        "url": "https://www.wichita.gov/1803/How-to-Apply"
+      },
+      {
+        "label": "WHA - Portal de solicitantes (listas abiertas y fechas de inicio, requisitos, cambios por escrito), en inglés y español",
+        "url": "https://wichita.myhousing.com/"
+      },
+      {
+        "label": "Ciudad de Wichita - Project Based Voucher (lista de 5 y 6 recámaras abierta desde el 15 de mayo de 2025; propiedades), en inglés",
+        "url": "https://www.wichita.gov/1760/Project-Based-Voucher"
+      },
+      {
+        "label": "Ciudad de Wichita - Public Housing (578 unidades, venta de casas unifamiliares, límites de ingresos de 2026), en inglés",
+        "url": "https://www.wichita.gov/446/Public-Housing"
+      },
+      {
+        "label": "Ciudad de Wichita - Housing & Community Services (dirección, horario, citas, buzón), en inglés",
+        "url": "https://www.wichita.gov/263/Housing-Community-Services"
+      },
+      {
+        "label": "Ciudad de Wichita - Renters (formularios, correo, FSS y VAWA), en inglés",
+        "url": "https://www.wichita.gov/425/Renters"
+      },
+      {
+        "label": "Ciudad de Wichita - Ordenanza de No Discriminación 51-654, en inglés",
+        "url": "https://www.wichita.gov/899/Non-Discrimination-Ordinance"
+      }
+    ]
+  }
+}

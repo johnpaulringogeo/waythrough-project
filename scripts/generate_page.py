@@ -328,9 +328,12 @@ FAQ_LINK_TARGETS = {
     "huduser.gov/lihtc": "https://www.huduser.gov/lihtc/",  # fetched live 2026-11-18 in a browser; HUD's LIHTC Database Access page (lihtc.huduser.gov redirects here)
     "indyhousing.org": "https://www.indyhousing.org",
     "jacksonvilleevictiondiversion.org": "https://jacksonvilleevictiondiversion.org",
+    "kansaslegalservices.org": "https://www.kansaslegalservices.org",  # fetched live 2026-11-25 (Wichita); Kansas Legal Services, eviction page with 316-267-3975 and online application
     "kcba.org": "https://www.kcba.org",
     "kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants": "https://kcmo.gov/city-hall/housing/tenant-resources/assistance-providers-for-tenants",
     "keeppeoplehoused.org": "https://keeppeoplehoused.org",  # fetched live 2026-11-05 (Bay Area guides); BACS Keep People Housed portal, City of Oakland application
+    "kernha.org": "https://kernha.org",  # fetched live 2026-11-25 (Bakersfield); Housing Authority of the County of Kern, Section 8 and public housing lists closed, PBV list open
+    "kernhousing.com": "https://www.kernhousing.com",  # fetched live 2026-11-25 (Bakersfield); HACK applicant portal (RentCafe)
     "kshousingcorp.org": "https://kshousingcorp.org",
     "lablaw.org": "https://lablaw.org",  # fetched live 2026-11-12 (Lexington); Legal Aid of the Bluegrass, intake and online application
     "lacounty.gov/prevention": "https://lacounty.gov/prevention/",  # fetched live 2026-10-15 (SEO2); LA County's prevention program list
