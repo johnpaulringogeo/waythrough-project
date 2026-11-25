@@ -31,6 +31,11 @@
       "program": "Public Housing",
       "status": "Check the online portal",
       "note": "OCHA does not post a single public-housing status; individual properties open and close their own lists. Check the Rent Café portal for what is currently open."
+    },
+    {
+      "program": "Reding Senior Center and Reding Annex (public housing for seniors)",
+      "status": "Closed",
+      "note": "OCHA's public notice says the Public Housing waiting lists for Reding Senior Center and Reding Annex \"will be CLOSED effective November 1, 2026, until further notice.\" People already on either list keep their places, and OCHA says it will post a public notice before the lists reopen (checked November 25, 2026)."
     }
   ],
   "also_serving": [
@@ -65,6 +70,10 @@
       "url": "https://portal.ochanet.org"
     },
     {
+      "label": "OCHA: public notice, closure of the Reding Senior Center and Reding Annex waiting lists (November 1, 2026)",
+      "url": "https://www.ochanet.org/news_detail_T8_R34.php"
+    },
+    {
       "label": "HUD: Oklahoma PHA contact list",
       "url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA_Contact_Report_OK.pdf"
     }
@@ -90,6 +99,11 @@
         "program": "Vivienda pública",
         "status": "Revise el portal en línea",
         "note": "OCHA no publica un solo estado de vivienda pública; cada propiedad abre y cierra sus propias listas. Revise el portal Rent Café para ver lo que está abierto actualmente."
+      },
+      {
+        "program": "Reding Senior Center y Reding Annex (vivienda pública para personas mayores)",
+        "status": "Cerrada",
+        "note": "El aviso público de OCHA dice que las listas de espera de vivienda pública de Reding Senior Center y Reding Annex \"will be CLOSED effective November 1, 2026, until further notice\" (quedan cerradas a partir del 1 de noviembre de 2026, hasta nuevo aviso). Quienes ya están en alguna de las dos listas conservan su lugar, y OCHA dice que publicará un aviso antes de reabrirlas (verificado el 25 de noviembre de 2026)."
       }
     ],
     "also_serving": [
@@ -122,6 +136,10 @@
       {
         "label": "OCHA: portal para solicitantes",
         "url": "https://portal.ochanet.org"
+      },
+      {
+        "label": "OCHA: aviso público sobre el cierre de las listas de Reding Senior Center y Reding Annex (1 de noviembre de 2026), en inglés",
+        "url": "https://www.ochanet.org/news_detail_T8_R34.php"
       },
       {
         "label": "HUD: lista de contactos de agencias de vivienda pública de Oklahoma",
